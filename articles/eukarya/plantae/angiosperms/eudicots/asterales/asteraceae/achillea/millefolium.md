@@ -1,4 +1,4 @@
-# Achillea millefolium (yarrow) guide
+# yarrow (Achillea millefolium): A Botanical, Medicinal and Culinary Guide
 
 ![alt](/assets/images/achillea-millefolium.jpg "title")
 

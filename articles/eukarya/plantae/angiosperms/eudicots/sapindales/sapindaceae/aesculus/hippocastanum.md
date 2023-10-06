@@ -1,4 +1,4 @@
-# Aesculus hippocastanum (horse chestnut) guide
+# horse chestnut (Aesculus hippocastanum): A Botanical, Medicinal and Culinary Guide
 
 ![alt](/assets/images/aesculus-hippocastanum.jpg "title")
 

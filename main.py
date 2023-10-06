@@ -558,7 +558,10 @@ for item in data:
     pests = item['pests']
     diseases = item['diseases']
 
-    article += f'# {latin_name} ({most_common_name}) guide\n\n'
+    #######################################################################################################
+    # TITLE
+    #######################################################################################################
+    article += f'# {most_common_name} ({latin_name}): A Botanical, Medicinal and Culinary Guide\n\n'
 
     img_filename = latin_name.lower().replace(' ', '-') + '.jpg'
     img_filepath = img_resize(f'articles-images/{img_filename}')

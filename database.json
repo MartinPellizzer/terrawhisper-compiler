@@ -312,88 +312,28 @@
             "Tannins"
         ],
         "actions": [
-            {
-                "name": "Antispasmodic",
-                "desc": "it contains compounds that help relax and relieve muscle spasms and cramps"
-            },
-            {
-                "name": "Astringent",
-                "desc": "its astringent properties helps tighten and constrict tissues, making it useful for treating wounds and reducing bleeding"
-            },
-            {
-                "name": "Bitter Tonic",
-                "desc": "it's bitter in taste, which stimulates digestive processes, promotes appetite, and supports overall digestive health"
-            },
-            {
-                "name": "Increases Sweating",
-                "desc": "it induces sweating, making it beneficial for breaking fevers and helping the body eliminate toxins through sweating"
-            },
-            {
-                "name": "Lowers Blood Pressure",
-                "desc": "it has a mild hypotensive effect, potentially helping to reduce high blood pressure"
-            },
-            {
-                "name": "Reduces Fever",
-                "desc": "its diaphoretic action promotes sweating and cooling, aiding in reducing fever during illnesses"
-            },
-            {
-                "name": "Mild Diuretic and Urinary Antiseptic",
-                "desc": "it increases urine production, which helps flush out toxins and potentially reduce the risk of urinary tract infections due to its antiseptic properties"
-            },
-            {
-                "name": "Stops Internal Bleeding",
-                "desc": "its astringent properties helps stop internal bleeding by constricting blood vessels and promoting clot formation"
-            },
-            {
-                "name": "Promotes Menstruation",
-                "desc": "it stimulates uterine contractions and promote menstruation, making it useful for regulating the menstrual cycle"
-            },
-            {
-                "name": "Anti-inflammatory",
-                "desc": "it contains anti-inflammatory compounds that help reduce inflammation and alleviate related symptoms"
-            }
+            "Antispasmodic",
+            "Astringent",
+            "Bitter Tonic",
+            "Increases Sweating",
+            "Lowers Blood Pressure",
+            "Reduces Fever",
+            "Mild Diuretic and Urinary Antiseptic",
+            "Stops Internal Bleeding",
+            "Promotes Menstruation",
+            "Anti-inflammatory"
         ],
         "uses": [
-            {
-                "name": "Heals Wounds",
-                "desc": "Yarrow contains compounds that promote clotting and help wounds to heal faster"
-            },
-            {
-                "name": "Helps Regulate the Menstrual Cycle",
-                "desc": "Yarrow can help regulate menstrual cycles due to its potential hormonal effects"
-            },
-            {
-                "name": "Reduces Heavy Menstrual Bleeding",
-                "desc": "Yarrow's astringent properties can help reduce heavy menstrual bleeding"
-            },
-            {
-                "name": "Helps Colds and Flu",
-                "desc": "Yarrow has antimicrobial properties that can aid in fighting off infections and easing cold or flu symptoms"
-            },
-            {
-                "name": "Helps Weak Digestion and Colic",
-                "desc": "Yarrow can stimulate digestion and relieve symptoms of weak digestion and colic, potentially due to its bitter compounds"
-            },
-            {
-                "name": "Reduces Fever",
-                "desc": "Yarrow has fever-reducing properties and can help the body sweat out a fever, promoting recovery"
-            },
-            {
-                "name": "Helps Hay Fever",
-                "desc": "Yarrow's anti-inflammatory properties may help alleviate hay fever symptoms by reducing inflammation and allergic responses"
-            },
-            {
-                "name": "Lowers High Blood Pressure",
-                "desc": "Yarrow may help lower high blood pressure, possibly by relaxing blood vessels and improving circulation"
-            },
-            {
-                "name": "Improves Venous Circulation",
-                "desc": "Yarrow can support venous circulation, reducing the risk of venous insufficiency and related issues"
-            },
-            {
-                "name": "Tones Varicose Veins",
-                "desc": "Yarrow's ability to tone blood vessels can be beneficial for managing and reducing the appearance of varicose veins"
-            }
+            "Heals Wounds",
+            "Helps Regulate the Menstrual Cycle",
+            "Reduces Heavy Menstrual Bleeding",
+            "Helps Colds and Flu",
+            "Helps Weak Digestion and Colic",
+            "Reduces Fever",
+            "Helps Hay Fever",
+            "Lowers High Blood Pressure",
+            "Improves Venous Circulation",
+            "Tones Varicose Veins"
         ],
         "parts_used": [
             "Fresh aerial parts",
@@ -715,64 +655,22 @@
             "Mucilage"
         ],
         "actions": [
-            {
-                "name": "Carminative",
-                "desc": ""
-            },
-            {
-                "name": "Relieves muscle spasm",
-                "desc": ""
-            },
-            {
-                "name": "Antioxidant",
-                "desc": ""
-            },
-            {
-                "name": "Anti-inflammatory",
-                "desc": ""
-            },
-            {
-                "name": "Tonic",
-                "desc": ""
-            }
+            "Carminative",
+            "Relieves muscle spasm",
+            "Antioxidant",
+            "Anti-inflammatory",
+            "Tonic"
         ],
         "uses": [
-            {
-                "name": "Stimulate appetite",
-                "desc": ""
-            },
-            {
-                "name": "Aids digestion",
-                "desc": ""
-            },
-            {
-                "name": "Helps fevers, stomach cramps, and colic",
-                "desc": ""
-            },
-            {
-                "name": "Helps toothache",
-                "desc": ""
-            },
-            {
-                "name": "Helps congestion",
-                "desc": ""
-            },
-            {
-                "name": "Rejuvenate the brain and nervous system",
-                "desc": ""
-            },
-            {
-                "name": "Aids bloating, gas, colic, and poor digestive function",
-                "desc": ""
-            },
-            {
-                "name": "Relieves spasm of the intestines",
-                "desc": ""
-            },
-            {
-                "name": "Reduce stomach acidity",
-                "desc": ""
-            }
+            "Stimulate appetite",
+            "Aids digestion",
+            "Helps fevers, stomach cramps, and colic",
+            "Helps toothache",
+            "Helps congestion",
+            "Rejuvenate the brain and nervous system",
+            "Aids bloating, gas, colic, and poor digestive function",
+            "Relieves spasm of the intestines",
+            "Reduce stomach acidity"
         ],
         "parts_used": [
             "Dried rhizome ",
@@ -1046,56 +944,20 @@
             "Fixed oil (2-3%)"
         ],
         "actions": [
-            {
-                "name": "Venous tonic",
-                "desc": ""
-            },
-            {
-                "name": "Astringent",
-                "desc": ""
-            },
-            {
-                "name": "Anti-inflammatory",
-                "desc": ""
-            },
-            {
-                "name": "Antioxidant",
-                "desc": ""
-            },
-            {
-                "name": "Reduces fluid retention",
-                "desc": ""
-            }
+            "Venous tonic",
+            "Astringent",
+            "Anti-inflammatory",
+            "Antioxidant",
+            "Reduces fluid retention"
         ],
         "uses": [
-            {
-                "name": "Helps improve the tone of the vein walls",
-                "desc": ""
-            },
-            {
-                "name": "Reduces edema (fluid retention)",
-                "desc": ""
-            },
-            {
-                "name": "Increases the permeability of the capillaries",
-                "desc": ""
-            },
-            {
-                "name": "Helps leg ulcers, varicose veins, piles, and frostbite",
-                "desc": ""
-            },
-            {
-                "name": "Helps rheumatism",
-                "desc": ""
-            },
-            {
-                "name": "Treat chest complaints in horses",
-                "desc": ""
-            },
-            {
-                "name": "Useful for whooping cough",
-                "desc": ""
-            }
+            "Helps improve the tone of the vein walls",
+            "Reduces edema (fluid retention)",
+            "Increases the permeability of the capillaries",
+            "Helps leg ulcers, varicose veins, piles, and frostbite",
+            "Helps rheumatism",
+            "Treat chest complaints in horses",
+            "Useful for whooping cough"
         ],
         "parts_used": [
             "Fresh leaves",

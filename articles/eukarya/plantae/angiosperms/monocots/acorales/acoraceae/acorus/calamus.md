@@ -1,4 +1,4 @@
-# Acorus calamus (sweet flag) guide
+# sweet flag (Acorus calamus): A Botanical, Medicinal and Culinary Guide
 
 ![alt](/assets/images/acorus-calamus.jpg "title")
 
