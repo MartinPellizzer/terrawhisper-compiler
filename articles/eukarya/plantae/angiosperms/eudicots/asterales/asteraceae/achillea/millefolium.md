@@ -1,10 +1,10 @@
-# yarrow (Achillea millefolium): A Botanical, Medicinal and Culinary Guide
+# Yarrow (Achillea millefolium): A Botanical, Medicinal and Culinary Guide
 
 ![alt](/assets/images/achillea-millefolium.jpg "title")
 
-## What is Achillea millefolium and how is it classified?
+## What is the Botanical Classification of Yarrow?
 
-Achillea millefolium (or A. millefolium), commonly known as yarrow, is a plant that belong to the Asteraceae family.
+Yarrow (Achillea millefolium), is a plant that belong to the Asteraceae family.
 
 The following illustration shows you this classificaion visually.
 

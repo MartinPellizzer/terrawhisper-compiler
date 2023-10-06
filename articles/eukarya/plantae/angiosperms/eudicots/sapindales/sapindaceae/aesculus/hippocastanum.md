@@ -1,10 +1,10 @@
-# horse chestnut (Aesculus hippocastanum): A Botanical, Medicinal and Culinary Guide
+# Horse Chestnut (Aesculus hippocastanum): A Botanical, Medicinal and Culinary Guide
 
 ![alt](/assets/images/aesculus-hippocastanum.jpg "title")
 
-## What is Aesculus hippocastanum and how is it classified?
+## What is the Botanical Classification of Horse Chestnut?
 
-Aesculus hippocastanum (or A. hippocastanum), commonly known as horse chestnut, is a plant that belong to the Sapindaceae family.
+Horse Chestnut (Aesculus hippocastanum), is a plant that belong to the Sapindaceae family.
 
 The following illustration shows you this classificaion visually.
 

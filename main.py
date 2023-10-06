@@ -561,7 +561,7 @@ for item in data:
     #######################################################################################################
     # TITLE
     #######################################################################################################
-    article += f'# {most_common_name} ({latin_name}): A Botanical, Medicinal and Culinary Guide\n\n'
+    article += f'# {most_common_name.title()} ({latin_name}): A Botanical, Medicinal and Culinary Guide\n\n'
 
     img_filename = latin_name.lower().replace(' ', '-') + '.jpg'
     img_filepath = img_resize(f'articles-images/{img_filename}')
@@ -573,8 +573,8 @@ for item in data:
     # TAXONOMY/CLASSIFICATION
     #######################################################################################################
     # article += f'## What is the classification (taxonomy) of {most_common_name}?\n\n'
-    article += f'## What is {latin_name} and how is it classified?\n\n'
-    article += f'{latin_name} (or {latin_name_abb}), commonly known as {most_common_name}, is a plant that belong to the {family} family.\n\n'
+    article += f'## What is the Botanical Classification of {most_common_name.title()}?\n\n'
+    article += f'{most_common_name.title()} ({latin_name}), is a plant that belong to the {family} family.\n\n'
     
     lst = []
     lst_taxonomy = []

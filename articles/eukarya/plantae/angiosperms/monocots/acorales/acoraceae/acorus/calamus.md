@@ -1,10 +1,10 @@
-# sweet flag (Acorus calamus): A Botanical, Medicinal and Culinary Guide
+# Sweet Flag (Acorus calamus): A Botanical, Medicinal and Culinary Guide
 
 ![alt](/assets/images/acorus-calamus.jpg "title")
 
-## What is Acorus calamus and how is it classified?
+## What is the Botanical Classification of Sweet Flag?
 
-Acorus calamus (or A. calamus), commonly known as sweet flag, is a plant that belong to the Acoraceae family.
+Sweet Flag (Acorus calamus), is a plant that belong to the Acoraceae family.
 
 The following illustration shows you this classificaion visually.
 
