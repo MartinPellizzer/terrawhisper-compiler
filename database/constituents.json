@@ -1,0 +1,287 @@
+[
+    {
+        "name": "Alkaloids",
+        "benefits": [
+            "are potent analgesics and are used for pain management",
+            "have anti-inflammatory properties and may help with conditions involving inflammation",
+            "have antioxidant properties that can protect cells from oxidative stress",
+            "used historically to treat malaria, as they have potent antimalarial properties",
+            "have neuroprotective properties and may enhance cognitive function",
+            "have been used to treat hypertension by regulating blood pressure",
+            "have been used in cancer chemotherapy due to their ability to inhibit cell division and tumor growth",
+            "help relax smooth muscles and are used to treat conditions like muscle spasms and motion sickness",
+            "has been used as a stimulant and appetite suppressant",
+            "relax the smooth muscles of the gastrointestinal tract and may be used to treat certain digestive issues",
+            "have antiarrhythmic effects and can help regulate heart rhythm",
+            "have been studied for their potential effects on mood and depression"
+        ]
+    },
+    {
+        "name": "Anthraquinones",
+        "benefits": []
+    },
+    {
+        "name": "Bitters",
+        "benefits": []
+    },
+    {
+        "name": "Cardiac Glycosides",
+        "benefits": []
+    },
+    {
+        "name": "Coumarins",
+        "benefits": []
+    },
+    {
+        "name": "Cyanogenic glycosides",
+        "benefits": []
+    },
+    {
+        "name": "Flavonoids",
+        "benefits": [
+            "protect cells from oxidative damage caused by free radicals, which reduces the risk of chronic diseases",
+            "help lower blood pressure, reduce LDL (low-density lipoprotein) cholesterol levels, and improve overall cardiovascular health",
+            "reduce inflammation in the body, decreasing the risk of chronic inflammatory conditions like arthritis and inflammatory bowel disease",
+            "inhibit the growth of cancer cells and reduce the risk of certain types of cancer, such as breast, prostate, and lung cancer",
+            "regulate blood sugar levels and improve insulin sensitivity, making them beneficial for individuals with diabetes or at risk of developing it",
+            "improve cognitive function and a reduce risk of age-related cognitive decline",
+            "protect the skin from UV radiation and help prevent premature aging and skin damage",
+            "assist in weight management by promoting fat metabolism and reducing inflammation, aiding in weight loss efforts",
+            "support digestive health by reducing the risk of gastrointestinal disorders, such as gastritis and ulcers, and promoting the growth of beneficial gut bacteria",
+            "reduce risk of asthma and improve lung function",
+            "help improve bone density and reduce the risk of osteoporosis",
+            "reduce allergy symptoms by stabilizing mast cells and reducing histamine release",
+            "maintain good vision and reduce the risk of age-related macular degeneration",
+            "support liver health by promoting detoxification and protecting liver cells",
+            "slow down the aging process and reduce the appearance of wrinkles and fine lines"
+        ]
+    },
+    {
+        "name": "Glucosilinates",
+        "benefits": []
+    },
+    {
+        "name": "Minerals",
+        "benefits": []
+    },
+    {
+        "name": "Phenols",
+        "benefits": []
+    },
+    {
+        "name": "Phytosterols",
+        "benefits": [
+            "reduce LDL (bad) cholesterol levels, which can lower the risk of heart disease",
+            "reduce the risk of cardiovascular diseases, including heart attacks and strokes",
+            "maintain overall heart health by reducing inflammation and improving blood vessel function",
+            "may have a modest effect in lowering blood pressure",
+            "benefit conditions like arthritis and inflammatory bowel disease",
+            "support prostate health and reduce the risk of prostate issues in men",
+            "enhance immune system function, helping the body fight off infections and illnesses",
+            "have a protective effect against certain types of cancer",
+            "combat oxidative stress and cellular damage",
+            "promote digestive health by reducing inflammation in the gastrointestinal tract",
+            "support weight management efforts by improving metabolism and satiety",
+            "help regulate blood sugar levels",
+            "have a positive impact on bone health",
+            "contribute to healthier skin by reducing inflammation and promoting tissue repair",
+            "protect the liver from damage and support its detoxification processes",
+            "reduce allergy symptoms",
+            "help alleviate some menopausal symptoms like hot flashes",
+            "offer support for joint health, especially in conditions like osteoarthritis",
+            "contribute to stronger and healthier hair",
+            "slow down the aging process by protecting cells from damage",
+            "improve endurance and recovery",
+            "maintain eye health by reducing the risk of age-related macular degeneration",
+            "lower the risk of developing gallstones",
+            "stimulate hair follicles and promote hair growth",
+            "have a calming effect on the nervous system",
+            "lower triglyceride levels",
+            "have a positive impact on fertility, particularly in men"
+        ]
+    },
+    {
+        "name": "Polysaccharides",
+        "benefits": []
+    },
+    {
+        "name": "Proanthocyanins",
+        "benefits": []
+    },
+    {
+        "name": "Sesquiterpene lactones",
+        "benefits": [
+            "have strong anti-inflammatory properties, making them effective in reducing inflammation",
+            "protecti cells from oxidative stress and damage",
+            "prevent and inhibit the growth of cancer cells",
+            "alleviate pain, including headaches and joint pain",
+            "enhance the immune system's response to infections and diseases",
+            "aid in digestion and help relieve gastrointestinal discomfort",
+            "inhibit the growth of bacteria and fungi",
+            "reduce allergy symptoms by modulating the immune response",
+            "support liver function and detoxification",
+            "are beneficial for skin conditions like eczema and psoriasis",
+            "help with respiratory issues, such as asthma and bronchitis",
+            "reduce inflammation and improve circulation",
+            "manage chronic pain conditions like arthritis",
+            "combat antibiotic-resistant bacteria",
+            "are effective against various fungal infections",
+            "have anti-tumor effects",
+            "protect nerve cells and support cognitive function",
+            "are effective against parasitic infections",
+            "inhibit the replication of viruses",
+            "manage arthritis symptoms",
+            "assist in stabilizing blood sugar levels",
+            "prevent and treat ulcers",
+            "reduce anxiety and stress",
+            "have mood-lifting effects",
+            "support bone density and health",
+            "slow down the aging process",
+            "relieve muscle spasms",
+            "manage allergies and related symptoms"
+        ]
+    },
+    {
+        "name": "Saponins",
+        "benefits": [
+            "neutralize harmful free radicals in the body",
+            "reduce inflammation, potentially benefiting conditions like arthritis",
+            "support heart health by lowering cholesterol levels and improving blood vessel function",
+            "enhance the immune system's response to infections and diseases",
+            "inhibit the growth of cancer cells and preventing tumor formation",
+            "combat various bacterial, fungal, and viral infections",
+            "aid in the removal of toxins and pollutants from the body",
+            "regulate blood sugar levels and improve insulin sensitivity",
+            "contribute to weight loss by reducing fat absorption and increasing satiety",
+            "protect the liver from damage and support its detoxification processes",
+            "promote a healthy gut microbiome and may help with digestive issues",
+            "enhance calcium absorption and support bone density",
+            "improve skin conditions like acne",
+            "reduce allergic responses and alleviate symptoms",
+            "have a role in managing respiratory conditions like asthma",
+            "inhibit the replication of certain viruses",
+            "combat fungal infections like candidiasis",
+            "contribute to youthful skin and overall vitality",
+            "regulate hormone levels in the body",
+            "protect nerve cells and support brain health",
+            "reduce allergic reactions and symptoms",
+            "alleviate symptoms of arthritis",
+            "enhance libido and sexual function",
+            "facilitate wound healing and tissue repair",
+            "relieve muscle spasms and cramps",
+            "have mild calming effects and reduce anxiety symptoms",
+            "contribute to mood improvement and alleviate symptoms of depression",
+            "maintain healthy blood pressure levels",
+            "inhibit excessive blood clotting",
+            "promote healthy hair and scalp"
+        ]
+    },
+    {
+        "name": "Tannins",
+        "benefits": [
+            "help combat oxidative stress and reduce cell damage",
+            "support heart health by reducing the risk of cardiovascular diseases",
+            "help reduce inflammation in the body",
+            "help prevent certain types of cancer",
+            "aid digestion and alleviate digestive issues",
+            "have antimicrobial properties that help fight bacterial infections",
+            "reduce the growth of harmful oral bacteria and improve dental health",
+            "benefit the skin by reducing inflammation and improving skin tone",
+            "support liver function and detoxification",
+            "enhance the immune system's response to infections",
+            "help alleviate allergy symptoms",
+            "help stabilize blood sugar levels, particularly in diabetes management",
+            "have antiviral properties that help combat viral infections",
+            "assist in wound healing",
+            "contribute to better bone health and reduce the risk of osteoporosis",
+            "protect against eye diseases, such as cataracts and macular degeneration",
+            "help manage respiratory conditions like asthma",
+            "promote relaxation and stress reduction",
+            "help reduce inflammation and improve joint function",
+            "support kidney function and reduce the risk of kidney stones",
+            "have a protective effect on the brain",
+            "have mild anxiety-reducing properties",
+            "have antioxidant effects that slow down the aging process",
+            "help alleviate menstrual discomfort and regulate periods",
+            "promote healthier hair and prevent hair loss",
+            "help manage diarrhea and related symptoms",
+            "support cognitive function and memory",
+            "have antifungal properties, assisting in fungal infection control",
+            "help regulate hormone levels"
+        ]
+    },
+    {
+        "name": "Triterpenes",
+        "benefits": [
+            "inhibit tumor growth and promote apoptosis (cell death) in cancer cells",
+            "reduce inflammation, which is associated with numerous chronic diseases",
+            "scavenge free radicals, protecting cells from oxidative damage",
+            "boost immune function, helping the body defend against infections",
+            "exhibit antiviral properties and may help combat viral infections",
+            "protect the liver from toxins and damage",
+            "lower cholesterol levels and support overall heart health",
+            "regulate blood sugar levels and improve insulin sensitivity",
+            "reduce the risk of neurodegenerative diseases",
+            "help to alleviate pain",
+            "reduce symptoms of arthritis and joint pain",
+            "promote skin healing and reduce the appearance of scars",
+            "inhibit the growth of harmful bacteria",
+            "combat fungal infections",
+            "enhance the body's ability to heal wounds",
+            "alleviate allergy symptoms",
+            "eliminate parasitic infections",
+            "inhibit the replication of the HIV virus",
+            "support a healthy digestive system and reduce gastrointestinal discomfort",
+            "alleviate muscle spasms",
+            "have mild anxiolytic effects",
+            "have mood-enhancing properties",
+            "support bone density and reduce the risk of osteoporosis",
+            "enhance the effectiveness of cancer treatments",
+            "slow down the aging process by reducing oxidative stress",
+            "aid in weight management",
+            "alleviate respiratory conditions like asthma",
+            "regulate hormone levels",
+            "protect against gastric ulcers",
+            "improve the strength and appearance of hair and nails"
+        ]
+    },
+    {
+        "name": "Vitamins",
+        "benefits": []
+    },
+    {
+        "name": "Volatile Oils",
+        "benefits": [
+            "combat harmful pathogens",
+            "reduce inflammation and alleviate pain",
+            "reduce stress and anxiety",
+            "alleviate pain when applied topically",
+            "protect cells from damage",
+            "alleviate respiratory congestion and ease breathing difficulties",
+            "are beneficial for skin conditions like acne and eczema",
+            "aid in digestion and relieve symptoms like indigestion and nausea",
+            "alleviate headaches and migraines when applied topically or through inhalation",
+            "boost the immune system",
+            "alleviate allergy symptoms",
+            "promote better sleep",
+            "uplift mood and reduce feelings of depression",
+            "regulate hormones (especially in women)",
+            "improve memory and cognitive function",
+            "regulate blood sugar levels",
+            "have antiviral properties against certain viruses",
+            "aid in wound healing and minimize scarring",
+            "relax muscles and relieve muscle tension",
+            "promote hair growth and improve hair health",
+            "reduce symptoms of anxiety",
+            "are effective against fungal infections like athlete's foot",
+            "reduce joint pain and inflammation",
+            "have aphrodisiac properties",
+            "alleviate menstrual cramps",
+            "relieve muscle spasms and cramps",
+            "support the body's detoxification processes",
+            "lower blood pressure",
+            "are used for oral hygiene and gum health",
+            "reduce appetite and support weight management"
+        ]
+    }
+]

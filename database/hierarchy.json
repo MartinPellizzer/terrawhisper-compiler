@@ -1,0 +1,46 @@
+[
+    {
+        "domain": [
+            "Archaea",
+            "Bacteria",
+            "Eukaryota"
+        ]
+    },
+    {
+        "kingdom": [
+            "Animalia",
+            "Plantae",
+            "Protista"
+        ]
+    },
+    {
+        "phylum": [
+            "Chordata"
+        ]
+    },
+    {
+        "class": [
+            "Mammalia"
+        ]
+    },
+    {
+        "order": [
+            "Carnivora"
+        ]
+    },
+    {
+        "family": [
+            "Canidae"
+        ]
+    },
+    {
+        "genus": [
+            "Vulpes"
+        ]
+    },
+    {
+        "species": [
+            "Vulpes vulpes"
+        ]
+    },
+]
