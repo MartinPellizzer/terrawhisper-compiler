@@ -612,7 +612,7 @@ for item in data:
     # TAXONOMY/CLASSIFICATION
     #######################################################################################################
     # article += f'## What is the classification (taxonomy) of {most_common_name}?\n\n'
-    article += f'## What is the botanical classification of {most_common_name.title()}?\n\n'
+    article += f'## What is the botanical classification of {most_common_name}?\n\n'
     line = f'''
         {most_common_name.title()}, with botanical name of **{latin_name}** ({latin_name_abb}), is a plant that belongs to the **{family}** family and the **{genus}** genus.
 
@@ -675,30 +675,41 @@ for item in data:
 
 
     #######################################################################################################
-    # WHERE
+    # DISTRIBUTION/HABITAT
     #######################################################################################################
-    article += f'## Where does {latin_name} grow?\n\n'
+    article += f'## What is the regional distribution of {most_common_name}?\n\n'
 
-    # CONTINENTAL DISTRIBUTION
-    # article += f'### Continental distribution\n\n'
-    quick_answer = f'The {latin_name} is mainly present in **{distribution_table[0][0]}** and in **{distribution_table[1][0]}**.\n\n'
-    article += f'{quick_answer}\n'
+    # REGIONAL DISTRIBUTION
+    # regional_distribution_section = item['regional_distribution_section']
+    # for paragraph in regional_distribution_section:
+    #     article += f'{paragraph}\n\n'
 
-    article += f'In the following table, you can find the estimated distribution of this plant in each continent (ordered from highest to lowest).\n\n'
-
-    article += f'| Continent | Estimated Distribution |\n'
-    article += f'| --- | --- |\n'
-    for row in distribution_table:
-        if int(row[1]) >= 7: value = 'Abundant' 
-        elif int(row[1]) >= 4: value = 'Common' 
-        else: value = 'Scarce' 
-        article += f'| {row[0]} | {value} |\n'
-    article += '\n'
-
-    article += f'Here\'s a list of the regional distribution of this plant.\n\n'
-    bld = bold_blt(distribution)
+    regional_distribution = item['regional_distribution']
+    lst = [x.split(':')[0] for x in regional_distribution]
+    lst_bld = [f'**{x.split(":")[0]}**' for x in regional_distribution]
+    ltt_1 = lst_to_txt(lst_bld[:2])
+    ltt_2 = lst_to_txt(lst[2:-1])
+    article += f'{most_common_name.title()} is mostly present in {ltt_1}, but can also be found in {ltt_2}.\n\n'
+    article += f'The list below gives more details on the distribution of this plant in these regions.\n\n'
+    bld = bold_blt(regional_distribution)
     article += lst_to_blt(bld)
     article += '\n\n'
+
+    # article += f'In the following table, you can find the estimated distribution of this plant in each continent (ordered from highest to lowest).\n\n'
+
+    # article += f'| Continent | Estimated Distribution |\n'
+    # article += f'| --- | --- |\n'
+    # for row in distribution_table:
+    #     if int(row[1]) >= 7: value = 'Abundant' 
+    #     elif int(row[1]) >= 4: value = 'Common' 
+    #     else: value = 'Scarce' 
+    #     article += f'| {row[0]} | {value} |\n'
+    # article += '\n'
+
+    # article += f'Here\'s a list of the regional distribution of this plant.\n\n'
+    # bld = bold_blt(distribution)
+    # article += lst_to_blt(bld)
+    # article += '\n\n'
 
     # HABITAT
     names = [item.split(':')[0] for item in habitat]

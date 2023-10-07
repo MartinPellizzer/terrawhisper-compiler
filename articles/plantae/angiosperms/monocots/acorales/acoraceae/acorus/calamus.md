@@ -2,7 +2,7 @@
 
 ![alt](/assets/images/acorus-calamus.jpg "title")
 
-## What is the botanical classification of Sweet Flag?
+## What is the botanical classification of sweet flag?
 
 
  Sweet Flag, with botanical name of **Acorus calamus** (A. calamus), is a plant that belongs to the **Acoraceae** family and the **Acorus** genus.
@@ -55,31 +55,13 @@ In the following list, you can find the most common variations of A. calamus, th
 - **Saccate sweet flag**:  Native to China, this variety is characterized by its unique sac-like structures that envelop the base of the leaves.
 - **Obtuse-leaved sweet flag**:  Found in China and Japan, this variety is recognized by its obtuse or rounded leaf tips.
 
-## Where does Acorus calamus grow?
+## What is the regional distribution of sweet flag?
 
-The Acorus calamus is mainly present in **Asia** and in **Europe**.
+Sweet Flag is mostly present in , but can also be found in .
+
+The list below gives more details on the distribution of this plant in these regions.
 
 
-In the following table, you can find the estimated distribution of this plant in each continent (ordered from highest to lowest).
-
-| Continent | Estimated Distribution |
-| --- | --- |
-| Asia | Abundant |
-| Europe | Common |
-| North America | Common |
-| Africa | Scarce |
-| Oceania | Scarce |
-| South America | Scarce |
-| Antarctica | Scarce |
-
-Here's a list of the regional distribution of this plant.
-
-- **North America**:  In North America, it is native and can be found in a wide range of habitats, including wetlands, marshes, and the edges of ponds and lakes.
-- **Europe**:  It is also native to Europe, where it can be found in similar habitats as in North America, including wetlands, marshes, and the banks of water bodies.
-- **Asia**:  It has a wide distribution in Asia, including regions like the Himalayas, where it can be found in alpine meadows and open woodlands. It is also commonly found in wetlands and along the edges of water bodies in various parts of Asia.
-- **Africa**:  While not as common as in other continents, It can be found in some wetland areas and along watercourses in parts of Africa.
-- **Australia**:  It has been introduced to Australia and can be found in wetland habitats, particularly in the eastern and southern parts of the country.
-- **South America**:  In South America, It can be found in wetlands, especially in the southern regions of the continent.
 
 ### What's its favorite habitat?
 

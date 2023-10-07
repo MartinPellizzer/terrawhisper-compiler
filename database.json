@@ -36,6 +36,23 @@
             "Terracotta: This variety has unique terracotta-colored blooms and is commonly cultivated in Europe for its warm hues.",
             "Summer Pastels: Summer Pastels offers a mix of soft, pastel-colored flowers and is popular in North American and European gardens for its gentle, multicolored display."
         ],
+        "does_grow_wild": "Yes, yarrow grows wild in various regions around the world. It is native to **Europe** and **Asia**, but has become naturalized in many other parts of the world.",
+        "regional_distribution": [
+            "Europe: Yarrow is native to Europe and can be found throughout the continent. It is particularly common in grasslands, meadows, and along roadsides.",
+            "Asia: It is also native to parts of Asia, including Siberia, the Himalayas, and the Middle East. It can be found in grasslands and other open areas.",
+            "North America: It is widespread in North America, where it has become naturalized. It can be found in a variety of habitats, including fields, prairies, and disturbed areas.",
+            "Australia: It has been introduced to Australia and is considered an invasive species in some regions. It can be found in grasslands and disturbed areas.",
+            "South America: It has also been introduced to South America, where it can be found in areas with suitable growing conditions.",
+            "Africa: It has a more limited distribution in Africa compared to other continents, but it can still be found in some regions, particularly in the northern parts of the continent."
+        ],
+        "regional_distribution_section": [
+            "Yarrow is native to Europe and it is distributed widely across the continent, thriving in diverse environments such as grasslands, meadows, and along roadsides.",
+            "It is also native to Asia and can be found across Siberia, the Himalayas, and the Middle East, where it can be observed in open grasslands and similar settings.",
+            "In North America, it has successfully naturalized and can be encountered in various habitats, including fields, prairies, and disturbed areas.",
+            "Australia hosts introduced this plant, sometimes classified as invasive, where it thrives in grasslands and disturbed areas.",
+            "South America has also adopted this plant, and it can be located in regions where the growing conditions are favorable.",
+            "In Africa, while its distribution is comparatively limited compared to other continents, it can still be found in select areas, particularly in the northern regions of the continent."
+        ],
         "distribution_table": [
             [
                 "Europe",
@@ -399,6 +416,7 @@
             "Saccate sweet flag: Native to China, this variety is characterized by its unique sac-like structures that envelop the base of the leaves.",
             "Obtuse-leaved sweet flag: Found in China and Japan, this variety is recognized by its obtuse or rounded leaf tips."
         ],
+        "regional_distribution_section": "",
         "distribution_table": [
             [
                 "Asia",
@@ -429,6 +447,8 @@
                 0
             ]
         ],
+        "does_grow_wild": "",
+        "regional_distribution": [],
         "distribution": [
             "North America: In North America, it is native and can be found in a wide range of habitats, including wetlands, marshes, and the edges of ponds and lakes.",
             "Europe: It is also native to Europe, where it can be found in similar habitats as in North America, including wetlands, marshes, and the banks of water bodies.",
@@ -724,6 +744,7 @@
             "North American Horse Chestnut: Although not native to North America, the European horse chestnut has been planted in various regions of the United States and Canada as an ornamental tree. It is commonly found in parks and urban areas in North America.",
             "Asian Horse Chestnut: This tree is planted in parts of Asia, including China and Japan, as an ornamental species. It shares many characteristics with the European horse chestnut but may exhibit some regional variations in growth and adaptation."
         ],
+        "regional_distribution_section": "",
         "distribution_table": [
             [
                 "Europe",
@@ -754,6 +775,8 @@
                 0
             ]
         ],
+        "does_grow_wild": "",
+        "regional_distribution": [],
         "distribution": [
             "Europe: Native to southeastern Europe, including countries like Albania, Greece, Bulgaria, and the western parts of Turkey.",
             "Western Asia: It is found in parts of western Asia, primarily in Turkey, where it is native.",

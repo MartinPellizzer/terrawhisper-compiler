@@ -2,7 +2,7 @@
 
 ![alt](/assets/images/aesculus-hippocastanum.jpg "title")
 
-## What is the botanical classification of Horse Chestnut?
+## What is the botanical classification of horse chestnut?
 
 
  Horse Chestnut, with botanical name of **Aesculus hippocastanum** (A. hippocastanum), is a plant that belongs to the **Sapindaceae** family and the **Aesculus** genus.
@@ -51,31 +51,13 @@ In the following list, you can find the most common variations of A. hippocastan
 - **North American Horse Chestnut**:  Although not native to North America, the European horse chestnut has been planted in various regions of the United States and Canada as an ornamental tree. It is commonly found in parks and urban areas in North America.
 - **Asian Horse Chestnut**:  This tree is planted in parts of Asia, including China and Japan, as an ornamental species. It shares many characteristics with the European horse chestnut but may exhibit some regional variations in growth and adaptation.
 
-## Where does Aesculus hippocastanum grow?
+## What is the regional distribution of horse chestnut?
 
-The Aesculus hippocastanum is mainly present in **Europe** and in **Asia**.
+Horse Chestnut is mostly present in , but can also be found in .
+
+The list below gives more details on the distribution of this plant in these regions.
 
 
-In the following table, you can find the estimated distribution of this plant in each continent (ordered from highest to lowest).
-
-| Continent | Estimated Distribution |
-| --- | --- |
-| Europe | Abundant |
-| Asia | Common |
-| North America | Scarce |
-| South America | Scarce |
-| Africa | Scarce |
-| Oceania | Scarce |
-| Antarctica | Scarce |
-
-Here's a list of the regional distribution of this plant.
-
-- **Europe**:  Native to southeastern Europe, including countries like Albania, Greece, Bulgaria, and the western parts of Turkey.
-- **Western Asia**:  It is found in parts of western Asia, primarily in Turkey, where it is native.
-- **North America**:  Horse chestnut trees are commonly planted as ornamental trees in North America, particularly in the United States and Canada. They can be found in urban and suburban areas, parks, and gardens.
-- **United Kingdom**:  Aesculus hippocastanum is a familiar tree species in the United Kingdom, where it has been cultivated for its attractive foliage and flowers.
-- **Australia and New Zealand**:  Horse chestnut trees have also been planted in parts of Australia and New Zealand for their ornamental value.
-- **Other regions**:  It has been introduced and cultivated in various other countries with suitable climates for its growth, including parts of South America, Asia, and Africa.
 
 ### What's its favorite habitat?
 

@@ -2,7 +2,7 @@
 
 ![alt](/assets/images/achillea-millefolium.jpg "title")
 
-## What is the botanical classification of Yarrow?
+## What is the botanical classification of yarrow?
 
 
  Yarrow, with botanical name of **Achillea millefolium** (A. millefolium), is a plant that belongs to the **Asteraceae** family and the **Achillea** genus.
@@ -58,31 +58,18 @@ In the following list, you can find the most common variations of A. millefolium
 - **Terracotta**:  This variety has unique terracotta-colored blooms and is commonly cultivated in Europe for its warm hues.
 - **Summer Pastels**:  Summer Pastels offers a mix of soft, pastel-colored flowers and is popular in North American and European gardens for its gentle, multicolored display.
 
-## Where does Achillea millefolium grow?
+## What is the regional distribution of yarrow?
 
-The Achillea millefolium is mainly present in **Europe** and in **Asia**.
+Yarrow is mostly present in **Europe** e **Asia**, but can also be found in North America, Australia e South America.
 
+The list below gives more details on the distribution of this plant in these regions.
 
-In the following table, you can find the estimated distribution of this plant in each continent (ordered from highest to lowest).
-
-| Continent | Estimated Distribution |
-| --- | --- |
-| Europe | Abundant |
-| Asia | Abundant |
-| North America | Common |
-| South America | Common |
-| Africa | Scarce |
-| Oceania | Scarce |
-| Antarctica | Scarce |
-
-Here's a list of the regional distribution of this plant.
-
-- **North America**:  It is native to North America and can be found in a wide range of habitats, including meadows, grasslands, prairies, and along roadsides.
-- **Europe**:  It is also native to Europe and can be found in similar habitats as in North America, including meadows, grasslands, and disturbed areas.
-- **Asia**:  It has a wide distribution in Asia, including regions like the Himalayas, where it can be found in alpine meadows and open woodlands.
-- **Australia**:  It has been introduced to Australia and can be found in various habitats, including grasslands, pastures, and along roadsides.
-- **South America**:  It has naturalized in parts of South America, including Chile and Argentina, where it can be found in grasslands and disturbed areas.
-- **Africa**:  In Africa, it has been introduced and can be found in a variety of habitats, including grasslands and open woodlands.
+- **Europe**:  Yarrow is native to Europe and can be found throughout the continent. It is particularly common in grasslands, meadows, and along roadsides.
+- **Asia**:  It is also native to parts of Asia, including Siberia, the Himalayas, and the Middle East. It can be found in grasslands and other open areas.
+- **North America**:  It is widespread in North America, where it has become naturalized. It can be found in a variety of habitats, including fields, prairies, and disturbed areas.
+- **Australia**:  It has been introduced to Australia and is considered an invasive species in some regions. It can be found in grasslands and disturbed areas.
+- **South America**:  It has also been introduced to South America, where it can be found in areas with suitable growing conditions.
+- **Africa**:  It has a more limited distribution in Africa compared to other continents, but it can still be found in some regions, particularly in the northern parts of the continent.
 
 ### What's its favorite habitat?
 
