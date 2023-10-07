@@ -464,6 +464,9 @@ def img_cheasheet(latin_name, title, lst, img_name):
 ######################################################################
 
 def generate_folders():
+    shutil.rmtree('articles')
+    shutil.rmtree('public')
+
     for item in data:
         domain = item['domain'].lower()
         kingdom = item['kingdom'].lower()
@@ -474,34 +477,68 @@ def generate_folders():
         genus = item['genus'].lower()
         species = item['species'].lower()
 
-        try: os.mkdir(f'articles/{domain}')
+        # try: os.mkdir(f'articles/{domain}')
+        # except: pass
+        # try: os.mkdir(f'articles/{domain}/{kingdom}')
+        # except: pass
+        # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}')
+        # except: pass
+        # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}')
+        # except: pass
+        # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}')
+        # except: pass
+        # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}')
+        # except: pass
+        # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}')
+        # except: pass
+        
+        try: os.mkdir(f'articles')
         except: pass
-        try: os.mkdir(f'articles/{domain}/{kingdom}')
+        try: os.mkdir(f'articles/{kingdom}')
         except: pass
-        try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}')
+        try: os.mkdir(f'articles/{kingdom}/{phylum}')
         except: pass
-        try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}')
+        try: os.mkdir(f'articles/{kingdom}/{phylum}/{_class}')
         except: pass
-        try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}')
+        try: os.mkdir(f'articles/{kingdom}/{phylum}/{_class}/{order}')
         except: pass
-        try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}')
+        try: os.mkdir(f'articles/{kingdom}/{phylum}/{_class}/{order}/{family}')
         except: pass
-        try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}')
+        try: os.mkdir(f'articles/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}')
         except: pass
 
-        try: os.mkdir(f'public/{domain}')
+        # try: os.mkdir(f'public/{domain}')
+        # except: pass
+        # try: os.mkdir(f'public/{domain}/{kingdom}')
+        # except: pass
+        # try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}')
+        # except: pass
+        # try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}/{_class}')
+        # except: pass
+        # try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}/{_class}/{order}')
+        # except: pass
+        # try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}')
+        # except: pass
+        # try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}')
+        # except: pass
+        # try: os.mkdir(f'public/assets')
+        # except: pass
+        # try: os.mkdir(f'public/assets/images')
+        # except: pass
+        
+        try: os.mkdir(f'public')
         except: pass
-        try: os.mkdir(f'public/{domain}/{kingdom}')
+        try: os.mkdir(f'public/{kingdom}')
         except: pass
-        try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}')
+        try: os.mkdir(f'public/{kingdom}/{phylum}')
         except: pass
-        try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}/{_class}')
+        try: os.mkdir(f'public/{kingdom}/{phylum}/{_class}')
         except: pass
-        try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}/{_class}/{order}')
+        try: os.mkdir(f'public/{kingdom}/{phylum}/{_class}/{order}')
         except: pass
-        try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}')
+        try: os.mkdir(f'public/{kingdom}/{phylum}/{_class}/{order}/{family}')
         except: pass
-        try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}')
+        try: os.mkdir(f'public/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}')
         except: pass
         try: os.mkdir(f'public/assets')
         except: pass
@@ -513,7 +550,7 @@ generate_folders()
 
 
 
-
+articles_home = []
 
 for item in data:
     article = ''
@@ -563,17 +600,17 @@ for item in data:
     #######################################################################################################
     article += f'# {most_common_name.title()} ({latin_name}): A Botanical, Medicinal and Culinary Guide\n\n'
 
-    img_filename = latin_name.lower().replace(' ', '-') + '.jpg'
-    img_filepath = img_resize(f'articles-images/{img_filename}')
-    img_filepath = '/' + '/'.join(img_filepath.split('/')[1:])
-    article += f'![alt]({img_filepath} "title")\n\n'
+    featured_image_filename = latin_name.lower().replace(' ', '-') + '.jpg'
+    featured_image_filpath = img_resize(f'articles-images/{featured_image_filename}')
+    featured_image_filpath = '/' + '/'.join(featured_image_filpath.split('/')[1:])
+    article += f'![alt]({featured_image_filpath} "title")\n\n'
 
 
     #######################################################################################################
     # TAXONOMY/CLASSIFICATION
     #######################################################################################################
     # article += f'## What is the classification (taxonomy) of {most_common_name}?\n\n'
-    article += f'## What is the Botanical Classification of {most_common_name.title()}?\n\n'
+    article += f'## What is the classification of {most_common_name.title()}?\n\n'
     article += f'{most_common_name.title()} ({latin_name}), is a plant that belong to the {family} family.\n\n'
     
     lst = []
@@ -855,8 +892,10 @@ for item in data:
     # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}')
     # except: pass
 
-    article_filename = latin_name.lower().replace(' ', '-')
-    with open(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.md', 'w', encoding='utf-8') as f:
+    # article_filename = latin_name.lower().replace(' ', '-')
+    # article_md_url = f'{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.md'
+    article_md_url = f'{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.md'
+    with open(f'articles/{article_md_url}', 'w', encoding='utf-8') as f:
         f.write(article)
     # print(item)
 
@@ -898,11 +937,143 @@ for item in data:
         </html>
     '''
 
-
-    
-
-    with open(f'public/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.html', 'w', encoding='utf-8') as f:
+    # article_url = f'{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.html'
+    article_url = f'{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.html'
+    with open(f'public/{article_url}', 'w', encoding='utf-8') as f:
         f.write(html)
+
+    articles_home.append(
+        {
+            'img': featured_image_filpath,
+            'url': article_url,
+            'name': most_common_name.title(),
+            'title': f'{most_common_name.title()} Guide: Botanical, Medicinal, and Culinary',
+        }
+    )
+
+
+##################################################################################################
+# PLANTS PAGE
+##################################################################################################
+taxonomy = {}
+
+for article in articles_home:
+    article_folders = article['url'].split('/')
+
+    full_path_curr = ''
+    for i in range(len(article_folders)-1):
+        folder_curr = article_folders[i]
+        folder_next = article_folders[i+1]
+
+        full_path_curr += f'{folder_curr}/'
+
+        if full_path_curr not in taxonomy: 
+            taxonomy[full_path_curr] = [folder_next]
+        else: 
+            if folder_next not in taxonomy[full_path_curr]:
+                taxonomy[full_path_curr].append(folder_next)
+
+for key, lst in taxonomy.items():
+    for val in lst:
+        if not os.path.exists(f'public/{key}/index.html'):
+            with open(f'public/{key}/index.html', 'w') as f:
+                f.write(f'<p><a href="{val}">{val}</a></p>')
+        else: 
+            with open(f'public/{key}/index.html', 'a') as f:
+                f.write(f'<p><a href="{val}">{val}</a></p>')
+
+
+
+
+
+##################################################################################################
+# HOME PAGE
+##################################################################################################
+
+articles = ''
+for article in articles_home:
+    img = article['img']
+    url = article['url']
+    title = article['title']
+    name = article['name']
+    articles += f'''
+        <div class="flex gap-32">
+            <div class="flex-1">
+                <img src="{img}" alt="">
+            </div>
+            <div class="flex-1">
+                <h2 class="mt-0">{title}</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro beatae consequatur ad
+                    quod,
+                    accusamus numquam velit nisi sint. Rerum eaque animi, enim ipsam laborum rem vitae
+                    repellendus
+                    vero
+                    quod corporis.
+                </p>
+                <a
+                    href="{url}">{name} Guide</a>
+            </div>
+        </div>
+        \n
+    '''
+
+
+html = f'''
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="container-lg">
+                <nav class="flex justify-between">
+                    <a href="#">Terra Whisper</a>
+                    <a href="plantae/">Plants</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="mt-96">
+            <div class="container-lg">
+                <div class="flex gap-32">
+                    <div class="articles flex-3 flex flex-col gap-32">
+                        
+                        {articles}
+
+                    </div>
+                    <div class="sidebar flex-1">
+                        <div class="flex-1">
+                            here goes the sidebar
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+    </html>
+'''
+
+with open(f'index.html', 'w') as f:
+    f.write(html)
+
+
+
+
+with open(f'index_viewer.html', 'w') as f:
+    f.write(html)
+
+
+
+
+
 
 
 with open(f'article-viewer.html', 'w') as f:
@@ -913,7 +1084,7 @@ with open(f'article-viewer.html', 'w') as f:
 
 
 # VIEWER
-with open(f'articles/eukarya/plantae/angiosperms/eudicots/asterales/asteraceae/achillea/millefolium.md') as f:
+with open(f'articles/plantae/angiosperms/eudicots/asterales/asteraceae/achillea/millefolium.md') as f:
     article_md = f.read()
 
 word_count = len(article_md.split(' '))
