@@ -2,30 +2,30 @@
 
 ![alt](/assets/images/aesculus-hippocastanum.jpg "title")
 
-## What is the classification of Horse Chestnut?
+## What is the botanical classification of Horse Chestnut?
 
-Horse Chestnut (Aesculus hippocastanum), is a plant that belong to the Sapindaceae family.
 
-The following illustration shows you this classificaion visually.
+ Horse Chestnut, with botanical name of **Aesculus hippocastanum** (A. hippocastanum), is a plant that belongs to the **Sapindaceae** family and the **Aesculus** genus.
 
-![alt](/assets/images/aesculus-hippocastanum-taxonomy.jpg "title")
+ According to traditional classification (taxonomy), this plant is classified under the **Sapindales** order, the **Eudicots** class, and the **Plantae** kingdom (in the Eukarya domain).
+ 
 
-Right below you can find the full classification (taxonomy) of this plant.
+Here is a list showing the full taxonomy of A. hippocastanum, in hierarchical order.
 
-- **Domain**:  Eukarya
-- **Kingdom**:  Plantae
-- **Phylum**:  Angiosperms
-- **Class**:  Eudicots
-- **Order**:  Sapindales
-- **Family**:  Sapindaceae
-- **Genus**:  Aesculus
-- **Species**:  hippocastanum
+- Domain: Eukarya
+- Kingdom: Plantae
+- Phylum: Angiosperms
+- Class: Eudicots
+- Order: Sapindales
+- Family: Sapindaceae
+- Genus: Aesculus
+- Species: hippocastanum
 
-### What are its common names?
+### What are the common names of Aesculus hippocastanum?
 
-The most frequent common names for this plant are **Horse Chestnut** and **Conker Tree**.
+The most common name for this plant is **Horse Chestnut**, but other common names are **Conker Tree** and **Buckeye**.
 
-Here is a list of the common names of this plant and a brief description of each name.
+Here is a list of the most common names of A. hippocastanum ordered by popularity, with a brief description of each name.
 
 - Horse chestnut
 - Conker tree
@@ -34,12 +34,15 @@ Here is a list of the common names of this plant and a brief description of each
 - Common horse chestnut
 - European horse chestnut
 - Sweet chestnut
+- Wild chestnut
+- Horse-chestnut tree
+- White chestnut
 
-### What are its regional variations?
+### What are the regional variations of Aesculus hippocastanum?
 
-This plant has several regional variations (subspecies), like **European Horse Chestnut**, **Baumann's Horse Chestnut**, and **Weeping Horse Chestnut**.
+The regional variations (subspecies) of this plant are **European Horse Chestnut**, **Baumann's Horse Chestnut**, and **Weeping Horse Chestnut**.
 
-Here's a list of some subspecies (subsp.) of this plant.
+In the following list, you can find the most common variations of A. hippocastanum, their unique characteristics, and their main regional location.
 
 - **European Horse Chestnut**:  This is the native species found in the Balkans and other parts of southeastern Europe. It is known for its distinctive palmately compound leaves and large, showy white flowers with a touch of red or yellow. European horse chestnuts are commonly planted as ornamental trees in Europe.
 - **Baumann's Horse Chestnut**:  This is a cultivated variety of Aesculus hippocastanum known for its dense, pyramidal shape and robust growth. It is often used as a shade tree in urban landscapes and gardens in Europe and other regions.

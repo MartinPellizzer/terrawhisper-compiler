@@ -4,6 +4,7 @@ import markdown
 import shutil
 from PIL import Image, ImageFont, ImageDraw, ImageColor
 import math
+import re
 
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS
@@ -567,6 +568,7 @@ for item in data:
     most_common_name = item['common_names'][0].split(':')[0].lower()
     most_common_name_1 = item['common_names'][0].split(':')[0].lower()
     most_common_name_2 = item['common_names'][1].split(':')[0].lower()
+    most_common_name_3 = item['common_names'][2].split(':')[0].lower()
     latin_name = f'{genus} {species}'
     latin_name_abb = f'{genus[0]}. {species}'
 
@@ -610,9 +612,14 @@ for item in data:
     # TAXONOMY/CLASSIFICATION
     #######################################################################################################
     # article += f'## What is the classification (taxonomy) of {most_common_name}?\n\n'
-    article += f'## What is the classification of {most_common_name.title()}?\n\n'
-    article += f'{most_common_name.title()} ({latin_name}), is a plant that belong to the {family} family.\n\n'
-    
+    article += f'## What is the botanical classification of {most_common_name.title()}?\n\n'
+    line = f'''
+        {most_common_name.title()}, with botanical name of **{latin_name}** ({latin_name_abb}), is a plant that belongs to the **{family}** family and the **{genus}** genus.
+
+        According to traditional classification (taxonomy), this plant is classified under the **{order}** order, the **{_class}** class, and the **{kingdom}** kingdom (in the {domain} domain).
+    \n\n'''
+    article += re.sub(' +', ' ', line)
+
     lst = []
     lst_taxonomy = []
     lst_taxonomy.append(f'Domain: {domain}')
@@ -635,33 +642,32 @@ for item in data:
     lst.append(lst_regional_variations)
 
     # CHEAT SHEET
-    img_path = img_cheasheet(latin_name, 'Classification and Variations of', lst, 'taxonomy')
-    img_path = '/' + '/'.join(img_path.split('/')[1:])
-    article += f'The following illustration shows you this classificaion visually.\n\n'
-    article += f'![alt]({img_path} "title")\n\n'
+    # img_path = img_cheasheet(latin_name, 'Classification and Variations of', lst, 'taxonomy')
+    # img_path = '/' + '/'.join(img_path.split('/')[1:])
+    # article += f'The following illustration shows you this classificaion visually.\n\n'
+    # article += f'![alt]({img_path} "title")\n\n'
 
     # TAXONOMY
     lst_taxonomy.pop(0)
-    article += f'Right below you can find the full classification (taxonomy) of this plant.\n\n'
-    bld = bold_blt(lst_taxonomy)
-    article += lst_to_blt(bld)
+    article += f'Here is a list showing the full taxonomy of {latin_name_abb}, in hierarchical order.\n\n'
+    article += lst_to_blt(lst_taxonomy)
     article += '\n\n'
 
     # COMMON NAMES
-    article += f'### What are its common names?\n\n'
-    article += f'The most frequent common names for this plant are **{most_common_name_1.title()}** and **{most_common_name_2.title()}**.\n\n'
-    article += f'Here is a list of the common names of this plant and a brief description of each name.\n\n'
+    article += f'### What are the common names of {latin_name}?\n\n'
+    article += f'The most common name for this plant is **{most_common_name_1.title()}**, but other common names are **{most_common_name_2.title()}** and **{most_common_name_3.title()}**.\n\n'
+    article += f'Here is a list of the most common names of {latin_name_abb} ordered by popularity, with a brief description of each name.\n\n'
     bld = bold_blt(common_names)
-    article += lst_to_blt(bld[:7])
+    article += lst_to_blt(bld)
     article += '\n\n'
 
     # REGIONAL VARIATIONS
     names = [item.split(':')[0] for item in regional_variations]
     intro = ''
     intro += f'**{names[0].split("(")[0].strip()}**, **{names[1].split("(")[0].strip()}**, and **{names[2].split("(")[0].strip()}**'
-    article += f'### What are its regional variations?\n\n'
-    article += f'This plant has several regional variations (subspecies), like {intro}.\n\n'
-    article += f'Here\'s a list of some subspecies (subsp.) of this plant.\n\n'
+    article += f'### What are the regional variations of {latin_name}?\n\n'
+    article += f'The regional variations (subspecies) of this plant are {intro}.\n\n'
+    article += f'In the following list, you can find the most common variations of {latin_name_abb}, their unique characteristics, and their main regional location.\n\n'
     regional_variations = [variation for variation in regional_variations]
     bld = bold_blt(regional_variations)
     article += lst_to_blt(bld)

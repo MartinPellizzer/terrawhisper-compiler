@@ -2,30 +2,30 @@
 
 ![alt](/assets/images/acorus-calamus.jpg "title")
 
-## What is the classification of Sweet Flag?
+## What is the botanical classification of Sweet Flag?
 
-Sweet Flag (Acorus calamus), is a plant that belong to the Acoraceae family.
 
-The following illustration shows you this classificaion visually.
+ Sweet Flag, with botanical name of **Acorus calamus** (A. calamus), is a plant that belongs to the **Acoraceae** family and the **Acorus** genus.
 
-![alt](/assets/images/acorus-calamus-taxonomy.jpg "title")
+ According to traditional classification (taxonomy), this plant is classified under the **Acorales** order, the **Monocots** class, and the **Plantae** kingdom (in the Eukarya domain).
+ 
 
-Right below you can find the full classification (taxonomy) of this plant.
+Here is a list showing the full taxonomy of A. calamus, in hierarchical order.
 
-- **Domain**:  Eukarya
-- **Kingdom**:  Plantae
-- **Phylum**:  Angiosperms
-- **Class**:  Monocots
-- **Order**:  Acorales
-- **Family**:  Acoraceae
-- **Genus**:  Acorus
-- **Species**:  calamus
+- Domain: Eukarya
+- Kingdom: Plantae
+- Phylum: Angiosperms
+- Class: Monocots
+- Order: Acorales
+- Family: Acoraceae
+- Genus: Acorus
+- Species: calamus
 
-### What are its common names?
+### What are the common names of Acorus calamus?
 
-The most frequent common names for this plant are **Sweet Flag** and **Calamus**.
+The most common name for this plant is **Sweet Flag**, but other common names are **Calamus** and **Rat Root**.
 
-Here is a list of the common names of this plant and a brief description of each name.
+Here is a list of the most common names of A. calamus ordered by popularity, with a brief description of each name.
 
 - Sweet Flag
 - Calamus
@@ -34,12 +34,18 @@ Here is a list of the common names of this plant and a brief description of each
 - Flagroot
 - Beewort
 - Myrtle Grass
+- Sweet Sedge
+- Vacha
+- Gladdon
+- Cinnamon Sedge
+- Grassroot
+- Muskrat Root
 
-### What are its regional variations?
+### What are the regional variations of Acorus calamus?
 
-This plant has several regional variations (subspecies), like **American sweet flag**, **European sweet flag**, and **Narrow-leaved sweet flag**.
+The regional variations (subspecies) of this plant are **American sweet flag**, **European sweet flag**, and **Narrow-leaved sweet flag**.
 
-Here's a list of some subspecies (subsp.) of this plant.
+In the following list, you can find the most common variations of A. calamus, their unique characteristics, and their main regional location.
 
 - **American sweet flag**:  Found in North America, particularly in wetlands and marshy areas. It is a native species in parts of the United States and Canada.
 - **European sweet flag**:  Native to Europe and parts of Asia. It has been used historically for medicinal and aromatic purposes.

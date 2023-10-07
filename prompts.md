@@ -3,7 +3,11 @@ what is the botanical name of [yarrow]?
 what is the classification of [yarrow]?
 (what is the classification of [yarrow] by the traditional taxonomy?)
 
+what are the common names of [latin_name]?
+    give a brief description for each name
 
+- what are the variations of [latin_name]? give me only the names and order them by popularity
+    - ok. now give a brief description for each name. the descriptions must be brief, must tell something unique about that variation, and must tell in which regions are most common.
 
 
 
@@ -95,3 +99,42 @@ Order: Asterales
 Family: Asteraceae (Compositae)
 Genus: Achillea
 Species: Achillea millefolium
+
+
+
+what are the variations of [latin_name]? give me only the names and order them by popularity
+
+Achillea millefolium 'Paprika'
+Achillea millefolium 'Moonshine'
+Achillea millefolium 'Apple Blossom'
+Achillea millefolium 'Cerise Queen'
+Achillea millefolium 'Saucy Seduction'
+Achillea millefolium 'Strawberry Seduction'
+Achillea millefolium 'Fire King'
+Achillea millefolium 'Red Velvet'
+Achillea millefolium 'Terracotta'
+Achillea millefolium 'Summer Pastels'
+
+
+
+ok. now give a brief description for each name. the descriptions must be brief, must tell something unique about that variation, and must tell in which regions are most common.
+
+Achillea millefolium 'Paprika': Known for its fiery red flowers resembling the spice, 'Paprika' is popular in North America and Europe for its vibrant color.
+
+Achillea millefolium 'Moonshine': 'Moonshine' features distinctive lemon-yellow flower clusters and is widely grown in North America for its bright appearance.
+
+Achillea millefolium 'Apple Blossom': This variety showcases soft pink blooms reminiscent of apple blossoms and is commonly seen in gardens across Europe.
+
+Achillea millefolium 'Cerise Queen': 'Cerise Queen' boasts striking cerise-pink flowers and is favored in gardens throughout North America and Europe.
+
+Achillea millefolium 'Saucy Seduction': Notable for its deep red flowers, 'Saucy Seduction' is a popular choice in North American gardens.
+
+Achillea millefolium 'Strawberry Seduction': Featuring strawberry-red blooms, this variety is well-loved in North America for its charming appearance.
+
+Achillea millefolium 'Fire King': 'Fire King' is cherished for its vibrant orange-red flowers and can be found in gardens in North America.
+
+Achillea millefolium 'Red Velvet': 'Red Velvet' stands out with its rich, velvety-red flowers and is grown in gardens across North America.
+
+Achillea millefolium 'Terracotta': This variety has unique terracotta-colored blooms and is commonly cultivated in Europe for its warm hues.
+
+Achillea millefolium 'Summer Pastels': 'Summer Pastels' offers a mix of soft, pastel-colored flowers and is popular in North American and European gardens for its gentle, multicolored display.

@@ -2,53 +2,61 @@
 
 ![alt](/assets/images/achillea-millefolium.jpg "title")
 
-## What is the classification of Yarrow?
+## What is the botanical classification of Yarrow?
 
-Yarrow (Achillea millefolium), is a plant that belong to the Asteraceae family.
 
-The following illustration shows you this classificaion visually.
+ Yarrow, with botanical name of **Achillea millefolium** (A. millefolium), is a plant that belongs to the **Asteraceae** family and the **Achillea** genus.
 
-![alt](/assets/images/achillea-millefolium-taxonomy.jpg "title")
+ According to traditional classification (taxonomy), this plant is classified under the **Asterales** order, the **Eudicots** class, and the **Plantae** kingdom (in the Eukarya domain).
+ 
 
-Right below you can find the full classification (taxonomy) of this plant.
+Here is a list showing the full taxonomy of A. millefolium, in hierarchical order.
 
-- **Domain**:  Eukarya
-- **Kingdom**:  Plantae
-- **Phylum**:  Angiosperms
-- **Class**:  Eudicots
-- **Order**:  Asterales
-- **Family**:  Asteraceae
-- **Genus**:  Achillea
-- **Species**:  millefolium
+- Domain: Eukarya
+- Kingdom: Plantae
+- Phylum: Angiosperms
+- Class: Eudicots
+- Order: Asterales
+- Family: Asteraceae
+- Genus: Achillea
+- Species: millefolium
 
-### What are its common names?
+### What are the common names of Achillea millefolium?
 
-The most frequent common names for this plant are **Yarrow** and **Milfoil**.
+The most common name for this plant is **Yarrow**, but other common names are **Common Yarrow** and **Milfoil**.
 
-Here is a list of the common names of this plant and a brief description of each name.
+Here is a list of the most common names of A. millefolium ordered by popularity, with a brief description of each name.
 
-- **Yarrow**:  The most commonly used name for Achillea millefolium, yarrow is a hardy, perennial herb known for its finely divided, fern-like leaves and clusters of small, white or pink flowers. It has a long history of medicinal and culinary uses.
-- **Milfoil**:  A name derived from the Latin "millefolium", meaning "thousand leaves", highlighting the plant's deeply divided foliage.
-- **Nosebleed Plant**:  Yarrow earned this name due to its traditional use in treating nosebleeds. The plant's dried leaves were placed in the nostrils to stop bleeding.
-- **Thousand-leaf**:  Referring to the finely divided and feathery appearance of yarrow's leaves.
-- **Soldier's Woundwort**:  Historically, yarrow was used to treat wounds on the battlefield. The name "woundwort" reflects its traditional use for this purpose.
-- **Gordaldo**:  This name has its origins in medieval Europe, where yarrow was known as "gordolat" or "gordaloque."
-- **Staunchweed**:  Another name indicating yarrow's use as a hemostatic agent to staunch bleeding.
+- **Yarrow**:  The most commonly used name for the plant, "yarrow" is a straightforward reference to the species.
+- **Common Yarrow**:  Similar to "yarrow," this name indicates that it's the most widespread and well-known species of yarrow.
+- **Milfoil**:  This name comes from the plant's finely divided leaves, which resemble a thousand tiny leaves or "millefolium" in Latin.
+- **Thousand-Leaf**:  A direct translation of "millefolium," this name describes the plant's feathery, finely divided leaves.
+- **Soldier's Woundwort**:  Reflects the historical use of yarrow to treat wounds, particularly on soldiers in battle.
+- **Nosebleed Plant**:  Yarrow was traditionally used to stop nosebleeds by stuffing the leaves into the nostrils.
+- **Bloodwort**:  Suggests its traditional use for staunching bleeding wounds.
+- **Old Man's Pepper**:  May refer to the plant's spicy aroma or its use as a seasoning in traditional cooking.
+- **Staunchweed**:  Indicates its historical use for stopping bleeding.
+- **Sanguinary**:  This name also relates to its use in treating bleeding and wounds.
+- **Devil's Nettle**:  Likely due to the feathery, nettle-like leaves, though it is not related to true nettles.
+- **Knight's Milfoil**:  Possibly associated with its use in treating wounds suffered by knights in medieval times.
+- **Carpenter's Weed**:  Suggests its use among carpenters for its potential healing properties, particularly for minor cuts and wounds.
 
-### What are its regional variations?
+### What are the regional variations of Achillea millefolium?
 
-This plant has several regional variations (subspecies), like **Eurasian Yarrow**, **Giant Yarrow**, and **California Yarrow**.
+The regional variations (subspecies) of this plant are **Paprika**, **Moonshine**, and **Apple Blossom**.
 
-Here's a list of some subspecies (subsp.) of this plant.
+In the following list, you can find the most common variations of A. millefolium, their unique characteristics, and their main regional location.
 
-- **Eurasian Yarrow**:  This is the most common and widely distributed subspecies of Achillea millefolium. It is native to Europe and Asia and has naturalized in other regions, including North America. It typically has white to pink flowers and finely divided, fern-like leaves.
-- **Giant Yarrow**:  This subspecies is native to North America and is characterized by its larger size compared to the Eurasian subspecies. It often has white or cream-colored flowers and can grow up to 3-4 feet in height.
-- **California Yarrow**:  Found in California and adjacent regions of the United States, this subspecies is adapted to dry, Mediterranean climates. It has gray-green foliage and white to pink flowers.
-- **Boreal Yarrow**:  Native to northern regions of North America, this subspecies is adapted to cold climates and has a more compact growth habit. It typically has white or pale pink flowers.
-- **Alpine Yarrow**:  Found in alpine and subalpine regions of Europe, this subspecies is adapted to high-altitude environments and often has smaller, more compact growth with white or pink flowers.
-- **Red Yarrow**:  This subspecies is known for its deep red or magenta-colored flowers. It can be found in various regions and is often cultivated for its ornamental value.
-- **Sudeten Yarrow**:  Native to the Sudeten Mountains in Europe, this subspecies is adapted to mountainous regions and has pink to purple flowers.
-- **Dentate Yarrow**:  This subspecies is native to the Mediterranean region and is known for its toothed or serrated leaf margins.
+- **Paprika**:  Known for its fiery red flowers resembling the spice, Paprika is popular in North America and Europe for its vibrant color.
+- **Moonshine**:  Moonshine features distinctive lemon-yellow flower clusters and is widely grown in North America for its bright appearance.
+- **Apple Blossom**:  This variety showcases soft pink blooms reminiscent of apple blossoms and is commonly seen in gardens across Europe.
+- **Cerise Queen**:  Cerise Queen boasts striking cerise-pink flowers and is favored in gardens throughout North America and Europe.
+- **Saucy Seduction**:  Notable for its deep red flowers, Saucy Seduction is a popular choice in North American gardens.
+- **Strawberry Seduction**:  Featuring strawberry-red blooms, this variety is well-loved in North America for its charming appearance.
+- **Fire King**:  Fire King is cherished for its vibrant orange-red flowers and can be found in gardens in North America.
+- **Red Velvet**:  Red Velvet stands out with its rich, velvety-red flowers and is grown in gardens across North America.
+- **Terracotta**:  This variety has unique terracotta-colored blooms and is commonly cultivated in Europe for its warm hues.
+- **Summer Pastels**:  Summer Pastels offers a mix of soft, pastel-colored flowers and is popular in North American and European gardens for its gentle, multicolored display.
 
 ## Where does Achillea millefolium grow?
 
