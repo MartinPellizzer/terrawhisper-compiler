@@ -6,19 +6,17 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor
 import math
 import re
 
-import matplotlib.pyplot as plt
-from wordcloud import WordCloud, STOPWORDS
 
 
-with open("database.json", encoding='utf-8') as f:
-    data = json.loads(f.read())
+with open("database/growing_zones.json", encoding='utf-8') as f:
+    growing_zones_data = json.loads(f.read())
 
 def lst_to_txt(lst):
     txt = ''
     if len(lst) == 0: txt = ''
     elif len(lst) == 1: txt = lst[0]
-    elif len(lst) == 2: txt = f'{lst[0]} e {lst[1]}'
-    else: txt = f'{", ".join(lst[:-1])} e {lst[-1]}'
+    elif len(lst) == 2: txt = f'{lst[0]} and {lst[1]}'
+    else: txt = f'{", ".join(lst[:-1])} and {lst[-1]}'
     return txt
 
 
@@ -43,7 +41,6 @@ def bold_blt(lst):
 def generate_toc(content_html):
     table_of_contents_html = ''
 
-    # get list of headers and generate IDs
     headers = []
     content_html_with_ids = ''
     current_id = 0
@@ -113,7 +110,6 @@ def generate_toc(content_html):
     for line in content_html_with_ids.split('\n'):
         if not toc_inserted:
             if '<h2' in line:
-                # print(line)
                 toc_inserted = True
                 content_html_formatted += table_of_contents_html
                 content_html_formatted += line
@@ -156,7 +152,7 @@ def img_resize(image_path):
     )
     img = img.crop(area)
 
-    output_path = f'public/assets/images/{"-".join(image_path.split("/")[1:])}'
+    output_path = f'website/assets/images/{"-".join(image_path.split("/")[1:])}'
     img.save(f'{output_path}')
 
     return output_path
@@ -270,7 +266,7 @@ def img_taxonomy(item):
     draw.polygon([(cord_list[13][0], cord_list[13][1] - arrow_point_size), (cord_list[13][0] + arrow_point_size, cord_list[13][1]), (cord_list[13][0], cord_list[13][1] + arrow_point_size)], fill='#ffffff')
 
     output_filename = latin_name.lower().replace(' ', '-')
-    output_path = f'public/assets/images/{output_filename}-taxonomy.jpg'
+    output_path = f'website/assets/images/{output_filename}-taxonomy.jpg'
     
     # img.show()
     img.save(f'{output_path}', format='JPEG', subsampling=0, quality=100)
@@ -336,7 +332,7 @@ def img_cycle_of_life(item):
         h//2 - line_h//2 - circle_radius + int(icon_circle_radius*1.6)), line, fg_color, font=font)
 
     output_filename = latin_name.lower().replace(' ', '-')
-    output_path = f'public/assets/images/{output_filename}-cycle-of-life.jpg'
+    output_path = f'website/assets/images/{output_filename}-cycle-of-life.jpg'
 
     img.thumbnail((w//resampler, h//resampler), Image.Resampling.LANCZOS)
     
@@ -454,550 +450,563 @@ def img_cheasheet(latin_name, title, lst, img_name):
 
     
     output_filename = latin_name.lower().replace(' ', '-')
-    output_path = f'public/assets/images/{output_filename}-{img_name}.jpg'
+    output_path = f'website/assets/images/{output_filename}-{img_name}.jpg'
     img.save(f'{output_path}', format='JPEG', subsampling=0, quality=100)
 
     return output_path
+
 
 
 ######################################################################
 # FOLDERS
 ######################################################################
 
-def generate_folders():
-    shutil.rmtree('articles')
-    shutil.rmtree('public')
+articles_folder = 'database/articles/'
+articles_files = os.listdir(articles_folder)
 
-    for item in data:
-        domain = item['domain'].lower()
-        kingdom = item['kingdom'].lower()
-        phylum = item['phylum'].lower()
-        _class = item['class'].lower()
-        order = item['order'].lower()
-        family = item['family'].lower()
-        genus = item['genus'].lower()
-        species = item['species'].lower()
+try: shutil.rmtree('articles')
+except: pass
+try: shutil.rmtree('website')
+except: pass
 
-        # try: os.mkdir(f'articles/{domain}')
-        # except: pass
-        # try: os.mkdir(f'articles/{domain}/{kingdom}')
-        # except: pass
-        # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}')
-        # except: pass
-        # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}')
-        # except: pass
-        # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}')
-        # except: pass
-        # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}')
-        # except: pass
-        # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}')
-        # except: pass
-        
-        try: os.mkdir(f'articles')
-        except: pass
-        try: os.mkdir(f'articles/{kingdom}')
-        except: pass
-        try: os.mkdir(f'articles/{kingdom}/{phylum}')
-        except: pass
-        try: os.mkdir(f'articles/{kingdom}/{phylum}/{_class}')
-        except: pass
-        try: os.mkdir(f'articles/{kingdom}/{phylum}/{_class}/{order}')
-        except: pass
-        try: os.mkdir(f'articles/{kingdom}/{phylum}/{_class}/{order}/{family}')
-        except: pass
-        try: os.mkdir(f'articles/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}')
-        except: pass
+try: os.mkdir(f'articles')
+except: pass
+try: os.mkdir(f'website')
+except: pass
 
-        # try: os.mkdir(f'public/{domain}')
-        # except: pass
-        # try: os.mkdir(f'public/{domain}/{kingdom}')
-        # except: pass
-        # try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}')
-        # except: pass
-        # try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}/{_class}')
-        # except: pass
-        # try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}/{_class}/{order}')
-        # except: pass
-        # try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}')
-        # except: pass
-        # try: os.mkdir(f'public/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}')
-        # except: pass
-        # try: os.mkdir(f'public/assets')
-        # except: pass
-        # try: os.mkdir(f'public/assets/images')
-        # except: pass
-        
-        try: os.mkdir(f'public')
-        except: pass
-        try: os.mkdir(f'public/{kingdom}')
-        except: pass
-        try: os.mkdir(f'public/{kingdom}/{phylum}')
-        except: pass
-        try: os.mkdir(f'public/{kingdom}/{phylum}/{_class}')
-        except: pass
-        try: os.mkdir(f'public/{kingdom}/{phylum}/{_class}/{order}')
-        except: pass
-        try: os.mkdir(f'public/{kingdom}/{phylum}/{_class}/{order}/{family}')
-        except: pass
-        try: os.mkdir(f'public/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}')
-        except: pass
-        try: os.mkdir(f'public/assets')
-        except: pass
-        try: os.mkdir(f'public/assets/images')
-        except: pass
-
-
-generate_folders()
+try: os.mkdir(f'website/assets')
+except: pass
+try: os.mkdir(f'website/assets/images')
+except: pass
 
 
 
 articles_home = []
 
-for item in data:
-    article = ''
-    
-    domain = item['domain']
-    kingdom = item['kingdom']
-    phylum = item['phylum']
-    _class = item['class']
-    order = item['order']
-    family = item['family']
-    genus = item['genus']
-    species = item['species']
+for f in articles_files:
+    article_path = 'database/articles/' + f
 
-    most_common_name = item['common_names'][0].split(':')[0].lower()
-    most_common_name_1 = item['common_names'][0].split(':')[0].lower()
-    most_common_name_2 = item['common_names'][1].split(':')[0].lower()
-    most_common_name_3 = item['common_names'][2].split(':')[0].lower()
-    latin_name = f'{genus} {species}'
-    latin_name_abb = f'{genus[0]}. {species}'
+    with open(article_path, encoding='utf-8') as f:
+        data = json.loads(f.read())
 
-    common_names = item['common_names']
-    regional_variations = item['regional_variations']
-    
-    distribution_table = item['distribution_table']
-    distribution = item['distribution']
-    
-    habitat = item['habitat']
-    morphology = item['morphology']
-    life_cycle = item['life_cycle']
-    reproduction = item['reproduction']
+    for item in data:
 
-    history = item['history']
-    history_medicinal_uses = item['history_medicinal_uses']
-    history_culinary_uses = item['history_culinary_uses']
-    history_spiritual_uses = item['history_spiritual_uses']
+        entity_name = item["latin_name"].lower().replace(' ', '-')
+        attribute_name = item["type"].lower().replace(' ', '-')
+
+        try: os.mkdir(f'articles/{entity_name}')
+        except: pass
+        try: os.mkdir(f'articles/{entity_name}/{attribute_name}')
+        except: pass
+
+        try: os.mkdir(f'website/{entity_name}')
+        except: pass
+        # try: os.mkdir(f'website/{entity_name}/{attribute_name}')
+        # except: pass
+
+        article = ''
+
+        domain = item['domain']
         
-    culinary_uses = item['culinary_uses']
-    beverage_uses = item['beverage_uses']
-    sensory_characteristics = item['sensory_characteristics']
-    
-    horticultural_cultivation = item['horticultural_cultivation']
-    environmental_requirements = item['environmental_requirements']
-    pests = item['pests']
-    diseases = item['diseases']
+        _type = item['type']
+        domain = item['domain']
+        kingdom = item['kingdom']
+        phylum = item['phylum']
+        _class = item['class']
+        order = item['order']
+        family = item['family']
+        genus = item['genus']
+        species = item['species']
 
-    #######################################################################################################
-    # TITLE
-    #######################################################################################################
-    article += f'# {most_common_name.title()} ({latin_name}): A Botanical, Medicinal and Culinary Guide\n\n'
+        most_common_name = item['common_names'][0].split(':')[0].lower()
+        most_common_name_1 = item['common_names'][0].split(':')[0].lower()
+        most_common_name_2 = item['common_names'][1].split(':')[0].lower()
+        most_common_name_3 = item['common_names'][2].split(':')[0].lower()
+        latin_name = f'{genus} {species}'
+        latin_name_abb = f'{genus[0]}. {species}'
 
-    featured_image_filename = latin_name.lower().replace(' ', '-') + '.jpg'
-    featured_image_filpath = img_resize(f'articles-images/{featured_image_filename}')
-    featured_image_filpath = '/' + '/'.join(featured_image_filpath.split('/')[1:])
-    article += f'![alt]({featured_image_filpath} "title")\n\n'
+        common_names = item['common_names']
+        regional_variations = item['regional_variations']
+        
+        distribution = item['distribution']
+        
+        habitat = item['habitat']
+        morphology = item['morphology']
+        life_cycle = item['life_cycle']
+        reproduction = item['reproduction']
 
+        history = item['history']
+        history_medicinal_uses = item['history_medicinal_uses']
+        history_culinary_uses = item['history_culinary_uses']
+        history_spiritual_uses = item['history_spiritual_uses']
+            
+        culinary_uses = item['culinary_uses']
+        beverage_uses = item['beverage_uses']
+        sensory_characteristics = item['sensory_characteristics']
+        
+        horticultural_cultivation = item['horticultural_cultivation']
+        environmental_requirements = item['environmental_requirements']
+        pests = item['pests']
+        diseases = item['diseases']
 
-    #######################################################################################################
-    # TAXONOMY/CLASSIFICATION
-    #######################################################################################################
-    # article += f'## What is the classification (taxonomy) of {most_common_name}?\n\n'
-    article += f'## What is the botanical classification of {most_common_name}?\n\n'
-    line = f'''
-        {most_common_name.title()}, with botanical name of **{latin_name}** ({latin_name_abb}), is a plant that belongs to the **{family}** family and the **{genus}** genus.
+        
+        #######################################################################################################
+        #######################################################################################################
+        #######################################################################################################
+        # BOTANY
+        #######################################################################################################
+        #######################################################################################################
+        #######################################################################################################
+        if _type.lower() == 'botany':
 
-        According to traditional classification (taxonomy), this plant is classified under the **{order}** order, the **{_class}** class, and the **{kingdom}** kingdom (in the {domain} domain).
-    \n\n'''
-    article += re.sub(' +', ' ', line)
+            #######################################################################################################
+            # TITLE
+            #######################################################################################################
+            article += f'# {latin_name.title()} ({most_common_name.title()}) Botanical Guide\n\n'
 
-    lst = []
-    lst_taxonomy = []
-    lst_taxonomy.append(f'Domain: {domain}')
-    lst_taxonomy.append(f'Kingdom: {kingdom}')
-    lst_taxonomy.append(f'Phylum: {phylum}')
-    lst_taxonomy.append(f'Class: {_class}')
-    lst_taxonomy.append(f'Order: {order}')
-    lst_taxonomy.append(f'Family: {family}')
-    lst_taxonomy.append(f'Genus: {genus}')
-    lst_taxonomy.append(f'Species: {species}')
-    lst_taxonomy.insert(0, 'Taxonomy')
-    lst.append(lst_taxonomy)
-
-    lst_common_names = [x.split(':')[0] for x in common_names]
-    lst_common_names.insert(0, 'Common Names')
-    lst.append(lst_common_names)
-
-    lst_regional_variations = [item.split(':')[0] for item in regional_variations]
-    lst_regional_variations.insert(0, 'Regional Variations')
-    lst.append(lst_regional_variations)
-
-    # CHEAT SHEET
-    # img_path = img_cheasheet(latin_name, 'Classification and Variations of', lst, 'taxonomy')
-    # img_path = '/' + '/'.join(img_path.split('/')[1:])
-    # article += f'The following illustration shows you this classificaion visually.\n\n'
-    # article += f'![alt]({img_path} "title")\n\n'
-
-    # TAXONOMY
-    lst_taxonomy.pop(0)
-    article += f'Here is a list showing the full taxonomy of {latin_name_abb}, in hierarchical order.\n\n'
-    article += lst_to_blt(lst_taxonomy)
-    article += '\n\n'
-
-    # COMMON NAMES
-    article += f'### What are the common names of {latin_name}?\n\n'
-    article += f'The most common name for this plant is **{most_common_name_1.title()}**, but other common names are **{most_common_name_2.title()}** and **{most_common_name_3.title()}**.\n\n'
-    article += f'Here is a list of the most common names of {latin_name_abb} ordered by popularity, with a brief description of each name.\n\n'
-    bld = bold_blt(common_names)
-    article += lst_to_blt(bld)
-    article += '\n\n'
-
-    # REGIONAL VARIATIONS
-    names = [item.split(':')[0] for item in regional_variations]
-    intro = ''
-    intro += f'**{names[0].split("(")[0].strip()}**, **{names[1].split("(")[0].strip()}**, and **{names[2].split("(")[0].strip()}**'
-    article += f'### What are the regional variations of {latin_name}?\n\n'
-    article += f'The regional variations (subspecies) of this plant are {intro}.\n\n'
-    article += f'In the following list, you can find the most common variations of {latin_name_abb}, their unique characteristics, and their main regional location.\n\n'
-    regional_variations = [variation for variation in regional_variations]
-    bld = bold_blt(regional_variations)
-    article += lst_to_blt(bld)
-    article += '\n\n'
+            featured_image_filename = latin_name.lower().replace(' ', '-') + '.jpg'
+            featured_image_filpath = img_resize(f'articles-images/{featured_image_filename}')
+            featured_image_filpath = '/' + '/'.join(featured_image_filpath.split('/')[1:])
+            article += f'![alt]({featured_image_filpath} "title")\n\n'
 
 
-    #######################################################################################################
-    # DISTRIBUTION/HABITAT
-    #######################################################################################################
-    article += f'## What is the regional distribution of {most_common_name}?\n\n'
+            #######################################################################################################
+            # TAXONOMY/CLASSIFICATION
+            #######################################################################################################
+            # article += f'## What is the classification (taxonomy) of {most_common_name}?\n\n'
+            article += f'## What is the botanical classification of {most_common_name}?\n\n'
+            line = f'''
+                {most_common_name.title()}, with botanical name of **{latin_name}** ({latin_name_abb}), is a plant that belongs to the **{family}** family and the **{genus}** genus.
 
-    # REGIONAL DISTRIBUTION
-    # regional_distribution_section = item['regional_distribution_section']
-    # for paragraph in regional_distribution_section:
-    #     article += f'{paragraph}\n\n'
+                According to traditional classification (taxonomy), this plant is classified under the **{order}** order, the **{_class}** class, and the **{kingdom}** kingdom (in the {domain} domain).
+            \n\n'''
+            article += re.sub(' +', ' ', line)
 
-    regional_distribution = item['regional_distribution']
-    lst = [x.split(':')[0] for x in regional_distribution]
-    lst_bld = [f'**{x.split(":")[0]}**' for x in regional_distribution]
-    ltt_1 = lst_to_txt(lst_bld[:2])
-    ltt_2 = lst_to_txt(lst[2:-1])
-    article += f'{most_common_name.title()} is mostly present in {ltt_1}, but can also be found in {ltt_2}.\n\n'
-    article += f'The list below gives more details on the distribution of this plant in these regions.\n\n'
-    bld = bold_blt(regional_distribution)
-    article += lst_to_blt(bld)
-    article += '\n\n'
+            lst = []
+            lst_taxonomy = []
+            lst_taxonomy.append(f'Domain: {domain}')
+            lst_taxonomy.append(f'Kingdom: {kingdom}')
+            lst_taxonomy.append(f'Phylum: {phylum}')
+            lst_taxonomy.append(f'Class: {_class}')
+            lst_taxonomy.append(f'Order: {order}')
+            lst_taxonomy.append(f'Family: {family}')
+            lst_taxonomy.append(f'Genus: {genus}')
+            lst_taxonomy.append(f'Species: {species}')
+            lst_taxonomy.insert(0, 'Taxonomy')
+            lst.append(lst_taxonomy)
 
-    # article += f'In the following table, you can find the estimated distribution of this plant in each continent (ordered from highest to lowest).\n\n'
+            lst_common_names = [x.split(':')[0] for x in common_names]
+            lst_common_names.insert(0, 'Common Names')
+            lst.append(lst_common_names)
 
-    # article += f'| Continent | Estimated Distribution |\n'
-    # article += f'| --- | --- |\n'
-    # for row in distribution_table:
-    #     if int(row[1]) >= 7: value = 'Abundant' 
-    #     elif int(row[1]) >= 4: value = 'Common' 
-    #     else: value = 'Scarce' 
-    #     article += f'| {row[0]} | {value} |\n'
-    # article += '\n'
+            lst_regional_variations = [item.split(':')[0] for item in regional_variations]
+            lst_regional_variations.insert(0, 'Regional Variations')
+            lst.append(lst_regional_variations)
 
-    # article += f'Here\'s a list of the regional distribution of this plant.\n\n'
-    # bld = bold_blt(distribution)
-    # article += lst_to_blt(bld)
-    # article += '\n\n'
+            # CHEAT SHEET
+            # img_path = img_cheasheet(latin_name, 'Classification and Variations of', lst, 'taxonomy')
+            # img_path = '/' + '/'.join(img_path.split('/')[1:])
+            # article += f'The following illustration shows you this classificaion visually.\n\n'
+            # article += f'![alt]({img_path} "title")\n\n'
 
-    # HABITAT
-    names = [item.split(':')[0] for item in habitat]
-    intro = f'**{names[0].lower()}**, **{names[1].lower()}**, and **{names[2].lower()}**'
-    article += f'### What\'s its favorite habitat?\n\n'
-    article += f'This plant mainly grows in {intro}, but it can be also found in many other places.\n\n'
-    article += f'Here\'s a list of the habitats that this plant prefers.\n\n'
-    bld = bold_blt(habitat)
-    article += lst_to_blt(bld)
-    article += '\n\n'
+            # TAXONOMY
+            lst_taxonomy.pop(0)
+            article += f'Here is a list showing the full taxonomy of {latin_name_abb}, in hierarchical order.\n\n'
+            article += lst_to_blt(lst_taxonomy)
+            article += '\n\n'
 
-    #######################################################################################################
-    # BOTANICAL CHARACTERISTICS
-    #######################################################################################################
-    article += f'## What are the botanical characteristics of {latin_name}?\n\n'
+            # COMMON NAMES
+            article += f'### What are the common names of {latin_name}?\n\n'
+            article += f'The most common name for this plant is **{most_common_name_1.title()}**, but other common names are **{most_common_name_2.title()}** and **{most_common_name_3.title()}**.\n\n'
+            article += f'Here is a list of the most common names of {latin_name_abb} ordered by popularity, with a brief description of each name.\n\n'
+            bld = bold_blt(common_names)
+            article += lst_to_blt(bld)
+            article += '\n\n'
+
+            # REGIONAL VARIATIONS
+            names = [item.split(':')[0] for item in regional_variations]
+            intro = ''
+            intro += f'**{names[0].split("(")[0].strip()}**, **{names[1].split("(")[0].strip()}**, and **{names[2].split("(")[0].strip()}**'
+            article += f'### What are the regional variations of {latin_name}?\n\n'
+            article += f'The most common regional variations (subspecies) of this plant are {intro}.\n\n'
+            article += f'In the following list, you can find a more extensive list of common variations of {latin_name_abb}, with a brief description of their unique characteristics and their main regional location.\n\n'
+            regional_variations = [variation for variation in regional_variations]
+            bld = bold_blt(regional_variations)
+            article += lst_to_blt(bld)
+            article += '\n\n'
+
+            #######################################################################################################
+            # MORPHOLOGY
+            #######################################################################################################
+            article += f'## What is the morphology of {latin_name_abb}?\n\n'
+            article += '\n\n'.join([x for x in item['botany_morphology_intro']]) + '\n\n'
+            article += f'### Roots\n\n'
+            article += lst_to_blt(bold_blt(item['botany_morphology_roots'])) + '\n\n'
+            article += f'### Stems\n\n'
+            article += lst_to_blt(bold_blt(item['botany_morphology_stems'])) + '\n\n'
+            article += f'### Leaves\n\n'
+            article += lst_to_blt(bold_blt(item['botany_morphology_leaves'])) + '\n\n'
+            article += f'### Flowers\n\n'
+            article += lst_to_blt(bold_blt(item['botany_morphology_flowers'])) + '\n\n'
+            article += f'### Fruits\n\n'
+            article += lst_to_blt(bold_blt(item['botany_morphology_fruits'])) + '\n\n'
+            article += f'### Seeds\n\n'
+            article += lst_to_blt(bold_blt(item['botany_morphology_seeds'])) + '\n\n'
+            
 
 
-    # CHEAT SHEET
-    lst = []
-    tmp_lst = [f'{x.split(":")[0]}' for x in morphology]
-    tmp_lst.insert(0, 'Morphology')
-    lst.append(tmp_lst)
-    tmp_lst = [f'{x.split(":")[0]}' for x in life_cycle]
-    tmp_lst.insert(0, 'Life Cycle')
-    lst.append(tmp_lst)
-    tmp_lst = [f'{x.split(":")[0]}' for x in reproduction]
-    tmp_lst.insert(0, 'Reproduction')
-    lst.append(tmp_lst)
+            #######################################################################################################
+            # DISTRIBUTION/HABITAT
+            #######################################################################################################
+            article += f'## What is the regional distribution of {most_common_name}?\n\n'
 
-    img_path = img_cheasheet(latin_name, 'Botanical Properties of', lst, 'botanical-characteristics')
-    img_path = '/' + '/'.join(img_path.split('/')[1:])
-    article += f'The following illustration shows you this classificaion visually.\n\n'
-    article += f'![alt]({img_path} "title")\n\n'
-    
-    
-    # MORPHOLOGY
-    article += f'### Morphology\n\n'
-    lst = [item.split(':')[0].lower() for item in morphology]
-    intro = lst_to_txt(lst)
-    article += f'This plant is composed of {intro}.\n\n'
-    article += f'Here\'s a brief description of each part.\n\n'
-    bld = bold_blt(morphology)
-    article += lst_to_blt(bld)
-    article += '\n\n'
-
-    # LIFE CYCLE
-    article += f'### Life cycle\n\n'
-    lst = [item.split(':')[0].lower() for item in life_cycle]
-    intro = lst_to_txt(lst)
-    article += f'The life cycle phases of this plant are {intro}.\n\n'
-    article += f'Here\'s a brief description of each phase.\n\n'
-    bld = bold_blt(life_cycle)
-    article += lst_to_blt(bld)
-    article += '\n\n'
-
-    # REPRODUCTION
-    article += f'### Reproduction\n\n'
-    article += f'Here\'s listed the different ways {most_common_name} reproduce and propagate.\n\n'
-    bld = bold_blt(reproduction)
-    article += lst_to_blt(bld)
-    article += '\n\n'
-
-    
-    ##################################################################################################
-    # HISTORICAL USES
-    ##################################################################################################
-    article += f'## What are the historical uses of {latin_name}?\n\n'
-
-    # ### HISTORY ETHNOBOTANICAL USES
-    # article += f'### What is the ethnobotanical history of {most_common_name}?\n\n'
-    # article += f'Here\'s listed some ethnobotanical history references about {most_common_name}.\n\n'
-    # bld = bold_blt(history)
-    # article += lst_to_blt(bld)
-    # article += '\n\n'
-    
-    # CHEAT SHEET
-    lst = []
-    tmp_lst = [f'{x.split(":")[0]}' for x in history_medicinal_uses]
-    tmp_lst.insert(0, 'Medicinal Uses')
-    lst.append(tmp_lst)
-    tmp_lst = [f'{x.split(":")[0]}' for x in history_culinary_uses]
-    tmp_lst.insert(0, 'Culinary Uses')
-    lst.append(tmp_lst)
-    tmp_lst = [f'{x.split(":")[0]}' for x in history_spiritual_uses]
-    tmp_lst.insert(0, 'Spiritual Uses')
-    lst.append(tmp_lst)
-
-    img_path = img_cheasheet(latin_name, 'Historical Uses of', lst, 'historical-uses')
-    img_path = '/' + '/'.join(img_path.split('/')[1:])
-    article += f'The following illustration shows you this classificaion visually.\n\n'
-    article += f'![alt]({img_path} "title")\n\n'
-    
-    # MEDICINAL USES
-    article += f'### Medical Uses\n\n'
-    article += f'Here\'s listed some medicinal uses of this plant in ancient cultures.\n\n'
-    bld = bold_blt(history_medicinal_uses)
-    article += lst_to_blt(bld)
-    article += '\n\n'
-    
-    # CULINARY USES
-    article += f'### Culinary Uses\n\n'
-    article += f'Here\'s listed some culinary uses of this plant in ancient cultures.\n\n'
-    bld = bold_blt(history_culinary_uses)
-    article += lst_to_blt(bld)
-    article += '\n\n'
-    
-    # SPIRITUAL USES
-    article += f'### Spiritual Uses\n\n'
-    article += f'Here\'s listed some spiritual uses of this plant in ancient cultures.\n\n'
-    bld = bold_blt(history_spiritual_uses)
-    article += lst_to_blt(bld)
-    article += '\n\n'
+            regional_distribution = item['regional_distribution']
+            lst = [x.split(':')[0] for x in regional_distribution]
+            lst_bld = [f'**{x.split(":")[0]}**' for x in regional_distribution]
+            ltt_1 = lst_to_txt(lst_bld[:2])
+            ltt_2 = lst_to_txt(lst[2:-1])
+            article += f'{most_common_name.title()} is mainly found in {ltt_1}, but it can also be found in {ltt_2}.\n\n'
+            article += f'The list below gives more details on the distribution of this plant in these regions.\n\n'
+            bld = bold_blt(regional_distribution)
+            article += lst_to_blt(bld)
+            article += '\n\n'
 
 
 
-    ##################################################################################################
-    # COMPOSITION
-    ##################################################################################################
-    article += f'## What is the chemical composition of this plant?\n\n'
-    article += f'### Phytochemicals\n\n'
-    article += f'Here\'s a list of the phytochemicals.\n\n'
-    bld = bold_blt(item['phytochemicals'])
-    article += lst_to_blt(bld)
-    article += '\n\n'
+            # HABITAT
+            ltt_1 = lst_to_txt([f"**{item.split(':')[0].lower()}**" for item in habitat][:3])
+            ltt_2 = lst_to_txt([f"{item.split(':')[0].lower()}" for item in habitat][3:-1])
+            article += f'### What are the preferred habitats for {most_common_name}?\n\n'
+            article += f'The best habitats for {most_common_name} are {ltt_1}, but it can be also found in {ltt_2}.\n\n'
+            article += f'The list below gives more details about these habitats and why {most_common_name} prefers them.\n\n'
+            bld = bold_blt(habitat)
+            article += lst_to_blt(bld)
+            article += '\n\n'
+            
+
+
+            # GROWING ZONES
+            growing_zones = item['growing_zones']
+            gz_range = growing_zones.split('-')
+            gz_lst = [i for i in range(int(gz_range[0]), int(gz_range[1])+1)]
+            lst = []
+            for gz in gz_lst:
+                for x in growing_zones_data:
+                    if x['zone'] == gz:
+                        zone = x['zone']
+                        temp_fahrenheit_from = x["temperature_from"]
+                        temp_fahrenheit_to = x["temperature_to"]
+                        temp_celsius_from = round((temp_fahrenheit_from - 32) * 5/9, 1)
+                        temp_celsius_to = round((temp_fahrenheit_to - 32) * 5/9, 1)
+                        lst.append(f'Zone {zone}: Minimum temperature of {temp_fahrenheit_from}°F to {temp_fahrenheit_to}°F ({temp_celsius_from}°C to {temp_celsius_to}°C)')
+                        break
+
+            article += f'### What are the growing zones for {most_common_name}?\n\n'
+            article += f'The best growing zones for {most_common_name} are **USDA Hardiness Zones {growing_zones}**.\n\n'
+            article += f'Here is a breakdown of these zones and their minimum temperatures.\n\n'
+            bld = bold_blt(lst)
+            article += lst_to_blt(bld)
+            article += '\n\n'
+            
+
+
+            # GROWING CONDITIONS
+            article += f'### What are the growing conditions for {most_common_name}?\n\n'
+
+            lst = [x for x in item['growing_conditions_intro']]
+            intro = '\n\n'.join(lst)
+            article += f'{intro}\n\n'
+            article += f'Here is a detailed list of the growing conditions of {most_common_name}.\n\n'
+
+            lst = bold_blt(item['growing_conditions'])
+            article += lst_to_blt(lst)
+            article += '\n\n'
+            
+
+            #######################################################################################################
+            # BOTANICAL CHARACTERISTICS
+            #######################################################################################################
+            article += f'## What are the botanical characteristics of {latin_name}?\n\n'
+
+
+            # CHEAT SHEET
+            # lst = []
+            # tmp_lst = [f'{x.split(":")[0]}' for x in morphology]
+            # tmp_lst.insert(0, 'Morphology')
+            # lst.append(tmp_lst)
+            # tmp_lst = [f'{x.split(":")[0]}' for x in life_cycle]
+            # tmp_lst.insert(0, 'Life Cycle')
+            # lst.append(tmp_lst)
+            # tmp_lst = [f'{x.split(":")[0]}' for x in reproduction]
+            # tmp_lst.insert(0, 'Reproduction')
+            # lst.append(tmp_lst)
+
+            # img_path = img_cheasheet(latin_name, 'Botanical Properties of', lst, 'botanical-characteristics')
+            # img_path = '/' + '/'.join(img_path.split('/')[1:])
+            # article += f'The following illustration shows you this classificaion visually.\n\n'
+            # article += f'![alt]({img_path} "title")\n\n'
+            
+            # MORPHOLOGY
+            article += f'### What is the morphology of {most_common_name}?\n\n'
+
+            article += '\n\n'.join([x for x in item['morphology_intro']]) + '\n\n'
+
+            article += f'The following list describe each part of the plant.\n\n'
+            article += lst_to_blt(bold_blt(morphology)) + '\n\n'
+
+            # HEIGHT WIDTH
+            # article += f'#### What is the height and width of {most_common_name}?\n\n'
+            # article += '\n\n'.join([x for x in item['height_width']]) + '\n\n'
+
+            # LIFE CYCLE
+            article += f'### Life cycle\n\n'
+            lst = [item.split(':')[0].lower() for item in life_cycle]
+            intro = lst_to_txt(lst)
+            article += f'The life cycle phases of this plant are {intro}.\n\n'
+            article += f'Here\'s a brief description of each phase.\n\n'
+            bld = bold_blt(life_cycle)
+            article += lst_to_blt(bld)
+            article += '\n\n'
+
+            # REPRODUCTION
+            article += f'### Reproduction\n\n'
+            article += f'Here\'s listed the different ways {most_common_name} reproduce and propagate.\n\n'
+            bld = bold_blt(reproduction)
+            article += lst_to_blt(bld)
+            article += '\n\n'
+
+        else:
+            
+            ##################################################################################################
+            # HISTORICAL USES
+            ##################################################################################################
+            article += f'## What are the historical uses of {latin_name}?\n\n'
+
+            # ### HISTORY ETHNOBOTANICAL USES
+            # article += f'### What is the ethnobotanical history of {most_common_name}?\n\n'
+            # article += f'Here\'s listed some ethnobotanical history references about {most_common_name}.\n\n'
+            # bld = bold_blt(history)
+            # article += lst_to_blt(bld)
+            # article += '\n\n'
+            
+            # CHEAT SHEET
+            lst = []
+            tmp_lst = [f'{x.split(":")[0]}' for x in history_medicinal_uses]
+            tmp_lst.insert(0, 'Medicinal Uses')
+            lst.append(tmp_lst)
+            tmp_lst = [f'{x.split(":")[0]}' for x in history_culinary_uses]
+            tmp_lst.insert(0, 'Culinary Uses')
+            lst.append(tmp_lst)
+            tmp_lst = [f'{x.split(":")[0]}' for x in history_spiritual_uses]
+            tmp_lst.insert(0, 'Spiritual Uses')
+            lst.append(tmp_lst)
+
+            img_path = img_cheasheet(latin_name, 'Historical Uses of', lst, 'historical-uses')
+            img_path = '/' + '/'.join(img_path.split('/')[1:])
+            article += f'The following illustration shows you this classificaion visually.\n\n'
+            article += f'![alt]({img_path} "title")\n\n'
+            
+            # MEDICINAL USES
+            article += f'### Medical Uses\n\n'
+            article += f'Here\'s listed some medicinal uses of this plant in ancient cultures.\n\n'
+            bld = bold_blt(history_medicinal_uses)
+            article += lst_to_blt(bld)
+            article += '\n\n'
+            
+            # CULINARY USES
+            article += f'### Culinary Uses\n\n'
+            article += f'Here\'s listed some culinary uses of this plant in ancient cultures.\n\n'
+            bld = bold_blt(history_culinary_uses)
+            article += lst_to_blt(bld)
+            article += '\n\n'
+            
+            # SPIRITUAL USES
+            article += f'### Spiritual Uses\n\n'
+            article += f'Here\'s listed some spiritual uses of this plant in ancient cultures.\n\n'
+            bld = bold_blt(history_spiritual_uses)
+            article += lst_to_blt(bld)
+            article += '\n\n'
 
 
 
-    ## Medicinal Benefits
-    article += f'## What are the medicinal benefits of this plant?\n\n'
-    article += f'Here\'s a list of the traditional remedies of this plant.\n\n'
-    bld = bold_blt(item['medicinal_uses'])
-    article += lst_to_blt(bld)
-    article += '\n\n'
-
-    
-    
-    ## Culinary and Beverage Uses
-    article += f'## What are the culinary and beverage uses of {most_common_name}?\n\n'
-
-    ### culinary_uses
-    article += f'### culinary uses \n\n'.title()
-    article += f'Here\'s a list of culinary uses of {most_common_name}.\n\n'
-    bld = bold_blt(culinary_uses)
-    article += lst_to_blt(bld)
-    article += '\n\n'
-    
-    ### beverage_uses
-    article += f'### beverage uses \n\n'.title()
-    article += f'Here\'s a list of beverage uses of {most_common_name}.\n\n'
-    bld = bold_blt(beverage_uses)
-    article += lst_to_blt(bld)
-    article += '\n\n'
-    
-    ### sensory_characteristics
-    article += f'### sensory characteristics \n\n'.title()
-    article += f'Here\'s a list of sensory characteristics of {most_common_name}.\n\n'
-    bld = bold_blt(sensory_characteristics)
-    article += lst_to_blt(bld)
-    article += '\n\n'
-
-    
-    ## horticultural considerations
-    article += f'## What are the horticultural considerations of {most_common_name}?\n\n'
-    
-    ### horticultural_cultivation
-    article += f'### horticultural cultivation\n\n'.title()
-    article += f'Here\'s a list of horticultural tips to cultivate {most_common_name}.\n\n'
-    bld = bold_blt(horticultural_cultivation)
-    article += lst_to_blt(bld)
-    article += '\n\n'
-    
-    ### environmental_requirements
-    article += f'### environmental requirements\n\n'.title()
-    article += f'Here\'s a list of environmental requirements to cultivate {most_common_name}.\n\n'
-    bld = bold_blt(environmental_requirements)
-    article += lst_to_blt(bld)
-    article += '\n\n'
-
-    ### pests
-    article += f'### pests\n\n'.title()
-    article += f'Here\'s a list of common pests of {most_common_name}.\n\n'
-    bld = bold_blt(pests)
-    article += lst_to_blt(bld)
-    article += '\n\n'
-
-    ### diseases
-    article += f'### diseases\n\n'.title()
-    article += f'Here\'s a list of common diseases of {most_common_name}.\n\n'
-    bld = bold_blt(diseases)
-    article += lst_to_blt(bld)
-    article += '\n\n'
+            ##################################################################################################
+            # COMPOSITION
+            ##################################################################################################
+            article += f'## What is the chemical composition of this plant?\n\n'
+            article += f'### Phytochemicals\n\n'
+            article += f'Here\'s a list of the phytochemicals.\n\n'
+            bld = bold_blt(item['phytochemicals'])
+            article += lst_to_blt(bld)
+            article += '\n\n'
 
 
 
+            ## Medicinal Benefits
+            article += f'## What are the medicinal benefits of this plant?\n\n'
+            article += f'Here\'s a list of the traditional remedies of this plant.\n\n'
+            bld = bold_blt(item['medicinal_uses'])
+            article += lst_to_blt(bld)
+            article += '\n\n'
 
-    
-    # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}')
-    # except: pass
+            
+            
+            ## Culinary and Beverage Uses
+            article += f'## What are the culinary and beverage uses of {most_common_name}?\n\n'
 
-    # article_filename = latin_name.lower().replace(' ', '-')
-    # article_md_url = f'{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.md'
-    article_md_url = f'{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.md'
-    with open(f'articles/{article_md_url}', 'w', encoding='utf-8') as f:
-        f.write(article)
-    # print(item)
+            ### culinary_uses
+            article += f'### culinary uses \n\n'.title()
+            article += f'Here\'s a list of culinary uses of {most_common_name}.\n\n'
+            bld = bold_blt(culinary_uses)
+            article += lst_to_blt(bld)
+            article += '\n\n'
+            
+            ### beverage_uses
+            article += f'### beverage uses \n\n'.title()
+            article += f'Here\'s a list of beverage uses of {most_common_name}.\n\n'
+            bld = bold_blt(beverage_uses)
+            article += lst_to_blt(bld)
+            article += '\n\n'
+            
+            ### sensory_characteristics
+            article += f'### sensory characteristics \n\n'.title()
+            article += f'Here\'s a list of sensory characteristics of {most_common_name}.\n\n'
+            bld = bold_blt(sensory_characteristics)
+            article += lst_to_blt(bld)
+            article += '\n\n'
 
-    article_html = markdown.markdown(article, extensions=['markdown.extensions.tables'])
+            
+            ## horticultural considerations
+            article += f'## What are the horticultural considerations of {most_common_name}?\n\n'
+            
+            ### horticultural_cultivation
+            article += f'### horticultural cultivation\n\n'.title()
+            article += f'Here\'s a list of horticultural tips to cultivate {most_common_name}.\n\n'
+            bld = bold_blt(horticultural_cultivation)
+            article += lst_to_blt(bld)
+            article += '\n\n'
+            
+            ### environmental_requirements
+            article += f'### environmental requirements\n\n'.title()
+            article += f'Here\'s a list of environmental requirements to cultivate {most_common_name}.\n\n'
+            bld = bold_blt(environmental_requirements)
+            article += lst_to_blt(bld)
+            article += '\n\n'
 
-    
-    # article_html = article_html.replace('<img', '<img class="img-featured"')
-    
-    # ADD TABLE OF CONTENTS ----------------------------------------
-    article_html = generate_toc(article_html)
-    
-    word_count = len(article.split(' '))
-    reading_time_html = str(word_count // 200) + ' minutes'
-    word_count_html = str(word_count) + ' words'
+            ### pests
+            article += f'### pests\n\n'.title()
+            article += f'Here\'s a list of common pests of {most_common_name}.\n\n'
+            bld = bold_blt(pests)
+            article += lst_to_blt(bld)
+            article += '\n\n'
 
-    html = f'''
-        <!DOCTYPE html>
-        <html lang="en">
+            ### diseases
+            article += f'### diseases\n\n'.title()
+            article += f'Here\'s a list of common diseases of {most_common_name}.\n\n'
+            bld = bold_blt(diseases)
+            article += lst_to_blt(bld)
+            article += '\n\n'
 
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="/style.css">
-            <title>Document</title>
-        </head>
 
-        <body>
-            <section class="my-96">
-                <div class="container">
-                    <div class="flex justify-between mb-16">
-                        <span>by Martin Pellizzer - 2023/10/02</span>
-                        <span>{reading_time_html} ({word_count_html})</span>
+
+
+        
+        # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}')
+        # except: pass
+
+        # article_filename = latin_name.lower().replace(' ', '-')
+        # article_md_url = f'{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.md'
+        # article_md_url = f'{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.md'
+        entity_name = item["latin_name"].lower().replace(' ', '-')
+        attribute_name = item["type"].lower().replace(' ', '-')
+        article_md_url = f'{entity_name}/{attribute_name}.md'
+        with open(f'articles/{article_md_url}', 'w', encoding='utf-8') as f:
+            f.write(article)
+
+        article_html = markdown.markdown(article, extensions=['markdown.extensions.tables'])
+
+        
+        # article_html = article_html.replace('<img', '<img class="img-featured"')
+        
+        # ADD TABLE OF CONTENTS ----------------------------------------
+        article_html = generate_toc(article_html)
+        
+        word_count = len(article.split(' '))
+        reading_time_html = str(word_count // 200) + ' minutes'
+        word_count_html = str(word_count) + ' words'
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="/style.css">
+                <title>Document</title>
+            </head>
+
+            <body>
+                <section class="my-96">
+                    <div class="container">
+                        <div class="flex justify-between mb-16">
+                            <span>by Martin Pellizzer - 2023/10/02</span>
+                            <span>{reading_time_html} ({word_count_html})</span>
+                        </div>
+                        {article_html}
                     </div>
-                    {article_html}
-                </div>
-            </section>
-        </body>
+                </section>
+            </body>
 
-        </html>
-    '''
+            </html>
+        '''
 
-    # article_url = f'{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.html'
-    article_url = f'{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.html'
-    with open(f'public/{article_url}', 'w', encoding='utf-8') as f:
-        f.write(html)
+        # article_url = f'{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.html'
+        # article_url = f'{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.html'
+        entity_name = item["latin_name"].lower().replace(' ', '-')
+        attribute_name = item["type"].lower().replace(' ', '-')
+        article_url = f'{entity_name}/{attribute_name}.html'
+        with open(f'website/{article_url}', 'w', encoding='utf-8') as f:
+            f.write(html)
 
-    articles_home.append(
-        {
-            'img': featured_image_filpath,
-            'url': article_url,
-            'name': most_common_name.title(),
-            'title': f'{most_common_name.title()} Guide: Botanical, Medicinal, and Culinary',
-        }
-    )
+        articles_home.append(
+            {
+                'img': featured_image_filpath,
+                'url': article_url,
+                'name': most_common_name.title(),
+                'title': f'{most_common_name.title()} Guide: Botanical, Medicinal, and Culinary',
+            }
+        )
 
 
 ##################################################################################################
 # PLANTS PAGE
 ##################################################################################################
-taxonomy = {}
+# taxonomy = {}
 
-for article in articles_home:
-    article_folders = article['url'].split('/')
+# for article in articles_home:
+#     article_folders = article['url'].split('/')
 
-    full_path_curr = ''
-    for i in range(len(article_folders)-1):
-        folder_curr = article_folders[i]
-        folder_next = article_folders[i+1]
+#     full_path_curr = ''
+#     for i in range(len(article_folders)-1):
+#         folder_curr = article_folders[i]
+#         folder_next = article_folders[i+1]
 
-        full_path_curr += f'{folder_curr}/'
+#         full_path_curr += f'{folder_curr}/'
 
-        if full_path_curr not in taxonomy: 
-            taxonomy[full_path_curr] = [folder_next]
-        else: 
-            if folder_next not in taxonomy[full_path_curr]:
-                taxonomy[full_path_curr].append(folder_next)
+#         if full_path_curr not in taxonomy: 
+#             taxonomy[full_path_curr] = [folder_next]
+#         else: 
+#             if folder_next not in taxonomy[full_path_curr]:
+#                 taxonomy[full_path_curr].append(folder_next)
 
-for key, lst in taxonomy.items():
-    for val in lst:
-        if not os.path.exists(f'public/{key}/index.html'):
-            with open(f'public/{key}/index.html', 'w') as f:
-                f.write(f'<p><a href="{val}">{val}</a></p>')
-        else: 
-            with open(f'public/{key}/index.html', 'a') as f:
-                f.write(f'<p><a href="{val}">{val}</a></p>')
+# for key, lst in taxonomy.items():
+#     for val in lst:
+#         if not os.path.exists(f'website/{key}/index.html'):
+#             with open(f'website/{key}/index.html', 'w') as f:
+#                 f.write(f'<p><a href="{val}">{val}</a></p>')
+#         else: 
+#             with open(f'website/{key}/index.html', 'a') as f:
+#                 f.write(f'<p><a href="{val}">{val}</a></p>')
 
 
 
@@ -1006,6 +1015,7 @@ for key, lst in taxonomy.items():
 ##################################################################################################
 # HOME PAGE
 ##################################################################################################
+
 
 articles = ''
 for article in articles_home:
@@ -1035,6 +1045,24 @@ for article in articles_home:
         \n
     '''
 
+with_sidebar = f'''
+    <section class="mt-96">
+        <div class="container-lg">
+            <div class="flex gap-32">
+                <div class="articles flex-3 flex flex-col gap-32">
+                    
+                    {articles}
+
+                </div>
+                <div class="sidebar flex-1">
+                    <div class="flex-1">
+                        here goes the sidebar
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+'''
 
 html = f'''
     <!DOCTYPE html>
@@ -1052,25 +1080,18 @@ html = f'''
             <div class="container-lg">
                 <nav class="flex justify-between">
                     <a href="#">Terra Whisper</a>
-                    <a href="plantae/">Plants</a>
+                    <a href="#"></a>
                 </nav>
             </div>
         </header>
 
         <section class="mt-96">
             <div class="container-lg">
-                <div class="flex gap-32">
                     <div class="articles flex-3 flex flex-col gap-32">
                         
                         {articles}
 
                     </div>
-                    <div class="sidebar flex-1">
-                        <div class="flex-1">
-                            here goes the sidebar
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
     </body>
@@ -1084,24 +1105,20 @@ with open(f'index.html', 'w') as f:
 
 
 
+
+##################################################################################################
+# VIEWER
+##################################################################################################
+
 with open(f'index_viewer.html', 'w') as f:
     f.write(html)
-
-
-
-
-
 
 
 with open(f'article-viewer.html', 'w') as f:
     f.write(html)
 
 
-
-
-
-# VIEWER
-with open(f'articles/plantae/angiosperms/eudicots/asterales/asteraceae/achillea/millefolium.md') as f:
+with open(f'articles/achillea-millefolium/botany.md') as f:
     article_md = f.read()
 
 word_count = len(article_md.split(' '))
@@ -1110,10 +1127,8 @@ reading_time_html = str(word_count // 200) + ' minutes'
 article_html = markdown.markdown(article_md, extensions=['markdown.extensions.tables'])
 
 article_html = article_html.replace('<img', '<img class="img-featured"')
-article_html = article_html.replace('src="/assets/', 'src="public/assets/')
+article_html = article_html.replace('src="/assets/', 'src="website/assets/')
 
-
-# ADD TABLE OF CONTENTS ----------------------------------------
 article_html = generate_toc(article_html)
 
 
@@ -1145,6 +1160,8 @@ with open(f'article-viewer.html', 'w') as f:
     f.write(html)
 
 
-
-shutil.copy2('style.css', 'public/style.css')
-shutil.copy2('index.html', 'public/index.html')
+##################################################################################################
+# GENERAL
+##################################################################################################
+shutil.copy2('style.css', 'website/style.css')
+shutil.copy2('index.html', 'website/index.html')

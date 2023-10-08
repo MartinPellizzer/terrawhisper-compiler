@@ -1,4 +1,5 @@
 yarrow
+yarrow herb
 
 
 yarrow stalks
@@ -53,6 +54,7 @@ yarrow and ginseng
 
 yarrow dogs
 yarrow and dogs
+yarrow horses
 
 
 
@@ -92,6 +94,9 @@ botanical
     yarrow definition
     yarrow description
 
+    yarrow height
+    yarrow height and width
+
     yarrow care
     yarrow colors
     yarrow flower colors
@@ -102,6 +107,10 @@ botanical
     [variations]
         yarrow cerise queen
         yarrow firefly peach sky
+
+    yarrow hardiness zone
+    yarrow identification
+
 
 
 
@@ -116,6 +125,9 @@ cultivation
     yarrow ground cover
     yarrow growing conditions
     yarrow grass
+    yarrow grass seed
+    yarrow harvest
+
 
 
 
@@ -126,17 +138,23 @@ symbology
 
 medicinal
     yarrow benefits
+    yarrow herb benefits
+    yarrow health benefits
+    yarrow healing properties
+
     yarrow benefits for skin
     yarrow for skin
-    yarrow drops
-    yarrow extract
     yarrow essential oil
     yarrow essential oil benefits
     yarrow essential oil benefits for skin
+
+    yarrow drops
+    yarrow extract
     yarrow extract benefits
     yarrow energetics
     yarrow flower benefits
     yarrow flower essence
+    yarrow hydrosol
     
     yarrow flower tea
 
@@ -148,7 +166,7 @@ culinary
 
 
 yarrow herb grow
-yarrow herb growing zones
+* yarrow herb growing zones
 yarrow herb growing conditions
 yarrow growing zone
 yarrow growing
@@ -179,28 +197,9 @@ achillea cerise queen how to grow
 
 
 yarrow gardens
-yarrow golf
-yarrow group
-yarrow gas station
-yarrow garage
-yarrow grass seed
-yarrow gallery oundle
-yarrow hotel
-yarrow herb
-yarrow height
-yarrow herb benefits
-yarrow health benefits
-yarrow heights school
-yarrow healing properties
-yarrow height and width
-yarrow hydrosol
-yarrow housing
-yarrow hardiness zone
-yarrow houses for sale
-yarrow hotel spa
-yarrow horses
-yarrow harvest
-yarrow identification
+
+
+
 yarrow in spanish
 yarrow images
 yarrow in lawn

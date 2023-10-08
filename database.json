@@ -1,5 +1,6 @@
 [
     {
+        "type": "Botany",
         "latin_name": "Achillea millefolium",
         "domain": "Eukarya",
         "kingdom": "Plantae",
@@ -36,52 +37,14 @@
             "Terracotta: This variety has unique terracotta-colored blooms and is commonly cultivated in Europe for its warm hues.",
             "Summer Pastels: Summer Pastels offers a mix of soft, pastel-colored flowers and is popular in North American and European gardens for its gentle, multicolored display."
         ],
-        "does_grow_wild": "Yes, yarrow grows wild in various regions around the world. It is native to **Europe** and **Asia**, but has become naturalized in many other parts of the world.",
+        "does_grow_wild": "Yes",
         "regional_distribution": [
-            "Europe: Yarrow is native to Europe and can be found throughout the continent. It is particularly common in grasslands, meadows, and along roadsides.",
+            "Europe: It is native to Europe and can be found throughout the continent. It is particularly common in grasslands, meadows, and along roadsides.",
             "Asia: It is also native to parts of Asia, including Siberia, the Himalayas, and the Middle East. It can be found in grasslands and other open areas.",
             "North America: It is widespread in North America, where it has become naturalized. It can be found in a variety of habitats, including fields, prairies, and disturbed areas.",
             "Australia: It has been introduced to Australia and is considered an invasive species in some regions. It can be found in grasslands and disturbed areas.",
             "South America: It has also been introduced to South America, where it can be found in areas with suitable growing conditions.",
             "Africa: It has a more limited distribution in Africa compared to other continents, but it can still be found in some regions, particularly in the northern parts of the continent."
-        ],
-        "regional_distribution_section": [
-            "Yarrow is native to Europe and it is distributed widely across the continent, thriving in diverse environments such as grasslands, meadows, and along roadsides.",
-            "It is also native to Asia and can be found across Siberia, the Himalayas, and the Middle East, where it can be observed in open grasslands and similar settings.",
-            "In North America, it has successfully naturalized and can be encountered in various habitats, including fields, prairies, and disturbed areas.",
-            "Australia hosts introduced this plant, sometimes classified as invasive, where it thrives in grasslands and disturbed areas.",
-            "South America has also adopted this plant, and it can be located in regions where the growing conditions are favorable.",
-            "In Africa, while its distribution is comparatively limited compared to other continents, it can still be found in select areas, particularly in the northern regions of the continent."
-        ],
-        "distribution_table": [
-            [
-                "Europe",
-                8
-            ],
-            [
-                "Asia",
-                7
-            ],
-            [
-                "North America",
-                6
-            ],
-            [
-                "South America",
-                4
-            ],
-            [
-                "Africa",
-                3
-            ],
-            [
-                "Oceania",
-                2
-            ],
-            [
-                "Antarctica",
-                0
-            ]
         ],
         "distribution": [
             "North America: It is native to North America and can be found in a wide range of habitats, including meadows, grasslands, prairies, and along roadsides.",
@@ -92,24 +55,49 @@
             "Africa: In Africa, it has been introduced and can be found in a variety of habitats, including grasslands and open woodlands."
         ],
         "habitat": [
-            "Grasslands: It is often found in open grasslands and meadows. It thrives in areas with well-drained soil and plenty of sunlight.",
-            "Roadsides: It is a common sight along roadsides and highways. It can tolerate disturbed areas and is often found in areas with compacted soil.",
-            "Fields: It can be found in agricultural fields, particularly in areas where the soil has been disturbed by plowing or other farming activities.",
-            "Woodland Clearings: While it prefers open, sunny habitats, it can sometimes be found in woodland clearings and along the edges of forests.",
-            "Disturbed Areas: It is known to colonize disturbed areas such as construction sites, vacant lots, and areas with soil erosion.",
-            "Coastal Areas: In some regions, it can be found in coastal habitats, including sand dunes and salt marshes.",
-            "Waste Grounds: It is adaptable and can thrive in waste grounds and abandoned areas.",
-            "Gardens: Many people cultivate it in their gardens as an ornamental plant, and it can thrive in a variety of garden settings.",
-            "Alpine Meadows: In mountainous regions, it can be found in alpine meadows and subalpine zones.",
-            "Riparian Zones: It can be found along the banks of streams and rivers in some regions."
+            "Grasslands: It is often found in open grassy areas, meadows, and prairies. It thrives in areas with well-draining soil and plenty of sunlight.",
+            "Roadsides: It is a common sight along roadsides and highways, as it can tolerate disturbed soils and is often able to outcompete other plants in these areas.",
+            "Fields: It can be found in agricultural fields, particularly those with minimal cultivation or where the soil is not heavily disturbed.",
+            "Woodland Edges: It can grow along the edges of woodlands, where it can receive partial shade and still thrive in the understory.",
+            "Disturbed Areas: It is often one of the first plants to colonize disturbed areas, such as construction sites or areas recovering from wildfires. Its ability to grow in these conditions makes it a pioneer species.",
+            "Gardens: Many people cultivate it in their gardens, where it is valued for its attractive feathery foliage and clusters of small, white, or pink flowers.",
+            "Coastal Areas: It is known to grow in coastal areas, including dunes and salt marshes. It can tolerate salt spray and sandy soils.",
+            "Mountainous Regions: It is adaptable to a range of elevations and can be found in mountainous regions, including alpine meadows.",
+            "Riparian Zones: It can grow along the banks of rivers and streams, especially in areas with relatively stable water levels."
+        ],
+        "growing_zones": "3-9",
+        "growing_conditions_intro": [
+            "Yarrow thrives where there's a lot of sun and a well-drained soil with a pH of 6.0 to 7.5. ",
+            "It tolerates drought once established and is suitable for USDA zones 3 to 9. Pruning for deadheading and occasional division can help maintain its growth. It is resistant to most pests and diseases but can occasionally be affected by aphids and powdery mildew. ",
+            "Plant it 1 to 2 feet apart for optimal growth and enjoy its versatile use in gardens and landscapes."
+        ],
+        "growing_conditions": [
+            "Sunlight: It thrives in full sun, which means it requires at least 6-8 hours of direct sunlight per day. It can tolerate partial shade but tends to produce fewer flowers in such conditions.",
+            "Soil: It prefers well-drained soil with a slightly alkaline to neutral pH level (around 6.0 to 7.5). It can tolerate a wide range of soil types, including sandy, loamy, or clayey soils, but it does best in soil that is not overly wet or waterlogged.",
+            "Watering: It is drought-tolerant once established, so it doesn't require frequent watering. Water young plants regularly until they establish a strong root system. Once established, water sparingly, allowing the soil to dry out between waterings.",
+            "Temperature: It is hardy and can tolerate a wide range of temperatures. It can grow in USDA hardiness zones 3 to 9, which covers a large portion of the United States.",
+            "Pruning: It benefits from occasional deadheading (removing spent flowers) to encourage continuous blooming and to prevent self-seeding, as it can become invasive in some areas. Prune the plant back in late fall or early spring to encourage fresh growth.",
+            "Fertilizing: It typically doesn't require heavy fertilization. You can apply a balanced, all-purpose fertilizer in the spring if your soil is poor. However, excessive fertilizer can lead to leggy growth and fewer flowers.",
+            "Propagation: It can be propagated from seeds, divisions, or cuttings. To divide established plants, dig up the clump in early spring or late summer and separate the sections, replanting them in well-prepared soil.",
+            "Pests and Diseases: It is relatively resistant to pests and diseases. However, it can sometimes be affected by aphids or powdery mildew. Insecticidal soap or neem oil can help control aphids, and proper spacing and good air circulation can reduce the risk of powdery mildew.",
+            "Space: Plant it about 1 to 2 feet apart, depending on the variety, as it can spread and become dense over time."
+        ],
+        "morphology_intro": [
+            "Yarrow features erect stems reaching 1 to 3 feet in height, often with fine hair and green coloration.",
+            "Its feathery, pinnately compound leaves grow up to 4 inches long and emit an aromatic scent when crushed. It blooms with dense, flat-topped clusters of small, daisy-like flowers in white, pink, or yellow hues, attracting various pollinators.",
+            "The plant boasts a fibrous root system, aiding in stability and nutrient absorption. After pollination, it produces inconspicuous, dry, one-seeded fruits called achenes."
         ],
         "morphology": [
-            "Stem: It typically has slender, erect stems that can grow to a height of 1 to 3 feet (30 to 90 cm). The stems are usually green and can become somewhat woody at the base as the plant matures.",
-            "Leaves: The leaves of this plant are finely divided and have a fern-like appearance. They are arranged alternately along the stem. The leaves are usually pinnate or bipinnate, with numerous small leaflets that are linear or lance-shaped. The leaf color can range from dark green to gray-green.",
-            "Flowers: It produces dense, flattened clusters of small, daisy-like flowers at the tips of its stems. The individual flowers are tiny and have five white to pinkish ray florets (the petal-like structures) surrounding a central disk of yellow or cream-colored disc florets. The flowers are typically arranged in a broad, flat-topped inflorescence known as an umbel.",
-            "Inflorescence: The inflorescence of this plant is composed of numerous flower heads arranged in a corymb or panicle. These flower heads are held above the foliage and create a striking display when in bloom.",
-            "Roots: It has a fibrous root system that is relatively shallow, allowing it to spread easily.",
-            "Fruit: After flowering, this plant produces small, dry, seed-like fruits known as achenes. These achenes are dispersed by wind."
+            "Stem: Yarrow plants typically have one or more erect stems that can grow up to 1 to 3 feet (30 to 90 cm) in height. These stems are usually finely hairy and green, sometimes with a reddish or purplish tint.",
+            "Leaves: Its leaves are alternate and finely divided, giving them a feathery appearance. They are pinnately compound and can be up to 3 to 4 inches (7.5 to 10 cm) long. The leaves are usually aromatic when crushed and are arranged along the stem in a spiral fashion.",
+            "Inflorescence: It produces dense, flat-topped clusters of tiny flowers at the top of its stems. These clusters, known as \"inflorescences,\" consist of numerous small, daisy-like flowers that can be white, pink, or yellow, depending on the variety.",
+            "Flowers: Each individual flower in the inflorescence has a characteristic appearance. Its flowers have five small, petal-like ray florets surrounding a central cluster of disk florets. The ray florets are usually white or pale in color, while the disk florets are typically yellow. Its flowers are visited by various pollinators, including bees and butterflies.",
+            "Roots: It has a fibrous root system, which can be somewhat rhizomatous. The roots help anchor the plant in the soil and absorb water and nutrients.",
+            "Fruit: After the flowers are fertilized, they produce small, dry, one-seeded fruits known as achenes. These achenes are typically small and not very conspicuous."
+        ],
+        "height_width": [
+            "Yarrow typically grows to a height of 1 to 3 feet (30 to 90 centimeters) tall, although it can occasionally reach heights of up to 4 feet (120 centimeters) under optimal conditions, and have a width of about 1 to 2 feet (30 to 60 centimeters).",
+            "Both the height and the width of this plant can vary depending on factors such as the specific variety, growing conditions, and environmental factors."
         ],
         "life_cycle": [
             "Seed Germination: The life cycle of this plant begins with the germination of seeds. It seeds typically require specific environmental conditions to germinate, including moisture and light. Once the conditions are favorable, the seeds will sprout, and young seedlings will emerge.",
@@ -383,6 +371,7 @@
         ]
     },
     {
+        "type": "Botany",
         "latin_name": "Acorus calamus",
         "domain": "Eukarya",
         "kingdom": "Plantae",
@@ -416,37 +405,6 @@
             "Saccate sweet flag: Native to China, this variety is characterized by its unique sac-like structures that envelop the base of the leaves.",
             "Obtuse-leaved sweet flag: Found in China and Japan, this variety is recognized by its obtuse or rounded leaf tips."
         ],
-        "regional_distribution_section": "",
-        "distribution_table": [
-            [
-                "Asia",
-                8
-            ],
-            [
-                "Europe",
-                6
-            ],
-            [
-                "North America",
-                4
-            ],
-            [
-                "Africa",
-                3
-            ],
-            [
-                "Oceania",
-                2
-            ],
-            [
-                "South America",
-                1
-            ],
-            [
-                "Antarctica",
-                0
-            ]
-        ],
         "does_grow_wild": "",
         "regional_distribution": [],
         "distribution": [
@@ -467,6 +425,10 @@
             "Wet Woodlands: In areas with deciduous or coniferous wet woodlands, it can be found along the edges and in clearings where there is sufficient moisture.",
             "Rice Fields: In certain agricultural settings, it may be present in rice fields or other flooded fields, where it can coexist with cultivated crops."
         ],
+        "growing_zones": "4-10",
+        "growing_conditions_intro": [],
+        "growing_conditions": [],
+        "morphology_intro": [],
         "morphology": [
             "Rhizomes: The most distinctive feature of this plant is its thick, fleshy rhizomes. These rhizomes are horizontal underground stems from which the plant grows. They are reddish-brown to light brown in color and emit a sweet, pleasant aroma when crushed. The rhizomes are the primary part of the plant used for various medicinal and culinary purposes.",
             "Leaves: The leaves of this plant are long, erect, and strap-like, resembling those of a small, narrow iris. They are typically 2-3 feet in length and about 1-2 centimeters wide. The leaves are bright green and grow in tufts or clusters arising from the base of the plant.",
@@ -474,6 +436,7 @@
             "Fruits: After flowering, this plant produces small, spherical to ovoid berries that are green to brown in color. These berries contain seeds, but they are not a significant part of the plant.",
             "Root System: It has a fibrous root system that helps anchor the plant in the wet and muddy soils of its natural habitat."
         ],
+        "height_width": [],
         "life_cycle": [
             "Germination: The life cycle of this plant begins with the germination of its seeds. These seeds are typically sown in a suitable growing medium, and they require specific conditions, including adequate moisture and warmth, to sprout.",
             "Vegetative Growth: After germination, this plant undergoes a period of vegetative growth. During this stage, it develops its root system and a cluster of basal leaves. These leaves are sword-shaped and can grow up to 3 feet in length. The plant primarily reproduces through rhizomes, which are underground stems that give rise to new shoots and plants.",
@@ -715,6 +678,7 @@
         "self_help_uses": []
     },
     {
+        "type": "Botany",
         "latin_name": "Aesculus hippocastanum",
         "domain": "Eukarya",
         "kingdom": "Plantae",
@@ -744,37 +708,6 @@
             "North American Horse Chestnut: Although not native to North America, the European horse chestnut has been planted in various regions of the United States and Canada as an ornamental tree. It is commonly found in parks and urban areas in North America.",
             "Asian Horse Chestnut: This tree is planted in parts of Asia, including China and Japan, as an ornamental species. It shares many characteristics with the European horse chestnut but may exhibit some regional variations in growth and adaptation."
         ],
-        "regional_distribution_section": "",
-        "distribution_table": [
-            [
-                "Europe",
-                9
-            ],
-            [
-                "Asia",
-                4
-            ],
-            [
-                "North America",
-                3
-            ],
-            [
-                "South America",
-                2
-            ],
-            [
-                "Africa",
-                1
-            ],
-            [
-                "Oceania",
-                0
-            ],
-            [
-                "Antarctica",
-                0
-            ]
-        ],
         "does_grow_wild": "",
         "regional_distribution": [],
         "distribution": [
@@ -796,6 +729,10 @@
             "Temperate Climates: It thrives in regions with temperate climates, characterized by distinct seasons with cold winters and warm summers.",
             "Full Sun to Partial Shade: It can grow in a range of light conditions, from full sun to partial shade, but it typically does best with ample sunlight."
         ],
+        "growing_zones": "1-2",
+        "growing_conditions_intro": [],
+        "growing_conditions": [],
+        "morphology_intro": [],
         "morphology": [
             "Bark: The bark of this plant is grayish-brown and becomes deeply furrowed with age, forming distinct ridges and fissures.",
             "Leaves: The leaves are palmately compound, meaning they consist of five to seven leaflets radiating from a central point, resembling the shape of an open hand or palm. Each leaflet is serrated along the edges and is typically 4 to 8 inches (10 to 20 cm) long. The leaves are bright green and turn yellow in the fall before dropping.",
@@ -804,6 +741,7 @@
             "Branches: The tree has a broad and spreading crown with stout branches. The branches are often arranged in a tiered or layered fashion, giving the tree a distinctive and attractive shape.",
             "Root System: Horse chestnut trees typically have a shallow root system, which makes them susceptible to windthrow in storms. They also produce adventitious roots, known as aerial roots, along their stems."
         ],
+        "height_width": [],
         "life_cycle": [
             "Seed Germination: The life cycle of the horse chestnut tree begins with the germination of a seed. Horse chestnut seeds are large, round, and shiny brown in color. They typically fall from the tree in the autumn and can remain dormant in the soil until the conditions are right for germination. When environmental conditions, such as moisture and temperature, are suitable, the seed begins to germinate.",
             "Seedling Stage: Once these seed germinates, it gives rise to a seedling. The seedling initially has just a few leaves and a slender stem. During this stage, the young plant relies on stored energy from the seed to grow and develop its root system.",

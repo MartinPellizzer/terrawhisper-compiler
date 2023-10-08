@@ -1,3 +1,32 @@
+- give me an extensive outline for an article that talks about the [latin_name] botany
+
+- give me an extensive outline for an article that talks about the (botanical) morphology of [latin_name] 
+    - write a section for a article that talks about the morphology of [plant_part] of the [latin_name]. include a lot of details, numbers, and data.
+
+
+
+
+IV. Morphological Features
+A. Root System
+    1. Description of the root structure
+    2. Functions of the roots
+B. Stem
+    1. Stem characteristics
+    2. Growth habit variations
+C. Leaves
+    1. Leaf shape, arrangement, and size
+    2. Leaf color and texture
+D. Flowers
+    1. Inflorescence structure
+    2. Flower color and size
+E. Fruits and Seeds
+    1. Fruit types and seed dispersal
+    2. Seed morphology
+
+
+
+
+
 what is [yarrow]?
 what is the botanical name of [yarrow]?
 what is the classification of [yarrow]?
@@ -10,6 +39,12 @@ what are the common names of [latin_name]?
     - ok. now give a brief description for each name. the descriptions must be brief, must tell something unique about that variation, and must tell in which regions are most common.
 
 - does [common_name] grow wild? if so, in which regions? order the regions by distribution. 
+- what are the best growing zones for [latin_name] (USDA Hardiness Zones)?
+    - give me a full breakdown of these zones in a flat list, and tell me the temperature ranges
+
+
+- what are the growing conditions of [latin_name]?
+    - summarize the above growing conditions in a small paragraph. give just the most important information
 
 
 
