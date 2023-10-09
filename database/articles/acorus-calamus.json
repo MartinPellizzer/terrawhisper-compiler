@@ -1,6 +1,7 @@
 [
     {
-        "type": "botany",
+        "state": "published",
+        "type": "botanical",
         "latin_name": "Acorus calamus",
         "domain": "Eukarya",
         "kingdom": "Plantae",
@@ -79,13 +80,13 @@
             "Seed Production: While less common than rhizome propagation, this plant can also reproduce by producing seeds. The plant produces small, inconspicuous flowers that develop into seed heads. The seeds are dispersed by wind or water and can germinate in suitable wetland environments. However, natural seed propagation is not as reliable as rhizome growth for this species.",
             "Vegetative Propagation: It can also propagate through vegetative means, such as stem cuttings or division. Gardeners and horticulturists often use these methods to propagate and cultivate this plant for ornamental or medicinal purposes. By dividing the rhizomes or taking stem cuttings, new plants can be established quickly."
         ],
-        "botany_morphology_intro": [],
-        "botany_morphology_roots": [],
-        "botany_morphology_stems": [],
-        "botany_morphology_leaves": [],
-        "botany_morphology_flowers": [],
-        "botany_morphology_fruits": [],
-        "botany_morphology_seeds": [],
+        "botanical_morphology_intro": [],
+        "botanical_morphology_roots": [],
+        "botanical_morphology_stems": [],
+        "botanical_morphology_leaves": [],
+        "botanical_morphology_flowers": [],
+        "botanical_morphology_fruits": [],
+        "botanical_morphology_seeds": [],
         "history": [
             "Traditional Medicine: It has been used in traditional medicine systems, such as Ayurveda and Traditional Chinese Medicine, for its potential medicinal properties. It is believed to have digestive, carminative, and stimulant properties.",
             "Aromatic Uses: The rhizomes of this plant are known for their pleasant and aromatic fragrance. They have been used in perfumes, potpourri, and as a fragrant addition to herbal sachets.",
@@ -311,6 +312,10 @@
             "Do not take for more than 1 month",
             "Restricted in some countries"
         ],
-        "self_help_uses": []
+        "self_help_uses": [],
+        "botanical_geographic_distribution": [],
+        "botanical_habitat_types": [],
+        "botanical_climate": [],
+        "_placeholder": []
     }
 ]

@@ -83,64 +83,17 @@ In the following list, you can find a more extensive list of common variations o
 
 
 
-## What is the regional distribution of sweet flag?
-
-Sweet Flag is mainly found in , but it can also be found in .
-
-The list below gives more details on the distribution of this plant in these regions.
+## What is the geographic distribution of Acorus calamus?
 
 
 
-### What are the preferred habitats for sweet flag?
-
-The best habitats for sweet flag are **marshes**, **ponds and lakesides** and **riverbanks**, but it can be also found in swamps, wetlands, ditches and drainage channels and wet woodlands.
-
-The list below gives more details about these habitats and why sweet flag prefers them.
-
-- **Marshes**:  It is often found in freshwater marshes and wet meadows. It can tolerate periodic flooding and has adaptations that allow it to thrive in these saturated soils.
-- **Ponds and Lakesides**:  It can be found growing along the edges of ponds, lakes, and slow-moving streams. It prefers areas with shallow water and may grow partially submerged.
-- **Riverbanks**:  In regions with suitable conditions, it can also be found along riverbanks, especially in areas where the water flow is slow and the soil is waterlogged.
-- **Swamps**:  It is well adapted to swampy areas, including both forested and open swamps. It can tolerate the fluctuating water levels and the rich organic soils found in swamps.
-- **Wetlands**:  It is a common inhabitant of various types of wetlands, including fens, bogs, and wet prairies. It contributes to the overall biodiversity of these ecosystems.
-- **Ditches and Drainage Channels**:  In some regions, it can also be found growing in artificial drainage ditches and channels, especially if the conditions are suitable.
-- **Wet Woodlands**:  In areas with deciduous or coniferous wet woodlands, it can be found along the edges and in clearings where there is sufficient moisture.
-- **Rice Fields**:  In certain agricultural settings, it may be present in rice fields or other flooded fields, where it can coexist with cultivated crops.
-
-### What are the growing zones for sweet flag?
-
-The best growing zones for sweet flag are **USDA Hardiness Zones 4-10**.
-
-Here is a breakdown of these zones and their minimum temperatures.
-
-- **Zone 4**:  Minimum temperature of -30°F to -20°F (-34.4°C to -28.9°C)
-- **Zone 5**:  Minimum temperature of -20°F to -10°F (-28.9°C to -23.3°C)
-- **Zone 6**:  Minimum temperature of -10°F to 0°F (-23.3°C to -17.8°C)
-- **Zone 7**:  Minimum temperature of 0°F to 10°F (-17.8°C to -12.2°C)
-- **Zone 8**:  Minimum temperature of 10°F to 20°F (-12.2°C to -6.7°C)
-- **Zone 9**:  Minimum temperature of 20°F to 30°F (-6.7°C to -1.1°C)
-- **Zone 10**:  Minimum temperature of 30°F to 40°F (-1.1°C to 4.4°C)
-
-### What are the growing conditions for sweet flag?
+## What are the habitat types for Acorus calamus?
 
 
 
-Here is a detailed list of the growing conditions of sweet flag.
+## What are the climate preferences of Acorus calamus?
 
 
-
-## What are the botanical characteristics of Acorus calamus?
-
-### What is the morphology of sweet flag?
-
-
-
-The following list describe each part of the plant.
-
-- **Rhizomes**:  The most distinctive feature of this plant is its thick, fleshy rhizomes. These rhizomes are horizontal underground stems from which the plant grows. They are reddish-brown to light brown in color and emit a sweet, pleasant aroma when crushed. The rhizomes are the primary part of the plant used for various medicinal and culinary purposes.
-- **Leaves**:  The leaves of this plant are long, erect, and strap-like, resembling those of a small, narrow iris. They are typically 2-3 feet in length and about 1-2 centimeters wide. The leaves are bright green and grow in tufts or clusters arising from the base of the plant.
-- **Inflorescence**:  It produces small, inconspicuous flowers on a spadix, which is a slender, cylindrical spike-like structure enclosed by a leaf-like bract called a spathe. The inflorescence is typically yellow-green to greenish-brown in color and is not particularly showy.
-- **Fruits**:  After flowering, this plant produces small, spherical to ovoid berries that are green to brown in color. These berries contain seeds, but they are not a significant part of the plant.
-- **Root System**:  It has a fibrous root system that helps anchor the plant in the wet and muddy soils of its natural habitat.
 
 ### Life cycle
 

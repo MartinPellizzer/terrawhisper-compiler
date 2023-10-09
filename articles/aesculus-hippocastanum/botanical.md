@@ -79,61 +79,17 @@ In the following list, you can find a more extensive list of common variations o
 
 
 
-## What is the regional distribution of horse chestnut?
-
-Horse Chestnut is mainly found in , but it can also be found in .
-
-The list below gives more details on the distribution of this plant in these regions.
+## What is the geographic distribution of Aesculus hippocastanum?
 
 
 
-### What are the preferred habitats for horse chestnut?
-
-The best habitats for horse chestnut are **deciduous forests**, **urban and suburban areas** and **riparian zones**, but it can be also found in mountainous regions, woodlands and parks, gardens and estates, well-drained soils and temperate climates.
-
-The list below gives more details about these habitats and why horse chestnut prefers them.
-
-- **Deciduous Forests**:  It is often found in deciduous forests, where it can reach substantial heights and provide ample shade to the understory.
-- **Urban and Suburban Areas**:  It is frequently planted as an ornamental tree in parks, streets, and residential areas due to its attractive foliage and flowers.
-- **Riparian Zones**:  It can be found along riverbanks and near streams, as it tolerates occasional flooding and benefits from the moisture in such environments.
-- **Mountainous Regions**:  It can grow in hilly and mountainous terrain, especially in regions with temperate climates.
-- **Woodlands and Parks**:  It is commonly planted in woodlands and public parks, where its large, spreading canopy and showy flowers make it a popular choice.
-- **Gardens and Estates**:  In cultivated gardens and private estates, it is often planted for its aesthetic appeal.
-- **Well-Drained Soils**:  It prefers well-drained soils but can tolerate a range of soil types, including loamy, sandy, and clayey soils.
-- **Temperate Climates**:  It thrives in regions with temperate climates, characterized by distinct seasons with cold winters and warm summers.
-- **Full Sun to Partial Shade**:  It can grow in a range of light conditions, from full sun to partial shade, but it typically does best with ample sunlight.
-
-### What are the growing zones for horse chestnut?
-
-The best growing zones for horse chestnut are **USDA Hardiness Zones 1-2**.
-
-Here is a breakdown of these zones and their minimum temperatures.
-
-- **Zone 1**:  Minimum temperature of -60°F to -50°F (-51.1°C to -45.6°C)
-- **Zone 2**:  Minimum temperature of -50°F to -40°F (-45.6°C to -40.0°C)
-
-### What are the growing conditions for horse chestnut?
+## What are the habitat types for Aesculus hippocastanum?
 
 
 
-Here is a detailed list of the growing conditions of horse chestnut.
+## What are the climate preferences of Aesculus hippocastanum?
 
 
-
-## What are the botanical characteristics of Aesculus hippocastanum?
-
-### What is the morphology of horse chestnut?
-
-
-
-The following list describe each part of the plant.
-
-- **Bark**:  The bark of this plant is grayish-brown and becomes deeply furrowed with age, forming distinct ridges and fissures.
-- **Leaves**:  The leaves are palmately compound, meaning they consist of five to seven leaflets radiating from a central point, resembling the shape of an open hand or palm. Each leaflet is serrated along the edges and is typically 4 to 8 inches (10 to 20 cm) long. The leaves are bright green and turn yellow in the fall before dropping.
-- **Flowers**:  The horse chestnut tree produces attractive, large, white to creamy-white flowers in upright, pyramidal clusters known as panicles. Each individual flower has four to five petals with a distinctive yellow or pink spot at the base of each petal. These flowers bloom in late spring to early summer and are known for their aesthetic appeal.
-- **Fruit**:  The fruit of this plant is perhaps one of its most distinctive features. It produces a round, spiky capsule or husk, which contains one to three shiny, brown seeds known as conkers. Conkers are large and smooth and are typically 1 to 2 inches (2.5 to 5 cm) in diameter. They are not edible and are primarily used for games and crafts.
-- **Branches**:  The tree has a broad and spreading crown with stout branches. The branches are often arranged in a tiered or layered fashion, giving the tree a distinctive and attractive shape.
-- **Root System**:  Horse chestnut trees typically have a shallow root system, which makes them susceptible to windthrow in storms. They also produce adventitious roots, known as aerial roots, along their stems.
 
 ### Life cycle
 

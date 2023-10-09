@@ -1,4 +1,4 @@
-robocopy .\public ..\terrawhisper\ /E
+robocopy .\website ..\terrawhisper\ /E
 cd ..
 cd terrawhisper
 git add .

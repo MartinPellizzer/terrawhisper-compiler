@@ -491,73 +491,84 @@ for f in articles_files:
 
     for item in data:
 
+        state = item['state']
+
+        if 'draft' == state.lower().strip():
+            continue
+
         entity_name = item["latin_name"].lower().replace(' ', '-')
-        attribute_name = item["type"].lower().replace(' ', '-')
+        _type = item['type']
 
         try: os.mkdir(f'articles/{entity_name}')
         except: pass
-        try: os.mkdir(f'articles/{entity_name}/{attribute_name}')
-        except: pass
-
         try: os.mkdir(f'website/{entity_name}')
         except: pass
+
+        folders = [x for x in _type.split('/')]
+        curr_path = ''
+        for folder in folders:
+            curr_path += folder + '/'
+            try: os.mkdir(f'articles/{entity_name}/{curr_path}')
+            except: pass
+            try: os.mkdir(f'website/{entity_name}/{curr_path}')
+            except: pass
         # try: os.mkdir(f'website/{entity_name}/{attribute_name}')
         # except: pass
 
         article = ''
 
-        domain = item['domain']
         
-        _type = item['type']
-        domain = item['domain']
-        kingdom = item['kingdom']
-        phylum = item['phylum']
-        _class = item['class']
-        order = item['order']
-        family = item['family']
-        genus = item['genus']
-        species = item['species']
 
-        most_common_name = item['common_names'][0].split(':')[0].lower()
-        most_common_name_1 = item['common_names'][0].split(':')[0].lower()
-        most_common_name_2 = item['common_names'][1].split(':')[0].lower()
-        most_common_name_3 = item['common_names'][2].split(':')[0].lower()
-        latin_name = f'{genus} {species}'
-        latin_name_abb = f'{genus[0]}. {species}'
-
-        common_names = item['common_names']
-        regional_variations = item['regional_variations']
         
-        distribution = item['distribution']
+        #######################################################################################################
+        #######################################################################################################
+        #######################################################################################################
+        # BOTANICAL
+        #######################################################################################################
+        #######################################################################################################
+        #######################################################################################################
+        if _type.lower() == 'botanical':
+            domain = item['domain']
         
-        habitat = item['habitat']
-        morphology = item['morphology']
-        life_cycle = item['life_cycle']
-        reproduction = item['reproduction']
+            domain = item['domain']
+            kingdom = item['kingdom']
+            phylum = item['phylum']
+            _class = item['class']
+            order = item['order']
+            family = item['family']
+            genus = item['genus']
+            species = item['species']
 
-        history = item['history']
-        history_medicinal_uses = item['history_medicinal_uses']
-        history_culinary_uses = item['history_culinary_uses']
-        history_spiritual_uses = item['history_spiritual_uses']
+            most_common_name = item['common_names'][0].split(':')[0].lower()
+            most_common_name_1 = item['common_names'][0].split(':')[0].lower()
+            most_common_name_2 = item['common_names'][1].split(':')[0].lower()
+            most_common_name_3 = item['common_names'][2].split(':')[0].lower()
+            latin_name = f'{genus} {species}'
+            latin_name_abb = f'{genus[0]}. {species}'
+
+            common_names = item['common_names']
+            regional_variations = item['regional_variations']
             
-        culinary_uses = item['culinary_uses']
-        beverage_uses = item['beverage_uses']
-        sensory_characteristics = item['sensory_characteristics']
-        
-        horticultural_cultivation = item['horticultural_cultivation']
-        environmental_requirements = item['environmental_requirements']
-        pests = item['pests']
-        diseases = item['diseases']
+            distribution = item['distribution']
+            
+            habitat = item['habitat']
+            morphology = item['morphology']
+            life_cycle = item['life_cycle']
+            reproduction = item['reproduction']
 
-        
-        #######################################################################################################
-        #######################################################################################################
-        #######################################################################################################
-        # BOTANY
-        #######################################################################################################
-        #######################################################################################################
-        #######################################################################################################
-        if _type.lower() == 'botany':
+            history = item['history']
+            history_medicinal_uses = item['history_medicinal_uses']
+            history_culinary_uses = item['history_culinary_uses']
+            history_spiritual_uses = item['history_spiritual_uses']
+                
+            culinary_uses = item['culinary_uses']
+            beverage_uses = item['beverage_uses']
+            sensory_characteristics = item['sensory_characteristics']
+            
+            horticultural_cultivation = item['horticultural_cultivation']
+            environmental_requirements = item['environmental_requirements']
+            pests = item['pests']
+            diseases = item['diseases']
 
             #######################################################################################################
             # TITLE
@@ -635,128 +646,70 @@ for f in articles_files:
             article += lst_to_blt(bld)
             article += '\n\n'
 
+
             #######################################################################################################
             # MORPHOLOGY
             #######################################################################################################
             article += f'## What is the morphology of {latin_name_abb}?\n\n'
-            article += '\n\n'.join([x for x in item['botany_morphology_intro']]) + '\n\n'
+            article += '\n\n'.join([x for x in item['botanical_morphology_intro']]) + '\n\n'
             article += f'### Roots\n\n'
-            article += lst_to_blt(bold_blt(item['botany_morphology_roots'])) + '\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_morphology_roots'])) + '\n\n'
             article += f'### Stems\n\n'
-            article += lst_to_blt(bold_blt(item['botany_morphology_stems'])) + '\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_morphology_stems'])) + '\n\n'
             article += f'### Leaves\n\n'
-            article += lst_to_blt(bold_blt(item['botany_morphology_leaves'])) + '\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_morphology_leaves'])) + '\n\n'
             article += f'### Flowers\n\n'
-            article += lst_to_blt(bold_blt(item['botany_morphology_flowers'])) + '\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_morphology_flowers'])) + '\n\n'
             article += f'### Fruits\n\n'
-            article += lst_to_blt(bold_blt(item['botany_morphology_fruits'])) + '\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_morphology_fruits'])) + '\n\n'
             article += f'### Seeds\n\n'
-            article += lst_to_blt(bold_blt(item['botany_morphology_seeds'])) + '\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_morphology_seeds'])) + '\n\n'
+
             
-
+            #######################################################################################################
+            # DISTRIBUTION
+            #######################################################################################################
+            article += f'## What is the geographic distribution of {latin_name}?\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_geographic_distribution'])) + '\n\n'
 
             #######################################################################################################
-            # DISTRIBUTION/HABITAT
+            # HABITAT TYPES
             #######################################################################################################
-            article += f'## What is the regional distribution of {most_common_name}?\n\n'
+            article += f'## What are the habitat types for {latin_name}?\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_habitat_types'])) + '\n\n'
 
-            regional_distribution = item['regional_distribution']
-            lst = [x.split(':')[0] for x in regional_distribution]
-            lst_bld = [f'**{x.split(":")[0]}**' for x in regional_distribution]
-            ltt_1 = lst_to_txt(lst_bld[:2])
-            ltt_2 = lst_to_txt(lst[2:-1])
-            article += f'{most_common_name.title()} is mainly found in {ltt_1}, but it can also be found in {ltt_2}.\n\n'
-            article += f'The list below gives more details on the distribution of this plant in these regions.\n\n'
-            bld = bold_blt(regional_distribution)
-            article += lst_to_blt(bld)
-            article += '\n\n'
+            #######################################################################################################
+            # CLIMATE
+            #######################################################################################################
+            article += f'## What are the climate preferences of {latin_name}?\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_climate'])) + '\n\n'
 
-
-
-            # HABITAT
-            ltt_1 = lst_to_txt([f"**{item.split(':')[0].lower()}**" for item in habitat][:3])
-            ltt_2 = lst_to_txt([f"{item.split(':')[0].lower()}" for item in habitat][3:-1])
-            article += f'### What are the preferred habitats for {most_common_name}?\n\n'
-            article += f'The best habitats for {most_common_name} are {ltt_1}, but it can be also found in {ltt_2}.\n\n'
-            article += f'The list below gives more details about these habitats and why {most_common_name} prefers them.\n\n'
-            bld = bold_blt(habitat)
-            article += lst_to_blt(bld)
-            article += '\n\n'
             
 
 
             # GROWING ZONES
-            growing_zones = item['growing_zones']
-            gz_range = growing_zones.split('-')
-            gz_lst = [i for i in range(int(gz_range[0]), int(gz_range[1])+1)]
-            lst = []
-            for gz in gz_lst:
-                for x in growing_zones_data:
-                    if x['zone'] == gz:
-                        zone = x['zone']
-                        temp_fahrenheit_from = x["temperature_from"]
-                        temp_fahrenheit_to = x["temperature_to"]
-                        temp_celsius_from = round((temp_fahrenheit_from - 32) * 5/9, 1)
-                        temp_celsius_to = round((temp_fahrenheit_to - 32) * 5/9, 1)
-                        lst.append(f'Zone {zone}: Minimum temperature of {temp_fahrenheit_from}°F to {temp_fahrenheit_to}°F ({temp_celsius_from}°C to {temp_celsius_to}°C)')
-                        break
-
-            article += f'### What are the growing zones for {most_common_name}?\n\n'
-            article += f'The best growing zones for {most_common_name} are **USDA Hardiness Zones {growing_zones}**.\n\n'
-            article += f'Here is a breakdown of these zones and their minimum temperatures.\n\n'
-            bld = bold_blt(lst)
-            article += lst_to_blt(bld)
-            article += '\n\n'
-            
-
-
-            # GROWING CONDITIONS
-            article += f'### What are the growing conditions for {most_common_name}?\n\n'
-
-            lst = [x for x in item['growing_conditions_intro']]
-            intro = '\n\n'.join(lst)
-            article += f'{intro}\n\n'
-            article += f'Here is a detailed list of the growing conditions of {most_common_name}.\n\n'
-
-            lst = bold_blt(item['growing_conditions'])
-            article += lst_to_blt(lst)
-            article += '\n\n'
-            
-
-            #######################################################################################################
-            # BOTANICAL CHARACTERISTICS
-            #######################################################################################################
-            article += f'## What are the botanical characteristics of {latin_name}?\n\n'
-
-
-            # CHEAT SHEET
+            # growing_zones = item['growing_zones']
+            # gz_range = growing_zones.split('-')
+            # gz_lst = [i for i in range(int(gz_range[0]), int(gz_range[1])+1)]
             # lst = []
-            # tmp_lst = [f'{x.split(":")[0]}' for x in morphology]
-            # tmp_lst.insert(0, 'Morphology')
-            # lst.append(tmp_lst)
-            # tmp_lst = [f'{x.split(":")[0]}' for x in life_cycle]
-            # tmp_lst.insert(0, 'Life Cycle')
-            # lst.append(tmp_lst)
-            # tmp_lst = [f'{x.split(":")[0]}' for x in reproduction]
-            # tmp_lst.insert(0, 'Reproduction')
-            # lst.append(tmp_lst)
+            # for gz in gz_lst:
+            #     for x in growing_zones_data:
+            #         if x['zone'] == gz:
+            #             zone = x['zone']
+            #             temp_fahrenheit_from = x["temperature_from"]
+            #             temp_fahrenheit_to = x["temperature_to"]
+            #             temp_celsius_from = round((temp_fahrenheit_from - 32) * 5/9, 1)
+            #             temp_celsius_to = round((temp_fahrenheit_to - 32) * 5/9, 1)
+            #             lst.append(f'Zone {zone}: Minimum temperature of {temp_fahrenheit_from}°F to {temp_fahrenheit_to}°F ({temp_celsius_from}°C to {temp_celsius_to}°C)')
+            #             break
 
-            # img_path = img_cheasheet(latin_name, 'Botanical Properties of', lst, 'botanical-characteristics')
-            # img_path = '/' + '/'.join(img_path.split('/')[1:])
-            # article += f'The following illustration shows you this classificaion visually.\n\n'
-            # article += f'![alt]({img_path} "title")\n\n'
+            # article += f'### What are the growing zones for {most_common_name}?\n\n'
+            # article += f'The best growing zones for {most_common_name} are **USDA Hardiness Zones {growing_zones}**.\n\n'
+            # article += f'Here is a breakdown of these zones and their minimum temperatures.\n\n'
+            # bld = bold_blt(lst)
+            # article += lst_to_blt(bld)
+            # article += '\n\n'
             
-            # MORPHOLOGY
-            article += f'### What is the morphology of {most_common_name}?\n\n'
-
-            article += '\n\n'.join([x for x in item['morphology_intro']]) + '\n\n'
-
-            article += f'The following list describe each part of the plant.\n\n'
-            article += lst_to_blt(bold_blt(morphology)) + '\n\n'
-
-            # HEIGHT WIDTH
-            # article += f'#### What is the height and width of {most_common_name}?\n\n'
-            # article += '\n\n'.join([x for x in item['height_width']]) + '\n\n'
 
             # LIFE CYCLE
             article += f'### Life cycle\n\n'
@@ -775,6 +728,24 @@ for f in articles_files:
             article += lst_to_blt(bld)
             article += '\n\n'
 
+        elif 'morphology' in _type.lower():
+            #######################################################################################################
+            # MORPHOLOGY
+            #######################################################################################################
+            article += f'# What is the morphology of {latin_name_abb}?\n\n'
+            article += '\n\n'.join([x for x in item['botanical_morphology_intro']]) + '\n\n'
+            article += f'## Roots\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_morphology_roots'])) + '\n\n'
+            article += f'## Stems\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_morphology_stems'])) + '\n\n'
+            article += f'## Leaves\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_morphology_leaves'])) + '\n\n'
+            article += f'## Flowers\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_morphology_flowers'])) + '\n\n'
+            article += f'## Fruits\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_morphology_fruits'])) + '\n\n'
+            article += f'## Seeds\n\n'
+            article += lst_to_blt(bold_blt(item['botanical_morphology_seeds'])) + '\n\n'
         else:
             
             ##################################################################################################
@@ -909,16 +880,8 @@ for f in articles_files:
 
 
 
-        
-        # try: os.mkdir(f'articles/{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}')
-        # except: pass
-
-        # article_filename = latin_name.lower().replace(' ', '-')
-        # article_md_url = f'{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.md'
-        # article_md_url = f'{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.md'
         entity_name = item["latin_name"].lower().replace(' ', '-')
-        attribute_name = item["type"].lower().replace(' ', '-')
-        article_md_url = f'{entity_name}/{attribute_name}.md'
+        article_md_url = f'{entity_name}/{_type}.md'
         with open(f'articles/{article_md_url}', 'w', encoding='utf-8') as f:
             f.write(article)
 
@@ -963,8 +926,7 @@ for f in articles_files:
         # article_url = f'{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.html'
         # article_url = f'{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.html'
         entity_name = item["latin_name"].lower().replace(' ', '-')
-        attribute_name = item["type"].lower().replace(' ', '-')
-        article_url = f'{entity_name}/{attribute_name}.html'
+        article_url = f'{entity_name}/{_type}.html'
         with open(f'website/{article_url}', 'w', encoding='utf-8') as f:
             f.write(html)
 
@@ -1118,7 +1080,7 @@ with open(f'article-viewer.html', 'w') as f:
     f.write(html)
 
 
-with open(f'articles/achillea-millefolium/botany.md') as f:
+with open(f'articles/achillea-millefolium/botanical.md') as f:
     article_md = f.read()
 
 word_count = len(article_md.split(' '))

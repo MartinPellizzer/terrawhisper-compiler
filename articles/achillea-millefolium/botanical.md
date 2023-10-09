@@ -66,7 +66,7 @@ The plant's stems are typically erect, displaying variations in color and diamet
 
 In terms of flowers, yarrow produces compound inflorescences called corymbs, comprising numerous small florets. Ray florets, typically white or pink, attract pollinators, while central disc florets, in a vibrant yellow hue, play a pivotal role in both pollination and seed production. This blooming process occurs from late spring through early autumn, ensuring a consistent supply of nectar for pollinators.
 
-This plant has also fruits that consists of achenes, which are dry and one-seeded, and typically small and oblong. These achenes are attached to a modified structure called a pappus, facilitating their dispersal by the wind. These fruits also contain seeds that exhibit variations in size and range in color from dark brown to black. Their textured surfaces are designed to absorb water and adhere to soil particles during germination. These lightweight seeds rely primarily on wind dispersal and possess remarkable longevity, remaining viable for several years. Optimal germination conditions depend on factors like temperature, light, and soil moisture, with the ideal temperature range being specific for this process.
+This plant has also fruits that consist of achenes, which are dry and one-seeded, and typically small and oblong. These achenes are attached to a modified structure called a pappus, facilitating their dispersal by the wind. These fruits also contain seeds that exhibit variations in size and range in color from dark brown to black. Their textured surfaces are designed to absorb water and adhere to soil particles during germination. These lightweight seeds rely primarily on wind dispersal and possess remarkable longevity, remaining viable for several years. Optimal germination conditions depend on factors like temperature, light, and soil moisture, with the ideal temperature range being specific for this process.
 
 ### Roots
 
@@ -127,87 +127,31 @@ This plant has also fruits that consists of achenes, which are dry and one-seede
 - **Seed Viability and Longevity**:  Achillea millefolium seeds have demonstrated remarkable longevity. Studies have reported seed viability to persist for several years under favorable storage conditions. This longevity contributes to the species' resilience, allowing it to maintain a presence in ecosystems even in the face of environmental fluctuations.
 - **Germination Requirements**:  Germination in Achillea millefolium seeds is influenced by various factors, including temperature, light, and soil moisture content. Optimal germination typically occurs when soil temperatures range from 15°C to 25°C (59°F to 77°F) and when seeds are placed on or slightly below the soil surface. Additionally, some evidence suggests that yarrow seeds may exhibit improved germination rates when exposed to light, but they can also germinate in darkness.
 
-## What is the regional distribution of yarrow?
+## What is the geographic distribution of Achillea millefolium?
 
-Yarrow is mainly found in **Europe** and **Asia**, but it can also be found in North America, Australia and South America.
+- **North America**:  Achillea millefolium is native to North America and can be found throughout the continent. In the United States, it is found in all 50 states, including Alaska and Hawaii. It is particularly abundant in the western and central regions of North America, including states like California, Oregon, Washington, Montana, and Colorado.
+- **Europe**:  It is native to Europe as well and is distributed across the continent. It can be found in countries such as the United Kingdom, France, Germany, Spain, Italy, and Scandinavia. It is also common in eastern European countries like Russia, Ukraine, and Bulgaria.
+- **Asia**:  It has a broad distribution in Asia, ranging from the Middle East to Siberia. It is found in countries such as Turkey, Iran, Afghanistan, and the Caucasus region. In Siberia, it extends its range into northern Asia.
+- **Other Regions**:  It has also been introduced and has naturalized in other parts of the world, including Australia and New Zealand. It is often found in temperate climates and can grow at varying elevations, from sea level to mountainous regions.
 
-The list below gives more details on the distribution of this plant in these regions.
+## What are the habitat types for Achillea millefolium?
 
-- **Europe**:  It is native to Europe and can be found throughout the continent. It is particularly common in grasslands, meadows, and along roadsides.
-- **Asia**:  It is also native to parts of Asia, including Siberia, the Himalayas, and the Middle East. It can be found in grasslands and other open areas.
-- **North America**:  It is widespread in North America, where it has become naturalized. It can be found in a variety of habitats, including fields, prairies, and disturbed areas.
-- **Australia**:  It has been introduced to Australia and is considered an invasive species in some regions. It can be found in grasslands and disturbed areas.
-- **South America**:  It has also been introduced to South America, where it can be found in areas with suitable growing conditions.
-- **Africa**:  It has a more limited distribution in Africa compared to other continents, but it can still be found in some regions, particularly in the northern parts of the continent.
+- **Grasslands and Meadows**:  It is often found in open grasslands and meadows. It thrives in well-drained soils with good sunlight exposure. It can tolerate a range of soil types, from sandy to clayey, but it prefers soils that are not overly wet.
+- **Roadsides and Disturbed Areas**:  It is a pioneer species and can quickly colonize disturbed areas, such as roadsides and construction sites. Its ability to grow in disturbed habitats contributes to its widespread distribution.
+- **Woodland Margins**:  While it prefers open areas, it can also be found at the edges of woodlands and forests where there is enough light.
+- **Alpine and Subalpine Zones**:  In mountainous regions, It can be found in alpine and subalpine meadows and slopes. It can tolerate harsh environmental conditions, including cold temperatures and high altitudes.
+- **Coastal Habitats**:  It can grow along coastlines in sandy or gravelly soils. It is known to be somewhat salt-tolerant, making it suitable for coastal environments.
+- **Gardens and Cultivated Areas**:  It is also commonly grown in gardens and cultivated for its ornamental value. Cultivated varieties may differ slightly in habitat requirements compared to wild types.
+- **Waste Areas**:  It is often found in abandoned fields, vacant lots, and other wasteland areas. Its adaptability allows it to thrive in less favorable conditions.
 
-### What are the preferred habitats for yarrow?
+## What are the climate preferences of Achillea millefolium?
 
-The best habitats for yarrow are **grasslands**, **roadsides** and **fields**, but it can be also found in woodland edges, disturbed areas, gardens, coastal areas and mountainous regions.
-
-The list below gives more details about these habitats and why yarrow prefers them.
-
-- **Grasslands**:  It is often found in open grassy areas, meadows, and prairies. It thrives in areas with well-draining soil and plenty of sunlight.
-- **Roadsides**:  It is a common sight along roadsides and highways, as it can tolerate disturbed soils and is often able to outcompete other plants in these areas.
-- **Fields**:  It can be found in agricultural fields, particularly those with minimal cultivation or where the soil is not heavily disturbed.
-- **Woodland Edges**:  It can grow along the edges of woodlands, where it can receive partial shade and still thrive in the understory.
-- **Disturbed Areas**:  It is often one of the first plants to colonize disturbed areas, such as construction sites or areas recovering from wildfires. Its ability to grow in these conditions makes it a pioneer species.
-- **Gardens**:  Many people cultivate it in their gardens, where it is valued for its attractive feathery foliage and clusters of small, white, or pink flowers.
-- **Coastal Areas**:  It is known to grow in coastal areas, including dunes and salt marshes. It can tolerate salt spray and sandy soils.
-- **Mountainous Regions**:  It is adaptable to a range of elevations and can be found in mountainous regions, including alpine meadows.
-- **Riparian Zones**:  It can grow along the banks of rivers and streams, especially in areas with relatively stable water levels.
-
-### What are the growing zones for yarrow?
-
-The best growing zones for yarrow are **USDA Hardiness Zones 3-9**.
-
-Here is a breakdown of these zones and their minimum temperatures.
-
-- **Zone 3**:  Minimum temperature of -40°F to -30°F (-40.0°C to -34.4°C)
-- **Zone 4**:  Minimum temperature of -30°F to -20°F (-34.4°C to -28.9°C)
-- **Zone 5**:  Minimum temperature of -20°F to -10°F (-28.9°C to -23.3°C)
-- **Zone 6**:  Minimum temperature of -10°F to 0°F (-23.3°C to -17.8°C)
-- **Zone 7**:  Minimum temperature of 0°F to 10°F (-17.8°C to -12.2°C)
-- **Zone 8**:  Minimum temperature of 10°F to 20°F (-12.2°C to -6.7°C)
-- **Zone 9**:  Minimum temperature of 20°F to 30°F (-6.7°C to -1.1°C)
-
-### What are the growing conditions for yarrow?
-
-Yarrow thrives where there's a lot of sun and a well-drained soil with a pH of 6.0 to 7.5. 
-
-It tolerates drought once established and is suitable for USDA zones 3 to 9. Pruning for deadheading and occasional division can help maintain its growth. It is resistant to most pests and diseases but can occasionally be affected by aphids and powdery mildew. 
-
-Plant it 1 to 2 feet apart for optimal growth and enjoy its versatile use in gardens and landscapes.
-
-Here is a detailed list of the growing conditions of yarrow.
-
-- **Sunlight**:  It thrives in full sun, which means it requires at least 6-8 hours of direct sunlight per day. It can tolerate partial shade but tends to produce fewer flowers in such conditions.
-- **Soil**:  It prefers well-drained soil with a slightly alkaline to neutral pH level (around 6.0 to 7.5). It can tolerate a wide range of soil types, including sandy, loamy, or clayey soils, but it does best in soil that is not overly wet or waterlogged.
-- **Watering**:  It is drought-tolerant once established, so it doesn't require frequent watering. Water young plants regularly until they establish a strong root system. Once established, water sparingly, allowing the soil to dry out between waterings.
-- **Temperature**:  It is hardy and can tolerate a wide range of temperatures. It can grow in USDA hardiness zones 3 to 9, which covers a large portion of the United States.
-- **Pruning**:  It benefits from occasional deadheading (removing spent flowers) to encourage continuous blooming and to prevent self-seeding, as it can become invasive in some areas. Prune the plant back in late fall or early spring to encourage fresh growth.
-- **Fertilizing**:  It typically doesn't require heavy fertilization. You can apply a balanced, all-purpose fertilizer in the spring if your soil is poor. However, excessive fertilizer can lead to leggy growth and fewer flowers.
-- **Propagation**:  It can be propagated from seeds, divisions, or cuttings. To divide established plants, dig up the clump in early spring or late summer and separate the sections, replanting them in well-prepared soil.
-- **Pests and Diseases**:  It is relatively resistant to pests and diseases. However, it can sometimes be affected by aphids or powdery mildew. Insecticidal soap or neem oil can help control aphids, and proper spacing and good air circulation can reduce the risk of powdery mildew.
-- **Space**:  Plant it about 1 to 2 feet apart, depending on the variety, as it can spread and become dense over time.
-
-## What are the botanical characteristics of Achillea millefolium?
-
-### What is the morphology of yarrow?
-
-Yarrow features erect stems reaching 1 to 3 feet in height, often with fine hair and green coloration.
-
-Its feathery, pinnately compound leaves grow up to 4 inches long and emit an aromatic scent when crushed. It blooms with dense, flat-topped clusters of small, daisy-like flowers in white, pink, or yellow hues, attracting various pollinators.
-
-The plant boasts a fibrous root system, aiding in stability and nutrient absorption. After pollination, it produces inconspicuous, dry, one-seeded fruits called achenes.
-
-The following list describe each part of the plant.
-
-- **Stem**:  Yarrow plants typically have one or more erect stems that can grow up to 1 to 3 feet (30 to 90 cm) in height. These stems are usually finely hairy and green, sometimes with a reddish or purplish tint.
-- **Leaves**:  Its leaves are alternate and finely divided, giving them a feathery appearance. They are pinnately compound and can be up to 3 to 4 inches (7.5 to 10 cm) long. The leaves are usually aromatic when crushed and are arranged along the stem in a spiral fashion.
-- **Inflorescence**:  It produces dense, flat-topped clusters of tiny flowers at the top of its stems. These clusters, known as "inflorescences," consist of numerous small, daisy-like flowers that can be white, pink, or yellow, depending on the variety.
-- **Flowers**:  Each individual flower in the inflorescence has a characteristic appearance. Its flowers have five small, petal-like ray florets surrounding a central cluster of disk florets. The ray florets are usually white or pale in color, while the disk florets are typically yellow. Its flowers are visited by various pollinators, including bees and butterflies.
-- **Roots**:  It has a fibrous root system, which can be somewhat rhizomatous. The roots help anchor the plant in the soil and absorb water and nutrients.
-- **Fruit**:  After the flowers are fertilized, they produce small, dry, one-seeded fruits known as achenes. These achenes are typically small and not very conspicuous.
+- **Temperature**:  It can tolerate a broad temperature range. It typically grows best in regions with average annual temperatures ranging from 10°C (50°F) to 24°C (75°F). It is frost-tolerant and can survive cold winters, with some varieties even thriving in sub-zero temperatures.
+- **Precipitation**:  It is adaptable to a variety of precipitation levels, but it prefers well-drained soils and can tolerate periods of drought. It can be found in areas with annual precipitation ranging from 250 mm (10 inches) to 1000 mm (40 inches).
+- **Soil Type**:  It is not particularly picky about soil type but prefers well-drained soils. It can grow in sandy, loamy, or clayey soils and is often found in disturbed areas such as roadsides and meadows. Soil pH levels can range from slightly acidic (pH 6) to slightly alkaline (pH 8).
+- **Sunlight**:  It is a sun-loving plant and typically thrives in full sun to partial shade. It can tolerate a wide range of light conditions but may flower more profusely in full sun.
+- **Altitude**:  The altitude range for this plant varies widely, from sea level to mountainous regions. It can be found at elevations ranging from 0 to 4,000 meters (0 to 13,000 feet) above sea level.
+- **Frost Tolerance**:  Yarrow is frost-resistant and can survive light frost. It typically goes dormant during the winter months in colder climates.
 
 ### Life cycle
 

@@ -82,51 +82,10 @@ uses
 
 
 
-botanical
-    yarrow botanical name
-    yarrow plant
-    yarrow achillea
-    yarrow achillea millefolium
-    yarrow family
-    yarrow genus
-
-    yarrow meaning
-    yarrow definition
-    yarrow description
-
-    yarrow height
-    yarrow height and width
-
-    yarrow care
-    yarrow colors
-    yarrow flower colors
-    yarrow companion plants
-
-    yarrow flower
-
-    [variations]
-        yarrow cerise queen
-        yarrow firefly peach sky
-
-    yarrow hardiness zone
-    yarrow identification
 
 
 
 
-
-cultivation
-    yarrow deadhead
-    yarrow as ground cover
-    yarrow drought tolerant
-    yarrow bloom time
-    yarrow annual or perennial
-    yarrow from seed
-    yarrow ground cover
-    yarrow growing conditions
-    yarrow grass
-    yarrow grass seed
-    yarrow harvest
 
 
 
@@ -136,32 +95,14 @@ symbology
 
 
 
-medicinal
-    yarrow benefits
-    yarrow herb benefits
-    yarrow health benefits
-    yarrow healing properties
-
-    yarrow benefits for skin
-    yarrow for skin
-    yarrow essential oil
-    yarrow essential oil benefits
-    yarrow essential oil benefits for skin
-
-    yarrow drops
-    yarrow extract
-    yarrow extract benefits
-    yarrow energetics
-    yarrow flower benefits
-    yarrow flower essence
-    yarrow hydrosol
-    
-    yarrow flower tea
 
 
 
-culinary
-    yarrow edible
+
+# culinary
+yarrow edible
+yarrow ice cream
+yarrow kitchen
 
 
 
@@ -194,67 +135,15 @@ what grows well with yarrow
 achillea cerise queen how to grow
 
 
+yarrow in lawn
 
 
 yarrow gardens
 
 
 
-yarrow in spanish
 yarrow images
-yarrow in lawn
-yarrow in french
-yarrow infused oil
-yarrow invasive
-yarrow in arabic
-yarrow ice cream
-yarrow in hindi
-yarrow in russian
-yarrow in pots
-yarrow in garden
-yarrow jelly
-yarrow juice
-yarrow jobs
-yarrow johnny's
-yarrow joyful belly
-yarrow juglone
-yarrow jewelry
-yarrow japanese beetle
-yarrow jacket
-yarrow jones
-jac yarrow
-jac yarrow partner
-jac yarrow wikipedia
-jac yarrow actor
-jon yarrow goldman sachs
-yarrow kittery
-yarrow kraner
-yarrow killer
-yarrow kubrin
-yarrow kitchen
-yarrow kraner net worth
-yarrow ka hindi
-yarrow kidneys
-yarrow kittery me
-yarrow kirk
-yarrow key divinity 2
-yarrow king tucson
-yarrow kansas
-yarrow kentucky
-yarrow kraner hatch
-yarrow lawn
-yarrow locations rdr2
-yarrow look alikes
-yarrow latin name
-yarrow love parade
-yarrow leaf benefits
-yarrow library
-yarrow light requirements
-yarrow leaves benefits
-yarrow leaf tea
-yarrow lawn seed
-yarrow landscaping
-yarrow little moonshine
+
 yarrow lietuviskai
 yarrow medicinal uses
 yarrow medical

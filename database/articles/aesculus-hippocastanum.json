@@ -1,6 +1,7 @@
 [
     {
-        "type": "botany",
+        "state": "published",
+        "type": "botanical",
         "latin_name": "Aesculus hippocastanum",
         "domain": "Eukarya",
         "kingdom": "Plantae",
@@ -80,13 +81,13 @@
             "Coppicing: Like many trees, these trees can be propagated through coppicing, a traditional forestry practice. Coppicing involves cutting the tree back to the ground, and then allowing it to regrow from the base. This is typically done on a rotational basis to produce a sustainable source of wood or other forest products.",
             "Natural Layering: In some cases, branches of a these tree may come into contact with the ground and root, forming new trees. This process is known as natural layering and can happen when low-hanging branches or stems bend and touch the soil, allowing them to establish roots and become independent trees."
         ],
-        "botany_morphology_intro": [],
-        "botany_morphology_roots": [],
-        "botany_morphology_stems": [],
-        "botany_morphology_leaves": [],
-        "botany_morphology_flowers": [],
-        "botany_morphology_fruits": [],
-        "botany_morphology_seeds": [],
+        "botanical_morphology_intro": [],
+        "botanical_morphology_roots": [],
+        "botanical_morphology_stems": [],
+        "botanical_morphology_leaves": [],
+        "botanical_morphology_flowers": [],
+        "botanical_morphology_fruits": [],
+        "botanical_morphology_seeds": [],
         "history": [
             "Medicinal Use: Various parts of the horse chestnut tree, including the seeds, bark, and leaves, have been used in traditional medicine for centuries. It was historically employed to treat conditions such as varicose veins, hemorrhoids, and edema due to its potential anti-inflammatory and vasoconstrictive properties.",
             "Hemorrhoid Treatment: Its extracts are still used in some herbal remedies and over-the-counter creams for alleviating the symptoms of hemorrhoids.",
@@ -272,6 +273,10 @@
             "Do not apply to broken or ulcerated skin",
             "May interact with blood-thinning drugs"
         ],
-        "self_help_uses": []
+        "self_help_uses": [],
+        "botanical_geographic_distribution": [],
+        "botanical_habitat_types": [],
+        "botanical_climate": [],
+        "_placeholder": []
     }
 ]
