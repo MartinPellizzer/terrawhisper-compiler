@@ -2,19 +2,21 @@
 
 ![alt](/assets/images/achillea-millefolium-botanical-morphology.jpg "title")
 
-Yarrow possesses two primary types of roots: taproots and fibrous roots. Taproots can reach depths of up to 60 centimeters, spreading laterally, while fibrous roots create a dense surface network for nutrient absorption. This adaptable root system responds to seasonal changes and varying soil conditions.
+The Achillea millefolium (or yarrow), is mainly composed of roots, stems, leaves, flowers, fruits, and seeds, on a morphological level.
 
-The plant's stems are typically erect, displaying variations in color and diameter as they age. In these stems, the leaves occur in pairs at each node, lending the plant a fern-like appearance and providing crucial support for its inflorescences. These leaves are small, green, and intricately dissected to maximize surface area. Their prominent venation aids in efficient nutrient and water transport.
+It has a deep taproot system reaching 60 cm deep and spreading meters horizontally, along with shallow fibrous roots. These roots are slender (0.1-0.5 mm) and have dense root hairs (200-300 micrometers long) for nutrient and water absorption.
 
-In terms of flowers, yarrow produces compound inflorescences called corymbs, comprising numerous small florets. Ray florets, typically white or pink, attract pollinators, while central disc florets, in a vibrant yellow hue, play a pivotal role in both pollination and seed production. This blooming process occurs from late spring through early autumn, ensuring a consistent supply of nectar for pollinators.
+Its stems varies in color and thickness, starting thin (2-4mm) and thickening (5-8mm+) as it matures, while the leaves are feathery, bright green, well-veined, and serrated, optimized for ecological functions.
 
-This plant has also fruits that consist of achenes, which are dry and one-seeded, and typically small and oblong. These achenes are attached to a modified structure called a pappus, facilitating their dispersal by the wind. These fruits also contain seeds that exhibit variations in size and range in color from dark brown to black. Their textured surfaces are designed to absorb water and adhere to soil particles during germination. These lightweight seeds rely primarily on wind dispersal and possess remarkable longevity, remaining viable for several years. Optimal germination conditions depend on factors like temperature, light, and soil moisture, with the ideal temperature range being specific for this process.
+This plant has compound corymb inflorescences, attracting pollinators with 2-4 cm diameter capitulums. Also, they have central disc florets that are vital for pollination.
+
+The A. millefolium produces fruits called achenes that are dry and one-seeded achenes (2-3mm long, 1-2mm wide), in brown, black, or grayish-brown colors, while the seeds from these fruits vary in size (1.5 to 2.5mm) and have a dark brown to black color.
 
 ## What is the morphology of A. millefolium roots?
 
 Achillea millefolium's root system comprises taproots and fibrous roots. Taproots can reach over 60 cm deep and spread meters horizontally, while fibrous roots form a shallow mat, averaging 150-200 roots per square meter.
 
-These roots slender diameter (0.1-0.5 mm) aids in nutrient absorption and their densely distributed root hairs (200-300 micrometers long) further enhance nutrient and water uptake.
+These roots' slender diameter (0.1-0.5 mm) aids in nutrient absorption and their densely distributed root hairs (200-300 micrometers long) further enhance nutrient and water uptake.
 
 Root growth follows a seasonal pattern, with increased growth in spring and slower growth in winter. Also, the plant exhibits root system plasticity, allocating resources to root growth during drought stress to access deeper water sources.
 
@@ -33,7 +35,7 @@ The full description of the Achillea millefolium root morphology is given in the
 
 The Achillea millefolium stem exhibits variable colors, ranging from green to reddish-brown due to environmental factors and genetics.
 
-It starts thin (2-4mm) in youth and thickens (5-8mm+) as it matures. Internodes, the stem segments between nodes, range from 1 to 10 centimeters in length depending on growth stage and conditions. Nodes are oppositely paired, with fern-like leaves attached, often aromatic.
+It starts thin (2-4mm) in youth and thickens (5-8mm+) as it matures. Internodes, the stem segments between nodes, range from 1 to 10 centimeters in length depending on the growth stage and conditions. Nodes are oppositely paired, with fern-like leaves attached, often aromatic.
 
 The stem's branching pattern varies, contributing to its bushy form. Also, a secondary growth may occur in older plants, thickening the stem. These adaptations support Achillea millefolium's thriving in diverse habitats and facilitate pollination of its composite flowers.
 
@@ -69,7 +71,7 @@ The full description of the Achillea millefolium leaves morphology is given in t
 
 Achillea millefolium features compound corymb inflorescences, each with multiple small florets radiating outward, making it attractive to pollinators.
 
-Individual capitulums typically measure 2-4 cm in diameter, with variations due to environmental factors. The outer ray florets are often white or pink, have 3-8 per capitulum, and serve as pollinator attractors. On the other hand, the central yellow disc florets has 20-40 capitulum, which are vital for pollination and seed production.
+Individual capitulums typically measure 2-4 cm in diameter, with variations due to environmental factors. The outer ray florets are often white or pink, have 3-8 per capitulum, and serve as pollinator attractors. On the other hand, the central yellow disc florets have 20-40 capitulum, which are vital for pollination and seed production.
 
 The pedicel connecting the capitula to the stem ranges from 1-10 cm in length. and the involucre (composed of 5-8 phyllaries) shields florets and enhances aesthetics. That said, this plant provides pollinators with a steady nectar supply as it blooms from late spring to early autumn.
 
