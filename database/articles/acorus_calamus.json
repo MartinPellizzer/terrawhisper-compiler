@@ -1,7 +1,7 @@
 [
     {
         "state": "published",
-        "type": "botanical",
+        "attribute": "botanical",
         "latin_name": "Acorus calamus",
         "domain": "Eukarya",
         "kingdom": "Plantae",

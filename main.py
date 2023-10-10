@@ -457,6 +457,63 @@ def img_cheasheet(latin_name, title, lst, img_name):
 
 
 
+
+######################################################################
+def generate_html(article, entity, attribute):
+    article_filepath = f'{entity}/{attribute}.md'
+    with open(f'articles/{article_filepath}', 'w', encoding='utf-8') as f:
+        f.write(article)
+
+    article_html = markdown.markdown(article, extensions=['markdown.extensions.tables'])
+
+    article_html = generate_toc(article_html)
+    
+    word_count = len(article.split(' '))
+    reading_time_html = str(word_count // 200) + ' minutes'
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="/style.css">
+            <title>Document</title>
+        </head>
+
+        <body>
+            <section class="my-96">
+                <div class="container">
+                    <div class="flex justify-between mb-16">
+                        <span>by Martin Pellizzer - 2023/10/02</span>
+                        <span>{reading_time_html}</span>
+                    </div>
+                    {article_html}
+                </div>
+            </section>
+        </body>
+
+        </html>
+    '''
+
+    article_filepath = f'{entity}/{attribute}.html'
+    with open(f'website/{article_filepath}', 'w', encoding='utf-8') as f:
+        f.write(html)
+
+    return article_filepath
+
+
+def generate_featured_image(entity, attribute):
+    attribute_filename = attribute.replace('/', '-')
+    featured_image_filename = f'{entity}-{attribute_filename}.jpg'
+    featured_image_filpath = img_resize(f'articles-images/{featured_image_filename}')
+    # print(featured_image_filpath)
+    featured_image_filpath = '/' + '/'.join(featured_image_filpath.split('/')[1:])
+
+    return featured_image_filpath
+
+
 ######################################################################
 # FOLDERS
 ######################################################################
@@ -496,23 +553,23 @@ for f in articles_files:
         if 'draft' == state.lower().strip():
             continue
 
-        entity_name = item["latin_name"].lower().replace(' ', '-')
-        _type = item['type']
+        entity = item["latin_name"].lower().replace(' ', '-')
+        attribute = item['attribute']
 
-        try: os.mkdir(f'articles/{entity_name}')
+        try: os.mkdir(f'articles/{entity}')
         except: pass
-        try: os.mkdir(f'website/{entity_name}')
+        try: os.mkdir(f'website/{entity}')
         except: pass
 
-        folders = [x for x in _type.split('/')]
+        folders = [x for x in attribute.split('/')]
         curr_path = ''
         for folder in folders:
             curr_path += folder + '/'
-            try: os.mkdir(f'articles/{entity_name}/{curr_path}')
+            try: os.mkdir(f'articles/{entity}/{curr_path}')
             except: pass
-            try: os.mkdir(f'website/{entity_name}/{curr_path}')
+            try: os.mkdir(f'website/{entity}/{curr_path}')
             except: pass
-        # try: os.mkdir(f'website/{entity_name}/{attribute_name}')
+        # try: os.mkdir(f'website/{entity}/{attribute_name}')
         # except: pass
 
         article = ''
@@ -527,7 +584,7 @@ for f in articles_files:
         #######################################################################################################
         #######################################################################################################
         #######################################################################################################
-        if _type.lower() == 'botanical':
+        if attribute.lower() == 'botanical':
             domain = item['domain']
         
             domain = item['domain']
@@ -728,24 +785,57 @@ for f in articles_files:
             article += lst_to_blt(bld)
             article += '\n\n'
 
-        elif 'morphology' in _type.lower():
+        elif 'morphology' in attribute.lower():
             #######################################################################################################
             # MORPHOLOGY
             #######################################################################################################
-            article += f'# What is the morphology of {latin_name_abb}?\n\n'
+            title = f'What is the morphology of {latin_name}?'
+            article += f'# {title}\n\n'
+
+            featured_image_filpath = generate_featured_image(entity, attribute)
+            article += f'![alt]({featured_image_filpath} "title")\n\n'
             article += '\n\n'.join([x for x in item['botanical_morphology_intro']]) + '\n\n'
-            article += f'## Roots\n\n'
+
+            article += f'## What is the morphology of {latin_name_abb} roots?\n\n'
+            article += '\n\n'.join(item['botanical_morphology_roots_intro']) + '\n\n'
+            article += f'The full description of the {latin_name} root morphology is given in the following list.' + '\n\n'
             article += lst_to_blt(bold_blt(item['botanical_morphology_roots'])) + '\n\n'
-            article += f'## Stems\n\n'
+
+            article += f'## What is the morphology of {latin_name_abb} stems?\n\n'
+            article += '\n\n'.join(item['botanical_morphology_stems_intro']) + '\n\n'
+            article += f'The full description of the {latin_name} stems morphology is given in the following list.' + '\n\n'
             article += lst_to_blt(bold_blt(item['botanical_morphology_stems'])) + '\n\n'
-            article += f'## Leaves\n\n'
+            
+            article += f'## What is the morphology of {latin_name_abb} leaves?\n\n'
+            article += '\n\n'.join(item['botanical_morphology_leaves_intro']) + '\n\n'
+            article += f'The full description of the {latin_name} leaves morphology is given in the following list.' + '\n\n'
             article += lst_to_blt(bold_blt(item['botanical_morphology_leaves'])) + '\n\n'
-            article += f'## Flowers\n\n'
+
+            article += f'## What is the morphology of {latin_name_abb} flowers?\n\n'
+            article += '\n\n'.join(item['botanical_morphology_flowers_intro']) + '\n\n'
+            article += f'The full description of the {latin_name} flowers morphology is given in the following list.' + '\n\n'
             article += lst_to_blt(bold_blt(item['botanical_morphology_flowers'])) + '\n\n'
-            article += f'## Fruits\n\n'
+            
+            article += f'## What is the morphology of {latin_name_abb} fruits?\n\n'
+            article += '\n\n'.join(item['botanical_morphology_fruits_intro']) + '\n\n'
+            article += f'The full description of the {latin_name} fruits morphology is given in the following list.' + '\n\n'
             article += lst_to_blt(bold_blt(item['botanical_morphology_fruits'])) + '\n\n'
-            article += f'## Seeds\n\n'
+            
+            article += f'## What is the morphology of {latin_name_abb} seeds?\n\n'
+            article += '\n\n'.join(item['botanical_morphology_seeds_intro']) + '\n\n'
+            article += f'The full description of the {latin_name} seeds morphology is given in the following list.' + '\n\n'
             article += lst_to_blt(bold_blt(item['botanical_morphology_seeds'])) + '\n\n'
+
+            article_filepath = generate_html(article, entity, attribute)
+
+            articles_home.append(
+                {
+                    'img': featured_image_filpath,
+                    'url': article_filepath,
+                    'name': most_common_name.title(),
+                    'title': title,
+                }
+            )
         else:
             
             ##################################################################################################
@@ -880,64 +970,9 @@ for f in articles_files:
 
 
 
-        entity_name = item["latin_name"].lower().replace(' ', '-')
-        article_md_url = f'{entity_name}/{_type}.md'
-        with open(f'articles/{article_md_url}', 'w', encoding='utf-8') as f:
-            f.write(article)
-
-        article_html = markdown.markdown(article, extensions=['markdown.extensions.tables'])
+        
 
         
-        # article_html = article_html.replace('<img', '<img class="img-featured"')
-        
-        # ADD TABLE OF CONTENTS ----------------------------------------
-        article_html = generate_toc(article_html)
-        
-        word_count = len(article.split(' '))
-        reading_time_html = str(word_count // 200) + ' minutes'
-        word_count_html = str(word_count) + ' words'
-
-        html = f'''
-            <!DOCTYPE html>
-            <html lang="en">
-
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <link rel="stylesheet" href="/style.css">
-                <title>Document</title>
-            </head>
-
-            <body>
-                <section class="my-96">
-                    <div class="container">
-                        <div class="flex justify-between mb-16">
-                            <span>by Martin Pellizzer - 2023/10/02</span>
-                            <span>{reading_time_html} ({word_count_html})</span>
-                        </div>
-                        {article_html}
-                    </div>
-                </section>
-            </body>
-
-            </html>
-        '''
-
-        # article_url = f'{domain}/{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.html'
-        # article_url = f'{kingdom}/{phylum}/{_class}/{order}/{family}/{genus}/{species}.html'
-        entity_name = item["latin_name"].lower().replace(' ', '-')
-        article_url = f'{entity_name}/{_type}.html'
-        with open(f'website/{article_url}', 'w', encoding='utf-8') as f:
-            f.write(html)
-
-        articles_home.append(
-            {
-                'img': featured_image_filpath,
-                'url': article_url,
-                'name': most_common_name.title(),
-                'title': f'{most_common_name.title()} Guide: Botanical, Medicinal, and Culinary',
-            }
-        )
 
 
 ##################################################################################################
@@ -1072,54 +1107,54 @@ with open(f'index.html', 'w') as f:
 # VIEWER
 ##################################################################################################
 
-with open(f'index_viewer.html', 'w') as f:
-    f.write(html)
+# with open(f'index_viewer.html', 'w') as f:
+#     f.write(html)
 
 
-with open(f'article-viewer.html', 'w') as f:
-    f.write(html)
+# with open(f'article-viewer.html', 'w') as f:
+#     f.write(html)
 
 
-with open(f'articles/achillea-millefolium/botanical.md') as f:
-    article_md = f.read()
+# with open(f'articles/achillea-millefolium/botanical.md') as f:
+#     article_md = f.read()
 
-word_count = len(article_md.split(' '))
-reading_time_html = str(word_count // 200) + ' minutes'
+# word_count = len(article_md.split(' '))
+# reading_time_html = str(word_count // 200) + ' minutes'
 
-article_html = markdown.markdown(article_md, extensions=['markdown.extensions.tables'])
+# article_html = markdown.markdown(article_md, extensions=['markdown.extensions.tables'])
 
-article_html = article_html.replace('<img', '<img class="img-featured"')
-article_html = article_html.replace('src="/assets/', 'src="website/assets/')
+# # article_html = article_html.replace('<img', '<img class="img-featured"')
+# # article_html = article_html.replace('src="/assets/', 'src="website/assets/')
 
-article_html = generate_toc(article_html)
+# article_html = generate_toc(article_html)
 
 
-html = f'''
-    <!DOCTYPE html>
-    <html lang="en">
+# html = f'''
+#     <!DOCTYPE html>
+#     <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Document</title>
-    </head>
+#     <head>
+#         <meta charset="UTF-8">
+#         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#         <link rel="stylesheet" href="style.css">
+#         <title>Document</title>
+#     </head>
 
-    <body>
-        <section>
-            <div class="container">
-                {word_count}
-                {reading_time_html}
-                {article_html}
-            </div>
-        </section>
-    </body>
+#     <body>
+#         <section>
+#             <div class="container">
+#                 {word_count}
+#                 {reading_time_html}
+#                 {article_html}
+#             </div>
+#         </section>
+#     </body>
 
-    </html>
-'''
+#     </html>
+# '''
 
-with open(f'article-viewer.html', 'w') as f:
-    f.write(html)
+# with open(f'article-viewer.html', 'w') as f:
+#     f.write(html)
 
 
 ##################################################################################################
