@@ -2,15 +2,15 @@
 
 ![alt](/assets/images/achillea-millefolium-botanical-morphology.jpg "title")
 
-The Achillea millefolium (or yarrow), is mainly composed of roots, stems, leaves, flowers, fruits, and seeds, on a morphological level.
+The Achillea millefolium (or yarrow) is mainly composed of roots, stems, leaves, flowers, fruits, and seeds, on a morphological level.
 
 It has a deep taproot system reaching 60 cm deep and spreading meters horizontally, along with shallow fibrous roots. These roots are slender (0.1-0.5 mm) and have dense root hairs (200-300 micrometers long) for nutrient and water absorption.
 
-Its stems varies in color and thickness, starting thin (2-4mm) and thickening (5-8mm+) as it matures, while the leaves are feathery, bright green, well-veined, and serrated, optimized for ecological functions.
+The Achillea millefolium (A. millefolium) stems varies in color and thickness, starting thin (2-4mm) and thickening (5-8mm+) as it matures. The leaves are feathery, bright green, well-veined, and serrated, optimized for ecological functions.
 
-This plant has compound corymb inflorescences, attracting pollinators with 2-4 cm diameter capitulums. Also, they have central disc florets that are vital for pollination.
+This plant has compound corymb inflorescences, attracting pollinators with 2-4 cm diameter capitulums, and it also has central disc florets that are vital for pollination.
 
-The A. millefolium produces fruits called achenes that are dry and one-seeded achenes (2-3mm long, 1-2mm wide), in brown, black, or grayish-brown colors, while the seeds from these fruits vary in size (1.5 to 2.5mm) and have a dark brown to black color.
+The A. millefolium produces fruits called achenes that are dry and one-seeded (2-3mm long, 1-2mm wide), in brown, black, or grayish-brown colors. The seeds from these fruits vary in size (1.5 to 2.5mm) and have a dark brown to black color.
 
 ## What is the morphology of A. millefolium roots?
 

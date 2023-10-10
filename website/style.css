@@ -23,6 +23,15 @@ header {
     padding: 1.6rem 0;
 }
 
+footer {
+    background-color: #0f766e;
+    padding: 1.6rem 0;
+}
+
+footer span {
+    color: white;
+}
+
 nav a {
     color: #f8fafc;
     text-decoration: none;
@@ -31,11 +40,13 @@ nav a {
 .container {
     max-width: var(--container-width);
     margin: 0 auto;
+    padding: 0 1.6rem;
 }
 
 .container-lg {
     max-width: 128.0rem;
     margin: 0 auto;
+    padding: 0 1.6rem;
 }
 
 h1 {
@@ -107,6 +118,10 @@ td {
 
 .mt-96 {
     margin-top: 9.6rem;
+}
+
+.mb-96 {
+    margin-bottom: 9.6rem;
 }
 
 .my-96 {

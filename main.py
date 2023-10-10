@@ -11,6 +11,22 @@ import re
 with open("database/growing_zones.json", encoding='utf-8') as f:
     growing_zones_data = json.loads(f.read())
 
+
+def generate_header():
+    html = '''
+    <header>
+        <div class="container-lg">
+            <nav class="flex justify-between">
+                <a href="/">TerraWhisper</a>
+                <a href="#"></a>
+            </nav>
+        </div>
+    </header>
+    '''
+
+    return html
+
+
 def lst_to_txt(lst):
     txt = ''
     if len(lst) == 0: txt = ''
@@ -471,6 +487,8 @@ def generate_html(article, entity, attribute):
     word_count = len(article.split(' '))
     reading_time_html = str(word_count // 200) + ' minutes'
 
+    header = generate_header()
+
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
@@ -483,6 +501,8 @@ def generate_html(article, entity, attribute):
         </head>
 
         <body>
+            {header}
+
             <section class="my-96">
                 <div class="container">
                     <div class="flex justify-between mb-16">
@@ -492,6 +512,12 @@ def generate_html(article, entity, attribute):
                     {article_html}
                 </div>
             </section>
+
+            <footer>
+                <div class="container-lg">
+                    <span>© TerraWhisper.com 2023 | All Rights Reserved
+                </div>
+            </footer>
         </body>
 
         </html>
@@ -1042,6 +1068,7 @@ for article in articles_home:
         \n
     '''
 
+
 with_sidebar = f'''
     <section class="mt-96">
         <div class="container-lg">
@@ -1061,6 +1088,8 @@ with_sidebar = f'''
     </section>
 '''
 
+header = generate_header()
+
 html = f'''
     <!DOCTYPE html>
     <html lang="en">
@@ -1073,30 +1102,26 @@ html = f'''
     </head>
 
     <body>
-        <header>
-            <div class="container-lg">
-                <nav class="flex justify-between">
-                    <a href="#">Terra Whisper</a>
-                    <a href="#"></a>
-                </nav>
-            </div>
-        </header>
+        {header}
 
-        <section class="mt-96">
+        <section class="my-96">
             <div class="container-lg">
                     <div class="articles flex-3 flex flex-col gap-32">
-                        
                         {articles}
-
                     </div>
             </div>
         </section>
+        <footer>
+            <div class="container-lg">
+                <span>© TerraWhisper.com 2023 | All Rights Reserved
+            </div>
+        </footer>
     </body>
 
     </html>
 '''
 
-with open(f'index.html', 'w') as f:
+with open(f'index.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
 
