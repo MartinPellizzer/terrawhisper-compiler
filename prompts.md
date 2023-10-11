@@ -1,5 +1,7 @@
 # botany/morphology ----------------------------------------------------------------------------------------------------------------
 
+- give me a complete list of all the parts of [plant] in terms of morphology. don't add descriptions.
+
 ## h2 intro section
 - summarize the following text in less than 100 words by rewording it, making it flow better, and preserving as much info, data, and numbers as possible: [give_text]
 

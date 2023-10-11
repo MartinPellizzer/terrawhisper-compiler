@@ -455,7 +455,7 @@
         "_placeholder": []
     },
     {
-        "state": "working",
+        "state": "published",
         "attribute": "botanical/morphology",
         "latin_name": "Achillea millefolium",
         "botanical_morphology_intro": [
@@ -508,12 +508,12 @@
             "Leaves Margin and Texture: The leaf margins of Achillea millefolium are serrated, featuring fine teeth or lobes along the edges. This serration can vary in intensity, with some leaves exhibiting more pronounced teeth than others. The texture of yarrow leaves is typically smooth, with a slightly leathery feel due to the presence of a waxy cuticle that helps reduce water loss.",
             "Leaves Venation: The leaves of Achillea millefolium are prominently veined. The midrib runs down the center of each leaflet, with lateral veins branching out toward the leaf margins. This vascular system plays a crucial role in transporting water, nutrients, and photosynthates throughout the leaf."
         ],
-        "botanical_morphology_flowers_intro": [
+        "botanical_morphology_inflorescence_intro": [
             "Achillea millefolium features compound corymb inflorescences, each with multiple small florets radiating outward, making it attractive to pollinators.",
             "Individual capitulums typically measure 2-4 cm in diameter, with variations due to environmental factors. The outer ray florets are often white or pink, have 3-8 per capitulum, and serve as pollinator attractors. On the other hand, the central yellow disc florets have 20-40 capitulum, which are vital for pollination and seed production.",
             "The pedicel connecting the capitula to the stem ranges from 1-10 cm in length. and the involucre (composed of 5-8 phyllaries) shields florets and enhances aesthetics. That said, this plant provides pollinators with a steady nectar supply as it blooms from late spring to early autumn."
         ],
-        "botanical_morphology_flowers": [
+        "botanical_morphology_inflorescence": [
             "Inflorescence Type: Achillea millefolium bears compound inflorescences known as corymbs. These corymbs consist of multiple individual flowerheads or capitula, each housing numerous tiny florets. The inflorescence structure is typically flat-topped, with florets radiating outward, making it an attractive choice for pollinators seeking nectar and pollen.",
             "Capitulum Diameter: The diameter of the individual capitulum in Achillea millefolium typically ranges from 2 to 4 centimeters, although variations can occur based on environmental factors and cultivar differences. This compact arrangement allows for a high concentration of florets in a relatively small space.",
             "Ray Florets: These are the outermost florets surrounding the central disc florets. In Achillea millefolium, they are typically white or occasionally pink, and they are sterile, serving primarily as attractive structures for pollinators. A single Achillea capitulum can have anywhere from 3 to 8 ray florets, with an average of 5.",

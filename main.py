@@ -540,6 +540,7 @@ def generate_featured_image(entity, attribute):
     return featured_image_filpath
 
 
+
 ######################################################################
 # FOLDERS
 ######################################################################
@@ -822,32 +823,73 @@ for f in articles_files:
             article += f'![alt]({featured_image_filpath} "title")\n\n'
             article += '\n\n'.join([x for x in item['botanical_morphology_intro']]) + '\n\n'
 
-            article += f'## What is the morphology of {latin_name_abb} roots?\n\n'
+            article += f'## roots morphology\n\n'.title()
             article += '\n\n'.join(item['botanical_morphology_roots_intro']) + '\n\n'
             article += f'The full description of the {latin_name} root morphology is given in the following list.' + '\n\n'
             article += lst_to_blt(bold_blt(item['botanical_morphology_roots'])) + '\n\n'
-
-            article += f'## What is the morphology of {latin_name_abb} stems?\n\n'
-            article += '\n\n'.join(item['botanical_morphology_stems_intro']) + '\n\n'
-            article += f'The full description of the {latin_name} stems morphology is given in the following list.' + '\n\n'
-            article += lst_to_blt(bold_blt(item['botanical_morphology_stems'])) + '\n\n'
             
-            article += f'## What is the morphology of {latin_name_abb} leaves?\n\n'
-            article += '\n\n'.join(item['botanical_morphology_leaves_intro']) + '\n\n'
-            article += f'The full description of the {latin_name} leaves morphology is given in the following list.' + '\n\n'
-            article += lst_to_blt(bold_blt(item['botanical_morphology_leaves'])) + '\n\n'
+            try:
+                intro = item['botanical_morphology_rhizomes_intro']
+                article += f'## rhizomes morphology\n\n'.title()
+                article += '\n\n'.join(intro) + '\n\n'
+                article += f'The full description of the {latin_name} rhizomes morphology is given in the following list.' + '\n\n'
+                article += lst_to_blt(bold_blt(item['botanical_morphology_rhizomes'])) + '\n\n'
+            except: pass
 
-            article += f'## What is the morphology of {latin_name_abb} flowers?\n\n'
-            article += '\n\n'.join(item['botanical_morphology_flowers_intro']) + '\n\n'
-            article += f'The full description of the {latin_name} flowers morphology is given in the following list.' + '\n\n'
-            article += lst_to_blt(bold_blt(item['botanical_morphology_flowers'])) + '\n\n'
+            try:
+                intro = item['botanical_morphology_stems_intro']
+                article += f'## stems morphology\n\n'.title()
+                article += '\n\n'.join(intro) + '\n\n'
+                article += f'The full description of the {latin_name} stems morphology is given in the following list.' + '\n\n'
+                article += lst_to_blt(bold_blt(item['botanical_morphology_stems'])) + '\n\n'
+            except: pass
             
-            article += f'## What is the morphology of {latin_name_abb} fruits?\n\n'
+            try:
+                intro = item['botanical_morphology_leaves_intro']
+                article += f'## leaves morphology\n\n'.title()
+                article += '\n\n'.join(intro) + '\n\n'
+                article += f'The full description of the {latin_name} leaves morphology is given in the following list.' + '\n\n'
+                article += lst_to_blt(bold_blt(item['botanical_morphology_leaves'])) + '\n\n'
+            except: pass
+
+            try:
+                intro = item['botanical_morphology_inflorescence_intro']
+                article += f'## inflorescence morphology\n\n'.title()
+                article += '\n\n'.join(intro) + '\n\n'
+                article += f'The full description of the {latin_name} inflorescence morphology is given in the following list.' + '\n\n'
+                article += lst_to_blt(bold_blt(item['botanical_morphology_inflorescence'])) + '\n\n'
+            except: pass
+            
+            # try:
+            #     intro = item['botanical_morphology_spadix_intro']
+            #     article += f'## spadix morphology\n\n'.title()
+            #     article += '\n\n'.join(intro) + '\n\n'
+            #     article += f'The full description of the {latin_name} spadix morphology is given in the following list.' + '\n\n'
+            #     article += lst_to_blt(bold_blt(item['botanical_morphology_spadix'])) + '\n\n'
+            # except: pass
+            
+            # try:
+            #     intro = item['botanical_morphology_spathe_intro']
+            #     article += f'## spathe morphology\n\n'.title()
+            #     article += '\n\n'.join(intro) + '\n\n'
+            #     article += f'The full description of the {latin_name} spathe morphology is given in the following list.' + '\n\n'
+            #     article += lst_to_blt(bold_blt(item['botanical_morphology_spathe'])) + '\n\n'
+            # except: pass
+            
+            try:
+                intro = item['botanical_morphology_flowers_intro']
+                article += f'## flowers morphology\n\n'.title()
+                article += '\n\n'.join(intro) + '\n\n'
+                article += f'The full description of the {latin_name} flowers morphology is given in the following list.' + '\n\n'
+                article += lst_to_blt(bold_blt(item['botanical_morphology_flowers'])) + '\n\n'
+            except: pass
+            
+            article += f'## fruits morphology\n\n'.title()
             article += '\n\n'.join(item['botanical_morphology_fruits_intro']) + '\n\n'
             article += f'The full description of the {latin_name} fruits morphology is given in the following list.' + '\n\n'
             article += lst_to_blt(bold_blt(item['botanical_morphology_fruits'])) + '\n\n'
             
-            article += f'## What is the morphology of {latin_name_abb} seeds?\n\n'
+            article += f'## seeds morphology\n\n'.title()
             article += '\n\n'.join(item['botanical_morphology_seeds_intro']) + '\n\n'
             article += f'The full description of the {latin_name} seeds morphology is given in the following list.' + '\n\n'
             article += lst_to_blt(bold_blt(item['botanical_morphology_seeds'])) + '\n\n'

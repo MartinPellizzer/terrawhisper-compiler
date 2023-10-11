@@ -12,7 +12,7 @@ This plant has compound corymb inflorescences, attracting pollinators with 2-4 c
 
 The A. millefolium produces fruits called achenes that are dry and one-seeded (2-3mm long, 1-2mm wide), in brown, black, or grayish-brown colors. The seeds from these fruits vary in size (1.5 to 2.5mm) and have a dark brown to black color.
 
-## What is the morphology of A. millefolium roots?
+## Roots Morphology
 
 Achillea millefolium's root system comprises taproots and fibrous roots. Taproots can reach over 60 cm deep and spread meters horizontally, while fibrous roots form a shallow mat, averaging 150-200 roots per square meter.
 
@@ -31,7 +31,7 @@ The full description of the Achillea millefolium root morphology is given in the
 - **Root Growth Patterns**:  The growth of Achillea millefolium roots follows a seasonal pattern. During the spring and early summer, when the plant is actively growing, there is a notable increase in root length and branching. Root growth tends to slow down during the winter months, reflecting the plant's adaptation to seasonal changes.
 - **Root System Plasticity**:  Achillea millefolium exhibits root system plasticity, allowing it to adapt to various soil conditions and moisture levels. In response to drought stress, the plant can allocate more resources to root growth, enhancing its ability to access water in deeper soil layers.
 
-## What is the morphology of A. millefolium stems?
+## Stems Morphology
 
 The Achillea millefolium stem exhibits variable colors, ranging from green to reddish-brown due to environmental factors and genetics.
 
@@ -50,7 +50,7 @@ The full description of the Achillea millefolium stems morphology is given in th
 - **Stem Secondary Growth**:  In some instances, especially in older individuals, the stem may undergo secondary growth, resulting in an increase in stem thickness and the development of a woody base. This woody portion can extend several centimeters above the ground.
 - **Stem Adaptations**:  The stem morphology of Achillea millefolium is adaptive, allowing the plant to thrive in diverse habitats, from meadows to disturbed areas. The erect stem provides structural support for the inflorescences, ensuring that the small, composite flowers are well-exposed to pollinators.
 
-## What is the morphology of A. millefolium leaves?
+## Leaves Morphology
 
 Achillea millefolium boasts pinnately compound leaves with intricate, fern-like arrangements. These leaves, typically 5 to 20 centimeters long, consist of linear or lanceolate leaflets, meticulously divided into smaller segments, creating a feathery texture.
 
@@ -67,7 +67,7 @@ The full description of the Achillea millefolium leaves morphology is given in t
 - **Leaves Margin and Texture**:  The leaf margins of Achillea millefolium are serrated, featuring fine teeth or lobes along the edges. This serration can vary in intensity, with some leaves exhibiting more pronounced teeth than others. The texture of yarrow leaves is typically smooth, with a slightly leathery feel due to the presence of a waxy cuticle that helps reduce water loss.
 - **Leaves Venation**:  The leaves of Achillea millefolium are prominently veined. The midrib runs down the center of each leaflet, with lateral veins branching out toward the leaf margins. This vascular system plays a crucial role in transporting water, nutrients, and photosynthates throughout the leaf.
 
-## What is the morphology of A. millefolium flowers?
+## Inflorescence Morphology
 
 Achillea millefolium features compound corymb inflorescences, each with multiple small florets radiating outward, making it attractive to pollinators.
 
@@ -75,7 +75,7 @@ Individual capitulums typically measure 2-4 cm in diameter, with variations due 
 
 The pedicel connecting the capitula to the stem ranges from 1-10 cm in length. and the involucre (composed of 5-8 phyllaries) shields florets and enhances aesthetics. That said, this plant provides pollinators with a steady nectar supply as it blooms from late spring to early autumn.
 
-The full description of the Achillea millefolium flowers morphology is given in the following list.
+The full description of the Achillea millefolium inflorescence morphology is given in the following list.
 
 - **Inflorescence Type**:  Achillea millefolium bears compound inflorescences known as corymbs. These corymbs consist of multiple individual flowerheads or capitula, each housing numerous tiny florets. The inflorescence structure is typically flat-topped, with florets radiating outward, making it an attractive choice for pollinators seeking nectar and pollen.
 - **Capitulum Diameter**:  The diameter of the individual capitulum in Achillea millefolium typically ranges from 2 to 4 centimeters, although variations can occur based on environmental factors and cultivar differences. This compact arrangement allows for a high concentration of florets in a relatively small space.
@@ -85,7 +85,7 @@ The full description of the Achillea millefolium flowers morphology is given in 
 - **Phyllaries**:  The involucre, consisting of phyllaries, encases the base of the capitulum. Achillea millefolium typically possesses 5 to 8 phyllaries, which can vary in size and shape. These protective structures serve to shield the developing florets and add to the overall aesthetic appeal of the inflorescence.
 - **Flowering Period**:  Achillea millefolium is a prolific bloomer, with its flowering period extending from late spring to early autumn, depending on geographic location and climate. This extended blooming duration ensures a steady supply of nectar for pollinators throughout the growing season.
 
-## What is the morphology of A. millefolium fruits?
+## Fruits Morphology
 
 Achillea millefolium produces achenes as its fruit. Achenes are dry, one-seeded fruits that don't split open. They're small, oblong (2-3mm long, 1-2mm wide), and come in brown, black, or grayish-brown colors.
 
@@ -99,7 +99,7 @@ The full description of the Achillea millefolium fruits morphology is given in t
 - **Fruit Surface Texture**:  The surface of these achenes is smooth, with a shiny appearance. This smooth texture aids in wind dispersal and facilitates the achenes' adherence to passing animals.
 - **Fruit Attachment Mechanism**:  Achillea millefolium achenes are attached to a modified receptacle called a pappus. The pappus consists of numerous bristle-like structures known as awns. These awns are often arranged in a ring around the base of the achene. The pappus functions as a dispersal mechanism, allowing the achenes to be carried by the wind over long distances.
 
-## What is the morphology of A. millefolium seeds?
+## Seeds Morphology
 
 Achillea millefolium seeds vary in size (1.5 to 2.5mm) and are dark brown to black. Their textured surface aids water absorption and attachment to soil. Each seed weighs 0.2 to 0.4 milligrams, allowing wind dispersal. 
 
