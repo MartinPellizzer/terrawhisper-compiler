@@ -1,8 +1,10 @@
 [
     {
-        "state": "published",
+        "state": "draft",
+        "post_type": "",
         "attribute": "botanical",
         "latin_name": "Acorus calamus",
+        "common_name": "sweet flag",
         "domain": "Eukarya",
         "kingdom": "Plantae",
         "phylum": "Angiosperms",
@@ -319,11 +321,23 @@
         "_placeholder": []
     },
     {
-        "state": "published",
+        "state": "draft",
+        "post_type": "",
         "attribute": "botanical/morphology",
         "latin_name": "Acorus calamus",
-        "botanical_morphology_intro": [],
-        "botanical_morphology_roots_intro": [],
+        "common_name": "sweet flag",
+        "botanical_morphology_intro": [
+            "Acorus calamus (sweet flag) is mainly composed of roots, rhizomes, leaves, flowers, fruits, and seeds, on a morphological level.",
+            "It has fine brown roots that are 5-20 cm long and that grow radially from a rhizome. These roots emit a sweet, earthy scent and have buds for new growth and efficient branching. It also has rhizomes that are thick, brown, and grow horizontally. These rhizomes have nodes for shoots, roots, and store nutrients.",
+            "The plant has green leaves that are lance-shaped, 30-120 cm long, and with parallel veins. They're aromatic, deciduous, and have acute tips. Also, it has flowers that are pale yellow, small, with six tepals, stamens, and a single ovary. They form a dense spadix.",
+            "Its fruits are capsules, fusiform, open when ripe, emit a sweet scent, and cluster on tall stems. These fruits produce seeds that are small, brown, oblong, with a prominent hilum and protective seed coat. These seeds have endosperm, strong aroma, variable germination, and can be dispersed by water.",
+            "This article discuss in detail the morphological characteristics of Acorus calamus and of all its parts."
+        ],
+        "botanical_morphology_roots_intro": [
+            "Acorus calamus roots are fine, light to medium brown, 5-20 cm long, and 1-3 mm wide.",
+            "They're smooth, emit a sweet, earthy scent when crushed, and have a slightly bitter taste.",
+            "These roots grow radially from a central rhizome, aiding plant colonies in wetlands. They also have dormant buds, facilitating new shoot growth, and branch efficiently near the rhizome for stability and nutrient absorption."
+        ],
         "botanical_morphology_roots": [
             "Shape: The roots of Acorus calamus are characterized by a fibrous root system, which means they consist of many fine, thread-like roots. These roots grow in clusters, originating from the plant's rhizome.",
             "Color: These roots are typically light to medium brown in color, with a smooth and slightly glossy surface.",
@@ -337,7 +351,11 @@
             "Buds and Offshoots: The roots may have dormant buds along their length. These buds can give rise to new shoots, facilitating vegetative reproduction and clonal expansion of the plant.",
             "Branching: The roots exhibit a high degree of branching, especially near the rhizome, allowing for efficient nutrient absorption and anchoring of the plant in its wetland habitat."
         ],
-        "botanical_morphology_rhizomes_intro": [],
+        "botanical_morphology_rhizomes_intro": [
+            "Acorus calamus rhizomes are thick, cylindrical, and up to 1-2 cm wide. They're brown with rough surfaces.",
+            "These rhizomes grow horizontally or diagonally, forming nodes where shoots, roots, and leaves sprout. Adventitious roots anchor the plant and absorb nutrients. Axillary buds create new shoots, both above and below ground, with more shoots as the rhizome matures.",
+            "Rhizomes store nutrients, helping the plant survive tough conditions. Aerenchyma in the rhizomes aids oxygen transport in waterlogged soils. Rhizome length varies, from centimeters to meters, allowing the plant to spread. Reproduction is mainly through rhizome cuttings with nodes."
+        ],
         "botanical_morphology_rhizomes": [
             "Structure: Acorus calamus rhizomes are thick, fleshy, and typically cylindrical in shape. They can grow up to 1-2 cm in diameter. The rhizomes extend horizontally beneath the soil's surface.",
             "Color: The color of the rhizomes is typically pale to dark brown. The outer surface may have a slightly rough texture.",
@@ -348,9 +366,12 @@
             "Storage of Nutrients: Rhizomes are storage organs, storing carbohydrates, starches, and other nutrients. This storage allows the plant to survive adverse conditions and generate new growth when environmental conditions improve.",
             "Adaptations for Waterlogged Conditions: This plant is often found in wetland habitats. Rhizomes possess aerenchyma, which are specialized air channels that facilitate oxygen transport in waterlogged soils. This adaptation is essential for the survival of the plant in anaerobic conditions.",
             "Length: The length of the rhizomes can vary significantly. They can range from a few centimeters to several meters in length. Longer rhizomes enable the plant to colonize larger areas.",
-            "Propagation: This plant primarily reproduces vegetatively through its rhizomes. Small sections of rhizome, each containing a node and some internode, can be cut and replanted to establish new plants."
+            "Propagation: This plant primarily reproduces vegetatively through its rhizomes. Small sections of the rhizome, each containing a node and some internode, can be cut and replanted to establish new plants."
         ],
-        "botanical_morphology_leaves_intro": [],
+        "botanical_morphology_leaves_intro": [
+            "Acorus calamus leaves form a basal rosette, emerging directly from the plant base. They are lance-shaped, smooth-edged, and about 30-120 cm long.",
+            "These leaves are green, glossy, and aromatic due to essential oils. They have parallel veins and sheathing bases, staying close to the stem. They are deciduous, with acute tips, and may turn slightly yellow before falling in autumn."
+        ],
         "botanical_morphology_leaves": [
             "Arrangement: Acorus calamus leaves are arranged in a basal rosette. The leaves emerge directly from the base of the plant.",
             "Shape: The leaves are typically lance-shaped. They can be linear, sword-like, or ensiform. The length of the leaves can range from 30 to 120 cm.",
@@ -394,7 +415,10 @@
             "Reproductive Strategy: The structure of the spadix, with separate male and female zones, allows for efficient pollination by attracting pollinators to the female flowers first when they are receptive.",
             "Odor: The spadix can emit a sweet, spicy aroma, which attracts various pollinators, such as bees and flies."
         ],
-        "botanical_morphology_flowers_intro": [],
+        "botanical_morphology_flowers_intro": [
+            "Acorus calamus has inconspicuous pale yellow flowers arranged in a dense spadix. Each flower is small, 4-6 mm long, with six similar tepals.",
+            "They have lance-shaped tepals with a waxy texture and a distinct midrib. Six shorter stamens bear anthers for pollination. The female pistil has a single superior ovary with numerous ovules, typical of monocots."
+        ],
         "botanical_morphology_flowers": [
             "Inflorescence Type: Acorus calamus produces small, inconspicuous flowers that are arranged in a dense, cylindrical, spadix inflorescence. The spadix is a characteristic feature of the Acoraceae family.",
             "Size: The individual flowers are quite small, typically measuring around 4-6 mm in length. These diminutive flowers are often overlooked due to their size.",
@@ -405,9 +429,36 @@
             "Pistil: The female reproductive structure, known as the pistil, consists of a single, simple ovary. The ovary is positioned superiorly and contains numerous ovules.",
             "Carpels: The pistil is composed of a single carpel, which is a characteristic feature of monocotyledonous plants like this. The carpel is fused, and the ovules are attached along the ventral suture."
         ],
-        "botanical_morphology_fruits_intro": [],
-        "botanical_morphology_fruits": [],
-        "botanical_morphology_seeds_intro": [],
-        "botanical_morphology_seeds": []
+        "botanical_morphology_fruits_intro": [
+            "Acorus calamus fruit is a dry capsule that opens when ripe. They're fusiform, 1-1.5 cm long, changing from green to brown.",
+            "The smell is sweet and spicy due to essential oils. Found in clusters on tall stems with a reed-like look. Dehisce to release seeds."
+        ],
+        "botanical_morphology_fruits": [
+            "Type: Acorus calamus produces a capsule fruit. Capsules are dry dehiscent fruits, which means they split open when they mature to release their seeds.",
+            "Shape: The capsules are elongated, cylindrical, and spindle-shaped, measuring approximately 1 to 1.5 cm in length. The shape is best described as fusiform.",
+            "Color: When mature, the capsules are light to dark brown in color, although they may be greenish initially. The color change indicates the ripening and maturity of the fruit.",
+            "Surface Texture: The fruit surface is smooth and shiny when mature, with a slightly leathery texture. The capsules have longitudinal ridges and furrows, adding to their distinct appearance.",
+            "Dehiscence: The capsules dehisce longitudinally, typically into two valves or sections, along the ridges, exposing the seeds. Dehiscence allows the seeds to be released for dispersal.",
+            "Odor: One of the most distinctive characteristics of this plant is the aromatic quality of its fruit. Both the fruit and rhizomes of the plant emit a strong, sweet, and somewhat spicy scent due to the presence of essential oils like β-asarone.",
+            "Arrangement: The capsules are typically found in clusters at the ends of tall, slender stems emerging from the base of the plant. These stems are known for their reed-like appearance."
+        ],
+        "botanical_morphology_seeds_intro": [
+            "Acorus calamus seeds are small, about 2-3 mm, with oblong shapes, brown color, and smooth surfaces. They have a prominent hilum and a protective seed coat.",
+            "These seeds contain endosperm for nourishing the embryo. The seeds have a strong sweet aroma due to essential oils. Their germination varies and is influenced by temperature, light, and moisture. They are often dispersed by water and can stay viable for years, aiding the species' survival."
+        ],
+        "botanical_morphology_seeds": [
+            "Size: The seeds of Acorus calamus are relatively small, typically measuring about 2 to 3 millimeters in length. However, their size can vary slightly depending on environmental conditions and the specific variety of this plant.",
+            "Shape: The seeds are oblong and cylindrical in shape, resembling tiny capsules. They have a somewhat flattened appearance, with rounded ends.",
+            "Color: The seeds are typically brown or reddish-brown in color. The precise shade of brown can vary from one plant to another and can be influenced by factors like soil composition and sunlight exposure.",
+            "Surface Texture: The seeds have a smooth surface with a glossy sheen. This smooth texture aids in the dispersion of seeds when they come into contact with water.",
+            "Hilum: The hilum, which is the scar left on the seed after detachment from the fruit, is located at one end of the seed. In the seeds of this plant, the hilum is quite prominent, appearing as a slightly depressed, oval mark.",
+            "Seed Coat: The seed coat is thin but relatively tough, protecting the embryo within. It is composed of multiple layers and provides a barrier against mechanical damage and microbial invasion.",
+            "Endosperm: The seeds contain endosperm, which is a storage tissue that provides nutrients to the developing embryo during germination. The endosperm typically accounts for a significant portion of the seed's weight and size.",
+            "Embryo: The embryo of the seeds is small and embedded within the endosperm. It consists of a miniature plant with cotyledons (seed leaves), a radicle (embryonic root), and a plumule (embryonic shoot).",
+            "Odor: One of the most distinctive characteristics of the seeds of this plant is their strong, sweet, and aromatic odor. This aroma is due to the presence of essential oils, especially β-asarone, which is found in various parts of the plant, including the seeds.",
+            "Germination: The seeds exhibit variable germination rates and requirements. They are known to undergo physiological dormancy, and the timing and success of germination can be influenced by factors like temperature, light, and moisture conditions.",
+            "Dispersal Mechanisms: The seeds are often dispersed by water, as the plant grows in wet habitats. When the mature seed capsules drop into water, they can float, allowing them to be carried to new locations by currents.",
+            "Longevity: Under suitable storage conditions, the seeds can remain viable for several years, retaining their ability to germinate. This longevity is advantageous for the persistence of the species in its natural habitat."
+        ]
     }
 ]
