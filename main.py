@@ -5,6 +5,8 @@ import shutil
 from PIL import Image, ImageFont, ImageDraw, ImageColor
 import math
 import re
+import csv
+
 
 
 
@@ -609,22 +611,49 @@ for f in articles_files:
             if 'morphology' in attribute.lower():
                 main_content = item['main_content']
 
-                title = f'Morphology of {latin_name}'
+                title = f'What is the morphology of {latin_name}?'
                 article += f'# {title}\n\n'
+                
+                featured_image_filpath = generate_featured_image(entity, attribute)
+                article += f'![alt]({featured_image_filpath} "title")\n\n'
 
                 for section in main_content:
                     article += f'## {section["title"]}\n\n'
                     article += '\n\n'.join(section['content']) + '\n\n'
                     
-                    characteristics = section['characteristics']
+                    # characteristics = section['characteristics']
                     article += f'| Characteristic | Description |\n'
                     article += f'| --- | --- |\n'
-                    for characteristic in characteristics:
-                        article += f'| {characteristic["name"].title()} | {characteristic["desc"].capitalize()} |\n'
+                    # for characteristic in characteristics:
+                    #     article += f'| {characteristic["name"].title()} | {characteristic["desc"].capitalize()} |\n'
+                    # article += f'\n'
+
+                    lines = []
+                    with open(f'database/tables/morphology/{section["title"].lower()}.csv') as f:
+                        reader = csv.reader(f, delimiter="\\")
+                        for i, line in enumerate(reader):
+                            if i == 0:
+                                lines.append(line)
+                            else:
+                                if line[0].strip() == entity.strip():
+                                    lines.append(line)
+
+                    # for line in lines:
+                    #     print(line)
+                    for i in range(len(lines[0])):
+                        if i == 0: continue
+                        if lines[0][i].strip() == '': continue
+                        if lines[1][i].strip() == '': continue
+                        article += f'| {lines[0][i].title()} | {lines[1][i].capitalize()} |\n'
                     article += f'\n'
 
+                    # for line in lines:
+                    #     print(line)
+                    # quit()
 
             else:
+                continue
+
                 main_content = item['main_content']
 
                 title = f'{len(main_content)} Benefits of {latin_name}'
@@ -633,7 +662,7 @@ for f in articles_files:
                 for i, section in enumerate(main_content):
                     article += f'## {i+1}. {section["title"]}\n\n'
                     article += '\n\n'.join(section['content']) + '\n\n'
-                    
+
 
         else:
             #######################################################################################################
@@ -859,7 +888,7 @@ for f in articles_files:
                 article += '\n\n'.join(item['botanical_morphology_roots_intro']) + '\n\n'
                 article += f'The full description of the {latin_name} root morphology is given in the following list.' + '\n\n'
                 article += lst_to_blt(bold_blt(item['botanical_morphology_roots'])) + '\n\n'
-                
+
                 try:
                     intro = item['botanical_morphology_rhizomes_intro']
                     article += f'## {latin_name} rhizomes morphology\n\n'.title()
@@ -1115,6 +1144,34 @@ for f in articles_files:
 ##################################################################################################
 
 
+# articles = ''
+# for article in articles_home:
+#     img = article['img']
+#     url = article['url']
+#     title = article['title']
+#     name = article['name']
+#     articles += f'''
+#         <div class="flex gap-32">
+#             <div class="flex-1">
+#                 <img src="{img}" alt="">
+#             </div>
+#             <div class="flex-1">
+#                 <h2 class="mt-0">{title}</h2>
+#                 <p>
+#                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro beatae consequatur ad
+#                     quod,
+#                     accusamus numquam velit nisi sint. Rerum eaque animi, enim ipsam laborum rem vitae
+#                     repellendus
+#                     vero
+#                     quod corporis.
+#                 </p>
+#                 <a
+#                     href="{url}">{name} Guide</a>
+#             </div>
+#         </div>
+#         \n
+#     '''
+    
 articles = ''
 for article in articles_home:
     img = article['img']
@@ -1122,24 +1179,12 @@ for article in articles_home:
     title = article['title']
     name = article['name']
     articles += f'''
-        <div class="flex gap-32">
-            <div class="flex-1">
+        <a href="{url}">
+            <div>
                 <img src="{img}" alt="">
-            </div>
-            <div class="flex-1">
                 <h2 class="mt-0">{title}</h2>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro beatae consequatur ad
-                    quod,
-                    accusamus numquam velit nisi sint. Rerum eaque animi, enim ipsam laborum rem vitae
-                    repellendus
-                    vero
-                    quod corporis.
-                </p>
-                <a
-                    href="{url}">{name} Guide</a>
             </div>
-        </div>
+        </a>
         \n
     '''
 
@@ -1179,9 +1224,11 @@ html = f'''
     <body>
         {header}
 
+
+
         <section class="my-96">
             <div class="container-lg">
-                    <div class="articles flex-3 flex flex-col gap-32">
+                    <div class="articles">
                         {articles}
                     </div>
             </div>
@@ -1195,6 +1242,11 @@ html = f'''
 
     </html>
 '''
+# <div class="articles flex-3 flex flex-col gap-32">
+#                         {articles}
+#                     </div>
+
+# 
 
 with open(f'index.html', 'w', encoding='utf-8') as f:
     f.write(html)
