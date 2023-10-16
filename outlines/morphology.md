@@ -161,72 +161,57 @@ put all the data in table format. the table must have only 2 columns.
 
 
 
-# fruits
+# fruits -----------------------------------------------------------------------------------------------------
 
-give me a complete list of all the parts of [plant] in terms of morphology. don't add descriptions.
+give me a complete list of all the morphological characteristics of the fruits of the [plant]. In this list, include in this order:
 
-give me a complete list of all the morphological characteristics of the fruits of the horse chestnut. for each characteristic write a detailed description, by adding a lot of info, numbers, and data. use primarily the metric system and between parenthesis the imperial system for the values.
+- Fruit Type
+- Fruit Arrangement
+- Fruit Distribution
+- Fruit Shape
+- Fruit Lenght
+- Fruit Width
+- Fruit Thickness
+- Fruit Wall
+- Fruit Color
+- Fruit Surface
+- Fruit Texture
+- Fruit Marking
+- Fruit Attachment
+- Fruit Pedicel
 
-
-give me a complete list of all the morphological characteristics of the fruits of the Aesculus hippocastanum. In this list, include in this order:
-
-- type
-- arrangement
-- shape
-- height
-- width
-- length
-- thickness
-- depth
-- diameter
-- growth rate
-- margin
-- venation
-- texture
-- surface
-- color
-- odor
-- flavor
-- and all the other relevant information
-
-for each characteristic write a detailed description, by adding a lot of info, numbers, and data. use primarily the metric system and between parenthesis the imperial system for the values.
-
-put all the data in table format.
-
-
-
-
-using the data from the previous table, write a section for an article in less than 300 words. don't write in list format. write in discursive format.
-
-
-# seeds ---------------------------------------------------------------------------------------------- 
-
-give me a complete list of all the parts of the seeds of [plant] in terms of morphology. don't add descriptions.
-
-give me a complete list of all the morphological characteristics of the seeds of the horse chestnut. for each characteristic write a detailed description, by adding a lot of info, numbers, and data. use primarily the metric system and between parenthesis the imperial system for the values.
-
-
-give me a complete list of all the morphological characteristics of the seeds of the Aesculus hippocastanum. In this list, include in this order:
-
-- length
-- width
-- thickness
-- height
-- weight
-- shape
-- margin
-- venation
-- surface texture
-- color
-- odor
-- flavor
-- and all the other relevant information
-
-for each characteristic write a detailed description, by adding a lot of info, numbers, and data. use primarily the metric system and put the imperial system in between parethesis.
+for each characteristic write a precise description, by adding the exact information, numbers, and data. use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
 
 put all the data in table format. the table must have only 2 columns.
 
 
+- using the data from the previous table, write a section for an article in less than 300 words. Don't write in list format. write in discursive format. use simple language and a straightforward sentence structure. don't add fluff or opinions, just write facts.
 
 
-using the data from the previous table, write a section for an article in less than 300 words. don't write in list format. write in discursive format.
+# seeds ---------------------------------------------------------------------------------------------- 
+
+give me a complete list of all the morphological characteristics of the seeds of the [plant]. In this list, include in this order:
+
+- Seed Type
+- Seed Arrangement
+- Seed Shape
+- Seed Appendages
+- Seed Number
+- Seed Lenght
+- Seed Width
+- Seed Thickness
+- Seed Hardness
+- Seed Coat Color
+- Seed Coat Texture
+- Seed Coat Thickness
+- Seed Coat Permeability
+- Seed Hilum
+- Seed Embryo
+
+for each characteristic write a precise description, by adding the exact information, numbers, and data. use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
+
+put all the data in table format. the table must have only 2 columns.
+
+
+- using the data from the previous table, write a section for an article in about 300 words. Don't write in list format. write in discursive format. use simple language and a straightforward sentence structure. don't add fluff or opinions, just write facts.
+

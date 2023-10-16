@@ -141,3 +141,58 @@ Notably, Acorus calamus flowers are enclosed by green bracts, a feature that dis
 | Flower Bracts  | Present, green, enclosing the spadix    |
 | Flower Peduncle  | None (flowers borne directly on the stem)  |
 
+## Fruits
+
+Acorus calamus produces berries as its fruit type. These berries are small, oblong in shape, and reach a length of approximately 1.5 cm (0.59 inches), with a width of about 0.3 cm (0.12 inches) and a thickness of roughly 0.2 cm (0.08 inches). The fruit is fleshy, and it undergoes a color transformation from green to brownish-green as it matures.
+
+The fruit's surface is smooth and shiny, giving it an attractive appearance. In terms of texture, the fruit is soft and fleshy to the touch. One distinctive characteristic of these fruits is the absence of any discernible markings or patterns.
+
+The arrangement of these fruits is clustered, meaning they grow in groups close to one another on the plant. They are distributed throughout the flowering stem, indicating that they are not limited to a specific region of the plant.
+
+The fruits of Acorus calamus are attached to a central axis, which is a common feature in many clustered fruit arrangements. Their pedicels, or the small stalks that attach the fruits to the stem, are short, measuring less than 1 cm (0.39 inches) in length.
+
+| Characteristic | Description |
+| --- | --- |
+| Fruit Type  | Berry  |
+| Fruit Arrangement  | Clustered  |
+| Fruit Distribution  | Throughout the flowering stem  |
+| Fruit Shape  | Oblong  |
+| Fruit Length  | Approximately 1.5 cm (0.59 inches)  |
+| Fruit Width  | About 0.3 cm (0.12 inches)  |
+| Fruit Thickness  | Around 0.2 cm (0.08 inches)  |
+| Fruit Wall  | Fleshy  |
+| Fruit Color  | Green to brownish-green when mature  |
+| Fruit Surface  | Smooth and shiny  |
+| Fruit Texture  | Soft and fleshy  |
+| Fruit Marking  | None  |
+| Fruit Attachment  | Attached to a central axis  |
+| Fruit Pedicel  | Short, less than 1 cm (0.39 inches) in length  |
+
+## Seeds
+
+The seeds of Acorus calamus fall into the category of endospermic, indicating the presence of endosperm within.
+
+In terms of arrangement, Acorus calamus seeds are typically solitary, occurring individually in the fruit structure. Their shape is elliptical or oblong, with a length of approximately 2.5 millimeters (0.098 inches), a width of about 1.0 millimeter (0.039 inches), and a thickness of 1.0 millimeter (0.039 inches). These seeds exhibit a hard texture, making them durable and resistant to mechanical damage.
+
+The seeds' outer coat is brown in color, characterized by a smooth texture and a relatively thin thickness. This outer coat is impermeable to water, which helps protect the inner seed contents. The seed's hilum, or the scar where it was attached to the fruit, is linear and positioned along the length of the seed.
+
+Within the seed, there is a straight embryo that is centrally located within the endosperm. The presence of endosperm, the protective seed coat, and the central embryo are essential characteristics for the successful development and germination of Acorus calamus seeds.
+
+| Characteristic | Description |
+| --- | --- |
+| Seed Type  | Endospermic (endosperm present)  |
+| Seed Arrangement  | Solitary  |
+| Seed Shape  | Elliptical (oblong)  |
+| Seed Appendages  | Absent  |
+| Seed Number  | Usually 1 per fruit  |
+| Seed Length  | 2.5 mm (0.098 inches)  |
+| Seed Width  | 1.0 mm (0.039 inches)  |
+| Seed Thickness  | 1.0 mm (0.039 inches)  |
+| Seed Hardness  | Hard  |
+| Seed Coat Color  | Brown  |
+| Seed Coat Texture  | Smooth  |
+| Seed Coat Thickness  | Thin  |
+| Seed Coat Permeability  | Impermeable to water  |
+| Seed Hilum  | Linear, positioned along the length  |
+| Seed Embryo  | Straight embryo, centrally located within endosperm  |
+

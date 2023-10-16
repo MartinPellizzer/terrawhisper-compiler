@@ -25,6 +25,14 @@ def generate_header():
         </div>
     </header>
     '''
+    html = '''
+    <header>
+        <nav class="flex justify-between">
+            <a class="fg-white" href="/">TerraWhisper</a>
+            <a href="#"></a>
+        </nav>
+    </header>
+    '''
 
     return html
 
@@ -1222,7 +1230,16 @@ html = f'''
     </head>
 
     <body>
-        {header}
+        <section class="hero-section">
+            <div class="container-lg h-full">
+                {header}
+                <div class="flex justify-center items-center h-90">
+                    <h1 class="fg-white text-center"><span class="size-96">Your Botanical Guide</span><br><span
+                            class="size-36 weight-400">to Plant Taxonomy, Morphology, and Sensory Characteristics</span>
+                    </h1>
+                </div>
+            </div>
+        </section>
 
 
 
@@ -1314,3 +1331,4 @@ with open(f'index.html', 'w', encoding='utf-8') as f:
 ##################################################################################################
 shutil.copy2('style.css', 'website/style.css')
 shutil.copy2('index.html', 'website/index.html')
+shutil.copy2('articles-images/hero.jpg', 'website/assets/images/hero.jpg')
