@@ -1,217 +1,393 @@
-# botany/morphology ----------------------------------------------------------------------------------------------------------------
+# MAIN PARTS OF PLANTS -----------------------------------------------------------------------------------
+Root
+Stem
+Leaf
+Flower
+Fruit
+Seed
 
-1. give me a complete list of all the parts of [plant] in terms of morphology. don't add descriptions.
-
-2. give me a complete list of all the morphological characteristics of the [plant_part] of the [plant].
-
-
-give me a list of the morphological characteristics of the [plant_part] of the [plant]. for each characteristic write a detailed description, by adding a lot of info, numbers, and data.
-
-## h2 intro section
-- summarize the following text in less than 100 words by rewording it, making it flow better, and preserving as much info, data, and numbers as possible: [give_text]
-
-# characteristics ------------------------------ 
-
-
-
-# roots ---------------------------------------------------------------------------------
-give me a complete list of all the morphological characteristics of the roots of the [plant]. In this list, include in this order:
-
-- Root System Type
-- Root Structure
-- Root Branching
-- Root Tips
-- Root Density
-- Root Depth
-- Root Diameter
-- Root Length
-- Root Color
-- Root Texture
-- Root Surface Features
-- Root Nodules
+# ROOT PARTS OF PLANTS -----------------------------------------------------------------------------------
+- Root Cap
 - Root Hairs
-- Root Growth Zones
-- Root Modifications
-- Root Adaptations
-- Root Senescence
-- Root Function
-- Root Exudates
-- Root Symbioses
-- and all the other relevant information
-
-for each characteristic write a detailed description, by adding a lot of info, numbers, and data. use primarily the metric system and put the imperial system in between parenthesis.
-
-put all the data in table format. the table must have only 2 columns.
-
-- using the data from the previous table, write a section for an article of about 300 words. Don't write in list format. write in discursive format. use simple language and a straightforward sentence structure. don't add fluff or opinions, just write facts.
+- Meristem (centers of mitotic cell division)
+- Zone of Elongation (where the newly formed cells increase in length, thereby lengthening the root)
+- Zone of Maturation (located just above the elongation region)
+- Epidermis (outermost, protoderm-derived layer of cells)
+- Cortex (transports water and nutrients absorbed by the root epidermis into the vasculature and stores substances)
+- Endodermis (the cylindrical boundary that separates the inner vascular tissue from the outer cortex)
+- Pericycle (a unique layer of cells in plants, named after its position, encircling the vascular tissue in stems and roots)
+- Vascular Cylinder (Stele) (consists of the primary vascular system of the plant axis (stem) and its associated ground tissues (e.g., pith))
+- Xylem (plant vascular tissue that conveys water and dissolved minerals from the roots to the rest of the plant and also provides physical support)
+- Phloem (plant vascular tissue that conducts foods made in the leaves during photosynthesis to all other parts of the plant)
+- Cambium (layer of actively dividing cells between xylem (wood) and phloem (bast))
+- Root Parenchyma Cells (a versatile ground tissue that generally constitutes the "filler" tissue in soft parts of plants)
 
 
+- Radicle (first root after germination)
 
-# stem ---------------------------------------------------------------------------------------------------
-give me a complete list of all the morphological characteristics of the stems of the [plant]. In this list, include in this order:
+- Primary root
+- Lateral roots
+- Root hairs
+- Root cap
 
-- Stem Type
-- Stem Arrangement
-- Stem Shape
-- Stem Height
-- Stem Diamet
-- Stem Nodes
-- Stem Internodes
-- Stem Texture
-- Stem Color
-- and all the other relevant information
+# STEMS
+# ----------------------------------------------------------------------------------------------
+Plants have various parts within their stems that serve different functions. Here's a complete list of the main parts of a plant stem:
 
-for each characteristic write a precise description, by adding the exact information, numbers, and data. use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
+1. **Node**: The point on the stem where leaves, branches, or flowers originate.
 
-put all the data in table format. the table must have only 2 columns.
+2. **Internode**: The region of the stem between two adjacent nodes.
 
+3. **Axillary Bud**: A small bud found in the leaf axil, which can develop into a branch or a flower.
 
+4. **Terminal Bud**: The bud located at the tip of the stem, which controls the stem's elongation and growth.
 
-give me a complete list of all the morphological characteristics of the rhizome of the [plant]. In this list, include in this order:
+5. **Stipule**: Small leaf-like structures at the base of the petiole in some plants.
 
-- Rhizome Arrangement
-- Rhizome Shape
-- Rhizome Height
-- Rhizome Diamet
-- Rhizome Nodes
-- Rhizome Internodes
-- Rhizome Texture
-- Rhizome Color
-- and all the other relevant information
+6. **Leaf Scar**: A mark left on the stem after a leaf has fallen off.
 
-for each characteristic write a precise description, by adding the exact information, numbers, and data. use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
+7. **Lenticels**: Small, raised, corky pores on the stem's surface that allow for gas exchange.
 
-put all the data in table format. the table must have only 2 columns.
+8. **Bark**: The protective outer layer of the stem, which consists of several layers, including the cork cambium, cork, and phloem.
 
+9. **Cambium**: A layer of actively dividing cells responsible for secondary growth, giving rise to new xylem and phloem cells.
 
+10. **Xylem**: Tissue that transports water and minerals from the roots to the rest of the plant.
 
-- using the data from the previous table, write a section for an article of about 400 words. Don't write in list format. write in discursive format. use simple language and a straightforward sentence structure. don't add fluff or opinions, just write facts.
+11. **Phloem**: Tissue that transports the products of photosynthesis (such as sugars) from the leaves to other parts of the plant.
 
+12. **Vascular Bundles**: Clusters of xylem and phloem tissues in the stem.
 
+13. **Pith**: The central, usually spongy, parenchyma tissue in the stem.
 
-# leaves -------------------------------------------------------------------------------------------------------
-give me a complete list of all the morphological characteristics of the leaves of the [plant]. In this list, include in this order:
+14. **Cortex**: The region of tissue between the epidermis and the vascular bundles.
 
-- Leaf Complexity
-- Leaf Shape
-- Leaf Arrangement
-- Leaf Orientation
-- Leaf Length
-- Leaf Width
-- Leaf Thickness
-- Leaf Color
-- Leaf Texture
-- Leaf Surface
-- Leaf Apex
-- Leaf Base
-- Leaf Margin
-- Leaf Venation
-- Leaf Lamina
-- Leaf Midrib
-- Leaf Attachment
-- Leaf Petiole
-- Leaf Stipules
-- Leaf Persistence
-- and all the other relevant information
+15. **Epidermis**: The outermost layer of cells that provides protection and may have features like stomata and trichomes.
 
-for each characteristic write a precise description, by adding the exact information, numbers, and data. use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
+16. **Trichomes**: Small hair-like structures on the stem's surface, which can serve various functions, including protection and reducing water loss.
 
-put all the data in table format. the table must have only 2 columns.
+17. **Stomata**: Tiny openings in the epidermis that allow for gas exchange, including carbon dioxide uptake and oxygen release.
 
-- using the data from the previous table, write a section for an article of about 400 words. Don't write in list format. write in discursive format. use simple language and a straightforward sentence structure. don't add fluff or opinions, just write facts.
+18. **Bud Scale**: Protective modified leaves covering a dormant bud.
 
-# flowers ---------------------------------------------------------------------------------
-give me a complete list of all the morphological characteristics of the flowers of the [plant]. In this list, include in this order:
+19. **Parenchyma**: Ground tissue with various functions, such as storage and photosynthesis.
+
+20. **Collenchyma**: A supportive tissue just beneath the epidermis, often found in young stems.
+
+21. **Sclerenchyma**: A type of supportive tissue, including fibers and sclereids, which provide rigidity to the stem.
+
+This list covers the main parts of a plant stem, and it's important to note that not all of these parts are present in every plant species, and the structure of stems can vary significantly among different types of plants.
+
+# LEAVES PARTS OF PLANTS 
+# ----------------------------------------------------------------------------------------------
+Leaflets (multi-leaf)
+    Arrangement
+        Pinnate
+        Palmate
+Hairs (surface)
+Petiole (attachment)
 
 
-- Flower Type
-- Flower Complexity
-- Inflorescence Type
-- Flower Symmetry
-- Flower Shape
-- Flower Length
-- Flower Width 
-- Flower Thickness 
-- Flower Color
-- Flower Structure
-- Number of Floral Parts
-- Flower Sepals
-- Flower Petals
-- Flower Perianth
-- Flower Stamen
-- Flower Pistil
-- Flower Ovary
-- Flower Style
-- Flower Stigma
-- Flower Stipules
-- Flower Bracts
-- Flower Peduncle 
+Leaves are essential plant organs that perform various functions such as photosynthesis, transpiration, and gas exchange. A leaf is typically composed of several distinct parts, including:
+
+1. **Blade**: Also known as the lamina, this is the flat, expanded part of the leaf where most photosynthesis occurs.
+
+2. **Petiole**: The petiole is the stalk or stem-like structure that connects the blade to the stem. It provides support and allows the leaf to be positioned for maximum exposure to sunlight.
+
+3. **Stipules**: Stipules are small, leaf-like structures found at the base of the petiole in some plant species. They can vary in size and shape.
+
+4. **Midrib**: The midrib is the central vein running down the middle of the blade. It provides structural support and contains the primary vascular tissues (xylem and phloem).
+
+5. **Veins**: Veins are the smaller vascular structures that branch out from the midrib and distribute water, nutrients, and sugars throughout the leaf.
+
+6. **Marginal Teeth or Lobes**: Some leaves have tooth-like or lobed edges, which can be smooth or serrated. These variations are specific to the plant species.
+
+7. **Cuticle**: The cuticle is a waxy, water-repellent layer that covers the leaf's surface, reducing water loss through transpiration and protecting the leaf from pathogens.
+
+8. **Epidermis**: The leaf is covered by an outer layer of cells called the epidermis. These cells protect the leaf and regulate gas exchange.
+
+9. **Palisade Mesophyll**: This is the layer of cells located just beneath the upper epidermis and is rich in chloroplasts for photosynthesis.
+
+10. **Spongy Mesophyll**: Beneath the palisade mesophyll, this layer contains air spaces that allow for gas exchange and some photosynthesis.
+
+11. **Guard Cells**: These specialized cells are found in pairs surrounding tiny openings called stomata. Guard cells regulate the opening and closing of stomata, controlling gas exchange and water loss.
+
+12. **Stomata**: Stomata are small openings on the leaf's surface through which gases (such as carbon dioxide and oxygen) enter and exit. These are regulated by the guard cells.
+
+13. **Trichomes**: Trichomes are hair-like structures found on the leaf surface. They can serve various functions, including reducing water loss, deterring herbivores, and assisting in trapping prey in carnivorous plants.
+
+14. **Auricles**: Some grasses have small ear-like extensions called auricles at the base of the leaf blade.
+
+15. **Pulvinus**: The pulvinus is a swelling or joint found at the base of the petiole in some plants. It can allow the leaf to move in response to environmental stimuli.
+
+16. **Nectaries**: In some plants, specialized nectar-secreting structures, known as nectaries, can be found on the leaf's surface, attracting pollinators.
+
+17. **Bud Scales**: In the case of compound leaves or leaflets, bud scales may protect the undeveloped leaves in the bud.
+
+It's important to note that not all plants have all these leaf parts, and their structure can vary greatly between different plant species. Additionally, some plants have modified leaves adapted for specialized functions, such as tendrils for climbing, storage leaves for storing water or nutrients, or bracts for attracting pollinators.
 
 
-for each characteristic write a precise description, by adding the exact information, numbers, and data. use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
+# LEAVES ATTRIBUTES OF PLANTS 
+# ----------------------------------------------------------------------------------------------
+Leaf
+    Complexity
+        Simple (no leaflets)
+        Compound
+    Shape
+        linear
+        lanceolate
+    Arrangement
+        basal rosette
+        Alternate
+        Opposite
+        Whorled
+    Symmetry
+        Bilateral
+        Radial
+    Orientation
+        erect
+    Lenght
+    Width
+    Thickness
+    Color
+        green
+    Texture
+        Smooth
+        Waxy
+        Succulent
+        Coriaceous
+        Herbaceous
+    Surface
+        Glabrous (Hairless) 
+        Pubescent
+        Glandular
+        Rugose
+        Glaucous
+    Surface Features
+        Stomata
+        Trichomes
+        Glandular
+    Apex (Tip)
+        Acute
+        Obtuse
+        Acuminate
+        Truncate
+        Mucronate
+    Base
+        Cordate
+        Reniform
+        Truncate
+        Hastate
+    Margin
+        Entire
+        Toothed
+        Serrated
+        Wavy
+        Lobed
+    Venation
+        parallel
+        Reticulate
+        Pinnate
+        Palmate
+    Lamina
+        Simple
+    Midrib
+        Prominent
+    Attachment
+        Sessile (No petiole)
+        Petiolate
+        Perfoliate
 
-put all the data in table format. the table must have only 2 columns.
-
-
-- using the data from the previous table, write a section for an article in less than 300 words. Don't write in list format. write in discursive format. use simple language and a straightforward sentence structure. don't add fluff or opinions, just write facts.
 
 
 
+# ALL PARTS OF PLANT ---------------------------------------------------------------------------
+
+Certainly! Here is a list of the parts of a typical plant in terms of morphology:
+
+Root
+Stem
+Leaf
+Flower
+Fruit
+Seed
+
+Bud
+Node
+Internode
+Petiole
+Blade
+Stipule
+Stigma
+Style
+Ovary
+Sepal
+Petal
+Filament
+Anther
+Receptacle
+Pedicel
+Bract
+Axil
+Terminal bud
+Lateral bud
+Cortex
+Cambium
+Vascular tissue
+Epidermis
+Meristem
+Tendril
+Thorn
+Prickle
+Trichome
+Pith
+Xylem
+Phloem
+Parenchyma
+Collenchyma
+Sclerenchyma
+Cork cambium
+Cork
+Vascular bundles
+Pericycle
+Root cap
+Rhizome
+Tuber
+Bulb
+Corm
+Runner
+Rhizoid
+Adventitious roots
+Chloroplasts
+Guard cells
+Stomata
+
+Please note that the specific parts may vary slightly depending on the type of plant and its characteristics.
+
+
+
+# ALL PARTS OF GARLIC ---------------------------------------------------------------------------
+
+
+Garlic Morphology:
+
+1. Bulb
+2. Clove
+3. Root
+4. Stem
+5. Leaf
+6. Inflorescence
+7. Umbel
+8. Raceme
+9. Flower
+10. Pedicel
+11. Calyx
+12. Corolla
+13. Stamens
+14. Anther
+15. Style
+16. Stigma
+17. Ovary
+18. Ovule
+
+
+Here is a list of the parts of Allium sativum (garlic) in terms of morphology:
+
+1. Bulb
+2. Scape
+3. Clove
+4. Root
+5. Leaf
+6. Inflorescence
+7. Umbel
+8. Flower
+9. Bract
+10. Pedicel
+11. Perianth
+12. Tepal
+13. Stamens
+14. Style
+15. Ovary
+16. Capsule
+17. Seeds
 
 
 
 
-# fruits -----------------------------------------------------------------------------------------------------
 
-give me a complete list of all the morphological characteristics of the fruits of the [plant]. In this list, include in this order:
+# PRESENT? ------------------------------------------------------------------
+I'm going to give you a list of plant parts. tell me which of these parts the Allium sativum has. reply in table format. the table must have 2 columns. the first column must have the name of the plant parts (as in the list provided). the second column must be filled with the character "x" if the Allium sativum has this part.
 
-- Fruit Type
-- Fruit Arrangement
-- Fruit Distribution
-- Fruit Shape
-- Fruit Lenght
-- Fruit Width
-- Fruit Thickness
-- Fruit Wall
-- Fruit Color
-- Fruit Surface
-- Fruit Texture
-- Fruit Marking
-- Fruit Attachment
-- Fruit Pedicel
+Here is a table indicating which parts of Allium sativum (garlic) are present:
 
-for each characteristic write a precise description, by adding the exact information, numbers, and data. use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
+| Plant Part           | Presence (x) |
+|-----------------------|-------------|
+| Root                  | x           |
+| Stem                  | x           |
+| Leaf                  | x           |
+| Flower                | x           |
+| Fruit                 | x           |
+| Seed                  | x           |
+| Bud                   | x           |
+| Node                  | x           |
+| Internode             | x           |
+| Petiole               | x           |
+| Blade                 | x           |
+| Stipule               |             |
+| Stigma                |             |
+| Style                 |             |
+| Ovary                 |             |
+| Sepal                 | x           |
+| Petal                 | x           |
+| Filament              | x           |
+| Anther                | x           |
+| Receptacle            | x           |
+| Pedicel               | x           |
+| Bract                 |             |
+| Axil                  | x           |
+| Terminal bud          | x           |
+| Lateral bud           | x           |
+| Cortex                | x           |
+| Cambium               |             |
+| Vascular tissue       |             |
+| Epidermis             | x           |
+| Meristem              | x           |
+| Tendril               |             |
+| Thorn                 |             |
+| Prickle               |             |
+| Trichome              |             |
+| Pith                  | x           |
+| Xylem                 |             |
+| Phloem                |             |
+| Parenchyma            | x           |
+| Collenchyma           |             |
+| Sclerenchyma          |             |
+| Cork cambium          |             |
+| Cork                  |             |
+| Vascular bundles      |             |
+| Pericycle             | x           |
+| Root cap              | x           |
+| Rhizome               |             |
+| Tuber                 |             |
+| Bulb                  | x           |
+| Corm                  |             |
+| Runner                |             |
+| Rhizoid               | x           |
+| Adventitious roots    | x           |
+| Chloroplasts          |             |
+| Guard cells           |             |
+| Stomata               |             |
 
-put all the data in table format. the table must have only 2 columns.
+Please note that some of the plant parts listed do not apply to garlic, and thus are marked as absent (no "x").
 
 
-- using the data from the previous table, write a section for an article in less than 300 words. Don't write in list format. write in discursive format. use simple language and a straightforward sentence structure. don't add fluff or opinions, just write facts.
 
+# ROOT PARTS OF GARLIC ---------------------------------------------------------------------------
 
-# seeds ---------------------------------------------------------------------------------------------- 
+Here is a list of the parts of the roots of Allium sativum (garlic) in terms of morphology:
 
-give me a complete list of all the morphological characteristics of the seeds of the [plant]. In this list, include in this order:
-
-- Seed Type
-- Seed Arrangement
-- Seed Shape
-- Seed Appendages
-- Seed Number
-- Seed Lenght
-- Seed Width
-- Seed Thickness
-- Seed Hardness
-- Seed Coat Color
-- Seed Coat Texture
-- Seed Coat Thickness
-- Seed Coat Permeability
-- Seed Hilum
-- Seed Embryo
-
-for each characteristic write a precise description, by adding the exact information, numbers, and data. use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
-
-put all the data in table format. the table must have only 2 columns.
-
-
-- using the data from the previous table, write a section for an article in about 300 words. Don't write in list format. write in discursive format. use simple language and a straightforward sentence structure. don't add fluff or opinions, just write facts.
-
+- Radicle (first root after germination)
+- Root cap
+- Primary root
+- Lateral roots
+- Root hairs

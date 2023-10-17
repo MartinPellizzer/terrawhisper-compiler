@@ -592,6 +592,10 @@ for f in articles_files:
 
         if 'draft' == state.lower().strip(): continue
 
+        # TODO: remove
+        # if 'Allium sativum' != latin_name: continue
+        # print(latin_name)
+
         entity = item["latin_name"].lower().replace(' ', '-')
         attribute = item['attribute']
 
@@ -626,7 +630,11 @@ for f in articles_files:
                 article += f'![alt]({featured_image_filpath} "title")\n\n'
 
                 for section in main_content:
-                    article += f'## {section["title"]}\n\n'
+                    title = section["title"]
+                    if 'bulb' in title.lower():
+                        article += f'### {title}\n\n'
+                    else:
+                        article += f'## {title}\n\n'
                     article += '\n\n'.join(section['content']) + '\n\n'
                     
                     # characteristics = section['characteristics']
@@ -648,10 +656,13 @@ for f in articles_files:
 
                     # for line in lines:
                     #     print(line)
+                    
                     for i in range(len(lines[0])):
                         if i == 0: continue
                         if lines[0][i].strip() == '': continue
-                        if lines[1][i].strip() == '': continue
+                        try: 
+                            if lines[1][i].strip() == '': continue
+                        except: continue
                         article += f'| {lines[0][i].title()} | {lines[1][i].capitalize()} |\n'
                     article += f'\n'
 

@@ -125,155 +125,133 @@ Radicle
 Plumule
 
 
-Seed Coat (Testa):
-   - Color
-   - Texture (smooth, wrinkled, pitted, etc.)
-   - Thickness
-   - Permeability (porous or impermeable)
-   - Presence of appendages (hairs, wings, awns)
 
-Size
-   - Seed length, width, and thickness
+Here's a table with the requested morphological characteristics of the roots of Allium sativum (garlic):
 
-Shape
-   - Overall shape (e.g., spherical, oval, cylindrical, flat)
+| Characteristic             | Description                                        |
+|----------------------------|----------------------------------------------------|
+| Root System Type           | Fibrous (Adventitious)                             |
+| Root Structure             | Tuberous, Branched, Non-woody                     |
+| Root Branching             | Dichotomous (forked), Extensive                   |
+| Root Tips                  | Acute (Sharp)                                      |
+| Root Density               | High, about 14 cm/cm³ (0.14 in/in³)               |
+| Root Depth                 | Shallow, typically 10-20 cm (4-8 inches)         |
+| Root Diameter              | Approximately 0.2 cm (0.08 inches)                |
+| Root Length                | Varies, can reach up to 50 cm (20 inches)        |
+| Root Color                 | Whitish, Cream-colored                            |
+| Root Texture               | Fleshy, Smooth                                     |
+| Root Surface Features      | No pronounced features                            |
+| Root Nodules               | Absent                                             |
+| Root Hairs                | Sparse, Short, Non-mycorrhizal                   |
+| Root Modifications         | Bulb development, Storage Tissues                 |
 
-Hilum
-   - Scar or mark where the seed was attached to the ovary wall
-   - Location and shape of the hilum
-
-Micropyle
-   - Small pore or opening in the seed coat for water and gases exchange
-
-Embryo
-   - The tiny, developing plant within the seed
-   - Presence and position of cotyledons (seed leaves)
-   - Embryo orientation (e.g., straight or curved)
-
-Endosperm
-   - Nutrient-rich tissue that provides nourishment to the embryo in some seeds
-
-Cotyledons
-   - Number (monocotyledonous or dicotyledonous)
-   - Shape (e.g., rounded, elongated, folded)
-
-Radicle
-   - The embryonic root, which is the first structure to emerge during germination
-
-Plumule
-   - The embryonic shoot, which will develop into the above-ground portion of the plant
-
-Hilum and Radicle Orientation
-    - Orthotropous: Radicle points straight down from the hilum.
-    - Anatropous: Radicle points upwards from the hilum.
-    - Campylotropous: Radicle is curved or bent from the hilum.
-
-Seed Appendages
-    - Wings, bristles, or other structures that aid in seed dispersal
-
-Endocarp, Mesocarp, and Exocarp
-    - In fruits, these layers may surround the seed and affect its morphology
-
-Hardness
-    - Hardness or softness of the seed coat, which can impact germination and seed longevity
-
-Special Structures
-    - Some seeds have unique structures, such as arils (fleshy seed coverings) or elaiosomes (fleshy appendages for ant dispersal).
+Please note that the data provided is general and may vary based on specific environmental conditions and cultivars of Allium sativum.
 
 
-Funicle
-    The stalk that attaches the seed to the fruit or seed pod.
 
-Raphe
-    A ridge or line on the seed coat formed by the funicle's attachment.
 
-Embryo Axis
-    The central axis of the embryo that includes the radicle, hypocotyl, and epicotyl.
+Here is a table with the requested morphological characteristics of the stems of Allium sativum (garlic):
 
-Tegmen
-    The inner layer of the seed coat, which may also have a role in protecting the embryo.
+| Characteristic         | Description                                     |
+|------------------------|-------------------------------------------------|
+| Stem Type              | Herbaceous (non-woody)                         |
+| Stem Arrangement       | Basal (growing from the base)                  |
+| Stem Shape             | Cylindrical                                    |
+| Stem Height            | 30-90 cm (11.8-35.4 inches)                    |
+| Stem Diameter          | 0.5-1.5 cm (0.2-0.6 inches)                   |
+| Stem Nodes             | Typically 1 (at the base)                      |
+| Stem Internodes        | Variable, shorter near base, longer higher up  |
+| Stem Texture           | Smooth, fleshy                                 |
+| Stem Color             | Green                                          |
 
-Perisperm
-    A nutritive tissue that surrounds the embryo in some seeds and provides additional nutrients during germination.
+These characteristics describe the morphological features of Allium sativum (garlic) stems.
 
-Aril
-    An extra seed covering or appendage often serving as a reward for seed dispersers.
+
+Garlic stems are herbaceous, meaning they are non-woody and flexible. They grow in a basal arrangement, emerging directly from the plant's base. Their shape is cylindrical, providing stability to the plant.
+
+In terms of size, garlic stems typically reach heights ranging from 30 to 90 centimeters (approximately 11.8 to 35.4 inches). The stem diameter falls between 0.5 to 1.5 centimeters (around 0.2 to 0.6 inches), which, although relatively slender, is sturdy enough to support the plant.
+
+Garlic stems usually have a single node, which is situated at the base where the stem emerges from the bulb. The internodes, the segments of the stem between nodes, vary in length. They tend to be shorter closer to the base and become longer as you move higher up the stem. This variation helps in the plant's flexibility and bending.
+
+The texture of garlic stems is smooth and fleshy, offering a pleasant tactile experience when touched. Additionally, their color is primarily green, which is typical for most healthy plant stems.
 
 
 
 
 
-Here's a table with the requested morphological characteristics of the seeds of Acorus calamus:
+The stem of Allium sativum, commonly known as garlic, is characterized by several morphological features:
 
-| Characteristic          | Description                                       |
-|------------------------|---------------------------------------------------|
-| Seed Type              | Non-endospermic                                    |
-| Seed Arrangement       | Solitary                                           |
-| Seed Shape             | Ellipsoid                                          |
-| Seed Appendages        | Absent                                             |
-| Seed Number            | Singular                                           |
-| Seed Length            | 3.5 mm (0.14 inches)                              |
-| Seed Width             | 2 mm (0.08 inches)                                |
-| Seed Thickness         | 1.5 mm (0.06 inches)                              |
-| Seed Hardness          | Hard                                               |
-| Seed Coat Color        | Brown                                              |
-| Seed Coat Texture      | Smooth                                             |
-| Seed Coat Thickness    | 0.2 mm (0.008 inches)                             |
-| Seed Coat Permeability | Impermeable                                        |
-| Hilum                  | Located at the base                               |
-| Micropyle              | Present, near the hilum                           |
-| Embryo                 | Straight, small size                              |
-| Endosperm              | Absent                                             |
-| Cotyledons             | Two, fleshy, plano-convex                         |
-| Radicle                | Short and underdeveloped                         |
-| Plumule                | Present, at the tip of the embryo                |
+Bulb Type
+Bulb Shape
+Bulb Lenght
+Bulb Width
+Bulb Thickness
+Bulb Color
+Bulb Tunic
+Bulb Clove Arrangement
+Bulb Clove Shape
+Bulb Clove Lenght
+Bulb Clove Width
+Bulb Clove Thickness
+Bulb Clove Color
 
-Please note that these characteristics are based on general information about Acorus calamus seeds. Actual measurements and details may vary slightly between individual seeds.
+Here's a table with the requested morphological characteristics of the bulb of Allium sativum (garlic):
+
+| Characteristic           | Description                                  |
+|-------------------------|----------------------------------------------|
+| Bulb Type               | Tunicated bulb                               |
+| Bulb Shape              | Ovoid (Length > Width)                      |
+| Bulb Length            | Approximately 5-7 cm (2-2.75 inches)        |
+| Bulb Width             | Approximately 3-5 cm (1.2-2 inches)         |
+| Bulb Thickness         | Approximately 2-4 cm (0.8-1.6 inches)       |
+| Bulb Color             | White to off-white                           |
+| Bulb Tunic              | Multilayered, papery sheath                 |
+| Bulb Clove Arrangement | Multiple individual cloves within the bulb |
+| Bulb Clove Shape       | Wedge-shaped                                |
+| Bulb Clove Length      | Approximately 2.5-4 cm (1-1.6 inches)      |
+| Bulb Clove Width       | Approximately 1.5-2.5 cm (0.6-1 inch)       |
+| Bulb Clove Thickness   | Approximately 0.5-1 cm (0.2-0.4 inches)     |
+| Bulb Clove Color       | White to pale beige                         |
+
+These characteristics describe the typical morphological features of garlic (Allium sativum) bulbs and cloves.
 
 
+Garlic has a tunicated bulb, meaning it's enclosed in a multilayered, papery sheath known as the tunic. The bulb has an ovoid shape, with its length typically measuring around 5-7 centimeters (2-2.75 inches), while the width ranges from 3 to 5 centimeters (1.2-2 inches). The thickness of the bulb falls within the 2-4 centimeter range (0.8-1.6 inches).
 
-
-Here is a table with the requested morphological characteristics of Acorus calamus seeds:
-
-| Characteristic            | Description                               |
-|---------------------------|-------------------------------------------|
-| Seed Type                 | Monocotyledonous                           |
-| Seed Arrangement          | Solitary                                   |
-| Seed Shape                | Elliptical (3.0 mm x 1.5 mm)              |
-| Seed Appendages           | Absent                                    |
-| Seed Number               | Usually single per fruit                  |
-| Seed Length               | 3.0 mm (0.12 inches)                      |
-| Seed Width                | 1.5 mm (0.06 inches)                      |
-| Seed Thickness            | 1.0 mm (0.04 inches)                      |
-| Seed Hardness             | Hard                                      |
-| Seed Coat Color           | Brown                                     |
-| Seed Coat Texture         | Smooth                                    |
-| Seed Coat Thickness       | Approximately 0.1 mm (0.004 inches)       |
-| Seed Coat Permeability    | Impermeable                               |
+Garlic bulbs are predominantly white to off-white in color. When you break open a garlic bulb, you'll find an arrangement of multiple individual cloves within. These cloves are wedge-shaped, with each clove measuring approximately 2.5-4 centimeters (1-1.6 inches) in length, 1.5-2.5 centimeters (0.6-1 inch) in width, and 0.5-1 centimeter (0.2-0.4 inches) in thickness.
 
 
 
+Here is a table containing the morphological characteristics of the leaf of Allium sativum (garlic):
+
+| Characteristic         | Description                                     |
+|------------------------|-------------------------------------------------|
+| Leaf Complexity        | Simple                                          |
+| Leaf Shape             | Linear, Lanceolate |
+| Leaf Arrangement       | Basal Rosette                                   |
+| Leaf Orientation       | Erect                                           |
+| Leaf Length            | 15-40 cm (5.9-15.7 inches)                    |
+| Leaf Width             | 1-3 cm (0.4-1.2 inches)                        |
+| Leaf Thickness         | 0.2-0.4 mm (0.008-0.016 inches)               |
+| Leaf Color             | Green                                           |
+| Leaf Texture           | Smooth, Slightly Waxy                          |
+| Leaf Surface           | Glabrous (Hairless)                            |
+| Leaf Apex              | Acuminate (Tapering to a sharp point)         |
+| Leaf Base              | Sheathing, Wrap around stem                   |
+| Leaf Margin            | Entire (Smooth)                                |
+| Leaf Venation          | Parallel Veins                                 |
+| Leaf Lamina            | Simple                                          |
+| Leaf Midrib           | Prominent Midrib                               |
+| Leaf Attachment        | Sessile (No petiole, attached directly)        |
+
+Please note that these characteristics are typical of Allium sativum leaves, but there can be some variations within the species.
 
 
 
-Here's a table with the requested morphological characteristics of Acorus calamus seeds:
+The leaves of Allium sativum are simple, meaning each leaf is not divided into smaller leaflets. In terms of shape, garlic leaves are linear and lanceolate, form a basal rosette arrangement, and they grow in an upright, or erect, orientation.
 
-| Characteristic             | Description                                      |
-|----------------------------|--------------------------------------------------|
-| Seed Type                  | Endospermic (Endosperm present)                |
-| Seed Arrangement           | Solitary                                      |
-| Seed Shape                 | Elliptical (Oblong)                           |
-| Seed Appendages            | Absent                                       |
-| Seed Number               | Usually 1 per fruit                          |
-| Seed Length               | 2.5 mm (0.098 inches)                        |
-| Seed Width                | 1.0 mm (0.039 inches)                        |
-| Seed Thickness            | 1.0 mm (0.039 inches)                        |
-| Seed Hardness             | Hard                                         |
-| Seed Coat Color           | Brown                                       |
-| Seed Coat Texture         | Smooth                                      |
-| Seed Coat Thickness       | Thin                                        |
-| Seed Coat Permeability    | Impermeable to water                         |
-| Seed Hilum                | Linear, positioned along the length           |
-| Seed Embryo               | Straight embryo, centrally located within endosperm |
+These leaves typically measure between 15 to 40 centimeters (5.9 to 15.7 inches) in length and 1 to 3 centimeters (0.4 to 1.2 inches) in width. They are relatively thin, ranging from 0.2 to 0.4 millimeters (0.008 to 0.016 inches), and they are typically green in color. The texture of the leaves is smooth, with a slightly waxy surface, and they are described as glabrous, which means they are hairless.
 
-Please note that these characteristics can vary slightly among individual seeds, but the provided data represents typical features of Acorus calamus seeds.
+When examining the overall structure of the leaf, you'll find the apex is acuminate, tapering to a sharp point. The base of the leaf is sheathing, meaning it wraps around the stem where it attaches directly. The margin of the leaf is described as entire, which implies a smooth and undivided edge. Garlic leaves exhibit parallel venation, and the lamina, or blade of the leaf, is simple.
+
+One notable feature is the prominent midrib, running along the center of the leaf. This midrib serves as a structural element in the leaf, helping to support its overall shape. The attachment of the leaf to the stem is sessile, meaning there is no distinct petiole or leaf stalk; the leaf is directly attached to the stem.
