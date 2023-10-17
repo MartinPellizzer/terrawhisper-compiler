@@ -14,27 +14,7 @@ with open("database/growing_zones.json", encoding='utf-8') as f:
     growing_zones_data = json.loads(f.read())
 
 
-def generate_header():
-    html = '''
-    <header>
-        <div class="container-lg">
-            <nav class="flex justify-between">
-                <a href="/">TerraWhisper</a>
-                <a href="#"></a>
-            </nav>
-        </div>
-    </header>
-    '''
-    html = '''
-    <header>
-        <nav class="flex justify-between">
-            <a class="fg-white" href="/">TerraWhisper</a>
-            <a href="#"></a>
-        </nav>
-    </header>
-    '''
 
-    return html
 
 
 def lst_to_txt(lst):
@@ -146,10 +126,42 @@ def generate_toc(content_html):
 
 
 
+
+######################################################################
+# TABLE 
+######################################################################
+def csv_get_table_data(filepath):
+    lines = []
+    with open(filepath) as f:
+        reader = csv.reader(f, delimiter="\\")
+        for i, line in enumerate(reader):
+            if i == 0:
+                lines.append(line)
+            else:
+                if line[0].strip() == entity.strip():
+                    lines.append(line)
+    return lines
+
+
+def generate_table(lines):
+    text = ''
+    text += f'| Characteristic | Description |\n'
+    text += f'| --- | --- |\n'
+    for i in range(len(lines[0])):
+        if i == 0: continue
+        if lines[0][i].strip() == '': continue
+        try: 
+            if lines[1][i].strip() == '': continue
+        except: continue
+        text += f'| {lines[0][i].title()} | {lines[1][i].capitalize()} |\n'
+    text += f'\n'
+    return text
+
+
+
 ######################################################################
 # IMAGES 
 ######################################################################
-
 def img_resize(image_path):
     w, h = 768, 512
 
@@ -485,6 +497,32 @@ def img_cheasheet(latin_name, title, lst, img_name):
 
 
 ######################################################################
+def generate_header_light():
+    html = '''
+    <header>
+        <div class="container-lg">
+            <nav class="flex justify-between">
+                <a href="/">TerraWhisper</a>
+                <a href="#"></a>
+            </nav>
+        </div>
+    </header>
+    '''
+    return html
+    
+
+def generate_header_transparent():
+    html = '''
+    <header>
+        <nav class="flex justify-between">
+            <a class="fg-white" href="/">TerraWhisper</a>
+            <a href="#"></a>
+        </nav>
+    </header>
+    '''
+    return html
+
+
 def generate_html(article, entity, attribute):
     article_filepath = f'{entity}/{attribute}.md'
     with open(f'articles/{article_filepath}', 'w', encoding='utf-8') as f:
@@ -497,7 +535,7 @@ def generate_html(article, entity, attribute):
     word_count = len(article.split(' '))
     reading_time_html = str(word_count // 200) + ' minutes'
 
-    header = generate_header()
+    header = generate_header_light()
 
     html = f'''
         <!DOCTYPE html>
@@ -621,55 +659,30 @@ for f in articles_files:
 
         if 'list' == post_type:
             if 'morphology' in attribute.lower():
-                main_content = item['main_content']
-
+                # title
                 title = f'What is the morphology of {latin_name}?'
                 article += f'# {title}\n\n'
                 
+                # image
                 featured_image_filpath = generate_featured_image(entity, attribute)
                 article += f'![alt]({featured_image_filpath} "title")\n\n'
 
+                # sections
+                main_content = item['main_content']
                 for section in main_content:
-                    title = section["title"]
-                    if 'bulb' in title.lower():
-                        article += f'### {title}\n\n'
+                    # section title
+                    section_title = section["title"]
+                    if 'bulb' in section_title.lower():
+                        article += f'### {section_title}\n\n'
                     else:
-                        article += f'## {title}\n\n'
+                        article += f'## {section_title}\n\n'
+                    
+                    # section content (unstructured)
                     article += '\n\n'.join(section['content']) + '\n\n'
                     
-                    # characteristics = section['characteristics']
-                    article += f'| Characteristic | Description |\n'
-                    article += f'| --- | --- |\n'
-                    # for characteristic in characteristics:
-                    #     article += f'| {characteristic["name"].title()} | {characteristic["desc"].capitalize()} |\n'
-                    # article += f'\n'
-
-                    lines = []
-                    with open(f'database/tables/morphology/{section["title"].lower()}.csv') as f:
-                        reader = csv.reader(f, delimiter="\\")
-                        for i, line in enumerate(reader):
-                            if i == 0:
-                                lines.append(line)
-                            else:
-                                if line[0].strip() == entity.strip():
-                                    lines.append(line)
-
-                    # for line in lines:
-                    #     print(line)
-                    
-                    for i in range(len(lines[0])):
-                        if i == 0: continue
-                        if lines[0][i].strip() == '': continue
-                        try: 
-                            if lines[1][i].strip() == '': continue
-                        except: continue
-                        article += f'| {lines[0][i].title()} | {lines[1][i].capitalize()} |\n'
-                    article += f'\n'
-
-                    # for line in lines:
-                    #     print(line)
-                    # quit()
-
+                    # section table (structured)
+                    lines = csv_get_table_data(f'database/tables/morphology/{section["title"].lower()}.csv')
+                    article += generate_table(lines)
             else:
                 continue
 
@@ -892,6 +905,7 @@ for f in articles_files:
                 article += lst_to_blt(bld)
                 article += '\n\n'
 
+            # TODO: redo achillea millefolium to delete this section
             elif 'morphology' in attribute.lower():
                 #######################################################################################################
                 # MORPHOLOGY
@@ -974,136 +988,6 @@ for f in articles_files:
                 article += f'The full description of the {latin_name} seeds morphology is given in the following list.' + '\n\n'
                 article += lst_to_blt(bold_blt(item['botanical_morphology_seeds'])) + '\n\n'
 
-            else:
-                
-                ##################################################################################################
-                # HISTORICAL USES
-                ##################################################################################################
-                article += f'## What are the historical uses of {latin_name}?\n\n'
-
-                # ### HISTORY ETHNOBOTANICAL USES
-                # article += f'### What is the ethnobotanical history of {most_common_name}?\n\n'
-                # article += f'Here\'s listed some ethnobotanical history references about {most_common_name}.\n\n'
-                # bld = bold_blt(history)
-                # article += lst_to_blt(bld)
-                # article += '\n\n'
-                
-                # CHEAT SHEET
-                lst = []
-                tmp_lst = [f'{x.split(":")[0]}' for x in history_medicinal_uses]
-                tmp_lst.insert(0, 'Medicinal Uses')
-                lst.append(tmp_lst)
-                tmp_lst = [f'{x.split(":")[0]}' for x in history_culinary_uses]
-                tmp_lst.insert(0, 'Culinary Uses')
-                lst.append(tmp_lst)
-                tmp_lst = [f'{x.split(":")[0]}' for x in history_spiritual_uses]
-                tmp_lst.insert(0, 'Spiritual Uses')
-                lst.append(tmp_lst)
-
-                img_path = img_cheasheet(latin_name, 'Historical Uses of', lst, 'historical-uses')
-                img_path = '/' + '/'.join(img_path.split('/')[1:])
-                article += f'The following illustration shows you this classificaion visually.\n\n'
-                article += f'![alt]({img_path} "title")\n\n'
-                
-                # MEDICINAL USES
-                article += f'### Medical Uses\n\n'
-                article += f'Here\'s listed some medicinal uses of this plant in ancient cultures.\n\n'
-                bld = bold_blt(history_medicinal_uses)
-                article += lst_to_blt(bld)
-                article += '\n\n'
-                
-                # CULINARY USES
-                article += f'### Culinary Uses\n\n'
-                article += f'Here\'s listed some culinary uses of this plant in ancient cultures.\n\n'
-                bld = bold_blt(history_culinary_uses)
-                article += lst_to_blt(bld)
-                article += '\n\n'
-                
-                # SPIRITUAL USES
-                article += f'### Spiritual Uses\n\n'
-                article += f'Here\'s listed some spiritual uses of this plant in ancient cultures.\n\n'
-                bld = bold_blt(history_spiritual_uses)
-                article += lst_to_blt(bld)
-                article += '\n\n'
-
-
-
-                ##################################################################################################
-                # COMPOSITION
-                ##################################################################################################
-                article += f'## What is the chemical composition of this plant?\n\n'
-                article += f'### Phytochemicals\n\n'
-                article += f'Here\'s a list of the phytochemicals.\n\n'
-                bld = bold_blt(item['phytochemicals'])
-                article += lst_to_blt(bld)
-                article += '\n\n'
-
-
-
-                ## Medicinal Benefits
-                article += f'## What are the medicinal benefits of this plant?\n\n'
-                article += f'Here\'s a list of the traditional remedies of this plant.\n\n'
-                bld = bold_blt(item['medicinal_uses'])
-                article += lst_to_blt(bld)
-                article += '\n\n'
-
-                
-                
-                ## Culinary and Beverage Uses
-                article += f'## What are the culinary and beverage uses of {most_common_name}?\n\n'
-
-                ### culinary_uses
-                article += f'### culinary uses \n\n'.title()
-                article += f'Here\'s a list of culinary uses of {most_common_name}.\n\n'
-                bld = bold_blt(culinary_uses)
-                article += lst_to_blt(bld)
-                article += '\n\n'
-                
-                ### beverage_uses
-                article += f'### beverage uses \n\n'.title()
-                article += f'Here\'s a list of beverage uses of {most_common_name}.\n\n'
-                bld = bold_blt(beverage_uses)
-                article += lst_to_blt(bld)
-                article += '\n\n'
-                
-                ### sensory_characteristics
-                article += f'### sensory characteristics \n\n'.title()
-                article += f'Here\'s a list of sensory characteristics of {most_common_name}.\n\n'
-                bld = bold_blt(sensory_characteristics)
-                article += lst_to_blt(bld)
-                article += '\n\n'
-
-                
-                ## horticultural considerations
-                article += f'## What are the horticultural considerations of {most_common_name}?\n\n'
-                
-                ### horticultural_cultivation
-                article += f'### horticultural cultivation\n\n'.title()
-                article += f'Here\'s a list of horticultural tips to cultivate {most_common_name}.\n\n'
-                bld = bold_blt(horticultural_cultivation)
-                article += lst_to_blt(bld)
-                article += '\n\n'
-                
-                ### environmental_requirements
-                article += f'### environmental requirements\n\n'.title()
-                article += f'Here\'s a list of environmental requirements to cultivate {most_common_name}.\n\n'
-                bld = bold_blt(environmental_requirements)
-                article += lst_to_blt(bld)
-                article += '\n\n'
-
-                ### pests
-                article += f'### pests\n\n'.title()
-                article += f'Here\'s a list of common pests of {most_common_name}.\n\n'
-                bld = bold_blt(pests)
-                article += lst_to_blt(bld)
-                article += '\n\n'
-
-                ### diseases
-                article += f'### diseases\n\n'.title()
-                article += f'Here\'s a list of common diseases of {most_common_name}.\n\n'
-                bld = bold_blt(diseases)
-                article += lst_to_blt(bld)
-                article += '\n\n'
 
         article_filepath = generate_html(article, entity, attribute)
 
@@ -1227,7 +1111,7 @@ with_sidebar = f'''
     </section>
 '''
 
-header = generate_header()
+header = generate_header_transparent()
 
 html = f'''
     <!DOCTYPE html>
