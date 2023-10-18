@@ -143,6 +143,12 @@ def csv_get_table_data(filepath):
     return lines
 
 
+def csv_get_table_data_2(filepath):
+    with open(filepath, encoding='utf-8') as f:
+        content = f.read()
+    return content
+
+
 def generate_table(lines):
     text = ''
     text += f'| Characteristic | Description |\n'
@@ -674,6 +680,7 @@ for f in articles_files:
                     section_content = section["content"]
                     article += f'## {section_title}\n\n'
                     article += '\n\n'.join(section_content) + '\n\n'
+                    
                     lines = csv_get_table_data(f'database/tables/morphology/{section["title"].lower()}.csv')
                     article += generate_table(lines)
 

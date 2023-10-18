@@ -149,10 +149,26 @@ The color of the pedicels is green, matching the typical coloration of plant ste
 
 ## Fruits
 
+Garlic's fruit type is a capsule, and it typically forms in an umbrella-like arrangement called an umbel. These capsules can be found either individually or clustered together. They have an ovate shape, with specific measurements: about 1.5 cm (0.59 inches) in length, 1.0 cm (0.39 inches) in width, and 0.5 cm (0.20 inches) in thickness. The fruit walls are made up of triangular segments and have a papery texture. Initially pale green, the fruits turn brown or gray as they mature.
 
+The surface of garlic's fruits is smooth and shiny, and they possess a dry and membranous texture. Notably, they lack any distinct markings. At maturity, these fruits become detached from their pedicel, which is the slender stem-like structure that supports them. The pedicel itself is approximately 2 cm (0.79 inches) in length.
 
 | Characteristic | Description |
 | --- | --- |
+| Fruit Type  | Capsule |
+| Fruit Arrangement  | Umbel |
+| Fruit Distribution  | Solitary or clustered |
+| Fruit Shape  | Ovate |
+| Fruit Length  | 1.5 cm (0.59 inches) |
+| Fruit Width  | 1.0 cm (0.39 inches) |
+| Fruit Thickness  | 0.5 cm (0.20 inches) |
+| Fruit Wall  | Triangular segments, papery |
+| Fruit Color  | Pale green, turning brown or gray |
+| Fruit Surface  | Smooth and shiny |
+| Fruit Texture  | Dry and membranous |
+| Fruit Marking  | None |
+| Fruit Attachment  | Detached from pedicel at maturity |
+| Fruit Pedicel  | About 2 cm (0.79 inches) long, slender |
 
 ## Seeds
 

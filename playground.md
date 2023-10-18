@@ -414,3 +414,125 @@ The pedicel shape of garlic flowers is cylindrical, with a simple attachment to 
 In terms of size, garlic pedicels typically measure approximately 2-4 centimeters (0.8-1.6 inches) in length and have a diameter of about 1-2 millimeters (0.04-0.08 inches). These dimensions contribute to the overall delicacy of the garlic flower.
 
 The color of the pedicels is green, matching the typical coloration of plant stems. This green hue complements the white to pale purple flowers of the garlic plant. Furthermore, the texture of the pedicels is smooth, adding to the overall aesthetic appeal of the flowers.
+
+# fruits
+# ------------------------------------------------------
+
+Here is a table with the requested morphological characteristics of the fruits of Allium sativum (garlic):
+
+| Characteristic            | Description                                |
+|---------------------------|--------------------------------------------|
+| Fruit Type                | Capsule                                    |
+| Fruit Arrangement         | Umbel                                      |
+| Fruit Distribution        | Solitary or clustered                      |
+| Fruit Shape               | Ovate                                      |
+| Fruit Length              | 1.5 cm (0.59 inches)                       |
+| Fruit Width               | 1.0 cm (0.39 inches)                       |
+| Fruit Thickness           | 0.5 cm (0.20 inches)                       |
+| Fruit Wall                | Triangular segments, papery                |
+| Fruit Color               | Pale green, turning brown or gray          |
+| Fruit Surface             | Smooth and shiny                           |
+| Fruit Texture             | Dry and membranous                         |
+| Fruit Marking             | None                                       |
+| Fruit Attachment          | Detached from pedicel at maturity          |
+| Fruit Pedicel             | About 2 cm (0.79 inches) long, slender     |
+
+Please note that these characteristics are general and may vary slightly depending on the variety of garlic or its growing conditions.
+
+
+Fruits are the mature ovaries of flowering plants, and they exhibit a wide range of morphological characteristics. These characteristics can vary significantly from one plant species to another. Here's a list of some common morphological characteristics of fruits:
+
+1. **Type of Fruit**: 
+    fleshy fruits (e.g., apples), 
+    dry fruits (e.g., sunflower seeds), 
+    dehiscent fruits (split open when mature, e.g., peas), 
+    indehiscent fruits (do not split open, e.g., acorns).
+2. **Size and Shape**:
+3. **Color**: 
+4. **Texture**: 
+    smooth (e.g., grapes) 
+    rough (e.g., pineapples) 
+    waxy (e.g., apples)
+    fuzzy (e.g., peaches).
+5. **Outer Skin or Rind**:
+6. **Number of Carpels**: 
+    Fruits can be simple (developed from a single ovary) 
+    compound (developed from multiple fused ovaries)
+7. **Arrangement of Carpels**: 
+    fused together
+    separate (apocarpous or syncarpous).
+8. **Number of Seeds**: 
+    Fruits can be seeded (containing seeds)
+    seedless (lacking seeds).
+9. **Seed Disposition**: 
+    scattered throughout the fruit's interior
+    concentrated at the center (axile placentation)
+    or attached to the fruit's wall (parietal placentation).
+10. **Endocarp, Mesocarp, and Exocarp**: 
+    the innermost layer (endocarp), 
+    middle layer (mesocarp), 
+    and outer layer (exocarp)
+11. **Juiciness**: 
+    Some fruits are juicy (e.g., oranges), 
+    while others are dry (e.g., nuts).
+12. **Pericarp Characteristics**: 
+    to the fruit wall,
+    thick and fleshy 
+    thin and papery
+    may become hard or woody (e.g., coconut).
+13. **Fruit Dehiscence**: 
+    Dehiscent fruits split open to release their seeds when mature, 
+    indehiscent fruits do not split open.
+14. **Wings, Hooks, or Barbs**: 
+    Some fruits have wings, hooks, or barbs that aid in seed dispersal (e.g., maple samaras, burdock).
+18. **Vivipary**: 
+    In some cases, fruits may germinate while still attached to the parent plant (vivipary), producing seedlings before they fall to the ground.
+4. **Seed(s)**: 
+5. **Seed Coat**: 
+    The protective outer covering of the seed, which helps to shield the embryo and its stored nutrients.
+6. **Embryo**: 
+    The young plant-to-be contained within the seed. 
+    It typically consists of a radicle (develops into the primary root), 
+    cotyledons (seed leaves), 
+    and a shoot (develops into the stem and leaves). 
+    The number and structure of these parts can vary depending on the plant species.
+7. **Placenta**: 
+    In some fruits, a structure within the fruit where seeds are attached. 
+    The placenta can also serve as a source of nutrients for developing seeds.
+8. **Receptacle**: 
+    The part of the flower stalk (pedicel) to which the ovary is attached. 
+    In some fruits, like apples and strawberries, the receptacle becomes part of the mature fruit.
+9. **Pericarp**: 
+    The collective term for the exocarp, mesocarp, and endocarp, which together make up the entire fruit wall.
+10. **Sepals**: 
+    While not part of the fruit itself, the sepals are often found at the base of the fruit, and they are part of the flower structure. 
+    They protect the developing fruit when the flower is in bud.
+
+1. Capsule: 
+    The fruit of Allium sativum is a dry, three-lobed capsule. The capsule is typically subglobose (nearly spherical) in shape.
+2. Trilocular: 
+    The capsule is divided into three compartments or locules, each containing one to several seeds.
+3. Dehiscence: 
+    The capsule dehisces, meaning it splits open when mature to release the seeds. This dehiscence allows the seeds to be dispersed.
+
+4. Cloves: 
+    Within each locule of the capsule, there are individual garlic cloves. Each clove is essentially a small bulb or bulbil. The number of cloves per capsule can vary.
+5. Bulbils: 
+    The cloves inside the capsule are considered bulbils, which are small, vegetative structures capable of developing into full garlic plants under suitable conditions. These bulbils are responsible for garlic propagation.
+
+6. Seed Development: While garlic cloves (bulbils) are the primary means of propagation, Allium sativum can produce small, black seeds within the capsule. However, garlic is typically propagated through cloves rather than seeds.
+
+7. Seed Characteristics: Garlic seeds are small, dark, and triangular in shape. They are not commonly used for propagation, and garlic plants grown from seeds may exhibit genetic variability.
+
+8. Color and Texture: The mature garlic capsule has a papery texture and can range in color from pale green to pale purple, depending on the variety.
+
+9. Aerial Stalk: The fruiting capsules of Allium sativum are borne on an aerial stalk that emerges from the garlic plant's central pseudostem (an aggregation of leaf bases).
+
+10. Aroma and Flavor: The cloves inside the capsule are the edible and aromatic part of garlic, known for their pungent flavor and distinct aroma.
+
+These morphological characteristics of garlic fruits and cloves contribute to its unique reproductive and culinary properties. Garlic is primarily propagated through the planting of individual cloves, and it is a fundamental ingredient in many culinary traditions worldwide.
+
+
+Garlic's fruit type is a capsule, and it typically forms in an umbrella-like arrangement called an umbel. These capsules can be found either individually or clustered together. They have an ovate shape, with specific measurements: about 1.5 cm (0.59 inches) in length, 1.0 cm (0.39 inches) in width, and 0.5 cm (0.20 inches) in thickness. The fruit walls are made up of triangular segments and have a papery texture. Initially pale green, the fruits turn brown or gray as they mature.
+
+The surface of garlic's fruits is smooth and shiny, and they possess a dry and membranous texture. Notably, they lack any distinct markings. At maturity, these fruits become detached from their pedicel, which is the slender stem-like structure that supports them. The pedicel itself is approximately 2 cm (0.79 inches) in length.

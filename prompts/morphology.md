@@ -8,9 +8,7 @@
 
 [list]
 
-for each characteristic write a precise description, by adding the exact information, numbers, and data. if you are not sure about a description, write "N/A".
-
-use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
+for each characteristic write a precise description, by adding the exact information, numbers, and data. use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
 
 put all the data in table format. the table must have only 2 columns.
 
@@ -181,26 +179,23 @@ give me a list of the morphological characteristics of the [plant_part] of the [
 
 # fruits -----------------------------------------------------------------------------------------------------
 
-give me a complete list of all the morphological characteristics of the fruits of the [plant]. In this list, include in this order:
-
 - Fruit Type
 - Fruit Arrangement
 - Fruit Distribution
+- Fruit Attachment
 - Fruit Shape
 - Fruit Lenght
 - Fruit Width
 - Fruit Thickness
-- Fruit Wall
 - Fruit Color
 - Fruit Surface
 - Fruit Texture
 - Fruit Marking
-- Fruit Attachment
+- Fruit Dehiscence
+
+- Fruit Wall
 - Fruit Pedicel
 
-for each characteristic write a precise description, by adding the exact information, numbers, and data. use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
-
-put all the data in table format. the table must have only 2 columns.
 
 
 
