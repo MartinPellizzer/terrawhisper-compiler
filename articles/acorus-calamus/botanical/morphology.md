@@ -119,15 +119,15 @@ Notably, Acorus calamus flowers are enclosed by green bracts, a feature that dis
 | Characteristic | Description |
 | --- | --- |
 | Flower Type  | Hermaphrodite  |
-| Flower Complexity  | Simple  |
 | Inflorescence Type  | Spadix with a spathe    |
+| Flower Complexity  | Simple  |
 | Flower Symmetry  | Actinomorphic (radial)    |
+| Flower Structure    | Unisexual with separate male and female flowers  |
 | Flower Shape  | Tubular  |
 | Flower Length  | Approximately 3-8 cm (1.18-3.15 inches)  |
 | Flower Width  | Approximately 0.5 cm (0.2 inches)    |
 | Flower Thickness  | Approximately 0.2 cm (0.08 inches)  |
 | Flower Color  | Pale yellow-green    |
-| Flower Structure    | Unisexual with separate male and female flowers  |
 | Number Of Floral Parts  | 6 (3 sepals, 3 petals)    |
 | Flower Sepals    | 3, green, lanceolate, about 1 cm long  |
 | Flower Petals    | 3, yellow, oblong, about 1 cm long    |

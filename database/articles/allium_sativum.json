@@ -26,13 +26,15 @@
                     "In terms of size, garlic stems typically reach heights ranging from 30 to 90 centimeters (approximately 11.8 to 35.4 inches). The stem diameter falls between 0.5 to 1.5 centimeters (around 0.2 to 0.6 inches), which, although relatively slender, is sturdy enough to support the plant.",
                     "Garlic stems usually have a single node, which is situated at the base where the stem emerges from the bulb. The internodes, the segments of the stem between nodes, vary in length. They tend to be shorter closer to the base and become longer as you move higher up the stem. This variation helps in the plant's flexibility and bending.",
                     "The texture of garlic stems is smooth and fleshy, offering a pleasant tactile experience when touched. Additionally, their color is primarily green, which is typical for most healthy plant stems."
-                ]
-            },
-            {
-                "title": "Bulb",
-                "content": [
-                    "Garlic has a tunicated bulb, meaning it's enclosed in a multilayered, papery sheath known as the tunic. The bulb has an ovoid shape, with its length typically measuring around 5-7 centimeters (2-2.75 inches), while the width ranges from 3 to 5 centimeters (1.2-2 inches). The thickness of the bulb falls within the 2-4 centimeter range (0.8-1.6 inches).",
-                    "Garlic bulbs are predominantly white to off-white in color. When you break open a garlic bulb, you'll find an arrangement of multiple individual cloves within. These cloves are wedge-shaped, with each clove measuring approximately 2.5-4 centimeters (1-1.6 inches) in length, 1.5-2.5 centimeters (0.6-1 inch) in width, and 0.5-1 centimeter (0.2-0.4 inches) in thickness."
+                ],
+                "subparts": [
+                    {
+                        "name": "Bulb",
+                        "desc": [
+                            "Garlic has a tunicated bulb, meaning it's enclosed in a multilayered, papery sheath known as the tunic. The bulb has an ovoid shape, with its length typically measuring around 5-7 centimeters (2-2.75 inches), while the width ranges from 3 to 5 centimeters (1.2-2 inches). The thickness of the bulb falls within the 2-4 centimeter range (0.8-1.6 inches).",
+                            "Garlic bulbs are predominantly white to off-white in color. When you break open a garlic bulb, you'll find an arrangement of multiple individual cloves within. These cloves are wedge-shaped, with each clove measuring approximately 2.5-4 centimeters (1-1.6 inches) in length, 1.5-2.5 centimeters (0.6-1 inch) in width, and 0.5-1 centimeter (0.2-0.4 inches) in thickness."
+                        ]
+                    }
                 ]
             },
             {
@@ -46,7 +48,20 @@
             },
             {
                 "title": "Flowers",
-                "content": []
+                "content": [
+                    "Garlic flowers are organized in an inflorescence type known as an umbel, forming a flat-topped cluster. Each individual flower is simple in its structure, composed of six tepals, a stamen, and a pistil. The overall symmetry of these flowers is actinomorphic, meaning they are radially symmetric.",
+                    "These small flowers have a funnel-shaped appearance, with approximate dimensions of 5-6 mm (0.2-0.24 inches) in length and 4-5 mm (0.16-0.2 inches) in width. The color of garlic flowers typically ranges from white to pale purple."
+                ],
+                "subparts": [
+                    {
+                        "name": "Pedicel",
+                        "desc": [
+                            "The pedicel shape of garlic flowers is cylindrical, with a simple attachment to the umbel, the flat-topped cluster where the flowers are grouped. These pedicels are relatively flexible, allowing for slight movement.",
+                            "In terms of size, garlic pedicels typically measure approximately 2-4 centimeters (0.8-1.6 inches) in length and have a diameter of about 1-2 millimeters (0.04-0.08 inches). These dimensions contribute to the overall delicacy of the garlic flower.",
+                            "The color of the pedicels is green, matching the typical coloration of plant stems. This green hue complements the white to pale purple flowers of the garlic plant. Furthermore, the texture of the pedicels is smooth, adding to the overall aesthetic appeal of the flowers."
+                        ]
+                    }
+                ]
             },
             {
                 "title": "Fruits",

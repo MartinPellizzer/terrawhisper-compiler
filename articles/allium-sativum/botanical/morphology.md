@@ -69,19 +69,15 @@ Garlic bulbs are predominantly white to off-white in color. When you break open 
 
 | Characteristic | Description |
 | --- | --- |
-| Bulb Type  | Tunicated bulb  |
-| Bulb Shape  | Ovoid (length > width)  |
-| Bulb Length  | Approximately 5-7 cm (2-2.75 inches)  |
-| Bulb Width  | Approximately 3-5 cm (1.2-2 inches)  |
-| Bulb Thickness  | Approximately 2-4 cm (0.8-1.6 inches)  |
-| Bulb Color  | White to off-white  |
-| Bulb Tunic  | Multilayered, papery sheath  |
-| Bulb Clove Arrangement  | Multiple individual cloves within the bulb  |
-| Bulb Clove Shape  | Wedge-shaped  |
-| Bulb Clove Length  | Approximately 2.5-4 cm (1-1.6 inches)  |
-| Bulb Clove Width  | Approximately 1.5-2.5 cm (0.6-1 inch)  |
-| Bulb Clove Thickness  | Approximately 0.5-1 cm (0.2-0.4 inches)  |
-| Bulb Clove Color  | White to pale beige  |
+| Stem Type  | Herbaceous (non-woody)  |
+| Stem Arrangement  | Basal (growing from the base)  |
+| Stem Shape  | Cylindrical  |
+| Stem Height  | 30-90 cm (11.8-35.4 inches)  |
+| Stem Diameter  | 0.5-1.5 cm (0.2-0.6 inches)  |
+| Stem Nodes  | Typically 1 (at the base)  |
+| Stem Internodes  | Variable, shorter near base, longer higher up  |
+| Stem Texture  | Smooth, fleshy  |
+| Stem Color  | Green  |
 
 ## Leaves
 
@@ -115,10 +111,41 @@ One notable feature is the prominent midrib, running along the center of the lea
 
 ## Flowers
 
+Garlic flowers are organized in an inflorescence type known as an umbel, forming a flat-topped cluster. Each individual flower is simple in its structure, composed of six tepals, a stamen, and a pistil. The overall symmetry of these flowers is actinomorphic, meaning they are radially symmetric.
 
+These small flowers have a funnel-shaped appearance, with approximate dimensions of 5-6 mm (0.2-0.24 inches) in length and 4-5 mm (0.16-0.2 inches) in width. The color of garlic flowers typically ranges from white to pale purple.
 
 | Characteristic | Description |
 | --- | --- |
+| Inflorescence Type  | Umbel (flat-topped cluster)  |
+| Flower Complexity  | Simple (individual flowers)  |
+| Flower Symmetry  | Actinomorphic (radially symmetric)  |
+| Flower Structure    | Six tepals (3 sepals and 3 petals)  |
+| Flower Attachment  | Pedicels attached to the umbel  |
+| Flower Shape  | Funnel-shaped  |
+| Flower Length  | Approximately 5-6 mm (0.2-0.24 inches)  |
+| Flower Width  | Approximately 4-5 mm (0.16-0.2 inches)  |
+| Flower Color  | White to pale purple  |
+
+### Pedicel
+
+The pedicel shape of garlic flowers is cylindrical, with a simple attachment to the umbel, the flat-topped cluster where the flowers are grouped. These pedicels are relatively flexible, allowing for slight movement.
+
+In terms of size, garlic pedicels typically measure approximately 2-4 centimeters (0.8-1.6 inches) in length and have a diameter of about 1-2 millimeters (0.04-0.08 inches). These dimensions contribute to the overall delicacy of the garlic flower.
+
+The color of the pedicels is green, matching the typical coloration of plant stems. This green hue complements the white to pale purple flowers of the garlic plant. Furthermore, the texture of the pedicels is smooth, adding to the overall aesthetic appeal of the flowers.
+
+| Characteristic | Description |
+| --- | --- |
+| Inflorescence Type  | Umbel (flat-topped cluster)  |
+| Flower Complexity  | Simple (individual flowers)  |
+| Flower Symmetry  | Actinomorphic (radially symmetric)  |
+| Flower Structure    | Six tepals (3 sepals and 3 petals)  |
+| Flower Attachment  | Pedicels attached to the umbel  |
+| Flower Shape  | Funnel-shaped  |
+| Flower Length  | Approximately 5-6 mm (0.2-0.24 inches)  |
+| Flower Width  | Approximately 4-5 mm (0.16-0.2 inches)  |
+| Flower Color  | White to pale purple  |
 
 ## Fruits
 

@@ -255,3 +255,162 @@ These leaves typically measure between 15 to 40 centimeters (5.9 to 15.7 inches)
 When examining the overall structure of the leaf, you'll find the apex is acuminate, tapering to a sharp point. The base of the leaf is sheathing, meaning it wraps around the stem where it attaches directly. The margin of the leaf is described as entire, which implies a smooth and undivided edge. Garlic leaves exhibit parallel venation, and the lamina, or blade of the leaf, is simple.
 
 One notable feature is the prominent midrib, running along the center of the leaf. This midrib serves as a structural element in the leaf, helping to support its overall shape. The attachment of the leaf to the stem is sessile, meaning there is no distinct petiole or leaf stalk; the leaf is directly attached to the stem.
+
+
+
+Here's a table with the morphological characteristics of the flowers of Allium sativum (common garlic):
+
+| Characteristic         | Description                                        |
+|----------------------- |---------------------------------------------------|
+| Inflorescence Type    | Umbel                                             |
+| Flower Complexity     | Simple                                            |
+| Flower Symmetry       | Actinomorphic (Radially symmetric)               |
+| Flower Structure      | Six tepals (3 sepals and 3 petals)               |
+| Flower Shape          | Ovate (Egg-shaped)                                |
+| Flower Length         | 4-5 mm (0.16-0.2 inches)                         |
+| Flower Width          | 4-5 mm (0.16-0.2 inches)                         |
+| Flower Thickness      | N/A                                               |
+| Flower Color          | White to pink-purple                             |
+
+Please note that the thickness of the flower is not typically described in botanical terms, so it's marked as "N/A" in the table.
+
+
+
+
+
+In terms of inflorescence type, garlic exhibits an umbel, which means the flowers cluster together in an umbrella-like shape. These flowers are considered simple, with a straightforward structure. They display actinomorphic symmetry, meaning they are radially symmetric.
+
+The flower structure of Allium sativum consists of six tepals, a combination of three sepals and three petals. These tepals create an ovate or egg-shaped appearance. The dimensions of the flowers are relatively small, with a length and width of approximately 4-5 mm (0.16-0.2 inches).
+
+When it comes to color, garlic flowers are primarily white to pink-purple.
+
+
+
+# pedicel 
+
+I'm sorry, but I don't have access to specific detailed morphological characteristics of the pedicels of Allium sativum (garlic) flowers in my training data. However, I can provide a general description of some common characteristics for you:
+
+| Characteristic           | Description                                  |
+|--------------------------|----------------------------------------------|
+| Pedicel Shape            | Typically cylindrical                       |
+| Pedicel Attachment Angle | Erect (approximately 90 degrees)            |
+| Pedicel Flexibility      | Usually rigid                               |
+| Pedicel Length           | Varies, usually around 10-30 cm (4-12 in)  |
+| Pedicel Diameter         | Varies, typically about 2-5 mm (0.08-0.2 in) |
+| Pedicel Color            | Green, becoming brown with age               |
+| Pedicel Texture          | Smooth or slightly ribbed                   |
+
+Please note that these characteristics can vary to some extent depending on the specific variety of Allium sativum and environmental conditions. If you require more precise data, you may need to consult scientific literature or conduct specific measurements and observations.
+
+
+
+Here is a table of the morphological characteristics of the pedicels of the flowers of Allium sativum (Garlic):
+
+- Pedicel Length
+- Pedicel Thickness
+- Pedicel Color
+- Pedicel Texture
+- Pedicel Pubescence
+- Pedicel Attachment
+- Pedicel Orientation
+
+- Pedicel Shape
+- Pedicel Attachment
+- Pedicel Flexibility
+- Pedicel Length
+- Pedicel Thickness
+- Pedicel Color
+- Pedicel Texture
+
+
+| Characteristic          | Description                                             |
+|-------------------------|---------------------------------------------------------|
+| Pedicel Length          | 2-3 cm (0.79-1.18 inches) approximately                 |
+| Pedicel Thickness       | Thin (Varies, but relatively slender)                   |
+| Pedicel Color           | Green (Typically green, matching the stem)              |
+| Pedicel Texture         | Smooth (Surface is generally smooth)                   |
+| Pedicel Pubescence      | Glabrous (Lacking noticeable hairs or trichomes)       |
+| Pedicel Attachment      | Solitary (Individual pedicels attach each flower)      |
+| Pedicel Orientation     | Erect (Generally upright, supporting the flower)       |
+
+These characteristics describe the typical pedicels of Allium sativum, but there may be some variations depending on specific varieties and growing conditions.
+
+Here is a table of the morphological characteristics of the pedicels of the flowers of Allium sativum (Garlic):
+
+| Characteristic        | Description                                      |
+|-----------------------|--------------------------------------------------|
+| Pedicel Shape         | Cylindrical                                      |
+| Pedicel Attachment    | Terminal (Attached at the top of the stem)      |
+| Pedicel Flexibility   | Flexible                                        |
+| Pedicel Length        | 2-5 cm (0.79-1.97 inches) approximately         |
+| Pedicel Diameter      | 2-3 mm (0.08-0.12 inches) approximately         |
+| Pedicel Color         | Green                                           |
+| Pedicel Texture       | Smooth                                          |
+
+These characteristics describe the pedicels of the flowers of Allium sativum, commonly known as garlic. Please note that these characteristics can vary slightly based on environmental conditions and the specific variety of garlic.
+
+
+
+
+
+
+Here is a table summarizing the morphological characteristics of the flowers of Allium sativum (Garlic):
+
+| Characteristic         | Description                                            |
+|------------------------|--------------------------------------------------------|
+| Inflorescence Type     | Umbel                                                  |
+| Flower Complexity      | Simple                                                 |
+| Flower Symmetry        | Actinomorphic (Radial)                                 |
+| Flower Structure       | 6 Tepals (3 petals + 3 sepals), 6 Stamens, 1 Pistil  |
+| Flower Attachment      | Solitary                                              |
+| Flower Shape           | Six-lobed (Hexagonal)                                 |
+| Flower Length          | Approximately 6 mm (0.24 inches)                     |
+| Flower Width           | Approximately 6 mm (0.24 inches)                     |
+| Flower Color           | White or Pinkish-purple                               |
+
+Please note that the flower color may vary, and it can range from white to pale pinkish-purple, depending on the variety or environmental conditions.
+
+
+
+
+
+
+Here is a table of the morphological characteristics of the pedicels of the flowers of Allium sativum (garlic):
+
+| Characteristic             | Description                                            |
+|---------------------------|--------------------------------------------------------|
+| Inflorescence Type        | Umbel (flat-topped cluster)                            |
+| Flower Complexity         | Simple (individual flowers)                           |
+| Flower Symmetry           | Actinomorphic (radially symmetric)                     |
+| Flower Structure          | Six tepals, stamen, pistil                             |
+| Flower Attachment         | Pedicels attached to the umbel                         |
+| Flower Shape              | Funnel-shaped                                          |
+| Flower Length             | Approximately 5-6 mm (0.2-0.24 inches)                |
+| Flower Width              | Approximately 4-5 mm (0.16-0.2 inches)                |
+| Flower Color              | White to pale purple                                  |
+
+Garlic flowers are organized in an inflorescence type known as an umbel, forming a flat-topped cluster. Each individual flower is simple in its structure, composed of six tepals, a stamen, and a pistil. The overall symmetry of these flowers is actinomorphic, meaning they are radially symmetric.
+
+These small flowers have a funnel-shaped appearance, with approximate dimensions of 5-6 mm (0.2-0.24 inches) in length and 4-5 mm (0.16-0.2 inches) in width. The color of garlic flowers typically ranges from white to pale purple.
+
+
+
+
+
+Here is a table of the morphological characteristics of the pedicels of the flowers of Allium sativum (garlic):
+
+| Characteristic       | Description                                    |
+|-----------------------|------------------------------------------------|
+| Pedicel Shape        | Cylindrical                                    |
+| Pedicel Attachment   | Pedicels attached to the umbel                |
+| Pedicel Flexibility  | Flexible                                       |
+| Pedicel Length       | Approximately 2-4 cm (0.8-1.6 inches)         |
+| Pedicel Diameter     | Approximately 1-2 mm (0.04-0.08 inches)       |
+| Pedicel Color        | Green                                          |
+| Pedicel Texture      | Smooth                                         |
+
+The pedicel shape of garlic flowers is cylindrical, with a simple attachment to the umbel, the flat-topped cluster where the flowers are grouped. These pedicels are relatively flexible, allowing for slight movement.
+
+In terms of size, garlic pedicels typically measure approximately 2-4 centimeters (0.8-1.6 inches) in length and have a diameter of about 1-2 millimeters (0.04-0.08 inches). These dimensions contribute to the overall delicacy of the garlic flower.
+
+The color of the pedicels is green, matching the typical coloration of plant stems. This green hue complements the white to pale purple flowers of the garlic plant. Furthermore, the texture of the pedicels is smooth, adding to the overall aesthetic appeal of the flowers.

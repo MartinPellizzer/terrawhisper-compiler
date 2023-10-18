@@ -670,19 +670,25 @@ for f in articles_files:
                 # sections
                 main_content = item['main_content']
                 for section in main_content:
-                    # section title
                     section_title = section["title"]
-                    if 'bulb' in section_title.lower():
-                        article += f'### {section_title}\n\n'
-                    else:
-                        article += f'## {section_title}\n\n'
-                    
-                    # section content (unstructured)
-                    article += '\n\n'.join(section['content']) + '\n\n'
-                    
-                    # section table (structured)
+                    section_content = section["content"]
+                    article += f'## {section_title}\n\n'
+                    article += '\n\n'.join(section_content) + '\n\n'
                     lines = csv_get_table_data(f'database/tables/morphology/{section["title"].lower()}.csv')
                     article += generate_table(lines)
+
+                    # subparts
+                    try: subparts = section['subparts']
+                    except: subparts = None
+                    if subparts:
+                        for subpart in subparts:
+                            subpart_name = subpart['name']
+                            subpart_desc = subpart['desc']
+                            article += f'### {subpart_name}\n\n'
+                            article += '\n\n'.join(subpart_desc) + '\n\n'
+                            lines = csv_get_table_data(f'database/tables/morphology/{section["title"].lower()}.csv')
+                            article += generate_table(lines)
+                        # print(subparts)
             else:
                 continue
 

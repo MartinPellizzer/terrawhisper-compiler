@@ -391,3 +391,134 @@ Here is a list of the parts of the roots of Allium sativum (garlic) in terms of 
 - Primary root
 - Lateral roots
 - Root hairs
+
+
+
+# FLOWER PARTS OF GARLIC
+# -----------------------------------------------------------------------------------------------
+
+1. Inflorescence Type: umbel (multiple small flowers attached to a central stalk)
+2. Flower Structure: six tepals
+3. Flower Arrangement: dense cluster, central stem.
+4. Pedicels: attached to the central stalk by a slender pedicel
+Stamen (male organ)
+    Count
+    anter (produce pollen)
+        filament (anter stalk)
+Pistil or Carpel (female organ) 
+    Structure
+        single style
+        tri-lobed stigma
+    stigma (receive pollen)
+    style (stalk, connect stigma with ovary)
+    ovary (contains ovules, to seed) (develop into fruits)
+        ovules (develop into seeds)
+Ovary
+    Position: inferior ovary
+Color
+    The tepals are usually white or pale purple, and they may have a greenish stripe down the center.
+
+attachment
+    Peduncle (stalk)
+    Receptacle (where varios parts are attched)
+
+Inflorescence Type: 
+    umbel (multiple small flowers attached to a central stalk)
+    solitary
+    spikes
+    racemes
+    panicles
+sepals (external) (collectively, called calyx)
+petals (internally) (collecitvely, called corolla)
+Perianth (collective term for sepals and petals)
+nectar glands
+    nectaries (regon when nectar is produced)
+bracts (modified leaves, just below the flower, surrounding the cluster)
+Pedicel (stalk for individual flower in a cluster)
+Symmetry
+    radially symmetric (actinomorphic)
+    bilaterally symmetric (zygomorphic).
+
+
+
+# FLOWER PARTS OF PLANTS
+# -----------------------------------------------------------------------------------------------
+
+18. **Fusion**: The extent to which floral parts are joined or fused, such as petals fused to form a tubular shape.
+
+19. **Number of Flower Parts**: Flowers may have varying numbers of sepals, petals, stamens, and carpels.
+
+
+
+
+
+- Inflorescence Type
+- Flower Complexity
+- Flower Symmetry
+- Flower Structure
+- Flower Shape
+- Flower Length
+- Flower Width 
+- Flower Thickness 
+- Flower Color
+- Flower Sepals
+- Flower Petals
+- Flower Tepals
+- Flower Perianth
+- Flower Stamen
+- Flower Pistil
+- Flower Ovary
+- Flower Style
+- Flower Stigma
+- Flower Stipules
+- Flower Bracts
+- Flower Peduncle 
+- Flower Pedicel 
+
+
+
+
+# Flower Pedicel
+Morphological characteristics of the pedicel (flower stalk) of a plant include:
+
+Shape
+Attachment Angle
+Flexibility
+Length
+Diameter
+Color
+Texture
+
+
+
+1. Length: The measurement of the pedicel's overall extension from the main stem to the flower.
+2. Diameter: The width or thickness of the pedicel, typically measured at its thickest point.
+3. Color: The color of the pedicel, which can vary among plant species.
+4. Texture: The surface quality of the pedicel, whether it's smooth, hairy, rough, or glabrous (hairless).
+5. Flexibility: The degree to which the pedicel is flexible or rigid.
+6. Attachment Angle: The angle at which the pedicel connects to the main stem, which can be acute, obtuse, or perpendicular.
+7. Pubescence: The presence and density of hairs or trichomes on the pedicel.
+8. Shape: The overall shape of the pedicel, which can be cylindrical, angular, or various other forms.
+9. Presence of Glands: Whether the pedicel has glandular structures, such as nectar glands.
+10. Presence of Leaves or Bracts: Some pedicels may have leaves or bracts attached to them.
+11. Presence of Hooks, Thorns, or Spines: Certain plant species may have modified pedicels with hooks, thorns, or spines for climbing or defense.
+12. Articulation: Some pedicels have articulations or nodes, allowing them to bend or flex at specific points.
+
+These characteristics can vary between plant species and contribute to the overall appearance and function of the pedicel in each case.
+
+
+give me a complete list of all the morphological characteristics of the pedicels of the flowers of the Allium sativum. In this list, include in this order:
+
+- Pedicel Shape
+- Pedicel Attachment
+- Pedicel Flexibility
+- Pedicel Length
+- Pedicel Diameter
+- Pedicel Color
+- Pedicel Texture
+
+for each characteristic write an approximate description, by adding the exact information, numbers, and data. if you are not sure about a description, write "N/A". if the flowers of this plant don't have a characteristic from the list, mark the description with "Absent".
+
+use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
+
+put all the data in table format. the table must have only 2 columns.

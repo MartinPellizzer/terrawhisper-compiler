@@ -8,7 +8,9 @@
 
 [list]
 
-for each characteristic write a precise description, by adding the exact information, numbers, and data. use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
+for each characteristic write a precise description, by adding the exact information, numbers, and data. if you are not sure about a description, write "N/A".
+
+use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
 
 put all the data in table format. the table must have only 2 columns.
 
@@ -95,7 +97,9 @@ give me a list of the morphological characteristics of the [plant_part] of the [
 
 
 
-# leaves -------------------------------------------------------------------------------------------------------
+# leaves 
+# ----------------------------------------------------------------------------------
+
 - Leaf Complexity
 - Leaf Shape
 - Leaf Arrangement
@@ -119,19 +123,16 @@ give me a list of the morphological characteristics of the [plant_part] of the [
 
 
 # flowers ---------------------------------------------------------------------------------
-give me a complete list of all the morphological characteristics of the flowers of the [plant]. In this list, include in this order:
-
-
-- Flower Type
-- Flower Complexity
 - Inflorescence Type
+- Flower Complexity
 - Flower Symmetry
+- Flower Structure
+- Flower Attachment
 - Flower Shape
 - Flower Length
 - Flower Width 
-- Flower Thickness 
 - Flower Color
-- Flower Structure
+
 - Number of Floral Parts
 - Flower Sepals
 - Flower Petals
@@ -144,13 +145,35 @@ give me a complete list of all the morphological characteristics of the flowers 
 - Flower Stipules
 - Flower Bracts
 - Flower Peduncle 
+- Flower Pedicel
 
 
-for each characteristic write a precise description, by adding the exact information, numbers, and data. use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
+- Inflorescence Type
+- Flower Complexity
+- Flower Symmetry
+- Flower Structure
+- Flower Attachment
+- Flower Shape
+- Flower Length
+- Flower Width 
+- Flower Color
 
-put all the data in table format. the table must have only 2 columns.
 
+- Pedicel Shape
+- Pedicel Attachment Angle
+- Pedicel Flexibility
+- Pedicel Length
+- Pedicel Diameter
+- Pedicel Color
+- Pedicel Texture
 
+- Pedicel Shape
+- Pedicel Attachment
+- Pedicel Flexibility
+- Pedicel Length
+- Pedicel Diameter
+- Pedicel Color
+- Pedicel Texture
 
 
 
