@@ -2,7 +2,7 @@
 
 1. give me a complete list of all the parts of [plant] in terms of morphology. don't add descriptions.
 
-2. give me a complete list of all the morphological characteristics of the [plant_part] of the [plant].
+2. give me a complete list of all the morphological characteristics of the [plant_part] of the [plant]. don't add descriptions.
 
 3. give me a complete list of all the morphological characteristics of the [plant_part] of the [plant]. In this list, include in this order:
 
@@ -201,8 +201,6 @@ give me a list of the morphological characteristics of the [plant_part] of the [
 
 # seeds ---------------------------------------------------------------------------------------------- 
 
-give me a complete list of all the morphological characteristics of the seeds of the [plant]. In this list, include in this order:
-
 - Seed Type
 - Seed Arrangement
 - Seed Shape
@@ -213,13 +211,13 @@ give me a complete list of all the morphological characteristics of the seeds of
 - Seed Thickness
 - Seed Hardness
 - Seed Coat Color
+- Seed Coat Surface
 - Seed Coat Texture
 - Seed Coat Thickness
 - Seed Coat Permeability
 - Seed Hilum
 - Seed Embryo
+- Seed Cotyledon
+- Seed Radicle
 
-for each characteristic write a precise description, by adding the exact information, numbers, and data. use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
-
-put all the data in table format. the table must have only 2 columns.
 

@@ -30,7 +30,7 @@ While these roots do not form nitrogen-fixing nodules, they may engage in mycorr
 | Root Length  | Up to 60 cm (24 inches)  |
 | Root Color  | Creamy-white to pale brown  |
 | Root Texture  | Smooth  |
-| Root Surface Features  | Absence of lenticels and root hairs  |
+| Root Surface  | Absence of lenticels and root hairs  |
 | Root Nodules  | No root nodules present  |
 | Root Hairs  | Absent  |
 | Root Growth Zones  | Apical meristem and elongation zone  |
@@ -58,10 +58,10 @@ Their shape varies, ranging from tuberous to cylindrical, and they typically hav
 | Stem Shape  | Cylindrical  |
 | Stem Height  | Up to 1.5 meters (4.9 feet)  |
 | Stem Diameter  | Approximately 1.5 cm (0.6 inches)  |
+| Stem Color  | Green  |
+| Stem Texture  | Smooth  |
 | Stem Nodes  | Present at regular intervals  |
 | Stem Internodes  | About 15-20 cm (5.9-7.9 inches) apart  |
-| Stem Texture  | Smooth  |
-| Stem Color  | Green  |
 | Rhizome Arrangement  | Horizontal  |
 | Rhizome Shape  | Tuberous to cylindrical  |
 | Rhizome Height  | Typically 10-30 cm (3.9-11.8 inches)  |
@@ -84,7 +84,7 @@ One notable feature of Acorus calamus leaves is their persistence, as they remai
 | Characteristic | Description |
 | --- | --- |
 | Leaf Complexity  | Simple  |
-| Leaf Shape  | Linear, lanceolate    |
+| Leaf Shape  | Linear, lanceolate   |
 | Leaf Arrangement  | Basal  |
 | Leaf Orientation  | Erect, upright  |
 | Leaf Length  | 30-80 cm (11.8-31.5 inches)  |
@@ -119,26 +119,26 @@ Notably, Acorus calamus flowers are enclosed by green bracts, a feature that dis
 | Characteristic | Description |
 | --- | --- |
 | Flower Type  | Hermaphrodite  |
-| Inflorescence Type  | Spadix with a spathe    |
+| Inflorescence Type  | Spadix with a spathe   |
 | Flower Complexity  | Simple  |
-| Flower Symmetry  | Actinomorphic (radial)    |
-| Flower Structure    | Unisexual with separate male and female flowers  |
+| Flower Symmetry  | Actinomorphic (radial)   |
+| Flower Structure   | Unisexual with separate male and female flowers  |
 | Flower Shape  | Tubular  |
 | Flower Length  | Approximately 3-8 cm (1.18-3.15 inches)  |
-| Flower Width  | Approximately 0.5 cm (0.2 inches)    |
+| Flower Width  | Approximately 0.5 cm (0.2 inches)   |
 | Flower Thickness  | Approximately 0.2 cm (0.08 inches)  |
-| Flower Color  | Pale yellow-green    |
-| Number Of Floral Parts  | 6 (3 sepals, 3 petals)    |
-| Flower Sepals    | 3, green, lanceolate, about 1 cm long  |
-| Flower Petals    | 3, yellow, oblong, about 1 cm long    |
-| Flower Perianth  | Present, consisting of 6 tepals      |
-| Flower Stamen  | 6, in male flowers, with yellow anthers    |
+| Flower Color  | Pale yellow-green   |
+| Number Of Floral Parts  | 6 (3 sepals, 3 petals)   |
+| Flower Sepals   | 3, green, lanceolate, about 1 cm long  |
+| Flower Petals   | 3, yellow, oblong, about 1 cm long   |
+| Flower Perianth  | Present, consisting of 6 tepals    |
+| Flower Stamen  | 6, in male flowers, with yellow anthers   |
 | Flower Pistil  | 1, in female flowers  |
 | Flower Ovary  | Superior, tricarpellate  |
 | Flower Style  | Single, slender, about 1 cm long  |
-| Flower Stigma  | Capitate (rounded)    |
+| Flower Stigma  | Capitate (rounded)   |
 | Flower Stipules  | None  |
-| Flower Bracts  | Present, green, enclosing the spadix    |
+| Flower Bracts  | Present, green, enclosing the spadix   |
 | Flower Peduncle  | None (flowers borne directly on the stem)  |
 
 ## Fruits
@@ -160,11 +160,11 @@ The fruits of Acorus calamus are attached to a central axis, which is a common f
 | Fruit Length  | Approximately 1.5 cm (0.59 inches)  |
 | Fruit Width  | About 0.3 cm (0.12 inches)  |
 | Fruit Thickness  | Around 0.2 cm (0.08 inches)  |
-| Fruit Wall  | Fleshy  |
 | Fruit Color  | Green to brownish-green when mature  |
-| Fruit Surface  | Smooth and shiny  |
 | Fruit Texture  | Soft and fleshy  |
+| Fruit Surface  | Smooth and shiny  |
 | Fruit Marking  | None  |
+| Fruit Wall  | Fleshy  |
 | Fruit Attachment  | Attached to a central axis  |
 | Fruit Pedicel  | Short, less than 1 cm (0.39 inches) in length  |
 

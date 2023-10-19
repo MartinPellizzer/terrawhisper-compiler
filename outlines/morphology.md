@@ -522,3 +522,188 @@ for each characteristic write an approximate description, by adding the exact in
 use as few words as possible for each description. use primarily the metric system and put the imperial system in between parenthesis.
 
 put all the data in table format. the table must have only 2 columns.
+
+
+
+# seeds 
+# ----------------------------------------------------------------------------------------------
+Here is a complete list of morphological characteristics of the seeds of Allium sativum (garlic):
+
+1. Color
+2. Shape
+3. Size
+4. Surface texture
+5. Hilum (scar)
+6. Cotyledon shape
+7. Embryo shape
+8. Seed coat characteristics
+9. Endosperm presence/absence
+10. Radicle characteristics
+
+Here is a list of seed morphology parts:
+
+# parts of seeds of plants
+1. Seed Coat
+2. Hilum
+3. Micropyle
+4. Cotyledon(s)
+5. Radicle
+6. Plumule
+7. Endosperm
+8. Embryo Axis
+9. Seed Cavity
+10. Testa
+11. Perisperm (in some seeds)
+12. Funicle
+13. Raphe (in some seeds)
+14. Chalaza
+15. Coleoptile (in monocot seeds)
+16. Epicotyl
+17. Hypocotyl
+
+
+
+
+Here's a table with the requested characteristics of Allium sativum seeds:
+
+| Characteristic          | Description                                         |
+|-------------------------|-----------------------------------------------------|
+| Seed Type               | Monocotyledonous                                    |
+| Seed Arrangement        | Whorled                                             |
+| Seed Shape              | Ellipsoid                                           |
+| Seed Appendages         | None                                                |
+| Seed Number            | Typically 10-20 seeds per bulb                    |
+| Seed Length            | 5-7 mm (0.2-0.3 inches)                            |
+| Seed Width             | 3-4 mm (0.1-0.2 inches)                            |
+| Seed Thickness         | 2-3 mm (0.08-0.12 inches)                          |
+| Seed Hardness          | Hard                                                |
+| Seed Coat Color        | Pale brown to dark brown                           |
+| Seed Coat Surface      | Smooth and glossy                                   |
+| Seed Coat Texture      | Waxy                                               |
+| Seed Coat Thickness    | Approximately 0.1 mm (0.004 inches)                |
+| Seed Coat Permeability | Impermeable, water-resistant                      |
+| Seed Hilum              | Basal attachment point                              |
+| Seed Embryo            | One, undeveloped when seeds are used for planting |
+| Seed Cotyledon         | Single, fleshy                                      |
+| Seed Radicle           | Underdeveloped in mature seeds                    |
+
+
+
+
+# ----------------------------------------------------------------------------------
+# Aloe vera
+# ----------------------------------------------------------------------------------
+
+Aloe vera roots consist of the following parts:
+
+1. Primary root
+2. Lateral roots
+3. Root hairs
+4. Root cap
+5. Root meristem
+6. Root epidermis
+7. Root cortex
+8. Endodermis
+9. Pericycle
+10. Vascular tissues (xylem and phloem)
+
+Aloe vera stems consist of the following parts:
+
+1. Stem base (caudex)
+2. Leaves (modified stems)
+3. Shoot apical meristem
+4. Nodes
+5. Internodes
+6. Leaf scars
+
+Aloe vera leaves consist of the following parts:
+
+1. Leaf base
+2. Leaf blade
+3. Margin
+4. Epidermis
+5. Mesophyll
+6. Xylem
+7. Phloem
+8. Parenchyma cells
+9. Chloroplasts
+10. Aloin cells (for some Aloe species)
+
+Aloe vera flowers consist of the following parts:
+
+1. Peduncle
+2. Inflorescence
+3. Bracts
+4. Pedicel
+5. Perianth
+6. Tepals
+7. Stamens
+8. Anthers
+9. Filaments
+10. Ovary
+11. Style
+12. Stigma
+13. Ovules
+
+Aloe vera fruits consist of the following parts:
+
+1. Capsule
+2. Seeds
+3. Septa
+4. Placenta
+
+Aloe vera seeds consist of the following parts:
+
+1. Seed coat
+2. Embryo
+3. Cotyledons
+4. Radicle
+
+
+
+
+Here's a table with precise descriptions of morphological characteristics of Aloe vera stems:
+
+| Characteristic       | Description                                       |
+|----------------------|---------------------------------------------------|
+| Stem Type            | Succulent stem                                   |
+| Stem Arrangement     | Rosette arrangement                              |
+| Stem Shape           | Cylindrical                                      |
+| Stem Height          | Up to 60-90 cm (24-35 inches)                    |
+| Stem Diameter        | Typically 6-7 cm (2.4-2.8 inches)                |
+| Stem Color           | Green, sometimes with a hint of gray or blue    |
+| Stem Texture         | Smooth                                           |
+| Stem Surface         | Waxy and fleshy, covered in aloe latex           |
+| Stem Nodes           | Compact nodes at the base                       |
+| Stem Internodes      | Short, 2-8 cm (0.8-3.1 inches)                  |
+
+
+
+Here's a table with precise descriptions of morphological characteristics of Aloe vera flowers:
+
+| Characteristic           | Description                                               |
+|--------------------------|-----------------------------------------------------------|
+| Inflorescence Type       | Raceme (a type of unbranched, elongated flower cluster)   |
+| Flower Complexity        | Simple                                                   |
+| Flower Symmetry          | Zygomorphic (bilaterally symmetric)                       |
+| Flower Structure         | Tubular                                                  |
+| Flower Attachment        | Epigynous (attached above the ovary)                      |
+| Flower Shape             | Narrow, tubular                                           |
+| Flower Length            | Approximately 3-4 cm (1.2-1.6 inches)                     |
+| Flower Width             | 1-2 cm (0.4-0.8 inches)                                  |
+| Flower Color             | Variable, typically orange, yellow, or red               |
+| Flower Texture           | Smooth                                                   |
+| Flower Surface           | Glabrous (hairless)                                      |
+| Number of Floral Parts   | Six                                                     |
+| Flower Sepals            | Three, green and petal-like                             |
+| Flower Petals            | Three, colorful and petal-like                           |
+| Flower Perianth          | Tepals collectively (sepals and petals look similar)     |
+| Flower Stamen            | Six, alternating with petals                             |
+| Flower Pistil            | One                                                     |
+| Flower Ovary             | Inferior (below the attachment point)                    |
+| Flower Style             | Single, slender                                          |
+| Flower Stigma            | Three-lobed                                              |
+| Flower Stipules          | Absent                                                  |
+| Flower Bracts            | Present, small, and green                               |
+| Flower Peduncle          | Elongated, supports the inflorescence                   |
+| Flower Pedicel           | Short, attaches individual flowers to the peduncle      |

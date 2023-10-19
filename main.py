@@ -637,7 +637,7 @@ for f in articles_files:
         if 'draft' == state.lower().strip(): continue
 
         # TODO: remove
-        # if 'Allium sativum' != latin_name: continue
+        # if 'Aloe Vera'.lower() != latin_name.lower(): continue
         # print(latin_name)
 
         entity = item["latin_name"].lower().replace(' ', '-')
@@ -680,9 +680,14 @@ for f in articles_files:
                     section_content = section["content"]
                     article += f'## {section_title}\n\n'
                     article += '\n\n'.join(section_content) + '\n\n'
+
+                    
+                    # if 'fruits'.lower() != section_title.lower(): continue
                     
                     lines = csv_get_table_data(f'database/tables/morphology/{section["title"].lower()}.csv')
                     article += generate_table(lines)
+                    for line in lines:
+                        print(line)
 
                     # subparts
                     try: subparts = section['subparts']

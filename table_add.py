@@ -15,6 +15,11 @@ filepath = f'database/tables/morphology/{part}.csv'
 with open('_tmp_table.csv', encoding='utf-8') as f:
     content = f.read()
 lines = content.split('\n')
+lines = [x for x in lines if x.startswith('|')]
+# for line in lines:
+#     print(line)
+
+# quit()
 
 vals_lst = []
 for line in lines[2:]:
@@ -31,7 +36,7 @@ vals.insert(0, entity)
 
 found = False
 csv_lines = []
-with open(filepath, encoding='utf-8') as f:
+with open(filepath, encoding='utf-8', errors='ignore') as f:
     reader = csv.reader(f, delimiter="\\")
     for i, line in enumerate(reader):
         if entity.strip() == line[0].strip():

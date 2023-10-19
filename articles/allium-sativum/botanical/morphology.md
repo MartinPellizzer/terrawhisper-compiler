@@ -22,13 +22,13 @@ One remarkable feature of garlic roots is their adaptation to cold temperatures.
 | Root Structure  | Tuberous, branched, non-woody  |
 | Root Branching  | Dichotomous (forked), extensive  |
 | Root Tips  | Acute (sharp)  |
-| Root Density  | High, about 14 cm/cm³ (0.14 in/in³)  |
+| Root Density  | High, about 14 cm/cm3 (0.14 in/in3)  |
 | Root Depth  | Shallow, typically 10-20 cm (4-8 inches)  |
 | Root Diameter  | Approximately 0.2 cm (0.08 inches)  |
 | Root Length  | Varies, can reach up to 50 cm (20 inches)  |
 | Root Color  | Whitish, cream-colored  |
 | Root Texture  | Fleshy, smooth  |
-| Root Surface Features  | No pronounced features    |
+| Root Surface  | No pronounced features   |
 | Root Nodules  | Absent  |
 | Root Hairs  | Sparse, short, non-mycorrhizal  |
 | Root Growth Zones  | Meristematic and elongation zones  |
@@ -56,10 +56,10 @@ The texture of garlic stems is smooth and fleshy, offering a pleasant tactile ex
 | Stem Shape  | Cylindrical  |
 | Stem Height  | 30-90 cm (11.8-35.4 inches)  |
 | Stem Diameter  | 0.5-1.5 cm (0.2-0.6 inches)  |
+| Stem Color  | Green  |
+| Stem Texture  | Smooth, fleshy  |
 | Stem Nodes  | Typically 1 (at the base)  |
 | Stem Internodes  | Variable, shorter near base, longer higher up  |
-| Stem Texture  | Smooth, fleshy  |
-| Stem Color  | Green  |
 
 ### Bulb
 
@@ -74,10 +74,10 @@ Garlic bulbs are predominantly white to off-white in color. When you break open 
 | Stem Shape  | Cylindrical  |
 | Stem Height  | 30-90 cm (11.8-35.4 inches)  |
 | Stem Diameter  | 0.5-1.5 cm (0.2-0.6 inches)  |
+| Stem Color  | Green  |
+| Stem Texture  | Smooth, fleshy  |
 | Stem Nodes  | Typically 1 (at the base)  |
 | Stem Internodes  | Variable, shorter near base, longer higher up  |
-| Stem Texture  | Smooth, fleshy  |
-| Stem Color  | Green  |
 
 ## Leaves
 
@@ -120,7 +120,7 @@ These small flowers have a funnel-shaped appearance, with approximate dimensions
 | Inflorescence Type  | Umbel (flat-topped cluster)  |
 | Flower Complexity  | Simple (individual flowers)  |
 | Flower Symmetry  | Actinomorphic (radially symmetric)  |
-| Flower Structure    | Six tepals (3 sepals and 3 petals)  |
+| Flower Structure   | Six tepals (3 sepals and 3 petals)  |
 | Flower Attachment  | Pedicels attached to the umbel  |
 | Flower Shape  | Funnel-shaped  |
 | Flower Length  | Approximately 5-6 mm (0.2-0.24 inches)  |
@@ -140,7 +140,7 @@ The color of the pedicels is green, matching the typical coloration of plant ste
 | Inflorescence Type  | Umbel (flat-topped cluster)  |
 | Flower Complexity  | Simple (individual flowers)  |
 | Flower Symmetry  | Actinomorphic (radially symmetric)  |
-| Flower Structure    | Six tepals (3 sepals and 3 petals)  |
+| Flower Structure   | Six tepals (3 sepals and 3 petals)  |
 | Flower Attachment  | Pedicels attached to the umbel  |
 | Flower Shape  | Funnel-shaped  |
 | Flower Length  | Approximately 5-6 mm (0.2-0.24 inches)  |
@@ -162,18 +162,44 @@ The surface of garlic's fruits is smooth and shiny, and they possess a dry and m
 | Fruit Length  | 1.5 cm (0.59 inches) |
 | Fruit Width  | 1.0 cm (0.39 inches) |
 | Fruit Thickness  | 0.5 cm (0.20 inches) |
-| Fruit Wall  | Triangular segments, papery |
 | Fruit Color  | Pale green, turning brown or gray |
-| Fruit Surface  | Smooth and shiny |
 | Fruit Texture  | Dry and membranous |
+| Fruit Surface  | Smooth and shiny |
 | Fruit Marking  | None |
+| Fruit Wall  | Triangular segments, papery |
 | Fruit Attachment  | Detached from pedicel at maturity |
 | Fruit Pedicel  | About 2 cm (0.79 inches) long, slender |
 
 ## Seeds
 
+These seeds are classified as monocotyledonous, meaning they contain a single embryonic leaf when they sprout. Their arrangement is whorled, with multiple seeds typically found together in the garlic bulb.
 
+The shape of these seeds is ellipsoid, and they lack any appendages, such as wings or hairs. When considering the number of seeds per bulb, one can expect to find around 10 to 20 seeds within a single garlic bulb.
+
+In terms of size, garlic seeds have a length ranging from 5 to 7 millimeters (approximately 0.2 to 0.3 inches), a width of 3 to 4 millimeters (around 0.1 to 0.2 inches), and a thickness of 2 to 3 millimeters (about 0.08 to 0.12 inches). They are known for their hardness and are often impervious to water due to their impermeable seed coat.
+
+The color of the seed coat varies from pale brown to dark brown, giving them a distinctive appearance. The surface of the seed coat is smooth and glossy, while the texture is waxy. The thickness of the seed coat is approximately 0.1 millimeters (around 0.004 inches).
+
+Garlic seeds are attached at their base, known as the hilum. The embryo in these seeds is typically undeveloped when used for planting, with only one cotyledon, which is fleshy in nature. The radicle, or the embryonic root, is underdeveloped in mature garlic seeds.
 
 | Characteristic | Description |
 | --- | --- |
+| Seed Type  | Monocotyledonous |
+| Seed Arrangement  | Whorled |
+| Seed Shape  | Ellipsoid |
+| Seed Appendages  | None |
+| Seed Number  | Typically 10-20 seeds per bulb |
+| Seed Length  | 5-7 mm (0.2-0.3 inches) |
+| Seed Width  | 3-4 mm (0.1-0.2 inches) |
+| Seed Thickness  | 2-3 mm (0.08-0.12 inches) |
+| Seed Hardness  | Hard |
+| Seed Coat Color  | Pale brown to dark brown |
+| Seed Coat Surface  | Smooth and glossy |
+| Seed Coat Texture  | Waxy |
+| Seed Coat Thickness  | Approximately 0.1 mm (0.004 inches) |
+| Seed Coat Permeability  | Impermeable, water-resistant |
+| Seed Hilum  | Basal attachment point |
+| Seed Embryo  | One, undeveloped when seeds are used for planting |
+| Seed Cotyledon | Single, fleshy |
+| Seed Radicle | Underdeveloped in mature seeds |
 
