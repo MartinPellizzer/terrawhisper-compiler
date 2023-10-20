@@ -1,4 +1,4 @@
-# What is the morphology of Aloe vera?
+# Aloe vera morphology
 
 ![alt](/assets/images/aloe-vera-botanical-morphology.jpg "title")
 
@@ -23,8 +23,7 @@ One distinctive feature is the presence of numerous root hairs, which are fine a
 | Root Diameter  | Approximately 2-4 mm (0.08-0.16 inches) |
 | Root Length  | Varied, with primary roots up to 20 cm (8 inches) |
 | Root Color  | White to pale tan |
-| Root Texture  | Smooth |
-| Root Surface  | Outer layer covered in root hairs |
+| Root Surface Texture  | Smooth |
 | Root Nodules  | Absent |
 | Root Hairs  | Present, numerous, fine, and hair-like structures |
 

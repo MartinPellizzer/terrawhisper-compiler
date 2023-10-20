@@ -529,7 +529,7 @@ def generate_header_transparent():
     return html
 
 
-def generate_html(article, entity, attribute):
+def generate_html(title, article, entity, attribute):
     article_filepath = f'{entity}/{attribute}.md'
     with open(f'articles/{article_filepath}', 'w', encoding='utf-8') as f:
         f.write(article)
@@ -551,7 +551,7 @@ def generate_html(article, entity, attribute):
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="/style.css">
-            <title>Document</title>
+            <title>{title}</title>
         </head>
 
         <body>
@@ -666,7 +666,7 @@ for f in articles_files:
         if 'list' == post_type:
             if 'morphology' in attribute.lower():
                 # title
-                title = f'What is the morphology of {latin_name}?'
+                title = f'{latin_name.capitalize()} morphology'
                 article += f'# {title}\n\n'
                 
                 # image
@@ -1007,7 +1007,7 @@ for f in articles_files:
                 article += lst_to_blt(bold_blt(item['botanical_morphology_seeds'])) + '\n\n'
 
 
-        article_filepath = generate_html(article, entity, attribute)
+        article_filepath = generate_html(title, article, entity, attribute)
 
         articles_home.append(
             {

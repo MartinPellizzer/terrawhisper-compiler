@@ -1,4 +1,4 @@
-# What is the morphology of Acorus calamus?
+# Acorus calamus morphology
 
 ![alt](/assets/images/acorus-calamus-botanical-morphology.jpg "title")
 
@@ -29,9 +29,8 @@ While these roots do not form nitrogen-fixing nodules, they may engage in mycorr
 | Root Diameter  | 2-4 mm (0.08-0.16 inches)  |
 | Root Length  | Up to 60 cm (24 inches)  |
 | Root Color  | Creamy-white to pale brown  |
-| Root Texture  | Smooth  |
-| Root Surface  | Absence of lenticels and root hairs  |
-| Root Nodules  | No root nodules present  |
+| Root Surface Texture  | Smooth  |
+| Root Nodules  | Absent  |
 | Root Hairs  | Absent  |
 | Root Growth Zones  | Apical meristem and elongation zone  |
 | Root Modifications  | Non-specialized  |

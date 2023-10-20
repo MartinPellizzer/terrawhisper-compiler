@@ -1,4 +1,4 @@
-# What is the morphology of Ammi visnaga?
+# Ammi visnaga morphology
 
 ![alt](/assets/images/ammi-visnaga-botanical-morphology.jpg "title")
 
@@ -23,8 +23,7 @@ Notably, Ammi visnaga roots lack root hairs, which are often present in other pl
 | Root Diameter  | Fine (0.08 inches or 2 mm) |
 | Root Length  | Variable (4.7 to 11.8 inches or 12 to 30 cm) |
 | Root Color  | White |
-| Root Texture  | Smooth |
-| Root Surface  | Glabrous (no root hairs) |
+| Root Surface Texture  | Smooth |
 | Root Nodules  | Absent |
 | Root Hairs  | Absent |
 

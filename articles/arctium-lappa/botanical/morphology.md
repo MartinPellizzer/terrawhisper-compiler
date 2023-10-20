@@ -1,4 +1,4 @@
-# What is the morphology of Arctium lappa?
+# Arctium lappa morphology
 
 ![alt](/assets/images/arctium-lappa-botanical-morphology.jpg "title")
 
@@ -12,8 +12,8 @@ The color of these roots is generally brown to dark brown, and they exhibit a fi
 
 | Characteristic | Description |
 | --- | --- |
-| Root System Type  | Taproot |
-| Root Structure  | Main root with lateral, secondary, and tertiary roots |
+| Root System Type  | Fibrous |
+| Root Structure  | Taproot with lateral, secondary, and tertiary roots |
 | Root Branching  | Dichotomous (y-shaped) branching pattern |
 | Root Tips  | Acute tips |
 | Root Density  | Approximately 0.33 roots/cm3 (1.8 roots/in3) |
@@ -21,8 +21,7 @@ The color of these roots is generally brown to dark brown, and they exhibit a fi
 | Root Diameter  | 0.5-2 cm (0.2-0.8 inches) |
 | Root Length  | 20-60 cm (8-24 inches) |
 | Root Color  | Brown to dark brown |
-| Root Texture  | Fibrous |
-| Root Surface  | Rough |
+| Root Surface Texture  | Rough |
 | Root Nodules  | Absent |
 | Root Hairs  | Present, fine and dense |
 

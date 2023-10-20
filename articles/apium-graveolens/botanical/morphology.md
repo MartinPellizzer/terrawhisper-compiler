@@ -1,4 +1,4 @@
-# What is the morphology of Apium graveolens?
+# Apium graveolens morphology
 
 ![alt](/assets/images/apium-graveolens-botanical-morphology.jpg "title")
 
@@ -18,13 +18,12 @@ One of the characteristic features of celery roots is the presence of fine and n
 | Root Structure  | Taproot |
 | Root Branching  | Dichotomous branching |
 | Root Tips  | Acute |
-| Root Density  | Approximately 7 roots/cmâ² (30 roots/inâ²) |
+| Root Density  | Approximately 7 roots/cm2 (30 roots/in2) |
 | Root Depth  | 30 cm (11.8 inches) |
 | Root Diameter  | 0.2 cm (0.08 inches) |
 | Root Length  | Up to 20 cm (7.87 inches) |
 | Root Color  | Whitish to light brown |
-| Root Texture  | Smooth surface |
-| Root Surface  | Glabrous (no trichomes or hairs) |
+| Root Surface Texture  | Smooth surface |
 | Root Nodules  | Absent |
 | Root Hairs  | Present, fine and numerous |
 

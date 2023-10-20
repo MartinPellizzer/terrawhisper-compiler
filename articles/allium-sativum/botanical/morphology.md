@@ -1,4 +1,4 @@
-# What is the morphology of Allium sativum?
+# Allium sativum morphology
 
 ![alt](/assets/images/allium-sativum-botanical-morphology.jpg "title")
 
@@ -27,8 +27,7 @@ One remarkable feature of garlic roots is their adaptation to cold temperatures.
 | Root Diameter  | Approximately 0.2 cm (0.08 inches)  |
 | Root Length  | Varies, can reach up to 50 cm (20 inches)  |
 | Root Color  | Whitish, cream-colored  |
-| Root Texture  | Fleshy, smooth  |
-| Root Surface  | No pronounced features   |
+| Root Surface Texture  | Fleshy, smooth  |
 | Root Nodules  | Absent  |
 | Root Hairs  | Sparse, short, non-mycorrhizal  |
 | Root Growth Zones  | Meristematic and elongation zones  |

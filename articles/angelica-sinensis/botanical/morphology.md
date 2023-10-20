@@ -1,4 +1,4 @@
-# What is the morphology of Angelica sinensis?
+# Angelica sinensis morphology
 
 ![alt](/assets/images/angelica-sinensis-botanical-morphology.jpg "title")
 
@@ -18,13 +18,12 @@ Notably, Angelica sinensis roots do not form root nodules, which distinguishes t
 | Root Structure  | Taproot (main root) and adventitious |
 | Root Branching  | Moderate lateral branching |
 | Root Tips  | Pointed |
-| Root Density  | Approximately 24 roots/cmâ² (150 roots/inâ²) |
+| Root Density  | Approximately 24 roots/cm2 (150 roots/in3) |
 | Root Depth  | 15-30 cm (6-12 inches) |
 | Root Diameter  | 0.2-0.5 cm (0.08-0.2 inches) |
 | Root Length  | Up to 60 cm (24 inches) |
 | Root Color  | Brown to reddish-brown |
-| Root Texture  | Rough, with longitudinal wrinkles |
-| Root Surface  | Smooth |
+| Root Surface Texture  | Rough, with longitudinal wrinkles |
 | Root Nodules  | Absent |
 | Root Hairs  | Sparse |
 

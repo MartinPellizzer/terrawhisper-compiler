@@ -1,4 +1,4 @@
-# What is the morphology of Aesculus hippocastanum?
+# Aesculus hippocastanum morphology
 
 ![alt](/assets/images/aesculus-hippocastanum-botanical-morphology.jpg "title")
 

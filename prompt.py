@@ -7,9 +7,16 @@ if len(sys.argv) != 2:
 entity = sys.argv[1].replace('-', ' ').capitalize()
 # print(entity)
 
+print()
+print()
+print()
+print()
+print()
+
 i = 1
 print(f'''
-{i}.
+{i}. ALL PARTS
+
 Give me a complete list of all the parts of {entity} in terms of morphology. 
 Don't add descriptions.
 ''')
@@ -19,37 +26,44 @@ print(f'''
 i += 1
 
 print(f'''
-{i}.
-Give me a complete list of all the parts of ROOTS of the {entity}. 
-Don't add descriptions.
-''')
-print(f'''
-{i}.
+{i}. ROOTS
+
 Give me a complete list of all the parts of STEMS of the {entity}. 
 Don't add descriptions.
 ''')
 print(f'''
-{i}. ??
+{i}. STEMS
+
+Give me a complete list of all the parts of STEMS of the {entity}. 
+Don't add descriptions.
+''')
+print(f'''
+{i}. RHIZOME
+
 Give me a complete list of all the parts of RHIZOME of the {entity}. 
 Don't add descriptions.
 ''')
 print(f'''
-{i}.
+{i}. LEAVES
+
 Give me a complete list of all the parts of LEAVES of the {entity}. 
 Don't add descriptions.
 ''')
 print(f'''
-{i}.
+{i}. FLOWERS
+
 Give me a complete list of all the parts of FLOWERS of the {entity}. 
 Don't add descriptions.
 ''')
 print(f'''
-{i}.
+{i}. FRUITS
+
 Give me a complete list of all the parts of FRUITS of the {entity}. 
 Don't add descriptions.
 ''')
 print(f'''
-{i}.
+{i}. SEEDS
+
 Give me a complete list of all the parts of SEEDS of the {entity}. 
 Don't add descriptions.
 ''')
@@ -61,7 +75,8 @@ i += 1
 
 
 print(f'''
-{i}.
+{i}. ROOTS CHARACTERISTICS
+
 Here's a list of morphological characteristics of roots of {entity}:
 
 - Root System Type
@@ -73,8 +88,7 @@ Here's a list of morphological characteristics of roots of {entity}:
 - Root Diameter
 - Root Length
 - Root Color
-- Root Texture
-- Root Surface
+- Root Surface Texture
 - Root Nodules
 - Root Hairs
 
@@ -87,19 +101,12 @@ Put all the data in table format. The table must have only 2 columns.
 print(f'''
 --------------------------------------------------------------------
 ''')
-i += 1
-
-print(f'''
-9. Using the data from the previous table, write a section for an article of less than 300 words. 
-Don't write in list format. Write in discursive format. 
-Use simple language and a straightforward sentence structure.
-Don't add fluff or opinions, just write facts.
-''')
-
 
 
 print(f'''
-10. Here's a list of morphological characteristics of stems of {entity}:
+{i}. STEMS CHARACTERISTICS
+
+Here's a list of morphological characteristics of stems of {entity}:
 
 - Stem Type
 - Stem Arrangement
@@ -119,11 +126,10 @@ use primarily the metric system and put the imperial system in between parenthes
 Put all the data in table format. The table must have only 2 columns.
 ''')
 print(f'''
-11. Using the data from the previous table, write a section for an article of less than 300 words. 
-Don't write in list format. Write in discursive format. 
-Use simple language and a straightforward sentence structure.
-Don't add fluff or opinions, just write facts.
+--------------------------------------------------------------------
 ''')
+i += 1
+
 
 
 
