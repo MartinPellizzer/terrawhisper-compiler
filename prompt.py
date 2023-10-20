@@ -5,41 +5,64 @@ if len(sys.argv) != 2:
     quit()
 
 entity = sys.argv[1].replace('-', ' ').capitalize()
-print(entity)
+# print(entity)
+
+i = 1
+print(f'''
+{i}.
+Give me a complete list of all the parts of {entity} in terms of morphology. 
+Don't add descriptions.
+''')
+print(f'''
+--------------------------------------------------------------------
+''')
+i += 1
 
 print(f'''
-1. Give me a complete list of all the parts of {entity} in terms of morphology. Don't add descriptions.
+{i}.
+Give me a complete list of all the parts of ROOTS of the {entity}. 
+Don't add descriptions.
 ''')
+print(f'''
+{i}.
+Give me a complete list of all the parts of STEMS of the {entity}. 
+Don't add descriptions.
+''')
+print(f'''
+{i}. ??
+Give me a complete list of all the parts of RHIZOME of the {entity}. 
+Don't add descriptions.
+''')
+print(f'''
+{i}.
+Give me a complete list of all the parts of LEAVES of the {entity}. 
+Don't add descriptions.
+''')
+print(f'''
+{i}.
+Give me a complete list of all the parts of FLOWERS of the {entity}. 
+Don't add descriptions.
+''')
+print(f'''
+{i}.
+Give me a complete list of all the parts of FRUITS of the {entity}. 
+Don't add descriptions.
+''')
+print(f'''
+{i}.
+Give me a complete list of all the parts of SEEDS of the {entity}. 
+Don't add descriptions.
+''')
+print(f'''
+--------------------------------------------------------------------
+''')
+i += 1
+
+
 
 print(f'''
-2. Give me a complete list of all the parts of roots of the {entity}. 
-Don't add descriptions.
-''')
-print(f'''
-3. Give me a complete list of all the parts of stems of the {entity}. 
-Don't add descriptions.
-''')
-print(f'''
-4. Give me a complete list of all the parts of leaves of the {entity}. 
-Don't add descriptions.
-''')
-print(f'''
-5. Give me a complete list of all the parts of flowers of the {entity}. 
-Don't add descriptions.
-''')
-print(f'''
-6. Give me a complete list of all the parts of fruits of the {entity}. 
-Don't add descriptions.
-''')
-print(f'''
-7. Give me a complete list of all the parts of seeds of the {entity}. 
-Don't add descriptions.
-''')
-
-
-
-print(f'''
-8. Here's a list of morphological characteristics of roots of {entity}:
+{i}.
+Here's a list of morphological characteristics of roots of {entity}:
 
 - Root System Type
 - Root Structure
@@ -61,6 +84,11 @@ use primarily the metric system and put the imperial system in between parenthes
 
 Put all the data in table format. The table must have only 2 columns.
 ''')
+print(f'''
+--------------------------------------------------------------------
+''')
+i += 1
+
 print(f'''
 9. Using the data from the previous table, write a section for an article of less than 300 words. 
 Don't write in list format. Write in discursive format. 
@@ -245,7 +273,7 @@ use primarily the metric system and put the imperial system in between parenthes
 Put all the data in table format. The table must have only 2 columns.
 ''')
 print(f'''
-Using the data from the previous table, write a section for an article of less than 300 words. 
+Using the data from the previous table, write a section for an article in less than 300 words. 
 Don't write in list format. Write in discursive format. 
 Use simple language and a straightforward sentence structure.
 Don't add fluff or opinions, just write facts.

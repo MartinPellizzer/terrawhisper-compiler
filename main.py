@@ -686,8 +686,8 @@ for f in articles_files:
                     
                     lines = csv_get_table_data(f'database/tables/morphology/{section["title"].lower()}.csv')
                     article += generate_table(lines)
-                    for line in lines:
-                        print(line)
+                    # for line in lines:
+                    #     print(line)
 
                     # subparts
                     try: subparts = section['subparts']

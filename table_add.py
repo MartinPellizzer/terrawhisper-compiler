@@ -6,7 +6,7 @@ if len(sys.argv) != 3:
     print("err: pass the right arguments (entity, part)")
     quit()
 
-entity = sys.argv[1]
+entity = sys.argv[1].lower().replace(' ', '-')
 part = sys.argv[2]
 print(f'entity: {entity}')
 print(f'part: {part}')
