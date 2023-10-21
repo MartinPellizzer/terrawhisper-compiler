@@ -1,0 +1,7 @@
+Achillea millefolium leaves are compound, specifically pinnate, and they consist of multiple leaflets. The individual leaflets are lanceolate in shape, measuring between 5 to 10 centimeters (2 to 4 inches) in length and 1 to 3 centimeters (0.4 to 1.2 inches) in width. Their thickness is relatively thin, approximately 0.1 centimeters (0.04 inches).
+
+The leaves are typically green, although the exact shade may vary. They have a pubescent texture, meaning they are covered in fine hairs. The leaf surface is smooth and glabrous. Their apices are acute, forming a pointed tip, while the bases are cuneate, resembling a wedge shape. The margins of the leaves are entire, giving them a smooth appearance.
+
+Achillea millefolium leaves display an alternate arrangement on the stem and an erect orientation, meaning they stand vertically. The venation of the leaves is pinnate, resembling a feather-like structure. The leaf lamina is simple, and a prominent midrib runs through the center of the leaf.
+
+These leaves are attached to the stem via petioles, with lengths ranging from 2 to 10 centimeters (0.8 to 4 inches). Stipules, which are small leaf-like structures found at the base of the petioles, are absent in this species.

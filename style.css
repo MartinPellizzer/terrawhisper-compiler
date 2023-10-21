@@ -120,6 +120,10 @@ td {
     padding: 0.8rem 1.6rem;
 }
 
+.mb-0 {
+    margin-bottom: 0;
+}
+
 .mb-16 {
     margin-bottom: 1.6rem;
 }

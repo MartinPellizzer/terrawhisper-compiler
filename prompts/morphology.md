@@ -71,7 +71,7 @@ give me a list of the morphological characteristics of the [plant_part] of the [
 - Rhizome Arrangement
 - Rhizome Shape
 - Rhizome Height
-- Rhizome Diamet
+- Rhizome Diameter
 - Rhizome Nodes
 - Rhizome Internodes
 - Rhizome Texture

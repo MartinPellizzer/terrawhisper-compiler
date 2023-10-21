@@ -1,0 +1,7 @@
+Aesculus hippocastanum initially develops a strong and well-defined taproot, which has a conical shape that narrows gradually as it extends downward.
+
+The taproot of a young horse chestnut tree can reach a depth of up to 2.5 meters (8.2 feet) within the first few years of growth. As the tree matures, the taproot can extend to depths of 4.5 meters (14.8 feet) or more. This taproot typically has a diameter of 2.5 to 5 centimeters (1 to 2 inches) and exhibit a moderate to slow growth rates as they grow at a rate of 15 to 30 centimeters per year.
+
+This taproot has lateral that extend outwards and that have a cylindrical (slightly flattened) shape, and they form at various depths and angles from the taproot, providing stability and nutrient absorption. In fact, they spread horizontally in search of water and nutrients, occupying a circular area that can exceed the tree's crown width, often extending up to 8 meters (26 feet) or more from the trunk. These fine roots are typically much smaller in diameter than the taproot, measuring around 1-2 millimeters (0.04-0.08 inches).
+
+The outer surface of horse chestnut roots is usually a light to dark brown with a rough and wrinkled texture (that tend to become darker as they age), while the inner tissues exhibit a creamy white to pale yellow color.

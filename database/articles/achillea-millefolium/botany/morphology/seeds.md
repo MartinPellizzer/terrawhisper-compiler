@@ -1,0 +1,5 @@
+The seeds of Achillea millefolium are classified as achenes and are typically arranged singly within the flower head. They have an ovoid shape and lack any appendages, such as a pappus. One notable feature is that multiple seeds are often found within a single flower head.
+
+In terms of size, the seeds are relatively small. They measure 2.5 millimeters (0.098 inches) in length, 0.8 millimeters (0.0315 inches) in width, and 0.3 millimeters (0.0118 inches) in thickness. The seeds are hard and possess a brown to dark brown seed coat with a smooth, shiny surface. The thickness of the seed coat is approximately 0.1 millimeters (0.0039 inches), and it is impermeable, preventing easy access to the inner seed.
+
+The hilum, a small scar indicating the point of attachment, is often visible on these seeds. Internally, the seed contains a straight embryo with two cotyledons. The radicle, or embryonic root, is tiny and underdeveloped.

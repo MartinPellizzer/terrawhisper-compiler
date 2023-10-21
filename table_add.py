@@ -2,15 +2,17 @@ import csv
 import sys
 
 print(len(sys.argv))
-if len(sys.argv) != 3:
-    print("err: pass the right arguments (entity, part)")
+if len(sys.argv) != 4:
+    print("err: pass the right arguments (entity, attribute, table)")
     quit()
 
 entity = sys.argv[1].lower().replace(' ', '-')
-part = sys.argv[2]
+attribute = sys.argv[2].lower().strip()
+table = sys.argv[3].lower().strip()
 print(f'entity: {entity}')
-print(f'part: {part}')
-filepath = f'database/tables/morphology/{part}.csv'
+print(f'attribute: {attribute}')
+print(f'table: {table}')
+filepath = f'database/tables/{attribute}/{table}.csv'
 
 with open('_tmp_table.csv', encoding='utf-8') as f:
     content = f.read()

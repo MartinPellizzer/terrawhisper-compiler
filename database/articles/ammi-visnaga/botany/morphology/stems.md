@@ -1,0 +1,7 @@
+Ammi visnaga has stems that are arranged alternately along the plant, with a cylindrical shape. In terms of size, the stem's height typically ranges from 30 to 60 cm (11.8 to 23.6 inches), and its diameter measures between 0.2 and 0.4 cm (0.08 to 0.16 inches).
+
+One distinctive feature of these stems is their color; they are uniformly green. Their texture is smooth to the touch, as they lack any hair or trichomes, a feature referred to as glabrous. When examining the stem closely, one can observe distinct nodes, which are points where leaves or other structures are attached. These nodes along the stem are relatively easy to identify.
+
+The internodes, which are the segments between nodes, are approximately 3 to 5 cm (1.2 to 2 inches) apart. This spacing between internodes contributes to the overall appearance and structure of the plant.
+
+Understanding these stem characteristics is valuable for researchers, botanists, and those interested in the plant's biology. These details not only aid in accurate species identification but also play a role in various scientific studies and applications. The specific measurements and characteristics of Ammi visnaga stems are essential for anyone working with or studying this plant.
