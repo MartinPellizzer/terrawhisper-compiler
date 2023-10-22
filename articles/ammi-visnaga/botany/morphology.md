@@ -1,6 +1,14 @@
 # Ammi visnaga morphology
 
-![alt](/assets/images/ammi-visnaga-botany-morphology.jpg "title")
+![Ammi visnaga morphology](/assets/images/ammi-visnaga-botany-morphology.jpg "Ammi visnaga morphology")
+
+Ammi visnaga is a plant with distinctive characteristics in its roots, stems, leaves, flowers, fruits, and seeds. Its fibrous root system branches dichotomously and remains shallow, about 10 cm deep, with fine roots measuring 0.2 cm in diameter. These roots lack root hairs and root nodules. The stems are herbaceous, green, and cylindrical, with nodes and internodes spaced 3-5 cm apart.
+
+The leaves are simple, pinnate, and sessile, with an erect orientation, acute apex, cuneate base, and entire margin. They lack petioles and stipules. Ammi visnaga's flowers form compound umbels, are white, ovate, and exhibit radial symmetry. Each flower has 5 sepals, 5 petals, and 10 tepals, with 5 stamens and a superior ovary. The fruits are schizocarps, oblong, and brown, with a ribbed surface, splitting into two halves. They are found in compound umbels on pedicels.
+
+The seeds are achenes, solitary, elliptical, and impermeable to water. They are approximately 3.5 mm long, 2.0 mm wide, and 1.0 mm thick, with a smooth, shiny, brown seed coat. The hilum is near the pointed end, and the embryo is curved with two cotyledons. Understanding these detailed characteristics is valuable for identification and botanical studies of Ammi visnaga.
+
+In this article you will learn about the morphology of Ammi visnaga by analyzing the main parts of this plant and their characteristics.
 
 ## Roots
 

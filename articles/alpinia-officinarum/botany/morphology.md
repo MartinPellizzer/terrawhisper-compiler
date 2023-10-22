@@ -1,6 +1,18 @@
 # Alpinia officinarum morphology
 
-![alt](/assets/images/alpinia-officinarum-botany-morphology.jpg "title")
+![Alpinia officinarum morphology](/assets/images/alpinia-officinarum-botany-morphology.jpg "Alpinia officinarum morphology")
+
+Alpinia officinarum, commonly known as Lesser Galangal, is characterized by its unique plant features. The plant has a fibrous root system consisting of a main taproot and lateral fibrous roots with dichotomous branching. The main taproot typically reaches a depth of 20-30 centimeters and has a diameter of 1.5 centimeters, while the lateral roots are finer. These light brown roots have a smooth, hairy texture, enabling nutrient and water absorption, without developing nodules.
+
+The herbaceous stems of Alpinia officinarum are cylindrical and can grow from 1 to 3 meters in height, with alternating leaf arrangement. These green stems have a smooth, slightly ribbed surface, often marked with reddish or brown patches. Stem nodes are distinct, where leaves and branches originate, with internodes between them.
+
+The rhizomes of the plant are arranged sympodially and are cylindrical, ranging from 20 to 60 centimeters in height and 1 to 3 centimeters in diameter. Their surface is smooth, and they have 1 to 3 nodes along with 5 to 15 centimeter internodes.
+
+The leaves are oblong, simple, and alternately arranged, with parallel venation, no stipules, and a glossy, green surface. The flowers are tubular, bilateral, and epigynous, measuring 5 cm in length and predominantly white with pink hues. They lack stipules, have small bracts, and are clustered on spikes. Each fruit, classified as a capsule, is oblong, turning from green to red as it matures and splits open into three parts. Each capsule contains one ellipsoid seed with a dark brown, impermeable coat, and no visible hilum. The seed has two cotyledons and a radicle.
+
+Alpinia officinarum exhibits a distinct combination of root, stem, rhizome, leaf, flower, fruit, and seed characteristics, making it well-suited for its ecological niche and various uses in traditional medicine and cuisine.
+
+In this article you will learn about the morphology of Alpinia officinarum by analyzing the main parts of this plant and their characteristics.
 
 ## Roots
 

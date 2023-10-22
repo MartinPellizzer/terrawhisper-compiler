@@ -1,0 +1,5 @@
+The fruits of Artemisia annua are small and dry achenes, each containing a single seed. They are arranged in cymose inflorescences, forming loose clusters along the inflorescence stem. The fruits are attached to the stem by pedicels, or stalks.
+
+In terms of shape, they are oblong-ellipsoid, with dimensions measuring approximately 1.5-2.5 mm in length, 0.5-1 mm in width, and 0.3-0.5 mm in thickness. Their color is typically light brown, and their surface is smooth, appearing glabrous, devoid of any hair or trichomes.
+
+These achenes do not exhibit distinct markings, presenting a uniform appearance. A notable characteristic of Artemisia annua's fruits is their non-dehiscent nature, meaning they do not split open at maturity. This trait sets them apart from other plants whose fruits disperse their seeds through dehiscence.

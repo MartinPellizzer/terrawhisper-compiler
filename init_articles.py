@@ -28,9 +28,11 @@ for row in rows:
 
     folderpath = f'database/articles/{entity}/{category}/{attribute}'
     if attribute == 'morphology':
+        with open(f'{folderpath}/_intro.md', 'a', encoding='utf-8') as f: pass
         with open(f'{folderpath}/roots.md', 'a', encoding='utf-8') as f: pass
         with open(f'{folderpath}/stems.md', 'a', encoding='utf-8') as f: pass
         with open(f'{folderpath}/rhizomes.md', 'a', encoding='utf-8') as f: pass
+        with open(f'{folderpath}/bulbs.md', 'a', encoding='utf-8') as f: pass
         with open(f'{folderpath}/leaves.md', 'a', encoding='utf-8') as f: pass
         with open(f'{folderpath}/flowers.md', 'a', encoding='utf-8') as f: pass
         with open(f'{folderpath}/fruits.md', 'a', encoding='utf-8') as f: pass

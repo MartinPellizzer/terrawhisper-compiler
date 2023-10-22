@@ -96,7 +96,7 @@ def morphology():
 
     For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
     Use as few words as possible for each description. 
-    use primarily the metric system and put the imperial system in between parenthesis with data and numbers.
+    Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
 
     Put all the data in table format. The table must have only 2 columns.
     ''')
@@ -123,7 +123,7 @@ def morphology():
 
     For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
     Use as few words as possible for each description. 
-    use primarily the metric system and put the imperial system in between parenthesis with data and numbers.
+    Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
 
     Put all the data in table format. The table must have only 2 columns.
     ''')
@@ -148,7 +148,7 @@ def morphology():
 
     For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
     Use as few words as possible for each description. 
-    use primarily the metric system and put the imperial system in between parenthesis with data and numbers.
+    Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
 
     Put all the data in table format. The table must have only 2 columns.
     ''')
@@ -184,7 +184,7 @@ def morphology():
 
     For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
     Use as few words as possible for each description. 
-    use primarily the metric system and put the imperial system in between parenthesis with data and numbers.
+    Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
 
     Put all the data in table format. The table must have only 2 columns.
     ''')
@@ -226,7 +226,7 @@ def morphology():
 
     For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
     Use as few words as possible for each description. 
-    use primarily the metric system and put the imperial system in between parenthesis with data and numbers.
+    Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
 
     Put all the data in table format. The table must have only 2 columns.
     ''')
@@ -258,7 +258,7 @@ def morphology():
 
     For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
     Use as few words as possible for each description. 
-    use primarily the metric system and put the imperial system in between parenthesis with data and numbers.
+    Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
 
     Put all the data in table format. The table must have only 2 columns.
     ''')
@@ -295,7 +295,7 @@ def morphology():
 
     For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
     Use as few words as possible for each description. 
-    use primarily the metric system and put the imperial system in between parenthesis with data and numbers.
+    Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
 
     Put all the data in table format. The table must have only 2 columns.
     ''')
@@ -312,6 +312,19 @@ def morphology():
     Don't write in list format. Write in discursive format. 
     Use simple language and a straightforward sentence structure.
     Don't add fluff or opinions, just write facts.
+    ''')
+    print(f'''
+    --------------------------------------------------------------------
+    ''')
+    i += 1
+
+
+    print(f'''
+    {i}. INTRO
+
+    Summarize the following text in less than 200 words:
+
+
     ''')
     print(f'''
     --------------------------------------------------------------------

@@ -1,0 +1,3 @@
+Garlic has a tunicated bulb, meaning it's enclosed in a multilayered, papery sheath known as the tunic. The bulb has an ovoid shape, with its length typically measuring around 5-7 centimeters (2-2.75 inches), while the width ranges from 3 to 5 centimeters (1.2-2 inches). The thickness of the bulb falls within the 2-4 centimeter range (0.8-1.6 inches).
+
+Garlic bulbs are predominantly white to off-white in color. When you break open a garlic bulb, you'll find an arrangement of multiple individual cloves within. These cloves are wedge-shaped, with each clove measuring approximately 2.5-4 centimeters (1-1.6 inches) in length, 1.5-2.5 centimeters (0.6-1 inch) in width, and 0.5-1 centimeter (0.2-0.4 inches) in thickness.

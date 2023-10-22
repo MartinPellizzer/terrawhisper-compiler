@@ -10,10 +10,21 @@ import csv
 
 
 
-with open("database/growing_zones.json", encoding='utf-8') as f:
-    growing_zones_data = json.loads(f.read())
+# with open("database/growing_zones.json", encoding='utf-8') as f:
+#     growing_zones_data = json.loads(f.read())
 
 
+google_tag = '''
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9086LN3SRR"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9086LN3SRR');
+    </script>
+'''
 
 
 
@@ -123,7 +134,6 @@ def generate_toc(content_html):
         content_html_formatted += line
 
     return content_html_formatted
-
 
 
 
@@ -501,7 +511,8 @@ def img_cheasheet(latin_name, title, lst, img_name):
 
 
 
-
+######################################################################
+# HTML 
 ######################################################################
 def generate_header_light():
     html = '''
@@ -552,6 +563,8 @@ def generate_html(title, article, entity, attribute):
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="/style.css">
             <title>{title}</title>
+
+            {google_tag}
         </head>
 
         <body>
@@ -655,13 +668,21 @@ for row in articles_master_rows:
         title = f'{latin_name.capitalize()} morphology'
         article += f'# {title}\n\n'
 
-        featured_image_filpath = generate_featured_image(entity, f'{category}/{attribute}')
-        article += f'![alt]({featured_image_filpath} "title")\n\n'
+        try:
+            featured_image_filpath = generate_featured_image(entity, f'{category}/{attribute}')
+            article += f'![{title}]({featured_image_filpath} "{title}")\n\n'
+        except:
+            print(f'WARNING: missing image ({entity})')
 
         path = f'database/articles/{entity}/botany/morphology'
-        # files = os.listdir(path)
-        files = ['roots', 'stems', 'rhizomes', 'leaves', 'flowers', 'fruits', 'seeds']
 
+        with open(f'{path}/_intro.md', encoding='utf-8') as f:  
+            section_content = f.read()
+        article += section_content + '\n\n'
+        
+        article += f'In this article you will learn about the morphology of {latin_name} by analyzing the main parts of this plant and their characteristics.' + '\n\n'
+
+        files = ['roots', 'stems', 'rhizomes', 'leaves', 'flowers', 'fruits', 'seeds']
         for file in files:
             with open(f'{path}/{file}.md', encoding='utf-8') as f: 
                 section_content = f.read()
@@ -694,6 +715,7 @@ for row in articles_master_rows:
                 lines = csv_get_table_data(f'database/tables/taxonomy/{section_title.lower()}.csv')
                 article += generate_table(lines)
 
+    # print(attribute.lower())
     article_filepath = generate_html(title, article, entity, f'{category}/{attribute}')
     
     if state == 'published':
@@ -1303,6 +1325,7 @@ with_sidebar = f'''
 
 header = generate_header_transparent()
 
+
 html = f'''
     <!DOCTYPE html>
     <html lang="en">
@@ -1312,6 +1335,8 @@ html = f'''
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <title>Your Botanical Guide | TerraWhisper</title>
+        {google_tag}
+        
     </head>
 
     <body>
@@ -1319,8 +1344,8 @@ html = f'''
             <div class="container-lg h-full">
                 {header}
                 <div class="flex justify-center items-center h-90">
-                    <h1 class="fg-white text-center"><span class="size-96">Your Botanical Guide</span><br><span
-                            class="size-36 weight-400">to Plant Taxonomy, Morphology, and Sensory Characteristics</span>
+                    <h1 class="fg-white text-center"><span class="size-96">Your Botanical Guide:</span><br><span
+                            class="size-36 weight-400">Plant Taxonomy, Morphology, and Sensory Characteristics</span>
                     </h1>
                 </div>
             </div>
@@ -1331,7 +1356,7 @@ html = f'''
         <section class="my-96">
             <div class="container-lg">
                     <h2 class="text-center mb-16">Latest Articles on Plant Morphology</h2>
-                    <p class="text-center mb-48">Learn everything about plants roots, stems, leaves, flowers, fruits, seeds, and other parts.</h2>
+                    <p class="text-center mb-48">Learn everything about plant roots, stems, leaves, flowers, fruits, seeds, and other parts.</h2>
                     <div class="articles">
                         {articles}
                     </div>
@@ -1346,11 +1371,6 @@ html = f'''
 
     </html>
 '''
-# <div class="articles flex-3 flex flex-col gap-32">
-#                         {articles}
-#                     </div>
-
-# 
 
 with open(f'index.html', 'w', encoding='utf-8') as f:
     f.write(html)

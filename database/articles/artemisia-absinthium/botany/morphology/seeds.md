@@ -1,0 +1,5 @@
+Artemisia absinthium seeds are a type of achene, characterized by their oblong shape and a length ranging from 2.5 to 3.5 millimeters, with a width of 1.0 to 1.5 millimeters and a thickness of 0.5 to 0.8 millimeters. They are quite small but are relatively hard in texture.
+
+Each seed is generally solitary, arranged singly on the plant. The seeds possess a brown seed coat with a smooth surface, giving them a shiny appearance. The thickness of the seed coat measures around 0.1 to 0.2 millimeters, which provides protection to the seed within. Importantly, these seed coats are impermeable, making it difficult for moisture or other external factors to penetrate.
+
+When looking closely at the seed, one can observe a distinct hilum, which is the point where the seed was attached to the plant. The embryo inside the seed is straight, and each seed contains two cotyledons. Additionally, a radicle is present within the seed, which is essential for the initial stages of seed germination.
