@@ -33,6 +33,12 @@ google_tag = '''
     </script>
 '''
 
+######################################################################
+# UTILS 
+######################################################################
+
+def normalize(text):
+    return text.strip().lower()
 
 
 def lst_to_txt(lst):
@@ -62,85 +68,13 @@ def bold_blt(lst):
     return bld_lst
 
 
-def generate_toc(content_html):
-    table_of_contents_html = ''
-
-    headers = []
-    content_html_with_ids = ''
-    current_id = 0
-    for line in content_html.split('\n'):
-        if '<h2>' in line:
-            headers.append(line)
-            content_html_with_ids += (line.replace('<h2>', f'<h2 id="{current_id}">'))
-            current_id +=1
-        elif '<h3>' in line:
-            headers.append(line)
-            content_html_with_ids += (line.replace('<h3>', f'<h3 id="{current_id}">'))
-            current_id +=1
-        elif '<h4>' in line:
-            headers.append(line)
-            content_html_with_ids += (line.replace('<h4>', f'<h4 id="{current_id}">'))
-            current_id +=1
-        elif '<h5>' in line:
-            headers.append(line)
-            content_html_with_ids += (line.replace('<h5>', f'<h5 id="{current_id}">'))
-            current_id +=1
-        elif '<h6>' in line:
-            headers.append(line)
-            content_html_with_ids += (line.replace('<h6>', f'<h6 id="{current_id}">'))
-            current_id +=1
-        else:
-            content_html_with_ids += (line)
-        content_html_with_ids += '\n'
-
-    # generate table
-    toc_li = []
-
-    table_of_contents_html += '<div class="toc">'
-    table_of_contents_html += '<span class="toc-title">Table of Contents</span>'
-    table_of_contents_html += '<ul>'
-    
-    last_header = '<h2>'
-    for i, line in enumerate(headers):
-        insert_open_ul = False
-        insert_close_ul = False
-
-        if '<h2>' in line: 
-            if last_header != '<h2>': 
-                if int('<h2>'[2]) > int(last_header[2]): insert_open_ul = True
-                else: insert_close_ul = True
-            last_header = '<h2>'
-            line = line.replace('<h2>', '').replace('</h2>', '')
-
-        elif '<h3>' in line:
-            if last_header != '<h3>':
-                if int('<h3>'[2]) > int(last_header[2]): insert_open_ul = True
-                else: insert_close_ul = True
-
-            last_header = '<h3>'
-            line = line.replace('<h3>', '').replace('</h3>', '')
-
-        if insert_open_ul: table_of_contents_html += f'<ul>'
-        if insert_close_ul: table_of_contents_html += f'</ul>'
-        table_of_contents_html += f'<li><a href="#{i}">{line}</a></li>'
-
-    table_of_contents_html += '</ul>'
-    table_of_contents_html += '</div>'
-
-    # insert table in article
-    content_html_formatted = ''
-
-    toc_inserted = False
-    for line in content_html_with_ids.split('\n'):
-        if not toc_inserted:
-            if '<h2' in line:
-                toc_inserted = True
-                content_html_formatted += table_of_contents_html
-                content_html_formatted += line
-                continue
-        content_html_formatted += line
-
-    return content_html_formatted
+def csv_to_llst(filepath):
+    llst = []
+    with open(filepath, newline='') as f:
+        reader = csv.reader(f, delimiter='\\')
+        for row in reader:
+            llst.append(row)
+    return llst
 
 
 
@@ -547,6 +481,87 @@ def generate_header_transparent():
     return html
 
 
+def generate_toc(content_html):
+    table_of_contents_html = ''
+
+    headers = []
+    content_html_with_ids = ''
+    current_id = 0
+    for line in content_html.split('\n'):
+        if '<h2>' in line:
+            headers.append(line)
+            content_html_with_ids += (line.replace('<h2>', f'<h2 id="{current_id}">'))
+            current_id +=1
+        elif '<h3>' in line:
+            headers.append(line)
+            content_html_with_ids += (line.replace('<h3>', f'<h3 id="{current_id}">'))
+            current_id +=1
+        elif '<h4>' in line:
+            headers.append(line)
+            content_html_with_ids += (line.replace('<h4>', f'<h4 id="{current_id}">'))
+            current_id +=1
+        elif '<h5>' in line:
+            headers.append(line)
+            content_html_with_ids += (line.replace('<h5>', f'<h5 id="{current_id}">'))
+            current_id +=1
+        elif '<h6>' in line:
+            headers.append(line)
+            content_html_with_ids += (line.replace('<h6>', f'<h6 id="{current_id}">'))
+            current_id +=1
+        else:
+            content_html_with_ids += (line)
+        content_html_with_ids += '\n'
+
+    # generate table
+    toc_li = []
+
+    table_of_contents_html += '<div class="toc">'
+    table_of_contents_html += '<span class="toc-title">Table of Contents</span>'
+    table_of_contents_html += '<ul>'
+    
+    last_header = '<h2>'
+    for i, line in enumerate(headers):
+        insert_open_ul = False
+        insert_close_ul = False
+
+        if '<h2>' in line: 
+            if last_header != '<h2>': 
+                if int('<h2>'[2]) > int(last_header[2]): insert_open_ul = True
+                else: insert_close_ul = True
+            last_header = '<h2>'
+            line = line.replace('<h2>', '').replace('</h2>', '')
+
+        elif '<h3>' in line:
+            if last_header != '<h3>':
+                if int('<h3>'[2]) > int(last_header[2]): insert_open_ul = True
+                else: insert_close_ul = True
+
+            last_header = '<h3>'
+            line = line.replace('<h3>', '').replace('</h3>', '')
+
+        if insert_open_ul: table_of_contents_html += f'<ul>'
+        if insert_close_ul: table_of_contents_html += f'</ul>'
+        table_of_contents_html += f'<li><a href="#{i}">{line}</a></li>'
+
+    table_of_contents_html += '</ul>'
+    table_of_contents_html += '</div>'
+
+    # insert table in article
+    content_html_formatted = ''
+
+    toc_inserted = False
+    for line in content_html_with_ids.split('\n'):
+        if not toc_inserted:
+            if '<h2' in line:
+                toc_inserted = True
+                content_html_formatted += table_of_contents_html
+                content_html_formatted += line
+                continue
+        content_html_formatted += line
+
+    return content_html_formatted
+
+
 def generate_html(title, article, entity, attribute):
     article_filepath = f'{entity}/{attribute}.md'
     with open(f'articles/{article_filepath}', 'w', encoding='utf-8') as f:
@@ -648,9 +663,6 @@ def generate_featured_image(entity, attribute):
 
 
 
-
-
-
 ######################################################################
 # FOLDERS
 ######################################################################
@@ -676,14 +688,14 @@ for chunk in chunks:
     except: pass
 
 
+
+######################################################################
+# MAIN
+######################################################################
+
 articles_home = []
 
-articles_master_rows = []
-with open('database/tables/articles.csv', newline='') as f:
-    reader = csv.reader(f, delimiter='\\')
-    for row in reader:
-        articles_master_rows.append(row)
-articles_master_rows = articles_master_rows[1:]
+articles_master_rows = csv_to_llst('database/tables/articles.csv')[1:]
 
 for row in articles_master_rows:
     entity = row[0].strip()
@@ -801,33 +813,31 @@ for row in articles_master_rows:
 
 
     
-articles = ''
-for article in articles_home:
-    img = article['img']
-    url = article['url']
-    title = article['title']
-    name = article['name']
-    articles += f'''
-        <a href="{url}">
-            <div>
-                <img src="{img}" alt="">
-                <h2 class="mt-0 mb-0">{title}</h2>
-            </div>
-        </a>
-        \n
-    '''
+# articles = ''
+# for article in articles_home:
+#     img = article['img']
+#     url = article['url']
+#     title = article['title']
+#     name = article['name']
+#     articles += f'''
+#         <a href="{url}">
+#             <div>
+#                 <img src="{img}" alt="">
+#                 <h2 class="mt-0 mb-0">{title}</h2>
+#             </div>
+#         </a>
+#         \n
+#     '''
 
-articles = []
-with open('database/tables/articles.csv', newline='') as f:
-    reader = csv.reader(f, delimiter='\\')
-    for row in reader:
-        articles.append(row)
+# articles = []
+# with open('database/tables/articles.csv', newline='') as f:
+#     reader = csv.reader(f, delimiter='\\')
+#     for row in reader:
+#         articles.append(row)
 
 
 # def csv_to_dict_indexing():
 
-def normalize(text):
-    return text.strip().lower()
 
 articles_html = ''
 for article in articles[1:]:
