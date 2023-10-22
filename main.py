@@ -1,6 +1,4 @@
 # TODO: update article date (display correct date)
-# TODO: add to homepage articles divided by category (add taxonomy section)
-
 
 
 import json
@@ -810,37 +808,12 @@ for row in articles_master_rows:
 # HOME PAGE
 ##################################################################################################
 
+articles = csv_to_llst('database/tables/articles.csv')[1:]
 
+articles_morphology_html = ''
+articles_taxonomy_html = ''
 
-    
-# articles = ''
-# for article in articles_home:
-#     img = article['img']
-#     url = article['url']
-#     title = article['title']
-#     name = article['name']
-#     articles += f'''
-#         <a href="{url}">
-#             <div>
-#                 <img src="{img}" alt="">
-#                 <h2 class="mt-0 mb-0">{title}</h2>
-#             </div>
-#         </a>
-#         \n
-#     '''
-
-# articles = []
-# with open('database/tables/articles.csv', newline='') as f:
-#     reader = csv.reader(f, delimiter='\\')
-#     for row in reader:
-#         articles.append(row)
-
-
-# def csv_to_dict_indexing():
-
-
-articles_html = ''
-for article in articles[1:]:
+for article in articles:
     entity = normalize(article[0])
     category = normalize(article[1])
     attribute = normalize(article[2])
@@ -854,8 +827,20 @@ for article in articles[1:]:
         img = f'images/{entity}-{category}-{attribute}.jpg'
         url = f'{entity}/{category}/{attribute}.html'
         title = f'{latin_name} {attribute}'
-        print(img)
-        articles_html += f'''
+        articles_morphology_html += f'''
+            <a href="{url}">
+                <div>
+                    <img src="{img}" alt="">
+                    <h2 class="mt-0 mb-0">{title}</h2>
+                </div>
+            </a>
+            \n
+        '''
+    elif attribute == 'taxonomy':
+        img = f'images/{entity}-{category}-{attribute}.jpg'
+        url = f'{entity}/{category}/{attribute}.html'
+        title = f'{latin_name} {attribute}'
+        articles_taxonomy_html += f'''
             <a href="{url}">
                 <div>
                     <img src="{img}" alt="">
@@ -866,26 +851,37 @@ for article in articles[1:]:
         '''
 
 
-with_sidebar = f'''
-    <section class="mt-96">
-        <div class="container-lg">
-            <div class="flex gap-32">
-                <div class="articles flex-3 flex flex-col gap-32">
-                    
-                    {articles}
+header = generate_header_transparent()
 
-                </div>
-                <div class="sidebar flex-1">
-                    <div class="flex-1">
-                        here goes the sidebar
-                    </div>
-                </div>
+articles_section_taxonomy_html = ''
+if normalize(articles_taxonomy_html) != '':
+    articles_section_taxonomy_html = f'''
+    <section class="my-96">
+        <div class="container-lg">
+            <h2 class="text-center mb-16">Latest Articles on Plant Taxonomy</h2>
+            <p class="text-center mb-48">Learn everything about plant taxonomy, classification, common names, and varieties</p>
+            <div class="articles">
+                {articles_taxonomy_html}
             </div>
         </div>
     </section>
-'''
+    '''
+    
+articles_section_morphology_html = ''
+if normalize(articles_morphology_html) != '':
+    articles_section_morphology_html = f'''
+    <section class="my-96">
+        <div class="container-lg">
+            <h2 class="text-center mb-16">Latest Articles on Plant Morphology</h2>
+            <p class="text-center mb-48">Learn everything about plant roots, stems, leaves, flowers, fruits, seeds, and other parts.</p>
+            <div class="articles">
+                {articles_morphology_html}
+            </div>
+        </div>
+    </section>
+    '''
 
-header = generate_header_transparent()
+
 
 
 html = f'''
@@ -912,18 +908,8 @@ html = f'''
                 </div>
             </div>
         </section>
-
-
-
-        <section class="my-96">
-            <div class="container-lg">
-                    <h2 class="text-center mb-16">Latest Articles on Plant Morphology</h2>
-                    <p class="text-center mb-48">Learn everything about plant roots, stems, leaves, flowers, fruits, seeds, and other parts.</h2>
-                    <div class="articles">
-                        {articles_html}
-                    </div>
-            </div>
-        </section>
+        {articles_section_morphology_html}
+        {articles_section_taxonomy_html}
         <footer>
             <div class="container-lg">
                 <span>© TerraWhisper.com 2023 | All Rights Reserved

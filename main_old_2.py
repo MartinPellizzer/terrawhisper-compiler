@@ -558,3 +558,52 @@
 #     '''
 
 
+
+
+
+
+with_sidebar = f'''
+    <section class="mt-96">
+        <div class="container-lg">
+            <div class="flex gap-32">
+                <div class="articles flex-3 flex flex-col gap-32">
+                    
+                    {articles}
+
+                </div>
+                <div class="sidebar flex-1">
+                    <div class="flex-1">
+                        here goes the sidebar
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+'''
+
+
+
+# articles = ''
+# for article in articles_home:
+#     img = article['img']
+#     url = article['url']
+#     title = article['title']
+#     name = article['name']
+#     articles += f'''
+#         <a href="{url}">
+#             <div>
+#                 <img src="{img}" alt="">
+#                 <h2 class="mt-0 mb-0">{title}</h2>
+#             </div>
+#         </a>
+#         \n
+#     '''
+
+# articles = []
+# with open('database/tables/articles.csv', newline='') as f:
+#     reader = csv.reader(f, delimiter='\\')
+#     for row in reader:
+#         articles.append(row)
+
+
+# def csv_to_dict_indexing():
