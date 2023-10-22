@@ -1,6 +1,6 @@
 # Apium graveolens morphology
 
-![Apium graveolens morphology](/assets/images/apium-graveolens-botany-morphology.jpg "Apium graveolens morphology")
+![Apium graveolens morphology](/images/apium-graveolens-botany-morphology.jpg "Apium graveolens morphology")
 
 Celery (Apium graveolens) has a fibrous root system with a single, central taproot and acute tips that efficiently penetrate the soil. The roots are approximately 0.2 cm in diameter and 20-30 cm long, light tan to brown, and have a smooth texture. Unlike some plants, celery does not form root nodules for nitrogen fixation. Sparse, fine root hairs aid in nutrient and water absorption.
 

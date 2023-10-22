@@ -13,6 +13,8 @@ import csv
 # with open("database/growing_zones.json", encoding='utf-8') as f:
 #     growing_zones_data = json.loads(f.read())
 
+website_img_path = 'website/images'
+
 
 google_tag = '''
     <!-- Google tag (gtag.js) -->
@@ -206,7 +208,7 @@ def img_resize(image_path):
     )
     img = img.crop(area)
 
-    output_path = f'website/assets/images/{"-".join(image_path.split("/")[1:])}'
+    output_path = f'{website_img_path}/{"-".join(image_path.split("/")[1:])}'
     img.save(f'{output_path}')
 
     return output_path
@@ -320,7 +322,7 @@ def img_taxonomy(item):
     draw.polygon([(cord_list[13][0], cord_list[13][1] - arrow_point_size), (cord_list[13][0] + arrow_point_size, cord_list[13][1]), (cord_list[13][0], cord_list[13][1] + arrow_point_size)], fill='#ffffff')
 
     output_filename = latin_name.lower().replace(' ', '-')
-    output_path = f'website/assets/images/{output_filename}-taxonomy.jpg'
+    output_path = f'{website_img_path}/{output_filename}-taxonomy.jpg'
     
     # img.show()
     img.save(f'{output_path}', format='JPEG', subsampling=0, quality=100)
@@ -386,7 +388,7 @@ def img_cycle_of_life(item):
         h//2 - line_h//2 - circle_radius + int(icon_circle_radius*1.6)), line, fg_color, font=font)
 
     output_filename = latin_name.lower().replace(' ', '-')
-    output_path = f'website/assets/images/{output_filename}-cycle-of-life.jpg'
+    output_path = f'{website_img_path}/{output_filename}-cycle-of-life.jpg'
 
     img.thumbnail((w//resampler, h//resampler), Image.Resampling.LANCZOS)
     
@@ -504,7 +506,7 @@ def img_cheasheet(latin_name, title, lst, img_name):
 
     
     output_filename = latin_name.lower().replace(' ', '-')
-    output_path = f'website/assets/images/{output_filename}-{img_name}.jpg'
+    output_path = f'{website_img_path}/{output_filename}-{img_name}.jpg'
     img.save(f'{output_path}', format='JPEG', subsampling=0, quality=100)
 
     return output_path
@@ -601,10 +603,46 @@ def generate_featured_image(entity, attribute):
     attribute_filename = attribute.replace('/', '-')
     featured_image_filename = f'{entity}-{attribute_filename}.jpg'
     featured_image_filpath = img_resize(f'articles-images/{featured_image_filename}')
+
+    img = Image.open(featured_image_filpath)
+    # background  = Image.open("articles-images/acorus-calamus-botany-morphology-old.jpg")
+
+    w_banner = img.size[0]
+    y_banner = img.size[1] // 2
+    base = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 0))
+    top = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 255))
+    # base = Image.new('RGBA', (w_banner, y_banner), '#0f766e')
+    # top = Image.new('RGBA', (w_banner, y_banner), '#0f766e')
+    mask = Image.new('L', (w_banner, y_banner))
+    mask_data = []
+    for y in range(y_banner):
+        mask_data.extend([int(255 * (y / y_banner))] * w_banner)
+    mask.putdata(mask_data)
+    
+    y_img = img.size[1]
+    base.paste(top, (0, 0), mask)
+
+    img.paste(base, (0, y_img - y_banner), base)
+
+    
+    latin_name = entity.replace('-', ' ').capitalize()
+    line = f'{latin_name} morphology'
+    draw = ImageDraw.Draw(img)
+    font_size = 36
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox('y')[3]
+    draw.text((w_banner//2 - line_w//2, y_img - line_h - 30), line, '#ffffff', font=font)
+
+    img.save(f'{featured_image_filpath}', format='JPEG', subsampling=0, quality=100)
+
     # print(featured_image_filpath)
     featured_image_filpath = '/' + '/'.join(featured_image_filpath.split('/')[1:])
 
     return featured_image_filpath
+
+
+
 
 
 
@@ -625,11 +663,12 @@ except: pass
 try: os.mkdir(f'website')
 except: pass
 
-try: os.mkdir(f'website/assets')
-except: pass
-try: os.mkdir(f'website/assets/images')
-except: pass
-
+chunks = website_img_path.split('/')
+curr_chunk = ''
+for chunk in chunks:
+    curr_chunk += chunk + '/'
+    try: os.mkdir(curr_chunk)
+    except: pass
 
 
 articles_home = []
@@ -673,6 +712,24 @@ for row in articles_master_rows:
             article += f'![{title}]({featured_image_filpath} "{title}")\n\n'
         except:
             print(f'WARNING: missing image ({entity})')
+
+        # img_title = 'Morphology of'
+        # llst = []
+        # csv_lines = []
+        # for file in os.listdir(f'database/tables/morphology'):
+        #     tmp_lst = []
+        #     first_line = []
+        #     with open(f'database/tables/morphology/{file}', encoding='utf-8', errors='ignore') as f:
+        #         reader = csv.reader(f, delimiter="\\")
+        #         for i, line in enumerate(reader):
+        #             if i == 0: first_line = line
+        #             if entity.strip() == line[0].strip():
+        #                 for i in range(len(line[:5])):
+        #                     tmp_lst.append(f'{first_line[i]}: {line[i]}')
+        #                 llst.append(tmp_lst)
+
+        # filepath = img_cheasheet(latin_name, img_title, llst, 'test')
+        # print(filepath)
 
         path = f'database/articles/{entity}/botany/morphology'
 
@@ -1438,4 +1495,4 @@ with open(f'index.html', 'w', encoding='utf-8') as f:
 ##################################################################################################
 shutil.copy2('style.css', 'website/style.css')
 shutil.copy2('index.html', 'website/index.html')
-shutil.copy2('articles-images/hero.jpg', 'website/assets/images/hero.jpg')
+shutil.copy2('articles-images/hero.jpg', f'{website_img_path}/hero.jpg')

@@ -1,6 +1,6 @@
 # Ammi visnaga morphology
 
-![Ammi visnaga morphology](/assets/images/ammi-visnaga-botany-morphology.jpg "Ammi visnaga morphology")
+![Ammi visnaga morphology](/images/ammi-visnaga-botany-morphology.jpg "Ammi visnaga morphology")
 
 Ammi visnaga is a plant with distinctive characteristics in its roots, stems, leaves, flowers, fruits, and seeds. Its fibrous root system branches dichotomously and remains shallow, about 10 cm deep, with fine roots measuring 0.2 cm in diameter. These roots lack root hairs and root nodules. The stems are herbaceous, green, and cylindrical, with nodes and internodes spaced 3-5 cm apart.
 

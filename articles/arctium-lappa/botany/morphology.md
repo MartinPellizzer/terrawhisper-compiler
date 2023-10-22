@@ -1,6 +1,6 @@
 # Arctium lappa morphology
 
-![Arctium lappa morphology](/assets/images/arctium-lappa-botany-morphology.jpg "Arctium lappa morphology")
+![Arctium lappa morphology](/images/arctium-lappa-botany-morphology.jpg "Arctium lappa morphology")
 
 Arctium lappa, commonly known as burdock, exhibits various distinctive morphological characteristics. Its roots form a taproot system with a dichotomous branching pattern, reaching up to 90 cm in length. The stems are herbaceous, not woody, and alternate in arrangement, with a rough, pubescent surface. They can vary in height from 50 to 200 cm. The leaves are broadly ovate, pubescent, and have coarsely serrate margins. They are attached to the stem via petioles and have pinnate venation.
 

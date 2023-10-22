@@ -1,6 +1,6 @@
 # Artemisia annua morphology
 
-![Artemisia annua morphology](/assets/images/artemisia-annua-botany-morphology.jpg "Artemisia annua morphology")
+![Artemisia annua morphology](/images/artemisia-annua-botany-morphology.jpg "Artemisia annua morphology")
 
 Artemisia annua, commonly known as sweet wormwood, has fibrous root system with a dominant taproot, facilitating stability and nutrient absorption. Its branching pattern is dichotomous, with pointed roots and a density of about 2,000 roots per square meter. The roots extend 10-30 cm deep and have a diameter of 0.2-0.5 mm. They are pale beige to white and have sparse, unbranched root hairs.
 

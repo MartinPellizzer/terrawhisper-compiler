@@ -1,6 +1,6 @@
 # Aesculus hippocastanum morphology
 
-![Aesculus hippocastanum morphology](/assets/images/aesculus-hippocastanum-botany-morphology.jpg "Aesculus hippocastanum morphology")
+![Aesculus hippocastanum morphology](/images/aesculus-hippocastanum-botany-morphology.jpg "Aesculus hippocastanum morphology")
 
 The horse chestnut tree, scientifically known as Aesculus hippocastanum, has a well-defined taproot with a conical shape that narrows as it extends downward. The young tree's taproot can reach a depth of up to 2.5 meters, while mature trees can extend it to depths of 4.5 meters. This taproot has lateral roots that spread outward in search of water and nutrients, covering an area up to 8 meters from the trunk.
 

@@ -1,6 +1,6 @@
 # Angelica sinensis morphology
 
-![Angelica sinensis morphology](/assets/images/angelica-sinensis-botany-morphology.jpg "Angelica sinensis morphology")
+![Angelica sinensis morphology](/images/angelica-sinensis-botany-morphology.jpg "Angelica sinensis morphology")
 
 Angelica sinensis, commonly known as Dong Quai, is a herbaceous plant with distinctive characteristics. Its fibrous root system consists of a taproot and adventitious roots, with a moderate lateral branching pattern. These roots are brown to reddish-brown, extending 15-30 cm below the soil and reaching a maximum length of 60 cm. They lack root nodules and have sparse root hairs.
 

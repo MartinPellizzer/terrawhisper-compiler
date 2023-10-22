@@ -1,6 +1,6 @@
 # Acorus calamus taxonomy
 
-![alt](/assets/images/acorus-calamus-botany-taxonomy.jpg "title")
+![alt](/images/acorus-calamus-botany-taxonomy.jpg "title")
 
 ## Taxonomy
 

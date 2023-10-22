@@ -1,6 +1,6 @@
 # Acorus calamus morphology
 
-![Acorus calamus morphology](/assets/images/acorus-calamus-botany-morphology.jpg "Acorus calamus morphology")
+![Acorus calamus morphology](/images/acorus-calamus-botany-morphology.jpg "Acorus calamus morphology")
 
 Acorus calamus, commonly known as sweet flag, possesses a fibrous root system with numerous thin adventitious roots that exhibit dichotomous branching. These roots are creamy-white to pale brown, lack root hairs and lenticels, and have no specialized modifications. They adapt well to wetland habitats and undergo seasonal senescence.
 

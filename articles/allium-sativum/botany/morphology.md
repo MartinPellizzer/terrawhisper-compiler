@@ -1,6 +1,6 @@
 # Allium sativum morphology
 
-![Allium sativum morphology](/assets/images/allium-sativum-botany-morphology.jpg "Allium sativum morphology")
+![Allium sativum morphology](/images/allium-sativum-botany-morphology.jpg "Allium sativum morphology")
 
 Allium sativum, as known as Garlic, has a fibrous root system with branching, tuberous, and non-woody roots that anchor the plant and absorb water and nutrients. These roots are relatively shallow, reaching 10-20 cm in depth, and are whitish, smooth, and lack root nodules. Garlic roots do not form mycorrhizal associations and are well-adapted to cold temperatures.
 

@@ -1,6 +1,6 @@
 # Alpinia officinarum morphology
 
-![Alpinia officinarum morphology](/assets/images/alpinia-officinarum-botany-morphology.jpg "Alpinia officinarum morphology")
+![Alpinia officinarum morphology](/images/alpinia-officinarum-botany-morphology.jpg "Alpinia officinarum morphology")
 
 Alpinia officinarum, commonly known as Lesser Galangal, is characterized by its unique plant features. The plant has a fibrous root system consisting of a main taproot and lateral fibrous roots with dichotomous branching. The main taproot typically reaches a depth of 20-30 centimeters and has a diameter of 1.5 centimeters, while the lateral roots are finer. These light brown roots have a smooth, hairy texture, enabling nutrient and water absorption, without developing nodules.
 

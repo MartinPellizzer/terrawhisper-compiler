@@ -1,6 +1,6 @@
 # Achillea millefolium morphology
 
-![Achillea millefolium morphology](/assets/images/achillea-millefolium-botany-morphology.jpg "Achillea millefolium morphology")
+![Achillea millefolium morphology](/images/achillea-millefolium-botany-morphology.jpg "Achillea millefolium morphology")
 
 Achillea millefolium, commonly known as yarrow, has specific morphological characteristics. Its roots are taproot with dichotomous branching and acute tips, featuring a high density for efficient nutrient absorption. The roots are relatively shallow, about 20 cm deep, with a slender diameter of 1 mm and whitish to light brown color, aiding soil penetration. Yarrow lacks root nodules but has fine, dense root hairs to enhance water and nutrient uptake.
 

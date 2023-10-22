@@ -1,6 +1,6 @@
 # Artemisia absinthium morphology
 
-![Artemisia absinthium morphology](/assets/images/artemisia-absinthium-botany-morphology.jpg "Artemisia absinthium morphology")
+![Artemisia absinthium morphology](/images/artemisia-absinthium-botany-morphology.jpg "Artemisia absinthium morphology")
 
 Artemisia absinthium, commonly known as wormwood, is a plant that has roots that are deep and taproot-based, extending up to 60 cm into the soil. These roots are thin, efficient in nutrient and water absorption, and have limited lateral branching. The stems are herbaceous, erect, and angular, ranging from 30 to 120 cm in height, with rough, pubescent texture. The leaves are lanceolate, grayish-green, and pinnately lobed with no petioles or stipules. 
 

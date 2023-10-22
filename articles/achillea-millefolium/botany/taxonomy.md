@@ -1,6 +1,6 @@
 # Achillea millefolium taxonomy
 
-![alt](/assets/images/achillea-millefolium-botany-taxonomy.jpg "title")
+![alt](/images/achillea-millefolium-botany-taxonomy.jpg "title")
 
 ## Taxonomy
 
