@@ -1,5 +1,7 @@
 # Acorus calamus morphology
 
+![Acorus calamus morphology](/images/acorus-calamus-botany-morphology.jpg "Acorus calamus morphology")
+
 Acorus calamus, commonly known as sweet flag, possesses a fibrous root system with numerous thin adventitious roots that exhibit dichotomous branching. These roots are creamy-white to pale brown, lack root hairs and lenticels, and have no specialized modifications. They adapt well to wetland habitats and undergo seasonal senescence.
 
 The herbaceous stems of Acorus calamus are cylindrical and can grow up to 1.5 meters in height, with whorled arrangement and nodes along their length. The rhizomes, which grow underground, are horizontally arranged, tuberous to cylindrical, and have varying internode lengths.
