@@ -206,8 +206,16 @@ td {
     display: grid;
 }
 
+.grid-1 {
+    grid-template-columns: 1fr;
+}
+
 .grid-2 {
     grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .text-center {
@@ -314,4 +322,20 @@ td {
 
 .articles a {
     text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/* MEDIA **************************************************** */
+
+@media (min-width: 768px) {
+    .articles {
+        grid-template-columns: 1fr;
+    }
 }
