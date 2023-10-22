@@ -1361,6 +1361,18 @@ for article in articles_home:
     '''
 
 
+articles
+
+articles = []
+with open('database/tables/articles.csv', newline='') as f:
+    reader = csv.reader(f, delimiter='\\')
+    for row in reader:
+        articles.append(row)
+
+for article in articles[1:]:
+    print(article)
+
+
 with_sidebar = f'''
     <section class="mt-96">
         <div class="container-lg">

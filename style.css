@@ -334,7 +334,13 @@ td {
 
 /* MEDIA **************************************************** */
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+    .articles {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 576px) {
     .articles {
         grid-template-columns: 1fr;
     }
