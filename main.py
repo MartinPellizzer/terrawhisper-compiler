@@ -1,5 +1,5 @@
-# TODO: update article date (display correct date)
-
+# TODO: make template for second post type
+# TODO: make image for root, (draw line)
 
 import json
 import os
@@ -308,6 +308,7 @@ def img_cycle_of_life(item):
         w//2 - icon_circle_radius, h//2 - icon_circle_radius - circle_radius, 
         w//2 + icon_circle_radius, h//2 + icon_circle_radius - circle_radius), 
         fill=bg_color)
+
     icon.thumbnail(icon_size, Image.Resampling.LANCZOS)
     img.paste(icon, (
         w//2 - icon_size[0]//2,
@@ -333,6 +334,44 @@ def img_cycle_of_life(item):
 
     return output_path
 
+
+def img_morphology_root():
+    img_w = 1024
+    img_h = 1024
+    img = Image.new(mode="RGBA", size=(img_w, img_h), color='#ffffff')
+    draw = ImageDraw.Draw(img)
+    icon = Image.open("assets/icons/roots.png")
+
+    icon_size = 256
+    icon.thumbnail((icon_size, icon_size), Image.Resampling.LANCZOS)
+    img.paste(icon, (img_w//2 - icon_size//2, img_h//2 - icon_size//2), icon)
+    
+    font_size = 48
+    line_hight = 1.5
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = 'Achillea millefolium root morphology'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((
+        img_w//2 - line_w//2, 
+        30), line, '#000000', font=font)
+
+    font_size = 24
+    line_hight = 1.5
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = 'Size: Approximately 20 cm'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((
+        30, 
+        200), line, '#000000', font=font)
+
+    draw.line((img_h - 30, 200, 150, 300), fill=128, width=3)
+
+    img.show()
+    quit()
+
+img_morphology_root()
 
 def img_cheasheet(latin_name, title, lst, img_name):
     img_w, img_h = 768, 2000
@@ -560,7 +599,7 @@ def generate_toc(content_html):
     return content_html_formatted
 
 
-def generate_html(title, article, entity, attribute):
+def generate_html(date, title, article, entity, attribute):
     article_filepath = f'{entity}/{attribute}.md'
     with open(f'articles/{article_filepath}', 'w', encoding='utf-8') as f:
         f.write(article)
@@ -593,7 +632,7 @@ def generate_html(title, article, entity, attribute):
             <section class="my-96">
                 <div class="container">
                     <div class="flex justify-between mb-16">
-                        <span>by Martin Pellizzer - 2023/10/02</span>
+                        <span>by Martin Pellizzer - {date}</span>
                         <span>{reading_time_html}</span>
                     </div>
                     {article_html}
@@ -788,7 +827,7 @@ for row in articles_master_rows:
                 article += generate_table(lines)
 
     # print(attribute.lower())
-    article_filepath = generate_html(title, article, entity, f'{category}/{attribute}')
+    article_filepath = generate_html(date, title, article, entity, f'{category}/{attribute}')
     
     if state == 'published':
         articles_home.append(
