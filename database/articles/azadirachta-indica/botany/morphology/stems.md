@@ -1,0 +1,5 @@
+The stems of Azadirachta indica are woody, covered in bark, and are arranged oppositely, meaning that two stems emerge from each node along the branches. They have a typical cylindrical shape and can reach a considerable height of up to 15 meters (approximately 49.2 feet). In terms of diameter, these stems typically measure around 30 cm (about 11.8 inches).
+
+The color of the neem tree's stem is primarily grayish-brown to dark brown, giving it a characteristic appearance. The texture of the stem is notably rough, owing to its fissured bark, which provides protection and support. The surface of the stem is furrowed and scaly, adding to the tree's distinctiveness.
+
+Nodes are a feature of the neem tree's stems, with typically two nodes per stem segment. These nodes play a role in leaf and branch development. Meanwhile, the internodes, the segments between the nodes, exhibit variable lengths, contributing to the overall height and growth pattern of the tree.

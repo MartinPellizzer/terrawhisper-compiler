@@ -1,0 +1,5 @@
+The leaves of Azadirachta indica are simple, which means they consist of a single leaf blade without subdivisions. They have a lanceolate shape, typically measuring 15-40 cm (5.9-15.7 inches) in length and 3-8 cm (1.2-3.1 inches) in width. The leaves are relatively thin, contributing to their characteristic drooping or horizontal orientation.
+
+The color of Neem leaves is typically dark green, and their texture is smooth and waxy to the touch. They have a glabrous (hairless) surface, making them stand out from many other plant species. The leaf apex tapers to a point, a feature known as acuminate, and the base is uneven and rounded. The leaf margin is serrate, with tooth-like indentations along the edges.
+
+One distinctive aspect of Neem leaves is their pinnate venation, where a single prominent midrib runs along the center of the leaf, giving rise to smaller veins branching off from it. The leaf lamina is pinnately compound, composed of 6-9 leaflets arranged along the midrib. These leaflets are attached to the main stem by petioles, which are relatively short, measuring 1-3 cm (0.4-1.2 inches) in length.

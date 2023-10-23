@@ -907,7 +907,7 @@ html = f'''
                     </h1>
                 </div>
             </div>
-        </section>
+        </section>cd
         {articles_section_morphology_html}
         {articles_section_taxonomy_html}
         <footer>

@@ -322,7 +322,7 @@ def morphology():
     print(f'''
     {i}. INTRO
 
-    Summarize the following text in less than 200 words:
+    Summarize the following text in less than 200 words, without using lists, only discoursive text:
 
 
     ''')
