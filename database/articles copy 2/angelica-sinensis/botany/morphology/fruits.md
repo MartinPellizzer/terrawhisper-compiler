@@ -1,0 +1,5 @@
+Angelica sinensis has fruits that are classified as schizocarps, which means they consist of two mericarps that split upon maturity. They are arranged in umbels, with a divergent distribution pattern and basal attachment to the plant.
+
+In terms of shape, Angelica sinensis fruits are elliptical, measuring approximately 4 cm (1.57 inches) in length, 2 cm (0.79 inches) in width, and 1 cm (0.39 inches) in thickness. They have a dark brown coloration and a dry, slightly rough texture. The fruit's surface appears wrinkled, and it is distinctly ribbed, giving it a textured appearance.
+
+One of the notable features of these fruits is their dehiscence behavior. As they mature, they split into two mericarps, releasing their seeds for dispersal. This splitting characteristic is essential for the natural propagation and spread of Angelica sinensis in its habitat.

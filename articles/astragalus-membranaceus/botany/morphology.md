@@ -30,6 +30,8 @@ One distinctive feature of Astragalus membranaceus roots is the presence of nitr
 
 Additionally, these roots feature abundant fine root hairs. These root hairs play a crucial role in absorbing water and essential nutrients from the soil.
 
+The following table shows in detail the morphological characteristics of Astragalus membranaceus roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Taproot |
@@ -58,6 +60,8 @@ Stem texture is another distinguishing characteristic, and these stems often hav
 Stem nodes are sometimes present on the stems of Astragalus membranaceus, which are points where leaves, branches, or flowers may arise. Depending on the plant, nodes may be absent altogether. The distance between nodes, known as stem internodes, typically measures between 3 to 6 centimeters (1.2 to 2.4 inches).
 
 
+The following table shows in detail the morphological characteristics of Astragalus membranaceus stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Herbaceous (or woody) |
@@ -82,6 +86,8 @@ The coloration of these leaves is uniformly green, and their texture is smooth a
 Leaf margins are described as entire, meaning they are smooth and undivided. The venation pattern on the leaflets is pinnate, with a prominent midrib running along the center of each leaflet. The leaflets themselves are simple, not divided further into smaller units.
 
 The attachment of the leaflets is at a common point, radiating out from a shared junction. Each leaflet is attached to the stem through a short petiole. Notably, stipules are present at the base of these petioles, enhancing the leaf's distinct appearance.
+
+The following table shows in detail the morphological characteristics of Astragalus membranaceus leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -118,6 +124,8 @@ The most common colors of Astragalus membranaceus flowers are shades of purple o
 Each flower comprises five sepals that are fused at the base, and five separate petals that together form the perianth. Inside the perianth, there are ten stamens, with nine of them fused and one remaining free. Additionally, there is a single pistil with a superior ovary and a long, slender style. The stigma, the receptive surface for pollen, is capitate, or round in shape.
 
 Notably, Astragalus membranaceus flowers lack stipules, and they have bracts, which are small leaf-like structures associated with the flowers. The flowers are supported by peduncles of varying lengths, typically between 2 to 5 cm (0.79-1.97 inches), and pedicels, which are usually 0.5 to 1 cm (0.20-0.39 inches) long.
+
+The following table shows in detail the morphological characteristics of Astragalus membranaceus flowers.
 
 | Characteristic | Description |
 | --- | --- |
@@ -158,6 +166,8 @@ The fruit surface is smooth and membranous, and the fruits themselves are glabro
 
 One distinctive feature of Astragalus membranaceus fruits is their dehiscence. These legumes are bivalve, meaning they split open into two valves when they reach maturity. This characteristic facilitates the dispersal of seeds contained within.
 
+The following table shows in detail the morphological characteristics of Astragalus membranaceus fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Legume |
@@ -183,6 +193,8 @@ Astragalus membranaceus seeds are orthotropic, which means they lack endosperm. 
 Unlike some seeds, Astragalus membranaceus seeds lack appendages like wings or awns. Typically, only one seed is found within each seed pod. The seeds are hard and firm, featuring a smooth surface with a fine, slightly wrinkled texture. The seed coat is generally light brown, shining with a thickness of about 0.2 millimeters (0.008 inches).
 
 Seed coat permeability is limited, with some seeds being nearly impermeable. The hilum, a scar marking the seed's attachment point in the pod, is small and inconspicuous. The embryo inside the seed is straight, small, and centrally located. Each seed has two cotyledons, which is a characteristic of dicotyledonous plants.
+
+The following table shows in detail the morphological characteristics of Astragalus membranaceus seeds.
 
 | Characteristic | Description |
 | --- | --- |

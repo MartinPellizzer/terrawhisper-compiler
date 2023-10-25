@@ -32,6 +32,8 @@ Although garlic roots may have sparse, short root hairs, they do not form mycorr
 
 One remarkable feature of garlic roots is their adaptation to cold temperatures. These roots are known for their ability to endure harsh winter conditions, which is why garlic is often planted in the fall for spring harvest. However, once the growing season ends, garlic roots typically undergo senescence, withering as the plant's energy is diverted to bulb development and reproduction.
 
+The following table shows in detail the morphological characteristics of Allium sativum roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Fibrous (adventitious)  |
@@ -66,6 +68,8 @@ Garlic stems usually have a single node, which is situated at the base where the
 
 The texture of garlic stems is smooth and fleshy, offering a pleasant tactile experience when touched. Additionally, their color is primarily green, which is typical for most healthy plant stems.
 
+The following table shows in detail the morphological characteristics of Allium sativum stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Herbaceous (non-woody)  |
@@ -89,6 +93,8 @@ These leaves typically measure between 15 to 40 centimeters (5.9 to 15.7 inches)
 When examining the overall structure of the leaf, you'll find the apex is acuminate, tapering to a sharp point. The base of the leaf is sheathing, meaning it wraps around the stem where it attaches directly. The margin of the leaf is described as entire, which implies a smooth and undivided edge. Garlic leaves exhibit parallel venation, and the lamina, or blade of the leaf, is simple.
 
 One notable feature is the prominent midrib, running along the center of the leaf. This midrib serves as a structural element in the leaf, helping to support its overall shape. The attachment of the leaf to the stem is sessile, meaning there is no distinct petiole or leaf stalk; the leaf is directly attached to the stem.
+
+The following table shows in detail the morphological characteristics of Allium sativum leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -118,6 +124,8 @@ Garlic flowers are organized in an inflorescence type known as an umbel, forming
 
 These small flowers have a funnel-shaped appearance, with approximate dimensions of 5-6 mm (0.2-0.24 inches) in length and 4-5 mm (0.16-0.2 inches) in width. The color of garlic flowers typically ranges from white to pale purple.
 
+The following table shows in detail the morphological characteristics of Allium sativum flowers.
+
 | Characteristic | Description |
 | --- | --- |
 | Inflorescence Type  | Umbel (flat-topped cluster)  |
@@ -137,6 +145,8 @@ These small flowers have a funnel-shaped appearance, with approximate dimensions
 Garlic's fruit type is a capsule, and it typically forms in an umbrella-like arrangement called an umbel. These capsules can be found either individually or clustered together. They have an ovate shape, with specific measurements: about 1.5 cm (0.59 inches) in length, 1.0 cm (0.39 inches) in width, and 0.5 cm (0.20 inches) in thickness. The fruit walls are made up of triangular segments and have a papery texture. Initially pale green, the fruits turn brown or gray as they mature.
 
 The surface of garlic's fruits is smooth and shiny, and they possess a dry and membranous texture. Notably, they lack any distinct markings. At maturity, these fruits become detached from their pedicel, which is the slender stem-like structure that supports them. The pedicel itself is approximately 2 cm (0.79 inches) in length.
+
+The following table shows in detail the morphological characteristics of Allium sativum fruits.
 
 | Characteristic | Description |
 | --- | --- |
@@ -168,6 +178,8 @@ In terms of size, garlic seeds have a length ranging from 5 to 7 millimeters (ap
 The color of the seed coat varies from pale brown to dark brown, giving them a distinctive appearance. The surface of the seed coat is smooth and glossy, while the texture is waxy. The thickness of the seed coat is approximately 0.1 millimeters (around 0.004 inches).
 
 Garlic seeds are attached at their base, known as the hilum. The embryo in these seeds is typically undeveloped when used for planting, with only one cotyledon, which is fleshy in nature. The radicle, or the embryonic root, is underdeveloped in mature garlic seeds.
+
+The following table shows in detail the morphological characteristics of Allium sativum seeds.
 
 | Characteristic | Description |
 | --- | --- |

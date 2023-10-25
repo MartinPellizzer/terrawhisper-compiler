@@ -22,6 +22,8 @@ In terms of diameter, the roots are fine, measuring about 0.08 inches (2 mm). Th
 
 Notably, Ammi visnaga roots lack root hairs, which are often present in other plant species. Additionally, they do not form root nodules. These characteristics collectively contribute to the root system's overall morphology.
 
+The following table shows in detail the morphological characteristics of Ammi visnaga roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Fibrous |
@@ -49,6 +51,8 @@ The internodes, which are the segments between nodes, are approximately 3 to 5 c
 
 Understanding these stem characteristics is valuable for researchers, botanists, and those interested in the plant's biology. These details not only aid in accurate species identification but also play a role in various scientific studies and applications. The specific measurements and characteristics of Ammi visnaga stems are essential for anyone working with or studying this plant.
 
+The following table shows in detail the morphological characteristics of Ammi visnaga stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Herbaceous |
@@ -73,6 +77,8 @@ In terms of arrangement, Ammi visnaga leaves are arranged alternately on the ste
 The venation pattern of these leaves is pinnate, featuring a single main vein that runs through the length of the leaf. The leaf lamina is oblong in shape, and the midrib is prominent, contributing to the overall structure of the leaf.
 
 Intriguingly, Ammi visnaga leaves lack petioles, meaning they are directly attached to the stem, a feature known as being sessile. Stipules, small leaf-like structures often found at the base of leaf stalks in other plants, are notably absent in Ammi visnaga.
+
+The following table shows in detail the morphological characteristics of Ammi visnaga leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -110,6 +116,8 @@ Notably, these flowers lack stipules, which are small leaf-like structures often
 
 The peduncle, or the main stem that supports the inflorescence, is relatively long, allowing the compound umbel to rise above the plant's foliage. In contrast, the pedicels, which connect individual flowers to the main stem, are short in length.
 
+The following table shows in detail the morphological characteristics of Ammi visnaga flowers.
+
 | Characteristic | Description |
 | --- | --- |
 | Flower Type  | Compound umbel |
@@ -145,6 +153,8 @@ Ammi visnaga has schizocarp fruits that are arranged in compound umbels, cluster
 
 Ammi visnaga fruits are typically brown or dark brown in color, and they feature a smooth, glabrous texture. Their surface is characterized by prominent ridges, creating a ribbed appearance. Notably, there are no distinct markings on these fruits. In terms of dehiscence, the fruits follow a unique pattern. Each schizocarp splits into two indehiscent halves.
 
+The following table shows in detail the morphological characteristics of Ammi visnaga fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Schizocarp (split into two mericarps) |
@@ -170,6 +180,8 @@ Ammi visnaga has seeds that are of the achene type, commonly found in a solitary
 In terms of size, these seeds measure approximately 3.5 millimeters in length, 2.0 millimeters in width, and 1.0 millimeter in thickness. They are characterized by their hardness and appear brown in color, with a smooth and shiny seed coat surface. The thickness of the seed coat is about 0.1 millimeters.
 
 One notable trait of these seeds is their impermeable nature, making them resistant to water penetration. The hilum, where the seed is attached, is situated near the pointed end of the seed. The embryo inside the seed is curved, and the seeds are dicotyledonous, meaning they contain two cotyledons.
+
+The following table shows in detail the morphological characteristics of Ammi visnaga seeds.
 
 | Characteristic | Description |
 | --- | --- |

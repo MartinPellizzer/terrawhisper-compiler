@@ -28,6 +28,8 @@ The color of Aplinia officinarum roots is generally light brown, and their textu
 
 Aplinia officinarum roots do not develop nodules. These morphological characteristics collectively define the root system of Aplinia officinarum, highlighting its adaptability and functional traits for nutrient uptake and anchorage in its habitat.
 
+The following table shows in detail the morphological characteristics of Alpinia officinarum roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Fibrous |
@@ -53,6 +55,8 @@ The color of these stems is predominantly green, often marked by reddish or brow
 
 Stem nodes on Alpinia officinarum are distinct and serve as points where leaves and branches originate. The internodes, which are the spaces between these nodes, measure about 10 to 30 centimeters (3.94 to 11.81 inches) in length.
 
+The following table shows in detail the morphological characteristics of Alpinia officinarum stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Herbaceous, non-woody |
@@ -66,31 +70,6 @@ Stem nodes on Alpinia officinarum are distinct and serve as points where leaves 
 | Stem Nodes  | Distinct nodes with leaves and branches |
 | Stem Internodes  | Approximately 10-30 centimeters (3.94-11.81 inches) |
 
-## Rhizomes
-
-
-
-Alpinia officinarum has a rhizome that is arranged in a sympodial way, meaning that new growth occurs from the terminal bud of the previous rhizome. This growth pattern contributes to its sustainable propagation.
-
-In terms of shape, the rhizomes are cylindrical, resembling elongated tubers. They can reach a height of 20 to 60 centimeters (7.87 to 23.62 inches) and have a diameter ranging from 1 to 3 centimeters (0.39 to 1.18 inches). These dimensions make them suitable for various culinary and medicinal purposes.
-
-The color of the rhizomes is typically light brown to reddish-brown, providing a visual cue for their identification. Additionally, their surface texture is smooth and glossy, which aids in distinguishing them from other plant parts.
-
-Rhizome nodes, where leaves and lateral branches may emerge, are usually found at intervals along the rhizome. Alpinia officinarum typically features 1 to 3 nodes on its rhizomes. These nodes serve as potential sites for future growth.
-
-Between these nodes, the rhizome's internodes span 5 to 15 centimeters (1.97 to 5.91 inches). These internodal regions are essential for the storage and transportation of nutrients and water within the plant.
-
-| Characteristic | Description |
-| --- | --- |
-| Rhizome Arrangement  | Sympodial |
-| Rhizome Shape  | Cylindrical |
-| Rhizome Height  | 20-60 cm (7.87-23.62 inches) |
-| Rhizome Diameter  | 1-3 cm (0.39-1.18 inches) |
-| Rhizome Color | Light brown to reddish-brown |
-| Rhizome Surface Texture  | Smooth, glossy |
-| Rhizome Nodes  | 1-3 nodes along the rhizome |
-| Rhizome Internodes  | 5-15 cm (1.97-5.91 inches) between nodes |
-
 ## Leaves
 
 
@@ -100,6 +79,8 @@ Alpinia officinarum has leaves that are relatively simple, with an oblong shape,
 The leaves of Alpinia officinarum are arranged alternately along the stem and oriented vertically. The apex of these leaves is acute, while the base is cuneate, giving them a distinctive overall appearance. The leaf margin is entire, and the venation is parallel, further enhancing their aesthetic appeal.
 
 In terms of leaf structure, Alpinia officinarum leaves are simple, with a prominent midrib running along the center. They attach to the stem through petioles that are approximately 2 centimeters in length. Interestingly, stipules, a common feature in many plant species, are absent in Alpinia officinarum leaves.
+
+The following table shows in detail the morphological characteristics of Alpinia officinarum leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -136,6 +117,8 @@ Upon touch, the flowers are smooth and glabrous, lacking hair or trichomes. Each
 The reproductive structures of these flowers include one fertile stamen and two sterile staminodes, along with a single pistil. The ovary is located beneath the other floral parts, making it an inferior ovary with three lobes. The style extends from the ovary and terminates with a lobed stigma at its tip.
 
 Notably, Alpinia officinarum flowers do not have stipules, and their bracts are small and inconspicuous. The flowers are borne on a peduncle that varies in length, supporting the inflorescence, while each individual flower is attached to the inflorescence through a short pedicel.
+
+The following table shows in detail the morphological characteristics of Alpinia officinarum flowers.
 
 | Characteristic | Description |
 | --- | --- |
@@ -174,6 +157,8 @@ In terms of shape, the fruits of Alpinia officinarum are oblong, measuring appro
 
 Upon touch, these fruits have a smooth, leathery texture with a glabrous, hairless surface. Notably, they lack prominent markings. One distinct feature of these fruits is their dehiscence, which occurs in three parts. When they reach maturity, the capsules split open, releasing their seeds.
 
+The following table shows in detail the morphological characteristics of Alpinia officinarum fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Capsule |
@@ -199,6 +184,8 @@ Alpinia officinarum has seeds that are of the endospermic type, which means they
 Notably, these seeds lack any appendages. They are hard and have a dark brown seed coat that is smooth, shiny, and thin. The seed coat is impermeable, meaning it does not allow the passage of water or gases. One distinctive feature is the absence of a visible scar known as the hilum.
 
 The embryo within the seed is small and centrally located, while the cotyledons are present as two dicotyledonous structures. Additionally, each seed contains a radicle, which emerges from one end of the seed.
+
+The following table shows in detail the morphological characteristics of Alpinia officinarum seeds.
 
 | Characteristic | Description |
 | --- | --- |

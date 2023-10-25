@@ -1,0 +1,3 @@
+Ammi visnaga has schizocarp fruits that are arranged in compound umbels, clustered on the umbels' pedicels. In terms of shape, they exhibit an oblong to ovoid structure, with precise measurements: 2-3 mm in length and 1.5 mm in width, while the thickness measures approximately 1 mm.
+
+Ammi visnaga fruits are typically brown or dark brown in color, and they feature a smooth, glabrous texture. Their surface is characterized by prominent ridges, creating a ribbed appearance. Notably, there are no distinct markings on these fruits. In terms of dehiscence, the fruits follow a unique pattern. Each schizocarp splits into two indehiscent halves.

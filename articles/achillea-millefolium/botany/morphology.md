@@ -30,17 +30,19 @@ The color of the roots is predominantly whitish to light brown, providing a visu
 
 Achillea millefolium does not form root nodules, which are commonly associated with nitrogen-fixing plants. However, it does possess fine and dense root hairs. These root hairs increase the root's surface area, facilitating the absorption of water and nutrients from the soil.
 
+The following table shows in detail the morphological characteristics of Achillea millefolium roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Fibrous |
-| Root Structure  | Taproot with lateral roots (taproot with lateral roots) |
+| Root Structure  | Taproot with lateral roots |
 | Root Branching  | Dichotomous branching pattern |
 | Root Tips  | Acute tips (sharp tips) |
 | Root Density  | Approx. 280 roots per cm2 (approx. 1800 roots per square inch) |
 | Root Depth  | 20 cm (7.87 inches) |
 | Root Diameter  | 1 mm (0.04 inches) |
 | Root Length  | 30 cm (11.81 inches) |
-| Root Color  | Whitish to light brown (whitish to light brown) |
+| Root Color  | Whitish to light brown |
 | Root Surface Texture  | Smooth surface |
 | Root Nodules  | Absent |
 | Root Hairs  | Fine, dense root hairs |
@@ -56,6 +58,8 @@ In terms of shape, the stems of Achillea millefolium are cylindrical, giving the
 The color of these stems is predominantly green, as is common among many plant species. Their texture is characterized by fine hairs, known as pubescence, which cover the surface, giving them a slightly fuzzy feel. In contrast to some rough-stemmed plants, the stems of Achillea millefolium are relatively smooth.
 
 Notably, the nodes along these stems are frequent and closely spaced, creating numerous points of leaf and branch attachment. The internodes, or the segments of stem between nodes, are relatively short, indicating a compact, branching growth pattern.
+
+The following table shows in detail the morphological characteristics of Achillea millefolium stems.
 
 | Characteristic | Description |
 | --- | --- |
@@ -81,6 +85,8 @@ The leaves are typically green, although the exact shade may vary. They have a p
 Achillea millefolium leaves display an alternate arrangement on the stem and an erect orientation, meaning they stand vertically. The venation of the leaves is pinnate, resembling a feather-like structure. The leaf lamina is simple, and a prominent midrib runs through the center of the leaf.
 
 These leaves are attached to the stem via petioles, with lengths ranging from 2 to 10 centimeters (0.8 to 4 inches). Stipules, which are small leaf-like structures found at the base of the petioles, are absent in this species.
+
+The following table shows in detail the morphological characteristics of Achillea millefolium leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -115,6 +121,8 @@ The flowers of yarrow consist of two primary types: disk flowers and ray flowers
 The color of Achillea millefolium flowers is predominantly white or pinkish, with distinct yellow centers. These flowers have a smooth texture and a shiny surface. They lack sepals, and their petals are arranged in a pentamerous fashion, with five petals in each flower. The stamen number matches the number of petals (five), while the pistil is singular. The ovary is situated beneath the petals and is approximately 1 mm in length. The style is short, around 1 mm, and ends in a bifid stigma.
 
 Yarrow flowers also possess bracts, which are linear and green in color. These flowers are stalked (pedicellate) and typically grow on peduncles of varying lengths, supporting the inflorescence's structure. Each individual flower attaches to the peduncle via a pedicel, which also varies in length depending on the specific flower.
+
+The following table shows in detail the morphological characteristics of Achillea millefolium flowers.
 
 | Characteristic | Description |
 | --- | --- |
@@ -155,6 +163,8 @@ The color of these achenes tends to be brown to gray. They have a smooth and glo
 
 One unique characteristic of Achillea millefolium's fruits is the absence of dehiscence. This means that the achenes do not split open to release their seeds. Instead, they remain intact within the fruit.
 
+The following table shows in detail the morphological characteristics of Achillea millefolium fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Achene (1/16 - 1/8 inch diameter) |
@@ -180,6 +190,8 @@ The seeds of Achillea millefolium are classified as achenes and are typically ar
 In terms of size, the seeds are relatively small. They measure 2.5 millimeters (0.098 inches) in length, 0.8 millimeters (0.0315 inches) in width, and 0.3 millimeters (0.0118 inches) in thickness. The seeds are hard and possess a brown to dark brown seed coat with a smooth, shiny surface. The thickness of the seed coat is approximately 0.1 millimeters (0.0039 inches), and it is impermeable, preventing easy access to the inner seed.
 
 The hilum, a small scar indicating the point of attachment, is often visible on these seeds. Internally, the seed contains a straight embryo with two cotyledons. The radicle, or embryonic root, is tiny and underdeveloped.
+
+The following table shows in detail the morphological characteristics of Achillea millefolium seeds.
 
 | Characteristic | Description |
 | --- | --- |

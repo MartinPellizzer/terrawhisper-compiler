@@ -1,5 +1,7 @@
 # Barosma betulina morphology
 
+![Barosma betulina morphology](/images/barosma-betulina-botany-morphology.jpg "Barosma betulina morphology")
+
 Barosma betulina, a plant with fibrous roots, features a primary taproot and sparse lateral branching. These roots are shallow, reaching 10-20 cm in depth, with a diameter of 0.2-0.5 cm and a length of 15-30 cm. They are brown to reddish-brown, with smooth surfaces covered in fine root hairs, aiding in nutrient and water absorption. Notably, these roots are densely packed, with approximately 5,000 roots per square meter.
 
 The herbaceous stems of Barosma betulina are arranged oppositely and typically grow to heights of 10-20 cm with diameters between 0.2 and 0.5 cm. They are green but may change with maturity, featuring a pubescent texture. Nodes are evenly spaced along the stem, and internodes are 2-5 cm in length.
@@ -28,6 +30,8 @@ One distinctive characteristic of Barosma betulina's roots is their high density
 
 Notably, this plant does not form root nodules, which are often associated with nitrogen-fixing plants.
 
+The following table shows in detail the morphological characteristics of Barosma betulina roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Fibrous |
@@ -53,6 +57,8 @@ The color of Barosma betulina's stem is predominantly green, although this may v
 
 The stem surface is generally smooth, with only minor variations, which could be slightly rough in some cases. Nodes along the stem are present and occur at regular intervals, adding structure and support to the plant. Stem internodes, the segments of the stem between nodes, are typically about 2 to 5 centimeters (0.79 to 1.97 inches) in length.
 
+The following table shows in detail the morphological characteristics of Barosma betulina stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Herbaceous (or woody) |
@@ -77,6 +83,8 @@ In terms of arrangement, Barosma betulina leaves are opposite, with an alternati
 A distinctive feature of these leaves is their pinnate venation, characterized by a single prominent midrib along the center, from which smaller veins branch off. The leaf lamina, or the overall shape of the leaf, is ovate or egg-shaped. The midrib, which is notably prominent, adds to the leaf's structure and support.
 
 Leaf attachment in Barosma betulina is petiolate, meaning the leaves are attached to the stem via a petiole. The petiole is relatively short, measuring about 1 to 2 millimeters in length. One notable absence in this plant's leaves is stipules; they do not have the small leaf-like structures, stipules, that are common in some other plants.
+
+The following table shows in detail the morphological characteristics of Barosma betulina leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -111,6 +119,8 @@ The flowers are small, with a bell-shaped structure measuring approximately 0.5 
 These buchu flowers consist of five floral parts, including sepals and petals that are fused at their base. In addition to the fused floral parts, each flower possesses five stamens that alternate with the petals, as well as a single, terminal pistil with a superior ovary. The style of the pistil is filiform and measures about 0.2 cm (0.08 inches) in length, while the stigma takes on a capitate (round) form.
 
 Notably, Barosma betulina lacks stipules, and its bracts, when present, are tiny and inconspicuous, typically located near the base of the pedicel. Speaking of pedicels, they are relatively short, measuring about 0.1 cm (0.04 inches) in length if present. However, the peduncle is typically absent, indicating that the flowers are axillary in attachment.
+
+The following table shows in detail the morphological characteristics of Barosma betulina flowers.
 
 | Characteristic | Description |
 | --- | --- |
@@ -149,6 +159,8 @@ In terms of their shape, Barosma betulina fruits are typically ovate, with dimen
 
 The texture of these fruits is smooth, and their surface has a glossy finish. Unlike some other fruit types, they do not display any distinct markings. Importantly, these drupes are indehiscent, meaning they do not split open to release their seeds naturally.
 
+The following table shows in detail the morphological characteristics of Barosma betulina fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Drupe |
@@ -174,6 +186,8 @@ The seeds of Barosma betulina are dicotyledonous and they are typically arranged
 The seeds of Barosma betulina are relatively small, measuring approximately 2.5 mm in length, 1.5 mm in width, and 1 mm in thickness. They are characterized by their hardness, presenting a woody texture. The seed coat is brown, smooth, and exhibits a shiny, glossy surface. Its thickness is about 0.2 mm, making it impermeable to water.
 
 The hilum, a small scar where the seed is attached to the fruit, is located at one end of the seed. Within the seed, a tiny, rudimentary embryo can be found. Furthermore, the seed contains two fleshy and thick cotyledons, essential for the initial growth of the plant. Additionally, a small radicle, which is the embryonic root, emerges from the hilum scar.
+
+The following table shows in detail the morphological characteristics of Barosma betulina seeds.
 
 | Characteristic | Description |
 | --- | --- |

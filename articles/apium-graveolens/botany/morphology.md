@@ -30,6 +30,8 @@ The surface texture of celery roots is smooth, which aids in their ability to mo
 
 Root hairs on celery are relatively sparse and fine. These fine hairs help in nutrient and water absorption from the surrounding soil. They are essential for the overall health and growth of the plant.
 
+The following table shows in detail the morphological characteristics of Apium graveolens roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Fibrous |
@@ -57,6 +59,8 @@ In color, celery stems are uniformly green. Their texture is smooth to the touch
 
 Stems of Apium graveolens are segmented by nodes, where leaves are attached. These nodes are an essential part of the plant's structure and play a role in the growth and development of celery. The internodes, which are the spaces between the nodes, typically measure 2-5 cm (approximately 0.8-2 inches) in length.
 
+The following table shows in detail the morphological characteristics of Apium graveolens stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Herbaceous, hollow |
@@ -83,6 +87,8 @@ The apex of celery leaves is described as acute, and the base is truncate. The l
 One prominent feature of celery leaves is the central midrib that runs along the leaf's length. The leaves are petiolate, meaning they are attached to the stem via a stalk-like structure called the petiole, which can vary in length from 10 to 30 cm (4 to 12 inches).
 
 Notably, celery leaves lack stipules, which are small leaf-like structures at the base of the petiole found in some plant species.
+
+The following table shows in detail the morphological characteristics of Apium graveolens leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -117,6 +123,8 @@ Flowers of Apium graveolens have a hypogynous attachment, which means the floral
 The color of Apium graveolens flowers typically ranges from white to greenish-white, and they have a smooth, glabrous texture. Notably, they lack sepals but possess five distinct, alternating petals, forming a perianth. Inside, there are five stamens and a pistil composed of two fused carpels.
 
 The ovary of the flower is inferior, positioned below the attachment point of other floral parts. The style is short, and the stigma is bifid, split into two parts. Stipules are absent, and bracts are present at the base of the umbel. Additionally, each flower is attached to a peduncle, which is the main stalk of the umbel, and a pedicel, which is the stalk of an individual flower in the umbel.
+
+The following table shows in detail the morphological characteristics of Apium graveolens flowers.
 
 | Characteristic | Description |
 | --- | --- |
@@ -157,6 +165,8 @@ In terms of shape, celery fruits are ovoid, typically measuring 1.5-2 centimeter
 
 One notable characteristic of celery fruits is the absence of distinct markings. Additionally, these fruits exhibit dehiscence, which means they split open upon reaching maturity, aiding in seed dispersal.
 
+The following table shows in detail the morphological characteristics of Apium graveolens fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Schizocarp (split into two mericarps) |
@@ -184,6 +194,8 @@ In terms of appearance, celery seeds typically have a light to dark brown seed c
 When examining the seed itself, a small scar known as the hilum can be observed at the base of the seed. The embryo within the seed is straight and minimally curved, while the two cotyledons are distinct and fleshy. The radicle, or the embryonic root, is short and emerges from the embryo.
 
 These precise morphological characteristics of celery seeds play a vital role in its reproduction and growth. The seed's impermeable coat helps protect it from environmental factors, and the two cotyledons stored inside provide essential nutrients for the germinating plant. The straight embryo and short radicle are key elements in the early stages of seed germination.
+
+The following table shows in detail the morphological characteristics of Apium graveolens seeds.
 
 | Characteristic | Description |
 | --- | --- |

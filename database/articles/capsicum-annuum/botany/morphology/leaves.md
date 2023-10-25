@@ -1,0 +1,7 @@
+The leaves of Capsicum annuum are generally simple, with an elliptical shape that ranges from 2 to 8 centimeters in length and 0.5 to 3 centimeters in width (or approximately 0.79 to 3.15 inches long and 0.2 to 1.18 inches wide in the imperial system). They are arranged alternately on the stem and stand erect with a vertical orientation.
+
+The leaves have a characteristic green color and a smooth or slightly textured surface, appearing glabrous, meaning they lack hair. At the apex, the leaves come to a point with an acute tip, while their base is wedge-shaped or cuneate. The margins of Capsicum annuum leaves are typically smooth and unbroken, exhibiting an entire configuration.
+
+Vein patterns on the leaves follow a pinnate arrangement, resembling a feather with numerous smaller veins stemming from the midrib. The leaves themselves are simple, indicating they are undivided and not segmented.
+
+The midrib, a prominent feature, runs down the center of the leaf. The attachment of the leaf to the stem occurs via a petiole, which measures 2 to 8 centimeters in length (or approximately 0.79 to 3.15 inches in the imperial system). Notably, stipules are usually absent, or if present, they are small and inconspicuous.

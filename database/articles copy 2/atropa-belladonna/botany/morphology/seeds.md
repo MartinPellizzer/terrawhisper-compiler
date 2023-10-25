@@ -1,0 +1,3 @@
+The seeds of Atropa belladonna are typically solitary, with an oval shape measuring about 4 mm in length, 2 mm in width, and 1 mm in thickness. They are known for their hardness, as they have a hard and woody texture. The seed coat is dark brown to black, appearing smooth and slightly wrinkled, with a thickness of approximately 0.1 mm. Notably, this seed coat is impermeable to both water and gases.
+
+The seed hilum, the point of attachment for the radicle (the embryonic root), is small and inconspicuous. Beneath the seed coat, one can find the tiny embryo, which is often hidden from view. Interestingly, Atropa belladonna seeds contain two cotyledons. These cotyledons are a part of the embryonic plant and serve as the initial food source for the developing seedling.

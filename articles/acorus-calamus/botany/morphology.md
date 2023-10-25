@@ -32,6 +32,8 @@ Furthermore, the roots release allelopathic compounds, such as β-asarone, which
 
 While these roots do not form nitrogen-fixing nodules, they may engage in mycorrhizal associations, enhancing their capacity to absorb nutrients from the soil.
 
+The following table shows in detail the morphological characteristics of Acorus calamus roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Fibrous  |
@@ -66,6 +68,8 @@ While the stems of Acorus calamus are fascinating, the rhizomes, which grow unde
 
 Their shape varies, ranging from tuberous to cylindrical, and they typically have a height of 10-30 cm (3.9-11.8 inches). Rhizomes have a diameter of about 1-2 cm (0.4-0.8 inches), and their nodes are sporadically present, meaning they aren't as consistently spaced as the stem nodes. The internodes of the rhizomes can vary in length, typically measuring 1-5 cm (0.4-2 inches). They have a fleshy texture with a somewhat waxy surface and are often light to dark brown in color.
 
+The following table shows in detail the morphological characteristics of Acorus calamus stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Herbaceous  |
@@ -97,6 +101,8 @@ Acorus calamus leaves are typically green and possess a waxy sheen, contributing
 The margin of Acorus calamus leaves is typically entire and may have a slightly wavy appearance. Their venation is parallel, and the lamina is simple and undivided. A prominent midrib runs through the length of each leaf. These leaves attach directly to the stem without petioles and lack stipules.
 
 One notable feature of Acorus calamus leaves is their persistence, as they remain evergreen throughout the plant's life cycle.
+
+The following table shows in detail the morphological characteristics of Acorus calamus leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -135,6 +141,8 @@ The ovary is positioned above the sepals and petals, which is referred to as a s
 
 Notably, Acorus calamus flowers are enclosed by green bracts, a feature that distinguishes them. However, they lack stipules. Interestingly, these flowers do not have a peduncle and are borne directly on the stem.
 
+The following table shows in detail the morphological characteristics of Acorus calamus flowers.
+
 | Characteristic | Description |
 | --- | --- |
 | Flower Type  | Hermaphrodite  |
@@ -172,6 +180,8 @@ The arrangement of these fruits is clustered, meaning they grow in groups close 
 
 The fruits of Acorus calamus are attached to a central axis, which is a common feature in many clustered fruit arrangements. Their pedicels, or the small stalks that attach the fruits to the stem, are short, measuring less than 1 cm (0.39 inches) in length.
 
+The following table shows in detail the morphological characteristics of Acorus calamus fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Berry  |
@@ -200,6 +210,8 @@ In terms of arrangement, Acorus calamus seeds are typically solitary, occurring 
 The seeds' outer coat is brown in color, characterized by a smooth texture and a relatively thin thickness. This outer coat is impermeable to water, which helps protect the inner seed contents. The seed's hilum, or the scar where it was attached to the fruit, is linear and positioned along the length of the seed.
 
 Within the seed, there is a straight embryo that is centrally located within the endosperm. The presence of endosperm, the protective seed coat, and the central embryo are essential characteristics for the successful development and germination of Acorus calamus seeds.
+
+The following table shows in detail the morphological characteristics of Acorus calamus seeds.
 
 | Characteristic | Description |
 | --- | --- |

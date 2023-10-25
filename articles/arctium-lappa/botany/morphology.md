@@ -20,6 +20,8 @@ Root tips are sharp and pointed, allowing for efficient penetration into the gro
 
 In terms of depth, Arctium lappa's roots typically extend between 30 and 60 cm (12 to 24 inches) into the soil, aiding the plant's stability and access to resources. Unlike some other plants, Arctium lappa does not form root nodules.
 
+The following table shows in detail the morphological characteristics of Arctium lappa roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Taproot |
@@ -55,6 +57,8 @@ Arctium lappa stems have a rough surface, which aids in protecting the plant fro
 
 Stems also feature distinct nodes where leaves and branches grow, and these nodes are separated by varying lengths of internodes, providing attachment points for leaves, flowers, and fruit.
 
+The following table shows in detail the morphological characteristics of Arctium lappa stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Herbaceous (non-woody) |
@@ -79,6 +83,8 @@ In terms of size, Arctium lappa leaves typically measure 20-40 cm (7.9-15.7 inch
 The leaf apex tapers to a slender point, described as acuminate, while the base is cordate or heart-shaped. The leaf margin features large, sharp teeth, referred to as coarsely serrate. The venation is pinnate, with a single prominent main vein and smaller branching veins.
 
 These leaves have an undivided lamina, and a noticeable midrib runs along the center. They attach to the stem via a petiole, which measures 5-15 cm (2-5.9 inches) in length. Additionally, stipules, in a lanceolate shape, are present near the leaf base.
+
+The following table shows in detail the morphological characteristics of Arctium lappa leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -115,6 +121,8 @@ In terms of color, these flowers typically appear in shades of purple to pink or
 Each flower possesses five green, lanceolate sepals and five fused petals with small lobes at the tip, making up the corolla. Within the flowers, there are five stamens, alternately positioned with the petals, bearing filaments and anthers for pollen production. The single pistil consists of an elongated ovary, style, and a bifurcated stigma.
 
 These flowers exhibit an inferior ovary, positioned below the attachment point, and a long, slender style. The absence of stipules is a notable feature, while the involucre surrounds the capitulum with hooked bracts. The tall peduncle supports the capitulum, with a height ranging from 50 to 150 cm (20 to 60 inches), while the pedicels are short, measuring 1 to 2 cm (0.4 to 0.8 inches).
+
+The following table shows in detail the morphological characteristics of Arctium lappa flowers.
 
 | Characteristic | Description |
 | --- | --- |
@@ -153,6 +161,8 @@ One noteworthy feature of Arctium lappa is the arrangement of its fruits. They a
 
 The specific morphology of Arctium lappa's fruits plays a vital role in their dispersal and propagation. The achenes are well-suited for attachment to animal fur, clothing, or passing objects due to their small size and smooth surface. This facilitates their distribution and the establishment of new plants in different locations.
 
+The following table shows in detail the morphological characteristics of Arctium lappa fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Achene (small, dry, 4-7 mm long) |
@@ -182,6 +192,8 @@ The seeds are further distinguished by their brown to dark brown color and a smo
 Notably, the seed coat of burdock seeds is impermeable to water, which necessitates a process called scarification to aid germination. Scarification involves mechanically or chemically breaking the seed coat to allow water absorption.
 
 The seeds also feature a distinct hilum, which is the scar marking the point of attachment to the fruit. Within the seed, a small embryo is embedded, along with two cotyledons (seed leaves) and a short, embryonic root called the radicle.
+
+The following table shows in detail the morphological characteristics of Arctium lappa seeds.
 
 | Characteristic | Description |
 | --- | --- |

@@ -20,6 +20,8 @@ The root tips of Atropa belladonna are pointed, and the root structure is fibrou
 
 Roots of Atropa belladonna are dark brown to black in color and possess a rough, slightly wrinkled surface texture. Unlike some other plants, this species does not form root nodules. Root hairs on Atropa belladonna are sparse, fine, and non-glandular.
 
+The following table shows in detail the morphological characteristics of Atropa belladonna roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Taproot |
@@ -47,6 +49,8 @@ The stem's color is primarily green, typical of most plants. It has a smooth and
 
 Stem nodes are prominent points along the stem where leaves are attached, and the internodes, which are the spaces between nodes, measure approximately 10 to 15 centimeters (3.9 to 5.9 inches).
 
+The following table shows in detail the morphological characteristics of Atropa belladonna stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Herbaceous (non-woody) |
@@ -73,6 +77,8 @@ The leaf margins are smooth and entire, lacking any serrations or lobes. A close
 The attachment of Atropa belladonna leaves to the stem is petiolate, meaning they have a short petiole measuring 2 to 5 centimeters (0.8 to 2 inches) in length. Notably, stipules are absent in this species.
 
 The leaves' apex is acute, forming a pointed tip, and their bases are rounded. They possess a smooth, glabrous texture and a simple, unlobed lamina.
+
+The following table shows in detail the morphological characteristics of Atropa belladonna leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -114,6 +120,8 @@ The pistil in an Atropa belladonna flower is singular, composed of an inferior o
 
 Notably, Atropa belladonna lacks stipules, and its bracts are small and leaf-like. Additionally, the flowers are held on short peduncles and pedicels, contributing to the distinctive appearance of this fascinating plant.
 
+The following table shows in detail the morphological characteristics of Atropa belladonna flowers.
+
 | Characteristic | Description |
 | --- | --- |
 | Flower Type  | Solitary (1) or cymose (2-4) clusters |
@@ -151,6 +159,8 @@ In terms of physical dimensions, the fruits are approximately 1 centimeter (0.39
 
 One notable trait of Atropa belladonna's fruit is that it is indehiscent, meaning it does not split open upon ripening. This characteristic sets it apart from dehiscent fruits, which naturally split open to release their seeds.
 
+The following table shows in detail the morphological characteristics of Atropa belladonna fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Berry |
@@ -174,6 +184,8 @@ One notable trait of Atropa belladonna's fruit is that it is indehiscent, meanin
 The seeds of Atropa belladonna are typically solitary, with an oval shape measuring about 4 mm in length, 2 mm in width, and 1 mm in thickness. They are known for their hardness, as they have a hard and woody texture. The seed coat is dark brown to black, appearing smooth and slightly wrinkled, with a thickness of approximately 0.1 mm. Notably, this seed coat is impermeable to both water and gases.
 
 The seed hilum, the point of attachment for the radicle (the embryonic root), is small and inconspicuous. Beneath the seed coat, one can find the tiny embryo, which is often hidden from view. Interestingly, Atropa belladonna seeds contain two cotyledons. These cotyledons are a part of the embryonic plant and serve as the initial food source for the developing seedling.
+
+The following table shows in detail the morphological characteristics of Atropa belladonna seeds.
 
 | Characteristic | Description |
 | --- | --- |

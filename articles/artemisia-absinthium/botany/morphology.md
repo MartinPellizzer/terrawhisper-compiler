@@ -20,6 +20,8 @@ Root density in Artemisia absinthium is moderate, typically averaging around 8-1
 
 Unlike some plants that form nodules in association with nitrogen-fixing bacteria, Artemisia absinthium roots do not exhibit root nodules. Instead, they rely on their fine root hairs to extract essential nutrients from the soil.
 
+The following table shows in detail the morphological characteristics of Artemisia absinthium roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Taproot system |
@@ -49,6 +51,8 @@ When it comes to texture, the stems are rough and pubescent, meaning they are co
 
 The stems of Artemisia absinthium have nodes, which are the points along the stem where leaves, branches, or flowers originate. These nodes are spaced along the stem. The internodes, the sections of stem between nodes, are typically 5 to 15 cm (2 to 6 inches) apart, providing a sense of the stem's segmentation.
 
+The following table shows in detail the morphological characteristics of Artemisia absinthium stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Herbaceous, erect |
@@ -73,6 +77,8 @@ In terms of color, Artemisia absinthium leaves are characterized by their grayis
 One of the most prominent features of these leaves is their pinnately lobed margins, which are serrated. The venation pattern is pinnate, and the lamina is bipinnate, contributing to the overall appearance of the leaf.
 
 The midrib of Artemisia absinthium leaves is prominent, adding to their distinctive structure. What sets these leaves apart is the absence of a petiole (leaf stalk) or, if present, a very short one. Furthermore, stipules, small leaf-like structures often found at the base of leaves, are absent in Artemisia absinthium.
+
+The following table shows in detail the morphological characteristics of Artemisia absinthium leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -107,6 +113,8 @@ One striking feature is the flower's actinomorphic symmetry, which means they ar
 In terms of the floral arrangement, Artemisia absinthium typically bears solitary flowers at the stem tips, and the flowers themselves attach directly to the stem. The flowers consist of five floral parts, including the mentioned five petaloid ray florets, five stamens opposite to the petals, and a single central pistil. The pistil has an inferior ovary, located below the attachment point.
 
 Furthermore, the flower's style is bifurcated, splitting into two branches, and the stigma consists of two lobes at the tip of the style. Notably, this plant lacks stipules and bracts around its flowers. The peduncle, which supports the inflorescence, is relatively short, measuring 1-3 cm (0.4-1.2 inches), and the pedicel, which attaches individual flowers, is even shorter, at 1-2 mm (0.04-0.08 inches).
+
+The following table shows in detail the morphological characteristics of Artemisia absinthium flowers.
 
 | Characteristic | Description |
 | --- | --- |
@@ -147,6 +155,8 @@ The color of these achenes is uniformly brown, and they have a smooth texture. O
 
 One remarkable feature of these wormwood fruits is their dehiscence, or lack thereof. Unlike some other plants, Artemisia absinthium achenes are indehiscent, meaning they do not split open at maturity. Instead, they remain closed, encapsulating the single seed within.
 
+The following table shows in detail the morphological characteristics of Artemisia absinthium fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Achene (small, dry, one-seeded) |
@@ -172,6 +182,8 @@ Artemisia absinthium seeds are a type of achene, characterized by their oblong s
 Each seed is generally solitary, arranged singly on the plant. The seeds possess a brown seed coat with a smooth surface, giving them a shiny appearance. The thickness of the seed coat measures around 0.1 to 0.2 millimeters, which provides protection to the seed within. Importantly, these seed coats are impermeable, making it difficult for moisture or other external factors to penetrate.
 
 When looking closely at the seed, one can observe a distinct hilum, which is the point where the seed was attached to the plant. The embryo inside the seed is straight, and each seed contains two cotyledons. Additionally, a radicle is present within the seed, which is essential for the initial stages of seed germination.
+
+The following table shows in detail the morphological characteristics of Artemisia absinthium seeds.
 
 | Characteristic | Description |
 | --- | --- |

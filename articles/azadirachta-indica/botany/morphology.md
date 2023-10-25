@@ -24,6 +24,8 @@ In terms of root depth, the primary taproot can extend up to 2 meters (approxima
 
 The color of Azadirachta indica roots varies from light brown to dark brown. The root surface texture is generally smooth, with fine lateral roots extending from the main branches. Root nodules are typically absent in this species, and root hairs are sparse, fine, and unbranched.
 
+The following table shows in detail the morphological characteristics of Azadirachta indica roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Taproot |
@@ -49,6 +51,8 @@ The color of the neem tree's stem is primarily grayish-brown to dark brown, givi
 
 Nodes are a feature of the neem tree's stems, with typically two nodes per stem segment. These nodes play a role in leaf and branch development. Meanwhile, the internodes, the segments between the nodes, exhibit variable lengths, contributing to the overall height and growth pattern of the tree.
 
+The following table shows in detail the morphological characteristics of Azadirachta indica stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Woody (bark-covered) |
@@ -71,6 +75,8 @@ The leaves of Azadirachta indica are simple, which means they consist of a singl
 The color of Neem leaves is typically dark green, and their texture is smooth and waxy to the touch. They have a glabrous (hairless) surface, making them stand out from many other plant species. The leaf apex tapers to a point, a feature known as acuminate, and the base is uneven and rounded. The leaf margin is serrate, with tooth-like indentations along the edges.
 
 One distinctive aspect of Neem leaves is their pinnate venation, where a single prominent midrib runs along the center of the leaf, giving rise to smaller veins branching off from it. The leaf lamina is pinnately compound, composed of 6-9 leaflets arranged along the midrib. These leaflets are attached to the main stem by petioles, which are relatively short, measuring 1-3 cm (0.4-1.2 inches) in length.
+
+The following table shows in detail the morphological characteristics of Azadirachta indica leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -109,6 +115,8 @@ The neem tree's flowers consist of five floral parts, including five polysepalou
 Reproductive structures include ten diplostemonous stamens and a single monocarpellary ovary. The style is short, measuring 1-2 mm (0.04-0.08 inches) in length, and the stigma is two-lobed. Notably, neem flowers lack stipules, which are small leaf-like structures often found at the base of the petiole in many other plants.
 
 The bracts of Azadirachta indica's flowers are small and inconspicuous, and the peduncle (the main stalk of the inflorescence) and pedicel (the stalk of an individual flower) are relatively short, further defining the flower's appearance.
+
+The following table shows in detail the morphological characteristics of Azadirachta indica flowers.
 
 | Characteristic | Description |
 | --- | --- |
@@ -149,6 +157,8 @@ In terms of texture, these fruits are characterized by a smooth and fleshy exter
 
 Furthermore, neem fruits are dehiscent, meaning they split open when they reach full ripeness. This characteristic facilitates the dispersal of seeds and is a significant feature for the tree's reproductive cycle.
 
+The following table shows in detail the morphological characteristics of Azadirachta indica fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Drupe |
@@ -174,6 +184,8 @@ These seeds of Azadirachta indica are dicotyledonous, typically found either sin
 One notable feature of these seeds is their hardness; they are woody in texture. The seed coat is uniformly brown, exhibiting a smooth and glossy surface. This coat is thin and impermeable, making it resistant to moisture penetration.
 
 The hilum, which is the attachment point of the seed to the fruit, is small and often inconspicuous. Within the seed, a large, well-developed embryo is present, characterized by two fleshy cotyledons. Additionally, the seed contains a single, rudimentary radicle.
+
+The following table shows in detail the morphological characteristics of Azadirachta indica seeds.
 
 | Characteristic | Description |
 | --- | --- |

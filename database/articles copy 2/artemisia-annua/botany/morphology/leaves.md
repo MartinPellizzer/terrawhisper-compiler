@@ -1,0 +1,7 @@
+Artemisia annua has simple leaves, meaning they are not divided into smaller leaflets. The shape of these leaves is lanceolate, typically measuring 2-5 centimeters (0.8-2 inches) in length and 0.5-1 centimeter (0.2-0.4 inches) in width. These leaves are thin, with a thickness ranging from 0.1 to 0.3 millimeters (0.004-0.012 inches).
+
+The leaves are arranged alternately along the stem, and their orientation is erect, meaning they stand upright. The color of Artemisia annua leaves is generally grayish-green, and the texture is described as pubescent, indicating the presence of fine, soft hairs on the leaf surface.
+
+These leaves are dorsiventral, which means they have distinct upper and lower surfaces. At the apex (the tip), the leaves taper to a point, a characteristic known as acuminate. The base of the leaf is cuneate, resembling a wedge shape. The margin of the leaves is described as entire, meaning it is smooth and lacks any teeth or serrations.
+
+The venation of the leaves is pinnate, with a single prominent midrib running along the center of the leaf and lateral veins branching out from it. The lamina of the leaf is simple, not dissected or divided into smaller units. The midrib is notably prominent, and the entire leaf is attached to the stem through a petiole, which typically measures 1-3 centimeters (0.4-1.2 inches) in length. Artemisia annua leaves lack stipules, which are leaf-like structures often found at the base of leaves in some plant species.

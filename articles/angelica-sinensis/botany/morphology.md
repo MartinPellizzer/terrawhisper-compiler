@@ -26,6 +26,8 @@ In terms of color, these roots exhibit a brown to reddish-brown hue, contributin
 
 Notably, Angelica sinensis roots do not form root nodules, which distinguishes them from nitrogen-fixing plants. Additionally, root hairs on these roots are sparsely distributed.
 
+The following table shows in detail the morphological characteristics of Angelica sinensis roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Fibrous |
@@ -55,6 +57,8 @@ The surface of the stem is characterized by striations, marked with fine lines o
 
 The internodes, or the sections of the stem between the nodes, measure approximately 20-30 cm (7.9-11.8 inches). This spacing between nodes is an important aspect of the plant's growth and branching pattern.
 
+The following table shows in detail the morphological characteristics of Angelica sinensis stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Herbaceous |
@@ -79,6 +83,8 @@ In terms of size, Angelica sinensis leaves can be substantial, with lengths rang
 These leaves are characterized by their dark green color, giving the plant its lush appearance. The surface of the leaves is smooth and glabrous, lacking hair-like structures. At the apex, the leaves taper to an acuminate point, while the base is cordate in shape. The margin is serrated, adding to the overall visual texture.
 
 Leaf venation is pinnate, with a prominent midrib running along the center. The leaf attachment is petiolate, with petioles measuring 5 to 20 cm (1.97-7.87 inches) in length. Notably, Angelica sinensis leaves lack stipules.
+
+The following table shows in detail the morphological characteristics of Angelica sinensis leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -115,6 +121,8 @@ In terms of floral structure, each Angelica sinensis flower is composed of five 
 Notably, the sepals and petals of Angelica sinensis are indistinguishable, forming a single perianth structure. The stamens, numbering five, are equipped with filaments measuring 1.5-2 mm long (0.059-0.079 inches), and the pistil is composed of two fused carpels. The ovary is situated below the floral parts, making it hypogynous with a superior ovary.
 
 The flowers have two styles measuring 2-3 mm long (0.079-0.12 inches) and two capitate stigmas. Importantly, Angelica sinensis flowers lack stipules and have inconspicuous bracts. They are borne on peduncles up to 10 cm (3.94 inches) long, with pedicels up to 1 cm (0.39 inches) long.
+
+The following table shows in detail the morphological characteristics of Angelica sinensis flowers.
 
 | Characteristic | Description |
 | --- | --- |
@@ -153,6 +161,8 @@ In terms of shape, Angelica sinensis fruits are elliptical, measuring approximat
 
 One of the notable features of these fruits is their dehiscence behavior. As they mature, they split into two mericarps, releasing their seeds for dispersal. This splitting characteristic is essential for the natural propagation and spread of Angelica sinensis in its habitat.
 
+The following table shows in detail the morphological characteristics of Angelica sinensis fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Schizocarp |
@@ -180,6 +190,8 @@ In terms of size and shape, these seeds are elliptical, measuring 5 mm in length
 One striking feature of Angelica sinensis seeds is their impermeable seed coat, which prevents the entry of water and external substances. They lack a visible hilum, the scar indicating the point of attachment to the fruit, which is a distinctive characteristic.
 
 Inside the seeds, the embryo is straight and small, accompanied by two fleshy cotyledons. Additionally, there is a small radicle present within the seed.
+
+The following table shows in detail the morphological characteristics of Angelica sinensis seeds.
 
 | Characteristic | Description |
 | --- | --- |

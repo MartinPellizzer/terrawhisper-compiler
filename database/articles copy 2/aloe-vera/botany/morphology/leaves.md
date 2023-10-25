@@ -1,0 +1,7 @@
+The leaves of Aloe vera are of a simple structure and exhibit a lanceolate shape. These succulent leaves are arranged in a rosette formation, ascending upright from the plant's base. They are relatively long, measuring approximately 15-20 centimeters (5.9-7.9 inches) in length, with a width ranging from 2-6 centimeters (0.8-2.4 inches). The leaves are notably thick, with a diameter of around 6-8 millimeters (0.2-0.3 inches), and they possess a green color, often with variations in shade.
+
+Aloe vera leaves are characterized by their smooth and fleshy texture. They have a glabrous (hairless) surface, and their apex is pointed or acute. The base of the leaves is truncate, giving them a flat appearance. The margins of the leaves are smooth and unbroken, contributing to their sleek and streamlined look.
+
+One distinctive feature of Aloe vera leaves is their parallel venation, where veins run parallel to each other, enhancing the plant's ability to efficiently transport water and nutrients. The leaf lamina is succulent and contains specialized tissues for water storage. Additionally, a prominent midrib runs down the center of each leaf.
+
+Aloe vera leaves are sessile, meaning they are directly attached to the stem without the presence of a leaf petiole. Stipules, small leaf-like structures often found at the base of leaf petioles in other plants, are absent in Aloe vera.

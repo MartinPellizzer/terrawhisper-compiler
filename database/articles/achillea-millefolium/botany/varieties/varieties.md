@@ -1,0 +1,5 @@
+Achillea millefolium offers a wide range of varieties, each with its unique characteristics and color variations. Among these varieties, 'Red Velvet' stands out with its deep red flower clusters, which give it a rich and velvety appearance. 'Paprika' is known for its striking reddish-orange flowers, reminiscent of the spice it's named after. 'Cerise Queen' boasts vibrant cerise-pink flower heads, adding a regal touch to gardens.
+
+'Moonshine' features flat, lemon-yellow flower clusters, creating a bright and cheery atmosphere. 'Summer Pastels' offers a mix of soft pastel-colored flowers, including shades of pink, cream, and lavender, while 'Lilac Beauty' presents delicate lilac-colored flower heads, adding a graceful and charming touch to gardens.
+
+'Coronation Gold' showcases golden-yellow flower clusters that radiate a regal and elegant aura. 'Saucy Seduction' boasts compact, deep rose-pink flowers, adding allure to gardens. 'Apple Blossom' features soft pink flowers with creamy centers, resembling the colors of apple blossoms.

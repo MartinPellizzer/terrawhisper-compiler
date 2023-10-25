@@ -1,11 +1,11 @@
-# TODO: make template for second post type
+# TODO: make template for second post type (list to table (common name))
 # TODO: make image for root, (draw line)
 
 import json
 import os
 import markdown
 import shutil
-from PIL import Image, ImageFont, ImageDraw, ImageColor
+from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import math
 import re
 import csv
@@ -113,6 +113,16 @@ def generate_table(lines):
     return text
 
 
+def csv_get_rows(filepath):
+    rows = []
+    with open(filepath, encoding='utf-8', errors='ignore') as f:
+        reader = csv.reader(f, delimiter="\\")
+        for i, line in enumerate(reader):
+            rows.append(line)
+    return rows
+
+
+# def csv_get_
 
 ######################################################################
 # IMAGES 
@@ -335,43 +345,86 @@ def img_cycle_of_life(item):
     return output_path
 
 
-def img_morphology_root():
+def img_morphology_root(row, atin_name, category, attribute, file):
     img_w = 1024
     img_h = 1024
-    img = Image.new(mode="RGBA", size=(img_w, img_h), color='#ffffff')
+    img = Image.new(mode="RGBA", size=(img_w, img_h), color='#fafafa')
     draw = ImageDraw.Draw(img)
     icon = Image.open("assets/icons/roots.png")
 
-    icon_size = 256
+    icon_size = 384
+    icon_size = 512
     icon.thumbnail((icon_size, icon_size), Image.Resampling.LANCZOS)
     img.paste(icon, (img_w//2 - icon_size//2, img_h//2 - icon_size//2), icon)
     
     font_size = 48
     line_hight = 1.5
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = 'Achillea millefolium root morphology'
+    line = f'Achillea millefolium {file} morphology'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
     draw.text((
         img_w//2 - line_w//2, 
         30), line, '#000000', font=font)
 
+    # y = img_h - 130
+    # thickness = 8
+    # draw.line((img_w//2 - icon_size//2, y, img_w//2 + icon_size//2, y), fill='#000000', width=thickness)
+    # draw.line((img_w//2 - icon_size//2, y + 50//2, img_w//2 - icon_size//2, y - 50//2), fill='#000000', width=thickness)
+    # draw.line((img_w//2 + icon_size//2, y + 50//2, img_w//2 + icon_size//2, y - 50//2), fill='#000000', width=thickness)
+
     font_size = 24
     line_hight = 1.5
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = 'Size: Approximately 20 cm'
+
+    # line = 'Width: ~20 cm'
+    # line_w = font.getbbox(line)[2]
+    # line_h = font.getbbox(line)[3]
+    # draw.text((img_w//2 - line_w//2, y + line_h), line, '#000000', font=font)
+
+    x = img_w - 130
+    thickness = 8
+    draw.line((x, img_h//2 - icon_size//3, x, img_h//2 + icon_size//3), fill='#000000', width=thickness)
+    draw.line((x - 50//2, img_h//2 - icon_size//3, x + 50//2, img_h//2 - icon_size//3), fill='#000000', width=thickness)
+    draw.line((x - 50//2, img_h//2 + icon_size//3, x + 50//2, img_h//2 + icon_size//3), fill='#000000', width=thickness)
+
+    val = row[6].split('(')[0]
+    line = f'Depth: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
-    draw.text((
-        30, 
-        200), line, '#000000', font=font)
+    img_v = Image.new(mode="RGBA", size=(line_w, line_h), color='#ffffff')
+    draw_v = ImageDraw.Draw(img_v)
+    draw_v.text((0, 0), line, '#000000', font=font)
+    img_v = img_v.rotate(90, expand=1)
+    img.paste(img_v, (x + line_h, img_h//2 - line_w//2), img_v)
 
-    draw.line((img_h - 30, 200, 150, 300), fill=128, width=3)
+    val = row[9].split('(')[0]
+    line = f'Color: {val}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((50, 200), line, '#000000', font=font)
+    thickness = 6
+    draw.line((200 + line_h + 10, 200 + line_h + 10, 475, 475), fill='#ffffff', width=thickness)
+    draw.ellipse((475-thickness, 475-thickness, 475+thickness, 475+thickness), fill=(255,255,255,255))
+    thickness = 2
+    draw.line((200 + line_h + 10, 200 + line_h + 10, 475, 475), fill='#000000', width=thickness)
+    draw.line((50, 200 + line_h + 10, 200 + line_h + 10 + thickness//3, 200 + line_h + 10), fill='#000000', width=thickness)
+    draw.ellipse((475-thickness-1, 475-thickness-1, 475+thickness+1, 475+thickness+1), fill=(0,0,0,255))
 
-    img.show()
-    quit()
+    attribute = attribute.replace('/', '-')
+    featured_image_filename = f'website/images/{entity}-{category}-{attribute}-{file}.jpg'
+    
+    img = img.convert('RGB')
+    img = img.resize((768, 768))
+    img.save(featured_image_filename, format='JPEG', subsampling=0, quality=100)
 
-img_morphology_root()
+    # print(featured_image_filpath)
+    filepath = '/' + '/'.join(featured_image_filename.split('/')[1:])
+
+    return filepath
+    # img.show()
+    # quit()
+
 
 def img_cheasheet(latin_name, title, lst, img_name):
     img_w, img_h = 768, 2000
@@ -486,6 +539,50 @@ def img_cheasheet(latin_name, title, lst, img_name):
     img.save(f'{output_path}', format='JPEG', subsampling=0, quality=100)
 
     return output_path
+
+
+def generate_featured_image(entity, attribute):
+    attribute_filename = attribute.replace('/', '-')
+    featured_image_filename = f'{entity}-{attribute_filename}.jpg'
+    featured_image_filpath = img_resize(f'articles-images/{featured_image_filename}')
+
+    img = Image.open(featured_image_filpath)
+    # background  = Image.open("articles-images/acorus-calamus-botany-morphology-old.jpg")
+
+    w_banner = img.size[0]
+    y_banner = img.size[1] // 2
+    base = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 0))
+    top = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 255))
+    # base = Image.new('RGBA', (w_banner, y_banner), '#0f766e')
+    # top = Image.new('RGBA', (w_banner, y_banner), '#0f766e')
+    mask = Image.new('L', (w_banner, y_banner))
+    mask_data = []
+    for y in range(y_banner):
+        mask_data.extend([int(255 * (y / y_banner))] * w_banner)
+    mask.putdata(mask_data)
+    
+    y_img = img.size[1]
+    base.paste(top, (0, 0), mask)
+
+    img.paste(base, (0, y_img - y_banner), base)
+
+    
+    latin_name = entity.replace('-', ' ').capitalize()
+    line = f'{latin_name} morphology'
+    draw = ImageDraw.Draw(img)
+    font_size = 36
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox('y')[3]
+    draw.text((w_banner//2 - line_w//2, y_img - line_h - 30), line, '#ffffff', font=font)
+
+    img.save(f'{featured_image_filpath}', format='JPEG', subsampling=0, quality=100)
+
+    # print(featured_image_filpath)
+    featured_image_filpath = '/' + '/'.join(featured_image_filpath.split('/')[1:])
+
+    return featured_image_filpath
+
 
 
 
@@ -656,48 +753,6 @@ def generate_html(date, title, article, entity, attribute):
     return article_filepath
 
 
-def generate_featured_image(entity, attribute):
-    attribute_filename = attribute.replace('/', '-')
-    featured_image_filename = f'{entity}-{attribute_filename}.jpg'
-    featured_image_filpath = img_resize(f'articles-images/{featured_image_filename}')
-
-    img = Image.open(featured_image_filpath)
-    # background  = Image.open("articles-images/acorus-calamus-botany-morphology-old.jpg")
-
-    w_banner = img.size[0]
-    y_banner = img.size[1] // 2
-    base = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 0))
-    top = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 255))
-    # base = Image.new('RGBA', (w_banner, y_banner), '#0f766e')
-    # top = Image.new('RGBA', (w_banner, y_banner), '#0f766e')
-    mask = Image.new('L', (w_banner, y_banner))
-    mask_data = []
-    for y in range(y_banner):
-        mask_data.extend([int(255 * (y / y_banner))] * w_banner)
-    mask.putdata(mask_data)
-    
-    y_img = img.size[1]
-    base.paste(top, (0, 0), mask)
-
-    img.paste(base, (0, y_img - y_banner), base)
-
-    
-    latin_name = entity.replace('-', ' ').capitalize()
-    line = f'{latin_name} morphology'
-    draw = ImageDraw.Draw(img)
-    font_size = 36
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line_w = font.getbbox(line)[2]
-    line_h = font.getbbox('y')[3]
-    draw.text((w_banner//2 - line_w//2, y_img - line_h - 30), line, '#ffffff', font=font)
-
-    img.save(f'{featured_image_filpath}', format='JPEG', subsampling=0, quality=100)
-
-    # print(featured_image_filpath)
-    featured_image_filpath = '/' + '/'.join(featured_image_filpath.split('/')[1:])
-
-    return featured_image_filpath
-
 
 
 ######################################################################
@@ -734,7 +789,8 @@ articles_home = []
 
 articles_master_rows = csv_to_llst('database/tables/articles.csv')[1:]
 
-for row in articles_master_rows:
+for i, row in enumerate(articles_master_rows):
+    print(f'{i}/{len(articles_master_rows)}')
     entity = row[0].strip()
     category = row[1].strip()
     attribute = row[2].strip()
@@ -793,7 +849,7 @@ for row in articles_master_rows:
         
         article += f'In this article you will learn about the morphology of {latin_name} by analyzing the main parts of this plant and their characteristics.' + '\n\n'
 
-        files = ['roots', 'stems', 'rhizomes', 'leaves', 'flowers', 'fruits', 'seeds']
+        files = ['roots', 'stems', 'leaves', 'flowers', 'fruits', 'seeds']
         for file in files:
             with open(f'{path}/{file}.md', encoding='utf-8') as f: 
                 section_content = f.read()
@@ -802,10 +858,15 @@ for row in articles_master_rows:
                 section_title = file.split('.')[0].capitalize()
                 article += f'## {section_title}\n\n'
                 article += '\n\n' + section_content + '\n\n'
+                article += f'The following table shows in detail the morphological characteristics of {latin_name} {file}.\n\n'
                 lines = csv_get_table_data(f'database/tables/morphology/{section_title.lower()}.csv')
                 article += generate_table(lines)
 
+            # filepath = img_morphology_root(lines[1], latin_name, category, attribute, file)
+            # article += f'![none]({filepath} "none")\n\n'
+
     elif 'taxonomy' in attribute.lower():
+
         title = f'{latin_name.capitalize()} taxonomy'
         article += f'# {title}\n\n'
         
@@ -825,6 +886,39 @@ for row in articles_master_rows:
                 article += '\n\n' + section_content + '\n\n'
                 lines = csv_get_table_data(f'database/tables/taxonomy/{section_title.lower()}.csv')
                 article += generate_table(lines)
+        
+        # common names section
+        article += f'## Common Names\n\n'
+        path = f'database/articles/{entity}/botany/common-names'
+        with open(f'{path}/common-names.md', encoding='utf-8') as f: 
+            section_content = f.read()
+        article += section_content + '\n\n'
+
+        rows = csv_get_rows('database/tables/common-names/common-names.csv')
+        # rows_filtered = [f'{row[1]}' for row in rows if entity == row[0].strip()]
+        # article += lst_to_blt(rows_filtered)
+        article += f'Here\'s a list of the most common names of {latin_name} with a brief description for each name.\n\n'
+        rows_filtered = [f'{row[1]}: {row[2]}' for row in rows if entity == row[0].strip()]
+        article += lst_to_blt(bold_blt(rows_filtered))
+        article += '\n\n'
+
+        
+        # varieties
+        article += f'## Varieties\n\n'
+        path = f'database/articles/{entity}/botany/varieties'
+        with open(f'{path}/varieties.md', encoding='utf-8') as f: 
+            section_content = f.read()
+        article += section_content + '\n\n'
+        
+        rows = csv_get_rows('database/tables/varieties/varieties.csv')
+        article += f'Here\'s a list of the most common varieties of {latin_name} with a brief description for each variety.\n\n'
+        rows_filtered = [f'{row[1]}: {row[2]}' for row in rows if entity == row[0].strip()]
+        article += lst_to_blt(bold_blt(rows_filtered))
+        article += '\n\n'
+
+
+        
+        # article += lst_to_blt(bold_blt(lines))
 
     # print(attribute.lower())
     article_filepath = generate_html(date, title, article, entity, f'{category}/{attribute}')

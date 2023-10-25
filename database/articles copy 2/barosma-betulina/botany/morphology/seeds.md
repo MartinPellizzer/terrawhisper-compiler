@@ -1,0 +1,5 @@
+The seeds of Barosma betulina are dicotyledonous and they are typically arranged as solitary units within the fruit. They have an oval or ellipsoid shape, with no appendages. Each fruit usually contains one seed.
+
+The seeds of Barosma betulina are relatively small, measuring approximately 2.5 mm in length, 1.5 mm in width, and 1 mm in thickness. They are characterized by their hardness, presenting a woody texture. The seed coat is brown, smooth, and exhibits a shiny, glossy surface. Its thickness is about 0.2 mm, making it impermeable to water.
+
+The hilum, a small scar where the seed is attached to the fruit, is located at one end of the seed. Within the seed, a tiny, rudimentary embryo can be found. Furthermore, the seed contains two fleshy and thick cotyledons, essential for the initial growth of the plant. Additionally, a small radicle, which is the embryonic root, emerges from the hilum scar.

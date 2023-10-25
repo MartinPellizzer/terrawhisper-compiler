@@ -1,0 +1,9 @@
+Cassia senna has a root system that is characterized by a dominant taproot, which enhances stability and deep soil penetration. Fibrous roots branch out from this taproot, facilitating efficient water and nutrient absorption. The roots have acute tips for easy soil penetration and a high density of approximately 350 roots per cubic centimeter, optimizing resource extraction. They extend to a depth of about 30 centimeters and have a diameter of 0.5 centimeters, striking a balance between stability and nutrient uptake. The light brown, smooth roots reduce soil adhesion.
+
+The plant's stems are typically herbaceous, although woody variants exist, with cylindrical or angular shapes, reaching heights from 30 to 90 centimeters. The stems are green but can turn brown with smooth or slightly rough textures. Stem nodes and internodes play a crucial role in plant structure and spacing.
+
+Cassia senna leaves are compound and pinnate, elliptical, with horizontal orientation, and petiolate. They measure 15-30 cm in length and 2-5 cm in width, with smooth, glabrous surfaces and entire margins. Leaf venation is pinnate, with prominent midribs.
+
+The flowers of Cassia senna form racemes, exhibit bilateral symmetry, and have banner-shaped petals, primarily yellow with faint reddish veins. The stamens and pistil are distinct, and the ovary is superior. The fruits are legumes, stalked, and dehiscent, with dimensions of 7-20 cm. They are light to dark brown, smooth, and slightly curved.
+
+Seeds are found within elongated pods, with elliptical or oblong shapes. The brown seed coat is shiny and impermeable, and each pod contains 5-10 seeds. Seeds are hard, with two cotyledons and a radicle for germination. These characteristics make Cassia senna a distinctive plant with various applications.

@@ -1,0 +1,5 @@
+Capsicum annuum, known as bell pepper, has a fibrous root system that with a taproot structure, creating a moderate branching network of non-woody roots, allowing efficient water and nutrient uptake. The roots are white to light brown and non-nodulated, with sparse, fine, unbranched root hairs.
+
+The herbaceous stem is round, with green color that matures to brown or purple, while its smooth surface lacks hair. Leaves are simple, elliptical, arranged alternately with smooth margins, and have a prominent midrib. Flowers form an umbel inflorescence with actinomorphic symmetry and a complete structure, typically found in the leaf axils, while the petals are usually white, green, or yellow.
+
+Bell peppers, as fruits, are fleshy, indehiscent, and ellipsoid, varying in size and transitioning from green to red, yellow, or orange. The seeds are dicotyledonous, elliptical, hard, and axially arranged within the fruit. Their thin seed coat can be cream, brown, or black, with a shiny or matte surface, and they have an impermeable seed coat. Inside the seed, an embryo consists of two cotyledons and a radicle for potential plant growth.

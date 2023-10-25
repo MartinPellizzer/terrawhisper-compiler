@@ -22,6 +22,8 @@ The root diameter measures approximately 2-4 millimeters (0.08-0.16 inches), whi
 
 One distinctive feature is the presence of numerous root hairs, which are fine and hair-like structures covering the outer layer of the roots. These root hairs aid in the absorption of water and nutrients from the soil. Notably, Aloe vera roots lack nodules, which are often found in plants that engage in nitrogen fixation.
 
+The following table shows in detail the morphological characteristics of Aloe vera roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Fibrous root system |
@@ -49,6 +51,8 @@ In terms of color, Aloe vera stems are typically green, with variations that may
 
 Aloe vera stems exhibit compact nodes at their base, where the leaves originate. These nodes are vital for the plant's growth and development. Between the nodes, there are short internodes, measuring 2-8 centimeters (0.8-3.1 inches). These internodes play a role in determining the overall height and structure of the plant.
 
+The following table shows in detail the morphological characteristics of Aloe vera stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Succulent stem |
@@ -73,6 +77,8 @@ Aloe vera leaves are characterized by their smooth and fleshy texture. They have
 One distinctive feature of Aloe vera leaves is their parallel venation, where veins run parallel to each other, enhancing the plant's ability to efficiently transport water and nutrients. The leaf lamina is succulent and contains specialized tissues for water storage. Additionally, a prominent midrib runs down the center of each leaf.
 
 Aloe vera leaves are sessile, meaning they are directly attached to the stem without the presence of a leaf petiole. Stipules, small leaf-like structures often found at the base of leaf petioles in other plants, are absent in Aloe vera.
+
+The following table shows in detail the morphological characteristics of Aloe vera leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -110,6 +116,8 @@ Aloe vera flowers are relatively small, with a length of approximately 3-4 centi
 These flowers have a smooth texture and a glabrous surface, which means they are hairless. They consist of six floral parts in total. There are three sepals, petal-like in appearance, and three petals, which are colorful and resemble traditional petals. The sepals and petals collectively form the perianth, where they look quite similar in structure.
 
 Within the flower, there are six stamens, alternating with the petals. A single pistil with a slender style and a three-lobed stigma is present. The ovary is positioned inferiorly, below the point of attachment.
+
+The following table shows in detail the morphological characteristics of Aloe vera flowers.
 
 | Characteristic | Description |
 | --- | --- |
@@ -152,6 +160,8 @@ Observing closely, you might notice faint longitudinal lines or markings on the 
 
 A significant trait of Aloe vera fruits is their dehiscence, a process where the fruits split open when they are mature. This allows the release of seeds and facilitates the plant's reproductive cycle.
 
+The following table shows in detail the morphological characteristics of Aloe vera fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Capsule |
@@ -177,6 +187,8 @@ Aloe vera seeds are ovate and flattened in shape, found in clusters within the c
 These seeds are remarkably hard, with a smooth, dark brown seed coat that has a shiny texture. The thickness of the seed coat is very thin, measuring less than 0.5 millimeters (0.02 inches). Importantly, the seed coat is impermeable, which means it does not allow water or air to pass through easily.
 
 One distinctive feature of Aloe vera seeds is the prominent hilum, which serves as the point of attachment. The embryos within the seeds are tiny and underdeveloped. Each seed contains two cotyledons, which are fleshy structures that serve as the first leaves upon germination. The radicle, the embryonic root, is small and rudimentary.
+
+The following table shows in detail the morphological characteristics of Aloe vera seeds.
 
 | Characteristic | Description |
 | --- | --- |

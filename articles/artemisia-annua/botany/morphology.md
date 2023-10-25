@@ -30,6 +30,8 @@ The color of Artemisia annua's roots is pale beige to white, and the root surfac
 
 Root hairs in Artemisia annua are sparse, fine, and unbranched. These root hairs serve to increase the root's surface area, aiding in the absorption of water and minerals. The unique combination of these root characteristics equips Artemisia annua to thrive in diverse environmental conditions, contributing to its resilience and adaptability.
 
+The following table shows in detail the morphological characteristics of Artemisia annua roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Root System Type  | Fibrous |
@@ -59,6 +61,8 @@ One distinctive characteristic of the stem texture is that it is pubescent, mean
 
 Stems also feature frequent nodes, with nodes being regularly spaced along the stem's length. These nodes are important for leaf and branch attachment, contributing to the overall structure of the plant. Between these nodes, the internodes measure approximately 3 to 10 centimeters (about 1.2 to 3.9 inches) in length.
 
+The following table shows in detail the morphological characteristics of Artemisia annua stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Herbaceous (not woody) |
@@ -83,6 +87,8 @@ The leaves are arranged alternately along the stem, and their orientation is ere
 These leaves are dorsiventral, which means they have distinct upper and lower surfaces. At the apex (the tip), the leaves taper to a point, a characteristic known as acuminate. The base of the leaf is cuneate, resembling a wedge shape. The margin of the leaves is described as entire, meaning it is smooth and lacks any teeth or serrations.
 
 The venation of the leaves is pinnate, with a single prominent midrib running along the center of the leaf and lateral veins branching out from it. The lamina of the leaf is simple, not dissected or divided into smaller units. The midrib is notably prominent, and the entire leaf is attached to the stem through a petiole, which typically measures 1-3 centimeters (0.4-1.2 inches) in length. Artemisia annua leaves lack stipules, which are leaf-like structures often found at the base of leaves in some plant species.
+
+The following table shows in detail the morphological characteristics of Artemisia annua leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -117,6 +123,8 @@ Each flower is relatively small, with a tubular or campanulate shape and measure
 Artemisia annua flowers have a pentamerous floral arrangement, meaning they consist of five floral parts. Notably, they lack true sepals, and their five petals are fused to form a tube, giving them the appearance of having ten petal-like structures, known as tepals. In addition, each flower contains five stamens and one superior ovary, along with a two-lobed style and a corresponding two-lobed stigma.
 
 The flowers do not feature stipules, and their bracts are small and inconspicuous. Moreover, the flowers are sessile, meaning they lack stalks or pedicels. Instead, individual flowers are directly attached to the plant.
+
+The following table shows in detail the morphological characteristics of Artemisia annua flowers.
 
 | Characteristic | Description |
 | --- | --- |
@@ -155,6 +163,8 @@ In terms of shape, they are oblong-ellipsoid, with dimensions measuring approxim
 
 These achenes do not exhibit distinct markings, presenting a uniform appearance. A notable characteristic of Artemisia annua's fruits is their non-dehiscent nature, meaning they do not split open at maturity. This trait sets them apart from other plants whose fruits disperse their seeds through dehiscence.
 
+The following table shows in detail the morphological characteristics of Artemisia annua fruits.
+
 | Characteristic | Description |
 | --- | --- |
 | Fruit Type  | Achene (small, dry, 1-seeded) |
@@ -182,6 +192,8 @@ The hardness of these seeds is notable, and they have a smooth texture. Their se
 At the attachment point of the seed, there is a distinct scar known as the hilum. Inside the seed, there is a straight embryo with two cotyledons. Cotyledons are the initial leaf-like structures that provide nutrients to the developing plant. 
 
 In terms of appendages, Artemisia annua seeds do not possess any, and their surface is smooth, lacking ridges or projections. These characteristics contribute to the unique identity of these seeds.
+
+The following table shows in detail the morphological characteristics of Artemisia annua seeds.
 
 | Characteristic | Description |
 | --- | --- |

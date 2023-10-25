@@ -1,0 +1,7 @@
+The leaves of Barosma betulina are simple, with an elliptical shape that typically measures 1.5 to 3.5 centimeters in length and 0.5 to 1.5 centimeters in width. These leaves are rather thin, with a thickness of approximately 0.2 millimeters, and possess a dark green coloration. Their upper surface is smooth and glossy, while the lower surface showcases small glands, giving it a punctate texture.
+
+In terms of arrangement, Barosma betulina leaves are opposite, with an alternating and mostly horizontal orientation along the stem. The apex of these leaves is acute, meaning they come to a pointed tip, while the base is cuneate, exhibiting a wedge-shaped form. The leaf margins remain entirely smooth and unbroken, contributing to their overall appearance.
+
+A distinctive feature of these leaves is their pinnate venation, characterized by a single prominent midrib along the center, from which smaller veins branch off. The leaf lamina, or the overall shape of the leaf, is ovate or egg-shaped. The midrib, which is notably prominent, adds to the leaf's structure and support.
+
+Leaf attachment in Barosma betulina is petiolate, meaning the leaves are attached to the stem via a petiole. The petiole is relatively short, measuring about 1 to 2 millimeters in length. One notable absence in this plant's leaves is stipules; they do not have the small leaf-like structures, stipules, that are common in some other plants.

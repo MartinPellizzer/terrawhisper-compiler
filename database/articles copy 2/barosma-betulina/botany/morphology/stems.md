@@ -1,0 +1,5 @@
+The stems of Barosma betulina are herbaceous (or occasionally woody) and the arrangement is opposite, meaning that leaves and branches grow in pairs along the stem. The stem itself has a cylindrical (or prismatic) shape, with a typical height ranging from 10 to 20 centimeters (3.94 to 7.87 inches). Its diameter falls between 0.2 and 0.5 centimeters (0.08 to 0.2 inches). These measurements contribute to the compact nature of the plant.
+
+The color of Barosma betulina's stem is predominantly green, although this may vary with maturity. Young stems often appear greener, while older ones may develop a slightly different hue. The stem texture is characterized by its pubescent nature, meaning that it is covered with fine hairs. This texture gives the stem a unique tactile quality.
+
+The stem surface is generally smooth, with only minor variations, which could be slightly rough in some cases. Nodes along the stem are present and occur at regular intervals, adding structure and support to the plant. Stem internodes, the segments of the stem between nodes, are typically about 2 to 5 centimeters (0.79 to 1.97 inches) in length.

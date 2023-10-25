@@ -1,0 +1,5 @@
+Aloe vera is a succulent plant with fibrous roots that exhibit dichotomous branching, and these roots are shallow and abundant. Its stems are cylindrical, reaching up to 90 cm in height, and they have a smooth, fleshy surface covered in aloe latex. The leaves are lanceolate, about 15-20 cm long and 2-6 cm wide, with a pointed apex and a smooth, green surface. The leaves are sessile and lack stipules. 
+
+Aloe vera flowers form elongated racemes with tubular, zygomorphic blooms, typically in shades of orange, yellow, or red. The flowers have six floral parts, including three sepals and three petals, which collectively form the perianth. Six stamens alternate with the petals, and there's a single pistil with a slender style and three-lobed stigma. The ovary is inferior, below the point of attachment. 
+
+Its fruits are capsules, oblong and cylindrical, turning brown as they mature. They split open to release seeds when mature. The seeds are ovate and flattened, with a hard, impermeable, dark brown seed coat and a prominent hilum. Each seed contains two cotyledons and a small, rudimentary radicle. Longitudinal lines may be present on the fruit's surface.

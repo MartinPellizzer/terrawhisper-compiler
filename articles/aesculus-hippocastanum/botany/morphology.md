@@ -26,6 +26,8 @@ This taproot has lateral that extend outwards and that have a cylindrical (sligh
 
 The outer surface of horse chestnut roots is usually a light to dark brown with a rough and wrinkled texture (that tend to become darker as they age), while the inner tissues exhibit a creamy white to pale yellow color.
 
+The following table shows in detail the morphological characteristics of Aesculus hippocastanum roots.
+
 | Characteristic | Description |
 | --- | --- |
 | Taproot Shape  | Conical, tapering downward  |
@@ -53,6 +55,8 @@ The stem's surface is covered by bark, which develops a woody and textured appea
 
 Stem internodes vary in length, typically measuring between 10 to 20 centimeters (approximately 3.9 to 7.9 inches), contributing to the overall structure of the tree.
 
+The following table shows in detail the morphological characteristics of Aesculus hippocastanum stems.
+
 | Characteristic | Description |
 | --- | --- |
 | Stem Type  | Herbaceous (or tree-like) |
@@ -79,6 +83,8 @@ The margins of the leaflets are serrated or toothed, with approximately 15 to 25
 The color of the upper surface of the leaflets is a deep and glossy green, while the color of the lower surface of the leaflets is paler and may have a silvery-green tint. This colors changes to a vibrant yellow or bronze in the autumn before falling off. The leaf surface is typically smooth and glabrous (lacking hairs), but there can be fine and short hairs on the veins and petioles (leaf stems), which are often reddish.
 
 These leaflets have no distinctive odor or fragrance when not crushed. When crushed, they emit a distinct and unpleasant odor. Also, they have no a discernible flavor and are not typically consumed (not for culinary use).
+
+The following table shows in detail the morphological characteristics of Aesculus hippocastanum leaves.
 
 | Characteristic | Description |
 | --- | --- |
@@ -114,6 +120,8 @@ As for texture, these petals are remarkably soft and velvety to the touch. Their
 
 While this plant's flowers aren't typically consumed, they play a vital role in the plant's reproductive cycle. Their well-developed stamens and pistils, along with nectar glands, attract pollinators like bees and butterflies, facilitating the production of the chestnut fruit. The delicate and intricate nature of these blossoms highlights their importance both aesthetically and ecologically within the natural world.
 
+The following table shows in detail the morphological characteristics of Aesculus hippocastanum flowers.
+
 | Characteristic | Description |
 | --- | --- |
 | Flowers Type | Bisexual |
@@ -144,6 +152,8 @@ These capsules mature at a relatively uniform rate, appearing once a year in lat
 These capsules are attached to the tree's branches through short stalks, and they develop at the base of the flower stalk from the remnants of the flower's ovary. The stem, or pedicel, of the capsule measures about 2-3 cm (0.8-1.2 inches) in length.
 
 Beyond their external characteristics, the horse chestnut capsules house 1-2 shiny, dark brown seeds known as conkers. These seeds are very distinctive and are the true reproductive structure of the tree.
+
+The following table shows in detail the morphological characteristics of Aesculus hippocastanum fruits.
 
 | Characteristic | Description |
 | --- | --- |
@@ -176,6 +186,8 @@ Aesculus hippocastanum, commonly known as the horse chestnut, produces seeds wit
 The seeds of Aesculus hippocastanum have smooth margins, making them easy to handle. Unlike some plant parts, these seeds do not exhibit any growth rate when matured, remaining static in size. They possess a shiny, smooth surface texture, and their color is a rich, glossy brown, with a lighter hilum (scar) at one end, adding to their distinct appearance.
 
 One notable feature of these seeds is the absence of significant venation. They do not have any prominent lines or patterns on their surface. Moreover, Aesculus hippocastanum seeds are not known for their aroma and they typically lack any discernible odor. In terms of flavor, these seeds are not consumed for their taste, but if tasted, they are generally bitter.
+
+The following table shows in detail the morphological characteristics of Aesculus hippocastanum seeds.
 
 | Characteristic | Description |
 | --- | --- |
