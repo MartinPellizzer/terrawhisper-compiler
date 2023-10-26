@@ -46,6 +46,8 @@ The following table shows in detail the morphological characteristics of Calendu
 | Root Nodules  | Absent |
 | Root Hairs  | Present (approximately 0.1 mm or 0.004 inches) |
 
+![none](/images/calendula-officinalis-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

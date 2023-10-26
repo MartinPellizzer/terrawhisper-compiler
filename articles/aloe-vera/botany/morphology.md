@@ -39,6 +39,8 @@ The following table shows in detail the morphological characteristics of Aloe ve
 | Root Nodules  | Absent |
 | Root Hairs  | Present, numerous, fine, and hair-like structures |
 
+![none](/images/aloe-vera-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

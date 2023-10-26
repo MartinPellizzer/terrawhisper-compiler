@@ -1,0 +1,5 @@
+Chamomilla recutita seeds are classified as achenes, with a single seed found in each flower head. They exhibit an oblong shape, measuring approximately 3.5 to 4.5 millimeters in length, and 1.0 to 1.2 millimeters in width. The thickness of the seeds is approximately 1 millimeter.
+
+One notable characteristic of these seeds is their hardness, which makes them durable and well-suited for survival. The seed coat color ranges from pale yellow to brown, with a smooth surface that imparts a shiny, glossy appearance. The thin seed coat is virtually impermeable, protecting the seed from environmental factors.
+
+The hilum, a small scar at one end of the seed, is visible, serving as a distinct marker. The embryo within the seed is straight, and each seed contains two cotyledons. Additionally, the seed's radicle is relatively short, contributing to its unique germination process.

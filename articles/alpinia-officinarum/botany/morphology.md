@@ -45,6 +45,8 @@ The following table shows in detail the morphological characteristics of Alpinia
 | Root Nodules  | Absent |
 | Root Hairs  | Present |
 
+![none](/images/alpinia-officinarum-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

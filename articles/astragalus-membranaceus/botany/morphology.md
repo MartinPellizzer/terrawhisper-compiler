@@ -47,6 +47,8 @@ The following table shows in detail the morphological characteristics of Astraga
 | Root Nodules  | Presence of nitrogen-fixing nodules |
 | Root Hairs  | Abundant fine root hairs |
 
+![none](/images/astragalus-membranaceus-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

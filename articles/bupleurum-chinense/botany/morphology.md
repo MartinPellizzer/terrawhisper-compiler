@@ -48,6 +48,8 @@ The following table shows in detail the morphological characteristics of Bupleur
 | Root Nodules  | Absent |
 | Root Hairs  | Sparse, short, and non-glandular |
 
+![none](/images/bupleurum-chinense-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

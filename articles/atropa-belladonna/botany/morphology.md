@@ -37,6 +37,8 @@ The following table shows in detail the morphological characteristics of Atropa 
 | Root Nodules  | Absent |
 | Root Hairs  | Sparse, fine, and non-glandular |
 
+![none](/images/atropa-belladonna-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

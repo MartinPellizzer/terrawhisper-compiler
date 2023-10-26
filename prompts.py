@@ -1,10 +1,12 @@
 import sys
+import csv
 
 if len(sys.argv) != 3:
     print("ERR: missing arguments (ENTITY, ATTRIBUTE)")
     quit()
 
-entity = sys.argv[1].replace('-', ' ').capitalize()
+entity = sys.argv[1]
+latin_name = entity.replace('-', ' ').capitalize()
 attribute = sys.argv[2].lower().strip()
 # print(entity)
 
@@ -19,7 +21,7 @@ def morphology():
     print(f'''
     {i}. ALL PARTS
 
-    Give me a complete list of all the parts of {entity} in terms of morphology. 
+    Give me a complete list of all the parts of {latin_name} in terms of morphology. 
     Don't add descriptions.
     ''')
     print(f'''
@@ -30,43 +32,43 @@ def morphology():
     print(f'''
     {i}. ROOTS
 
-    Give me a complete list of all the parts of STEMS of the {entity}. 
+    Give me a complete list of all the parts of STEMS of the {latin_name}. 
     Don't add descriptions.
     ''')
     print(f'''
     {i}. STEMS
 
-    Give me a complete list of all the parts of STEMS of the {entity}. 
+    Give me a complete list of all the parts of STEMS of the {latin_name}. 
     Don't add descriptions.
     ''')
     print(f'''
     {i}. RHIZOME
 
-    Give me a complete list of all the parts of RHIZOME of the {entity}. 
+    Give me a complete list of all the parts of RHIZOME of the {latin_name}. 
     Don't add descriptions.
     ''')
     print(f'''
     {i}. LEAVES
 
-    Give me a complete list of all the parts of LEAVES of the {entity}. 
+    Give me a complete list of all the parts of LEAVES of the {latin_name}. 
     Don't add descriptions.
     ''')
     print(f'''
     {i}. FLOWERS
 
-    Give me a complete list of all the parts of FLOWERS of the {entity}. 
+    Give me a complete list of all the parts of FLOWERS of the {latin_name}. 
     Don't add descriptions.
     ''')
     print(f'''
     {i}. FRUITS
 
-    Give me a complete list of all the parts of FRUITS of the {entity}. 
+    Give me a complete list of all the parts of FRUITS of the {latin_name}. 
     Don't add descriptions.
     ''')
     print(f'''
     {i}. SEEDS
 
-    Give me a complete list of all the parts of SEEDS of the {entity}. 
+    Give me a complete list of all the parts of SEEDS of the {latin_name}. 
     Don't add descriptions.
     ''')
     print(f'''
@@ -78,7 +80,7 @@ def morphology():
 
     print(f'''{i}. ROOTS CHARACTERISTICS
 
-        Here's a list of morphological characteristics of roots of {entity}:
+        Here's a list of morphological characteristics of roots of {latin_name}:
 
         - Root System Type
         - Root Structure
@@ -106,7 +108,7 @@ def morphology():
 
     print(f'''{i}. STEMS CHARACTERISTICS
 
-        Here's a list of morphological characteristics of stems of {entity}:
+        Here's a list of morphological characteristics of stems of {latin_name}:
 
         - Stem Type
         - Stem Arrangement
@@ -132,7 +134,7 @@ def morphology():
 
     print(f'''{i}. RHIZOMES CHARACTERISTICS
 
-        Here's a list of morphological characteristics of rhizomes of {entity}:
+        Here's a list of morphological characteristics of rhizomes of {latin_name}:
 
         - Rhizome Arrangement
         - Rhizome Shape
@@ -156,7 +158,7 @@ def morphology():
 
     print(f'''{i}. LEAVES CHARACTERISTICS
 
-        Here's a list of morphological characteristics of leaves of {entity}:
+        Here's a list of morphological characteristics of leaves of {latin_name}:
 
         - Leaf Complexity
         - Leaf Shape
@@ -191,7 +193,7 @@ def morphology():
 
     print(f''' {i}. FLOWERS CHARACTERISTICS
 
-        Here's a list of morphological characteristics of flowers of {entity}:
+        Here's a list of morphological characteristics of flowers of {latin_name}:
 
         - Inflorescence Type
         - Flower Complexity
@@ -231,7 +233,7 @@ def morphology():
 
     print(f'''{i}. FRUITS CHARACTERISTICS
 
-        Here's a list of morphological characteristics of fruits of {entity}:
+        Here's a list of morphological characteristics of fruits of {latin_name}:
 
         - Fruit Type
         - Fruit Arrangement
@@ -260,7 +262,7 @@ def morphology():
 
     print(f'''{i}. SEEDS CHARACTERISTICS
 
-        Here's a list of morphological characteristics of seeds of {entity}:
+        Here's a list of morphological characteristics of seeds of {latin_name}:
 
         - Seed Type
         - Seed Arrangement
@@ -321,7 +323,7 @@ def taxonomy():
     i = 1
     print(f'''{i}. TAXONOMY
 
-        Give me the taxonomy of {entity}.
+        Give me the taxonomy of {latin_name}.
 
         Include:
 
@@ -345,7 +347,7 @@ def taxonomy():
 
     print(f'''{i}. COMMON NAMES
 
-        Give a list of common names of {entity}. Give me just the names, no descriptions.
+        Give a list of common names of {latin_name}. Give me just the names, no descriptions.
     ''')
     print(f'''
     --------------------------------------------------------------------
@@ -375,7 +377,7 @@ def taxonomy():
     
     print(f'''{i}. VARIETIES
 
-        Give a list of varieties of {entity}. Give me just the names, no descriptions.
+        Give a list of varieties of {latin_name}. Give me just the names, no descriptions.
     ''')
     print(f'''
     --------------------------------------------------------------------
@@ -402,6 +404,43 @@ def taxonomy():
     --------------------------------------------------------------------
     ''')
     i += 1
+
+    text = ''
+
+    filenames = ['roots', 'stems', 'leaves', 'flowers', 'fruits', 'seeds',]
+    for filename in filenames:
+        filepath = f'database/tables/morphology/{filename}.csv'
+        tmp_header = []
+        tmp_values = []
+        with open(filepath, encoding='utf-8', errors='ignore') as f:
+            reader = csv.reader(f, delimiter="\\")
+            for k, row in enumerate(reader):
+                if k == 0:
+                    tmp_header = row
+                    continue
+                if entity == row[0].strip():
+                    tmp_values = row
+                    break
+        
+        lst = []
+        for k in range(len(tmp_values)):
+            if k == 0: continue
+            if tmp_values[k].strip() != '':
+                lst.append(tmp_header[k] + ": " + tmp_values[k])
+        text += '\n'.join(lst)
+
+
+    print(f'''{i}. SECONDARY-CONTENT (MORPHOLOGY)
+
+        Write an overall description of the appearance of {latin_name} by using the data in the following tables:
+        
+        {text}
+    ''')
+    print(f'''
+    --------------------------------------------------------------------
+    ''')
+    i += 1
+
 
 if attribute == 'morphology': morphology()
 elif attribute == 'taxonomy': taxonomy()

@@ -69,3 +69,9 @@ Here's a list of the most common varieties of Achillea millefolium with a brief 
 - **Achillea millefolium 'Apple Blossom'**:   'Apple Blossom' features soft pink flowers with creamy centers, resembling the colors of apple blossoms.
 - **Achillea millefolium 'Colorado Mix'**:   The 'Colorado Mix' includes a variety of colors and shades, making it an eye-catching and diverse option for your garden.
 
+## Morphology
+
+Knowing the [Morphology of Achillea millefolium](/achillea-millefolium/botany/morphology.html) is useful to be able to classify this plant. It exhibits a fibrous root system with a taproot and dichotomous branching. The roots have acute tips and a density of approximately 280 roots per cm2. They extend to a depth of 20 cm with a 1 mm diameter and 30 cm length, appearing whitish to light brown, with a smooth surface and fine, dense root hairs.
+
+Above the ground, its herbaceous stem is cylindrical, 30-60 cm tall, and 2-4 mm in diameter, bearing green coloration with pubescent texture. Leaves are alternate, lanceolate, 3-12 cm long, and 1-4 cm wide, displaying a thin texture and smooth surface. Its flowers form a compound corymb, with white or pinkish rays and yellow centers. The fruit consists of achenes, 1.5-3.2 mm long, oblong, and brown to gray. Seeds are ovoid, 2.5 mm long, with a hard, impermeable brown coat and no pappus. Understanding these characteristics aids in the identification of Achillea millefolium.
+

@@ -43,6 +43,8 @@ The following table shows in detail the morphological characteristics of Angelic
 | Root Nodules  | Absent |
 | Root Hairs  | Sparse |
 
+![none](/images/angelica-sinensis-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

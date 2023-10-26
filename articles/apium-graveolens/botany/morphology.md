@@ -47,6 +47,8 @@ The following table shows in detail the morphological characteristics of Apium g
 | Root Nodules  | Absent |
 | Root Hairs  | Sparse, fine hairs along root surface |
 
+![none](/images/apium-graveolens-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

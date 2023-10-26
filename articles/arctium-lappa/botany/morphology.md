@@ -37,6 +37,8 @@ The following table shows in detail the morphological characteristics of Arctium
 | Root Nodules  | Absent |
 | Root Hairs  | Present, fine and dense |
 
+![none](/images/arctium-lappa-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

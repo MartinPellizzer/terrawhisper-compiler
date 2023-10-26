@@ -1,0 +1,11 @@
+Chamomilla recutita, commonly known as chamomile, displays a taproot system with dichotomous branching. Its sharp and pointed root tips aid in soil penetration and anchorage. With an impressive root density of around 350 roots per square meter, the plant efficiently absorbs nutrients. Roots extend 10-20 cm (4-8 inches) below the surface, with diameters ranging from 0.2-0.5 cm (0.08-0.2 inches) and lengths up to 30 cm (12 inches). They are generally whitish to pale brown in color, smooth, and covered with fine root hairs. This species lacks root nodules.
+
+Stems are herbaceous, erect, and cylindrical, reaching 15-30 cm (6-12 inches) in height with a 2-4 mm (0.08-0.16 inches) diameter. They are green with a slight reddish hue at the base, exhibiting a smooth, hairless surface. Stems sparsely branch with occasional nodes, and internodes are 2-6 cm (0.8-2.4 inches) apart.
+
+Leaves are bipinnate, 1.5-5 cm (0.6-2 inches) long and 0.2-0.8 cm (0.08-0.3 inches) wide, with smooth, glabrous, bright green surfaces. They have serrated margins, an acute apex, and a cuneate base. Venation is pinnate, and leaves are sessile, lacking petioles and stipules.
+
+Flowers are umbel-shaped, featuring radial symmetry, composite structure, and no sepals. They measure 1.5 cm in length and width, with white or yellow colors, smooth, glabrous textures, and 20 floral parts. Stamens number five within disc florets, and a single pistil with an inferior ovary is present. Flowers lack style and have a two-lobed stigma. Stipules are absent, and bracts are small and green.
+
+Fruits are achenes, solitary, and attach via pedicels, cylindrical, 2.5 mm long, 1.5 mm wide, and 0.7 mm thick, varying in color between yellow and brown. They have a smooth, glabrous surface and do not exhibit dehiscence.
+
+Seeds are achenes, oblong, measuring 3.5-4.5 mm long, 1.0-1.2 mm wide, and approximately 1 mm thick. They are hard, with colors ranging from pale yellow to brown, a smooth, glossy surface, and an impermeable coat. A visible hilum marks the seed, and the embryo is straight with two cotyledons and a short radicle.

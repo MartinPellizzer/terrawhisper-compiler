@@ -56,6 +56,8 @@ The following table shows in detail the morphological characteristics of Allium 
 | Root Exudates  | Release organic compounds, including allicin  |
 | Root Symbioses  | Mycorrhizal associations (amf absent)  |
 
+![none](/images/allium-sativum-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

@@ -45,6 +45,8 @@ The following table shows in detail the morphological characteristics of Capsicu
 | Root Nodules  | Absent |
 | Root Hairs  | Sparse, fine, and unbranched |
 
+![none](/images/capsicum-annuum-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

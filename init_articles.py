@@ -12,6 +12,7 @@ entities = [x[0].strip().lower().replace(' ', '-') for x in rows]
 
 print(len(rows))
 for entity in entities:
+    print(entity)
     try: os.mkdir(f'database/articles/{entity}')
     except: pass
     try: os.mkdir(f'database/articles/{entity}/botany')
@@ -33,15 +34,10 @@ for entity in entities:
     try: os.mkdir(f'database/articles/{entity}/botany/taxonomy')
     except: pass
     with open(f'database/articles/{entity}/botany/taxonomy/taxonomy.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/taxonomy/common-names.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/taxonomy/varieties.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/taxonomy/morphology.md', 'a', encoding='utf-8') as f: pass
     
-    try: os.mkdir(f'database/articles/{entity}/botany/common-names')
-    except: pass
-    with open(f'database/articles/{entity}/botany/common-names/common-names.md', 'a', encoding='utf-8') as f: pass
-    
-    try: os.mkdir(f'database/articles/{entity}/botany/varieties')
-    except: pass
-    with open(f'database/articles/{entity}/botany/varieties/varieties.md', 'a', encoding='utf-8') as f: pass
-    
-    try: os.mkdir(f'database/articles/{entity}/botany/symbology')
-    except: pass
-    with open(f'database/articles/{entity}/botany/symbology/symbology.md', 'a', encoding='utf-8') as f: pass
+    # try: os.mkdir(f'database/articles/{entity}/botany/symbology')
+    # except: pass
+    # with open(f'database/articles/{entity}/botany/symbology/symbology.md', 'a', encoding='utf-8') as f: pass

@@ -56,6 +56,8 @@ The following table shows in detail the morphological characteristics of Acorus 
 | Root Exudates  | Release allelopathic compounds (e.g., ?-asarone)  |
 | Root Symbioses  | Limited mycorrhizal associations  |
 
+![none](/images/acorus-calamus-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

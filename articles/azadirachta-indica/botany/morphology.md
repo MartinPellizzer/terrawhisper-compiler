@@ -41,6 +41,8 @@ The following table shows in detail the morphological characteristics of Azadira
 | Root Nodules  | Generally absent, occasional nodules |
 | Root Hairs  | Sparse, fine, and unbranched |
 
+![none](/images/azadirachta-indica-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

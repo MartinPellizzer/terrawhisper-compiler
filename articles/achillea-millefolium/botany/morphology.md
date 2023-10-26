@@ -47,6 +47,8 @@ The following table shows in detail the morphological characteristics of Achille
 | Root Nodules  | Absent |
 | Root Hairs  | Fine, dense root hairs |
 
+![none](/images/achillea-millefolium-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

@@ -39,6 +39,8 @@ The following table shows in detail the morphological characteristics of Ammi vi
 | Root Nodules  | Absent |
 | Root Hairs  | Absent |
 
+![none](/images/ammi-visnaga-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

@@ -1,0 +1,7 @@
+Centella asiatica stems are herbaceous, meaning they are non-woody and flexible, making them distinctly different from woody shrubs and trees. Stem arrangement in this plant is opposite, with leaves attaching in pairs at nodes along the stem. This arrangement creates a symmetrical appearance along the stem, which aids in plant recognition.
+
+In terms of stem shape, Centella asiatica exhibits a circular cross-section. This cylindrical form is a notable characteristic and sets it apart from plants with more angular stem shapes. The height of the stems typically ranges from 10 to 30 centimeters (3.9 to 11.8 inches), and the stem diameter falls between 2 to 6 millimeters (0.08 to 0.24 inches). These dimensions provide an idea of the plant's overall size and structure.
+
+The stem color of Centella asiatica is a vibrant green, consistent with its healthy and thriving appearance. The stem texture is smooth to the touch, contributing to its characteristic appearance. Additionally, the stem surface is glabrous, meaning it lacks fine hairs or trichomes.
+
+One can observe nodes along the stem, where leaves are attached. These nodes are significant points in the plant's anatomy, influencing leaf distribution and growth patterns. The internodes, the spaces between nodes, are relatively short, contributing to the compact and low-growing nature of Centella asiatica.

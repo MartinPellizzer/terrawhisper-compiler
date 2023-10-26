@@ -1,5 +1,4 @@
-# TODO: make template for second post type (list to table (common name))
-# TODO: make image for root, (draw line)
+# TODO: make _intro for taxonomy post
 
 import json
 import os
@@ -31,6 +30,42 @@ google_tag = '''
     </script>
 '''
 
+def resize_images_all():
+    for image_path in os.listdir('article-images-tmp'):
+        print(image_path)
+        
+        w, h = 1024, 1024
+
+        img = Image.open('article-images-tmp/' + image_path)
+
+        start_size = img.size
+        end_size = (w, h)
+
+        if start_size[0] / end_size [0] < start_size[1] / end_size [1]:
+            ratio = start_size[0] / end_size[0]
+            new_end_size = (end_size[0], int(start_size[1] / ratio))
+        else:
+            ratio = start_size[1] / end_size[1]
+            new_end_size = (int(start_size[0] / ratio), end_size[1])
+
+        img = img.resize(new_end_size)
+
+        w_crop = new_end_size[0] - end_size[0]
+        h_crop = new_end_size[1] - end_size[1]
+        
+        area = (
+            w_crop // 2, 
+            h_crop // 2,
+            new_end_size[0] - w_crop // 2,
+            new_end_size[1] - h_crop // 2
+        )
+        img = img.crop(area)
+
+        output_path = f'articles-images/{image_path}'
+        img.save(f'{output_path}')
+
+# resize_images_all()
+# quit()
 ######################################################################
 # UTILS 
 ######################################################################
@@ -345,7 +380,10 @@ def img_cycle_of_life(item):
     return output_path
 
 
-def img_morphology_root(row, atin_name, category, attribute, file):
+def img_morphology_root(row, latin_name, category, attribute, file):
+    # for i, item in enumerate(row):
+    #     print(f'{i} - {item}')
+
     img_w = 1024
     img_h = 1024
     img = Image.new(mode="RGBA", size=(img_w, img_h), color='#fafafa')
@@ -360,7 +398,7 @@ def img_morphology_root(row, atin_name, category, attribute, file):
     font_size = 48
     line_hight = 1.5
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = f'Achillea millefolium {file} morphology'
+    line = f'{latin_name} {file} morphology'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
     draw.text((
@@ -388,8 +426,8 @@ def img_morphology_root(row, atin_name, category, attribute, file):
     draw.line((x - 50//2, img_h//2 - icon_size//3, x + 50//2, img_h//2 - icon_size//3), fill='#000000', width=thickness)
     draw.line((x - 50//2, img_h//2 + icon_size//3, x + 50//2, img_h//2 + icon_size//3), fill='#000000', width=thickness)
 
-    val = row[6].split('(')[0]
-    line = f'Depth: {val}'
+    val = row[8].split('(')[0]
+    line = f'Length: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
     img_v = Image.new(mode="RGBA", size=(line_w, line_h), color='#ffffff')
@@ -408,22 +446,81 @@ def img_morphology_root(row, atin_name, category, attribute, file):
     draw.ellipse((475-thickness, 475-thickness, 475+thickness, 475+thickness), fill=(255,255,255,255))
     thickness = 2
     draw.line((200 + line_h + 10, 200 + line_h + 10, 475, 475), fill='#000000', width=thickness)
-    draw.line((50, 200 + line_h + 10, 200 + line_h + 10 + thickness//3, 200 + line_h + 10), fill='#000000', width=thickness)
+    # draw.line((50, 200 + line_h + 10, 200 + line_h + 10 + thickness//3, 200 + line_h + 10), fill='#000000', width=thickness)
     draw.ellipse((475-thickness-1, 475-thickness-1, 475+thickness+1, 475+thickness+1), fill=(0,0,0,255))
+
+
+    e_x, e_y = 675, 625
+    t_x, t_y = 675, 725
+    val = row[7].split('(')[0]
+    line = f'Diameter: {val}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((t_x, t_y), line, '#000000', font=font)
+    thickness = 6
+    draw.line((e_x, e_y, e_x + (t_y - e_y), t_y), fill='#ffffff', width=thickness)
+    draw.ellipse((e_x-thickness, e_y-thickness, e_x+thickness, e_y+thickness), fill=(255,255,255,255))
+    thickness = 2
+    draw.line((e_x, e_y, e_x + (t_y - e_y), t_y), fill='#000000', width=thickness)
+    draw.ellipse((e_x-thickness-1, e_y-thickness-1, e_x+thickness+1, e_y+thickness+1), fill=(0,0,0,255))
+
+    e_x, e_y = 585, 580
+    t_x, t_y = 250, 825
+    val = row[10].split('(')[0]
+    line = f'Texture: {val}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((t_x, t_y), line, '#000000', font=font)
+    thickness = 6
+    draw.line((e_x, e_y, e_x - (t_y - e_y), t_y), fill='#ffffff', width=thickness)
+    draw.ellipse((e_x-thickness, e_y-thickness, e_x+thickness, e_y+thickness), fill=(255,255,255,255))
+    thickness = 2
+    draw.line((e_x, e_y, e_x - (t_y - e_y), t_y), fill='#000000', width=thickness)
+    draw.ellipse((e_x-thickness-1, e_y-thickness-1, e_x+thickness+1, e_y+thickness+1), fill=(0,0,0,255))
+
+    e_x, e_y = 520, 400
+    t_x, t_y = 600, 300
+    val = row[1].split('(')[0]
+    line = f'Type: {val}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((t_x, t_y), line, '#000000', font=font)
+    thickness = 6
+    draw.line((e_x, e_y, e_x - (t_y - e_y) - line_h, t_y + line_h), fill='#ffffff', width=thickness)
+    draw.ellipse((e_x-thickness, e_y-thickness, e_x+thickness, e_y+thickness), fill=(255,255,255,255))
+    thickness = 2
+    draw.line((e_x, e_y, e_x - (t_y - e_y) - line_h, t_y + line_h), fill='#000000', width=thickness)
+    draw.ellipse((e_x-thickness-1, e_y-thickness-1, e_x+thickness+1, e_y+thickness+1), fill=(0,0,0,255))
+
+    e_x, e_y = 295, 605
+    t_x, t_y = 100, 700
+    val = row[4].split('(')[0]
+    line = f'Tips: {val}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((t_x, t_y), line, '#000000', font=font)
+    thickness = 6
+    draw.line((e_x, e_y, e_x - (t_y - e_y), t_y), fill='#ffffff', width=thickness)
+    draw.ellipse((e_x-thickness, e_y-thickness, e_x+thickness, e_y+thickness), fill=(255,255,255,255))
+    thickness = 2
+    draw.line((e_x, e_y, e_x - (t_y - e_y), t_y), fill='#000000', width=thickness)
+    draw.ellipse((e_x-thickness-1, e_y-thickness-1, e_x+thickness+1, e_y+thickness+1), fill=(0,0,0,255))
+
 
     attribute = attribute.replace('/', '-')
     featured_image_filename = f'website/images/{entity}-{category}-{attribute}-{file}.jpg'
     
     img = img.convert('RGB')
-    img = img.resize((768, 768))
+    # img = img.resize((768, 768))
     img.save(featured_image_filename, format='JPEG', subsampling=0, quality=100)
 
     # print(featured_image_filpath)
     filepath = '/' + '/'.join(featured_image_filename.split('/')[1:])
 
-    return filepath
     # img.show()
     # quit()
+
+    return filepath
 
 
 def img_cheasheet(latin_name, title, lst, img_name):
@@ -813,6 +910,7 @@ for i, row in enumerate(articles_master_rows):
     except: pass
 
     article = ''
+    featured_image_filpath = ''
     if 'morphology' in attribute.lower():
         title = f'{latin_name.capitalize()} morphology'
         article += f'# {title}\n\n'
@@ -862,16 +960,20 @@ for i, row in enumerate(articles_master_rows):
                 lines = csv_get_table_data(f'database/tables/morphology/{section_title.lower()}.csv')
                 article += generate_table(lines)
 
-            # filepath = img_morphology_root(lines[1], latin_name, category, attribute, file)
-            # article += f'![none]({filepath} "none")\n\n'
+            if file.strip() == 'roots':
+                filepath = img_morphology_root(lines[1], latin_name, category, attribute, file)
+                article += f'![none]({filepath} "none")\n\n'
 
     elif 'taxonomy' in attribute.lower():
 
         title = f'{latin_name.capitalize()} taxonomy'
         article += f'# {title}\n\n'
         
-        featured_image_filpath = generate_featured_image(entity, f'{category}/{attribute}')
-        article += f'![alt]({featured_image_filpath} "title")\n\n'
+        try:
+            featured_image_filpath = generate_featured_image(entity, f'{category}/{attribute}')
+            article += f'![alt]({featured_image_filpath} "title")\n\n'
+        except:
+            print(f'WARNING: missing image ({entity} -> {category}/{attribute})')
 
         path = f'database/articles/{entity}/botany/taxonomy'
         files = ['taxonomy']
@@ -889,7 +991,7 @@ for i, row in enumerate(articles_master_rows):
         
         # common names section
         article += f'## Common Names\n\n'
-        path = f'database/articles/{entity}/botany/common-names'
+        path = f'database/articles/{entity}/botany/{attribute}'
         with open(f'{path}/common-names.md', encoding='utf-8') as f: 
             section_content = f.read()
         article += section_content + '\n\n'
@@ -905,7 +1007,7 @@ for i, row in enumerate(articles_master_rows):
         
         # varieties
         article += f'## Varieties\n\n'
-        path = f'database/articles/{entity}/botany/varieties'
+        path = f'database/articles/{entity}/botany/{attribute}'
         with open(f'{path}/varieties.md', encoding='utf-8') as f: 
             section_content = f.read()
         article += section_content + '\n\n'
@@ -915,6 +1017,14 @@ for i, row in enumerate(articles_master_rows):
         rows_filtered = [f'{row[1]}: {row[2]}' for row in rows if entity == row[0].strip()]
         article += lst_to_blt(bold_blt(rows_filtered))
         article += '\n\n'
+
+        
+        # morphology
+        article += f'## Morphology\n\n'
+        path = f'database/articles/{entity}/botany/{attribute}'
+        with open(f'{path}/morphology.md', encoding='utf-8') as f: 
+            section_content = f.read()
+        article += section_content + '\n\n'
 
 
         

@@ -37,6 +37,8 @@ The following table shows in detail the morphological characteristics of Artemis
 | Root Nodules  | Absent (no nodules present) |
 | Root Hairs  | Present, fine, and numerous |
 
+![none](/images/artemisia-absinthium-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

@@ -51,6 +51,8 @@ The following table shows in detail the morphological characteristics of Cassia 
 | Root Nodules  | Absent |
 | Root Hairs  | Sparse fine root hairs |
 
+![none](/images/cassia-senna-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

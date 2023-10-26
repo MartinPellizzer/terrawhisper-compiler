@@ -47,6 +47,8 @@ The following table shows in detail the morphological characteristics of Barosma
 | Root Nodules  | Absent |
 | Root Hairs  | Abundant and fine, 0.1-0.2 mm in length |
 
+![none](/images/barosma-betulina-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

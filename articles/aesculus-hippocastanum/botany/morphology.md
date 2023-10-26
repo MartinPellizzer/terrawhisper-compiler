@@ -41,6 +41,8 @@ The following table shows in detail the morphological characteristics of Aesculu
 | Outer Surface Texture  | Rough and wrinkled  |
 | Inner Tissue Color  | Creamy white to pale yellow  |
 
+![none](/images/aesculus-hippocastanum-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 

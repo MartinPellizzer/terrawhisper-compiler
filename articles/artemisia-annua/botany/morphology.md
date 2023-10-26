@@ -47,6 +47,8 @@ The following table shows in detail the morphological characteristics of Artemis
 | Root Nodules  | Absent |
 | Root Hairs  | Sparse, fine, and unbranched |
 
+![none](/images/artemisia-annua-botany-morphology-roots.jpg "none")
+
 ## Stems
 
 
