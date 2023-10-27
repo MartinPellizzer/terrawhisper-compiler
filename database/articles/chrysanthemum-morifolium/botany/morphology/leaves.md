@@ -1,0 +1,7 @@
+, commonly known as chrysanthemum or mums, is a popular ornamental plant with a range of distinctive leaf characteristics. The leaves of Chrysanthemum morifolium are simple, typically variable in shape, and alternate in arrangement along the stems. The orientation of the leaves is erect, giving the plant an upright appearance.
+
+The leaves of Chrysanthemum morifolium exhibit variations in size, with lengths ranging from 5 to 15 centimeters (2 to 6 inches) and widths spanning 2 to 7 centimeters (0.8 to 2.8 inches). In terms of thickness, the leaves measure approximately 0.2 to 0.5 centimeters (0.08 to 0.2 inches). Their color is primarily green, although it can vary among different cultivars.
+
+These leaves have a smooth texture and a slightly waxy surface, lending them a shiny appearance. At the leaf apex, they come to a point, with an acute shape, while the leaf base is often cuneate or rounded. The margins of the leaves are characterized by dentate or serrate edges. The venation is pinnate, and the leaf lamina is simple and entire.
+
+A prominent midrib runs along the length of the leaf, adding structural support. The leaves are petiolate, meaning they are attached to the stem by a petiole, which typically measures 2 to 8 centimeters (0.8 to 3.2 inches) in length. Stipules, small leaf-like structures at the base of the petiole, are typically absent in Chrysanthemum morifolium.

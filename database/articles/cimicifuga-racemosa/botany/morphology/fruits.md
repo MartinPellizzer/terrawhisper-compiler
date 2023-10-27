@@ -1,0 +1,5 @@
+Cimicifuga racemosa produces fruits in the form of follicles. These small, elongated structures are typically solitary or arranged in racemes. The distribution of the fruits can vary, with some plants bearing clustered fruits while others have scattered ones. The attachment of the fruit is axial, meaning it connects directly to the stem.
+
+In terms of shape, the fruits are elliptical to oblong, with dimensions that typically range from 1.5 to 2.5 centimeters in length, 0.4 to 0.7 centimeters in width, and 0.2 to 0.4 centimeters in thickness. The color of the fruits is dark brown to black, giving them a distinctive appearance.
+
+The texture of the fruits is smooth, and their surface is glabrous, meaning they lack hairs or other noticeable protrusions. There are no distinct markings on the surface of the fruit, and they exhibit dehiscence, which means they split open when mature to release their seeds.

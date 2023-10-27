@@ -10,11 +10,29 @@ latin_name = entity.replace('-', ' ').capitalize()
 attribute = sys.argv[2].lower().strip()
 # print(entity)
 
+
 print()
 print()
 print()
 print()
 print()
+
+format_table = f'''
+        For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
+        Use as few words as possible for each description. 
+        Use primarily the metric system for numbers, and put the imperial system in between parenthesis with data and numbers.
+
+        Put all the data in table format. The table must have only 2 columns.
+'''
+
+dtt = f'''
+        Using the data from the previous table, write a section for an article in less than 300 words. 
+        Don't write in list format. Write in discursive format. 
+        Use simple language and a straightforward sentence structure.
+        Don't add fluff or opinions, just write facts.
+
+        ---------------------------------------------------------------
+'''
 
 def morphology():
     i = 1
@@ -95,14 +113,11 @@ def morphology():
         - Root Nodules
         - Root Hairs
 
-        For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
-        Use as few words as possible for each description. 
-        Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
+        {format_table}
 
-        Put all the data in table format. The table must have only 2 columns.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
+        ----------------------------------------------------------------
+
+        {dtt}
     ''')
 
 
@@ -121,39 +136,36 @@ def morphology():
         - Stem Nodes
         - Stem Internodes
 
-        For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
-        Use as few words as possible for each description. 
-        Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
+        {format_table}
+        
+        ----------------------------------------------------------------
 
-        Put all the data in table format. The table must have only 2 columns.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
+        {dtt}
     ''')
 
 
-    print(f'''{i}. RHIZOMES CHARACTERISTICS
+    # print(f'''{i}. RHIZOMES CHARACTERISTICS
 
-        Here's a list of morphological characteristics of rhizomes of {latin_name}:
+    #     Here's a list of morphological characteristics of rhizomes of {latin_name}:
 
-        - Rhizome Arrangement
-        - Rhizome Shape
-        - Rhizome Height
-        - Rhizome Diameter
-        - Rhizome Color
-        - Rhizome Surface Texture
-        - Rhizome Nodes
-        - Rhizome Internodes
+    #     - Rhizome Arrangement
+    #     - Rhizome Shape
+    #     - Rhizome Height
+    #     - Rhizome Diameter
+    #     - Rhizome Color
+    #     - Rhizome Surface Texture
+    #     - Rhizome Nodes
+    #     - Rhizome Internodes
 
-        For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
-        Use as few words as possible for each description. 
-        Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
+    #     {format_table}
+        
+    #     ----------------------------------------------------------------
 
-        Put all the data in table format. The table must have only 2 columns.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
-    ''')
+    #     {dtt}
+    # ''')
+    # print(f'''
+    # --------------------------------------------------------------------
+    # ''')
 
 
     print(f'''{i}. LEAVES CHARACTERISTICS
@@ -180,14 +192,11 @@ def morphology():
         - Leaf Petiole
         - Leaf Stipules
 
-        For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
-        Use as few words as possible for each description. 
-        Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
+        {format_table}
+        
+        ----------------------------------------------------------------
 
-        Put all the data in table format. The table must have only 2 columns.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
+        {dtt}
     ''')
 
 
@@ -220,14 +229,11 @@ def morphology():
         - Flower Peduncle 
         - Flower Pedicel
 
-        For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
-        Use as few words as possible for each description. 
-        Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
+        {format_table}
+        
+        ----------------------------------------------------------------
 
-        Put all the data in table format. The table must have only 2 columns.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
+        {dtt}
     ''')
 
 
@@ -249,14 +255,11 @@ def morphology():
         - Fruit Marking
         - Fruit Dehiscence
 
-        For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
-        Use as few words as possible for each description. 
-        Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
+        {format_table}
+        
+        ----------------------------------------------------------------
 
-        Put all the data in table format. The table must have only 2 columns.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
+        {dtt}
     ''')
 
 
@@ -283,27 +286,11 @@ def morphology():
         - Seed Cotyledon
         - Seed Radicle
 
-        For each characteristic in the above list write a precise description, by adding the exact information, numbers, and data. 
-        Use as few words as possible for each description. 
-        Use primarily the metric system for data and numbers, and put the imperial system in between parenthesis with data and numbers.
+        {format_table}
+        
+        ----------------------------------------------------------------
 
-        Put all the data in table format. The table must have only 2 columns.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
-    ''')
-    i += 1
-
-
-    print(f''' {i}. DATA TO TEXT
-
-        Using the data from the previous table, write a section for an article in less than 300 words. 
-        Don't write in list format. Write in discursive format. 
-        Use simple language and a straightforward sentence structure.
-        Don't add fluff or opinions, just write facts.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
+        {dtt}
     ''')
     i += 1
 

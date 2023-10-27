@@ -1,0 +1,9 @@
+The stem type of Chrysanthemum morifolium is herbaceous, indicating that it is non-woody. This characteristic is typical of many herbaceous plants, providing flexibility and support during growth. Stem arrangement in this species is opposite, meaning that leaves are attached in pairs along the stem. This opposite arrangement creates a balanced and symmetric appearance in the plant's foliage.
+
+Chrysanthemum morifolium stems are primarily upright and cylindrical in shape. This characteristic contributes to the plant's overall growth habit and allows it to reach a height of 30-60 cm (11.8-23.6 inches). The stem height can vary within this range, depending on the specific cultivar and growing conditions. The stem diameter typically ranges from 0.5-1 cm (0.2-0.4 inches), providing adequate structural support for the plant.
+
+The stem color is uniformly green, reflecting the presence of chlorophyll and the plant's photosynthetic activity. This green coloration is characteristic of healthy Chrysanthemum morifolium stems. Stem texture is smooth and slightly ribbed, contributing to the overall aesthetics of the plant. The smooth texture enhances the visual appeal of the stems.
+
+The stem surface is glabrous, meaning it is hairless. This feature is consistent with many herbaceous plants, where the stem's smooth surface aids in efficient nutrient transport. Stem nodes are present along the stem, corresponding to the points where leaves attach. These nodes play a vital role in leaf and flower development.
+
+Stem internodes are relatively spaced, typically measuring about 5-10 cm (2-4 inches) apart. These internodes allow for proper spacing between leaves and facilitate healthy growth.
