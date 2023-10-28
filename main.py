@@ -934,7 +934,6 @@ for i, row in enumerate(articles_master_rows):
     elif 'taxonomy' in attribute.lower():
 
         title = f'{latin_name.capitalize()} taxonomy'
-        print(title)
         article += f'# {title}\n\n'
         
         try:
