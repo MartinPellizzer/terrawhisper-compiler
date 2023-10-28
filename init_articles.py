@@ -33,6 +33,7 @@ for entity in entities:
     
     try: os.mkdir(f'database/articles/{entity}/botany/taxonomy')
     except: pass
+    with open(f'database/articles/{entity}/botany/taxonomy/_intro.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/botany/taxonomy/taxonomy.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/botany/taxonomy/common-names.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/botany/taxonomy/varieties.md', 'a', encoding='utf-8') as f: pass

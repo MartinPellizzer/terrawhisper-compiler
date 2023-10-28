@@ -1,0 +1,7 @@
+One of the most popular varieties is 'Variegatus.' It is easily recognizable due to its variegated leaves, which feature alternating green and creamy-white stripes. This aesthetic appeal makes it a favored choice for ornamental purposes in gardens and landscapes.
+
+'Flincheri' is valued for its compact growth and aromatic foliage. This variety is often sought after for its pleasant scent and suitability in smaller garden spaces. 'Argenteostriatus' stands out for its silvery-white striped leaves, adding an attractive ornamental touch to any garden. Its unique coloration makes it a desirable choice for those looking to enhance their landscaping with distinctive plant varieties.
+
+For those seeking vibrant colors, 'Ogon' and 'Golden Edge' are excellent choices. 'Ogon' gets its name from the Japanese word for "gold," highlighting its striking golden-yellow foliage. Similarly, 'Golden Edge' features eye-catching golden-yellow leaf edges. Both varieties add a touch of brilliance to gardens and landscapes.
+
+The 'Medicinalis' variety is renowned for its traditional medicinal uses. It is sought after for its healing properties and is often grown for this specific purpose. 'Zebrinus' earns its name from the zebra-like stripes on its leaves. This unique pattern adds an element of intrigue to the plant, making it a favorite among those who appreciate distinctive foliage. 'Aromaticus' is appreciated for its pleasant aroma. This variety is not only visually appealing but also adds a delightful fragrance to gardens and landscapes.

@@ -1,0 +1,5 @@
+Acorus calamus, commonly known as Sweet Flag, is within the Plantae kingdom, signifying its eukaryotic cellular structure and status as a vascular plant bearing seeds enclosed in fruits. 
+
+With its unique classification under the class Monocots (Liliopsida), Acorus calamus stands out, boasting a single cotyledon in its embryo and distinct floral attributes. Further down the taxonomic hierarchy, this perennial plant finds its home in the order Acorales and the family Acoraceae, emphasizing its close botanical relatives. Underpinning its scientific identity is the genus Acorus and species name calamus, encapsulated in the widely recognized binomial nomenclature Acorus calamus. 
+
+This remarkable plant, known by a multitude of common names such as Calamus, Flagroot, and Bitter Pepper Root, offers a rich tapestry of characteristics and varieties, making it a subject of both scientific curiosity and horticultural beauty.

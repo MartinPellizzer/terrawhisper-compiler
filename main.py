@@ -934,6 +934,7 @@ for i, row in enumerate(articles_master_rows):
     elif 'taxonomy' in attribute.lower():
 
         title = f'{latin_name.capitalize()} taxonomy'
+        print(title)
         article += f'# {title}\n\n'
         
         try:
@@ -941,6 +942,14 @@ for i, row in enumerate(articles_master_rows):
             article += f'![alt]({featured_image_filpath} "title")\n\n'
         except:
             print(f'WARNING: missing image ({entity} -> {category}/{attribute})')
+
+        # intro
+        path = f'database/articles/{entity}/botany/{attribute}'
+        with open(f'{path}/_intro.md', encoding='utf-8') as f: 
+            section_content = f.read()
+        article += section_content + '\n\n'
+
+        article += f'This article gives a detailed explanation of the taxonomy, common names, and varieties of {latin_name}.' + '\n\n'
 
         path = f'database/articles/{entity}/botany/taxonomy'
         files = ['taxonomy']
@@ -955,6 +964,7 @@ for i, row in enumerate(articles_master_rows):
                 article += '\n\n' + section_content + '\n\n'
                 lines = csv_get_table_data(f'database/tables/taxonomy/{section_title.lower()}.csv')
                 article += generate_table(lines)
+        
         
         # common names section
         article += f'## Common Names\n\n'

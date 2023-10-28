@@ -364,7 +364,7 @@ def taxonomy():
     
     print(f'''{i}. VARIETIES
 
-        Give a list of varieties of {latin_name}. Give me just the names, no descriptions.
+        Give me a list of 10 varieties of {latin_name}. Give me just the names, no descriptions.
     ''')
     print(f'''
     --------------------------------------------------------------------
@@ -413,7 +413,7 @@ def taxonomy():
         for k in range(len(tmp_values)):
             if k == 0: continue
             if tmp_values[k].strip() != '':
-                lst.append(tmp_header[k] + ": " + tmp_values[k])
+                lst.append(f'- {tmp_header[k]}: ' + tmp_values[k])
         text += '\n'.join(lst)
 
 
@@ -422,6 +422,29 @@ def taxonomy():
         Write an overall description of the appearance of {latin_name} by using the data in the following tables:
         
         {text}
+
+        Use less than 100 words in your answer.
+        Start the reply with the following sentence:
+
+        Knowing the Morphology of {latin_name} is useful if you want to be able to classify this plant.
+    ''')
+    print(f'''
+    --------------------------------------------------------------------
+    ''')
+    i += 1
+
+    print(f'''{i}. INTRO HIGHLIGHTS
+
+       Give me 3 highlights about the following text in less than 100 words:
+    ''')
+    print(f'''
+    --------------------------------------------------------------------
+    ''')
+    i += 1
+
+    print(f'''{i}. INTRO TEXT
+
+       Write an intro paragraph about {latin_name} using the highlights from your previous reply.
     ''')
     print(f'''
     --------------------------------------------------------------------
