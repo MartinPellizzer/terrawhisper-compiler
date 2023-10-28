@@ -33,7 +33,7 @@ The following table shows in detail the morphological characteristics of Ammi vi
 | Root Density  | High (approximately 800 roots per cubic meter) |
 | Root Depth  | Shallow (3.9 inches or 10 cm) |
 | Root Diameter  | Fine (0.08 inches or 2 mm) |
-| Root Length  | Variable (4.7 to 11.8 inches or 12 to 30 cm) |
+| Root Length  | 12 to 30 cm (4.7 to 11.8 inches) |
 | Root Color  | White |
 | Root Surface Texture  | Smooth |
 | Root Nodules  | Absent |
@@ -67,6 +67,8 @@ The following table shows in detail the morphological characteristics of Ammi vi
 | Stem Surface  | Glabrous (hairless) |
 | Stem Nodes  | Present, distinct |
 | Stem Internodes  | Approximately 3-5 cm (1.2-2 inches) apart |
+
+![none](/images/ammi-visnaga-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

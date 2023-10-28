@@ -76,6 +76,8 @@ The following table shows in detail the morphological characteristics of Chrysan
 | Stem Nodes  | Present, where leaves attach to the stem |
 | Stem Internodes  | About 5-10 cm (2-4 inches) apart |
 
+![none](/images/chrysanthemum-morifolium-botany-morphology-stems.jpg "none")
+
 ## Leaves
 
 

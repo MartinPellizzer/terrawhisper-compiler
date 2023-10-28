@@ -74,6 +74,8 @@ The following table shows in detail the morphological characteristics of Cinchon
 | Stem Nodes  | Clearly defined at leaf attachment points |
 | Stem Internodes  | Approximately 10 centimeters (3.94 inches) apart |
 
+![none](/images/cinchona-officinalis-botany-morphology-stems.jpg "none")
+
 ## Leaves
 
 

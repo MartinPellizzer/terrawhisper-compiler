@@ -41,7 +41,7 @@ The following table shows in detail the morphological characteristics of Apium g
 | Root Density  | Approximately 3.5 roots per cm2 (18 roots per in2) |
 | Root Depth  | Typically 25-30 cm (10-12 inches) |
 | Root Diameter  | About 0.2 cm (0.08 inches) |
-| Root Length  | Typically 20-30 cm (8-12 inches) |
+| Root Length  | 20-30 cm (8-12 inches) |
 | Root Color  | Light tan to brown |
 | Root Surface Texture  | Smooth |
 | Root Nodules  | Absent |
@@ -75,6 +75,8 @@ The following table shows in detail the morphological characteristics of Apium g
 | Stem Surface  | Glabrous (without hairs or trichomes) |
 | Stem Nodes  | Present, with leaves attached |
 | Stem Internodes  | 2-5 cm (0.8-2 inches) between nodes |
+
+![none](/images/apium-graveolens-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

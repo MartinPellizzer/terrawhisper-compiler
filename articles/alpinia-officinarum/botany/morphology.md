@@ -38,8 +38,8 @@ The following table shows in detail the morphological characteristics of Alpinia
 | Root Tips  | Acute |
 | Root Density  | Approximately 1.5 g/cm3 |
 | Root Depth  | 20-30 cm (7.9-11.8 inches) |
-| Root Diameter  | Main: 1.5 cm (0.59 inches), lateral: 0.2 cm (0.08 inches) |
-| Root Length  | Main: 25-30 cm (9.8-11.8 inches), lateral: varied |
+| Root Diameter  | 1.5 cm (0.59 inches) |
+| Root Length  | 25-30 cm (9.8-11.8 inches) |
 | Root Color  | Light brown |
 | Root Surface Texture  | Smooth |
 | Root Nodules  | Absent |
@@ -71,6 +71,8 @@ The following table shows in detail the morphological characteristics of Alpinia
 | Stem Surface  | Glossy, waxy |
 | Stem Nodes  | Distinct nodes with leaves and branches |
 | Stem Internodes  | Approximately 10-30 centimeters (3.94-11.81 inches) |
+
+![none](/images/alpinia-officinarum-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

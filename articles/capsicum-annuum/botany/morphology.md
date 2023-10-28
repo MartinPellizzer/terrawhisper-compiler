@@ -39,7 +39,7 @@ The following table shows in detail the morphological characteristics of Capsicu
 | Root Density  | Approximately 125 roots per cubic decimeter |
 | Root Depth  | 15-30 centimeters (6-12 inches) |
 | Root Diameter  | 0.2-0.5 centimeters (0.08-0.2 inches) |
-| Root Length  | Variable, typically 20-60 centimeters (8-24 inches) |
+| Root Length  | 20-60 centimeters (8-24 inches) |
 | Root Color  | Whitish to light brown |
 | Root Surface Texture  | Smooth |
 | Root Nodules  | Absent |
@@ -73,6 +73,8 @@ The following table shows in detail the morphological characteristics of Capsicu
 | Stem Surface  | Glabrous (hairless) |
 | Stem Nodes  | Frequent (at leaf attachment points) |
 | Stem Internodes  | 5-15 cm (2-6 inches) |
+
+![none](/images/capsicum-annuum-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

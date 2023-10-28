@@ -33,7 +33,7 @@ The following table shows in detail the morphological characteristics of Aloe ve
 | Root Density  | Approximately 30 roots per cm2 (186 roots per in2) |
 | Root Depth  | Shallow, typically 30-60 cm (12-24 inches) |
 | Root Diameter  | Approximately 2-4 mm (0.08-0.16 inches) |
-| Root Length  | Varied, with primary roots up to 20 cm (8 inches) |
+| Root Length  | Up to 20 cm (8 inches) |
 | Root Color  | White to pale tan |
 | Root Surface Texture  | Smooth |
 | Root Nodules  | Absent |
@@ -67,6 +67,8 @@ The following table shows in detail the morphological characteristics of Aloe ve
 | Stem Surface  | Waxy and fleshy, covered in aloe latex |
 | Stem Nodes  | Compact nodes at the base |
 | Stem Internodes  | Short, 2-8 cm (0.8-3.1 inches) |
+
+![none](/images/aloe-vera-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

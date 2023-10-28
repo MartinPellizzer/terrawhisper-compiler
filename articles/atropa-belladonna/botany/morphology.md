@@ -66,6 +66,8 @@ The following table shows in detail the morphological characteristics of Atropa 
 | Stem Nodes  | Prominent, where leaves are attached |
 | Stem Internodes  | 10-15 cm (3.9-5.9 inches) between nodes |
 
+![none](/images/atropa-belladonna-botany-morphology-stems.jpg "none")
+
 ## Leaves
 
 

@@ -44,7 +44,7 @@ The following table shows in detail the morphological characteristics of Cinnamo
 | Root Structure  | Fibrous |
 | Root Branching  | Moderately branched |
 | Root Tips  | Pointed |
-| Root Density  | Approximately 400 roots/cmâ³ (2,548 roots/inâ³) |
+| Root Density  | Approximately 400 roots/cm3 (2,548 roots/in3) |
 | Root Depth  | 30-60 cm (11.8-23.6 inches) |
 | Root Diameter  | 0.2-0.5 cm (0.08-0.2 inches) |
 | Root Length  | 20-30 cm (7.9-11.8 inches) |
@@ -81,6 +81,8 @@ The following table shows in detail the morphological characteristics of Cinnamo
 | Stem Surface  | Glabrous (smooth), lenticels present |
 | Stem Nodes  | Clearly defined, leaf and branch attachment points |
 | Stem Internodes  | Spaced about 10-15 cm (4-6 inches) apart |
+
+![none](/images/cinnamomum-verum-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

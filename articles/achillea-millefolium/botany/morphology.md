@@ -41,7 +41,7 @@ The following table shows in detail the morphological characteristics of Achille
 | Root Density  | Approx. 280 roots per cm2 (approx. 1800 roots per square inch) |
 | Root Depth  | 20 cm (7.87 inches) |
 | Root Diameter  | 1 mm (0.04 inches) |
-| Root Length  | 30 cm (11.81 inches) |
+| Root Length  | Approximately 30 cm (11.81 inches) |
 | Root Color  | Whitish to light brown |
 | Root Surface Texture  | Smooth surface |
 | Root Nodules  | Absent |
@@ -75,6 +75,8 @@ The following table shows in detail the morphological characteristics of Achille
 | Stem Surface  | Smooth |
 | Stem Nodes  | Frequent (nodes closely spaced along the stem) |
 | Stem Internodes  | Short (short distances between nodes) |
+
+![none](/images/achillea-millefolium-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

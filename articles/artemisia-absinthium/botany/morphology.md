@@ -31,7 +31,7 @@ The following table shows in detail the morphological characteristics of Artemis
 | Root Density  | Moderate density (approximately 8-12 roots/cm3) |
 | Root Depth  | Deep, up to 60 cm (approximately 24 inches) |
 | Root Diameter  | Thin, 1-2 mm (0.04-0.08 inches) |
-| Root Length  | Extensive, up to 1 m (approximately 39 inches) |
+| Root Length  | Up to 1 m (approximately 39 inches) |
 | Root Color  | Pale beige to light brown |
 | Root Surface Texture  | Smooth surface with fine root hairs |
 | Root Nodules  | Absent (no nodules present) |
@@ -67,6 +67,8 @@ The following table shows in detail the morphological characteristics of Artemis
 | Stem Surface  | Glabrous (smooth), slightly grooved |
 | Stem Nodes  | Present, spaced along the stem |
 | Stem Internodes  | 5-15 cm (2-6 inches) apart |
+
+![none](/images/artemisia-absinthium-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

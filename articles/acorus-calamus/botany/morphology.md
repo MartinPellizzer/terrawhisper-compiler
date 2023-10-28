@@ -92,6 +92,8 @@ The following table shows in detail the morphological characteristics of Acorus 
 | Rhizome Texture  | Fleshy, somewhat waxy  |
 | Rhizome Color  | Light to dark brown  |
 
+![none](/images/acorus-calamus-botany-morphology-stems.jpg "none")
+
 ## Leaves
 
 

@@ -32,7 +32,7 @@ The following table shows in detail the morphological characteristics of Azadira
 | Root Structure  | Fibrous |
 | Root Branching  | Dichotomous (bifurcation) |
 | Root Tips  | Sharp, pointed |
-| Root Density  | 450 roots/cmâ³ (2,900 roots/inâ³) |
+| Root Density  | 450 roots/cm3 (2,900 roots/in3) |
 | Root Depth  | 2 meters (6.56 feet) |
 | Root Diameter  | 0.5 cm (0.2 inches) average |
 | Root Length  | Up to 3 meters (9.84 feet) |
@@ -67,6 +67,8 @@ The following table shows in detail the morphological characteristics of Azadira
 | Stem Surface  | Furrowed and scaly |
 | Stem Nodes  | Nodes present, typically 2 per stem segment |
 | Stem Internodes  | Internodes elongated, variable length |
+
+![none](/images/azadirachta-indica-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

@@ -76,6 +76,8 @@ The following table shows in detail the morphological characteristics of Cimicif
 | Stem Nodes  | Present, at regular intervals |
 | Stem Internodes  | Between nodes, 10-20 cm (4-8 inches) |
 
+![none](/images/cimicifuga-racemosa-botany-morphology-stems.jpg "none")
+
 ## Leaves
 
 

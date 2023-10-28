@@ -43,7 +43,7 @@ The following table shows in detail the morphological characteristics of Allium 
 | Root Density  | High, about 14 cm/cm3 (0.14 in/in3)  |
 | Root Depth  | Shallow, typically 10-20 cm (4-8 inches)  |
 | Root Diameter  | Approximately 0.2 cm (0.08 inches)  |
-| Root Length  | Varies, can reach up to 50 cm (20 inches)  |
+| Root Length  | Up to 50 cm (20 inches)  |
 | Root Color  | Whitish, cream-colored  |
 | Root Surface Texture  | Fleshy, smooth  |
 | Root Nodules  | Absent  |
@@ -83,6 +83,8 @@ The following table shows in detail the morphological characteristics of Allium 
 | Stem Texture  | Smooth, fleshy  |
 | Stem Nodes  | Typically 1 (at the base)  |
 | Stem Internodes  | Variable, shorter near base, longer higher up  |
+
+![none](/images/allium-sativum-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

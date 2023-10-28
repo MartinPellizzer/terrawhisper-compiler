@@ -74,6 +74,8 @@ The following table shows in detail the morphological characteristics of Arctium
 | Stem Nodes  | Distinct nodes where leaves and branches grow |
 | Stem Internodes  | Varying lengths between nodes |
 
+![none](/images/arctium-lappa-botany-morphology-stems.jpg "none")
+
 ## Leaves
 
 

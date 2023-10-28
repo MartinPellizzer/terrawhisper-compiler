@@ -77,6 +77,8 @@ The following table shows in detail the morphological characteristics of Bupleur
 | Stem Nodes  | Distinct, with leaves attached |
 | Stem Internodes  | Vary in length, typically 5-15 cm (2-5.9 inches) |
 
+![none](/images/bupleurum-chinense-botany-morphology-stems.jpg "none")
+
 ## Leaves
 
 

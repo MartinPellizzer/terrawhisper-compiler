@@ -77,6 +77,8 @@ The following table shows in detail the morphological characteristics of Astraga
 | Stem Nodes  | Present (or absent) |
 | Stem Internodes  | 3-6 cm (1.2-2.4 inches) between nodes (if present) |
 
+![none](/images/astragalus-membranaceus-botany-morphology-stems.jpg "none")
+
 ## Leaves
 
 

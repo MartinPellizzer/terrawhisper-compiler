@@ -37,10 +37,10 @@ The following table shows in detail the morphological characteristics of Calendu
 | Root Structure  | Adventitious (fasciculated) |
 | Root Branching  | Dichotomous |
 | Root Tips  | Smooth |
-| Root Density  | High (approx. 700 roots/cmâ²) |
+| Root Density  | High (approx. 700 roots/cm2) |
 | Root Depth  | Shallow (5-10 cm or 2-4 inches) |
 | Root Diameter  | Thin (0.2-0.5 cm or 0.08-0.2 inches) |
-| Root Length  | Moderate (15-30 cm or 6-12 inches) |
+| Root Length  | 15-30 cm (6-12 inches) |
 | Root Color  | Creamy white |
 | Root Surface Texture  | Smooth |
 | Root Nodules  | Absent |
@@ -74,6 +74,8 @@ The following table shows in detail the morphological characteristics of Calendu
 | Stem Surface  | Glabrous (mostly smooth) |
 | Stem Nodes  | Clearly defined, spaced along the stem |
 | Stem Internodes  | Approximately 5-15 cm (2-6 inches) apart |
+
+![none](/images/calendula-officinalis-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

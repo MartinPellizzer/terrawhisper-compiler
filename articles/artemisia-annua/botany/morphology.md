@@ -78,6 +78,8 @@ The following table shows in detail the morphological characteristics of Artemis
 | Stem Nodes  | Frequent (nodes are regularly spaced) |
 | Stem Internodes  | 3-10 cm (1.2-3.9 inches) between nodes |
 
+![none](/images/artemisia-annua-botany-morphology-stems.jpg "none")
+
 ## Leaves
 
 

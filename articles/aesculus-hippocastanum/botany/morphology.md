@@ -30,16 +30,18 @@ The following table shows in detail the morphological characteristics of Aesculu
 
 | Characteristic | Description |
 | --- | --- |
-| Taproot Shape  | Conical, tapering downward  |
-| Taproot Depth  | Up to 4.5 m (14.8 ft)  |
-| Taproot Diameter  | 2.5 to 5 cm (1 to 2 in)  |
-| Taproot Growth Rate  | 15 to 30 cm per year  |
-| Fine Roots Shape  | Cylindrical (slightly flattened)  |
-| Fine Roots Diameter  | 1-2 mm (0.04-0.08 in)  |
-| Root System Width  | 8 m (26 ft)  |
-| Surface Color  | Light to dark brown  |
-| Outer Surface Texture  | Rough and wrinkled  |
-| Inner Tissue Color  | Creamy white to pale yellow  |
+| Root System Type  | Taproot |
+| Root Structure  | Fibrous (shallow roots) |
+| Root Branching  | Moderate branching |
+| Root Tips  | Pointed tips |
+| Root Density  | Approximately 20-40 roots per cubic centimeter (125-250 roots per cubic inch) |
+| Root Depth  | 0.6-1.2 meters (2-4 feet) |
+| Root Diameter  | 0.5-1.5 centimeters (0.2-0.6 inches) |
+| Root Length  | Up to 2 meters (6.6 feet) |
+| Root Color  | Light brown to dark brown |
+| Root Surface Texture  | Rough and slightly ridged |
+| Root Nodules  | Absent (no root nodules) |
+| Root Hairs  | Fine, dense root hairs present |
 
 ![none](/images/aesculus-hippocastanum-botany-morphology-roots.jpg "none")
 
@@ -71,6 +73,8 @@ The following table shows in detail the morphological characteristics of Aesculu
 | Stem Surface  | Bark (or woody and textured) |
 | Stem Nodes  | Present at leaf axils (or absent in young stems) |
 | Stem Internodes  | Vary in length, typically 10-20 cm (3.9-7.9 inches) |
+
+![none](/images/aesculus-hippocastanum-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

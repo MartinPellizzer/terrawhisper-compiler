@@ -42,10 +42,10 @@ The following table shows in detail the morphological characteristics of Cassia 
 | Root Structure  | Fibrous roots |
 | Root Branching  | Moderate branching |
 | Root Tips  | Acute tips |
-| Root Density  | 350 roots/cmâ³ (2,240 roots/inâ³) |
+| Root Density  | 350 roots/cm3 (2,240 roots/in3) |
 | Root Depth  | 30 cm (11.8 inches) |
 | Root Diameter  | 0.5 cm (0.2 inches) |
-| Root Length  | 60 cm (23.6 inches) |
+| Root Length  | Approximately 60 cm (23.6 inches) |
 | Root Color  | Light brown |
 | Root Surface Texture  | Smooth surface |
 | Root Nodules  | Absent |
@@ -77,6 +77,8 @@ The following table shows in detail the morphological characteristics of Cassia 
 | Stem Surface  | Glabrous (or pubescent) |
 | Stem Nodes  | Present (or absent) |
 | Stem Internodes  | 3-10 cm (1.2-3.9 inches) |
+
+![none](/images/cassia-senna-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

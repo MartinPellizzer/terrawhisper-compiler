@@ -74,6 +74,8 @@ The following table shows in detail the morphological characteristics of Angelic
 | Stem Nodes  | Distinct nodes at intervals |
 | Stem Internodes  | About 20-30 cm (7.9-11.8 inches) between nodes |
 
+![none](/images/angelica-sinensis-botany-morphology-stems.jpg "none")
+
 ## Leaves
 
 

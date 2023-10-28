@@ -72,6 +72,8 @@ The following table shows in detail the morphological characteristics of Chamomi
 | Stem Nodes  | Sparsely branched with occasional nodes |
 | Stem Internodes  | Approximately 2-6 cm (0.8-2.4 inches) apart |
 
+![none](/images/chamomilla-recutita-botany-morphology-stems.jpg "none")
+
 ## Leaves
 
 

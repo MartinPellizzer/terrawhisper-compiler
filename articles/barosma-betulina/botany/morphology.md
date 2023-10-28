@@ -38,10 +38,10 @@ The following table shows in detail the morphological characteristics of Barosma
 | Root Structure  | Taproot |
 | Root Branching  | Minimal lateral branching |
 | Root Tips  | Single primary root tip |
-| Root Density  | High density (approximately 5,000 roots/mâ²) |
+| Root Density  | High density (approximately 5,000 roots/m2) |
 | Root Depth  | Shallow (10-20 cm) |
 | Root Diameter  | Thin (0.2-0.5 cm) |
-| Root Length  | Moderate length (15-30 cm) |
+| Root Length  | 15-30 cm |
 | Root Color  | Brown to reddish-brown |
 | Root Surface Texture  | Smooth with fine root hairs |
 | Root Nodules  | Absent |
@@ -73,6 +73,8 @@ The following table shows in detail the morphological characteristics of Barosma
 | Stem Surface  | Smooth (or slightly rough) |
 | Stem Nodes  | Present, spaced at regular intervals |
 | Stem Internodes  | Approximately 2-5 cm (0.79-1.97 inches) in length |
+
+![none](/images/barosma-betulina-botany-morphology-stems.jpg "none")
 
 ## Leaves
 

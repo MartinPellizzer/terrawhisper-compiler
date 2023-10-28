@@ -250,3 +250,10 @@ yarrow skin health benefits
 dried yarrow health benefits
 yarrow benefits in soap
 yarrow powder benefits in soap
+is yarrow good for skin
+yarrow flower skin benefits
+yarrow skin benefits
+yarrow good for skin
+yarrow in skincare
+how to use yarrow for skin
+is yarrow good for your skin

@@ -74,6 +74,8 @@ The following table shows in detail the morphological characteristics of Centell
 | Stem Nodes  | Present (points where leaves attach) |
 | Stem Internodes  | Short (spacing between nodes) |
 
+![none](/images/centella-asiatica-botany-morphology-stems.jpg "none")
+
 ## Leaves
 
 
