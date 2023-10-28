@@ -1,0 +1,11 @@
+Cinchona officinalis, a plant with fibrous root system, features dichotomous branching in its fine roots for efficient water and nutrient absorption. The root structure is adventitious with a taproot anchoring the plant, typically 30-40 cm (11.8-15.7 inches) deep. Root tips are acute, and the roots have a diameter of 2-4 mm (0.08-0.16 inches) and can grow up to 50 cm (19.7 inches) in length, brown in color, with a smooth surface.
+
+There are no root nodules, but abundant fine root hairs increase water and nutrient absorption. The root density is about 1.2 roots per cubic centimeter (0.74 roots per cubic inch).
+
+Cinchona officinalis stems are herbaceous, opposite, cylindrical, with a height of 1.5 meters (4.92 feet) and a diameter of 5 cm (1.97 inches). They are primarily green with brown spots, have a smooth texture, and are hairless. Stem nodes and internodes are well-defined, approximately 10 cm (3.94 inches) apart.
+
+The leaves are simple, elliptical, horizontally oriented, measuring 10 cm (3.94 inches) in length, 4 cm (1.57 inches) in width, and 0.2 cm (0.08 inches) in thickness. They are dark green, smooth, and glossy, with an acute apex and cuneate base, smooth margin, and pinnate venation. The lamina is broad and flat, with a prominent midrib, stipules, and a 2 cm (0.79 inches) petiole.
+
+Cinchona officinalis flowers are racemose, zygomorphic, tubular, 2.5 cm (0.98 inches) long, and 1.5 cm (0.59 inches) wide, with pink or white colors. They have a smooth, hairless surface, five tepals, five stamens adnate to the corolla, a solitary pistil with an inferior ovary, long and slender style, and a capitate stigma. Stipules are absent, and pedicels are short, about 0.5 cm (0.2 inches).
+
+The ovate fruits are 2.5 cm long, 1 cm wide, and 0.5 cm thick, turning brown when mature, with a smooth, hairless surface and dehiscence. The seeds are elliptical, 1.5 cm long, 0.5 cm wide, and 0.3 cm thick, with a hard, brown seed coat, a thin impermeable layer (0.1 mm), a hilum scar, straight embryo, two cotyledons, and a short radicle (0.2 cm or 0.08 inches). Seeds lack wings or appendages.

@@ -1,0 +1,5 @@
+The seeds of Cinnamomum verum are simple in structure, often found as solitary units or in small clusters. These seeds have an elliptical shape, measuring approximately 10-12 millimeters in length, 5-6 millimeters in width, and 2-3 millimeters in thickness. They are characterized by their hardness, making them resilient.
+
+The seed coat of Cinnamomum verum seeds is typically brown, with a smooth and shiny surface. The coat is relatively thin, measuring about 0.5-1 millimeter in thickness. This thin seed coat is impermeable, which means it does not readily allow the passage of water or gases.
+
+At the base of the seed, you can find the hilum, a distinct mark or scar that serves as a point of attachment. Inside the seed, there is a straight embryo with two cotyledons (dicotyledon). These cotyledons are essential for the initial growth of the seedling. Additionally, there is a radicle present, which is the embryonic root that emerges from one end of the embryo.
