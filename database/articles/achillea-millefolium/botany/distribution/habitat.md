@@ -1,0 +1,9 @@
+One of the most prevalent natural habitats for yarrow is grasslands. This resilient species thrives in open grassy areas and often emerges as a dominant plant, contributing to the biodiversity of these regions. Meadows, another common habitat, offer a favorable environment for this plant due to their open, sunny conditions, which are ideal for its growth.
+
+Roadsides represent a distinctive habitat for Achillea millefolium. This species readily colonizes roadside environments, benefiting from the disturbed soils and ample sunlight found along roadsides. It serves as an indicator of ecological disruption in these areas. It is also known to inhabit woodland edges, particularly in regions with dappled sunlight and well-drained soils, where it plays a role in the transitional zones between woodlands and open spaces.
+
+Yarrow displays adaptability to arid conditions, leading to its presence on dry slopes. Its deep roots allow it to access soil moisture, making it a suitable inhabitant of such environments. In pastures and grazing lands, it coexists with other grasses and forbs, providing valuable forage for livestock.
+
+The species is adept at colonizing disturbed areas, such as construction sites or abandoned fields, due to its ability to grow in soils with minimal competition. Along coastal regions, yarrow can be found on dunes, where it endures salt spray and sandy conditions. This adaptation contributes to its presence in coastal dune ecosystems.
+
+In higher altitudes, this plant can be observed in alpine meadows, defying the harsh conditions of mountainous regions. Lastly, it sometimes grows at the edges of wetlands, displaying a tolerance for wetter soils compared to many other plant species found in these aquatic environments. This diversity of natural habitats highlights the ecological flexibility of Achillea millefolium, which has enabled it to thrive in a wide range of geographical locations and ecological niches.

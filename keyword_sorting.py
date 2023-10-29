@@ -1,0 +1,46 @@
+import sys
+
+if len(sys.argv) != 3:
+    print('ERR: params (OUT_FILENAME, WORD)')
+    quit()
+
+out_filename = sys.argv[1]
+word = sys.argv[2]
+print(out_filename)
+print(word)
+# quit()
+
+with open('keywords/keywords.md', encoding='utf-8') as f:
+    keywords = f.readlines()
+
+
+keep_lst = []
+move_lst = []
+for keyword in keywords:
+    keyword = keyword.strip()
+    if word in keyword:
+        move_lst.append(keyword)
+    else:
+        keep_lst.append(keyword)
+
+
+with open('keywords/keywords.md', 'w', encoding='utf-8') as f:
+    for item in keep_lst:
+        f.write(f'{item}\n')
+        
+with open(f'keywords/{out_filename}.md', 'a', encoding='utf-8') as f:
+    f.write(f'{word}\n')
+    for item in move_lst:
+        f.write(f'    {item}\n')
+    f.write(f'\n')
+
+print(len(keep_lst))
+
+# print(len(keep_lst))
+# print(len(move_lst))
+
+# for item in keep_lst:
+#     print(item)
+
+# for item in move_lst:
+#     print(item)

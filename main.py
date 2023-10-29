@@ -76,6 +76,20 @@ def csv_to_llst(filepath):
     return llst
 
 
+def csv_get_rows_by_entity(filepath, entity):
+    rows = []
+    with open(filepath, encoding='utf-8', errors='ignore') as f:
+        reader = csv.reader(f, delimiter="|")
+        for i, line in enumerate(reader):
+            rows.append(line)
+    
+    filtered_rows = [] 
+    for row in rows:
+        if row[0].strip() == entity[0].strip():
+            filtered_rows.append(row)
+    return rows
+            
+
 
 ######################################################################
 # TABLE 
@@ -123,6 +137,32 @@ def csv_get_rows(filepath):
     return rows
 
 
+def generate_table_grouped(rows):
+    rows_grouped = []
+    for row in rows:
+        found = False
+        for row_grouped in rows_grouped:
+            if row[1].strip() == row_grouped[1].strip():
+                found = True
+                row_grouped.append(row[2])
+                break
+        if not found:
+            rows_grouped.append(row)
+
+    # for row in rows_grouped:
+    #     print(row)
+    # quit()
+
+    text = ''
+    for i, row in enumerate(rows_grouped):
+        if i == 0:
+            text += f'|Continent|States|\n'
+            text += f'|---|---|\n'
+        else:
+            col_1 = row[1]
+            col_2 = ','.join(row[1:])
+            text += f'|{col_1}|{col_2}|\n'
+    return text
 # def csv_get_
 
 ######################################################################
@@ -1154,12 +1194,53 @@ for i, row in enumerate(articles_master_rows):
         with open(f'{path}/morphology.md', encoding='utf-8') as f: 
             section_content = f.read()
         article += section_content + '\n\n'
+        
+    elif 'distribution' in attribute.lower():
 
+        title = f'{latin_name.capitalize()} distribution'
+        article += f'# {title}\n\n'
+        
+        try:
+            featured_image_filpath = generate_featured_image(entity, f'{category}/{attribute}')
+            article += f'![alt]({featured_image_filpath} "title")\n\n'
+        except: 
+            print(f'WARNING: missing image ({entity} -> {category}/{attribute})')
+
+        # intro
+        path = f'database/articles/{entity}/botany/{attribute}'
+        with open(f'{path}/_intro.md', encoding='utf-8') as f: 
+            section_content = f.read()
+        article += section_content + '\n\n'
+
+        # article += f'This article gives a detailed explanation of the taxonomy, common names, and varieties of {latin_name}.' + '\n\n'
+        
+        # habitat
+        article += f'## What is the natural habitat of {latin_name}?\n\n'
+        path = f'database/articles/{entity}/botany/{attribute}'
+        with open(f'{path}/habitat.md', encoding='utf-8') as f: 
+            section_content = f.read()
+        article += section_content + '\n\n'
+
+        rows = csv_get_rows('database/tables/habitat/habitat.csv')
+        article += f'Here\'s a list of the most common habitats of {latin_name} with a brief description for each one.\n\n'
+        rows_filtered = [f'{row[1]}: {row[2]}' for row in rows if entity == row[0].strip()]
+        article += lst_to_blt(bold_blt(rows_filtered))
+        article += '\n\n'
+        
+        # native
+        section = 'native'
+        article += f'## In which regions {latin_name} is native?\n\n'
+        path = f'database/articles/{entity}/botany/{attribute}'
+        with open(f'{path}/{section}.md', encoding='utf-8') as f: 
+            section_content = f.read()
+        article += section_content + '\n\n'
+
+        article += f'The following table gives a detailed list of continents and states where {latin_name} is native.\n\n'
+        lines = csv_get_table_data(f'database/tables/botany/{section}.csv')
+        rows = csv_get_rows_by_entity(f'database/tables/botany/{section}.csv', entity)
+        article += generate_table_grouped(rows)
 
         
-        # article += lst_to_blt(bold_blt(lines))
-
-    # print(attribute.lower())
     article_filepath = generate_html(date, title, article, entity, f'{category}/{attribute}')
     
     if state == 'published':
@@ -1184,6 +1265,7 @@ articles = csv_to_llst('database/tables/articles.csv')[1:]
 
 articles_morphology_html = ''
 articles_taxonomy_html = ''
+articles_distribution_html = ''
 
 for article in articles:
     entity = normalize(article[0])
@@ -1200,6 +1282,19 @@ for article in articles:
         url = f'{entity}/{category}/{attribute}.html'
         title = f'{latin_name} {attribute}'
         articles_morphology_html += f'''
+            <a href="{url}">
+                <div>
+                    <img src="{img}" alt="">
+                    <h2 class="mt-0 mb-0">{title}</h2>
+                </div>
+            </a>
+            \n
+        '''
+    elif attribute == 'distribution':
+        img = f'images/{entity}-{category}-{attribute}.jpg'
+        url = f'{entity}/{category}/{attribute}.html'
+        title = f'{latin_name} {attribute}'
+        articles_distribution_html += f'''
             <a href="{url}">
                 <div>
                     <img src="{img}" alt="">
@@ -1234,6 +1329,20 @@ if normalize(articles_taxonomy_html) != '':
             <p class="text-center mb-48">Learn everything about plant taxonomy, classification, common names, and varieties</p>
             <div class="articles">
                 {articles_taxonomy_html}
+            </div>
+        </div>
+    </section>
+    '''
+
+articles_section_distribution_html = ''
+if normalize(articles_distribution_html) != '':
+    articles_section_distribution_html = f'''
+    <section class="my-96">
+        <div class="container-lg">
+            <h2 class="text-center mb-16">Latest Articles on Plant Taxonomy</h2>
+            <p class="text-center mb-48">Learn everything about plant taxonomy, classification, common names, and varieties</p>
+            <div class="articles">
+                {articles_distribution_html}
             </div>
         </div>
     </section>
@@ -1282,6 +1391,7 @@ html = f'''
         </section>cd
         {articles_section_morphology_html}
         {articles_section_taxonomy_html}
+        {articles_section_distribution_html}
         <footer>
             <div class="container-lg">
                 <span>© TerraWhisper.com 2023 | All Rights Reserved

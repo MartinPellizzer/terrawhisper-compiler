@@ -452,7 +452,33 @@ def taxonomy():
     i += 1
 
 
+##################################################################
+# DISTRIBUTION 
+##################################################################
+def distribution():
+    i = 1
+
+    print(f'''{i}. NATURAL HABITAT
+
+        Give me a list of the natural habitats of {latin_name} ordered by most frequent. Just give me the names, don't give me descriptions.
+
+        --------------------------------------------------------------------
+
+        Give me a description for each name in the previous list. Use a scientific style of writing but use a simple and straightforward sentence structure.
+
+        --------------------------------------------------------------------
+
+        Using the data from the previous list, write a section for an article in less than 200 words. 
+        Don't write in list format. Write in discursive format. 
+        Use a scientific style of writing but use a simple and straightforward sentence structure.
+        Don't add fluff or opinions, just write facts.
+
+
+        ''')
+    i += 1
+
 if attribute == 'morphology': morphology()
 elif attribute == 'taxonomy': taxonomy()
+elif attribute == 'distribution': distribution()
 
 
