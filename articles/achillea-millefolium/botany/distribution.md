@@ -27,6 +27,8 @@ Here's a list of the most common habitats of Achillea millefolium with a brief d
 - **Alpine meadows**:   It can be found at higher elevations in alpine meadows, even in regions with colder climates.
 - **Wetlands**:   It may occur in wetlands, where it can tolerate periodic inundation and thrive in waterlogged soils.
 
+![alt](/images/achillea-millefolium-botany-habitat.jpg "title")
+
 ## In which regions Achillea millefolium is native?
 
 In North America, yarrow is native to Alaska, Canada, Greenland, the United States, and Mexico. Its presence in these regions underscores its ability to thrive in a diverse range of environments, from the northern reaches of Alaska to the temperate zones of the United States.
@@ -45,3 +47,28 @@ The following table gives a detailed list of continents and states where Achille
 | Europe       | Europe       , Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine, United Kingdom |
 | Asia         | Asia         , Armenia, Azerbaijan, China, Georgia, India, Iran, Iraq, Israel, Jordan, Kazakhstan, Kyrgyzstan, Lebanon, Mongolia, Nepal, Pakistan, Saudi Arabia, Syria, Tajikistan, Turkey, Turkmenistan, Uzbekistan  |
 | Africa       | Africa       , Algeria, Libya, Morocco, Tunisia                                                                                   |
+
+
+## What is the global distribution of Achillea millefolium?
+
+The distribution of Achillea millefolium varies across the continents. In Europe, this species can be found in moderate numbers. Moving eastward to Asia, a similar moderate distribution is observed. In contrast, Africa hosts a scarce population of Achillea millefolium.
+
+North America stands out as a continent with an abundant presence of yarrow. South America, on the other hand, exhibits a relatively scarce distribution. The continent of Australia also experiences scarce occurrences of this species.
+
+It is important to note that Achillea millefolium does not naturally occur in Antarctica, due to the extreme environmental conditions characteristic of the continent.
+
+This distribution of Achillea millefolium is influenced by various environmental factors, including climate, soil conditions, and human impact, leading to varying levels of presence across these continents.
+
+The following table gives list of continents and the distribution of Achillea millefolium for each continent.
+
+|Continent|Distribution|
+|---|---|
+| Europe          | Moderate|
+| Asia            | Moderate|
+| Africa          | Scarce|
+| North America   | Abundant|
+| South America   | Scarce|
+| Australia       | Scarce|
+| Antarctica      | Absent|
+
+

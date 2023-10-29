@@ -2,6 +2,9 @@ Natural Habitat
 Global Distribution
 Invasive Behavior
 
+Naturalized Range (not native)
+
+climate and soil conditions
 
 
 
@@ -21,8 +24,8 @@ II. Taxonomy and Botanical Characteristics
    B. Taxonomic classification
    C. Importance of yarrow in traditional and modern medicine
 
-III. Natural Habitat
-   A. Native range of Achillea millefolium
+# Natural Habitat
+   # Native range of Achillea millefolium
    B. Adaptations to different climates and ecosystems
    C. Ecological roles and interactions with other species
 

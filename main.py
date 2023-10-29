@@ -149,10 +149,6 @@ def generate_table_grouped(rows):
         if not found:
             rows_grouped.append(row)
 
-    # for row in rows_grouped:
-    #     print(row)
-    # quit()
-
     text = ''
     for i, row in enumerate(rows_grouped):
         if i == 0:
@@ -163,7 +159,21 @@ def generate_table_grouped(rows):
             col_2 = ','.join(row[1:])
             text += f'|{col_1}|{col_2}|\n'
     return text
-# def csv_get_
+    
+
+def generate_table_simple(rows):
+    text = ''
+    for i, row in enumerate(rows):
+        if i == 0:
+            text += f'|Continent|Distribution|\n'
+            text += f'|---|---|\n'
+        else:
+            col_1 = row[1]
+            col_2 = row[2]
+            text += f'|{col_1}|{col_2}|\n'
+    return text
+
+
 
 ######################################################################
 # IMAGES 
@@ -678,6 +688,18 @@ def img_morphology_stems(row, latin_name, category, attribute, file):
     # quit()
 
     return filepath
+
+
+def generate_image_habitat(entity):
+    input_filepath = f'articles-images/{entity}-botany-habitat.jpg'
+    outut_filepath = f'website/images/{entity}-botany-habitat.jpg'
+
+    img = Image.open(input_filepath)
+    img.save(outut_filepath, format='JPEG', subsampling=0, quality=100)
+
+    image_filpath = '/' + '/'.join(outut_filepath.split('/')[1:])
+
+    return image_filpath
 
 
 def img_cheasheet(latin_name, title, lst, img_name):
@@ -1226,6 +1248,12 @@ for i, row in enumerate(articles_master_rows):
         rows_filtered = [f'{row[1]}: {row[2]}' for row in rows if entity == row[0].strip()]
         article += lst_to_blt(bold_blt(rows_filtered))
         article += '\n\n'
+
+        try:
+            image_filepath = generate_image_habitat(entity)
+            article += f'![alt]({image_filepath} "title")\n\n'
+        except:
+            print(f'WARNING: missing image ({entity} -> {category}/{attribute})')
         
         # native
         section = 'native'
@@ -1239,6 +1267,21 @@ for i, row in enumerate(articles_master_rows):
         lines = csv_get_table_data(f'database/tables/botany/{section}.csv')
         rows = csv_get_rows_by_entity(f'database/tables/botany/{section}.csv', entity)
         article += generate_table_grouped(rows)
+        article += '\n\n'
+        
+        # distribution
+        section = 'distribution'
+        article += f'## What is the global distribution of {latin_name}?\n\n'
+        path = f'database/articles/{entity}/botany/{attribute}'
+        with open(f'{path}/{section}.md', encoding='utf-8') as f: 
+            section_content = f.read()
+        article += section_content + '\n\n'
+
+        article += f'The following table gives list of continents and the distribution of {latin_name} for each continent.\n\n'
+        lines = csv_get_table_data(f'database/tables/botany/{section}.csv')
+        rows = csv_get_rows_by_entity(f'database/tables/botany/{section}.csv', entity)
+        article += generate_table_simple(rows)
+        article += '\n\n'
 
         
     article_filepath = generate_html(date, title, article, entity, f'{category}/{attribute}')

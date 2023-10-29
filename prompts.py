@@ -456,9 +456,8 @@ def taxonomy():
 # DISTRIBUTION 
 ##################################################################
 def distribution():
-    i = 1
 
-    print(f'''{i}. NATURAL HABITAT
+    print(f'''NATURAL HABITAT
 
         Give me a list of the natural habitats of {latin_name} ordered by most frequent. Just give me the names, don't give me descriptions.
 
@@ -468,14 +467,68 @@ def distribution():
 
         --------------------------------------------------------------------
 
-        Using the data from the previous list, write a section for an article in less than 200 words. 
+        Using the data from the previous list, write a section for an article in less than 300 words. 
         Don't write in list format. Write in discursive format. 
         Use a scientific style of writing but use a simple and straightforward sentence structure.
         Don't add fluff or opinions, just write facts.
 
 
         ''')
-    i += 1
+
+    print(f'''NATIVE
+
+        Give me a list of continents where {latin_name} is native and not imported. Give me only the names, not the descriptions.
+
+        --------------------------------------------------------------------
+
+        For each of the above continents, give me a list of states where {latin_name} is native and not imported.
+
+        --------------------------------------------------------------------
+
+        Generate a table with 2 columns.
+
+        In the first column, write the list of continents from the last reply.
+        In the second column, write the corresponding list of states from the last reply.
+
+        The title of the first column is "Continent".
+        The title of the second column is "States".
+
+        --------------------------------------------------------------------
+
+        Using the data from the previous list, write a section for an article in less than 300 words. 
+        Don't write in list format. Write in discursive format. 
+        Use a scientific style of writing but use a simple and straightforward sentence structure.
+        Don't add fluff or opinions, just write facts.
+
+
+
+        ''')
+        
+    print(f'''DISTRIBUTION
+
+        Generate a table with 2 columns.
+
+        In the first column, list the continents in this order: Europe, Asia, Africa, North America, South America, Australia, Antarctica
+        In the second column, write an estimate of the distribution of {latin_name} with a word that can be "Abundant", "Moderate", "Scarce", or "Absent".
+
+        --------------------------------------------------------------------
+
+        Using the data from the previous table, write a section for an article in less than 300 words without mentioning the numbers in the second column. 
+        Don't write in list format. Write in discursive format. 
+        Use a scientific style of writing but use a simple and straightforward sentence structure.
+        Don't add fluff or opinions, just write facts.
+        --------------------------------------------------------------------
+
+
+
+        ''')
+
+
+
+
+
+
+
 
 if attribute == 'morphology': morphology()
 elif attribute == 'taxonomy': taxonomy()
