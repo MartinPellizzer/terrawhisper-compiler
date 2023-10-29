@@ -115,6 +115,8 @@ The following table shows in detail the morphological characteristics of Calendu
 | Leaf Petiole  | Absent (leaves attached directly to the stem) |
 | Leaf Stipule | Absent (no stipules present) |
 
+![none](/images/calendula-officinalis-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

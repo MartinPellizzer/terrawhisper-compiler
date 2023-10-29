@@ -106,6 +106,8 @@ The following table shows in detail the morphological characteristics of Artemis
 | Leaf Petiole  | Absent (or very short) |
 | Leaf Stipule | Absent |
 
+![none](/images/artemisia-absinthium-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

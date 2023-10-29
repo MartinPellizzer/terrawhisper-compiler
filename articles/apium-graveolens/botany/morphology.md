@@ -116,6 +116,8 @@ The following table shows in detail the morphological characteristics of Apium g
 | Leaf Petiole  | 10-30 cm (4-12 inches) long |
 | Leaf Stipule | Absent |
 
+![none](/images/apium-graveolens-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

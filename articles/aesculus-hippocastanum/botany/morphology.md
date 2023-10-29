@@ -112,6 +112,8 @@ The following table shows in detail the morphological characteristics of Aesculu
 | Leaflets Flavor | Not distinctive (non-edible) |
 | Petiole Length | 15 to 20 cm (6 to 8 in)  |
 
+![none](/images/aesculus-hippocastanum-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

@@ -107,6 +107,8 @@ The following table shows in detail the morphological characteristics of Aloe ve
 | Leaf Stipule | Absent |
 | Leaf Persistence  | Evergreen, persisting throughout the year |
 
+![none](/images/aloe-vera-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

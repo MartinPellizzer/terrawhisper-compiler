@@ -114,6 +114,8 @@ The following table shows in detail the morphological characteristics of Achille
 | Leaf Petiole  | Absent |
 | Leaf Stipule | Absent |
 
+![none](/images/achillea-millefolium-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

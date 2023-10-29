@@ -118,6 +118,8 @@ The following table shows in detail the morphological characteristics of Cinnamo
 | Leaf Petiole  | 2.0 cm (0.8 inches) |
 | Leaf Stipule | Absent |
 
+![none](/images/cinnamomum-verum-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

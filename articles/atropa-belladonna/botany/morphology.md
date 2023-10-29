@@ -106,6 +106,8 @@ The following table shows in detail the morphological characteristics of Atropa 
 | Leaf Petiole  | Short (2-5 cm or 0.8-2 inches) |
 | Leaf Stipule | Absent |
 
+![none](/images/atropa-belladonna-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

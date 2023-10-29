@@ -104,6 +104,8 @@ The following table shows in detail the morphological characteristics of Azadira
 | Leaf Petiole  | 1-3 cm (0.4-1.2 inches) long |
 | Leaf Stipule | Small, paired stipules at the base |
 
+![none](/images/azadirachta-indica-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

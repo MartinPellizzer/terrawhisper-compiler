@@ -112,6 +112,8 @@ The following table shows in detail the morphological characteristics of Capsicu
 | Leaf Petiole  | 2-8 cm (0.79-3.15 in) in length |
 | Leaf Stipule | Usually absent or small and inconspicuous |
 
+![none](/images/capsicum-annuum-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

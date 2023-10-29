@@ -112,6 +112,8 @@ The following table shows in detail the morphological characteristics of Cinchon
 | Leaf Petiole  | 2 cm (0.79 inches) |
 | Leaf Stipule | Present, small and membranous |
 
+![none](/images/cinchona-officinalis-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

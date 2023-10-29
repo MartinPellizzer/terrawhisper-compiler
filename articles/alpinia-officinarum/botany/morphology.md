@@ -108,6 +108,8 @@ The following table shows in detail the morphological characteristics of Alpinia
 | Leaf Petiole  | 2 cm (0.79 inches) |
 | Leaf Stipule | Absent |
 
+![none](/images/alpinia-officinarum-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

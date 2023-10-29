@@ -116,6 +116,8 @@ The following table shows in detail the morphological characteristics of Cimicif
 | Leaf Petiole  | 10-20 cm (4-8 inches) long |
 | Leaf Stipule | Absent |
 
+![none](/images/cimicifuga-racemosa-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

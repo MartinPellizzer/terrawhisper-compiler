@@ -115,6 +115,8 @@ The following table shows in detail the morphological characteristics of Astraga
 | Leaf Petiole  | Short petioles on each leaflet. |
 | Leaf Stipule | Stipules present at the base of petioles. |
 
+![none](/images/astragalus-membranaceus-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

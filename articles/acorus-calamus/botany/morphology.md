@@ -131,6 +131,8 @@ The following table shows in detail the morphological characteristics of Acorus 
 | Leaf Stipule | Absent  |
 | Leaf Persistence  | Evergreen  |
 
+![none](/images/acorus-calamus-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

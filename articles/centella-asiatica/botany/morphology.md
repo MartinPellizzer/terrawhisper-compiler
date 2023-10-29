@@ -112,6 +112,8 @@ The following table shows in detail the morphological characteristics of Centell
 | Leaf Petiole  | 2-10 cm (0.8-4 inches) long |
 | Leaf Stipule | Absent |
 
+![none](/images/centella-asiatica-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

@@ -112,6 +112,8 @@ The following table shows in detail the morphological characteristics of Angelic
 | Leaf Petiole  | 5-20 cm (1.97-7.87 inches) |
 | Leaf Stipule | Absent |
 
+![none](/images/angelica-sinensis-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

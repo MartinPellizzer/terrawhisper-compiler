@@ -112,6 +112,8 @@ The following table shows in detail the morphological characteristics of Arctium
 | Leaf Petiole  | 5-15 cm (2-5.9 inches) long |
 | Leaf Stipule | Present, lanceolate in shape |
 
+![none](/images/arctium-lappa-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

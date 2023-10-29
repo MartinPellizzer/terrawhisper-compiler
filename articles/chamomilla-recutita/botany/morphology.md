@@ -110,6 +110,8 @@ The following table shows in detail the morphological characteristics of Chamomi
 | Leaf Petiole  | Absent |
 | Leaf Stipule | Absent |
 
+![none](/images/chamomilla-recutita-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

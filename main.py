@@ -1,4 +1,4 @@
-# TODO: fix morphology images (long text and ",")
+# TODO: fix aesculus-hippocastanum leaf image (probaly also future images (because table if f*cked))
 
 import json
 import os
@@ -396,7 +396,38 @@ def img_cycle_of_life(item):
     return output_path
 
 
-def img_morphology_root(row, latin_name, category, attribute, file):
+def draw_line(draw, e_x, e_y, t_x, t_y, line_spacing):
+    if e_x >= t_x and e_y >= t_y:
+        thickness = 6
+        draw.line((e_x, e_y, e_x + (t_y - e_y) + line_spacing, e_y + (t_y - e_y) + line_spacing), fill='#ffffff', width=thickness)
+        draw.ellipse((e_x-thickness, e_y-thickness, e_x+thickness, e_y+thickness), fill=(255,255,255,255))
+        thickness = 2
+        draw.line((e_x, e_y, e_x + (t_y - e_y) + line_spacing, e_y + (t_y - e_y) + line_spacing), fill='#000000', width=thickness)
+        draw.ellipse((e_x-thickness-1, e_y-thickness-1, e_x+thickness+1, e_y+thickness+1), fill=(0,0,0,255))
+    elif e_x <= t_x and e_y >= t_y:
+        thickness = 6
+        draw.line((e_x, e_y, e_x - (t_y - e_y) - line_spacing, t_y + line_spacing), fill='#ffffff', width=thickness)
+        draw.ellipse((e_x-thickness, e_y-thickness, e_x+thickness, e_y+thickness), fill=(255,255,255,255))
+        thickness = 2
+        draw.line((e_x, e_y, e_x - (t_y - e_y) - line_spacing, t_y + line_spacing), fill='#000000', width=thickness)
+        draw.ellipse((e_x-thickness-1, e_y-thickness-1, e_x+thickness+1, e_y+thickness+1), fill=(0,0,0,255))
+    elif e_x >= t_x and e_y <= t_y:
+        thickness = 6
+        draw.line((e_x, e_y, e_x - (t_y - e_y), t_y), fill='#ffffff', width=thickness)
+        draw.ellipse((e_x-thickness, e_y-thickness, e_x+thickness, e_y+thickness), fill=(255,255,255,255))
+        thickness = 2
+        draw.line((e_x, e_y, e_x - (t_y - e_y), t_y), fill='#000000', width=thickness)
+        draw.ellipse((e_x-thickness-1, e_y-thickness-1, e_x+thickness+1, e_y+thickness+1), fill=(0,0,0,255))
+    elif e_x <= t_x and e_y <= t_y:
+        thickness = 6
+        draw.line((e_x, e_y, e_x + (t_y - e_y), t_y), fill='#ffffff', width=thickness)
+        draw.ellipse((e_x-thickness, e_y-thickness, e_x+thickness, e_y+thickness), fill=(255,255,255,255))
+        thickness = 2
+        draw.line((e_x, e_y, e_x + (t_y - e_y), t_y), fill='#000000', width=thickness)
+        draw.ellipse((e_x-thickness-1, e_y-thickness-1, e_x+thickness+1, e_y+thickness+1), fill=(0,0,0,255))
+
+
+def img_morphology_roots(row, latin_name, category, attribute, file):
     # for i, item in enumerate(row):
     #     print(f'{i} - {item}')
 
@@ -539,37 +570,6 @@ def img_morphology_root(row, latin_name, category, attribute, file):
     return filepath
 
 
-def draw_line(draw, e_x, e_y, t_x, t_y, line_spacing):
-    if e_x >= t_x and e_y >= t_y:
-        thickness = 6
-        draw.line((e_x, e_y, e_x + (t_y - e_y) + line_spacing, e_y + (t_y - e_y) + line_spacing), fill='#ffffff', width=thickness)
-        draw.ellipse((e_x-thickness, e_y-thickness, e_x+thickness, e_y+thickness), fill=(255,255,255,255))
-        thickness = 2
-        draw.line((e_x, e_y, e_x + (t_y - e_y) + line_spacing, e_y + (t_y - e_y) + line_spacing), fill='#000000', width=thickness)
-        draw.ellipse((e_x-thickness-1, e_y-thickness-1, e_x+thickness+1, e_y+thickness+1), fill=(0,0,0,255))
-    elif e_x <= t_x and e_y >= t_y:
-        thickness = 6
-        draw.line((e_x, e_y, e_x - (t_y - e_y) - line_spacing, t_y + line_spacing), fill='#ffffff', width=thickness)
-        draw.ellipse((e_x-thickness, e_y-thickness, e_x+thickness, e_y+thickness), fill=(255,255,255,255))
-        thickness = 2
-        draw.line((e_x, e_y, e_x - (t_y - e_y) - line_spacing, t_y + line_spacing), fill='#000000', width=thickness)
-        draw.ellipse((e_x-thickness-1, e_y-thickness-1, e_x+thickness+1, e_y+thickness+1), fill=(0,0,0,255))
-    elif e_x >= t_x and e_y <= t_y:
-        thickness = 6
-        draw.line((e_x, e_y, e_x - (t_y - e_y), t_y), fill='#ffffff', width=thickness)
-        draw.ellipse((e_x-thickness, e_y-thickness, e_x+thickness, e_y+thickness), fill=(255,255,255,255))
-        thickness = 2
-        draw.line((e_x, e_y, e_x - (t_y - e_y), t_y), fill='#000000', width=thickness)
-        draw.ellipse((e_x-thickness-1, e_y-thickness-1, e_x+thickness+1, e_y+thickness+1), fill=(0,0,0,255))
-    elif e_x <= t_x and e_y <= t_y:
-        thickness = 6
-        draw.line((e_x, e_y, e_x + (t_y - e_y), t_y), fill='#ffffff', width=thickness)
-        draw.ellipse((e_x-thickness, e_y-thickness, e_x+thickness, e_y+thickness), fill=(255,255,255,255))
-        thickness = 2
-        draw.line((e_x, e_y, e_x + (t_y - e_y), t_y), fill='#000000', width=thickness)
-        draw.ellipse((e_x-thickness-1, e_y-thickness-1, e_x+thickness+1, e_y+thickness+1), fill=(0,0,0,255))
-
-
 def img_morphology_stems(row, latin_name, category, attribute, file):
     # with open('database/tables/morphology/stems.csv', encoding='utf-8') as f:
     #     rows = f.readlines()
@@ -578,6 +578,9 @@ def img_morphology_stems(row, latin_name, category, attribute, file):
     #     print(f'{i} - {item}')
     # for i, item in enumerate(row):
     #     print(f'{i} - {item}')
+
+    def sanitize(text):
+        return text.split('(')[0].split(',')[0]
 
     img_w = 1024
     img_h = 1024
@@ -604,12 +607,12 @@ def img_morphology_stems(row, latin_name, category, attribute, file):
 
     y = img_h - 130
     thickness = 8
-    div_h = 20
+    div_h = 32
     draw.line((img_w//2 - icon_size//div_h, y, img_w//2 + icon_size//div_h, y), fill='#000000', width=thickness)
     draw.line((img_w//2 - icon_size//div_h, y + 50//2, img_w//2 - icon_size//div_h, y - 50//2), fill='#000000', width=thickness)
     draw.line((img_w//2 + icon_size//div_h, y + 50//2, img_w//2 + icon_size//div_h, y - 50//2), fill='#000000', width=thickness)
 
-    val = row[5].split('(')[0]
+    val = sanitize(row[5])
     line = f'Diameter: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -622,7 +625,8 @@ def img_morphology_stems(row, latin_name, category, attribute, file):
     draw.line((x - 50//2, img_h//2 - icon_size//div_h, x + 50//2, img_h//2 - icon_size//div_h), fill='#000000', width=thickness)
     draw.line((x - 50//2, img_h//2 + icon_size//div_h, x + 50//2, img_h//2 + icon_size//div_h), fill='#000000', width=thickness)
 
-    val = row[4].split('(')[0]
+
+    val = sanitize(row[4])
     line = f'Height: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -632,9 +636,20 @@ def img_morphology_stems(row, latin_name, category, attribute, file):
     img_v = img_v.rotate(90, expand=1)
     img.paste(img_v, (x + line_h, img_h//2 - line_w//2), img_v)
 
+    # e_x, e_y = 510, 750
+    # t_x, t_y = 650, 950
+    # val = sanitize(row[5])
+    # line = f'Diameter: {val}'
+    # line_w = font.getbbox(line)[2]
+    # line_h = font.getbbox(line)[3]
+    # line_spacing = line_h * 1.5
+    # draw.text((t_x, t_y), line, '#000000', font=font)
+    # thickness = 6
+    # draw_line(draw, e_x, e_y, t_x, t_y, line_spacing)
+    
     e_x, e_y = 425, 465
     t_x, t_y = 50, 200
-    val = row[6].split('(')[0]
+    val = sanitize(row[6])
     line = f'Color: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -645,7 +660,7 @@ def img_morphology_stems(row, latin_name, category, attribute, file):
     
     e_x, e_y = 600, 285
     t_x, t_y = 601, 150
-    val = row[7].split('(')[0]
+    val = sanitize(row[7])
     line = f'Texture: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -653,20 +668,164 @@ def img_morphology_stems(row, latin_name, category, attribute, file):
     draw.text((t_x, t_y), line, '#000000', font=font)
     draw_line(draw, e_x, e_y, t_x, t_y, line_spacing)
     
-    e_x, e_y = 515, 545
-    t_x, t_y = 550, 615
-    val = row[9].split('(')[0]
+    e_x, e_y = 510, 450
+    t_x, t_y = 50, 700
+    val = sanitize(row[9])
     line = f'Node: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
     line_spacing = line_h * 1.5
     draw.text((t_x, t_y), line, '#000000', font=font)
     draw_line(draw, e_x, e_y, t_x, t_y, line_spacing)
+    
+    e_x, e_y = 510, 500
+    t_x, t_y = 550, 600
+    val = sanitize(row[10])
+    line = f'Internode: {val}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    line_spacing = line_h * 1.5
+    draw.text((t_x, t_y), line, '#000000', font=font)
+    draw_line(draw, e_x, e_y, t_x, t_y, line_spacing)
 
-    e_x, e_y = 510, 710
-    t_x, t_y = 300, 800
-    val = row[1].split('(')[0]
+    e_x, e_y = 510, 650
+    t_x, t_y = 200, 800
+    val = sanitize(row[1])
     line = f'Type: {val}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    line_spacing = line_h * 1.5
+    draw.text((t_x, t_y), line, '#000000', font=font)
+    draw_line(draw, e_x, e_y, t_x, t_y, line_spacing)
+
+
+    attribute = attribute.replace('/', '-')
+    featured_image_filename = f'website/images/{entity}-{category}-{attribute}-{file}.jpg'
+    
+    img = img.convert('RGB')
+    # img = img.resize((768, 768))
+    img.save(featured_image_filename, format='JPEG', subsampling=0, quality=100)
+
+    # print(featured_image_filpath)
+    filepath = '/' + '/'.join(featured_image_filename.split('/')[1:])
+
+    # img.show()
+    # quit()
+
+    return filepath
+
+
+def img_morphology_leaves(row, latin_name, category, attribute, file):
+    # with open('database/tables/morphology/leaves.csv', encoding='utf-8') as f:
+    #     rows = f.readlines()
+
+    # for i, item in enumerate(rows[0].split('\\')):
+    #     print(f'{i} - {item}')
+    # for i, item in enumerate(row):
+    #     print(f'{i} - {item}')
+
+    def sanitize(text):
+        return text.split('(')[0].split(',')[0]
+
+    img_w = 1024
+    img_h = 1024
+    img = Image.new(mode="RGBA", size=(img_w, img_h), color='#fafafa')
+    draw = ImageDraw.Draw(img)
+    icon = Image.open("assets/icons/leaves.png")
+
+    icon_size = 384
+    icon_size = 384
+    icon.thumbnail((icon_size, icon_size), Image.Resampling.LANCZOS)
+    img.paste(icon, (img_w//2 - icon_size//2, img_h//2 - icon_size//2), icon)
+    
+    font_size = 48
+    line_hight = 1.5
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'{latin_name} {file} morphology'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((img_w//2 - line_w//2,30), line, '#000000', font=font)
+    
+    font_size = 24
+    line_hight = 1.5
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+
+    y = img_h - 130
+    thickness = 8
+    div_h = 2
+    draw.line((img_w//2 - icon_size//div_h, y, img_w//2 + icon_size//div_h, y), fill='#000000', width=thickness)
+    draw.line((img_w//2 - icon_size//div_h, y + 50//2, img_w//2 - icon_size//div_h, y - 50//2), fill='#000000', width=thickness)
+    draw.line((img_w//2 + icon_size//div_h, y + 50//2, img_w//2 + icon_size//div_h, y - 50//2), fill='#000000', width=thickness)
+
+    val = sanitize(row[6])
+    line = f'Width: {val}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((img_w//2 - line_w//2, y + line_h * 1.5), line, '#000000', font=font)
+
+    x = img_w - 130
+    thickness = 8
+    div_h = 2
+    draw.line((x, img_h//2 - icon_size//div_h, x, img_h//2 + icon_size//div_h), fill='#000000', width=thickness)
+    draw.line((x - 50//2, img_h//2 - icon_size//div_h, x + 50//2, img_h//2 - icon_size//div_h), fill='#000000', width=thickness)
+    draw.line((x - 50//2, img_h//2 + icon_size//div_h, x + 50//2, img_h//2 + icon_size//div_h), fill='#000000', width=thickness)
+
+
+    val = sanitize(row[5])
+    line = f'Lenght: {val}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    img_v = Image.new(mode="RGBA", size=(line_w, line_h), color='#ffffff')
+    draw_v = ImageDraw.Draw(img_v)
+    draw_v.text((0, 0), line, '#000000', font=font)
+    img_v = img_v.rotate(90, expand=1)
+    img.paste(img_v, (x + line_h, img_h//2 - line_w//2), img_v)
+
+    e_x, e_y = 450, 490
+    t_x, t_y = 50, 150
+    val = sanitize(row[8])
+    line = f'Color: {val}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    line_spacing = line_h * 1.5
+    draw.text((t_x, t_y), line, '#000000', font=font)
+    thickness = 6
+    draw_line(draw, e_x, e_y, t_x, t_y, line_spacing)
+    
+    e_x, e_y = 650, 450
+    t_x, t_y = 400, 250
+    val = sanitize(row[9])
+    line = f'Texture: {val}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    line_spacing = line_h * 1.5
+    draw.text((t_x, t_y), line, '#000000', font=font)
+    draw_line(draw, e_x, e_y, t_x, t_y, line_spacing)
+    
+    e_x, e_y = 600, 550
+    t_x, t_y = 750, 800
+    val = sanitize(row[2])
+    line = f'Shape: {val}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    line_spacing = line_h * 1.5
+    draw.text((t_x, t_y), line, '#000000', font=font)
+    draw_line(draw, e_x, e_y, t_x, t_y, line_spacing)
+    
+    e_x, e_y = 535, 630
+    t_x, t_y = 400, 700
+    val = sanitize(row[13])
+    line = f'Margin: {val}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    line_spacing = line_h * 1.5
+    draw.text((t_x, t_y), line, '#000000', font=font)
+    draw_line(draw, e_x, e_y, t_x, t_y, line_spacing)
+
+    e_x, e_y = 345, 680
+    t_x, t_y = 100, 800
+    val = sanitize(row[17])
+    line = f'Attachment: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
     line_spacing = line_h * 1.5
@@ -1140,10 +1299,13 @@ for i, row in enumerate(articles_master_rows):
                 article += generate_table(lines)
 
             if file.strip() == 'roots':
-                filepath = img_morphology_root(lines[1], latin_name, category, attribute, file)
+                filepath = img_morphology_roots(lines[1], latin_name, category, attribute, file)
                 article += f'![none]({filepath} "none")\n\n'
             elif file.strip() == 'stems':
                 filepath = img_morphology_stems(lines[1], latin_name, category, attribute, file)
+                article += f'![none]({filepath} "none")\n\n'
+            elif file.strip() == 'leaves':
+                filepath = img_morphology_leaves(lines[1], latin_name, category, attribute, file)
                 article += f'![none]({filepath} "none")\n\n'
 
     elif 'taxonomy' in attribute.lower():

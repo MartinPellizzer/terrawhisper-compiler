@@ -116,6 +116,8 @@ The following table shows in detail the morphological characteristics of Artemis
 | Leaf Petiole  | 1-3 cm (0.4-1.2 inches) in length |
 | Leaf Stipule | Absent (no leaf-like structures at the base) |
 
+![none](/images/artemisia-annua-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

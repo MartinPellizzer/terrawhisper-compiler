@@ -118,6 +118,8 @@ The following table shows in detail the morphological characteristics of Cassia 
 | Leaf Petiole  | 2-6 cm (0.8-2.4 inches) long, glabrous |
 | Leaf Stipule | Present, lanceolate, 1 cm (0.4 inches) in length |
 
+![none](/images/cassia-senna-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

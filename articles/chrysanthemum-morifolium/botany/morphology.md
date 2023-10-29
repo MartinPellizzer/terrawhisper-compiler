@@ -114,6 +114,8 @@ The following table shows in detail the morphological characteristics of Chrysan
 | Leaf Petiole  | 2-8 cm (0.8-3.2 inches) |
 | Leaf Stipule | Absent |
 
+![none](/images/chrysanthemum-morifolium-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

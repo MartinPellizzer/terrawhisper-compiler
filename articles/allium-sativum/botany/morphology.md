@@ -120,6 +120,8 @@ The following table shows in detail the morphological characteristics of Allium 
 | Leaf Midrib  | Prominent midrib  |
 | Leaf Attachment  | Sessile (no petiole, attached directly)  |
 
+![none](/images/allium-sativum-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

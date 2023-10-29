@@ -117,6 +117,8 @@ The following table shows in detail the morphological characteristics of Bupleur
 | Leaf Petiole  | Absent (no stalk) |
 | Leaf Stipule | Absent (no stipules) |
 
+![none](/images/bupleurum-chinense-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

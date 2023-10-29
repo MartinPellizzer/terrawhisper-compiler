@@ -112,6 +112,8 @@ The following table shows in detail the morphological characteristics of Barosma
 | Leaf Petiole  | Short, 1-2 mm (0.04-0.08 inches) in length |
 | Leaf Stipule | Absent (not present) |
 
+![none](/images/barosma-betulina-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 

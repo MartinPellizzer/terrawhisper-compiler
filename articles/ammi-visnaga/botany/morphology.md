@@ -106,6 +106,8 @@ The following table shows in detail the morphological characteristics of Ammi vi
 | Leaf Petiole  | Absent |
 | Leaf Stipule | Absent |
 
+![none](/images/ammi-visnaga-botany-morphology-leaves.jpg "none")
+
 ## Flowers
 
 
