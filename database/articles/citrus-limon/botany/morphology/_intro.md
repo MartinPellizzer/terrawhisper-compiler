@@ -1,0 +1,7 @@
+Citrus limon, or the lemon tree, possesses a distinct fibrous root system, forming an intricate network of adventitious roots that aid in rapid establishment. The dichotomous branching pattern enhances its ability to access water and nutrients efficiently. The root tips are acute, enabling easy soil penetration. Lemon roots are white or pale yellow, reflecting light and avoiding excessive heating, with smooth surfaces and abundant fine root hairs for absorption.
+
+The stems of the lemon tree are woody, with an alternate arrangement of leaves. They are cylindrical, with variable color, reflecting the tree's age. Stems are smooth and glossy, featuring nodes where leaves and branches attach.
+
+Lemon tree leaves are simple, elliptical, with glossy dark green color and leathery texture. They are alternately arranged, with an acute apex, cuneate base, and smooth margins. A prominent midrib and pinnate venation characterize these leaves, which attach to branches via petioles and lack stipules.
+
+Lemon flowers are apetalous, actinomorphic, and hermaphroditic, arising in clusters at branch ends. They have a cup-shaped appearance with white color, 20 stamens, and a single pistil. Lemon fruits are ovoid, bright yellow, and indehiscent, often found near leaves and attached by short pedicels. Lemon seeds are dicotyledonous, polyembryonic, elliptical, with brown, impermeable seed coats, a visible hilum, and straight embryos with two cotyledons and a prominent radicle.

@@ -75,11 +75,11 @@ The following table shows in detail the morphological characteristics of Cinnamo
 | Stem Arrangement  | Opposite (or alternate), decussate |
 | Stem Shape  | Cylindrical (round), slightly ribbed |
 | Stem Height  | Up to 10 meters (32.8 feet) |
-| Stem Diameter  | Approximately 2.5 cm (1 inch) |
+| Stem Diameter  | About 2.5 cm (1 inch) |
 | Stem Color  | Brown to reddish-brown |
 | Stem Texture  | Smooth with some fine pubescence |
 | Stem Surface  | Glabrous (smooth), lenticels present |
-| Stem Nodes  | Clearly defined, leaf and branch attachment points |
+| Stem Nodes  | Defined, leaf and branch attachment points |
 | Stem Internodes  | Spaced about 10-15 cm (4-6 inches) apart |
 
 ![none](/images/cinnamomum-verum-botany-morphology-stems.jpg "none")

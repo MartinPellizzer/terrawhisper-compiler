@@ -72,8 +72,8 @@ The following table shows in detail the morphological characteristics of Calendu
 | Stem Color  | Green with slight pubescence |
 | Stem Texture  | Smooth, with fine hairs (pubescent) |
 | Stem Surface  | Glabrous (mostly smooth) |
-| Stem Nodes  | Clearly defined, spaced along the stem |
-| Stem Internodes  | Approximately 5-15 cm (2-6 inches) apart |
+| Stem Nodes  | Defined, spaced along the stem |
+| Stem Internodes  | About 5-15 cm (2-6 inches) apart |
 
 ![none](/images/calendula-officinalis-botany-morphology-stems.jpg "none")
 

@@ -1,0 +1,7 @@
+The seeds of Citrus limon are dicotyledonous, meaning they have two embryonic leaves. Lemon trees are polyembryonic, and as a result, they produce multiple seeds per fruit, typically ranging from 3 to 10 seeds in a single lemon. Each lemon seed is elliptical in shape, measuring approximately 1.5 centimeters in length, 1.0 centimeters in width, and 0.3 centimeters in thickness. These seeds are hard and woody, which makes them durable.
+
+The seed coat of Citrus limon seeds is brown, and it has a smooth and glossy surface. The thickness of the seed coat is relatively thin, measuring about 0.1 millimeters. This thin seed coat is impermeable, preventing water and other substances from easily penetrating the seed.
+
+A distinctive feature of lemon seeds is the presence of a small, visible scar known as the hilum. This hilum serves as a point of attachment to the fruit and is a notable characteristic of lemon seeds. 
+
+Inside the lemon seed, the embryo is straight and has two cotyledons. These cotyledons are fleshy and provide nourishment to the developing seedling. The presence of a prominent radicle within the lemon seed is another noteworthy feature. The radicle is the embryonic root that will develop into the primary root of the new lemon plant.

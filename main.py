@@ -90,6 +90,12 @@ def csv_get_rows_by_entity(filepath, entity):
     return rows
             
 
+def sanitize_one_word(text):
+    return text.split(',')[0].split(' ')[0]
+
+
+def sanitize(text):
+    return text.split('(')[0].split(',')[0]
 
 ######################################################################
 # TABLE 
@@ -473,7 +479,7 @@ def img_morphology_roots(row, latin_name, category, attribute, file):
     draw.line((x - 50//2, img_h//2 - icon_size//3, x + 50//2, img_h//2 - icon_size//3), fill='#000000', width=thickness)
     draw.line((x - 50//2, img_h//2 + icon_size//3, x + 50//2, img_h//2 + icon_size//3), fill='#000000', width=thickness)
 
-    val = row[8].split('(')[0]
+    val = sanitize(row[8])
     line = f'Length: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -483,7 +489,7 @@ def img_morphology_roots(row, latin_name, category, attribute, file):
     img_v = img_v.rotate(90, expand=1)
     img.paste(img_v, (x + line_h, img_h//2 - line_w//2), img_v)
 
-    val = row[9].split('(')[0]
+    val = sanitize_one_word(row[9])
     line = f'Color: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -499,7 +505,7 @@ def img_morphology_roots(row, latin_name, category, attribute, file):
 
     e_x, e_y = 675, 625
     t_x, t_y = 675, 725
-    val = row[7].split('(')[0]
+    val = sanitize(row[7])
     line = f'Diameter: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -513,7 +519,7 @@ def img_morphology_roots(row, latin_name, category, attribute, file):
 
     e_x, e_y = 585, 580
     t_x, t_y = 250, 825
-    val = row[10].split('(')[0]
+    val = sanitize_one_word(row[10])
     line = f'Texture: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -527,7 +533,7 @@ def img_morphology_roots(row, latin_name, category, attribute, file):
 
     e_x, e_y = 520, 400
     t_x, t_y = 600, 300
-    val = row[1].split('(')[0]
+    val = sanitize_one_word(row[1])
     line = f'Type: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -541,7 +547,7 @@ def img_morphology_roots(row, latin_name, category, attribute, file):
 
     e_x, e_y = 295, 605
     t_x, t_y = 100, 700
-    val = row[4].split('(')[0]
+    val = sanitize_one_word(row[4])
     line = f'Tips: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -578,9 +584,6 @@ def img_morphology_stems(row, latin_name, category, attribute, file):
     #     print(f'{i} - {item}')
     # for i, item in enumerate(row):
     #     print(f'{i} - {item}')
-
-    def sanitize(text):
-        return text.split('(')[0].split(',')[0]
 
     img_w = 1024
     img_h = 1024
@@ -649,7 +652,7 @@ def img_morphology_stems(row, latin_name, category, attribute, file):
     
     e_x, e_y = 425, 465
     t_x, t_y = 50, 200
-    val = sanitize(row[6])
+    val = sanitize_one_word(row[6])
     line = f'Color: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -660,7 +663,7 @@ def img_morphology_stems(row, latin_name, category, attribute, file):
     
     e_x, e_y = 600, 285
     t_x, t_y = 601, 150
-    val = sanitize(row[7])
+    val = sanitize_one_word(row[7])
     line = f'Texture: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -670,7 +673,7 @@ def img_morphology_stems(row, latin_name, category, attribute, file):
     
     e_x, e_y = 510, 450
     t_x, t_y = 50, 700
-    val = sanitize(row[9])
+    val = sanitize_one_word(row[9])
     line = f'Node: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -690,7 +693,7 @@ def img_morphology_stems(row, latin_name, category, attribute, file):
 
     e_x, e_y = 510, 650
     t_x, t_y = 200, 800
-    val = sanitize(row[1])
+    val = sanitize_one_word(row[1])
     line = f'Type: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -723,9 +726,6 @@ def img_morphology_leaves(row, latin_name, category, attribute, file):
     #     print(f'{i} - {item}')
     # for i, item in enumerate(row):
     #     print(f'{i} - {item}')
-
-    def sanitize(text):
-        return text.split('(')[0].split(',')[0]
 
     img_w = 1024
     img_h = 1024
@@ -783,7 +783,7 @@ def img_morphology_leaves(row, latin_name, category, attribute, file):
 
     e_x, e_y = 450, 490
     t_x, t_y = 50, 150
-    val = sanitize(row[8])
+    val = sanitize_one_word(row[8])
     line = f'Color: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -794,7 +794,7 @@ def img_morphology_leaves(row, latin_name, category, attribute, file):
     
     e_x, e_y = 650, 450
     t_x, t_y = 400, 250
-    val = sanitize(row[9])
+    val = sanitize_one_word(row[9])
     line = f'Texture: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -804,7 +804,7 @@ def img_morphology_leaves(row, latin_name, category, attribute, file):
     
     e_x, e_y = 600, 550
     t_x, t_y = 750, 800
-    val = sanitize(row[2])
+    val = sanitize_one_word(row[2])
     line = f'Shape: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -814,7 +814,7 @@ def img_morphology_leaves(row, latin_name, category, attribute, file):
     
     e_x, e_y = 535, 630
     t_x, t_y = 400, 700
-    val = sanitize(row[13])
+    val = sanitize_one_word(row[13])
     line = f'Margin: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
@@ -824,7 +824,7 @@ def img_morphology_leaves(row, latin_name, category, attribute, file):
 
     e_x, e_y = 345, 680
     t_x, t_y = 100, 800
-    val = sanitize(row[17])
+    val = sanitize_one_word(row[17])
     line = f'Attachment: {val}'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]

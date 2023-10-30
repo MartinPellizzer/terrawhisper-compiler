@@ -81,7 +81,7 @@ The following table shows in detail the morphological characteristics of Allium 
 | Stem Diameter  | 0.5-1.5 cm (0.2-0.6 inches)  |
 | Stem Color  | Green  |
 | Stem Texture  | Smooth, fleshy  |
-| Stem Nodes  | Typically 1 (at the base)  |
+| Stem Nodes  | Present, typically 1 (at the base)  |
 | Stem Internodes  | Variable, shorter near base, longer higher up  |
 
 ![none](/images/allium-sativum-botany-morphology-stems.jpg "none")

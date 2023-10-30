@@ -69,7 +69,7 @@ The following table shows in detail the morphological characteristics of Cimicif
 | Stem Arrangement  | Alternate |
 | Stem Shape  | Round (circular cross-section) |
 | Stem Height  | 1-2 meters (3.28-6.56 feet) |
-| Stem Diameter  | 0.5-1 centimeters (0.2-0.4 inches) |
+| Stem Diameter  | 0.5-1 cm (0.2-0.4 inches) |
 | Stem Color  | Green |
 | Stem Texture  | Smooth |
 | Stem Surface  | Glabrous (hairless) |

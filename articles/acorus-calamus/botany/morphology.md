@@ -78,7 +78,7 @@ The following table shows in detail the morphological characteristics of Acorus 
 | Stem Arrangement  | Whorled  |
 | Stem Shape  | Cylindrical  |
 | Stem Height  | Up to 1.5 meters (4.9 feet)  |
-| Stem Diameter  | Approximately 1.5 cm (0.6 inches)  |
+| Stem Diameter  | About 1.5 cm (0.6 inches)  |
 | Stem Color  | Green  |
 | Stem Texture  | Smooth  |
 | Stem Nodes  | Present at regular intervals  |

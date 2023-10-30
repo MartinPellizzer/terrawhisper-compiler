@@ -67,11 +67,11 @@ The following table shows in detail the morphological characteristics of Angelic
 | Stem Arrangement  | Alternately arranged |
 | Stem Shape  | Round in cross-section |
 | Stem Height  | Up to 150 cm (59 inches) |
-| Stem Diameter  | Approximately 0.5 cm (0.2 inches) |
+| Stem Diameter  | About 0.5 cm (0.2 inches) |
 | Stem Color  | Green with a purplish tinge |
 | Stem Texture  | Glabrous (smooth and hairless) |
 | Stem Surface  | Striate (marked with fine lines or ridges) |
-| Stem Nodes  | Distinct nodes at intervals |
+| Stem Nodes  | Present, distinct nodes at intervals |
 | Stem Internodes  | About 20-30 cm (7.9-11.8 inches) between nodes |
 
 ![none](/images/angelica-sinensis-botany-morphology-stems.jpg "none")

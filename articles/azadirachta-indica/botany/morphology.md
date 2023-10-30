@@ -65,7 +65,7 @@ The following table shows in detail the morphological characteristics of Azadira
 | Stem Color  | Grayish-brown to dark brown |
 | Stem Texture  | Rough due to fissured bark |
 | Stem Surface  | Furrowed and scaly |
-| Stem Nodes  | Nodes present, typically 2 per stem segment |
+| Stem Nodes  | Present, typically 2 per stem segment |
 | Stem Internodes  | Internodes elongated, variable length |
 
 ![none](/images/azadirachta-indica-botany-morphology-stems.jpg "none")

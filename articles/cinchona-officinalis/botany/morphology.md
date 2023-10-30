@@ -67,12 +67,12 @@ The following table shows in detail the morphological characteristics of Cinchon
 | Stem Arrangement  | Opposite |
 | Stem Shape  | Cylindrical |
 | Stem Height  | 1.5 meters (4.92 feet) |
-| Stem Diameter  | 5 centimeters (1.97 inches) |
+| Stem Diameter  | About 5 cm (1.97 inches) |
 | Stem Color  | Green with brown spots |
 | Stem Texture  | Smooth with fine ridges |
 | Stem Surface  | Glabrous (hairless) |
-| Stem Nodes  | Clearly defined at leaf attachment points |
-| Stem Internodes  | Approximately 10 centimeters (3.94 inches) apart |
+| Stem Nodes  | Defined at leaf attachment points |
+| Stem Internodes  | About 10 cm (3.94 inches) apart |
 
 ![none](/images/cinchona-officinalis-botany-morphology-stems.jpg "none")
 

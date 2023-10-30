@@ -61,7 +61,7 @@ The following table shows in detail the morphological characteristics of Aloe ve
 | Stem Arrangement  | Rosette arrangement |
 | Stem Shape  | Cylindrical |
 | Stem Height  | Up to 60-90 cm (24-35 inches) |
-| Stem Diameter  | Typically 6-7 cm (2.4-2.8 inches) |
+| Stem Diameter  | 6-7 cm (2.4-2.8 inches) |
 | Stem Color  | Green, sometimes with a hint of gray or blue |
 | Stem Texture  | Smooth |
 | Stem Surface  | Waxy and fleshy, covered in aloe latex |

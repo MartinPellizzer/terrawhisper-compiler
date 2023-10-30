@@ -72,7 +72,7 @@ The following table shows in detail the morphological characteristics of Barosma
 | Stem Texture  | Pubescent (covered with fine hairs) |
 | Stem Surface  | Smooth (or slightly rough) |
 | Stem Nodes  | Present, spaced at regular intervals |
-| Stem Internodes  | Approximately 2-5 cm (0.79-1.97 inches) in length |
+| Stem Internodes  | About 2-5 cm (0.79-1.97 inches) in length |
 
 ![none](/images/barosma-betulina-botany-morphology-stems.jpg "none")
 

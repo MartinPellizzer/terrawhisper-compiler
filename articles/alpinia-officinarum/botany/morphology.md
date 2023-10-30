@@ -65,12 +65,12 @@ The following table shows in detail the morphological characteristics of Alpinia
 | Stem Arrangement  | Alternating |
 | Stem Shape  | Cylindrical, slightly ribbed |
 | Stem Height  | 1-3 meters (3.28-9.84 feet) |
-| Stem Diameter  | 1-3 centimeters (0.39-1.18 inches) |
+| Stem Diameter  | 1-3 cm (0.39-1.18 inches) |
 | Stem Color  | Green with reddish or brown patches |
 | Stem Texture  | Smooth, with occasional fine hairs |
 | Stem Surface  | Glossy, waxy |
 | Stem Nodes  | Distinct nodes with leaves and branches |
-| Stem Internodes  | Approximately 10-30 centimeters (3.94-11.81 inches) |
+| Stem Internodes  | About 10-30 cm (3.94-11.81 inches) |
 
 ![none](/images/alpinia-officinarum-botany-morphology-stems.jpg "none")
 

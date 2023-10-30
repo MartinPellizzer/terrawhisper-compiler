@@ -68,7 +68,7 @@ The following table shows in detail the morphological characteristics of Apium g
 | Stem Type  | Herbaceous, hollow |
 | Stem Arrangement  | Alternate |
 | Stem Shape  | Round (0.5 cm or 1/5 inch diameter) |
-| Stem Height  | Up to 60 cm (approximately 24 inches) |
+| Stem Height  | Up to 60 cm (about 24 inches) |
 | Stem Diameter  | 0.2-0.5 cm (1/16-1/5 inch) |
 | Stem Color  | Green |
 | Stem Texture  | Smooth |

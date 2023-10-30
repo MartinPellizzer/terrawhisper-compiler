@@ -307,8 +307,8 @@ def morphology():
 # taxonomy 
 ##################################################################
 def taxonomy():
-    i = 1
-    print(f'''{i}. TAXONOMY
+
+    print(f'''TAXONOMY
 
         Give me the taxonomy of {latin_name}.
 
@@ -326,72 +326,62 @@ def taxonomy():
         Format the data in a 2 column table.
         In the first column of the table, write the elements in the list.
         In the second column of the table, write the answer. 
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
-    ''')
-    i += 1
 
-    print(f'''{i}. COMMON NAMES
+        --------------------------------------------------------------------
+
+        Using the data from the previous table, write a section for an article in less than 300 words. 
+        Don't write in list format. Write in discursive format. 
+        Use simple language and a straightforward sentence structure.
+        Don't add fluff or opinions, just write facts.
+        
+        
+
+
+
+        ''')
+
+    print(f'''COMMON NAMES
 
         Give a list of common names of {latin_name}. Give me just the names, no descriptions.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
-    ''')
-    i += 1
 
-    print(f'''{i}. COMMON NAMES DESCRIPTIONS
+        --------------------------------------------------------------------
 
         For each name in the previous list, give me a brief description.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
-    ''')
-    i += 1
 
-    print(f'''{i}. DATA TO TEXT
+        --------------------------------------------------------------------
 
         Using the data from the previous table, write a section for an article in less than 300 words. 
         Don't write in list format. Write in discursive format. 
         Use simple language and a straightforward sentence structure.
         Don't add fluff or opinions, just write facts.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
-    ''')
-    i += 1
+
+
+
+
+        
+        ''')
     
-    print(f'''{i}. VARIETIES
+    print(f'''VARIETIES
 
         Give me a list of 10 varieties of {latin_name}. Give me just the names, no descriptions.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
-    ''')
-    i += 1
-    
-    print(f'''{i}. VARIETIES DESCRIPTIONS
+        
+        --------------------------------------------------------------------
 
         For each name in the previous list, give me a brief description.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
-    ''')
-    i += 1
-    
-    print(f'''{i}. DATA TO TEXT
 
+        --------------------------------------------------------------------
+    
         Using the data from the previous table, write a section for an article in less than 300 words. 
         Don't write in list format. Write in discursive format. 
         Use simple language and a straightforward sentence structure.
         Don't add fluff or opinions, just write facts.
-    ''')
-    print(f'''
-    --------------------------------------------------------------------
-    ''')
-    i += 1
 
+
+
+
+
+        ''')
+    
     text = ''
 
     filenames = ['roots', 'stems', 'leaves', 'flowers', 'fruits', 'seeds',]
@@ -417,7 +407,7 @@ def taxonomy():
         text += '\n'.join(lst)
 
 
-    print(f'''{i}. SECONDARY-CONTENT (MORPHOLOGY)
+    print(f'''SECONDARY-CONTENT (MORPHOLOGY)
 
         Write an overall description of the appearance of {latin_name} by using the data in the following tables:
         
@@ -431,25 +421,22 @@ def taxonomy():
     print(f'''
     --------------------------------------------------------------------
     ''')
-    i += 1
 
-    print(f'''{i}. INTRO HIGHLIGHTS
+    print(f'''INTRO HIGHLIGHTS
 
        Give me 3 highlights about the following text in less than 100 words:
     ''')
     print(f'''
     --------------------------------------------------------------------
     ''')
-    i += 1
 
-    print(f'''{i}. INTRO TEXT
+    print(f'''INTRO TEXT
 
        Write an intro paragraph about {latin_name} using the highlights from your previous reply.
     ''')
     print(f'''
     --------------------------------------------------------------------
     ''')
-    i += 1
 
 
 ##################################################################
@@ -523,7 +510,10 @@ def distribution():
 
         ''')
 
+# give me 2 lists:
 
+# in the first list write the native regions where yarrow is found.
+# in the second list write the naturalized regions where yarrow is found.
 
 
 

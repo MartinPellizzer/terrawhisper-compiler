@@ -66,7 +66,7 @@ The following table shows in detail the morphological characteristics of Ammi vi
 | Stem Texture  | Smooth |
 | Stem Surface  | Glabrous (hairless) |
 | Stem Nodes  | Present, distinct |
-| Stem Internodes  | Approximately 3-5 cm (1.2-2 inches) apart |
+| Stem Internodes  | About 3-5 cm (1.2-2 inches) apart |
 
 ![none](/images/ammi-visnaga-botany-morphology-stems.jpg "none")
 

@@ -64,13 +64,13 @@ The following table shows in detail the morphological characteristics of Chamomi
 | Stem Type  | Herbaceous |
 | Stem Arrangement  | Alternate |
 | Stem Shape  | Erect, cylindrical |
-| Stem Height  | Approximately 15-30 cm (6-12 inches) |
-| Stem Diameter  | About 2-4 mm (0.08-0.16 inches) |
+| Stem Height  | About 15-30 cm (6-12 inches) |
+| Stem Diameter  | 2-4 mm (0.08-0.16 inches) |
 | Stem Color  | Green, sometimes reddish at base |
 | Stem Texture  | Smooth, slightly ridged |
 | Stem Surface  | Glabrous (hairless) |
-| Stem Nodes  | Sparsely branched with occasional nodes |
-| Stem Internodes  | Approximately 2-6 cm (0.8-2.4 inches) apart |
+| Stem Nodes  | Present, sparsely branched with occasional nodes |
+| Stem Internodes  | About 2-6 cm (0.8-2.4 inches) apart |
 
 ![none](/images/chamomilla-recutita-botany-morphology-stems.jpg "none")
 
