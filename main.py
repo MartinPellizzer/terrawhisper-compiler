@@ -185,7 +185,7 @@ def generate_table_simple(rows):
 # IMAGES 
 ######################################################################
 def img_resize(image_path):
-    w, h = 768, 512
+    w, h = 768, 578
 
     img = Image.open(image_path)
 

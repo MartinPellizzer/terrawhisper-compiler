@@ -1,0 +1,7 @@
+The inflorescence type of Codonopsis pilosula is racemose, with 1 to 3 flowers per node, typically measuring 0.39 to 1.18 inches in length. These flowers exhibit a simple, unbranched structure and are solitary, arising from the leaf axils. 
+
+The flowers of Codonopsis pilosula are actinomorphic, meaning they display radial symmetry, and are tubular in shape. The corolla, composed of five petals, forms a funnel-like structure with a diameter of up to 0.79 inches and a length of 0.79 to 1.57 inches. They come in varying shades of pale blue, purple, or white, and have a smooth, glossy texture. 
+
+These flowers have a pentamerous arrangement, with five sepals fused at the base and five petals united to create the corolla. The reproductive components consist of five fertile stamens attached to the corolla tube and a single pistil with a superior ovary containing three locules. The style is solitary, with a three-lobed stigma at its tip. Codonopsis pilosula lacks stipules but does have small bracts at the base of the flower.
+
+Supporting these flowers are slender peduncles, which are the stems that bear the inflorescence, and short pedicels, the stalks that attach individual flowers. This combination of features defines the unique morphology of Codonopsis pilosula, making it easily distinguishable within the plant kingdom.

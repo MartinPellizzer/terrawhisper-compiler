@@ -1,0 +1,5 @@
+The fruits of Codonopsis pilosula are capsules, typically found either individually or in clusters throughout the plant. These capsules are pendulous, meaning they hang down from the plant. In terms of their shape, they are generally globose in form, with a length of about 1.5 cm (0.59 inches), a width of approximately 1.2 cm (0.47 inches), and a thickness of 1.0 cm (0.39 inches).
+
+As they mature, the color of these capsules changes from green to brown. The texture of the fruit is smooth and somewhat waxy, and the surface is described as glabrous, meaning it is hairless and lacks any fine hairs or fuzz. There are no distinct markings on the fruit's surface.
+
+One notable characteristic of these capsules is their method of dehiscence, which is loculicidal. This means that the capsules split open along the septa, releasing their seeds from within.

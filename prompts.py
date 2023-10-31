@@ -296,7 +296,7 @@ def morphology():
 
 
     print(f''' {i}. INTRO
-        Summarize the following text in less than 200 words, without using lists, only discoursive text:
+        Summarize the following text in less than 200 words, without using lists, only discursive text:
     ''')
     print(f'''
     --------------------------------------------------------------------
@@ -323,7 +323,7 @@ def taxonomy():
         - Genus
         - Species
 
-        Format the data in a 2 column table.
+        Format the data in a 2-column table.
         In the first column of the table, write the elements in the list.
         In the second column of the table, write the answer. 
 
@@ -342,11 +342,7 @@ def taxonomy():
 
     print(f'''COMMON NAMES
 
-        Give a list of common names of {latin_name}. Give me just the names, no descriptions.
-
-        --------------------------------------------------------------------
-
-        For each name in the previous list, give me a brief description.
+        Write a list of 10 common names of {latin_name}. Add a description for each name.
 
         --------------------------------------------------------------------
 
@@ -363,11 +359,7 @@ def taxonomy():
     
     print(f'''VARIETIES
 
-        Give me a list of 10 varieties of {latin_name}. Give me just the names, no descriptions.
-        
-        --------------------------------------------------------------------
-
-        For each name in the previous list, give me a brief description.
+        Give me a list of 10 varieties of {latin_name}. Add a description for each name.
 
         --------------------------------------------------------------------
     
