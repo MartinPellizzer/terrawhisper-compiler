@@ -46,6 +46,9 @@ for entity in entities:
     with open(f'database/articles/{entity}/botany/{article}/habitat.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/botany/{article}/native.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/botany/{article}/distribution.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/{article}/invasive.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/{article}/invasive-impact.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/{article}/invasive-control.md', 'a', encoding='utf-8') as f: pass
     
     # try: os.mkdir(f'database/articles/{entity}/botany/symbology')
     # except: pass

@@ -1,4 +1,8 @@
 # TODO: fix aesculus-hippocastanum leaf image (probaly also future images (because table if f*cked))
+# TODO: in distribution articles, find a way to separate native to naturalzied (maybe both)
+# TODO: complete taxonomy articles first, you need common names for rest
+# TODO: save lists of h3 to generate images? or, if nothing else for db
+
 
 import json
 import os
@@ -97,9 +101,12 @@ def sanitize_one_word(text):
 def sanitize(text):
     return text.split('(')[0].split(',')[0]
 
+
+
 ######################################################################
 # TABLE 
 ######################################################################
+
 def csv_get_table_data(filepath):
     lines = []
     with open(filepath) as f:
@@ -184,6 +191,7 @@ def generate_table_simple(rows):
 ######################################################################
 # IMAGES 
 ######################################################################
+
 def img_resize(image_path):
     w, h = 768, 578
 
@@ -1024,6 +1032,7 @@ def generate_featured_image(entity, attribute):
 ######################################################################
 # HTML 
 ######################################################################
+
 def generate_header_light():
     html = '''
     <header>
@@ -1234,6 +1243,9 @@ for i, row in enumerate(articles_master_rows):
     done = row[5].strip()
     latin_name = entity.replace('-', ' ').capitalize()
 
+    # common_names = csv_get_rows_by_entity('database/tables/common-names/common-names.csv', 'achillea-millefolium')
+    # common_name = common_names[0]
+
     try: os.mkdir(f'articles/{entity}')
     except: pass
     try: os.mkdir(f'articles/{entity}/{category}')
@@ -1425,7 +1437,8 @@ for i, row in enumerate(articles_master_rows):
             section_content = f.read()
         article += section_content + '\n\n'
 
-        article += f'The following table gives a detailed list of continents and states where {latin_name} is native.\n\n'
+        article += f'The following table gives a detailed list of continents and states where {latin_name} is native, according to the United States Department of Agriculture (USDA) and other governative resources around the world.\n\n'
+
         lines = csv_get_table_data(f'database/tables/botany/{section}.csv')
         rows = csv_get_rows_by_entity(f'database/tables/botany/{section}.csv', entity)
         article += generate_table_grouped(rows)
@@ -1444,6 +1457,45 @@ for i, row in enumerate(articles_master_rows):
         rows = csv_get_rows_by_entity(f'database/tables/botany/{section}.csv', entity)
         article += generate_table_simple(rows)
         article += '\n\n'
+
+        
+        # invasive
+        section = 'invasive'
+        article += f'## Is {latin_name} invasive?\n\n'
+        path = f'database/articles/{entity}/botany/{attribute}'
+        with open(f'{path}/{section}.md', encoding='utf-8') as f: 
+            section_content = f.read()
+        article += section_content + '\n\n'
+        
+        article += f'Here\'s a list of the most common habitats of {latin_name} with a brief description for each one.\n\n'
+        rows = csv_get_rows(f'database/tables/botany/{section}.csv')
+        rows_filtered = [f'{row[1]}: {row[2]}' for row in rows if entity == row[0].strip()]
+        article += lst_to_blt(bold_blt(rows_filtered))
+        article += '\n\n'
+
+        # invasive impact
+        section = 'invasive-impact'
+        article += f'### What\'s the impact of {latin_name} as an invasive species?\n\n'
+        path = f'database/articles/{entity}/botany/{attribute}'
+        with open(f'{path}/{section}.md', encoding='utf-8') as f: 
+            section_content = f.read()
+        article += section_content + '\n\n'
+        article += '\n\n'
+
+        # invasive control
+        section = 'invasive-control'
+        article += f'### How to manage and control invasive {latin_name}?\n\n'
+        path = f'database/articles/{entity}/botany/{attribute}'
+        with open(f'{path}/{section}.md', encoding='utf-8') as f: 
+            section_content = f.read()
+        article += section_content + '\n\n'
+
+
+        # article += f'The following table gives list of continents and the distribution of {latin_name} for each continent.\n\n'
+        # lines = csv_get_table_data(f'database/tables/botany/{section}.csv')
+        # rows = csv_get_rows_by_entity(f'database/tables/botany/{section}.csv', entity)
+        # article += generate_table_simple(rows)
+        # article += '\n\n'
 
         
     article_filepath = generate_html(date, title, article, entity, f'{category}/{attribute}')

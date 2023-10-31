@@ -395,18 +395,18 @@ yarrow plant poisonous
 yarrow related plant
 
 invasive
-    is yellow yarrow invasive
-    how invasive is yarrow
-    is white yarrow invasive
-    yarrow is it invasive
-    is red yarrow invasive
-    is yarrow invasive
-    yarrow plant invasive
-    is achillea millefolium invasive
-    yarrow flowers invasive
-    is all yarrow invasive
-    is common yarrow invasive
     yarrow invasive
+    is yarrow invasive
+    yarrow is it invasive
+    yarrow plant invasive
+    yarrow flowers invasive
+    is achillea millefolium invasive
+    is common yarrow invasive
+    is yellow yarrow invasive
+    is white yarrow invasive
+    is red yarrow invasive
+    is all yarrow invasive
+    how invasive is yarrow
 
 color
     yarrow seeds colorado mix

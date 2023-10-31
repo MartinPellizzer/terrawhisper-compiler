@@ -39,7 +39,7 @@ Across Asia, Achillea millefolium's native range encompasses states and territor
 
 In Africa, yarrow is native to Algeria, Libya, Morocco, and Tunisia. Its presence in these North African countries underscores its ability to survive in arid and semi-arid environments.
 
-The following table gives a detailed list of continents and states where Achillea millefolium is native.
+The following table gives a detailed list of continents and states where Achillea millefolium is native, according to the United States Department of Agriculture (USDA) and other governative resources around the world.
 
 |Continent|States|
 |---|---|
@@ -71,4 +71,45 @@ The following table gives list of continents and the distribution of Achillea mi
 | Australia       | Scarce|
 | Antarctica      | Absent|
 
+
+## Is Achillea millefolium invasive?
+
+Yes, Achillea millefolium has emerged as an invasive species in numerous regions across the globe. To be more specific, almost all variants of yarrow can be considered invasive, including common yarrow, yellow yarrow, white yarrow, and red yarrow.
+
+In North America, particularly the United States and Canada, yarrow has established itself as an invasive species. It has infiltrated diverse habitats, including grasslands, meadows, and roadsides. Similarly, in Australia, New Zealand, and parts of South America, A. millefolium has invaded grasslands, pastures, and other open areas. Its ability to outcompete native vegetation is a cause for concern in these regions.
+
+In South Africa, A. millefolium has also been documented as an invasive species, particularly in disturbed habitats and grasslands. Additionally, various parts of Asia, such as Japan, have experienced the naturalization and invasiveness of yarrow.
+
+The invasive nature of Achillea millefolium poses ecological challenges in the affected regions. As an invasive species, it can displace native plants, disrupt local ecosystems, and alter natural landscapes.
+
+Here's a list of the most common habitats of Achillea millefolium with a brief description for each one.
+
+- **North America**:   It is considered invasive in many parts of North America, including the United States and Canada. It has naturalized in a variety of habitats, including grasslands, meadows, and roadsides.
+- **Australia**:   It is considered invasive in parts of Australia, where it has become established in grasslands, pastures, and disturbed areas.
+- **New Zealand**:   It is also invasive in New Zealand, where it competes with native plants in grasslands and other open habitats.
+- **South America**:   Invasive populations of Achillea millefolium can be found in parts of South America, particularly in temperate regions.
+- **South Africa**:   It has invaded some areas in South Africa, particularly in disturbed habitats and grasslands.
+- **Asia**:   It has naturalized in various parts of Asia, including Japan, where it is considered invasive in some regions.
+
+### What's the impact of Achillea millefolium as an invasive species?
+
+The impact of invasive Achillea millefolium on local ecosystems is notable. It competes with native flora for essential resources, including sunlight, water, and nutrients, thereby diminishing plant diversity and potentially displacing indigenous species. 
+
+Furthermore, this invasive species can alter the soil composition, elevating nitrogen levels, which can favor its growth but have adverse effects on other vegetation. Yarrow's vigorous growth also transforms the structure of habitats, affecting the availability of resources and shelter for native wildlife. This can disrupt local pollination dynamics, as yarrow is highly attractive to pollinators. 
+
+Its adaptability to fire-prone environments increases the risk of wildfires, further impacting ecosystems. Also, yarrow's economic impact extends to agriculture, where it can impede crop growth and necessitate costly control measures.
+
+
+
+### How to manage and control invasive Achillea millefolium?
+
+Invasive yarrow is managed and controlled by using several strategies.
+
+Prevention is the foremost approach. Avoid introducing yarrow to non-native environments to curb its spread. 
+
+Mechanical control methods include hand-pulling, best suited for small infestations, and regular mowing to prevent seed production. Chemical herbicides can be used with caution, guided by local experts, and taking care to minimize their impact on non-target species.
+
+Biological control can also be considered, with the introduction of yarrow-feeding insects like the yarrow leaf beetle, though this must be done under expert guidance to prevent unintended consequences. Soil amendments, such as reducing soil fertility through organic matter, can deter yarrow growth. Competitive planting with native or non-invasive species is effective in outcompeting yarrow.
+
+Cultural control methods like tilling and regular disturbance of the area help prevent yarrow from establishing itself. Employing an Integrated Pest Management (IPM) approach, customized to the specific site and infestation scale, can be highly effective. Lastly, ongoing monitoring is crucial to detect yarrow resurgence and act promptly.
 

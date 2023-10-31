@@ -1,0 +1,5 @@
+The impact of invasive Achillea millefolium on local ecosystems is notable. It competes with native flora for essential resources, including sunlight, water, and nutrients, thereby diminishing plant diversity and potentially displacing indigenous species. 
+
+Furthermore, this invasive species can alter the soil composition, elevating nitrogen levels, which can favor its growth but have adverse effects on other vegetation. Yarrow's vigorous growth also transforms the structure of habitats, affecting the availability of resources and shelter for native wildlife. This can disrupt local pollination dynamics, as yarrow is highly attractive to pollinators. 
+
+Its adaptability to fire-prone environments increases the risk of wildfires, further impacting ecosystems. Also, yarrow's economic impact extends to agriculture, where it can impede crop growth and necessitate costly control measures.

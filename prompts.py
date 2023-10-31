@@ -496,11 +496,57 @@ def distribution():
         Don't write in list format. Write in discursive format. 
         Use a scientific style of writing but use a simple and straightforward sentence structure.
         Don't add fluff or opinions, just write facts.
+        
         --------------------------------------------------------------------
 
 
 
         ''')
+        
+    print(f'''INVASIVE
+
+        List of regions where {latin_name} is considered invasive?
+
+        --------------------------------------------------------------------
+
+        Using the data from the previous list, write a section for an article in less than 300 words about the invasiveness of {latin_name}.
+        Don't write in list format. Write in discursive format.
+        Use a scientific style of writing but use a simple and straightforward sentence structure.
+        Don't add fluff or opinions, just write facts.
+
+        The title of the section (h2) is:
+
+        "Is {latin_name} invasive?"
+
+        --------------------------------------------------------------------
+
+
+
+        ''')    
+
+    print(f'''INVASIVE IMPACT
+
+        List of regions where {latin_name} is considered invasive?
+
+        --------------------------------------------------------------------
+
+        Using the data from the previous list, write a section for an article in less than 200 words about the impact of {latin_name} as an invasive species.
+        Don't write in list format. Write in discursive format.
+        Use a scientific style of writing but use a simple and straightforward sentence structure.
+        Don't add fluff or opinions, just write facts.
+
+        The title of the section is:
+
+        "What's the impact of {latin_name} as an invasive species"
+
+        --------------------------------------------------------------------
+
+
+
+        ''')
+
+
+
 
 # give me 2 lists:
 
