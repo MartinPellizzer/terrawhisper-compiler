@@ -4,112 +4,13 @@
 
 ## What is the natural habitat of Achillea millefolium?
 
-One of the most prevalent natural habitats for yarrow is grasslands. This resilient species thrives in open grassy areas and often emerges as a dominant plant, contributing to the biodiversity of these regions. Meadows, another common habitat, offer a favorable environment for this plant due to their open, sunny conditions, which are ideal for its growth.
-
-Roadsides represent a distinctive habitat for Achillea millefolium. This species readily colonizes roadside environments, benefiting from the disturbed soils and ample sunlight found along roadsides. It serves as an indicator of ecological disruption in these areas. It is also known to inhabit woodland edges, particularly in regions with dappled sunlight and well-drained soils, where it plays a role in the transitional zones between woodlands and open spaces.
-
-Yarrow displays adaptability to arid conditions, leading to its presence on dry slopes. Its deep roots allow it to access soil moisture, making it a suitable inhabitant of such environments. In pastures and grazing lands, it coexists with other grasses and forbs, providing valuable forage for livestock.
-
-The species is adept at colonizing disturbed areas, such as construction sites or abandoned fields, due to its ability to grow in soils with minimal competition. Along coastal regions, yarrow can be found on dunes, where it endures salt spray and sandy conditions. This adaptation contributes to its presence in coastal dune ecosystems.
-
-In higher altitudes, this plant can be observed in alpine meadows, defying the harsh conditions of mountainous regions. Lastly, it sometimes grows at the edges of wetlands, displaying a tolerance for wetter soils compared to many other plant species found in these aquatic environments. This diversity of natural habitats highlights the ecological flexibility of Achillea millefolium, which has enabled it to thrive in a wide range of geographical locations and ecological niches.
-
-Here's a list of the most common habitats of Achillea millefolium with a brief description for each one.
-
-- **Grasslands**:   It is frequently found in open grasslands, where it thrives in areas with a mix of grass species.
-- **Meadows**:   It is commonly encountered in meadows, particularly in areas with moderate moisture and sunlight.
-- **Roadsides**:   It often colonizes the disturbed soil along roadsides, taking advantage of the open, sunlit environments.
-- **Woodland edges**:   It is occasionally found at the edges of woodlands, where it benefits from partial shade and access to sunlight.
-- **Dry slopes**:   It can be observed on dry, sloping terrain, where its drought tolerance allows it to thrive.
-- **Pastures**:   It is present in pastures, where it can serve as forage for grazing animals.
-- **Disturbed areas**:   It readily grows in areas that have been recently disturbed by human activity or natural events.
-- **Coastal dunes**:   It is sometimes seen on coastal dunes, where it tolerates the harsh conditions of sandy, saline environments.
-- **Alpine meadows**:   It can be found at higher elevations in alpine meadows, even in regions with colder climates.
-- **Wetlands**:   It may occur in wetlands, where it can tolerate periodic inundation and thrive in waterlogged soils.
-
-![alt](/images/achillea-millefolium-botany-habitat.jpg "title")
-
 ## In which regions Achillea millefolium is native?
-
-In North America, yarrow is native to Alaska, Canada, Greenland, the United States, and Mexico. Its presence in these regions underscores its ability to thrive in a diverse range of environments, from the northern reaches of Alaska to the temperate zones of the United States.
-
-Europe hosts a substantial number of states where this plant is native. These include countries such as Albania, Austria, France, Germany, Italy, and the United Kingdom, among others. The plant's widespread presence in Europe reflects its adaptability to a variety of European climates and ecosystems.
-
-Across Asia, Achillea millefolium's native range encompasses states and territories from Armenia and China to Saudi Arabia and Uzbekistan. This diverse distribution highlights its capacity to grow in varying climatic conditions, from the arid regions of the Middle East to the high altitudes of Central Asia.
-
-In Africa, yarrow is native to Algeria, Libya, Morocco, and Tunisia. Its presence in these North African countries underscores its ability to survive in arid and semi-arid environments.
-
-The following table gives a detailed list of continents and states where Achillea millefolium is native, according to the United States Department of Agriculture (USDA) and other governative resources around the world.
-
-|Continent|States|
-|---|---|
-| North America | North America , Alaska, Canada, Greenland, United States, Mexico                                                                 |
-| Europe       | Europe       , Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine, United Kingdom |
-| Asia         | Asia         , Armenia, Azerbaijan, China, Georgia, India, Iran, Iraq, Israel, Jordan, Kazakhstan, Kyrgyzstan, Lebanon, Mongolia, Nepal, Pakistan, Saudi Arabia, Syria, Tajikistan, Turkey, Turkmenistan, Uzbekistan  |
-| Africa       | Africa       , Algeria, Libya, Morocco, Tunisia                                                                                   |
-
 
 ## What is the global distribution of Achillea millefolium?
 
-The distribution of Achillea millefolium varies across the continents. In Europe, this species can be found in moderate numbers. Moving eastward to Asia, a similar moderate distribution is observed. In contrast, Africa hosts a scarce population of Achillea millefolium.
-
-North America stands out as a continent with an abundant presence of yarrow. South America, on the other hand, exhibits a relatively scarce distribution. The continent of Australia also experiences scarce occurrences of this species.
-
-It is important to note that Achillea millefolium does not naturally occur in Antarctica, due to the extreme environmental conditions characteristic of the continent.
-
-This distribution of Achillea millefolium is influenced by various environmental factors, including climate, soil conditions, and human impact, leading to varying levels of presence across these continents.
-
-The following table gives list of continents and the distribution of Achillea millefolium for each continent.
-
-|Continent|Distribution|
-|---|---|
-| Europe          | Moderate|
-| Asia            | Moderate|
-| Africa          | Scarce|
-| North America   | Abundant|
-| South America   | Scarce|
-| Australia       | Scarce|
-| Antarctica      | Absent|
-
-
 ## Is Achillea millefolium invasive?
-
-Yes, Achillea millefolium has emerged as an invasive species in numerous regions across the globe. To be more specific, almost all variants of yarrow can be considered invasive, including common yarrow, yellow yarrow, white yarrow, and red yarrow.
-
-In North America, particularly the United States and Canada, yarrow has established itself as an invasive species. It has infiltrated diverse habitats, including grasslands, meadows, and roadsides. Similarly, in Australia, New Zealand, and parts of South America, A. millefolium has invaded grasslands, pastures, and other open areas. Its ability to outcompete native vegetation is a cause for concern in these regions.
-
-In South Africa, A. millefolium has also been documented as an invasive species, particularly in disturbed habitats and grasslands. Additionally, various parts of Asia, such as Japan, have experienced the naturalization and invasiveness of yarrow.
-
-The invasive nature of Achillea millefolium poses ecological challenges in the affected regions. As an invasive species, it can displace native plants, disrupt local ecosystems, and alter natural landscapes.
-
-Here's a list of the most common habitats of Achillea millefolium with a brief description for each one.
-
-- **North America**:   It is considered invasive in many parts of North America, including the United States and Canada. It has naturalized in a variety of habitats, including grasslands, meadows, and roadsides.
-- **Australia**:   It is considered invasive in parts of Australia, where it has become established in grasslands, pastures, and disturbed areas.
-- **New Zealand**:   It is also invasive in New Zealand, where it competes with native plants in grasslands and other open habitats.
-- **South America**:   Invasive populations of Achillea millefolium can be found in parts of South America, particularly in temperate regions.
-- **South Africa**:   It has invaded some areas in South Africa, particularly in disturbed habitats and grasslands.
-- **Asia**:   It has naturalized in various parts of Asia, including Japan, where it is considered invasive in some regions.
 
 ### What's the impact of Achillea millefolium as an invasive species?
 
-The impact of invasive Achillea millefolium on local ecosystems is notable. It competes with native flora for essential resources, including sunlight, water, and nutrients, thereby diminishing plant diversity and potentially displacing indigenous species. 
-
-Furthermore, this invasive species can alter the soil composition, elevating nitrogen levels, which can favor its growth but have adverse effects on other vegetation. Yarrow's vigorous growth also transforms the structure of habitats, affecting the availability of resources and shelter for native wildlife. This can disrupt local pollination dynamics, as yarrow is highly attractive to pollinators. 
-
-Its adaptability to fire-prone environments increases the risk of wildfires, further impacting ecosystems. Also, yarrow's economic impact extends to agriculture, where it can impede crop growth and necessitate costly control measures.
-
-
-
 ### How to manage and control invasive Achillea millefolium?
-
-Invasive yarrow is managed and controlled by using several strategies.
-
-Prevention is the foremost approach. Avoid introducing yarrow to non-native environments to curb its spread. 
-
-Mechanical control methods include hand-pulling, best suited for small infestations, and regular mowing to prevent seed production. Chemical herbicides can be used with caution, guided by local experts, and taking care to minimize their impact on non-target species.
-
-Biological control can also be considered, with the introduction of yarrow-feeding insects like the yarrow leaf beetle, though this must be done under expert guidance to prevent unintended consequences. Soil amendments, such as reducing soil fertility through organic matter, can deter yarrow growth. Competitive planting with native or non-invasive species is effective in outcompeting yarrow.
-
-Cultural control methods like tilling and regular disturbance of the area help prevent yarrow from establishing itself. Employing an Integrated Pest Management (IPM) approach, customized to the specific site and infestation scale, can be highly effective. Lastly, ongoing monitoring is crucial to detect yarrow resurgence and act promptly.
 

@@ -1,16 +1,18 @@
 import sys
 
-if len(sys.argv) != 3:
-    print('ERR: params (OUT_FILENAME, WORD)')
+if len(sys.argv) != 4:
+    print('ERR: params (ENTITY, OUT_FILENAME, WORD)')
     quit()
 
-out_filename = sys.argv[1]
-word = sys.argv[2]
+
+entity = sys.argv[1]
+out_filename = sys.argv[2]
+word = sys.argv[3]
 print(out_filename)
 print(word)
 # quit()
 
-with open('keywords/keywords.md', encoding='utf-8') as f:
+with open(f'keywords/{entity}/keywords.md', encoding='utf-8') as f:
     keywords = f.readlines()
 
 
@@ -24,11 +26,11 @@ for keyword in keywords:
         keep_lst.append(keyword)
 
 
-with open('keywords/keywords.md', 'w', encoding='utf-8') as f:
+with open(f'keywords/{entity}/keywords.md', 'w', encoding='utf-8') as f:
     for item in keep_lst:
         f.write(f'{item}\n')
         
-with open(f'keywords/{out_filename}.md', 'a', encoding='utf-8') as f:
+with open(f'keywords/{entity}/{out_filename}.md', 'a', encoding='utf-8') as f:
     f.write(f'{word}\n')
     for item in move_lst:
         f.write(f'    {item}\n')

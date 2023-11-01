@@ -18,17 +18,6 @@ Aesculus hippocastanum, commonly known as the horse chestnut, belongs to the Pla
 
 This majestic tree finds its place in the Sapindaceae family, a family that includes a variety of flowering plants. The genus to which Aesculus hippocastanum belongs is simply named Aesculus.
 
-| Characteristic | Description |
-| --- | --- |
-| Domain | Eukaryota |
-| Kingdom | Plantae |
-| Phylum | Angiosperms (magnoliophyta) |
-| Class | Eudicots (magnoliopsida) |
-| Order | Sapindales |
-| Family | Sapindaceae |
-| Genus | Aesculus |
-| Species | Aesculus hippocastanum |
-
 ## Common Names
 
 Aesculus hippocastanum has many common names, but "Horse Chestnut" is perhaps the most recognizable. Its name is derived from the large seeds it produces, encased in spiky hulls, which are referred to as "conkers" and have been used in traditional children's games.
@@ -41,19 +30,6 @@ Some variants of Aesculus hippocastanum have variegated leaves, leading to the n
 
 In the United States, particularly in Ohio, a similar-looking tree in the Aesculus genus goes by the name "Ohio Buckeye." These diverse common names reflect the tree's recognition and adaptability to various regions across the world, adding to its botanical significance and appeal.
 
-Here's a list of the most common names of Aesculus hippocastanum with a brief description for each name.
-
-- **Horse Chestnut**:   The most widely used name for the tree, known for its large seeds enclosed in spiky hulls.
-- **Conker Tree**:   Referring to the use of the tree's seeds, called "conkers," in a popular children's game.
-- **Buckeye**:   A common name primarily used in North America for trees in the Aesculus genus, including Aesculus hippocastanum.
-- **Spanish Chestnut**:   Sometimes used due to its similarity to the sweet chestnut (Castanea sativa).
-- **European Horse Chestnut**:   Signifies its European origin, distinguishing it from other horse chestnut species.
-- **Common Horse Chestnut**:   A straightforward descriptor for its prevalence and distinction from other chestnut trees.
-- **Sweet Chestnut**:   Occasionally used due to the resemblance to true chestnuts, although they are different species.
-- **Variegated Horse Chestnut**:   Referring to varieties with variegated (multi-colored) leaves.
-- **White Chestnut**:   A name used for the light-colored seeds when they are peeled.
-- **Ohio Buckeye**:   A regional name used in Ohio, United States, for similar-looking buckeye trees.
-
 ## Varieties
 
 Aesculus hippocastanum comes in a variety of distinct forms, such as the variety 'Baumannii,' which is appreciated for its tall and upright growth, creating a dense canopy of leaves. In contrast, 'Briotii' stands out with its pink-flushed flowers, adding a touch of color to the tree. 'Conspicua' lives up to its name with large and eye-catching flowers, making it a striking choice for gardens.
@@ -63,19 +39,6 @@ For those who prefer an intricate foliage, 'Laciniata' boasts deeply cut or diss
 'Stately' lives up to its name by growing tall and commanding attention. 'Sunset' is valued for its attractive foliage and the vibrant colors it exhibits during the autumn season. 'Umbraculifera' creates an umbrella-like canopy of dense foliage, offering shade and privacy.
 
 Lastly, 'Variegata' is known for its variegated leaves, which feature contrasting colors, providing a visually captivating element to the tree.
-
-Here's a list of the most common varieties of Aesculus hippocastanum with a brief description for each variety.
-
-- **Aesculus hippocastanum 'Baumannii'**:   This variety is known for its tall, upright growth and dense foliage.
-- **Aesculus hippocastanum 'Briotii'**:   'Briotii' is valued for its distinctive pink-flushed flowers.
-- **Aesculus hippocastanum 'Conspicua'**:   This variety stands out with its large and showy flowers.
-- **Aesculus hippocastanum 'Laciniata'**:   'Laciniata' features deeply cut or dissected leaves, giving it a unique appearance.
-- **Aesculus hippocastanum 'Pendula'**:   Noted for its weeping or pendulous branches, this variety has an elegant and graceful form.
-- **Aesculus hippocastanum 'Rubra'**:   'Rubra' is recognized for its reddish or pinkish flowers.
-- **Aesculus hippocastanum 'Stately'**:   This variety is appreciated for its tall and commanding presence.
-- **Aesculus hippocastanum 'Sunset'**:   'Sunset' is known for its attractive foliage and vibrant autumn colors.
-- **Aesculus hippocastanum 'Umbraculifera'**:   This variety forms a dense, umbrella-like canopy of foliage.
-- **Aesculus hippocastanum 'Variegata'**:   'Variegata' features variegated leaves with contrasting colors, adding visual interest to the tree.
 
 ## Morphology
 

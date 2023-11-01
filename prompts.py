@@ -1,14 +1,53 @@
 import sys
 import csv
 
-if len(sys.argv) != 3:
-    print("ERR: missing arguments (ENTITY, ATTRIBUTE)")
+if len(sys.argv) < 2:
+    print("ERR: missing arguments (ENTITY, ATTRIBUTES)")
     quit()
 
 entity = sys.argv[1]
 latin_name = entity.replace('-', ' ').capitalize()
-attribute = sys.argv[2].lower().strip()
-# print(entity)
+attribute_1 = ''
+try: sys.argv[2].lower().strip()
+except: pass
+attribute_2 = ''
+try: sys.argv[3].lower().strip()
+except: pass
+
+def csv_get_table_data(filepath, entity):
+    lines = []
+    with open(filepath) as f:
+        reader = csv.reader(f, delimiter="\\")
+        for i, line in enumerate(reader):
+            if i == 0:
+                lines.append(line)
+            else:
+                if line[0].strip() == entity.strip():
+                    lines.append(line)
+    return lines
+
+
+def csv_get_rows_by_entity(filepath, entity):
+    rows = []
+    with open(filepath, encoding='utf-8', errors='ignore') as f:
+        reader = csv.reader(f, delimiter="|")
+        for i, line in enumerate(reader):
+            rows.append(line)
+    
+    filtered_rows = [] 
+    for row in rows:
+        if row[0].strip() == entity[0].strip():
+            filtered_rows.append(row)
+    return rows
+
+
+try:
+    common_names = csv_get_rows_by_entity('database/tables/botany/common-names.csv', 'achillea-millefolium')
+    common_name = common_names[0][1]
+except:
+    common_names = []
+    common_name = ''
+
 
 
 print()
@@ -546,6 +585,103 @@ def distribution():
         ''')
 
 
+def botany():
+    text = ''
+    filenames = ['roots', 'stems', 'leaves', 'flowers', 'fruits', 'seeds',]
+    for filename in filenames:
+        filepath = f'database/tables/morphology/{filename}.csv'
+        tmp_header = []
+        tmp_values = []
+        with open(filepath, encoding='utf-8', errors='ignore') as f:
+            reader = csv.reader(f, delimiter="\\")
+            for k, row in enumerate(reader):
+                if k == 0:
+                    tmp_header = row
+                    continue
+                if entity == row[0].strip():
+                    tmp_values = row
+                    break
+        
+        lst = []
+        for k in range(len(tmp_values)):
+            if k == 0: continue
+            if tmp_values[k].strip() != '':
+                lst.append(f'- {tmp_header[k]}: ' + tmp_values[k])
+        text += '\n'.join(lst)
+
+    print(f'''MORPHOLOGY
+
+        Write me the morphology of Achillea millefolium. Include the following parts:
+
+        Roots
+        Stems
+        Leaves
+        Flowers
+        Fruits
+        Seeds
+
+        Give me as much data, info, and numbers as possible for each part. Use the metric system for the numbers. Write using a discursive format, not lists.
+
+        Reference the following list to extract the data, info, and numbers:
+
+        {text}
+
+        
+        
+        Also, start the reply with the following sentence:
+
+        Knowing the Morphology of {latin_name} is useful if you want to be able to classify this plant.
+    
+        --------------------------------------------------------------------
+        
+
+        
+        ''')
+
+    print(f'''LIFE-CYCLE
+
+        Write a detailed description of the life cycle of Achillea millefolium. 
+        Compress as many details, numbers, and data in as few words as possible. 
+        Use a scientific writing style, with a simple and straightforward sentence structure in active voice 
+        ({latin_name} must always be the subject in every sentence).
+        Don't add fluff or opinions, only facts.
+    
+        --------------------------------------------------------------------
+
+        Is yarrow perennial? If so, give me details about why it is.
+
+        --------------------------------------------------------------------
+
+
+        
+        ''')
+
+
+# Achillea millefolium, commonly known as yarrow, belongs to the domain Eukaryota and the kingdom Plantae. It is classified under the Angiosperms (or Magnoliophyta) as a Eudicot, placing it within the order Asterales. This plant is a member of the family Asteraceae and is specifically categorized under the genus Achillea. Its full scientific name is Achillea millefolium, encompassing its various taxonomic levels within the plant kingdom.
+
+def main():
+
+    filepath = f'database/tables/botany/taxonomy.csv'
+    rows = csv_get_table_data(filepath, entity)
+    rows = [f'-{row}' for row in rows[1][1:]]
+    rows = '\n'.join(rows)
+    print(f'''BOTANICAL PROFILE
+
+        Write a paragraph about the taxonomy of {latin_name}. 
+        Include as many details as possible in as few words as possible.
+        Include all the data from the following list for the taxonomy:
+
+        {rows}
+
+        Also, start the paragraph with the following words:
+
+        {common_name} ({latin_name})
+
+        --------------------------------------------------------------------
+
+
+        
+        ''')
 
 
 # give me 2 lists:
@@ -558,8 +694,10 @@ def distribution():
 
 
 
-if attribute == 'morphology': morphology()
-elif attribute == 'taxonomy': taxonomy()
-elif attribute == 'distribution': distribution()
+if attribute_2 == 'morphology': morphology()
+elif attribute_2 == 'taxonomy': taxonomy()
+elif attribute_2 == 'distribution': distribution()
+elif attribute_1 == 'botany': botany()
+elif attribute_1 == '': main()
 
 

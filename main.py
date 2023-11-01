@@ -2,6 +2,7 @@
 # TODO: in distribution articles, find a way to separate native to naturalzied (maybe both)
 # TODO: complete taxonomy articles first, you need common names for rest
 # TODO: save lists of h3 to generate images? or, if nothing else for db
+# TODO: fix featured image title
 
 
 import json
@@ -35,7 +36,19 @@ google_tag = '''
 '''
 
 
-# quit()
+def write_text(section, folderpath, title):
+    text = ''
+    try: 
+        filepath = f'{folderpath}/{section}.md'
+        with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+        text += f'## {title}\n\n'
+        text += section_content + '\n\n'
+    except: 
+        print(f'WARNING: missing {section} text ({filepath})')
+
+    return text
+
+
 ######################################################################
 # UTILS 
 ######################################################################
@@ -71,12 +84,22 @@ def bold_blt(lst):
     return bld_lst
 
 
+def is_row_not_empty(row):
+    found = False
+    for cell in row:
+        if cell.strip() != '':
+            found = True
+            break
+    return found
+
+
 def csv_to_llst(filepath):
     llst = []
     with open(filepath, newline='') as f:
         reader = csv.reader(f, delimiter='\\')
         for row in reader:
-            llst.append(row)
+            if is_row_not_empty(row):
+                llst.append(row)
     return llst
 
 
@@ -984,7 +1007,12 @@ def img_cheasheet(latin_name, title, lst, img_name):
     return output_path
 
 
-def generate_featured_image(entity, attribute):
+def generate_featured_image(entity, attribute_1, attribute_2):
+    attributes = []
+    if attribute_1.strip() != '': attributes.append(attribute_1.strip())
+    if attribute_2.strip() != '': attributes.append(attribute_2.strip())
+
+    attribute = '/'.join(attributes)
     attribute_filename = attribute.replace('/', '-')
     featured_image_filename = f'{entity}-{attribute_filename}.jpg'
     featured_image_filpath = img_resize(f'articles-images/{featured_image_filename}')
@@ -1140,8 +1168,8 @@ def generate_toc(content_html):
     return content_html_formatted
 
 
-def generate_html(date, title, article, entity, attribute):
-    article_filepath = f'{entity}/{attribute}.md'
+def generate_html(date, title, article, entity, attribute_1, attribute_2):
+    article_filepath = f'{entity}/{attribute_1}/{attribute_2}.md'
     with open(f'articles/{article_filepath}', 'w', encoding='utf-8') as f:
         f.write(article)
 
@@ -1190,7 +1218,8 @@ def generate_html(date, title, article, entity, attribute):
         </html>
     '''
 
-    article_filepath = f'{entity}/{attribute}.html'
+    article_filepath = f'{entity}/{attribute_1}/{attribute_2}.html'
+    if article_filepath.strip() == f'{entity}/{attribute_1}/.html': article_filepath = f'{entity}/{attribute_1}/index.html'
     with open(f'website/{article_filepath}', 'w', encoding='utf-8') as f:
         f.write(html)
 
@@ -1231,274 +1260,549 @@ for chunk in chunks:
 
 articles_home = []
 
-articles_master_rows = csv_to_llst('database/tables/articles.csv')[1:]
+articles_master_rows = csv_to_llst('database/tables/articles.csv')
 
-for i, row in enumerate(articles_master_rows):
-    print(f'{i}/{len(articles_master_rows)}')
-    entity = row[0].strip()
-    category = row[1].strip()
-    attribute = row[2].strip()
-    date = row[3].strip()
-    state = row[4].strip()
-    done = row[5].strip()
+# index col with dict
+articles_dict = {}
+for i, item in enumerate(articles_master_rows[0]):
+    articles_dict[item] = i
+
+for i, row in enumerate(articles_master_rows[1:]):
+    print(f'{i+1}/{len(articles_master_rows[1:])}')
+    
+    entity = row[articles_dict['entity']].strip()
+    attribute_1 = row[articles_dict['attribute_1']].strip()
+    attribute_2 = row[articles_dict['attribute_2']].strip()
+    date = row[articles_dict['date']].strip()
+    state = row[articles_dict['state']].strip()
+    done = row[articles_dict['done']].strip()
     latin_name = entity.replace('-', ' ').capitalize()
 
-    # common_names = csv_get_rows_by_entity('database/tables/common-names/common-names.csv', 'achillea-millefolium')
-    # common_name = common_names[0]
+    try:
+        common_names = csv_get_rows_by_entity('database/tables/botany/common-names.csv', 'achillea-millefolium')
+        common_name = common_names[0][1].lower()
+    except:
+        common_names = []
+        common_name = ''
 
     try: os.mkdir(f'articles/{entity}')
     except: pass
-    try: os.mkdir(f'articles/{entity}/{category}')
+    try: os.mkdir(f'articles/{entity}/{attribute_1}')
     except: pass
-    try: os.mkdir(f'articles/{entity}/{category}/{attribute}')
+    try: os.mkdir(f'articles/{entity}/{attribute_1}/{attribute_2}')
     except: pass
     try: os.mkdir(f'website/{entity}')
     except: pass
-    try: os.mkdir(f'website/{entity}/{category}')
+    try: os.mkdir(f'website/{entity}/{attribute_1}')
     except: pass
-    try: os.mkdir(f'website/{entity}/{category}/{attribute}')
+    try: os.mkdir(f'website/{entity}/{attribute_1}/{attribute_2}')
     except: pass
 
     article = ''
     featured_image_filpath = ''
-    if 'morphology' in attribute.lower():
-        title = f'{latin_name.capitalize()} morphology'
+
+    if attribute_1.strip() == '':
+        title = f'{latin_name.capitalize()} General Guide'
         article += f'# {title}\n\n'
 
-        try:
-            featured_image_filpath = generate_featured_image(entity, f'{category}/{attribute}')
-            article += f'![{title}]({featured_image_filpath} "{title}")\n\n'
-        except:
-            print(f'WARNING: missing image ({entity})')
+        article_folderpath = f'database/articles/{entity}'
+        title = f'What is the botanical profile of {common_name}?'
+        article += write_text('botanical-profile', article_folderpath, title)
 
-        # img_title = 'Morphology of'
-        # llst = []
-        # csv_lines = []
-        # for file in os.listdir(f'database/tables/morphology'):
-        #     tmp_lst = []
-        #     first_line = []
-        #     with open(f'database/tables/morphology/{file}', encoding='utf-8', errors='ignore') as f:
-        #         reader = csv.reader(f, delimiter="\\")
-        #         for i, line in enumerate(reader):
-        #             if i == 0: first_line = line
-        #             if entity.strip() == line[0].strip():
-        #                 for i in range(len(line[:5])):
-        #                     tmp_lst.append(f'{first_line[i]}: {line[i]}')
-        #                 llst.append(tmp_lst)
 
-        # filepath = img_cheasheet(latin_name, img_title, llst, 'test')
-        # print(filepath)
-
-        path = f'database/articles/{entity}/botany/morphology'
-
-        with open(f'{path}/_intro.md', encoding='utf-8') as f:  
-            section_content = f.read()
-        article += section_content + '\n\n'
-        
-        article += f'In this article you will learn about the morphology of {latin_name} by analyzing the main parts of this plant and their characteristics.' + '\n\n'
-
-        files = ['roots', 'stems', 'leaves', 'flowers', 'fruits', 'seeds']
-        for file in files:
-            with open(f'{path}/{file}.md', encoding='utf-8') as f: 
-                section_content = f.read()
+    else:
+        if 'botany' in attribute_1.lower() and attribute_2.strip() == '':
+            title = f'{common_name.title()} ({latin_name.capitalize()}) Botanical Profile: Taxonomy, Morphology, and Distribution'
+            article += f'# {title}\n\n'
             
-            if section_content.strip() != '':
-                section_title = file.split('.')[0].capitalize()
-                article += f'## {section_title}\n\n'
-                article += '\n\n' + section_content + '\n\n'
-                article += f'The following table shows in detail the morphological characteristics of {latin_name} {file}.\n\n'
-                lines = csv_get_table_data(f'database/tables/morphology/{section_title.lower()}.csv')
+            try:
+                featured_image_filpath = generate_featured_image(entity, attribute_1, attribute_2)
+                article += f'![{title}]({featured_image_filpath} "{title}")\n\n'
+            except: 
+                print(f'WARNING: missing image ({entity})')
+
+            article_folderpath = f'database/articles/{entity}/{attribute_1}'
+            table_folderpath = f'database/tables/{attribute_1}'
+
+
+
+            # try: 
+            #     with open(f'{article_folderpath}/_intro.md', encoding='utf-8') as f: section_content = f.read()
+            #     article += section_content + '\n\n'
+            # except: 
+            #     print(f'WARNING: missing intro ({entity}/{attribute_1}/{attribute_2})')
+
+            section = 'taxonomy'
+            try: 
+                filepath = f'{article_folderpath}/{section}.md'
+                with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+                title = f'What is the taxonomy and classification of {latin_name}?'
+                article += f'## {title}\n\n'
+                article += section_content + '\n\n'
+            except: 
+                print(f'WARNING: missing {section} text ({filepath})')
+
+            try: 
+                filepath = f'{table_folderpath}/{section}.csv'
+                lines = csv_get_table_data(f'{filepath}')
                 article += generate_table(lines)
+            except: 
+                print(f'WARNING: missing {section} table ({filepath})')
 
-            if file.strip() == 'roots':
-                filepath = img_morphology_roots(lines[1], latin_name, category, attribute, file)
-                article += f'![none]({filepath} "none")\n\n'
-            elif file.strip() == 'stems':
-                filepath = img_morphology_stems(lines[1], latin_name, category, attribute, file)
-                article += f'![none]({filepath} "none")\n\n'
-            elif file.strip() == 'leaves':
-                filepath = img_morphology_leaves(lines[1], latin_name, category, attribute, file)
-                article += f'![none]({filepath} "none")\n\n'
 
-    elif 'taxonomy' in attribute.lower():
 
-        title = f'{latin_name.capitalize()} taxonomy'
-        article += f'# {title}\n\n'
-        
-        try:
-            featured_image_filpath = generate_featured_image(entity, f'{category}/{attribute}')
-            article += f'![alt]({featured_image_filpath} "title")\n\n'
-        except:
-            print(f'WARNING: missing image ({entity} -> {category}/{attribute})')
+            section = 'common-names'
+            try:
+                filepath = f'{article_folderpath}/{section}.md'
+                with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+                title = f'What are the common names of {latin_name}?'
+                article += f'### {title}\n\n'
+                article += section_content + '\n\n'
+            except:
+                print(f'WARNING: missing {section} text ({filepath})')
 
-        # intro
-        path = f'database/articles/{entity}/botany/{attribute}'
-        with open(f'{path}/_intro.md', encoding='utf-8') as f: 
-            section_content = f.read()
-        article += section_content + '\n\n'
+            try:
+                filepath = f'{table_folderpath}/{section}.csv'
+                rows = csv_get_rows(f'{filepath}')
+                article += f'Here\'s a list of the most common names of {latin_name} with a brief description for each name.\n\n'
+                rows_filtered = [f'{x[1]}: {x[2]}' for x in rows if entity == x[0].strip()]
+                article += lst_to_blt(bold_blt(rows_filtered))
+                article += '\n\n'
+            except:
+                print(f'WARNING: missing {section} table ({filepath})')
 
-        article += f'This article gives a detailed explanation of the taxonomy, common names, and varieties of {latin_name}.' + '\n\n'
 
-        path = f'database/articles/{entity}/botany/taxonomy'
-        files = ['taxonomy']
 
-        for file in files:
-            with open(f'{path}/{file}.md', encoding='utf-8') as f: 
-                section_content = f.read()
+            section = 'varieties'
+            try:
+                filepath = f'{article_folderpath}/{section}.md'
+                with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+                title = f'What are the varieties of {latin_name}?'
+                article += f'### {title}\n\n'
+                article += section_content + '\n\n'
+            except:
+                print(f'WARNING: missing {section} text ({filepath})')
+
+            try:
+                filepath = f'{table_folderpath}/{section}.csv'
+                rows = csv_get_rows(f'{filepath}')
+                article += f'Here\'s a list of the most common varieties of {latin_name} with a brief description for each variety.\n\n'
+                rows_filtered = [f'{x[1]}: {x[2]}' for x in rows if entity == x[0].strip()]
+                article += lst_to_blt(bold_blt(rows_filtered))
+                article += '\n\n'
+            except:
+                print(f'WARNING: missing {section} table ({filepath})')
+
+                
+
+            section = 'morphology'
+            try:
+                filepath = f'{article_folderpath}/{section}.md'
+                with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+                title = f'What is the morphology of {latin_name}?'
+                article += f'## {title}\n\n'
+                article += section_content + '\n\n'
+            except:
+                print(f'WARNING: missing {section} text ({filepath})')
+
+
+
+            section = 'distribution'
+            try:
+                filepath = f'{article_folderpath}/{section}.md'
+                with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+                title = f'What is the geographical distribution of {latin_name}?'
+                article += f'## {title}\n\n'
+                article += section_content + '\n\n'
+            except:
+                print(f'WARNING: missing {section} text ({filepath})')
+
+            try:
+                filepath = f'{table_folderpath}/{section}.csv'
+                article += f'The following table gives list of continents and the distribution of {latin_name} for each continent.\n\n'
+                rows = csv_get_rows_by_entity(f'{filepath}', entity)
+                article += generate_table_simple(rows)
+                article += '\n\n'
+            except:
+                print(f'WARNING: missing {section} table ({filepath})')
+
+
+
+            section = 'native'
+            try:
+                filepath = f'{article_folderpath}/{section}.md'
+                with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+                title = f'What is the native range of {latin_name}?'
+                article += f'### {title}\n\n'
+                article += section_content + '\n\n'
+            except:
+                print(f'WARNING: missing {section} text ({filepath})')
+
             
-            if section_content.strip() != '':
-                section_title = file.split('.')[0].capitalize()
-                article += f'## {section_title}\n\n'
-                article += '\n\n' + section_content + '\n\n'
-                lines = csv_get_table_data(f'database/tables/taxonomy/{section_title.lower()}.csv')
-                article += generate_table(lines)
+            try:
+                filepath = f'{table_folderpath}/{section}.csv'
+                article += f'The following table gives a detailed list of continents and states where {latin_name} is native, according to the United States Department of Agriculture (USDA) and other governative resources around the world.\n\n'
+                rows = csv_get_rows_by_entity(f'{filepath}', entity)
+                article += generate_table_grouped(rows)
+                article += '\n\n'
+            except:
+                print(f'WARNING: missing {section} table ({filepath})')
+
+
+
+            section = 'habitat'
+            try:
+                filepath = f'{article_folderpath}/{section}.md'
+                with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+                title = f'What is the habitat of {latin_name}?'
+                article += f'### {title}\n\n'
+                article += section_content + '\n\n'
+            except:
+                print(f'WARNING: missing {section} text ({filepath})')
+
+            try:
+                filepath = f'{table_folderpath}/{section}.csv'
+                rows = csv_get_rows(f'{filepath}')
+                article += f'Here\'s a list of the most common habitats of {latin_name} with a brief description for each one.\n\n'
+                rows_filtered = [f'{x[1]}: {x[2]}' for x in rows if entity == x[0].strip()]
+                article += lst_to_blt(bold_blt(rows_filtered))
+                article += '\n\n'
+            except:
+                print(f'WARNING: missing {section} table ({filepath})')
+
+
+
+            # invasive --------------------------------------------------------------------
+            section = 'invasive'
+            try:
+                filepath = f'{article_folderpath}/{section}.md'
+                with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+                title = f'Is {latin_name} invasive?'
+                article += f'## {title}\n\n'
+                article += section_content + '\n\n'
+            except:
+                print(f'WARNING: missing {section} text ({filepath})')
+
+            try:
+                filepath = f'{table_folderpath}/{section}.csv'
+                rows = csv_get_rows(f'{filepath}')
+                article += f'Here\'s a list of the most common habitats of {latin_name} with a brief description for each one.\n\n'
+                rows_filtered = [f'{x[1]}: {x[2]}' for x in rows if entity == x[0].strip()]
+                article += lst_to_blt(bold_blt(rows_filtered))
+                article += '\n\n'
+            except:
+                print(f'WARNING: missing {section} table ({filepath})')
+
+
+
+            section = 'invasive-impact'
+            try:
+                filepath = f'{article_folderpath}/{section}.md'
+                with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+                title = f'What\'s the impact of {latin_name} as an invasive species?'
+                article += f'### {title}\n\n'
+                article += section_content + '\n\n'
+            except:
+                print(f'WARNING: missing {section} text ({filepath})')
+
+
+
+            section = 'invasive-control'
+            try:
+                filepath = f'{article_folderpath}/{section}.md'
+                with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+                title = f'How to manage and control invasive {latin_name}?'
+                article += f'### {title}\n\n'
+                article += section_content + '\n\n'
+            except:
+                print(f'WARNING: missing {section} text ({filepath})')
+
+                
+
+            # life-cycle --------------------------------------------------------------------
+            section = 'life-cycle'
+            try:
+                filepath = f'{article_folderpath}/{section}.md'
+                with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+                title = f'What is the life cycle of {latin_name}?'
+                article += f'## {title}\n\n'
+                article += section_content + '\n\n'
+            except:
+                print(f'WARNING: missing {section} text ({filepath})')
+
+            try:
+                filepath = f'{table_folderpath}/{section}.csv'
+                rows = csv_get_rows(f'{filepath}')
+                article += f'The following list gives a detailed step-by-step description of the life-cycle of {latin_name}.\n\n'
+                rows_filtered = [f'{x[1]}: {x[2]}' for x in rows if entity == x[0].strip()]
+                article += lst_to_blt(bold_blt(rows_filtered))
+                article += '\n\n'
+            except:
+                print(f'WARNING: missing {section} table ({filepath})')
+                
+
+
+            section = 'perennial'
+            try:
+                filepath = f'{article_folderpath}/{section}.md'
+                with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+                title = f'Is {common_name.lower()} annual or perennial?'
+                article += f'### {title}\n\n'
+                article += section_content + '\n\n'
+            except:
+                print(f'WARNING: missing {section} text ({filepath})')
+                
+
+
+
+        else:
+            if 'morphology' in attribute_2.lower():
+                title = f'{latin_name.capitalize()} morphology'
+                article += f'# {title}\n\n'
+
+                try:
+                    featured_image_filpath = generate_featured_image(entity, attribute_1, attribute_2)
+                    article += f'![{title}]({featured_image_filpath} "{title}")\n\n'
+                except:
+                    print(f'WARNING: missing image ({entity})')
+
+                path = f'database/articles/{entity}/botany/morphology'
+
+                with open(f'{path}/_intro.md', encoding='utf-8') as f:  
+                    section_content = f.read()
+                article += section_content + '\n\n'
+                
+                article += f'In this article you will learn about the morphology of {latin_name} by analyzing the main parts of this plant and their characteristics.' + '\n\n'
+
+                files = ['roots', 'stems', 'leaves', 'flowers', 'fruits', 'seeds']
+                for file in files:
+                    with open(f'{path}/{file}.md', encoding='utf-8') as f: 
+                        section_content = f.read()
+                    
+                    if section_content.strip() != '':
+                        section_title = file.split('.')[0].capitalize()
+                        article += f'## {section_title}\n\n'
+                        article += '\n\n' + section_content + '\n\n'
+                        article += f'The following table shows in detail the morphological characteristics of {latin_name} {file}.\n\n'
+                        lines = csv_get_table_data(f'database/tables/morphology/{section_title.lower()}.csv')
+                        article += generate_table(lines)
+
+                    if file.strip() == 'roots':
+                        filepath = img_morphology_roots(lines[1], latin_name, attribute_1, attribute_2, file)
+                        article += f'![none]({filepath} "none")\n\n'
+                    elif file.strip() == 'stems':
+                        filepath = img_morphology_stems(lines[1], latin_name, attribute_1, attribute_2, file)
+                        article += f'![none]({filepath} "none")\n\n'
+                    elif file.strip() == 'leaves':
+                        filepath = img_morphology_leaves(lines[1], latin_name, attribute_1, attribute_2, file)
+                        article += f'![none]({filepath} "none")\n\n'
+
+            elif 'taxonomy' in attribute_2.lower():
+
+                title = f'{latin_name.capitalize()} taxonomy'
+                article += f'# {title}\n\n'
+                
+                try:
+                    featured_image_filpath = generate_featured_image(entity, attribute_1, attribute_2)
+                    article += f'![alt]({featured_image_filpath} "title")\n\n'
+                except:
+                    print(f'WARNING: missing image ({entity} -> {attribute_1}/{attribute_2})')
+
+                # intro
+                path = f'database/articles/{entity}/botany/{attribute_2}'
+                with open(f'{path}/_intro.md', encoding='utf-8') as f: 
+                    section_content = f.read()
+                article += section_content + '\n\n'
+
+                article += f'This article gives a detailed explanation of the taxonomy, common names, and varieties of {latin_name}.' + '\n\n'
+
+                try:
+                    path = f'database/articles/{entity}/botany/taxonomy'
+                    files = ['taxonomy']
+
+                    for file in files:
+                        with open(f'{path}/{file}.md', encoding='utf-8') as f: 
+                            section_content = f.read()
+                        
+                        if section_content.strip() != '':
+                            section_title = file.split('.')[0].capitalize()
+                            article += f'## {section_title}\n\n'
+                            article += '\n\n' + section_content + '\n\n'
+                            lines = csv_get_table_data(f'database/tables/taxonomy/{section_title.lower()}.csv')
+                            article += generate_table(lines)
+                except:
+                    print(f'WARNING: missing taxonomy stuff')
+                
+                
+                # common names section
+                try:
+                    article += f'## Common Names\n\n'
+                    filepath = f'database/articles/{entity}/botany/{attribute_2}'
+                    with open(f'{path}/common-names.md', encoding='utf-8') as f: 
+                        section_content = f.read()
+                    article += section_content + '\n\n'
+                    
+                    rows = csv_get_rows('database/tables/common-names/common-names.csv')
+                    # rows_filtered = [f'{row[1]}' for row in rows if entity == row[0].strip()]
+                    # article += lst_to_blt(rows_filtered)
+                    article += f'Here\'s a list of the most common names of {latin_name} with a brief description for each name.\n\n'
+                    rows_filtered = [f'{x[1]}: {x[2]}' for x in rows if entity == x[0].strip()]
+                    article += lst_to_blt(bold_blt(rows_filtered))
+                    article += '\n\n'
+                except:
+                    print(f'WARNING: missing common names stuff')
+
+
+                
+                # varieties
+                try:
+                    article += f'## Varieties\n\n'
+                    path = f'database/articles/{entity}/botany/{attribute_2}'
+                    with open(f'{path}/varieties.md', encoding='utf-8') as f: 
+                        section_content = f.read()
+                    article += section_content + '\n\n'
+                    
+                    rows = csv_get_rows('database/tables/varieties/varieties.csv')
+                    article += f'Here\'s a list of the most common varieties of {latin_name} with a brief description for each variety.\n\n'
+                    rows_filtered = [f'{x[1]}: {x[2]}' for x in rows if entity == x[0].strip()]
+                    article += lst_to_blt(bold_blt(rows_filtered))
+                    article += '\n\n'
+                except:
+                    print(f'WARNING: missing varieties stuff')
+
+                
+                # morphology
+                try:
+                    article += f'## Morphology\n\n'
+                    path = f'database/articles/{entity}/botany/{attribute_2}'
+                    with open(f'{path}/morphology.md', encoding='utf-8') as f: 
+                        section_content = f.read()
+                    article += section_content + '\n\n'
+                except:
+                    print(f'WARNING: missing morphology stuff')
+                
+            elif 'distribution' in attribute_2.lower():
+
+                title = f'{latin_name.capitalize()} distribution'
+                article += f'# {title}\n\n'
+                
+                try:
+                    featured_image_filpath = generate_featured_image(entity, attribute_1, attribute_2)
+                    article += f'![alt]({featured_image_filpath} "title")\n\n'
+                except: 
+                    print(f'WARNING: missing image ({entity} -> {attribute_1}/{attribute_2})')
+
+                # intro
+                    path = f'database/articles/{entity}/botany/{attribute_2}'
+                    with open(f'{path}/_intro.md', encoding='utf-8') as f: 
+                        section_content = f.read()
+                    article += section_content + '\n\n'
+
+                # article += f'This article gives a detailed explanation of the taxonomy, common names, and varieties of {latin_name}.' + '\n\n'
+                
+                # habitat
+                try:
+                    article += f'## What is the natural habitat of {latin_name}?\n\n'
+                    path = f'database/articles/{entity}/botany/{attribute_2}'
+                    with open(f'{path}/habitat.md', encoding='utf-8') as f: 
+                        section_content = f.read()
+                    article += section_content + '\n\n'
+
+                    rows = csv_get_rows('database/tables/habitat/habitat.csv')
+                    article += f'Here\'s a list of the most common habitats of {latin_name} with a brief description for each one.\n\n'
+                    rows_filtered = [f'{x[1]}: {x[2]}' for x in rows if entity == x[0].strip()]
+                    article += lst_to_blt(bold_blt(rows_filtered))
+                    article += '\n\n'
+                except:
+                    print(f'WARNING: missing habitat stuff')
+
+                # native
+                try:
+                    section = 'native'
+                    article += f'## In which regions {latin_name} is native?\n\n'
+                    path = f'database/articles/{entity}/botany/{attribute_2}'
+                    with open(f'{path}/{section}.md', encoding='utf-8') as f: 
+                        section_content = f.read()
+                    article += section_content + '\n\n'
+
+                    article += f'The following table gives a detailed list of continents and states where {latin_name} is native, according to the United States Department of Agriculture (USDA) and other governative resources around the world.\n\n'
+
+                    lines = csv_get_table_data(f'database/tables/botany/{section}.csv')
+                    rows = csv_get_rows_by_entity(f'database/tables/botany/{section}.csv', entity)
+                    article += generate_table_grouped(rows)
+                    article += '\n\n'
+                except:
+                    print(f'WARNING: missing native stuff')
+                
+                # distribution
+                try:
+                    section = 'distribution'
+                    article += f'## What is the global distribution of {latin_name}?\n\n'
+                    path = f'database/articles/{entity}/botany/{attribute_2}'
+                    with open(f'{path}/{section}.md', encoding='utf-8') as f: 
+                        section_content = f.read()
+                    article += section_content + '\n\n'
+
+                    article += f'The following table gives list of continents and the distribution of {latin_name} for each continent.\n\n'
+                    lines = csv_get_table_data(f'database/tables/botany/{section}.csv')
+                    rows = csv_get_rows_by_entity(f'database/tables/botany/{section}.csv', entity)
+                    article += generate_table_simple(rows)
+                    article += '\n\n'
+                except:
+                    print(f'WARNING: missing distribution stuff')
+
+                
+                # invasive
+                try:
+                    section = 'invasive'
+                    article += f'## Is {latin_name} invasive?\n\n'
+                    path = f'database/articles/{entity}/botany/{attribute_2}'
+                    with open(f'{path}/{section}.md', encoding='utf-8') as f: 
+                        section_content = f.read()
+                    article += section_content + '\n\n'
+                    
+                    article += f'Here\'s a list of the most common habitats of {latin_name} with a brief description for each one.\n\n'
+                    rows = csv_get_rows(f'database/tables/botany/{section}.csv')
+                    rows_filtered = [f'{x[1]}: {x[2]}' for x in rows if entity == x[0].strip()]
+                    article += lst_to_blt(bold_blt(rows_filtered))
+                    article += '\n\n'
+                except:
+                    print(f'WARNING: missing distribution stuff')
+
+                # invasive impact
+                try:
+                    section = 'invasive-impact'
+                    article += f'### What\'s the impact of {latin_name} as an invasive species?\n\n'
+                    path = f'database/articles/{entity}/botany/{attribute_2}'
+                    with open(f'{path}/{section}.md', encoding='utf-8') as f: 
+                        section_content = f.read()
+                    article += section_content + '\n\n'
+                    article += '\n\n'
+                except:
+                    print(f'WARNING: missing distribution stuff')
+
+                # invasive control
+                try:
+                    section = 'invasive-control'
+                    article += f'### How to manage and control invasive {latin_name}?\n\n'
+                    path = f'database/articles/{entity}/botany/{attribute_2}'
+                    with open(f'{path}/{section}.md', encoding='utf-8') as f: 
+                        section_content = f.read()
+                    article += section_content + '\n\n'
+                except:
+                    print(f'WARNING: missing distribution stuff')
+
+
+                # article += f'The following table gives list of continents and the distribution of {latin_name} for each continent.\n\n'
+                # lines = csv_get_table_data(f'database/tables/botany/{section}.csv')
+                # rows = csv_get_rows_by_entity(f'database/tables/botany/{section}.csv', entity)
+                # article += generate_table_simple(rows)
+                # article += '\n\n'
+
         
-        
-        # common names section
-        article += f'## Common Names\n\n'
-        path = f'database/articles/{entity}/botany/{attribute}'
-        with open(f'{path}/common-names.md', encoding='utf-8') as f: 
-            section_content = f.read()
-        article += section_content + '\n\n'
-
-        rows = csv_get_rows('database/tables/common-names/common-names.csv')
-        # rows_filtered = [f'{row[1]}' for row in rows if entity == row[0].strip()]
-        # article += lst_to_blt(rows_filtered)
-        article += f'Here\'s a list of the most common names of {latin_name} with a brief description for each name.\n\n'
-        rows_filtered = [f'{row[1]}: {row[2]}' for row in rows if entity == row[0].strip()]
-        article += lst_to_blt(bold_blt(rows_filtered))
-        article += '\n\n'
-
-        
-        # varieties
-        article += f'## Varieties\n\n'
-        path = f'database/articles/{entity}/botany/{attribute}'
-        with open(f'{path}/varieties.md', encoding='utf-8') as f: 
-            section_content = f.read()
-        article += section_content + '\n\n'
-        
-        rows = csv_get_rows('database/tables/varieties/varieties.csv')
-        article += f'Here\'s a list of the most common varieties of {latin_name} with a brief description for each variety.\n\n'
-        rows_filtered = [f'{row[1]}: {row[2]}' for row in rows if entity == row[0].strip()]
-        article += lst_to_blt(bold_blt(rows_filtered))
-        article += '\n\n'
-
-        
-        # morphology
-        article += f'## Morphology\n\n'
-        path = f'database/articles/{entity}/botany/{attribute}'
-        with open(f'{path}/morphology.md', encoding='utf-8') as f: 
-            section_content = f.read()
-        article += section_content + '\n\n'
-        
-    elif 'distribution' in attribute.lower():
-
-        title = f'{latin_name.capitalize()} distribution'
-        article += f'# {title}\n\n'
-        
-        try:
-            featured_image_filpath = generate_featured_image(entity, f'{category}/{attribute}')
-            article += f'![alt]({featured_image_filpath} "title")\n\n'
-        except: 
-            print(f'WARNING: missing image ({entity} -> {category}/{attribute})')
-
-        # intro
-        path = f'database/articles/{entity}/botany/{attribute}'
-        with open(f'{path}/_intro.md', encoding='utf-8') as f: 
-            section_content = f.read()
-        article += section_content + '\n\n'
-
-        # article += f'This article gives a detailed explanation of the taxonomy, common names, and varieties of {latin_name}.' + '\n\n'
-        
-        # habitat
-        article += f'## What is the natural habitat of {latin_name}?\n\n'
-        path = f'database/articles/{entity}/botany/{attribute}'
-        with open(f'{path}/habitat.md', encoding='utf-8') as f: 
-            section_content = f.read()
-        article += section_content + '\n\n'
-
-        rows = csv_get_rows('database/tables/habitat/habitat.csv')
-        article += f'Here\'s a list of the most common habitats of {latin_name} with a brief description for each one.\n\n'
-        rows_filtered = [f'{row[1]}: {row[2]}' for row in rows if entity == row[0].strip()]
-        article += lst_to_blt(bold_blt(rows_filtered))
-        article += '\n\n'
-
-        try:
-            image_filepath = generate_image_habitat(entity)
-            article += f'![alt]({image_filepath} "title")\n\n'
-        except:
-            print(f'WARNING: missing image ({entity} -> {category}/{attribute})')
-        
-        # native
-        section = 'native'
-        article += f'## In which regions {latin_name} is native?\n\n'
-        path = f'database/articles/{entity}/botany/{attribute}'
-        with open(f'{path}/{section}.md', encoding='utf-8') as f: 
-            section_content = f.read()
-        article += section_content + '\n\n'
-
-        article += f'The following table gives a detailed list of continents and states where {latin_name} is native, according to the United States Department of Agriculture (USDA) and other governative resources around the world.\n\n'
-
-        lines = csv_get_table_data(f'database/tables/botany/{section}.csv')
-        rows = csv_get_rows_by_entity(f'database/tables/botany/{section}.csv', entity)
-        article += generate_table_grouped(rows)
-        article += '\n\n'
-        
-        # distribution
-        section = 'distribution'
-        article += f'## What is the global distribution of {latin_name}?\n\n'
-        path = f'database/articles/{entity}/botany/{attribute}'
-        with open(f'{path}/{section}.md', encoding='utf-8') as f: 
-            section_content = f.read()
-        article += section_content + '\n\n'
-
-        article += f'The following table gives list of continents and the distribution of {latin_name} for each continent.\n\n'
-        lines = csv_get_table_data(f'database/tables/botany/{section}.csv')
-        rows = csv_get_rows_by_entity(f'database/tables/botany/{section}.csv', entity)
-        article += generate_table_simple(rows)
-        article += '\n\n'
-
-        
-        # invasive
-        section = 'invasive'
-        article += f'## Is {latin_name} invasive?\n\n'
-        path = f'database/articles/{entity}/botany/{attribute}'
-        with open(f'{path}/{section}.md', encoding='utf-8') as f: 
-            section_content = f.read()
-        article += section_content + '\n\n'
-        
-        article += f'Here\'s a list of the most common habitats of {latin_name} with a brief description for each one.\n\n'
-        rows = csv_get_rows(f'database/tables/botany/{section}.csv')
-        rows_filtered = [f'{row[1]}: {row[2]}' for row in rows if entity == row[0].strip()]
-        article += lst_to_blt(bold_blt(rows_filtered))
-        article += '\n\n'
-
-        # invasive impact
-        section = 'invasive-impact'
-        article += f'### What\'s the impact of {latin_name} as an invasive species?\n\n'
-        path = f'database/articles/{entity}/botany/{attribute}'
-        with open(f'{path}/{section}.md', encoding='utf-8') as f: 
-            section_content = f.read()
-        article += section_content + '\n\n'
-        article += '\n\n'
-
-        # invasive control
-        section = 'invasive-control'
-        article += f'### How to manage and control invasive {latin_name}?\n\n'
-        path = f'database/articles/{entity}/botany/{attribute}'
-        with open(f'{path}/{section}.md', encoding='utf-8') as f: 
-            section_content = f.read()
-        article += section_content + '\n\n'
-
-
-        # article += f'The following table gives list of continents and the distribution of {latin_name} for each continent.\n\n'
-        # lines = csv_get_table_data(f'database/tables/botany/{section}.csv')
-        # rows = csv_get_rows_by_entity(f'database/tables/botany/{section}.csv', entity)
-        # article += generate_table_simple(rows)
-        # article += '\n\n'
-
-        
-    article_filepath = generate_html(date, title, article, entity, f'{category}/{attribute}')
+            
+            
+    article_filepath = generate_html(date, title, article, entity, attribute_1, attribute_2)
     
     if state == 'published':
         articles_home.append(
@@ -1525,19 +1829,27 @@ articles_taxonomy_html = ''
 articles_distribution_html = ''
 
 for article in articles:
-    entity = normalize(article[0])
-    category = normalize(article[1])
-    attribute = normalize(article[2])
-    date = normalize(article[3])
-    state = normalize(article[4])
-    done = normalize(article[5])
+    # entity = normalize(article[0])
+    # category = normalize(article[1])
+    # attribute = normalize(article[2])
+    # date = normalize(article[3])
+    # state = normalize(article[4])
+    # done = normalize(article[5])
+    
+    entity = normalize(article[articles_dict['entity']]).strip()
+    attribute_1 = normalize(article[articles_dict['attribute_1']]).strip()
+    attribute_2 = normalize(article[articles_dict['attribute_2']]).strip()
+    date = normalize(article[articles_dict['date']]).strip()
+    state = normalize(article[articles_dict['state']]).strip()
+    done = normalize(article[articles_dict['done']]).strip()
+
     if state != 'published': continue
 
     latin_name = entity.replace('-', ' ').capitalize()
-    if attribute == 'morphology':
-        img = f'images/{entity}-{category}-{attribute}.jpg'
-        url = f'{entity}/{category}/{attribute}.html'
-        title = f'{latin_name} {attribute}'
+    if attribute_2 == 'morphology':
+        img = f'images/{entity}-{attribute_1}-{attribute_2}.jpg'
+        url = f'{entity}/{attribute_1}/{attribute_2}.html'
+        title = f'{latin_name} {attribute_2}'
         articles_morphology_html += f'''
             <a href="{url}">
                 <div>
@@ -1547,10 +1859,10 @@ for article in articles:
             </a>
             \n
         '''
-    elif attribute == 'distribution':
-        img = f'images/{entity}-{category}-{attribute}.jpg'
-        url = f'{entity}/{category}/{attribute}.html'
-        title = f'{latin_name} {attribute}'
+    elif attribute_2 == 'distribution':
+        img = f'images/{entity}-{attribute_1}-{attribute_2}.jpg'
+        url = f'{entity}/{attribute_1}/{attribute_2}.html'
+        title = f'{latin_name} {attribute_2}'
         articles_distribution_html += f'''
             <a href="{url}">
                 <div>
@@ -1560,10 +1872,10 @@ for article in articles:
             </a>
             \n
         '''
-    elif attribute == 'taxonomy':
-        img = f'images/{entity}-{category}-{attribute}.jpg'
-        url = f'{entity}/{category}/{attribute}.html'
-        title = f'{latin_name} {attribute}'
+    elif attribute_2 == 'taxonomy':
+        img = f'images/{entity}-{attribute_1}-{attribute_2}.jpg'
+        url = f'{entity}/{attribute_1}/{attribute_2}.html'
+        title = f'{latin_name} {attribute_2}'
         articles_taxonomy_html += f'''
             <a href="{url}">
                 <div>
@@ -1645,7 +1957,7 @@ html = f'''
                     </h1>
                 </div>
             </div>
-        </section>cd
+        </section>
         {articles_section_morphology_html}
         {articles_section_taxonomy_html}
         {articles_section_distribution_html}

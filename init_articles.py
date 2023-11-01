@@ -30,25 +30,36 @@ for entity in entities:
     with open(f'{folderpath}/flowers.md', 'a', encoding='utf-8') as f: pass
     with open(f'{folderpath}/fruits.md', 'a', encoding='utf-8') as f: pass
     with open(f'{folderpath}/seeds.md', 'a', encoding='utf-8') as f: pass
+
     
-    try: os.mkdir(f'database/articles/{entity}/botany/taxonomy')
-    except: pass
-    with open(f'database/articles/{entity}/botany/taxonomy/_intro.md', 'a', encoding='utf-8') as f: pass
-    with open(f'database/articles/{entity}/botany/taxonomy/taxonomy.md', 'a', encoding='utf-8') as f: pass
-    with open(f'database/articles/{entity}/botany/taxonomy/common-names.md', 'a', encoding='utf-8') as f: pass
-    with open(f'database/articles/{entity}/botany/taxonomy/varieties.md', 'a', encoding='utf-8') as f: pass
-    with open(f'database/articles/{entity}/botany/taxonomy/morphology.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/_intro.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botanical-profile.md', 'a', encoding='utf-8') as f: pass
     
-    article = 'distribution'
-    try: os.mkdir(f'database/articles/{entity}/botany/{article}')
-    except: pass
-    with open(f'database/articles/{entity}/botany/{article}/_intro.md', 'a', encoding='utf-8') as f: pass
-    with open(f'database/articles/{entity}/botany/{article}/habitat.md', 'a', encoding='utf-8') as f: pass
-    with open(f'database/articles/{entity}/botany/{article}/native.md', 'a', encoding='utf-8') as f: pass
-    with open(f'database/articles/{entity}/botany/{article}/distribution.md', 'a', encoding='utf-8') as f: pass
-    with open(f'database/articles/{entity}/botany/{article}/invasive.md', 'a', encoding='utf-8') as f: pass
-    with open(f'database/articles/{entity}/botany/{article}/invasive-impact.md', 'a', encoding='utf-8') as f: pass
-    with open(f'database/articles/{entity}/botany/{article}/invasive-control.md', 'a', encoding='utf-8') as f: pass
+    # try: os.mkdir(f'database/articles/{entity}/botany/taxonomy')
+    # except: pass
+    with open(f'database/articles/{entity}/botany/_intro.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/taxonomy.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/common-names.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/varieties.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/morphology.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/habitat.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/native.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/distribution.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/invasive.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/invasive-impact.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/invasive-control.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/life-cycle.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany/perennial.md', 'a', encoding='utf-8') as f: pass
+
+    
+    # with open(f'database/articles/{entity}/botany/habitat.md', 'a', encoding='utf-8') as f: pass
+    # with open(f'database/articles/{entity}/botany/native.md', 'a', encoding='utf-8') as f: pass
+    # with open(f'database/articles/{entity}/botany/distribution.md', 'a', encoding='utf-8') as f: pass
+    # with open(f'database/articles/{entity}/botany/invasive.md', 'a', encoding='utf-8') as f: pass
+    # with open(f'database/articles/{entity}/botany/invasive-impact.md', 'a', encoding='utf-8') as f: pass
+    # with open(f'database/articles/{entity}/botany/invasive-control.md', 'a', encoding='utf-8') as f: pass
+    # with open(f'database/articles/{entity}/botany/life-cycle.md', 'a', encoding='utf-8') as f: pass
+    # with open(f'database/articles/{entity}/botany/perennial.md', 'a', encoding='utf-8') as f: pass
     
     # try: os.mkdir(f'database/articles/{entity}/botany/symbology')
     # except: pass
