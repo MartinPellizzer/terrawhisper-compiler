@@ -1,5 +1,6 @@
 import sys
 import csv
+import utils
 
 if len(sys.argv) < 2:
     print("ERR: missing arguments (ENTITY, ATTRIBUTES)")
@@ -7,6 +8,8 @@ if len(sys.argv) < 2:
 
 entity = sys.argv[1]
 latin_name = entity.replace('-', ' ').capitalize()
+latin_name_abbreviated = latin_name.split(' ')[0][0] + '. ' + latin_name.split(' ')[1]
+
 attribute_1 = ''
 try: sys.argv[2].lower().strip()
 except: pass
@@ -27,25 +30,13 @@ def csv_get_table_data(filepath, entity):
     return lines
 
 
-def csv_get_rows_by_entity(filepath, entity):
-    rows = []
-    with open(filepath, encoding='utf-8', errors='ignore') as f:
-        reader = csv.reader(f, delimiter="|")
-        for i, line in enumerate(reader):
-            rows.append(line)
-    
-    filtered_rows = [] 
-    for row in rows:
-        if row[0].strip() == entity[0].strip():
-            filtered_rows.append(row)
-    return rows
 
 
 try:
-    common_names = csv_get_rows_by_entity('database/tables/botany/common-names.csv', 'achillea-millefolium')
-    common_name = common_names[0][1]
+    common_names_rows = utils.csv_get_rows_by_entity('database/tables/botany/common-names.csv', 'achillea-millefolium')
+    common_name = common_names_rows[0][1]
 except:
-    common_names = []
+    common_names_rows = []
     common_name = ''
 
 
@@ -662,16 +653,46 @@ def botany():
 def main():
 
     filepath = f'database/tables/botany/taxonomy.csv'
-    rows = csv_get_table_data(filepath, entity)
-    rows = [f'-{row}' for row in rows[1][1:]]
-    rows = '\n'.join(rows)
-    print(f'''BOTANICAL PROFILE
+    taxonomy_rows = csv_get_table_data(filepath, entity)
+    taxonomy_rows = [f'-{x}' for x in taxonomy_rows[1][1:]]
+    taxonomy_rows = '\n'.join(taxonomy_rows)
 
+    common_names_lst = [f'- {x[1]}' for x in common_names_rows]
+    common_names_lst = '\n'.join(common_names_lst)
+
+    varieties_rows = utils.csv_get_rows_by_entity('database/tables/botany/varieties.csv', 'achillea-millefolium')
+    varieties_rows = [f'- {x[1]}' for x in varieties_rows]
+    varieties_rows = '\n'.join(varieties_rows)
+
+    morphology_rows = ''
+    filenames = ['roots', 'stems', 'leaves', 'flowers', 'fruits', 'seeds',]
+    for filename in filenames:
+        filepath = f'database/tables/morphology/{filename}.csv'
+        tmp_header = []
+        tmp_values = []
+        with open(filepath, encoding='utf-8', errors='ignore') as f:
+            reader = csv.reader(f, delimiter="\\")
+            for k, row in enumerate(reader):
+                if k == 0:
+                    tmp_header = row
+                    continue
+                if entity == row[0].strip():
+                    tmp_values = row
+                    break
+        
+        lst = []
+        for k in range(len(tmp_values)):
+            if k == 0: continue
+            if tmp_values[k].strip() != '':
+                lst.append(f'- {tmp_header[k]}: ' + tmp_values[k])
+        morphology_rows += '\n'.join(lst)
+
+    print(f'''BOTANICAL
         Write a paragraph about the taxonomy of {latin_name}. 
         Include as many details as possible in as few words as possible.
         Include all the data from the following list for the taxonomy:
 
-        {rows}
+        {taxonomy_rows}
 
         Also, start the paragraph with the following words:
 
@@ -679,8 +700,115 @@ def main():
 
         --------------------------------------------------------------------
 
+        Write a paragraph about the common names of {latin_name}. 
+        Include as many details as possible in as few words as possible.
+        Include all the names in the following list:
+
+        {common_names_lst}
+
+        Also, start the paragraph with the following words:
+
+        {latin_name} has many common names, but the most common is {common_name}. Other common names are
+
+        --------------------------------------------------------------------
+        
+        Write a paragraph about the variants of {latin_name}. 
+        Include as many details as possible in as few words as possible.
+        Include all the variants in the following list:
+
+        {varieties_rows}
+
+        Also, start the paragraph with the following words:
+
+        {latin_name_abbreviated} also has many varieties, such as
+
+        --------------------------------------------------------------------
+
+        Write a paragraph about the morphology of {latin_name}. 
+        Include as many details as possible in as few words as possible.
+        Make sure that that what you write doesn't conflict with the data given in the following list:
+
+        {morphology_rows}
+
+        Also, start the paragraph with the following words:
+        
+        In terms of morphology, this plant
+
+        --------------------------------------------------------------------
+        
+        Write a paragraph about the regions where {latin_name} is native, naturalized, or both.
+        Don't talk about the habitats, just talk about the regional distribution around the world.
+        Include as many details as possible in as few words as possible.
+        Include if this plant is invasive at the end of the paragraph.
+
+        Also, start the paragraph with the following words:
+        
+        About {common_name}'s geographic distribution, it is
+        
+        --------------------------------------------------------------------
+
+        Write a paragraph about the habitat of {latin_name}.
+        Don't mention its geographical distribution, write only about the habitat.
+        Don't mention its morphological characteristics, write only about the habitat.
+        Include as many details as possible in as few words as possible.
+        Also include if this plant is annual or perennial at the beginning of paragraph.
+
 
         
+        ''')
+
+    print(f'''MEDICINAL
+
+        Write a paragraph about the medicinal uses of {common_name} ({latin_name}). 
+        Include as many details as possible in as few words as possible.
+
+        --------------------------------------------------------------------
+
+
+
+
+
+        ''')
+
+    print(f'''CULINARY
+
+        Write a paragraph about the culinary uses of {common_name} ({latin_name}). 
+        Include as many details as possible in as few words as possible.
+
+        --------------------------------------------------------------------
+
+
+
+
+
+        ''')
+
+    print(f'''CULTIVATION
+
+        Write a paragraph about the cultivation of {common_name} ({latin_name}).
+        Include as many details as possible in as few words as possible.
+        Don't include info about the morphology, only write about the cultivation.
+
+        --------------------------------------------------------------------
+
+
+
+
+
+        ''')
+
+    print(f'''HISTORY FOLKLORE
+
+        Write a paragraph about the History and Folklore of {common_name} ({latin_name}).
+        Include as many details as possible in as few words as possible.
+        Don't include botanical characteristics, write only the History and Folklore.
+        Don't include the native range or distribution, write only the History and Folklore.
+        --------------------------------------------------------------------
+
+
+
+
+
         ''')
 
 

@@ -1,5 +1,11 @@
 import os 
 import csv
+import sys
+
+entity_arg = None
+if len(sys.argv) == 2:
+    entity_arg = sys.argv[1]
+
 
 rows = []
 with open('database/tables/articles.csv', newline='') as f:
@@ -12,7 +18,10 @@ entities = [x[0].strip().lower().replace(' ', '-') for x in rows]
 
 print(len(rows))
 for entity in entities:
-    print(entity)
+    if entity_arg:
+        if entity_arg.strip() != entity.strip():
+            continue
+    # print(entity)
     try: os.mkdir(f'database/articles/{entity}')
     except: pass
     try: os.mkdir(f'database/articles/{entity}/botany')
@@ -33,7 +42,11 @@ for entity in entities:
 
     
     with open(f'database/articles/{entity}/_intro.md', 'a', encoding='utf-8') as f: pass
-    with open(f'database/articles/{entity}/botanical-profile.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botanical.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicinal.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/culinary.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/cultivation.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/history-folklore.md', 'a', encoding='utf-8') as f: pass
     
     # try: os.mkdir(f'database/articles/{entity}/botany/taxonomy')
     # except: pass

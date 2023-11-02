@@ -2,23 +2,6 @@ intro
     botanical name
     description
 
-taxonomy
-    family
-
-name
-    common name
-    local name
-    synonyms
-
-var.
-    var. angustatus
-    var. americanus
-
-species?
-    gramineus
-    gramineus winterhart
-    bassin
-
 drawing
     drawing
     diagram
@@ -29,14 +12,6 @@ drawing
 identification
     identification
 
-morphology
-    morphology
-    plant
-    leaves
-    rhizome
-    root
-    seeds
-    fruit
 
 
 chemical
@@ -52,17 +27,20 @@ odour
 
     
 
+- taxonomy
+- common name
+    local name
+    synonyms
+- species
+    var.
 
+- morphology
 
-distribution
-    range
-    native range
-    origin
-    invasive
+- distribution
+    - native range, origin
+    - invasive
     propagation
-
-habitat
-    habitat
+    - habitat
 
 economic
     acorus calamus economic importance

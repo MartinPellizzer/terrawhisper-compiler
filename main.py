@@ -13,6 +13,11 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import math
 import re
 import csv
+import sys
+
+entity_arg = None
+if len(sys.argv) == 2:
+    entity_arg = sys.argv[1]
 
 
 
@@ -1278,9 +1283,13 @@ for i, row in enumerate(articles_master_rows[1:]):
     done = row[articles_dict['done']].strip()
     latin_name = entity.replace('-', ' ').capitalize()
 
+    if entity_arg:
+        if entity_arg.strip() != entity:
+            continue
+
     try:
         common_names = csv_get_rows_by_entity('database/tables/botany/common-names.csv', 'achillea-millefolium')
-        common_name = common_names[0][1].lower()
+        common_name = common_names[0][1]
     except:
         common_names = []
         common_name = ''
@@ -1306,8 +1315,24 @@ for i, row in enumerate(articles_master_rows[1:]):
         article += f'# {title}\n\n'
 
         article_folderpath = f'database/articles/{entity}'
-        title = f'What is the botanical profile of {common_name}?'
-        article += write_text('botanical-profile', article_folderpath, title)
+        title = f'What is the Botanical Profile of {common_name}?'
+        article += write_text('botanical', article_folderpath, title)
+        
+        article_folderpath = f'database/articles/{entity}'
+        title = f'What are the Medicinal Uses of {common_name}?'
+        article += write_text('medicinal', article_folderpath, title)
+        
+        article_folderpath = f'database/articles/{entity}'
+        title = f'What are the Culinary Uses of {common_name}?'
+        article += write_text('culinary', article_folderpath, title)
+        
+        article_folderpath = f'database/articles/{entity}'
+        title = f'How to Cultivate {common_name}?'
+        article += write_text('cultivation', article_folderpath, title)
+        
+        article_folderpath = f'database/articles/{entity}'
+        title = f'What is the History and Folklore of {common_name}?'
+        article += write_text('history-folklore', article_folderpath, title)
 
 
     else:

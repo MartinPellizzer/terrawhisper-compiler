@@ -1,7 +1,3 @@
-# Achillea millefolium General Guide
-
-## What is the Botanical Profile of Yarrow?
-
 <!-- Yarrow, scientifically known as Achillea millefolium, is a hardy perennial herbaceous plant that is native to Europe and Asia but has naturalized in many parts of North America. It is a member of the Asteraceae family, which includes many common flowering plants. Yarrow is known for its feathery, fern-like leaves and flat-topped clusters of small, daisy-like flowers. Here is a botanical profile of yarrow: -->
 
 Yarrow (Achillea millefolium) belongs to the domain Eukaryota within the kingdom Plantae. It is classified as an Angiosperm (Magnoliophyta) and falls under the Eudicots, a group of flowering plants. Within the order Asterales, this plant is part of the family Asteraceae. The genus name is Achillea, and the specific species is Achillea millefolium.
@@ -29,21 +25,3 @@ Achillea millefolium is a perennial plant that thrives in a diverse range of hab
 9. **Chemical Composition**:
    - Yarrow contains various compounds, including sesquiterpene lactones, flavonoids, alkaloids, and essential oils, which contribute to its medicinal properties.
  -->
-
-
-## What are the Medicinal Uses of Yarrow?
-
-Yarrow has a rich history of medicinal use. Its feathery leaves and white or pinkish flowers contain compounds like flavonoids, alkaloids, and tannins, making it a valuable herb in traditional medicine. Yarrow is known for its ability to stop bleeding and promote wound healing due to its astringent and anti-inflammatory properties. It also possesses mild pain-relieving qualities. Yarrow tea or tinctures have been used to treat colds, fevers, and gastrointestinal issues, acting as a diaphoretic to induce sweating and reduce fever. Additionally, it's recognized for its potential to alleviate menstrual discomfort and regulate menstrual flow. Its versatility and widespread application in herbal medicine make yarrow a valuable natural remedy.
-
-## What are the Culinary Uses of Yarrow?
-
-Yarrow is a versatile herb with diverse culinary applications. Its feathery leaves and aromatic, slightly bitter flavor make it a popular addition to salads, imparting a mild, herbaceous kick. Yarrow can also be used to infuse oils and vinegar, adding depth to dressings and marinades. Furthermore, it is a key ingredient in traditional herbal teas, offering a subtle earthy note and potential health benefits. Additionally, Yarrow flowers, with their delicate appearance, are utilized as edible garnishes in various dishes and beverages, adding a touch of elegance to culinary creations.
-
-## How to Cultivate Yarrow?
-
-Yarrow (Achillea millefolium) is a hardy, low-maintenance perennial herb that thrives in well-drained, sandy loam soil and prefers full sun. It can be propagated from seeds, root divisions, or cuttings. Plant yarrow in the spring, spacing them about 12-24 inches apart. Water sparingly, as yarrow is drought-tolerant once established. Prune dead flower heads to encourage continuous blooming, and divide the clumps every 3-4 years to maintain vigor. Yarrow attracts pollinators and is a valuable addition to herb gardens, natural landscapes, and cut flower arrangements.
-
-## What is the History and Folklore of Yarrow?
-
-Yarrow (Achillea millefolium) boasts a rich history and folklore. Named after the Greek hero Achilles, it has been used for centuries as a medicinal herb, believed to staunch wounds and promote healing. In ancient China, it was considered a symbol of love and used in divination. Yarrow also played a role in European folklore, where it was believed to ward off evil spirits and used in love spells. In Native American traditions, it had diverse uses, from treating ailments to ceremonial rituals. Yarrow's presence in various cultures highlights its enduring significance in human history, both as a healing herb and a symbol of protection and love.
-
