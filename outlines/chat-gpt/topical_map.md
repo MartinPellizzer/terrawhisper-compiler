@@ -102,15 +102,15 @@ Certainly! Here's a topical map for a website about yarrow:
 
 2. **About Yarrow**
    - Introduction to Yarrow
-   - History and Folklore
-   - Yarrow's Botanical Classification
-   - Varieties of Yarrow
+   [x] History and Folklore
+   [x] Yarrow's Botanical Classification
+   [x] Varieties of Yarrow
 
 3. **Growing Yarrow**
-   - Planting and Cultivation
-   - Soil and Sunlight Requirements
-   - Watering and Maintenance
-   - Propagation Techniques
+   [x] Planting and Cultivation
+   [x] Soil and Sunlight Requirements
+   [x] Watering and Maintenance
+   [x] Propagation Techniques
 
 4. **Yarrow in the Garden**
    - Yarrow as an Ornamental Plant
@@ -119,9 +119,9 @@ Certainly! Here's a topical map for a website about yarrow:
 
 5. **Medicinal Uses**
    - Overview of Medicinal Properties
-   - Herbal Remedies and Yarrow
-   - Making Yarrow Tinctures and Teas
-   - Safety and Precautions
+   [x] Herbal Remedies and Yarrow
+   [x] Making Yarrow Tinctures and Teas
+   [x] Safety and Precautions
 
 6. **Culinary Uses**
    - Cooking with Yarrow

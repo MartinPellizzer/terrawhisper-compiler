@@ -764,6 +764,24 @@ def main():
 
         --------------------------------------------------------------------
 
+        Write a paragraph about the active compounds of {common_name} ({latin_name}). 
+        Include as many details as possible in as few words as possible.
+
+        --------------------------------------------------------------------
+        
+        Write a paragraph about the traditional and modern uses of {common_name} ({latin_name}) for medicinal purposes.
+        Include as many details as possible in as few words as possible.
+        Don't include the native range of this plant.
+        Don't include the morphology of this plant.
+        Don't include the common names or the varieties of this plant.
+        Don't include the constituents of this plant.
+
+        --------------------------------------------------------------------
+
+        Write a paragraph about the precautions of using {common_name} ({latin_name}) for medicinal purposes.
+        Include as many details as possible in as few words as possible.
+
+        --------------------------------------------------------------------
 
 
 
@@ -777,6 +795,15 @@ def main():
 
         --------------------------------------------------------------------
 
+        Write a paragraph about the flavor profile of {common_name} ({latin_name}). 
+        Include as many details as possible in as few words as possible.
+        Don't mention its botanical aspects.
+        Don't mention its medicinal uses.
+        Don't mention its herbal preparations.
+        Don't mention its culinary uses.
+
+        --------------------------------------------------------------------
+
 
 
 
@@ -785,11 +812,14 @@ def main():
 
     print(f'''CULTIVATION
 
-        Write a paragraph about the cultivation of {common_name} ({latin_name}).
-        Include as many details as possible in as few words as possible.
-        Don't include info about the morphology, only write about the cultivation.
+        Write 3 paragraphs about {common_name} ({latin_name}).
 
-        --------------------------------------------------------------------
+        In the first paragraph, write about how to grow this plant in your garden or landscape.
+        In the second paragraph, write about the ideal growing conditions and soil requirements for this plant.
+        In the third paragraph, write about pruning and maintenance tips to keep this plant healthy
+
+        Include as many details as possible in as few words as possible.
+        Use the metric system as the primary measuring system.
 
 
 
@@ -798,15 +828,15 @@ def main():
         ''')
 
     print(f'''HISTORY FOLKLORE
+    
+        Write 3 paragraphs about Yarrow {common_name} ({latin_name}).
 
-        Write a paragraph about the History and Folklore of {common_name} ({latin_name}).
+        In the first paragraph, write about this plant in traditional folk medicine and its role in different cultures.
+        In the second paragraph, write about the ancient uses of this plant in divination.
+        In the third paragraph, write about the legends and myths surrounding this plant.
+
         Include as many details as possible in as few words as possible.
-        Don't include botanical characteristics, write only the History and Folklore.
-        Don't include the native range or distribution, write only the History and Folklore.
-        --------------------------------------------------------------------
-
-
-
+        Use the metric system as the primary measuring system.
 
 
         ''')
