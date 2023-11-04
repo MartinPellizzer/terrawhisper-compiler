@@ -1703,8 +1703,10 @@ for i, row in enumerate(articles_master_rows[1:]):
         
         attribute_lst = ['medicine']
         image_title = f'{latin_name.capitalize()} Medicine'
-        filepath = generate_image_medicine(entity, attribute_lst, lst)
-        article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+        try:
+            filepath = generate_image_medicine(entity, attribute_lst, lst)
+            article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+        except: pass
 
         article_folderpath = f'database/articles/{entity}'
         article += get_content('medicinal', article_folderpath)
@@ -1730,8 +1732,11 @@ for i, row in enumerate(articles_master_rows[1:]):
 
         attribute_lst = ['food']
         image_title = f'{latin_name.capitalize()} Food'
-        filepath = generate_image_food(entity, attribute_lst, lst)
-        article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+        
+        try:
+            filepath = generate_image_food(entity, attribute_lst, lst)
+            article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+        except: pass
 
         article_folderpath = f'database/articles/{entity}'
         article += get_content('culinary', article_folderpath)
@@ -1756,8 +1761,10 @@ for i, row in enumerate(articles_master_rows[1:]):
 
         attribute_lst = ['horticulture']
         image_title = f'{latin_name.capitalize()} Food'
-        filepath = generate_image_horticulture(entity, attribute_lst, lst)
-        article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+        try:
+            filepath = generate_image_horticulture(entity, attribute_lst, lst)
+            article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+        except: pass
 
         article_folderpath = f'database/articles/{entity}'
         article += get_content('horticultural', article_folderpath)
@@ -1778,8 +1785,10 @@ for i, row in enumerate(articles_master_rows[1:]):
 
         attribute_lst = ['guide', 'taxonomy']
         image_title = f'{latin_name.capitalize()} Taxonomy'
-        filepath = generate_image_taxonomy(entity, attribute_lst, lst)
-        article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+        try:
+            filepath = generate_image_taxonomy(entity, attribute_lst, lst)
+            article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+        except: pass
 
         article_folderpath = f'database/articles/{entity}'
         article += get_content('botanical', article_folderpath)
@@ -1805,8 +1814,10 @@ for i, row in enumerate(articles_master_rows[1:]):
 
         attribute_lst = ['history']
         image_title = f'{latin_name.capitalize()} History'
-        filepath = generate_image_history(entity, attribute_lst, lst)
-        article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+        try:
+            filepath = generate_image_history(entity, attribute_lst, lst)
+            article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+        except: pass
         
         article_folderpath = f'database/articles/{entity}'
         article += get_content('history-folklore', article_folderpath)
