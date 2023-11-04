@@ -11,16 +11,16 @@ latin_name = entity.replace('-', ' ').capitalize()
 latin_name_abbreviated = latin_name.split(' ')[0][0] + '. ' + latin_name.split(' ')[1]
 
 attribute_1 = ''
-try: sys.argv[2].lower().strip()
+try: attribute_1 = sys.argv[2].lower().strip()
 except: pass
 attribute_2 = ''
-try: sys.argv[3].lower().strip()
+try: attribute_2 = sys.argv[3].lower().strip()
 except: pass
 
 def csv_get_table_data(filepath, entity):
     lines = []
     with open(filepath) as f:
-        reader = csv.reader(f, delimiter="\\")
+        reader = csv.reader(f, delimiter="|")
         for i, line in enumerate(reader):
             if i == 0:
                 lines.append(line)
@@ -29,7 +29,11 @@ def csv_get_table_data(filepath, entity):
                     lines.append(line)
     return lines
 
-
+print(entity)
+print(latin_name)
+print(latin_name_abbreviated)
+print(attribute_1)
+print(attribute_2)
 
 
 try:
@@ -783,6 +787,31 @@ def main():
 
         --------------------------------------------------------------------
 
+        Write a section of an article on the medicinal uses of {common_name} ({latin_name}) in about 400 words.
+        
+        This section must have 4 paragraphs.
+
+        In the first paragraph, write about the modern medicinal applications of this plant.
+        In the second paragraph, write about the active compounds of this plant.
+        In the third paragraph, write about the different types of preparations of this plant.
+        In the fourth paragraph, write about the safety and precautions of this plant.
+
+        Include as many details, data, and numbers as possible in as few words as possible.
+        Use the metric system as the primary measuring system.
+
+        --------------------------------------------------------------------
+        
+        Write 4 paragraphs about {common_name} ({latin_name}).
+
+        In the first paragraph, write about the modern medicinal applications of this plant.
+        In the second paragraph, write about the active compounds of this plant for medicinal purposes.
+        In the third paragraph, write about the different types of preparations of this plant for medicinal purposes.
+        In the fourth paragraph, write about the safety and precautions of this plant for medicinal pusposes.
+
+        Include as many details, data, and numbers as possible in as few words as possible.
+        Use the metric system as the primary measuring system.
+
+
 
 
 
@@ -849,6 +878,72 @@ def main():
 
 
 
+def medicine():
+
+    print(f'''MEDICINAL PROPERTIES
+
+        Write me a list of the 10 major health benefits of {common_name} ({latin_name}). 
+        Start each benefit with a verb.
+
+        --------------------------------------------------------------------
+
+        Write a paragraph about the health benefits and medicinal properties of {common_name} ({latin_name}).
+        Include the elements in the list above.
+        Pack as much data as possible in as few words as possible.
+
+        --------------------------------------------------------------------
+
+        Using the data from the list above, write about 300 words on the medicinal benefits of {common_name} ({latin_name}).
+        Pack as much data, info, and numbers as possible.
+        Use the metric system when expressing numbers.
+        Don't add subjective fluff or opinions, just objective facts. 
+
+        --------------------------------------------------------------------
+        
+        Ok, now include some numbers to back up your claims.
+
+        --------------------------------------------------------------------
+
+        Ok, now use the data from the list above to write a section about the benefits of {common_name} ({latin_name}) in about 300 words.
+        This section must not use a list format. 
+
+        --------------------------------------------------------------------
+
+
+
+
+
+        ''')
+
+    print(f'''KEY CONSTITUENTS
+
+        Write me a list of the 10 key constituents of {common_name} ({latin_name}) for health purposes. 
+
+        --------------------------------------------------------------------
+        
+        Using the data from the list above, write about 300 words on the medicinal benefits of {common_name} ({latin_name}).
+        Pack as much data, info, and numbers as possible.
+        Use the metric system when expressing numbers.
+        Don't add subjective fluff or opinions, just objective facts. 
+
+        --------------------------------------------------------------------
+
+        Ok, now include some numbers to back up your claims.
+
+        --------------------------------------------------------------------
+
+        Ok, now use the data from the list above to write a section for an article about the key constituents of {common_name} ({latin_name}) in about 300 words.
+        This section must not use a list format.
+
+        --------------------------------------------------------------------
+
+
+
+
+
+        ''')
+
+
 
 
 
@@ -856,6 +951,7 @@ if attribute_2 == 'morphology': morphology()
 elif attribute_2 == 'taxonomy': taxonomy()
 elif attribute_2 == 'distribution': distribution()
 elif attribute_1 == 'botany': botany()
-elif attribute_1 == '': main()
+elif attribute_1 == 'medicine': medicine()
+# elif attribute_1 == '': main()
 
 

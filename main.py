@@ -14,6 +14,7 @@ import math
 import re
 import csv
 import sys
+import utils
 
 entity_arg = None
 if len(sys.argv) == 2:
@@ -40,13 +41,13 @@ google_tag = '''
     </script>
 '''
 
+lst_line_height = 40
 
-def write_text(section, folderpath, title):
+def get_content(section, folderpath):
     text = ''
     try: 
         filepath = f'{folderpath}/{section}.md'
         with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
-        text += f'## {title}\n\n'
         text += section_content + '\n\n'
     except: 
         print(f'WARNING: missing {section} text ({filepath})')
@@ -1012,12 +1013,8 @@ def img_cheasheet(latin_name, title, lst, img_name):
     return output_path
 
 
-def generate_featured_image(entity, attribute_1, attribute_2):
-    attributes = []
-    if attribute_1.strip() != '': attributes.append(attribute_1.strip())
-    if attribute_2.strip() != '': attributes.append(attribute_2.strip())
-
-    attribute = '/'.join(attributes)
+def generate_featured_image(entity, attribute_lst, title):
+    attribute = '/'.join(attribute_lst)
     attribute_filename = attribute.replace('/', '-')
     featured_image_filename = f'{entity}-{attribute_filename}.jpg'
     featured_image_filpath = img_resize(f'articles-images/{featured_image_filename}')
@@ -1044,7 +1041,7 @@ def generate_featured_image(entity, attribute_1, attribute_2):
 
     
     latin_name = entity.replace('-', ' ').capitalize()
-    line = f'{latin_name} morphology'
+    line = f'{title}'
     draw = ImageDraw.Draw(img)
     font_size = 36
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
@@ -1059,6 +1056,367 @@ def generate_featured_image(entity, attribute_1, attribute_2):
 
     return featured_image_filpath
 
+
+def generate_image_taxonomy(entity, attribute_lst, lst):
+    img_w = 1024
+    img_h = 768
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#fafafa')
+    draw = ImageDraw.Draw(img)
+
+    
+    img_background = Image.open(f"articles-images/{entity}-botanical-profile-3x4.jpg")
+
+    # img_background_w = img_background.getbbox()[2]
+    # print(img_background_w)
+
+    polygon_w = 1024
+    polygon_h = 768
+    
+    img_background_w = 576
+    img_background_h = 768
+
+    # polygon = Image.new(mode="RGBA", size=(polygon_w*2, polygon_h*2), color='#fafafa')
+    # xy = [
+    #     (0, 0,),
+    #     (img_background_w*2, 0,),
+    #     (img_w*2 - img_background_w*2, img_h*2,),
+    #     (0, img_h*2,),
+    # ]
+    # draw.polygon(xy, fill ="#0f766e") 
+    # polygon.thumbnail((polygon_w, polygon_h), Image.Resampling.LANCZOS)
+
+
+    img_background.thumbnail((img_background_w, img_background_h), Image.Resampling.LANCZOS)
+    img.paste(img_background, (img_w - img_background_w, 0))
+
+    # img.paste(polygon, (img_w - img_background_w, 0), polygon)
+
+    xy = [
+        (0, 0,),
+        (img_background_w, 0,),
+        (img_w - img_background_w, img_h,),
+        (0, img_h,),
+    ]
+    draw.polygon(xy, fill ="#0f766e") 
+
+    
+    latin_name = entity.replace('-', ' ').capitalize()
+
+    font_size = 48
+    line_spacing = 1.3
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'{latin_name}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((50, 50), line, '#ffffff', font=font)
+    
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'TAXONOMY'
+    draw.text((50, 50 + line_h * line_spacing), line, '#ffffff', font=font)
+    
+    line_spacing = 1.5
+    line_h = font.getbbox(lst[0])[3]
+    for i, line in enumerate(lst):
+        draw.text((50, 50 + line_h * line_spacing + 100 + lst_line_height * i), line, '#ffffff', font=font)
+
+    draw.text((50, img_h - 50 - line_h), '© TerraWhisper.com', '#ffffff', font=font)
+    
+    # img.show()
+    # quit()
+
+    out_attr_lst = '-'.join(attribute_lst)
+    out_filename = f'website/images/{entity}-{out_attr_lst}.jpg'
+    img.save(out_filename, format='JPEG', subsampling=0, quality=100)
+    filepath = '/' + '/'.join(out_filename.split('/')[1:])
+
+    # img.show()
+    # quit()
+
+    return filepath
+
+
+def generate_image_medicine(entity, attribute_lst, lst):
+    img_w = 1024
+    img_h = 768
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#fafafa')
+    draw = ImageDraw.Draw(img)
+
+    
+    img_background = Image.open(f"articles-images/{entity}-medicine-3x4.jpg")
+
+    # img_background_w = img_background.getbbox()[2]
+    # print(img_background_w)
+
+    polygon_w = 1024
+    polygon_h = 768
+    
+    img_background_w = 576
+    img_background_h = 768
+
+    # polygon = Image.new(mode="RGBA", size=(polygon_w*2, polygon_h*2), color='#fafafa')
+    # xy = [
+    #     (0, 0,),
+    #     (img_background_w*2, 0,),
+    #     (img_w*2 - img_background_w*2, img_h*2,),
+    #     (0, img_h*2,),
+    # ]
+    # draw.polygon(xy, fill ="#0f766e") 
+    # polygon.thumbnail((polygon_w, polygon_h), Image.Resampling.LANCZOS)
+
+
+    img_background.thumbnail((img_background_w, img_background_h), Image.Resampling.LANCZOS)
+    img.paste(img_background, (img_w - img_background_w, 0))
+
+    # img.paste(polygon, (img_w - img_background_w, 0), polygon)
+
+    xy = [
+        (0, 0,),
+        (img_background_w, 0,),
+        (img_w - img_background_w, img_h,),
+        (0, img_h,),
+    ]
+    draw.polygon(xy, fill ="#0f766e") 
+
+    
+    latin_name = entity.replace('-', ' ').capitalize()
+
+    font_size = 48
+    line_spacing = 1.3
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'{latin_name}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((50, 50), line, '#ffffff', font=font)
+    
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'MEDICINAL PROPERTIES'
+    draw.text((50, 50 + line_h * line_spacing), line, '#ffffff', font=font)
+    
+    line_spacing = 1.5
+    line_h = font.getbbox(lst[0])[3]
+    for i, line in enumerate(lst):
+        draw.text((50, 50 + line_h * line_spacing + 100 + lst_line_height * i), line, '#ffffff', font=font)
+
+    draw.text((50, img_h - 50 - line_h), '© TerraWhisper.com', '#ffffff', font=font)
+    
+    # img.show()
+    # quit()
+
+    out_attr_lst = '-'.join(attribute_lst)
+    out_filename = f'website/images/{entity}-{out_attr_lst}.jpg'
+    img.save(out_filename, format='JPEG', subsampling=0, quality=100)
+    filepath = '/' + '/'.join(out_filename.split('/')[1:])
+
+    # img.show()
+    # quit()
+
+    return filepath
+
+
+def generate_image_food(entity, attribute_lst, lst):
+    img_w = 1024
+    img_h = 768
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#fafafa')
+    draw = ImageDraw.Draw(img)
+
+    img_background = Image.open(f"articles-images/{entity}-food-3x4.jpg")
+    img_background_w = 576
+    img_background_h = 768
+    img_background.thumbnail((img_background_w, img_background_h), Image.Resampling.LANCZOS)
+    img.paste(img_background, (img_w - img_background_w, 0))
+
+    xy = [
+        (0, 0,),
+        (img_background_w, 0,),
+        (img_w - img_background_w, img_h,),
+        (0, img_h,),
+    ]
+    draw.polygon(xy, fill ="#0f766e") 
+
+    
+    latin_name = entity.replace('-', ' ').capitalize()
+
+    font_size = 48
+    line_spacing = 1.3
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'{latin_name}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((50, 50), line, '#ffffff', font=font)
+    
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'CULIANRY USES'
+    draw.text((50, 50 + line_h * line_spacing), line, '#ffffff', font=font)
+    
+    line_spacing = 1.5
+    line_h = font.getbbox(lst[0])[3]
+    for i, line in enumerate(lst):
+        draw.text((50, 50 + line_h * line_spacing + 100 + lst_line_height * i), line, '#ffffff', font=font)
+
+    draw.text((50, img_h - 50 - line_h), '© TerraWhisper.com', '#ffffff', font=font)
+    
+    out_attr_lst = '-'.join(attribute_lst)
+    out_filename = f'website/images/{entity}-{out_attr_lst}.jpg'
+    img.save(out_filename, format='JPEG', subsampling=0, quality=100)
+    filepath = '/' + '/'.join(out_filename.split('/')[1:])
+
+    return filepath
+
+
+def generate_image_horticulture(entity, attribute_lst, lst):
+    img_w = 1024
+    img_h = 768
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#fafafa')
+    draw = ImageDraw.Draw(img)
+
+    img_background = Image.open(f"articles-images/{entity}-horticulture-3x4.jpg")
+    img_background_w = 576
+    img_background_h = 768
+    img_background.thumbnail((img_background_w, img_background_h), Image.Resampling.LANCZOS)
+    img.paste(img_background, (img_w - img_background_w, 0))
+
+    xy = [
+        (0, 0,),
+        (img_background_w, 0,),
+        (img_w - img_background_w, img_h,),
+        (0, img_h,),
+    ]
+    draw.polygon(xy, fill ="#0f766e") 
+
+    
+    latin_name = entity.replace('-', ' ').capitalize()
+
+    font_size = 48
+    line_spacing = 1.3
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'{latin_name}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((50, 50), line, '#ffffff', font=font)
+    
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'CULTIVATION TIPS'
+    draw.text((50, 50 + line_h * line_spacing), line, '#ffffff', font=font)
+    
+    line_spacing = 1.5
+    line_h = font.getbbox(lst[0])[3]
+    for i, line in enumerate(lst):
+        draw.text((50, 50 + line_h * line_spacing + 100 + lst_line_height * i), line, '#ffffff', font=font)
+
+    draw.text((50, img_h - 50 - line_h), '© TerraWhisper.com', '#ffffff', font=font)
+    
+    out_attr_lst = '-'.join(attribute_lst)
+    out_filename = f'website/images/{entity}-{out_attr_lst}.jpg'
+    img.save(out_filename, format='JPEG', subsampling=0, quality=100)
+    filepath = '/' + '/'.join(out_filename.split('/')[1:])
+
+    return filepath
+
+
+def generate_image_history(entity, attribute_lst, lst):
+    img_w = 1024
+    img_h = 768
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#fafafa')
+    draw = ImageDraw.Draw(img)
+
+    img_background = Image.open(f"articles-images/{entity}-history-3x4.jpg")
+    img_background_w = 576
+    img_background_h = 768
+    img_background.thumbnail((img_background_w, img_background_h), Image.Resampling.LANCZOS)
+    img.paste(img_background, (img_w - img_background_w, 0))
+
+    xy = [
+        (0, 0,),
+        (img_background_w, 0,),
+        (img_w - img_background_w, img_h,),
+        (0, img_h,),
+    ]
+    draw.polygon(xy, fill ="#0f766e") 
+
+    
+    latin_name = entity.replace('-', ' ').capitalize()
+
+    font_size = 48
+    line_spacing = 1.3
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'{latin_name}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((50, 50), line, '#ffffff', font=font)
+    
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'HISTORICAL USES'
+    draw.text((50, 50 + line_h * line_spacing), line, '#ffffff', font=font)
+    
+    line_spacing = 1.5
+    line_h = font.getbbox(lst[0])[3]
+    for i, line in enumerate(lst):
+        draw.text((50, 50 + line_h * line_spacing + 100 + lst_line_height * i), line, '#ffffff', font=font)
+
+    draw.text((50, img_h - 50 - line_h), '© TerraWhisper.com', '#ffffff', font=font)
+    
+    out_attr_lst = '-'.join(attribute_lst)
+    out_filename = f'website/images/{entity}-{out_attr_lst}.jpg'
+    img.save(out_filename, format='JPEG', subsampling=0, quality=100)
+    filepath = '/' + '/'.join(out_filename.split('/')[1:])
+
+    return filepath
+
+
+def generate_image_medicinal_properties(entity, attribute_lst, lst):
+    img_w = 1024
+    img_h = 768
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#fafafa')
+    draw = ImageDraw.Draw(img)
+
+    img_background = Image.open(f"articles-images/{entity}-medicine-properties-3x4.jpg")
+    img_background_w = 576
+    img_background_h = 768
+    img_background.thumbnail((img_background_w, img_background_h), Image.Resampling.LANCZOS)
+    img.paste(img_background, (img_w - img_background_w, 0))
+
+    xy = [
+        (0, 0,),
+        (img_background_w, 0,),
+        (img_w - img_background_w, img_h,),
+        (0, img_h,),
+    ]
+    draw.polygon(xy, fill ="#0f766e") 
+
+    
+    latin_name = entity.replace('-', ' ').capitalize()
+
+    font_size = 48
+    line_spacing = 1.3
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'{latin_name}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((50, 50), line, '#ffffff', font=font)
+    
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'MEDICINAL PROPERTIES'
+    draw.text((50, 50 + line_h * line_spacing), line, '#ffffff', font=font)
+    
+    line_spacing = 1.5
+    line_h = font.getbbox(lst[0])[3]
+    for i, line in enumerate(lst):
+        draw.text((50, 50 + line_h * line_spacing + 100 + lst_line_height * i), line, '#ffffff', font=font)
+
+    draw.text((50, img_h - 50 - line_h), '© TerraWhisper.com', '#ffffff', font=font)
+    
+    out_attr_lst = '-'.join(attribute_lst)
+    out_filename = f'website/images/{entity}-{out_attr_lst}.jpg'
+    img.save(out_filename, format='JPEG', subsampling=0, quality=100)
+    filepath = '/' + '/'.join(out_filename.split('/')[1:])
+
+    return filepath
 
 
 
@@ -1313,35 +1671,190 @@ for i, row in enumerate(articles_master_rows[1:]):
     if attribute_1.strip() == '':
         title = f'{latin_name.capitalize()} General Guide'
         article += f'# {title}\n\n'
+            
+        try:
+            attribute_lst = ['guide']
+            image_title = f'{latin_name.capitalize()} Guide'
+            filepath = generate_featured_image(entity, attribute_lst, image_title)
+            article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+        except: 
+            print(f'WARNING: missing image ({entity})')
+
+
+        
+        # medicinal
+        article += f'## What are the Medicinal Uses of {common_name}?\n\n'
 
         article_folderpath = f'database/articles/{entity}'
-        title = f'What is the Botanical Profile of {common_name}?'
-        article += write_text('botanical', article_folderpath, title)
+        article += get_content('medicinal-uses', article_folderpath)
+
+        lst = [
+            'Wound Healing',
+            'Anti-Inflammatory',
+            'Pain Relief',
+            'Fever Reduction',
+            'Digestive Aid',
+            'Respiratory Health',
+            'Cardiovascular Support',
+            'Menstrual Health',
+            'Skin Health',
+            'Antioxidant Properties',
+        ]
+        
+        attribute_lst = ['medicine']
+        image_title = f'{latin_name.capitalize()} Medicine'
+        filepath = generate_image_medicine(entity, attribute_lst, lst)
+        article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+
+        article_folderpath = f'database/articles/{entity}'
+        article += get_content('medicinal', article_folderpath)
+        
+        # culinary uses
+        article += f'## What are the Culinary Uses of {common_name}?\n\n'
+        article_folderpath = f'database/articles/{entity}'
+        article += get_content('culinary-uses', article_folderpath)
+
+
+        lst = [
+            'Yarrow-infused oil',
+            'Yarrow tea',
+            'Yarrow salad',
+            'Yarrow pesto',
+            'Yarrow vinegar',
+            'Yarrow soup',
+            'Yarrow garnish',
+            'Yarrow cocktails',
+            'Yarrow bread',
+            'Yarrow ice cream',
+        ]
+
+        attribute_lst = ['food']
+        image_title = f'{latin_name.capitalize()} Food'
+        filepath = generate_image_food(entity, attribute_lst, lst)
+        article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+
+        article_folderpath = f'database/articles/{entity}'
+        article += get_content('culinary', article_folderpath)
+
+        # horticultural
+        article += f'## How to Cultivate {common_name}?\n\n'
+        article_folderpath = f'database/articles/{entity}'
+        article += get_content('horticulture', article_folderpath)
+        
+        lst = [
+        'Choose sunny spot',
+        'Well-drained soil',
+        'Sparse watering',
+        'Divide every 2-3 years',
+        'Use mulch',
+        'Deadhead spent blooms',
+        'Low-nitrogen fertilizer',
+        'Watch for pests',
+        'Prune in spring',
+        'Pick suitable variety',
+        ]
+
+        attribute_lst = ['horticulture']
+        image_title = f'{latin_name.capitalize()} Food'
+        filepath = generate_image_horticulture(entity, attribute_lst, lst)
+        article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+
+        article_folderpath = f'database/articles/{entity}'
+        article += get_content('horticultural', article_folderpath)
+
+
+
+        # botanical profile
+        article += f'## What is the Botanical Profile of {common_name}?\n\n'
+
+        article_folderpath = f'database/articles/{entity}'
+        article += get_content('taxonomy', article_folderpath)
+        
+        llst = utils.csv_get_rows_by_entity_with_header('database/tables/botany/taxonomy.csv', entity)
+        lst = []
+        for k in range(len(llst[0])):
+            lst.append(f'{llst[0][k].capitalize()}: {llst[1][k]}')
+        lst = lst[1:]
+
+        attribute_lst = ['guide', 'taxonomy']
+        image_title = f'{latin_name.capitalize()} Taxonomy'
+        filepath = generate_image_taxonomy(entity, attribute_lst, lst)
+        article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+
+        article_folderpath = f'database/articles/{entity}'
+        article += get_content('botanical', article_folderpath)
+
+
+        # history-folklore
+        article += f'## What is the History and Folklore of {common_name}?\n\n'
+        article_folderpath = f'database/articles/{entity}'
+        article += get_content('history', article_folderpath)
+
+        lst = [
+            'Chinese medicine',
+            'Greek wound treatment',
+            'Egyptian fever reducer',
+            'European protective talisman',
+            'Beer flavoring',
+            'Native American insect repellent',
+            'Chinese divination',
+            'Civil War hemostatic',
+            'Scandinavian beer flavoring',
+            'Ayurvedic digestive remedy',
+        ]
+
+        attribute_lst = ['history']
+        image_title = f'{latin_name.capitalize()} History'
+        filepath = generate_image_history(entity, attribute_lst, lst)
+        article += f'![{image_title}]({filepath} "{image_title}")\n\n'
         
         article_folderpath = f'database/articles/{entity}'
-        title = f'What are the Medicinal Uses of {common_name}?'
-        article += write_text('medicinal', article_folderpath, title)
-        
-        article_folderpath = f'database/articles/{entity}'
-        title = f'What are the Culinary Uses of {common_name}?'
-        article += write_text('culinary', article_folderpath, title)
-        
-        article_folderpath = f'database/articles/{entity}'
-        title = f'How to Cultivate {common_name}?'
-        article += write_text('cultivation', article_folderpath, title)
-        
-        article_folderpath = f'database/articles/{entity}'
-        title = f'What is the History and Folklore of {common_name}?'
-        article += write_text('history-folklore', article_folderpath, title)
+        article += get_content('history-folklore', article_folderpath)
 
 
     else:
-        if 'botany' in attribute_1.lower() and attribute_2.strip() == '':
+        if 'medicine' in attribute_1.lower() and attribute_2.strip() == '':
+            title = f'{latin_name.capitalize()} Medicinal Properties'
+            article += f'# {title}\n\n'
+
+            try:
+                attribute_lst = ['medicine', 'guide', '4x3']
+                image_title = f'{latin_name.capitalize()} Medicinal Guide'
+                filepath = generate_featured_image(entity, attribute_lst, image_title)
+                article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+            except: 
+                print(f'WARNING: missing image ({entity})')
+
+            article += f'## What are the health benefits and medicinal properties of {common_name}?\n\n'
+            content = get_content('medicine/benefits', f'database/articles/{entity}')
+            content_paragraphs = content.split('\n')
+
+            rows = csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows]
+
+            attribute_lst = ['medicine', 'properties']
+            image_title = f'{latin_name.capitalize()} Medicinal Properties'
+            filepath = generate_image_medicinal_properties(entity, attribute_lst, rows_filtered)
+            content = content_paragraphs[0] + f'\n\n![{image_title}]({filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:])
+            content += '\n\n'
+            article += content
+
+            rows = csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
+            article += f'The following list summarize the 10 most important health benefits of {latin_name}.\n\n'
+            rows_filtered = [f'{x[1]}: {x[2]}' for x in rows]
+            article += lst_to_blt(bold_blt(rows_filtered))
+            article += '\n\n'
+
+            
+
+        elif 'botany' in attribute_1.lower() and attribute_2.strip() == '':
             title = f'{common_name.title()} ({latin_name.capitalize()}) Botanical Profile: Taxonomy, Morphology, and Distribution'
             article += f'# {title}\n\n'
             
             try:
-                featured_image_filpath = generate_featured_image(entity, attribute_1, attribute_2)
+                attribute_lst = ['botany']
+                image_title = f'{latin_name.capitalize()} Botany'
+                featured_image_filpath = generate_featured_image(entity, attribute_lst, image_title)
                 article += f'![{title}]({featured_image_filpath} "{title}")\n\n'
             except: 
                 print(f'WARNING: missing image ({entity})')
@@ -1586,7 +2099,9 @@ for i, row in enumerate(articles_master_rows[1:]):
                 article += f'# {title}\n\n'
 
                 try:
-                    featured_image_filpath = generate_featured_image(entity, attribute_1, attribute_2)
+                    attribute_lst = ['botany', 'morphology']
+                    image_title = f'{latin_name.capitalize()} Morphology'
+                    featured_image_filpath = generate_featured_image(entity, attribute_lst, image_title)
                     article += f'![{title}]({featured_image_filpath} "{title}")\n\n'
                 except:
                     print(f'WARNING: missing image ({entity})')
@@ -1627,8 +2142,10 @@ for i, row in enumerate(articles_master_rows[1:]):
                 title = f'{latin_name.capitalize()} taxonomy'
                 article += f'# {title}\n\n'
                 
-                try:
-                    featured_image_filpath = generate_featured_image(entity, attribute_1, attribute_2)
+                try: 
+                    attribute_lst = ['botany', 'taxonomy']
+                    image_title = f'{latin_name.capitalize()} Taxonomy'
+                    featured_image_filpath = generate_featured_image(entity, attribute_lst, image_title)
                     article += f'![alt]({featured_image_filpath} "title")\n\n'
                 except:
                     print(f'WARNING: missing image ({entity} -> {attribute_1}/{attribute_2})')
@@ -1712,7 +2229,9 @@ for i, row in enumerate(articles_master_rows[1:]):
                 article += f'# {title}\n\n'
                 
                 try:
-                    featured_image_filpath = generate_featured_image(entity, attribute_1, attribute_2)
+                    attribute_lst = ['botany', 'distribution']
+                    image_title = f'{latin_name.capitalize()} Distribution'
+                    featured_image_filpath = generate_featured_image(entity, attribute_lst, image_title)
                     article += f'![alt]({featured_image_filpath} "title")\n\n'
                 except: 
                     print(f'WARNING: missing image ({entity} -> {attribute_1}/{attribute_2})')
@@ -1852,6 +2371,7 @@ articles = csv_to_llst('database/tables/articles.csv')[1:]
 articles_morphology_html = ''
 articles_taxonomy_html = ''
 articles_distribution_html = ''
+articles_main_html = ''
 
 for article in articles:
     # entity = normalize(article[0])
@@ -1910,9 +2430,38 @@ for article in articles:
             </a>
             \n
         '''
+    elif attribute_1 == '' and attribute_2 == '':
+        img = f'images/{entity}-guide.jpg'
+        url = f'{entity}/index.html'
+        title = f'{latin_name}'
+        articles_main_html += f'''
+            <a href="{url}">
+                <div>
+                    <img src="{img}" alt="">
+                    <h2 class="mt-0 mb-0">{title}</h2>
+                </div>
+            </a>
+            \n
+        '''
 
 
 header = generate_header_transparent()
+
+
+articles_section_main_html = ''
+if normalize(articles_main_html) != '':
+    articles_section_main_html = f'''
+    <section class="my-96">
+        <div class="container-lg">
+            <h2 class="text-center mb-16">Latest Guides on Plants</h2>
+            <p class="text-center mb-48">Learn everything about plants: botanical profile, medicinal uses, culinary tips and much more.</p>
+            <div class="articles">
+                {articles_main_html}
+            </div>
+        </div>
+    </section>
+    '''
+
 
 articles_section_taxonomy_html = ''
 if normalize(articles_taxonomy_html) != '':
@@ -1983,6 +2532,7 @@ html = f'''
                 </div>
             </div>
         </section>
+        {articles_section_main_html}
         {articles_section_morphology_html}
         {articles_section_taxonomy_html}
         {articles_section_distribution_html}

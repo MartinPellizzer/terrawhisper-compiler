@@ -1,5 +1,6 @@
 import os
 from PIL import Image
+import shutil
 
 
 for image_path in os.listdir('G:\\tw-images\\article-images-tmp'):
@@ -36,3 +37,11 @@ for image_path in os.listdir('G:\\tw-images\\article-images-tmp'):
 
     output_path = f'articles-images/{image_path}'
     img.save(f'{output_path}')
+
+
+
+for image_path in os.listdir('G:\\tw-images\\article-images-not-to-resize'):
+    print(image_path)
+    
+    website_img_path = 'articles-images'
+    shutil.copy2('G:\\tw-images\\article-images-not-to-resize\\' + image_path, f'{website_img_path}/{image_path}')

@@ -1,0 +1,1 @@
+Yarrow (Achillea millefolium) belongs to the domain Eukaryota within the kingdom Plantae. It is classified as an Angiosperm (Magnoliophyta) and falls under the Eudicots, a group of flowering plants. Within the order Asterales, this plant is part of the family Asteraceae. The genus name is Achillea, and the specific species is Achillea millefolium.

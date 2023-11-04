@@ -45,8 +45,15 @@ for entity in entities:
     with open(f'database/articles/{entity}/botanical.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/medicinal.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/culinary.md', 'a', encoding='utf-8') as f: pass
-    with open(f'database/articles/{entity}/cultivation.md', 'a', encoding='utf-8') as f: pass
+    # with open(f'database/articles/{entity}/cultivation.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/history-folklore.md', 'a', encoding='utf-8') as f: pass
+
+    # health
+    with open(f'database/articles/{entity}/medicine/_intro.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicine/benefits.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicine/constituents.md', 'a', encoding='utf-8') as f: pass
+
+
     
     # try: os.mkdir(f'database/articles/{entity}/botany/taxonomy')
     # except: pass

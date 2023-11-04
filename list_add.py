@@ -33,7 +33,7 @@ for val in vals:
 
 csv_rows = []
 with open(filepath, encoding='utf-8', errors='ignore') as f:
-    reader = csv.reader(f, delimiter="\\")
+    reader = csv.reader(f, delimiter="|")
     for i, line in enumerate(reader):
         csv_rows.append(line)
 
@@ -78,6 +78,6 @@ for row in rows:
 
 
 with open(filepath, 'w', newline='', encoding='utf-8') as f:
-    writer = csv.writer(f, delimiter='\\')
+    writer = csv.writer(f, delimiter='|')
     for row in output_rows:
         writer.writerow(row)
