@@ -14,6 +14,7 @@ def csv_get_rows_by_entity(filepath, entity):
             
     return filtered_rows
 
+
 def csv_get_rows_by_entity_with_header(filepath, entity):
     rows = []
     with open(filepath, encoding='utf-8', errors='ignore') as f:

@@ -1,0 +1,2 @@
+The flavor profile of sweet flag is characterized by its mildly sweet and aromatic notes. It has a unique combination of sweet, spicy, and earthy flavors, which make it a distinctive addition to dishes. The flavor is often described as similar to a mixture of cinnamon, nutmeg, and ginger, with a hint of citrus. This complexity of flavors makes sweet flag a versatile ingredient in both savory and sweet dishes.
+

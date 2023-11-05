@@ -37,12 +37,13 @@ print(attribute_2)
 
 
 try:
-    common_names_rows = utils.csv_get_rows_by_entity('database/tables/botany/common-names.csv', 'achillea-millefolium')
+    common_names_rows = utils.csv_get_rows_by_entity('database/tables/botany/common-names.csv', entity)
     common_name = common_names_rows[0][1]
 except:
     common_names_rows = []
     common_name = ''
 
+print(common_name)
 
 
 print()
@@ -758,6 +759,8 @@ def main():
         Also include if this plant is annual or perennial at the beginning of paragraph.
 
 
+
+
         
         ''')
 
@@ -811,6 +814,11 @@ def main():
         Include as many details, data, and numbers as possible in as few words as possible.
         Use the metric system as the primary measuring system.
 
+        --------------------------------------------------------------------
+
+        Write me a list of the 10 most important health benefits of {common_name} ({latin_name}). 
+        Start each benefit with a verb.
+
 
 
 
@@ -832,6 +840,19 @@ def main():
         Don't mention its culinary uses.
 
         --------------------------------------------------------------------
+        
+        Write 3 paragraphs about {common_name} ({latin_name}).
+
+        In the first paragraph, write about the culinary uses of this plant (if edible).
+        In the second paragraph, write about the flavor profile of this plant.
+        In the third paragraph, write about the culinary tips when using this plant (if edible).
+
+        Include as many details, data, and numbers as possible in as few words as possible.
+        Use the metric system as the primary measuring system.
+
+        --------------------------------------------------------------------
+
+        Write me a list of the 10 most important culinary uses of {common_name} ({latin_name}).
 
 
 
@@ -1019,6 +1040,101 @@ def medicine():
         ''')
 
 
+def cuisine():
+
+    print(f'''CULINARY USES
+
+        Write me a list of the 10 culinary uses of {common_name} ({latin_name}). 
+
+        --------------------------------------------------------------------
+
+        Write a paragraph about the culinary uses of {common_name} ({latin_name}).
+        Include the elements in the list above.
+        Pack as much data as possible in as few words as possible.
+
+        --------------------------------------------------------------------
+
+        Using the data from the list above, write about 300 words on the culinary uses of {common_name} ({latin_name}).
+        Pack as much data, info, and numbers as possible.
+        Use the metric system when expressing numbers.
+        Don't add subjective fluff or opinions, just objective facts. 
+
+        --------------------------------------------------------------------
+        
+        Ok, now include some numbers to back up your claims.
+
+        --------------------------------------------------------------------
+
+        Ok, now use the data from the list above to write a section for an article about the culinary uses of {common_name} ({latin_name}) in about 300 words.
+        This section must not use a list format. 
+
+        --------------------------------------------------------------------
+
+
+
+
+
+        ''')
+
+
+def horticultural():
+
+    print(f'''CULTIVATION TIPS
+
+        Write me a list of the 10 tips to cultivate {common_name} ({latin_name}). 
+        Give me just the tips, don't add descriptions.
+
+        --------------------------------------------------------------------
+
+        Ok, now rewrite each tip in less than 5 words. Keep as much data and numbers as possible.
+        
+        --------------------------------------------------------------------
+
+        Ok, now add a description for each tip.
+
+        --------------------------------------------------------------------
+
+
+
+
+
+        ''')
+        
+
+def botany():
+
+    print(f'''TAXONOMY 
+
+
+
+
+
+        ''')
+
+
+def history():
+
+    print(f'''HISTORY 
+
+        Write me a list of historical uses of {common_name} ({latin_name}). 
+        Give me just the tips, don't add descriptions.
+
+        --------------------------------------------------------------------
+
+        Ok, now rewrite each item in the list above in less than 5 words.
+        Keep as much data and numbers as possible.
+        
+        --------------------------------------------------------------------
+
+        Ok, now add a description for each item in the list.
+
+        --------------------------------------------------------------------
+
+
+
+
+
+        ''')
 
 
 
@@ -1027,6 +1143,10 @@ elif attribute_2 == 'taxonomy': taxonomy()
 elif attribute_2 == 'distribution': distribution()
 elif attribute_1 == 'botany': botany()
 elif attribute_1 == 'medicine': medicine()
-# elif attribute_1 == '': main()
+elif attribute_1 == 'cuisine': cuisine()
+elif attribute_1 == 'horticultural': horticultural()
+elif attribute_1 == 'botany': botany()
+elif attribute_1 == 'history': history()
+elif attribute_1 == '': main()
 
 
