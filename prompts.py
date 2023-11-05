@@ -920,8 +920,14 @@ def medicine():
         Write me a list of the 10 key constituents of {common_name} ({latin_name}) for health purposes. 
 
         --------------------------------------------------------------------
+
+        Write a paragraph about the key constituents of {common_name} ({latin_name}).
+        Include the elements in the list above.
+        Pack as much data as possible in as few words as possible.
+
+        --------------------------------------------------------------------
         
-        Using the data from the list above, write about 300 words on the medicinal benefits of {common_name} ({latin_name}).
+        Using the data from the list above, write about 300 words on the key constituents of {common_name} ({latin_name}).
         Pack as much data, info, and numbers as possible.
         Use the metric system when expressing numbers.
         Don't add subjective fluff or opinions, just objective facts. 
@@ -932,8 +938,77 @@ def medicine():
 
         --------------------------------------------------------------------
 
-        Ok, now use the data from the list above to write a section for an article about the key constituents of {common_name} ({latin_name}) in about 300 words.
-        This section must not use a list format.
+        Ok, now use the data from the list above to write a section about the key constituents of {common_name} ({latin_name}) in about 300 words.
+        Write in a discursive way, do not use a list format.
+
+        --------------------------------------------------------------------
+
+
+
+
+
+        ''')
+
+    print(f'''KEY PREPARATIONS
+
+        Write me a list of key preparations of {common_name} ({latin_name}) for health purposes. Use a flat list style, don't put lists inside lists.
+
+        --------------------------------------------------------------------
+
+        Write a paragraph about the key preparations of {common_name} ({latin_name}).
+        Include the elements in the list above.
+        Pack as much data as possible in as few words as possible.
+
+        --------------------------------------------------------------------
+        
+        Using the list above, write about 300 words on the key preparations of {common_name} ({latin_name}).
+        Pack as much data, info, and numbers as possible.
+        Use the metric system when expressing numbers.
+        Don't add subjective fluff or opinions, just objective facts. 
+
+        --------------------------------------------------------------------
+
+        Ok, now include some numbers to back up your claims.
+
+        --------------------------------------------------------------------
+
+        Ok, now use the data from the list above to write a section about the key preparations of {common_name} ({latin_name}) in about 300 words.
+        Write in a discursive way, do not use a list format.
+
+        --------------------------------------------------------------------
+
+
+
+
+
+        ''')
+        
+    print(f'''SAFETY AND PRECAUTIONS
+
+        Write me a list of precautions when using {common_name} ({latin_name}) as a medicine. 
+        Use a flat list style, don't put lists inside lists.
+
+        --------------------------------------------------------------------
+
+        Write a paragraph about the precautions of {common_name} ({latin_name}).
+        Include the elements in the list above.
+        Pack as much data as possible in as few words as possible.
+
+        --------------------------------------------------------------------
+        
+        Using the list above, write about 300 words on the precautions of {common_name} ({latin_name}).
+        Pack as much data, info, and numbers as possible.
+        Use the metric system when expressing numbers.
+        Don't add subjective fluff or opinions, just objective facts. 
+
+        --------------------------------------------------------------------
+
+        Ok, now include some numbers to back up your claims.
+
+        --------------------------------------------------------------------
+
+        Ok, now use the data from the list above to write a section about the precautions of {common_name} ({latin_name}) in about 300 words.
+        Write in a discursive way, do not use a list format.
 
         --------------------------------------------------------------------
 

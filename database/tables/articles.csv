@@ -1,21 +1,21 @@
 "entity"\"state"\"done"\"date"\\"attribute_1"\"attribute_2"
-"achillea-millefolium"\"published"\"n"\\\\
-"achillea-millefolium"\"published"\"n"\\\"medicine"\
+"achillea-millefolium"\"published"\"y"\\\\
+"achillea-millefolium"\"published"\"y"\\\"medicine"\
 "achillea-millefolium"\"published"\"n"\\\"botany"\
-"achillea-millefolium"\"published"\"y"\"2023/10/28"\\"botany"\"taxonomy"
+"achillea-millefolium"\"draft"\"y"\"2023/10/28"\\"botany"\"taxonomy"
 "achillea-millefolium"\"published"\"y"\"2023/10/16"\\"botany"\"morphology"
-"achillea-millefolium"\"published"\"n"\\\"botany"\"distribution "
+"achillea-millefolium"\"draft"\"n"\\\"botany"\"distribution "
 \\\\\\
-"acorus-calamus"\"published"\"n"\\\\
-"acorus-calamus"\"published"\"n"\\\"botany"\
-"acorus-calamus"\"published"\"y"\"2023/10/28"\\"botany"\"taxonomy"
+"acorus-calamus"\"draft"\"n"\\\\
+"acorus-calamus"\"draft"\"n"\\\"botany"\
+"acorus-calamus"\"draft"\"y"\"2023/10/28"\\"botany"\"taxonomy"
 "acorus-calamus"\"published"\"y"\"2023/10/17"\\"botany"\"morphology"
 \\\\\\
-"aesculus-hippocastanum"\"published"\"y"\"2023/10/28"\\"botany"\"taxonomy"
+"aesculus-hippocastanum"\"draft"\"y"\"2023/10/28"\\"botany"\"taxonomy"
 "aesculus-hippocastanum"\"published"\"y"\"2023/10/18"\\"botany"\"morphology"
-"allium-sativum"\"published"\"y"\"2023/10/30"\\"botany"\"taxonomy"
+"allium-sativum"\"draft"\"y"\"2023/10/30"\\"botany"\"taxonomy"
 "allium-sativum"\"published"\"y"\"2023/10/19 "\\"botany"\"morphology"
-"aloe-vera"\"published"\"y"\"2023/10/31 "\\"botany"\"taxonomy"
+"aloe-vera"\"draft"\"y"\"2023/10/31 "\\"botany"\"taxonomy"
 "aloe-vera"\"published"\"y"\"2023/10/20"\\"botany"\"morphology"
 "alpinia-officinarum"\"published"\"y"\"2023/10/21"\\"botany"\"morphology"
 "ammi-visnaga"\"published"\"y"\"2023/10/22"\\"botany"\"morphology"

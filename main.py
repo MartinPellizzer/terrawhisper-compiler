@@ -43,6 +43,7 @@ google_tag = '''
 
 lst_line_height = 40
 
+# TODO: maybe unite folderpath + section
 def get_content(section, folderpath):
     text = ''
     try: 
@@ -1057,6 +1058,50 @@ def generate_featured_image(entity, attribute_lst, title):
     return featured_image_filpath
 
 
+def generate_featured_image_4x3(entity, attribute_lst, title):
+    attribute = '/'.join(attribute_lst)
+    attribute_filename = attribute.replace('/', '-')
+    featured_image_filpath = img_resize(f'articles-images/{entity}-{attribute_filename}-4x3.jpg')
+
+    img = Image.open(featured_image_filpath)
+    # background  = Image.open("articles-images/acorus-calamus-botany-morphology-old.jpg")
+
+    w_banner = img.size[0]
+    y_banner = img.size[1] // 2
+    base = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 0))
+    top = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 255))
+    # base = Image.new('RGBA', (w_banner, y_banner), '#0f766e')
+    # top = Image.new('RGBA', (w_banner, y_banner), '#0f766e')
+    mask = Image.new('L', (w_banner, y_banner))
+    mask_data = []
+    for y in range(y_banner):
+        mask_data.extend([int(255 * (y / y_banner))] * w_banner)
+    mask.putdata(mask_data)
+    
+    y_img = img.size[1]
+    base.paste(top, (0, 0), mask)
+
+    img.paste(base, (0, y_img - y_banner), base)
+
+    
+    latin_name = entity.replace('-', ' ').capitalize()
+    line = f'{title}'
+    draw = ImageDraw.Draw(img)
+    font_size = 36
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox('y')[3]
+    draw.text((w_banner//2 - line_w//2, y_img - line_h - 30), line, '#ffffff', font=font)
+
+    featured_image_filpath = featured_image_filpath.replace('-4x3', '')
+    img.save(f'{featured_image_filpath}', format='JPEG', subsampling=0, quality=100)
+
+    # print(featured_image_filpath)
+    featured_image_filpath = '/' + '/'.join(featured_image_filpath.split('/')[1:])
+
+    return featured_image_filpath
+
+
 def generate_image_taxonomy(entity, attribute_lst, lst):
     img_w = 1024
     img_h = 768
@@ -1143,7 +1188,7 @@ def generate_image_medicine(entity, attribute_lst, lst):
     draw = ImageDraw.Draw(img)
 
     
-    img_background = Image.open(f"articles-images/{entity}-medicine-3x4.jpg")
+    img_background = Image.open(f"articles-images/{entity}-general-medicine-3x4.jpg")
 
     # img_background_w = img_background.getbbox()[2]
     # print(img_background_w)
@@ -1402,6 +1447,109 @@ def generate_image_medicinal_properties(entity, attribute_lst, lst):
     font_size = 24
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
     line = f'MEDICINAL PROPERTIES'
+    draw.text((50, 50 + line_h * line_spacing), line, '#ffffff', font=font)
+    
+    line_spacing = 1.5
+    line_h = font.getbbox(lst[0])[3]
+    for i, line in enumerate(lst):
+        draw.text((50, 50 + line_h * line_spacing + 100 + lst_line_height * i), line, '#ffffff', font=font)
+
+    draw.text((50, img_h - 50 - line_h), '© TerraWhisper.com', '#ffffff', font=font)
+    
+    out_attr_lst = '-'.join(attribute_lst)
+    out_filename = f'website/images/{entity}-{out_attr_lst}.jpg'
+    img.save(out_filename, format='JPEG', subsampling=0, quality=100)
+    filepath = '/' + '/'.join(out_filename.split('/')[1:])
+
+    return filepath
+
+
+def generate_image_medicinal_constituents(entity, attribute_lst, lst):
+    img_w = 1024
+    img_h = 768
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#fafafa')
+    draw = ImageDraw.Draw(img)
+
+    img_background = Image.open(f"articles-images/{entity}-medicine-constituents-3x4.jpg")
+    img_background_w = 576
+    img_background_h = 768
+    img_background.thumbnail((img_background_w, img_background_h), Image.Resampling.LANCZOS)
+    img.paste(img_background, (img_w - img_background_w, 0))
+
+    xy = [
+        (0, 0,),
+        (img_background_w, 0,),
+        (img_w - img_background_w, img_h,),
+        (0, img_h,),
+    ]
+    draw.polygon(xy, fill ="#0f766e") 
+
+    
+    latin_name = entity.replace('-', ' ').capitalize()
+
+    font_size = 48
+    line_spacing = 1.3
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'{latin_name}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((50, 50), line, '#ffffff', font=font)
+    
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'MEDICINAL CONSTITUENTS'
+    draw.text((50, 50 + line_h * line_spacing), line, '#ffffff', font=font)
+    
+    line_spacing = 1.5
+    line_h = font.getbbox(lst[0])[3]
+    for i, line in enumerate(lst):
+        draw.text((50, 50 + line_h * line_spacing + 100 + lst_line_height * i), line, '#ffffff', font=font)
+
+    draw.text((50, img_h - 50 - line_h), '© TerraWhisper.com', '#ffffff', font=font)
+    
+    out_attr_lst = '-'.join(attribute_lst)
+    out_filename = f'website/images/{entity}-{out_attr_lst}.jpg'
+    img.save(out_filename, format='JPEG', subsampling=0, quality=100)
+    filepath = '/' + '/'.join(out_filename.split('/')[1:])
+
+    return filepath
+
+
+def generate_image_template_1(entity, attribute_lst, lst):
+    img_w = 1024
+    img_h = 768
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#fafafa')
+    draw = ImageDraw.Draw(img)
+
+    attributes_path = '-'.join(attribute_lst)
+    img_background = Image.open(f"articles-images/{entity}-{attributes_path}-3x4.jpg")
+    img_background_w = 576
+    img_background_h = 768
+    img_background.thumbnail((img_background_w, img_background_h), Image.Resampling.LANCZOS)
+    img.paste(img_background, (img_w - img_background_w, 0))
+
+    xy = [
+        (0, 0,),
+        (img_background_w, 0,),
+        (img_w - img_background_w, img_h,),
+        (0, img_h,),
+    ]
+    draw.polygon(xy, fill ="#0f766e") 
+
+    latin_name = entity.replace('-', ' ').capitalize()
+
+    font_size = 48
+    line_spacing = 1.3
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'{latin_name}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((50, 50), line, '#ffffff', font=font)
+    
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    attributes_subtitle = ' / '.join(attribute_lst).upper()
+    line = f'{attributes_subtitle}'
     draw.text((50, 50 + line_h * line_spacing), line, '#ffffff', font=font)
     
     line_spacing = 1.5
@@ -1682,34 +1830,63 @@ for i, row in enumerate(articles_master_rows[1:]):
 
 
         
-        # medicinal
-        article += f'## What are the Medicinal Uses of {common_name}?\n\n'
+        # benefits
+        title_section = f'## What are the Medicinal Uses of {common_name}?\n\n'
 
-        article_folderpath = f'database/articles/{entity}'
-        article += get_content('medicinal-uses', article_folderpath)
+        content_1 = get_content('medicinal-uses', f'database/articles/{entity}')
 
-        lst = [
-            'Wound Healing',
-            'Anti-Inflammatory',
-            'Pain Relief',
-            'Fever Reduction',
-            'Digestive Aid',
-            'Respiratory Health',
-            'Cardiovascular Support',
-            'Menstrual Health',
-            'Skin Health',
-            'Antioxidant Properties',
-        ]
-        
-        attribute_lst = ['medicine']
+        image_intro = f'\n\nThe following illustration lists the most important uses of [yarrow in medicine](/achillea-millefolium/medicine/).\n\n'
+
+        rows = csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
+        rows_filtered = [f'{x[1]}' for x in rows[:10]]
+
         image_title = f'{latin_name.capitalize()} Medicine'
+        image_filepath = ''
         try:
-            filepath = generate_image_medicine(entity, attribute_lst, lst)
-            article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+            image_filepath = generate_image_template_1(
+                entity, 
+                ['medicine', 'general'], 
+                rows_filtered,
+            )
         except: pass
 
-        article_folderpath = f'database/articles/{entity}'
-        article += get_content('medicinal', article_folderpath)
+        content_2 = get_content('medicinal', f'database/articles/{entity}')
+
+        article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_2 + '\n\n'
+
+
+
+
+        # medicinal
+        # article += f'## What are the Medicinal Uses of {common_name}?\n\n'
+
+        # article_folderpath = f'database/articles/{entity}'
+        # article += get_content('medicinal-uses', article_folderpath)
+        
+        # article += f'The following illustration lists the most important [Benefits of Yarrow](/achillea-millefolium/medicine/).\n\n'
+
+        # lst = [
+        #     'Wound Healing',
+        #     'Anti-Inflammatory',
+        #     'Pain Relief',
+        #     'Fever Reduction',
+        #     'Digestive Aid',
+        #     'Respiratory Health',
+        #     'Cardiovascular Support',
+        #     'Menstrual Health',
+        #     'Skin Health',
+        #     'Antioxidant Properties',
+        # ]
+        
+        # attribute_lst = ['medicine', 'general']
+        # image_title = f'{latin_name.capitalize()} Medicine'
+        # try:
+        #     filepath = generate_image_medicine(entity, attribute_lst, lst)
+        #     article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+        # except: pass
+
+        # article_folderpath = f'database/articles/{entity}'
+        # article += get_content('medicinal', article_folderpath)
         
         # culinary uses
         article += f'## What are the Culinary Uses of {common_name}?\n\n'
@@ -1823,38 +2000,117 @@ for i, row in enumerate(articles_master_rows[1:]):
         article += get_content('history-folklore', article_folderpath)
 
 
+
     else:
         if 'medicine' in attribute_1.lower() and attribute_2.strip() == '':
-            title = f'{latin_name.capitalize()} Medicinal Properties'
+            title = f'{common_name} ({latin_name.capitalize()}) Medicinal Guide: Benefits, Constituents, and Preparations'
             article += f'# {title}\n\n'
 
+            attribute_lst = ['medicine']
+            image_title = f'{latin_name.capitalize()} Medicinal Guide'
+            image_filepath = generate_featured_image_4x3(entity, attribute_lst, image_title)
             try:
-                attribute_lst = ['medicine', 'guide', '4x3']
-                image_title = f'{latin_name.capitalize()} Medicinal Guide'
-                filepath = generate_featured_image(entity, attribute_lst, image_title)
-                article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+                article += f'![{image_title}]({image_filepath} "{image_title}")\n\n'
             except: 
                 print(f'WARNING: missing image ({entity})')
 
-            article += f'## What are the health benefits and medicinal properties of {common_name}?\n\n'
-            content = get_content('medicine/benefits', f'database/articles/{entity}')
-            content_paragraphs = content.split('\n')
+            article += get_content('medicine/_intro', f'database/articles/{entity}')
+
+            # benefits
+            title_section = f'## What are the health benefits and medicinal properties of {common_name}?\n\n'
+
+            content_paragraphs = get_content('medicine/benefits', f'database/articles/{entity}').split('\n')
+
+            image_intro = f'\n\nThe following illustration shows the most important health benefits of yarrow.\n\n'
 
             rows = csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
-            rows_filtered = [f'{x[1]}' for x in rows]
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
 
-            attribute_lst = ['medicine', 'properties']
-            image_title = f'{latin_name.capitalize()} Medicinal Properties'
-            filepath = generate_image_medicinal_properties(entity, attribute_lst, rows_filtered)
-            content = content_paragraphs[0] + f'\n\n![{image_title}]({filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:])
-            content += '\n\n'
-            article += content
+            image_title = f'{latin_name.capitalize()} Medicinal Benefits'
+            image_filepath = generate_image_template_1(
+                entity, 
+                ['medicine', 'benefits'], 
+                rows_filtered,
+            )
 
-            rows = csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
-            article += f'The following list summarize the 10 most important health benefits of {latin_name}.\n\n'
-            rows_filtered = [f'{x[1]}: {x[2]}' for x in rows]
-            article += lst_to_blt(bold_blt(rows_filtered))
-            article += '\n\n'
+            lst_intro = f'The following list summarize the 10 most important health benefits of {latin_name}.\n\n'
+            lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
+            lst_formatted = lst_to_blt(bold_blt(lst_filtered))
+
+            article += title_section + content_paragraphs[0] + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:]) + '\n\n' + lst_intro + '\n\n' + lst_formatted + '\n\n'
+
+
+            # constituents
+            title_section = f'## What are the key constituents of {common_name} for health purposes?\n\n'
+            
+            content_paragraphs = get_content('medicine/constituents', f'database/articles/{entity}').split('\n')
+
+            image_intro = f'\n\nThe following illustration shows the most important constituents of yarrow.\n\n'
+
+            rows = csv_get_rows_by_entity(f'database/tables/medicine/constituents.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
+
+            image_title = f'{latin_name.capitalize()} Medicinal Constituents'
+            image_filepath = generate_image_template_1(
+                entity, 
+                ['medicine', 'constituents'], 
+                rows_filtered,
+            )
+
+            lst_intro = f'The following list summarize the 10 most important active constituents of {latin_name} for health purposes.\n\n'
+            lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
+            lst_formatted = lst_to_blt(bold_blt(lst_filtered))
+            
+            article += title_section + content_paragraphs[0] + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:]) + '\n\n' + lst_intro + '\n\n' + lst_formatted + '\n\n'
+
+
+
+            # preparations
+            title_section = f'## What are the key preparations of {common_name} for health purposes?\n\n'
+            
+            content_paragraphs = get_content('medicine/preparations', f'database/articles/{entity}').split('\n')
+
+            image_intro = f'\n\nThe following illustration shows the most important preparations of yarrow.\n\n'
+
+            rows = csv_get_rows_by_entity(f'database/tables/medicine/preparations.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
+
+            image_title = f'{latin_name.capitalize()} Medicinal Preparations'
+            image_filepath = generate_image_template_1(
+                entity, 
+                ['medicine', 'preparations'], 
+                rows_filtered,
+            )
+
+            lst_intro = f'The following list summarize the 10 most important preparations of {latin_name} for health purposes.\n\n'
+            lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
+            lst_formatted = lst_to_blt(bold_blt(lst_filtered))
+            
+            article += title_section + content_paragraphs[0] + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:]) + '\n\n' + lst_intro + '\n\n' + lst_formatted + '\n\n'
+
+            # precautions
+            title_section = f'## What precautions should you take when using {common_name} as a medicine?\n\n'
+            
+            content_paragraphs = get_content('medicine/precautions', f'database/articles/{entity}').split('\n')
+
+            image_intro = f'\n\nThe following illustration shows the most important precautions of yarrow.\n\n'
+
+            rows = csv_get_rows_by_entity(f'database/tables/medicine/precautions.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
+
+            image_title = f'{latin_name.capitalize()} Medicinal Precautions'
+            image_filepath = generate_image_template_1(
+                entity, 
+                ['medicine', 'precautions'], 
+                rows_filtered,
+            )
+
+            lst_intro = f'The following list summarize the 10 most important precautions of {latin_name} for health purposes.\n\n'
+            lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
+            lst_formatted = lst_to_blt(bold_blt(lst_filtered))
+            
+            article += title_section + content_paragraphs[0] + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:]) + '\n\n' + lst_intro + '\n\n' + lst_formatted + '\n\n'
+
 
             
 
@@ -2383,6 +2639,7 @@ articles_morphology_html = ''
 articles_taxonomy_html = ''
 articles_distribution_html = ''
 articles_main_html = ''
+articles_medicine_html = ''
 
 for article in articles:
     # entity = normalize(article[0])
@@ -2441,6 +2698,19 @@ for article in articles:
             </a>
             \n
         '''
+    elif attribute_1 == 'medicine' and attribute_2 == '':
+        img = f'images/{entity}-{attribute_1}.jpg'
+        url = f'{entity}/{attribute_1}'
+        title = f'{latin_name} {attribute_1}'
+        articles_medicine_html += f'''
+            <a href="{url}">
+                <div>
+                    <img src="{img}" alt="">
+                    <h2 class="mt-0 mb-0">{title}</h2>
+                </div>
+            </a>
+            \n
+        '''
     elif attribute_1 == '' and attribute_2 == '':
         img = f'images/{entity}-guide.jpg'
         url = f'{entity}/index.html'
@@ -2468,6 +2738,20 @@ if normalize(articles_main_html) != '':
             <p class="text-center mb-48">Learn everything about plants: botanical profile, medicinal uses, culinary tips and much more.</p>
             <div class="articles">
                 {articles_main_html}
+            </div>
+        </div>
+    </section>
+    '''
+    
+articles_section_medicine_html = ''
+if normalize(articles_medicine_html) != '':
+    articles_section_medicine_html = f'''
+    <section class="my-96">
+        <div class="container-lg">
+            <h2 class="text-center mb-16">Medicinal Guides on Plants</h2>
+            <p class="text-center mb-48">Learn how to use plants for improving your health: medicinal properties, active constituents, key preparations, and precautions.</p>
+            <div class="articles">
+                {articles_medicine_html}
             </div>
         </div>
     </section>
@@ -2544,6 +2828,8 @@ html = f'''
             </div>
         </section>
         {articles_section_main_html}
+        {articles_section_medicine_html}
+        
         {articles_section_morphology_html}
         {articles_section_taxonomy_html}
         {articles_section_distribution_html}
