@@ -1635,6 +1635,7 @@ for i, row in enumerate(articles_master_rows[1:]):
     article = ''
     featured_image_filpath = ''
 
+    # GENERAL GUIDE
     if attribute_1.strip() == '':
         title = f'{common_name.capitalize()} ({latin_name.capitalize()}) General Guide'
         article += f'# {title}\n\n'
@@ -1642,7 +1643,7 @@ for i, row in enumerate(articles_master_rows[1:]):
         try:
             attribute_lst = ['guide']
             image_title = f'{common_name.capitalize()} General Guide'
-            filepath = generate_featured_image(entity, attribute_lst, image_title)
+            filepath = generate_featured_image_4x3(entity, attribute_lst, image_title)
             article += f'![{image_title}]({filepath} "{image_title}")\n\n'
         except: 
             print(f'WARNING: missing image ({entity})')
@@ -2528,7 +2529,7 @@ for article in articles:
     latin_name = entity.replace('-', ' ').capitalize()
     
     try:
-        common_names = utils.csv_get_rows_by_entity('database/tables/botany/common-names.csv', 'achillea-millefolium')
+        common_names = utils.csv_get_rows_by_entity('database/tables/botany/common-names.csv', entity)
         common_name = common_names[0][1].lower()
     except:
         common_names = []
