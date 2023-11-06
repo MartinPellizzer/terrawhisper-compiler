@@ -871,6 +871,59 @@ def main():
         Include as many details as possible in as few words as possible.
         Use the metric system as the primary measuring system.
 
+        --------------------------------------------------------------------
+
+        Write me a list of the 10 most important cultivation tips for {common_name} ({latin_name}). 
+        Give me just the tips, don't add descriptions. 
+        Every tip must be less than 5 words. 
+        Every tip must start with a verb.
+        Use the metric system as the primary measuring system.
+
+
+
+
+
+        ''')
+        
+    print(f'''BOTANICAL 2
+
+        Write 4 paragraphs about {common_name} ({latin_name}).
+
+        In the first paragraph, write about how the traditional taxonomy of this plant (include domain, kingdom, phylum, class, order, family, genus, species).
+        In the second paragraph, write about the common name and variants of this plant.
+        In the third paragraph, write about the general morphology of this plant.
+        In the fourth paragraph, write about the geographic distribution and habitat of this plant.
+
+        Include as many details as possible in as few words as possible.
+        Use the metric system as the primary measuring system.
+        Write each paragraph in discursive format, don't use lists.
+        Don't mention this plant's culinary uses.
+        Don't mention this plant's medicinal uses.
+
+        Make sure that what you write doesn't contradict with the data given in the following list:
+
+        {morphology_rows}
+
+        --------------------------------------------------------------------
+
+        Write me a list of the 10 most important cultivation tips for {common_name} ({latin_name}). 
+        Give me just the tips, don't add descriptions. 
+        Every tip must be less than 5 words. 
+        Every tip must start with a verb.
+        Use the metric system as the primary measuring system.
+
+        --------------------------------------------------------------------
+
+
+        Write a paragraph about the regional distribution and habitat of {common_name} ({latin_name})
+        Include as many details as possible in as few words as possible.
+        Don't mention the uses of this plant.
+        Don't mention the morphology of this plant.
+
+        Also, start the paragraph with the following words:
+        
+        About {common_name}'s geographic distribution, it is
+
 
 
 

@@ -1,0 +1,1 @@
+Acorus calamus belongs to the domain Eukarya, the kingdom Plantae, the phylum Angiosperms, the class Monocots, the order Acorales, the family Acoraceae, the genus Acorus, and the species Acorus calamus.
