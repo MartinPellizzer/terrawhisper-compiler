@@ -1,8 +1,6 @@
-# TODO: fix aesculus-hippocastanum leaf image (probaly also future images (because table if f*cked))
-# TODO: in distribution articles, find a way to separate native to naturalzied (maybe both)
-# TODO: complete taxonomy articles first, you need common names for rest
-# TODO: save lists of h3 to generate images? or, if nothing else for db
-# TODO: fix featured image title
+# TODO: fix parameters (unite) in function get_content('horticulture-conditions', f'database/articles/{entity}')
+# TODO: add last line in intro (ex. this article will teach you...)
+# TODO: add dates to articles
 
 
 import json
@@ -1637,9 +1635,9 @@ for i, row in enumerate(articles_master_rows[1:]):
 
     # GENERAL GUIDE
     if attribute_1.strip() == '':
-        title = f'{common_name.capitalize()} ({latin_name.capitalize()}) General Guide'
+        title = f'{common_name.capitalize()} ({latin_name.capitalize()}) Overview'
         article += f'# {title}\n\n'
-            
+
         try:
             attribute_lst = ['guide']
             image_title = f'{common_name.capitalize()} General Guide'
@@ -1647,6 +1645,8 @@ for i, row in enumerate(articles_master_rows[1:]):
             article += f'![{image_title}]({filepath} "{image_title}")\n\n'
         except: 
             print(f'WARNING: missing image ({entity})')
+            
+        article += get_content('_intro', f'database/articles/{entity}')
 
 
 
@@ -1783,7 +1783,7 @@ for i, row in enumerate(articles_master_rows[1:]):
 
         # history
         title_section = f'## What is the history and folklore of {common_name}?\n\n'
-        content_1 = get_content('history', f'database/articles/{entity}')
+        content_1 = get_content('history-medicine', f'database/articles/{entity}')
 
         image_intro = f'\n\nThe following illustration lists the most well known historical uses of {common_name}.\n\n'
         
@@ -1801,9 +1801,10 @@ for i, row in enumerate(articles_master_rows[1:]):
             )
         except: pass
 
-        content_2 = get_content('history-folklore', f'database/articles/{entity}')
+        content_2 = get_content('history-divination', f'database/articles/{entity}')
+        content_3 = get_content('history-legends', f'database/articles/{entity}')
 
-        content_secondary = f'{content_2}\n\n'
+        content_secondary = f'{content_2}\n\n{content_3}\n\n'
 
         article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
 
@@ -1953,7 +1954,6 @@ for i, row in enumerate(articles_master_rows[1:]):
             
             article += title_section + content_paragraphs[0] + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:]) + '\n\n' + lst_intro + '\n\n' + lst_formatted + '\n\n'
 
-
             
         elif 'cuisine' in attribute_1.lower() and attribute_2.strip() == '':
 
@@ -1994,8 +1994,6 @@ for i, row in enumerate(articles_master_rows[1:]):
             lst_formatted = lst_to_blt(bold_blt(lst_filtered))
 
             article += title_section + content_paragraphs[0] + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:]) + '\n\n' + lst_intro + '\n\n' + lst_formatted + '\n\n'
-
-
 
 
         elif 'botany' in attribute_1.lower() and attribute_2.strip() == '':

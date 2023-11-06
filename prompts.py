@@ -932,7 +932,7 @@ def main():
 
     print(f'''HISTORY FOLKLORE
     
-        Write 3 paragraphs about Yarrow {common_name} ({latin_name}).
+        Write 3 paragraphs about {common_name} ({latin_name}).
 
         In the first paragraph, write about this plant in traditional folk medicine and its role in different cultures.
         In the second paragraph, write about the ancient uses of this plant in divination.
@@ -940,6 +940,23 @@ def main():
 
         Include as many details as possible in as few words as possible.
         Use the metric system as the primary measuring system.
+
+        --------------------------------------------------------------------
+
+        Write me a list of the 10 most well known historical folkloristic uses of {common_name} ({latin_name}). 
+        Give me just the uses, don't add descriptions. 
+        Every item in the list must be less than 5 words.
+
+        --------------------------------------------------------------------
+
+        Ok, rewrite the items in the previous list using less than 5 words for each item.
+
+        --------------------------------------------------------------------
+        
+        Ok, now add a brief description to each element in the previous list.
+
+
+
 
 
         ''')
