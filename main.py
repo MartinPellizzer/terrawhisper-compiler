@@ -1650,36 +1650,6 @@ for i, row in enumerate(articles_master_rows[1:]):
 
 
 
-        # botanical
-        title_section = f'## What is the botanical profile of {common_name}?\n\n'
-        content_1 = get_content('botany-taxonomy', f'database/articles/{entity}')
-
-        image_intro = f'\n\nThe following illustration show the traditional taxonomy of {common_name}.\n\n'
-
-        rows = utils.csv_get_rows_by_entity_with_header(f'database/tables/botany/taxonomy.csv', entity)
-        rows_filtered = []
-        for k in range(len(rows[0])):
-            if k == 0: continue
-            rows_filtered.append(f'{rows[0][k].capitalize()}: {rows[1][k]}')
-        
-        image_title = f'{latin_name.capitalize()} Botany'
-        
-        image_filepath = ''
-        try:
-            image_filepath = generate_image_template_1(
-                entity, 
-                ['botany', 'general'], 
-                rows_filtered,
-            )
-        except: pass
-
-        content_2 = get_content('botany-common', f'database/articles/{entity}')
-        content_3 = get_content('botany-morphology', f'database/articles/{entity}')
-        content_4 = get_content('botany-distribution', f'database/articles/{entity}')
-        content_secondary = f'{content_2}\n\n{content_3}\n\n{content_4}\n\n'
-        
-        article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
-
         
         # benefits
         title_section = f'## What are the medicinal uses of {common_name}?\n\n'
@@ -1778,6 +1748,36 @@ for i, row in enumerate(articles_master_rows[1:]):
         article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
 
 
+
+        # botanical
+        title_section = f'## What is the botanical profile of {common_name}?\n\n'
+        content_1 = get_content('botany-taxonomy', f'database/articles/{entity}')
+
+        image_intro = f'\n\nThe following illustration show the traditional taxonomy of {common_name}.\n\n'
+
+        rows = utils.csv_get_rows_by_entity_with_header(f'database/tables/botany/taxonomy.csv', entity)
+        rows_filtered = []
+        for k in range(len(rows[0])):
+            if k == 0: continue
+            rows_filtered.append(f'{rows[0][k].capitalize()}: {rows[1][k]}')
+        
+        image_title = f'{latin_name.capitalize()} Botany'
+        
+        image_filepath = ''
+        try:
+            image_filepath = generate_image_template_1(
+                entity, 
+                ['botany', 'general'], 
+                rows_filtered,
+            )
+        except: pass
+
+        content_2 = get_content('botany-common', f'database/articles/{entity}')
+        content_3 = get_content('botany-morphology', f'database/articles/{entity}')
+        content_4 = get_content('botany-distribution', f'database/articles/{entity}')
+        content_secondary = f'{content_2}\n\n{content_3}\n\n{content_4}\n\n'
+        
+        article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
 
 
 
@@ -1953,6 +1953,38 @@ for i, row in enumerate(articles_master_rows[1:]):
             lst_formatted = lst_to_blt(bold_blt(lst_filtered))
             
             article += title_section + content_paragraphs[0] + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:]) + '\n\n' + lst_intro + '\n\n' + lst_formatted + '\n\n'
+
+        elif 'medicine' in attribute_1.lower() and 'benefits' in attribute_2.strip():
+            title = f'10 Health Benefits of {common_name.capitalize()} ({latin_name.capitalize()})'
+            article += f'# {title}\n\n'
+
+            attribute_lst = ['medicine', 'benefits', 'overview']
+            image_title = f'{common_name.capitalize()}\'s Medicinal Benefits'
+            image_filepath = generate_featured_image_4x3(entity, attribute_lst, image_title)
+            try:
+                article += f'![{image_title}]({image_filepath} "{image_title}")\n\n'
+            except: 
+                print(f'WARNING: missing image ({entity})')
+
+            
+            # benefits
+            rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
+            for i, item in enumerate(rows_filtered):
+                if i < 10: num = f'0{i}'
+                else: num = f'{i}'
+            
+                title_section = f'## {i+1}. {item}\n\n'
+                item_formatted = item.replace(' ', '-').lower()
+                filename = f'{num}-{item_formatted}'
+                filepath = f'medicine/benefits/{filename}'
+
+                content_section = get_content(f'{filepath}', f'database/articles/{entity}')
+                # print(content_section)
+
+                article += title_section + content_section + '\n\n'
+
+
 
             
         elif 'cuisine' in attribute_1.lower() and attribute_2.strip() == '':

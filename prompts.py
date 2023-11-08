@@ -1110,6 +1110,33 @@ def medicine():
         ''')
 
 
+def medicine_benefits():
+    
+    print(f'''10 BENEFITS
+    
+        Write 3 paragraphs about {common_name} ({latin_name}).
+
+        In the first paragraph, write about this plant's ability to ___, and what are the constituents that this plant has to get this health benefit. Also, include numbers and data about the quantities of these constituents in this plant.
+        In the second paragraph, write about examples of health conditions that can benefit from the beneficial property described in the first paragraph.
+        In the third paragraph, write about which parts of this plant can be used to get the benefit described in the first paragraph and which preparations can be made for that.
+
+        Include as many details, data, and numbers as possible in as few words as possible.
+        Use the metric system as the primary measuring system.
+
+        The first paragraph must start with the following words:
+
+        {common_name} ___ thanks to
+
+
+
+
+
+        ''')
+        
+
+
+
+
 def cuisine():
 
     print(f'''CULINARY USES
@@ -1213,6 +1240,7 @@ elif attribute_2 == 'taxonomy': taxonomy()
 elif attribute_2 == 'distribution': distribution()
 elif attribute_1 == 'botany': botany()
 elif attribute_1 == 'medicine': medicine()
+elif attribute_1 == 'medicine_benefits': medicine_benefits()
 elif attribute_1 == 'cuisine': cuisine()
 elif attribute_1 == 'horticultural': horticultural()
 elif attribute_1 == 'botany': botany()

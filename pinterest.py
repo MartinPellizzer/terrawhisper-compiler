@@ -8,10 +8,26 @@ import os
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-def pin_generate(entity, common_name):
-    img_folder = f'G:\\tw-images\\pin\\{entity}'
-    img_filenames = os.listdir(img_folder)
-    img = Image.open(f'{img_folder}/{img_filenames[0]}')
+
+driver = webdriver.Firefox()
+driver.get("https://www.pinterest.com/login/")
+time.sleep(3)
+
+e = driver.find_element(By.XPATH, '//input[@id="email"]')
+e.send_keys('martinpellizzer@gmail.com') 
+time.sleep(3)
+
+e = driver.find_element(By.XPATH, '//input[@id="password"]')
+e.send_keys('Newoliark1') 
+time.sleep(3)
+
+e = driver.find_element(By.XPATH, '//div[text()="Log in"]')
+e.click()
+time.sleep(3)
+
+
+def pin_generate(entity, common_name, filename):
+    img = Image.open(f'{img_folder}/{filename}')
 
     img_w = 600
     img_h = 900
@@ -27,7 +43,7 @@ def pin_generate(entity, common_name):
     font_size = 72
     line_spacing = 1.3
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = common_name
+    line = common_name.upper()
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
     draw.text((img_w//2 - line_w//2, img_h//2 - line_h - 20 + offset_center_y), line, '#ffffff', font=font)
@@ -54,54 +70,51 @@ def pin_generate(entity, common_name):
 
     draw.text((img_w//2 - line_w//2, img_h//2 + 60 + offset_center_y), line, '#ffffff', font=font)
 
-    img.show()
+    # img.show()
 
+    common_name = common_name.lower().replace(' ', '-')
     img.save(f'tmp/{common_name}-guide.jpg', format='JPEG', subsampling=0, quality=100)
 
 
-pin_generate('acorus-calamus', 'SWEET FLAG')
+entity = 'achillea-millefolium'
+common_name = 'Yarrow'
 
-quit()
+img_folder = f'G:\\tw-images\\pin\\{entity}'
+img_filenames = os.listdir(img_folder)
+# print(img_filenames)
+pin_generate(entity, common_name, img_filenames[1])
 
-def pinterest_login():
-    driver = webdriver.Firefox()
-    driver.get("https://www.pinterest.com/login/")
-    time.sleep(3)
 
-    e = driver.find_element(By.XPATH, '//input[@id="email"]')
-    e.send_keys('martinpellizzer@gmail.com') 
-    time.sleep(3)
 
-    e = driver.find_element(By.XPATH, '//input[@id="password"]')
-    e.send_keys('Newoliark1') 
-    time.sleep(3)
 
-    e = driver.find_element(By.XPATH, '//div[text()="Log in"]')
-    e.click()
-    time.sleep(3)
 
-pinterest_login()
 
-# def pinterest_pin():
+latin_name = entity.replace('-', ' ').capitalize()
+common_name = 'yarrow'
+common_name_title = common_name.title()
+common_name_formatted = common_name.lower().replace(' ', '-')
+attribute = 'guide'
+title = f'{common_name_title} ({latin_name}): Medicinal, Botanical, and Horticultural Guide'
+description = "Achillea millefolium has many common names, but the most common is Yarrow. Other common names are Common yarrow, Milfoil, Thousand-leaf, Soldier's woundwort, Nosebleed plant, Old man's pepper, Staunchweed, Sanguinary, Western yarrow, and Knight's milfoil. A. millefolium also has many variants, such as Red Velvet, Paprika, Cerise Queen, Moonshine, Summer Pastels, Lilac Beauty, Coronation Gold, Saucy Seduction, Apple Blossom, and the Colorado Mix."
+
 driver.get("https://www.pinterest.com/pin-creation-tool/")
-
+time.sleep(3)
 
 e = driver.find_element(By.XPATH, '//input[@id="storyboard-upload-input"]')
-e.send_keys(r'C:\terrawhisper-compiler\tmp\yarrow-guide.jpg') 
+e.send_keys(f'C:\\terrawhisper-compiler\\tmp\\{common_name_formatted}-{attribute}.jpg') 
 time.sleep(3)
 
 e = driver.find_element(By.XPATH, '//input[@id="storyboard-selector-title"]')
-e.send_keys('Yarrow (Achillea millefolium): A Medicinal, Botanical, and Horticultural Guide')
+e.send_keys(title)
 time.sleep(3) 
 
-text = 'Yarrow (Achillea millefolium) belongs to the domain Eukaryota within the kingdom Plantae. It is classified as an Angiosperm (Magnoliophyta) and falls under the Eudicots, a group of flowering plants. Within the order Asterales, this plant is part of the family Asteraceae. The genus name is Achillea, and the specific species is Achillea millefolium.'
 e = driver.find_element(By.XPATH, "//div[@class='notranslate public-DraftEditor-content']")
-for c in text:
+for c in description:
     e.send_keys(c)
 time.sleep(3)
 
 e = driver.find_element(By.XPATH, '//input[@id="WebsiteField"]')
-e.send_keys('https://terrawhisper.com/achillea-millefolium/') 
+e.send_keys(f'https://terrawhisper.com/{entity}/') 
 time.sleep(3)
 
 e = driver.find_element(By.XPATH, '//button[@data-test-id="board-dropdown-select-button"]')
@@ -109,10 +122,10 @@ e.click()
 time.sleep(5)
 
 e = driver.find_element(By.XPATH, '//input[@id="pickerSearchField"]')
-e.send_keys('yarrow') 
+e.send_keys(common_name_title) 
 time.sleep(3)
 
-e = driver.find_element(By.XPATH, '//div[@data-test-id="board-row-Yarrow (Achillea Millefolium)"]')
+e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-{common_name_title} ({latin_name})"]')
 e.click()
 time.sleep(3)
 
@@ -128,7 +141,7 @@ e.click()
 # e.clear()
 # e.send_keys('test') 
 # e.hover() 
-e.click() 
+# e.click() 
 
 # elem.clear()
 # elem.send_keys("pycon")

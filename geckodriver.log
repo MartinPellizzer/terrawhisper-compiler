@@ -1010,3 +1010,132 @@ JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
 JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1699449566875	geckodriver	INFO	Listening on 127.0.0.1:56682
+1699449569965	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56683" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileM6CZLs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699449570418	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699449570523	Marionette	INFO	Listening on port 56692
+WebDriver BiDi listening on ws://127.0.0.1:56683
+Read port: 56692
+1699449570961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56683/devtools/browser/40df2ddc-9c52-401b-acdf-7c28265b0b68
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1699449600531	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://s.pinimg.com/webapp/AuthDesktopHomePage-1bc7cb5aeda7a6c5.mjs, line 146: Script terminated by timeout at:
+931696/x<@https://s.pinimg.com/webapp/AuthDesktopHomePage-1bc7cb5aeda7a6c5.mjs:146:86332
+iS@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:60901
+ov@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:72779
+of@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:71985
+s@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:122795
+lU@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:99072
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:98945
+lC@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:93984
+h@https://s.pinimg.com/webapp/41825-427e6367edb95595.mjs:30:1365
+I@https://s.pinimg.com/webapp/41825-427e6367edb95595.mjs:30:1894
+
+1699449815371	Marionette	INFO	Stopped listening on port 56692
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: uncaught exception: Object
+1699449850216	geckodriver	INFO	Listening on 127.0.0.1:56845
+1699449853286	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56846" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilenbrUOS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699449853698	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699449853783	Marionette	INFO	Listening on port 56857
+WebDriver BiDi listening on ws://127.0.0.1:56846
+Read port: 56857
+1699449854051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56846/devtools/browser/6a46dd88-14bd-4fb6-8b2f-f1d0e0ce9fd5
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript warning: https://accounts.google.com/gsi/button?size=large&shape=pill&text=continue_with&theme=outline&width=268px&click_listener=()%3D%3E(0%2Ci.EX)(%7Bevent%3A%22start%22%2Cprovider%3A%22google%22%7D)&client_id=694505692171-31closf3bcmlt59aeulg2j81ej68j6hk.apps.googleusercontent.com&iframe_id=gsi_858516_84056&as=BX5%2FEvJW3gjjKILYjV4GDQ&hl=en-US, line 197: Script terminated by timeout at:
+Ri@/_/gsi/_/js/k=gsi.gsi.en_US.gNRnwkFw-k0.O/am=AEAw/d=1/rs=AF0KOtVq8cfbcdJdgGDu5EqRSTzkqdZRtg/m=credential_button_library:197:277
+Oi@/_/gsi/_/js/k=gsi.gsi.en_US.gNRnwkFw-k0.O/am=AEAw/d=1/rs=AF0KOtVq8cfbcdJdgGDu5EqRSTzkqdZRtg/m=credential_button_library:197:225
+Ii.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.gNRnwkFw-k0.O/am=AEAw/d=1/rs=AF0KOtVq8cfbcdJdgGDu5EqRSTzkqdZRtg/m=credential_button_library:194:61
+Ii/<@/_/gsi/_/js/k=gsi.gsi.en_US.gNRnwkFw-k0.O/am=AEAw/d=1/rs=AF0KOtVq8cfbcdJdgGDu5EqRSTzkqdZRtg/m=credential_button_library:188:288
+qc@/_/gsi/_/js/k=gsi.gsi.en_US.gNRnwkFw-k0.O/am=AEAw/d=1/rs=AF0KOtVq8cfbcdJdgGDu5EqRSTzkqdZRtg/m=credential_button_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.en_US.gNRnwkFw-k0.O/am=AEAw/d=1/rs=AF0KOtVq8cfbcdJdgGDu5EqRSTzkqdZRtg/m=credential_button_library:59:473
+
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1699449884525	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs, line 45: Script terminated by timeout at:
+s@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:45:254
+R@https://s.pinimg.com/webapp/AuthDesktopPageWrapper-08fc245892146144.mjs:52:15881
+iS@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:60901
+ov@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:72779
+s@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:120312
+lU@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:99072
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:98945
+lC@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:93984
+h@https://s.pinimg.com/webapp/41825-427e6367edb95595.mjs:30:1365
+I@https://s.pinimg.com/webapp/41825-427e6367edb95595.mjs:30:1894
+
+1699449949438	Marionette	INFO	Stopped listening on port 56857
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: uncaught exception: Object
+1699449982289	geckodriver	INFO	Listening on 127.0.0.1:56976
+1699449985358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56977" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilerGx9Mx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699449985750	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699449985838	Marionette	INFO	Listening on port 56986
+WebDriver BiDi listening on ws://127.0.0.1:56977
+Read port: 56986
+1699449986097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56977/devtools/browser/ef901534-8ccf-430a-bf76-df1a2de8f0e6
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yz/l/en_US/OueYbwgmFiG.js?_nc_x=Ij3Wp8lg5Kz, line 97: Script terminated by timeout at:
+b.toCompressedString@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yz/l/en_US/OueYbwgmFiG.js?_nc_x=Ij3Wp8lg5Kz:97:541
+getLoadedModuleHash@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yz/l/en_US/OueYbwgmFiG.js?_nc_x=Ij3Wp8lg5Kz:199:160
+a@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yz/l/en_US/OueYbwgmFiG.js?_nc_x=Ij3Wp8lg5Kz:215:1052
+getEndPointUrl@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yz/l/en_US/OueYbwgmFiG.js?_nc_x=Ij3Wp8lg5Kz:394:425
+_tryToSendViaBeacon@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yz/l/en_US/OueYbwgmFiG.js?_nc_x=Ij3Wp8lg5Kz:402:4214
+_initialize/<@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yz/l/en_US/OueYbwgmFiG.js?_nc_x=Ij3Wp8lg5Kz:402:1247
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yz/l/en_US/OueYbwgmFiG.js?_nc_x=Ij3Wp8lg5Kz:66:10432
+c.__emitToSubscription@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yz/l/en_US/OueYbwgmFiG.js?_nc_x=Ij3Wp8lg5Kz:75:1477
+c.emit@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yz/l/en_US/OueYbwgmFiG.js?_nc_x=Ij3Wp8lg5Kz:75:1303
+@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yz/l/en_US/OueYbwgmFiG.js?_nc_x=Ij3Wp8lg5Kz:401:1046
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yz/l/en_US/OueYbwgmFiG.js?_nc_x=Ij3Wp8lg5Kz:66:10432
+d@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yz/l/en_US/OueYbwgmFiG.js?_nc_x=Ij3Wp8lg5Kz:501:2086
+
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1699450017667	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs, line 1: Script terminated by timeout at:
+938085/U/</<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:20688
+t@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16477
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-9086LN3SRR, line 161: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-9086LN3SRR:161:17
+jA@https://www.googletagmanager.com/gtag/js?id=G-9086LN3SRR:482:134
+kA/<@https://www.googletagmanager.com/gtag/js?id=G-9086LN3SRR:482:111
+
+1699462821280	Marionette	INFO	Stopped listening on port 56986
+Dynamically enable window occlusion 1

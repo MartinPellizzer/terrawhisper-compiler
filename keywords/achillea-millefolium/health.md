@@ -1,132 +1,71 @@
-benef
-    yarrow benefits
-    yarrow herb benefits
-    yarrow health benefits
-    yarrow benefits for skin
-    yarrow oil benefits
-    yarrow essential oil benefits
-    yarrow oil benefits for skin
-    yarrow essential oil benefits for skin
-    yarrow extract benefits
-    yarrow flower benefits
-    yarrow leaf benefits
-    yarrow leaves benefits
-    yarrow root benefits
-    yarrow tincture benefits
-    yarrow plant benefits
-    yarrow flower benefits for hair
-    yarrow flower tincture benefits
-    yarrow tea benefits for period
-    yarrow tea health benefits
-    yarrow tea benefits and side effects
-    yarrow tea benefits
-    yarrow tea benefits for skin
-    yarrow pom essential oil benefits
-    blue yarrow essential oil benefits
-    health benefits of yarrow essential oil
-    yarrow essential oil skin benefits
-    benefits of yarrow essential oil
-    benefits of blue yarrow essential oil
-    yarrow leaf and flower benefits
-    yarrow benefits for hair
-    yarrow benefits and side effects
-    yarrow benefits for periods
-    yarrow benefits in garden
-    yarrow benefits and uses
-    yarrow benefits for yoni
-    yarrow benefits tea
-    yarrow benefits for teeth
-    yarrow benefits for fertility
-    yarrow benefits for face
-    yarrow achillea benefits
-    yarrow emotional benefits
-    wild yarrow benefits
-    yarrow bath benefits
-    yarrow balm benefits
-    blue yarrow benefits
-    best yarrow benefits
-    yarrow capsules benefits
-    yarrow cream benefits
-    yarrow pom capsules benefits
-    yarrow supplement benefits
-    yarrow benefits digestion
-    yarrow drops benefits
-    dried yarrow benefits
-    yarrow eo benefits
-    yarrow flower essence benefits
-    yarrow benefits for tea
-    yarrow pom benefits for skin
-    golden yarrow benefits
-    yarrow benefits herbal medicine
-    yarrow hair benefits
-    yarrow hydrosol benefits
-    yarrow herbal benefits
-    yarrow healing benefits
-    yarrow tincture health benefits
-    yarrow skin health benefits
-    dried yarrow health benefits
-    yarrow benefits in soap
-    yarrow powder benefits in soap
-    yarrow flower skin benefits
-    yarrow skin benefits
-    common yarrow tea benefits
-    common yarrow benefits
-    common yarrow leaves benefits
-    common yarrow root benefits
-    yarrow pom benefits
-    yarrow benefits for horses
-    yarrow benefits for dogs
-    yarrow benefits dr axe
-    yarrow ayurvedic benefits
-    yarrow pom doterra benefits
-    yarrow benefits for garden
-    yarrow benefits garden
-    yarrow grass benefits
-    benefits of yarrow
-    yellow yarrow benefits
-    benefits yarrow tea
-    benefits of yarrow root
-    benefits of yarrow powder
-    yarrow medicinal benefits
-    moonshine yarrow benefits
-    yarrow and comfrey moisturiser benefits
-    yarrow nutrition benefits
-    yarrow pom oil benefits
-    benefits of yarrow tea
-    benefits of yarrow tincture
-    benefits of yarrow for skin
-    benefits of yarrow in the garden
-    benefits of yarrow salve
-    benefits of yarrow for horses
-    benefits of yarrow palm
-    yarrow powder benefits
-    yarrow aerial parts benefits
-    dried yarrow root benefits
-    red yarrow benefits
-    yarrow benefits research
-    yarrow benefits skin
-    yarrow salve benefits
-    yarrow smoking benefits
-    yarrow soap benefits
-    yarrow soil benefits
-    yarrow seeds benefits
-    blue yarrow skin benefits
-    yarrow bath soak benefits
-    yarrow pom skin benefits
-    yarrow pom serum benefits
-    yarrow topical benefits
-    yarrow tcm benefits
-    mullein and yarrow tea benefits
-    the yarrow benefits
-    yarrow uses and benefits
-    benefits of yarrow herb
-    yarrow leaf tea benefits
-    achillea millefolium skin benefits
-    achillea millefolium tea benefits
-    ginkgo ginseng and maca benefits
-    ginkgo and ginseng benefits
-    yarrow flowers benefits
-    yarrow flowers skin benefits
+yarrow, herb, plant, grass
+herbal medicine
+healing
+benefits, health
+    oil
+    capsules
+    bath
+    balm
+    cream
+    drops
+    hydrosol
+    supplement
+    soap
+    powder in soap
+    salve
+    serum
+    essential oil
+        for skin
+        topical
+    extract
+    aerial parts
+    flower
+    flower essence
+        for hair
+        tincture
+    leaves
+    root
+    seeds
+    tincture
+    tea
+        for period
+        for skin
+    for yoni
+    for teeth
+    for fertility
+    for face
+    emotional benefits
+    digestion
+
+blue yarrow
+    essential oil
+wild yarrow
+
+side effects
+uses
+
+dried yarrow
+golden yarrow
+yellow yarrow 
+moonshine yarrow
+red yarrow
+
+best
+
+in garden
+soil
+
+for horses
+for dogs
+ayurvedic
+
+nutrition benefits
+research
+smoking
+
+tcm benefits
+
+uses
 
 prop
     yarrow healing properties
@@ -139,11 +78,9 @@ prop
     yarrow herb properties
     yarrow antimicrobial properties
     yarrow ayurvedic properties
-    yarrow properties ltd
 
 medic
     yarrow plant medicine
-    # medicinal
     yarrow medicinal uses
     yarrow medical
     yarrow medicine
