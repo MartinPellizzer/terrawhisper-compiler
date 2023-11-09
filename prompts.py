@@ -1116,7 +1116,7 @@ def medicine_benefits():
     
         Write 3 paragraphs about {common_name} ({latin_name}).
 
-        In the first paragraph, write about this plant's ability to ___, and what are the constituents that this plant has to get this health benefit. Also, include numbers and data about the quantities of these constituents in this plant.
+        In the first paragraph, write about this plant's ability to ___, and what constituents this plant has to get this health benefit. Also, include numbers and data about the quantities of these constituents in this plant.
         In the second paragraph, write about examples of health conditions that can benefit from the beneficial property described in the first paragraph.
         In the third paragraph, write about which parts of this plant can be used to get the benefit described in the first paragraph and which preparations can be made for that.
 
@@ -1127,8 +1127,20 @@ def medicine_benefits():
 
         {common_name} ___ thanks to
 
+        --------------------------------------------------------------------
 
+        Write 3 paragraphs about {common_name} ({latin_name}) about the following health benefit: ___.
 
+        In the first paragraph, write about this plant's ability to get this health benefit, and what constituents this plant has to get this health benefit. Also, include numbers and data about the quantities of these constituents in this plant.
+        In the second paragraph, write about examples of health conditions that can benefit from this health benefit. Don't talk about health conditions unrelated to this health benefit.
+        In the third paragraph, write about which parts of this plant can be used to get this health benefit and which preparations can be made.
+
+        Include as many details, data, and numbers as possible in as few words as possible.
+        Use the metric system as the primary measuring system.
+
+        The first paragraph must start with the following words:
+
+        {common_name} ___ thanks to
 
 
         ''')

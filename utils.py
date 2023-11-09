@@ -1,5 +1,25 @@
 import csv
 
+
+def is_row_not_empty(row):
+    found = False
+    for cell in row:
+        if cell.strip() != '':
+            found = True
+            break
+    return found
+
+    
+def csv_to_llst(filepath):
+    llst = []
+    with open(filepath, newline='') as f:
+        reader = csv.reader(f, delimiter='\\')
+        for row in reader:
+            if is_row_not_empty(row):
+                llst.append(row)
+    return llst
+
+    
 def csv_get_rows_by_entity(filepath, entity):
     rows = []
     with open(filepath, encoding='utf-8', errors='ignore') as f:

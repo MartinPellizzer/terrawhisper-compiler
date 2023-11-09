@@ -12,7 +12,7 @@ print(out_filename)
 print(word)
 # quit()
 
-with open(f'keywords/{entity}/keywords.md', encoding='utf-8') as f:
+with open(f'keywords/{entity}/master.md', encoding='utf-8') as f:
     keywords = f.readlines()
 
 
@@ -26,7 +26,7 @@ for keyword in keywords:
         keep_lst.append(keyword)
 
 
-with open(f'keywords/{entity}/keywords.md', 'w', encoding='utf-8') as f:
+with open(f'keywords/{entity}/master.md', 'w', encoding='utf-8') as f:
     for item in keep_lst:
         f.write(f'{item}\n')
         

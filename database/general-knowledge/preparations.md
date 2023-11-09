@@ -1,0 +1,20 @@
+essential oil
+tea
+hydrosol
+infusion
+extract
+tincture
+powder
+essence
+dried
+wild
+bath
+balm
+cream
+soap
+capsules
+supplement
+drops
+salve
+seeds
+smoking

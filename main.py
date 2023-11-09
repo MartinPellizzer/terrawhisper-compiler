@@ -89,23 +89,9 @@ def bold_blt(lst):
     return bld_lst
 
 
-def is_row_not_empty(row):
-    found = False
-    for cell in row:
-        if cell.strip() != '':
-            found = True
-            break
-    return found
 
 
-def csv_to_llst(filepath):
-    llst = []
-    with open(filepath, newline='') as f:
-        reader = csv.reader(f, delimiter='\\')
-        for row in reader:
-            if is_row_not_empty(row):
-                llst.append(row)
-    return llst
+
 
 
 # def csv_get_rows_by_entity(filepath, entity):
@@ -1588,7 +1574,7 @@ for chunk in chunks:
 
 articles_home = []
 
-articles_master_rows = csv_to_llst('database/tables/articles.csv')
+articles_master_rows = utils.csv_to_llst('database/tables/articles.csv')
 
 # index col with dict
 articles_dict = {}
@@ -2547,7 +2533,7 @@ for i, row in enumerate(articles_master_rows[1:]):
 # HOME PAGE
 ##################################################################################################
 
-articles = csv_to_llst('database/tables/articles.csv')[1:]
+articles = utils.csv_to_llst('database/tables/articles.csv')[1:]
 
 articles_morphology_html = ''
 articles_taxonomy_html = ''
