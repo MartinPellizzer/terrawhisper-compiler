@@ -1,4 +1,4 @@
-- complete article on 10 health benefits of yarrow
+- complete article on 10 health benefits of yarrow (intro + side content)
 - write article on 10 health benefits of sweet flag
 - pinterest
     auto generate description (done, but maybe append all paragraphs before choosing - more reliable randomization)

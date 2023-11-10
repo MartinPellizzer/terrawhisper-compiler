@@ -1369,6 +1369,113 @@ def generate_image_template_1(entity, attribute_lst, lst):
 
     return filepath
 
+    
+def generate_image_template_medicine_benefits(entity, common_name, image_filename, item):
+    attribute_lst = ['medicine', 'benefits', item]
+
+    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits/benefits.csv', entity)
+    rows_constituents = [f'- {x[3].title()}' for x in rows if x[1] == item.lower().replace(' ', '-').strip() and x[2] == 'constituent']
+    lst_constituents = rows_constituents[:3]
+    rows_preparations = [f'- {x[3].title()}' for x in rows if x[1] == item.lower().replace(' ', '-').strip() and x[2] == 'preparation']
+    lst_preparations = rows_preparations[:3]
+
+    bg_image_path = f'G:/tw-images/{entity}/medicine/benefits/{image_filename}'
+
+    img_w = 1024
+    img_h = 768
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#fafafa')
+    draw = ImageDraw.Draw(img)
+
+    attributes_path = '-'.join(attribute_lst)
+    img_background = Image.open(bg_image_path)
+    img_background_w = 576
+    img_background_h = 768
+    img_background.thumbnail((img_background_w, img_background_h), Image.Resampling.LANCZOS)
+    img.paste(img_background, (img_w - img_background_w, 0))
+
+    xy = [
+        (0, 0,),
+        (img_background_w, 0,),
+        (img_w - img_background_w, img_h,),
+        (0, img_h,),
+    ]
+    draw.polygon(xy, fill ="#0f766e") 
+
+    current_y = 0
+
+    # Title
+    font_size = 48
+    line_spacing = 1.3
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = common_name.title()
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((50, 50), line, '#ffffff', font=font)
+
+    font_size = 48
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    title_tmp = common_name.title()
+    title_w = font.getbbox(title_tmp)[2]
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    subtitle_tmp = attribute_lst[-1].upper()
+    subtitle_w = font.getbbox(subtitle_tmp)[2]
+
+    if title_w > subtitle_w: divider_w = title_w
+    else: divider_w = subtitle_w
+    draw.rectangle(((50, 50 + line_h + 10), (50 + divider_w, 50 + line_h + 10 + 2)), '#ffffff')
+    current_y += 50 + line_h + 10 + 2
+    
+    # Subtitle
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = attribute_lst[-1].upper()
+    line_h = font.getbbox('y')[3]
+    draw.text((50, current_y + 10), line, '#ffffff', font=font)
+    current_y += 10 + line_h
+
+    # Constituents
+    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
+    text = "Constituents:"
+    line_h = font.getbbox(text)[3]
+    draw.text((50, current_y + 50), text, '#ffffff', font=font)
+    current_y += 50 + line_h
+    
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line_spacing = 1.3
+    line_h = font.getbbox('y')[3]
+    for i, line in enumerate(lst_constituents):
+        draw.text((80, current_y + 10 + line_h * line_spacing * i), line, '#ffffff', font=font)
+    current_y += 10 + line_h * line_spacing * i + line_h
+
+    # Preparations
+    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
+    text = "Preparations:"
+    line_h = font.getbbox('y')[3]
+    draw.text((50, current_y + 30), text, '#ffffff', font=font)
+    current_y += 30 + line_h
+    
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line_spacing = 1.3
+    line_h = font.getbbox('y')[3]
+    for i, line in enumerate(lst_preparations):
+        draw.text((80, current_y + 10 + line_h * line_spacing * i), line, '#ffffff', font=font)
+    current_y += 10 + line_h * line_spacing * i + line_h
+
+    # Copy
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    draw.text((50, img_h - 50 - line_h), '© TerraWhisper.com', '#ffffff', font=font)
+
+    img.thumbnail((768, 576), Image.Resampling.LANCZOS)
+    
+    # Export
+    out_attr_lst = '-'.join(attribute_lst).lower().replace(' ', '-')
+    out_filename = f'website/images/{entity}-{out_attr_lst}.jpg'
+    img.save(out_filename, format='JPEG', subsampling=0, quality=100)
+    filepath = '/' + '/'.join(out_filename.split('/')[1:])
+
+    return filepath
+
 
 
 ######################################################################
@@ -1940,6 +2047,7 @@ for i, row in enumerate(articles_master_rows[1:]):
             
             article += title_section + content_paragraphs[0] + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:]) + '\n\n' + lst_intro + '\n\n' + lst_formatted + '\n\n'
 
+        # medicine >> benefits
         elif 'medicine' in attribute_1.lower() and 'benefits' in attribute_2.strip():
             title = f'10 Health Benefits of {common_name.capitalize()} ({latin_name.capitalize()})'
             article += f'# {title}\n\n'
@@ -1956,6 +2064,7 @@ for i, row in enumerate(articles_master_rows[1:]):
             # benefits
             rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
             rows_filtered = [f'{x[1]}' for x in rows[:10]]
+            images_filenames = os.listdir(f'G:/tw-images/{entity}/medicine/benefits')
             for i, item in enumerate(rows_filtered):
                 if i < 10: num = f'0{i}'
                 else: num = f'{i}'
@@ -1966,9 +2075,22 @@ for i, row in enumerate(articles_master_rows[1:]):
                 filepath = f'medicine/benefits/{filename}'
 
                 content_section = get_content(f'{filepath}', f'database/articles/{entity}')
-                # print(content_section)
+                
+                # image
+                image_filepath = generate_image_template_medicine_benefits(entity, common_name, images_filenames[i], item,)
+                image_title = f'{common_name.capitalize()}\'s Medicinal Benefits {images_filenames[i]}'
+                image_section = f'![{image_title}]({image_filepath} "{image_title}")\n\n'
 
-                article += title_section + content_section + '\n\n'
+                item_words = item.split(' ')
+                item_no_s = item_words[0][:-1] + ' ' + ' '.join(item_words[1: ])
+                image_intro_line = f'The primary constituents and preparations that make {common_name} {item_no_s.lower()} are shown in the following illustration.'  + '\n\n'
+
+                section_1 = content_section.split('\n')[0]  + '\n\n'
+                section_rest = '\n'.join(content_section.split('\n')[1: -1])  + '\n\n'
+
+                article += title_section + section_1 + image_intro_line + image_section + section_rest
+
+
 
 
 

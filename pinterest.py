@@ -34,7 +34,6 @@ def csv_to_llst(filepath):
 
 
 
-
 # def pin_generate(entity, common_name, filename):
 #     img = Image.open(f'{img_folder}/{filename}')
 
@@ -83,6 +82,8 @@ def csv_to_llst(filepath):
 
 #     common_name = common_name.lower().replace(' ', '-')
 #     img.save(f'pinterest/tmp/{common_name}-guide.jpg', format='JPEG', subsampling=0, quality=100)
+
+
 
 
 def pin_generate_root(entity, common_name, filename, attribute, subtitle):
@@ -184,6 +185,24 @@ def pin_generate(entity, common_name, filename, attribute, subtitle):
 
 
 
+driver = webdriver.Firefox()
+driver.get("https://www.pinterest.com/login/")
+time.sleep(3)
+
+e = driver.find_element(By.XPATH, '//input[@id="email"]')
+e.send_keys('martinpellizzer@gmail.com') 
+time.sleep(3)
+
+e = driver.find_element(By.XPATH, '//input[@id="password"]')
+e.send_keys('Newoliark1') 
+time.sleep(3)
+
+e = driver.find_element(By.XPATH, '//div[text()="Log in"]')
+e.click()
+time.sleep(3)
+
+
+
 # articles rows
 articles_master_rows = csv_to_llst('pinterest/articles.csv')
 
@@ -202,7 +221,7 @@ for row in articles_master_rows[1:]:
     last_day = row[articles_dict['last_day']].strip()
     current_image = row[articles_dict['current_image']].strip()
     image_name = row[articles_dict['image_name']].strip()
-    print(image_name)
+    # print(image_name)
 
     today_day = datetime.now().day
     if int(last_day) == int(today_day): continue
@@ -236,6 +255,7 @@ for row in articles_master_rows[1:]:
     print(description)
     print(url)
     print()
+
 
 
     driver.get("https://www.pinterest.com/pin-creation-tool/")
@@ -279,21 +299,6 @@ driver.get("https://www.google.com/")
 
 
 quit()
-driver = webdriver.Firefox()
-driver.get("https://www.pinterest.com/login/")
-time.sleep(3)
-
-e = driver.find_element(By.XPATH, '//input[@id="email"]')
-e.send_keys('martinpellizzer@gmail.com') 
-time.sleep(3)
-
-e = driver.find_element(By.XPATH, '//input[@id="password"]')
-e.send_keys('Newoliark1') 
-time.sleep(3)
-
-e = driver.find_element(By.XPATH, '//div[text()="Log in"]')
-e.click()
-time.sleep(3)
 
 # img_folder = f'G:\\tw-images\\pin\\{entity}'
 # img_filenames = os.listdir(img_folder)

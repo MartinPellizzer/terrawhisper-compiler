@@ -1112,6 +1112,24 @@ def medicine():
 
 def medicine_benefits():
     
+    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
+    benefits = [f'{x[1]}' for x in rows[:10]]
+    images_text = ''
+    for i, item in enumerate(benefits):
+        images_text += f'''{i}.
+        Write me a list of constituents of {common_name} ({latin_name}) that help {item}.
+        Write just the names, don't write descriptions.
+        Order the list from the most helpful item to the least helpful.
+        
+        Write me a list of preparations of {common_name} ({latin_name}) that help {item}.
+        Write just the names, don't write descriptions.
+        Order the list from the most helpful item to the least helpful.
+
+        --------------------------------------------------------------------
+        
+        '''
+
+
     print(f'''10 BENEFITS
     
         Write 3 paragraphs about {common_name} ({latin_name}).
@@ -1142,9 +1160,26 @@ def medicine_benefits():
 
         {common_name} ___ thanks to
 
+        --------------------------------------------------------------------
+
+        {images_text}
+
 
         ''')
-        
+
+        # give me 3 lists.
+
+        # in the first list, give me 3 items about the constituents of yarrow to relieve inflammation.
+        # in the second list, give me 3 items about the health conditions related to inflammation that yarrow helps to relieve.
+        # in the third list, give me 3 items about the preparations of yarrow to help relieve inflammation.
+
+        # give me just the names, don't add descriptions.
+
+        # write this lists as a list of lists in python code.
+
+        # These lists must not contradict the info contained in the following text:
+
+
 
 
 
