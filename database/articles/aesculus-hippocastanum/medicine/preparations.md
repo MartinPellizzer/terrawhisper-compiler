@@ -1,0 +1,11 @@
+Horse Chestnut (Aesculus hippocastanum) demonstrates its versatility through various health preparations. Post-harvest, the meticulous drying process ensures optimal moisture removal, typically reaching a moisture content of less than 10%. The subsequent grinding yields a fine powder, with studies indicating a particle size ranging from 100 to 300 micrometers for enhanced bioavailability.
+
+Tincture preparations involve soaking approximately 50 grams of crushed horse chestnuts in 250 milliliters of high-proof alcohol, allowing for comprehensive compound extraction over a period of four to six weeks. In decoction, approximately 10 grams of horse chestnut seeds are boiled in 500 milliliters of water, resulting in a concentrated liquid extract.
+
+Capsules, a popular dosage form, are filled with an average of 300 milligrams of finely powdered horse chestnut, providing a standardized and convenient intake method. Topical applications, such as salves and creams, often contain concentrations of 5-10% horse chestnut extract, with oil infusions and cold-pressed oils offering concentrations of active compounds ranging from 2% to 5%.
+
+Tea infusions are prepared by steeping 2 to 3 grams of dried horse chestnut in 150 milliliters of hot water for 5 to 10 minutes. Vinegar infusions involve soaking approximately 100 grams of horse chestnuts in 500 milliliters of apple cider vinegar, producing a concentrated extract.
+
+Poultices commonly consist of a mixture of 10 grams of powdered horse chestnut and 20 milliliters of water or a suitable base. Herbal compresses are created by soaking a cloth in a horse chestnut infusion with a concentration of 5-10%.
+
+In culinary applications, recipes may incorporate around 5 grams of ground horse chestnut. Supplement capsules typically provide a standardized dose of 200 milligrams of powdered horse chestnut. Glycerites, serving as alcohol-free alternatives, involve soaking approximately 50 grams of horse chestnuts in 250 milliliters of vegetable glycerin over a four-week period.

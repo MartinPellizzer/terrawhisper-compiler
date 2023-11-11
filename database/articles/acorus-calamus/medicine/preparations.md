@@ -1,0 +1,9 @@
+Sweet flag (Acorus calamus) is a versatile herb with numerous health preparations, supported by specific measurements and dosages. The finely ground dried root powder, a foundational element for many formulations, is commonly encapsulated into tablets, with typical capsule sizes ranging from 400 to 600 milligrams. This provides a quantifiable measure for convenient dosing.
+
+The infused tea, made by steeping dried sweet flag slices or powder in hot water, offers a tangible application with suggested infusion times of 10-15 minutes for optimal extraction. For concentrated applications, the recommended dosage of sweet flag tincture, created by steeping roots in alcohol, is typically 1 to 2 milliliters per use. These quantifiable measures ensure precise administration.
+
+Aromatic oil, extracted or infused with sweet flag, provides another measurable form of application. Common carrier oil ratios range from 2-5 drops of sweet flag oil per 1 ounce of carrier oil. This information enables accurate blending for various purposes, such as massage oils.
+
+The decoction method, involving boiling sweet flag roots, produces a concentrated liquid. While exact concentrations may vary, a standard ratio is 1 teaspoon of dried sweet flag root per cup of water, simmered for about 15-20 minutes. This provides a quantifiable measure for creating a potent herbal liquid.
+
+In the culinary realm, sweet flag powder or extract is employed as a natural flavoring agent, adding both taste and potential health benefits to dishes. Caution is advised when incorporating sweet flag into herbal smoking blends, emphasizing the importance of moderation.

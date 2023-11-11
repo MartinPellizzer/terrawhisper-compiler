@@ -1325,7 +1325,10 @@ def generate_image_template_1(entity, attribute_lst, lst):
     draw = ImageDraw.Draw(img)
 
     attributes_path = '-'.join(attribute_lst)
-    img_background = Image.open(f"articles-images/{entity}-{attributes_path}-3x4.jpg")
+    try: 
+        img_background = Image.open(f"articles-images/{entity}-{attributes_path}.jpg")
+    except: 
+        img_background = Image.open(f"articles-images/{entity}-{attributes_path}-3x4.jpg")
     img_background_w = 576
     img_background_h = 768
     img_background.thumbnail((img_background_w, img_background_h), Image.Resampling.LANCZOS)
@@ -1484,7 +1487,7 @@ def generate_image_template_medicine_benefits(entity, common_name, image_filenam
 
 def generate_header_light():
     html = '''
-    <header>
+    <header class="header-divider">
         <div class="container-lg">
             <nav class="flex justify-between">
                 <a href="/">TerraWhisper</a>
@@ -1495,6 +1498,7 @@ def generate_header_light():
     '''
     return html
     
+
 
 def generate_header_transparent():
     html = '''
@@ -1589,12 +1593,45 @@ def generate_toc(content_html):
     return content_html_formatted
 
 
-def generate_html(date, title, article, entity, attribute_1, attribute_2):
-    article_filepath = f'{entity}/{attribute_1}/{attribute_2}.md'
+def generate_breadcrumbs(filepath_chunks):
+    # breadcrumbs = [f for f in filepath_chunks[:-1]]
+    breadcrumbs = filepath_chunks
+    
+    breadcrumbs_hrefs = []
+    total_path = ''
+    for b in breadcrumbs:
+        total_path += b + '/'
+        breadcrumbs_hrefs.append('/' + total_path[:-1].lower() + '.html')
+
+    breadcrumbs_text = total_path.split('/')
+
+    breadcrumbs_lst = []
+    for i in range(len(breadcrumbs_hrefs)):
+        html = f'<a href="{breadcrumbs_hrefs[i]}">{breadcrumbs_text[i].capitalize()}</a>'
+        breadcrumbs_lst.append(html)
+
+    # breadcrumbs_html_formatted = [f' > {f}' for f in breadcrumbs_html]
+
+    return breadcrumbs_lst
+
+
+def generate_html(date, title, article, entity, attribute_lst):
+    attributes = '/'.join(attribute_lst)
+
+    article_filepath = f'{entity}/{attributes}.md'
     with open(f'articles/{article_filepath}', 'w', encoding='utf-8') as f:
         f.write(article)
 
+
     article_html = markdown.markdown(article, extensions=['markdown.extensions.tables'])
+
+    # breadcrumbs --------------------------------------------------------
+    attributes_breadcrumbs = [x.replace(' ', '-').lower().strip() for x in attribute_lst]
+    attributes_breadcrumbs.insert(0, entity)
+    breadcrumbs_lst = generate_breadcrumbs(attributes_breadcrumbs)[:-1]
+    breadcrumbs_lst.insert(0, f'<a href="/">Home</a>')
+
+    breadcrumbs_html = ' > '.join(breadcrumbs_lst)
 
     article_html = generate_toc(article_html)
     
@@ -1618,6 +1655,12 @@ def generate_html(date, title, article, entity, attribute_1, attribute_2):
 
         <body>
             {header}
+            
+            <section class="py-16">
+                <div class="container-lg">
+                    {breadcrumbs_html}
+                </div>
+            </section>
 
             <section class="my-96">
                 <div class="container">
@@ -1639,8 +1682,10 @@ def generate_html(date, title, article, entity, attribute_1, attribute_2):
         </html>
     '''
 
-    article_filepath = f'{entity}/{attribute_1}/{attribute_2}.html'
-    if article_filepath.strip() == f'{entity}/{attribute_1}/.html': article_filepath = f'{entity}/{attribute_1}/index.html'
+    if len(attributes) != 0: path = '/'.join([entity, attributes])
+    else: path = entity
+    article_filepath = f'{path}.html'
+    
     with open(f'website/{article_filepath}', 'w', encoding='utf-8') as f:
         f.write(html)
 
@@ -1749,7 +1794,7 @@ for i, row in enumerate(articles_master_rows[1:]):
 
         content_1 = get_content('medicine-uses', f'database/articles/{entity}')
 
-        image_intro = f'\n\nThe following illustration lists the most important uses of [{common_name} in medicine](/achillea-millefolium/medicine/).\n\n'
+        image_intro = f'\n\nThe following illustration lists the most important uses of [{common_name} in medicine](/{entity}/medicine.html).\n\n'
 
         rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
         rows_filtered = [f'{x[1]}' for x in rows[:10]]
@@ -1946,6 +1991,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 print(f'WARNING: missing image ({entity})')
 
             article += get_content('medicine/_intro', f'database/articles/{entity}')
+            article += f'This article explain in details the medicinal properties of {common_name} and how to use this plant to boost your health.' + '\n\n'
 
 
 
@@ -1954,7 +2000,7 @@ for i, row in enumerate(articles_master_rows[1:]):
 
             content_paragraphs = get_content('medicine/benefits', f'database/articles/{entity}').split('\n')
 
-            image_intro = f'\n\nThe following illustration shows the most important health benefits of yarrow.\n\n'
+            image_intro = f'\n\nThe following illustration shows the most important [health benefits of {common_name}](/{entity}/{attribute_1.lower()}/benefits.html).\n\n'
 
             rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
             rows_filtered = [f'{x[1]}' for x in rows[:10]]
@@ -1966,7 +2012,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 rows_filtered,
             )
 
-            lst_intro = f'The following list summarize the 10 most important health benefits of {latin_name}.\n\n'
+            lst_intro = f'The following list summarize the 10 most important health benefits of {common_name}.\n\n'
             lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
             lst_formatted = lst_to_blt(bold_blt(lst_filtered))
 
@@ -1979,7 +2025,7 @@ for i, row in enumerate(articles_master_rows[1:]):
             
             content_paragraphs = get_content('medicine/constituents', f'database/articles/{entity}').split('\n')
 
-            image_intro = f'\n\nThe following illustration shows the most important constituents of yarrow.\n\n'
+            image_intro = f'\n\nThe following illustration shows the most important constituents of {common_name} for medicinal purposes.\n\n'
 
             rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/constituents.csv', entity)
             rows_filtered = [f'{x[1]}' for x in rows[:10]]
@@ -1991,7 +2037,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 rows_filtered,
             )
 
-            lst_intro = f'The following list summarize the 10 most important active constituents of {latin_name} for health purposes.\n\n'
+            lst_intro = f'The following list summarize the 10 most important active constituents of {common_name} for medicinal purposes.\n\n'
             lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
             lst_formatted = lst_to_blt(bold_blt(lst_filtered))
             
@@ -2004,7 +2050,7 @@ for i, row in enumerate(articles_master_rows[1:]):
             
             content_paragraphs = get_content('medicine/preparations', f'database/articles/{entity}').split('\n')
 
-            image_intro = f'\n\nThe following illustration shows the most important preparations of yarrow.\n\n'
+            image_intro = f'\n\nThe following illustration shows the most important preparations of {common_name} to boost your health.\n\n'
 
             rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/preparations.csv', entity)
             rows_filtered = [f'{x[1]}' for x in rows[:10]]
@@ -2016,7 +2062,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 rows_filtered,
             )
 
-            lst_intro = f'The following list summarize the 10 most important preparations of {latin_name} for health purposes.\n\n'
+            lst_intro = f'The following list summarize the 10 most important preparations of {common_name} to boost your health.\n\n'
             lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
             lst_formatted = lst_to_blt(bold_blt(lst_filtered))
             
@@ -2029,7 +2075,7 @@ for i, row in enumerate(articles_master_rows[1:]):
             
             content_paragraphs = get_content('medicine/precautions', f'database/articles/{entity}').split('\n')
 
-            image_intro = f'\n\nThe following illustration shows the most important precautions of yarrow.\n\n'
+            image_intro = f'\n\nThe following illustration shows the most important precautions you must take when you use {common_name} as a medicine.\n\n'
 
             rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/precautions.csv', entity)
             rows_filtered = [f'{x[1]}' for x in rows[:10]]
@@ -2041,7 +2087,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 rows_filtered,
             )
 
-            lst_intro = f'The following list summarize the 10 most important precautions of {latin_name} for health purposes.\n\n'
+            lst_intro = f'The following list summarize the 10 most important precautions you must take when you use {common_name} as a medicine.\n\n'
             lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
             lst_formatted = lst_to_blt(bold_blt(lst_filtered))
             
@@ -2634,8 +2680,8 @@ for i, row in enumerate(articles_master_rows[1:]):
 
         
             
-            
-    article_filepath = generate_html(date, title, article, entity, attribute_1, attribute_2)
+    attribute_lst = [x for x in [attribute_1, attribute_2] if x.strip() != '']
+    article_filepath = generate_html(date, title, article, entity, attribute_lst)
     
     # if state == 'published':
     #     articles_home.append(
@@ -2724,7 +2770,7 @@ for article in articles:
     #     '''
     elif attribute_1 == 'medicine' and attribute_2 == '':
         img = f'images/{entity}-{attribute_1}.jpg'
-        url = f'{entity}/{attribute_1}'
+        url = f'{entity}/{attribute_1}.html'
         title = f'{common_name.capitalize()} ({latin_name.capitalize()}) Medicinal Guide'
         articles_medicine_html += f'''
             <a href="{url}">
@@ -2835,7 +2881,7 @@ html = f'''
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-        <title>Your Botanical Guide | TerraWhisper</title>
+        <title>Medicinal Plants | TerraWhisper</title>
         {google_tag}
         
     </head>
@@ -2845,18 +2891,12 @@ html = f'''
             <div class="container-lg h-full">
                 {header}
                 <div class="flex justify-center items-center h-90">
-                    <h1 class="fg-white text-center"><span class="size-96">Your Guide To Plants:</span><br><span
-                            class="size-36 weight-400">Medicine, Cuisine, Horticulture, and Botany</span>
-                    </h1>
+                    <h1 class="fg-white text-center size-72">Learn to Use Medicinal Plants to Improve Your Health</h1>
                 </div>
             </div>
         </section>
-        {articles_section_main_html}
         {articles_section_medicine_html}
         
-        {articles_section_morphology_html}
-        {articles_section_taxonomy_html}
-        {articles_section_distribution_html}
         <footer>
             <div class="container-lg">
                 <span>© TerraWhisper.com 2023 | All Rights Reserved
@@ -2867,11 +2907,16 @@ html = f'''
     </html>
 '''
 
+# {articles_section_main_html}
+# {articles_section_morphology_html}
+# {articles_section_taxonomy_html}
+# {articles_section_distribution_html}
 with open(f'index.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
 
 
+# <br><span class="size-36 weight-400">Medicine, Cuisine, Horticulture, and Botany</span>
 
 
 ##################################################################################################

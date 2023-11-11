@@ -42,6 +42,10 @@ header {
     padding: 1.6rem 0;
 }
 
+.header-divider {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
 footer {
     /* background-color: #0f766e; */
     padding: 1.6rem 0;
@@ -165,6 +169,11 @@ td {
     margin-bottom: 9.6rem;
 }
 
+.py-16 {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
 
 .flex {
     display: flex;
@@ -240,6 +249,10 @@ td {
 
 .size-96 {
     font-size: 9.6rem;
+}
+
+.size-72 {
+    font-size: 7.2rem;
 }
 
 .size-32 {

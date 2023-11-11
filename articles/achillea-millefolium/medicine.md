@@ -12,11 +12,13 @@ When using Yarrow as medicine, take precautions if you have Asteraceae family pl
 
 In this article you will learn in detail the most important health benefits of yarrow, its active constituents, its key preparations, and the precautions to take when using this herb for medicinal purposes.
 
+This article explain in details the medicinal properties of yarrow and how to use this plant to boost your health.
+
 ## What are the health benefits and medicinal properties of yarrow?
 
 Yarrow boasts a myriad of health benefits and medicinal properties. Its anti-inflammatory nature relieves inflammation, while aiding digestion by stimulating enzyme production and reducing menstrual discomfort. Yarrow accelerates wound healing, lowers high blood pressure, boosts immunity with antioxidants, and alleviates anxiety and stress. This versatile herb also supports respiratory health, improves skin conditions, and enhances circulation, making it a valuable asset for holistic well-being and natural remedies.
 
-The following illustration shows the most important health benefits of yarrow.
+The following illustration shows the most important [health benefits of yarrow](/achillea-millefolium/medicine/benefits.html).
 
 
 
@@ -41,7 +43,7 @@ Lastly, yarrow's enhancement of blood circulation is supported by a 15-20% incre
 
 
 
-The following list summarize the 10 most important health benefits of Achillea millefolium.
+The following list summarize the 10 most important health benefits of yarrow.
 
 
 
@@ -60,7 +62,7 @@ The following list summarize the 10 most important health benefits of Achillea m
 
 Yarrow contains a diverse array of constituents, including alkaloids, tannins, flavonoids, sesquiterpene lactones, volatile oils, coumarins, polyacetylenes, glycosides, phytosterols, and a variety of vitamins and minerals such as vitamin C, vitamin K, and potassium. These compounds collectively contribute to the plant's multifaceted properties and have been studied for their potential effects on health and well-being.
 
-The following illustration shows the most important constituents of yarrow.
+The following illustration shows the most important constituents of yarrow for medicinal purposes.
 
 
 
@@ -87,7 +89,7 @@ Yarrow is not just a source of unique compounds, it also contains essential vita
 
 
 
-The following list summarize the 10 most important active constituents of Achillea millefolium for health purposes.
+The following list summarize the 10 most important active constituents of yarrow for medicinal purposes.
 
 
 
@@ -106,7 +108,7 @@ The following list summarize the 10 most important active constituents of Achill
 
 Yarrow offers versatile health preparations, including yarrow tea, tincture, infused oil, poultice, capsules, salve, compress, essential oil, powder, bath, and inhalation. These diverse forms enable yarrow's use for medicinal teas, topical treatments, aromatherapy, and dietary supplements, catering to a wide range of health needs, from wound care to relaxation.
 
-The following illustration shows the most important preparations of yarrow.
+The following illustration shows the most important preparations of yarrow to boost your health.
 
 
 
@@ -139,7 +141,7 @@ Lastly, a Yarrow Foot Soak is prepared by adding 15-20 grams of dried yarrow to 
 
 
 
-The following list summarize the 10 most important preparations of Achillea millefolium for health purposes.
+The following list summarize the 10 most important preparations of yarrow to boost your health.
 
 
 
@@ -158,7 +160,7 @@ The following list summarize the 10 most important preparations of Achillea mill
 
 When using Yarrow as a medicine, exercise caution if you have allergies to Asteraceae family plants. Consult a healthcare professional during pregnancy, breastfeeding, and when giving it to children. Be mindful of potential medication interactions, blood clotting disorders, and avoid excessive doses. Use this herb for short durations, watch for allergic skin reactions, ensure quality sourcing, and consider underlying medical conditions. DIY preparations require proper knowledge. Be aware of side effects, including digestive upset and dizziness. Store this plant safely, educate yourself, and discontinue use if no improvement is seen.
 
-The following illustration shows the most important precautions of yarrow.
+The following illustration shows the most important precautions you must take when you use yarrow as a medicine.
 
 
 
@@ -197,7 +199,7 @@ If Yarrow use does not yield desired health benefits or adverse effects are expe
 
 
 
-The following list summarize the 10 most important precautions of Achillea millefolium for health purposes.
+The following list summarize the 10 most important precautions you must take when you use yarrow as a medicine.
 
 
 

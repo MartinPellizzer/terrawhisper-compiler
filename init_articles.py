@@ -50,6 +50,7 @@ for entity in entities:
     # with open(f'database/articles/{entity}/history-folklore.md', 'a', encoding='utf-8') as f: pass
 
     # health
+    os.mkdir(f'database/articles/{entity}/medicine/')
     with open(f'database/articles/{entity}/medicine/_intro.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/medicine/benefits.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/medicine/constituents.md', 'a', encoding='utf-8') as f: pass

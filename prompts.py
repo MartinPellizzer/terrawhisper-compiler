@@ -692,77 +692,77 @@ def main():
                 lst.append(f'- {tmp_header[k]}: ' + tmp_values[k])
         morphology_rows += '\n'.join(lst)
 
-    print(f'''BOTANICAL
-        Write a paragraph about the taxonomy of {latin_name}. 
-        Include as many details as possible in as few words as possible.
-        Include all the data from the following list for the taxonomy:
+    # print(f'''BOTANICAL
+    #     Write a paragraph about the taxonomy of {latin_name}. 
+    #     Include as many details as possible in as few words as possible.
+    #     Include all the data from the following list for the taxonomy:
 
-        {taxonomy_rows}
+    #     {taxonomy_rows}
 
-        Also, start the paragraph with the following words:
+    #     Also, start the paragraph with the following words:
 
-        {common_name} ({latin_name})
+    #     {common_name} ({latin_name})
 
-        --------------------------------------------------------------------
+    #     --------------------------------------------------------------------
 
-        Write a paragraph about the common names of {latin_name}. 
-        Include as many details as possible in as few words as possible.
-        Include all the names in the following list:
+    #     Write a paragraph about the common names of {latin_name}. 
+    #     Include as many details as possible in as few words as possible.
+    #     Include all the names in the following list:
 
-        {common_names_lst}
+    #     {common_names_lst}
 
-        Also, start the paragraph with the following words:
+    #     Also, start the paragraph with the following words:
 
-        {latin_name} has many common names, but the most common is {common_name}. Other common names are
+    #     {latin_name} has many common names, but the most common is {common_name}. Other common names are
 
-        --------------------------------------------------------------------
+    #     --------------------------------------------------------------------
         
-        Write a paragraph about the variants of {latin_name}. 
-        Include as many details as possible in as few words as possible.
-        Include all the variants in the following list:
+    #     Write a paragraph about the variants of {latin_name}. 
+    #     Include as many details as possible in as few words as possible.
+    #     Include all the variants in the following list:
 
-        {varieties_rows}
+    #     {varieties_rows}
 
-        Also, start the paragraph with the following words:
+    #     Also, start the paragraph with the following words:
 
-        {latin_name_abbreviated} also has many varieties, such as
+    #     {latin_name_abbreviated} also has many varieties, such as
 
-        --------------------------------------------------------------------
+    #     --------------------------------------------------------------------
 
-        Write a paragraph about the morphology of {latin_name}. 
-        Include as many details as possible in as few words as possible.
-        Make sure that that what you write doesn't conflict with the data given in the following list:
+    #     Write a paragraph about the morphology of {latin_name}. 
+    #     Include as many details as possible in as few words as possible.
+    #     Make sure that that what you write doesn't conflict with the data given in the following list:
 
-        {morphology_rows}
+    #     {morphology_rows}
 
-        Also, start the paragraph with the following words:
+    #     Also, start the paragraph with the following words:
         
-        In terms of morphology, this plant
+    #     In terms of morphology, this plant
 
-        --------------------------------------------------------------------
+    #     --------------------------------------------------------------------
         
-        Write a paragraph about the regions where {latin_name} is native, naturalized, or both.
-        Don't talk about the habitats, just talk about the regional distribution around the world.
-        Include as many details as possible in as few words as possible.
-        Include if this plant is invasive at the end of the paragraph.
+    #     Write a paragraph about the regions where {latin_name} is native, naturalized, or both.
+    #     Don't talk about the habitats, just talk about the regional distribution around the world.
+    #     Include as many details as possible in as few words as possible.
+    #     Include if this plant is invasive at the end of the paragraph.
 
-        Also, start the paragraph with the following words:
+    #     Also, start the paragraph with the following words:
         
-        About {common_name}'s geographic distribution, it is
+    #     About {common_name}'s geographic distribution, it is
         
-        --------------------------------------------------------------------
+    #     --------------------------------------------------------------------
 
-        Write a paragraph about the habitat of {latin_name}.
-        Don't mention its geographical distribution, write only about the habitat.
-        Don't mention its morphological characteristics, write only about the habitat.
-        Include as many details as possible in as few words as possible.
-        Also include if this plant is annual or perennial at the beginning of paragraph.
+    #     Write a paragraph about the habitat of {latin_name}.
+    #     Don't mention its geographical distribution, write only about the habitat.
+    #     Don't mention its morphological characteristics, write only about the habitat.
+    #     Include as many details as possible in as few words as possible.
+    #     Also include if this plant is annual or perennial at the beginning of paragraph.
 
 
 
 
         
-        ''')
+    #     ''')
 
     print(f'''MEDICINAL
 
@@ -973,7 +973,7 @@ def medicine():
 
     print(f'''MEDICINAL PROPERTIES
 
-        Write me a list of the 10 major health benefits of {common_name} ({latin_name}). 
+        Write me a list of the 10 most important health benefits of {common_name} ({latin_name}). 
         Start each benefit with a verb.
 
         --------------------------------------------------------------------
@@ -991,7 +991,7 @@ def medicine():
 
         --------------------------------------------------------------------
         
-        Ok, now include some numbers to back up your claims.
+        Ok, now include some numbers to back up your claims, but don't include the names of the studies.
 
         --------------------------------------------------------------------
 
@@ -1025,7 +1025,7 @@ def medicine():
 
         --------------------------------------------------------------------
 
-        Ok, now include some numbers to back up your claims.
+        Ok, now include some numbers to back up your claims, but don't include the names of the studies.
 
         --------------------------------------------------------------------
 
@@ -1042,7 +1042,7 @@ def medicine():
 
     print(f'''KEY PREPARATIONS
 
-        Write me a list of key preparations of {common_name} ({latin_name}) for health purposes. Use a flat list style, don't put lists inside lists.
+        Write me a list of the 10 most important key preparations of {common_name} ({latin_name}) for health purposes. Use a flat list style, don't put lists inside lists.
 
         --------------------------------------------------------------------
 
@@ -1059,7 +1059,7 @@ def medicine():
 
         --------------------------------------------------------------------
 
-        Ok, now include some numbers to back up your claims.
+        Ok, now include some numbers to back up your claims, but don't include the names of the studies.
 
         --------------------------------------------------------------------
 
@@ -1076,7 +1076,7 @@ def medicine():
         
     print(f'''SAFETY AND PRECAUTIONS
 
-        Write me a list of precautions when using {common_name} ({latin_name}) as a medicine. 
+        Write me a list of the 10 most important precautions to take when using {common_name} ({latin_name}) as a medicine. 
         Use a flat list style, don't put lists inside lists.
 
         --------------------------------------------------------------------
@@ -1094,7 +1094,7 @@ def medicine():
 
         --------------------------------------------------------------------
 
-        Ok, now include some numbers to back up your claims.
+        Ok, now include some numbers to back up your claims, but don't include the names of the studies.
 
         --------------------------------------------------------------------
 

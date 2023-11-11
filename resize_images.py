@@ -51,6 +51,7 @@ if folder_type == 'all':
         website_img_path = 'articles-images'
         shutil.copy2('G:\\tw-images\\article-images-not-to-resize\\' + image_path, f'{website_img_path}/{image_path}')
 
+
 elif folder_type == 'raw':
     for image_path in os.listdir('G:\\tw-images\\article-images-tmp'):
         print(image_path)
@@ -87,9 +88,28 @@ elif folder_type == 'raw':
         output_path = f'articles-images/{image_path}'
         img.save(f'{output_path}')
         
+        
 elif folder_type == 'resized':
     for image_path in os.listdir('G:\\tw-images\\article-images-not-to-resize'):
         print(image_path)
         
         website_img_path = 'articles-images'
         shutil.copy2('G:\\tw-images\\article-images-not-to-resize\\' + image_path, f'{website_img_path}/{image_path}')
+     
+        
+elif folder_type == 'website':
+    start_folder = 'G:/tw-images/website'
+    entities_folders = os.listdir(start_folder)
+    for entity_folder in entities_folders:
+        for image_path in os.listdir(f'{start_folder}/{entity_folder}'):
+            if image_path.endswith('.jpg'):
+                print(image_path)
+                
+                website_img_path = 'articles-images'
+                shutil.copy2(f'{start_folder}/{entity_folder}/{image_path}', f'{website_img_path}/{image_path}')
+
+        for image_path in os.listdir(f'{start_folder}/{entity_folder}/medicine'):
+            print(image_path)
+            
+            website_img_path = 'articles-images'
+            shutil.copy2(f'{start_folder}/{entity_folder}/medicine/{image_path}', f'{website_img_path}/{image_path}')
