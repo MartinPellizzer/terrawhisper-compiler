@@ -879,6 +879,10 @@ def main():
         Every tip must start with a verb.
         Use the metric system as the primary measuring system.
 
+        --------------------------------------------------------------------
+
+        Ok, now add a brief description to each element in the previous list.
+
 
 
 
@@ -905,24 +909,6 @@ def main():
         {morphology_rows}
 
         --------------------------------------------------------------------
-
-        Write me a list of the 10 most important cultivation tips for {common_name} ({latin_name}). 
-        Give me just the tips, don't add descriptions. 
-        Every tip must be less than 5 words. 
-        Every tip must start with a verb.
-        Use the metric system as the primary measuring system.
-
-        --------------------------------------------------------------------
-
-
-        Write a paragraph about the regional distribution and habitat of {common_name} ({latin_name})
-        Include as many details as possible in as few words as possible.
-        Don't mention the uses of this plant.
-        Don't mention the morphology of this plant.
-
-        Also, start the paragraph with the following words:
-        
-        About {common_name}'s geographic distribution, it is
 
 
 

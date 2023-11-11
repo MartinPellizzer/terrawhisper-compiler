@@ -1,0 +1,2 @@
+Given its inedibility, the flavor profile of Horse Chestnut is not applicable in culinary terms. However, the seeds are known for their bitterness due to the presence of compounds like aesculin. This bitterness, coupled with the toxicity of the seeds, further emphasizes the importance of avoiding their consumption. The bitter taste serves as a natural deterrent, discouraging animals and humans from ingesting the seeds without proper processing.
+

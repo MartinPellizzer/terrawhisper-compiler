@@ -16,7 +16,7 @@ This article explain in details the medicinal properties of sweet flag and how t
 
 Sweet flag (Acorus calamus) presents a wealth of medicinal benefits, substantiated by scientific findings and quantitative data. In addressing digestive concerns, the herb's carminative properties have been demonstrated in studies showing a significant reduction in bloating and gas symptoms by up to 30% in individuals using sweet flag extracts regularly.
 
-The following illustration shows the most important [health benefits of sweet flag](/acorus-calamus/medicine/benefits.html).
+The following illustration shows the most important health benefits of sweet flag.
 
 
 

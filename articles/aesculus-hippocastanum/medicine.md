@@ -14,7 +14,7 @@ This article explain in details the medicinal properties of horse chestnut and h
 
 Horse Chestnut (Aesculus hippocastanum) stands as a botanical powerhouse with a diverse array of medicinal benefits supported by objective data. Its profound impact on circulatory health is evidenced by its ability to enhance blood flow, thereby reducing the risk of venous insufficiency. Studies indicate that the active compounds in horse chestnut contribute to a significant improvement in cardiovascular function, with an observed increase of up to 20% in blood flow, highlighting its potential in preventing circulatory disorders.
 
-The following illustration shows the most important [health benefits of horse chestnut](/aesculus-hippocastanum/medicine/benefits.html).
+The following illustration shows the most important health benefits of horse chestnut.
 
 
 

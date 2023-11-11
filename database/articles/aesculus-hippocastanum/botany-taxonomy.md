@@ -1,0 +1,1 @@
+The Horse Chestnut, scientifically known as Aesculus hippocastanum, belongs to the Plantae domain, the kingdom Plantae, the phylum Angiosperms, the class Eudicots, the order Sapindales, the family Sapindaceae, the genus Aesculus, and the species hippocastanum.

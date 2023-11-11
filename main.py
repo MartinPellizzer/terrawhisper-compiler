@@ -1371,6 +1371,78 @@ def generate_image_template_1(entity, attribute_lst, lst):
     filepath = '/' + '/'.join(out_filename.split('/')[1:])
 
     return filepath
+    
+
+def generate_image_template_no_cuisine(entity, attribute_lst):
+    img_w = 1024
+    img_h = 768
+    img = Image.new(mode="RGBA", size=(img_w, img_h), color='#fafafa')
+    # img = img.convert("RGB")
+
+    attributes_path = '-'.join(attribute_lst)
+    try: img_background = Image.open(f"articles-images/{entity}-{attributes_path}.jpg")
+    except: img_background = Image.open(f"articles-images/{entity}-{attributes_path}-3x4.jpg")
+
+    img.paste(img_background, (0, 0))
+
+    overlay = Image.new('RGBA', size=(img_w, img_h), color='#fafafa')
+    draw_overlay = ImageDraw.Draw(overlay)  # Create a context for drawing things on it.
+    draw_overlay.rectangle(((0, 0), (img_w, img_h)), fill='#000000cc')
+
+    img = Image.alpha_composite(img, overlay)
+    img = img.convert("RGB")
+
+    # xy = [
+    #     (0, 0,),
+    #     (img_background_w, 0,),
+    #     (img_w - img_background_w, img_h,),
+    #     (0, img_h,),
+    # ]
+    # draw.polygon(xy, fill ="#0f766e") 
+
+    draw = ImageDraw.Draw(img)
+    latin_name = entity.replace('-', ' ').capitalize()
+
+    current_y = 0
+
+    font_size = 48
+    line_spacing = 1.3
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'{latin_name}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((img_w//2 - line_w//2, 50), line, '#ffffff', font=font)
+    current_y += 50 + line_h
+    
+    
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    attributes_subtitle = ' / '.join(attribute_lst).upper()
+    line = attributes_subtitle
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((img_w//2 - line_w//2, current_y + 10), 'CULINARY PROFILE', '#ffffff', font=font)
+    
+    font_size = 96
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = 'NOT EDIBLE'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((img_w//2 - line_w//2, img_h//2 - line_h//2), line, '#ffffff', font=font)
+
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = '© TerraWhisper.com'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((img_w//2 - line_w//2, img_h - 50 - line_h), line, '#ffffff', font=font)
+    
+    out_attr_lst = '-'.join(attribute_lst)
+    out_filename = f'website/images/{entity}-{out_attr_lst}.jpg'
+    img.save(out_filename, format='JPEG', subsampling=0, quality=100)
+    filepath = '/' + '/'.join(out_filename.split('/')[1:])
+
+    return filepath
 
     
 def generate_image_template_medicine_benefits(entity, common_name, image_filename, item):
@@ -1607,7 +1679,7 @@ def generate_breadcrumbs(filepath_chunks):
 
     breadcrumbs_lst = []
     for i in range(len(breadcrumbs_hrefs)):
-        html = f'<a href="{breadcrumbs_hrefs[i]}">{breadcrumbs_text[i].capitalize()}</a>'
+        html = f'<a href="{breadcrumbs_hrefs[i]}">{breadcrumbs_text[i].capitalize().replace("-", " ")}</a>'
         breadcrumbs_lst.append(html)
 
     # breadcrumbs_html_formatted = [f' > {f}' for f in breadcrumbs_html]
@@ -1742,11 +1814,14 @@ for i, row in enumerate(articles_master_rows[1:]):
     date = row[articles_dict['date']].strip()
     state = row[articles_dict['state']].strip()
     done = row[articles_dict['done']].strip()
+    cuisine_col = row[articles_dict['cuisine']].strip()
     latin_name = entity.replace('-', ' ').capitalize()
 
     if entity_arg:
         if entity_arg.strip() != entity:
             continue
+    
+    if state != 'published':continue
 
     try:
         common_names = utils.csv_get_rows_by_entity('database/tables/botany/common-names.csv', entity)
@@ -1773,12 +1848,12 @@ for i, row in enumerate(articles_master_rows[1:]):
 
     # GENERAL GUIDE
     if attribute_1.strip() == '':
-        title = f'{common_name.capitalize()} ({latin_name.capitalize()}) Overview'
+        title = f'What to know before using {common_name} ({latin_name.capitalize()})'
         article += f'# {title}\n\n'
 
         try:
-            attribute_lst = ['guide']
-            image_title = f'{common_name.capitalize()} General Guide'
+            attribute_lst = ['Overview']
+            image_title = f'{common_name.capitalize()} Overview'
             filepath = generate_featured_image_4x3(entity, attribute_lst, image_title)
             article += f'![{image_title}]({filepath} "{image_title}")\n\n'
         except: 
@@ -1829,20 +1904,36 @@ for i, row in enumerate(articles_master_rows[1:]):
         title_section = f'## What are the culinary uses of {common_name}?\n\n'
         content_1 = get_content('cuisine-uses', f'database/articles/{entity}')
 
-        image_intro = f'\n\nThe following illustration lists the most common uses of {common_name} for culinary purposes.\n\n'
-        
-        rows = utils.csv_get_rows_by_entity(f'database/tables/cuisine/uses.csv', entity)
-        rows_filtered = [f'{x[1]}' for x in rows[:10]]
+        if cuisine_col != 'n':
+            image_intro = f'\n\nThe following illustration lists the most common uses of {common_name} for culinary purposes.\n\n'
+            
+            rows = utils.csv_get_rows_by_entity(f'database/tables/cuisine/uses.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
 
-        image_title = f'{latin_name.capitalize()} Cuisine'
-        try:
+            image_title = f'{latin_name.capitalize()} Cuisine'
+            try:
+                image_filepath = ''
+                image_filepath = generate_image_template_1(
+                    entity, 
+                    ['cuisine', 'general'], 
+                    rows_filtered,
+                )
+            except: pass
+        else:
+            image_intro = f'\n\nThe following illustration serves as a reminder that {common_name} is toxic and must not be used for culinary purposes.\n\n'
+            image_title = f'{latin_name.capitalize()} Cuisine'
             image_filepath = ''
-            image_filepath = generate_image_template_1(
+            image_filepath = generate_image_template_no_cuisine(
                 entity, 
                 ['cuisine', 'general'], 
-                rows_filtered,
             )
-        except: pass
+            try:
+                image_filepath = ''
+                image_filepath = generate_image_template_no_cuisine(
+                    entity, 
+                    ['cuisine', 'general'], 
+                )
+            except: pass
 
         content_2_title = f'### What is the flavor profile of {common_name}?'
         content_2_title = ''
@@ -2000,7 +2091,12 @@ for i, row in enumerate(articles_master_rows[1:]):
 
             content_paragraphs = get_content('medicine/benefits', f'database/articles/{entity}').split('\n')
 
-            image_intro = f'\n\nThe following illustration shows the most important [health benefits of {common_name}](/{entity}/{attribute_1.lower()}/benefits.html).\n\n'
+            
+            tmp_rows = [r for r in articles_master_rows if r[articles_dict['entity']] == entity]
+            tmp_rows = [r for r in tmp_rows if r[articles_dict['attribute_2']] == 'benefits']
+            if tmp_rows: image_intro = f'\n\nThe following illustration shows the most important [health benefits of {common_name}](/{entity}/{attribute_1.lower()}/benefits.html).\n\n'
+            else: image_intro = f'\n\nThe following illustration shows the most important health benefits of {common_name}.\n\n'
+
 
             rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
             rows_filtered = [f'{x[1]}' for x in rows[:10]]
