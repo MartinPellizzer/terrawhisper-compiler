@@ -1,0 +1,2 @@
+Various preparations of garlic exist for medicinal purposes, such as garlic oil, powder, and aged garlic extract (AGE). Garlic oil is often used topically for its antimicrobial properties, while garlic powder is a convenient supplement form. Aged garlic extract, produced by fermenting garlic, contains unique compounds and is associated with cardiovascular benefits, including improved endothelial function and reduced arterial stiffness. These diverse preparations allow individuals to choose the most suitable form based on their specific health needs and preferences.
+

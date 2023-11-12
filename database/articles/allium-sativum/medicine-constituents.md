@@ -1,0 +1,2 @@
+The active compounds responsible for garlic's medicinal properties include allicin, ajoene, and diallyl disulfide. Allicin, formed when garlic is crushed or chopped, exhibits potent antibacterial and antifungal effects. Ajoene has been studied for its antiplatelet and antithrombotic properties, potentially aiding in cardiovascular health. Diallyl disulfide contributes to garlic's antioxidant capabilities, neutralizing harmful free radicals in the body. These compounds collectively provide garlic with its medicinal potency, making it a valuable natural remedy.
+

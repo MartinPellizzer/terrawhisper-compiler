@@ -806,7 +806,7 @@ def main():
         
         Write 4 paragraphs about {common_name} ({latin_name}).
 
-        In the first paragraph, write about the modern medicinal applications of this plant.
+        In the first paragraph, write about the modern medicinal uses of this plant.
         In the second paragraph, write about the active compounds of this plant for medicinal purposes.
         In the third paragraph, write about the different types of preparations of this plant for medicinal purposes.
         In the fourth paragraph, write about the safety and precautions of this plant for medicinal pusposes.
@@ -1151,19 +1151,40 @@ def medicine_benefits():
 
         ''')
 
-        # give me 3 lists.
+    print(f'''PREPARATIONS
+        
+        Write a paragraph about the most commonly used preparations of {common_name} ({latin_name}) and the uses of those preparations.
+        Write as many details as possible in as few words as possible.
 
-        # in the first list, give me 3 items about the constituents of yarrow to relieve inflammation.
-        # in the second list, give me 3 items about the health conditions related to inflammation that yarrow helps to relieve.
-        # in the third list, give me 3 items about the preparations of yarrow to help relieve inflammation.
+        Start the paragraph with the following words:
 
-        # give me just the names, don't add descriptions.
+        There are many preparations and uses of {common_name}, such as
 
-        # write this lists as a list of lists in python code.
+        ''')
 
-        # These lists must not contradict the info contained in the following text:
+    print(f'''SIDE EFFECTS
+
+        Write a paragraph about the most common side effects of {common_name} ({latin_name}) for medicinal purposes.
+        Write as many details as possible in as few words as possible.
+
+        Start the paragraph with the following words:
+
+        There may be some side effects associated with {common_name} if this medicinal herb is misused.
 
 
+        ''')
+        
+    print(f'''PRECAUTIONS
+
+        Write a paragraph about the most useful precautions to take when using {common_name} ({latin_name}) for medicinal purposes.
+        Write as many details as possible in as few words as possible.
+
+        Start the paragraph with the following words:
+
+        It's important to take some precautions when using {common_name} as a medicine.
+
+
+        ''')
 
 
 

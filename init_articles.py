@@ -49,6 +49,27 @@ for entity in entities:
     # with open(f'database/articles/{entity}/horticultural.md', 'a', encoding='utf-8') as f: pass
     # with open(f'database/articles/{entity}/history-folklore.md', 'a', encoding='utf-8') as f: pass
 
+    # overview
+    with open(f'database/articles/{entity}/_intro.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany-common.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany-distribution.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany-morphology.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/botany-taxonomy.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/cuisine-flavor.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/cuisine-tips.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/cuisine-uses.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/history-divination.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/history-legends.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/history-medicine.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/horticulture-conditions.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/horticulture-cultivation.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/horticulture-maintenance.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicine-constituents.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicine-precautions.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicine-preparations.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicine-uses.md', 'a', encoding='utf-8') as f: pass
+
+
     # health
     try: os.mkdir(f'database/articles/{entity}/medicine/')
     except: pass

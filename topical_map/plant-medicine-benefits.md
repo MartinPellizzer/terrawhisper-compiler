@@ -12,10 +12,12 @@ Paragraph 4: list of varieties?
 
 -----------------------------------------------------
 
-## uses >> link
-## side effects >> link
-## precautions >> link
-## animals >> link
+## How to properly use [plant] for medicinal purposes?
+    uses (preparations) >> link
+    There are many [uses and preparations of yarrow], such as...
+### side effects >> link
+### precautions >> link
+### animals >> link
 
 
 plant, herb, grass

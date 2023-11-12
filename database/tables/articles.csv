@@ -1,50 +1,53 @@
 "entity"\"state"\"done"\"date"\"cuisine"\\"attribute_1"\"attribute_2"
-"achillea-millefolium"\"published"\"n"\"2023/11/11"\\\\
-"achillea-millefolium"\"published"\"n"\"2023/11/11"\\\"medicine"\
-"achillea-millefolium"\"published"\"n"\"2023/11/11"\\\"medicine"\"benefits"
-"achillea-millefolium"\\"n"\\\\"cuisine"\
-"achillea-millefolium"\\"n"\\\\"botany"\
-"achillea-millefolium"\\"y"\"2023/10/28"\\\"botany"\"taxonomy"
-"achillea-millefolium"\\"y"\"2023/10/16"\\\"botany"\"morphology"
-"achillea-millefolium"\\"n"\\\\"botany"\"distribution "
+"achillea-millefolium"\"published"\\"2023/11/11"\\\\
+"achillea-millefolium"\"published"\\"2023/11/11"\\\"medicine"\
+"achillea-millefolium"\"published"\\"2023/11/11"\\\"medicine"\"benefits"
+"achillea-millefolium"\\\\\\"cuisine"\
+"achillea-millefolium"\\\\\\"botany"\
+"achillea-millefolium"\\\"2023/10/28"\\\"botany"\"taxonomy"
+"achillea-millefolium"\\\"2023/10/16"\\\"botany"\"morphology"
+"achillea-millefolium"\\\\\\"botany"\"distribution "
 \\\\\\\
-"acorus-calamus"\"published"\"n"\"2023/11/11"\\\\
-"acorus-calamus"\"published"\"n"\"2023/11/11"\\\"medicine"\
-"acorus-calamus"\"published"\"n"\"2023/11/12"\\\"medicine"\"benefits"
-"acorus-calamus"\\"n"\\\\"botany"\
-"acorus-calamus"\\"y"\"2023/10/28"\\\"botany"\"taxonomy"
-"acorus-calamus"\\"y"\"2023/10/17"\\\"botany"\"morphology"
+"acorus-calamus"\"published"\\"2023/11/11"\\\\
+"acorus-calamus"\"published"\\"2023/11/11"\\\"medicine"\
+"acorus-calamus"\"published"\\"2023/11/12"\\\"medicine"\"benefits"
+"acorus-calamus"\\\\\\"botany"\
+"acorus-calamus"\\\"2023/10/28"\\\"botany"\"taxonomy"
+"acorus-calamus"\\\"2023/10/17"\\\"botany"\"morphology"
 \\\\\\\
-"aesculus-hippocastanum"\"published"\"n"\"2023/11/11"\"n"\\\
-"aesculus-hippocastanum"\"published"\"n"\"2023/11/11"\\\"medicine"\
-"aesculus-hippocastanum"\"published"\"n"\"2023/11/12"\\\"medicine"\"benefits"
-"aesculus-hippocastanum"\\"y"\"2023/10/28"\\\"botany"\"taxonomy"
-"aesculus-hippocastanum"\\"y"\"2023/10/18"\\\"botany"\"morphology"
+"aesculus-hippocastanum"\"published"\\"2023/11/11"\"n"\\\
+"aesculus-hippocastanum"\"published"\\"2023/11/11"\\\"medicine"\
+"aesculus-hippocastanum"\"published"\\"2023/11/12"\\\"medicine"\"benefits"
+"aesculus-hippocastanum"\\\"2023/10/28"\\\"botany"\"taxonomy"
+"aesculus-hippocastanum"\\\"2023/10/18"\\\"botany"\"morphology"
 \\\\\\\
-"allium-sativum"\\"y"\"2023/10/30"\\\"botany"\"taxonomy"
-"allium-sativum"\\"y"\"2023/10/19 "\\\"botany"\"morphology"
-"aloe-vera"\\"y"\"2023/10/31 "\\\"botany"\"taxonomy"
-"aloe-vera"\\"y"\"2023/10/20"\\\"botany"\"morphology"
-"alpinia-officinarum"\\"y"\"2023/10/21"\\\"botany"\"morphology"
-"ammi-visnaga"\\"y"\"2023/10/22"\\\"botany"\"morphology"
-"angelica-sinensis"\\"y"\"2023/10/22"\\\"botany"\"morphology"
-"apium-graveolens"\\"y"\"2023/10/22"\\\"botany"\"morphology"
-"arctium-lappa"\\"y"\"2023/10/23"\\\"botany"\"morphology"
-"artemisia-absinthium "\\"y"\"2023/10/24"\\\"botany"\"morphology"
-"artemisia-annua "\\"y"\"2023/10/25"\\\"botany"\"morphology"
-"astragalus-membranaceus "\\"y"\"2023/10/26"\\\"botany"\"morphology"
-"atropa-belladonna "\\"y"\"2023/10/27"\\\"botany"\"morphology"
-"azadirachta-indica "\\"y"\"2023/10/28"\\\"botany"\"morphology"
-"barosma-betulina "\\"y"\"2023/10/29"\\\"botany"\"morphology"
-"bupleurum-chinense "\\"y"\"2023/10/30"\\\"botany"\"morphology"
-"calendula-officinalis "\\"y"\"2023/10/31 "\\\"botany"\"morphology"
-"capsicum-annuum "\\"y"\\\\"botany"\"morphology"
-"cassia-senna "\\"y"\\\\"botany"\"morphology"
-"centella-asiatica "\\"y"\\\\"botany"\"morphology"
-"chamomilla-recutita "\\"y"\\\\"botany"\"morphology"
-"chrysanthemum-morifolium "\\"y"\\\\"botany"\"morphology"
-"cimicifuga-racemosa "\\"y"\\\\"botany"\"morphology"
-"cinchona-officinalis"\\"y"\\\\"botany"\"morphology"
-"cinnamomum-verum"\\"y"\\\\"botany"\"morphology"
-"citrus-limon "\\"y"\\\\"botany"\"morphology"
-"codonopsis-pilosula "\\"y"\\\\"botany"\"morphology"
+"allium-sativum"\"published"\\\\\\
+"allium-sativum"\"published"\\\\\"medicine"\
+"allium-sativum"\\\"2023/10/30"\\\"botany"\"taxonomy"
+"allium-sativum"\\\"2023/10/19 "\\\"botany"\"morphology"
+\\\\\\\
+"aloe-vera"\\\"2023/10/31 "\\\"botany"\"taxonomy"
+"aloe-vera"\\\"2023/10/20"\\\"botany"\"morphology"
+"alpinia-officinarum"\\\"2023/10/21"\\\"botany"\"morphology"
+"ammi-visnaga"\\\"2023/10/22"\\\"botany"\"morphology"
+"angelica-sinensis"\\\"2023/10/22"\\\"botany"\"morphology"
+"apium-graveolens"\\\"2023/10/22"\\\"botany"\"morphology"
+"arctium-lappa"\\\"2023/10/23"\\\"botany"\"morphology"
+"artemisia-absinthium "\\\"2023/10/24"\\\"botany"\"morphology"
+"artemisia-annua "\\\"2023/10/25"\\\"botany"\"morphology"
+"astragalus-membranaceus "\\\"2023/10/26"\\\"botany"\"morphology"
+"atropa-belladonna "\\\"2023/10/27"\\\"botany"\"morphology"
+"azadirachta-indica "\\\"2023/10/28"\\\"botany"\"morphology"
+"barosma-betulina "\\\"2023/10/29"\\\"botany"\"morphology"
+"bupleurum-chinense "\\\"2023/10/30"\\\"botany"\"morphology"
+"calendula-officinalis "\\\"2023/10/31 "\\\"botany"\"morphology"
+"capsicum-annuum "\\\\\\"botany"\"morphology"
+"cassia-senna "\\\\\\"botany"\"morphology"
+"centella-asiatica "\\\\\\"botany"\"morphology"
+"chamomilla-recutita "\\\\\\"botany"\"morphology"
+"chrysanthemum-morifolium "\\\\\\"botany"\"morphology"
+"cimicifuga-racemosa "\\\\\\"botany"\"morphology"
+"cinchona-officinalis"\\\\\\"botany"\"morphology"
+"cinnamomum-verum"\\\\\\"botany"\"morphology"
+"citrus-limon "\\\\\\"botany"\"morphology"
+"codonopsis-pilosula "\\\\\\"botany"\"morphology"

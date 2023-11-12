@@ -1,0 +1,2 @@
+Ideal growing conditions for garlic include a sunny location with at least six hours of sunlight daily. The plant prefers loose, well-draining soil with a pH range of 6.0 to 7.5. Incorporating organic matter, such as compost, into the soil enhances fertility. Adequate moisture is crucial, especially during the early growth stages, but garlic is susceptible to waterlogging, so avoid overwatering. Fertilize with a balanced fertilizer in early spring, and provide additional nutrients if the soil lacks essential elements.
+

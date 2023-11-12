@@ -1,6 +1,5 @@
-- complete article on 10 health benefits of yarrow (side content)
-- write article on 10 health benefits of sweet flag
-- write article on 10 health benefits of horse chestnut
+- allium sativum medicine article (missing content + lists)
+- complete side content medicinal_benefits articles (yarrow done?)
 - write next plant
 - pinterest
     auto generate description (done, but maybe append all paragraphs before choosing - more reliable randomization, also random choose the senteces)

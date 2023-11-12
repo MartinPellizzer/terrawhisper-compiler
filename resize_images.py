@@ -108,13 +108,15 @@ elif folder_type == 'website':
                 website_img_path = 'articles-images'
                 shutil.copy2(f'{start_folder}/{entity_folder}/{image_path}', f'{website_img_path}/{image_path}')
 
-        for image_path in os.listdir(f'{start_folder}/{entity_folder}/medicine'):
-            if image_path.endswith('.jpg'):
-                print(image_path)
-                
-                website_img_path = 'articles-images'
-                shutil.copy2(f'{start_folder}/{entity_folder}/medicine/{image_path}', f'{website_img_path}/{image_path}')
-
+        try:
+            for image_path in os.listdir(f'{start_folder}/{entity_folder}/medicine'):
+                if image_path.endswith('.jpg'):
+                    print(image_path)
+                    
+                    website_img_path = 'articles-images'
+                    shutil.copy2(f'{start_folder}/{entity_folder}/medicine/{image_path}', f'{website_img_path}/{image_path}')
+        except:
+            pass
         # copy only medicinal benefits image that do NON start with a number
         try:
             for image_path in os.listdir(f'{start_folder}/{entity_folder}/medicine/benefits'):

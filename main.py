@@ -53,6 +53,16 @@ def get_content(section, folderpath):
 
     return text
 
+def get_content_2(filepath):
+    text = ''
+    try: 
+        with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
+        text += section_content + '\n\n'
+    except: 
+        print(f'WARNING: missing {filepath}')
+
+    return text
+
 
 ######################################################################
 # UTILS 
@@ -2247,7 +2257,21 @@ for i, row in enumerate(articles_master_rows[1:]):
 
                 article += title_section + section_1 + image_intro_line + image_section + section_rest
 
+            content = get_content_2(f'database/articles/{entity}/medicine/benefits/preparations.md')
+            if content.strip() != '':
+                article += f'## How to properly use {common_name} for medicinal purposes?' + '\n\n'
+                article += content + '\n\n'
+                article += f'Given the many preparations and uses of {common_name}, it\'s important to be aware about the possible side effects of this plant and what precautions to take when using it.' + '\n\n'
 
+            content = get_content_2(f'database/articles/{entity}/medicine/benefits/side-effects.md')
+            if content.strip() != '':
+                article += f'### What health side effects can {common_name} have if used improperly?' + '\n\n'
+                article += content + '\n\n'
+
+            content = get_content_2(f'database/articles/{entity}/medicine/benefits/precautions.md')
+            if content.strip() != '':
+                article += f'### What precautions should you take before using {common_name} for medicinal purposes?' + '\n\n'
+                article += content + '\n\n'
 
 
 
