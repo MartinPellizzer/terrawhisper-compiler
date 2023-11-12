@@ -1454,7 +1454,7 @@ def generate_image_template_medicine_benefits(entity, common_name, image_filenam
     rows_preparations = [f'- {x[3].title()}' for x in rows if x[1] == item.lower().replace(' ', '-').strip() and x[2] == 'preparation']
     lst_preparations = rows_preparations[:3]
 
-    bg_image_path = f'G:/tw-images/{entity}/medicine/benefits/{image_filename}'
+    bg_image_path = f'G:/tw-images/website/{entity}/medicine/benefits/{image_filename}'
 
     img_w = 1024
     img_h = 768
@@ -1491,10 +1491,18 @@ def generate_image_template_medicine_benefits(entity, common_name, image_filenam
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
     title_tmp = common_name.title()
     title_w = font.getbbox(title_tmp)[2]
+
     font_size = 24
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
     subtitle_tmp = attribute_lst[-1].upper()
+    subtitle_tmp = subtitle_tmp.split('(')[0]
     subtitle_w = font.getbbox(subtitle_tmp)[2]
+    if subtitle_w > 475:
+        character_len = len(subtitle_tmp)
+        font_size = 800 // character_len
+        font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+        subtitle_w = font.getbbox(subtitle_tmp)[2]
+
 
     if title_w > subtitle_w: divider_w = title_w
     else: divider_w = subtitle_w
@@ -1502,12 +1510,13 @@ def generate_image_template_medicine_benefits(entity, common_name, image_filenam
     current_y += 50 + line_h + 10 + 2
     
     # Subtitle
-    font_size = 24
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = attribute_lst[-1].upper()
+    line = subtitle_tmp
     line_h = font.getbbox('y')[3]
     draw.text((50, current_y + 10), line, '#ffffff', font=font)
     current_y += 10 + line_h
+
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
 
     # Constituents
     font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
@@ -1860,6 +1869,8 @@ for i, row in enumerate(articles_master_rows[1:]):
             print(f'WARNING: missing image ({entity})')
             
         article += get_content('_intro', f'database/articles/{entity}')
+        article += f'This article gives an overview on the many uses of {common_name} and what you need to know before using it.' + '\n\n'
+
 
 
 
@@ -2082,7 +2093,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 print(f'WARNING: missing image ({entity})')
 
             article += get_content('medicine/_intro', f'database/articles/{entity}')
-            article += f'This article explain in details the medicinal properties of {common_name} and how to use this plant to boost your health.' + '\n\n'
+            article += f'This article explains in details the medicinal properties of {common_name} and how to use this plant to boost your health.' + '\n\n'
 
 
 
@@ -2202,11 +2213,15 @@ for i, row in enumerate(articles_master_rows[1:]):
             except: 
                 print(f'WARNING: missing image ({entity})')
 
+            article += get_content('medicine/benefits/_intro', f'database/articles/{entity}')
+            article += f'This article explains in details the most important and well recognized health benefits of {common_name}, including which constituents and preparations of this plant gives these benefits.' + '\n\n'
+
+
             
             # benefits
             rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
             rows_filtered = [f'{x[1]}' for x in rows[:10]]
-            images_filenames = os.listdir(f'G:/tw-images/{entity}/medicine/benefits')
+            images_filenames = os.listdir(f'G:/tw-images/website/{entity}/medicine/benefits')
             for i, item in enumerate(rows_filtered):
                 if i < 10: num = f'0{i}'
                 else: num = f'{i}'

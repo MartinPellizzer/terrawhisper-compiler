@@ -10,13 +10,13 @@ Preparations include dried root powder in capsules, infused tea, tincture, aroma
 
 Precautions involve consulting healthcare professionals, controlling dosage, avoiding during pregnancy and breastfeeding, considering allergies, being cautious with children, watching for neurotoxic potential, checking for interactions with medications, considering liver conditions, discontinuing in case of adverse effects, and being cautious in harvesting to avoid contamination.
 
-This article explain in details the medicinal properties of sweet flag and how to use this plant to boost your health.
+This article explains in details the medicinal properties of sweet flag and how to use this plant to boost your health.
 
 ## What are the health benefits and medicinal properties of sweet flag?
 
 Sweet flag (Acorus calamus) presents a wealth of medicinal benefits, substantiated by scientific findings and quantitative data. In addressing digestive concerns, the herb's carminative properties have been demonstrated in studies showing a significant reduction in bloating and gas symptoms by up to 30% in individuals using sweet flag extracts regularly.
 
-The following illustration shows the most important health benefits of sweet flag.
+The following illustration shows the most important [health benefits of sweet flag](/acorus-calamus/medicine/benefits.html).
 
 
 

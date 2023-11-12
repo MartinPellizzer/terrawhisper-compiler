@@ -8,13 +8,13 @@ In the realm of joint health, horse chestnut's anti-inflammatory properties cont
 
 Key constituents like aescin, flavonoids, tannins, saponins, coumarins, phytosterols, proanthocyanidins, fatty acids, minerals, and vitamins contribute to these health benefits. Preparations include drying and grinding, tinctures, decoctions, capsules, topical applications, teas, and various infusions. However, precautions are essential, including consultation with healthcare professionals, precise dosage adherence, avoidance of raw consumption, awareness of allergies, caution for pregnant or breastfeeding women, monitoring for bleeding disorders and liver function, consideration for diabetes patients, awareness of potential interactions with medications, and avoiding prolonged use without medical supervision. These precautions ensure the safe integration of horse chestnut into healthcare practices.
 
-This article explain in details the medicinal properties of horse chestnut and how to use this plant to boost your health.
+This article explains in details the medicinal properties of horse chestnut and how to use this plant to boost your health.
 
 ## What are the health benefits and medicinal properties of horse chestnut?
 
 Horse Chestnut (Aesculus hippocastanum) stands as a botanical powerhouse with a diverse array of medicinal benefits supported by objective data. Its profound impact on circulatory health is evidenced by its ability to enhance blood flow, thereby reducing the risk of venous insufficiency. Studies indicate that the active compounds in horse chestnut contribute to a significant improvement in cardiovascular function, with an observed increase of up to 20% in blood flow, highlighting its potential in preventing circulatory disorders.
 
-The following illustration shows the most important health benefits of horse chestnut.
+The following illustration shows the most important [health benefits of horse chestnut](/aesculus-hippocastanum/medicine/benefits.html).
 
 
 

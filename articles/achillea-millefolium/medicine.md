@@ -12,7 +12,7 @@ When using Yarrow as medicine, take precautions if you have Asteraceae family pl
 
 In this article you will learn in detail the most important health benefits of yarrow, its active constituents, its key preparations, and the precautions to take when using this herb for medicinal purposes.
 
-This article explain in details the medicinal properties of yarrow and how to use this plant to boost your health.
+This article explains in details the medicinal properties of yarrow and how to use this plant to boost your health.
 
 ## What are the health benefits and medicinal properties of yarrow?
 

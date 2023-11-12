@@ -1103,37 +1103,27 @@ def medicine_benefits():
     images_text = ''
     for i, item in enumerate(benefits):
         images_text += f'''{i}.
-        Write me a list of constituents of {common_name} ({latin_name}) that help {item}.
+        Write me a list of constituents of {common_name} ({latin_name}) that help get the following benefit: {item}.
         Write just the names, don't write descriptions.
-        Order the list from the most helpful item to the least helpful.
+        Order the list from the most helpful item for this benefit to the least helpful for this benefit.
         
-        Write me a list of preparations of {common_name} ({latin_name}) that help {item}.
+        Write me a list of preparations of {common_name} ({latin_name}) that help get the following benefit: {item}.
         Write just the names, don't write descriptions.
-        Order the list from the most helpful item to the least helpful.
+        Order the list from the most helpful item for this benefit to the least helpful for this benefit.
+
+        {item.lower().replace(' ', '-')} constituent
+
+        {item.lower().replace(' ', '-')} preparation
 
         --------------------------------------------------------------------
         
         '''
 
+    benefits_text = ''
+    for i, item in enumerate(benefits):
+        benefits_text += f'''{i}.
 
-    print(f'''10 BENEFITS
-    
-        Write 3 paragraphs about {common_name} ({latin_name}).
-
-        In the first paragraph, write about this plant's ability to ___, and what constituents this plant has to get this health benefit. Also, include numbers and data about the quantities of these constituents in this plant.
-        In the second paragraph, write about examples of health conditions that can benefit from the beneficial property described in the first paragraph.
-        In the third paragraph, write about which parts of this plant can be used to get the benefit described in the first paragraph and which preparations can be made for that.
-
-        Include as many details, data, and numbers as possible in as few words as possible.
-        Use the metric system as the primary measuring system.
-
-        The first paragraph must start with the following words:
-
-        {common_name} ___ thanks to
-
-        --------------------------------------------------------------------
-
-        Write 3 paragraphs about {common_name} ({latin_name}) about the following health benefit: ___.
+        Write 3 paragraphs about {common_name} ({latin_name}) about the following health benefit: {item}.
 
         In the first paragraph, write about this plant's ability to get this health benefit, and what constituents this plant has to get this health benefit. Also, include numbers and data about the quantities of these constituents in this plant.
         In the second paragraph, write about examples of health conditions that can benefit from this health benefit. Don't talk about health conditions unrelated to this health benefit.
@@ -1141,12 +1131,20 @@ def medicine_benefits():
 
         Include as many details, data, and numbers as possible in as few words as possible.
         Use the metric system as the primary measuring system.
+        Don't write about the fact that you must consult experts before using it or that too much usage of this plant is toxic.
 
         The first paragraph must start with the following words:
 
-        {common_name} ___ thanks to
+        {common_name} {item.lower()} thanks to
 
         --------------------------------------------------------------------
+        
+        '''
+
+
+    print(f'''BENEFITS
+
+        {benefits_text}
 
         {images_text}
 
