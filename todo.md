@@ -1,4 +1,3 @@
-- allium sativum medicine article (missing content + lists)
 - complete side content medicinal_benefits articles (yarrow done?)
 - write next plant
 - pinterest
@@ -7,3 +6,17 @@
 - generate (and save) a lot of image for pinteres and website (leonardo.ai)
 - about me page
 - homepage (copyright, articles at the bottom)
+
+
+
+
+Boosts Immunity
+Lowers Blood Pressure
+Reduces Cholesterol
+Prevents Blood Clotting
+Fights Inflammation
+Protects Against Oxidation
+Supports Digestive Health
+Manages Blood Sugar Levels
+Exhibits Antimicrobial Properties
+Prevent Cancer

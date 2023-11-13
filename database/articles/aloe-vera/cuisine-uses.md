@@ -1,0 +1,2 @@
+Aloe vera, renowned for its medicinal properties, is not commonly known for its culinary applications. However, its gel, extracted from the succulent leaves, can be used in various dishes. Rich in vitamins, minerals, and antioxidants, aloe vera gel adds nutritional value to smoothies, salads, and even desserts. While not a staple in most kitchens, its use in culinary experimentation has grown, and its health benefits make it an intriguing addition to health-conscious recipes.
+

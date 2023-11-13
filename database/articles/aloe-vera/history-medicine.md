@@ -1,0 +1,2 @@
+Aloe vera, revered in traditional folk medicine, has been a healing staple across diverse cultures for centuries. Originating from the Arabian Peninsula, it found its way into ancient Chinese, Egyptian, and Greek medicinal practices. Renowned for its soothing properties, the gel extracted from its succulent leaves is a time-honored remedy for skin ailments, burns, and digestive issues. In Ayurveda, the plant is considered tridoshic, balancing the three doshas believed to govern human health.
+

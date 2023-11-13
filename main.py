@@ -59,7 +59,7 @@ def get_content_2(filepath):
         with open(f'{filepath}', encoding='utf-8') as f: section_content = f.read()
         text += section_content + '\n\n'
     except: 
-        print(f'WARNING: missing {filepath}')
+        print(f'WARNING: missing content - {filepath}')
 
     return text
 
@@ -1590,7 +1590,6 @@ def generate_header_light():
     return html
     
 
-
 def generate_header_transparent():
     html = '''
     <header>
@@ -1738,10 +1737,11 @@ def generate_html(date, title, article, entity, attribute_lst):
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
             <link rel="stylesheet" href="/style.css">
             <title>{title}</title>
-
             {google_tag}
+            
         </head>
 
         <body>
@@ -3015,6 +3015,7 @@ html = f'''
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
         <link rel="stylesheet" href="style.css">
         <title>Medicinal Plants | TerraWhisper</title>
         {google_tag}

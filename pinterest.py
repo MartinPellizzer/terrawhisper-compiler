@@ -114,7 +114,9 @@ articles_dict = {}
 for i, item in enumerate(articles_master_rows[0]):
     articles_dict[item] = i
 
-for row in articles_master_rows[1:]:
+for i, row in enumerate(articles_master_rows[1:]):
+    print(f'{i}/{len(articles_master_rows[1:])}')
+    
     entity = row[articles_dict['entity']].strip()
     common_name = row[articles_dict['common_name']].strip()
     org = row[articles_dict['org']].strip()

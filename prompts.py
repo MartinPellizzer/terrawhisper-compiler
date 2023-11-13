@@ -970,7 +970,7 @@ def medicine():
 
         --------------------------------------------------------------------
 
-        Using the data from the list above, write about 300 words on the medicinal benefits of {common_name} ({latin_name}).
+        Using the data from the paragraph above, write about 300 words on the medicinal benefits of {common_name} ({latin_name}).
         Pack as much data, info, and numbers as possible.
         Use the metric system when expressing numbers.
         Don't add subjective fluff or opinions, just objective facts. 
@@ -980,13 +980,6 @@ def medicine():
         Ok, now include some numbers to back up your claims, but don't include the names of the studies.
 
         --------------------------------------------------------------------
-
-        Ok, now use the data from the list above to write a section about the benefits of {common_name} ({latin_name}) in about 300 words.
-        This section must not use a list format. 
-
-        --------------------------------------------------------------------
-
-
 
 
 
@@ -1004,7 +997,7 @@ def medicine():
 
         --------------------------------------------------------------------
         
-        Using the data from the list above, write about 300 words on the key constituents of {common_name} ({latin_name}).
+        Using the data from the paragraph above, write about 300 words on the key constituents of {common_name} ({latin_name}).
         Pack as much data, info, and numbers as possible.
         Use the metric system when expressing numbers.
         Don't add subjective fluff or opinions, just objective facts. 
@@ -1014,13 +1007,6 @@ def medicine():
         Ok, now include some numbers to back up your claims, but don't include the names of the studies.
 
         --------------------------------------------------------------------
-
-        Ok, now use the data from the list above to write a section about the key constituents of {common_name} ({latin_name}) in about 300 words.
-        Write in a discursive way, do not use a list format.
-
-        --------------------------------------------------------------------
-
-
 
 
 
@@ -1038,7 +1024,7 @@ def medicine():
 
         --------------------------------------------------------------------
         
-        Using the list above, write about 300 words on the key preparations of {common_name} ({latin_name}).
+        Using the data from the paragraph above, write about 300 words on the key preparations of {common_name} ({latin_name}).
         Pack as much data, info, and numbers as possible.
         Use the metric system when expressing numbers.
         Don't add subjective fluff or opinions, just objective facts. 
@@ -1048,13 +1034,6 @@ def medicine():
         Ok, now include some numbers to back up your claims, but don't include the names of the studies.
 
         --------------------------------------------------------------------
-
-        Ok, now use the data from the list above to write a section about the key preparations of {common_name} ({latin_name}) in about 300 words.
-        Write in a discursive way, do not use a list format.
-
-        --------------------------------------------------------------------
-
-
 
 
 
@@ -1073,7 +1052,7 @@ def medicine():
 
         --------------------------------------------------------------------
         
-        Using the list above, write about 300 words on the precautions of {common_name} ({latin_name}).
+        Using the data from the paragraph above, write about 300 words on the precautions of {common_name} ({latin_name}).
         Pack as much data, info, and numbers as possible.
         Use the metric system when expressing numbers.
         Don't add subjective fluff or opinions, just objective facts. 
@@ -1083,13 +1062,6 @@ def medicine():
         Ok, now include some numbers to back up your claims, but don't include the names of the studies.
 
         --------------------------------------------------------------------
-
-        Ok, now use the data from the list above to write a section about the precautions of {common_name} ({latin_name}) in about 300 words.
-        Write in a discursive way, do not use a list format.
-
-        --------------------------------------------------------------------
-
-
 
 
 
