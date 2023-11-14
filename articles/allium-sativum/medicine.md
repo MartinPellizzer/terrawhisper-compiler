@@ -37,7 +37,7 @@ Furthermore, garlic's antimicrobial prowess is noteworthy, with allicin demonstr
 
 
 
-The following list summarize the 10 most important health benefits of garlic.
+The following list summarizes the 10 most important health benefits of garlic.
 
 
 
@@ -73,7 +73,7 @@ This amalgamation of constituents creates a synergistic effect, highlighting gar
 
 
 
-The following list summarize the 10 most important active constituents of garlic for medicinal purposes.
+The following list summarizes the 10 most important active constituents of garlic for medicinal purposes.
 
 
 
@@ -107,7 +107,7 @@ Beyond culinary applications, garlic extends its reach into oil infusions. Garli
 
 
 
-The following list summarize the 10 most important preparations of garlic to boost your health.
+The following list summarizes the 10 most important preparations of garlic to boost your health.
 
 
 
@@ -139,7 +139,7 @@ For those with bleeding disorders, caution is advised due to garlic's anti-clott
 
 
 
-The following list summarize the 10 most important precautions you must take when you use garlic as a medicine.
+The following list summarizes the 10 most important precautions you must take when you use garlic as a medicine.
 
 
 

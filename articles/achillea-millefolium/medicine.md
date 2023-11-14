@@ -43,7 +43,7 @@ Lastly, yarrow's enhancement of blood circulation is supported by a 15-20% incre
 
 
 
-The following list summarize the 10 most important health benefits of yarrow.
+The following list summarizes the 10 most important health benefits of yarrow.
 
 
 
@@ -89,7 +89,7 @@ Yarrow is not just a source of unique compounds, it also contains essential vita
 
 
 
-The following list summarize the 10 most important active constituents of yarrow for medicinal purposes.
+The following list summarizes the 10 most important active constituents of yarrow for medicinal purposes.
 
 
 
@@ -141,7 +141,7 @@ Lastly, a Yarrow Foot Soak is prepared by adding 15-20 grams of dried yarrow to 
 
 
 
-The following list summarize the 10 most important preparations of yarrow to boost your health.
+The following list summarizes the 10 most important preparations of yarrow to boost your health.
 
 
 
@@ -199,7 +199,7 @@ If Yarrow use does not yield desired health benefits or adverse effects are expe
 
 
 
-The following list summarize the 10 most important precautions you must take when you use yarrow as a medicine.
+The following list summarizes the 10 most important precautions you must take when you use yarrow as a medicine.
 
 
 

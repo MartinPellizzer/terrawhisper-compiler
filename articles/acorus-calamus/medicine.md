@@ -41,7 +41,7 @@ For menstrual comfort, sweet flag's spasmolytic effects translate to a 20% decre
 
 
 
-The following list summarize the 10 most important health benefits of sweet flag.
+The following list summarizes the 10 most important health benefits of sweet flag.
 
 
 
@@ -75,7 +75,7 @@ Elemene, a sesquiterpene in sweet flag, has been examined for its anti-cancer an
 
 
 
-The following list summarize the 10 most important active constituents of sweet flag for medicinal purposes.
+The following list summarizes the 10 most important active constituents of sweet flag for medicinal purposes.
 
 
 
@@ -111,7 +111,7 @@ In the culinary realm, sweet flag powder or extract is employed as a natural fla
 
 
 
-The following list summarize the 10 most important preparations of sweet flag to boost your health.
+The following list summarizes the 10 most important preparations of sweet flag to boost your health.
 
 
 
@@ -145,7 +145,7 @@ Recognizing Sweet flag as a complementary rather than a substitute therapy is un
 
 
 
-The following list summarize the 10 most important precautions you must take when you use sweet flag as a medicine.
+The following list summarizes the 10 most important precautions you must take when you use sweet flag as a medicine.
 
 
 

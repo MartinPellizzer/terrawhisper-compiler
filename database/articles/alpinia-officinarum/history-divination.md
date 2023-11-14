@@ -1,0 +1,2 @@
+In ancient times, galangal held mystical significance and was used in divination practices. The root was sometimes employed in rituals to induce visions or enhance clairvoyance. It was believed to provide insights into the spirit world, aid in divining the future, or bring clarity to unclear situations. Additionally, in some ancient traditions, galangal was considered a protective herb, used to ward off evil spirits or negative energies during ceremonies or spiritual practices.
+

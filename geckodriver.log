@@ -1472,3 +1472,105 @@ I@https://s.pinimg.com/webapp/41825-e437e8ebcbe5ce75.mjs:30:1894
 
 1699792008763	Marionette	INFO	Stopped listening on port 59741
 Dynamically enable window occlusion 1
+1699890752304	geckodriver	INFO	Listening on 127.0.0.1:50521
+1699890755391	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50522" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilesH1saE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699890755798	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699890755901	Marionette	INFO	Listening on port 50530
+WebDriver BiDi listening on ws://127.0.0.1:50522
+Read port: 50530
+1699890756307	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50522/devtools/browser/f29c1783-25b9-46bb-baee-85a6437e97d8
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1699890785878	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19131
+938085/D/</<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19213
+938085/g/<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16606
+t@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16477
+
+JavaScript error: , line 0: uncaught exception: Object
+1699892785698	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1699892788336	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/202307.1.0/otBannerSdk.js, line 7: TypeError: r is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19131
+938085/D/</<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19213
+938085/g/<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16606
+t@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16477
+334130/p/</u<@https://s.pinimg.com/webapp/15616-4e6c5a3bcfc389ec.mjs:9:1079
+334130/p/<@https://s.pinimg.com/webapp/15616-4e6c5a3bcfc389ec.mjs:9:330
+p@https://s.pinimg.com/webapp/15616-4e6c5a3bcfc389ec.mjs:9:1139
+_ajax@https://s.pinimg.com/webapp/15616-4e6c5a3bcfc389ec.mjs:8:21675
+_call@https://s.pinimg.com/webapp/15616-4e6c5a3bcfc389ec.mjs:8:23874
+call@https://s.pinimg.com/webapp/15616-4e6c5a3bcfc389ec.mjs:8:20933
+callCreate@https://s.pinimg.com/webapp/15616-4e6c5a3bcfc389ec.mjs:8:20618
+s@https://s.pinimg.com/webapp/www/_client-caac4ef479b532cb.mjs:18:29897
+flushEvents@https://s.pinimg.com/webapp/www/_client-caac4ef479b532cb.mjs:18:17487
+e@https://s.pinimg.com/webapp/www/_client-caac4ef479b532cb.mjs:18:15974
+669817/v/t<@https://s.pinimg.com/webapp/www/_client-caac4ef479b532cb.mjs:18:15998
+669817/T/<@https://s.pinimg.com/webapp/www/_client-caac4ef479b532cb.mjs:18:15651
+
+1699893961139	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1699893967962	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cinziadimartino.it/blog/pinterest-rich-pin/, line 1250: TypeError: socialWarfare.fetchFacebookShares is not a function
+JavaScript error: https://cinziadimartino.it/blog/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2, line 9: TypeError: o.widget is not a function
+JavaScript error: https://cinziadimartino.it/blog/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=6.3.2, line 1: ReferenceError: mejs is not defined
+JavaScript error: https://cinziadimartino.it/blog/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2, line 116: TypeError: i is not a constructor
+JavaScript error: https://cinziadimartino.it/blog/wp-includes/js/mediaelement/renderers/vimeo.min.js?ver=4.2.17, line 12: ReferenceError: mejs is not defined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs, line 1: Script terminated by timeout at:
+938085/g/<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16616
+t@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16477
+
+JavaScript warning: https://s.pinimg.com/webapp/developers/_client-a8648725164d3972.mjs, line 43: Script terminated by timeout at:
+i@https://s.pinimg.com/webapp/developers/_client-a8648725164d3972.mjs:43:441
+S@https://s.pinimg.com/webapp/developers/_client-a8648725164d3972.mjs:43:1450
+O@https://s.pinimg.com/webapp/developers/_client-a8648725164d3972.mjs:43:1894
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-866WPQDV0Y&l=dataLayer&cx=c, line 486: Script terminated by timeout at:
+aa.uh@https://www.googletagmanager.com/gtag/js?id=G-866WPQDV0Y&l=dataLayer&cx=c:486:42
+get@https://www.googletagmanager.com/gtag/js?id=G-866WPQDV0Y&l=dataLayer&cx=c:484:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-866WPQDV0Y&l=dataLayer&cx=c:484:87
+aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-866WPQDV0Y&l=dataLayer&cx=c:484:412
+
+1699894163110	Marionette	INFO	Stopped listening on port 50530
+Dynamically enable window occlusion 1

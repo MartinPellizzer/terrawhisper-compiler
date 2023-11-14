@@ -1,0 +1,2 @@
+Galangal (Alpinia officinarum) is a rhizomatous plant widely used in Southeast Asian cuisine, particularly in Thai, Indonesian, and Malaysian dishes. It's prized for its aromatic qualities and is a staple ingredient in various culinary creations. Although not commonly consumed raw due to its tough texture, it's employed in cooking either fresh, dried, or powdered. The rhizome is sliced or pounded and used in soups, curries, stir-fries, and spice pastes, imparting a unique flavor to dishes.
+

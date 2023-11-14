@@ -1,0 +1,2 @@
+Galangal (Alpinia officinarum) can be cultivated in gardens or landscapes by planting rhizomes, ideally in spring or early summer. To plant, choose a well-draining area with partial shade and dig a hole about 5-10 centimeters deep. Place the rhizomes horizontally and cover them with soil, ensuring proper spacing between each rhizome, around 60-90 centimeters apart. Water thoroughly after planting and maintain consistent moisture until shoots emerge, usually within 2-4 weeks.
+

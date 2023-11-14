@@ -33,7 +33,7 @@ Aloe vera's antimicrobial properties extend to oral health, where it combats den
 
 
 
-The following list summarize the 10 most important health benefits of aloe vera.
+The following list summarizes the 10 most important health benefits of aloe vera.
 
 
 
@@ -69,7 +69,7 @@ Moreover, Aloe vera encompasses plant sterols, recognized for their anti-inflamm
 
 
 
-The following list summarize the 10 most important active constituents of aloe vera for medicinal purposes.
+The following list summarizes the 10 most important active constituents of aloe vera for medicinal purposes.
 
 
 
@@ -103,7 +103,7 @@ Before incorporating aloe vera into health routines, a patch test is recommended
 
 
 
-The following list summarize the 10 most important preparations of aloe vera to boost your health.
+The following list summarizes the 10 most important preparations of aloe vera to boost your health.
 
 
 
@@ -147,7 +147,7 @@ Avoiding the latex layer beneath the Aloe Vera leaf's skin is recommended due to
 
 
 
-The following list summarize the 10 most important precautions you must take when you use aloe vera as a medicine.
+The following list summarizes the 10 most important precautions you must take when you use aloe vera as a medicine.
 
 
 

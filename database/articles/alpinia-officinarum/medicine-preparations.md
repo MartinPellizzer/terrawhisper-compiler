@@ -1,0 +1,2 @@
+Galangal offers versatile medicinal preparations: Galangal tea, made from fresh or dried root, aids digestion and alleviates cold symptoms. Galangal extract, oil, or capsules are used for their concentrated benefits. Tinctures and poultices provide topical relief, while syrups and ointments are applied for various skin conditions. These preparations offer diverse methods of consumption and application, catering to different health needs.
+

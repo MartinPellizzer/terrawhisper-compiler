@@ -153,3 +153,25 @@ The antimicrobial properties of garlic make it effective in combating various he
 To harness the antimicrobial benefits of garlic, various parts of the plant can be utilized. The bulb, comprising cloves, is the primary source of bioactive compounds. Consumption of raw or freshly crushed garlic is recommended to maximize allicin content, as cooking can reduce its potency. Additionally, garlic extracts and supplements, standardized for allicin content, provide an alternative for those seeking a convenient and controlled form of consumption. Whether consumed raw, crushed, or in supplement form, garlic offers a versatile and potent means of harnessing its antimicrobial properties for health benefits.
 
 
+## How to properly use garlic for medicinal purposes?
+
+
+There are many preparations and uses of Garlic, such as fresh cloves eaten raw or cooked to support heart health, lower blood pressure, and boost the immune system. Garlic oil is used topically for fungal infections. Aged garlic extract in supplement form aids cardiovascular health, reduces cholesterol, and acts as an antioxidant. Garlic powder or capsules assist in lowering cholesterol and blood pressure. Garlic paste is applied for its antibacterial properties, while garlic supplements or capsules are used to boost immunity and combat illness. Additionally, garlic supplements are popular for their potential anti-inflammatory effects and to improve overall health.
+
+
+
+Given the many preparations and uses of garlic, it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
+
+### What health side effects can garlic have if used improperly?
+
+There may be some side effects associated with Garlic if this medicinal herb is misused. Common side effects include bad breath, body odor, heartburn, upset stomach, and allergic reactions like skin rash or itching. Garlic might also interact with certain medications, particularly blood-thinners, so caution is advised for those taking such medications. Excessive consumption can lead to gastrointestinal issues or lowered blood pressure. Consulting a healthcare professional before starting garlic supplements is recommended, especially for individuals with existing medical conditions or those taking prescribed medications.
+
+
+
+### What precautions should you take before using garlic for medicinal purposes?
+
+
+It's important to take some precautions when using Garlic as a medicine. Garlic may interact with certain medications, including blood-thinners and HIV medications. High doses might lead to gastrointestinal issues or allergic reactions. Avoid in large quantities before surgery due to potential bleeding risks. Individuals with bleeding disorders or scheduled surgeries should consult a healthcare provider. Topical use can cause skin irritation. Pregnant or breastfeeding women should consult a doctor before using garlic medicinally.
+
+
+

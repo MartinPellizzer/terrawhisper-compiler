@@ -39,7 +39,7 @@ vals.insert(0, entity)
 found = False
 csv_lines = []
 with open(filepath, encoding='utf-8', errors='ignore') as f:
-    reader = csv.reader(f, delimiter="\\")
+    reader = csv.reader(f, delimiter="|")
     for i, line in enumerate(reader):
         if entity.strip() == line[0].strip():
             found = True
@@ -52,7 +52,7 @@ with open(filepath, encoding='utf-8', errors='ignore') as f:
         print('added')
 
 with open(filepath, 'w', newline='', encoding='utf-8') as f:
-    writer = csv.writer(f, delimiter='\\')
+    writer = csv.writer(f, delimiter='|')
     for row in csv_lines:
         writer.writerow(row)
 

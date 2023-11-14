@@ -1,0 +1,8 @@
+
+Galangal (Alpinia officinarum) contains significant quantities of galangin, ranging from 0.3% to 2.0% in its rhizomes, exhibiting potent antioxidant properties. Galangol, found in concentrations varying from 0.05% to 0.15%, showcases noteworthy anti-inflammatory and analgesic effects. Additionally, the essential oil extracted from galangal comprises cineol in quantities ranging between 20% to 50%, pinene at around 10% to 25%, and terpineol at approximately 5% to 15%. These components contribute to the herb's substantial antimicrobial activity against various bacteria and fungi.
+
+Studies have highlighted galangal's diverse bioactive compounds, including phenolic compounds, tannins, terpenoids, and flavonoids, all playing a vital role in its antioxidant properties. Phenolic compounds are found in galangal in notable concentrations, contributing significantly to its antioxidant activity. Tannins, another class of polyphenolic compounds present in galangal, exhibit antibacterial and antiviral effects.
+
+Furthermore, galangal's flavonoid content, particularly galangin and kaempferol, contributes to its antioxidant and anti-inflammatory actions. Galangin, present in concentrations between 0.1% to 0.5%, possesses strong antioxidant capabilities, aiding in neutralizing free radicals. Kaempferol, another flavonoid, demonstrates similar antioxidant and anti-inflammatory properties.
+
+The compounds gingerol and shogaol, prevalent in galangal, contribute to its digestive benefits. Gingerol, in concentrations varying from 0.1% to 1.0%, and shogaol play a role in aiding digestion and relieving gastrointestinal discomfort and nausea.

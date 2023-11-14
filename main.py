@@ -1052,10 +1052,10 @@ def generate_featured_image(entity, attribute_lst, title):
     return featured_image_filpath
 
 
-def generate_featured_image_4x3(entity, attribute_lst, title):
+def generate_featured_image(entity, attribute_lst, title):
     attribute = '/'.join(attribute_lst)
     attribute_filename = attribute.replace('/', '-')
-    featured_image_filpath = img_resize(f'articles-images/{entity}-{attribute_filename}-4x3.jpg')
+    featured_image_filpath = img_resize(f'articles-images/{entity}-{attribute_filename}.jpg')
 
     img = Image.open(featured_image_filpath)
     # background  = Image.open("articles-images/acorus-calamus-botany-morphology-old.jpg")
@@ -1087,7 +1087,6 @@ def generate_featured_image_4x3(entity, attribute_lst, title):
     line_h = font.getbbox('y')[3]
     draw.text((w_banner//2 - line_w//2, y_img - line_h - 30), line, '#ffffff', font=font)
 
-    featured_image_filpath = featured_image_filpath.replace('-4x3', '')
     img.save(f'{featured_image_filpath}', format='JPEG', subsampling=0, quality=100)
 
     # print(featured_image_filpath)
@@ -1335,10 +1334,8 @@ def generate_image_template_1(entity, attribute_lst, lst):
     draw = ImageDraw.Draw(img)
 
     attributes_path = '-'.join(attribute_lst)
-    try: 
-        img_background = Image.open(f"articles-images/{entity}-{attributes_path}.jpg")
-    except: 
-        img_background = Image.open(f"articles-images/{entity}-{attributes_path}-3x4.jpg")
+    img_background = Image.open(f"articles-images/{entity}-{attributes_path}.jpg")
+
     img_background_w = 576
     img_background_h = 768
     img_background.thumbnail((img_background_w, img_background_h), Image.Resampling.LANCZOS)
@@ -1873,7 +1870,7 @@ for i, row in enumerate(articles_master_rows[1:]):
         try:
             attribute_lst = ['Overview']
             image_title = f'{common_name.capitalize()} Overview'
-            filepath = generate_featured_image_4x3(entity, attribute_lst, image_title)
+            filepath = generate_featured_image(entity, attribute_lst, image_title)
             article += f'![{image_title}]({filepath} "{image_title}")\n\n'
         except: 
             print(f'WARNING: missing image ({entity})')
@@ -2096,7 +2093,7 @@ for i, row in enumerate(articles_master_rows[1:]):
 
             attribute_lst = ['medicine']
             image_title = f'{common_name.capitalize()} Medicinal Guide'
-            image_filepath = generate_featured_image_4x3(entity, attribute_lst, image_title)
+            image_filepath = generate_featured_image(entity, attribute_lst, image_title)
             try:
                 article += f'![{image_title}]({image_filepath} "{image_title}")\n\n'
             except: 
@@ -2129,7 +2126,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 rows_filtered,
             )
 
-            lst_intro = f'The following list summarize the 10 most important health benefits of {common_name}.\n\n'
+            lst_intro = f'The following list summarizes the 10 most important health benefits of {common_name}.\n\n'
             lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
             lst_formatted = lst_to_blt(bold_blt(lst_filtered))
 
@@ -2154,7 +2151,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 rows_filtered,
             )
 
-            lst_intro = f'The following list summarize the 10 most important active constituents of {common_name} for medicinal purposes.\n\n'
+            lst_intro = f'The following list summarizes the 10 most important active constituents of {common_name} for medicinal purposes.\n\n'
             lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
             lst_formatted = lst_to_blt(bold_blt(lst_filtered))
             
@@ -2179,7 +2176,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 rows_filtered,
             )
 
-            lst_intro = f'The following list summarize the 10 most important preparations of {common_name} to boost your health.\n\n'
+            lst_intro = f'The following list summarizes the 10 most important preparations of {common_name} to boost your health.\n\n'
             lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
             lst_formatted = lst_to_blt(bold_blt(lst_filtered))
             
@@ -2204,7 +2201,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 rows_filtered,
             )
 
-            lst_intro = f'The following list summarize the 10 most important precautions you must take when you use {common_name} as a medicine.\n\n'
+            lst_intro = f'The following list summarizes the 10 most important precautions you must take when you use {common_name} as a medicine.\n\n'
             lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
             lst_formatted = lst_to_blt(bold_blt(lst_filtered))
             
@@ -2217,7 +2214,7 @@ for i, row in enumerate(articles_master_rows[1:]):
 
             attribute_lst = ['medicine', 'benefits', 'overview']
             image_title = f'{common_name.capitalize()}\'s Medicinal Benefits'
-            image_filepath = generate_featured_image_4x3(entity, attribute_lst, image_title)
+            image_filepath = generate_featured_image(entity, attribute_lst, image_title)
             try:
                 article += f'![{image_title}]({image_filepath} "{image_title}")\n\n'
             except: 
@@ -2283,7 +2280,7 @@ for i, row in enumerate(articles_master_rows[1:]):
 
             attribute_lst = ['cuisine']
             image_title = f'{latin_name.capitalize()} Culinary Guide'
-            image_filepath = generate_featured_image_4x3(entity, attribute_lst, image_title)
+            image_filepath = generate_featured_image(entity, attribute_lst, image_title)
             try:
                 article += f'![{image_title}]({image_filepath} "{image_title}")\n\n'
             except: 
@@ -2310,7 +2307,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 rows_filtered,
             )
 
-            lst_intro = f'The following list summarize the 10 most common culinary uses of {latin_name}.\n\n'
+            lst_intro = f'The following list summarizes the 10 most common culinary uses of {latin_name}.\n\n'
             lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
             lst_formatted = lst_to_blt(bold_blt(lst_filtered))
 

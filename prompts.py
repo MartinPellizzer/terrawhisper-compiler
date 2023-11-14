@@ -954,6 +954,159 @@ def main():
 # in the second list write the naturalized regions where yarrow is found.
 
 
+def main_2():
+
+    print(f'''MEDICINAL
+
+        Write 4 paragraphs about {common_name} ({latin_name}).
+
+        In the first paragraph, write about the modern medicinal uses of this plant.
+        In the second paragraph, write about the active compounds of this plant for medicinal purposes.
+        In the third paragraph, write about the different types of preparations of this plant for medicinal purposes.
+        In the fourth paragraph, write about the safety and precautions of this plant for medicinal pusposes.
+
+        Include as many details, data, and numbers as possible in as few words as possible.
+        Use the metric system as the primary measuring system.
+
+        --------------------------------------------------------------------
+
+        Write me a list of the 10 most important health benefits of {common_name} ({latin_name}). 
+        Start each benefit with a verb.
+
+
+
+
+
+        ''')
+
+    print(f'''CULINARY
+
+        Write 3 paragraphs about {common_name} ({latin_name}).
+
+        In the first paragraph, write about the culinary uses of this plant (if edible).
+        In the second paragraph, write about the flavor profile of this plant.
+        In the third paragraph, write about the culinary tips when using this plant (if edible).
+
+        Include as many details, data, and numbers as possible in as few words as possible.
+        Use the metric system as the primary measuring system.
+
+        --------------------------------------------------------------------
+
+        Write me a list of the 10 most important culinary uses of {common_name} ({latin_name}).
+
+
+
+
+
+        ''')
+
+    print(f'''CULTIVATION
+
+        Write 3 paragraphs about {common_name} ({latin_name}).
+
+        In the first paragraph, write about how to grow this plant in your garden or landscape.
+        In the second paragraph, write about the ideal growing conditions and soil requirements for this plant.
+        In the third paragraph, write about pruning and maintenance tips to keep this plant healthy
+
+        Include as many details as possible in as few words as possible.
+        Use the metric system as the primary measuring system.
+        Don't use lists.
+
+        --------------------------------------------------------------------
+
+        Write me a list of the 10 most important cultivation tips for {common_name} ({latin_name}). 
+        Give me just the tips, don't add descriptions. 
+        Every tip must be less than 5 words. 
+        Every tip must start with a verb.
+        Use the metric system as the primary measuring system.
+
+        --------------------------------------------------------------------
+
+        Ok, now add a brief description to each element in the previous list.
+
+
+
+
+
+        ''')
+        
+    print(f'''BOTANICAL 2
+
+        Write 4 paragraphs about {common_name} ({latin_name}).
+
+        In the first paragraph, write about how the traditional taxonomy of this plant (include domain, kingdom, phylum, class, order, family, genus, species).
+        In the second paragraph, write about the common name and variants of this plant.
+        In the third paragraph, write about the general morphology of this plant.
+        In the fourth paragraph, write about the geographic distribution and habitat of this plant.
+
+        Include as many details as possible in as few words as possible.
+        Use the metric system as the primary measuring system.
+        Write each paragraph in discursive format, don't use lists.
+        Don't mention this plant's culinary uses.
+        Don't mention this plant's medicinal uses.
+
+        --------------------------------------------------------------------
+        
+        
+        Give me the taxonomy of {common_name} ({latin_name}).
+
+        Include:
+
+        - Domain
+        - Kingdom
+        - Phylum
+        - Class
+        - Order
+        - Family
+        - Genus
+        - Species
+
+        Format the data in a 2-column table.
+        In the first column of the table, write the elements in the list.
+        In the second column of the table, write the answer. 
+
+
+
+        ''')
+
+    print(f'''HISTORY FOLKLORE
+    
+        Write 3 paragraphs about {common_name} ({latin_name}).
+
+        In the first paragraph, write about this plant in traditional folk medicine and its role in different cultures.
+        In the second paragraph, write about the ancient uses of this plant in divination.
+        In the third paragraph, write about the legends and myths surrounding this plant.
+
+        Include as many details as possible in as few words as possible.
+        Use the metric system as the primary measuring system.
+
+        --------------------------------------------------------------------
+
+        Write me a list of the 10 most well known historical folkloristic uses of {common_name} ({latin_name}). 
+        Give me just the uses, don't add descriptions. 
+        Every item in the list must be less than 5 words.
+
+        --------------------------------------------------------------------
+
+        Ok, rewrite the items in the previous list using less than 5 words for each item.
+
+        --------------------------------------------------------------------
+        
+        Ok, now add a brief description to each element in the previous list.
+
+
+
+
+
+        ''')
+
+
+# give me 2 lists:
+
+# in the first list write the native regions where yarrow is found.
+# in the second list write the naturalized regions where yarrow is found.
+
+
 
 def medicine():
 
@@ -1159,8 +1312,6 @@ def medicine_benefits():
         ''')
 
 
-
-
 def cuisine():
 
     print(f'''CULINARY USES
@@ -1258,9 +1409,34 @@ def history():
         ''')
 
 
+def get_common_names():
 
-if attribute_2 == 'morphology': morphology()
-elif attribute_2 == 'taxonomy': taxonomy()
+    print(f'''COMMON NAMES 
+
+        Write a list of 10 common names of {common_name} ({latin_name}). 
+        Add a description for each name. 
+        Include {common_name} as the first element of the list.
+
+
+
+
+        ''')
+
+
+def get_procedure():
+    print('PROCEDURE')
+    print('-------------------------------------------------')
+    print()
+    print('1. pick a plant')
+    print('2. get list of common names')
+    print('3. init plant')
+    print()
+    print('4. write medicinal article (prompt "medicine")')
+
+
+
+if attribute_1 == 'common-names': get_common_names()
+elif attribute_1 == 'taxonomy': taxonomy()
 elif attribute_2 == 'distribution': distribution()
 elif attribute_1 == 'botany': botany()
 elif attribute_1 == 'medicine': medicine()
@@ -1269,6 +1445,7 @@ elif attribute_1 == 'cuisine': cuisine()
 elif attribute_1 == 'horticultural': horticultural()
 elif attribute_1 == 'botany': botany()
 elif attribute_1 == 'history': history()
-elif attribute_1 == '': main()
+elif attribute_1 == 'overview': main_2()
+elif attribute_1 == '': get_procedure()
 
 

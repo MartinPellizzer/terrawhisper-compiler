@@ -1,0 +1,2 @@
+The flavor profile of galangal is a fusion of spicy, citrusy, and floral notes. It offers a potent aroma reminiscent of ginger but has a more complex and peppery taste, with hints of pine and camphor. Galangal's distinct taste elevates dishes, providing warmth and depth to savory recipes. Its aromatic compounds, including essential oils like cineol and terpineol, contribute to its distinctive flavor.
+

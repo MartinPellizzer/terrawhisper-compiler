@@ -92,6 +92,10 @@ for entity in entities:
         item_formatted = item.lower().replace(' ', '-')
         with open(f'database/articles/{entity}/medicine/benefits/{num}-{item_formatted}.md', 'a', encoding='utf-8') as f: pass
         # with open(f'database/tables/{entity}/medicine/benefits/{num}-{item_formatted}.csv', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicine/benefits/animals.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicine/benefits/precautions.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicine/benefits/preparations.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicine/benefits/side-effects.md', 'a', encoding='utf-8') as f: pass
     
 
 

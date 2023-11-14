@@ -33,7 +33,7 @@ In the realm of joint health, horse chestnut's anti-inflammatory properties cont
 
 
 
-The following list summarize the 10 most important health benefits of horse chestnut.
+The following list summarizes the 10 most important health benefits of horse chestnut.
 
 
 
@@ -67,7 +67,7 @@ Quantitative insights enhance our understanding, such as the 45 micrograms per g
 
 
 
-The following list summarize the 10 most important active constituents of horse chestnut for medicinal purposes.
+The following list summarizes the 10 most important active constituents of horse chestnut for medicinal purposes.
 
 
 
@@ -105,7 +105,7 @@ In culinary applications, recipes may incorporate around 5 grams of ground horse
 
 
 
-The following list summarize the 10 most important preparations of horse chestnut to boost your health.
+The following list summarizes the 10 most important preparations of horse chestnut to boost your health.
 
 
 
@@ -145,7 +145,7 @@ Numerous studies underscore the importance of these precautions, with findings i
 
 
 
-The following list summarize the 10 most important precautions you must take when you use horse chestnut as a medicine.
+The following list summarizes the 10 most important precautions you must take when you use horse chestnut as a medicine.
 
 
 

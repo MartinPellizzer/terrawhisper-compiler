@@ -1,0 +1,3 @@
+
+
+Galangal is native to Southeast Asia, specifically regions like China, Indonesia, Thailand, and Malaysia. It thrives in tropical and subtropical climates, preferring well-draining loamy soil rich in organic matter. This plant typically flourishes in areas with high humidity and an annual rainfall of about 1500-3000 millimeters. It commonly grows in forested areas, riverbanks, and moist soils, often under partial shade.
