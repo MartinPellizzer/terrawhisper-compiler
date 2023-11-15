@@ -92,7 +92,7 @@ The following list summarizes the 10 most important active constituents of garli
 
 Garlic (Allium sativum) stands as a potent health ally, presenting diverse preparations to harness its medicinal properties. When consumed raw, garlic delivers maximum allicin content, a compound renowned for its antibacterial and antifungal effects. Research indicates that raw garlic contains approximately 4.5 milligrams of allicin per gram. The crushing or chopping of garlic activates allicin formation, a process optimized by allowing it to sit for a few minutes before cooking. Lightly cooking or roasting garlic not only retains its nutritional value but also offers a milder flavor profile. Studies show that allicin content is preserved at around 70% when garlic is lightly cooked.
 
-The following illustration shows the most important preparations of garlic to boost your health.
+The following illustration shows the most important medicinal preparations of garlic.
 
 
 

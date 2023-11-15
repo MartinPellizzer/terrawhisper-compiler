@@ -103,7 +103,6 @@ elif folder_type == 'website':
     for entity_folder in entities_folders:
         for image_path in os.listdir(f'{start_folder}/{entity_folder}'):
             if image_path.endswith('.jpg'):
-                print(image_path)
                 
                 website_img_path = 'articles-images'
                 shutil.copy2(f'{start_folder}/{entity_folder}/{image_path}', f'{website_img_path}/{image_path}')
@@ -112,8 +111,6 @@ elif folder_type == 'website':
         try:
             for image_path in os.listdir(f'{start_folder}/{entity_folder}/medicine'):
                 if image_path.endswith('.jpg'):
-                    print(image_path)
-                    
                     website_img_path = 'articles-images'
                     shutil.copy2(f'{start_folder}/{entity_folder}/medicine/{image_path}', f'{website_img_path}/{image_path}')
         except:
@@ -122,10 +119,20 @@ elif folder_type == 'website':
         try:
             for image_path in os.listdir(f'{start_folder}/{entity_folder}/medicine/benefits'):
                 if image_path.endswith('.jpg'):
-                    print(image_path)
                     if image_path[0].isdigit(): continue
                     
                     website_img_path = 'articles-images'
                     shutil.copy2(f'{start_folder}/{entity_folder}/medicine/benefits/{image_path}', f'{website_img_path}/{image_path}')
+        except:
+            pass
+
+        try:
+            for image_path in os.listdir(f'{start_folder}/{entity_folder}/medicine/preparations'):
+                if image_path.endswith('.jpg'):
+                    if image_path[0].isdigit(): continue
+                    print(image_path)
+                    
+                    website_img_path = 'articles-images'
+                    shutil.copy2(f'{start_folder}/{entity_folder}/medicine/preparations/{image_path}', f'{website_img_path}/{image_path}')
         except:
             pass

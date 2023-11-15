@@ -156,7 +156,9 @@ There are many uses and preparations of yarrow, such as yarrow tea, which is mad
 
 
 
-Given the many preparations and uses of yarrow, it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
+Given the many [uses and preparations of yarrow](/achillea-millefolium/medicine/preparations.html), it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
+
+
 
 ### What health side effects can yarrow have if used improperly?
 

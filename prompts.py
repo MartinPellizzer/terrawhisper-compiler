@@ -1312,6 +1312,98 @@ def medicine_benefits():
         ''')
 
 
+def medicine_preparations():
+    
+    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/preparations.csv', entity)
+    rows = [f'{x[1]}' for x in rows[:10]]
+    images_text = ''
+    for i, item in enumerate(rows):
+        images_text += f'''{i}.
+
+        Write me a list of 9 tips for making {item}.
+
+        Items 1, 2, and 3 are about the benefits of {item}. Start these items with a verb.
+        Items 4, 5, and 6 are about tips on how to prepare {item}.
+        Items 7, 8, and 9 are about preparation to take with {item}.
+
+        Write just the items, don't write descriptions.
+        The items must be 5 words or less.
+
+        Don't mention consulting a healthcare professional in the items.
+
+        {item.lower().replace(' ', '-')} image
+
+        --------------------------------------------------------------------
+        
+        '''
+
+    preparations_text = ''
+    for i, item in enumerate(rows):
+        preparations_text += f'''{i}.
+
+        Write a list of paragraphs about {common_name} ({latin_name}) about the following preparation: {item}.
+
+        In paragraph 1, define {item} and describe its uses, benefits, and properties. Include numbers and examples.
+        In paragraph 2, write about how to prepare {item}. Include numbers, like quantities and time. Inclue examples. 
+        In paragraph 3, write about the dosage, the side effects, and the precautions for using {item}. Include numbers and examples.
+        Include as many details, data, and numbers as possible in as few words as possible.
+        Use the metric system as the primary measuring system.
+
+        The first paragraph must start with the following words:
+
+        {item} is 
+
+        --------------------------------------------------------------------
+        
+        '''
+
+
+    print(f'''PREPARATIONS
+
+        {preparations_text}
+        
+        {images_text}
+
+
+
+        ''')
+
+    print(f'''PREPARATIONS
+        
+        Write a paragraph about the most commonly used preparations of {common_name} ({latin_name}) and the uses of those preparations.
+        Write as many details as possible in as few words as possible.
+
+        Start the paragraph with the following words:
+
+        There are many preparations and uses of {common_name}, such as
+
+        ''')
+
+    print(f'''SIDE EFFECTS
+
+        Write a paragraph about the most common side effects of {common_name} ({latin_name}) for medicinal purposes.
+        Write as many details as possible in as few words as possible.
+
+        Start the paragraph with the following words:
+
+        There may be some side effects associated with {common_name} if this medicinal herb is misused.
+
+
+        ''')
+        
+    print(f'''PRECAUTIONS
+
+        Write a paragraph about the most useful precautions to take when using {common_name} ({latin_name}) for medicinal purposes.
+        Write as many details as possible in as few words as possible.
+
+        Start the paragraph with the following words:
+
+        It's important to take some precautions when using {common_name} as a medicine.
+
+
+        ''')
+
+
 def cuisine():
 
     print(f'''CULINARY USES
@@ -1440,7 +1532,8 @@ elif attribute_1 == 'taxonomy': taxonomy()
 elif attribute_2 == 'distribution': distribution()
 elif attribute_1 == 'botany': botany()
 elif attribute_1 == 'medicine': medicine()
-elif attribute_1 == 'medicine_benefits': medicine_benefits()
+elif attribute_1 == 'medicine-benefits': medicine_benefits()
+elif attribute_1 == 'medicine-preparations': medicine_preparations()
 elif attribute_1 == 'cuisine': cuisine()
 elif attribute_1 == 'horticultural': horticultural()
 elif attribute_1 == 'botany': botany()

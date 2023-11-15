@@ -163,6 +163,8 @@ There are many preparations and uses of Sweet flag, such as the creation of Swee
 
 Given the many preparations and uses of sweet flag, it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
 
+
+
 ### What health side effects can sweet flag have if used improperly?
 
 There may be some side effects associated with Sweet flag if this medicinal herb is misused. Common side effects include oral irritation, nausea, vomiting, and in some cases, hallucinations or seizures. Prolonged or excessive use may lead to toxic effects on the nervous system due to the presence of beta-asarone. Skin irritation or allergic reactions might occur with topical application. It's important to use Sweet flag in moderation and under guidance to avoid potential adverse effects. Pregnant women, nursing mothers, and individuals with certain medical conditions should consult a healthcare professional before using Sweet flag for medicinal purposes.

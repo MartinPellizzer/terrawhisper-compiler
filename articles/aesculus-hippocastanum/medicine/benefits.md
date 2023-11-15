@@ -158,6 +158,8 @@ There are many preparations and uses of Horse Chestnut, such as capsules and ext
 
 Given the many preparations and uses of horse chestnut, it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
 
+
+
 ### What health side effects can horse chestnut have if used improperly?
 
 There may be some side effects associated with Horse Chestnut if this medicinal herb is misused. Common side effects include gastrointestinal issues such as nausea, stomach upset, and diarrhea. Skin reactions like itching, rash, or irritation may occur. In some cases, headaches or dizziness have been reported. Horse Chestnut contains a compound called aesculin, which can be toxic if taken in high doses and may lead to serious effects such as liver damage, muscle twitching, and even coma. People allergic to the plant might experience severe reactions. Pregnant or breastfeeding women and individuals with bleeding disorders or certain health conditions should avoid its use due to potential risks. Consulting a healthcare professional before use is advisable to minimize the risk of adverse effects.

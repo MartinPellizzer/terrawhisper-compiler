@@ -94,7 +94,7 @@ The following list summarizes the 10 most important active constituents of sweet
 
 Sweet flag (Acorus calamus) is a versatile herb with numerous health preparations, supported by specific measurements and dosages. The finely ground dried root powder, a foundational element for many formulations, is commonly encapsulated into tablets, with typical capsule sizes ranging from 400 to 600 milligrams. This provides a quantifiable measure for convenient dosing.
 
-The following illustration shows the most important preparations of sweet flag to boost your health.
+The following illustration shows the most important medicinal preparations of sweet flag.
 
 
 

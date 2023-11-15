@@ -2,11 +2,12 @@
 
 ## [preparations_1] >> "tea"
 
-Paragraph 1: uses
+Paragraph 1: definition, uses, properties, benefits
 
-Paragraph 2: how to prepare preparation
+Paragraph 2: how to prepare
 
-Paragraph 3: precautions
+Paragraph 3: dosage, side effects, precautions
 
 -----------------------------------------------------
 
+dosage

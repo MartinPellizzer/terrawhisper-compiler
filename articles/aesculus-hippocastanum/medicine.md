@@ -86,7 +86,7 @@ The following list summarizes the 10 most important active constituents of horse
 
 Horse Chestnut (Aesculus hippocastanum) demonstrates its versatility through various health preparations. Post-harvest, the meticulous drying process ensures optimal moisture removal, typically reaching a moisture content of less than 10%. The subsequent grinding yields a fine powder, with studies indicating a particle size ranging from 100 to 300 micrometers for enhanced bioavailability.
 
-The following illustration shows the most important preparations of horse chestnut to boost your health.
+The following illustration shows the most important medicinal preparations of horse chestnut.
 
 
 

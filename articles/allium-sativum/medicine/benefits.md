@@ -162,6 +162,8 @@ There are many preparations and uses of Garlic, such as fresh cloves eaten raw o
 
 Given the many preparations and uses of garlic, it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
 
+
+
 ### What health side effects can garlic have if used improperly?
 
 There may be some side effects associated with Garlic if this medicinal herb is misused. Common side effects include bad breath, body odor, heartburn, upset stomach, and allergic reactions like skin rash or itching. Garlic might also interact with certain medications, particularly blood-thinners, so caution is advised for those taking such medications. Excessive consumption can lead to gastrointestinal issues or lowered blood pressure. Consulting a healthcare professional before starting garlic supplements is recommended, especially for individuals with existing medical conditions or those taking prescribed medications.

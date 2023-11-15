@@ -88,7 +88,7 @@ The following list summarizes the 10 most important active constituents of aloe 
 
 Aloe vera, revered for its multifaceted health benefits, boasts a composition rich in key constituents. Mature leaves, typically around 3 years old, are harvested for optimal potency. The meticulous cleaning process involves thorough washing to eliminate contaminants, ensuring the purity of the subsequent extracts. The peeling of the outer skin, a crucial step, precedes filleting, wherein the inner gel is carefully separated from the latex layer to mitigate the risk of irritation.
 
-The following illustration shows the most important preparations of aloe vera to boost your health.
+The following illustration shows the most important medicinal preparations of aloe vera.
 
 
 

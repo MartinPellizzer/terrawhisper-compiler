@@ -1574,3 +1574,57 @@ aa.Ik/c/<@https://www.googletagmanager.com/gtag/js?id=G-866WPQDV0Y&l=dataLayer&c
 
 1699894163110	Marionette	INFO	Stopped listening on port 50530
 Dynamically enable window occlusion 1
+1699982128105	geckodriver	INFO	Listening on 127.0.0.1:52964
+1699982131191	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52965" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileJ9LT29"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1699982131632	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1699982131723	Marionette	INFO	Listening on port 52972
+Read port: 52972
+WebDriver BiDi listening on ws://127.0.0.1:52965
+1699982131895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52965/devtools/browser/c97389f8-95e5-4ba8-877b-6c82047e4b61
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yx/l/en_US/VnNT67wT6UI.js?_nc_x=Ij3Wp8lg5Kz, line 403: Script terminated by timeout at:
+_gatherWadsAndPostsFromBuffer@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yx/l/en_US/VnNT67wT6UI.js?_nc_x=Ij3Wp8lg5Kz:403:614
+_tryToSendViaBeacon@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yx/l/en_US/VnNT67wT6UI.js?_nc_x=Ij3Wp8lg5Kz:403:4045
+_initialize/<@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yx/l/en_US/VnNT67wT6UI.js?_nc_x=Ij3Wp8lg5Kz:403:1247
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yx/l/en_US/VnNT67wT6UI.js?_nc_x=Ij3Wp8lg5Kz:67:10432
+c.__emitToSubscription@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yx/l/en_US/VnNT67wT6UI.js?_nc_x=Ij3Wp8lg5Kz:76:1477
+c.emit@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yx/l/en_US/VnNT67wT6UI.js?_nc_x=Ij3Wp8lg5Kz:76:1303
+@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yx/l/en_US/VnNT67wT6UI.js?_nc_x=Ij3Wp8lg5Kz:402:1046
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yx/l/en_US/VnNT67wT6UI.js?_nc_x=Ij3Wp8lg5Kz:67:10432
+d@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yx/l/en_US/VnNT67wT6UI.js?_nc_x=Ij3Wp8lg5Kz:502:2086
+
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1699982161761	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object

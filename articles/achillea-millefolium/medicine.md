@@ -108,7 +108,7 @@ The following list summarizes the 10 most important active constituents of yarro
 
 Yarrow offers versatile health preparations, including yarrow tea, tincture, infused oil, poultice, capsules, salve, compress, essential oil, powder, bath, and inhalation. These diverse forms enable yarrow's use for medicinal teas, topical treatments, aromatherapy, and dietary supplements, catering to a wide range of health needs, from wound care to relaxation.
 
-The following illustration shows the most important preparations of yarrow to boost your health.
+The following illustration shows the most important [medicinal preparations of yarrow](/achillea-millefolium/medicine/preparations.html).
 
 
 

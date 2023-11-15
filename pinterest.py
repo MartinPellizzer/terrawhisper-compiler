@@ -189,10 +189,12 @@ for i, row in enumerate(articles_master_rows[1:]):
     time.sleep(5)
 
     e = driver.find_element(By.XPATH, '//input[@id="pickerSearchField"]')
-    e.send_keys(common_name_title) 
+    # e.send_keys(common_name_title) 
+    e.send_keys('Medicinal Plants') 
     time.sleep(3)
 
-    e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-{common_name_title} ({latin_name})"]')
+    # e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-{common_name_title} ({latin_name})"]')
+    e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-Medicinal Plants"]')
     e.click()
     time.sleep(3)
 

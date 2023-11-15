@@ -85,7 +85,7 @@ The following list summarizes the 10 most important active constituents of galan
 
 Galangal (Alpinia officinarum) boasts various preparations renowned for their health-promoting properties. Among these, galangal tea stands out as a fundamental infusion derived from steeping approximately 1.5 to 2 grams of fresh or dried galangal root in boiling water for around 10 to 15 minutes. This extraction method allows the release of bioactive compounds, which include galangin, galangol, and kaempferol. Another widely used form is the galangal extract, providing concentrated doses of beneficial components. Capsules containing powdered galangal root offer convenient supplementation, typically containing 500 milligrams to 1 gram of the herb per capsule.
 
-The following illustration shows the most important preparations of galangal to boost your health.
+The following illustration shows the most important medicinal preparations of galangal.
 
 
 
