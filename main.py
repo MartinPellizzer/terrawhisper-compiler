@@ -1567,6 +1567,97 @@ def generate_image_template_medicine_benefits(entity, common_name, image_filenam
 
     return filepath
 
+
+    
+def generate_image_template_medicine_benefits_2(entity, common_name, image_filename, item):
+    attribute_lst = ['medicine', 'benefits', item]
+
+    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits/benefits.csv', entity)
+    rows = [f'- {x[3].title()}' for x in rows if x[1] == item.lower().replace(' ', '-').strip() and x[2] == 'image']
+    lst = rows[:10]
+
+    bg_image_path = f'G:/tw-images/website/{entity}/medicine/benefits/{image_filename}'
+
+    img_w = 1024
+    img_h = 768
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#fafafa')
+    draw = ImageDraw.Draw(img)
+
+    attributes_path = '-'.join(attribute_lst)
+    img_background = Image.open(bg_image_path)
+    img_background_w = 576
+    img_background_h = 768
+    img_background.thumbnail((img_background_w, img_background_h), Image.Resampling.LANCZOS)
+    img.paste(img_background, (img_w - img_background_w, 0))
+
+    xy = [
+        (0, 0,),
+        (img_background_w, 0,),
+        (img_w - img_background_w, img_h,),
+        (0, img_h,),
+    ]
+    draw.polygon(xy, fill ="#0f766e") 
+
+    current_y = 0
+
+    # Title
+    font_size = 48
+    line_spacing = 1.3
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = common_name.title()
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((50, 50), line, '#ffffff', font=font)
+
+    font_size = 48
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    title_tmp = common_name.title()
+    title_w = font.getbbox(title_tmp)[2]
+
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    subtitle_tmp = attribute_lst[-1].upper()
+    subtitle_tmp = subtitle_tmp.split('(')[0]
+    subtitle_w = font.getbbox(subtitle_tmp)[2]
+    if subtitle_w > 475:
+        character_len = len(subtitle_tmp)
+        font_size = 800 // character_len
+        font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+        subtitle_w = font.getbbox(subtitle_tmp)[2]
+
+    if title_w > subtitle_w: divider_w = title_w
+    else: divider_w = subtitle_w
+    draw.rectangle(((50, 50 + line_h + 10), (50 + divider_w, 50 + line_h + 10 + 2)), '#ffffff')
+    current_y += 50 + line_h + 10 + 2
+    
+    # Subtitle
+    line = subtitle_tmp
+    line_h = font.getbbox('y')[3]
+    draw.text((50, current_y + 10), line, '#ffffff', font=font)
+    current_y += 50 + line_h
+
+    # List
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line_spacing = 1.3
+    line_h = font.getbbox('y')[3]
+    for i, line in enumerate(lst):
+        draw.text((50, current_y + 10 + line_h * line_spacing * i), line, '#ffffff', font=font)
+    current_y += 10 + line_h * line_spacing * i + line_h
+
+    # Copy
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    draw.text((50, img_h - 50 - line_h), '© TerraWhisper.com', '#ffffff', font=font)
+
+    img.thumbnail((768, 576), Image.Resampling.LANCZOS)
+    
+    # Export
+    out_attr_lst = '-'.join(attribute_lst).lower().replace(' ', '-')
+    out_filename = f'website/images/{entity}-{out_attr_lst}.jpg'
+    img.save(out_filename, format='JPEG', subsampling=0, quality=100)
+    filepath = '/' + '/'.join(out_filename.split('/')[1:])
+
+    return filepath
+
     
 def generate_image_template_medicine_preparations(entity, common_name, image_filename, item):
     attribute_lst = ['medicine', 'preparations', item]
@@ -1973,177 +2064,256 @@ for i, row in enumerate(articles_master_rows[1:]):
 
         
         # benefits
-        title_section = f'## What are the medicinal uses of {common_name}?\n\n'
+        if os.path.exists(f'database/articles/{entity}/medicine.md'):
+            title_section = f'## What are the medicinal uses of {common_name}?\n\n'
+            content_paragraphs = get_content_2(f'database/articles/{entity}/medicine.md').split('\n')
+            image_intro = f'\n\nThe following illustration lists the most important uses of [{common_name} in medicine](/{entity}/medicine.html).\n\n'
+            
+            rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
+            image_title = f'{latin_name.capitalize()} Medicine'
+            image_filepath = generate_image_template_1(entity, ['medicine', 'general'], rows_filtered)
 
-        content_1 = get_content('medicine-uses', f'database/articles/{entity}')
+            p_before = content_paragraphs[0]
+            p_after = "\n\n".join(content_paragraphs[1:])
+            article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after
+                
 
-        image_intro = f'\n\nThe following illustration lists the most important uses of [{common_name} in medicine](/{entity}/medicine.html).\n\n'
+        else:
+            title_section = f'## What are the medicinal uses of {common_name}?\n\n'
 
-        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
-        rows_filtered = [f'{x[1]}' for x in rows[:10]]
+            content_1 = get_content('medicine-uses', f'database/articles/{entity}')
 
-        image_title = f'{latin_name.capitalize()} Medicine'
-        image_filepath = ''
-        try:
-            image_filepath = generate_image_template_1(
-                entity, 
-                ['medicine', 'general'], 
-                rows_filtered,
-            )
-        except: pass
+            image_intro = f'\n\nThe following illustration lists the most important uses of [{common_name} in medicine](/{entity}/medicine.html).\n\n'
 
-        content_2_title = f'### What are the active compound of {common_name}?'
-        content_2_title = ''
-        content_2 = get_content('medicine-constituents', f'database/articles/{entity}')
-        content_3_title = f'### What are the key preparations of {common_name}?'
-        content_3_title = ''
-        content_3 = get_content('medicine-preparations', f'database/articles/{entity}')
-        content_4_title = f'### What are the precautions to take when using {common_name}?'
-        content_4_title = ''
-        content_4 = get_content('medicine-precautions', f'database/articles/{entity}')
+            rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
 
-        content_secondary = f'{content_2_title}\n\n{content_2}\n\n{content_3_title}\n\n{content_3}\n\n{content_4_title}\n\n{content_4}\n\n'
+            image_title = f'{latin_name.capitalize()} Medicine'
+            image_filepath = ''
+            try:
+                image_filepath = generate_image_template_1(
+                    entity, 
+                    ['medicine', 'general'], 
+                    rows_filtered,
+                )
+            except: pass
 
-        article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
+            content_2_title = f'### What are the active compound of {common_name}?'
+            content_2_title = ''
+            content_2 = get_content('medicine-constituents', f'database/articles/{entity}')
+            content_3_title = f'### What are the key preparations of {common_name}?'
+            content_3_title = ''
+            content_3 = get_content('medicine-preparations', f'database/articles/{entity}')
+            content_4_title = f'### What are the precautions to take when using {common_name}?'
+            content_4_title = ''
+            content_4 = get_content('medicine-precautions', f'database/articles/{entity}')
+
+            content_secondary = f'{content_2_title}\n\n{content_2}\n\n{content_3_title}\n\n{content_3}\n\n{content_4_title}\n\n{content_4}\n\n'
+
+            article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
+            
         
-        
 
-        # culinary uses
-        title_section = f'## What are the culinary uses of {common_name}?\n\n'
-        content_1 = get_content('cuisine-uses', f'database/articles/{entity}')
-
-        if cuisine_col != 'n':
+        # cuisine
+        if os.path.exists(f'database/articles/{entity}/cuisine.md'):
+            title_section = f'## What are the culinary uses of {common_name}?\n\n'
+            content_paragraphs = get_content_2(f'database/articles/{entity}/cuisine.md').split('\n')
             image_intro = f'\n\nThe following illustration lists the most common uses of {common_name} for culinary purposes.\n\n'
             
             rows = utils.csv_get_rows_by_entity(f'database/tables/cuisine/uses.csv', entity)
             rows_filtered = [f'{x[1]}' for x in rows[:10]]
+            image_title = f'{latin_name.capitalize()} Cuisine'
+            image_filepath = generate_image_template_1(entity, ['cuisine', 'general'], rows_filtered)
 
-            image_title = f'{latin_name.capitalize()} Cuisine'
-            try:
-                image_filepath = ''
-                image_filepath = generate_image_template_1(
-                    entity, 
-                    ['cuisine', 'general'], 
-                    rows_filtered,
-                )
-            except: pass
+            p_before = content_paragraphs[0]
+            p_after = "\n\n".join(content_paragraphs[1:])
+            article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after
+                
+
         else:
-            image_intro = f'\n\nThe following illustration serves as a reminder that {common_name} is toxic and must not be used for culinary purposes.\n\n'
-            image_title = f'{latin_name.capitalize()} Cuisine'
-            image_filepath = ''
-            image_filepath = generate_image_template_no_cuisine(
-                entity, 
-                ['cuisine', 'general'], 
-            )
-            try:
+            title_section = f'## What are the culinary uses of {common_name}?\n\n'
+            content_1 = get_content('cuisine-uses', f'database/articles/{entity}')
+
+            if cuisine_col != 'n':
+                image_intro = f'\n\nThe following illustration lists the most common uses of {common_name} for culinary purposes.\n\n'
+                
+                rows = utils.csv_get_rows_by_entity(f'database/tables/cuisine/uses.csv', entity)
+                rows_filtered = [f'{x[1]}' for x in rows[:10]]
+
+                image_title = f'{latin_name.capitalize()} Cuisine'
+                try:
+                    image_filepath = ''
+                    image_filepath = generate_image_template_1(
+                        entity, 
+                        ['cuisine', 'general'], 
+                        rows_filtered,
+                    )
+                except: pass
+            else:
+                image_intro = f'\n\nThe following illustration serves as a reminder that {common_name} is toxic and must not be used for culinary purposes.\n\n'
+                image_title = f'{latin_name.capitalize()} Cuisine'
                 image_filepath = ''
                 image_filepath = generate_image_template_no_cuisine(
                     entity, 
                     ['cuisine', 'general'], 
                 )
-            except: pass
+                try:
+                    image_filepath = ''
+                    image_filepath = generate_image_template_no_cuisine(
+                        entity, 
+                        ['cuisine', 'general'], 
+                    )
+                except: pass
 
-        content_2_title = f'### What is the flavor profile of {common_name}?'
-        content_2_title = ''
-        content_2 = get_content('cuisine-flavor', f'database/articles/{entity}')
-        content_3_title = f'### What are the culinary tips for {common_name}?'
-        content_3_title = ''
-        content_3 = get_content('cuisine-tips', f'database/articles/{entity}')
+            content_2_title = f'### What is the flavor profile of {common_name}?'
+            content_2_title = ''
+            content_2 = get_content('cuisine-flavor', f'database/articles/{entity}')
+            content_3_title = f'### What are the culinary tips for {common_name}?'
+            content_3_title = ''
+            content_3 = get_content('cuisine-tips', f'database/articles/{entity}')
 
-        content_secondary = f'{content_2_title}\n\n{content_2}\n\n{content_3_title}\n\n{content_3}\n\n'
+            content_secondary = f'{content_2_title}\n\n{content_2}\n\n{content_3_title}\n\n{content_3}\n\n'
 
-        article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
+            article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
 
 
         
 
         # horticulture
-        title_section = f'## How to cultivate {common_name} in your garden?\n\n'
-        content_1 = get_content('horticulture-cultivation', f'database/articles/{entity}')
+        if os.path.exists(f'database/articles/{entity}/cuisine.md'):
+            title_section = f'## How to cultivate {common_name} in your garden?\n\n'
+            content_paragraphs = get_content_2(f'database/articles/{entity}/horticulture.md').split('\n')
+            image_intro = f'\n\nThe following illustration lists the most important tips to cutlitvate {common_name}.\n\n'
+            
+            rows = utils.csv_get_rows_by_entity(f'database/tables/horticulture/tips.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
+            image_title = f'{latin_name.capitalize()} Horticulture'
+            image_filepath = generate_image_template_1(entity, ['horticulture', 'general'], rows_filtered)
 
-        image_intro = f'\n\nThe following illustration lists the most important tips to cutlitvate {common_name}.\n\n'
-        
-        rows = utils.csv_get_rows_by_entity(f'database/tables/horticulture/tips.csv', entity)
-        rows_filtered = [f'{x[1]}' for x in rows[:10]]
+            p_before = content_paragraphs[0]
+            p_after = "\n\n".join(content_paragraphs[1:])
+            article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after
+                
 
-        image_title = f'{latin_name.capitalize()} Horticulture'
-        
-        image_filepath = ''
-        try:
-            image_filepath = generate_image_template_1(
-                entity, 
-                ['horticulture', 'general'], 
-                rows_filtered,
-            )
-        except: pass
+        else:
+            title_section = f'## How to cultivate {common_name} in your garden?\n\n'
+            content_1 = get_content('horticulture-cultivation', f'database/articles/{entity}')
 
-        content_2 = get_content('horticulture-conditions', f'database/articles/{entity}')
-        content_3 = get_content('horticulture-maintenance', f'database/articles/{entity}')
+            image_intro = f'\n\nThe following illustration lists the most important tips to cutlitvate {common_name}.\n\n'
+            
+            rows = utils.csv_get_rows_by_entity(f'database/tables/horticulture/tips.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
 
-        content_secondary = f'{content_2}\n\n{content_3}\n\n'
+            image_title = f'{latin_name.capitalize()} Horticulture'
+            
+            image_filepath = ''
+            try:
+                image_filepath = generate_image_template_1(
+                    entity, 
+                    ['horticulture', 'general'], 
+                    rows_filtered,
+                )
+            except: pass
 
-        article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
+            content_2 = get_content('horticulture-conditions', f'database/articles/{entity}')
+            content_3 = get_content('horticulture-maintenance', f'database/articles/{entity}')
+
+            content_secondary = f'{content_2}\n\n{content_3}\n\n'
+
+            article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
 
 
 
-        # botanical
-        title_section = f'## What is the botanical profile of {common_name}?\n\n'
-        content_1 = get_content('botany-taxonomy', f'database/articles/{entity}')
+        # botany
+        if os.path.exists(f'database/articles/{entity}/botany.md'):
+            title_section = f'## What is the botanical profile of {common_name}?\n\n'
+            content_paragraphs = get_content_2(f'database/articles/{entity}/botany.md').split('\n')
+            image_intro = f'\n\nThe following illustration show the traditional taxonomy of {common_name}.\n\n'
+            
+            rows = utils.csv_get_rows_by_entity_with_header(f'database/tables/botany/taxonomy.csv', entity)
+            rows_filtered = [f'{rows[0][k].capitalize()}: {rows[1][k]}' for k in range(len(rows[0])) if k != 0]
+            image_title = f'{latin_name.capitalize()} Botany'
+            image_filepath = generate_image_template_1(entity, ['botany', 'general'], rows_filtered)
 
-        image_intro = f'\n\nThe following illustration show the traditional taxonomy of {common_name}.\n\n'
+            p_before = content_paragraphs[0]
+            p_after = "\n\n".join(content_paragraphs[1:])
+            article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after
+                
+        else:
+            title_section = f'## What is the botanical profile of {common_name}?\n\n'
+            content_1 = get_content('botany-taxonomy', f'database/articles/{entity}')
 
-        rows = utils.csv_get_rows_by_entity_with_header(f'database/tables/botany/taxonomy.csv', entity)
-        rows_filtered = []
-        for k in range(len(rows[0])):
-            if k == 0: continue
-            rows_filtered.append(f'{rows[0][k].capitalize()}: {rows[1][k]}')
-        
-        image_title = f'{latin_name.capitalize()} Botany'
-        
-        image_filepath = ''
-        try:
-            image_filepath = generate_image_template_1(
-                entity, 
-                ['botany', 'general'], 
-                rows_filtered,
-            )
-        except: pass
+            image_intro = f'\n\nThe following illustration show the traditional taxonomy of {common_name}.\n\n'
 
-        content_2 = get_content('botany-common', f'database/articles/{entity}')
-        content_3 = get_content('botany-morphology', f'database/articles/{entity}')
-        content_4 = get_content('botany-distribution', f'database/articles/{entity}')
-        content_secondary = f'{content_2}\n\n{content_3}\n\n{content_4}\n\n'
-        
-        article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
+            rows = utils.csv_get_rows_by_entity_with_header(f'database/tables/botany/taxonomy.csv', entity)
+            rows_filtered = []
+            for k in range(len(rows[0])):
+                if k == 0: continue
+                rows_filtered.append(f'{rows[0][k].capitalize()}: {rows[1][k]}')
+            
+            image_title = f'{latin_name.capitalize()} Botany'
+            
+            image_filepath = ''
+            try:
+                image_filepath = generate_image_template_1(
+                    entity, 
+                    ['botany', 'general'], 
+                    rows_filtered,
+                )
+            except: pass
+
+            content_2 = get_content('botany-common', f'database/articles/{entity}')
+            content_3 = get_content('botany-morphology', f'database/articles/{entity}')
+            content_4 = get_content('botany-distribution', f'database/articles/{entity}')
+            content_secondary = f'{content_2}\n\n{content_3}\n\n{content_4}\n\n'
+            
+            article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
 
 
 
         # history
-        title_section = f'## What is the history and folklore of {common_name}?\n\n'
-        content_1 = get_content('history-medicine', f'database/articles/{entity}')
+        if os.path.exists(f'database/articles/{entity}/history.md'):
+            title_section = f'## What is the history and folklore of {common_name}?\n\n'
+            content_paragraphs = get_content_2(f'database/articles/{entity}/history.md').split('\n')
+            image_intro = f'\n\nThe following illustration lists the most well known historical uses of {common_name}.\n\n'
+            
+            rows = utils.csv_get_rows_by_entity(f'database/tables/history/uses.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
+            image_title = f'{latin_name.capitalize()} History'
+            image_filepath = generate_image_template_1(entity, ['history', 'general'], rows_filtered)
 
-        image_intro = f'\n\nThe following illustration lists the most well known historical uses of {common_name}.\n\n'
-        
-        rows = utils.csv_get_rows_by_entity(f'database/tables/history/uses.csv', entity)
-        rows_filtered = [f'{x[1]}' for x in rows[:10]]
+            p_before = content_paragraphs[0]
+            p_after = "\n\n".join(content_paragraphs[1:])
+            article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after
+                
 
-        image_title = f'{latin_name.capitalize()} History'
-        
-        image_filepath = ''
-        try:
-            image_filepath = generate_image_template_1(
-                entity, 
-                ['history', 'general'], 
-                rows_filtered,
-            )
-        except: pass
+        else:
+            title_section = f'## What is the history and folklore of {common_name}?\n\n'
+            content_1 = get_content('history-medicine', f'database/articles/{entity}')
 
-        content_2 = get_content('history-divination', f'database/articles/{entity}')
-        content_3 = get_content('history-legends', f'database/articles/{entity}')
+            image_intro = f'\n\nThe following illustration lists the most well known historical uses of {common_name}.\n\n'
+            
+            rows = utils.csv_get_rows_by_entity(f'database/tables/history/uses.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
 
-        content_secondary = f'{content_2}\n\n{content_3}\n\n'
+            image_title = f'{latin_name.capitalize()} History'
+            
+            image_filepath = ''
+            try:
+                image_filepath = generate_image_template_1(
+                    entity, 
+                    ['history', 'general'], 
+                    rows_filtered,
+                )
+            except: pass
 
-        article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
+            content_2 = get_content('history-divination', f'database/articles/{entity}')
+            content_3 = get_content('history-legends', f'database/articles/{entity}')
+
+            content_secondary = f'{content_2}\n\n{content_3}\n\n'
+
+            article += title_section + content_1 + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + content_secondary +'\n\n'
 
 
     else:
@@ -2285,7 +2455,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 print(f'WARNING: missing image ({entity})')
 
             article += get_content('medicine/benefits/_intro', f'database/articles/{entity}')
-            article += f'This article explains in details the most important and well recognized health benefits of {common_name}, including which constituents and preparations of this plant gives these benefits.' + '\n\n'
+            article += f'This article explains in details the most important and well recognized health benefits of {common_name}, including which constituents and parts of this plant gives these benefits.' + '\n\n'
 
 
             
@@ -2302,10 +2472,13 @@ for i, row in enumerate(articles_master_rows[1:]):
                 filename = f'{num}-{item_formatted}'
                 filepath = f'medicine/benefits/{filename}'
 
-                content_section = get_content(f'{filepath}', f'database/articles/{entity}')
+                content_section = get_content(f'{filepath}', f'database/articles/{entity}').strip()
                 
                 # image
-                image_filepath = generate_image_template_medicine_benefits(entity, common_name, images_filenames[i], item,)
+                try:
+                    image_filepath = generate_image_template_medicine_benefits(entity, common_name, images_filenames[i], item,)
+                except:
+                    image_filepath = generate_image_template_medicine_benefits_2(entity, common_name, images_filenames[i], item,)
                 image_title = f'{common_name.capitalize()}\'s Medicinal Benefits {images_filenames[i]}'
                 image_section = f'![{image_title}]({image_filepath} "{image_title}")\n\n'
 
@@ -2314,7 +2487,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 image_intro_line = f'The primary constituents and preparations that make {common_name} {item_no_s.lower()} are shown in the following illustration.'  + '\n\n'
 
                 section_1 = content_section.split('\n')[0]  + '\n\n'
-                section_rest = '\n'.join(content_section.split('\n')[1: -1])  + '\n\n'
+                section_rest = '\n'.join(content_section.split('\n')[1:])  + '\n\n'
 
                 article += title_section + section_1 + image_intro_line + image_section + section_rest
 
@@ -2323,7 +2496,7 @@ for i, row in enumerate(articles_master_rows[1:]):
 
             content = get_content_2(f'database/articles/{entity}/medicine/benefits/preparations.md')
             if content.strip() != '':
-                article += f'## How to properly use {common_name} for medicinal purposes?' + '\n\n'
+                article += f'## How to properly use {common_name} to get it\'s benefits?' + '\n\n'
                 article += content + '\n\n'
                 tmp_rows = [r for r in articles_master_rows if r[articles_dict['entity']] == entity]
                 tmp_rows = [r for r in tmp_rows if r[articles_dict['attribute_2']] == 'preparations']

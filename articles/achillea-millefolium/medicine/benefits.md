@@ -8,7 +8,7 @@ Yarrow's ability to reduce high blood pressure is due to alkaloids and flavonoid
 
 Preparations include teas, tinctures, and infusions using various plant parts, providing convenient ways to integrate yarrow into daily wellness routines.
 
-This article explains in details the most important and well recognized health benefits of yarrow, including which constituents and preparations of this plant gives these benefits.
+This article explains in details the most important and well recognized health benefits of yarrow, including which constituents and parts of this plant gives these benefits.
 
 ## 1. Relieves Inflammation
 
@@ -23,7 +23,6 @@ The anti-inflammatory properties of yarrow make it beneficial for a range of hea
 
 To harness the anti-inflammatory benefits of yarrow, various parts of the plant can be used, including the leaves, flowers, and stems. These plant parts can be prepared as teas, infusions, or tinctures. For a yarrow tea, steep 1-2 grams of dried yarrow leaves and flowers in hot water for 10-15 minutes. A tincture can be made by extracting the plant's constituents in alcohol, and infusions can be prepared by soaking this herb in cold water for several hours. These preparations allow individuals to access the plant's inflammation-relieving properties and benefit from its natural healing attributes.
 
-
 ## 2. Promotes Digestion
 
 Yarrow promotes digestion thanks to its rich composition of essential oils, primarily containing 0.2-0.9% chamazulene and 4-7% α-pinene. These constituents exhibit potent anti-inflammatory and anti-spasmodic properties, contributing to improved gastrointestinal health. Additionally, this plant contains up to 2% bitter compounds, such as sesquiterpene lactones and flavonoids, which stimulate the production of digestive enzymes and bile, enhancing nutrient absorption and aiding in the breakdown of fats.
@@ -36,7 +35,6 @@ The primary constituents and preparations that make yarrow promote digestion are
 The digestive benefits of yarrow are particularly beneficial for individuals suffering from conditions like dyspepsia and irritable bowel syndrome (IBS). Studies have shown that the plant's essential oils, especially chamazulene, can effectively reduce inflammation and spasms in the digestive tract, easing discomfort and abdominal pain. Moreover, the bitter compounds in this herb help alleviate symptoms of bloating and indigestion. It's worth noting that the positive effects of Achillea millefolium on digestion are not limited to specific ailments and can benefit anyone seeking improved digestive health.
 
 Various parts of the yarrow plant can be utilized for their digestive benefits. The aerial parts, including the flowers and leaves, are commonly used to make infusions or herbal teas. For an herbal tea, steep 1-2 grams of dried yarrow in 150 ml of hot water for 10-15 minutes. Alternatively, yarrow tinctures are available, with a recommended dosage of 1-4 ml per day. These preparations harness the plant's digestive-enhancing properties and are easy to incorporate into one's daily wellness routine.
-
 
 ## 3. Alleviates Menstrual Discomfort
 
@@ -51,7 +49,6 @@ Examples of health conditions that can benefit from yarrow's menstrual discomfor
 
 To harness the benefits of yarrow for alleviating menstrual discomfort, various parts of the plant can be used, including the flowers and leaves. A preparation such as yarrow tea can be made by infusing one to two teaspoons of dried yarrow in hot water for 10 minutes. Alternatively, a tincture can be created using a ratio of 1:5 yarrow to alcohol, with a recommended dosage of 1-2 milliliters up to three times a day. These preparations allow for convenient and customizable utilization of yarrow's menstrual health benefits.
 
-
 ## 4. Enhances Wound Healing
 
 Yarrow enhances wound healing thanks to its rich composition of bioactive compounds, including tannins, flavonoids, and sesquiterpene lactones. These constituents contribute to its anti-inflammatory, antimicrobial, and astringent properties. Yarrow contains approximately 3-5% tannins, with potent antioxidant effects that aid in reducing oxidative stress during the healing process. Furthermore, its flavonoid content, such as apigenin and luteolin, exhibits anti-inflammatory effects, fostering a conducive environment for wound repair. The sesquiterpene lactones present in Yarrow contribute to its antimicrobial activity, protecting wounds from potential infections.
@@ -64,7 +61,6 @@ The primary constituents and preparations that make yarrow enhance wound healing
 Various health conditions benefit from Yarrow's wound healing properties, including minor cuts, abrasions, and burns. The plant's ability to accelerate the healing process and minimize infection risk makes it particularly useful in first aid situations. Yarrow's efficacy extends to conditions like skin ulcers and bedsores, where promoting efficient wound closure is crucial for overall patient well-being.
 
 To harness the wound healing benefits of Yarrow, you can utilize its aerial parts, particularly the leaves and flowers. These plant components can be incorporated into poultices, ointments, or infused oils for topical application. A standard preparation involves crushing fresh or dried Yarrow leaves and flowers and combining them with a carrier oil to create a healing salve. The application of such formulations helps exploit Yarrow's medicinal properties for optimal wound management.
-
 
 ## 5. Reduces High Blood Pressure
 
@@ -79,7 +75,6 @@ Examples of health conditions that can benefit from yarrow's blood pressure-lowe
 
 To harness the blood pressure-reducing benefits of yarrow, various parts of the plant can be utilized. The aerial parts, including the flowers and leaves, are commonly used for medicinal purposes. Infusions and tinctures are popular preparations, with a recommended dosage of 2 to 3 cups of yarrow tea per day or 2 to 4 mL of tincture three times daily. These preparations provide a convenient and effective means of incorporating yarrow into a health regimen focused on blood pressure management.
 
-
 ## 6. Boosts Immunity
 
 Yarrow boosts immunity thanks to its rich content of bioactive compounds, including flavonoids, alkaloids, and sesquiterpene lactones. These constituents work synergistically to enhance the immune system's response. Yarrow contains approximately 1.5% flavonoids, with key compounds such as apigenin and luteolin contributing to its immunomodulatory effects. The plant also contains about 0.3% alkaloids, particularly achilleine, which exhibits antimicrobial properties. Furthermore, the sesquiterpene lactones in yarrow, comprising around 0.8% of the plant, play a role in regulating immune functions.
@@ -92,7 +87,6 @@ The primary constituents and preparations that make yarrow boost immunity are sh
 Examples of health conditions that can benefit from yarrow's immune-boosting properties include recurrent infections, allergies, and autoimmune disorders. The enhanced immune response facilitated by yarrow's constituents helps the body defend against pathogens, reducing the frequency and severity of infections. Additionally, the anti-inflammatory effects of yarrow contribute to alleviating symptoms associated with allergies and autoimmune conditions.
 
 To harness the immune-boosting benefits of yarrow, various parts of the plant can be utilized. The aerial parts, including leaves and flowers, contain the highest concentrations of bioactive compounds. Preparation methods include making infusions or decoctions for teas, tinctures, or incorporating dried yarrow into dietary supplements. These preparations ensure a convenient and effective way to integrate yarrow into a health regimen aimed at fortifying the immune system.
-
 
 ## 7. Alleviates Anxiety and Stress
 
@@ -107,7 +101,6 @@ Examples of health conditions that can benefit from yarrow's anxiety and stress-
 
 To harness the anxiety and stress-alleviating benefits of yarrow, one can use various parts of the plant. The aerial parts, including the flowers and leaves, are commonly utilized. A soothing tea can be prepared by steeping 2 grams of dried yarrow in 250 ml of hot water for 5-10 minutes. Alternatively, yarrow essential oil, rich in chamazulene, can be diluted and used in aromatherapy or applied topically for a calming effect.
 
-
 ## 8. Supports Respiratory Health
 
 Yarrow supports respiratory health thanks to its rich content of volatile oils, particularly 1,8-cineole and camphor. These constituents possess anti-inflammatory and antimicrobial properties that contribute to the plant's respiratory benefits. Yarrow also contains flavonoids like luteolin, which further enhance its anti-inflammatory effects. The concentration of 1,8-cineole in Yarrow is approximately 0.2-0.6%, while camphor is present at levels ranging from 0.3-1.2%.
@@ -120,7 +113,6 @@ The primary constituents and preparations that make yarrow support respiratory h
 Examples of health conditions that can benefit from Yarrow's respiratory support include bronchitis, asthma, and common colds. The anti-inflammatory properties of Yarrow can help reduce inflammation in the respiratory tract, easing symptoms and promoting easier breathing. The antimicrobial activity aids in fighting respiratory infections, making Yarrow a valuable herb for overall respiratory well-being.
 
 To harness the respiratory benefits of Yarrow, one can use the aerial parts of the plant, including leaves and flowers. Preparations such as infusions, teas, or steam inhalations can be effective. A standard recommendation is to infuse 1-2 teaspoons of dried Yarrow flowers in 240 ml of hot water for 10-15 minutes. This preparation can be consumed as a tea to support respiratory health or used for steam inhalation to alleviate congestion and promote respiratory comfort.
-
 
 ## 9. Improves Skin Health
 
@@ -135,7 +127,6 @@ Examples of health conditions that can benefit from yarrow's skin-enhancing prop
 
 To harness the skin-improving benefits of yarrow, one can utilize the aerial parts of the plant, particularly the flowers and leaves. Infusions and topical preparations, such as creams or ointments, effectively deliver the bioactive compounds to the skin. A standard preparation involves steeping 10 grams of dried yarrow in 200 milliliters of hot water for 15 minutes, creating a potent infusion for topical application. This method ensures an optimal concentration of yarrow's constituents for promoting skin health.
 
-
 ## 10. Enhances Circulation
 
 Yarrow enhances circulation thanks to its rich content of compounds like alkaloids and flavonoids. Alkaloids, particularly achilleine, contribute to vasodilation, widening blood vessels and promoting increased blood flow. Flavonoids, such as quercetin, possess antioxidant properties that support overall cardiovascular health. Yarrow contains approximately 0.2% alkaloids, with achilleine being a prominent constituent, and its flavonoid content, including quercetin, ranges around 0.03%.
@@ -149,8 +140,7 @@ Examples of health conditions that can benefit from yarrow's circulation-enhanci
 
 To harness the circulation-enhancing benefits of yarrow, various parts of the plant can be utilized. The aerial parts, including leaves and flowers, are commonly employed. Preparations such as yarrow tea, made by infusing 1 to 2 teaspoons of dried yarrow in 250 ml of hot water for 10 minutes, offer a convenient way to incorporate yarrow into a daily routine for promoting circulatory health.
 
-
-## How to properly use yarrow for medicinal purposes?
+## How to properly use yarrow to get it's benefits?
 
 There are many uses and preparations of yarrow, such as yarrow tea, which is made by steeping dried yarrow flowers in hot water. This preparation is known for its medicinal properties, including its ability to alleviate digestive issues, reduce fever, and promote relaxation. Yarrow tinctures, created by extracting the herb's active compounds in alcohol, are commonly used to address respiratory conditions and enhance the immune system. Yarrow oil, derived through steam distillation, is popular for topical applications, offering benefits for wound healing, skin inflammation, and as an insect repellent. Additionally, yarrow poultices, made by crushing fresh yarrow leaves and applying them directly to the skin, prove effective in treating bruises, sprains, and minor injuries due to the herb's anti-inflammatory and analgesic qualities.
 

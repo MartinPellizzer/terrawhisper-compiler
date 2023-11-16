@@ -42,25 +42,8 @@ for row in rows:
     if not found:
         output_rows.append(row)
 
-
-    # found = False
-    # for row in rows:
-    #     if row[0] == csv_row[0] and row[1] == csv_row[1]:
-    #         found = True
-    #         output_rows.append(row)
-    #         break
-    #     else: 
-    #         output_rows.append(csv_row)
-    # if not found:
-    #     output_rows.append(row)
-
-
 with open(filepath, 'w', newline='', encoding='utf-8') as f:
     writer = csv.writer(f, delimiter='|')
     for row in output_rows:
         writer.writerow(row)
 
-
-# for row in output_rows:
-#     print(row)
-# quit()

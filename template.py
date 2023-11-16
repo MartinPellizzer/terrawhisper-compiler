@@ -956,7 +956,7 @@ def main():
 
 def main_2():
 
-    print(f'''MEDICINAL
+    print(f'''MEDICINE 
 
         Write 4 paragraphs about {common_name} ({latin_name}).
 
@@ -979,7 +979,7 @@ def main_2():
 
         ''')
 
-    print(f'''CULINARY
+    print(f'''CUISINE
 
         Write 3 paragraphs about {common_name} ({latin_name}).
 
@@ -994,13 +994,15 @@ def main_2():
 
         Write me a list of the 10 most important culinary uses of {common_name} ({latin_name}).
 
-
+        >>>>
+        
+        list_add.py ammi-visnaga cuisine uses
 
 
 
         ''')
 
-    print(f'''CULTIVATION
+    print(f'''HORTICULTURE
 
         Write 3 paragraphs about {common_name} ({latin_name}).
 
@@ -1024,13 +1026,17 @@ def main_2():
 
         Ok, now add a brief description to each element in the previous list.
 
+        >>>>
+        
+        list_add.py ammi-visnaga horticulture tips
+
 
 
 
 
         ''')
         
-    print(f'''BOTANICAL 2
+    print(f'''BOTANY 
 
         Write 4 paragraphs about {common_name} ({latin_name}).
 
@@ -1065,11 +1071,14 @@ def main_2():
         In the first column of the table, write the elements in the list.
         In the second column of the table, write the answer. 
 
+        >>>>
+
+        table_add.py ammi-visnaga botany taxonomy
 
 
         ''')
 
-    print(f'''HISTORY FOLKLORE
+    print(f'''HISTORY 
     
         Write 3 paragraphs about {common_name} ({latin_name}).
 
@@ -1094,6 +1103,9 @@ def main_2():
         
         Ok, now add a brief description to each element in the previous list.
 
+        >>>>
+
+        list_add.py ammi-visnaga history uses
 
 
 
@@ -1261,6 +1273,94 @@ def medicine_benefits():
         The first paragraph must start with the following words:
 
         {common_name} {item.lower()} thanks to
+
+        --------------------------------------------------------------------
+        
+        '''
+
+
+    print(f'''BENEFITS
+
+        {benefits_text}
+
+        {images_text}
+
+
+        ''')
+
+    print(f'''PREPARATIONS
+        
+        Write a paragraph about the most commonly used preparations of {common_name} ({latin_name}) and the uses of those preparations.
+        Write as many details as possible in as few words as possible.
+
+        Start the paragraph with the following words:
+
+        There are many preparations and uses of {common_name}, such as
+
+        ''')
+
+    print(f'''SIDE EFFECTS
+
+        Write a paragraph about the most common side effects of {common_name} ({latin_name}) for medicinal purposes.
+        Write as many details as possible in as few words as possible.
+
+        Start the paragraph with the following words:
+
+        There may be some side effects associated with {common_name} if this medicinal herb is misused.
+
+
+        ''')
+        
+    print(f'''PRECAUTIONS
+
+        Write a paragraph about the most useful precautions to take when using {common_name} ({latin_name}) for medicinal purposes.
+        Write as many details as possible in as few words as possible.
+
+        Start the paragraph with the following words:
+
+        It's important to take some precautions when using {common_name} as a medicine.
+
+
+        ''')
+
+
+def medicine_benefits_2():
+    
+    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
+    benefits = [f'{x[1]}' for x in rows[:10]]
+    images_text = ''
+    for i, item in enumerate(benefits):
+        images_text += f'''{i}.
+        
+        Here's a health benefit of {common_name} ({latin_name}): {item}.
+
+        Give me a list of 10 health conditions that this benefit helps.
+        Only give me health conditions related specifically to this benefit, don't give me other general conditions.
+        Give me only the health conditions, don't add descriptions.
+        Order the list from the most frequent health condition to the least frequent.
+
+        >>>>
+
+        list_add_benefits.py {entity} {item.lower().replace(' ', '-')} image
+
+        --------------------------------------------------------------------
+        
+        '''
+
+    benefits_text = ''
+    for i, item in enumerate(benefits):
+        problem = ' '.join(item.split(' ')[1:])
+        benefits_text += f'''{i}.
+
+        Write 3 paragraphs about the following health benefit of {common_name} ({latin_name}): {item}.
+
+        In paragraph 1, explain what "{item}" is. Define it in detail. Then, explain what are the constituents of this plant that give this specific benefit. Don't include constituents that don't specifically contribute to this health benefit. Include numbers and data about the constituents, like their quantities.
+        In paragraph 2, write what health conditions this benefit helps.
+        In paragraph 3, write what parts of this plant are used for this benefit.
+
+        Include as many details, data, and numbers as possible.
+        Use the metric system as the primary measuring system.
+        Don't give titles to paragraphs.
 
         --------------------------------------------------------------------
         
@@ -1532,7 +1632,7 @@ elif attribute_1 == 'taxonomy': taxonomy()
 elif attribute_2 == 'distribution': distribution()
 elif attribute_1 == 'botany': botany()
 elif attribute_1 == 'medicine': medicine()
-elif attribute_1 == 'medicine-benefits': medicine_benefits()
+elif attribute_1 == 'medicine-benefits': medicine_benefits_2()
 elif attribute_1 == 'medicine-preparations': medicine_preparations()
 elif attribute_1 == 'cuisine': cuisine()
 elif attribute_1 == 'horticultural': horticultural()

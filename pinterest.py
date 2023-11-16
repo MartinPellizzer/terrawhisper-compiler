@@ -126,7 +126,8 @@ for i, row in enumerate(articles_master_rows[1:]):
     last_day = row[articles_dict['last_day']].strip()
     current_image = row[articles_dict['current_image']].strip()
     image_name = row[articles_dict['image_name']].strip()
-    image_subfolder = row[articles_dict['image_folder']].strip()
+    image_subfolder = row[articles_dict['image_subfolder']].strip()
+    description_folder = row[articles_dict['description_folder']].strip()
     # print(image_name)
 
     today_day = datetime.now().day
@@ -138,19 +139,26 @@ for i, row in enumerate(articles_master_rows[1:]):
 
     img_folder = f'G:\\tw-images\\pin\\{entity}\\{image_subfolder}'
     img_filenames = os.listdir(f'{img_folder}')
+    # print(img_filenames)
     img_filename = img_filenames[int(current_image)]
     pin_generate(entity, common_name_title, img_filename, image_name, subtitle)
 
     folderpath = f'database/articles/{entity}'
+    if description_folder.strip() != '': folderpath += '/' + description_folder.replace('-', '/')
+
     files = [f for f in os.listdir(folderpath) if f.endswith('.md')]
-    random_file = random.choice(files)
-    with open(f'{folderpath}/{random_file}', encoding="utf-8") as f:
-        content = f.read()
-    paragraphs = content.split('\n')
-    random_paragraph = random.choice(paragraphs)
-    random_paragraph_formatted = random_paragraph[:496]
-    if len(random_paragraph) > 499: random_paragraph_formatted += '...'
-    description = random_paragraph_formatted
+    description = []
+    for file in files:
+        with open(f'{folderpath}/{file}', encoding="utf-8") as f:
+            content = f.read()
+        content = content.split('\n')
+        for p in content:
+            if p.strip() != '':
+                description.append(p) 
+
+    random.shuffle(description)
+    description = description[0]
+    if len(description) > 499: description = description[:496] + '...'
 
     print(entity)
     print(common_name_title)
@@ -201,7 +209,7 @@ for i, row in enumerate(articles_master_rows[1:]):
     e = driver.find_element(By.XPATH, '//div[@data-test-id="storyboard-creation-nav-done"]/..')
     e.click()
 
-    time.sleep(60)
+    time.sleep(300)
 
 driver.get("https://www.google.com/")
 
