@@ -1,5 +1,0 @@
-Alpinia officinarum has fruits that are classified as capsules, and these capsules are clustered on spikes, distributed along the plant's inflorescence. Each fruit is attached to the plant via a pedicel, the slender stalk that connects it to the stem.
-
-In terms of shape, the fruits of Alpinia officinarum are oblong, measuring approximately 2.5 cm (0.98 inches) in length, 0.8 cm (0.31 inches) in width, and 0.5 cm (0.20 inches) in thickness. These fruits undergo a color transformation during their development. When they are unripe, they present a green hue, but as they mature, they turn a striking red.
-
-Upon touch, these fruits have a smooth, leathery texture with a glabrous, hairless surface. Notably, they lack prominent markings. One distinct feature of these fruits is their dehiscence, which occurs in three parts. When they reach maturity, the capsules split open, releasing their seeds.

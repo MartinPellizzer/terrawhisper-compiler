@@ -1,9 +1,0 @@
-Angelica sinensis produces its flowers in a compound umbel inflorescence. This means that multiple smaller umbels form a larger, umbrella-like structure, creating a visually striking display of flowers. The individual flowers of this species are relatively simple, with a characteristic actinomorphic or regular symmetry. They consist of five distinct floral parts in each whorl, a trait known as pentamerous, which is common among many plant species.
-
-The flowers of Angelica sinensis are small, with an ovate shape. They measure approximately 2.5 cm (0.98 inches) in length and 1.5 cm (0.59 inches) in width. These flowers are predominantly white to pale pink in color and have a smooth, glabrous texture.
-
-In terms of floral structure, each Angelica sinensis flower is composed of five floral parts, which include the sepals, petals, stamens, and carpels. The sepals are greenish-white and are typically 1-2 mm long (0.04-0.08 inches), while the petals are elliptic to oblong, measuring about 1.5-2 mm long (0.059-0.079 inches).
-
-Notably, the sepals and petals of Angelica sinensis are indistinguishable, forming a single perianth structure. The stamens, numbering five, are equipped with filaments measuring 1.5-2 mm long (0.059-0.079 inches), and the pistil is composed of two fused carpels. The ovary is situated below the floral parts, making it hypogynous with a superior ovary.
-
-The flowers have two styles measuring 2-3 mm long (0.079-0.12 inches) and two capitate stigmas. Importantly, Angelica sinensis flowers lack stipules and have inconspicuous bracts. They are borne on peduncles up to 10 cm (3.94 inches) long, with pedicels up to 1 cm (0.39 inches) long.

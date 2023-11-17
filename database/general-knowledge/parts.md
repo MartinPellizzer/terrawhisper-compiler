@@ -1,4 +1,0 @@
-flower
-leaf
-leaves
-root

@@ -22,34 +22,59 @@ def pin_generate_2(entity, common_name, filepath, attribute, subtitle):
     img_background_size = img_background.size
 
     img = Image.new(mode="RGB", size=(img_w, img_h), color='#1c1917')
-    img.paste(img_background, (0, 180))
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#0f766e')
+    img.paste(img_background, (0, 250))
 
     draw = ImageDraw.Draw(img)
 
-    current_y = 20
+    line_1 = '10'
+    line_2 = 'Medicinal Preparations'
+    # line_2 = 'Health Benefits'
+    line_3 = f'of {common_name.title()}'
 
-    font_size = 64
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = '10 Health Benefits'
+    max_len = len(line_1)
+    if max_len < len(line_2): max_len = len(line_2)
+    if max_len < len(line_3): max_len = len(line_3)
+
+
+    font_size = 1100 // max_len
+    if font_size > 64: font_size = 64
+
+    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
+    tot_y = font.getbbox('y')[3] * 3
+    print(tot_y)
+
+    current_y = (250 - tot_y) // 2
+
+    # font_size = 48
+    line_height = 1.0
+    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
+    line = line_1
     line_w = font.getbbox(line)[2]
-    line_h = font.getbbox(line)[3]
+    line_h = font.getbbox('y')[3]
     draw.text((img_w//2 - line_w//2, current_y), line, '#ffffff', font=font)
-    current_y += line_h * 1.1
+    current_y += line_h * line_height
     
-    font_size = 64
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = f'of {common_name}'
+    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
+    line = line_2
     line_w = font.getbbox(line)[2]
-    line_h = font.getbbox(line)[3]
+    line_h = font.getbbox('y')[3]
+    draw.text((img_w//2 - line_w//2, current_y), line, '#ffffff', font=font)
+    current_y += line_h * line_height
+    
+    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
+    line = line_3
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox('y')[3]
     draw.text((img_w//2 - line_w//2, current_y), line, '#ffffff', font=font)
     current_y += line_h
 
     font_size = 18
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = '© TerraWhisper.com'
+    line = 'TerraWhisper.com'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
-    draw.text((img_w//2 - line_w//2, img_h - 32), line, '#ffffff', font=font)
+    draw.text((img_w//2 - line_w//2, img_h - 36), line, '#ffffff', font=font)
 
 
 
@@ -60,6 +85,6 @@ def pin_generate_2(entity, common_name, filepath, attribute, subtitle):
 pin_generate_2(
     'achillea-millefolium', 
     'horse chestnut', 
-    f'G:\\tw-images\\pin\\achillea-millefolium-3\\medicine-benefits\\0001.jpg', 
+    f'G:\\tw-images\\pin\\achillea-millefolium-2\\medicine-benefits\\0000.jpg', 
     'medicinal-benefits',
     '10 best health benefits of this plant')

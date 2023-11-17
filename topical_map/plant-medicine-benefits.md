@@ -6,9 +6,7 @@ Paragraph 1: benefit + constituents
 
 Paragraph 2: health conditions
 
-Paragraph 3: parts of plant + preparations
-
-Paragraph 4: list of varieties?
+Paragraph 3: parts of plant
 
 -----------------------------------------------------
 
@@ -18,7 +16,7 @@ Paragraph 4: list of varieties?
 ### side effects >> link
 ### precautions >> link
 ### animals >> link
-
+### varieties >> link
 
 plant, herb, grass
 

@@ -1,7 +1,0 @@
-The seeds of Apium graveolens are dicotyledonous, meaning they contain two cotyledons, which are fleshy and thick. The seeds are solitary, not found in clusters, and they are ovoid in shape, measuring approximately 2 millimeters in length, 1 millimeter in width, and 1 millimeter in thickness. Their hardness is notable, as they are not easily crushed.
-
-In terms of appearance, celery seeds typically have a light to dark brown seed coat, which is smooth and lacks prominent ridges or furrows. The seed coat's texture is shiny and slightly wrinkled, with a thickness of about 0.1 millimeters. This thickness, combined with its impermeability, makes the seed coat water-resistant.
-
-When examining the seed itself, a small scar known as the hilum can be observed at the base of the seed. The embryo within the seed is straight and minimally curved, while the two cotyledons are distinct and fleshy. The radicle, or the embryonic root, is short and emerges from the embryo.
-
-These precise morphological characteristics of celery seeds play a vital role in its reproduction and growth. The seed's impermeable coat helps protect it from environmental factors, and the two cotyledons stored inside provide essential nutrients for the germinating plant. The straight embryo and short radicle are key elements in the early stages of seed germination.

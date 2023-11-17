@@ -1567,7 +1567,6 @@ def generate_image_template_medicine_benefits(entity, common_name, image_filenam
 
     return filepath
 
-
     
 def generate_image_template_medicine_benefits_2(entity, common_name, image_filename, item):
     attribute_lst = ['medicine', 'benefits', item]
@@ -1898,6 +1897,7 @@ def generate_html(date, title, article, entity, attribute_lst):
     attributes_breadcrumbs.insert(0, entity)
     breadcrumbs_lst = generate_breadcrumbs(attributes_breadcrumbs)[:-1]
     breadcrumbs_lst.insert(0, f'<a href="/">Home</a>')
+    breadcrumbs_lst.append(f'<span>{attributes_breadcrumbs[-1].capitalize().replace("-", " ")}</span>')
 
     breadcrumbs_html = ' > '.join(breadcrumbs_lst)
 
@@ -1915,6 +1915,7 @@ def generate_html(date, title, article, entity, attribute_lst):
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="Martin Pellizzer">
             <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
             <link rel="stylesheet" href="/style.css">
             <title>{title}</title>
@@ -1934,7 +1935,7 @@ def generate_html(date, title, article, entity, attribute_lst):
             <section class="my-96">
                 <div class="container">
                     <div class="flex justify-between mb-16">
-                        <span>by Martin Pellizzer - {date}</span>
+                        <span>by Martin Pellizzer - <time datetime="{date.replace("/", "-")}">{date}</time></span>
                         <span>{reading_time_html}</span>
                     </div>
                     {article_html}
@@ -2049,7 +2050,7 @@ for i, row in enumerate(articles_master_rows[1:]):
         article += f'# {title}\n\n'
 
         try:
-            attribute_lst = ['Overview']
+            attribute_lst = ['overview']
             image_title = f'{common_name.capitalize()} Overview'
             filepath = generate_featured_image(entity, attribute_lst, image_title)
             article += f'![{image_title}]({filepath} "{image_title}")\n\n'
@@ -3132,7 +3133,7 @@ articles_morphology_html = ''
 articles_taxonomy_html = ''
 articles_distribution_html = ''
 articles_main_html = ''
-articles_medicine_html = ''
+articles_home_html = ''
 
 for article in articles:
     
@@ -3167,45 +3168,23 @@ for article in articles:
             </a>
             \n
         '''
-    # elif attribute_2 == 'distribution':
-    #     img = f'images/{entity}-{attribute_1}-{attribute_2}.jpg'
-    #     url = f'{entity}/{attribute_1}/{attribute_2}.html'
-    #     title = f'{common_name} ({latin_name}) {attribute_2}'
-    #     articles_distribution_html += f'''
-    #         <a href="{url}">
-    #             <div>
-    #                 <img src="{img}" alt="">
-    #                 <h2 class="mt-0 mb-0">{title}</h2>
-    #             </div>
-    #         </a>
-    #         \n
-    #     '''
-    # elif attribute_2 == 'taxonomy':
-    #     img = f'images/{entity}-{attribute_1}-{attribute_2}.jpg'
-    #     url = f'{entity}/{attribute_1}/{attribute_2}.html'
-    #     title = f'{common_name} ({latin_name}) {attribute_2}'
-    #     articles_taxonomy_html += f'''
-    #         <a href="{url}">
-    #             <div>
-    #                 <img src="{img}" alt="">
-    #                 <h2 class="mt-0 mb-0">{title}</h2>
-    #             </div>
-    #         </a>
-    #         \n
-    #     '''
-    elif attribute_1 == 'medicine' and attribute_2 == '':
-        img = f'images/{entity}-{attribute_1}.jpg'
-        url = f'{entity}/{attribute_1}.html'
-        title = f'{common_name.capitalize()} ({latin_name.capitalize()}) Medicinal Guide'
-        articles_medicine_html += f'''
-            <a href="{url}">
-                <div>
-                    <img src="{img}" alt="">
-                    <h2 class="mt-0 mb-0">{title}</h2>
-                </div>
-            </a>
-            \n
-        '''
+    elif attribute_1 == 'medicine':
+        if attribute_2 == 'benefits' or attribute_2 == 'preparations':
+            img = f'images/{entity}-{attribute_1}-{attribute_2}-overview.jpg'
+            url = f'{entity}/{attribute_1}/{attribute_2}.html'
+            if attribute_2 == 'benefits':
+                title = f'10 Health Benefits of {common_name.capitalize()} ({latin_name.capitalize()})'
+            elif attribute_2 == 'preparations':
+                title = f'10 Medicinal Preparations of {common_name.capitalize()} ({latin_name.capitalize()})'
+            articles_home_html += f'''
+                <a href="{url}">
+                    <div>
+                        <img src="{img}" alt="">
+                        <h2 class="mt-0 mb-0">{title}</h2>
+                    </div>
+                </a>
+                \n
+            '''
     elif attribute_1 == '' and attribute_2 == '':
         img = f'images/{entity}-guide.jpg'
         url = f'{entity}/index.html'
@@ -3238,64 +3217,21 @@ if normalize(articles_main_html) != '':
     </section>
     '''
     
-articles_section_medicine_html = ''
-if normalize(articles_medicine_html) != '':
-    articles_section_medicine_html = f'''
+articles_section_home_html = ''
+if normalize(articles_home_html) != '':
+    articles_section_home_html = f'''
     <section class="my-96">
         <div class="container-lg">
             <h2 class="text-center mb-16">Medicinal Guides on Plants</h2>
             <p class="text-center mb-48">Learn how to use plants for improving your health: medicinal properties, active constituents, key preparations, and precautions.</p>
             <div class="articles">
-                {articles_medicine_html}
+                {articles_home_html}
             </div>
         </div>
     </section>
     '''
 
-
-articles_section_taxonomy_html = ''
-if normalize(articles_taxonomy_html) != '':
-    articles_section_taxonomy_html = f'''
-    <section class="my-96">
-        <div class="container-lg">
-            <h2 class="text-center mb-16">Latest Articles on Plant Taxonomy</h2>
-            <p class="text-center mb-48">Learn everything about plant taxonomy, classification, common names, and varieties</p>
-            <div class="articles">
-                {articles_taxonomy_html}
-            </div>
-        </div>
-    </section>
-    '''
-
-articles_section_distribution_html = ''
-if normalize(articles_distribution_html) != '':
-    articles_section_distribution_html = f'''
-    <section class="my-96">
-        <div class="container-lg">
-            <h2 class="text-center mb-16">Latest Articles on Plant Taxonomy</h2>
-            <p class="text-center mb-48">Learn everything about plant taxonomy, classification, common names, and varieties</p>
-            <div class="articles">
-                {articles_distribution_html}
-            </div>
-        </div>
-    </section>
-    '''
     
-articles_section_morphology_html = ''
-if normalize(articles_morphology_html) != '':
-    articles_section_morphology_html = f'''
-    <section class="my-96">
-        <div class="container-lg">
-            <h2 class="text-center mb-16">Latest Articles on Plant Morphology</h2>
-            <p class="text-center mb-48">Learn everything about plant roots, stems, leaves, flowers, fruits, seeds, and other parts.</p>
-            <div class="articles">
-                {articles_morphology_html}
-            </div>
-        </div>
-    </section>
-    '''
-
-
 
 
 html = f'''
@@ -3305,6 +3241,7 @@ html = f'''
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Martin Pellizzer">
         <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
         <link rel="stylesheet" href="style.css">
         <title>Medicinal Plants | TerraWhisper</title>
@@ -3321,7 +3258,7 @@ html = f'''
                 </div>
             </div>
         </section>
-        {articles_section_medicine_html}
+        {articles_section_home_html}
         
         <footer>
             <div class="container-lg">
@@ -3404,4 +3341,6 @@ with open(f'index.html', 'w', encoding='utf-8') as f:
 ##################################################################################################
 shutil.copy2('style.css', 'website/style.css')
 shutil.copy2('index.html', 'website/index.html')
-shutil.copy2('articles-images/hero.jpg', f'{website_img_path}/hero.jpg')
+# shutil.copy2('articles-images/hero.jpg', f'{website_img_path}/hero.jpg')
+# shutil.copy2('articles-images/medicinal-plants.jpg', f'{website_img_path}/medicinal-plants.jpg')
+shutil.copy2('images/medicinal-plants.jpg', f'{website_img_path}/medicinal-plants.jpg')

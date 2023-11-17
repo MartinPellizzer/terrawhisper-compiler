@@ -1,5 +1,0 @@
-Alpinia officinarum has leaves that are relatively simple, with an oblong shape, measuring approximately 10 centimeters in length and 3 centimeters in width. The thickness of these leaves is around 0.2 centimeters. They are primarily green in color and have a smooth, glossy texture, which imparts a vibrant appearance.
-
-The leaves of Alpinia officinarum are arranged alternately along the stem and oriented vertically. The apex of these leaves is acute, while the base is cuneate, giving them a distinctive overall appearance. The leaf margin is entire, and the venation is parallel, further enhancing their aesthetic appeal.
-
-In terms of leaf structure, Alpinia officinarum leaves are simple, with a prominent midrib running along the center. They attach to the stem through petioles that are approximately 2 centimeters in length. Interestingly, stipules, a common feature in many plant species, are absent in Alpinia officinarum leaves.

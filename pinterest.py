@@ -51,60 +51,8 @@ def csv_to_llst(filepath):
     return llst
 
 
-def pin_generate(entity, common_name, filename, attribute, subtitle):
-    img = Image.open(f'{img_folder}/{filename}')
 
-    img_w = 600
-    img_h = 900
-    img = img.resize((600, 900), Image.Resampling.LANCZOS)
-
-    draw = ImageDraw.Draw(img)
-    rect_h = 200
-    draw.rectangle(((0, img_h//2 - rect_h//2), (img_w, img_h//2 + rect_h//2)), fill ="#0f766e") 
-    draw.rectangle(((0, 350), (600, 550)), fill ="#0c0a09") 
-    draw.rectangle(((0, 350), (600, 550)), fill ="#1c1917") 
-
-    offset_center_y = 0
-    line = common_name.upper()
-    num_characters = len(line)
-    if num_characters <= 10: font_size = 72
-    else: font_size = 750 // num_characters 
-    # print(num_characters, font_size)
-    line_spacing = 1.3
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line_w = font.getbbox(line)[2]
-    line_h = font.getbbox(line)[3]
-    draw.text((img_w//2 - line_w//2, img_h//2 - line_h - 20 + offset_center_y), line, '#ffffff', font=font)
-    
-    draw.rectangle(((0 + 50, img_h//2 - 1 + offset_center_y), (img_w - 50, img_h//2 + 1 + offset_center_y)), fill ="#ffffff") 
-
-    font_size = 24
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = subtitle
-    line_w = font.getbbox(line)[2]
-    line_h = font.getbbox(line)[3]
-    draw.text((img_w//2 - line_w//2, img_h//2 + 20 + offset_center_y), line, '#ffffff', font=font)
-    # line = ''
-    # line_w = font.getbbox(line)[2]
-    # line_h = font.getbbox(line)[3]
-    # draw.text((img_w//2 - line_w//2, img_h//2 - line_h//2 + 56), line, '#ffffff', font=font)
-    
-    font_size = 14
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = '© TerraWhisper.com'
-    line_w = font.getbbox(line)[2]
-    line_h = font.getbbox(line)[3]
-    # draw.rectangle(((0, img_h - 50), (600, img_h)), fill ="#1c1917") 
-
-    draw.text((img_w//2 - line_w//2, img_h//2 + 60 + offset_center_y), line, '#ffffff', font=font)
-
-    # img.show()
-
-    common_name = common_name.lower().replace(' ', '-')
-    img.save(f'pinterest/tmp/{common_name}-{attribute}.jpg', format='JPEG', subsampling=0, quality=100)
-
-
-def pin_generate_2(entity, common_name, filename, attribute, subtitle):
+def pin_generate_2(entity, common_name, filename, image_name, subtitle):
     img_w, img_h = 600, 900
 
     img_background = Image.open(f'{img_folder}/{filename}')
@@ -113,39 +61,60 @@ def pin_generate_2(entity, common_name, filename, attribute, subtitle):
     img_background_size = img_background.size
 
     img = Image.new(mode="RGB", size=(img_w, img_h), color='#1c1917')
-    img.paste(img_background, (0, 180))
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#0f766e')
+    img.paste(img_background, (0, 250))
 
     draw = ImageDraw.Draw(img)
 
-    current_y = 20
+    line_1 = '10'
+    if image_name == 'medicinal-preparations': line_2 = 'Medicinal Preparations'
+    elif image_name == 'medicinal-benefits': line_2 = 'Health Benefits'
+    line_3 = f'of {common_name.title()}'
 
-    font_size = 64
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = '10 Health Benefits'
+    max_len = len(line_1)
+    if max_len < len(line_2): max_len = len(line_2)
+    if max_len < len(line_3): max_len = len(line_3)
+
+    font_size = 1100 // max_len
+    if font_size > 64: font_size = 64
+
+    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
+    tot_y = font.getbbox('y')[3] * 3
+
+    current_y = (250 - tot_y) // 2
+
+    # font_size = 48
+    line_height = 1.0
+    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
+    line = line_1
     line_w = font.getbbox(line)[2]
-    line_h = font.getbbox(line)[3]
+    line_h = font.getbbox('y')[3]
     draw.text((img_w//2 - line_w//2, current_y), line, '#ffffff', font=font)
-    current_y += line_h * 1.1
+    current_y += line_h * line_height
     
-    font_size = 64
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = f'of {common_name.title()}'
+    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
+    line = line_2
     line_w = font.getbbox(line)[2]
-    line_h = font.getbbox(line)[3]
+    line_h = font.getbbox('y')[3]
+    draw.text((img_w//2 - line_w//2, current_y), line, '#ffffff', font=font)
+    current_y += line_h * line_height
+    
+    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
+    line = line_3
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox('y')[3]
     draw.text((img_w//2 - line_w//2, current_y), line, '#ffffff', font=font)
     current_y += line_h
 
     font_size = 18
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = '© TerraWhisper.com'
+    line = 'TerraWhisper.com'
     line_w = font.getbbox(line)[2]
     line_h = font.getbbox(line)[3]
-    draw.text((img_w//2 - line_w//2, img_h - 32), line, '#ffffff', font=font)
+    draw.text((img_w//2 - line_w//2, img_h - 36), line, '#ffffff', font=font)
 
-    # img.show()
-    # print(img.size)
     common_name_fotmatted = common_name.lower().replace(' ', '-')
-    img.save(f'pinterest/tmp/{common_name_fotmatted}-{attribute}.jpg', format='JPEG', subsampling=0, quality=100)
+    img.save(f'pinterest/tmp/{common_name_fotmatted}-{image_name}.jpg', format='JPEG', subsampling=0, quality=100)
 
 
 
@@ -177,13 +146,15 @@ for i, row in enumerate(articles_master_rows[1:]):
     if to_pin.strip() != 'x': continue
 
     today_day = datetime.now().day
-    if int(last_day) == int(today_day): continue
+    if int(last_day) == int(today_day): 
+        print(f'>> skipped {entity} {url}')
+        continue
 
     latin_name = entity.replace('-', ' ').capitalize()
     common_name_title = common_name.title()
     common_name_formatted = common_name.lower().replace(' ', '-')
 
-    img_folder = f'G:\\tw-images\\pin\\{entity}-3\\{image_subfolder}'
+    img_folder = f'G:\\tw-images\\pin\\{entity}-2\\{image_subfolder}'
     img_filenames = os.listdir(f'{img_folder}')
     img_filename = img_filenames[int(current_image)]
     pin_generate_2(entity, common_name_title, img_filename, image_name, subtitle)
@@ -201,9 +172,19 @@ for i, row in enumerate(articles_master_rows[1:]):
             if p.strip() != '':
                 description.append(p) 
 
+    description = ''.join(description)
+    description = description.split('. ')
     random.shuffle(description)
-    description = description[0]
-    if len(description) > 499: description = description[:496] + '...'
+    description = '. '.join(description[:3])
+    words = description.split(' ')
+    description = ''
+    for word in words:
+        if len(description) + len(word) + 1 < 460:
+            description += word + ' '
+        else:
+            break
+    description = description.strip() + '... '
+    description += 'Click the pin link to learn more.'
 
     print(entity)
     print(common_name_title)

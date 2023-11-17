@@ -1,5 +1,0 @@
-Ammi visnaga has seeds that are of the achene type, commonly found in a solitary arrangement within the flower head. They possess an elliptical shape with no appendages. Typically, each flower head yields one seed.
-
-In terms of size, these seeds measure approximately 3.5 millimeters in length, 2.0 millimeters in width, and 1.0 millimeter in thickness. They are characterized by their hardness and appear brown in color, with a smooth and shiny seed coat surface. The thickness of the seed coat is about 0.1 millimeters.
-
-One notable trait of these seeds is their impermeable nature, making them resistant to water penetration. The hilum, where the seed is attached, is situated near the pointed end of the seed. The embryo inside the seed is curved, and the seeds are dicotyledonous, meaning they contain two cotyledons.

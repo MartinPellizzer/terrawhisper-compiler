@@ -1820,3 +1820,38 @@ T@https://s.pinimg.com/webapp/65268-29d9d1cd8c5c603e.mjs:13:1894
 
 1700169371430	Marionette	INFO	Stopped listening on port 50638
 Dynamically enable window occlusion 1
+1700235499041	geckodriver	INFO	Listening on 127.0.0.1:60647
+1700235502120	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60648" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileombKh0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700235502558	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700235502667	Marionette	INFO	Listening on port 60655
+Read port: 60655
+WebDriver BiDi listening on ws://127.0.0.1:60648
+1700235502879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60648/devtools/browser/85269665-fc71-4d5a-8411-1ac9150ee4ea
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1700235532638	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs, line 1: Script terminated by timeout at:
+938085/g/<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16616
+t@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16477
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs, line 25: Script terminated by timeout at:
+o@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:82885
+364448/lV/n<@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:99812
+lV@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:106183
+lU@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:99131
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:98945
+lC@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:93984
+j@https://s.pinimg.com/webapp/65268-29d9d1cd8c5c603e.mjs:13:1365
+T@https://s.pinimg.com/webapp/65268-29d9d1cd8c5c603e.mjs:13:1894
+
+JavaScript error: , line 0: uncaught exception: Object

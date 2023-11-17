@@ -1,5 +1,0 @@
-Aloe vera seeds are ovate and flattened in shape, found in clusters within the capsules of the plant. They have a modest size, with a length of approximately 5-6 millimeters (0.2-0.24 inches), a width of about 3 millimeters (0.12 inches), and a thickness ranging from 1 to 2 millimeters (0.04-0.08 inches).
-
-These seeds are remarkably hard, with a smooth, dark brown seed coat that has a shiny texture. The thickness of the seed coat is very thin, measuring less than 0.5 millimeters (0.02 inches). Importantly, the seed coat is impermeable, which means it does not allow water or air to pass through easily.
-
-One distinctive feature of Aloe vera seeds is the prominent hilum, which serves as the point of attachment. The embryos within the seeds are tiny and underdeveloped. Each seed contains two cotyledons, which are fleshy structures that serve as the first leaves upon germination. The radicle, the embryonic root, is small and rudimentary.

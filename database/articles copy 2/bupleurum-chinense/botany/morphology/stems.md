@@ -1,7 +1,0 @@
-Bupleurum chinense typically has herbaceous stems, although they can occasionally take on a woody appearance. These stems are arranged alternately, meaning that leaves emerge from different points along the stem, rather than directly opposite each other.
-
-In terms of shape, the stems are generally round but can also be cylindrical, tapering, or even ribbed. They reach a height of 30 to 100 cm (11.8 to 39.4 inches), making them relatively tall, and have a diameter ranging from 0.2 to 0.5 cm (0.08 to 0.2 inches). This diameter measurement gives an idea of their thickness.
-
-The stems of Bupleurum chinense primarily display a green color, although in some instances, they may appear brown or reddish-brown, indicating possible variations or environmental influences. Their texture is smooth, but they can also be rough or pubescent, depending on the individual plant and its habitat.
-
-Regarding the stem's surface, it can either be glabrous (smooth and hairless) or exhibit hairiness and small scales. The nodes on the stem are distinct, with leaves attached to them, serving as points of leaf attachment. The internodes, the segments between the nodes, vary in length but usually measure between 5 to 15 cm (2 to 5.9 inches). These segments contribute to the overall structure of the plant and the spacing between leaves.

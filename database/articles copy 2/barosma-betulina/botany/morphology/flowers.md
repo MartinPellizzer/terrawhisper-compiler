@@ -1,7 +1,0 @@
-The inflorescence of Barosma betulina is racemose, meaning that its flowers are arranged in a simple, unbranched cluster. Each individual flower exhibits a simple structure and follows an actinomorphic (radial) symmetry, giving it a balanced appearance.
-
-The flowers are small, with a bell-shaped structure measuring approximately 0.5 cm (0.2 inches) in length and 0.3 cm (0.12 inches) in width. They showcase a pale pink color and a smooth, glabrous texture. The tepals, which make up the perianth, form a tubular shape.
-
-These buchu flowers consist of five floral parts, including sepals and petals that are fused at their base. In addition to the fused floral parts, each flower possesses five stamens that alternate with the petals, as well as a single, terminal pistil with a superior ovary. The style of the pistil is filiform and measures about 0.2 cm (0.08 inches) in length, while the stigma takes on a capitate (round) form.
-
-Notably, Barosma betulina lacks stipules, and its bracts, when present, are tiny and inconspicuous, typically located near the base of the pedicel. Speaking of pedicels, they are relatively short, measuring about 0.1 cm (0.04 inches) in length if present. However, the peduncle is typically absent, indicating that the flowers are axillary in attachment.
