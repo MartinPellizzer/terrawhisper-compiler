@@ -151,7 +151,7 @@ There are many preparations and uses of Sweet flag, such as the creation of Swee
 
 
 
-Given the many preparations and uses of sweet flag, it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
+Given the many [uses and preparations of sweet flag](/acorus-calamus/medicine/preparations.html), it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
 
 
 

@@ -1435,7 +1435,9 @@ def medicine_preparations():
 
         Don't mention consulting a healthcare professional in the items.
 
-        {item.lower().replace(' ', '-')} image
+        >>>>
+
+        list_add_preparations.py {entity} {item.lower().replace(' ', '-')} image
 
         --------------------------------------------------------------------
         
@@ -1445,17 +1447,17 @@ def medicine_preparations():
     for i, item in enumerate(rows):
         preparations_text += f'''{i}.
 
-        Write a list of paragraphs about {common_name} ({latin_name}) about the following preparation: {item}.
+        Write a list of 3 paragraphs about {common_name} ({latin_name}) about the following preparation: {item.lower()}.
 
-        In paragraph 1, define {item} and describe its uses, benefits, and properties. Include numbers and examples.
-        In paragraph 2, write about how to prepare {item}. Include numbers, like quantities and time. Inclue examples. 
-        In paragraph 3, write about the dosage, the side effects, and the precautions for using {item}. Include numbers and examples.
+        In paragraph 1, explain in detail what "{item.lower()}" is. Then, describe its uses, benefits, and properties.
+        In paragraph 2, write about how to prepare {item.lower()}. Include numbers, like quantities and time. Include examples. 
+        In paragraph 3, write about the dosage, the side effects, and the precautions for using {item.lower()}. Include numbers and examples.
         Include as many details, data, and numbers as possible in as few words as possible.
         Use the metric system as the primary measuring system.
-
-        The first paragraph must start with the following words:
-
-        {item} is 
+        Don't add conclusive summaries.
+        
+        Start the first paragraph with the following sentence: {item.lower()} is . 
+        Also, correct this sentence if it has grammatical errors.
 
         --------------------------------------------------------------------
         

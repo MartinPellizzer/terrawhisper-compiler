@@ -94,7 +94,7 @@ The following list summarizes the 10 most important active constituents of sweet
 
 Sweet flag (Acorus calamus) is a versatile herb with numerous health preparations, supported by specific measurements and dosages. The finely ground dried root powder, a foundational element for many formulations, is commonly encapsulated into tablets, with typical capsule sizes ranging from 400 to 600 milligrams. This provides a quantifiable measure for convenient dosing.
 
-The following illustration shows the most important medicinal preparations of sweet flag.
+The following illustration shows the most important [medicinal preparations of sweet flag](/acorus-calamus/medicine/preparations.html).
 
 
 
@@ -115,16 +115,16 @@ The following list summarizes the 10 most important preparations of sweet flag t
 
 
 
-- **Dried Root Powder**:   Grind sweet flag roots into a fine powder for various health applications.
-- **Infused Tea**:   Steep dried sweet flag slices or powder in hot water to make a soothing and potentially medicinal tea.
-- **Tincture**:   Create a tincture by steeping sweet flag roots in alcohol, extracting beneficial compounds.
-- **Capsules or Tablets**:   Prepare convenient doses by encapsulating or compressing sweet flag powder for easy consumption.
-- **Topical Ointment**:   Mix sweet flag extract or powder with a carrier oil or salve for external applications.
-- **Aromatic Oil**:   Infuse sweet flag into a carrier oil to create a fragrant and potentially therapeutic oil.
-- **Decoction**:   Boil sweet flag roots to create a concentrated liquid for medicinal use.
-- **Herbal Syrup**:   Combine sweet flag infusion with honey or syrup for a palatable medicinal syrup.
-- **Chewing Sticks**:   Use dried sweet flag roots as chewing sticks for oral health benefits.
-- **Foot Soak**:   Add sweet flag infusion or powder to foot baths for potential relaxation and skin benefits.
+- **Sweet Flag Dried Root Powder**:   Grind sweet flag roots into a fine powder for various health applications.
+- **Sweet Flag Infused Tea**:   Steep dried sweet flag slices or powder in hot water to make a soothing and potentially medicinal tea.
+- **Sweet Flag Tincture**:   Create a tincture by steeping sweet flag roots in alcohol, extracting beneficial compounds.
+- **Sweet Flag Capsules or Tablets**:   Prepare convenient doses by encapsulating or compressing sweet flag powder for easy consumption.
+- **Sweet Flag Topical Ointment**:   Mix sweet flag extract or powder with a carrier oil or salve for external applications.
+- **Sweet Flag Aromatic Oil**:   Infuse sweet flag into a carrier oil to create a fragrant and potentially therapeutic oil.
+- **Sweet Flag Decoction**:   Boil sweet flag roots to create a concentrated liquid for medicinal use.
+- **Sweet Flag Herbal Syrup**:   Combine sweet flag infusion with honey or syrup for a palatable medicinal syrup.
+- **Sweet Flag Chewing Sticks**:   Use dried sweet flag roots as chewing sticks for oral health benefits.
+- **Sweet Flag Foot Soak**:   Add sweet flag infusion or powder to foot baths for potential relaxation and skin benefits.
 
 ## What precautions should you take when using sweet flag as a medicine?
 

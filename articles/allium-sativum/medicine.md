@@ -111,16 +111,16 @@ The following list summarizes the 10 most important preparations of garlic to bo
 
 
 
-- **Raw Consumption**:   Eat raw garlic cloves for maximum health benefits, as it retains its potent allicin content, known for its antibacterial and antifungal properties.
-- **Crushing/Chopping**:   Crushing or chopping garlic releases allicin, enhancing its medicinal properties. Let it sit for a few minutes before cooking to maximize allicin formation.
-- **Cooking Lightly**:   Lightly cooking garlic can preserve its health benefits while making it milder. Avoid overcooking to maintain its nutritional value.
+- **Garlic Raw Consumption**:   Eat raw garlic cloves for maximum health benefits, as it retains its potent allicin content, known for its antibacterial and antifungal properties.
+- **Garlic Crushing/Chopping**:   Crushing or chopping garlic releases allicin, enhancing its medicinal properties. Let it sit for a few minutes before cooking to maximize allicin formation.
+- **Garlic Cooking Lightly**:   Lightly cooking garlic can preserve its health benefits while making it milder. Avoid overcooking to maintain its nutritional value.
 - **Garlic Supplements**:   Consider garlic supplements if raw or cooked garlic is not preferable. These are available in various forms, such as capsules or oil extracts.
 - **Garlic Tea**:   Brew garlic tea by steeping crushed garlic cloves in hot water. This is a soothing way to incorporate garlic into your diet and can be sweetened with honey.
-- **Fermented Garlic**:   Fermenting garlic enhances its bioavailability and introduces probiotics. Fermented garlic can be consumed on its own or added to dishes.
+- **Garlic Fermented Garlic**:   Fermenting garlic enhances its bioavailability and introduces probiotics. Fermented garlic can be consumed on its own or added to dishes.
 - **Garlic Oil**:   Make garlic-infused oil for culinary use. Use it in dressings or drizzle it on dishes for a mild garlic flavor while benefiting from its medicinal properties.
-- **Pickled Garlic**:   Pickling garlic preserves its nutritional value and adds a tangy flavor. Pickled garlic cloves make a tasty and healthy addition to salads or as a side dish.
-- **Roasting Whole Bulbs**:   Roast whole garlic bulbs for a milder taste. The cloves can be spread on bread or mixed into dishes for a rich, roasted flavor.
-- **Combining with Other Foods**:   Enhance the taste and health benefits by combining garlic with other nutritious foods. For example, garlic and ginger together create a potent immune-boosting combination.
+- **Garlic Pickled**:   Pickling garlic preserves its nutritional value and adds a tangy flavor. Pickled garlic cloves make a tasty and healthy addition to salads or as a side dish.
+- **Garlic Roasting Whole Bulbs**:   Roast whole garlic bulbs for a milder taste. The cloves can be spread on bread or mixed into dishes for a rich, roasted flavor.
+- **Garlic Combining with Other Foods**:   Enhance the taste and health benefits by combining garlic with other nutritious foods. For example, garlic and ginger together create a potent immune-boosting combination.
 
 ## What precautions should you take when using garlic as a medicine?
 

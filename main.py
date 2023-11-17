@@ -2547,7 +2547,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 filename = f'{num}-{item_formatted}'
                 filepath = f'medicine/preparations/{filename}'
 
-                content_section = get_content(f'{filepath}', f'database/articles/{entity}')
+                content_section = get_content(f'{filepath}', f'database/articles/{entity}').strip()
 
                 # image
                 image_filepath = generate_image_template_medicine_preparations(entity, common_name, images_filenames[i], item,)
@@ -2559,7 +2559,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 image_intro_line = f'The following illustration give a quick overview about the health benefits of {item}, how to prepare it and what precautions to take.'  + '\n\n'
 
                 section_1 = content_section.split('\n')[0]  + '\n\n'
-                section_rest = '\n'.join(content_section.split('\n')[1: -1])  + '\n\n'
+                section_rest = '\n'.join(content_section.split('\n')[1:])  + '\n\n'
 
                 article += title_section + section_1 + image_intro_line + image_section + section_rest
 

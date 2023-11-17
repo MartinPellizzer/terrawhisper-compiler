@@ -1,0 +1,5 @@
+The Acorus calamus plant yields various medicinal preparations, including sweet flag dried root powder, infused tea, tincture, capsules/tablets, topical ointment, aromatic oil, decoction, herbal syrup, chewing sticks, and foot soak. 
+
+Each preparation contains bioactive compounds such as β-asarone, with purported benefits ranging from aiding digestion, relieving inflammation, to enhancing cognitive functions. 
+
+However, precautions must be taken, considering potential adverse effects, especially with excessive intake. Dosages and usage guidelines differ for each preparation, and consulting a healthcare professional before use is advised, particularly for pregnant or breastfeeding women, those with existing health conditions, or individuals on medications, to avoid potential risks or interactions.

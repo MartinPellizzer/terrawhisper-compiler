@@ -109,16 +109,16 @@ The following list summarizes the 10 most important preparations of horse chestn
 
 
 
-- **Drying and Grinding**:   Harvest horse chestnuts and dry them thoroughly before grinding them into a fine powder.
-- **Tincture Preparation**:   Create a tincture by soaking crushed horse chestnuts in a high-proof alcohol, allowing it to extract the beneficial compounds over several weeks.
-- **Decoction**:   Boil horse chestnut seeds in water to prepare a decoction, extracting medicinal properties through the heating process.
-- **Salve or Cream**:   Infuse horse chestnut extract into a carrier oil to create a salve or cream for topical application.
-- **Tea Infusion**:   Steep dried horse chestnut in hot water to make a tea, which can be consumed for various health benefits.
-- **Capsule Formulation**:   Fill empty capsules with finely powdered horse chestnut for a convenient and controlled dosage.
-- **Oil Infusion**:   Extract the active compounds by infusing horse chestnut in oil, creating a potent base for topical applications.
-- **Cold Pressed Oil**:   Produce cold-pressed horse chestnut oil for a method that retains more of the natural compounds.
-- **Poultice Preparation**:   Mix powdered horse chestnut with water or another suitable base to create a poultice for localized application.
-- **Vinegar Infusion**:   Soak horse chestnut in apple cider vinegar to create an infused vinegar that can be used internally or externally.
+- **Horse Chestnut Dried Powder**:   Harvest horse chestnuts and dry them thoroughly before grinding them into a fine powder.
+- **Horse Chestnut Tincture Preparation**:   Create a tincture by soaking crushed horse chestnuts in a high-proof alcohol, allowing it to extract the beneficial compounds over several weeks.
+- **Horse Chestnut Decoction**:   Boil horse chestnut seeds in water to prepare a decoction, extracting medicinal properties through the heating process.
+- **Horse Chestnut Salve or Cream**:   Infuse horse chestnut extract into a carrier oil to create a salve or cream for topical application.
+- **Horse Chestnut Tea Infusion**:   Steep dried horse chestnut in hot water to make a tea, which can be consumed for various health benefits.
+- **Horse Chestnut Capsule Formulation**:   Fill empty capsules with finely powdered horse chestnut for a convenient and controlled dosage.
+- **Horse Chestnut Oil Infusion**:   Extract the active compounds by infusing horse chestnut in oil, creating a potent base for topical applications.
+- **Horse Chestnut Cold Pressed Oil**:   Produce cold-pressed horse chestnut oil for a method that retains more of the natural compounds.
+- **Horse Chestnut Poultice Preparation**:   Mix powdered horse chestnut with water or another suitable base to create a poultice for localized application.
+- **Horse Chestnut Vinegar Infusion**:   Soak horse chestnut in apple cider vinegar to create an infused vinegar that can be used internally or externally.
 
 ## What precautions should you take when using horse chestnut as a medicine?
 
