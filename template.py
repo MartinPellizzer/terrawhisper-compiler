@@ -1352,7 +1352,7 @@ def medicine_benefits_2():
         problem = ' '.join(item.split(' ')[1:])
         benefits_text += f'''{i}.
 
-        Write 3 paragraphs about the following health benefit of {common_name} ({latin_name}): {item}.
+        Write 3 paragraphs about the following health benefit of {common_name}: {item}.
 
         In paragraph 1, explain what "{item}" is. Define it in detail. Then, explain what are the constituents of this plant that give this specific benefit. Don't include constituents that don't specifically contribute to this health benefit. Include numbers and data about the constituents, like their quantities.
         In paragraph 2, write what health conditions this benefit helps.
@@ -1361,6 +1361,10 @@ def medicine_benefits_2():
         Include as many details, data, and numbers as possible.
         Use the metric system as the primary measuring system.
         Don't give titles to paragraphs.
+
+        
+        Start the first paragraph with the following sentence: {common_name} ability to aids respiratory health refers . 
+        Also, correct this sentence if it has grammatical errors.
 
         --------------------------------------------------------------------
         
@@ -1619,9 +1623,10 @@ def get_procedure():
     print('PROCEDURE')
     print('-------------------------------------------------')
     print()
-    print('1. pick a plant')
-    print('2. get list of common names')
-    print('3. init plant')
+    print('- pick a plant')
+    print('- add plant to articles csv')
+    print('- init plant')
+    print('- get list of common names')
     print()
     print('4. write medicinal article (prompt "medicine")')
 

@@ -13,7 +13,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-
+# images from leonardo 768x864 per pins
 
 driver = webdriver.Firefox()
 driver.get("https://www.pinterest.com/login/")
@@ -104,6 +104,49 @@ def pin_generate(entity, common_name, filename, attribute, subtitle):
     img.save(f'pinterest/tmp/{common_name}-{attribute}.jpg', format='JPEG', subsampling=0, quality=100)
 
 
+def pin_generate_2(entity, common_name, filename, attribute, subtitle):
+    img_w, img_h = 600, 900
+
+    img_background = Image.open(f'{img_folder}/{filename}')
+    
+    img_background.thumbnail([img_w, img_h], Image.Resampling.LANCZOS)
+    img_background_size = img_background.size
+
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#1c1917')
+    img.paste(img_background, (0, 180))
+
+    draw = ImageDraw.Draw(img)
+
+    current_y = 20
+
+    font_size = 64
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = '10 Health Benefits'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((img_w//2 - line_w//2, current_y), line, '#ffffff', font=font)
+    current_y += line_h * 1.1
+    
+    font_size = 64
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'of {common_name.title()}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((img_w//2 - line_w//2, current_y), line, '#ffffff', font=font)
+    current_y += line_h
+
+    font_size = 18
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = '© TerraWhisper.com'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((img_w//2 - line_w//2, img_h - 32), line, '#ffffff', font=font)
+
+    # img.show()
+    # print(img.size)
+    common_name_fotmatted = common_name.lower().replace(' ', '-')
+    img.save(f'pinterest/tmp/{common_name_fotmatted}-{attribute}.jpg', format='JPEG', subsampling=0, quality=100)
+
 
 
 # articles rows
@@ -117,6 +160,7 @@ for i, item in enumerate(articles_master_rows[0]):
 for i, row in enumerate(articles_master_rows[1:]):
     print(f'{i}/{len(articles_master_rows[1:])}')
     
+    to_pin = row[articles_dict['to_pin']].strip()
     entity = row[articles_dict['entity']].strip()
     common_name = row[articles_dict['common_name']].strip()
     org = row[articles_dict['org']].strip()
@@ -130,6 +174,8 @@ for i, row in enumerate(articles_master_rows[1:]):
     description_folder = row[articles_dict['description_folder']].strip()
     # print(image_name)
 
+    if to_pin.strip() != 'x': continue
+
     today_day = datetime.now().day
     if int(last_day) == int(today_day): continue
 
@@ -137,11 +183,10 @@ for i, row in enumerate(articles_master_rows[1:]):
     common_name_title = common_name.title()
     common_name_formatted = common_name.lower().replace(' ', '-')
 
-    img_folder = f'G:\\tw-images\\pin\\{entity}\\{image_subfolder}'
+    img_folder = f'G:\\tw-images\\pin\\{entity}-3\\{image_subfolder}'
     img_filenames = os.listdir(f'{img_folder}')
-    # print(img_filenames)
     img_filename = img_filenames[int(current_image)]
-    pin_generate(entity, common_name_title, img_filename, image_name, subtitle)
+    pin_generate_2(entity, common_name_title, img_filename, image_name, subtitle)
 
     folderpath = f'database/articles/{entity}'
     if description_folder.strip() != '': folderpath += '/' + description_folder.replace('-', '/')

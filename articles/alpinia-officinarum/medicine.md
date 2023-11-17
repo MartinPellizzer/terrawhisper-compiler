@@ -16,7 +16,7 @@ This article explains in details the medicinal properties of galangal and how to
 
 Galangal (Alpinia officinarum), a member of the ginger family, is revered for its diverse medicinal benefits. Its potent properties encompass aiding digestion, stimulating the production of digestive enzymes, and mitigating gastrointestinal discomfort. Studies indicate that galangal's compounds possess antioxidant properties, combating oxidative stress and bolstering the immune system to fend off infections. This herbaceous plant contains anti-inflammatory compounds like flavonoids and tannins, aiding in alleviating inflammation associated with conditions such as arthritis. It has been observed to ease nausea and motion sickness due to its calming effect on the stomach.
 
-The following illustration shows the most important health benefits of galangal.
+The following illustration shows the most important [health benefits of galangal](/alpinia-officinarum/medicine/benefits.html).
 
 
 
