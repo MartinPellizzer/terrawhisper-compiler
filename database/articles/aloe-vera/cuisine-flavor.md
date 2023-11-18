@@ -1,2 +1,0 @@
-The flavor profile of aloe vera is mildly sweet with a hint of bitterness, creating a unique taste that pairs well with both sweet and savory dishes. The gel's texture is gelatinous, similar to the consistency of a peeled grape. It is important to note that the yellowish latex, found just under the skin of the leaf, has a bitter taste and should be carefully removed to avoid compromising the dish's flavor. The balance of sweetness and bitterness in aloe vera makes it a versatile ingredient, suitable for enhancing both refreshing beverages and savory concoctions.
-

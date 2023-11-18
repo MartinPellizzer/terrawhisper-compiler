@@ -1,6 +1,6 @@
 # Sweet flag (Acorus calamus) Medicinal Guide: Benefits, Constituents, and Preparations
 
-![Sweet flag Medicinal Guide](/images/acorus-calamus-medicine.jpg "Sweet flag Medicinal Guide")
+![Sweet flag Medicinal Guide](/images/acorus-calamus-medicine-overview.jpg "Sweet flag Medicinal Guide")
 
 Sweet flag (Acorus calamus) is a herb with diverse medicinal benefits. Its carminative properties reduce bloating and gas. Studies show a 15% increase in memory recall with sweet flag supplements, while anti-inflammatory effects reduce markers by 25%. Blood sugar regulation is evident with a 12% decrease in fasting glucose levels in diabetic patients. Stress reduction sees a 20% decrease in anxiety scores. Liver health improves with a 30% increase in enzyme efficiency, and immune function gets a 25% boost. Oral health benefits include a 40% reduction in oral microbial growth, and for menstrual comfort, there's a 20% decrease in reported menstrual pain intensity.
 
@@ -39,8 +39,6 @@ Oral health benefits are validated by research showcasing a 40% reduction in ora
 
 For menstrual comfort, sweet flag's spasmolytic effects translate to a 20% decrease in reported menstrual pain intensity, offering measurable relief for individuals grappling with menstrual cramps.
 
-
-
 The following list summarizes the 10 most important health benefits of sweet flag.
 
 
@@ -72,8 +70,6 @@ Eugenol, recognized for its antimicrobial and antioxidant attributes, is also fo
 Methyl isoeugenol, another compound found in sweet flag, is studied for its antimicrobial properties. The alkaloid Acorine, present in sweet flag, has garnered attention for its impact on the central nervous system. Shyobunone, characterized by antioxidant and anti-inflammatory properties, contributes to the overall health potential of sweet flag.
 
 Elemene, a sesquiterpene in sweet flag, has been examined for its anti-cancer and anti-inflammatory effects. The concentration of these constituents can fluctuate due to environmental factors, cultivation methods, and plant variability. Cis-isoasarone, an additional isomer of asarone, diversifies the chemical composition of sweet flag.
-
-
 
 The following list summarizes the 10 most important active constituents of sweet flag for medicinal purposes.
 
@@ -109,8 +105,6 @@ The decoction method, involving boiling sweet flag roots, produces a concentrate
 
 In the culinary realm, sweet flag powder or extract is employed as a natural flavoring agent, adding both taste and potential health benefits to dishes. Caution is advised when incorporating sweet flag into herbal smoking blends, emphasizing the importance of moderation.
 
-
-
 The following list summarizes the 10 most important preparations of sweet flag to boost your health.
 
 
@@ -142,8 +136,6 @@ Children and infants, being more susceptible to adverse effects, warrant cautiou
 In the event of adverse effects, studies emphasize the importance of immediate discontinuation, reporting that prompt action reduces the severity and duration of side effects by 50%. Harvesting precautions, such as ensuring contamination-free sources, are essential, given that up to 30% of herbal products have been found to be contaminated with pesticides or pollutants. Storage guidelines, informed by multiple studies, recommend keeping Sweet flag products in a cool, dry place away from direct sunlight to maintain their efficacy.
 
 Recognizing Sweet flag as a complementary rather than a substitute therapy is underscored by research highlighting the uncertainties surrounding its safety for specific populations. Pregnant individuals, for instance, face a 20% higher likelihood of experiencing complications when using herbal remedies without professional guidance. Overall, these evidence-based precautions provide a comprehensive framework for the safe use of Sweet flag in medicinal contexts.
-
-
 
 The following list summarizes the 10 most important precautions you must take when you use sweet flag as a medicine.
 

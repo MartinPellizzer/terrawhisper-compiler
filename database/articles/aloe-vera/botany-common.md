@@ -1,2 +1,0 @@
-Commonly known as Aloe vera, this plant also goes by other names like 'True Aloe' or 'Medicinal Aloe.' While the scientific nomenclature remains consistent, its various common names reflect its widespread recognition and utilization in different cultures. These names encapsulate its reputation as a plant with diverse applications beyond its taxonomic identity, underscoring its significance in various regions across the globe.
-

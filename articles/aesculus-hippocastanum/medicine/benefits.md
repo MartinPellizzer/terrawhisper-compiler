@@ -146,7 +146,7 @@ There are many preparations and uses of Horse Chestnut, such as capsules and ext
 
 
 
-Given the many preparations and uses of horse chestnut, it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
+Given the many [uses and preparations of horse chestnut](/aesculus-hippocastanum/medicine/preparations.html), it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
 
 
 

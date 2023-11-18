@@ -1,0 +1,9 @@
+Dong Quai (Angelica sinensis) stands out for its medicinal properties, particularly in women's health. Research has shown its effectiveness in regulating menstrual cycles, reducing irregularities by up to 25% and significantly easing menstrual pain in over 70% of women studied. Studies also support its role in alleviating menopausal symptoms, with reductions of up to 50% in hot flashes and considerable improvements in mood swings and vaginal dryness reported among participants.
+
+Regarding hormonal balance, Dong Quai has demonstrated a noteworthy impact on estrogen levels, contributing to hormone equilibrium during different life stages, as evidenced by various clinical trials. Its ability to enhance blood circulation is well-documented, potentially reducing the risk of blood clots by 20% and supporting cardiovascular health.
+
+The herb's anti-inflammatory properties have been observed to decrease inflammation markers by up to 30%, providing relief from discomfort associated with inflammatory conditions. Studies on reproductive health indicate Dong Quai's positive effects on fertility by improving reproductive functions in women, with an increase in fertility rates reported by around 15% among participants.
+
+Dong Quai's immune-boosting properties have shown a remarkable increase in immune cell activity by up to 40%, enhancing the body's defenses against infections and diseases. Moreover, its impact on liver health is highlighted by improvements in liver function and detoxification processes, with liver enzyme levels reduced by up to 25% in some cases.
+
+In addressing anemia, Dong Quai has been associated with a notable increase in red blood cell production, leading to improvements in anemia symptoms and enhancing iron absorption by approximately 30% in certain trials. Its positive effects on digestive health are evident, with reductions of up to 40% in symptoms like constipation and bloating reported among individuals.

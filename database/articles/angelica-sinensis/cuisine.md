@@ -1,0 +1,6 @@
+
+Dong Quai is primarily valued for its medicinal properties rather than its culinary uses. While not a commonly consumed ingredient, in Chinese cuisine, Dong Quai leaves are occasionally used in salads, soups, and stir-fries. However, the root is the most utilized part of the plant in traditional medicine and herbal remedies due to its therapeutic benefits.
+
+In terms of flavor, Dong Quai root possesses a distinctive and pungent aroma with slightly bitter and earthy undertones. It is often described as having a strong, musky, and slightly sweet flavor profile. This flavor profile makes it an acquired taste, and it is often combined with other herbs or ingredients to balance its strong taste when used in culinary applications.
+
+When incorporating Dong Quai in cooking, it's essential to note that the root's potency and strong flavor may overpower other ingredients. Hence, it's advisable to use it sparingly and pair it with complementary flavors to balance its intensity. Additionally, blanching or soaking the root before use can help mitigate its bitter notes. While Dong Quai is not widely regarded for its culinary appeal, its strong flavor and potential medicinal benefits make it an occasional inclusion in certain dishes in Chinese cuisine.

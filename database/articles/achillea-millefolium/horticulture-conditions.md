@@ -1,1 +1,0 @@
-This plant thrives in a variety of growing conditions and is adaptable to different soil types. However, it prefers well-drained soil with a pH level around 6.5 to 7.5. It can tolerate drought once established, making it a low-maintenance addition to your garden. It also enjoys full sun, but it can tolerate partial shade, although it may not bloom as profusely in shadier spots.

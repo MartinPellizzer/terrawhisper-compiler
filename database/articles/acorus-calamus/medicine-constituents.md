@@ -1,1 +1,0 @@
-The active compounds responsible for the medicinal properties of sweet flag include β-asarone, α-asarone, and essential oils. β-asarone, in particular, exhibits anti-inflammatory and antispasmodic effects, contributing to its usefulness in gastrointestinal treatments. Additionally, the essential oils contain compounds like isoeugenol, which have antimicrobial properties.

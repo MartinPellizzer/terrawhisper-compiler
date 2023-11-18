@@ -1,1 +1,0 @@
-Yarrow is a versatile and hardy perennial plant that can be easily grown in your garden or landscape. To cultivate it, choose a sunny location with well-draining soil. Plant the seeds or young yarrow plants about 30-45 centimeters apart in early spring or late summer. Make sure to water them regularly during their initial establishment phase.

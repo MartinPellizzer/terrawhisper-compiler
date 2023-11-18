@@ -1,6 +1,6 @@
 # Galangal (Alpinia officinarum) Medicinal Guide: Benefits, Constituents, and Preparations
 
-![Galangal Medicinal Guide](/images/alpinia-officinarum-medicine.jpg "Galangal Medicinal Guide")
+![Galangal Medicinal Guide](/images/alpinia-officinarum-medicine-overview.jpg "Galangal Medicinal Guide")
 
 Galangal (Alpinia officinarum), belonging to the ginger family, offers various health benefits due to its diverse medicinal properties. 
 
@@ -29,8 +29,6 @@ The herb's therapeutic potential encompasses respiratory health, where it assist
 
 Its antimicrobial attributes contribute to enhancing skin health, potentially reducing acne and skin irritation while fostering a healthier complexion. While the specific numbers pertaining to its efficacy vary across studies, the cumulative findings support galangal's multifaceted medicinal attributes. From aiding digestion to potentially curbing cancer cell growth, galangal stands as a versatile botanical remedy with promising health benefits, making it a valuable inclusion in traditional medicine and ongoing scientific investigations alike.
 
-
-
 The following list summarizes the 10 most important health benefits of galangal.
 
 
@@ -48,7 +46,7 @@ The following list summarizes the 10 most important health benefits of galangal.
 
 ## What are the key constituents of galangal for health purposes?
 
-
+Galangal (Alpinia officinarum) contains significant quantities of galangin, ranging from 0.3% to 2.0% in its rhizomes, exhibiting potent antioxidant properties. Galangol, found in concentrations varying from 0.05% to 0.15%, showcases noteworthy anti-inflammatory and analgesic effects. Additionally, the essential oil extracted from galangal comprises cineol in quantities ranging between 20% to 50%, pinene at around 10% to 25%, and terpineol at approximately 5% to 15%. These components contribute to the herb's substantial antimicrobial activity against various bacteria and fungi.
 
 The following illustration shows the most important constituents of galangal for medicinal purposes.
 
@@ -56,15 +54,12 @@ The following illustration shows the most important constituents of galangal for
 
 ![Alpinia officinarum Medicinal Constituents](/images/alpinia-officinarum-medicine-constituents.jpg "Alpinia officinarum Medicinal Constituents")
 
-Galangal (Alpinia officinarum) contains significant quantities of galangin, ranging from 0.3% to 2.0% in its rhizomes, exhibiting potent antioxidant properties. Galangol, found in concentrations varying from 0.05% to 0.15%, showcases noteworthy anti-inflammatory and analgesic effects. Additionally, the essential oil extracted from galangal comprises cineol in quantities ranging between 20% to 50%, pinene at around 10% to 25%, and terpineol at approximately 5% to 15%. These components contribute to the herb's substantial antimicrobial activity against various bacteria and fungi.
 
 Studies have highlighted galangal's diverse bioactive compounds, including phenolic compounds, tannins, terpenoids, and flavonoids, all playing a vital role in its antioxidant properties. Phenolic compounds are found in galangal in notable concentrations, contributing significantly to its antioxidant activity. Tannins, another class of polyphenolic compounds present in galangal, exhibit antibacterial and antiviral effects.
 
 Furthermore, galangal's flavonoid content, particularly galangin and kaempferol, contributes to its antioxidant and anti-inflammatory actions. Galangin, present in concentrations between 0.1% to 0.5%, possesses strong antioxidant capabilities, aiding in neutralizing free radicals. Kaempferol, another flavonoid, demonstrates similar antioxidant and anti-inflammatory properties.
 
 The compounds gingerol and shogaol, prevalent in galangal, contribute to its digestive benefits. Gingerol, in concentrations varying from 0.1% to 1.0%, and shogaol play a role in aiding digestion and relieving gastrointestinal discomfort and nausea.
-
-
 
 The following list summarizes the 10 most important active constituents of galangal for medicinal purposes.
 
@@ -96,8 +91,6 @@ Galangal tinctures, made by steeping the root in alcohol, yield potent solutions
 
 Additionally, galangal syrup, prepared by combining a galangal infusion with sugar or honey, provides a sweetened tonic or flavoring agent, while galangal vinegar incorporates the root into vinegar for culinary uses or digestive aids. Galangal ointments, formulated by infusing the root into a carrier base like beeswax or coconut oil, offer targeted relief for skin conditions or joint discomfort.
 
-
-
 The following list summarizes the 10 most important preparations of galangal to boost your health.
 
 
@@ -127,8 +120,6 @@ The following illustration shows the most important precautions you must take wh
 Those with underlying medical conditions, such as gallstones or gastric ulcers, should exercise caution due to potential complications reported in about 8-12% of cases. Galangal's interactions with certain medications have been documented in approximately 15-20% of instances, underscoring the need for healthcare provider consultations, especially before scheduled surgeries, as discontinuation of galangal at least two weeks beforehand is recommended. 
 
 Vigilance regarding side effects, especially in children, is essential, with adverse reactions documented in around 3-5% of cases, necessitating immediate medical attention when observed. Ensuring the quality and purity of galangal is vital, as reports of contamination or adulteration affect approximately 10-15% of sourced samples. Limiting prolonged use is advised due to potential risks documented in 6-8% of cases, with monitoring for unexpected reactions recommended.
-
-
 
 The following list summarizes the 10 most important precautions you must take when you use galangal as a medicine.
 

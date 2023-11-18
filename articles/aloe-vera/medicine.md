@@ -1,6 +1,6 @@
 # Aloe vera (Aloe vera) Medicinal Guide: Benefits, Constituents, and Preparations
 
-![Aloe vera Medicinal Guide](/images/aloe-vera-medicine.jpg "Aloe vera Medicinal Guide")
+![Aloe vera Medicinal Guide](/images/aloe-vera-medicine-overview.jpg "Aloe vera Medicinal Guide")
 
 Aloe vera, scientifically recognized for its Aloe vera species, is a potent source of medicinal benefits. Its skin-soothing properties make it effective for sunburns and wounds, accelerating tissue repair by up to 50%. Topical application hydrates the skin, increasing moisture levels by 65%. Aloe vera also shows promise in joint and muscle pain relief, reducing discomfort by 30%. Internally consumed, it aids digestion, manages diabetes with a 20% decrease in blood glucose, and enhances immunity by up to 25%.
 
@@ -16,7 +16,7 @@ This article explains in details the medicinal properties of aloe vera and how t
 
 Aloe Vera, scientifically acknowledged for its Aloe vera species, stands as a powerhouse of medicinal benefits with quantifiable impacts across diverse health domains. Renowned for its skin-soothing properties, aloe vera is a go-to remedy for sunburns, rashes, and wounds, providing tangible relief. Studies indicate that aloe vera's wound-healing potential stems from its ability to increase collagen production, with some reporting up to a 50% acceleration in tissue repair.
 
-The following illustration shows the most important [health benefits of aloe vera](/aloe-vera/medicine/benefits.html).
+The following illustration shows the most important health benefits of aloe vera.
 
 
 
@@ -30,8 +30,6 @@ Internally consumed, aloe vera exhibits digestive health benefits. Research indi
 In the realm of immunity, aloe vera's constituents contribute to bolstering the body's defenses. The plant contains compounds like acemannan, recognized for their immunomodulatory effects. These bioactive molecules stimulate the immune system, enhancing the body's ability to resist infections, as evidenced by studies showing an increase of up to 25% in immune cell activity.
 
 Aloe vera's antimicrobial properties extend to oral health, where it combats dental plaque and gingivitis. Clinical trials substantiate its efficacy, showcasing reduced plaque levels of up to 40% and improved gingival health with aloe vera use. In conclusion,
-
-
 
 The following list summarizes the 10 most important health benefits of aloe vera.
 
@@ -67,8 +65,6 @@ Anthraquinones, recognized for their mild laxative effects, are present, though 
 
 Moreover, Aloe vera encompasses plant sterols, recognized for their anti-inflammatory effects, and saponins, offering potential antimicrobial benefits. This multifaceted composition makes Aloe vera a comprehensive natural resource with diverse health applications.
 
-
-
 The following list summarizes the 10 most important active constituents of aloe vera for medicinal purposes.
 
 
@@ -100,8 +96,6 @@ Notably, aloe vera gel is a reservoir of bioactive compounds. The latex layer, i
 Storage is a critical consideration to maintain the freshness and efficacy of the prepared gel. Storing it in a clean, airtight container and refrigerating it is essential. This not only prolongs the shelf life of the gel but also prevents microbial contamination.
 
 Before incorporating aloe vera into health routines, a patch test is recommended to identify potential adverse reactions. This is especially crucial for both topical applications and internal consumption. The quantifiable age of the harvested leaves, the meticulous removal of latex, and the optional air-drying process are essential steps in ensuring the optimal bioactivity and safety of aloe vera gel. In the realm of health-oriented preparations, these precise procedures contribute to harnessing the full potential of aloe vera's key constituents.
-
-
 
 The following list summarizes the 10 most important preparations of aloe vera to boost your health.
 
@@ -144,8 +138,6 @@ Ensuring product quality is essential, with studies revealing variations in Aloe
 Awareness of potential interactions between Aloe Vera and medications is crucial, with studies indicating that certain compounds in Aloe Vera may interfere with drug absorption or metabolism.
 
 Avoiding the latex layer beneath the Aloe Vera leaf's skin is recommended due to its potent laxative properties. Studies highlight that ingesting more than 1 gram of Aloe Vera latex daily significantly increases the risk of gastrointestinal side effects.
-
-
 
 The following list summarizes the 10 most important precautions you must take when you use aloe vera as a medicine.
 

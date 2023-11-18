@@ -1,6 +1,6 @@
 # Horse chestnut (Aesculus hippocastanum) Medicinal Guide: Benefits, Constituents, and Preparations
 
-![Horse chestnut Medicinal Guide](/images/aesculus-hippocastanum-medicine.jpg "Horse chestnut Medicinal Guide")
+![Horse chestnut Medicinal Guide](/images/aesculus-hippocastanum-medicine-overview.jpg "Horse chestnut Medicinal Guide")
 
 Horse chestnut (Aesculus hippocastanum) boasts diverse medicinal benefits supported by scientific evidence. Its positive effects on circulatory health are evident, enhancing blood flow by up to 20%, reducing the risk of venous insufficiency, and preventing circulatory disorders. The herb's anti-inflammatory properties significantly reduce swelling, with clinical trials showing a 30% decrease, and improve edema management. Horse chestnut strengthens capillaries, decreasing fragility by approximately 25%, and addresses varicose veins, resulting in a 40% reduction in pain and a 30% decrease in swelling.
 
@@ -30,8 +30,6 @@ In the context of chronic venous insufficiency (CVI), horse chestnut demonstrate
 The herb's topical applications have quantifiable results as well, with creams and gels showcasing effectiveness in reducing itching associated with skin conditions such as eczema. This is substantiated by clinical data indicating a statistically significant decrease in subjective measures of discomfort by approximately 40%.
 
 In the realm of joint health, horse chestnut's anti-inflammatory properties contribute to its efficacy in managing conditions like arthritis. Objective assessments reveal a measurable reduction in joint pain by up to 30% and improved overall joint comfort.
-
-
 
 The following list summarizes the 10 most important health benefits of horse chestnut.
 
@@ -65,8 +63,6 @@ Vitamins are present in modest amounts, with vitamin C contributing to the overa
 
 Quantitative insights enhance our understanding, such as the 45 micrograms per gram of quercetin in horse chestnut extract and the 3-5% fatty acid content in seeds, with linoleic acid comprising 40-65% and oleic acid 20-35%. These figures highlight the nuanced composition of horse chestnut, emphasizing the need for precision in leveraging its potential health benefits.
 
-
-
 The following list summarizes the 10 most important active constituents of horse chestnut for medicinal purposes.
 
 
@@ -86,7 +82,7 @@ The following list summarizes the 10 most important active constituents of horse
 
 Horse Chestnut (Aesculus hippocastanum) demonstrates its versatility through various health preparations. Post-harvest, the meticulous drying process ensures optimal moisture removal, typically reaching a moisture content of less than 10%. The subsequent grinding yields a fine powder, with studies indicating a particle size ranging from 100 to 300 micrometers for enhanced bioavailability.
 
-The following illustration shows the most important medicinal preparations of horse chestnut.
+The following illustration shows the most important [medicinal preparations of horse chestnut](/aesculus-hippocastanum/medicine/preparations.html).
 
 
 
@@ -103,21 +99,19 @@ Poultices commonly consist of a mixture of 10 grams of powdered horse chestnut a
 
 In culinary applications, recipes may incorporate around 5 grams of ground horse chestnut. Supplement capsules typically provide a standardized dose of 200 milligrams of powdered horse chestnut. Glycerites, serving as alcohol-free alternatives, involve soaking approximately 50 grams of horse chestnuts in 250 milliliters of vegetable glycerin over a four-week period.
 
-
-
 The following list summarizes the 10 most important preparations of horse chestnut to boost your health.
 
 
 
 - **Horse Chestnut Dried Powder**:   Harvest horse chestnuts and dry them thoroughly before grinding them into a fine powder.
-- **Horse Chestnut Tincture Preparation**:   Create a tincture by soaking crushed horse chestnuts in a high-proof alcohol, allowing it to extract the beneficial compounds over several weeks.
+- **Horse Chestnut Tincture**:   Create a tincture by soaking crushed horse chestnuts in a high-proof alcohol, allowing it to extract the beneficial compounds over several weeks.
 - **Horse Chestnut Decoction**:   Boil horse chestnut seeds in water to prepare a decoction, extracting medicinal properties through the heating process.
-- **Horse Chestnut Salve or Cream**:   Infuse horse chestnut extract into a carrier oil to create a salve or cream for topical application.
+- **Horse Chestnut Salve**:   Infuse horse chestnut extract into a carrier oil to create a salve or cream for topical application.
 - **Horse Chestnut Tea Infusion**:   Steep dried horse chestnut in hot water to make a tea, which can be consumed for various health benefits.
-- **Horse Chestnut Capsule Formulation**:   Fill empty capsules with finely powdered horse chestnut for a convenient and controlled dosage.
+- **Horse Chestnut Capsule**:   Fill empty capsules with finely powdered horse chestnut for a convenient and controlled dosage.
 - **Horse Chestnut Oil Infusion**:   Extract the active compounds by infusing horse chestnut in oil, creating a potent base for topical applications.
 - **Horse Chestnut Cold Pressed Oil**:   Produce cold-pressed horse chestnut oil for a method that retains more of the natural compounds.
-- **Horse Chestnut Poultice Preparation**:   Mix powdered horse chestnut with water or another suitable base to create a poultice for localized application.
+- **Horse Chestnut Poultice**:   Mix powdered horse chestnut with water or another suitable base to create a poultice for localized application.
 - **Horse Chestnut Vinegar Infusion**:   Soak horse chestnut in apple cider vinegar to create an infused vinegar that can be used internally or externally.
 
 ## What precautions should you take when using horse chestnut as a medicine?
@@ -142,8 +136,6 @@ Awareness of potential interactions with medications is crucial, especially for 
 Prolonged use without medical supervision is discouraged, and intermittent breaks are recommended to assess tolerance and minimize potential risks associated with extended exposure to horse chestnut. These precautions collectively contribute to a safer integration of horse chestnut into healthcare practices, ensuring its therapeutic benefits are realized without compromising individual well-being.
 
 Numerous studies underscore the importance of these precautions, with findings indicating a correlation between raw horse chestnut consumption and toxicity, heightened bleeding risks in patients on anticoagulants, and instances of liver damage associated with its use. These studies also emphasize the need for healthcare professional guidance and meticulous monitoring when incorporating horse chestnut into healthcare routines.
-
-
 
 The following list summarizes the 10 most important precautions you must take when you use horse chestnut as a medicine.
 

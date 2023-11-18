@@ -1,1 +1,0 @@
-This plant is commonly known as sweet flag and has several regional variants, including calamus root, flagroot, myrtle flag, and sweet sedge.

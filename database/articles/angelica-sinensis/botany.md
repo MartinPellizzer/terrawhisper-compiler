@@ -1,0 +1,7 @@
+The traditional taxonomy of Dong Quai (Angelica sinensis) places it in the following classifications: domain Eukaryota, kingdom Plantae, phylum Angiosperms, class Eudicots, order Apiales, family Apiaceae, genus Angelica, species Angelica sinensis. This categorization helps to understand its evolutionary relationships and botanical characteristics within the plant kingdom.
+
+Dong Quai is commonly known by various names, including Chinese Angelica, Female Ginseng, and Dang Gui. Variants of Angelica sinensis might differ slightly in terms of geographic origin or subspecies but generally share similar characteristics and medicinal properties.
+
+Angelica sinensis is a biennial or perennial plant characterized by its stout, hollow stems reaching heights of up to 1-2 meters. Its deeply lobed, serrated leaves form a rosette at the base of the plant, while the flowers, arranged in compound umbels, bloom in clusters, displaying small, numerous white or greenish-yellow flowers. The root, which is the most utilized part of the plant for medicinal purposes, is long, slender, and brown in color, emitting a distinctive aromatic odor.
+
+This plant is indigenous to China, Japan, and Korea, predominantly found in cool, high-altitude mountainous regions and damp, forested areas. It thrives in rich, well-draining soil and partial shade, often growing along riverbanks or in areas with moist conditions. Angelica sinensis is adapted to a temperate climate and is cultivated in specific regions due to its environmental requirements for optimal growth.

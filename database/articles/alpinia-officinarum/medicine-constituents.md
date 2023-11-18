@@ -1,2 +1,0 @@
-Galangal contains key bioactive compounds like galangin, galangol, and kaempferol, renowned for their anti-inflammatory, antioxidant, and anticancer properties. Additionally, its essential oils, comprising cineol, pinene, and terpineol, offer antimicrobial effects. Phenolic compounds, tannins, and flavonoids contribute to its diverse medicinal benefits, aiding in scavenging free radicals and reducing inflammation.
-

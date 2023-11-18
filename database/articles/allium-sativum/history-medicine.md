@@ -1,2 +1,0 @@
-Garlic (Allium sativum) has held a significant place in traditional folk medicine across various cultures. Renowned for its purported health benefits, it has been employed to treat a myriad of ailments, from respiratory conditions to cardiovascular issues. In traditional Chinese medicine, garlic was utilized for its warming properties to expel cold and dampness from the body. Ancient Egyptians revered it for its potential to enhance physical strength, while in medieval Europe, it was believed to ward off evil spirits and infectious diseases.
-

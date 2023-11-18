@@ -1,6 +1,6 @@
 # Visnaga (Ammi visnaga) Medicinal Guide: Benefits, Constituents, and Preparations
 
-![Visnaga Medicinal Guide](/images/ammi-visnaga-medicine.jpg "Visnaga Medicinal Guide")
+![Visnaga Medicinal Guide](/images/ammi-visnaga-medicine-overview.jpg "Visnaga Medicinal Guide")
 
 Visnaga, scientifically known as Ammi visnaga, offers a wide array of medicinal benefits, particularly its bronchodilator effects aiding asthma management by dilating airways. 
 
@@ -28,8 +28,6 @@ The plant's prowess extends to urinary tract health, notably in mitigating urina
 Visnaga's anti-spasmodic qualities offer relief from muscle and organ spasms, contributing to improved digestive health. This includes alleviating gastrointestinal discomforts such as indigestion and bloating. Moreover, its anti-inflammatory properties help reduce inflammation in the body. Research has shown potential benefits in menstrual regulation and management of menstrual pain. Recommended dosages for these purposes often range between 30 to 60 milligrams of khellin extract per day.
 
 Further exploration suggests Visnaga's potential in supporting heart health by strengthening heart muscles. Its usage in doses of 30 to 120 milligrams of khellin extract daily has shown promising results. Additionally, Visnaga may aid in managing certain skin conditions due to its anti-inflammatory properties.
-
-
 
 The following list summarizes the 10 most important health benefits of visnaga.
 
@@ -61,9 +59,7 @@ Additionally, the herb showcases notable quantities of flavonoids, including que
 
 Coumarins, such as umbelliferone, present in Visnaga range from 0.1% to 0.6%. Linoleic acid and palmitic acid, essential fatty acids in the plant, contribute significantly to its composition. The presence of beta-carotene, a precursor to vitamin A, in Visnaga amounts to approximately 1.2 mg/g. 
 
-Alkaloids and phenolic compounds, though present, have varying concentrations that require further elucidation. Furthermore, Visnaga contains essential minerals like calcium (up to 6.5 mg/g), potassium (around 5.2 mg/g), and magnesium (up to 4.8 mg/g), alongside assorted vitamins, augmenting its medicinal potential. 
-
-
+Alkaloids and phenolic compounds, though present, have varying concentrations that require further elucidation. Furthermore, Visnaga contains essential minerals like calcium (up to 6.5 mg/g), potassium (around 5.2 mg/g), and magnesium (up to 4.8 mg/g), alongside assorted vitamins, augmenting its medicinal potential.
 
 The following list summarizes the 10 most important active constituents of visnaga for medicinal purposes.
 
@@ -95,8 +91,6 @@ Additionally, topical ointments, incorporating Visnaga extracts, serve as remedi
 
 Furthermore, powdered forms of Visnaga, used in food or beverages, provide an alternative consumption method for its health benefits, with suggested doses typically ranging from 1 to 3 grams. These preparations offer versatile means to utilize Visnaga's medicinal potential, allowing for tailored approaches to various health concerns and preferences.
 
-
-
 The following list summarizes the 10 most important preparations of visnaga to boost your health.
 
 
@@ -126,8 +120,6 @@ The following illustration shows the most important precautions you must take wh
 Before scheduled surgeries, discontinuing Visnaga usage at least two weeks in advance is recommended due to its potential impact on blood pressure regulation. Individuals using Visnaga should be mindful of activities that require focus or coordination, as dizziness or drowsiness could occur as side effects. Proper storage of Visnaga products is necessary to maintain their potency and integrity, ensuring they remain free from contamination or degradation. When obtaining Visnaga, sourcing it from reputable and trustworthy vendors is essential to guarantee quality and safety.
 
 Vigilance for possible side effects, such as nausea or allergic reactions, is crucial while using Visnaga. If any adverse symptoms manifest, seeking prompt medical attention is advised to mitigate potential risks. Monitoring and recording such side effects can assist healthcare providers in managing any complications effectively. Adhering to these precautions ensures the safe and appropriate utilization of Visnaga while minimizing potential health risks associated with its use.
-
-
 
 The following list summarizes the 10 most important precautions you must take when you use visnaga as a medicine.
 

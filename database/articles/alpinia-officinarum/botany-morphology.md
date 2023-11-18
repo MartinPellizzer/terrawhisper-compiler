@@ -1,1 +1,0 @@
-In terms of morphology, galangal typically features tall, perennial herbs with elongated, lance-shaped leaves, reaching up to 60-90 cm in length. It produces robust, underground rhizomes with a pungent aroma and a tangy, spicy flavor. The plant displays attractive, cone-like spikes of flowers with white petals and red veins.

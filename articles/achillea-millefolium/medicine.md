@@ -1,6 +1,6 @@
 # Yarrow (Achillea millefolium) Medicinal Guide: Benefits, Constituents, and Preparations
 
-![Yarrow Medicinal Guide](/images/achillea-millefolium-medicine.jpg "Yarrow Medicinal Guide")
+![Yarrow Medicinal Guide](/images/achillea-millefolium-medicine-overview.jpg "Yarrow Medicinal Guide")
 
 Yarrow offers numerous health benefits and medicinal properties, including anti-inflammatory effects, improved digestion, relief from menstrual discomfort, wound healing acceleration, blood pressure reduction, immune system support, anxiety and stress relief, respiratory health improvement, enhanced skin condition, and better circulation.
 
@@ -40,8 +40,6 @@ Additionally, the antioxidant-rich content of yarrow is instrumental in supporti
 Its positive effects on respiratory health are also quantifiable, with a 30-40% reduction in symptoms like cough frequency and congestion reported within a week of treatment. For skincare, clinical trials have documented a 25-35% reduction in acne severity and a 20-25% improvement in eczema symptoms when utilizing yarrow-based products.
 
 Lastly, yarrow's enhancement of blood circulation is supported by a 15-20% increase in blood flow velocity in various vascular regions. This effect leads to a 25-30% reduction in symptoms related to poor circulation.
-
-
 
 The following list summarizes the 10 most important health benefits of yarrow.
 
@@ -86,8 +84,6 @@ Glycosides, a group of sugar-bound compounds with varied structures, have been i
 Phytosterols, plant-derived sterols structurally akin to cholesterol, can also be found in varying amounts in A. millefolium. These compounds have attracted attention for their potential health benefits.
 
 Yarrow is not just a source of unique compounds, it also contains essential vitamins and minerals. For instance, it provides vitamin C, with levels averaging around 0.1-0.4 mg per 100 grams of fresh yarrow, along with vitamin K and minerals like potassium.
-
-
 
 The following list summarizes the 10 most important active constituents of yarrow for medicinal purposes.
 
@@ -138,8 +134,6 @@ An enjoyable and relaxing way to utilize yarrow is by taking a Yarrow Bath, achi
 For respiratory relief, Yarrow Inhalation involves inhaling steam from a bowl of hot water infused with 10 grams of yarrow per 500 ml (16.91 oz) of water.
 
 Lastly, a Yarrow Foot Soak is prepared by adding 15-20 grams of dried yarrow to a basin containing 5 liters (1.32 gallons) of warm water. This soothing soak is particularly beneficial for tired feet and circulation.
-
-
 
 The following list summarizes the 10 most important preparations of yarrow to boost your health.
 
@@ -196,8 +190,6 @@ Properly storing Yarrow and Yarrow-containing products in a cool, dry place and 
 Access to reliable herbal medicine references and consultation with qualified herbalists or healthcare professionals can enhance knowledge of Yarrow's safe and appropriate use, but the availability of educational resources may vary.
 
 If Yarrow use does not yield desired health benefits or adverse effects are experienced, it is advisable to discontinue use and seek medical advice, as the effectiveness and adverse reactions can differ among individuals.
-
-
 
 The following list summarizes the 10 most important precautions you must take when you use yarrow as a medicine.
 

@@ -1,2 +1,0 @@
-Galangal is utilized in modern medicine for its various health benefits, primarily due to its anti-inflammatory, antioxidant, and antimicrobial properties. It's employed to aid digestion, alleviate nausea, and relieve gastrointestinal discomfort. Additionally, studies suggest its potential in managing diabetes, reducing oxidative stress, and combating certain cancers due to its bioactive compounds.
-

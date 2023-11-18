@@ -1,6 +1,6 @@
 # Garlic (Allium sativum) Medicinal Guide: Benefits, Constituents, and Preparations
 
-![Garlic Medicinal Guide](/images/allium-sativum-medicine.jpg "Garlic Medicinal Guide")
+![Garlic Medicinal Guide](/images/allium-sativum-medicine-overview.jpg "Garlic Medicinal Guide")
 
 Garlic (Allium sativum) is a nutritional powerhouse with numerous health benefits. It boosts immunity, reduces the risk of infections, and plays a crucial role in cardiovascular health by lowering blood pressure and cholesterol levels. Garlic's anti-clotting properties prevent blood clot formation, and its anti-inflammatory and antioxidant attributes safeguard against oxidative stress. Additionally, garlic aids in managing blood sugar levels and exhibits antimicrobial properties, potentially preventing certain cancers.
 
@@ -34,8 +34,6 @@ Garlic's anti-inflammatory and antioxidant attributes are vital in safeguarding 
 On the metabolic front, garlic aids in managing blood sugar levels. Allicin enhances insulin sensitivity, contributing to better glucose control. Studies have revealed a reduction in fasting blood glucose levels by an average of 20 mg/dL among individuals with diabetes following garlic supplementation.
 
 Furthermore, garlic's antimicrobial prowess is noteworthy, with allicin demonstrating inhibitory effects against various pathogens, including bacteria, viruses, and fungi. The potential cancer-preventive properties of garlic have been explored, indicating its role in inhibiting the growth of cancer cells.
-
-
 
 The following list summarizes the 10 most important health benefits of garlic.
 
@@ -71,8 +69,6 @@ Enzymes, such as alliinase, play a pivotal role in the conversion of alliin to a
 
 This amalgamation of constituents creates a synergistic effect, highlighting garlic as a valuable dietary component. The complex interplay of these compounds not only lends garlic its distinctive flavor and aroma but also underscores its potential role in promoting cardiovascular health, bolstering the immune system, and mitigating inflammation and oxidative stress.
 
-
-
 The following list summarizes the 10 most important active constituents of garlic for medicinal purposes.
 
 
@@ -105,8 +101,6 @@ Exploring the liquid realm, garlic tea emerges as a soothing option. Steeping cr
 
 Beyond culinary applications, garlic extends its reach into oil infusions. Garlic-infused oil, suitable for dressings or as a flavorful drizzle, provides a way to enjoy the health benefits of garlic without the intense taste. The roasting of whole garlic bulbs yields a milder taste, making it an accessible option for those sensitive to the pungency of raw garlic. Finally, the strategic combination of garlic with other foods, such as ginger, unlocks potent immune-boosting potential, as observed in studies exploring the synergistic effects of garlic and ginger on immune function.
 
-
-
 The following list summarizes the 10 most important preparations of garlic to boost your health.
 
 
@@ -136,8 +130,6 @@ The following illustration shows the most important precautions you must take wh
 Allergic reactions, including skin rashes or breathing difficulties, should be monitored diligently, necessitating immediate medical attention if symptoms arise. The potential for interactions with medications, notably HIV/AIDS drugs, underscores the importance of informing healthcare providers about all supplements and medications being taken.
 
 For those with bleeding disorders, caution is advised due to garlic's anti-clotting properties. It is crucial to choose reputable garlic supplements, considering factors such as standardized allicin content. Pregnant and breastfeeding individuals must exercise caution and seek professional advice to ensure the safety of garlic during these periods. Additionally, adjusting dosage or discontinuing use is recommended if gastrointestinal discomfort, such as heartburn or indigestion, occurs.
-
-
 
 The following list summarizes the 10 most important precautions you must take when you use garlic as a medicine.
 

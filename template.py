@@ -996,7 +996,7 @@ def main_2():
 
         >>>>
         
-        list_add.py ammi-visnaga cuisine uses
+        list_add.py {entity} cuisine uses
 
 
 
@@ -1028,7 +1028,7 @@ def main_2():
 
         >>>>
         
-        list_add.py ammi-visnaga horticulture tips
+        list_add.py {entity} horticulture tips
 
 
 
@@ -1073,7 +1073,7 @@ def main_2():
 
         >>>>
 
-        table_add.py ammi-visnaga botany taxonomy
+        table_add.py {entity} botany taxonomy
 
 
         ''')
@@ -1105,7 +1105,7 @@ def main_2():
 
         >>>>
 
-        list_add.py ammi-visnaga history uses
+        list_add.py {entity} history uses
 
 
 
@@ -1126,6 +1126,10 @@ def medicine():
 
         Write me a list of the 10 most important health benefits of {common_name} ({latin_name}). 
         Start each benefit with a verb.
+
+        >>>>
+
+        list_add.py angelica-sinensis medicine benefits
 
         --------------------------------------------------------------------
 
@@ -1154,6 +1158,10 @@ def medicine():
 
         Write me a list of the 10 key constituents of {common_name} ({latin_name}) for health purposes. 
 
+        >>>>
+
+        list_add.py angelica-sinensis medicine constituents
+
         --------------------------------------------------------------------
 
         Write a paragraph about the key constituents of {common_name} ({latin_name}).
@@ -1179,7 +1187,13 @@ def medicine():
 
     print(f'''KEY PREPARATIONS
 
-        Write me a list of the 10 most important key preparations of {common_name} ({latin_name}) for health purposes. Use a flat list style, don't put lists inside lists.
+        Write me a list of the 10 most important medicinal preparations of {common_name} ({latin_name}) for health purposes. Use a flat list style, don't put lists inside lists.
+        Start each benefit with a verb.
+        Don't include consulting a healthcare professional in the list.
+
+        >>>>
+
+        list_add.py angelica-sinensis medicine preparations
 
         --------------------------------------------------------------------
 
@@ -1208,6 +1222,10 @@ def medicine():
 
         Write me a list of the 10 most important precautions to take when using {common_name} ({latin_name}) as a medicine. 
         Use a flat list style, don't put lists inside lists.
+
+        >>>>
+
+        list_add.py angelica-sinensis medicine precautions
 
         --------------------------------------------------------------------
 
@@ -1451,7 +1469,7 @@ def medicine_preparations():
 
         In paragraph 1, explain in detail what "{item.lower()}" is. Then, describe its uses, benefits, and properties.
         In paragraph 2, write about how to prepare {item.lower()}. Include numbers, like quantities and time. Include examples. 
-        In paragraph 3, write about the dosage, the side effects, and the precautions for using {item.lower()}. Include numbers and examples.
+        In paragraph 3, write about the recommended dosage and the possible side effects for using {item.lower()}. Include numbers and examples.
         Include as many details, data, and numbers as possible in as few words as possible.
         Use the metric system as the primary measuring system.
         Don't add conclusive summaries.
@@ -1630,7 +1648,13 @@ def get_procedure():
     print('- init plant')
     print('- get list of common names')
     print()
-    print('4. write medicinal article (prompt "medicine")')
+    print('-------------------------------------------------')
+    print('\n>>>> \n\ntemplate.py angelica-sinensis common-names')
+    print('\n>>>> \n\nlist_add.py angelica-sinensis botany common-names')
+    print()
+    print('-------------------------------------------------')
+    print()
+    print('\n>>>> \n\ntemplate.py angelica-sinensis common-names')
 
 
 
