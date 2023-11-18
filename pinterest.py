@@ -154,7 +154,7 @@ for i, row in enumerate(articles_master_rows[1:]):
     common_name_title = common_name.title()
     common_name_formatted = common_name.lower().replace(' ', '-')
 
-    img_folder = f'G:\\tw-images\\pin\\{entity}-2\\{image_subfolder}'
+    img_folder = f'G:\\tw-images\\pin\\{entity}\\{image_subfolder}'
     img_filenames = os.listdir(f'{img_folder}')
     img_filename = img_filenames[int(current_image)]
     pin_generate_2(entity, common_name_title, img_filename, image_name, subtitle)
@@ -235,7 +235,10 @@ for i, row in enumerate(articles_master_rows[1:]):
     e = driver.find_element(By.XPATH, '//div[@data-test-id="storyboard-creation-nav-done"]/..')
     e.click()
 
+    time.sleep(30)
+
+    driver.get("https://www.google.com/")
+
     time.sleep(300)
 
 driver.get("https://www.google.com/")
-

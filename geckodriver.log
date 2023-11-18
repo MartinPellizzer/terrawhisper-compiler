@@ -1915,3 +1915,116 @@ t@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16477
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 1700252050584	Marionette	INFO	Stopped listening on port 64092
 Dynamically enable window occlusion 1
+1700324641795	geckodriver	INFO	Listening on 127.0.0.1:65073
+1700324644881	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65074" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileH6elBr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700324645621	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700324645760	Marionette	INFO	Listening on port 65081
+Read port: 65081
+WebDriver BiDi listening on ws://127.0.0.1:65074
+1700324645925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65074/devtools/browser/702662bc-e627-4a00-b074-36a7dcaa309e
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1700324675763	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs, line 45: Script terminated by timeout at:
+s@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:45:254
+232381/iq<@https://s.pinimg.com/webapp/common-react-components-profile-ProfileDecider-ProfileDeciderContainer-f23a78bb2af71df3.mjs:21:58221
+iS@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:60901
+ov@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:72779
+of@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:71985
+s@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:122795
+lU@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:99072
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:98945
+lC@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:93984
+j@https://s.pinimg.com/webapp/65268-29d9d1cd8c5c603e.mjs:13:1365
+T@https://s.pinimg.com/webapp/65268-29d9d1cd8c5c603e.mjs:13:1894
+
+1700326165682	Marionette	INFO	Stopped listening on port 65081
+Dynamically enable window occlusion 1
+1700326267234	geckodriver	INFO	Listening on 127.0.0.1:49264
+1700326270264	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49265" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile0UKSpc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700326270731	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1700326270830	Marionette	INFO	Listening on port 49272
+WebDriver BiDi listening on ws://127.0.0.1:49265
+Read port: 49272
+1700326271153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49265/devtools/browser/38f98277-7e1d-48f3-8285-311eb81eb404
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+1700326287750	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1700326300785	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19131
+938085/D/</<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19213
+938085/g/<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16606
+t@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16477
+
+JavaScript warning: https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19131
+938085/D/</<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19213
+938085/g/<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16606
+t@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16477
+
+JavaScript warning: https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19131
+938085/D/</<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19213
+938085/g/<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16606
+t@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16477
+
+JavaScript warning: https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19131
+938085/D/</<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19213
+938085/g/<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16606
+t@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16477
+
+JavaScript warning: https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19131
+938085/D/</<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19213
+938085/g/<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16606
+t@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16477
+
+JavaScript warning: https://s.pinimg.com/webapp/75002-be5bf6bf209783a9.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/75002-be5bf6bf209783a9.mjs:1:15524
+iS@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:60901
+ov@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:72779
+s@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:120312
+lU@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:99072
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:98945
+lD@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:96033
+r6@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:44812
+364448/lk/<@https://s.pinimg.com/webapp/vendor-react-2de8e1a05e922560.mjs:25:93597
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs, line 1: Script terminated by timeout at:
+B@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19563
+j@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:19704
+a@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:20392
+938085/U/</<@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:20627
+t@https://s.pinimg.com/webapp/77263-ca3a8674b31f5aec.mjs:1:16477
+

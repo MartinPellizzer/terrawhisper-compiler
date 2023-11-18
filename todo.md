@@ -8,7 +8,7 @@
     - html to pin?
     - update csv with date and image number after pin
     - rich pins setup
-    - single benefit to pin
+    - single benefit to pin (complete)
 - about me page
 - homepage (copyright, articles at the bottom)
 
