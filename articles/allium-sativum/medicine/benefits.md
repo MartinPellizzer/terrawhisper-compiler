@@ -143,7 +143,7 @@ The antimicrobial properties of garlic make it effective in combating various he
 
 To harness the antimicrobial benefits of garlic, various parts of the plant can be utilized. The bulb, comprising cloves, is the primary source of bioactive compounds. Consumption of raw or freshly crushed garlic is recommended to maximize allicin content, as cooking can reduce its potency. Additionally, garlic extracts and supplements, standardized for allicin content, provide an alternative for those seeking a convenient and controlled form of consumption. Whether consumed raw, crushed, or in supplement form, garlic offers a versatile and potent means of harnessing its antimicrobial properties for health benefits.
 
-## How to properly use garlic to get it's benefits?
+## How to properly use garlic to get its benefits?
 
 
 There are many preparations and uses of Garlic, such as fresh cloves eaten raw or cooked to support heart health, lower blood pressure, and boost the immune system. Garlic oil is used topically for fungal infections. Aged garlic extract in supplement form aids cardiovascular health, reduces cholesterol, and acts as an antioxidant. Garlic powder or capsules assist in lowering cholesterol and blood pressure. Garlic paste is applied for its antibacterial properties, while garlic supplements or capsules are used to boost immunity and combat illness. Additionally, garlic supplements are popular for their potential anti-inflammatory effects and to improve overall health.

@@ -2049,7 +2049,7 @@ def generate_html(date, title, article, entity, attribute_lst):
     attributes_breadcrumbs.insert(0, entity)
     breadcrumbs_lst = generate_breadcrumbs(attributes_breadcrumbs)[:-1]
     breadcrumbs_lst.insert(0, f'<a href="/">Home</a>')
-    breadcrumbs_lst.append(f'<span>{attributes_breadcrumbs[-1].capitalize().replace("-", " ")}</span>')
+    breadcrumbs_lst.append(f'<span>{attributes_breadcrumbs[-1].title().replace("-", " ")}</span>')
 
     breadcrumbs_html = ' > '.join(breadcrumbs_lst)
 
@@ -2482,12 +2482,9 @@ for i, row in enumerate(articles_master_rows[1:]):
 
             article += title_section + section_1 + image_intro_line + image_section + section_rest
 
-        
-        
-
         content = get_content_2(f'database/articles/{entity}/medicine/benefits/preparations.md')
         if content.strip() != '':
-            article += f'## How to properly use {common_name} to get it\'s benefits?' + '\n\n'
+            article += f'## How to properly use {common_name} to get its benefits?' + '\n\n'
             article += content + '\n\n'
             tmp_rows = [r for r in articles_master_rows if r[articles_dict['entity']] == entity]
             tmp_rows = [r for r in tmp_rows if r[articles_dict['attribute_2']] == 'preparations']
@@ -2498,6 +2495,22 @@ for i, row in enumerate(articles_master_rows[1:]):
         content = get_content_2(f'database/articles/{entity}/medicine/benefits/side-effects.md')
         if content.strip() != '':
             article += f'### What health side effects can {common_name} have if used improperly?' + '\n\n'
+            tmp_rows = [r for r in articles_master_rows if r[articles_dict['entity']] == entity]
+            tmp_rows = [r for r in tmp_rows if r[articles_dict['attribute_2']] == 'side-effects']
+            if tmp_rows: 
+                if f'side effects associated with {common_name.lower()}' in content:
+                    content = content.replace(f'side effects associated with {common_name.lower()}', f'[side effects associated with {common_name.lower()}](/{entity}/{attribute_1.lower()}/side-effects.html)')
+                else:
+                    content = content.replace(f'side effects associated with {common_name.title()}', f'[side effects associated with {common_name.title()}](/{entity}/{attribute_1.lower()}/side-effects.html)')
+            article += content + '\n\n'
+
+            
+        content = get_content_2(f'database/articles/{entity}/medicine/effects/benefits.md')
+        if content.strip() != '':
+            article += f'## What are the benefits of {common_name} if used correctly?' + '\n\n'
+            tmp_rows = [r for r in articles_master_rows if r[articles_dict['entity']] == entity]
+            tmp_rows = [r for r in tmp_rows if r[articles_dict['attribute_2']] == 'benefits']
+            if tmp_rows: content = content.replace(f'health benefits of {common_name.title()}', f'[health benefits of {common_name.title()}](/{entity}/{attribute_1.lower()}/benefits.html)')
             article += content + '\n\n'
 
         content = get_content_2(f'database/articles/{entity}/medicine/benefits/precautions.md')
@@ -2553,6 +2566,70 @@ for i, row in enumerate(articles_master_rows[1:]):
             section_rest = '\n'.join(content_section.split('\n')[1:])  + '\n\n'
 
             article += title_section + section_1 + image_intro_line + image_section + section_rest
+
+
+    # medicine >> effects
+    elif 'medicine' in attribute_1.lower() and 'side-effects' in attribute_2.strip():
+        title = f'10 Possible Health Side Effects of {common_name.capitalize()} ({latin_name.capitalize()}): Reasons, Dosages, and Precautions'
+        article += f'# {title}\n\n'
+
+        attribute_lst = ['medicine', 'side-effects', 'overview']
+        image_title = f'{common_name.capitalize()}\'s Health Side Effects'
+        image_filepath = generate_featured_image(entity, attribute_lst, image_title)
+        try:
+            article += f'![{image_title}]({image_filepath} "{image_title}")\n\n'
+        except: 
+            print(f'WARNING: missing image ({entity})')
+
+        article += get_content('medicine/side-effects/_intro', f'database/articles/{entity}')
+        article += f'This article lists the possible health side effects of {common_name} and how to avoid them.' + '\n\n'
+
+
+
+        # list
+        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/side-effects.csv', entity)
+        rows_filtered = [f'{x[1]}' for x in rows[:10]]
+        images_filenames = os.listdir(f'G:/tw-images/website/{entity}/medicine/side-effects')
+        for i, item in enumerate(rows_filtered):
+            if i < 10: num = f'0{i}'
+            else: num = f'{i}'
+
+            title_section = f'## {i+1}. {item}\n\n'
+            item_formatted = item.replace(' ', '-').lower()
+            filename = f'{num}-{item_formatted}'
+            filepath = f'medicine/side-effects/{filename}'
+
+            content_section = get_content(f'{filepath}', f'database/articles/{entity}').strip()
+
+            # image            
+            image_filepath = generate_image_template_2(entity, common_name, images_filenames[i], 
+                ['medicine', 'side-effects', item], 'side-effects',
+            )
+            image_title = f'{common_name.capitalize()}\'s Medicinal Effects {images_filenames[i]}'
+            image_section = f'![{image_title}]({image_filepath} "{image_title}")\n\n'
+
+            item_words = item.split(' ')
+            item_no_first_word = ' '.join(item_words[1:])
+            image_intro_line = f'{common_name}\'s ability to {item_no_first_word.lower()} can aggravate many health conditions, like the ones shown in the illustration below.'  + '\n\n'
+
+            section_1 = content_section.split('\n')[0]  + '\n\n'
+            section_rest = '\n'.join(content_section.split('\n')[1:])  + '\n\n'
+
+            article += title_section + section_1 + image_intro_line + image_section + section_rest
+
+        content = get_content_2(f'database/articles/{entity}/medicine/side-effects/benefits.md')
+        if content.strip() != '':
+            article += f'## What are the benefits of {common_name} if used correctly?' + '\n\n'
+            tmp_rows = [r for r in articles_master_rows if r[articles_dict['entity']] == entity]
+            tmp_rows = [r for r in tmp_rows if r[articles_dict['attribute_2']] == 'benefits']
+            if tmp_rows: 
+                if f'health benefits of {common_name.lower()}' in content:
+                    content = content.replace(f'health benefits of {common_name.lower()}', f'[health benefits of {common_name.lower()}](/{entity}/{attribute_1.lower()}/benefits.html)')
+                else:
+                    content = content.replace(f'health benefits of {common_name.title()}', f'[health benefits of {common_name.title()}](/{entity}/{attribute_1.lower()}/benefits.html)')
+            article += content + '\n\n'
+  
+
 
   
     elif 'cuisine' in attribute_1.lower() and attribute_2.strip() == '':

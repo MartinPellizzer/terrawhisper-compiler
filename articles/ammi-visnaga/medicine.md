@@ -16,7 +16,7 @@ This article explains in details the medicinal properties of visnaga and how to 
 
 Visnaga (Ammi visnaga) presents a myriad of medicinal benefits supported by empirical evidence. Renowned for its bronchodilator properties, it aids in asthma management by dilating bronchial airways, facilitating easier breathing. Studies have shown its efficacy in reducing bronchospasms, with recommended doses ranging from 30 to 90 milligrams of khellin (derived from Visnaga) per day. Additionally, Visnaga exhibits anti-hypertensive effects, effectively lowering high blood pressure levels. Research indicates that consuming Visnaga extract or khellin in doses between 20 to 120 milligrams daily contributes to this blood pressure reduction.
 
-The following illustration shows the most important health benefits of visnaga.
+The following illustration shows the most important [health benefits of visnaga](/ammi-visnaga/medicine/benefits.html).
 
 
 

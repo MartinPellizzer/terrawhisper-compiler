@@ -140,7 +140,7 @@ Individuals suffering from chronic venous insufficiency, characterized by sympto
 
 To harness the edema-reducing benefits of Horse Chestnut, the seeds are the primary source of aescin. Commonly available in the form of standardized extracts, these preparations ensure consistent and effective aescin content. Typical doses range from 50 to 150 mg of aescin per day, administered in divided doses. Additionally, topical applications, such as gels or creams containing Horse Chestnut extract, can be employed for localized edema management. It's essential to note that these preparations should be used under appropriate medical guidance to optimize their therapeutic effects.
 
-## How to properly use horse chestnut to get it's benefits?
+## How to properly use horse chestnut to get its benefits?
 
 There are many preparations and uses of Horse Chestnut, such as capsules and extracts utilized primarily for treating chronic venous insufficiency (CVI) symptoms like leg swelling and varicose veins. Topical creams or gels containing horse chestnut are applied to alleviate symptoms of hemorrhoids and reduce inflammation. Tinctures and teas, albeit less common, may offer mild relief for circulatory issues or aid in reducing fever due to their astringent properties. However, caution is advised as raw or improperly processed horse chestnut seeds contain toxic compounds.
 

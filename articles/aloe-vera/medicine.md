@@ -16,7 +16,7 @@ This article explains in details the medicinal properties of aloe vera and how t
 
 Aloe Vera, scientifically acknowledged for its Aloe vera species, stands as a powerhouse of medicinal benefits with quantifiable impacts across diverse health domains. Renowned for its skin-soothing properties, aloe vera is a go-to remedy for sunburns, rashes, and wounds, providing tangible relief. Studies indicate that aloe vera's wound-healing potential stems from its ability to increase collagen production, with some reporting up to a 50% acceleration in tissue repair.
 
-The following illustration shows the most important health benefits of aloe vera.
+The following illustration shows the most important [health benefits of aloe vera](/aloe-vera/medicine/benefits.html).
 
 
 

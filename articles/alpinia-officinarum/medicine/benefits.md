@@ -144,7 +144,7 @@ Enhancing skin health with galangal proves beneficial for various dermatological
 
 Various parts of the galangal plant are utilized to harness its skin-enhancing benefits. The rhizome, or root, is the primary part used, containing the highest concentration of beneficial compounds. Extracts from galangal rhizomes are employed in skincare products like creams, serums, and masks to leverage their antioxidant, anti-inflammatory, and antimicrobial properties for improving skin health. Additionally, galangal extracts are sometimes included in dietary supplements or consumed orally to complement topical applications, offering holistic benefits for skin wellness.
 
-## How to properly use galangal to get it's benefits?
+## How to properly use galangal to get its benefits?
 
 There are many preparations and uses of Galangal, such as fresh galangal root, which is sliced or grated and utilized in Southeast Asian cuisines, imparting a citrusy, pine-like flavor to curries, soups, and stir-fries. Dried and powdered galangal is another common form, employed as a spice in seasoning blends, marinades, and rubs. Additionally, galangal is utilized in traditional medicine for its purported anti-inflammatory, digestive, and antimicrobial properties, often brewed into teas, tinctures, or incorporated into herbal remedies to alleviate gastrointestinal discomfort, sore throat, and promote overall wellness.
 

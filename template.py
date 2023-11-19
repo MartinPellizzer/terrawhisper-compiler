@@ -1372,7 +1372,7 @@ def medicine_benefits_2():
 
         Write 3 paragraphs about the following health benefit of {common_name}: {item}.
 
-        In paragraph 1, explain what "{item}" is. Define it in detail. Then, explain what are the constituents of this plant that give this specific benefit. Don't include constituents that don't specifically contribute to this health benefit. Include numbers and data about the constituents, like their quantities.
+        In paragraph 1, explain what {item} in the context of {common_name} means. Define it in detail. Then, explain what are the constituents of this plant that give this specific benefit. Don't include constituents that don't specifically contribute to this health benefit. Include numbers and data about the constituents, like their quantities.
         In paragraph 2, write what health conditions this benefit helps.
         In paragraph 3, write what parts of this plant are used for this benefit.
 
@@ -1381,7 +1381,7 @@ def medicine_benefits_2():
         Don't give titles to paragraphs.
 
         
-        Start the first paragraph with the following sentence: {common_name} ability to aids respiratory health refers . 
+        Start the first paragraph with the following sentence: {common_name} ability to {item} refers . 
         Also, correct this sentence if it has grammatical errors.
 
         --------------------------------------------------------------------
@@ -1528,6 +1528,77 @@ def medicine_preparations():
         ''')
 
 
+def medicine_effects():
+    
+    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/effects.csv', entity)
+    rows = [f'{x[1]}' for x in rows[:10]]
+    image = ''
+    for i, item in enumerate(rows):
+        image += f'''{i}.
+
+        Here's a health side effect of {common_name} ({latin_name}): {item}.
+
+        Give me a list of 10 health conditions that this side effect can aggravate.
+        Only give me health conditions related specifically to this side effect, don't give me other general conditions.
+        Give me only the health conditions, don't add descriptions.
+        Order the list from the most frequent health condition to the least frequent.
+
+        >>>>
+
+        list_add_effects.py {entity} {item.lower().replace(' ', '-')} image
+
+        --------------------------------------------------------------------
+        
+        '''
+
+    # Start the first paragraph with the following sentence: {item.lower()} is . 
+    # Also, correct this sentence if it has grammatical errors.
+    text = ''
+    for i, item in enumerate(rows):
+        text += f'''{i}.
+
+        Write a list of 3 paragraphs about the following health side effect that {common_name} ({latin_name}) can give if used improperly: {item.lower()}.
+        
+        In paragraph 1, write a detailed definition of "{common_name} {item}". Then, write what are the main constituents of Yarrow that can be responsible for this side effect.
+        In paragraph 2, write what health conditions this side effect can aggravate and who are the people most sensitive to it. Give many example and, if possible, give data.
+        In paragraph 3, write what are the right preparations and dosage to avoid this side effect. Give numbers and data.
+
+        Include as many details, data, and numbers as possible.
+        Use the metric system as the primary measuring system.
+        Don't repeat similar information between paragraphs.
+        Don't give titles to paragraphs.
+        
+        Start the first paragraph with the following sentence: {common_name} {item.lower()} . 
+        Also, correct this sentence if it has grammatical errors.
+
+        --------------------------------------------------------------------
+        
+        '''
+
+
+    print(f'''PREPARATIONS
+
+        {text}
+        
+        {image}
+
+
+
+        ''')
+
+    print(f'''BENEFITS
+        
+        Write a paragraph about the most important health benefits of {common_name} ({latin_name}).
+        Write as many details as possible in as few words as possible.
+
+        Start the paragraph with the following words:
+
+        There are many health benefits of {common_name}, such as
+
+        ''')
+
+
+
 def cuisine():
 
     print(f'''CULINARY USES
@@ -1665,6 +1736,7 @@ elif attribute_1 == 'botany': botany()
 elif attribute_1 == 'medicine': medicine()
 elif attribute_1 == 'medicine-benefits': medicine_benefits_2()
 elif attribute_1 == 'medicine-preparations': medicine_preparations()
+elif attribute_1 == 'medicine-effects': medicine_effects()
 elif attribute_1 == 'cuisine': cuisine()
 elif attribute_1 == 'horticultural': horticultural()
 elif attribute_1 == 'botany': botany()

@@ -136,3 +136,14 @@ elif folder_type == 'website':
                     shutil.copy2(f'{start_folder}/{entity_folder}/medicine/preparations/{image_path}', f'{website_img_path}/{image_path}')
         except:
             pass
+
+        try:
+            for image_path in os.listdir(f'{start_folder}/{entity_folder}/medicine/side-effects'):
+                if image_path.endswith('.jpg'):
+                    if image_path[0].isdigit(): continue
+                    print(image_path)
+                    
+                    website_img_path = 'articles-images'
+                    shutil.copy2(f'{start_folder}/{entity_folder}/medicine/side-effects/{image_path}', f'{website_img_path}/{image_path}')
+        except:
+            pass

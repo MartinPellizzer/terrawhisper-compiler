@@ -143,7 +143,7 @@ This health benefit of Dong Quai is particularly helpful for individuals experie
 
 To harness the digestive benefits of Dong Quai, primarily the root of the plant is utilized. The root contains the highest concentration of active compounds, including coumarins and ferulic acid. Whether consumed as Dong Quai Tea, in capsules, or as a powdered form, the root extracts are commonly used to address digestive problems and promote gastrointestinal wellness. Concentrated extracts, tinctures, or teas made from Dong Quai root are often administered in measured doses to alleviate digestive discomfort and improve overall digestive function.
 
-## How to properly use dong quai to get it's benefits?
+## How to properly use dong quai to get its benefits?
 
 
 There are many preparations and uses of Dong Quai, such as Dong Quai Tea, frequently employed to regulate menstrual cycles and alleviate menopausal symptoms, backed by several studies showing its efficacy. Dong Quai Tincture, a concentrated alcohol extract, aids in hormonal balance and pain relief, often used due to its convenience and quick absorption. 
