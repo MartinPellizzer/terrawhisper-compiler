@@ -16,7 +16,7 @@ Sweet flag dried root powder is a finely ground form of the root of the Acorus c
 
 The following illustration give a quick overview about the health benefits of Sweet Flag Dried Root Powder, how to prepare it and what precautions to take.
 
-![Sweet flag's Medicinal Preparations 0000.jpg](/images/acorus-calamus-medicine-preparations-sweet-flag-dried-root-powder.jpg "Sweet flag's Medicinal Preparations 0000.jpg")
+![Sweet Flag Dried Root Powder](/images/acorus-calamus-medicine-preparations-sweet-flag-dried-root-powder.jpg "Sweet Flag Dried Root Powder")
 
 
 To prepare sweet flag dried root powder, start by thoroughly washing and drying the roots. Once dried, grind the roots into a fine powder using a mortar and pestle or a grinder. A typical dosage involves taking 1-3 grams of the powder, mixed with water or honey, up to three times a day, preferably before meals. The preparation process usually takes about 15-20 minutes, depending on the quantity being processed and the equipment used.
@@ -29,7 +29,7 @@ Sweet flag infused tea is a herbal beverage made by steeping dried sweet flag (A
 
 The following illustration give a quick overview about the health benefits of Sweet Flag Infused Tea, how to prepare it and what precautions to take.
 
-![Sweet flag's Medicinal Preparations 0001.jpg](/images/acorus-calamus-medicine-preparations-sweet-flag-infused-tea.jpg "Sweet flag's Medicinal Preparations 0001.jpg")
+![Sweet Flag Infused Tea](/images/acorus-calamus-medicine-preparations-sweet-flag-infused-tea.jpg "Sweet Flag Infused Tea")
 
 
 To prepare sweet flag infused tea, take 1-2 teaspoons of dried sweet flag rhizomes and steep them in 250 milliliters of hot water for approximately 10-15 minutes. Strain the mixture before consumption. Adjust the quantity of rhizomes and steeping time based on personal preference and desired strength of the infusion. Optionally, adding honey or lemon can enhance the flavor.
@@ -42,7 +42,7 @@ Sweet flag tincture is an alcoholic extract made from the rhizomes of the Acorus
 
 The following illustration give a quick overview about the health benefits of Sweet Flag Tincture, how to prepare it and what precautions to take.
 
-![Sweet flag's Medicinal Preparations 0002.jpg](/images/acorus-calamus-medicine-preparations-sweet-flag-tincture.jpg "Sweet flag's Medicinal Preparations 0002.jpg")
+![Sweet Flag Tincture](/images/acorus-calamus-medicine-preparations-sweet-flag-tincture.jpg "Sweet Flag Tincture")
 
 
 To prepare sweet flag tincture, finely chop 50 grams of dried Acorus calamus rhizomes and place them in a glass jar. Pour 500 milliliters of 70% ethanol or vodka over the rhizomes, ensuring they're fully submerged. Seal the jar and store it in a dark, cool place for about 4 to 6 weeks, shaking it occasionally. After this period, strain the mixture through a fine cloth or filter paper, and the resulting liquid is the sweet flag tincture.
@@ -55,7 +55,7 @@ Sweet flag capsules or tablets are medicinal forms of Acorus calamus, a perennia
 
 The following illustration give a quick overview about the health benefits of Sweet Flag Capsules or Tablets, how to prepare it and what precautions to take.
 
-![Sweet flag's Medicinal Preparations 0003.jpg](/images/acorus-calamus-medicine-preparations-sweet-flag-capsules-or-tablets.jpg "Sweet flag's Medicinal Preparations 0003.jpg")
+![Sweet Flag Capsules Or Tablets](/images/acorus-calamus-medicine-preparations-sweet-flag-capsules-or-tablets.jpg "Sweet Flag Capsules Or Tablets")
 
 
 To prepare sweet flag capsules or tablets, the powdered form of the herb is encapsulated or compressed into tablet form using pharmaceutical machinery. The dosage forms may vary, with typical concentrations ranging from 200 to 500 milligrams per capsule or tablet. The preparation process involves precise measurements of the powdered extract, encapsulation or compression into suitable units, and adherence to quality control standards. It usually takes around 2 to 3 hours to prepare a batch of several hundred capsules or tablets.
@@ -68,7 +68,7 @@ Sweet flag topical ointment is a herbal preparation derived from the rhizomes of
 
 The following illustration give a quick overview about the health benefits of Sweet Flag Topical Ointment, how to prepare it and what precautions to take.
 
-![Sweet flag's Medicinal Preparations 0004.jpg](/images/acorus-calamus-medicine-preparations-sweet-flag-topical-ointment.jpg "Sweet flag's Medicinal Preparations 0004.jpg")
+![Sweet Flag Topical Ointment](/images/acorus-calamus-medicine-preparations-sweet-flag-topical-ointment.jpg "Sweet Flag Topical Ointment")
 
 
 To prepare sweet flag topical ointment, finely grind 50 grams of dried sweet flag rhizomes and mix them thoroughly with 200 grams of melted beeswax in a heat-resistant container. Gradually add 300 milliliters of coconut oil while stirring continuously over low heat for approximately 20 minutes until the mixture attains a homogeneous consistency. Remove from heat and let it cool before transferring it into a sterilized jar. Store it in a cool, dark place for maximum efficacy.
@@ -81,7 +81,7 @@ Sweet flag aromatic oil is an essential oil derived from the Acorus calamus plan
 
 The following illustration give a quick overview about the health benefits of Sweet Flag Aromatic Oil, how to prepare it and what precautions to take.
 
-![Sweet flag's Medicinal Preparations 0005.jpg](/images/acorus-calamus-medicine-preparations-sweet-flag-aromatic-oil.jpg "Sweet flag's Medicinal Preparations 0005.jpg")
+![Sweet Flag Aromatic Oil](/images/acorus-calamus-medicine-preparations-sweet-flag-aromatic-oil.jpg "Sweet Flag Aromatic Oil")
 
 
 To prepare sweet flag aromatic oil, finely chop 100 grams of fresh sweet flag rhizomes and place them in a distillation apparatus with 500 milliliters of water. The mixture should be heated for approximately 1 to 2 hours, allowing the steam to carry the essential oil from the rhizomes. After condensation, collect the oil from the distillate. The yielded quantity may vary based on the quality and quantity of the starting material.
@@ -94,7 +94,7 @@ Sweet flag decoction is a concentrated liquid preparation made by boiling sliced
 
 The following illustration give a quick overview about the health benefits of Sweet Flag Decoction, how to prepare it and what precautions to take.
 
-![Sweet flag's Medicinal Preparations 0006.jpg](/images/acorus-calamus-medicine-preparations-sweet-flag-decoction.jpg "Sweet flag's Medicinal Preparations 0006.jpg")
+![Sweet Flag Decoction](/images/acorus-calamus-medicine-preparations-sweet-flag-decoction.jpg "Sweet Flag Decoction")
 
 
 To prepare sweet flag decoction, take 10 grams of dried Acorus calamus rhizomes and boil them in 500 milliliters of water for about 15-20 minutes. After boiling, strain the mixture and let it cool before consumption. Adjust the quantity of water or rhizomes for desired concentration or potency. This decoction can be consumed up to two times a day.
@@ -107,7 +107,7 @@ Sweet flag herbal syrup is a preparation made from the roots of Acorus calamus, 
 
 The following illustration give a quick overview about the health benefits of Sweet Flag Herbal Syrup, how to prepare it and what precautions to take.
 
-![Sweet flag's Medicinal Preparations 0007.jpg](/images/acorus-calamus-medicine-preparations-sweet-flag-herbal-syrup.jpg "Sweet flag's Medicinal Preparations 0007.jpg")
+![Sweet Flag Herbal Syrup](/images/acorus-calamus-medicine-preparations-sweet-flag-herbal-syrup.jpg "Sweet Flag Herbal Syrup")
 
 
 To prepare sweet flag herbal syrup, you'll need approximately 50 grams of dried sweet flag roots or 100 grams of fresh roots, sliced or chopped. Combine these roots with 500 milliliters of water in a saucepan and bring the mixture to a boil. Once boiling, reduce the heat and let it simmer for around 20-30 minutes to extract the beneficial compounds. Afterward, strain the liquid to remove the roots, returning the liquid to the saucepan. Add around 400 grams of sugar to the liquid and continue heating it until the sugar completely dissolves, forming a syrupy consistency. Allow the syrup to cool before storing it in a clean, airtight container.
@@ -120,7 +120,7 @@ Sweet flag chewing sticks are slender sticks made from the rhizomes or roots of 
 
 The following illustration give a quick overview about the health benefits of Sweet Flag Chewing Sticks, how to prepare it and what precautions to take.
 
-![Sweet flag's Medicinal Preparations 0008.jpg](/images/acorus-calamus-medicine-preparations-sweet-flag-chewing-sticks.jpg "Sweet flag's Medicinal Preparations 0008.jpg")
+![Sweet Flag Chewing Sticks](/images/acorus-calamus-medicine-preparations-sweet-flag-chewing-sticks.jpg "Sweet Flag Chewing Sticks")
 
 
 To prepare sweet flag chewing sticks, start by harvesting fresh rhizomes or roots of the Acorus calamus plant. Clean them thoroughly to remove dirt and debris. Then, cut the rhizomes into stick-like pieces of around 10-15 centimeters in length and approximately 0.5-1 centimeter in diameter. These sticks can be air-dried or sun-dried for approximately 5-7 days until they become firm and brittle. Once dried, store the sticks in an airtight container away from moisture to maintain their quality and efficacy.
@@ -133,7 +133,7 @@ Sweet flag foot soak is a herbal preparation made by infusing Acorus calamus roo
 
 The following illustration give a quick overview about the health benefits of Sweet Flag Foot Soak, how to prepare it and what precautions to take.
 
-![Sweet flag's Medicinal Preparations 0009.jpg](/images/acorus-calamus-medicine-preparations-sweet-flag-foot-soak.jpg "Sweet flag's Medicinal Preparations 0009.jpg")
+![Sweet Flag Foot Soak](/images/acorus-calamus-medicine-preparations-sweet-flag-foot-soak.jpg "Sweet Flag Foot Soak")
 
 
 To prepare a sweet flag foot soak, start by taking around 50 grams of dried sweet flag root and boiling it in two liters of water for approximately 15-20 minutes. After boiling, let the solution cool to a comfortably warm temperature suitable for soaking feet. Strain out the roots and pour the infused liquid into a basin or tub large enough for your feet. Soak your feet in the solution for 15-30 minutes, allowing the herbal properties to be absorbed through the skin. For added relaxation, consider incorporating essential oils like lavender or tea tree oil into the soak.

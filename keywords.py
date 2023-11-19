@@ -1,4 +1,5 @@
 import sys
+import shutil
 
 # print('params (ACTION, ENTITY, OUT_FILENAME, WORD)')
 
@@ -87,8 +88,115 @@ elif action == 'group':
 
     pass
 
+elif action == 'groups-preparations':
+    shutil.copy2(f'keywords/{entity}/master.md', f'keywords/{entity}/master_filtered.md')
+
+    with open(f'keywords/{entity}/master_group.md', 'w', encoding='utf-8') as f:
+        f.write('')
+
+    with open(f'keywords/groups-preparations.md', encoding='utf-8') as f:
+        groups = f.readlines()
+
+    for group in groups:
+        if group.strip() == '': break
+        with open(f'keywords/{entity}/master_filtered.md', encoding='utf-8') as f:
+            keywords = f.readlines()
+
+        group = group.strip()
+        keep_lst = []
+        move_lst = []
+        for keyword in keywords:
+            keyword = keyword.strip()
+            if group in keyword:
+                move_lst.append(keyword)
+            else:
+                keep_lst.append(keyword)
+
+        if move_lst:
+
+            with open(f'keywords/{entity}/master_filtered.md', 'w', encoding='utf-8') as f:
+                for item in keep_lst:
+                    f.write(f'{item}\n')
+                    
+            with open(f'keywords/{entity}/master_group.md', 'a', encoding='utf-8') as f:
+                f.write(f'{group}\n')
+                for item in move_lst:
+                    f.write(f'    {item}\n')
+                f.write(f'\n')
+
+            print(len(keep_lst))
+
 
 elif action == 'group-auto':
+
+    with open(f'keywords/groups.md', encoding='utf-8') as f:
+        groups = f.readlines()
+
+    for group in groups:
+        with open(f'keywords/{entity}/master_filtered.md', encoding='utf-8') as f:
+            keywords = f.readlines()
+
+        group = group.strip()
+        keep_lst = []
+        move_lst = []
+        for keyword in keywords:
+            keyword = keyword.strip()
+            if group in keyword:
+                move_lst.append(keyword)
+            else:
+                keep_lst.append(keyword)
+
+        if move_lst:
+
+            with open(f'keywords/{entity}/master_filtered.md', 'w', encoding='utf-8') as f:
+                for item in keep_lst:
+                    f.write(f'{item}\n')
+                    
+            with open(f'keywords/{entity}/master_group.md', 'a', encoding='utf-8') as f:
+                f.write(f'{group}\n')
+                for item in move_lst:
+                    f.write(f'    {item}\n')
+                f.write(f'\n')
+
+            print(len(keep_lst))
+
+
+elif action == 'group-auto-test':
+
+    with open(f'keywords/group.md', encoding='utf-8') as f:
+        groups = f.readlines()
+
+    for group in reversed(groups):
+        if group.strip() == '': continue
+        with open(f'keywords/{entity}/master_filtered.md', encoding='utf-8') as f:
+            keywords = f.readlines()
+
+        group = group.strip()
+        keep_lst = []
+        move_lst = []
+        for keyword in keywords:
+            keyword = keyword.strip()
+            if group in keyword:
+                move_lst.append(keyword)
+            else:
+                keep_lst.append(keyword)
+
+        if move_lst:
+            with open(f'keywords/{entity}/master_group.md', 'r', encoding='utf-8') as f:
+                content = f.read()
+            print(content)
+                    
+            with open(f'keywords/{entity}/master_group.md', 'w', encoding='utf-8') as f:
+                f.write(f'{group}\n')
+                for item in move_lst:
+                    f.write(f'    {item}\n')
+                f.write(f'\n')
+                f.write(content)
+
+            print(len(keep_lst))
+
+
+elif action == 'group-auto-reverse':
 
     with open(f'keywords/groups.md', encoding='utf-8') as f:
         groups = f.readlines()

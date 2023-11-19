@@ -2470,7 +2470,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 image_filepath = generate_image_template_medicine_benefits(entity, common_name, images_filenames[i], item,)
             except:
                 image_filepath = generate_image_template_medicine_benefits_2(entity, common_name, images_filenames[i], item,)
-            image_title = f'{common_name.capitalize()}\'s Medicinal Benefits {images_filenames[i]}'
+            image_title = f'{common_name.title()} {item.title()}'
             image_section = f'![{image_title}]({image_filepath} "{image_title}")\n\n'
 
             item_words = item.split(' ')
@@ -2555,7 +2555,7 @@ for i, row in enumerate(articles_master_rows[1:]):
             image_filepath = generate_image_template_2(entity, common_name, images_filenames[i], 
                 ['medicine', 'preparations', item], 'preparations',
             )
-            image_title = f'{common_name.capitalize()}\'s Medicinal Preparations {images_filenames[i]}'
+            image_title = f'{item.title()}'
             image_section = f'![{image_title}]({image_filepath} "{image_title}")\n\n'
 
             item_words = item.split(' ')
@@ -2605,7 +2605,7 @@ for i, row in enumerate(articles_master_rows[1:]):
             image_filepath = generate_image_template_2(entity, common_name, images_filenames[i], 
                 ['medicine', 'side-effects', item], 'side-effects',
             )
-            image_title = f'{common_name.capitalize()}\'s Medicinal Effects {images_filenames[i]}'
+            image_title = f'{common_name.title()} {item.title()}'
             image_section = f'![{image_title}]({image_filepath} "{image_title}")\n\n'
 
             item_words = item.split(' ')

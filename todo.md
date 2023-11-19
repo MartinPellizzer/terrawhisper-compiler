@@ -1,4 +1,3 @@
-- write ammi-visnage benefits
 - use only one function to generate images (fix old posts lists benefits)
 - write secondary content to medicine-preparations
 - redo the health benefits of previous plants again?

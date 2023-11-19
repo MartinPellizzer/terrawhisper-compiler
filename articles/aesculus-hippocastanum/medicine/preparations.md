@@ -17,7 +17,7 @@ Horse chestnut dried powder is derived from the seeds of the Aesculus hippocasta
 
 The following illustration give a quick overview about the health benefits of Horse Chestnut Dried Powder, how to prepare it and what precautions to take.
 
-![Horse chestnut's Medicinal Preparations 0000.jpg](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-dried-powder.jpg "Horse chestnut's Medicinal Preparations 0000.jpg")
+![Horse Chestnut Dried Powder](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-dried-powder.jpg "Horse Chestnut Dried Powder")
 
 
 To prepare horse chestnut dried powder, start by collecting horse chestnut seeds and removing the outer husks. Then, dry the seeds thoroughly in a well-ventilated area for about two to three weeks until they are completely dried. Once dried, grind the seeds into a fine powder using a grinder or food processor. Store the resulting powder in an airtight container away from moisture and sunlight. For an average batch, processing around 100 grams of dried horse chestnut seeds yields approximately 60-70 grams of the final powder. This powder can be used in various forms such as capsules, teas, or tinctures.
@@ -30,7 +30,7 @@ Horse chestnut tincture is an herbal extract made from the seeds of the Aesculus
 
 The following illustration give a quick overview about the health benefits of Horse Chestnut Tincture, how to prepare it and what precautions to take.
 
-![Horse chestnut's Medicinal Preparations 0001.jpg](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-tincture.jpg "Horse chestnut's Medicinal Preparations 0001.jpg")
+![Horse Chestnut Tincture](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-tincture.jpg "Horse Chestnut Tincture")
 
 
 To prepare horse chestnut tincture, finely chop or crush 50 grams of horse chestnut seeds. Place the crushed seeds in a glass jar and cover them with 250 milliliters of high-proof alcohol, such as ethanol or vodka, ensuring the seeds are fully submerged. Seal the jar tightly and store it in a dark, cool place for about 4 to 6 weeks, shaking it daily to facilitate extraction. After the allotted time, strain the mixture using a fine mesh sieve or cheesecloth, extracting the liquid. Finally, store the resulting tincture in a dark glass bottle in a cool place for long-term use.
@@ -43,7 +43,7 @@ Horse chestnut decoction is a preparation made by boiling crushed horse chestnut
 
 The following illustration give a quick overview about the health benefits of Horse Chestnut Decoction, how to prepare it and what precautions to take.
 
-![Horse chestnut's Medicinal Preparations 0002.jpg](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-decoction.jpg "Horse chestnut's Medicinal Preparations 0002.jpg")
+![Horse Chestnut Decoction](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-decoction.jpg "Horse Chestnut Decoction")
 
 
 To prepare horse chestnut decoction, typically, 50 grams of crushed horse chestnut seeds or bark are added to 1 liter of water in a pot. The mixture is brought to a boil and then simmered for approximately 20-30 minutes. Afterward, the decoction is strained to remove the plant material, yielding the liquid extract that can be consumed. The dosage often ranges from 100-150 milliliters taken two to three times daily. It's essential to consult a healthcare professional for accurate dosing and preparation instructions, as variations in potency can occur based on the specific batch of horse chestnut used.
@@ -56,7 +56,7 @@ Horse chestnut salve is a topical ointment prepared from the seeds or extract of
 
 The following illustration give a quick overview about the health benefits of Horse Chestnut Salve, how to prepare it and what precautions to take.
 
-![Horse chestnut's Medicinal Preparations 0003.jpg](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-salve.jpg "Horse chestnut's Medicinal Preparations 0003.jpg")
+![Horse Chestnut Salve](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-salve.jpg "Horse Chestnut Salve")
 
 
 To prepare horse chestnut salve, start by finely grinding 50 grams of dried horse chestnut seeds. Combine these with 200 milliliters of a neutral carrier oil, such as olive oil or coconut oil, in a heat-resistant container. Simmer the mixture over low heat for approximately 1-2 hours, ensuring the oil doesn't exceed 60°C (140°F). Afterward, strain the mixture through cheesecloth or a fine-mesh sieve to remove the solid particles. Add 20 grams of beeswax to the infused oil and gently heat until the beeswax completely dissolves. Once melted, remove from heat and let it cool slightly before pouring it into clean, sterilized jars. Allow the salve to solidify at room temperature for a few hours before sealing the jars.
@@ -69,7 +69,7 @@ Horse chestnut tea infusion is a preparation made by steeping dried horse chestn
 
 The following illustration give a quick overview about the health benefits of Horse Chestnut Tea Infusion, how to prepare it and what precautions to take.
 
-![Horse chestnut's Medicinal Preparations 0004.jpg](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-tea-infusion.jpg "Horse chestnut's Medicinal Preparations 0004.jpg")
+![Horse Chestnut Tea Infusion](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-tea-infusion.jpg "Horse Chestnut Tea Infusion")
 
 
 To prepare horse chestnut tea infusion, start by finely chopping or crushing 2 grams of dried horse chestnut seeds or bark. Place the crushed pieces in a teapot or a heat-resistant container and pour 200 milliliters of boiling water over them. Cover the container and let the mixture steep for about 10-15 minutes to extract the beneficial compounds effectively. Strain the infusion using a fine-mesh sieve or a tea strainer before drinking. For a stronger infusion, the quantity of horse chestnut seeds or bark can be increased, but it's crucial not to exceed recommended doses due to the presence of toxic compounds in higher concentrations.
@@ -82,7 +82,7 @@ The horse chestnut capsule is a dietary supplement derived from the seeds of the
 
 The following illustration give a quick overview about the health benefits of Horse Chestnut Capsule, how to prepare it and what precautions to take.
 
-![Horse chestnut's Medicinal Preparations 0005.jpg](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-capsule.jpg "Horse chestnut's Medicinal Preparations 0005.jpg")
+![Horse Chestnut Capsule](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-capsule.jpg "Horse Chestnut Capsule")
 
 
 To prepare horse chestnut capsules, one can follow specific guidelines. Generally, a typical dosage might range from 100 to 300 milligrams of standardized horse chestnut seed extract taken orally two to three times a day with meals. However, it's crucial to consult a healthcare professional for personalized recommendations. Capsules are commonly available in standardized doses, such as 50 milligrams or 100 milligrams. They should be taken with water during meals to enhance absorption and reduce the risk of stomach irritation. Consistency in dosage and timing is vital for optimal effectiveness.
@@ -95,7 +95,7 @@ Horse chestnut oil infusion is a preparation derived from the seeds of the Aescu
 
 The following illustration give a quick overview about the health benefits of Horse Chestnut Oil Infusion, how to prepare it and what precautions to take.
 
-![Horse chestnut's Medicinal Preparations 0006.jpg](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-oil-infusion.jpg "Horse chestnut's Medicinal Preparations 0006.jpg")
+![Horse Chestnut Oil Infusion](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-oil-infusion.jpg "Horse Chestnut Oil Infusion")
 
 
 To prepare horse chestnut oil infusion, start with approximately 50 grams of dried horse chestnut seeds and 250 milliliters of a carrier oil. Crush or finely chop the seeds and place them in a glass jar. Add the carrier oil, ensuring the seeds are entirely submerged. Seal the jar tightly and place it in a warm, sunny spot for 4-6 weeks, shaking it gently every day to facilitate the infusion process. After the allotted time, strain the oil using cheesecloth or a fine sieve to remove the seeds. Store the infused oil in a dark glass bottle away from direct light and heat.
@@ -108,7 +108,7 @@ Horse chestnut cold pressed oil is extracted from the seeds of the Aesculus hipp
 
 The following illustration give a quick overview about the health benefits of Horse Chestnut Cold Pressed Oil, how to prepare it and what precautions to take.
 
-![Horse chestnut's Medicinal Preparations 0007.jpg](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-cold-pressed-oil.jpg "Horse chestnut's Medicinal Preparations 0007.jpg")
+![Horse Chestnut Cold Pressed Oil](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-cold-pressed-oil.jpg "Horse Chestnut Cold Pressed Oil")
 
 
 To prepare horse chestnut cold pressed oil, begin by collecting mature horse chestnut seeds. Clean and dry the seeds thoroughly to remove any impurities. Crush or grind the seeds to a consistent texture. Next, place the seeds in a cold press machine, applying gentle pressure to extract the oil. The pressing process typically takes around 30-40 minutes, yielding approximately 30-40% oil from the seeds. After extraction, filter the oil to remove any remaining debris and store it in airtight, opaque containers away from light and heat to maintain its quality.
@@ -121,7 +121,7 @@ Horse chestnut poultice is a topical application made by crushing or grinding ho
 
 The following illustration give a quick overview about the health benefits of Horse Chestnut Poultice, how to prepare it and what precautions to take.
 
-![Horse chestnut's Medicinal Preparations 0008.jpg](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-poultice.jpg "Horse chestnut's Medicinal Preparations 0008.jpg")
+![Horse Chestnut Poultice](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-poultice.jpg "Horse Chestnut Poultice")
 
 
 To prepare a horse chestnut poultice, start by finely grinding 10-20 grams of dried horse chestnut seeds into a powder. Mix this powder with enough water or oil (approximately 30-60 milliliters) to form a thick paste. Allow the mixture to sit for about 10-15 minutes to ensure the active compounds are released. Apply this paste directly onto the affected area, covering it with a clean cloth or bandage. Leave the poultice on for 20-30 minutes, then remove and rinse the area thoroughly with water.
@@ -134,7 +134,7 @@ Horse chestnut vinegar infusion is a concoction made by steeping horse chestnut 
 
 The following illustration give a quick overview about the health benefits of Horse Chestnut Vinegar Infusion, how to prepare it and what precautions to take.
 
-![Horse chestnut's Medicinal Preparations 0009.jpg](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-vinegar-infusion.jpg "Horse chestnut's Medicinal Preparations 0009.jpg")
+![Horse Chestnut Vinegar Infusion](/images/aesculus-hippocastanum-medicine-preparations-horse-chestnut-vinegar-infusion.jpg "Horse Chestnut Vinegar Infusion")
 
 
 To prepare horse chestnut vinegar infusion, start by finely chopping 50 grams of dried horse chestnut seeds. Place these seeds in a glass jar and cover them with 500 milliliters of apple cider vinegar. Seal the jar tightly and store it in a cool, dark place for about 4 weeks. Shake the jar gently every day to ensure proper infusion. After the infusion period, strain the mixture using a fine mesh strainer or cheesecloth to separate the liquid from the solids. Store the resulting infusion in a clean glass container with an airtight lid for future use.

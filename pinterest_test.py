@@ -82,7 +82,7 @@ def pin_generate_2(entity, common_name, filepath, attribute, subtitle):
     print(img.size)
 
 
-def pin_generate_3(entity, common_name, filepath, attribute, text):
+def pin_generate_3(entity, common_name, filepath, attribute, text, filename):
     img_w, img_h = 600, 900
 
     img_background = Image.open(filepath)
@@ -97,19 +97,24 @@ def pin_generate_3(entity, common_name, filepath, attribute, text):
     draw = ImageDraw.Draw(img)
 
     font_size = 48
-    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
+    px = 30
     current_y = 0
 
-    words = text.split(' ')
-    lines = []
-    curr_line = ''
-    for word in words:
-        if font.getbbox(curr_line)[2] + font.getbbox(word)[2] < img_w:
-            curr_line += word + ' '
-        else:
-            lines.append(curr_line.strip())
-            curr_line = word + ' '
-    lines.append(curr_line)
+    for i in range(10):
+        font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
+        words = text.split(' ')
+        lines = []
+        curr_line = ''
+        for word in words:
+            if font.getbbox(curr_line)[2] + font.getbbox(word)[2] < img_w - (px * 2):
+                curr_line += word + ' '
+            else:
+                lines.append(curr_line.strip())
+                curr_line = word + ' '
+        lines.append(curr_line)
+        if len(lines) < 3:
+            break
+        font_size -= 2
 
     line_h = font.getbbox('y')[3]
     lines_h = line_h * len(lines)
@@ -120,21 +125,8 @@ def pin_generate_3(entity, common_name, filepath, attribute, text):
         line_w = font.getbbox(line)[2]
         draw.text((img_w//2 - line_w//2, current_y + line_h * i), line, '#ffffff', font=font)
 
-
-
     print(lines)
 
-
-    # font_size = 48
-    # line_height = 1.0
-    # font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
-    # line = text
-    # print(line)
-    # line_w = font.getbbox(line)[2]
-    # line_h = font.getbbox('y')[3]
-    # draw.text((0, current_y), line, '#ffffff', font=font)
-    # current_y += line_h * line_height
-    
     font_size = 18
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
     line = 'TerraWhisper.com'
@@ -148,7 +140,7 @@ def pin_generate_3(entity, common_name, filepath, attribute, text):
     print(img.size)
 
     common_name_fotmatted = common_name.lower().replace(' ', '-')
-    img.save(f'pinterest/test/{common_name_fotmatted}-{text.lower().replace(" ", "-")}.jpg', format='JPEG', subsampling=0, quality=100)
+    img.save(f'pinterest/test/{common_name_fotmatted}-{filename.lower().replace(" ", "-")}.jpg', format='JPEG', subsampling=0, quality=100)
 
 
 
@@ -158,6 +150,9 @@ def pin_generate_3(entity, common_name, filepath, attribute, text):
 #     f'G:\\tw-images\\pin\\achillea-millefolium\\medicine-benefits\\0000.jpg', 
 #     'medicinal-benefits',
 #     '10 best health benefits of this plant')
+
+for f in os.listdir('pinterest/test'):
+    os.remove(f'pinterest/test/{f}')
 
 
 articles_master_rows = utils.csv_to_llst('database/tables/articles.csv')
@@ -182,17 +177,21 @@ for i, row in enumerate(articles_master_rows[1:]):
     common_names = utils.csv_get_rows_by_entity('database/tables/botany/common-names.csv', entity)
     common_name = common_names[0][1].lower()
 
-
     if attribute_2 == 'benefits':
         rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
         rows_filtered = [f'{x[1]}' for x in rows[:10]]
 
-        for row in rows_filtered:
+        for benefit in rows_filtered:
+            benefit = benefit.split('(')[0]
+            benefit_no_s = benefit.split(' ')[0][:-1] + ' ' + ' '.join(benefit.split(' ')[1:])
             pin_generate_3(
                 entity,
                 common_name,
                 f'G:\\tw-images\\pin\\{entity}\\medicine-benefits\\0000.jpg', 
                 'medicinal-benefits',
-                f'How {common_name.title()} {row}')
+                f'{common_name.title()} {benefit}',
+                f'{benefit_no_s}',
+            )
 
-        break
+        f'How to {benefit_no_s} with {common_name.title()}',
+        # break

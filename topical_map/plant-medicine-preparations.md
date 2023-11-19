@@ -10,4 +10,42 @@ Paragraph 3: dosage, side effects, precautions
 
 -----------------------------------------------------
 
+what is
+what to use it for
+what benefits
+    /properties/advantages/good for/help with
+
+how to use it
+
+how to make it (numbers)
+    components
+    procedure
+
 dosage
+side effects
+precautions
+
+companions
+
+taste, flavor, smell?
+
+
+what is
+uses
+effects
+benefits
+    for skin
+    for varicose veins
+    for internal use
+    respiratory system
+    for periods
+    for hair
+
+recipe
+components
+how to make
+for horses
+safe for dogs
+substitute
+yarrow varieties
+combinations

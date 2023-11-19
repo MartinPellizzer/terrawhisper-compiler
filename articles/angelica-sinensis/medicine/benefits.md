@@ -19,7 +19,7 @@ Dong Quai's ability to regulate the menstrual cycle refers to its capacity to st
 
 The primary constituents and preparations that make dong quai regulate menstrual cycle are shown in the following illustration.
 
-![Dong quai's Medicinal Benefits 0000.jpg](/images/angelica-sinensis-medicine-benefits-regulates-menstrual-cycle.jpg "Dong quai's Medicinal Benefits 0000.jpg")
+![Dong Quai Regulates Menstrual Cycle](/images/angelica-sinensis-medicine-benefits-regulates-menstrual-cycle.jpg "Dong Quai Regulates Menstrual Cycle")
 
 
 This specific health benefit aids various menstrual-related conditions experienced by women, including irregular menstruation, dysmenorrhea (painful periods), and premenstrual syndrome (PMS). The compounds found in Dong Quai assist in restoring hormonal balance, regulating estrogen levels, and easing uterine muscle contractions. Clinical evidence suggests that the use of Dong Quai can notably reduce the severity and frequency of menstrual cramps, providing relief for women struggling with menstrual irregularities.
@@ -32,7 +32,7 @@ Dong Quai's ability to alleviate menopausal symptoms refers to its potential in 
 
 The primary constituents and preparations that make dong quai relieve menopausal symptoms are shown in the following illustration.
 
-![Dong quai's Medicinal Benefits 0001.jpg](/images/angelica-sinensis-medicine-benefits-relieves-menopausal-symptoms.jpg "Dong quai's Medicinal Benefits 0001.jpg")
+![Dong Quai Relieves Menopausal Symptoms](/images/angelica-sinensis-medicine-benefits-relieves-menopausal-symptoms.jpg "Dong Quai Relieves Menopausal Symptoms")
 
 
 This particular health benefit of Dong Quai aids in addressing menopause-related symptoms such as hot flashes, night sweats, mood swings, and vaginal dryness. By assisting in hormonal regulation, Dong Quai can potentially alleviate these discomforts and improve the overall quality of life for women experiencing menopausal symptoms. The phytoestrogenic activity of Dong Quai's constituents offers a natural alternative for managing these symptoms without the use of synthetic hormone replacement therapies (HRT), which may pose certain risks and side effects.
@@ -45,7 +45,7 @@ Dong Quai's ability to enhance blood circulation refers to its capacity to impro
 
 The primary constituents and preparations that make dong quai boost blood circulation are shown in the following illustration.
 
-![Dong quai's Medicinal Benefits 0002.jpg](/images/angelica-sinensis-medicine-benefits-boosts-blood-circulation.jpg "Dong quai's Medicinal Benefits 0002.jpg")
+![Dong Quai Boosts Blood Circulation](/images/angelica-sinensis-medicine-benefits-boosts-blood-circulation.jpg "Dong Quai Boosts Blood Circulation")
 
 
 The improved blood circulation facilitated by Dong Quai offers benefits in various health conditions. It aids in addressing peripheral vascular diseases like Raynaud's phenomenon, enhancing blood flow to extremities and reducing symptoms of cold hands and feet. Furthermore, it supports cardiovascular health by potentially reducing the risk of blood clots and improving overall blood vessel function. Improved circulation can also contribute to better oxygenation of tissues, potentially aiding in wound healing and reducing muscle fatigue.
@@ -58,7 +58,7 @@ Dong Quai's ability to balance hormones refers to its capacity to regulate estro
 
 The primary constituents and preparations that make dong quai balance hormones are shown in the following illustration.
 
-![Dong quai's Medicinal Benefits 0003.jpg](/images/angelica-sinensis-medicine-benefits-balances-hormones.jpg "Dong quai's Medicinal Benefits 0003.jpg")
+![Dong Quai Balances Hormones](/images/angelica-sinensis-medicine-benefits-balances-hormones.jpg "Dong Quai Balances Hormones")
 
 
 This hormonal balancing property of Dong Quai is beneficial for various health conditions. It is particularly helpful in alleviating menstrual irregularities, including painful menstruation and irregular cycles. Additionally, Dong Quai's hormone-balancing effects are known to ease menopausal symptoms such as hot flashes, night sweats, and mood swings. Women experiencing hormonal fluctuations or imbalances during menopause or menstruation often find relief through the use of Dong Quai as a natural alternative to hormone replacement therapies.
@@ -71,7 +71,7 @@ Dong Quai's ability to aid respiratory health refers to its capacity to mitigate
 
 The primary constituents and preparations that make dong quai reduce inflammation are shown in the following illustration.
 
-![Dong quai's Medicinal Benefits 0004.jpg](/images/angelica-sinensis-medicine-benefits-reduces-inflammation.jpg "Dong quai's Medicinal Benefits 0004.jpg")
+![Dong Quai Reduces Inflammation](/images/angelica-sinensis-medicine-benefits-reduces-inflammation.jpg "Dong Quai Reduces Inflammation")
 
 
 This anti-inflammatory benefit of Dong Quai contributes to alleviating various health conditions associated with inflammation. It aids in reducing symptoms of respiratory issues like bronchitis, asthma, and coughs by soothing inflammation in the respiratory tract. Furthermore, Dong Quai's anti-inflammatory properties have been explored in managing arthritis, rheumatism, and other inflammatory joint conditions. Its potential to alleviate inflammatory responses extends to skin conditions like eczema and dermatitis, offering relief from skin inflammation and discomfort.
@@ -84,7 +84,7 @@ Dong Quai's ability to enhance fertility refers to its capacity to improve repro
 
 The primary constituents and preparations that make dong quai enhance fertility are shown in the following illustration.
 
-![Dong quai's Medicinal Benefits 0005.jpg](/images/angelica-sinensis-medicine-benefits-enhances-fertility.jpg "Dong quai's Medicinal Benefits 0005.jpg")
+![Dong Quai Enhances Fertility](/images/angelica-sinensis-medicine-benefits-enhances-fertility.jpg "Dong Quai Enhances Fertility")
 
 
 Enhancing fertility with Dong Quai can assist individuals facing various reproductive challenges. Its properties can benefit women dealing with irregular menstrual cycles, amenorrhea, or conditions related to estrogen imbalances. Men experiencing issues related to sperm quality or erectile dysfunction may also find some benefits from Dong Quai's ability to improve blood circulation and potentially enhance reproductive function.
@@ -97,7 +97,7 @@ Dong Quai's ability to aid respiratory health refers to its potential in strengt
 
 The primary constituents and preparations that make dong quai strengthen immune system are shown in the following illustration.
 
-![Dong quai's Medicinal Benefits 0006.jpg](/images/angelica-sinensis-medicine-benefits-strengthens-immune-system.jpg "Dong quai's Medicinal Benefits 0006.jpg")
+![Dong Quai Strengthens Immune System](/images/angelica-sinensis-medicine-benefits-strengthens-immune-system.jpg "Dong Quai Strengthens Immune System")
 
 
 The strengthening of the immune system through Dong Quai can assist in managing various health conditions linked to weakened immunity. This includes reducing the susceptibility to respiratory infections like the common cold, flu, and bronchitis. Additionally, Dong Quai's immune-enhancing properties may potentially contribute to minimizing the severity and duration of these respiratory ailments. Studies suggest that the immune-strengthening effects of Dong Quai could also be beneficial in managing allergies and asthma, where immune system dysregulation often plays a role in symptom exacerbation.
@@ -110,7 +110,7 @@ Dong Quai's ability to support liver health refers to its capacity to enhance li
 
 The primary constituents and preparations that make dong quai support liver health are shown in the following illustration.
 
-![Dong quai's Medicinal Benefits 0007.jpg](/images/angelica-sinensis-medicine-benefits-supports-liver-health.jpg "Dong quai's Medicinal Benefits 0007.jpg")
+![Dong Quai Supports Liver Health](/images/angelica-sinensis-medicine-benefits-supports-liver-health.jpg "Dong Quai Supports Liver Health")
 
 
 This particular benefit of supporting liver health contributes significantly to conditions such as liver inflammation, hepatic oxidative stress, and liver function impairment. Dong Quai's compounds, particularly ferulic acid and ligustilide, exert hepatoprotective effects, aiding in the prevention and mitigation of liver diseases, including fatty liver disease and liver damage caused by toxins or medications.
@@ -123,7 +123,7 @@ Dong Quai's ability to alleviate anemia refers to its capacity to boost hemoglob
 
 The primary constituents and preparations that make dong quai alleviate anemia are shown in the following illustration.
 
-![Dong quai's Medicinal Benefits 0008.jpg](/images/angelica-sinensis-medicine-benefits-alleviates-anemia.jpg "Dong quai's Medicinal Benefits 0008.jpg")
+![Dong Quai Alleviates Anemia](/images/angelica-sinensis-medicine-benefits-alleviates-anemia.jpg "Dong Quai Alleviates Anemia")
 
 
 This specific benefit of Dong Quai in alleviating anemia is particularly helpful for individuals suffering from iron-deficiency anemia, a condition characterized by low hemoglobin levels or inadequate red blood cell production due to insufficient iron in the body. By aiding in the synthesis of hemoglobin and stimulating red blood cell formation, Dong Quai contributes to mitigating the symptoms of anemia, including fatigue, weakness, and shortness of breath.
@@ -136,7 +136,7 @@ Dong Quai's ability to aid digestive health refers to its capacity to alleviate 
 
 The primary constituents and preparations that make dong quai ease digestive issues are shown in the following illustration.
 
-![Dong quai's Medicinal Benefits 0009.jpg](/images/angelica-sinensis-medicine-benefits-eases-digestive-issues.jpg "Dong quai's Medicinal Benefits 0009.jpg")
+![Dong Quai Eases Digestive Issues](/images/angelica-sinensis-medicine-benefits-eases-digestive-issues.jpg "Dong Quai Eases Digestive Issues")
 
 
 This health benefit of Dong Quai is particularly helpful for individuals experiencing indigestion, bloating, gas, abdominal discomfort, and constipation. The antispasmodic and anti-inflammatory properties found in Dong Quai help in relaxing intestinal muscles, reducing spasms, and calming digestive distress. These effects aid in smoother digestion, potentially providing relief to those suffering from various gastrointestinal issues.

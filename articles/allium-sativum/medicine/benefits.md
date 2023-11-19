@@ -19,7 +19,7 @@ Garlic boosts immunity thanks to its rich composition of bioactive compounds, wi
 
 The primary constituents and preparations that make garlic boost immunity are shown in the following illustration.
 
-![Garlic's Medicinal Benefits 0000.jpg](/images/allium-sativum-medicine-benefits-boosts-immunity.jpg "Garlic's Medicinal Benefits 0000.jpg")
+![Garlic Boosts Immunity](/images/allium-sativum-medicine-benefits-boosts-immunity.jpg "Garlic Boosts Immunity")
 
 
 Numerous health conditions can benefit from garlic's immune-boosting prowess. It is particularly effective in preventing and alleviating common infections such as the common cold and flu. The antiviral properties of allicin have been shown to inhibit the replication of viruses. Garlic's immune support is also relevant in chronic conditions, contributing to the overall well-being of individuals with compromised immune systems, including those with autoimmune disorders or undergoing immune-suppressive therapies.
@@ -32,7 +32,7 @@ Garlic lowers blood pressure thanks to its rich composition of bioactive compoun
 
 The primary constituents and preparations that make garlic lower blood pressure are shown in the following illustration.
 
-![Garlic's Medicinal Benefits 0001.jpg](/images/allium-sativum-medicine-benefits-lowers-blood-pressure.jpg "Garlic's Medicinal Benefits 0001.jpg")
+![Garlic Lowers Blood Pressure](/images/allium-sativum-medicine-benefits-lowers-blood-pressure.jpg "Garlic Lowers Blood Pressure")
 
 
 Various health conditions can benefit from garlic's ability to lower blood pressure, particularly those associated with hypertension. Conditions such as chronic kidney disease, metabolic syndrome, and atherosclerosis have shown improvements with garlic supplementation. The antihypertensive properties of garlic make it a valuable natural remedy for individuals struggling with high blood pressure, helping mitigate the risk of cardiovascular diseases.
@@ -45,7 +45,7 @@ Garlic reduces cholesterol thanks to its rich content of allicin, a sulfur-conta
 
 The primary constituents and preparations that make garlic reduce cholesterol are shown in the following illustration.
 
-![Garlic's Medicinal Benefits 0002.jpg](/images/allium-sativum-medicine-benefits-reduces-cholesterol.jpg "Garlic's Medicinal Benefits 0002.jpg")
+![Garlic Reduces Cholesterol](/images/allium-sativum-medicine-benefits-reduces-cholesterol.jpg "Garlic Reduces Cholesterol")
 
 
 Individuals with elevated cholesterol levels, particularly those at risk of cardiovascular diseases, can benefit from garlic consumption. Scientific studies have shown that regular intake of garlic supplements can lead to a significant reduction in total cholesterol levels. Additionally, garlic has been associated with an increase in high-density lipoprotein (HDL) cholesterol, commonly known as the "good" cholesterol, further contributing to its positive impact on cardiovascular health. Conditions such as hyperlipidemia and atherosclerosis show improvement with the incorporation of garlic into dietary regimens.
@@ -58,7 +58,7 @@ Garlic prevents blood clotting thanks to its rich composition of bioactive compo
 
 The primary constituents and preparations that make garlic prevent blood clotting are shown in the following illustration.
 
-![Garlic's Medicinal Benefits 0003.jpg](/images/allium-sativum-medicine-benefits-prevents-blood-clotting.jpg "Garlic's Medicinal Benefits 0003.jpg")
+![Garlic Prevents Blood Clotting](/images/allium-sativum-medicine-benefits-prevents-blood-clotting.jpg "Garlic Prevents Blood Clotting")
 
 
 Examples of health conditions that can benefit from garlic's ability to prevent blood clotting include cardiovascular diseases such as coronary artery disease and atherosclerosis. By inhibiting excessive blood clot formation, garlic contributes to improved blood circulation, reducing the risk of heart attacks and strokes. Additionally, individuals with peripheral artery disease, a condition characterized by narrowed arteries that limit blood flow to the limbs, may find relief from garlic's antithrombotic effects, enhancing peripheral circulation and minimizing the risk of clot-related complications.
@@ -71,7 +71,7 @@ Garlic fights inflammation thanks to its rich composition of bioactive compounds
 
 The primary constituents and preparations that make garlic fight inflammation are shown in the following illustration.
 
-![Garlic's Medicinal Benefits 0004.jpg](/images/allium-sativum-medicine-benefits-fights-inflammation.jpg "Garlic's Medicinal Benefits 0004.jpg")
+![Garlic Fights Inflammation](/images/allium-sativum-medicine-benefits-fights-inflammation.jpg "Garlic Fights Inflammation")
 
 
 Various health conditions can benefit from garlic's anti-inflammatory properties. Conditions such as rheumatoid arthritis, osteoarthritis, and inflammatory bowel diseases have shown improvement with garlic supplementation. The ability of garlic to mitigate inflammation is attributed to its impact on cytokines and inflammatory mediators, providing relief to individuals suffering from these ailments.
@@ -84,7 +84,7 @@ Garlic protects against oxidation thanks to its rich composition of sulfur-conta
 
 The primary constituents and preparations that make garlic protect against oxidation are shown in the following illustration.
 
-![Garlic's Medicinal Benefits 0005.jpg](/images/allium-sativum-medicine-benefits-protects-against-oxidation.jpg "Garlic's Medicinal Benefits 0005.jpg")
+![Garlic Protects Against Oxidation](/images/allium-sativum-medicine-benefits-protects-against-oxidation.jpg "Garlic Protects Against Oxidation")
 
 
 Numerous health conditions can benefit from garlic's antioxidative properties. Cardiovascular diseases, in particular, see notable improvements as garlic helps lower blood pressure and cholesterol levels. The oxidative protection offered by garlic extends to reducing inflammation, making it beneficial for conditions like rheumatoid arthritis. Moreover, the antioxidative capacity of garlic contributes to the prevention of neurodegenerative disorders, such as Alzheimer's disease, by mitigating oxidative damage to brain cells.
@@ -97,7 +97,7 @@ Garlic supports digestive health thanks to its rich composition of bioactive com
 
 The primary constituents and preparations that make garlic support digestive health are shown in the following illustration.
 
-![Garlic's Medicinal Benefits 0006.jpg](/images/allium-sativum-medicine-benefits-supports-digestive-health.jpg "Garlic's Medicinal Benefits 0006.jpg")
+![Garlic Supports Digestive Health](/images/allium-sativum-medicine-benefits-supports-digestive-health.jpg "Garlic Supports Digestive Health")
 
 
 Examples of health conditions that can benefit from garlic's digestive support include irritable bowel syndrome (IBS), bloating, and dyspepsia. The compounds in garlic aid in reducing inflammation in the gastrointestinal tract, promoting a balanced microbial environment, and easing the symptoms associated with these digestive issues. Studies have indicated that regular consumption of garlic can contribute to the alleviation of gastric discomfort and enhance overall digestive well-being.
@@ -110,7 +110,7 @@ Garlic manages blood sugar levels thanks to its rich composition of bioactive co
 
 The primary constituents and preparations that make garlic manage blood sugar levels are shown in the following illustration.
 
-![Garlic's Medicinal Benefits 0007.jpg](/images/allium-sativum-medicine-benefits-manages-blood-sugar-levels.jpg "Garlic's Medicinal Benefits 0007.jpg")
+![Garlic Manages Blood Sugar Levels](/images/allium-sativum-medicine-benefits-manages-blood-sugar-levels.jpg "Garlic Manages Blood Sugar Levels")
 
 
 Individuals with type 2 diabetes can particularly benefit from garlic's blood sugar management properties. Research indicates that incorporating garlic into the diet can lead to significant reductions in fasting blood sugar levels and improve overall glycemic control. Furthermore, individuals with insulin resistance, a precursor to type 2 diabetes, may find garlic supplementation beneficial in mitigating the progression of this metabolic disorder. The ability of garlic to modulate blood sugar levels positions it as a promising adjunct in the management of diabetes-related complications.
@@ -123,7 +123,7 @@ Garlic (Allium sativum) exhibits antimicrobial properties thanks to its rich com
 
 The primary constituents and preparations that make garlic exhibit antimicrobial properties are shown in the following illustration.
 
-![Garlic's Medicinal Benefits 0008.jpg](/images/allium-sativum-medicine-benefits-exhibits-antimicrobial-properties.jpg "Garlic's Medicinal Benefits 0008.jpg")
+![Garlic Exhibits Antimicrobial Properties](/images/allium-sativum-medicine-benefits-exhibits-antimicrobial-properties.jpg "Garlic Exhibits Antimicrobial Properties")
 
 
 The antimicrobial properties of garlic make it effective in combating various health conditions. Garlic has been found to be particularly beneficial in addressing microbial infections, including bacterial, viral, and fungal infections. Its antimicrobial activity extends to pathogens such as Escherichia coli, Staphylococcus aureus, Candida albicans, and influenza viruses. Incorporating garlic into the diet may contribute to the prevention and management of infections, showcasing its potential as a natural antimicrobial agent.
@@ -136,7 +136,7 @@ Garlic (Allium sativum) exhibits antimicrobial properties thanks to its rich com
 
 The primary constituents and preparations that make garlic preven cancer are shown in the following illustration.
 
-![Garlic's Medicinal Benefits 0009.jpg](/images/allium-sativum-medicine-benefits-prevent-cancer.jpg "Garlic's Medicinal Benefits 0009.jpg")
+![Garlic Prevent Cancer](/images/allium-sativum-medicine-benefits-prevent-cancer.jpg "Garlic Prevent Cancer")
 
 
 The antimicrobial properties of garlic make it effective in combating various health conditions. Garlic has been found to be particularly beneficial in addressing microbial infections, including bacterial, viral, and fungal infections. Its antimicrobial activity extends to pathogens such as Escherichia coli, Staphylococcus aureus, Candida albicans, and influenza viruses. Incorporating garlic into the diet may contribute to the prevention and management of infections, showcasing its potential as a natural antimicrobial agent.

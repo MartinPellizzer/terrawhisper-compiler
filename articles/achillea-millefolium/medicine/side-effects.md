@@ -19,7 +19,7 @@ Yarrow's potential to cause skin irritation refers to its ability to induce redn
 
 yarrow's ability to cause skin irritation can aggravate many health conditions, like the ones shown in the illustration below.
 
-![Yarrow's Medicinal Effects 0000.jpg](/images/achillea-millefolium-medicine-side-effects-can-cause-skin-irritation.jpg "Yarrow's Medicinal Effects 0000.jpg")
+![Yarrow Can Cause Skin Irritation](/images/achillea-millefolium-medicine-side-effects-can-cause-skin-irritation.jpg "Yarrow Can Cause Skin Irritation")
 
 
 Skin irritation caused by Yarrow can worsen conditions such as eczema, dermatitis, or sensitive skin disorders. Individuals with existing allergies to plants in the Asteraceae family, including ragweed, daisies, or marigolds, may be more susceptible to yarrow-induced skin irritation. Moreover, people with hypersensitive skin or compromised skin barriers due to certain medical conditions might also experience exacerbated symptoms upon contact with Yarrow.
@@ -32,7 +32,7 @@ Yarrow might induce digestive discomfort when used improperly. This discomfort t
 
 yarrow's ability to induce digestive discomfort can aggravate many health conditions, like the ones shown in the illustration below.
 
-![Yarrow's Medicinal Effects 0001.jpg](/images/achillea-millefolium-medicine-side-effects-might-induce-digestive-discomfort.jpg "Yarrow's Medicinal Effects 0001.jpg")
+![Yarrow Might Induce Digestive Discomfort](/images/achillea-millefolium-medicine-side-effects-might-induce-digestive-discomfort.jpg "Yarrow Might Induce Digestive Discomfort")
 
 
 The side effect of digestive discomfort induced by yarrow can aggravate existing gastrointestinal conditions such as gastritis, peptic ulcers, or inflammatory bowel diseases. Individuals who are particularly sensitive to yarrow's constituents or those with known allergies to plants in the Asteraceae family might experience heightened reactions. Moreover, pregnant women, nursing mothers, and children should be cautious with yarrow due to its potential effects on the digestive system. The potency of these effects can vary among individuals, but excessive consumption or prolonged use can heighten the risk of adverse reactions.
@@ -45,7 +45,7 @@ Yarrow, when used improperly, could lead to allergic reactions, resulting in var
 
 yarrow's ability to lead to allergic reactions can aggravate many health conditions, like the ones shown in the illustration below.
 
-![Yarrow's Medicinal Effects 0002.jpg](/images/achillea-millefolium-medicine-side-effects-could-lead-to-allergic-reactions.jpg "Yarrow's Medicinal Effects 0002.jpg")
+![Yarrow Could Lead To Allergic Reactions](/images/achillea-millefolium-medicine-side-effects-could-lead-to-allergic-reactions.jpg "Yarrow Could Lead To Allergic Reactions")
 
 
 Individuals with existing allergies or sensitivities to plants in the Asteraceae family (such as ragweed, marigolds, or daisies) may be more prone to experiencing allergic reactions to Yarrow. Health conditions like asthma, hay fever, or allergic rhinitis could be aggravated by exposure to Yarrow, potentially intensifying symptoms. Additionally, people with hypersensitivity or compromised immune systems, including pregnant or breastfeeding women and children, are more susceptible to experiencing adverse reactions to Yarrow.
@@ -58,7 +58,7 @@ Yarrow may interfere with blood clotting, meaning it possesses properties that c
 
 yarrow's ability to interfere with blood clotting can aggravate many health conditions, like the ones shown in the illustration below.
 
-![Yarrow's Medicinal Effects 0003.jpg](/images/achillea-millefolium-medicine-side-effects-may-interfere-with-blood-clotting.jpg "Yarrow's Medicinal Effects 0003.jpg")
+![Yarrow May Interfere With Blood Clotting](/images/achillea-millefolium-medicine-side-effects-may-interfere-with-blood-clotting.jpg "Yarrow May Interfere With Blood Clotting")
 
 
 The side effect of Yarrow interfering with blood clotting can potentially exacerbate health conditions such as hemophilia, where individuals already have impaired blood clotting mechanisms. Furthermore, those undergoing surgery or individuals on anticoagulant medication like warfarin should exercise caution when using Yarrow as it might heighten the risk of excessive bleeding. People sensitive to this effect include those with bleeding disorders, individuals on blood-thinning medications, or those preparing for surgery. For instance, the use of Yarrow in these scenarios might lead to prolonged bleeding, increased bruising, or complications during surgical procedures.
@@ -71,7 +71,7 @@ Yarrow can induce photosensitivity in individuals when used improperly. This con
 
 yarrow's ability to induce photosensitivity can aggravate many health conditions, like the ones shown in the illustration below.
 
-![Yarrow's Medicinal Effects 0004.jpg](/images/achillea-millefolium-medicine-side-effects-can-induce-photosensitivity.jpg "Yarrow's Medicinal Effects 0004.jpg")
+![Yarrow Can Induce Photosensitivity](/images/achillea-millefolium-medicine-side-effects-can-induce-photosensitivity.jpg "Yarrow Can Induce Photosensitivity")
 
 
 The side effect of inducing photosensitivity caused by Yarrow can aggravate certain health conditions such as eczema, psoriasis, or other dermatological issues, making the skin more susceptible to damage from sun exposure. People who are most sensitive to this side effect are those with fair or sensitive skin types. Individuals undergoing treatments that make their skin more photosensitive, such as certain medications or therapies like chemotherapy, should also be cautious when using Yarrow. Moreover, prolonged exposure to Yarrow preparations, particularly on the skin, can increase the risk of photosensitivity reactions.
@@ -84,7 +84,7 @@ Yarrow might lower blood pressure excessively, indicating its potential to signi
 
 yarrow's ability to lower blood pressure excessively can aggravate many health conditions, like the ones shown in the illustration below.
 
-![Yarrow's Medicinal Effects 0005.jpg](/images/achillea-millefolium-medicine-side-effects-might-lower-blood-pressure-excessively.jpg "Yarrow's Medicinal Effects 0005.jpg")
+![Yarrow Might Lower Blood Pressure Excessively](/images/achillea-millefolium-medicine-side-effects-might-lower-blood-pressure-excessively.jpg "Yarrow Might Lower Blood Pressure Excessively")
 
 
 This side effect of Yarrow can exacerbate conditions such as hypotension (abnormally low blood pressure), particularly in individuals already experiencing low blood pressure or taking medications that lower blood pressure. People sensitive to this side effect include those prone to hypotension or individuals with cardiovascular issues. For instance, those with a history of low blood pressure, heart conditions, or individuals using antihypertensive medications should exercise caution when consuming Yarrow due to its potential to further reduce blood pressure levels, leading to dizziness, fainting, or other adverse effects.
@@ -97,7 +97,7 @@ Yarrow could exacerbate pre-existing conditions when used improperly, meaning it
 
 yarrow's ability to exacerbate pre-existing conditions can aggravate many health conditions, like the ones shown in the illustration below.
 
-![Yarrow's Medicinal Effects 0006.jpg](/images/achillea-millefolium-medicine-side-effects-could-exacerbate-pre-existing-conditions.jpg "Yarrow's Medicinal Effects 0006.jpg")
+![Yarrow Could Exacerbate Pre-Existing Conditions](/images/achillea-millefolium-medicine-side-effects-could-exacerbate-pre-existing-conditions.jpg "Yarrow Could Exacerbate Pre-Existing Conditions")
 
 
 This side effect of Yarrow can potentially aggravate various health conditions, including but not limited to gastrointestinal disorders, kidney issues, and hypersensitivity reactions in some individuals. Those particularly sensitive to Yarrow's exacerbating effects include individuals with existing kidney diseases, allergies, or hypersensitivities. For instance, excessive consumption of Yarrow in individuals with sensitive digestive systems might exacerbate gastrointestinal problems such as ulcers or gastritis. Additionally, those with pre-existing allergies may experience heightened allergic reactions due to Yarrow's constituents.
@@ -110,7 +110,7 @@ Yarrow may interact with medications, indicating that its consumption can influe
 
 yarrow's ability to interact with medications can aggravate many health conditions, like the ones shown in the illustration below.
 
-![Yarrow's Medicinal Effects 0007.jpg](/images/achillea-millefolium-medicine-side-effects-may-interact-with-medications.jpg "Yarrow's Medicinal Effects 0007.jpg")
+![Yarrow May Interact With Medications](/images/achillea-millefolium-medicine-side-effects-may-interact-with-medications.jpg "Yarrow May Interact With Medications")
 
 
 This interaction can aggravate health conditions such as blood clotting disorders, high blood pressure, and gastrointestinal issues. Individuals particularly sensitive to these interactions are those on blood-thinning medications like Warfarin, anti-hypertensive drugs, and certain antibiotics. For instance, the use of Yarrow alongside anticoagulants may increase the risk of bleeding due to its potential effects on blood clotting factors.
@@ -123,7 +123,7 @@ Yarrow can lead to hormonal disruptions if used improperly. This disruption prim
 
 yarrow's ability to lead to hormonal disruptions can aggravate many health conditions, like the ones shown in the illustration below.
 
-![Yarrow's Medicinal Effects 0008.jpg](/images/achillea-millefolium-medicine-side-effects-can-lead-to-hormonal-disruptions.jpg "Yarrow's Medicinal Effects 0008.jpg")
+![Yarrow Can Lead To Hormonal Disruptions](/images/achillea-millefolium-medicine-side-effects-can-lead-to-hormonal-disruptions.jpg "Yarrow Can Lead To Hormonal Disruptions")
 
 
 The hormonal disruptions caused by Yarrow can aggravate conditions such as thyroid disorders, menstrual irregularities, and reproductive health issues. Individuals with existing hormonal imbalances, pregnant or breastfeeding women, and those undergoing hormone therapy should be particularly cautious. For instance, excessive consumption of Yarrow tea or supplements might exacerbate conditions like hypothyroidism or hyperthyroidism. Additionally, women with estrogen-sensitive conditions like breast cancer or endometriosis may experience exacerbated symptoms due to Yarrow's potential estrogenic effects.
@@ -136,7 +136,7 @@ Yarrow might cause drowsiness or dizziness when used improperly. This effect is 
 
 yarrow's ability to cause drowsiness or dizziness can aggravate many health conditions, like the ones shown in the illustration below.
 
-![Yarrow's Medicinal Effects 0009.jpg](/images/achillea-millefolium-medicine-side-effects-might-cause-drowsiness-or-dizziness.jpg "Yarrow's Medicinal Effects 0009.jpg")
+![Yarrow Might Cause Drowsiness Or Dizziness](/images/achillea-millefolium-medicine-side-effects-might-cause-drowsiness-or-dizziness.jpg "Yarrow Might Cause Drowsiness Or Dizziness")
 
 
 The side effect of drowsiness or dizziness caused by Yarrow can potentially worsen conditions such as hypotension (low blood pressure), as it may further lower blood pressure levels. Individuals with pre-existing low blood pressure or those taking medications that lower blood pressure should use Yarrow cautiously due to its potential to exacerbate these conditions. Furthermore, individuals who are sensitive to sedative effects or have a history of allergies to plants in the Asteraceae family (such as ragweed, marigolds, or daisies) might be more prone to experiencing drowsiness or dizziness with Yarrow usage.

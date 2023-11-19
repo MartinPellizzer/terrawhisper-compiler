@@ -20,7 +20,7 @@ Yarrow Tea is an herbal infusion made from the dried flowers and leaves of the A
 
 The following illustration give a quick overview about the health benefits of Yarrow Tea, how to prepare it and what precautions to take.
 
-![Yarrow's Medicinal Preparations 0000.jpg](/images/achillea-millefolium-medicine-preparations-yarrow-tea.jpg "Yarrow's Medicinal Preparations 0000.jpg")
+![Yarrow Tea](/images/achillea-millefolium-medicine-preparations-yarrow-tea.jpg "Yarrow Tea")
 
 
 To prepare Yarrow Tea, steep 1-2 teaspoons of dried yarrow leaves or flowers in hot water (approximately 250-300 milliliters) for 5-10 minutes. Strain the mixture before consumption to achieve the desired potency. Honey or lemon can be added for taste.
@@ -33,7 +33,7 @@ Yarrow Tincture is a concentrated herbal extract made by soaking yarrow (Achille
 
 The following illustration give a quick overview about the health benefits of Yarrow Tincture, how to prepare it and what precautions to take.
 
-![Yarrow's Medicinal Preparations 0001.jpg](/images/achillea-millefolium-medicine-preparations-yarrow-tincture.jpg "Yarrow's Medicinal Preparations 0001.jpg")
+![Yarrow Tincture](/images/achillea-millefolium-medicine-preparations-yarrow-tincture.jpg "Yarrow Tincture")
 
 
 To prepare Yarrow Tincture, start by finely chopping fresh yarrow leaves, flowers, and stems. Place the plant material in a clean glass jar and cover it completely with high-proof alcohol, preferably vodka or brandy. Seal the jar tightly and store it in a cool, dark place for at least four to six weeks, shaking it gently every day. After the maceration period, strain the liquid through cheesecloth or a fine mesh sieve, squeezing out as much tincture as possible. Bottle the resulting liquid extract in dark glass containers for optimal preservation.
@@ -46,7 +46,7 @@ Yarrow Infused Oil is a potent herbal extract obtained by steeping yarrow (Achil
 
 The following illustration give a quick overview about the health benefits of Yarrow Infused Oil, how to prepare it and what precautions to take.
 
-![Yarrow's Medicinal Preparations 0002.jpg](/images/achillea-millefolium-medicine-preparations-yarrow-infused-oil.jpg "Yarrow's Medicinal Preparations 0002.jpg")
+![Yarrow Infused Oil](/images/achillea-millefolium-medicine-preparations-yarrow-infused-oil.jpg "Yarrow Infused Oil")
 
 
 To prepare Yarrow Infused Oil, finely chop 1 cup (about 30 grams) of dried yarrow flowers and leaves. Place them in a clean, dry glass jar and cover completely with a carrier oil of choice, ensuring the plant material is fully submerged. Seal the jar tightly and place it in a warm, sunny spot for 4-6 weeks, shaking it gently every few days to enhance infusion. After the steeping period, strain the oil using cheesecloth or a fine-mesh sieve, ensuring all plant material is removed. Store the infused oil in amber glass bottles away from direct sunlight for prolonged shelf life.
@@ -59,7 +59,7 @@ Yarrow Poultice is a traditional herbal remedy created by crushing fresh or drie
 
 The following illustration give a quick overview about the health benefits of Yarrow Poultice, how to prepare it and what precautions to take.
 
-![Yarrow's Medicinal Preparations 0003.jpg](/images/achillea-millefolium-medicine-preparations-yarrow-poultice.jpg "Yarrow's Medicinal Preparations 0003.jpg")
+![Yarrow Poultice](/images/achillea-millefolium-medicine-preparations-yarrow-poultice.jpg "Yarrow Poultice")
 
 
 To prepare a Yarrow Poultice, begin by harvesting fresh yarrow leaves and flowers. Grind or crush them into a thick paste, adding a small amount of warm water or oil to achieve the desired consistency. Alternatively, dried yarrow can be powdered and mixed with water to form the poultice. Once prepared, spread the paste onto a clean cloth or gauze and apply it directly to the affected area. Cover with a bandage or wrap to secure the poultice in place and leave it for 15-30 minutes, or as needed, to alleviate discomfort and aid in healing.
@@ -72,7 +72,7 @@ Yarrow Capsules is an herbal supplement derived from the Achillea millefolium pl
 
 The following illustration give a quick overview about the health benefits of Yarrow Capsules, how to prepare it and what precautions to take.
 
-![Yarrow's Medicinal Preparations 0004.jpg](/images/achillea-millefolium-medicine-preparations-yarrow-capsules.jpg "Yarrow's Medicinal Preparations 0004.jpg")
+![Yarrow Capsules](/images/achillea-millefolium-medicine-preparations-yarrow-capsules.jpg "Yarrow Capsules")
 
 
 To prepare Yarrow Capsules, finely grind dried yarrow leaves and flowers into a powder using a grinder or mortar and pestle. Fill vegetable-based capsules with approximately 400-500 milligrams of the powdered yarrow. Ensure precise measurements and proper sealing to maintain potency. This process takes around 20-30 minutes to prepare a batch of 50 capsules. Store them in a cool, dry place away from direct sunlight to retain their effectiveness.
@@ -85,7 +85,7 @@ Yarrow Salve is a topical herbal preparation made from the flowers and leaves of
 
 The following illustration give a quick overview about the health benefits of Yarrow Salve, how to prepare it and what precautions to take.
 
-![Yarrow's Medicinal Preparations 0005.jpg](/images/achillea-millefolium-medicine-preparations-yarrow-salve.jpg "Yarrow's Medicinal Preparations 0005.jpg")
+![Yarrow Salve](/images/achillea-millefolium-medicine-preparations-yarrow-salve.jpg "Yarrow Salve")
 
 
 To prepare Yarrow Salve, start by harvesting fresh yarrow flowers and leaves, approximately 100 grams each. Rinse them thoroughly and pat dry. Next, infuse the yarrow in a carrier oil such as olive oil or coconut oil over low heat for 2-3 hours, maintaining a ratio of 1 part yarrow to 5 parts carrier oil. Strain the infused oil using a fine mesh or cheesecloth to remove plant matter. Combine the infused oil with beeswax (around 20 grams) and heat the mixture gently until the beeswax melts completely. Pour the mixture into sterilized containers and let it cool and solidify for approximately 1-2 hours before sealing.
@@ -98,7 +98,7 @@ Yarrow Compress is a traditional herbal remedy made by infusing yarrow (Achillea
 
 The following illustration give a quick overview about the health benefits of Yarrow Compress, how to prepare it and what precautions to take.
 
-![Yarrow's Medicinal Preparations 0006.jpg](/images/achillea-millefolium-medicine-preparations-yarrow-compress.jpg "Yarrow's Medicinal Preparations 0006.jpg")
+![Yarrow Compress](/images/achillea-millefolium-medicine-preparations-yarrow-compress.jpg "Yarrow Compress")
 
 
 To prepare a Yarrow Compress, start by boiling 500 milliliters of water. Once boiled, remove it from heat and add 30 grams of dried yarrow flowers and leaves. Let the mixture steep for approximately 15 to 20 minutes, allowing the beneficial compounds to infuse into the water. After steeping, strain the liquid to remove the plant material. Then, soak a clean cloth in the warm yarrow-infused liquid, making sure it's not scalding hot but still comfortably warm to the touch. Wring out excess liquid and apply the warm compress directly to the affected area for 15-20 minutes, repeating the process two to three times a day for optimal results.
@@ -111,7 +111,7 @@ Yarrow Essential Oil is a highly concentrated extract derived from the Achillea 
 
 The following illustration give a quick overview about the health benefits of Yarrow Essential Oil, how to prepare it and what precautions to take.
 
-![Yarrow's Medicinal Preparations 0007.jpg](/images/achillea-millefolium-medicine-preparations-yarrow-essential-oil.jpg "Yarrow's Medicinal Preparations 0007.jpg")
+![Yarrow Essential Oil](/images/achillea-millefolium-medicine-preparations-yarrow-essential-oil.jpg "Yarrow Essential Oil")
 
 
 The process of preparing Yarrow Essential Oil involves distillation. Typically, around 500 grams of yarrow flowers and leaves are used per 1 liter of water, simmered in a distillation apparatus for approximately 1 to 2 hours. The resulting steam contains the essential oil, which is then condensed and separated from the water. The yield of essential oil varies but is usually around 0.2% to 0.5% of the plant material used. This meticulous extraction method ensures the retention of the oil's therapeutic compounds and aromatic properties.
@@ -124,7 +124,7 @@ Yarrow Powder is a finely ground form of the Achillea millefolium plant, known f
 
 The following illustration give a quick overview about the health benefits of Yarrow Powder, how to prepare it and what precautions to take.
 
-![Yarrow's Medicinal Preparations 0008.jpg](/images/achillea-millefolium-medicine-preparations-yarrow-powder.jpg "Yarrow's Medicinal Preparations 0008.jpg")
+![Yarrow Powder](/images/achillea-millefolium-medicine-preparations-yarrow-powder.jpg "Yarrow Powder")
 
 
 To prepare Yarrow Powder, begin by harvesting fresh yarrow leaves and flowers. Dry them thoroughly to remove moisture content, then finely grind them into a powder using a mortar and pestle or a grinder. Strain the powder through a fine sieve to obtain a uniform consistency. Typically, a ratio of 1:2 (yarrow leaves/flowers to powder) is used. The drying process may take around 1-2 weeks, depending on environmental conditions and the method employed (air-drying or using a dehydrator). Store the resultant powder in an airtight container away from direct sunlight to maintain its potency.
@@ -137,7 +137,7 @@ Yarrow Bath is a therapeutic immersion where yarrow (Achillea millefolium) is st
 
 The following illustration give a quick overview about the health benefits of Yarrow Bath, how to prepare it and what precautions to take.
 
-![Yarrow's Medicinal Preparations 0009.jpg](/images/achillea-millefolium-medicine-preparations-yarrow-bath.jpg "Yarrow's Medicinal Preparations 0009.jpg")
+![Yarrow Bath](/images/achillea-millefolium-medicine-preparations-yarrow-bath.jpg "Yarrow Bath")
 
 
 To prepare a Yarrow Bath, infuse 100 grams of dried yarrow flowers and leaves in approximately 4 liters of boiling water. Let it steep for 15-20 minutes before straining the liquid and adding it to a warm bath. The infusion should ideally steep for a duration that allows the water to cool to a comfortable bathing temperature, typically around 37-40 degrees Celsius. Once prepared, immerse yourself in the yarrow-infused water for approximately 15-30 minutes to experience its therapeutic benefits.

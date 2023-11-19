@@ -2,13 +2,19 @@
 
 ## [benefit_1] >> "alleviate menstrual dicomfort"
 
-Paragraph 1: benefit + constituents
-
-Paragraph 2: health conditions
-
-Paragraph 3: parts of plant
+Paragraph 1: benefit + statistics/data/nuber/percentage effectiveness benefit (see general medicine article yarrow)
+Paragraph 2: constituents (no numbers)
+Paragraph 3: health conditions (list)
+Paragraph 4: parts of plant and preparations (no numbers)
 
 -----------------------------------------------------
+
+## uses?
+## constituents
+## preparations
+## side effects
+## precautions
+
 
 ## How to properly use [plant] for medicinal purposes?
     uses (preparations) >> link
