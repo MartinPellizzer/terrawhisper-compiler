@@ -3,7 +3,22 @@ import csv
 import utils
 
 if len(sys.argv) < 2:
-    print("ERR: missing arguments (ENTITY, ATTRIBUTES)")
+    print('PROCEDURE')
+    print('-------------------------------------------------')
+    print()
+    print('- pick a plant')
+    print('- add plant to articles csv')
+    print('- init plant')
+    print('- get list of common names')
+    print()
+    print('-------------------------------------------------')
+    print('\n>>>> \n\ntemplate.py angelica-sinensis common-names')
+    print('\n>>>> \n\nlist_add.py angelica-sinensis botany common-names')
+    print()
+    print('-------------------------------------------------')
+    print()
+    print('\n>>>> \n\ntemplate.py angelica-sinensis common-names')
+    
     quit()
 
 entity = sys.argv[1]
@@ -764,7 +779,7 @@ def main():
         
     #     ''')
 
-    print(f'''MEDICINAL
+    print(f'''MEDICINE
 
         Write a paragraph about the medicinal uses of {common_name} ({latin_name}). 
         Include as many details as possible in as few words as possible.
@@ -948,25 +963,18 @@ def main():
         ''')
 
 
-# give me 2 lists:
-
-# in the first list write the native regions where yarrow is found.
-# in the second list write the naturalized regions where yarrow is found.
-
-
 def main_2():
 
     print(f'''MEDICINE 
 
-        Write 4 paragraphs about {common_name} ({latin_name}).
+        Write 5 paragraphs about {common_name} ({latin_name}).
 
-        In the first paragraph, write about the modern medicinal uses of this plant.
-        In the second paragraph, write about the active compounds of this plant for medicinal purposes.
-        In the third paragraph, write about the different types of preparations of this plant for medicinal purposes.
-        In the fourth paragraph, write about the safety and precautions of this plant for medicinal pusposes.
+        In paragraph 1, write about the modern medicinal uses of this plant.
+        In paragraph 2, write about the active compounds of this plant for medicinal purposes.
+        In paragraph 3, write about the different types of preparations of this plant for medicinal purposes.
+        In paragraph 4, write about the possible health side effects of using this plant improperly.
+        In paragraph 5, write about the precautions of this plant for medicinal purposes.
 
-        Include as many details, data, and numbers as possible in as few words as possible.
-        Use the metric system as the primary measuring system.
 
         --------------------------------------------------------------------
 
@@ -1122,14 +1130,14 @@ def main_2():
 
 def medicine():
 
-    print(f'''MEDICINAL PROPERTIES
+    print(f'''BENEFITS
 
         Write me a list of the 10 most important health benefits of {common_name} ({latin_name}). 
         Start each benefit with a verb.
 
         >>>>
 
-        list_add.py angelica-sinensis medicine benefits
+        list_add.py {entity} medicine benefits
 
         --------------------------------------------------------------------
 
@@ -1140,7 +1148,7 @@ def medicine():
         --------------------------------------------------------------------
 
         Using the data from the paragraph above, write about 300 words on the medicinal benefits of {common_name} ({latin_name}).
-        Pack as much data, info, and numbers as possible.
+        Pack as much data, info, numbers, and percentages as possible, regarding the health benefits, not about the constituents.
         Use the metric system when expressing numbers.
         Don't add subjective fluff or opinions, just objective facts. 
 
@@ -1160,7 +1168,7 @@ def medicine():
 
         >>>>
 
-        list_add.py angelica-sinensis medicine constituents
+        list_add.py {entity} medicine constituents
 
         --------------------------------------------------------------------
 
@@ -1189,11 +1197,11 @@ def medicine():
 
         Write me a list of the 10 most important medicinal preparations of {common_name} ({latin_name}) for health purposes. Use a flat list style, don't put lists inside lists.
         Start each benefit with a verb.
-        Don't include consulting a healthcare professional in the list.
+        Don't include Traditional Medicine in the list.
 
         >>>>
 
-        list_add.py angelica-sinensis medicine preparations
+        list_add.py {entity} medicine preparations
 
         --------------------------------------------------------------------
 
@@ -1218,14 +1226,24 @@ def medicine():
 
         ''')
         
-    print(f'''SAFETY AND PRECAUTIONS
+    print(f'''PRECAUTIONS
 
-        Write me a list of the 10 most important precautions to take when using {common_name} ({latin_name}) as a medicine. 
+        Write me a list of the 10 most important precautions to take when using {common_name} ({latin_name}) as a medicine.
         Use a flat list style, don't put lists inside lists.
+        Write only the names, don't add descriptions.
+        Start each element of the list with a verb.
+
+        --------------------------------------------------------------------
+
+        rewrite each element of the previous list in less than 5 words.
+
+        --------------------------------------------------------------------
+        
+        add a description for each element of the previous list.
 
         >>>>
 
-        list_add.py angelica-sinensis medicine precautions
+        list_add.py {entity} medicine precautions
 
         --------------------------------------------------------------------
 
@@ -1365,6 +1383,11 @@ def medicine_benefits_2():
         
         '''
 
+
+
+    # Start the first paragraph with the following sentence: {common_name} ability to {item} refers . 
+    # Also, correct this sentence if it has grammatical errors.
+
     benefits_text = ''
     for i, item in enumerate(benefits):
         problem = ' '.join(item.split(' ')[1:])
@@ -1372,17 +1395,13 @@ def medicine_benefits_2():
 
         Write 3 paragraphs about the following health benefit of {common_name}: {item}.
 
-        In paragraph 1, explain what {item} in the context of {common_name} means. Define it in detail. Then, explain what are the constituents of this plant that give this specific benefit. Don't include constituents that don't specifically contribute to this health benefit. Include numbers and data about the constituents, like their quantities.
-        In paragraph 2, write what health conditions this benefit helps.
-        In paragraph 3, write what parts of this plant are used for this benefit.
+        In paragraph 1, define in detail what {item} is in the context of {common_name}. Then, give me percentages or numbers indicating the level of effectiveness of this plant for this benefit. Don't write about constituents, nutrients, or the elements that compose this plant in this paragraph, only write about this health benefit.
+        In paragraph 2, write what constituents are most responsible for this health benefit and explain why. Don't give numbers about the constituents (like quantities, etc...).
+        In paragraph 3, write what health conditions this benefit helps.
 
         Include as many details, data, and numbers as possible.
         Use the metric system as the primary measuring system.
         Don't give titles to paragraphs.
-
-        
-        Start the first paragraph with the following sentence: {common_name} ability to {item} refers . 
-        Also, correct this sentence if it has grammatical errors.
 
         --------------------------------------------------------------------
         

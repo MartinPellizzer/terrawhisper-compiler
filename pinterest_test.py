@@ -96,12 +96,12 @@ def pin_generate_3(entity, common_name, filepath, attribute, text, filename):
 
     draw = ImageDraw.Draw(img)
 
-    font_size = 48
+    font_size_title = 48
     px = 30
     current_y = 0
 
     for i in range(10):
-        font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
+        font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size_title)
         words = text.split(' ')
         lines = []
         curr_line = ''
@@ -111,19 +111,49 @@ def pin_generate_3(entity, common_name, filepath, attribute, text, filename):
             else:
                 lines.append(curr_line.strip())
                 curr_line = word + ' '
-        lines.append(curr_line)
-        if len(lines) < 3:
+        if len(curr_line.strip()) != 0:
+            lines.append(curr_line)
+        if len(lines) < 4:
             break
-        font_size -= 2
+        font_size_title -= 2
 
+    max_w = 0
+    for i, line in enumerate(lines):
+        line_w = font.getbbox(line)[2]
+        if max_w < line_w: max_w = line_w
+
+    total_h = 0
+    div_off = 10
+    div_h = 2
+    cta_off = 10
+
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size_title)
+    line_h = font.getbbox('y')[3] * len(lines)
+    total_h += line_h
+
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
     line_h = font.getbbox('y')[3]
-    lines_h = line_h * len(lines)
-    print(lines_h)
-    current_y = (250 - lines_h) // 2
+    total_h += line_h
 
+    current_y = (250 - total_h - div_off - div_h - cta_off) // 2
+
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size_title)
+    line_h = font.getbbox('y')[3]
     for i, line in enumerate(lines):
         line_w = font.getbbox(line)[2]
         draw.text((img_w//2 - line_w//2, current_y + line_h * i), line, '#ffffff', font=font)
+    current_y += line_h * (i + 1)
+
+    draw.rectangle(((img_w//2 - max_w//2, current_y + div_off), (img_w//2 + max_w//2, current_y + div_off + div_h)), fill='#ffffff')
+    current_y += div_off + div_h
+        
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = 'LEARN HOW TO USE IT >>'
+    line_w = font.getbbox(line)[2]
+    draw.text((img_w//2 - line_w//2, current_y + cta_off), line, '#ffffff', font=font)
+    current_y += cta_off
 
     print(lines)
 
@@ -174,16 +204,18 @@ for i, row in enumerate(articles_master_rows[1:]):
     cuisine_col = row[articles_dict['cuisine']].strip()
     latin_name = entity.replace('-', ' ').capitalize()
     
-    common_names = utils.csv_get_rows_by_entity('database/tables/botany/common-names.csv', entity)
-    common_name = common_names[0][1].lower()
 
     if attribute_2 == 'benefits':
+        common_names = utils.csv_get_rows_by_entity('database/tables/botany/common-names.csv', entity)
+        common_name = common_names[0][1].lower()
+
         rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
         rows_filtered = [f'{x[1]}' for x in rows[:10]]
 
         for benefit in rows_filtered:
             benefit = benefit.split('(')[0]
             benefit_no_s = benefit.split(' ')[0][:-1] + ' ' + ' '.join(benefit.split(' ')[1:])
+            benefit_no_s = benefit_no_s.replace('Diminishe', 'Diminish')
             pin_generate_3(
                 entity,
                 common_name,
