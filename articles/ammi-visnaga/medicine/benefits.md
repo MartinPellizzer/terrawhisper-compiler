@@ -8,7 +8,7 @@ The diuretic properties of Visnaga prove beneficial for individuals dealing with
 
 The diuretic abilities of Visnaga, primarily derived from its constituents khellin and visnagin, benefit individuals experiencing fluid retention issues due to various health conditions. Through its capacity to enhance urine production, Visnaga aids in alleviating discomfort associated with edema and may support managing high blood pressure. The utilization of Visnaga seeds and fruits, containing concentrated amounts of these active compounds, highlights their significance in preparing herbal remedies and extracts aimed at providing effective diuretic effects for improving overall health and well-being.
 
-This article explains in details the most important and well recognized health benefits of visnaga, including which constituents and parts of this plant gives these benefits.
+This article explains in details the most important and well recognized health benefits of visnaga, including what constituents are responsible for those benefits and what health condititions they can help.
 
 ## 1. Relieves Asthma
 

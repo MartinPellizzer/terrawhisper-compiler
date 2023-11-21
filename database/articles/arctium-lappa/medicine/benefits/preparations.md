@@ -1,0 +1,2 @@
+
+There are many preparations and uses of Burdock, such as decoctions, tinctures, teas, capsules, and extracts. Decoctions are commonly used to address skin conditions, promote detoxification, and support digestive health. Tinctures serve as potent extracts, often utilized for their diuretic and anti-inflammatory properties. Teas brewed from Burdock roots aid in purifying the blood, while capsules and extracts are favored for their convenience in supporting liver health and overall immune function.

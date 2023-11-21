@@ -1,60 +1,63 @@
-"entity"\"state"\"done"\"date"\"cuisine"\"pin"\\\"attribute_1"\"attribute_2"
-"achillea-millefolium"\"published"\\"2023/11/11"\\\\\\
-"achillea-millefolium"\"published"\\"2023/11/11"\\\\\"medicine"\
-"achillea-millefolium"\"published"\\"2023/11/11"\\0\\\"medicine"\"benefits"
-"achillea-millefolium"\"published"\\"2023/11/19"\\0\\\"medicine"\"preparations"
-"achillea-millefolium"\"published"\\"2023/11/19"\\\\\"medicine"\"side-effects"
-\\\\\\\\\
-"acorus-calamus"\"published"\\"2023/11/11"\\\\\\
-"acorus-calamus"\"published"\\"2023/11/11"\\\\\"medicine"\
-"acorus-calamus"\"published"\\"2023/11/12"\\\\\"medicine"\"benefits"
-"acorus-calamus"\"published"\\"2023/11/18"\\\\\"medicine"\"preparations"
-\\\\\\\\\
-"aesculus-hippocastanum"\"published"\\"2023/11/11"\"n"\\\\\
-"aesculus-hippocastanum"\"published"\\"2023/11/11"\\\\\"medicine"\
-"aesculus-hippocastanum"\"published"\\"2023/11/12"\\\\\"medicine"\"benefits"
-"aesculus-hippocastanum"\"published"\\"2023/11/18"\\\\\"medicine"\"preparations"
-\\\\\\\\\
-"allium-sativum"\"published"\\"2023/11/13"\\\\\\
-"allium-sativum"\"published"\\"2023/11/13"\\\\\"medicine"\
-"allium-sativum"\"published"\\"2023/11/13"\\\\\"medicine"\"benefits"
-\\\\\\\\\
-"aloe-vera"\"published"\\"2023/11/13"\\\\\\
-"aloe-vera"\"published"\\"2023/11/13"\\\\\"medicine"\
-"aloe-vera"\"published"\\"2023/11/19"\\\\\"medicine"\"benefits"
-\\\\\\\\\
-"alpinia-officinarum"\"published"\\"2023/11/15"\\\\\\
-"alpinia-officinarum"\"published"\\"2023/11/15"\\\\\"medicine"\
-"alpinia-officinarum"\"published"\\"2023/11/18"\\\\\"medicine"\"benefits"
-\\\\\\\\\
-"ammi-visnaga"\"published"\\"2023/11/18"\\\\\\
-"ammi-visnaga"\"published"\\"2023/11/15"\\\\\"medicine"\
-"ammi-visnaga"\"published"\\\\\\\"medicine"\"benefits"
-\\\\\\\\\
-"angelica-sinensis"\"published"\\"2023/11/18"\\\\\\
-"angelica-sinensis"\"published"\\"2023/11/18"\\\\\"medicine"\
-"angelica-sinensis"\"published"\\"2023/11/18"\\\\\"medicine"\"benefits"
-\\\\\\\\\
-"apium-graveolens"\"published"\\"2023/11/20"\\\\\\
-"apium-graveolens"\"published"\\"2023/11/20"\\\\\"medicine"\
-"apium-graveolens"\"published"\\"2023/11/20"\\\\\"medicine"\"benefits"
-\\\\\\\\\
-"arctium-lappa"\\\"2023/10/23"\\\\\"botany"\"morphology"
-"artemisia-absinthium "\\\"2023/10/24"\\\\\"botany"\"morphology"
-"artemisia-annua "\\\"2023/10/25"\\\\\"botany"\"morphology"
-"astragalus-membranaceus "\\\"2023/10/26"\\\\\"botany"\"morphology"
-"atropa-belladonna "\\\"2023/10/27"\\\\\"botany"\"morphology"
-"azadirachta-indica "\\\"2023/10/28"\\\\\"botany"\"morphology"
-"barosma-betulina "\\\"2023/10/29"\\\\\"botany"\"morphology"
-"bupleurum-chinense "\\\"2023/10/30"\\\\\"botany"\"morphology"
-"calendula-officinalis "\\\"2023/10/31 "\\\\\"botany"\"morphology"
-"capsicum-annuum "\\\\\\\\"botany"\"morphology"
-"cassia-senna "\\\\\\\\"botany"\"morphology"
-"centella-asiatica "\\\\\\\\"botany"\"morphology"
-"chamomilla-recutita "\\\\\\\\"botany"\"morphology"
-"chrysanthemum-morifolium "\\\\\\\\"botany"\"morphology"
-"cimicifuga-racemosa "\\\\\\\\"botany"\"morphology"
-"cinchona-officinalis"\\\\\\\\"botany"\"morphology"
-"cinnamomum-verum"\\\\\\\\"botany"\"morphology"
-"citrus-limon "\\\\\\\\"botany"\"morphology"
-"codonopsis-pilosula "\\\\\\\\"botany"\"morphology"
+"entity"\"state"\"done"\"date"\"cuisine"\\"attribute_1"\"attribute_2"
+"achillea-millefolium"\"published"\\"2023/11/11"\\\\
+"achillea-millefolium"\"published"\\"2023/11/11"\\\"medicine"\
+"achillea-millefolium"\"published"\\"2023/11/11"\\\"medicine"\"benefits"
+"achillea-millefolium"\"published"\\"2023/11/19"\\\"medicine"\"preparations"
+"achillea-millefolium"\"published"\\"2023/11/19"\\\"medicine"\"side-effects"
+\\\\\\\
+"acorus-calamus"\"published"\\"2023/11/11"\\\\
+"acorus-calamus"\"published"\\"2023/11/11"\\\"medicine"\
+"acorus-calamus"\"published"\\"2023/11/12"\\\"medicine"\"benefits"
+"acorus-calamus"\"published"\\"2023/11/18"\\\"medicine"\"preparations"
+\\\\\\\
+"aesculus-hippocastanum"\"published"\\"2023/11/11"\"n"\\\
+"aesculus-hippocastanum"\"published"\\"2023/11/11"\\\"medicine"\
+"aesculus-hippocastanum"\"published"\\"2023/11/12"\\\"medicine"\"benefits"
+"aesculus-hippocastanum"\"published"\\"2023/11/18"\\\"medicine"\"preparations"
+\\\\\\\
+"allium-sativum"\"published"\\"2023/11/13"\\\\
+"allium-sativum"\"published"\\"2023/11/13"\\\"medicine"\
+"allium-sativum"\"published"\\"2023/11/13"\\\"medicine"\"benefits"
+\\\\\\\
+"aloe-vera"\"published"\\"2023/11/13"\\\\
+"aloe-vera"\"published"\\"2023/11/13"\\\"medicine"\
+"aloe-vera"\"published"\\"2023/11/19"\\\"medicine"\"benefits"
+\\\\\\\
+"alpinia-officinarum"\"published"\\"2023/11/15"\\\\
+"alpinia-officinarum"\"published"\\"2023/11/15"\\\"medicine"\
+"alpinia-officinarum"\"published"\\"2023/11/18"\\\"medicine"\"benefits"
+\\\\\\\
+"ammi-visnaga"\"published"\\"2023/11/18"\\\\
+"ammi-visnaga"\"published"\\"2023/11/15"\\\"medicine"\
+"ammi-visnaga"\"published"\\\\\"medicine"\"benefits"
+\\\\\\\
+"angelica-sinensis"\"published"\\"2023/11/18"\\\\
+"angelica-sinensis"\"published"\\"2023/11/18"\\\"medicine"\
+"angelica-sinensis"\"published"\\"2023/11/18"\\\"medicine"\"benefits"
+\\\\\\\
+"apium-graveolens"\"published"\\"2023/11/20"\\\\
+"apium-graveolens"\"published"\\"2023/11/20"\\\"medicine"\
+"apium-graveolens"\"published"\\"2023/11/20"\\\"medicine"\"benefits"
+\\\\\\\
+"arctium-lappa"\"published"\\"2023/11/21"\\\\
+"arctium-lappa"\"published"\\"2023/11/21"\\\"medicine"\
+"arctium-lappa"\"published"\\"2023/11/21"\\\"medicine"\"benefits"
+\\\\\\\
+"artemisia-absinthium "\\\"2023/10/24"\\\"botany"\"morphology"
+"artemisia-annua "\\\"2023/10/25"\\\"botany"\"morphology"
+"astragalus-membranaceus "\\\"2023/10/26"\\\"botany"\"morphology"
+"atropa-belladonna "\\\"2023/10/27"\\\"botany"\"morphology"
+"azadirachta-indica "\\\"2023/10/28"\\\"botany"\"morphology"
+"barosma-betulina "\\\"2023/10/29"\\\"botany"\"morphology"
+"bupleurum-chinense "\\\"2023/10/30"\\\"botany"\"morphology"
+"calendula-officinalis "\\\"2023/10/31 "\\\"botany"\"morphology"
+"capsicum-annuum "\\\\\\"botany"\"morphology"
+"cassia-senna "\\\\\\"botany"\"morphology"
+"centella-asiatica "\\\\\\"botany"\"morphology"
+"chamomilla-recutita "\\\\\\"botany"\"morphology"
+"chrysanthemum-morifolium "\\\\\\"botany"\"morphology"
+"cimicifuga-racemosa "\\\\\\"botany"\"morphology"
+"cinchona-officinalis"\\\\\\"botany"\"morphology"
+"cinnamomum-verum"\\\\\\"botany"\"morphology"
+"citrus-limon "\\\\\\"botany"\"morphology"
+"codonopsis-pilosula "\\\\\\"botany"\"morphology"

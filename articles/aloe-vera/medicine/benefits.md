@@ -8,7 +8,7 @@ The plant's anti-inflammatory elements help reduce skin redness and irritation. 
 
 Finally, it balances pH levels in the body, supporting various bodily functions and potentially mitigating conditions related to pH imbalance, inflammation, and chronic diseases.
 
-This article explains in details the most important and well recognized health benefits of aloe vera, including which constituents and parts of this plant gives these benefits.
+This article explains in details the most important and well recognized health benefits of aloe vera, including what constituents are responsible for those benefits and what health condititions they can help.
 
 ## 1. Soothes Irritation
 

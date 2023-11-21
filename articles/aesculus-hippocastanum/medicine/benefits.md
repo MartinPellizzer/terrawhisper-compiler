@@ -8,7 +8,7 @@ Diminishing varicose veins, Horse Chestnut's aescin fortifies blood vessel walls
 
 Various preparations, including standardized extracts, capsules, and topical applications, allow convenient utilization of Horse Chestnut's therapeutic properties, with recommended dosages varying based on the specific health concern. Consulting a healthcare professional for personalized advice is crucial.
 
-This article explains in details the most important and well recognized health benefits of horse chestnut, including which constituents and parts of this plant gives these benefits.
+This article explains in details the most important and well recognized health benefits of horse chestnut, including what constituents are responsible for those benefits and what health condititions they can help.
 
 ## 1. Improves Circulation
 

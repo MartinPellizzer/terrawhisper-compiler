@@ -11,7 +11,7 @@ Dong Quai strengthens the immune system through polysaccharides and ferulic acid
 
 To benefit from Dong Quai, various forms such as teas, tinctures, capsules, and extracts are utilized. However, caution is necessary as excessive consumption may lead to gastrointestinal issues or allergic reactions. Pregnant women should avoid Dong Quai due to potential uterine stimulation, and individuals with bleeding disorders or hormone-sensitive conditions should consult a healthcare professional before use. Potential interactions with blood-thinning medications and precautions regarding sun sensitivity should also be considered before incorporating Dong Quai into one's regimen. Consulting a healthcare provider is crucial to ensure safe and appropriate usage.
 
-This article explains in details the most important and well recognized health benefits of dong quai, including which constituents and parts of this plant gives these benefits.
+This article explains in details the most important and well recognized health benefits of dong quai, including what constituents are responsible for those benefits and what health condititions they can help.
 
 ## 1. Regulates Menstrual Cycle
 

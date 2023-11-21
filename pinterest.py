@@ -8,6 +8,7 @@ import random
 import utils
 import csv
 from datetime import datetime
+import re
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -49,6 +50,8 @@ def csv_to_llst(filepath):
             if is_row_not_empty(row):
                 llst.append(row)
     return llst
+
+
 
 
 
@@ -115,6 +118,230 @@ def pin_generate_2(entity, common_name, filename, image_name, subtitle):
 
     common_name_fotmatted = common_name.lower().replace(' ', '-')
     img.save(f'pinterest/tmp/{common_name_fotmatted}-{image_name}.jpg', format='JPEG', subsampling=0, quality=100)
+
+
+def pin_generate_3(entity, common_name, filepath, text, attribute):
+    img_w, img_h = 600, 900
+
+    img_background = Image.open(filepath)
+    
+    img_background.thumbnail([img_w, img_h], Image.Resampling.LANCZOS)
+    img_background_size = img_background.size
+
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#1c1917')
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#0f766e')
+    img.paste(img_background, (0, 250))
+
+    draw = ImageDraw.Draw(img)
+
+    font_size_title = 48
+    px = 30
+    current_y = 0
+
+    for i in range(10):
+        font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size_title)
+        words = text.split(' ')
+        lines = []
+        curr_line = ''
+        for word in words:
+            if font.getbbox(curr_line)[2] + font.getbbox(word)[2] < img_w - (px * 2):
+                curr_line += word + ' '
+            else:
+                lines.append(curr_line.strip())
+                curr_line = word + ' '
+        if len(curr_line.strip()) != 0:
+            lines.append(curr_line)
+        if len(lines) < 4:
+            break
+        font_size_title -= 2
+
+    max_w = 0
+    for i, line in enumerate(lines):
+        line_w = font.getbbox(line)[2]
+        if max_w < line_w: max_w = line_w
+
+    total_h = 0
+    div_off = 10
+    div_h = 2
+    cta_off = 10
+
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size_title)
+    line_h = font.getbbox('y')[3] * len(lines)
+    total_h += line_h
+
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line_h = font.getbbox('y')[3]
+    total_h += line_h
+
+    current_y = (250 - total_h - div_off - div_h - cta_off) // 2
+
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size_title)
+    line_h = font.getbbox('y')[3]
+    for i, line in enumerate(lines):
+        line_w = font.getbbox(line)[2]
+        draw.text((img_w//2 - line_w//2, current_y + line_h * i), line, '#ffffff', font=font)
+    current_y += line_h * (i + 1)
+
+    draw.rectangle(((img_w//2 - max_w//2, current_y + div_off), (img_w//2 + max_w//2, current_y + div_off + div_h)), fill='#ffffff')
+    current_y += div_off + div_h
+        
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = 'LEARN HOW TO USE IT >>'
+    line_w = font.getbbox(line)[2]
+    draw.text((img_w//2 - line_w//2, current_y + cta_off), line, '#ffffff', font=font)
+    current_y += cta_off
+
+    print(lines)
+
+    font_size = 18
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = 'TerraWhisper.com'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((img_w//2 - line_w//2, img_h - 36), line, '#ffffff', font=font)
+
+
+
+    # img.show()
+    print(img.size)
+
+    common_name_fotmatted = common_name.lower().replace(' ', '-')
+    img.save(f'pinterest/tmp/{common_name_fotmatted}-{attribute.lower().replace(" ", "-")}.jpg', format='JPEG', subsampling=0, quality=100)
+
+
+
+
+
+master_rows = utils.csv_to_llst('pinterest/articles.csv')
+
+# index col with dict
+articles_dict = {}
+for i, item in enumerate(master_rows[0]):
+    articles_dict[item] = i
+
+for i, row in enumerate(master_rows[1:]):
+    # print(f'{i+1}/{len(master_rows[1:])} - {row}')
+    
+    to_pin = row[articles_dict['to_pin']].strip()
+    entity = row[articles_dict['entity']].strip()
+    common_name = row[articles_dict['common_name']].strip()
+    org = row[articles_dict['org']].strip()
+    last_day = row[articles_dict['last_day']].strip()
+    current_image = row[articles_dict['current_image']].strip()
+    image_name = row[articles_dict['image_name']].strip()
+    description_folder = row[articles_dict['description_folder']].strip()
+
+    common_names = utils.csv_get_rows_by_entity('database/tables/botany/common-names.csv', entity)
+    common_name = common_names[0][1].lower()
+    common_name_formatted = common_name.lower().replace(' ', '-')
+
+    # 10 health benefits of yarrow (Achillea millefolium)
+    # 10 medicinal preparations of yarrow (Achillea millefolium)
+    num_benefit = int(current_image) % 10
+    if org.strip() == 'medicine/benefits':
+        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
+        attribute = [f'{x[1]}' for x in rows[:10]][num_benefit]
+        title = f'{common_name.title()} {attribute}: How to Use It'
+    elif org.strip() == 'medicine/preparations':
+        continue
+        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/preparations.csv', entity)
+        attribute = [f'{x[1]}' for x in rows[:10]][num_benefit]
+        title = f'{preparation}: Uses and Preparation'
+
+    url = f'http://terrawhisper.com/{entity}/{org}.html'
+
+    # description
+
+    folderpath = f'database/articles/{entity}/{org}'
+    num_benefit = f'0{num_benefit}'
+    file = [f for f in os.listdir(folderpath) if f.startswith(f'{num_benefit}')][0]
+    with open(f'{folderpath}/{file}', encoding="utf-8") as f:
+            description = f.read()
+    
+    description = description.replace('\n', ' ')
+    description = re.sub("\s\s+" , " ", description)
+
+    description = description.split('. ')
+    random.shuffle(description)
+    description = '. '.join(description[:3])
+    words = description.split(' ')
+    description = ''
+    for word in words:
+        if len(description) + len(word) + 1 < 460:
+            description += word + ' '
+        else:
+            break
+    description = description.strip() + '... '
+    description += 'Click the pin link to learn more.'
+
+    img_num = '0000'
+    image_folder = org.replace('/', '-')
+    img_filepath = f'G:\\tw-images\\pin\\{entity}\\{image_folder}\\{img_num}.jpg'
+    # pin_generate_2(entity, common_name_title, img_filename, image_name, subtitle)
+
+    # pin_generate_3(entity, common_name, filepath, text, filename)
+    pin_generate_3(
+        entity,
+        common_name,
+        img_filepath,
+        f'{common_name.title()} {attribute}',
+        attribute,
+    )
+
+    print(title)
+    print(description)
+    # break
+    # continue
+
+    driver.get("https://www.pinterest.com/pin-creation-tool/")
+    time.sleep(3)
+
+    e = driver.find_element(By.XPATH, '//input[@id="storyboard-upload-input"]')
+    e.send_keys(f'C:\\terrawhisper-compiler\\pinterest\\tmp\\{common_name_formatted}-{attribute.lower().replace(" ", "-")}.jpg') 
+    time.sleep(3)
+
+    e = driver.find_element(By.XPATH, '//input[@id="storyboard-selector-title"]')
+    e.send_keys(title)
+    time.sleep(3) 
+
+    e = driver.find_element(By.XPATH, "//div[@class='notranslate public-DraftEditor-content']")
+    for c in description:
+        e.send_keys(c)
+    time.sleep(3)
+
+    e = driver.find_element(By.XPATH, '//input[@id="WebsiteField"]')
+    e.send_keys(url) 
+    time.sleep(3)
+
+    e = driver.find_element(By.XPATH, '//button[@data-test-id="board-dropdown-select-button"]')
+    e.click()
+    time.sleep(5)
+
+    e = driver.find_element(By.XPATH, '//input[@id="pickerSearchField"]')
+    # e.send_keys(common_name_title) 
+    e.send_keys('Medicinal Plants') 
+    time.sleep(3)
+
+    # e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-{common_name_title} ({latin_name})"]')
+    e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-Medicinal Plants"]')
+    e.click()
+    time.sleep(3)
+
+    e = driver.find_element(By.XPATH, '//div[@data-test-id="storyboard-creation-nav-done"]/..')
+    e.click()
+
+    time.sleep(30)
+
+    driver.get("https://www.google.com/")
+
+    time.sleep(300)
+
+driver.get("https://www.google.com/")
+
+
+quit()
 
 
 

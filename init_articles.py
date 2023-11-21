@@ -105,6 +105,19 @@ for entity in entities:
     with open(f'database/articles/{entity}/medicine/benefits/precautions.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/medicine/benefits/preparations.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/medicine/benefits/side-effects.md', 'a', encoding='utf-8') as f: pass
+
+
+    # constituents
+    try: os.mkdir(f'database/articles/{entity}/medicine/constituents/')
+    except: pass
+    with open(f'database/articles/{entity}/medicine/constituents/_intro.md', 'a', encoding='utf-8') as f: pass
+    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/constituents.csv', entity)
+    rows_filtered = [f'{x[1]}' for x in rows[:10]]
+    for i, item in enumerate(rows_filtered):
+        if i < 10: num = f'0{i}'
+        else: num = f'{i}'
+        item_formatted = item.lower().replace(' ', '-')
+        with open(f'database/articles/{entity}/medicine/constituents/{num}-{item_formatted}.md', 'a', encoding='utf-8') as f: pass
     
 
     # preparations
@@ -119,6 +132,7 @@ for entity in entities:
         item_formatted = item.lower().replace(' ', '-')
         with open(f'database/articles/{entity}/medicine/preparations/{num}-{item_formatted}.md', 'a', encoding='utf-8') as f: pass
     
+
     # effects
     try: os.mkdir(f'database/articles/{entity}/medicine/side-effects/')
     except: pass

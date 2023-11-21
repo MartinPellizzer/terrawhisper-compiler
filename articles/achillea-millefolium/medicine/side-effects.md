@@ -17,7 +17,7 @@ This article lists the possible health side effects of yarrow and how to avoid t
 
 Yarrow's potential to cause skin irritation refers to its ability to induce redness, itching, or rash when applied topically or in some cases, when ingested. This adverse reaction could be attributed to constituents such as sesquiterpene lactones, specifically achillin and achillicin, found in the plant. These compounds possess known anti-inflammatory properties but can also trigger allergic reactions in some individuals, leading to skin irritation upon contact or application.
 
-yarrow's ability to cause skin irritation can aggravate many health conditions, like the ones shown in the illustration below.
+Yarrow's ability to cause skin irritation can aggravate many health conditions, like the ones shown in the illustration below.
 
 ![Yarrow Can Cause Skin Irritation](/images/achillea-millefolium-medicine-side-effects-can-cause-skin-irritation.jpg "Yarrow Can Cause Skin Irritation")
 
@@ -30,7 +30,7 @@ To minimize the risk of skin irritation when using Yarrow, it's crucial to emplo
 
 Yarrow might induce digestive discomfort when used improperly. This discomfort typically involves symptoms like nausea, vomiting, diarrhea, or gastrointestinal irritation. The constituents responsible for these effects include the plant's volatile oils, particularly thujone, which can irritate the digestive system when taken in excessive amounts. Additionally, the presence of bitter compounds such as sesquiterpene lactones and tannins might contribute to gastrointestinal upset if consumed in high doses.
 
-yarrow's ability to induce digestive discomfort can aggravate many health conditions, like the ones shown in the illustration below.
+Yarrow's ability to induce digestive discomfort can aggravate many health conditions, like the ones shown in the illustration below.
 
 ![Yarrow Might Induce Digestive Discomfort](/images/achillea-millefolium-medicine-side-effects-might-induce-digestive-discomfort.jpg "Yarrow Might Induce Digestive Discomfort")
 
@@ -43,7 +43,7 @@ To avoid digestive discomfort when using yarrow, it's essential to follow proper
 
 Yarrow, when used improperly, could lead to allergic reactions, resulting in various symptoms ranging from mild to severe. This adverse effect primarily arises due to the presence of sesquiterpene lactones, notably achillin and lactones such as matricin and chamazulene, which are key constituents in Yarrow. These compounds are known to trigger allergic responses in sensitive individuals when consumed or applied topically, causing symptoms such as skin irritation, rashes, itching, swelling, and in severe cases, respiratory difficulties or anaphylaxis.
 
-yarrow's ability to lead to allergic reactions can aggravate many health conditions, like the ones shown in the illustration below.
+Yarrow's ability to lead to allergic reactions can aggravate many health conditions, like the ones shown in the illustration below.
 
 ![Yarrow Could Lead To Allergic Reactions](/images/achillea-millefolium-medicine-side-effects-could-lead-to-allergic-reactions.jpg "Yarrow Could Lead To Allergic Reactions")
 
@@ -56,7 +56,7 @@ To minimize the risk of allergic reactions when using Yarrow, proper preparation
 
 Yarrow may interfere with blood clotting, meaning it possesses properties that can affect the coagulation process within the body. This interference occurs due to constituents present in Yarrow, particularly sesquiterpene lactones and coumarins. Sesquiterpene lactones can inhibit platelet aggregation and interfere with certain clotting factors, while coumarins possess anticoagulant properties, both contributing to the potential disruption of blood clotting mechanisms.
 
-yarrow's ability to interfere with blood clotting can aggravate many health conditions, like the ones shown in the illustration below.
+Yarrow's ability to interfere with blood clotting can aggravate many health conditions, like the ones shown in the illustration below.
 
 ![Yarrow May Interfere With Blood Clotting](/images/achillea-millefolium-medicine-side-effects-may-interfere-with-blood-clotting.jpg "Yarrow May Interfere With Blood Clotting")
 
@@ -69,7 +69,7 @@ To avoid adverse effects related to blood clotting interference, it's crucial to
 
 Yarrow can induce photosensitivity in individuals when used improperly. This condition refers to an increased sensitivity of the skin to sunlight or ultraviolet (UV) radiation, leading to skin irritation, redness, rashes, or even severe sunburns. The constituents responsible for this effect in Yarrow are primarily the phototoxic compounds called sesquiterpene lactones, such as achilleine and achillicin. These components, when exposed to sunlight, can cause a reaction on the skin, resulting in photosensitivity.
 
-yarrow's ability to induce photosensitivity can aggravate many health conditions, like the ones shown in the illustration below.
+Yarrow's ability to induce photosensitivity can aggravate many health conditions, like the ones shown in the illustration below.
 
 ![Yarrow Can Induce Photosensitivity](/images/achillea-millefolium-medicine-side-effects-can-induce-photosensitivity.jpg "Yarrow Can Induce Photosensitivity")
 
@@ -82,7 +82,7 @@ To avoid the side effect of photosensitivity when using Yarrow, proper preparati
 
 Yarrow might lower blood pressure excessively, indicating its potential to significantly reduce blood pressure levels beyond the normal range when used improperly. The constituents primarily responsible for this effect are its bioactive compounds, including flavonoids such as quercetin and kaempferol, along with alkaloids, tannins, and volatile oils. These compounds possess vasodilatory properties that relax blood vessels, leading to a potential drop in blood pressure levels when consumed excessively or in high concentrations.
 
-yarrow's ability to lower blood pressure excessively can aggravate many health conditions, like the ones shown in the illustration below.
+Yarrow's ability to lower blood pressure excessively can aggravate many health conditions, like the ones shown in the illustration below.
 
 ![Yarrow Might Lower Blood Pressure Excessively](/images/achillea-millefolium-medicine-side-effects-might-lower-blood-pressure-excessively.jpg "Yarrow Might Lower Blood Pressure Excessively")
 
@@ -95,7 +95,7 @@ To avoid the risk of excessively lowering blood pressure, it's crucial to use Ya
 
 Yarrow could exacerbate pre-existing conditions when used improperly, meaning it has the potential to worsen existing health issues. The main constituents responsible for this side effect in Yarrow include alkaloids, flavonoids, tannins, and volatile oils. Alkaloids such as achilleine and tannins possess properties that might cause adverse reactions in individuals with certain health conditions, especially when consumed in high quantities or in sensitive individuals.
 
-yarrow's ability to exacerbate pre-existing conditions can aggravate many health conditions, like the ones shown in the illustration below.
+Yarrow's ability to exacerbate pre-existing conditions can aggravate many health conditions, like the ones shown in the illustration below.
 
 ![Yarrow Could Exacerbate Pre-Existing Conditions](/images/achillea-millefolium-medicine-side-effects-could-exacerbate-pre-existing-conditions.jpg "Yarrow Could Exacerbate Pre-Existing Conditions")
 
@@ -108,7 +108,7 @@ To avoid exacerbating pre-existing conditions, proper preparation and dosage of 
 
 Yarrow may interact with medications, indicating that its consumption can influence the efficacy or side effects of certain drugs. Yarrow contains various constituents, notably flavonoids (such as apigenin and luteolin), sesquiterpene lactones, alkaloids, and volatile oils like camphor and borneol. These compounds possess pharmacological properties that might interfere with the metabolism or action of medications, potentially leading to altered drug levels in the body.
 
-yarrow's ability to interact with medications can aggravate many health conditions, like the ones shown in the illustration below.
+Yarrow's ability to interact with medications can aggravate many health conditions, like the ones shown in the illustration below.
 
 ![Yarrow May Interact With Medications](/images/achillea-millefolium-medicine-side-effects-may-interact-with-medications.jpg "Yarrow May Interact With Medications")
 
@@ -121,7 +121,7 @@ To mitigate the risk of interactions, it's crucial to use Yarrow cautiously and 
 
 Yarrow can lead to hormonal disruptions if used improperly. This disruption primarily involves the potential interference of certain constituents in Yarrow with hormonal balance. Yarrow contains compounds like flavonoids (e.g., apigenin, luteolin), alkaloids, and sesquiterpene lactones, notably achilleine and achilleolide. These compounds possess bioactive properties, and while beneficial in controlled doses, excessive intake or prolonged use may interfere with the endocrine system, leading to hormonal imbalances.
 
-yarrow's ability to lead to hormonal disruptions can aggravate many health conditions, like the ones shown in the illustration below.
+Yarrow's ability to lead to hormonal disruptions can aggravate many health conditions, like the ones shown in the illustration below.
 
 ![Yarrow Can Lead To Hormonal Disruptions](/images/achillea-millefolium-medicine-side-effects-can-lead-to-hormonal-disruptions.jpg "Yarrow Can Lead To Hormonal Disruptions")
 
@@ -134,7 +134,7 @@ To prevent hormonal disruptions when using Yarrow, proper preparation and dosage
 
 Yarrow might cause drowsiness or dizziness when used improperly. This effect is often attributed to certain constituents present in Yarrow, notably the sesquiterpene lactones and volatile oils like thujone. These compounds, particularly when consumed in excessive amounts or for prolonged periods, can lead to sedative effects, resulting in drowsiness or dizziness. Additionally, Yarrow contains flavonoids such as apigenin and luteolin, which may contribute to its sedative properties.
 
-yarrow's ability to cause drowsiness or dizziness can aggravate many health conditions, like the ones shown in the illustration below.
+Yarrow's ability to cause drowsiness or dizziness can aggravate many health conditions, like the ones shown in the illustration below.
 
 ![Yarrow Might Cause Drowsiness Or Dizziness](/images/achillea-millefolium-medicine-side-effects-might-cause-drowsiness-or-dizziness.jpg "Yarrow Might Cause Drowsiness Or Dizziness")
 

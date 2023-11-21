@@ -11,7 +11,7 @@ Garlic's antioxidative properties protect against cellular damage, benefiting ca
 
 Furthermore, garlic supports digestive health by regulating gut flora and promoting enzyme secretion. With its potential to prevent cancer, garlic, whether consumed raw, cooked, or in supplement form, emerges as a potent and flavorful component in promoting holistic health.
 
-This article explains in details the most important and well recognized health benefits of garlic, including which constituents and parts of this plant gives these benefits.
+This article explains in details the most important and well recognized health benefits of garlic, including what constituents are responsible for those benefits and what health condititions they can help.
 
 ## 1. Boosts Immunity
 

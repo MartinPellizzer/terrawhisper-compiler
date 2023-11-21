@@ -12,7 +12,7 @@ Galangal's cognitive benefits, thanks to flavonoids and phenolics, show promise 
 
 Furthermore, galangal's antioxidant-rich nature and anti-inflammatory properties make it a valuable addition to skincare products, combating skin irritations, signs of aging, and infections. Utilizing the rhizome, extracts are used in teas, supplements, skincare, and culinary practices, concentrating its active compounds for various health benefits.
 
-This article explains in details the most important and well recognized health benefits of galangal, including which constituents and parts of this plant gives these benefits.
+This article explains in details the most important and well recognized health benefits of galangal, including what constituents are responsible for those benefits and what health condititions they can help.
 
 ## 1. Improves Digestion
 

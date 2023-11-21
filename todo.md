@@ -1,5 +1,6 @@
-- pin benefits (from master_articles?)
-
+- complete yarrow constituents (list images)
+- complete yarrow topical map
+- write preparations articles (1 x day)
 - use only one function to generate images (fix old posts lists benefits)
 - write secondary content to medicine-preparations
 - redo the health benefits of previous plants again?

@@ -2446,7 +2446,7 @@ for i, row in enumerate(articles_master_rows[1:]):
             print(f'WARNING: missing image ({entity})')
 
         article += get_content('medicine/benefits/_intro', f'database/articles/{entity}')
-        article += f'This article explains in details the most important and well recognized health benefits of {common_name}, including which constituents and parts of this plant gives these benefits.' + '\n\n'
+        article += f'This article explains in details the most important and well recognized health benefits of {common_name}, including what constituents are responsible for those benefits and what health condititions they can help.' + '\n\n'
 
 
         
@@ -2610,7 +2610,7 @@ for i, row in enumerate(articles_master_rows[1:]):
 
             item_words = item.split(' ')
             item_no_first_word = ' '.join(item_words[1:])
-            image_intro_line = f'{common_name}\'s ability to {item_no_first_word.lower()} can aggravate many health conditions, like the ones shown in the illustration below.'  + '\n\n'
+            image_intro_line = f'{common_name.title()}\'s ability to {item_no_first_word.lower()} can aggravate many health conditions, like the ones shown in the illustration below.'  + '\n\n'
 
             section_1 = content_section.split('\n')[0]  + '\n\n'
             section_rest = '\n'.join(content_section.split('\n')[1:])  + '\n\n'

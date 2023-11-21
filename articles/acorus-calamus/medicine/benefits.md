@@ -8,7 +8,7 @@ Sweet flag's anti-inflammatory properties, particularly β-asarone, make it valu
 
 Caution is advised for dosage and usage, emphasizing consultation with healthcare professionals, especially for those with existing medical conditions or on medications.
 
-This article explains in details the most important and well recognized health benefits of sweet flag, including which constituents and parts of this plant gives these benefits.
+This article explains in details the most important and well recognized health benefits of sweet flag, including what constituents are responsible for those benefits and what health condititions they can help.
 
 ## 1. Soothes Digestive Distress
 

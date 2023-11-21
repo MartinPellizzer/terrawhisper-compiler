@@ -9,7 +9,7 @@ Celery can be consumed raw, juiced, brewed into teas, or taken as extracts to ac
 
 Precautions for medicinal use include washing celery thoroughly, consulting healthcare professionals, conducting allergy tests, moderating intake, opting for organic celery to reduce pesticide exposure, and never substituting prescribed medications without professional advice. Monitoring reactions post-consumption and maintaining a balanced intake are crucial for safe medicinal use of celery.
 
-This article explains in details the most important and well recognized health benefits of celery, including which constituents and parts of this plant gives these benefits.
+This article explains in details the most important and well recognized health benefits of celery, including what constituents are responsible for those benefits and what health condititions they can help.
 
 ## 1. Reduces Inflammation
 

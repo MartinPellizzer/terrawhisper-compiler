@@ -1196,8 +1196,6 @@ def medicine():
     print(f'''KEY PREPARATIONS
 
         Write me a list of the 10 most important medicinal preparations of {common_name} ({latin_name}) for health purposes. Use a flat list style, don't put lists inside lists.
-        Start each benefit with a verb.
-        Don't include Traditional Medicine in the list.
 
         >>>>
 
@@ -1395,13 +1393,16 @@ def medicine_benefits_2():
 
         Write 3 paragraphs about the following health benefit of {common_name}: {item}.
 
-        In paragraph 1, define in detail what {item} is in the context of {common_name}. Then, give me percentages or numbers indicating the level of effectiveness of this plant for this benefit. Don't write about constituents, nutrients, or the elements that compose this plant in this paragraph, only write about this health benefit.
+        In paragraph 1, define in detail what {item} is in the context of {common_name}. Then, give me a percentage indicating the level of effectiveness of this plant for this specific benefit.
         In paragraph 2, write what constituents are most responsible for this health benefit and explain why. Don't give numbers about the constituents (like quantities, etc...).
         In paragraph 3, write what health conditions this benefit helps.
 
         Include as many details, data, and numbers as possible.
         Use the metric system as the primary measuring system.
         Don't give titles to paragraphs.
+
+        Start the first paragraph with the following sentence: {common_name} ability to {item} refers . 
+        Also, correct this sentence if it has grammatical errors.
 
         --------------------------------------------------------------------
         
@@ -1416,6 +1417,68 @@ def medicine_benefits_2():
 
 
         ''')
+
+
+def medicine_constituents():
+    
+    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/constituents.csv', entity)
+    benefits = [f'{x[1]}' for x in rows[:10]]
+    images_text = ''
+    for i, item in enumerate(benefits):
+        images_text += f'''{i}.
+        
+        Here's a constituent of {common_name} ({latin_name}): {item}.
+
+        Give me a list of 10 health benefits of this constituents.
+        Only give me health benefits related specifically to this constituent, don't give me other general benefits.
+        Give me only the health benefits, don't add descriptions.
+        Order the list from the most relevant health benefits to the least relevant.
+
+        >>>>
+
+        list_add_constituents.py {entity} {item.lower().replace(' ', '-')} image
+
+        --------------------------------------------------------------------
+        
+        '''
+
+
+
+    # Start the first paragraph with the following sentence: {common_name} ability to {item} refers . 
+    # Also, correct this sentence if it has grammatical errors.
+
+    benefits_text = ''
+    for i, item in enumerate(benefits):
+        problem = ' '.join(item.split(' ')[1:])
+        benefits_text += f'''{i}.
+
+        Write 3 paragraphs about the following constituent of {common_name}: {item}.
+
+        In paragraph 1, write a detailed definition of {item} in the first sentence. Then, write the concentration of this constituent in this plant. Give as much data, info, numbers, and percentages as possible.
+        In paragraph 2, write what are the most relevant health benefits and properties of this constituent in relation to this plant. Include, examples of health conditions that benefit from this plant's constituent.
+        In paragraph 3, write about the possible side effects this plant's constituent can have if misused. Give only the side effects, don't include precautions or consulting a healthcare professional.
+        
+        Include as many details, data, and numbers as possible.
+        Use the metric system as the primary measuring system.
+        Don't give titles to paragraphs.
+
+        Start the first paragraph with the following sentence: {common_name}'s {item} is . 
+        Also, correct this sentence if it has grammatical errors.
+
+        --------------------------------------------------------------------
+        
+        '''
+
+
+    print(f'''BENEFITS
+
+        {benefits_text}
+
+        {images_text}
+
+
+        ''')
+
 
     print(f'''PREPARATIONS
         
@@ -1617,7 +1680,6 @@ def medicine_effects():
         ''')
 
 
-
 def cuisine():
 
     print(f'''CULINARY USES
@@ -1754,6 +1816,7 @@ elif attribute_2 == 'distribution': distribution()
 elif attribute_1 == 'botany': botany()
 elif attribute_1 == 'medicine': medicine()
 elif attribute_1 == 'medicine-benefits': medicine_benefits_2()
+elif attribute_1 == 'medicine-constituents': medicine_constituents()
 elif attribute_1 == 'medicine-preparations': medicine_preparations()
 elif attribute_1 == 'medicine-effects': medicine_effects()
 elif attribute_1 == 'cuisine': cuisine()
