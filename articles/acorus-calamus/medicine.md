@@ -58,7 +58,7 @@ The following list summarizes the 10 most important health benefits of sweet fla
 
 Acorus calamus, commonly known as sweet flag, is characterized by a diverse chemical composition, featuring various bioactive constituents with potential health implications. Notably, β-asarone and α-asarone, isomers present in sweet flag, have been investigated for their anti-inflammatory and neuroprotective properties. Studies suggest that β-asarone content in sweet flag ranges from 0.1% to 2%, contributing to its medicinal potential. For α-asarone, concentrations typically range from 0.1% to 1.5%.
 
-The following illustration shows the most important constituents of sweet flag for medicinal purposes.
+The following illustration shows the most important active constituents of sweet flag for medicinal purposes.
 
 
 

@@ -48,7 +48,7 @@ The following list summarizes the 10 most important health benefits of visnaga.
 
 Visnaga (Ammi visnaga) contains substantial amounts of khellin and visnadin, primary compounds noted for their vasodilator and bronchodilator effects. Studies suggest khellin concentrations in Visnaga ranging from 0.2% to 1.5% by weight, while visnadin levels vary between 0.1% to 1%. 
 
-The following illustration shows the most important constituents of visnaga for medicinal purposes.
+The following illustration shows the most important active constituents of visnaga for medicinal purposes.
 
 
 

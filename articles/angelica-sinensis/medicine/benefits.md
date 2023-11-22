@@ -156,11 +156,7 @@ Lastly, the application of Dong Quai Poultice externally for reducing swelling a
 
 
 
-Given the many preparations and uses of dong quai, it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
-
-
-
-### What health side effects can dong quai have if used improperly?
+## What health side effects can dong quai have if used improperly?
 
 There may be some side effects associated with Dong Quai if this medicinal herb is misused. Common adverse effects include gastrointestinal disturbances such as stomach upset, diarrhea, or abdominal bloating. Additionally, allergic reactions like skin irritation, rash, or itching have been reported in some individuals. 
 
@@ -168,7 +164,7 @@ Prolonged use or excessive doses of Dong Quai may potentially increase sensitivi
 
 
 
-### What precautions should you take before using dong quai for medicinal purposes?
+## What precautions should you take before using dong quai for medicinal purposes?
 
 
 It's important to take some precautions when using Dong Quai as a medicine. Pregnant women should avoid its use due to potential uterine stimulation. Daily dosage should not exceed 6 grams of Dong Quai root or its equivalent forms. 

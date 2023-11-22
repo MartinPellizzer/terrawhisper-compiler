@@ -47,7 +47,7 @@ The following list summarizes the 10 most important health benefits of celery.
 
 Apium graveolens, commonly known as celery, is a powerhouse of essential constituents that contribute significantly to its health-promoting properties. Phenolic compounds found in celery, such as caffeic acid and apigenin, exhibit potent antioxidant and anti-inflammatory effects, protecting cells from oxidative stress and reducing inflammation in the body. Celery is a rich source of vitamins, containing approximately 29 micrograms of vitamin K per 100 grams, vital for blood clotting and bone health, and about 3 milligrams of vitamin C per 100 grams, boosting immunity and aiding collagen production. Moreover, it boasts an impressive fiber content, offering both soluble and insoluble fibers, averaging around 1.6 grams per 100 grams, which supports digestive health, prevents constipation, and helps maintain a healthy gut microbiota.
 
-The following illustration shows the most important constituents of celery for medicinal purposes.
+The following illustration shows the most important active constituents of celery for medicinal purposes.
 
 
 

@@ -60,7 +60,7 @@ The following list summarizes the 10 most important health benefits of yarrow.
 
 Yarrow contains a diverse array of constituents, including alkaloids, tannins, flavonoids, sesquiterpene lactones, volatile oils, coumarins, polyacetylenes, glycosides, phytosterols, and a variety of vitamins and minerals such as vitamin C, vitamin K, and potassium. These compounds collectively contribute to the plant's multifaceted properties and have been studied for their potential effects on health and well-being.
 
-The following illustration shows the most important constituents of yarrow for medicinal purposes.
+The following illustration shows the most important [active constituents of yarrow](/achillea-millefolium/medicine/constituents.html) for medicinal purposes.
 
 
 

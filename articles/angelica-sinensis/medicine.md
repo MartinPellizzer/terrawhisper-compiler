@@ -50,7 +50,7 @@ The following list summarizes the 10 most important health benefits of dong quai
 
 Dong Quai (Angelica sinensis) encompasses key constituents vital for potential health benefits. Ligustilide, a primary compound, has shown antioxidative effects, contributing to improved blood circulation in studies. Ferulic acid, another crucial component, has displayed cell-protective properties and implications for cardiovascular health in experiments, enhancing blood flow by about 12% in animal models. 
 
-The following illustration shows the most important constituents of dong quai for medicinal purposes.
+The following illustration shows the most important active constituents of dong quai for medicinal purposes.
 
 
 

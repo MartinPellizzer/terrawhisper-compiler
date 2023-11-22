@@ -146,18 +146,14 @@ There are many preparations and uses of Visnaga, such as extracting its essentia
 
 
 
-Given the many preparations and uses of visnaga, it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
-
-
-
-### What health side effects can visnaga have if used improperly?
+## What health side effects can visnaga have if used improperly?
 
 
 There may be some side effects associated with Visnaga if this medicinal herb is misused. Among the most common adverse effects are gastrointestinal disturbances such as nausea, vomiting, and diarrhea. Additionally, individuals might experience skin reactions like itching or rashes due to allergic responses. In some cases, prolonged or excessive use of Visnaga may result in heightened sensitivity to sunlight, leading to increased risk of sunburn. It's crucial to adhere to recommended dosages and consult a healthcare professional to mitigate potential side effects when using Visnaga for medicinal purposes.
 
 
 
-### What precautions should you take before using visnaga for medicinal purposes?
+## What precautions should you take before using visnaga for medicinal purposes?
 
 
 It's important to take some precautions when using Visnaga as a medicine. Firstly, consulting a healthcare professional or herbalist before starting any Visnaga regimen is crucial, especially for those with pre-existing medical conditions or women who are pregnant or breastfeeding. Secondly, precise dosage adherence is vital to prevent adverse effects; typically, the recommended dose ranges from 50-150 mg of khellin, a primary active compound found in Visnaga, taken two to three times daily. Additionally, individuals with a history of liver or kidney issues should use Visnaga cautiously due to its potential impact on these organs. Lastly, monitoring for potential allergic reactions like skin rashes or respiratory problems is essential, and immediate medical attention is necessary if any adverse effects occur.

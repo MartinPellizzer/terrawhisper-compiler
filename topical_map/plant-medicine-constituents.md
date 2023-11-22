@@ -7,3 +7,8 @@ Paragraph 2: most relevant medicinal properties (examples)
 Paragraph 3: most relevant health conditions (examples)
 
 -----------------------------------------------------
+
+## main health beneftis of these constituents
+## parts of plant with the most constituents
+## tipical preparations of this plant to get the most benefits
+## side effects of overdosing these constituents

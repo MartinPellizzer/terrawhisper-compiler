@@ -50,7 +50,7 @@ The following list summarizes the 10 most important health benefits of aloe vera
 
 Aloe Vera (Aloe vera) stands out as a potent reservoir of health-promoting constituents. Notably, its gel contains acemannan polysaccharides, constituting approximately 15-25% of the gel, renowned for immune-boosting properties. Aloin, a natural compound with laxative effects, is present, although its concentration varies, and processed products often mitigate its presence. Enzymes such as amylase and lipase contribute to digestive health, aiding in the breakdown of carbohydrates and fats.
 
-The following illustration shows the most important constituents of aloe vera for medicinal purposes.
+The following illustration shows the most important active constituents of aloe vera for medicinal purposes.
 
 
 

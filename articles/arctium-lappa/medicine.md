@@ -51,7 +51,7 @@ The following list summarizes the 10 most important health benefits of burdock.
 
 Burdock (Arctium lappa) boasts a diverse profile of constituents renowned for their potential health benefits. Rich in inulin, it provides a substantial source of this prebiotic carbohydrate, approximately containing 45% inulin by weight, supporting gut health by nurturing beneficial gut bacteria and aiding in digestion. 
 
-The following illustration shows the most important constituents of burdock for medicinal purposes.
+The following illustration shows the most important active constituents of burdock for medicinal purposes.
 
 
 

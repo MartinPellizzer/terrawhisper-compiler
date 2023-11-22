@@ -135,6 +135,17 @@ for entity_folder in entities_folders:
                     shutil.copy2(f'{start_folder}/{entity_folder}/medicine/benefits/{image_path}', out_path)
                     print(out_path)
     except: pass
+    try:
+        for image_path in os.listdir(f'{start_folder}/{entity_folder}/medicine/constituents'):
+            if image_path.endswith('.jpg'):
+                if image_path[0].isdigit(): continue
+                
+                website_img_path = 'articles-images'
+                out_path = f'{website_img_path}/{image_path}'
+                if not os.path.exists(out_path):
+                    shutil.copy2(f'{start_folder}/{entity_folder}/medicine/constituents/{image_path}', out_path)
+                    print(out_path)
+    except: pass
 
     try:
         for image_path in os.listdir(f'{start_folder}/{entity_folder}/medicine/preparations'):

@@ -38,29 +38,29 @@ To harness the cognitive benefits of Sweet flag, one can utilize the rhizomes, e
 
 ## 3. Eases Respiratory Woes
 
-Sweet flag (Acorus calamus) eases respiratory woes thanks to its rich composition of bioactive compounds, with the rhizomes being particularly potent. The primary constituents responsible for this health benefit include β-asarone, isoeugenol, and eugenol. Studies have demonstrated that Acorus calamus contains approximately 1-2% β-asarone, a compound known for its bronchodilatory effects. Additionally, isoeugenol and eugenol contribute to the plant's anti-inflammatory properties, helping to alleviate respiratory distress. The synergistic action of these compounds makes sweet flag a valuable resource in addressing respiratory issues.
+Sweet flag (Acorus calamus) eases respiratory woes thanks to its rich composition of bioactive compounds, with the rhizomes being particularly potent. The primary constituents responsible for this health benefit include β-asarone, isoeugenol, and eugenol. Studies have demonstrated that Acorus calamus contains approximately 1-2% β-asarone, a compound known for its bronchodilatory effects. Additionally, isoeugenol and eugenol contribute to the plant's anti-inflammatory properties, helping to alleviate respiratory distress. The synergistic action of these compounds makes Sweet Flag a valuable resource in addressing respiratory issues.
 
 The primary constituents and preparations that make sweet flag ease respiratory woes are shown in the following illustration.
 
 ![Sweet Flag Eases Respiratory Woes](/images/acorus-calamus-medicine-benefits-eases-respiratory-woes.jpg "Sweet Flag Eases Respiratory Woes")
 
 
-Examples of health conditions that can benefit from sweet flag's respiratory support include bronchitis, asthma, and coughs associated with various respiratory infections. The bronchodilatory effects of β-asarone help in widening the airways, facilitating improved airflow and alleviating symptoms in individuals with obstructive airway diseases. Furthermore, the anti-inflammatory properties aid in reducing inflammation in the respiratory tract, providing relief to those suffering from inflammatory respiratory conditions.
+Examples of health conditions that can benefit from Sweet Flag's respiratory support include bronchitis, asthma, and coughs associated with various respiratory infections. The bronchodilatory effects of β-asarone help in widening the airways, facilitating improved airflow and alleviating symptoms in individuals with obstructive airway diseases. Furthermore, the anti-inflammatory properties aid in reducing inflammation in the respiratory tract, providing relief to those suffering from inflammatory respiratory conditions.
 
-To harness the respiratory benefits of sweet flag, the rhizomes are the key plant part used. The recommended dosage for respiratory support is approximately 1-3 grams of dried rhizome powder per day. This can be consumed directly or infused into teas, allowing for a convenient and effective means of incorporating sweet flag into one's respiratory health regimen. Caution should be exercised, however, as excessive consumption may lead to adverse effects due to the presence of β-asarone. It is advisable to consult with a healthcare professional for personalized guidance on dosage and usage.
+To harness the respiratory benefits of Sweet Flag, the rhizomes are the key plant part used. The recommended dosage for respiratory support is approximately 1-3 grams of dried rhizome powder per day. This can be consumed directly or infused into teas, allowing for a convenient and effective means of incorporating Sweet Flag into one's respiratory health regimen. Caution should be exercised, however, as excessive consumption may lead to adverse effects due to the presence of β-asarone. It is advisable to consult with a healthcare professional for personalized guidance on dosage and usage.
 
 ## 4. Regulates Blood Sugar
 
-Sweet flag (Acorus calamus) regulates blood sugar thanks to its bioactive constituents, particularly β-asarone and phenolic compounds. Studies have shown that β-asarone, a major component of sweet flag, exhibits hypoglycemic effects by enhancing insulin sensitivity and promoting glucose uptake in cells. The phenolic compounds present, such as flavonoids and tannins, contribute to the plant's antioxidant properties, preventing oxidative stress that can lead to insulin resistance. In 100 grams of sweet flag rhizomes, β-asarone content ranges from 0.1 to 1.5 grams, while phenolic compounds constitute approximately 5 grams. These quantities underscore the plant's potential to modulate blood sugar levels effectively.
+Sweet flag (Acorus calamus) regulates blood sugar thanks to its bioactive constituents, particularly β-asarone and phenolic compounds. Studies have shown that β-asarone, a major component of Sweet Flag, exhibits hypoglycemic effects by enhancing insulin sensitivity and promoting glucose uptake in cells. The phenolic compounds present, such as flavonoids and tannins, contribute to the plant's antioxidant properties, preventing oxidative stress that can lead to insulin resistance. In 100 grams of Sweet Flag rhizomes, β-asarone content ranges from 0.1 to 1.5 grams, while phenolic compounds constitute approximately 5 grams. These quantities underscore the plant's potential to modulate blood sugar levels effectively.
 
 The primary constituents and preparations that make sweet flag regulate blood sugar are shown in the following illustration.
 
 ![Sweet Flag Regulates Blood Sugar](/images/acorus-calamus-medicine-benefits-regulates-blood-sugar.jpg "Sweet Flag Regulates Blood Sugar")
 
 
-Examples of health conditions that can benefit from sweet flag's blood sugar-regulating properties include type 2 diabetes and metabolic syndrome. In individuals with type 2 diabetes, sweet flag may assist in managing blood glucose levels by improving insulin sensitivity. Metabolic syndrome, characterized by elevated blood sugar, can also be addressed with the consumption of sweet flag due to its ability to modulate glucose metabolism. The plant's dual action of enhancing insulin sensitivity and countering oxidative stress positions it as a valuable natural remedy for these specific health conditions.
+Examples of health conditions that can benefit from Sweet Flag's blood sugar-regulating properties include type 2 diabetes and metabolic syndrome. In individuals with type 2 diabetes, Sweet Flag may assist in managing blood glucose levels by improving insulin sensitivity. Metabolic syndrome, characterized by elevated blood sugar, can also be addressed with the consumption of Sweet Flag due to its ability to modulate glucose metabolism. The plant's dual action of enhancing insulin sensitivity and countering oxidative stress positions it as a valuable natural remedy for these specific health conditions.
 
-The rhizomes of sweet flag are the primary parts utilized to harness its blood sugar-regulating benefits. These can be incorporated into various preparations, such as decoctions, infusions, or tinctures. A common method involves boiling 5 grams of dried sweet flag rhizomes in 250 ml of water for 15 minutes to create a decoction. This preparation can be consumed daily, contributing to the regulation of blood sugar levels. However, it is crucial to consult with a healthcare professional before incorporating sweet flag into one's routine, especially for individuals with existing medical conditions or those taking medications.
+The rhizomes of Sweet Flag are the primary parts utilized to harness its blood sugar-regulating benefits. These can be incorporated into various preparations, such as decoctions, infusions, or tinctures. A common method involves boiling 5 grams of dried Sweet Flag rhizomes in 250 ml of water for 15 minutes to create a decoction. This preparation can be consumed daily, contributing to the regulation of blood sugar levels. However, it is crucial to consult with a healthcare professional before incorporating Sweet Flag into one's routine, especially for individuals with existing medical conditions or those taking medications.
 
 ## 5. Alleviates Stress and Anxiety
 
@@ -90,16 +90,16 @@ To harness the anti-inflammatory benefits of Sweet flag, the rhizomes are the pr
 
 ## 7. Supports Liver Health
 
-Sweet flag (Acorus calamus) supports liver health thanks to its rich composition of bioactive compounds, notably β-asarone, a major component known for its hepatoprotective properties. Studies have shown that sweet flag contains approximately 2-4% β-asarone in its rhizomes, contributing to its therapeutic effects on the liver. This compound has been identified for its ability to enhance liver function by promoting the secretion of bile and optimizing liver enzyme activity. Additionally, sweet flag contains essential oils such as eugenol and safrole, which further contribute to its hepatoprotective capabilities.
+Sweet flag (Acorus calamus) supports liver health thanks to its rich composition of bioactive compounds, notably β-asarone, a major component known for its hepatoprotective properties. Studies have shown that Sweet Flag contains approximately 2-4% β-asarone in its rhizomes, contributing to its therapeutic effects on the liver. This compound has been identified for its ability to enhance liver function by promoting the secretion of bile and optimizing liver enzyme activity. Additionally, Sweet Flag contains essential oils such as eugenol and safrole, which further contribute to its hepatoprotective capabilities.
 
 The primary constituents and preparations that make sweet flag support liver health are shown in the following illustration.
 
 ![Sweet Flag Supports Liver Health](/images/acorus-calamus-medicine-benefits-supports-liver-health.jpg "Sweet Flag Supports Liver Health")
 
 
-Individuals with liver conditions such as fatty liver disease, hepatitis, and liver cirrhosis can benefit from sweet flag's liver-supportive properties. The β-asarone in sweet flag has demonstrated anti-inflammatory and antioxidant effects, helping to mitigate oxidative stress in the liver and reduce inflammation. These mechanisms make sweet flag a potential complementary option for individuals seeking natural support for liver health.
+Individuals with liver conditions such as fatty liver disease, hepatitis, and liver cirrhosis can benefit from Sweet Flag's liver-supportive properties. The β-asarone in Sweet Flag has demonstrated anti-inflammatory and antioxidant effects, helping to mitigate oxidative stress in the liver and reduce inflammation. These mechanisms make Sweet Flag a potential complementary option for individuals seeking natural support for liver health.
 
-To harness the liver-supporting benefits of sweet flag, the rhizomes of the plant are primarily utilized. These can be prepared in various forms, including teas, tinctures, or extracts. A common preparation involves grinding the dried rhizomes into a powder and infusing it into a tea. It is crucial to adhere to recommended dosages, as excessive intake may have adverse effects. Consulting with a healthcare professional is advised before incorporating sweet flag into any health regimen, particularly for individuals with pre-existing liver conditions or those taking medications that may interact with the plant's constituents.
+To harness the liver-supporting benefits of Sweet Flag, the rhizomes of the plant are primarily utilized. These can be prepared in various forms, including teas, tinctures, or extracts. A common preparation involves grinding the dried rhizomes into a powder and infusing it into a tea. It is crucial to adhere to recommended dosages, as excessive intake may have adverse effects. Consulting with a healthcare professional is advised before incorporating Sweet Flag into any health regimen, particularly for individuals with pre-existing liver conditions or those taking medications that may interact with the plant's constituents.
 
 ## 8. Boosts Immune Function
 
@@ -151,17 +151,13 @@ There are many preparations and uses of Sweet flag, such as the creation of Swee
 
 
 
-Given the many [uses and preparations of sweet flag](/acorus-calamus/medicine/preparations.html), it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
-
-
-
-### What health side effects can sweet flag have if used improperly?
+## What health side effects can sweet flag have if used improperly?
 
 There may be some side effects associated with Sweet flag if this medicinal herb is misused. Common side effects include oral irritation, nausea, vomiting, and in some cases, hallucinations or seizures. Prolonged or excessive use may lead to toxic effects on the nervous system due to the presence of beta-asarone. Skin irritation or allergic reactions might occur with topical application. It's important to use Sweet flag in moderation and under guidance to avoid potential adverse effects. Pregnant women, nursing mothers, and individuals with certain medical conditions should consult a healthcare professional before using Sweet flag for medicinal purposes.
 
 
 
-### What precautions should you take before using sweet flag for medicinal purposes?
+## What precautions should you take before using sweet flag for medicinal purposes?
 
 
 

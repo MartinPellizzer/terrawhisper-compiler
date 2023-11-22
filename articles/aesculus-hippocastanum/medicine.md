@@ -50,7 +50,7 @@ The following list summarizes the 10 most important health benefits of horse che
 
 Horse Chestnut (Aesculus hippocastanum) stands out for its rich reservoir of essential constituents, each contributing to potential health benefits. Aescin, a major bioactive compound, is recognized for its anti-inflammatory and vasoconstrictive effects. Flavonoids, including quercetin and kaempferol, demonstrate antioxidant capabilities, with quercetin content in horse chestnut extract reported at approximately 45 micrograms per gram. Tannins, known for their astringency, add to the anti-inflammatory properties. Saponins, with foaming characteristics, offer anti-inflammatory and anti-edematous effects. Coumarins, especially esculin, suggest potential anticoagulant and anti-inflammatory activity.
 
-The following illustration shows the most important constituents of horse chestnut for medicinal purposes.
+The following illustration shows the most important active constituents of horse chestnut for medicinal purposes.
 
 
 

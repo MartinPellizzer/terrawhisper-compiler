@@ -105,6 +105,7 @@ for entity in entities:
     with open(f'database/articles/{entity}/medicine/benefits/precautions.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/medicine/benefits/preparations.md', 'a', encoding='utf-8') as f: pass
     with open(f'database/articles/{entity}/medicine/benefits/side-effects.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicine/benefits/constituents.md', 'a', encoding='utf-8') as f: pass
 
 
     # constituents
@@ -118,6 +119,8 @@ for entity in entities:
         else: num = f'{i}'
         item_formatted = item.lower().replace(' ', '-')
         with open(f'database/articles/{entity}/medicine/constituents/{num}-{item_formatted}.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicine/constituents/benefits.md', 'a', encoding='utf-8') as f: pass
+    with open(f'database/articles/{entity}/medicine/constituents/parts.md', 'a', encoding='utf-8') as f: pass
     
 
     # preparations

@@ -48,7 +48,7 @@ The following list summarizes the 10 most important health benefits of galangal.
 
 Galangal (Alpinia officinarum) contains significant quantities of galangin, ranging from 0.3% to 2.0% in its rhizomes, exhibiting potent antioxidant properties. Galangol, found in concentrations varying from 0.05% to 0.15%, showcases noteworthy anti-inflammatory and analgesic effects. Additionally, the essential oil extracted from galangal comprises cineol in quantities ranging between 20% to 50%, pinene at around 10% to 25%, and terpineol at approximately 5% to 15%. These components contribute to the herb's substantial antimicrobial activity against various bacteria and fungi.
 
-The following illustration shows the most important constituents of galangal for medicinal purposes.
+The following illustration shows the most important active constituents of galangal for medicinal purposes.
 
 
 

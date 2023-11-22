@@ -1419,17 +1419,64 @@ def medicine_benefits_2():
         ''')
 
 
+    print(f'''CONSTITUENTS
+        
+        Write a paragraph about the health benefits of yarrow.
+        Write as many details as possible in as few words as possible. Don't give numbers.
+
+        Start the paragraph with the following words:
+
+       Yarrow brings many health benefits. Overall, the most common ones are
+
+        ''')
+        
+    print(f'''PREPARATIONS
+        
+        Write a paragraph about the most commonly used preparations of {common_name} ({latin_name}) and the uses of those preparations.
+        Write as many details as possible in as few words as possible.
+
+        Start the paragraph with the following words:
+
+        There are many preparations and uses of {common_name}, such as
+
+        ''')
+
+    print(f'''SIDE EFFECTS
+
+        Write a paragraph about the most common side effects of {common_name} ({latin_name}) for medicinal purposes.
+        Write as many details as possible in as few words as possible.
+
+        Start the paragraph with the following words:
+
+        There may be some side effects associated with {common_name} if this medicinal herb is misused.
+
+
+        ''')
+        
+    print(f'''PRECAUTIONS
+
+        Write a paragraph about the most useful precautions to take when using {common_name} ({latin_name}) for medicinal purposes.
+        Write as many details as possible in as few words as possible.
+
+        Start the paragraph with the following words:
+
+        It's important to take some precautions when using {common_name} as a medicine.
+
+
+        ''')
+
+
 def medicine_constituents():
     
     rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/constituents.csv', entity)
     benefits = [f'{x[1]}' for x in rows[:10]]
-    images_text = ''
+    images = ''
     for i, item in enumerate(benefits):
-        images_text += f'''{i}.
+        images += f'''{i}.
         
         Here's a constituent of {common_name} ({latin_name}): {item}.
 
-        Give me a list of 10 health benefits of this constituents.
+        Give me a list of 10 health benefits of this constituent.
         Only give me health benefits related specifically to this constituent, don't give me other general benefits.
         Give me only the health benefits, don't add descriptions.
         Order the list from the most relevant health benefits to the least relevant.
@@ -1447,10 +1494,10 @@ def medicine_constituents():
     # Start the first paragraph with the following sentence: {common_name} ability to {item} refers . 
     # Also, correct this sentence if it has grammatical errors.
 
-    benefits_text = ''
+    text = ''
     for i, item in enumerate(benefits):
         problem = ' '.join(item.split(' ')[1:])
-        benefits_text += f'''{i}.
+        text += f'''{i}.
 
         Write 3 paragraphs about the following constituent of {common_name}: {item}.
 
@@ -1472,13 +1519,35 @@ def medicine_constituents():
 
     print(f'''BENEFITS
 
-        {benefits_text}
+        {text}
 
-        {images_text}
+        {images}
 
 
         ''')
 
+
+    print(f'''BENEFITS
+        
+        Write a paragraph about the health benefits of {common_name} ({latin_name}).
+        Write as many details as possible in as few words as possible. Don't give numbers.
+
+        Start the paragraph with the following words:
+
+        {common_name}'s constituents bring many health benefits, but the most important ones are
+
+        ''')
+
+    print(f'''PARTS
+        
+        Write a paragraph about which parts of {common_name} ({latin_name}) have the highest concentration of medicinal constituents.
+        Write as many details as possible in as few words as possible. Don't give numbers.
+
+        Start the paragraph with the following words:
+
+        The parts of {common_name} that have the highest concentration of medicinal constituents are
+        
+        ''')
 
     print(f'''PREPARATIONS
         
@@ -1807,6 +1876,8 @@ def get_procedure():
     print('-------------------------------------------------')
     print()
     print('\n>>>> \n\ntemplate.py angelica-sinensis common-names')
+
+
 
 
 

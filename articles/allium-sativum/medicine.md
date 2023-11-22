@@ -54,7 +54,7 @@ The following list summarizes the 10 most important health benefits of garlic.
 
 Garlic (Allium sativum) is a nutritional powerhouse, featuring a rich composition of bioactive compounds that contribute to its myriad health benefits. Allicin, a sulfur-containing compound formed upon crushing garlic, exhibits potent antimicrobial properties. Diallyl sulfide (DAS) and diallyl disulfide (DADS), both sulfur compounds, have been implicated in cardiovascular health, demonstrating antioxidant effects. S-allyl cysteine (SAC), a water-soluble derivative of allicin formed during garlic aging, is associated with cardiovascular benefits and potential anti-cancer effects.
 
-The following illustration shows the most important constituents of garlic for medicinal purposes.
+The following illustration shows the most important active constituents of garlic for medicinal purposes.
 
 
 

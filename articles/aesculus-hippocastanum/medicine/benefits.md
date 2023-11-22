@@ -25,7 +25,7 @@ To harness the circulation-improving benefits of Horse Chestnut, the seeds are t
 
 ## 2. Relieves Swelling
 
-Horse Chestnut (Aesculus hippocastanum) relieves swelling thanks to its rich content of aescin, a bioactive compound known for its anti-inflammatory properties. Aescin, primarily found in the seeds of the horse chestnut, acts as a potent saponin that helps reduce swelling by inhibiting the release of inflammatory mediators and promoting venous tone. The seeds contain approximately 16-20% aescin, with individual compounds such as β-aescin and α-aescin contributing to its therapeutic effects. These constituents work synergistically to enhance capillary integrity, reduce fluid leakage, and improve lymphatic drainage, effectively addressing swelling associated with various health conditions.
+Horse Chestnut (Aesculus hippocastanum) relieves swelling thanks to its rich content of aescin, a bioactive compound known for its anti-inflammatory properties. Aescin, primarily found in the seeds of the Horse Chestnut, acts as a potent saponin that helps reduce swelling by inhibiting the release of inflammatory mediators and promoting venous tone. The seeds contain approximately 16-20% aescin, with individual compounds such as β-aescin and α-aescin contributing to its therapeutic effects. These constituents work synergistically to enhance capillary integrity, reduce fluid leakage, and improve lymphatic drainage, effectively addressing swelling associated with various health conditions.
 
 The primary constituents and preparations that make horse chestnut relieve swelling are shown in the following illustration.
 
@@ -38,16 +38,16 @@ To harness the swelling-relieving benefits of Horse Chestnut, the seeds are the 
 
 ## 3. Strengthens Capillaries
 
-Horse Chestnut strengthens capillaries thanks to its rich content of aescin, a bioactive compound renowned for its vascular protective properties. Aescin acts by inhibiting enzymes that break down capillary walls, reducing permeability and preventing fluid leakage. The seeds of Aesculus hippocastanum contain approximately 13-30% aescin, with studies indicating that higher concentrations yield more pronounced vascular benefits. Furthermore, horse chestnut contains significant quantities of flavonoids such as quercetin and kaempferol, which contribute to its anti-inflammatory and antioxidant effects, further supporting capillary integrity. The synergistic action of these constituents reinforces blood vessel walls, reducing the risk of capillary fragility and associated issues.
+Horse Chestnut strengthens capillaries thanks to its rich content of aescin, a bioactive compound renowned for its vascular protective properties. Aescin acts by inhibiting enzymes that break down capillary walls, reducing permeability and preventing fluid leakage. The seeds of Aesculus hippocastanum contain approximately 13-30% aescin, with studies indicating that higher concentrations yield more pronounced vascular benefits. Furthermore, Horse Chestnut contains significant quantities of flavonoids such as quercetin and kaempferol, which contribute to its anti-inflammatory and antioxidant effects, further supporting capillary integrity. The synergistic action of these constituents reinforces blood vessel walls, reducing the risk of capillary fragility and associated issues.
 
 The primary constituents and preparations that make horse chestnut strengthen capillaries are shown in the following illustration.
 
 ![Horse Chestnut Strengthens Capillaries](/images/aesculus-hippocastanum-medicine-benefits-strengthens-capillaries.jpg "Horse Chestnut Strengthens Capillaries")
 
 
-Examples of health conditions that can benefit from Horse Chestnut's capillary-strengthening effects include chronic venous insufficiency (CVI), a condition characterized by poor blood circulation in the legs. Studies have shown that horse chestnut extract can alleviate symptoms like leg swelling and pain in individuals with CVI. Additionally, conditions such as varicose veins and hemorrhoids, both stemming from compromised blood vessel function, may also benefit from the vascular support provided by horse chestnut.
+Examples of health conditions that can benefit from Horse Chestnut's capillary-strengthening effects include chronic venous insufficiency (CVI), a condition characterized by poor blood circulation in the legs. Studies have shown that Horse Chestnut extract can alleviate symptoms like leg swelling and pain in individuals with CVI. Additionally, conditions such as varicose veins and hemorrhoids, both stemming from compromised blood vessel function, may also benefit from the vascular support provided by Horse Chestnut.
 
-To harness the capillary-strengthening benefits of Horse Chestnut, the seeds are commonly utilized. Extracts with standardized aescin content, ranging from 16% to 20%, are widely available and recommended for therapeutic use. These extracts can be formulated into oral supplements, creams, or gels for topical application. The recommended dosage for oral supplements typically ranges from 100 to 300 mg per day, depending on the severity of the condition. External applications, such as gels or creams containing horse chestnut extract, can be directly applied to affected areas to enhance local vascular resilience.
+To harness the capillary-strengthening benefits of Horse Chestnut, the seeds are commonly utilized. Extracts with standardized aescin content, ranging from 16% to 20%, are widely available and recommended for therapeutic use. These extracts can be formulated into oral supplements, creams, or gels for topical application. The recommended dosage for oral supplements typically ranges from 100 to 300 mg per day, depending on the severity of the condition. External applications, such as gels or creams containing Horse Chestnut extract, can be directly applied to affected areas to enhance local vascular resilience.
 
 ## 4. Diminishes Varicose Veins
 
@@ -77,16 +77,16 @@ To harness the health benefits of Horse Chestnut for hemorrhoids, the seeds are 
 
 ## 6. Alleviates Leg Cramps
 
-Horse Chestnut alleviates leg cramps thanks to its rich content of aescin, a bioactive compound with potent anti-inflammatory properties. Aescin, found in the seeds of Aesculus hippocastanum, acts as a venotonic agent by reducing capillary permeability and improving blood flow, thereby diminishing edema and inflammation. Studies indicate that horse chestnut extracts typically contain around 16-20% aescin, with a recommended daily dosage ranging from 50 to 150 mg. This natural remedy for leg cramps works by enhancing the tone and strength of veins, preventing the leakage of fluids that can lead to cramping.
+Horse Chestnut alleviates leg cramps thanks to its rich content of aescin, a bioactive compound with potent anti-inflammatory properties. Aescin, found in the seeds of Aesculus hippocastanum, acts as a venotonic agent by reducing capillary permeability and improving blood flow, thereby diminishing edema and inflammation. Studies indicate that Horse Chestnut extracts typically contain around 16-20% aescin, with a recommended daily dosage ranging from 50 to 150 mg. This natural remedy for leg cramps works by enhancing the tone and strength of veins, preventing the leakage of fluids that can lead to cramping.
 
 The primary constituents and preparations that make horse chestnut alleviate leg cramps are shown in the following illustration.
 
 ![Horse Chestnut Alleviates Leg Cramps](/images/aesculus-hippocastanum-medicine-benefits-alleviates-leg-cramps.jpg "Horse Chestnut Alleviates Leg Cramps")
 
 
-Various health conditions can benefit from Horse Chestnut's ability to alleviate leg cramps. Chronic venous insufficiency (CVI), characterized by leg pain, swelling, and cramping, often sees improvement with the regular use of horse chestnut extracts. Additionally, conditions such as varicose veins and restless leg syndrome may benefit from the vascular support provided by aescin, promoting better circulation and reducing the frequency and intensity of leg cramps.
+Various health conditions can benefit from Horse Chestnut's ability to alleviate leg cramps. Chronic venous insufficiency (CVI), characterized by leg pain, swelling, and cramping, often sees improvement with the regular use of Horse Chestnut extracts. Additionally, conditions such as varicose veins and restless leg syndrome may benefit from the vascular support provided by aescin, promoting better circulation and reducing the frequency and intensity of leg cramps.
 
-To harness the health benefits of Horse Chestnut for alleviating leg cramps, the seeds are the primary source. These can be processed into extracts or tinctures, with a standard dosage of around 50 mg of aescin three times daily. Alternatively, topical preparations, such as creams or ointments containing horse chestnut extract, can be applied directly to the affected areas for localized relief. It's crucial to note that the efficacy of these preparations may vary, and consulting with a healthcare professional for personalized advice is recommended.
+To harness the health benefits of Horse Chestnut for alleviating leg cramps, the seeds are the primary source. These can be processed into extracts or tinctures, with a standard dosage of around 50 mg of aescin three times daily. Alternatively, topical preparations, such as creams or ointments containing Horse Chestnut extract, can be applied directly to the affected areas for localized relief. It's crucial to note that the efficacy of these preparations may vary, and consulting with a healthcare professional for personalized advice is recommended.
 
 ## 7. Supports Joint Health
 
@@ -142,21 +142,17 @@ To harness the edema-reducing benefits of Horse Chestnut, the seeds are the prim
 
 ## How to properly use horse chestnut to get its benefits?
 
-There are many preparations and uses of Horse Chestnut, such as capsules and extracts utilized primarily for treating chronic venous insufficiency (CVI) symptoms like leg swelling and varicose veins. Topical creams or gels containing horse chestnut are applied to alleviate symptoms of hemorrhoids and reduce inflammation. Tinctures and teas, albeit less common, may offer mild relief for circulatory issues or aid in reducing fever due to their astringent properties. However, caution is advised as raw or improperly processed horse chestnut seeds contain toxic compounds.
+There are many preparations and uses of Horse Chestnut, such as capsules and extracts utilized primarily for treating chronic venous insufficiency (CVI) symptoms like leg swelling and varicose veins. Topical creams or gels containing Horse Chestnut are applied to alleviate symptoms of hemorrhoids and reduce inflammation. Tinctures and teas, albeit less common, may offer mild relief for circulatory issues or aid in reducing fever due to their astringent properties. However, caution is advised as raw or improperly processed Horse Chestnut seeds contain toxic compounds.
 
 
 
-Given the many [uses and preparations of horse chestnut](/aesculus-hippocastanum/medicine/preparations.html), it's important to be aware about the possible side effects of this plant and what precautions to take when using it.
-
-
-
-### What health side effects can horse chestnut have if used improperly?
+## What health side effects can horse chestnut have if used improperly?
 
 There may be some side effects associated with Horse Chestnut if this medicinal herb is misused. Common side effects include gastrointestinal issues such as nausea, stomach upset, and diarrhea. Skin reactions like itching, rash, or irritation may occur. In some cases, headaches or dizziness have been reported. Horse Chestnut contains a compound called aesculin, which can be toxic if taken in high doses and may lead to serious effects such as liver damage, muscle twitching, and even coma. People allergic to the plant might experience severe reactions. Pregnant or breastfeeding women and individuals with bleeding disorders or certain health conditions should avoid its use due to potential risks. Consulting a healthcare professional before use is advisable to minimize the risk of adverse effects.
 
 
 
-### What precautions should you take before using horse chestnut for medicinal purposes?
+## What precautions should you take before using horse chestnut for medicinal purposes?
 
 It's important to take some precautions when using Horse Chestnut as a medicine. Avoid consuming raw seeds or preparations with high levels of esculin due to potential toxicity. Consult a healthcare professional for proper dosing as excessive use can lead to adverse effects like nausea, dizziness, or liver damage. Use standardized extracts with low esculin content. Avoid if pregnant, breastfeeding, or with bleeding disorders. Check for allergic reactions before usage.
 
