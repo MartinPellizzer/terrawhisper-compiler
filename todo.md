@@ -1,11 +1,14 @@
-- write secondary content to medicine-constituents (last 2)
+- write preparations articles (1 x day)
+
+- regenerate intro yarrow constituents
+
 - write secondary content to medicine-preparations
+
 - complete yarrow topical map
 
 - do better titles on articles
 - redo the health benefits of previous plants again?
 
-- write preparations articles (1 x day)
 - use only one function to generate images (fix old posts lists benefits)
 
 - pinterest

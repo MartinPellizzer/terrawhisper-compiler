@@ -88,7 +88,7 @@ Yarrow contains a diverse array of constituents that contribute to its immune-bo
 
 The immune-boosting properties of Yarrow can potentially aid in various health conditions. Its ability to enhance immunity may offer support in combating respiratory infections, such as colds, flu, and bronchitis. Additionally, the plant's immunomodulatory effects could contribute to improving overall immune function, potentially benefiting individuals with autoimmune disorders by helping regulate their immune responses. Furthermore, Yarrow's immune-enhancing properties may assist in reducing the severity and duration of infections by supporting the body's natural defense mechanisms. However, while Yarrow shows promise in boosting immunity, it's essential to consult with a healthcare professional before using it to address specific health concerns or conditions.
 
-## 7. Alleviates Anxiety and Stress
+## 7. Alleviates Anxiety And Stress
 
 Yarrow's ability to alleviate anxiety and stress refers to its capacity to soothe the nervous system and promote relaxation, thereby reducing feelings of tension, worry, and unease. Scientific studies have suggested that Yarrow can be moderately effective in alleviating anxiety and stress, showing around a 50-60% effectiveness rate in providing relief from these conditions. This effectiveness can vary based on individual reactions, dosage, and the severity of anxiety or stress experienced.
 

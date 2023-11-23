@@ -2459,7 +2459,7 @@ for i, row in enumerate(articles_master_rows[1:]):
             if i < 10: num = f'0{i}'
             else: num = f'{i}'
         
-            title_section = f'## {i+1}. {item}\n\n'
+            title_section = f'## {i+1}. {item.title()}\n\n'
             item_formatted = item.replace(' ', '-').lower()
             filename = f'{num}-{item_formatted}'
             filepath = f'medicine/benefits/{filename}'
@@ -2542,7 +2542,7 @@ for i, row in enumerate(articles_master_rows[1:]):
             if i < 10: num = f'0{i}'
             else: num = f'{i}'
 
-            title_section = f'## {i+1}. {item}\n\n'
+            title_section = f'## {i+1}. {item.title()}\n\n'
             item_formatted = item.replace(' ', '-').lower()
             filename = f'{num}-{item_formatted}'
             filepath = f'medicine/constituents/{filename}'
@@ -2568,9 +2568,18 @@ for i, row in enumerate(articles_master_rows[1:]):
         content = get_content_2(f'database/articles/{entity}/medicine/constituents/parts.md')
         content = content.replace(common_name.lower(), common_name.title())
         if content.strip() != '':
-            article += f'## Which parts of {common_name} have the highest concentration of medicinal constituents?' + '\n\n'
+            article += f'## What parts of {common_name} have the highest concentration of biochemical compounds?' + '\n\n'
             article += content + '\n\n'
 
+        content = get_content_2(f'database/articles/{entity}/medicine/constituents/preparations.md')
+        content = content.replace(common_name.lower(), common_name.title())
+        if content.strip() != '':
+            article += f'## What medicinal preparations of {common_name} have the most constituents?' + '\n\n'
+            tmp_rows = [r for r in articles_master_rows if r[articles_dict['entity']] == entity]
+            tmp_rows = [r for r in tmp_rows if r[articles_dict['attribute_2']] == 'preparations']
+            if tmp_rows: content = content.replace(f'medicinal preparations of {common_name.title()}', f'[medicinal preparations of {common_name.title()}](/{entity}/{attribute_1.lower()}/preparations.html)')
+            article += content + '\n\n'
+            
         content = get_content_2(f'database/articles/{entity}/medicine/constituents/benefits.md')
         content = content.replace(common_name.lower(), common_name.title())
         if content.strip() != '':
@@ -2578,6 +2587,15 @@ for i, row in enumerate(articles_master_rows[1:]):
             tmp_rows = [r for r in articles_master_rows if r[articles_dict['entity']] == entity]
             tmp_rows = [r for r in tmp_rows if r[articles_dict['attribute_2']] == 'benefits']
             if tmp_rows: content = content.replace(f'{common_name.title()}\'s constituents bring many health benefits', f'[{common_name.title()}\'s constituents bring many health benefits](/{entity}/{attribute_1.lower()}/benefits.html)')
+            article += content + '\n\n'
+            
+        content = get_content_2(f'database/articles/{entity}/medicine/constituents/side-effects.md')
+        content = content.replace(common_name.lower(), common_name.title())
+        if content.strip() != '':
+            article += f'## What are the possible side effects of an overdose of {common_name}\'s active compounds?' + '\n\n'
+            tmp_rows = [r for r in articles_master_rows if r[articles_dict['entity']] == entity]
+            tmp_rows = [r for r in tmp_rows if r[articles_dict['attribute_2']] == 'benefits']
+            if tmp_rows: content = content.replace(f'Overdosing {common_name.title()}\'s constituents may cause side effects', f'[Overdosing {common_name.title()}\'s constituents may cause side effects](/{entity}/{attribute_1.lower()}/benefits.html)')
             article += content + '\n\n'
             
 
@@ -2607,7 +2625,7 @@ for i, row in enumerate(articles_master_rows[1:]):
             if i < 10: num = f'0{i}'
             else: num = f'{i}'
 
-            title_section = f'## {i+1}. {item}\n\n'
+            title_section = f'## {i+1}. {item.title()}\n\n'
             item_formatted = item.replace(' ', '-').lower()
             filename = f'{num}-{item_formatted}'
             filepath = f'medicine/preparations/{filename}'

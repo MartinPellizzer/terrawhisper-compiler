@@ -77,7 +77,7 @@ The constituents primarily responsible for Burdock's blood sugar-regulating prop
 
 The ability of Burdock to regulate blood sugar levels can be beneficial for various health conditions, especially diabetes. By assisting in maintaining stable glucose levels, Burdock may help manage the symptoms associated with diabetes, such as excessive thirst, frequent urination, fatigue, and fluctuations in energy levels. Moreover, its potential in improving insulin sensitivity could be beneficial not only for those with diabetes but also for individuals at risk of developing the condition, offering a natural approach to support overall metabolic health.
 
-## 6. Acts as an Antioxidant
+## 6. Acts As An Antioxidant
 
 Burdock's ability to act as an antioxidant refers to its capacity to counteract oxidative stress within the body. This plant possesses compounds that help neutralize harmful free radicals, which are unstable molecules that can cause cellular damage. Studies have indicated the effectiveness of Burdock in antioxidant activity, with research suggesting it can demonstrate up to 80% effectiveness in scavenging free radicals, thereby reducing oxidative stress.
 
@@ -129,7 +129,7 @@ The constituents primarily responsible for Burdock's hormone-balancing propertie
 
 Burdock's ability to balance hormones can be beneficial for various health conditions related to hormonal imbalances. It is often used to alleviate symptoms associated with premenstrual syndrome (PMS), menopause, and hormonal acne. Moreover, its hormone-regulating properties may assist in managing conditions like polycystic ovary syndrome (PCOS) and supporting overall reproductive health in both men and women. Additionally, Burdock's impact on hormones can influence mood stability, energy levels, and overall well-being by promoting hormonal harmony within the body.
 
-## 10. Assists in Weight Management
+## 10. Assists In Weight Management
 
 Burdock's ability to assist in weight management refers to its capacity to support weight loss or weight maintenance in individuals. Studies have indicated a moderate effectiveness of Burdock in aiding weight management, with a roughly 5-7% reduction in body weight observed in some individuals when incorporated into their diet over several weeks. This effectiveness, while not drastic, demonstrates a supportive role in weight management strategies.
 

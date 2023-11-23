@@ -62,7 +62,7 @@ This health benefit proves particularly beneficial in managing various spasmodic
 
 In medicinal applications, Visnaga utilizes its fruit, specifically the mature fruits or seeds, to harness the therapeutic benefits targeting spasmodic conditions. The seeds contain the highest concentrations of khellin and visnagin, making them the primary source for medicinal purposes. The seeds are dried and processed to create extracts, tinctures, or supplements, ensuring a concentrated and standardized dosage of the active compounds. This targeted utilization of Visnaga parts maximizes its effectiveness in managing spasmodic conditions and facilitates ease of administration in various medicinal forms.
 
-## 5. Aids in Digestion
+## 5. Aids In Digestion
 
 Visnaga's ability to aid in digestion refers to its capacity to support and improve the digestive process within the human body. This plant contains active constituents such as khellin and visnagin, which are predominantly responsible for its digestive benefits. Khellin, present in Visnaga in concentrations ranging from 0.6% to 2.0%, acts as a smooth muscle relaxant, particularly in the gastrointestinal tract. This compound assists in relaxing the muscles of the digestive system, including the intestines, thereby aiding in smoother peristalsis and reducing spasms. Visnagin, found in quantities between 0.3% and 0.9%, possesses anti-inflammatory properties that can help alleviate digestive discomfort and reduce inflammation in the gut, further contributing to improved digestion.
 
@@ -88,7 +88,7 @@ The anti-inflammatory benefits of Visnaga offer relief and support for various h
 
 In traditional medicine and herbal remedies, different parts of the Visnaga plant are utilized to harness its anti-inflammatory properties. The seeds of Visnaga, containing khellin and visnagin, are predominantly used for medicinal purposes. Extracts derived from the seeds are prepared in various forms such as tinctures, teas, or capsules, allowing for easy consumption and absorption of the bioactive compounds. The seeds are often ground and processed to create standardized extracts, ensuring consistent levels of khellin and visnagin for therapeutic use in reducing inflammation.
 
-## 7. Assists in Menstrual Disorders
+## 7. Assists In Menstrual Disorders
 
 Visnaga's ability to assist in menstrual disorders refers to its capacity to alleviate symptoms and regulate menstrual cycles. This benefit primarily stems from the plant's active constituents, particularly khellin and visnagin. Khellin, found in notable quantities in Visnaga, contributes to smooth muscle relaxation and acts as a vasodilator. It aids in reducing uterine contractions and spasms, relieving menstrual cramps and discomfort. Visnagin, another significant compound in Visnaga, exhibits antispasmodic properties, further supporting the easing of muscle tension associated with menstrual disorders. Approximately 2-4% of the dried fruit's composition comprises khellin, while visnagin constitutes around 1-2%, highlighting their pivotal roles in rendering this health benefit.
 
@@ -101,7 +101,7 @@ The health benefit of Visnaga in assisting menstrual disorders addresses various
 
 The dried fruits or seeds of Visnaga, known as "khella," are primarily used to derive the health benefit associated with menstrual disorders. These seeds contain the concentrated amounts of khellin and visnagin responsible for the plant's therapeutic effects in alleviating menstrual discomfort. Extracts or preparations made from Visnaga seeds are commonly utilized in herbal remedies, teas, or tinctures aimed at managing menstrual disorders. The seeds' potency and high concentrations of active compounds make them the preferred part of the plant for addressing menstrual health issues.
 
-## 8. Acts as a Diuretic
+## 8. Acts As A Diuretic
 
 Visnaga's ability to act as a diuretic refers to its capacity to increase urine production and promote the expulsion of excess water and salts from the body. This effect aids in reducing fluid retention and bloating. The primary constituents in Visnaga responsible for its diuretic properties are khellin and visnagin. Khellin, present in significant quantities within the plant, contributes to its smooth muscle-relaxant and vasodilatory effects. Visnagin, another key compound, further enhances these effects, stimulating the kidneys to increase urine output. Studies indicate that khellin comprises approximately 1.5% to 3% of the dried plant material, while visnagin content ranges from 0.5% to 1.5%.
 

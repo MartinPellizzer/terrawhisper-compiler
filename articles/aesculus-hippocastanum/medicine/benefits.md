@@ -101,7 +101,7 @@ Various health conditions related to joint inflammation and pain can benefit fro
 
 To harness the joint health benefits of Horse Chestnut, the seeds are the primary part used. Extracts from Horse Chestnut seeds, standardized to contain a specific percentage of aescin, are commonly available in supplement form. A typical dosage for joint health support is around 100-150 mg of standardized extract, containing 16-20% aescin, taken two to three times daily. Additionally, topical preparations, such as creams or gels containing Horse Chestnut extract, can be applied directly to affected joints for localized relief. It is important to ensure the product used is of high quality and standardized to guarantee consistent levels of aescin for optimal joint health benefits.
 
-## 8. Manages Chronic Venous Insufficiency (CVI)
+## 8. Manages Chronic Venous Insufficiency (Cvi)
 
 Horse Chestnut manages chronic venous insufficiency (CVI) thanks to its rich content of aescin, a bioactive compound with potent anti-inflammatory and venotonic properties. Aescin enhances venous tone by inhibiting enzymes that break down capillary walls, reducing fluid leakage and promoting optimal blood circulation. The seed extract of Horse Chestnut contains approximately 16-20% aescin, with a recommended dosage of 300 mg daily demonstrating efficacy in clinical studies. Additionally, Horse Chestnut offers flavonoids like quercetin and kaempferol, further contributing to its anti-inflammatory effects and bolstering the plant's therapeutic potential for CVI.
 
@@ -114,7 +114,7 @@ Examples of health conditions that can benefit from Horse Chestnut's management 
 
 To harness the health benefits of Horse Chestnut for managing CVI, the seeds are the primary part used. Extracts, capsules, or topical creams containing standardized aescin levels are common preparations. The recommended dosage for Horse Chestnut seed extract is typically 50-150 mg of aescin per day, divided into two or three doses. These formulations provide a convenient and standardized way to incorporate the therapeutic compounds of Horse Chestnut into a targeted treatment regimen for chronic venous insufficiency.
 
-## 9. Reduces Itching and Discomfort
+## 9. Reduces Itching And Discomfort
 
 Horse Chestnut reduces itching and discomfort thanks to its rich content of aescin, a bioactive compound known for its anti-inflammatory and vasoprotective properties. Aescin, predominantly found in the seeds of Aesculus hippocastanum, functions by inhibiting enzymes that break down capillary walls and promoting fluid drainage from surrounding tissues. Analysis reveals that Horse Chestnut seeds contain approximately 16-20% aescin, with individual seeds boasting a content ranging from 1.5% to 3%. These constituents contribute significantly to the plant's ability to alleviate itching and discomfort by reducing inflammation and promoting blood circulation.
 
@@ -127,7 +127,7 @@ Various health conditions find relief through Horse Chestnut's efficacy in reduc
 
 To harness the health benefits of Horse Chestnut in reducing itching and discomfort, one can utilize the seeds of the plant. Extracts or ointments with aescin concentrations ranging from 2% to 20% have demonstrated effectiveness in topical applications. Additionally, oral supplements containing standardized aescin extracts, typically ranging from 100 to 200 mg per dose, can be taken to address systemic issues contributing to itching and discomfort. It is essential to consider these specific preparations for optimal utilization of Horse Chestnut's therapeutic properties.
 
-## 10. Aids in Edema Management
+## 10. Aids In Edema Management
 
 Horse Chestnut aids in edema management thanks to its rich content of aescin, a bioactive compound with potent anti-inflammatory properties. Aescin, a mixture of triterpene saponins, plays a pivotal role in reducing edema by enhancing the tone and elasticity of veins, thereby promoting efficient blood circulation. The Horse Chestnut seed contains approximately 16-20% aescin, with effective therapeutic doses ranging from 50 to 150 mg per day. Aescin primarily acts by stabilizing cell membranes and preventing the release of inflammatory mediators, leading to decreased capillary permeability and fluid accumulation in tissues.
 

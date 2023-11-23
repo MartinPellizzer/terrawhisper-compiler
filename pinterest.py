@@ -237,6 +237,11 @@ for i, row in enumerate(master_rows[1:]):
     common_name = common_names[0][1].lower()
     common_name_formatted = common_name.lower().replace(' ', '-')
 
+    today_day = datetime.now().day
+    if int(last_day) == int(today_day): 
+        print(f'>> skipped {entity} {url}')
+        continue
+
     # 10 health benefits of yarrow (Achillea millefolium)
     # 10 medicinal preparations of yarrow (Achillea millefolium)
     num_benefit = int(current_image) % 10
@@ -244,11 +249,13 @@ for i, row in enumerate(master_rows[1:]):
         rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
         attribute = [f'{x[1]}' for x in rows[:10]][num_benefit]
         title = f'{common_name.title()} {attribute}: How to Use It'
+        img_title = f'{common_name.title()} {attribute}'
     elif org.strip() == 'medicine/preparations':
-        continue
+        # continue
         rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/preparations.csv', entity)
         attribute = [f'{x[1]}' for x in rows[:10]][num_benefit]
-        title = f'{preparation}: Uses and Preparation'
+        title = f'{attribute}: Uses, Benefits, and Preparation'
+        img_title = f'{attribute} Preparation and Benefits'
 
     url = f'http://terrawhisper.com/{entity}/{org}.html'
 
@@ -286,7 +293,7 @@ for i, row in enumerate(master_rows[1:]):
         entity,
         common_name,
         img_filepath,
-        f'{common_name.title()} {attribute}',
+        img_title,
         attribute,
     )
 
@@ -320,11 +327,9 @@ for i, row in enumerate(master_rows[1:]):
     time.sleep(5)
 
     e = driver.find_element(By.XPATH, '//input[@id="pickerSearchField"]')
-    # e.send_keys(common_name_title) 
     e.send_keys('Medicinal Plants') 
     time.sleep(3)
 
-    # e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-{common_name_title} ({latin_name})"]')
     e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-Medicinal Plants"]')
     e.click()
     time.sleep(3)
@@ -336,7 +341,27 @@ for i, row in enumerate(master_rows[1:]):
 
     driver.get("https://www.google.com/")
 
+    new_rows = []
+    for new_row in master_rows:
+        curr_entity = new_row[articles_dict['entity']].strip()
+        curr_org = new_row[articles_dict['org']].strip()
+        print(org, curr_org)
+
+        if entity == curr_entity and org == curr_org:
+            new_row[articles_dict['last_day']] = str(int(today_day))
+            new_row[articles_dict['current_image']] = str(int(new_row[articles_dict['current_image']]) + 1)
+            new_rows.append(new_row)
+        else:
+            new_rows.append(new_row)
+    # for row in new_rows:
+    #     print(row)
+
+    with open('pinterest/articles.csv', 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f, delimiter='\\')
+        writer.writerows(new_rows)
+
     time.sleep(300)
+
 
 driver.get("https://www.google.com/")
 

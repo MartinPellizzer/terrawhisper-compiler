@@ -62,7 +62,7 @@ Examples of health conditions that can benefit from Sweet Flag's blood sugar-reg
 
 The rhizomes of Sweet Flag are the primary parts utilized to harness its blood sugar-regulating benefits. These can be incorporated into various preparations, such as decoctions, infusions, or tinctures. A common method involves boiling 5 grams of dried Sweet Flag rhizomes in 250 ml of water for 15 minutes to create a decoction. This preparation can be consumed daily, contributing to the regulation of blood sugar levels. However, it is crucial to consult with a healthcare professional before incorporating Sweet Flag into one's routine, especially for individuals with existing medical conditions or those taking medications.
 
-## 5. Alleviates Stress and Anxiety
+## 5. Alleviates Stress And Anxiety
 
 Sweet flag alleviates stress and anxiety thanks to its rich composition of bioactive compounds, prominently featuring β-asarone. This constituent, found abundantly in the rhizomes of Acorus calamus, has been recognized for its anxiolytic and stress-relieving properties. Studies indicate that the rhizomes contain approximately 1.5-3.0% β-asarone by weight, showcasing the potency of this natural remedy. Additionally, the plant contains essential oils, including calamus oil, which contributes to its stress-alleviating effects. The synergistic action of these constituents provides a holistic approach to managing stress and anxiety.
 

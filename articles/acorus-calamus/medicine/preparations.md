@@ -49,7 +49,7 @@ To prepare sweet flag tincture, finely chop 50 grams of dried Acorus calamus rhi
 
 Dosage for sweet flag tincture can vary based on individual needs and the intended use. Typically, a dosage of 1 to 3 milliliters (equivalent to about 20-60 drops) diluted in water or juice is recommended, taken up to three times daily. However, caution should be exercised due to potential side effects such as nausea, vomiting, and headaches, especially when taken in high doses or for prolonged periods. It's crucial to consult a healthcare professional before use, especially for pregnant or breastfeeding individuals and those with underlying health conditions or taking medications, to avoid adverse reactions or interactions.
 
-## 4. Sweet Flag Capsules or Tablets
+## 4. Sweet Flag Capsules Or Tablets
 
 Sweet flag capsules or tablets are medicinal forms of Acorus calamus, a perennial herb renowned for its various therapeutic properties. Typically, these capsules or tablets contain powdered or concentrated extracts of sweet flag, offering convenience in dosage and consumption. Its uses span diverse medicinal applications, including aiding digestion, relieving gastrointestinal discomfort, and enhancing cognitive functions. The herb is rich in compounds like β-asarone, which contributes to its anti-inflammatory, antioxidant, and antimicrobial properties. Studies suggest its potential in managing conditions like Alzheimer's disease due to its neuroprotective effects.
 

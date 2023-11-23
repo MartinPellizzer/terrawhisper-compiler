@@ -1470,6 +1470,7 @@ def medicine_constituents():
     
     rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/constituents.csv', entity)
     benefits = [f'{x[1]}' for x in rows[:10]]
+
     images = ''
     for i, item in enumerate(benefits):
         images += f'''{i}.
@@ -1488,11 +1489,6 @@ def medicine_constituents():
         --------------------------------------------------------------------
         
         '''
-
-
-
-    # Start the first paragraph with the following sentence: {common_name} ability to {item} refers . 
-    # Also, correct this sentence if it has grammatical errors.
 
     text = ''
     for i, item in enumerate(benefits):
@@ -1516,8 +1512,7 @@ def medicine_constituents():
         
         '''
 
-
-    print(f'''BENEFITS
+    print(f'''MAIN
 
         {text}
 
@@ -1551,39 +1546,27 @@ def medicine_constituents():
 
     print(f'''PREPARATIONS
         
-        Write a paragraph about the most commonly used preparations of {common_name} ({latin_name}) and the uses of those preparations.
-        Write as many details as possible in as few words as possible.
+        Write a paragraph about which medicinal preparations of {common_name} ({latin_name}) have the most constituents.
+        Write as many details as possible in as few words as possible. Don't give numbers.
+        Don't mention the health benefits of these preparations.
 
         Start the paragraph with the following words:
 
-        There are many preparations and uses of {common_name}, such as
-
+        The medicinal preparations of {common_name.lower()} with the most constituents are
+        
         ''')
 
     print(f'''SIDE EFFECTS
 
-        Write a paragraph about the most common side effects of {common_name} ({latin_name}) for medicinal purposes.
-        Write as many details as possible in as few words as possible.
+        Write a paragraph about what are the possible side effects of overdosing on {common_name}'s active compounds.
+        Write as many details as possible in as few words as possible. Don't give numbers.
+        Don't mention the health benefits of these preparations.
 
         Start the paragraph with the following words:
 
-        There may be some side effects associated with {common_name} if this medicinal herb is misused.
-
-
-        ''')
+        Overdosing {common_name.lower()}'s constituents may cause side effects, such as 
         
-    print(f'''PRECAUTIONS
-
-        Write a paragraph about the most useful precautions to take when using {common_name} ({latin_name}) for medicinal purposes.
-        Write as many details as possible in as few words as possible.
-
-        Start the paragraph with the following words:
-
-        It's important to take some precautions when using {common_name} as a medicine.
-
-
         ''')
-
 
 def medicine_preparations():
     
@@ -1593,16 +1576,10 @@ def medicine_preparations():
     for i, item in enumerate(rows):
         images_text += f'''{i}.
 
-        Write me a list of 9 tips for making {item}.
-
-        Items 1, 2, and 3 are about the benefits of {item}. Start these items with a verb.
-        Items 4, 5, and 6 are about tips on how to prepare {item}.
-        Items 7, 8, and 9 are about preparation to take with {item}.
-
+        Write me a list of 10 health benefits of {item}.
+        Start the benefits with a verb.
         Write just the items, don't write descriptions.
         The items must be 5 words or less.
-
-        Don't mention consulting a healthcare professional in the items.
 
         >>>>
 

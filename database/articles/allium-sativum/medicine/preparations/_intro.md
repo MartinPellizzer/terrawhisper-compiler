@@ -1,0 +1,6 @@
+
+Garlic extract capsules, oil, tincture, aged supplements, paste, tea, powder, juice, poultice, and vinegar harness the medicinal properties of garlic. These preparations contain allicin and antioxidants, offering numerous health benefits. Capsules support cardiovascular health, immunity, digestion, and potential anticancer effects. 
+
+Oil, tincture, and aged supplements similarly aid heart health, immunity, and combat infections. Paste serves as a culinary flavor enhancer with health perks, while tea provides immune support and helps lower blood pressure. Powder is a versatile seasoning with potential immune-boosting properties. Juice offers health benefits but needs cautious consumption due to its potency. Poultice aids in skin issues and wound healing. Vinegar combines garlic's properties with vinegar's digestive benefits. 
+
+However, caution is necessary, considering potential side effects like digestive discomfort, allergies, or interactions with medications. Recommended dosages vary, requiring consultation with healthcare professionals before integrating these garlic preparations into routines, particularly for those with health concerns or on medications.

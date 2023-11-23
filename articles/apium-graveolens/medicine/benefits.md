@@ -63,7 +63,7 @@ The constituents primarily responsible for Celery's heart health benefits includ
 
 The benefit of supporting heart health through Celery consumption extends to various cardiovascular conditions. Regular intake of Celery may assist in reducing the risk of conditions such as atherosclerosis, heart attacks, and strokes. Its properties, including blood pressure regulation and reduction of oxidative stress, contribute to maintaining healthy blood vessels and overall cardiovascular function. The plant's ability to support heart health makes it a valuable addition to dietary habits aimed at preventing heart-related ailments and promoting a healthy heart.
 
-## 5. Hydrates the Body
+## 5. Hydrates The Body
 
 Celery's ability to hydrate the body refers to its high water content, which contributes significantly to maintaining optimal hydration levels. This vegetable consists of approximately 95% water by weight, making it an effective hydrating agent. Incorporating Celery into the diet can aid in keeping the body well-hydrated, promoting overall health. Consuming foods with high water content, like Celery, can contribute significantly to daily fluid intake. While individual needs vary based on factors such as age and activity level, adding Celery to one's diet can assist in meeting hydration needs, contributing to the body's water balance and overall hydration status.
 
@@ -102,7 +102,7 @@ The constituents primarily responsible for Celery's immune-boosting properties a
 
 The immune-boosting benefit of Celery aids in combatting various health conditions by fortifying the body's defense mechanisms. It helps in reducing the risk and severity of common illnesses like colds, flu, and infections. Additionally, Celery's support to the immune system can have positive implications for individuals managing chronic conditions by potentially reducing inflammation and oxidative stress, thus contributing to overall health and well-being.
 
-## 8. Detoxifies the Body
+## 8. Detoxifies The Body
 
 Celery's ability to detoxify the body involves the process of aiding in the removal of harmful toxins and waste products from the system, promoting overall health and well-being. Scientific studies have indicated that Celery exhibits a notable effectiveness in supporting detoxification processes, with some research suggesting its capability to assist in eliminating toxins by approximately 30% when consumed regularly. This vegetable's high water content (about 95% by weight) plays a crucial role in flushing out toxins from the body through increased urination, aiding the elimination of waste and potentially reducing toxin buildup.
 

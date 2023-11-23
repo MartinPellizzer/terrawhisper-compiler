@@ -88,7 +88,7 @@ The following list summarizes the 10 most important active constituents of garli
 
 Garlic (Allium sativum) stands as a potent health ally, presenting diverse preparations to harness its medicinal properties. When consumed raw, garlic delivers maximum allicin content, a compound renowned for its antibacterial and antifungal effects. Research indicates that raw garlic contains approximately 4.5 milligrams of allicin per gram. The crushing or chopping of garlic activates allicin formation, a process optimized by allowing it to sit for a few minutes before cooking. Lightly cooking or roasting garlic not only retains its nutritional value but also offers a milder flavor profile. Studies show that allicin content is preserved at around 70% when garlic is lightly cooked.
 
-The following illustration shows the most important medicinal preparations of garlic.
+The following illustration shows the most important [medicinal preparations of garlic](/allium-sativum/medicine/preparations.html).
 
 
 
@@ -105,16 +105,16 @@ The following list summarizes the 10 most important preparations of garlic to bo
 
 
 
-- **Garlic Raw Consumption**:   Eat raw garlic cloves for maximum health benefits, as it retains its potent allicin content, known for its antibacterial and antifungal properties.
-- **Garlic Crushing/Chopping**:   Crushing or chopping garlic releases allicin, enhancing its medicinal properties. Let it sit for a few minutes before cooking to maximize allicin formation.
-- **Garlic Cooking Lightly**:   Lightly cooking garlic can preserve its health benefits while making it milder. Avoid overcooking to maintain its nutritional value.
-- **Garlic Supplements**:   Consider garlic supplements if raw or cooked garlic is not preferable. These are available in various forms, such as capsules or oil extracts.
-- **Garlic Tea**:   Brew garlic tea by steeping crushed garlic cloves in hot water. This is a soothing way to incorporate garlic into your diet and can be sweetened with honey.
-- **Garlic Fermented Garlic**:   Fermenting garlic enhances its bioavailability and introduces probiotics. Fermented garlic can be consumed on its own or added to dishes.
-- **Garlic Oil**:   Make garlic-infused oil for culinary use. Use it in dressings or drizzle it on dishes for a mild garlic flavor while benefiting from its medicinal properties.
-- **Garlic Pickled**:   Pickling garlic preserves its nutritional value and adds a tangy flavor. Pickled garlic cloves make a tasty and healthy addition to salads or as a side dish.
-- **Garlic Roasting Whole Bulbs**:   Roast whole garlic bulbs for a milder taste. The cloves can be spread on bread or mixed into dishes for a rich, roasted flavor.
-- **Garlic Combining with Other Foods**:   Enhance the taste and health benefits by combining garlic with other nutritious foods. For example, garlic and ginger together create a potent immune-boosting combination.
+- **Garlic extract capsules**:   Concentrated doses for cardiovascular health and immune system support.
+- **Garlic oil**:   Applied topically for fungal infections and as an antimicrobial agent.
+- **Garlic tincture**:   Alcoholic extract used to alleviate respiratory issues and boost immunity.
+- **Aged garlic supplements**:   Known for reducing blood pressure and cholesterol levels.
+- **Garlic paste**:   Applied externally for its antibacterial properties on wounds and skin infections.
+- **Garlic tea**:   Consumed for its antioxidant properties, aiding digestion and reducing inflammation.
+- **Garlic powder**:   Versatile form used in cooking for health benefits, including immune support.
+- **Garlic juice**:   Consumed for detoxification, treating coughs, and promoting heart health.
+- **Garlic poultice**:   Applied to the chest for relieving congestion and aiding respiratory problems.
+- **Garlic vinegar**:   Used as a tonic for its antibacterial and antifungal properties, promoting overall health.
 
 ## What precautions should you take when using garlic as a medicine?
 
