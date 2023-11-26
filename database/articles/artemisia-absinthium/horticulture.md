@@ -1,0 +1,6 @@
+
+Wormwood, scientifically known as Artemisia absinthium, can thrive in various garden settings. When planting, ensure well-draining soil in a sunny spot. The seeds should be sown in early spring or late fall, just below the soil's surface, spaced about 30 centimeters apart. Regular watering aids germination, typically taking 10 to 20 days. Consider its invasive nature and opt for containers or controlled spaces to prevent unchecked spread.
+
+This hardy perennial herb favors arid, sunny conditions. It thrives in soil with a pH range between 6.0 to 8.0, preferring sandy or loamy textures. Wormwood's tolerance for poor soil quality makes it suitable for dry, rocky terrains. Moderate watering is sufficient once established, preventing waterlogged soil that could harm the plant. Full sun exposure is optimal, ensuring at least six hours of direct sunlight daily for robust growth.
+
+Pruning and maintenance are key to ensuring Wormwood's vitality. Regularly trim back the plant to control its height, ideally in late spring or early summer. Remove dead or damaged stems to encourage new growth. Avoid over-fertilizing, as this may diminish its aromatic properties. To prevent self-seeding, promptly remove spent flowers. Regular checks for pest infestations, like aphids, aid in maintaining its health without relying on chemical interventions.

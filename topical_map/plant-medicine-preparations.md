@@ -10,6 +10,11 @@ Paragraph 3: dosage, side effects, precautions
 
 -----------------------------------------------------
 
+## what's the safest [plant] medicinal preparation to use?
+## what's the most dangerous [plant] medicinal preparation to use?
+## can animals use [plant] medicinal preparation?
+## what combination of [plant] medicinal preparation work the best for health?
+
 what is
 what to use it for
 what benefits

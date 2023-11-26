@@ -12,7 +12,7 @@ Yarrow Compress, an infused cloth applied to the skin, treats wounds and skin co
 
 Yarrow Bath, an herbal bath infusion, assists with skin conditions and relaxation, but sensitive individuals should test for reactions. Pregnant or breastfeeding individuals should seek medical advice before use.
 
-This article lists the key preparations of yarrow and how to use them to achieve health benefits without experiencing side-effects.
+This article lists the medicinal preparations of yarrow and how to use them to achieve health benefits without experiencing side-effects.
 
 ## 1. Yarrow Tea
 

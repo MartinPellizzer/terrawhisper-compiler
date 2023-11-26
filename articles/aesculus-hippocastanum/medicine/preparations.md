@@ -9,7 +9,7 @@ Dried powder involves grinding dried seeds into a fine form, used for treating c
 
 Tea infusion and vinegar infusion are consumed orally or topically for venous issues, but cautious dosage adherence is crucial to avoid potential toxicity and side effects. Pregnant or breastfeeding individuals, those allergic to horse chestnuts, or with certain medical conditions should seek professional advice before use.
 
-This article lists the key preparations of horse chestnut and how to use them to achieve health benefits without experiencing side-effects.
+This article lists the medicinal preparations of horse chestnut and how to use them to achieve health benefits without experiencing side-effects.
 
 ## 1. Horse Chestnut Dried Powder
 

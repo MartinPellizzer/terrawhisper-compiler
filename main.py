@@ -2329,12 +2329,10 @@ for i, row in enumerate(articles_master_rows[1:]):
 
         content_paragraphs = get_content('medicine/benefits', f'database/articles/{entity}').strip().split('\n')
 
-        
-        tmp_rows = [r for r in articles_master_rows if r[articles_dict['entity']] == entity]
+        tmp_rows = [r for r in articles_master_rows if r[articles_dict['entity']].strip() == entity]
         tmp_rows = [r for r in tmp_rows if r[articles_dict['attribute_2']] == 'benefits']
         if tmp_rows: image_intro = f'\n\nThe following illustration shows the most important [health benefits of {common_name}](/{entity}/{attribute_1.lower()}/benefits.html).\n\n'
         else: image_intro = f'\n\nThe following illustration shows the most important health benefits of {common_name}.\n\n'
-
 
         rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
         rows_filtered = [f'{x[1]}' for x in rows[:10]]
@@ -2383,7 +2381,7 @@ for i, row in enumerate(articles_master_rows[1:]):
 
 
         # preparations
-        title_section = f'## What are the key preparations of {common_name} for health purposes?\n\n'
+        title_section = f'## What are the medicinal preparations of {common_name} for health purposes?\n\n'
         
         content_paragraphs = get_content('medicine/preparations', f'database/articles/{entity}').strip().split('\n')
 
@@ -2409,29 +2407,58 @@ for i, row in enumerate(articles_master_rows[1:]):
         article += title_section + content_paragraphs[0] + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:]) + '\n\n' + lst_intro + '\n\n' + lst_formatted + '\n\n'
 
 
-
-        # precautions
-        title_section = f'## What precautions should you take when using {common_name} as a medicine?\n\n'
+        # side-effects
         
-        content_paragraphs = get_content('medicine/precautions', f'database/articles/{entity}').strip().split('\n')
+        try:
+            title_section = f'## What are the possible health side effects of {common_name}?\n\n'
+            content_paragraphs = get_content('medicine/side-effects', f'database/articles/{entity}').strip().split('\n')
 
-        image_intro = f'\n\nThe following illustration shows the most important precautions you must take when you use {common_name} as a medicine.\n\n'
+            tmp_rows = [r for r in articles_master_rows if r[articles_dict['entity']] == entity]
+            tmp_rows = [r for r in tmp_rows if r[articles_dict['attribute_2']] == 'side-effects']
+            if tmp_rows: image_intro = f'\n\nThe following illustration shows some possible [health side effects of {common_name}](/{entity}/{attribute_1.lower()}/side-effects.html).\n\n'
+            else: image_intro = f'\n\nThe following illustration shows some possible health side effects of {common_name}.\n\n'
 
-        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/precautions.csv', entity)
-        rows_filtered = [f'{x[1]}' for x in rows[:10]]
+            rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/side-effects.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
 
-        image_title = f'{latin_name.capitalize()} Medicinal Precautions'
-        image_filepath = generate_image_template_1(
-            entity, 
-            ['medicine', 'precautions'], 
-            rows_filtered,
-        )
+            image_title = f'{latin_name.capitalize()} Health Side Effects'
+            image_filepath = generate_image_template_1(
+                entity, 
+                ['medicine', 'side-effects'], 
+                rows_filtered,
+            )
 
-        lst_intro = f'The following list summarizes the 10 most important precautions you must take when you use {common_name} as a medicine.\n\n'
-        lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
-        lst_formatted = lst_to_blt(bold_blt(lst_filtered))
-        
-        article += title_section + content_paragraphs[0] + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:]) + '\n\n' + lst_intro + '\n\n' + lst_formatted + '\n\n'
+            lst_intro = f'The following list summarizes the 10 most common health side effects of {common_name} if misused.\n\n'
+            lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
+            lst_formatted = lst_to_blt(bold_blt(lst_filtered))
+            
+            article += title_section + content_paragraphs[0] + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:]) + '\n\n' + lst_intro + '\n\n' + lst_formatted + '\n\n'
+
+
+            # precautions
+            title_section = f'## What precautions should you take when using {common_name} as a medicine?\n\n'
+            
+            content_paragraphs = get_content('medicine/precautions', f'database/articles/{entity}').strip().split('\n')
+
+            image_intro = f'\n\nThe following illustration shows the most important precautions you must take when you use {common_name} as a medicine.\n\n'
+
+            rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/precautions.csv', entity)
+            rows_filtered = [f'{x[1]}' for x in rows[:10]]
+
+            image_title = f'{latin_name.capitalize()} Medicinal Precautions'
+            image_filepath = generate_image_template_1(
+                entity, 
+                ['medicine', 'precautions'], 
+                rows_filtered,
+            )
+
+            lst_intro = f'The following list summarizes the 10 most important precautions you must take when you use {common_name} as a medicine.\n\n'
+            lst_filtered = [f'{x[1]}: {x[2]}' for x in rows[:10]]
+            lst_formatted = lst_to_blt(bold_blt(lst_filtered))
+            
+            article += title_section + content_paragraphs[0] + image_intro + f'\n\n![{image_title}]({image_filepath} "{image_title}")\n\n' + '\n'.join(content_paragraphs[1:]) + '\n\n' + lst_intro + '\n\n' + lst_formatted + '\n\n'
+        except:
+            pass
 
     # medicine >> benefits
     elif 'medicine' in attribute_1.lower() and 'benefits' in attribute_2.strip():
@@ -2515,6 +2542,7 @@ for i, row in enumerate(articles_master_rows[1:]):
         if content.strip() != '':
             article += f'## What precautions should you take before using {common_name} for medicinal purposes?' + '\n\n'
             article += content + '\n\n'
+
 
     # medicine >> constituents
     elif 'medicine' in attribute_1.lower() and 'constituents' in attribute_2.strip():
@@ -2613,7 +2641,7 @@ for i, row in enumerate(articles_master_rows[1:]):
             print(f'WARNING: missing image ({entity})')
 
         article += get_content('medicine/preparations/_intro', f'database/articles/{entity}')
-        article += f'This article lists the key preparations of {common_name} and how to use them to achieve health benefits without experiencing side-effects.' + '\n\n'
+        article += f'This article lists the medicinal preparations of {common_name} and how to use them to achieve health benefits without experiencing side-effects.' + '\n\n'
 
 
 
@@ -2647,6 +2675,30 @@ for i, row in enumerate(articles_master_rows[1:]):
             section_rest = '\n'.join(content_section.split('\n')[1:])  + '\n\n'
 
             article += title_section + section_1 + image_intro_line + image_section + section_rest
+
+        content = get_content_2(f'database/articles/{entity}/medicine/preparations/combination.md')
+        content = content.replace(common_name.lower(), common_name.title())
+        if content.strip() != '':
+            article += f'## What combination of {common_name} medicinal preparations work the best for general health?' + '\n\n'
+            article += content + '\n\n'
+            
+        content = get_content_2(f'database/articles/{entity}/medicine/preparations/safest.md')
+        content = content.replace(common_name.lower(), common_name.title())
+        if content.strip() != '':
+            article += f'## What\'s the safest {common_name} medicinal preparations to use?' + '\n\n'
+            article += content + '\n\n'
+            
+        content = get_content_2(f'database/articles/{entity}/medicine/preparations/most-dangerous.md')
+        content = content.replace(common_name.lower(), common_name.title())
+        if content.strip() != '':
+            article += f'## What can be the most dangerous {common_name} medicinal preparations to use?' + '\n\n'
+            article += content + '\n\n'
+            
+        content = get_content_2(f'database/articles/{entity}/medicine/preparations/animals.md')
+        content = content.replace(common_name.lower(), common_name.title())
+        if content.strip() != '':
+            article += f'## Can you use {common_name} medicinal preparations on animals?' + '\n\n'
+            article += content + '\n\n'
 
 
     # medicine >> effects

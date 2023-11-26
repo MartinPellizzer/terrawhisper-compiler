@@ -76,7 +76,7 @@ The following list summarizes the 10 most important active constituents of visna
 - **Phenolic compounds**:   Various phenolic compounds present in Visnaga contribute to its antioxidant and potential anti-inflammatory properties.
 - **Minerals and vitamins**:   Visnaga contains minerals such as calcium, potassium, and magnesium, as well as some vitamins, which may contribute to its overall health-promoting effects.
 
-## What are the key preparations of visnaga for health purposes?
+## What are the medicinal preparations of visnaga for health purposes?
 
 Visnaga (Ammi visnaga) presents a diverse array of key preparations aimed at harnessing its medicinal properties for various health purposes. Infusions, a widely practiced method, involve steeping dried Visnaga flowers or seeds in hot water, allowing extraction of its beneficial compounds. Tinctures, popularly used for their concentrated form, involve macerating Visnaga in alcohol to obtain potent extracts. Capsules, containing powdered Visnaga, offer controlled dosage intake, commonly found in strengths ranging from 100 to 500 milligrams. Decoctions, made by boiling Visnaga roots or seeds, yield liquid formulations for internal use against diverse ailments. 
 
@@ -105,34 +105,4 @@ The following list summarizes the 10 most important preparations of visnaga to b
 - **Visnaga Inhalation**:   Inhaling vapors from Visnaga-infused hot water for respiratory support, especially in addressing asthma symptoms.
 - **Visnaga Syrup**:   Preparing a sweetened Visnaga solution for cough relief or respiratory health improvement.
 - **Visnaga Powdered form**:   Using powdered Visnaga in various ways, such as mixing it in food or beverages for health benefits.
-
-## What precautions should you take when using visnaga as a medicine?
-
-When considering the use of Visnaga (Ammi visnaga) for medicinal purposes, adherence to essential precautions is imperative. Seeking medical counsel before usage is crucial, particularly for pregnant or lactating individuals or those with underlying health conditions. It is paramount to strictly follow recommended dosages to prevent adverse effects; excessive intake could lead to unwanted repercussions. Those with known sensitivities to plants in the carrot family, like Visnaga, should approach its use cautiously due to potential allergic reactions. Checking for potential medication interactions is essential before incorporating Visnaga into a regimen, as it may interfere with certain drugs. Extra care should be exercised when considering Visnaga for children; consulting a pediatrician for proper dosing and safety is advisable.
-
-The following illustration shows the most important precautions you must take when you use visnaga as a medicine.
-
-
-
-![Ammi visnaga Medicinal Precautions](/images/ammi-visnaga-medicine-precautions.jpg "Ammi visnaga Medicinal Precautions")
-
-
-Before scheduled surgeries, discontinuing Visnaga usage at least two weeks in advance is recommended due to its potential impact on blood pressure regulation. Individuals using Visnaga should be mindful of activities that require focus or coordination, as dizziness or drowsiness could occur as side effects. Proper storage of Visnaga products is necessary to maintain their potency and integrity, ensuring they remain free from contamination or degradation. When obtaining Visnaga, sourcing it from reputable and trustworthy vendors is essential to guarantee quality and safety.
-
-Vigilance for possible side effects, such as nausea or allergic reactions, is crucial while using Visnaga. If any adverse symptoms manifest, seeking prompt medical attention is advised to mitigate potential risks. Monitoring and recording such side effects can assist healthcare providers in managing any complications effectively. Adhering to these precautions ensures the safe and appropriate utilization of Visnaga while minimizing potential health risks associated with its use.
-
-The following list summarizes the 10 most important precautions you must take when you use visnaga as a medicine.
-
-
-
-- **Consultation**:   Always consult a healthcare professional before using Visnaga, especially if pregnant, nursing, or have medical conditions.
-- **Dosage**:   Follow recommended dosages; excessive intake may lead to adverse effects.
-- **Allergies**:   Be cautious if allergic to plants in the carrot family, as Visnaga belongs to this group.
-- **Medication interactions**:   Check for potential interactions with current medications before using Visnaga.
-- **Children**:   Use cautiously in children; consult a pediatrician for appropriate dosing and safety.
-- **Surgery**:   Discontinue Visnaga use at least two weeks before scheduled surgery due to potential effects on blood pressure.
-- **Driving/Operating machinery**:   Be aware of potential dizziness or drowsiness as side effects before engaging in activities requiring focus.
-- **Storage**:   Store Visnaga products properly to maintain potency and prevent spoilage.
-- **Quality**:   Ensure purchasing from reputable sources to guarantee quality and minimize contamination risks.
-- **Side effects**:   Monitor for potential side effects such as nausea, headaches, or allergic reactions; seek medical attention if experiencing adverse symptoms.
 

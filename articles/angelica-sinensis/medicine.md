@@ -78,7 +78,7 @@ The following list summarizes the 10 most important active constituents of dong 
 - **Flavonoids**:   These plant-based antioxidants are known for their potential in combating free radicals, reducing inflammation, and supporting cardiovascular health.
 - **Amino acids**:   Dong Quai contains various amino acids that serve as building blocks for proteins and play crucial roles in various physiological functions within the body.
 
-## What are the key preparations of dong quai for health purposes?
+## What are the medicinal preparations of dong quai for health purposes?
 
 Dong Quai, scientifically known as Angelica sinensis, presents various medicinal preparations, each with specific health benefits. Research suggests that Dong Quai Tea, brewed from dried roots, aids in menstrual regulation and alleviates menopausal symptoms. Studies indicate its potential in improving menstrual pain, with participants reporting a 25-30% reduction in discomfort after regular consumption. Dong Quai Tincture, an alcohol-based extraction, is also noted for its hormonal regulatory effects, with research indicating a 20-25% decrease in hormonal imbalances among subjects using this form.
 
@@ -111,34 +111,4 @@ The following list summarizes the 10 most important preparations of dong quai to
 - **Dong Quai Pills**:   Herbal supplements containing Dong Quai root, taken for reproductive health support.
 - **Dong Quai Syrup**:   Syrup made from Dong Quai extract, used to ease menstrual discomfort and promote blood circulation.
 - **Dong Quai Poultice**:   Herbal preparation using crushed Dong Quai root applied externally to reduce swelling or bruises.
-
-## What precautions should you take when using dong quai as a medicine?
-
-When considering Dong Quai for medicinal purposes, several precautions should be adhered to based on empirical evidence. Dosage monitoring is vital, as studies suggest excessive intake may lead to adverse effects, with recommended doses typically ranging from 1 to 15 grams per day. Allergy testing before topical application is advised, as seen in cases where allergic reactions were reported in individuals sensitive to Angelica species. Avoiding Dong Quai during pregnancy is recommended due to its potential to stimulate uterine contractions, aligning with guidelines suggesting its avoidance in pregnant women. Caution is warranted for individuals on blood-thinning medications, given Dong Quai's anticoagulant properties reported in various studies, potentially affecting blood clotting mechanisms.
-
-The following illustration shows the most important precautions you must take when you use dong quai as a medicine.
-
-
-
-![Angelica sinensis Medicinal Precautions](/images/angelica-sinensis-medicine-precautions.jpg "Angelica sinensis Medicinal Precautions")
-
-
-Furthermore, limiting the duration of Dong Quai usage without breaks is advised, as per research indicating prolonged use may lead to hormonal imbalances or adverse reactions. Precautionary measures regarding surgery interactions were highlighted, backed by studies recommending discontinuation of Dong Quai consumption at least two weeks before surgery to mitigate bleeding risks. Studies also emphasize the importance of regular blood pressure monitoring, given Dong Quai's potential to influence blood pressure levels.
-
-Additionally, being mindful of potential medication interactions is crucial, as indicated in studies illustrating Dong Quai's effects on drug metabolism and efficacy. Individuals with specific medical conditions, such as hormone-sensitive cancers or liver problems, should exercise caution, supported by research suggesting potential interactions or adverse effects in these populations. Lastly, proper storage of Dong Quai supplements in a cool, dry place away from direct sunlight is emphasized for potency maintenance, aligning with storage recommendations based on product stability studies.
-
-The following list summarizes the 10 most important precautions you must take when you use dong quai as a medicine.
-
-
-
-- **Monitor Dosage**:   Ensure adherence to recommended doses, as excessive Dong Quai intake might lead to adverse effects.
-- **Check for Allergies**:   Perform a patch test before topical application to avoid potential allergic reactions.
-- **Avoid During Pregnancy**:   Refrain from using Dong Quai during pregnancy due to its potential effects on uterine contractions.
-- **Limit Usage Duration**:   Avoid prolonged usage without breaks to prevent potential hormonal imbalances or other side effects.
-- **Caution with Blood Thinners**:   Consult a healthcare provider before using Dong Quai if taking blood-thinning medications due to its anticoagulant properties.
-- **Consider Surgery Interactions**:   Discontinue Dong Quai usage at least two weeks before scheduled surgeries to prevent potential bleeding risks.
-- **Monitor Blood Pressure**:   Regularly monitor blood pressure as Dong Quai might impact blood pressure levels.
-- **Mind Potential Interactions**:   Be cautious when using Dong Quai concurrently with other medications, as it might interact and affect their efficacy.
-- **Assess Medical Conditions**:   Individuals with specific health conditions, such as hormone-sensitive cancers or liver problems, should use Dong Quai cautiously, seeking medical advice beforehand.
-- **Store Properly**:   Store Dong Quai supplements or preparations in a cool, dry place away from direct sunlight, following storage instructions to maintain potency and quality.
 

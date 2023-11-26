@@ -1102,6 +1102,7 @@ def main_2():
         Write me a list of the 10 most well known historical folkloristic uses of {common_name} ({latin_name}). 
         Give me just the uses, don't add descriptions. 
         Every item in the list must be less than 5 words.
+        Start each benefit with a verb.
 
         --------------------------------------------------------------------
 
@@ -1162,7 +1163,7 @@ def medicine():
 
         ''')
 
-    print(f'''KEY CONSTITUENTS
+    print(f'''CONSTITUENTS
 
         Write me a list of the 10 key constituents of {common_name} ({latin_name}) for health purposes. 
 
@@ -1193,7 +1194,7 @@ def medicine():
 
         ''')
 
-    print(f'''KEY PREPARATIONS
+    print(f'''PREPARATIONS
 
         Write me a list of the 10 most important medicinal preparations of {common_name} ({latin_name}) for health purposes. Use a flat list style, don't put lists inside lists.
 
@@ -1210,6 +1211,38 @@ def medicine():
         --------------------------------------------------------------------
         
         Using the data from the paragraph above, write about 300 words on the key preparations of {common_name} ({latin_name}).
+        Pack as much data, info, and numbers as possible.
+        Use the metric system when expressing numbers.
+        Don't add subjective fluff or opinions, just objective facts. 
+
+        --------------------------------------------------------------------
+
+        Ok, now include some numbers to back up your claims, but don't include the names of the studies.
+
+        --------------------------------------------------------------------
+
+
+
+        ''')
+
+    print(f'''SIDE EFFECTS
+
+        Write me a list of 10 possible side effects of {common_name} ({latin_name}) for health purposes. Use a flat list style, don't put lists inside lists.
+        Start each side effect with a modal verb (like may, might, can, could, etc...) followed by a verb, followed by the rest of the side effect.
+
+        >>>>
+
+        list_add.py {entity} medicine side-effects
+
+        --------------------------------------------------------------------
+
+        Write a paragraph about the possible side effects of {common_name} ({latin_name}).
+        Include the elements in the list above.
+        Pack as much data as possible in as few words as possible.
+
+        --------------------------------------------------------------------
+        
+        Using the data from the paragraph above, write about 300 words on the possible side effects of {common_name} ({latin_name}).
         Pack as much data, info, and numbers as possible.
         Use the metric system when expressing numbers.
         Don't add subjective fluff or opinions, just objective facts. 
@@ -1274,97 +1307,6 @@ def medicine_benefits():
     images_text = ''
     for i, item in enumerate(benefits):
         images_text += f'''{i}.
-        Write me a list of constituents of {common_name} ({latin_name}) that help get the following benefit: {item}.
-        Write just the names, don't write descriptions.
-        Order the list from the most helpful item for this benefit to the least helpful for this benefit.
-        
-        Write me a list of preparations of {common_name} ({latin_name}) that help get the following benefit: {item}.
-        Write just the names, don't write descriptions.
-        Order the list from the most helpful item for this benefit to the least helpful for this benefit.
-
-        {item.lower().replace(' ', '-')} constituent
-
-        {item.lower().replace(' ', '-')} preparation
-
-        --------------------------------------------------------------------
-        
-        '''
-
-    benefits_text = ''
-    for i, item in enumerate(benefits):
-        benefits_text += f'''{i}.
-
-        Write 3 paragraphs about {common_name} ({latin_name}) about the following health benefit: {item}.
-
-        In the first paragraph, write about this plant's ability to get this health benefit, and what constituents this plant has to get this health benefit. Also, include numbers and data about the quantities of these constituents in this plant.
-        In the second paragraph, write about examples of health conditions that can benefit from this health benefit. Don't talk about health conditions unrelated to this health benefit.
-        In the third paragraph, write about which parts of this plant can be used to get this health benefit and which preparations can be made.
-
-        Include as many details, data, and numbers as possible in as few words as possible.
-        Use the metric system as the primary measuring system.
-        Don't write about the fact that you must consult experts before using it or that too much usage of this plant is toxic.
-
-        The first paragraph must start with the following words:
-
-        {common_name} {item.lower()} thanks to
-
-        --------------------------------------------------------------------
-        
-        '''
-
-
-    print(f'''BENEFITS
-
-        {benefits_text}
-
-        {images_text}
-
-
-        ''')
-
-    print(f'''PREPARATIONS
-        
-        Write a paragraph about the most commonly used preparations of {common_name} ({latin_name}) and the uses of those preparations.
-        Write as many details as possible in as few words as possible.
-
-        Start the paragraph with the following words:
-
-        There are many preparations and uses of {common_name}, such as
-
-        ''')
-
-    print(f'''SIDE EFFECTS
-
-        Write a paragraph about the most common side effects of {common_name} ({latin_name}) for medicinal purposes.
-        Write as many details as possible in as few words as possible.
-
-        Start the paragraph with the following words:
-
-        There may be some side effects associated with {common_name} if this medicinal herb is misused.
-
-
-        ''')
-        
-    print(f'''PRECAUTIONS
-
-        Write a paragraph about the most useful precautions to take when using {common_name} ({latin_name}) for medicinal purposes.
-        Write as many details as possible in as few words as possible.
-
-        Start the paragraph with the following words:
-
-        It's important to take some precautions when using {common_name} as a medicine.
-
-
-        ''')
-
-
-def medicine_benefits_2():
-    
-    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
-    benefits = [f'{x[1]}' for x in rows[:10]]
-    images_text = ''
-    for i, item in enumerate(benefits):
-        images_text += f'''{i}.
         
         Here's a health benefit of {common_name} ({latin_name}): {item}.
 
@@ -1421,12 +1363,12 @@ def medicine_benefits_2():
 
     print(f'''CONSTITUENTS
         
-        Write a paragraph about the health benefits of yarrow.
+        Write a paragraph about the health benefits of {common_name}.
         Write as many details as possible in as few words as possible. Don't give numbers.
 
         Start the paragraph with the following words:
 
-       Yarrow brings many health benefits. Overall, the most common ones are
+        {common_name.title()} brings many health benefits. Overall, the most common ones are
 
         ''')
         
@@ -1568,6 +1510,7 @@ def medicine_constituents():
         
         ''')
 
+
 def medicine_preparations():
     
     rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/preparations.csv', entity)
@@ -1620,37 +1563,47 @@ def medicine_preparations():
 
         ''')
 
-    print(f'''PREPARATIONS
+    print(f'''SAFEST
         
-        Write a paragraph about the most commonly used preparations of {common_name} ({latin_name}) and the uses of those preparations.
+        Write a paragraph about what's the safest {common_name} ({latin_name}) medicinal preparations to prepare and use and explain why.
         Write as many details as possible in as few words as possible.
+        Don't talk about commercial solutions.
 
         Start the paragraph with the following words:
 
-        There are many preparations and uses of {common_name}, such as
+        The safest {common_name}'s medicinal preparation to use is
 
         ''')
 
-    print(f'''SIDE EFFECTS
+    print(f'''MOST DANGEROUS
 
-        Write a paragraph about the most common side effects of {common_name} ({latin_name}) for medicinal purposes.
+        Write a paragraph about what can be the most dangerous {common_name} ({latin_name}) medicinal preparations to prepare and use and explain why.
         Write as many details as possible in as few words as possible.
+        Don't talk about commercial solutions.
 
         Start the paragraph with the following words:
 
-        There may be some side effects associated with {common_name} if this medicinal herb is misused.
+        The most dangerous {common_name}'s medicinal preparation to use is
 
+        ''')
+
+    print(f'''ANIMALS
+
+        Write a paragraph about if you can use {common_name} ({latin_name}) medicinal preparations on animals.
+        Write as many details as possible in as few words as possible.
+        Start the paragraph with a Yes or No, then give all the cases.
 
         ''')
         
-    print(f'''PRECAUTIONS
-
-        Write a paragraph about the most useful precautions to take when using {common_name} ({latin_name}) for medicinal purposes.
+    print(f'''COMBINATION
+        
+        Write a paragraph about what combination of {common_name} ({latin_name}) medicinal preparations work the best for general health.
         Write as many details as possible in as few words as possible.
 
         Start the paragraph with the following words:
 
-        It's important to take some precautions when using {common_name} as a medicine.
+        The combination of {common_name}'s medicinal preparations that work the best for general health is
+
 
 
         ''')
@@ -1843,16 +1796,20 @@ def get_procedure():
     print()
     print('- pick a plant')
     print('- add plant to articles csv')
-    print('- init plant')
+    print()
+    print('init plant:')
+    print(f'init_articles.py {entity}')
+    print()
+    print('-------------------------------------------------')
+    print()
     print('- get list of common names')
+    print(f'template.py {entity} common-names')
+    print(f'list_add.py {entity} botany common-names')
     print()
     print('-------------------------------------------------')
-    print('\n>>>> \n\ntemplate.py angelica-sinensis common-names')
-    print('\n>>>> \n\nlist_add.py angelica-sinensis botany common-names')
     print()
-    print('-------------------------------------------------')
-    print()
-    print('\n>>>> \n\ntemplate.py angelica-sinensis common-names')
+    print('- write medicine article')
+    print(f'template.py {entity} medicine')
 
 
 
@@ -1863,7 +1820,7 @@ elif attribute_1 == 'taxonomy': taxonomy()
 elif attribute_2 == 'distribution': distribution()
 elif attribute_1 == 'botany': botany()
 elif attribute_1 == 'medicine': medicine()
-elif attribute_1 == 'medicine-benefits': medicine_benefits_2()
+elif attribute_1 == 'medicine-benefits': medicine_benefits()
 elif attribute_1 == 'medicine-constituents': medicine_constituents()
 elif attribute_1 == 'medicine-preparations': medicine_preparations()
 elif attribute_1 == 'medicine-effects': medicine_effects()

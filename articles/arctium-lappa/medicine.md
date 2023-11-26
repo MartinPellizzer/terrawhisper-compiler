@@ -79,7 +79,7 @@ The following list summarizes the 10 most important active constituents of burdo
 - **Sesquiterpene Lactones**:   Compounds with potential anti-inflammatory effects, which may help in reducing inflammation-related conditions.
 - **Phytosterols**:   Plant-derived compounds structurally similar to cholesterol, which may help manage cholesterol levels in the body and support heart health.
 
-## What are the key preparations of burdock for health purposes?
+## What are the medicinal preparations of burdock for health purposes?
 
 Burdock (Arctium lappa) showcases its diverse medicinal applications through various key preparations, each offering distinct health benefits. The root of this plant serves as the primary component in most preparations, known for its rich composition of antioxidants, inulin, polyphenols, and essential oils. Burdock Root Tea, a popular infusion made by steeping dried root slices in hot water, aids in liver health, digestion, and detoxification. Tinctures, formulated by extracting the root in alcohol, and capsules, containing powdered root extracts, provide anti-inflammatory properties and help regulate blood sugar levels. 
 
@@ -110,36 +110,4 @@ The following list summarizes the 10 most important preparations of burdock to b
 - **Burdock Root Powder**:   Often added to smoothies or food, it might aid in digestion, improve gut health, and support the immune system.
 - **Burdock Root Syrup**:   Sweetened preparation utilized for its potential benefits in clearing toxins from the blood and promoting skin health.
 - **Burdock Root Ointment**:   Applied topically to soothe skin irritations, minor wounds, and insect bites due to its potential antimicrobial properties.
-
-## What precautions should you take when using burdock as a medicine?
-
-Research suggests that up to 10% of the population may have allergies to plants in the Asteraceae family, emphasizing the importance of caution for susceptible individuals when using burdock (Arctium lappa). Studies have reported potential interactions between burdock and medications such as anticoagulants, demonstrating the necessity of being vigilant about drug interactions. Additionally, in diabetic individuals, burdock has shown the potential to affect blood sugar levels, as indicated by studies monitoring glucose fluctuations following its consumption.
-
-The following illustration shows the most important precautions you must take when you use burdock as a medicine.
-
-
-
-![Arctium lappa Medicinal Precautions](/images/arctium-lappa-medicine-precautions.jpg "Arctium lappa Medicinal Precautions")
-
-
-Limited clinical data are available regarding the safety of burdock during pregnancy and lactation. However, studies suggest a need for caution due to the lack of comprehensive research in these specific populations. Furthermore, research recommends initiating burdock use at low doses to assess individual tolerance, considering its potential to induce allergic reactions or other adverse effects.
-
-Storage practices significantly impact the quality of herbal products. Studies highlight that storing burdock in conditions with temperatures between 15-25°C (59-77°F) and low humidity helps maintain its potency and extends its shelf life, ensuring its efficacy as a medicinal herb.
-
-While precise statistics on adverse reactions to burdock are scarce, case reports and anecdotal evidence underscore the importance of promptly discontinuing its use and seeking medical attention when experiencing unexpected symptoms or adverse effects. Understanding these numbers and adhering to precautions based on available research enhances the safety and efficacy of utilizing burdock as a medicinal plant.
-
-The following list summarizes the 10 most important precautions you must take when you use burdock as a medicine.
-
-
-
-- **Seek healthcare advice before using**:   Consult with a qualified healthcare professional, such as a doctor or herbalist, to ensure safety and appropriateness of burdock use for your specific health condition or situation.
-- **Verify plant authenticity before use**:   Confirm the identity of the burdock plant or product through reliable sources or experts to avoid potential risks associated with misidentification or contamination.
-- **Check for Asteraceae family allergies**:   Be cautious if you have known allergies to plants in the Asteraceae family, as burdock belongs to this plant family and may trigger allergic reactions in sensitive individuals.
-- **Monitor blood sugar if diabetic**:   If you have diabetes or blood sugar issues, closely monitor your glucose levels while using burdock as it might affect blood sugar levels.
-- **Use cautiously while pregnant/breastfeeding**:   Exercise caution and consult with a healthcare professional before using burdock during pregnancy or breastfeeding due to limited safety information available.
-- **Watch for medication interactions**:   Be aware of potential interactions between burdock and any medications you are currently taking. Consult a healthcare provider to prevent adverse reactions or reduced medication effectiveness.
-- **Begin with small doses initially**:   Start with a small amount of burdock to test your body's response and tolerance before gradually increasing the dosage.
-- **Avoid extended unsupervised use**:   Refrain from using burdock for an extended period without proper guidance or supervision from a healthcare professional to prevent potential adverse effects or complications.
-- **Store burdock products properly**:   Preserve the potency and quality of burdock by storing it in appropriate conditions, such as in a cool, dry place away from direct sunlight.
-- **Stop use for adverse reactions**:   Discontinue burdock use immediately and seek medical attention if you experience any adverse reactions or unexpected symptoms after using it.
 

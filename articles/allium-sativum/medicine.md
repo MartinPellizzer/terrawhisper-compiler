@@ -84,7 +84,7 @@ The following list summarizes the 10 most important active constituents of garli
 - **Polysulfides**:   These compounds are formed when allicin breaks down. Polysulfides are believed to contribute to garlic's cardiovascular benefits, including potential blood pressure-lowering effects.
 - **Amino Acids**:   Garlic contains various amino acids, including arginine, which has been associated with cardiovascular benefits and may contribute to garlic's vasodilatory effects.
 
-## What are the key preparations of garlic for health purposes?
+## What are the medicinal preparations of garlic for health purposes?
 
 Garlic (Allium sativum) stands as a potent health ally, presenting diverse preparations to harness its medicinal properties. When consumed raw, garlic delivers maximum allicin content, a compound renowned for its antibacterial and antifungal effects. Research indicates that raw garlic contains approximately 4.5 milligrams of allicin per gram. The crushing or chopping of garlic activates allicin formation, a process optimized by allowing it to sit for a few minutes before cooking. Lightly cooking or roasting garlic not only retains its nutritional value but also offers a milder flavor profile. Studies show that allicin content is preserved at around 70% when garlic is lightly cooked.
 
@@ -115,34 +115,4 @@ The following list summarizes the 10 most important preparations of garlic to bo
 - **Garlic juice**:   Consumed for detoxification, treating coughs, and promoting heart health.
 - **Garlic poultice**:   Applied to the chest for relieving congestion and aiding respiratory problems.
 - **Garlic vinegar**:   Used as a tonic for its antibacterial and antifungal properties, promoting overall health.
-
-## What precautions should you take when using garlic as a medicine?
-
-Garlic (Allium sativum) is a widely utilized medicinal agent, with key preparations requiring careful consideration of various factors. Before incorporating garlic into a medicinal regimen, individuals are advised to consult healthcare professionals, particularly if pregnant or under medication. Dosage awareness is crucial, with recommended amounts varying based on health goals and preferences. It's noteworthy that the medicinal properties of garlic differ between raw and cooked forms. The plant's impact on blood clotting demands attention, especially for those on blood-thinning medications. In such cases, discontinuing garlic consumption at least two weeks before surgery is recommended to mitigate potential excessive bleeding risks during the procedure.
-
-The following illustration shows the most important precautions you must take when you use garlic as a medicine.
-
-
-
-![Allium sativum Medicinal Precautions](/images/allium-sativum-medicine-precautions.jpg "Allium sativum Medicinal Precautions")
-
-
-Allergic reactions, including skin rashes or breathing difficulties, should be monitored diligently, necessitating immediate medical attention if symptoms arise. The potential for interactions with medications, notably HIV/AIDS drugs, underscores the importance of informing healthcare providers about all supplements and medications being taken.
-
-For those with bleeding disorders, caution is advised due to garlic's anti-clotting properties. It is crucial to choose reputable garlic supplements, considering factors such as standardized allicin content. Pregnant and breastfeeding individuals must exercise caution and seek professional advice to ensure the safety of garlic during these periods. Additionally, adjusting dosage or discontinuing use is recommended if gastrointestinal discomfort, such as heartburn or indigestion, occurs.
-
-The following list summarizes the 10 most important precautions you must take when you use garlic as a medicine.
-
-
-
-- **Consult with a Healthcare Professional**:   Before incorporating garlic as a medicine, consult with a healthcare professional, especially if you are pregnant, nursing, or taking prescribed medications.
-- **Dosage Awareness**:   Be mindful of the recommended dosage. Excessive garlic consumption may lead to adverse effects, including digestive issues, allergic reactions, or interference with blood-thinning medications.
-- **Raw vs. Cooked Garlic**:   Understand that the medicinal properties of garlic can vary between raw and cooked forms. Adjust your preparation method based on your health goals and preferences.
-- **Monitor Blood Clotting**:   If you have bleeding disorders or are scheduled for surgery, exercise caution. Garlic may have anti-clotting properties that could affect blood clotting. Inform your healthcare provider about your garlic intake.
-- **Interaction with Medications**:   Garlic may interact with certain medications, such as blood thinners and HIV/AIDS medications. Inform your healthcare provider about all medications and supplements you are taking to prevent potential interactions.
-- **Allergic Reactions**:   Watch for signs of allergic reactions, such as skin rashes or difficulty breathing, and seek medical attention immediately if they occur.
-- **Avoid Before Surgery**:   Discontinue garlic consumption at least two weeks before scheduled surgery to minimize the risk of excessive bleeding during the procedure.
-- **Gastrointestinal Sensitivity**:   Some individuals may experience gastrointestinal discomfort, including heartburn or indigestion, when using garlic medicinally. Adjust the dosage or discontinue use if these symptoms persist.
-- **Garlic Supplements Quality**:   If using garlic supplements, choose reputable brands to ensure product quality and potency. Check for standardized allicin content, a key medicinal compound in garlic.
-- **Pregnancy and Lactation**:   Pregnant and breastfeeding individuals should exercise caution with garlic supplements and consult their healthcare provider to ensure its safety during these periods.
 

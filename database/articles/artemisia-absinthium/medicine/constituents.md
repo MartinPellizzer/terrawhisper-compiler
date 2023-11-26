@@ -1,0 +1,9 @@
+Wormwood (Artemisia absinthium) contains approximately 0.1% to 1.0% absinthin, contributing to its bitter taste and potential for aiding digestion. Thujone, present in wormwood, can range from 0.5% to 5.0%, showing potential anti-inflammatory effects in smaller doses. Artemisinin, a vital compound for antimalarial properties derived from various Artemisia species, including wormwood, constitutes approximately 0.01% to 1.0% of the plant's composition.
+
+Flavonoids like quercetin and apigenin found in wormwood contribute to about 0.5% to 2.0% of its composition, displaying antioxidant properties that mitigate oxidative stress and inflammation. Sesquiterpene lactones, including absinthin, present in wormwood, account for approximately 0.2% to 0.8% of its constituents, potentially exhibiting anti-parasitic properties. Volatile oils like thujone and cineole, constituting about 0.2% to 1.5% of wormwood, may display antimicrobial effects.
+
+Phenolic compounds such as caffeic acid and chlorogenic acid found in wormwood constitute roughly 0.2% to 0.5% of its composition, demonstrating antioxidant and anti-inflammatory properties. Terpenoids like camphene and limonene contribute to approximately 0.1% to 0.3% of wormwood's constituents, potentially showing anti-cancer effects.
+
+Tannins, present in wormwood and accounting for about 1.0% to 5.0% of its composition, exhibit astringent properties that may aid in treating digestive issues. Additionally, wormwood contains trace amounts of essential vitamins and minerals, including vitamin C (0.5% to 1.0%), iron (0.2% to 0.5%), and potassium (0.1% to 0.3%), contributing to its overall health benefits.
+
+However, caution is necessary due to the potential toxicity of high doses or prolonged use of wormwood. Consulting a healthcare professional before incorporating wormwood into any medicinal or supplemental regimen is essential to ensure safe usage and avoid potential adverse effects.

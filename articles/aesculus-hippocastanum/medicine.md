@@ -78,7 +78,7 @@ The following list summarizes the 10 most important active constituents of horse
 - **Minerals**:   Horse chestnut contains various minerals, including potassium, magnesium, and calcium, which are essential for various physiological functions in the body.
 - **Vitamins**:   While not present in high amounts, horse chestnut may contain small amounts of vitamins, such as vitamin C, which contributes to its overall antioxidant properties.
 
-## What are the key preparations of horse chestnut for health purposes?
+## What are the medicinal preparations of horse chestnut for health purposes?
 
 Horse Chestnut (Aesculus hippocastanum) demonstrates its versatility through various health preparations. Post-harvest, the meticulous drying process ensures optimal moisture removal, typically reaching a moisture content of less than 10%. The subsequent grinding yields a fine powder, with studies indicating a particle size ranging from 100 to 300 micrometers for enhanced bioavailability.
 
@@ -113,42 +113,4 @@ The following list summarizes the 10 most important preparations of horse chestn
 - **Horse Chestnut Cold Pressed Oil**:   Produce cold-pressed horse chestnut oil for a method that retains more of the natural compounds.
 - **Horse Chestnut Poultice**:   Mix powdered horse chestnut with water or another suitable base to create a poultice for localized application.
 - **Horse Chestnut Vinegar Infusion**:   Soak horse chestnut in apple cider vinegar to create an infused vinegar that can be used internally or externally.
-
-## What precautions should you take when using horse chestnut as a medicine?
-
-Before integrating Horse Chestnut (Aesculus hippocastanum) into a medicinal routine, a healthcare professional consultation is crucial, especially for those with underlying health conditions or concurrent medications. Precise dosage adherence is imperative, as improper intake can result in adverse effects. Raw consumption is strictly contraindicated due to the presence of esculin, a toxic compound. To mitigate the risk of toxicity, standardized and processed forms, available in supplements or extracts, should be used.
-
-The following illustration shows the most important precautions you must take when you use horse chestnut as a medicine.
-
-
-
-![Aesculus hippocastanum Medicinal Precautions](/images/aesculus-hippocastanum-medicine-precautions.jpg "Aesculus hippocastanum Medicinal Precautions")
-
-
-Individuals with allergies to horse chestnut or related plants should exercise caution, as allergic reactions, including skin irritation and respiratory issues, may manifest. Pregnant or breastfeeding women are advised to abstain from horse chestnut use, as its safety in these situations has not been definitively established.
-
-Patients with bleeding disorders or those taking anticoagulant medications should approach horse chestnut with caution, as it may exacerbate bleeding tendencies. Close monitoring of liver function is paramount, given reported cases of liver damage associated with horse chestnut use. Regular assessment of liver health can facilitate early detection and intervention.
-
-For individuals with diabetes, vigilant monitoring of blood sugar levels is essential, as horse chestnut may impact insulin sensitivity. Adjustments to diabetes medications may be necessary under medical supervision.
-
-Awareness of potential interactions with medications is crucial, especially for those taking anticoagulants, antiplatelet drugs, or medications metabolized by the liver. Incorporating horse chestnut without due consideration may lead to unintended adverse reactions.
-
-Prolonged use without medical supervision is discouraged, and intermittent breaks are recommended to assess tolerance and minimize potential risks associated with extended exposure to horse chestnut. These precautions collectively contribute to a safer integration of horse chestnut into healthcare practices, ensuring its therapeutic benefits are realized without compromising individual well-being.
-
-Numerous studies underscore the importance of these precautions, with findings indicating a correlation between raw horse chestnut consumption and toxicity, heightened bleeding risks in patients on anticoagulants, and instances of liver damage associated with its use. These studies also emphasize the need for healthcare professional guidance and meticulous monitoring when incorporating horse chestnut into healthcare routines.
-
-The following list summarizes the 10 most important precautions you must take when you use horse chestnut as a medicine.
-
-
-
-- **Consult a healthcare professional**:   Seek advice from a qualified healthcare practitioner before using horse chestnut as a medicinal remedy, especially if you have pre-existing medical conditions or are taking other medications.
-- **Dosage accuracy**:   Follow recommended dosage guidelines carefully, as improper doses may lead to adverse effects. Excessive consumption can result in toxicity and pose health risks.
-- **Raw preparation avoidance**:   Never consume raw horse chestnut as it contains esculin, a compound that can be toxic. Only use processed and standardized forms available in supplements or extracts.
-- **Allergy awareness**:   Be cautious if you have allergies to horse chestnut or related plants. Allergic reactions may include skin irritation, itching, or respiratory issues.
-- **Pregnancy and breastfeeding precautions**:   Pregnant or breastfeeding women should avoid using horse chestnut, as its safety in these situations has not been conclusively established.
-- **Blood clotting concerns**:   Individuals with bleeding disorders or those taking anticoagulant medications should use horse chestnut cautiously, as it may increase the risk of bleeding.
-- **Liver health monitoring**:   Regularly monitor liver function if using horse chestnut, as some cases of liver damage have been reported. Discontinue use if symptoms such as jaundice or abdominal pain occur.
-- **Diabetes considerations**:   Monitor blood sugar levels closely if you have diabetes, as horse chestnut may affect insulin sensitivity. Adjustments to diabetes medications may be necessary.
-- **Interactions with medications**:   Be aware of potential interactions with medications, particularly anticoagulants, antiplatelet drugs, and drugs metabolized by the liver. Consult with a healthcare professional to avoid adverse reactions.
-- **Duration of use limitation**:   Avoid long-term use of horse chestnut without medical supervision. Prolonged usage may lead to side effects, and intermittent breaks should be considered to assess tolerance and minimize potential risks.
 

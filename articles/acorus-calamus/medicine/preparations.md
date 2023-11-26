@@ -8,7 +8,7 @@ Each preparation contains bioactive compounds such as β-asarone, with purported
 
 However, precautions must be taken, considering potential adverse effects, especially with excessive intake. Dosages and usage guidelines differ for each preparation, and consulting a healthcare professional before use is advised, particularly for pregnant or breastfeeding women, those with existing health conditions, or individuals on medications, to avoid potential risks or interactions.
 
-This article lists the key preparations of sweet flag and how to use them to achieve health benefits without experiencing side-effects.
+This article lists the medicinal preparations of sweet flag and how to use them to achieve health benefits without experiencing side-effects.
 
 ## 1. Sweet Flag Dried Root Powder
 

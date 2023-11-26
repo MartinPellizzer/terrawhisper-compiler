@@ -76,11 +76,11 @@ The following list summarizes the 10 most important active constituents of galan
 - **Flavonoids**:   Besides galangin and kaempferol, other flavonoids present in galangal contribute to its antioxidant and anti-inflammatory properties.
 - **Resins**:   These compounds may contribute to galangal's potential medicinal properties, including its use as a digestive aid and its antimicrobial effects.
 
-## What are the key preparations of galangal for health purposes?
+## What are the medicinal preparations of galangal for health purposes?
 
 Galangal (Alpinia officinarum) boasts various preparations renowned for their health-promoting properties. Among these, galangal tea stands out as a fundamental infusion derived from steeping approximately 1.5 to 2 grams of fresh or dried galangal root in boiling water for around 10 to 15 minutes. This extraction method allows the release of bioactive compounds, which include galangin, galangol, and kaempferol. Another widely used form is the galangal extract, providing concentrated doses of beneficial components. Capsules containing powdered galangal root offer convenient supplementation, typically containing 500 milligrams to 1 gram of the herb per capsule.
 
-The following illustration shows the most important medicinal preparations of galangal.
+The following illustration shows the most important [medicinal preparations of galangal](/alpinia-officinarum/medicine/preparations.html).
 
 
 
@@ -105,34 +105,4 @@ The following list summarizes the 10 most important preparations of galangal to 
 - **Galangal Syrup**:   Sweetened infusion used as a tonic or in beverages.
 - **Galangal Ointment**:   Topical application for skin issues or joint pain.
 - **Galangal Vinegar**:   Infusion of galangal root in vinegar used in culinary dishes or as a digestive aid.
-
-## What precautions should you take when using galangal as a medicine?
-
-Galangal (Alpinia officinarum) presents various health benefits but demands caution in its use. Allergic reactions affect approximately 1-2% of individuals, emphasizing the importance of prior allergy assessments. Adherence to recommended dosages is crucial, given that excessive intake may lead to adverse effects reported in 5-10% of cases. Pregnant or breastfeeding individuals should consult healthcare professionals, considering the potential risks associated with galangal usage during this time.
-
-The following illustration shows the most important precautions you must take when you use galangal as a medicine.
-
-
-
-![Alpinia officinarum Medicinal Precautions](/images/alpinia-officinarum-medicine-precautions.jpg "Alpinia officinarum Medicinal Precautions")
-
-
-Those with underlying medical conditions, such as gallstones or gastric ulcers, should exercise caution due to potential complications reported in about 8-12% of cases. Galangal's interactions with certain medications have been documented in approximately 15-20% of instances, underscoring the need for healthcare provider consultations, especially before scheduled surgeries, as discontinuation of galangal at least two weeks beforehand is recommended. 
-
-Vigilance regarding side effects, especially in children, is essential, with adverse reactions documented in around 3-5% of cases, necessitating immediate medical attention when observed. Ensuring the quality and purity of galangal is vital, as reports of contamination or adulteration affect approximately 10-15% of sourced samples. Limiting prolonged use is advised due to potential risks documented in 6-8% of cases, with monitoring for unexpected reactions recommended.
-
-The following list summarizes the 10 most important precautions you must take when you use galangal as a medicine.
-
-
-
-- **Allergies**:   Check for allergic reactions; some individuals may be sensitive to galangal.
-- **Dosage**:   Follow recommended dosage guidelines; excessive intake may cause adverse effects.
-- **Pregnancy**:   Consult a healthcare professional before using during pregnancy or breastfeeding.
-- **Interactions**:   Be cautious with medications; galangal might interact with certain drugs.
-- **Surgery**:   Discontinue use at least two weeks before scheduled surgery due to potential effects on blood clotting.
-- **Medical Conditions**:   Individuals with gallstones, gastric ulcers, or other health conditions should use it cautiously.
-- **Children**:   Avoid giving galangal to young children without consulting a pediatrician.
-- **Quality**:   Ensure the source and quality of galangal to prevent contamination or adulteration.
-- **Duration of Use**:   Limit prolonged use to prevent potential side effects.
-- **Side Effects**:   Watch for potential side effects such as stomach upset or allergic reactions and seek medical attention if experienced.
 

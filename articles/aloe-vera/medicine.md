@@ -80,11 +80,11 @@ The following list summarizes the 10 most important active constituents of aloe 
 - **Plant sterols**:   These compounds have anti-inflammatory effects and may contribute to the overall anti-inflammatory properties of Aloe vera.
 - **Saponins**:   Aloe vera contains saponins with potential antimicrobial properties. These compounds may help in combating certain bacteria, viruses, and fungi.
 
-## What are the key preparations of aloe vera for health purposes?
+## What are the medicinal preparations of aloe vera for health purposes?
 
 Aloe vera, revered for its multifaceted health benefits, boasts a composition rich in key constituents. Mature leaves, typically around 3 years old, are harvested for optimal potency. The meticulous cleaning process involves thorough washing to eliminate contaminants, ensuring the purity of the subsequent extracts. The peeling of the outer skin, a crucial step, precedes filleting, wherein the inner gel is carefully separated from the latex layer to mitigate the risk of irritation.
 
-The following illustration shows the most important medicinal preparations of aloe vera.
+The following illustration shows the most important [medicinal preparations of aloe vera](/aloe-vera/medicine/preparations.html).
 
 
 
@@ -101,56 +101,14 @@ The following list summarizes the 10 most important preparations of aloe vera to
 
 
 
-- **Harvesting**:   Ensure aloe vera leaves are mature, typically 3 years old, before harvesting for optimal potency.
-- **Cleaning**:   Thoroughly wash aloe vera leaves to remove any dirt or contaminants before processing.
-- **Peeling**:   Carefully peel the outer skin of the aloe vera leaf to access the gel, discarding the green outer layer.
-- **Filleting**:   Extract the gel by filleting the inner part of the leaf, separating it from the latex layer to avoid potential irritation.
-- **Washing Again**:   Rinse the extracted gel under running water to eliminate any remaining latex and aloin residues.
-- **Drying**:   Optionally, air-dry the gel to create a concentrated form suitable for various health applications.
-- **Blending**:   Use a blender to create a smooth and consistent aloe vera gel, enhancing its usability in topical or ingestible preparations.
-- **Mixing**:   Combine aloe vera gel with other ingredients like essential oils, honey, or carrier oils to enhance its health benefits and improve taste.
-- **Storing**:   Store the prepared aloe vera gel in a clean, airtight container and refrigerate to prolong its shelf life and maintain freshness.
-- **Testing**:   Prior to use, conduct a patch test to ensure there are no adverse reactions, especially when applying aloe vera topically or consuming it for health purposes.
-
-## What precautions should you take when using aloe vera as a medicine?
-
-Performing a patch test before widespread application of Aloe Vera is a common practice, with studies reporting that approximately 1 in 100 people may experience an allergic reaction to Aloe Vera.
-
-The following illustration shows the most important precautions you must take when you use aloe vera as a medicine.
-
-
-
-![Aloe vera Medicinal Precautions](/images/aloe-vera-medicine-precautions.jpg "Aloe vera Medicinal Precautions")
-
-
-The importance of selecting Aloe Vera products with pure formulations is underscored by research indicating that additives in some commercially available Aloe Vera products may compromise their medicinal properties. A study found that over 30% of Aloe Vera products on the market contained additives that could potentially reduce their efficacy.
-
-Moderation in Aloe Vera consumption, particularly internally, is advised due to potential adverse effects. Studies suggest that exceeding a daily intake of 1 gram of Aloe Vera latex may result in increased risks of adverse effects, including diarrhea and cramps.
-
-Consulting healthcare professionals before using Aloe Vera is crucial, especially for specific demographics. Studies highlight the importance of professional guidance during pregnancy, breastfeeding, or for individuals with existing health conditions.
-
-Aloe Vera's laxative effects are well-documented, with research recommending starting internal consumption with small amounts. Studies suggest that a daily intake of 10 milligrams of Aloe Vera latex is a generally well-tolerated starting point to minimize the risk of adverse effects.
-
-Storage conditions significantly impact the efficacy of Aloe Vera products. Research emphasizes the importance of storing Aloe Vera in cool, dark environments, as exposure to light and heat may lead to the degradation of active compounds. Adhering to specified expiration dates is crucial, as studies indicate that after the designated period, the concentration of active compounds may diminish.
-
-Ensuring product quality is essential, with studies revealing variations in Aloe Vera product formulations. Opting for reputable brands and sources is advised to mitigate the risk of substandard or adulterated products.
-
-Awareness of potential interactions between Aloe Vera and medications is crucial, with studies indicating that certain compounds in Aloe Vera may interfere with drug absorption or metabolism.
-
-Avoiding the latex layer beneath the Aloe Vera leaf's skin is recommended due to its potent laxative properties. Studies highlight that ingesting more than 1 gram of Aloe Vera latex daily significantly increases the risk of gastrointestinal side effects.
-
-The following list summarizes the 10 most important precautions you must take when you use aloe vera as a medicine.
-
-
-
-- **Check for allergies**:   Before using Aloe Vera as a medicine, perform a patch test to ensure you're not allergic, especially if applying it topically.
-- **Purity matters**:   Use pure Aloe Vera gel or juice without additives, as added chemicals may diminish its medicinal properties.
-- **Moderation is key**:   Use Aloe Vera in moderation, both topically and orally, as excessive consumption may lead to adverse effects.
-- **Consult a healthcare professional**:   Seek advice from a healthcare professional before using Aloe Vera as a remedy, especially if you're pregnant, breastfeeding, or have pre-existing medical conditions.
-- **Internal use precautions**:   If using Aloe Vera internally, be cautious of potential laxative effects; start with small amounts and monitor your body's response.
-- **Storage considerations**:   Store Aloe Vera products in cool, dark places to prevent degradation of active compounds, and follow expiration dates if applicable.
-- **Quality matters**:   Choose reputable brands and sources to ensure the Aloe Vera product meets safety and quality standards.
-- **Medication interactions**:   Be aware of potential interactions between Aloe Vera and medications you're currently taking; consult your healthcare provider for advice.
-- **Avoid raw Aloe Vera latex**:   The latex layer, found just under the skin of the Aloe leaf, can have strong laxative effects and should be avoided in medicinal use.
-- **Sun sensitivity**:   If using Aloe Vera topically, be cautious about sun exposure, as it may increase sensitivity to sunlight; use sunscreen if needed.
+- **Aloe Vera Gel**:   Used topically for skin conditions like burns, sunburns, wounds, and minor cuts.
+- **Aloe Vera Juice**:   Consumed orally to aid digestion, promote gut health, and boost the immune system.
+- **Aloe Vera Creams**:   Applied for moisturizing, soothing skin irritations, and reducing inflammation.
+- **Aloe Vera Shampoo**:   Used to promote hair growth, prevent dandruff, and nourish the scalp.
+- **Aloe Vera Capsules**:   Taken orally for gastrointestinal issues, constipation relief, and overall wellness.
+- **Aloe Vera Face Masks**:   Applied topically for acne treatment, reducing blemishes, and improving skin tone.
+- **Aloe Vera Mouthwash**:   Used for oral hygiene, reducing gum inflammation, and treating mouth ulcers.
+- **Aloe Vera Suppositories**:   Used rectally to relieve constipation or hemorrhoids.
+- **Aloe Vera Tinctures**:   Consumed orally for immune system support and to alleviate digestive discomfort.
+- **Aloe Vera Ointments**:   Applied topically for treating psoriasis, eczema, and other skin conditions.
 

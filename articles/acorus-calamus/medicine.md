@@ -86,7 +86,7 @@ The following list summarizes the 10 most important active constituents of sweet
 - **Shyobunone**:   A compound with reported antioxidant and anti-inflammatory properties.
 - **Elemene**:   This sesquiterpene has been studied for its potential anti-cancer properties and anti-inflammatory effects.
 
-## What are the key preparations of sweet flag for health purposes?
+## What are the medicinal preparations of sweet flag for health purposes?
 
 Sweet flag (Acorus calamus) is a versatile herb with numerous health preparations, supported by specific measurements and dosages. The finely ground dried root powder, a foundational element for many formulations, is commonly encapsulated into tablets, with typical capsule sizes ranging from 400 to 600 milligrams. This provides a quantifiable measure for convenient dosing.
 
@@ -119,36 +119,4 @@ The following list summarizes the 10 most important preparations of sweet flag t
 - **Sweet Flag Herbal Syrup**:   Combine sweet flag infusion with honey or syrup for a palatable medicinal syrup.
 - **Sweet Flag Chewing Sticks**:   Use dried sweet flag roots as chewing sticks for oral health benefits.
 - **Sweet Flag Foot Soak**:   Add sweet flag infusion or powder to foot baths for potential relaxation and skin benefits.
-
-## What precautions should you take when using sweet flag as a medicine?
-
-Before integrating Sweet flag (Acorus calamus) into your medicinal routine, adherence to essential precautions is crucial, supported by various findings. Consultation with a healthcare professional is fundamental, as studies indicate that 80% of adverse effects associated with herbal medicine use result from inadequate professional guidance. Dosage control is paramount, with research suggesting that exceeding recommended levels may increase the risk of adverse reactions by up to 60%. Beta-asarone, present in Sweet flag, has been identified as a compound with neurotoxic potential, and studies highlight the necessity of limiting its intake to prescribed levels. Pregnant or breastfeeding individuals are advised to abstain due to uncertain safety, supported by a lack of conclusive evidence regarding the effects on fetal development and breastfeeding infants.
-
-The following illustration shows the most important precautions you must take when you use sweet flag as a medicine.
-
-
-
-![Acorus calamus Medicinal Precautions](/images/acorus-calamus-medicine-precautions.jpg "Acorus calamus Medicinal Precautions")
-
-
-Children and infants, being more susceptible to adverse effects, warrant cautious consideration, with studies indicating a 30% higher risk of adverse reactions in pediatric populations. Sweet flag's potential hepatotoxicity underscores the need for careful use among individuals with liver conditions, supported by studies demonstrating a 40% increased risk of liver-related complications in susceptible individuals. Awareness of potential interactions with medications is crucial, with research revealing that herbal-drug interactions account for approximately 15% of adverse reactions reported globally.
-
-In the event of adverse effects, studies emphasize the importance of immediate discontinuation, reporting that prompt action reduces the severity and duration of side effects by 50%. Harvesting precautions, such as ensuring contamination-free sources, are essential, given that up to 30% of herbal products have been found to be contaminated with pesticides or pollutants. Storage guidelines, informed by multiple studies, recommend keeping Sweet flag products in a cool, dry place away from direct sunlight to maintain their efficacy.
-
-Recognizing Sweet flag as a complementary rather than a substitute therapy is underscored by research highlighting the uncertainties surrounding its safety for specific populations. Pregnant individuals, for instance, face a 20% higher likelihood of experiencing complications when using herbal remedies without professional guidance. Overall, these evidence-based precautions provide a comprehensive framework for the safe use of Sweet flag in medicinal contexts.
-
-The following list summarizes the 10 most important precautions you must take when you use sweet flag as a medicine.
-
-
-
-- **Consult a healthcare professional**:   Before using sweet flag as a medicine, consult with a qualified healthcare provider to ensure it is safe for your specific health conditions and doesn't interact negatively with any medications you may be taking.
-- **Dosage control**:   Strictly adhere to recommended dosage guidelines provided by a healthcare professional or herbalist. Excessive intake may lead to adverse effects.
-- **Pregnancy and breastfeeding**:   Avoid using sweet flag if you are pregnant or breastfeeding, as its safety for these conditions is not well-established.
-- **Allergies**:   If you are allergic to plants in the Acoraceae family, such as sweet flag, refrain from using it as it may trigger allergic reactions.
-- **Neurotoxic potential**:   Sweet flag contains beta-asarone, a compound with potential neurotoxic effects. Long-term or excessive use may pose risks to the nervous system. Limit usage and duration as advised by a healthcare professional.
-- **Children and infants**:   Use caution when administering sweet flag to children or infants, as safety data for these populations may be limited. Consult with a pediatrician before use.
-- **Interaction with medications**:   Sweet flag may interact with certain medications, affecting their efficacy or causing adverse effects. Inform your healthcare provider about all the medications you are taking.
-- **Liver conditions**:   Individuals with liver conditions should exercise caution when using sweet flag, as it may have hepatotoxic potential. Consult a healthcare professional before incorporating it into your regimen.
-- **Discontinue in case of adverse effects**:   If you experience any adverse effects such as nausea, vomiting, dizziness, or allergic reactions, discontinue use immediately and seek medical attention.
-- **Harvesting precautions**:   If harvesting sweet flag from the wild, ensure that the location is free from contamination, pesticides, and pollutants. Harvest only from trusted sources to minimize the risk of contamination.
 

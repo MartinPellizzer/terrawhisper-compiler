@@ -73,7 +73,7 @@ The following list summarizes the 10 most important active constituents of celer
 - **Terpenes**:   Celery contains terpenes like limonene, which may contribute to its potential health benefits.
 - **Alkaloids**:   Some alkaloids found in celery, such as N‐nornicotine, have been studied for potential pharmacological properties.
 
-## What are the key preparations of celery for health purposes?
+## What are the medicinal preparations of celery for health purposes?
 
 Apium graveolens, commonly known as celery, offers an array of health benefits through various preparations, each with specific medicinal properties. Raw consumption of celery, whether in sticks or juice, presents a notable dietary source of antioxidants, providing approximately 1.6 grams of fiber per 100 grams of celery. This fiber aids digestion and supports weight loss by inducing satiety. Celery tea, known for its diuretic properties, assists in regulating blood pressure and water balance, encouraging the elimination of excess fluids from the body. Extracts and supplements derived from celery concentrate its beneficial compounds, providing potent doses of antioxidants, vitamins, and minerals such as vitamin C (approximately 3.1 mg per 100 grams of celery) and potassium (approximately 260 mg per 100 grams). These compounds bolster immune health and support cardiovascular function.
 
@@ -102,34 +102,4 @@ The following list summarizes the 10 most important preparations of celery to bo
 - **Celery Tincture**:   Celery tinctures are used to aid digestion, reduce bloating, and stimulate appetite.
 - **Celery Infusion**:   Celery leaf infusion is sometimes used to improve bone health due to its calcium and vitamin K content.
 - **Celery Cooked Dishes**:   Incorporating celery into cooked meals retains its nutrients, providing various health benefits like improved digestion and immune support.
-
-## What precautions should you take when using celery as a medicine?
-
-Celery (Apium graveolens) holds various medicinal properties, yet certain precautions must be observed when using it. Washing celery thoroughly under clean, running water before consumption helps remove dirt and potential contaminants, reducing the risk of ingestion. Consulting healthcare professionals before usage is crucial, especially for individuals with preexisting health conditions or taking medications. Allergy testing should be performed by consuming a small amount to detect potential adverse reactions, crucial for those with a history of allergies. It's advised to limit intake to recommended amounts; excessive consumption may lead to unwanted side effects. Proper storage in the refrigerator in sealed containers or plastic bags helps maintain its freshness, preventing spoilage or wilting. Opting for organically grown celery can reduce exposure to pesticides or chemicals often found in conventionally grown produce.
-
-The following illustration shows the most important precautions you must take when you use celery as a medicine.
-
-
-
-![Apium graveolens Medicinal Precautions](/images/apium-graveolens-medicine-precautions.jpg "Apium graveolens Medicinal Precautions")
-
-
-Caution is advised during pregnancy or breastfeeding, and seeking medical advice before medicinal use is recommended due to potential unknown effects. It's crucial not to substitute prescribed medications with celery remedies without professional consultation. Monitoring for adverse reactions after consumption is essential; any unexpected symptoms should be noted. Keeping track of daily celery consumption ensures a balanced intake, preventing overconsumption and maintaining a regulated usage pattern.
-
-These precautions aim to ensure safe usage of celery as a medicinal remedy. They advocate for a cautious approach, promoting informed decision-making and responsible consumption practices. Following these guidelines can mitigate potential risks associated with celery use, enhancing its beneficial attributes while minimizing possible adverse effects, contributing to its safe integration into one's healthcare regimen.
-
-The following list summarizes the 10 most important precautions you must take when you use celery as a medicine.
-
-
-
-- **Wash celery before consuming**:   Rinse celery stalks thoroughly under clean, running water to remove dirt, pesticides, or any contaminants before eating or using them in medicine.
-- **Seek professional medical advice**:   Consult a healthcare expert or a qualified professional before using celery as a medicinal remedy, especially if you have preexisting health conditions or are taking other medications.
-- **Test for potential allergies**:   Perform an allergy test by consuming a small amount of celery to check for any adverse reactions such as itching, rash, or swelling, particularly if you have a history of allergies.
-- **Limit intake to recommended amount**:   Consume celery in moderation according to suggested or recommended dosages, as excessive intake may lead to unwanted side effects.
-- **Store celery properly for freshness**:   Store celery in the refrigerator in a sealed container or plastic bag to maintain its freshness and prevent wilting or spoilage.
-- **Prefer organically grown celery**:   Choose organic celery to reduce exposure to pesticides, chemicals, or other harmful substances that may be present in conventionally grown produce.
-- **Don't replace prescribed medications**:   Do not substitute celery or celery-based remedies for prescribed medications without consulting a healthcare professional.
-- **Caution during pregnancy or breastfeeding**:   Exercise caution and seek medical advice before using celery medicinally if you are pregnant or nursing, as its effects on these conditions may not be well understood.
-- **Monitor for adverse reactions**:   Pay attention to your body's response after consuming celery as a medicine and watch out for any unexpected or adverse reactions.
-- **Track daily celery consumption**:   Keep a record of the amount of celery used or consumed daily to maintain a balanced intake and prevent overconsumption.
 

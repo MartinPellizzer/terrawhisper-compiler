@@ -9,7 +9,7 @@ Oil, tincture, and aged supplements similarly aid heart health, immunity, and co
 
 However, caution is necessary, considering potential side effects like digestive discomfort, allergies, or interactions with medications. Recommended dosages vary, requiring consultation with healthcare professionals before integrating these garlic preparations into routines, particularly for those with health concerns or on medications.
 
-This article lists the key preparations of garlic and how to use them to achieve health benefits without experiencing side-effects.
+This article lists the medicinal preparations of garlic and how to use them to achieve health benefits without experiencing side-effects.
 
 ## 1. Garlic Extract Capsules
 
