@@ -1,0 +1,9 @@
+ Deadly Nightshade has been used for centuries to treat various health conditions such as insomnia, intestinal spasms, and asthma due to its sedative properties. Its potent medicinal benefits can be attributed to the presence of alkaloids which work in synergy with other compounds found within the plant.
+
+ The most active constituents in Deadly Nightshade include atropine, scopolamine, and hyoscyamine, all of which are potent alkaloids that have a wide range of pharmacological effects. These alkaloids act as muscarinic receptor antagonists, meaning they block the effects of acetylcholine on certain types of cholinergic receptors.
+
+ The most commonly used parts of Deadly Nightshade are its leaves and berries, which can be prepared into various forms such as teas, tinctures, or ointments. Extracts of these preparations are often applied topically to treat conditions like inflammation and pain relief, while internally they are taken to relieve gastrointestinal issues and respiratory symptoms.
+
+ Despite its potential health benefits, Deadly Nightshade can cause significant side effects if not used correctly or under proper medical supervision. Overdose can lead to severe poisoning characterized by symptoms like dilated pupils, dry mouth, blurred vision, confusion, hallucinations, and even seizures or coma in extreme cases.
+
+ It is crucial to take appropriate precautions when using Deadly Nightshade as a medicinal herb. Consulting with a healthcare professional before use is highly recommended due to the plant's toxicity. Additionally, proper dosage and administration of Deadly Nightshade should be carefully monitored to avoid potential adverse effects.

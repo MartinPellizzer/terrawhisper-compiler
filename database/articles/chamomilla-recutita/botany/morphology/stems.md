@@ -1,5 +1,0 @@
-The stems of this Chamomilla recutita have an alternate arrangement, with an erect and cylindrical shape. They typically reach a height of approximately 15 to 30 centimeters (6 to 12 inches) and have a diameter of about 2 to 4 millimeters (0.08 to 0.16 inches).
-
-The stems of Chamomilla recutita are primarily green, though they may show a reddish hue at their base. They possess a smooth texture with slight ridges along their surface, and they are generally glabrous, meaning they lack the presence of hairs. The stems exhibit sparse branching, with occasional nodes along their length, creating a relatively simple structure.
-
-These nodes are not densely packed, and the internodes, the spaces between the nodes, are approximately 2 to 6 centimeters (0.8 to 2.4 inches) apart from each other. This gives the plant a somewhat open and airy appearance.

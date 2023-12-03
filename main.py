@@ -18,13 +18,14 @@ entity_arg = None
 if len(sys.argv) == 2:
     entity_arg = sys.argv[1]
 
+website_img_path = 'website/images'
 
-
+# vars
+image_folder = 'G:/tw-images/auto'
 
 # with open("database/growing_zones.json", encoding='utf-8') as f:
 #     growing_zones_data = json.loads(f.read())
 
-website_img_path = 'website/images'
 
 
 google_tag = '''
@@ -98,6 +99,14 @@ def bold_blt(lst):
             bld_lst.append(f'{item}')
     return bld_lst
 
+
+def is_row_not_empty(row):
+    found = False
+    for cell in row:
+        if cell.strip() != '':
+            found = True
+            break
+    return found
 
 
 
@@ -1007,48 +1016,48 @@ def img_cheasheet(latin_name, title, lst, img_name):
     return output_path
 
 
-def generate_featured_image(entity, attribute_lst, title):
-    attribute = '/'.join(attribute_lst)
-    attribute_filename = attribute.replace('/', '-')
-    featured_image_filename = f'{entity}-{attribute_filename}.jpg'
-    featured_image_filpath = img_resize(f'articles-images/{featured_image_filename}')
+# def generate_featured_image(entity, attribute_lst, title):
+#     attribute = '/'.join(attribute_lst)
+#     attribute_filename = attribute.replace('/', '-')
+#     featured_image_filename = f'{entity}-{attribute_filename}.jpg'
+#     featured_image_filpath = img_resize(f'articles-images/{featured_image_filename}')
 
-    img = Image.open(featured_image_filpath)
-    # background  = Image.open("articles-images/acorus-calamus-botany-morphology-old.jpg")
+#     img = Image.open(featured_image_filpath)
+#     # background  = Image.open("articles-images/acorus-calamus-botany-morphology-old.jpg")
 
-    w_banner = img.size[0]
-    y_banner = img.size[1] // 2
-    base = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 0))
-    top = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 255))
-    # base = Image.new('RGBA', (w_banner, y_banner), '#0f766e')
-    # top = Image.new('RGBA', (w_banner, y_banner), '#0f766e')
-    mask = Image.new('L', (w_banner, y_banner))
-    mask_data = []
-    for y in range(y_banner):
-        mask_data.extend([int(255 * (y / y_banner))] * w_banner)
-    mask.putdata(mask_data)
+#     w_banner = img.size[0]
+#     y_banner = img.size[1] // 2
+#     base = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 0))
+#     top = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 255))
+#     # base = Image.new('RGBA', (w_banner, y_banner), '#0f766e')
+#     # top = Image.new('RGBA', (w_banner, y_banner), '#0f766e')
+#     mask = Image.new('L', (w_banner, y_banner))
+#     mask_data = []
+#     for y in range(y_banner):
+#         mask_data.extend([int(255 * (y / y_banner))] * w_banner)
+#     mask.putdata(mask_data)
     
-    y_img = img.size[1]
-    base.paste(top, (0, 0), mask)
+#     y_img = img.size[1]
+#     base.paste(top, (0, 0), mask)
 
-    img.paste(base, (0, y_img - y_banner), base)
+#     img.paste(base, (0, y_img - y_banner), base)
 
     
-    latin_name = entity.replace('-', ' ').capitalize()
-    line = f'{title}'
-    draw = ImageDraw.Draw(img)
-    font_size = 36
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line_w = font.getbbox(line)[2]
-    line_h = font.getbbox('y')[3]
-    draw.text((w_banner//2 - line_w//2, y_img - line_h - 30), line, '#ffffff', font=font)
+#     latin_name = entity.replace('-', ' ').capitalize()
+#     line = f'{title}'
+#     draw = ImageDraw.Draw(img)
+#     font_size = 36
+#     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+#     line_w = font.getbbox(line)[2]
+#     line_h = font.getbbox('y')[3]
+#     draw.text((w_banner//2 - line_w//2, y_img - line_h - 30), line, '#ffffff', font=font)
 
-    img.save(f'{featured_image_filpath}', format='JPEG', subsampling=0, quality=100)
+#     img.save(f'{featured_image_filpath}', format='JPEG', subsampling=0, quality=100)
 
-    # print(featured_image_filpath)
-    featured_image_filpath = '/' + '/'.join(featured_image_filpath.split('/')[1:])
+#     # print(featured_image_filpath)
+#     featured_image_filpath = '/' + '/'.join(featured_image_filpath.split('/')[1:])
 
-    return featured_image_filpath
+#     return featured_image_filpath
 
 
 def generate_featured_image(entity, attribute_lst, title):
@@ -1899,6 +1908,175 @@ def generate_image_template_2(entity, common_name, image_filename, attribute_lst
     return filepath
 
 
+def img_resize_2(img):
+    w, h = 768, 578
+
+    start_size = img.size
+    end_size = (w, h)
+
+    if start_size[0] / end_size [0] < start_size[1] / end_size [1]:
+        ratio = start_size[0] / end_size[0]
+        new_end_size = (end_size[0], int(start_size[1] / ratio))
+    else:
+        ratio = start_size[1] / end_size[1]
+        new_end_size = (int(start_size[0] / ratio), end_size[1])
+
+    img = img.resize(new_end_size)
+
+    w_crop = new_end_size[0] - end_size[0]
+    h_crop = new_end_size[1] - end_size[1]
+    
+    area = (
+        w_crop // 2, 
+        h_crop // 2,
+        new_end_size[0] - w_crop // 2,
+        new_end_size[1] - h_crop // 2
+    )
+    img = img.crop(area)
+
+    return img
+
+
+def generate_featured_image_2(entity, common_name):
+    img = Image.open(f'{image_folder}/{entity}/overview.jpg')
+    img = img_resize_2(img)
+
+    w_banner = img.size[0]
+    y_banner = img.size[1] // 2
+    base = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 0))
+    top = Image.new('RGBA', (w_banner, y_banner), (0, 0, 0, 255))
+    mask = Image.new('L', (w_banner, y_banner))
+    mask_data = []
+    for y in range(y_banner):
+        mask_data.extend([int(255 * (y / y_banner))] * w_banner)
+    mask.putdata(mask_data)
+    y_img = img.size[1]
+    base.paste(top, (0, 0), mask)
+    img.paste(base, (0, y_img - y_banner), base)
+
+
+    line = f'{common_name.title()} Overview'
+    draw = ImageDraw.Draw(img)
+    font_size = 36
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox('y')[3]
+    draw.text((w_banner//2 - line_w//2, y_img - line_h - 30), line, '#ffffff', font=font)
+
+    featured_image_filpath = f'website/images/{entity}-overview.jpg'
+    img.save(f'{featured_image_filpath}', format='JPEG', subsampling=0, quality=100)
+    featured_image_filpath = f'images/{entity}-overview.jpg'
+
+    return featured_image_filpath
+
+
+def generate_image_template_3(entity, common_name, image_filepath, attribute, table_filepath):
+    rows = utils.csv_get_rows_by_entity(table_filepath, entity)
+    rows = [f'- {x[1].title()}' for x in rows]
+    rows = rows[:10]
+
+    img_w = 1024
+    img_h = 768
+    img = Image.new(mode="RGB", size=(img_w, img_h), color='#fafafa')
+    draw = ImageDraw.Draw(img)
+
+    img_background = Image.open(image_filepath)
+    img_background_w = 576
+    img_background_h = 768
+    img_background.thumbnail((img_background_w, img_background_h), Image.Resampling.LANCZOS)
+    img.paste(img_background, (img_w - img_background_w, 0))
+
+    xy = [
+        (0, 0,),
+        (img_background_w, 0,),
+        (img_w - img_background_w, img_h,),
+        (0, img_h,),
+    ]
+    draw.polygon(xy, fill ="#0f766e") 
+
+    current_y = 0
+
+    # Title
+    font_size = 48
+    line_spacing = 1.3
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = common_name.title()
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.text((50, 50), line, '#ffffff', font=font)
+
+    font_size = 48
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    title_tmp = common_name.title()
+    title_w = font.getbbox(title_tmp)[2]
+
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    subtitle_tmp = ''
+    if attribute == 'medicine': subtitle_tmp = 'Medicinal Uses'
+    elif attribute == 'cuisine': subtitle_tmp = 'Culinary Uses'
+    elif attribute == 'horticulture': subtitle_tmp = 'Horticultural Tips'
+    elif attribute == 'botany': subtitle_tmp = 'Botanical Profile'
+    elif attribute == 'history': subtitle_tmp = 'Historical Uses'
+    subtitle_tmp = subtitle_tmp.split('(')[0]
+    subtitle_w = font.getbbox(subtitle_tmp)[2]
+    if subtitle_w > 475:
+        character_len = len(subtitle_tmp)
+        font_size = 800 // character_len
+        font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+        subtitle_w = font.getbbox(subtitle_tmp)[2]
+
+    if title_w > subtitle_w: divider_w = title_w
+    else: divider_w = subtitle_w
+    draw.rectangle(((50, 50 + line_h + 10), (50 + divider_w, 50 + line_h + 10 + 2)), '#ffffff')
+    current_y += 50 + line_h + 10 + 2
+    
+    # Subtitle
+    line = subtitle_tmp
+    line_h = font.getbbox('y')[3]
+    draw.text((50, current_y + 10), line, '#ffffff', font=font)
+    current_y += 50 + line_h
+
+
+    # List
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    max_len = 0
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    for item in rows:
+        line_w = font.getbbox(item)[2]
+        if max_len < line_w: max_len = line_w
+    # print(max_len)
+    if max_len > 450:
+        font_size = 20
+        line_spacing = 1.5
+    elif max_len > 500:
+        font_size = 18
+        line_spacing = 1.7
+    else:
+        line_spacing = 1.3
+    
+
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line_h = font.getbbox('y')[3]
+    for i, line in enumerate(rows):
+        line = line.split('(')[0]
+        draw.text((50, current_y + 10 + line_h * line_spacing * i), line, '#ffffff', font=font)
+    current_y += 10 + line_h * line_spacing * i + line_h
+
+    # Copy
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    draw.text((50, img_h - 50 - line_h), 'TerraWhisper.com', '#ffffff', font=font)
+
+    img.thumbnail((768, 576), Image.Resampling.LANCZOS)
+
+    # Export
+    out_filename = f'website/images/{entity}-{attribute}.jpg'
+    img.save(out_filename, format='JPEG', subsampling=0, quality=100)
+    filepath = f'images/{entity}-{attribute}.jpg'
+
+    return filepath
+
 
 ######################################################################
 # HTML 
@@ -1906,14 +2084,16 @@ def generate_image_template_2(entity, common_name, image_filename, attribute_lst
 
 def generate_header_light():
     html = '''
-    <header class="header-divider">
-        <div class="container-lg">
-            <nav class="flex justify-between">
-                <a href="/">TerraWhisper</a>
-                <a href="#"></a>
-            </nav>
-        </div>
-    </header>
+        <section class="header-divider">
+            <div class="container-lg">
+                <header>
+                    <a class="text-stone-700" href="/">TerraWhisper</a>
+                    <nav>
+                        <a class="text-stone-700" href="/plants.html">All Plants</a>
+                    </nav>
+                </header>
+            </div>
+        </section>
     '''
     return html
     
@@ -2036,7 +2216,11 @@ def generate_breadcrumbs(filepath_chunks):
 def generate_html(date, title, article, entity, attribute_lst):
     attributes = '/'.join(attribute_lst)
 
-    article_filepath = f'{entity}/{attributes}.md'
+    if attributes != '':
+        article_filepath = f'{entity}/{attributes}.md'
+    else:
+        article_filepath = f'{entity}.md'
+
     with open(f'articles/{article_filepath}', 'w', encoding='utf-8') as f:
         f.write(article)
 
@@ -2145,6 +2329,14 @@ for chunk in chunks:
 # MAIN
 ######################################################################
 
+shutil.copy2('style.css', 'website/style.css')
+shutil.copy2('index.html', 'website/index.html')
+# shutil.copy2('articles-images/hero.jpg', f'{website_img_path}/hero.jpg')
+# shutil.copy2('articles-images/medicinal-plants.jpg', f'{website_img_path}/medicinal-plants.jpg')
+shutil.copy2('images/medicinal-plants.jpg', f'{website_img_path}/medicinal-plants.jpg')
+
+
+
 articles_home = []
 
 articles_master_rows = utils.csv_to_llst('database/tables/articles.csv')
@@ -2156,7 +2348,7 @@ for i, item in enumerate(articles_master_rows[0]):
 
 for i, row in enumerate(articles_master_rows[1:]):
     print(f'{i+1}/{len(articles_master_rows[1:])} - {row}')
-    
+
     entity = row[articles_dict['entity']].strip()
     attribute_1 = row[articles_dict['attribute_1']].strip()
     attribute_2 = row[articles_dict['attribute_2']].strip()
@@ -2169,12 +2361,12 @@ for i, row in enumerate(articles_master_rows[1:]):
     if entity_arg:
         if entity_arg.strip() != entity:
             continue
-    
-    if state != 'published':continue
+
+    if state != 'published': continue
 
     try:
-        common_names = utils.csv_get_rows_by_entity('database/tables/botany/common-names.csv', entity)
-        common_name = common_names[0][1].lower()
+        common_names = utils.csv_get_rows_by_entity('plants.csv', entity)
+        common_name = common_names[0][1].lower().strip()
     except:
         common_names = []
         common_name = ''
@@ -2197,114 +2389,183 @@ for i, row in enumerate(articles_master_rows[1:]):
 
     # root
     if attribute_1.strip() == '':
-        title = f'What to know before using {common_name} ({latin_name.capitalize()})'
-        article += f'# {title}\n\n'
-
+        # intro
+        title = f'What to know before using {common_name} ({latin_name.capitalize()})'.title()
+        article += f'<h1>{title}</h1>'
+        
         try:
-            attribute_lst = ['overview']
-            image_title = f'{common_name.capitalize()} Overview'
-            filepath = generate_featured_image(entity, attribute_lst, image_title)
-            article += f'![{image_title}]({filepath} "{image_title}")\n\n'
-        except: 
-            print(f'WARNING: missing image ({entity})')
+            image_title = f'{latin_name.title()} Overview'
+            featured_image_filepath = generate_featured_image_2(entity, common_name)
+            article += f'![{image_title}]({featured_image_filepath} "{image_title}")\n\n'
+        except: pass
+
+        with open(f'database/articles/{entity}/intro.md', encoding='utf-8') as f: 
+            content = f.read()
+
+        article += f'{content}\n\n'
+
+        article += f'In this article, you will discover what are the medicinal and culinary uses of {common_name}. Then, you\'ll learn how to cultivate it, what is its botanical profile, and how it was used historically.\n\n'
+
+        # sections
+        sections = ['medicine', 'cuisine', 'horticulture', 'botany', 'history']
+        for i, section in enumerate(sections):
+            with open(f'database/articles/{entity}/{section}.md', encoding='utf-8') as f: content = f.read()
+            content_paragraphs = content.split('\n')
+            content_paragraphs = [x for x in content_paragraphs if x.strip() != '']
             
-        article += get_content('_intro', f'database/articles/{entity}')
-        article += f'This article gives an overview on the many uses of {common_name} and what you need to know before using it.' + '\n\n'
+            paragraph_1 = content_paragraphs[0]
+            paragraph_rest = content_paragraphs[1:]
 
-        
-        # benefits
-        title_section = f'## What are the medicinal uses of {common_name}?\n\n'
-        content_paragraphs = get_content_2(f'database/articles/{entity}/medicine.md').strip().split('\n')
-        image_intro = f'\n\nThe following illustration lists the most important uses of [{common_name} in medicine](/{entity}/medicine.html).\n\n'
-        
-        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
-        rows_filtered = [f'{x[1]}' for x in rows[:10]]
-        image_title = f'{latin_name.capitalize()} Medicine'
-        image_filepath = generate_image_template_1(entity, ['medicine'], rows_filtered)
+            filepath = generate_image_template_3(
+                entity, 
+                common_name, 
+                f'{image_folder}/{entity}/000{i}.jpg', 
+                f'{section}', 
+                f'database/tables/{section}.csv'
+            )
 
-        p_before = content_paragraphs[0]
-        p_after = "\n\n".join(content_paragraphs[1:])
-        article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after + '\n\n'
-
-
-        # cuisine
-        title_section = f'## What are the culinary uses of {common_name}?\n\n'
-        content_paragraphs = get_content_2(f'database/articles/{entity}/cuisine.md').strip().split('\n')
-        
-        if cuisine_col != 'n':
-            image_intro = f'\n\nThe following illustration lists the most common uses of {common_name} for culinary purposes.\n\n'
+            section_title = ''
+            if section == 'medicine': 
+                section_title = f'What are the medicinal uses of {common_name}?'
+                try:
+                    with open(f'database/articles/{entity}/medicine/_intro.md') as f: intro_content = f.read()
+                except: 
+                    intro_content = ''
+                if intro_content.strip() != '':
+                    image_intro = f'The following illustration lists the most important uses of <a href="/{entity}/medicine.html">{common_name} in medicine</a>.'
+                else:
+                    image_intro = f'The following illustration lists the most important uses of {common_name} in medicine.'
+            elif section == 'cuisine': 
+                section_title = f'What are the culinary uses of {common_name}?'
+                image_intro = f'The following illustration lists the most common uses of {common_name} for culinary purposes.'
+            elif section == 'horticulture': 
+                section_title = f'How to cultivate {common_name} in your garden?'
+                image_intro = f'The following illustration lists the most important tips to cutlitvate {common_name}.'
+            elif section == 'botany': 
+                section_title = f'What is the botanical profile of {common_name}?'
+                image_intro = f'The following illustration display the botanical profile of {common_name}.'
+            elif section == 'history': 
+                section_title = f'What are the historical uses of {common_name}?'
+                image_intro = f'The following illustration lists the most well known historical uses of {common_name}.'
             
-            rows = utils.csv_get_rows_by_entity(f'database/tables/cuisine/uses.csv', entity)
-            rows_filtered = [f'{x[1]}' for x in rows[:10]]
+            article += f'<h2>{section_title.title()}</h2>'
+            article += f'<p>{paragraph_1}</p>'
+            article += f'<p>{image_intro}</p>'
+            article += f'<img src="images/{entity}-{section}.jpg" alt="{latin_name.title()} {section.title()}">'
+            for paragraph in paragraph_rest:
+                article += f'<p>{paragraph}</p>'
 
-            image_title = f'{latin_name.capitalize()} Cuisine'
-            try:
-                image_filepath = ''
-                image_filepath = generate_image_template_1(
-                    entity, 
-                    ['cuisine'], 
-                    rows_filtered,
-                )
-            except: pass
-        else:
-            image_intro = f'\n\nThe following illustration serves as a reminder that {common_name} is toxic and must not be used for culinary purposes.\n\n'
-            image_title = f'{latin_name.capitalize()} Cuisine'
-            try:
-                image_filepath = ''
-                image_filepath = generate_image_template_no_cuisine(
-                    entity, 
-                    ['cuisine'], 
-                )
-            except: pass
+        # title = f'What to know before using {common_name} ({latin_name.capitalize()})'.title()
+        # article += f'<h1>{title}</h1>'
+
+        # try:
+        #     attribute_lst = ['overview']
+        #     image_title = f'{common_name.capitalize()} Overview'
+        #     filepath = generate_featured_image(entity, attribute_lst, image_title)
+        #     article += f'![{image_title}]({filepath} "{image_title}")\n\n'
+        # except: 
+        #     print(f'WARNING: missing image ({entity})')
+            
+        # try: article += get_content('intro', f'database/articles/{entity}')
+        # except: pass
+        # try: article += get_content('_intro', f'database/articles/{entity}')
+        # except: pass
+        # article += f'This article gives an overview on the many uses of {common_name} and what you need to know before using it.' + '\n\n'
+
         
-        p_before = content_paragraphs[0]
-        p_after = "\n\n".join(content_paragraphs[1:])
-        article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after + '\n\n'
+        # # benefits
+        # title_section = f'## What are the medicinal uses of {common_name}?\n\n'
+        # content_paragraphs = get_content_2(f'database/articles/{entity}/medicine.md').strip().split('\n')
+        # image_intro = f'\n\nThe following illustration lists the most important uses of [{common_name} in medicine](/{entity}/medicine.html).\n\n'
+        
+        # rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
+        # rows_filtered = [f'{x[1]}' for x in rows[:10]]
+        # image_title = f'{latin_name.capitalize()} Medicine'
+        # image_filepath = generate_image_template_1(entity, ['medicine'], rows_filtered)
+
+        # p_before = content_paragraphs[0]
+        # p_after = "\n\n".join(content_paragraphs[1:])
+        # article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after + '\n\n'
+
+
+        # # cuisine
+        # title_section = f'## What are the culinary uses of {common_name}?\n\n'
+        # content_paragraphs = get_content_2(f'database/articles/{entity}/cuisine.md').strip().split('\n')
+        
+        # if cuisine_col != 'n':
+        #     image_intro = f'\n\nThe following illustration lists the most common uses of {common_name} for culinary purposes.\n\n'
+            
+        #     rows = utils.csv_get_rows_by_entity(f'database/tables/cuisine/uses.csv', entity)
+        #     rows_filtered = [f'{x[1]}' for x in rows[:10]]
+
+        #     image_title = f'{latin_name.capitalize()} Cuisine'
+        #     try:
+        #         image_filepath = ''
+        #         image_filepath = generate_image_template_1(
+        #             entity, 
+        #             ['cuisine'], 
+        #             rows_filtered,
+        #         )
+        #     except: pass
+        # else:
+        #     image_intro = f'\n\nThe following illustration serves as a reminder that {common_name} is toxic and must not be used for culinary purposes.\n\n'
+        #     image_title = f'{latin_name.capitalize()} Cuisine'
+        #     try:
+        #         image_filepath = ''
+        #         image_filepath = generate_image_template_no_cuisine(
+        #             entity, 
+        #             ['cuisine'], 
+        #         )
+        #     except: pass
+        
+        # p_before = content_paragraphs[0]
+        # p_after = "\n\n".join(content_paragraphs[1:])
+        # article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after + '\n\n'
         
 
-        # horticulture
-        title_section = f'## How to cultivate {common_name} in your garden?\n\n'
-        content_paragraphs = get_content_2(f'database/articles/{entity}/horticulture.md').strip().split('\n')
-        image_intro = f'\n\nThe following illustration lists the most important tips to cutlitvate {common_name}.\n\n'
+        # # horticulture
+        # title_section = f'## How to cultivate {common_name} in your garden?\n\n'
+        # content_paragraphs = get_content_2(f'database/articles/{entity}/horticulture.md').strip().split('\n')
+        # image_intro = f'\n\nThe following illustration lists the most important tips to cutlitvate {common_name}.\n\n'
         
-        rows = utils.csv_get_rows_by_entity(f'database/tables/horticulture/tips.csv', entity)
-        rows_filtered = [f'{x[1]}' for x in rows[:10]]
-        image_title = f'{latin_name.capitalize()} Horticulture'
-        image_filepath = generate_image_template_1(entity, ['horticulture'], rows_filtered)
+        # rows = utils.csv_get_rows_by_entity(f'database/tables/horticulture/tips.csv', entity)
+        # rows_filtered = [f'{x[1]}' for x in rows[:10]]
+        # image_title = f'{latin_name.capitalize()} Horticulture'
+        # image_filepath = generate_image_template_1(entity, ['horticulture'], rows_filtered)
 
-        p_before = content_paragraphs[0]
-        p_after = "\n\n".join(content_paragraphs[1:])
-        article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after + '\n\n'
+        # p_before = content_paragraphs[0]
+        # p_after = "\n\n".join(content_paragraphs[1:])
+        # article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after + '\n\n'
             
 
-        # botany
-        title_section = f'## What is the botanical profile of {common_name}?\n\n'
-        content_paragraphs = get_content_2(f'database/articles/{entity}/botany.md').strip().split('\n')
-        image_intro = f'\n\nThe following illustration show the traditional taxonomy of {common_name}.\n\n'
+        # # botany
+        # title_section = f'## What is the botanical profile of {common_name}?\n\n'
+        # content_paragraphs = get_content_2(f'database/articles/{entity}/botany.md').strip().split('\n')
+        # image_intro = f'\n\nThe following illustration show the traditional taxonomy of {common_name}.\n\n'
         
-        rows = utils.csv_get_rows_by_entity_with_header(f'database/tables/botany/taxonomy.csv', entity)
-        rows_filtered = [f'{rows[0][k].capitalize()}: {rows[1][k]}' for k in range(len(rows[0])) if k != 0]
-        image_title = f'{latin_name.capitalize()} Botany'
-        image_filepath = generate_image_template_1(entity, ['botany'], rows_filtered)
+        # rows = utils.csv_get_rows_by_entity_with_header(f'database/tables/botany/taxonomy.csv', entity)
+        # rows_filtered = [f'{rows[0][k].capitalize()}: {rows[1][k]}' for k in range(len(rows[0])) if k != 0]
+        # image_title = f'{latin_name.capitalize()} Botany'
+        # image_filepath = generate_image_template_1(entity, ['botany'], rows_filtered)
 
-        p_before = content_paragraphs[0]
-        p_after = "\n\n".join(content_paragraphs[1:])
-        article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after + '\n\n'
+        # p_before = content_paragraphs[0]
+        # p_after = "\n\n".join(content_paragraphs[1:])
+        # article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after + '\n\n'
 
 
-        # history
-        title_section = f'## What is the history and folklore of {common_name}?\n\n'
-        content_paragraphs = get_content_2(f'database/articles/{entity}/history.md').strip().split('\n')
-        image_intro = f'\n\nThe following illustration lists the most well known historical uses of {common_name}.\n\n'
+        # # history
+        # title_section = f'## What is the history and folklore of {common_name}?\n\n'
+        # content_paragraphs = get_content_2(f'database/articles/{entity}/history.md').strip().split('\n')
+        # image_intro = f'\n\nThe following illustration lists the most well known historical uses of {common_name}.\n\n'
         
-        rows = utils.csv_get_rows_by_entity(f'database/tables/history/uses.csv', entity)
-        rows_filtered = [f'{x[1]}' for x in rows[:10]]
-        image_title = f'{latin_name.capitalize()} History'
-        image_filepath = generate_image_template_1(entity, ['history'], rows_filtered)
+        # rows = utils.csv_get_rows_by_entity(f'database/tables/history/uses.csv', entity)
+        # rows_filtered = [f'{x[1]}' for x in rows[:10]]
+        # image_title = f'{latin_name.capitalize()} History'
+        # image_filepath = generate_image_template_1(entity, ['history'], rows_filtered)
 
-        p_before = content_paragraphs[0]
-        p_after = "\n\n".join(content_paragraphs[1:])
-        article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after + '\n\n'
+        # p_before = content_paragraphs[0]
+        # p_after = "\n\n".join(content_paragraphs[1:])
+        # article += title_section + p_before + image_intro + f'![{image_title}]({image_filepath} "{image_title}")' + p_after + '\n\n'
 
     # medicine
     elif 'medicine' in attribute_1.lower() and attribute_2.strip() == '':
@@ -3434,11 +3695,19 @@ html = f'''
         <section class="hero-section">
             <div class="container-lg h-full">
 
-                {header}
+                <section>
+                    <div class="container-lg">
+                        <header>
+                            <a class="fg-white" href="/">TerraWhisper</a>
+                            <nav>
+                                <a class="fg-white" href="/plants.html">All Plants</a>
+                            </nav>
+                        </header>
+                    </div>
+                </section>
 
                 <div class="flex flex-col justify-center items-center h-90">
-                    <h1 class="fg-white text-center size-72 weight-400">Learn how to improve your health using medicinal
-                        plants</h1>
+                    <h1 class="fg-white text-center size-72 weight-400">Learn how to use plants to improve your life</h1>
 
                     <div class="container">
                         <p class="fg-white text-center">If you are interested in healing herbs and natural remedies, welcome

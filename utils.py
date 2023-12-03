@@ -49,3 +49,13 @@ def csv_get_rows_by_entity_with_header(filepath, entity):
             filtered_rows.append(row)
             
     return filtered_rows
+
+
+def csv_to_llst_2(filepath):
+    llst = []
+    with open(filepath, newline='') as f:
+        reader = csv.reader(f, delimiter='|')
+        for row in reader:
+            if is_row_not_empty(row):
+                llst.append(row)
+    return llst

@@ -1,0 +1,5 @@
+ Neem (Azadirachta indica) has been used for thousands of years in traditional medicine systems across various cultures, particularly in Ayurvedic and Unani practices. It is believed to have antiviral, antibacterial, and anti-inflammatory properties which make it effective against a wide range of diseases including skin disorders, malaria, fevers, and even diabetes.
+
+ Neem has also been used historically in divination practices due to its unique physical characteristics. Its leaves are odd-pinnately compound with 20-30 leaflets, making it easily distinguishable from other plants. Additionally, the tree's yellow flowers and seeds have been associated with certain superstitions and beliefs related to spiritual protection.
+
+ Many legends surround Neem in different cultures due to its multiple uses and potential healing properties. In Indian mythology, it is considered sacred and linked to Lord Shiva, who is known for his association with nature and medicinal plants. Similarly, in African folklore, neem trees are believed to possess magical powers that can ward off evil spirits or bring good fortune when planted near homes or businesses.

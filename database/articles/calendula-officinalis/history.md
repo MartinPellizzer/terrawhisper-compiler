@@ -1,0 +1,5 @@
+ Traditional medicine has used Calendula officinalis for centuries due to its antiseptic, anti-inflammatory, and wound healing properties. The ancient Greeks, Romans, and Egyptians all utilized this plant in various ways. The Egyptians even went so far as to use it in their embalming process.
+
+ In some societies, calendula was also used for divination purposes. For instance, among the Celts, a specific ritual would involve laying out calendula leaves on a table and interpreting their patterns as a way of foretelling future events or finding lost objects.
+
+ According to legends, Calendula officinalis possesses supernatural powers. In some cultures, it was believed that the plant could ward off evil spirits, protect against witches' curses, and even heal diseases thought to be caused by such curses. It also played a role in love potions, often used as an ingredient to attract or maintain romantic interest.

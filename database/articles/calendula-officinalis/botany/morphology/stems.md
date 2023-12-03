@@ -1,7 +1,0 @@
-The stems of Calendula officinalis are herbaceous, meaning they are non-woody in nature, making them flexible and generally not capable of supporting substantial weight. These stems are arranged oppositely, with leaves and branches emerging in pairs along the stem. In terms of shape, Calendula officinalis stems are erect and cylindrical, giving the plant an upright appearance.
-
-In terms of size, the stem height typically ranges from 30 to 60 centimeters (12 to 24 inches), while the stem diameter falls between 0.3 and 0.6 centimeters (0.12 to 0.24 inches). This slender diameter is consistent with the herbaceous nature of the plant.
-
-The stem color is typically green, with a slight pubescence, meaning there may be fine hairs on the surface. These hairs contribute to the stem's texture, which is smooth but not entirely hairless, giving it a slightly soft or velvety feel. The stem surface is primarily glabrous, meaning it's mostly smooth with a minimal presence of trichomes or hairs.
-
-Calendula officinalis stems possess clearly defined nodes, which are the points on the stem where leaves, branches, or flowers are attached. These nodes are spaced along the stem at regular intervals. In contrast, the internodes, which are the segments of the stem between nodes, are approximately 5 to 15 centimeters (2 to 6 inches) apart, providing a sense of spacing and structure to the plant's overall form.

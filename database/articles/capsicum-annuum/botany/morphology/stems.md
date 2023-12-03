@@ -1,7 +1,0 @@
-The stem type of Capsicum annuum is herbaceous, meaning it is non-woody, and it provides support for the plant without the development of wood-like tissue. Stem arrangement is opposite, with leaves occurring in pairs at each node along the stem. This arrangement creates a pattern of leaves alternating on either side of the stem.
-
-The stem shape of Capsicum annuum is typically round, resembling a cylindrical structure. In terms of size, the stem can reach heights ranging from 30 to 120 cm (11.8 to 47.2 inches). The stem's diameter falls within the range of 0.5 to 1.5 cm (0.2 to 0.6 inches), with variations depending on the plant's age and health.
-
-The stem color is predominantly green, especially in young plants, but it matures to brown or even purple as the plant develops. The stem texture is smooth, and the surface is glabrous, meaning it lacks hair or trichomes. This contributes to the stem's characteristic appearance.
-
-Stem nodes are frequent, occurring at the attachment points of leaves, leading to the distinct opposite leaf arrangement mentioned earlier. The internodes, which are the segments of stem between nodes, typically measure between 5 to 15 cm (2 to 6 inches) in length.

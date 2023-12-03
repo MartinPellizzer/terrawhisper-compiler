@@ -1,9 +1,0 @@
-The inflorescence type of Cassia senna is a raceme, typically measuring between 10 to 25 centimeters in length. The flowers exhibit a simple complexity, consisting of five distinct floral parts. These blooms are notably zygomorphic, displaying bilateral symmetry.
-
-The flower structure of Cassia senna is quite regular, and it features a total of five floral parts. These flowers are axillary, meaning they arise from the leaf axils. The shape of Cassia senna flowers is banner-shaped, with five unequal petals, where the banner petal is the largest. The individual flowers have a length of approximately 3 centimeters (or 1.18 inches) and a width of about 2 centimeters (or 0.79 inches).
-
-In terms of color, Cassia senna flowers are primarily yellow, often with faint reddish veins. They exhibit a smooth texture and a glabrous (hairless) surface. The total number of floral parts is five, which includes five green, lanceolate sepals measuring around 1 centimeter (or 0.39 inches) each and five yellow petals.
-
-The flower perianth, which consists of both sepals and petals, is present in Cassia senna. The stamens, numbering ten in total, have distinct filaments, with a length ranging from 3 to 4 centimeters (approximately 1.18 to 1.57 inches). The plant has a single elongated style and stigma, along with a superior ovary. The style itself measures around 3 centimeters (or 1.18 inches) and possesses a capitate, or rounded, stigma. Notably, Cassia senna lacks stipules, and its bracts are typically small and inconspicuous.
-
-Both the peduncle (the main stalk) and pedicel (the individual flower stalk) are present, further characterizing the flower's attachment and structure. These morphological features collectively contribute to the distinctive appearance and classification of Cassia senna, which is not only botanically intriguing but also valuable for various purposes in traditional medicine and horticulture.

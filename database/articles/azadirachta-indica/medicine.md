@@ -1,0 +1,9 @@
+Neem (Azadirachta indica) is a plant that has been used for centuries in traditional medicine systems such as Ayurveda and Unani to treat various health conditions. It is known for its antioxidant, anti-inflammatory, antiviral, antibacterial, and antifungal properties which help in treating skin disorders, digestive problems, diabetes, high blood pressure, fever, pain relief, boosting the immune system, improving oral health, reducing cholesterol levels, treating arthritis, and even preventing cancer.
+
+Neem contains several bioactive compounds such as nimbidin, nimbosterol, azadirachtin, and quercetin that give it its medicinal properties. These constituents have been studied for their potential health benefits in treating various diseases.
+
+The most commonly used parts of the neem plant are leaves, fruits, seeds, bark, and flowers. Various preparations can be made from these parts such as leaf extracts, oil, powder, capsules, tablets, lotions, soaps, shampoos, toothpaste, and mouthwash. These products are used to treat different health conditions.
+
+Neem has been reported to cause side effects such as stomach upset, diarrhea, skin rashes, and allergic reactions in some individuals. It may also interfere with certain medications and medical conditions, so it is essential to consult a healthcare professional before using any neem-based product.
+
+To ensure safe and effective use of neem products, proper dosage and administration should be followed. It is recommended to start with small amounts and gradually increase the dose as needed. Avoid using neem during pregnancy or breastfeeding unless advised by a healthcare professional. Also, avoid using neem if you have any known allergies or medical conditions without consulting a doctor first.

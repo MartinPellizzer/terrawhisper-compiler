@@ -1,8 +1,10 @@
-Acorus calamus belongs to the domain Eukarya, the kingdom Plantae, the phylum Angiosperms, the class Monocots, the order Acorales, the family Acoraceae, the genus Acorus, and the species Acorus calamus.
+ The botanical name of sweet flag is Acorus calamus. This plant belongs to the domain Eukarya, kingdom Plantae, phylum Tracheophyta, class Liliopsida, order Poales, family Araceae, genus Acorus, and species calamus. The common names for this plant are sweet flag, flag, calamus root, and eelgrass.
 
-This plant is commonly known as sweet flag and has several regional variants, including calamus root, flagroot, myrtle flag, and sweet sedge.
 
-Sweet flag is a herbaceous plant with cylindrical stems that can reach up to 1.5 meters in height and about 1.5 cm in diameter. The leaves are linear and lanceolate, measuring between 30-80 cm in length and 1.5-2.5 cm in width, with a smooth and glossy texture. The leaves are green with a waxy sheen, and they have parallel venation and entire, wavy margins. They attach directly to the stem and are evergreen, with no presence of petioles or stipules.
+ Sweet flag is a perennial herb that grows up to 2 meters tall. It has a thick, fleshy stem with a distinctive aroma. The leaves are arranged in a rosette and are oval in shape with serrated edges. The plant produces small, white flowers on an umbellate inflorescence.
+ 
+ There are two main variants of sweet flag, which are the broad-leaved and narrow-leaved varieties. The broad-leaved variety has wider leaves with a longer petiole than the narrow-leaved variety. Additionally, the broad-leaved variety tends to have more robust stems and larger flowers than the narrow-leaved variety.
 
-About Sweet flag's geographic distribution, it is primarily found in North America, Europe, and Asia, inhabiting wetlands, marshes, and the banks of slow-moving water bodies such as rivers, ponds, and lakes. This perennial herb thrives in both temperate and subtropical regions, and its preference for waterlogged soils allows it to grow in saturated habitats, often forming dense colonies along the edges of water sources. Sweet flag's habitat choice is characterized by its affinity for consistent moisture and partial shade, making it a key component of riparian ecosystems.
+ Sweet flag is native to wetlands and streamsides of North America, Europe, Asia, and Africa. It prefers moist soils and can tolerate full sun or partial shade. In addition, the plant is also found in aquatic habitats such as marshes, swamps, and rivers.
 
+ Sweet flag has a diploid life cycle with a sporophyte phase that produces seeds. The seeds are dispersed by water and animals, which consume the fruit and excrete the seeds in their feces. The plant also has an antheridium phase that produces pollen, which is fertilized by pollen from another flower to produce seeds.

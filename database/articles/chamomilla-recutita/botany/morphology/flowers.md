@@ -1,5 +1,0 @@
-The inflorescence type of Chamomilla recutita is classified as umbel-shaped, presenting a solitary and simple structure. The flowers exhibit radial symmetry, forming a composite structure with no attachment to sepals. They come in a disk-like shape, typically measuring about 1.5 cm in both length and width. 
-
-The flowers of Chamomilla recutita can be white or yellow in color and have a smooth, glabrous texture, lacking any noticeable hairs. In total, each flower consists of 20 floral parts, with no sepals but featuring 20 petal-like ray florets. The perianth is made up of these 20 petals or ray florets, creating a distinct appearance. Additionally, the flowers bear five stamens within the disc florets, which are central to the composite structure.
-
-The central disc floret is equipped with a single pistil, and the ovary is described as inferior. Notably, these flowers lack a style, and the stigma is two-lobed, exhibiting a divided structure. Chamomilla recutita does not possess stipules, and its bracts are inconspicuous, appearing as small and green in color. Furthermore, the peduncle is absent in this species, and if present, the pedicel is notably short.

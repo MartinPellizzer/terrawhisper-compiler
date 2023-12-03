@@ -1,10 +1,9 @@
+ Celery (Apium graveolens) belongs to the kingdom Plantae, phylum Tracheophyta, class Magnoliopsida (or Dicotyledones), order Apiales, family Apiaceae (or Umbelliferae), and genus Apium. Common names include Celeriac and Smallage.
 
+ There are several cultivars of celery, including Pascal, Utmost, Golden Self-Blanching, Red Venture, Tango, and Vantage. These variants differ in their color, size, and blanching ability. Some varieties are also used as a root vegetable, such as celeriac.
 
+ Celery is a biennial herb with a long, thick stalk that can grow up to two feet tall. The leaves of celery are dark green and feathery. It has small white flowers that bloom in an umbrella-like shape. The root of celeriac, another variety of celery, is large, bulbous, and edible.
 
-Celery, scientifically known as Apium graveolens, belongs to the Plantae domain, Magnoliophyta kingdom, Magnoliopsida class, Apiales order, Apiaceae family, Apium genus, and graveolens species.
+ Celery is native to the Mediterranean region but is now widely cultivated around the world. It can grow in a variety of climates, from cool, moist areas to warm, dry regions. It prefers well-drained soil and full sun or partial shade.
 
-Its common name, celery, encompasses various cultivars like Pascal celery, celeriac (Apium graveolens var. rapaceum), and leaf or Chinese celery (Apium graveolens var. secalinum). These variants differ in their growth habits and uses but share the same botanical classification.
-
-Celery is a biennial plant characterized by a rosette of compound leaves with stalks forming a prominent edible petiole. Its roots are fibrous and fleshy, while the leaves are pinnate, displaying small, ovate leaflets. During its second year, celery produces flowers arranged in compound umbels, each containing small white or yellow blossoms. The plant's overall height can range from 30 to 100 centimeters, depending on the variety.
-
-This plant is native to the Mediterranean region and prefers moist, temperate climates. It thrives in rich, well-drained soils and can be found growing in marshy areas, along stream banks, and in cultivated fields across Europe, Asia, and North America. Celery is often cultivated as a crop in various regions worldwide due to its adaptability to diverse growing conditions.
+ Celery has a unique life cycle. It starts as a seed that germinates in the soil. The plant then grows leaves and stalks and forms flowers at the end of its first year. If left to grow, it will produce seeds and die after two years. However, if grown for food, it is typically harvested before flowering.

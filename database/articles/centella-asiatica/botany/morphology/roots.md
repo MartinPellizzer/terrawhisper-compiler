@@ -1,7 +1,0 @@
-The root system of Centella asiatica is classified as fibrous, consisting of numerous fine roots. These roots have a taproot structure, with moderate branching, typically following a dichotomous pattern. At the tips, these roots are sharp and tapering, allowing for effective penetration of the soil.
-
-The root density of Centella asiatica is noteworthy, with approximately 2,000 roots per square meter. This high density contributes to the plant's stability and ability to efficiently absorb nutrients and water from the soil. In terms of depth, the roots typically extend to a depth of 15-20 cm (6-8 inches), which is well-suited for the plant's growth and development.
-
-Root diameter varies from 1-2 mm (0.04-0.08 inches), indicating the fine and delicate nature of the roots. The maximum root length observed in Centella asiatica can reach up to 20 cm (8 inches). Root color is pale beige-brown, and the root surface texture is smooth with fine lateral lines, providing the plant with a unique visual and textural identity.
-
-Notably, Centella asiatica does not form root nodules, which are specialized structures for nitrogen fixation commonly found in some other plant species. Root hairs, on the other hand, are present but sparse. They are fine and unbranched, serving to increase the root's surface area for improved nutrient and water absorption.

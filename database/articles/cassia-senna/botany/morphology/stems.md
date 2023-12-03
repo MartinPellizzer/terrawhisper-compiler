@@ -1,5 +1,0 @@
-Cassia senna typically features herbaceous stems, although woody variants can also be found. These stems are arranged alternately along the plant, creating a consistent pattern of leaves. The shape of the stem is usually cylindrical, but angular stems are not uncommon. In terms of size, Cassia senna can reach a height ranging from 30 to 90 centimeters, with a diameter that falls between 0.5 and 1.5 centimeters.
-
-The stem color is predominantly green, but it may turn brown as the plant matures. When you touch the stem, you'll notice that it has a smooth texture, although variations can lead to a rougher feel. The stem's surface can either be glabrous (smooth and hairless) or pubescent (having fine hairs).
-
-Stem nodes, which are the points on the stem from which leaves and branches grow, are present in Cassia senna. These nodes play a crucial role in the plant's growth and development. The distance between these nodes, known as internodes, varies from 3 to 10 centimeters. These internodes contribute to the overall structure and spacing of the plant's foliage.

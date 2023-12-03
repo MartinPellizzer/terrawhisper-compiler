@@ -1,7 +1,0 @@
-The stem type of Cinnamomum verum are be classified as herbaceous when young and gradually transitions into a woody structure as it matures. This change is integral to the plant's growth and development. The stem arrangement is generally opposite, though it may occasionally appear in an alternate, decussate pattern, where leaves or branches attach in pairs at right angles to one another.
-
-In terms of shape, the stems are typically cylindrical, presenting a round appearance. They may also display slight ribbing, which can be helpful in distinguishing them from other species. The stem height of Cinnamomum verum usually reaches a maximum of 10 meters (approximately 32.8 feet), making it a relatively tall plant. The stem diameter averages around 2.5 cm (1 inch), offering a medium-sized profile.
-
-The stem color of this species is distinctive, ranging from brown to reddish-brown. This hue is a key characteristic that separates Cinnamomum verum from other cinnamon varieties. The stem texture is smooth with fine pubescence, while the surface appears glabrous (smooth), often featuring lenticels, small raised structures that facilitate gas exchange.
-
-Nodes on the stems are clearly defined, serving as attachment points for leaves and branches. These nodes play a crucial role in the overall growth and structure of the plant. The internodes, the spaces between these nodes, are typically spaced about 10 to 15 cm (4-6 inches) apart, contributing to the overall arrangement and appearance of the stems.

@@ -1,7 +1,0 @@
-Chrysanthemum morifolium has a fibrous root system, which means it consists of a network of fine roots rather than a single dominant root. The root structure is taproot, characterized by a primary, thick root from which smaller roots branch out in a dichotomous pattern, forming a tree-like structure.
-
-The root tips are acute and pointed, enabling them to penetrate the soil effectively. Chrysanthemum morifolium roots have a high density, with numerous fine roots extending from the taproot. These roots typically grow to a depth of 15-30 cm (6-12 inches) in the soil, allowing the plant to access water and nutrients efficiently.
-
-In terms of diameter, Chrysanthemum morifolium roots range from 0.2 to 0.5 cm (0.08-0.2 inches), and their length can reach up to 30 cm (12 inches). The roots appear whitish or light brown in color and have a smooth and glabrous surface texture, which aids in the absorption of water and minerals from the soil.
-
-Notably, Chrysanthemum morifolium roots lack nodules, which are specialized structures found in some plants for nitrogen fixation. However, they are equipped with fine root hairs that are numerous and assist in increasing the root's surface area for absorption.

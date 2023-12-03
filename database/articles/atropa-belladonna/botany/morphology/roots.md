@@ -1,5 +1,0 @@
-Atropa belladonna has a taproot system, which means it has one main root that goes deep into the ground with smaller secondary roots branching off from it. These secondary roots display dichotomous branching patterns.
-
-The root tips of Atropa belladonna are pointed, and the root structure is fibrous, composed of multiple fine roots. The density of these roots varies but is typically around 0.25 g/cm3. In terms of depth, the roots of this plant typically extend to a depth of 30 to 60 centimeters (approximately 12 to 24 inches) below the soil surface. Their diameter is approximately 0.5 centimeters (0.2 inches), and they can grow up to 60 centimeters (24 inches) in length.
-
-Roots of Atropa belladonna are dark brown to black in color and possess a rough, slightly wrinkled surface texture. Unlike some other plants, this species does not form root nodules. Root hairs on Atropa belladonna are sparse, fine, and non-glandular.

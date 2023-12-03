@@ -307,20 +307,20 @@ for i, row in enumerate(master_rows[1:]):
 
     e = driver.find_element(By.XPATH, '//input[@id="storyboard-upload-input"]')
     e.send_keys(f'C:\\terrawhisper-compiler\\pinterest\\tmp\\{common_name_formatted}-{attribute.lower().replace(" ", "-")}.jpg') 
-    time.sleep(3)
+    time.sleep(10)
 
     e = driver.find_element(By.XPATH, '//input[@id="storyboard-selector-title"]')
     e.send_keys(title)
-    time.sleep(3) 
+    time.sleep(5) 
 
     e = driver.find_element(By.XPATH, "//div[@class='notranslate public-DraftEditor-content']")
     for c in description:
         e.send_keys(c)
-    time.sleep(3)
+    time.sleep(5)
 
     e = driver.find_element(By.XPATH, '//input[@id="WebsiteField"]')
     e.send_keys(url) 
-    time.sleep(3)
+    time.sleep(5)
 
     e = driver.find_element(By.XPATH, '//button[@data-test-id="board-dropdown-select-button"]')
     e.click()
@@ -328,11 +328,11 @@ for i, row in enumerate(master_rows[1:]):
 
     e = driver.find_element(By.XPATH, '//input[@id="pickerSearchField"]')
     e.send_keys('Medicinal Plants') 
-    time.sleep(3)
+    time.sleep(5)
 
     e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-Medicinal Plants"]')
     e.click()
-    time.sleep(3)
+    time.sleep(5)
 
     e = driver.find_element(By.XPATH, '//div[@data-test-id="storyboard-creation-nav-done"]/..')
     e.click()

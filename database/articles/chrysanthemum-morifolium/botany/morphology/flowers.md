@@ -1,9 +1,0 @@
-The inflorescence type of Chrysanthemum morifolium is known as a capitulum, which consists of multiple individual flowers clustered together. These flowers exhibit a simple and non-complex structure, boasting a radial or actinomorphic symmetry, meaning they are symmetrical in all directions. 
-
-Each chrysanthemum flower is a single, non-fused structure, attached to the stem in a solitary manner, with one flower per stem. The flowers take on a disc-shaped form, with a standardized size of approximately 2.5 centimeters (0.98 inches) in both length and width. Chrysanthemum morifolium comes in a range of colors, making it a versatile and visually appealing plant for ornamental purposes.
-
-When touched, the flowers feel smooth to the touch, as they have a glabrous or hairless texture. These flowers are composed of 21 floral parts, which may vary slightly between different chrysanthemum cultivars. Interestingly, they lack sepals, as the colorful petals replace this protective outer layer. The combined structure of sepals and petals is referred to as the perianth.
-
-Within the flower, numerous stamens can be found, although the exact count may vary. Chrysanthemum morifolium typically features a single pistil with an inferior ovary, positioned below other floral parts. The pistil is characterized by a single style and two stigma structures at its tip. Stipules, small leaf-like structures found at the base of some flowers, are absent in chrysanthemum.
-
-The flowers are supported by a peduncle, a stalk-like structure that can grow to a length of approximately 30 centimeters (11.81 inches). At the base of each flower, there is a pedicel, which measures around 2 centimeters (0.79 inches) in length.

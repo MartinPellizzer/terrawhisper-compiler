@@ -1,7 +1,0 @@
-The leaves of Centella asiatica are simple and have a distinct kidney-shaped, or reniform, shape. They are arranged oppositely on the stem, with a horizontal orientation.
-
-The leaves of Centella asiatica are relatively small, typically measuring 2 to 6 centimeters (0.8 to 2.4 inches) in length and 1 to 3 centimeters (0.4 to 1.2 inches) in width. They are quite thin, with a thickness ranging from 0.1 to 0.2 centimeters (0.04 to 0.08 inches). The color of the leaves is generally green, and their texture is smooth. The leaf surface is described as glabrous, meaning it is hairless.
-
-When examining the leaves closely, you'll notice that their apex is blunt, and the base is heart-shaped, or cordate. The leaf margins are smooth and entire, meaning they lack teeth or serrations along the edges. The venation of the leaves is palmate, which means the veins radiate from a common point.
-
-The leaf lamina is orbicular, giving the leaves a circular appearance. The midrib of the leaf is prominent, running through the center. The leaves are petiolate, meaning they are attached to the stem by a petiole, which is typically 2 to 10 centimeters (0.8 to 4 inches) in length. However, Centella asiatica lacks stipules.

@@ -1,7 +1,0 @@
-The leaves of Cinchona officinalis are relatively simple, with an elliptical shape. They are arranged oppositely on the stem, and their orientation is typically horizontal. The average leaf length measures approximately 10 cm (3.94 inches), while the width is about 4 cm (1.57 inches), making them relatively broad. The thickness of the leaves is relatively thin, with a measurement of 0.2 cm (0.08 inches).
-
-In terms of color, the leaves of Cinchona officinalis are dark green, giving the plant a characteristic appearance. The leaf surface is smooth and glossy, and the leaves themselves are glabrous, meaning they lack hair or trichomes.
-
-Leaf morphology includes an acute apex, which means the tip of the leaf is pointed. The base of the leaf is cuneate, giving it a wedge-shaped appearance. The leaf margin is entirely smooth and continuous. These leaves exhibit pinnate venation, characterized by a single prominent central vein with smaller veins branching outwards.
-
-The lamina of the leaves is broad and flat, providing ample surface area for various plant processes. The midrib, or central vein, is notably prominent within the leaf structure. Additionally, the leaves are stipulate, meaning they are attached with small, membranous stipules. The petiole, or leaf stalk, has a length of approximately 2 cm (0.79 inches).

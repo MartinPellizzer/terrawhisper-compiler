@@ -1,5 +1,0 @@
-The fruits of Chrysanthemum morifolium are classified as achenes, a type of dry, one-seeded fruit. They are typically found in clustered arrangements, densely packed together, attached directly to the receptacle without stalks. The fruit attachment is sessile, meaning they have no stalk or stem connecting them to the plant. 
-
-In terms of shape, chrysanthemum fruits are oblong and cylindrical, with a length of approximately 2.5 cm (0.98 inches) and a relatively small width and thickness of about 1 mm (0.04 inches). When mature, these fruits take on a brown or black color. The surface of chrysanthemum fruits is smooth and glossy, with no prominent markings.
-
-One distinctive feature of chrysanthemum fruits is their dehiscence, or rather, their lack of it. These fruits are indehiscent, meaning they do not split open when they reach maturity. This characteristic sets them apart from other types of fruits that exhibit dehiscence.

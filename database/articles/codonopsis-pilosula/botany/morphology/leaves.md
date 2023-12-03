@@ -1,7 +1,0 @@
-The leaves of Codonopsis pilosula are simple, not compound, and have a unique elliptical to lanceolate shape, typically measuring 4 to 12 centimeters (1.6 to 4.7 inches) in length and 1.5 to 4 centimeters (0.6 to 1.6 inches) in width. They are thin, and their color is predominantly green, often with a slightly waxy texture, giving them a characteristic shine.
-
-In terms of arrangement, these leaves are alternate, meaning they grow singly along the stem. They are oriented in an erect position, standing upright from the stem. The leaf margins are entire, providing a smooth and unbroken edge. The apex of the leaf is acute or pointed, while the base is cuneate, resembling a wedge shape.
-
-Leaf venation in Codonopsis pilosula is pinnate, with prominent veins and a reticulate venation pattern. The lamina is simple and entire, retaining the elliptic to lanceolate shape observed in the entire leaf. A prominent midrib runs along the center of the leaf, contributing to its structural integrity.
-
-Regarding leaf attachment, these leaves are petiolate, meaning they have petioles that connect them to the stem. The petioles are slender and measure 1 to 4 centimeters (0.4 to 1.6 inches) in length. Notably, Codonopsis pilosula lacks stipules, which are small leaf-like structures often found at the base of leaf petioles in some plant species.

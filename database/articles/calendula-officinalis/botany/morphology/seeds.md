@@ -1,5 +1,0 @@
-The seeds of Calendula officinalis belong to the angiosperms and specifically fall into the dicotyledonous category. They are found singly within the fruit, and their shape can be described as elongated ovals, measuring approximately 4.5 mm in length, 2 mm in width, and about 1 mm in thickness. The seeds are notably hard, making them resilient to various environmental conditions.
-
-The seed coat of Calendula officinalis is brownish, with a smooth and shiny surface. The thickness of the seed coat is quite thin, approximately 0.1 mm. This thinness, combined with its impermeable nature, may contribute to the seed's ability to resist environmental stressors.
-
-A distinct hilum, or scar, is present on the seed, marking the point of attachment to the plant during development. The embryo within the seed is straight, and the seed is dicotyledonous, meaning it contains two cotyledons. Additionally, the seed features a radicle, which is a crucial embryonic structure responsible for developing into the plant's primary root upon germination.

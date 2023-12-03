@@ -1,5 +1,0 @@
-Astragalus membranaceus seeds are orthotropic, which means they lack endosperm. They are typically solitary in arrangement, with a distinctive ellipsoidal shape. These seeds are approximately 4.5 millimeters long, 2 millimeters wide, and 1.5 millimeters thick (0.177 inches in length, 0.079 inches in width, and 0.059 inches in thickness).
-
-Unlike some seeds, Astragalus membranaceus seeds lack appendages like wings or awns. Typically, only one seed is found within each seed pod. The seeds are hard and firm, featuring a smooth surface with a fine, slightly wrinkled texture. The seed coat is generally light brown, shining with a thickness of about 0.2 millimeters (0.008 inches).
-
-Seed coat permeability is limited, with some seeds being nearly impermeable. The hilum, a scar marking the seed's attachment point in the pod, is small and inconspicuous. The embryo inside the seed is straight, small, and centrally located. Each seed has two cotyledons, which is a characteristic of dicotyledonous plants.

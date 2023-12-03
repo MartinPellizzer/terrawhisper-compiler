@@ -1,0 +1,9 @@
+ Sweet Annie can be used fresh or dried in a variety of ways including as a seasoning for soups, stews, sauces, and salad dressings. It's used in infused into vinegars, oils, butters, herbal teas, infusions and baking goods. Additionally, the tender shoots can be cooked like green onions, while the leaves are often used for flavoring.
+
+ The taste of Sweet Annie is complex and somewhat bitter with hints of anise, sage, and lemon verbena. It pairs well with other herbs and spices such as thyme, rosemary, garlic, ginger, and citrus fruits. Its strong aroma makes it suitable for use in dishes where the herbal presence is desired without overpowering them.
+
+ All parts of the plant are edible though different uses apply to each part. The young shoots can be eaten raw or cooked like green onions. Leaves can be used fresh or dried in recipes or made into tea. Flowers have a delicate flavor and can be added to salads or used for garnishing dishes. Stems and roots are often used for medicinal purposes rather than culinary ones.
+
+ When using Sweet Annie, start with small amounts as its strong flavor may require adjustments depending on individual preference. To preserve it long-term, dry the leaves and flowers in a cool, dark place away from direct sunlight. For short-term storage, place cut branches into water or moist sand to keep them fresh for several days.
+
+ Although Sweet Annie is generally considered safe when used properly, excessive consumption may cause stomach upset and nausea. It should not be consumed by pregnant women due to potential abortifacient effects. As with any herb, consult a healthcare professional before using it if you have any pre-existing medical conditions or are taking medications.

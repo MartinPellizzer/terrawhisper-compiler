@@ -1,9 +1,0 @@
-Citrus limon's root system is categorized as fibrous, comprising numerous slender roots that emanate from the base of the tree. These roots form an intricate network within the topsoil layers. The root structure is classified as adventitious, meaning they do not originate from the embryonic root (radicle) but instead emerge from the stem's nodes, aiding in rapid establishment.
-
-Root branching in Citrus limon follows a dichotomous pattern, where the main roots repeatedly divide into two similar-sized branches. This branching structure enhances the tree's ability to explore a larger volume of soil, accessing water and nutrients efficiently. The root tips are typically acute, enabling them to penetrate the soil with ease.
-
-Regarding root density, Citrus limon exhibits approximately 0.7 roots per cubic centimeter of soil within its root zone. The root depth ranges from 15 to 30 centimeters (6 to 12 inches), while the root diameter averages between 0.2 to 0.5 millimeters (0.008 to 0.02 inches). These dimensions are adapted to suit the tree's requirements for stability and resource uptake.
-
-The color of Citrus limon's roots is predominantly white or pale yellow, contributing to their capacity for light reflection and avoidance of excessive heating. The root surface texture is smooth, facilitating the passage through the soil matrix.
-
-Citrus limon's roots do not form nodules. However, they are equipped with abundant fine root hairs, enhancing their capacity for water and nutrient absorption. These fine root hairs amplify the surface area for absorption, further aiding the tree's growth and development.

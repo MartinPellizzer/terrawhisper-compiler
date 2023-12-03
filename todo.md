@@ -1,3 +1,7 @@
+- fix header in articles
+- if list in AI more than 10 elements, get only first 10 elements
+- fix missing common name in artemisia annua
+
 - write preparations articles (1 x day)
 
 - regenerate intro yarrow constituents

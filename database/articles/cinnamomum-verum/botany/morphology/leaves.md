@@ -1,5 +1,0 @@
-The leaves of Cinnamomum verum are simple, which means they consist of a single, undivided leaf blade. They have an elliptical shape and are arranged alternately on the branches. These leaves stand vertically, with an average length of 7.5 cm (3 inches) and a width of 2.5 cm (1 inch). Their thickness measures about 0.2 cm (0.08 inches).
-
-In terms of color, Cinnamomum verum leaves are typically green, presenting a smooth texture and a shiny surface. The leaf apex is acute, forming a pointed tip, while the base is cuneate, creating a wedge-like attachment to the stem. The leaf margin is entire, lacking any serrations or lobes.
-
-The venation of these leaves is pinnate, with a prominent midrib running along the center of the leaf blade. The leaf attachment is petiolate, meaning the leaves are attached to the stem by a slender stalk, which measures approximately 2.0 cm (0.8 inches) in length. Notably, Cinnamomum verum lacks stipules, small leaf-like structures at the base of the leaf stalk that are often found in other plant species.
