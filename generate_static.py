@@ -2,10 +2,6 @@ import os
 import shutil
 import utils
 
-shutil.copy2('style.css', 'website/style.css')
-shutil.copy2('index.html', 'website/index.html')
-shutil.copy2('plants.html', 'website/plants.html')
-
 
 google_tag = '''
     <!-- Google tag (gtag.js) -->
@@ -200,3 +196,8 @@ with open(f'website/index.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
 
+
+
+shutil.copy2('style.css', 'website/style.css')
+shutil.copy2('index.html', 'website/index.html')
+shutil.copy2('plants.html', 'website/plants.html')
