@@ -1,17 +1,9 @@
-Celery (Apium graveolens) has long been used as a medicinal plant due to its numerous health benefits and medicinal properties. This herb helps alleviate various health conditions such as digestive issues, skin problems, respiratory issues, blood pressure, and kidney disorders. It also supports heart health, boosts immunity, reduces inflammation, and promotes weight loss.
+Celery (Apium graveolens) has many health benefits, such as helping reduce high blood pressure and cholesterol levels due to its richness in phytonutrients like flavonoids, coumarins, and phenolic acids. These nutrients also possess powerful anti-inflammatory properties that can help relieve pain and inflammation. Celery is a good source of vitamin K, which plays an essential role in blood clotting, as well as vitamin C that offers vital antioxidant protection against free radicals.
 
+The medicinal constituents present in celery include essential oils, phytonutrients, flavonoids, coumarins, phenolic acids, vitamins, and minerals. These constituents offer varying medicinal properties that make celery a valuable herb for treating a wide range of health conditions.
 
+The most commonly used parts in medical practices are the leaves, seeds, roots, and stems. Various preparations can be made from these parts to serve different purposes. For instance, leaves are generally consumed fresh or dried as herbal teas, while seeds and root can be boiled into a decoction for treating cystitis or rheumatism. The essential oil extracted from the seeds is used as a topical application in cases of arthritis and joint pain relief.
 
-The medicinal constituents of celery include flavonoids (luteolin and quercetin), polysaccharides (glucosides and rhamnosides), vitamins (A, C, K, B6), minerals (iron, magnesium, potassium), and enzymes (beta-sitosterol and celery steroids). These compounds work together to provide the health benefits of this herb.
+Although celery has significant therapeutic benefits, it may have some side effects when consumed excessively. For example, consuming large amounts can lead to increased urine production due to its high diuretic content, which might result in electrolyte imbalances if not adequately balanced by sufficient fluid intake. Additionally, celery can interfere with certain medications such as anticoagulants, due to the presence of vitamin K and coumarins that may impair the action of these drugs.
 
-
-
-The most commonly used parts of celery are its leaves, stems, and roots. The leaves are often used in teas or supplements, while the stems can be eaten raw or cooked like vegetables. Celery juice is also a popular medicinal preparation that is known for its numerous health benefits.
-
-
-
-While celery is generally considered safe, it can cause adverse effects in some individuals. These include allergic reactions (itchy throat, sneezing), diarrhea, and gas when consumed in excess. Celery may also interact with blood-thinning medications such as warfarin. It is always advisable to consult a healthcare professional before using celery for medicinal purposes.
-
-
-
-To ensure the safety and efficacy of celery, it is important to follow certain precautions. Firstly, individuals with a history of allergies should avoid consuming celery or its products. Secondly, pregnant women should only use celery in moderation as there is limited research on its effects during pregnancy. Lastly, celery should be stored properly and consumed within a few days to ensure maximum potency.
+To ensure safe use of celery in medicinal practices, it's important to take a few precautions. Consulting a healthcare professional is advised before incorporating celery into one's diet or treatment plan, especially for those with existing health conditions, medication needs, or allergies to avoid any adverse reactions. Additionally, paying close attention to the right amount, form, and dosage of celery-based products and consulting product labels can help minimize potential side effects while harnessing the healing powers of this versatile herb.

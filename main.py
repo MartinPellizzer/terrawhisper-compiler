@@ -2308,13 +2308,13 @@ articles_files = [x for x in os.listdir(articles_folder) if x.endswith('.json')]
 
 try: shutil.rmtree('articles')
 except: pass
-try: shutil.rmtree('website')
-except: pass
+# try: shutil.rmtree('website')
+# except: pass
 
 try: os.mkdir(f'articles')
 except: pass
-try: os.mkdir(f'website')
-except: pass
+# try: os.mkdir(f'website')
+# except: pass
 
 chunks = website_img_path.split('/')
 curr_chunk = ''
@@ -2355,8 +2355,10 @@ for i, row in enumerate(articles_master_rows[1:]):
     date = row[articles_dict['date']].strip()
     state = row[articles_dict['state']].strip()
     done = row[articles_dict['done']].strip()
-    cuisine_col = row[articles_dict['cuisine']].strip()
+    update = row[articles_dict['update']].strip()
     latin_name = entity.replace('-', ' ').capitalize()
+
+    if update.strip() == '': continue
 
     if entity_arg:
         if entity_arg.strip() != entity:
@@ -2416,13 +2418,14 @@ for i, row in enumerate(articles_master_rows[1:]):
             paragraph_1 = content_paragraphs[0]
             paragraph_rest = content_paragraphs[1:]
 
-            filepath = generate_image_template_3(
+            try: filepath = generate_image_template_3(
                 entity, 
                 common_name, 
                 f'{image_folder}/{entity}/000{i}.jpg', 
                 f'{section}', 
                 f'database/tables/{section}.csv'
             )
+            except: filepath = ''
 
             section_title = ''
             if section == 'medicine': 
@@ -3561,7 +3564,8 @@ for i, row in enumerate(articles_master_rows[1:]):
             # article += generate_table_simple(rows)
             # article += '\n\n'
 
-                    
+    
+    article = article.replace('’', "'") 
     attribute_lst = [x for x in [attribute_1, attribute_2] if x.strip() != '']
     article_filepath = generate_html(date, title, article, entity, attribute_lst)
 

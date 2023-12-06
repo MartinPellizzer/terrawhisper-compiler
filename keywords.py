@@ -1,7 +1,7 @@
 import sys
 import shutil
 
-# print('params (ACTION, ENTITY, OUT_FILENAME, WORD)')
+print('params (ACTION, ENTITY, WORD)')
 
 # if len(sys.argv) != 4:
 #     print('ERR: params (ACTION, ENTITY, OUT_FILENAME, WORD)')
@@ -11,14 +11,8 @@ import shutil
 action = sys.argv[1]
 entity = sys.argv[2]
 word = sys.argv[3]
-# out_filename = sys.argv[3]
-# word = sys.argv[4]
-# print(out_filename)
-# print(word)
-# quit()
 
-# if entity == 'achillea-millefolium': name = 'yarrow'
-# elif entity == 'acorus-calamus': name = 'sweet flag'
+
 
 if action == 'filter':
     with open(f'keywords/{entity}/master.md', encoding='utf-8') as f:
@@ -50,15 +44,21 @@ if action == 'filter':
                 break
         if not found:
             filtered_keywords_2.append(keyword)
-            # print(keyword)
         else:
             pass
-        
-    
     
     with open(f'keywords/{entity}/master_filtered.md', 'w', encoding='utf-8') as f:
         for item in filtered_keywords_2:
             f.write(item)
+
+
+
+
+
+
+
+
+
 
 elif action == 'group':
 

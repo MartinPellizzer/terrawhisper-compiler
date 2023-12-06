@@ -1,0 +1,9 @@
+Lemon, Citrus limon, finds usage across a variety of culinary applications due to its sour and citrusy taste. It is used to flavor and add a tangy touch to various dishes, from sweet preparations to savory ones. Its acidic nature also makes it an excellent ingredient for marinades and dressing up vegetables.
+
+The distinctively sour taste of lemon comes from its high citric acid content along with essential oils that contribute to a pleasantly refreshing aroma. These properties make lemons the perfect complementary element to bring out the flavors in dishes such as desserts, seafood, and even meat preparations.
+
+In terms of edible parts, lemon fruits are generally consumed in their entirety, including the skin and seeds. The zest, which is the outermost layer of peel that contains essential oils, can be used to add a stronger citrusy flavor to dishes. Meanwhile, the juice extracted from the fruit provides an intense yet tart and refreshing taste.
+
+ using freshly squeezed juice for better taste, zesting in order to intensify the citrusy flavor, combining lemon juice with sugar or salt for enhanced flavors, and adding it towards the end of cooking to preserve its vibrant taste. Additionally, marinating chicken, fish, and even tofu in a mixture of lemon juice and other seasonings can result in delicious meals with unique tanginess.
+
+Despite their versatile use and appealing aroma, there are some possible side effects and toxicity concerns associated with lemons. The high acid content can cause irritation or burns if not handled properly. Moreover, excessive consumption of lemon juice may lead to stomach upsets in individuals prone to acidity and gastric sensitivities. It is essential to maintain a balance when incorporating this citrus fruit into one's culinary creations.

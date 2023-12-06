@@ -1,0 +1,9 @@
+Codonopsis, with botanical name Codonopsis pilosula, belongs to the domain Eukaryota and is a part of the Plantae kingdom, the Magnoliophyta division, the Magnoliales order, the Campanulaceae family, and the Codonopsidium genus. It has various common names like Butterfly weed, Chinese Codonopsis, and Niannan Codonopsis.
+
+The variants of Codonopsis pilosula include Codonopsis lanceolata, which differs by its more slender leaves and larger flowers. It often lives in the same habitats but may have a slightly different distribution. Another variant is Codonopsis tangshen (aka Tang-Shen), primarily recognized due to smaller-shaped blossoms, usually with white or pink colors.
+
+Codonopsis pilosula grows up to about one meter tall and features square stems, opposite leaves, and large bell-shaped flowers. Its flowers are typically white, purple, or pink in color and have a sweet fragrance. The plant can grow both as an annual and perennial depending on the climate conditions.
+
+Codonopsis pilosula is native to Asia, particularly China, Japan, and India, though its specific distribution varies among the different variants. It prefers mountainous regions with partial shaded environments. This plant can be found growing in grasslands and rocky areas at elevations between 100 and 3,500 meters above sea level.
+
+Codonopsis pilosula has a biennial life cycle, meaning it takes two years to complete its full lifespan. In the first year, it grows leaves and stems only as seedlings; in the second year, it flowers, reproduces seeds and then dies off. This plant serves a critical role in pollination by attracting various butterfly species.

@@ -1,0 +1,7 @@
+Turmeric, scientifically known as Curcuma longa, is a traditional Asian spice with both historical and cultural significance. It has been extensively utilized for medicinal purposes and rituals throughout the ages.
+
+ Turmeric has an undisputed place in Ayurveda, one of the oldest healing systems known to mankind. In this system, turmeric is considered a "panchakarma" herb, which means it's employed in eliminating impurities from the body. It is known to stimulate digestion, purify blood and act as an anti-inflammatory agent for several medical conditions like arthritis and indigestion. The yellow color of the turmeric root is attributed to its active ingredient called curcumin which possesses potent antioxidant properties.
+
+ Turmeric has been a vital part of Indian rituals for thousands of years, particularly when it comes to matters relating to divination and fortune-telling. In Hindu culture, this bright orange spice is used during the celebration of Diwali, the festival of lights. The powdered turmeric is mixed with vermilion (red) and rice grains, which are then scattered on the floor. This act symbolizes the casting away of evil spirits and bringing good luck to the home.
+
+ In India's sacred epic, the Ramayana, Lord Rama and Sita were believed to have used turmeric during their exile in the forest. One myth credits the spice for hiding Sita's complexion from the prying eyes of potential rivals. Another legend claims that Sugriva, a king who aided Rama, discovered the turmeric plant after being guided by Hanuman, the monkey god.

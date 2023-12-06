@@ -2,6 +2,12 @@ import csv
 import os
 import re
 from ctransformers import AutoModelForCausalLM
+import sys
+
+sys_arg_override = False
+try: 
+    if sys.argv[1] == 'override': sys_arg_override = True
+except: pass
 
 
 def csv_get_rows(filepath):
@@ -21,18 +27,27 @@ def get_latin_name(entity):
     return latin_name
 
 
+
+
 # llm = AutoModelForCausalLM.from_pretrained("mistral-7b-instruct-v0.1.Q8_0.gguf", model_type="mistral", max_new_tokens=1024, context_length=1024)
 # llm = AutoModelForCausalLM.from_pretrained("C:\\Users\\admin\\Desktop\\models\\openhermes-2.5-mistral-7b.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=1024)
 # llm = AutoModelForCausalLM.from_pretrained("C:\\Users\\admin\\Desktop\\models\\dolphin-2.2.1-mistral-7b.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=1024)
-llm = AutoModelForCausalLM.from_pretrained("C:\\Users\\admin\\Desktop\\models\\neural-chat-7b-v3-1.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=1024)
+llm = AutoModelForCausalLM.from_pretrained(
+    "C:\\Users\\admin\\Desktop\\models\\neural-chat-7b-v3-1.Q8_0.gguf", 
+    model_type="mistral", 
+    context_length=1024, 
+    max_new_tokens=1024, 
+    temperature=1, 
+    repetition_penalty=1.5
+    )
+# llm = AutoModelForCausalLM.from_pretrained("C:\\Users\\admin\\Desktop\\models\\dolphin-2.1-mistral-7b.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=1024)
 
-num_articles = 20
+num_articles = 50
 
 
-def write_section(section):
+def write_section(section, action='default'):
     rows = csv_get_rows(f'plants.csv') 
     for i, row in enumerate(rows[1:num_articles+1]):
-        print(f'{i+1}')
         entity = row[0].strip()
         common_name = row[1].strip()
         latin_name = get_latin_name(entity)
@@ -44,36 +59,41 @@ def write_section(section):
         try: os.makedirs(f'database/articles/{entity}')
         except: pass
 
-        try:
-            with open(f'database/articles/{entity}/{section}.md', 'r', encoding='utf-8') as f:
-                content = f.read()
-        except:
-            content = ''
-        if content.strip() != '': continue
-        
+        # if not sys_arg_override:
+        #     try:
+        #         with open(f'database/articles/{entity}/{section}.md', 'r', encoding='utf-8') as f:
+        #             content = f.read()
+        #     except:
+        #         content = ''
+        #     if content.strip() != '': continue
+
+        if action == 'default' or action == 'test': 
+            try:
+                with open(f'database/articles/{entity}/{section}.md', 'r', encoding='utf-8') as f:
+                    content = f.read()
+            except:
+                content = ''
+            if content.strip() != '': continue
+
         if section == 'intro':
             prompt = f'''
-                Act as an expert botanist. Write 3 paragraphs in less than 200 words about {common_name} ({latin_name}).
+                Write 3 paragraphs in 300 words about {common_name} ({latin_name}).
                 In paragraph 1, write about the medicinal and culinary aspects of this plant. Also, start paragraph 1 with the following words: "{common_name}, scientifically know as {latin_name}, is ".
                 In paragraph 2, write about the horticultural and ornamental aspects of this plant.
                 In paragraph 3, write about the botanical and historical aspects of this plant.
-                Don't add final conclusions or summaries.
             '''
         elif section == 'medicine':
             prompt = f'''
-                Act as an expert doctor. Write 5 paragraphs about the medicinal aspect {common_name} ({latin_name}).
-                In paragraph 1, write about the health benefits and health conditions this plant helps (don't mention constituents in this paragraph).
+                Write 5 paragraphs in 400 words about the medicinal aspects {common_name} ({latin_name}).
+                In paragraph 1, write about the health benefits and health conditions this plant helps, without mentioning constituents. Start paragraph 1 with the following words: "{common_name.capitalize()} ({latin_name}) has many health benefits, such as ".
                 In paragraph 2, write about the medicinal constituents.
                 In paragraph 3, write about the most used parts and medicinal preparations.
                 In paragraph 4, write about the possible side effects.
                 In paragraph 5, write about the precautions.
-                Include as much data as possible in as few words as possible.
-                Include only proven data.
-                Don't write lists.
             '''
         elif section == 'cuisine':
             prompt = f'''
-                Act as an expert chef. Write 5 paragraphs about the culinary aspect of {common_name} ({latin_name}).
+                Write 5 paragraphs in 400 words about the culinary aspects of {common_name} ({latin_name}).
                 In paragraph 1, write about the culinary uses.
                 In paragraph 2, write about the flavor profile.
                 In paragraph 3, write about the edible parts.
@@ -83,19 +103,31 @@ def write_section(section):
                 Don't include medicinal aspects.
                 Don't write lists.
             '''
+        # elif section == 'horticulture':
+        #     prompt = f'''
+        #         Write {num_paragraphs_target} paragraphs in 400 words about the horticultural aspects of {common_name} ({latin_name}).
+        #         In paragraph 1, write about how to grow this plant.
+        #         In paragraph 2, write about the ideal growing conditions.
+        #         In paragraph 3, write about the maintenance.
+        #         Include as much data as possible in as few words as possible.
+        #         Use the metric system.
+        #         Don't write lists.
+        #     '''
         elif section == 'horticulture':
             prompt = f'''
-                Act as an expert gardener. Write 3 paragraphs about the horticultural aspect of {common_name} ({latin_name}).
-                In paragraph 1, write about how to grow this plant.
-                In paragraph 2, write about the ideal growing conditions.
-                In paragraph 3, write about the maintenance.
+                Write 5 paragraphs in 400 words about the horticultural aspects of {common_name} ({latin_name}).
+                In paragraph 1, write what are the growth requirements.
+                In paragraph 2, write what are the planting tips.
+                In paragraph 3, write what are the caring tips.
+                In paragraph 4, write what are the harvesting tips.
+                In paragraph 5, write what are the pests and diseases.
                 Include as much data as possible in as few words as possible.
                 Use the metric system.
                 Don't write lists.
             '''
         elif section == 'botany':
             prompt = f'''
-                Act as an expert botanist. Write 5 paragraphs about the botanical aspect of {common_name} ({latin_name}).
+                Write 5 paragraphs in 400 words about the botanical aspects of {common_name} ({latin_name}).
                 In paragraph 1, tell me the taxonomy, including domain, kingdom, phylum, class, order, family, genus, species. Then, tell me the common names. Also, start paragraph 1 with the following words: "{common_name}, with botanical name {latin_name}, belongs to the domain ".
                 In paragraph 3, tell me the morphology.
                 In paragraph 2, tell me the variants names and their differences.
@@ -104,19 +136,31 @@ def write_section(section):
                 Include as much data as possible in as few words as possible.
                 Don't write lists.
             '''
+        # elif section == 'history':
+        #     prompt = f'''
+        #         Write 3 paragraphs in 400 words about the historical aspects of {common_name} ({latin_name}).
+        #         In paragraph 1, write about the traditional medicine.
+        #         In paragraph 2, write about the uses in divination.
+        #         In paragraph 3, write about the legends.
+        #         Include as much data as possible in as few words as possible.
+        #         Don't write lists.
+        #     '''
         elif section == 'history':
             prompt = f'''
-                Act as an expert historian. Write 3 paragraphs about the historical aspect of {common_name} ({latin_name}).
-                In paragraph 1, write about the traditional medicine.
-                In paragraph 2, write about the uses in divination.
-                In paragraph 3, write about the legends.
-                Include as much data as possible in as few words as possible.
+                Write 5 paragraphs in 400 words about the historical aspects of {common_name} ({latin_name}).
+                In paragraph 1, write about the origin and etymology of the word "{common_name}".
+                In paragraph 2, write about the cultural significances.
+                In paragraph 3, write about the myths and legends.
+                In paragraph 4, write about the references in literature.
+                In paragraph 5, write about the folkloristic uses.
                 Don't write lists.
             '''
-        
+
+
+
 
         print()
-        print("Q:")
+        print(f"Q: {i+1}/{num_articles}")
         print()
         print(prompt)
         print()
@@ -127,11 +171,11 @@ def write_section(section):
             reply += text
             print(text, end="", flush=True)
         print()
+        print()
 
+        # clean text
         reply = reply.strip()
-
         lines = reply.split('\n')
-
         lines_formatted = []
         for line in lines:
             line = line.strip()
@@ -140,20 +184,57 @@ def write_section(section):
             if len(line.split('.')) < 2: continue
             if ':' in line: line = line.split(':')[1]
             if line[0].isdigit(): line = ' '.join(line.split(' ')[1:])
+            if 'in summary' in line.lower(): continue
+            if 'to summarize' in line.lower(): continue
+            if 'in conclusion' in line.lower(): continue
+            if 'overall' in line.lower(): continue
             lines_formatted.append(line)
-        
         reply = '\n\n'.join(lines_formatted)
 
-        with open(f'database/articles/{entity}/{section}.md', 'w', newline='', encoding='utf-8') as f:
-            f.write(reply)
+        # calculate lenght text
+        tot_words = 0
+        num_paragraphs = 0
+        paragraphs = reply.split('\n')
+        for paragraph in paragraphs:
+            if paragraph.strip() != '':
+                paragraph = paragraph.split(' ')
+                tot_words += len(paragraph)
+                num_paragraphs += 1
+        agv_words = tot_words//num_paragraphs
+        print(f'Tot Length: {tot_words}')
+        print(f'Avg Length: {agv_words}')
+        print(f'Num Paragraphs: {num_paragraphs}')
+        if section == 'intro':
+            if tot_words < 200:
+                print() 
+                print("ABORT: Too few words *****************************") 
+                continue
+        else:
+            if tot_words < 200:
+                print() 
+                print("ABORT: Too few words *****************************") 
+                continue
+        if num_paragraphs < 3 or num_paragraphs > 5:
+            print() 
+            print("ABORT: Wrong num paragraphs *****************************") 
+            continue
+        print()
+        print()
+        print()
+
+        if action == 'default' or action == 'override':
+            with open(f'database/articles/{entity}/{section}.md', 'w', newline='', encoding='utf-8') as f:
+                f.write(reply)
 
 
-write_section('intro')
-write_section('medicine')
-write_section('cuisine')
-write_section('horticulture')
-write_section('botany')
-write_section('history')
+for i in range(3):
+    write_section('intro')
+    write_section('medicine')
+    write_section('cuisine')
+    write_section('horticulture')
+    write_section('botany')
+    write_section('history')
+    # write_section('history', action='override')
 
 
 llm = AutoModelForCausalLM.from_pretrained("C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.1.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=256)
@@ -168,49 +249,32 @@ def write_list(section):
         common_name = row[1].strip()
         latin_name = get_latin_name(entity)
 
-        # skip if entity list already found
-        tmp_rows = csv_get_rows(f'database/tables/{section}.csv')
-        tmp_entities = [tmp_row[0] for tmp_row in tmp_rows]
-        if entity in tmp_entities: continue 
+
+        if not sys_arg_override:
+            # skip if entity list already found
+            tmp_rows = csv_get_rows(f'database/tables/{section}.csv')
+            tmp_entities = [tmp_row[0] for tmp_row in tmp_rows]
+            if entity in tmp_entities: continue 
+
+        
+        prompt_template = f"""
+            Write 10 <att_1> of {common_name} ({latin_name}).
+            Write each health benefit in less than 5 words.
+            Start each item list with a verb.
+            Write each item list in a new line.
+            Don't add descriptions.
+        """
 
         if section == 'benefits':
-            prompt = f"""
-                Write a numbered list of the 10 most important health benefits of {common_name} ({latin_name}).
-                Start each health benefit with a third-person singular verb.
-                Write only the health benefits, don't add descriptions.
-                Write each health benefit in less than 5 words.
-                Write each health benefit in a new line.
-            """
+            prompt = prompt_template.replace('<att_1>', 'health benefits')
         elif section == 'cuisine':
-            prompt = f"""
-                Write a numbered list of 10 culinary uses of {common_name} ({latin_name}).
-                Give me only the 10 list items, nothing else.
-                Start each culinary uses with a verb.
-                Each list item must be less than 5 words.
-                Write each list item in a new line.
-                Don't mention health uses.
-            """
+            prompt = prompt_template.replace('<att_1>', 'culinary uses')
         elif section == 'horticulture':
-            prompt = f"""
-                Write a numbered list of 10 tips for growing {common_name} ({latin_name}).
-                Start each list item with a second-person singular verb.
-                Write each list item using less than 5 words.
-                Write each list item in a new line.
-            """
+            prompt = prompt_template.replace('<att_1>', 'tips for growing')
         elif section == 'botany':
-            prompt = f"""
-                Write a numbered list of 10 morphological characteristics of {common_name} ({latin_name}).
-                Give me only the 10 list items, don't add descriptions.
-                Write each list item using less than 5 words.
-                Write each list item in a new line.
-            """
+            prompt = prompt_template.replace('<att_1>', 'morphological characteristics')
         elif section == 'history':
-            prompt = f"""
-                Write a numbered list of 10 historical uses of {common_name} ({latin_name}).
-                Give me only the 10 list items, don't add descriptions.
-                Each list item must be less than 5 words.
-                Write each list item in a new line.
-            """
+            prompt = prompt_template.replace('<att_1>', 'historical uses')
         else: 
             prompt = ''
 
@@ -271,8 +335,162 @@ def write_list(section):
                 writer.writerow(line)
 
 
-write_list('medicine')
-write_list('cuisine')
-write_list('horticulture')
-write_list('botany')
-write_list('history')
+for i in range(3):
+    write_list('medicine')
+    write_list('cuisine')
+    write_list('horticulture')
+    write_list('botany')
+    write_list('history')
+
+
+llm = AutoModelForCausalLM.from_pretrained(
+    "C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.1.Q8_0.gguf", 
+    model_type="mistral", 
+    context_length=1024, 
+    max_new_tokens=256, 
+)
+
+
+# def generate_data():
+#     rows = csv_get_rows(f'plants.csv') 
+#     for i, row in enumerate(rows[1:num_articles+1]):
+#         # print()
+
+#         entity = row[0].strip()
+#         common_name = row[1].strip()
+#         latin_name = get_latin_name(entity)
+
+#         prompt = f'''
+#             Give me the linnaean taxonomy in list format of {common_name} ({latin_name}).
+#             The list must include:
+#             - Domain
+#             - Kingdom
+#             - Phylum
+#             - Class
+#             - Order
+#             - Family
+#             - Genus
+#             - Species
+#         '''
+
+#         print()
+#         print(f"Q: {i+1}/{num_articles}")
+#         print()
+#         print(prompt)
+#         print()
+#         print("A:")
+#         print()
+#         reply = ''
+#         for text in llm(prompt, stream=True):
+#             reply += text
+#             print(text, end="", flush=True)
+#         print()
+#         print()
+        
+#         break
+
+# generate_data()
+
+
+if not os.path.exists(f'database/tables/botany/taxonomy.csv'):
+    with open(f'database/tables/botany/taxonomy.csv', 'w', newline='', encoding='utf-8') as f: 
+        writer = csv.writer(f, delimiter='|')
+        writer.writerow([
+        'entity',
+        'domain',
+        'kingdom',
+        'phylum',
+        'class',
+        'order',
+        'family',
+        'genus',
+        'species',
+        ])
+
+rows = csv_get_rows(f'plants.csv') 
+
+for row in rows[1:10]:
+    entity = row[0].strip()
+    common_name = row[1].strip()
+    latin_name = get_latin_name(entity)
+
+    tmp_rows = csv_get_rows(f'database/tables/botany/taxonomy.csv')
+    if len(tmp_rows) != 0:
+        tmp_entities = [tmp_row[0] for tmp_row in tmp_rows]
+        if entity in tmp_entities:
+            print('skipped') 
+            continue
+        else:
+            print('added')
+
+    prompt = f'''
+        Give me the linnaean taxonomy of {common_name} ({latin_name}).
+        Write it using the following format:
+        - Domain
+        - Kingdom
+        - Phylum
+        - Class
+        - Order
+        - Family
+        - Genus
+        - Species
+    '''
+
+    print()
+    print(f"Q:")
+    print()
+    print(prompt)
+    print()
+    print("A:")
+    print()
+    reply = ''
+    for text in llm(prompt, stream=True):
+        reply += text
+        print(text, end="", flush=True)
+    print()
+    print()
+    print()
+    print()
+    print()
+
+
+
+    lines = reply.split('\n')
+    data = {
+        'domain': '',
+        'kingdom': '',
+        'phylum': '',
+        'class': '',
+        'order': '',
+        'family': '',
+        'genus': '',
+        'species': ''
+    }
+    for line in lines:
+        words = line.split(':')
+        if len(words) < 2: continue
+        if 'domain' in line.lower(): data['domain'] = words[-1].strip().lower()
+        if 'kingdom' in line.lower(): data['kingdom'] = words[-1].strip().lower()
+        if 'phylum' in line.lower(): data['phylum'] = words[-1].strip().lower()
+        if 'class' in line.lower(): data['class'] = words[-1].strip().lower()
+        if 'order' in line.lower(): data['order'] = words[-1].strip().lower()
+        if 'family' in line.lower(): data['family'] = words[-1].strip().lower()
+        if 'genus' in line.lower(): data['genus'] = words[-1].strip().lower()
+        if 'species' in line.lower(): data['species'] = words[-1].strip().lower()
+
+
+
+    with open(f'database/tables/botany/taxonomy.csv', 'a', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f, delimiter='|')
+        row = [
+            entity,
+            data['domain'].strip(),
+            data['kingdom'].strip(),
+            data['phylum'].strip(),
+            data['class'].strip(),
+            data['order'].strip(),
+            data['family'].strip(),
+            data['genus'].strip(),
+            data['species'].strip(),
+        ]
+        writer.writerow(row)

@@ -1,19 +1,11 @@
-- fix header in articles
-- if list in AI more than 10 elements, get only first 10 elements
-- fix missing common name in artemisia annua
+- run history
+- taxonomy: if missing info skip
+- taxonomy: split "("
 
-- write preparations articles (1 x day)
-
-- regenerate intro yarrow constituents
-
-- write secondary content to medicine-preparations
-
+- fix health benefits
 - complete yarrow topical map
 
 - do better titles on articles
-- redo the health benefits of previous plants again?
-
-- use only one function to generate images (fix old posts lists benefits)
 
 - pinterest
     - fill board description and title with keywords

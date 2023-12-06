@@ -1,0 +1,9 @@
+Varuna, with botanical name Crataeva nurvula, belongs to the domain Eukaryota, kingdom Plantae, phylum Magnoliophyta, class Magnoliopsida, order Malvales, family Malvaceae, genus Crataeva, and species nurvula. Common names for this plant include Varuna Tree and Indian Corkwood.
+
+This tree exhibits different variants with slight differences in appearance. One such example is Crataeva sphaerocarpa, which features rounded fruits instead of the usual oval ones found in typical varieties. Another variant, Crataeva roxburghii, is often known as Custard Apple Tree or Dang due to its yellow fruits.
+
+Morphologically, Varuna/Crataeva nurvula is a large shrub or small tree with a distinctive spreading crown and an erect trunk that grows up to 15 meters tall. The leaves are broadly ovate, glossy green, and have serrated margins. Flowers appear in clusters of yellow-greenish color during the blooming season. The fruits are oval or rounded with a fleshy outer covering that becomes hard when dry, resembling cork. This corky shell helps the seeds to disperse by floating on water bodies.
+
+Geographically, Varuna/Crataeva nurvula is native to India and can be found in different regions across the country, such as Gujarat, Uttar Pradesh, Maharashtra, Punjab, Himachal Pradesh, Uttarakhand, West Bengal, Assam, Karnataka, Kerala, Rajasthan, Madhya Pradesh, and Bihar. It can also be found in other parts of Asia, including Nepal, Pakistan, Bangladesh, Myanmar, Thailand, Laos, and Sri Lanka.
+
+The life-cycle of Varuna/Crataeva nurvula begins with seed germination followed by growth through various stages such as juvenile, adult, and senescent phases. It is a perennial plant that can live for many years, depending on its surrounding conditions and local environment.

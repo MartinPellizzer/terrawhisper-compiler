@@ -1,0 +1,7 @@
+Hawthorn, with botanical name Crataegus oxyacantha, belongs to the domain Eukaryota, kingdom Plantae, phylum Spermatophyta (Seed plants), class Magnoliopsida (Dicotyledons), order Rosales, family Rosaceae, genus Crataegus and species oxyacantha. Hawthorn is commonly known as Mayflower in England or Whitethorn in Ireland.
+
+There are several variants of this shrub, each with their own particular differences, such as the White-flowered Hawthorn which produces flowers that have a white color instead of the usual ones ranging from pink to red. Another variant is the Midland Hawthorn, found in Central Europe and characterized by its reddish fruit rather than black or orange.
+
+Geographically, Crataegus oxyacantha is native to Europe and temperate Asia. It can be found growing wildly as bushes or small trees within meadows and forest edges, as well as along hedgerows, river banks and the like. They prefer well-drained soils and partial shade but can adapt to various conditions depending on the region.
+
+ starting with seeds that germinate when environmental conditions are favorable, leading to seedlings that will gradually transform into shrubs or trees within approximately five years. The plant then enters its reproductive stage by flowering in late spring, which eventually leads to fruit production in summer and fall. After a few years, the plant may stop developing buds, indicating its potential death; however, it can remain as part of the landscape for decades through suckering (regeneration from underground stems).

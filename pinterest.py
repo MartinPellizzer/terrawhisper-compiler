@@ -283,9 +283,9 @@ for i, row in enumerate(master_rows[1:]):
     description = description.strip() + '... '
     description += 'Click the pin link to learn more.'
 
-    img_num = '0000'
-    image_folder = org.replace('/', '-')
-    img_filepath = f'G:\\tw-images\\pin\\{entity}\\{image_folder}\\{img_num}.jpg'
+    images = os.listdir(f'G:\\tw-images\\pin\\{entity}')
+    image_filename = random.choice(images) 
+    img_filepath = f'G:\\tw-images\\pin\\{entity}\\{image_filename}'
     # pin_generate_2(entity, common_name_title, img_filename, image_name, subtitle)
 
     # pin_generate_3(entity, common_name, filepath, text, filename)

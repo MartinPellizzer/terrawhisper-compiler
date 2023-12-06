@@ -1,0 +1,5 @@
+German Chamomile, scientifically known as Chamomilla recutita, is a versatile plant with medicinal and culinary uses, while also holding impressive horticultural qualities and providing aesthetic appeal in gardens. Its popularity stems from the variety of benefits it offers to those who use it as part of their daily life.
+
+In terms of its medicinal properties, German Chamomile has a well-known reputation for reducing stress, alleviating indigestion, and easing muscle pain. Additionally, it possesses calming effects that can help induce sleep and provide relief from symptoms of cold and flu. It is also used as a natural remedy in certain skin conditions such as eczema and acne due to its anti-inflammatory properties.
+
+As an ornamental plant, German Chamomile boasts bright yellow daisy-like flowers that are attractive to bees and other pollinators. Its low growing nature makes it suitable for various types of gardens, including rock gardens and borders. The plant also provides an aromatic touch when used in flower arrangements.

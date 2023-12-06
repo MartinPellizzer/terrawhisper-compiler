@@ -200,4 +200,3 @@ with open(f'website/index.html', 'w', encoding='utf-8') as f:
 
 shutil.copy2('style.css', 'website/style.css')
 shutil.copy2('index.html', 'website/index.html')
-shutil.copy2('plants.html', 'website/plants.html')

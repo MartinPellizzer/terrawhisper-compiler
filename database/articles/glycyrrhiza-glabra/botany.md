@@ -1,0 +1,9 @@
+Licorice, with botanical name Glycyrrhiza glabra, belongs to the domain Eukaryota, kingdom Plantae, phylum Magnoliophyta, class Magnoliopsida, order Fabales, family Fabaceae, genus Glycyrrhiza and species Glycyrrhiza. It is also known by its common names such as Licorice root, sweetroot or Indian licorice.
+
+The variants of this plant include the Turkish and Chinese Licorices and different colored types like red, black, and yellow, though the main difference lies in their taste and appearance. Turkish Licorice (Glycyrrhiza glabra var. turanica) has a more intense sweetness due to a higher amount of glycyrrhizin than regular Glycyrrhiza glabra, while Chinese Licorice (Glycyrrhiza glabra var. uralensis) contains more polysaccharides and less glycyrrhizin, making it milder in taste.
+
+The morphology of Glycyrrhiza glabra showcases a perennial herbaceous plant with hairless stems and leaves that can grow up to 0.79 m (2.6 ft) tall. Its flowers are yellow or white, arranged in clusters on long stalks. It produces long pod-like fruit with a single seed each, resembling beans.
+
+The geographic distribution of Licorice spans from Western Europe to Central Asia, primarily growing in Mediterranean regions and the North Temperate Zone. This plant typically grows best in well-drained soil and can be found in various natural habitats such as semi-deserts, rocky areas, grasslands, and shrublands.
+
+The life cycle of Glycyrrhiza glabra involves a series of stages that include germination, growth, flowering, seed production, and eventually death. As an herbaceous perennial plant, it can live for several years, with its roots producing new stems during each growing season.
