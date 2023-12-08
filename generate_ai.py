@@ -3,12 +3,16 @@ import os
 import re
 from ctransformers import AutoModelForCausalLM
 import sys
+import utils
 
 sys_arg_override = False
 try: 
     if sys.argv[1] == 'override': sys_arg_override = True
 except: pass
 
+
+SYSTEM_PROMPT = 'You are an expert botanist who explain things using simple, coincise, straightforward sentences.'
+SYSTEM_PROMPT_LIST = 'You are an expert botanist who only write numbered lists and nothing else.'
 
 def csv_get_rows(filepath):
     rows = []
@@ -42,7 +46,8 @@ llm = AutoModelForCausalLM.from_pretrained(
     )
 # llm = AutoModelForCausalLM.from_pretrained("C:\\Users\\admin\\Desktop\\models\\dolphin-2.1-mistral-7b.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=1024)
 
-num_articles = 50
+num_articles = 3
+
 
 
 def write_section(section, action='default'):
@@ -67,13 +72,13 @@ def write_section(section, action='default'):
         #         content = ''
         #     if content.strip() != '': continue
 
-        if action == 'default' or action == 'test': 
-            try:
-                with open(f'database/articles/{entity}/{section}.md', 'r', encoding='utf-8') as f:
-                    content = f.read()
-            except:
-                content = ''
-            if content.strip() != '': continue
+        # if action == 'default' or action == 'test': 
+        try:
+            with open(f'database/articles/{entity}/{section}.md', 'r', encoding='utf-8') as f:
+                content = f.read()
+        except:
+            content = ''
+        if content.strip() != '': continue
 
         if section == 'intro':
             prompt = f'''
@@ -103,16 +108,6 @@ def write_section(section, action='default'):
                 Don't include medicinal aspects.
                 Don't write lists.
             '''
-        # elif section == 'horticulture':
-        #     prompt = f'''
-        #         Write {num_paragraphs_target} paragraphs in 400 words about the horticultural aspects of {common_name} ({latin_name}).
-        #         In paragraph 1, write about how to grow this plant.
-        #         In paragraph 2, write about the ideal growing conditions.
-        #         In paragraph 3, write about the maintenance.
-        #         Include as much data as possible in as few words as possible.
-        #         Use the metric system.
-        #         Don't write lists.
-        #     '''
         elif section == 'horticulture':
             prompt = f'''
                 Write 5 paragraphs in 400 words about the horticultural aspects of {common_name} ({latin_name}).
@@ -136,19 +131,10 @@ def write_section(section, action='default'):
                 Include as much data as possible in as few words as possible.
                 Don't write lists.
             '''
-        # elif section == 'history':
-        #     prompt = f'''
-        #         Write 3 paragraphs in 400 words about the historical aspects of {common_name} ({latin_name}).
-        #         In paragraph 1, write about the traditional medicine.
-        #         In paragraph 2, write about the uses in divination.
-        #         In paragraph 3, write about the legends.
-        #         Include as much data as possible in as few words as possible.
-        #         Don't write lists.
-        #     '''
         elif section == 'history':
             prompt = f'''
                 Write 5 paragraphs in 400 words about the historical aspects of {common_name} ({latin_name}).
-                In paragraph 1, write about the origin and etymology of the word "{common_name}".
+                In paragraph 1, write about the origin and etymology of the word "{common_name}". Start paragraph 1 with the following words: The etymology of "{common_name}" originates from .
                 In paragraph 2, write about the cultural significances.
                 In paragraph 3, write about the myths and legends.
                 In paragraph 4, write about the references in literature.
@@ -184,6 +170,7 @@ def write_section(section, action='default'):
             if len(line.split('.')) < 2: continue
             if ':' in line: line = line.split(':')[1]
             if line[0].isdigit(): line = ' '.join(line.split(' ')[1:])
+            if line[0] == '-': line = ' '.join(line.split(' ')[1:])
             if 'in summary' in line.lower(): continue
             if 'to summarize' in line.lower(): continue
             if 'in conclusion' in line.lower(): continue
@@ -222,9 +209,9 @@ def write_section(section, action='default'):
         print()
         print()
 
-        if action == 'default' or action == 'override':
-            with open(f'database/articles/{entity}/{section}.md', 'w', newline='', encoding='utf-8') as f:
-                f.write(reply)
+        # if action == 'default' or action == 'override':
+        with open(f'database/articles/{entity}/{section}.md', 'w', newline='', encoding='utf-8') as f:
+            f.write(reply)
 
 
 for i in range(3):
@@ -234,10 +221,143 @@ for i in range(3):
     write_section('horticulture')
     write_section('botany')
     write_section('history')
-    # write_section('history', action='override')
+
+llm = AutoModelForCausalLM.from_pretrained(
+    "C:\\Users\\admin\\Desktop\\models\\neural-chat-7b-v3-1.Q8_0.gguf", 
+    model_type="mistral", 
+    context_length=1024, 
+    max_new_tokens=1024, 
+    temperature=0.8, 
+    repetition_penalty=1.3
+    )
+
+def write_plant_medicine_benefits():
+    
+    rows = csv_get_rows(f'plants.csv') 
+    for i, row in enumerate(rows[1:num_articles+1]):
+        entity = row[0].strip()
+        common_name = row[1].strip()
+        latin_name = get_latin_name(entity)
+
+        try: os.makedirs(f'database')
+        except: pass
+        try: os.makedirs(f'database/articles')
+        except: pass
+        try: os.makedirs(f'database/articles/{entity}')
+        except: pass
 
 
-llm = AutoModelForCausalLM.from_pretrained("C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.1.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=256)
+        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
+        benefits = [f'{x[1]}' for x in rows[:10]]
+        images_text = ''
+
+        for i, item in enumerate(benefits):
+            # prompt = f'''{i}.
+            #     Write 3 paragraphs in 200 words.
+
+            #     In paragraph 1, define in detail what {common_name} {item} means.
+            #     In paragraph 2, write what constituents are most responsible for this health benefit and explain why.
+            #     In paragraph 3, write what health conditions this benefit helps.            
+            # '''
+
+            # prompt = f'''
+            #     {SYSTEM_PROMPT}
+            #     Define in 1 sentence what "{common_name} {item}" means. 
+            #     Start the sentence with these words: "{common_name.title()}'s ability to {item} refers to ".
+            # '''
+
+            # print()
+            # print(f"Q: {i+1}/{num_articles}")
+            # print()
+            # print(prompt)
+            # print()
+            # print("A:")
+            # print()
+            # reply = ''
+            # for text in llm(prompt, stream=True):
+            #     reply += text
+            #     print(text, end="", flush=True)
+            # print()
+            # print()
+            
+
+            # prompt = f'''
+            #     {SYSTEM_PROMPT_LIST}
+            #     Write the 3-7 most important medicinal constituents of {common_name} that help with the following benefit: "{item}". 
+            #     Give me just the names of the constituents. Don't add descriptions.
+            # '''
+
+            # print()
+            # print(f"Q: {i+1}/{num_articles}")
+            # print()
+            # print(prompt)
+            # print()
+            # print("A:")
+            # print()
+            # reply = ''
+            # for text in llm(prompt, stream=True):
+            #     reply += text
+            #     print(text, end="", flush=True)
+            # print()
+            # print()
+
+            prompt = f'''
+                {SYSTEM_PROMPT}
+                Write 100 words about what constituents in {common_name} {item} and explain why.
+                Include these constituents: Azulene, Azygine, Chamazulein, Flavonoids, Monoterpenes, Sesquiterpene lactones.
+                Write one short sentence for each of these constituent.
+                Start the paragraph with these words: "The Azulene contained in Yarrow ".
+            '''
+            # Start with these words: "{common_name} {}".
+            
+            print()
+            print(f"Q: {i+1}/{num_articles}")
+            print()
+            print(prompt)
+            print()
+            print("A:")
+            print()
+            reply = ''
+            for text in llm(prompt, stream=True):
+                reply += text
+                print(text, end="", flush=True)
+            print()
+            print()
+
+            quit()
+
+write_plant_medicine_benefits()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rom_pretrained("C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.1.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=256)
 
 
 def write_list(section):
@@ -258,10 +378,10 @@ def write_list(section):
 
         
         prompt_template = f"""
-            Write 10 <att_1> of {common_name} ({latin_name}).
-            Write each health benefit in less than 5 words.
-            Start each item list with a verb.
-            Write each item list in a new line.
+            Write a list of 10 <att_1> of {common_name} ({latin_name}).
+            Write each list item in less than 5 words.
+            Start each list item with a verb.
+            Write each list item in a new line.
             Don't add descriptions.
         """
 
@@ -392,105 +512,120 @@ llm = AutoModelForCausalLM.from_pretrained(
 # generate_data()
 
 
-if not os.path.exists(f'database/tables/botany/taxonomy.csv'):
-    with open(f'database/tables/botany/taxonomy.csv', 'w', newline='', encoding='utf-8') as f: 
-        writer = csv.writer(f, delimiter='|')
-        writer.writerow([
-        'entity',
-        'domain',
-        'kingdom',
-        'phylum',
-        'class',
-        'order',
-        'family',
-        'genus',
-        'species',
-        ])
-
-rows = csv_get_rows(f'plants.csv') 
-
-for row in rows[1:10]:
-    entity = row[0].strip()
-    common_name = row[1].strip()
-    latin_name = get_latin_name(entity)
-
-    tmp_rows = csv_get_rows(f'database/tables/botany/taxonomy.csv')
-    if len(tmp_rows) != 0:
-        tmp_entities = [tmp_row[0] for tmp_row in tmp_rows]
-        if entity in tmp_entities:
-            print('skipped') 
-            continue
-        else:
-            print('added')
-
-    prompt = f'''
-        Give me the linnaean taxonomy of {common_name} ({latin_name}).
-        Write it using the following format:
-        - Domain
-        - Kingdom
-        - Phylum
-        - Class
-        - Order
-        - Family
-        - Genus
-        - Species
-    '''
-
-    print()
-    print(f"Q:")
-    print()
-    print(prompt)
-    print()
-    print("A:")
-    print()
-    reply = ''
-    for text in llm(prompt, stream=True):
-        reply += text
-        print(text, end="", flush=True)
-    print()
-    print()
-    print()
-    print()
-    print()
 
 
+def get_taxonomy():
+    if not os.path.exists(f'database/tables/botany/taxonomy.csv'):
+        with open(f'database/tables/botany/taxonomy.csv', 'w', newline='', encoding='utf-8') as f: 
+            writer = csv.writer(f, delimiter='|')
+            writer.writerow([
+            'entity',
+            'domain',
+            'kingdom',
+            'phylum',
+            'class',
+            'order',
+            'family',
+            'genus',
+            'species',
+            ])
 
-    lines = reply.split('\n')
-    data = {
-        'domain': '',
-        'kingdom': '',
-        'phylum': '',
-        'class': '',
-        'order': '',
-        'family': '',
-        'genus': '',
-        'species': ''
-    }
-    for line in lines:
-        words = line.split(':')
-        if len(words) < 2: continue
-        if 'domain' in line.lower(): data['domain'] = words[-1].strip().lower()
-        if 'kingdom' in line.lower(): data['kingdom'] = words[-1].strip().lower()
-        if 'phylum' in line.lower(): data['phylum'] = words[-1].strip().lower()
-        if 'class' in line.lower(): data['class'] = words[-1].strip().lower()
-        if 'order' in line.lower(): data['order'] = words[-1].strip().lower()
-        if 'family' in line.lower(): data['family'] = words[-1].strip().lower()
-        if 'genus' in line.lower(): data['genus'] = words[-1].strip().lower()
-        if 'species' in line.lower(): data['species'] = words[-1].strip().lower()
+    rows = csv_get_rows(f'plants.csv') 
 
+    for i, row in enumerate(rows[1:num_articles+1]):
+        entity = row[0].strip()
+        common_name = row[1].strip()
+        latin_name = get_latin_name(entity)
 
+        tmp_rows = csv_get_rows(f'database/tables/botany/taxonomy.csv')
+        if len(tmp_rows) != 0:
+            tmp_entities = [tmp_row[0] for tmp_row in tmp_rows]
+            if entity in tmp_entities:
+                print('skipped') 
+                continue
+            else:
+                print('added')
 
-    with open(f'database/tables/botany/taxonomy.csv', 'a', newline='', encoding='utf-8') as f:
-        writer = csv.writer(f, delimiter='|')
-        row = [
-            entity,
-            data['domain'].strip(),
-            data['kingdom'].strip(),
-            data['phylum'].strip(),
-            data['class'].strip(),
-            data['order'].strip(),
-            data['family'].strip(),
-            data['genus'].strip(),
-            data['species'].strip(),
-        ]
-        writer.writerow(row)
+        prompt = f'''
+            Give me the linnaean taxonomy of {common_name} ({latin_name}).
+            Write it using the following format:
+            - Domain
+            - Kingdom
+            - Phylum
+            - Class
+            - Order
+            - Family
+            - Genus
+            - Species
+        '''
+
+        print()
+        print(f"Q: {i+1}/{len(rows)}")
+        print()
+        print(prompt)
+        print()
+        print("A:")
+        print()
+        reply = ''
+        for text in llm(prompt, stream=True):
+            reply += text
+            print(text, end="", flush=True)
+        print()
+        print()
+        print()
+        print()
+        print()
+
+        # format data
+        lines = reply.split('\n')
+        data = {
+            'domain': '',
+            'kingdom': '',
+            'phylum': '',
+            'class': '',
+            'order': '',
+            'family': '',
+            'genus': '',
+            'species': ''
+        }
+        for line in lines:
+            words = line.split(':')
+            if len(words) < 2: continue
+            value = words[-1].split('(')[0].strip().lower()
+            if 'domain' in line.lower(): data['domain'] = value
+            if 'kingdom' in line.lower(): data['kingdom'] = value
+            if 'phylum' in line.lower(): data['phylum'] = value
+            if 'class' in line.lower(): data['class'] = value
+            if 'order' in line.lower(): data['order'] = value
+            if 'family' in line.lower(): data['family'] = value
+            if 'genus' in line.lower(): data['genus'] = value
+            if 'species' in line.lower(): data['species'] = value
+
+        # check missing data
+        if data['domain'].strip() == '': continue
+        if data['kingdom'].strip() == '': continue
+        if data['phylum'].strip() == '': continue
+        if data['class'].strip() == '': continue
+        if data['order'].strip() == '': continue
+        if data['family'].strip() == '': continue
+        if data['genus'].strip() == '': continue
+        if data['species'].strip() == '': continue
+
+        # save
+        with open(f'database/tables/botany/taxonomy.csv', 'a', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f, delimiter='|')
+            row = [
+                entity,
+                data['domain'].strip(),
+                data['kingdom'].strip(),
+                data['phylum'].strip(),
+                data['class'].strip(),
+                data['order'].strip(),
+                data['family'].strip(),
+                data['genus'].strip(),
+                data['species'].strip(),
+            ]
+            writer.writerow(row)
+
+for _ in range(3):
+    get_taxonomy()

@@ -1,0 +1,7 @@
+ they need full sun exposure in cool regions ranging between 0℃ -25°C (32℉–76.8 °F) while warm areas can accommodate temperatures up till 41˚C (about 91,8º F).
+
+Planting of Flaxseed should be done ideally during cool spring or early summer seasons when the soil temperature reaches about 5-30℃(47°f–67.8 °F), ensuring proper drainage and adequate moisture levels for seed germination; spacing is critical - depending upon desired end product, plant seeds at a depth of approximately half an inch to one and keep around two rows or ten inches distance apart allowing enough room between plants as they mature
+
+In their life cycle up till maturity Flaxseed require care which include maintaining soil fertility levels; regular weeding, managing water requirements in accordance with climate conditions without causing moisture stress- for both optimal growth & healthy root development. Frequent monitoring of pests and diseases should also be carried out to minimize potential damage
+
+The main threats faced by Fluxseed (Linum usitatissimum), including diseases like Sclerotinia stem rot, rust fungus infection causing foliar blights leading to defoliation & poor yield; insect pests such as the flax leaf beetle damaging leaves and flowers. Integrating both crop rotation strategies with chemical or organic management methods can help ensure plant health through better cultivation practices that safeguard this vital source of nutrition, fibre ,oil amongst other applications it provides

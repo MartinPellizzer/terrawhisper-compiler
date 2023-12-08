@@ -1,10 +1,56 @@
-entity|domain|kingdom|phylum|class|order|family|genus|species
-achillea-millefolium|eukarya|plantae|tracheophyta|magnoliopsida|asterales|asteraceae|achillea|millefolium
-acorus-calamus|eukarya|plantae|tracheophyta|magnoliopsida|asterales|araliaceae|acorus|calamus
-aesculus-hippocastanum|eukarya|plantae|tracheophyta|magnoliopsida|sapindales|hippocastanaceae|aesculus|hippocastanum
-allium-sativum|eukarya|plantae|tracheophyta|magnoliopsida|alliales|alliaceae|allium|sativum
-aloe-vera|eukarya|plantae|tracheophyta|liliopsida|asterales|aloaceae|aloe|vera
-alpinia-officinarum|eukarya|plantae|tracheophyta|magnoliopsida|solanales|zingiberaceae|alpinia|officinarum
-ammi-visnaga|eukarya|plantae|tracheophyta|magnoliopsida|asterales|apiaceae|ammi|visnaga
-angelica-sinensis|eukarya|plantae|tracheophyta|magnoliopsida|asterales|apiaceae|angelica|sinensis
-apium-graveolens|eukarya|plantae|tracheophyta|magnoliopsida|asterales|apiaceae|apium|graveolens
+"entity"|"domain"|"kingdom"|"phylum"|"class"|"order"|"family"|"genus"|"species"
+"achillea-millefolium"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"asteraceae"|"achillea"|"millefolium"
+"acorus-calamus"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"araliaceae"|"acorus"|"calamus"
+"aesculus-hippocastanum"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"sapindales"|"hippocastanaceae"|"aesculus"|"hippocastanum"
+"allium-sativum"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"alliales"|"alliaceae"|"allium"|"sativum"
+"aloe-vera"|"eukarya"|"plantae"|"tracheophyta"|"liliopsida"|"asterales"|"aloaceae"|"aloe"|"vera"
+"alpinia-officinarum"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"solanales"|"zingiberaceae"|"alpinia"|"officinarum"
+"ammi-visnaga"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"apiaceae"|"ammi"|"visnaga"
+"angelica-sinensis"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"apiaceae"|"angelica"|"sinensis"
+"apium-graveolens"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"apiaceae"|"apium"|"graveolens"
+"arctium-lappa"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"asteraceae"|"arctium"|"lappa"
+"artemisia-absinthium"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"asteraceae"|"artemisia"|"absinthium"
+"artemisia-annua"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"asteraceae"|"artemisia"|"annua"
+"astragalus-membranaceus"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"fabales"|"leguminaceae"|"astragalus"|"membranaceus"
+"atropa-belladonna"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"solanales"|"solanaceae"|"atropa"|"atropa belladonna"
+"azadirachta-indica"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"sapindales"|"rutaceae"|"azadirachta"|"indica"
+"calendula-officinalis"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"asteraceae"|"calendula"|"calendula officinalis"
+"capsicum-annuum"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"solanales"|"solanaceae"|"capsicum"|"annuum"
+"cassia-senna"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"fabales"|"fabaceae"|"senna"|"cassia senna"
+"centella-asiatica"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"apiaceae"|"centella"|"asiatica"
+"chamomilla-recutita"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"asteraceae"|"chamomile"|"recutita"
+"chrysanthemum-morifolium"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"asteraceae"|"chrysanthemum"|"morifolium"
+"cimicifuga-racemosa"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"araliaceae"|"cimicifuga"|"racemosa"
+"cinchona-officinalis"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"sapindales"|"rubiaceae"|"cinchona"|"officinalis"
+"cinnamomum-verum"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"lamiales"|"lauraceae"|"cinnamomum"|"verum"
+"citrus-limon"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"sapindales"|"rutaceae"|"citrus"|"limon"
+"commiphora-molmol"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"asteraceae"|"aloe"|"barbadensis"
+"corydalis-yanhusuo"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"solanales"|"papaveraceae"|"corydalis"|"yanhusuo"
+"crataegus-oxyacantha"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"sapindales"|"rosaceae"|"crataegus"|"oxyacantha"
+"crocus-sativa"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"iridaceae"|"crocus"|"sativa"
+"dioscorea-villosa"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"sapindales"|"dioscoreaceae"|"dioscorea"|"villosa"
+"echinacea-angustifolia"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"solanales"|"solanaceae"|"nicotiana"|"tabacum"
+"elettaria-cardamomum"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"lamiales"|"apiaceae"|"elettaria"|"cardamomum"
+"eugenia-caryophyllata"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"sapindales"|"lauraceae"|"eugenia"|"caryophyllata"
+"filipendula-ulmaria"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"rosales"|"rosaceae"|"filipendula"|"ulmaria"
+"gentiana-lutea"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"gentianaceae"|"gentiana"|"lutea"
+"ginkgo-biloba"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"sapindales"|"ginkgaceae"|"ginkgo"|"biloba"
+"hamamelis-virginiana"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"sapindales"|"hamamelidaceae"|"hamamelis"|"virginiana"
+"harpagophytum-procumbens"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"fabales"|"harpagophaeaceae"|"harpagophytum"|"procumbens"
+"hydrastis-canadensis"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"lamiales"|"actinidiaceae"|"hydrastis"|"canadensis"
+"bupleurum-chinense"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"apiaceae"|"bupleurum"|"chinense"
+"codonopsis-pilosula"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"fabales"|"fabaceae"|"codonopsis"|"pilosula"
+"coleus-forskohlii"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"lamiaceae"|"coleus"|"forskohlii"
+"crataeva-nurvula"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"sapindales"|"crataevaceae"|"crataeva"|"nurvula"
+"curcuma-longa"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"zingiberales"|"zingiberaceae"|"curcuma"|"longa"
+"eleutherococcus-senticosus"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"sapindales"|"rutaceae"|"eleutherococcus"|"senticosus"
+"glycyrrhiza-glabra"|"eukarya"|"plantae"|"magnoliophyta"|"lamiopsida"|"apioales"|"fabaceae"|"glycyrrhiza"|"glabra"
+"barosma-betulina"|"eukarya"|"plantae"|"magnoliophyta"|"magnoliopsida"|"asterales"|"apocynaceae"|"barosma"|"betulina"
+"ephedra-sinica"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"ephedraceae"|"ephedra"|"sinica"
+"humulus-lupulus"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"asterales"|"cannabaceae"|"humulus"|"lupulus"
+"eucalyptus-globulus"|"eukarya"|"plantae"|"tracheophyta"|"magnoliopsida"|"sapindales"|"myrtaceae"|"eucalyptus"|"globulus"
+hypericum-perforatum|eukarya|plantae|tracheophyta|magnoliopsida|asterales|hypericaceae|hypericum|hypericum perforatum
+inula-helenium|eukarya|plantae|tracheophyta|magnoliopsida|asterales|asteraceae|inula|inula helenium
+lavandula-angustifolia|eukarya|plantae|tracheophyta|magnoliopsida|lamiales|verbenaceae|lavandula|angustifolia
+linum-usitatissimum|eukarya|plantae|tracheophyta|magnoliopsida|linales|linaceae|linum|usitatissimum
+lobelia-inflata|eukarya|plantae|tracheophyta|magnoliopsida|lamiales|lobeliaceae|lobelia|inflata

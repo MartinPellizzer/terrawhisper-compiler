@@ -1,6 +1,4 @@
-- run history
-- taxonomy: if missing info skip
-- taxonomy: split "("
+
 
 - fix health benefits
 - complete yarrow topical map

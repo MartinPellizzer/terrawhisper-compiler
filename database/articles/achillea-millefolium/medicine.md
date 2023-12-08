@@ -7,3 +7,5 @@ The most commonly used parts of the yarrow plant for medicinal purposes are its 
 Yarrow, however, should always be consumed or used in moderation due to the potential side effects it may have. Excessive consumption can lead to liver damage, skin reactions like rashes and inflammation, gastrointestinal issues, and allergic reactions for sensitive individuals. It's important to note that yarrow usage shouldn’t be combined with anticoagulant medications as this can increase the risk of bleeding.
 
 Before using yarrow for any purpose, it is crucial to consult a healthcare professional or herbalist. This is particularly important when trying to address health issues, as their expert knowledge will help you avoid potential complications and ensure your safe treatment plan. Pregnant women and nursing mothers should also be cautious about using yarrow, as there is limited research on its safety during these stages of life.
+
+
