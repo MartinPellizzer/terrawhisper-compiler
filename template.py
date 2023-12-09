@@ -1347,7 +1347,7 @@ def medicine_benefits():
         Also, correct this sentence if it has grammatical errors.
 
         --------------------------------------------------------------------
-        
+
         '''
 
 

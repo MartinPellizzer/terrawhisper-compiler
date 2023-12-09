@@ -1,4 +1,5 @@
-
+- fix medicine benefits images (alt)
+- make all medicine benefits articles
 
 - fix health benefits
 - complete yarrow topical map
