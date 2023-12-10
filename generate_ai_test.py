@@ -33,7 +33,7 @@ def get_latin_name(entity):
 
 
 
-num_articles = 1
+num_articles = 10
 
 
 
@@ -125,7 +125,7 @@ def write_plant_medicine_benefits():
             if not found:
                 prompt = f'''
                     {SYSTEM_PROMPT_LIST}
-                    Write the 3-7 most important macro constituents of {common_name} that help with the following benefit: "{benefit}". 
+                    Write the 7 most important macro constituents of {common_name} that help with the following benefit: "{benefit}". 
                     Give me just the names of the constituents. Don't add descriptions.
                 '''
 
@@ -148,13 +148,15 @@ def write_plant_medicine_benefits():
                 for line in lines:
                     formatted_line = ''
                     line = line.strip()
+                    if line == '': continue
                     if line[0].isdigit(): formatted_line = ' '.join(line.split(' ')[1:])
                     if formatted_line != '': constituents_list.append(formatted_line)
 
-                with open(f'database/articles/{entity}/medicine/benefits/constituents_list.csv', 'a', newline='', encoding='utf-8') as csvfile:
-                    writer = csv.writer(csvfile, delimiter='|')
-                    for constituent in constituents_list:
-                        writer.writerow([entity, benefit, constituent])
+                if len(constituents_list) >= 3:
+                    with open(f'database/articles/{entity}/medicine/benefits/constituents_list.csv', 'a', newline='', encoding='utf-8') as csvfile:
+                        writer = csv.writer(csvfile, delimiter='|')
+                        for constituent in constituents_list:
+                            writer.writerow([entity, benefit, constituent])
 
 
 
@@ -210,6 +212,18 @@ def write_plant_medicine_benefits():
                     print(text, end="", flush=True)
                 print()
                 print()
+
+                lines = reply.split('\n')
+                constituents_list = []
+                for line in lines:
+                    formatted_line = ''
+                    line = line.strip()
+                    if line == '': continue
+                    if line[0].isdigit(): formatted_line = ' '.join(line.split(' ')[1:])
+                    if formatted_line != '': constituents_list.append(formatted_line)
+
+                reply = '. '.join(constituent_list)
+
 
                 reply = reply.replace('"', '')
                 reply = re.sub("\s\s+" , " ", reply)
@@ -300,9 +314,11 @@ def write_plant_medicine_benefits():
 
                 prompt = f'''
                     Knowing that {common_name} {benefit.lower()}, explain in 100 words why this benefit helps the following health conditions: {_lst}.
-                    Start with these words: This benefit of {common_name} helps healing many conditions, such as
+                    Don't write lists.
+                    Start with these words: {common_name.title()}'s ability to 
                 '''
-                #Start with these words: {common_name.title()}'s ability to 
+                # Start with these words: This benefit of {common_name} helps healing many conditions, such as
+
                 # Start the paragraph with the following words: "The property of {common_name} to {benefit} helps you with many health conditions, such as ".
 
                 print()

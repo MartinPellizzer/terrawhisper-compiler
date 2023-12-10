@@ -5,6 +5,8 @@ from ctransformers import AutoModelForCausalLM
 import sys
 import utils
 import json
+import time
+
 
 sys_arg_override = False
 try: 
@@ -47,14 +49,18 @@ llm = AutoModelForCausalLM.from_pretrained(
     )
 # llm = AutoModelForCausalLM.from_pretrained("C:\\Users\\admin\\Desktop\\models\\dolphin-2.1-mistral-7b.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=1024)
 
-num_articles = 1
+num_articles = 60
+
 
 
 
 
 def write_section(section, action='default'):
-    rows = csv_get_rows(f'plants.csv') 
+    rows = csv_get_rows(f'plants.csv')
     for i, row in enumerate(rows[1:num_articles+1]):
+
+        start_time = time.time()
+
         entity = row[0].strip()
         common_name = row[1].strip()
         latin_name = get_latin_name(entity)
@@ -215,6 +221,8 @@ def write_section(section, action='default'):
         with open(f'database/articles/{entity}/{section}.md', 'w', newline='', encoding='utf-8') as f:
             f.write(reply)
 
+        print(f"--- {(time.time() - start_time)} seconds ---")
+
 
 for i in range(3):
     write_section('intro')
@@ -228,370 +236,18 @@ for i in range(3):
 
 
 
-llm = AutoModelForCausalLM.from_pretrained(
-    "C:\\Users\\admin\\Desktop\\models\\neural-chat-7b-v3-1.Q8_0.gguf", 
-    model_type="mistral", 
-    context_length=1024, 
-    max_new_tokens=1024,
-    )
 
-def write_plant_medicine_benefits():
-    rows = csv_get_rows(f'plants.csv') 
-    for i, row in enumerate(rows[1:num_articles+1]):
-        entity = row[0].strip()
-        common_name = row[1].strip()
-        latin_name = get_latin_name(entity)
 
-        try: os.makedirs(f'database')
-        except: pass
-        try: os.makedirs(f'database/articles')
-        except: pass
-        try: os.makedirs(f'database/articles/{entity}')
-        except: pass
 
-        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
-        benefits = [f'{x[1]}' for x in rows[:10]]
-        images_text = ''
 
-
-
-
-
-        for i, benefit in enumerate(benefits):
-            with open(f'database/articles/{entity}/medicine/benefits/definitions.csv', 'a', newline='', encoding='utf-8') as csvfile:
-                pass
-
-            found = False
-            with open(f'database/articles/{entity}/medicine/benefits/definitions.csv', 'r', encoding='utf-8') as f:
-                reader = csv.reader(f, delimiter="|")
-                for line in reader:
-                    if line[1].lower().strip() == benefit.lower().strip():
-                        found = True
-                        break
-
-            if not found:
-                prompt = f'''
-                    {SYSTEM_PROMPT}
-                    Define in detail in 1 sentence what "{common_name} {benefit}" means. 
-                    Start the sentence with these words: "{common_name.title()}'s ability to {benefit.lower()} refers to ".
-                    Fix grammatical errors.
-                '''
-
-                print()
-                print(f"Q: {i+1}/{num_articles}")
-                print()
-                print(prompt)
-                print()
-                print("A:")
-                print()
-                reply = ''
-                for text in llm(prompt, stream=True):
-                    reply += text
-                    print(text, end="", flush=True)
-                print()
-                print()
-
-                reply = reply.split('.')[0] + '.'
-                reply = reply.replace('"', '')
-                reply = reply.strip()
-                with open(f'database/articles/{entity}/medicine/benefits/definitions.csv', 'a', newline='', encoding='utf-8') as csvfile:
-                    writer = csv.writer(csvfile, delimiter='|')
-                    writer.writerow([entity, benefit, reply])
-
-
-
-
-
-            with open(f'database/articles/{entity}/medicine/benefits/constituents_list.csv', 'a', newline='', encoding='utf-8') as csvfile:
-                pass
-
-            found = False
-            with open(f'database/articles/{entity}/medicine/benefits/constituents_list.csv', 'r', encoding='utf-8') as f:
-                reader = csv.reader(f, delimiter="|")
-                for line in reader:
-                    if line[1].lower().strip() == benefit.lower().strip():
-                        found = True
-                        break
-
-            if not found:
-                prompt = f'''
-                    {SYSTEM_PROMPT_LIST}
-                    Write the 3-7 most important macro constituents of {common_name} that help with the following benefit: "{benefit}". 
-                    Give me just the names of the constituents. Don't add descriptions.
-                '''
-
-                print()
-                print(f"Q: {i+1}/{num_articles}")
-                print()
-                print(prompt)
-                print()
-                print("A:")
-                print()
-                reply = ''
-                for text in llm(prompt, stream=True):
-                    reply += text
-                    print(text, end="", flush=True)
-                print()
-                print()
-
-                lines = reply.split('\n')
-                constituents_list = []
-                for line in lines:
-                    formatted_line = ''
-                    line = line.strip()
-                    if line[0].isdigit(): formatted_line = ' '.join(line.split(' ')[1:])
-                    if formatted_line != '': constituents_list.append(formatted_line)
-
-                with open(f'database/articles/{entity}/medicine/benefits/constituents_list.csv', 'a', newline='', encoding='utf-8') as csvfile:
-                    writer = csv.writer(csvfile, delimiter='|')
-                    for constituent in constituents_list:
-                        writer.writerow([entity, benefit, constituent])
-
-
-
-
-
-        for i, benefit in enumerate(benefits):
-            with open(f'database/articles/{entity}/medicine/benefits/constituents_text.csv', 'a', newline='', encoding='utf-8') as csvfile:
-                pass
-
-            found = False
-            with open(f'database/articles/{entity}/medicine/benefits/constituents_text.csv', 'r', encoding='utf-8') as f:
-                reader = csv.reader(f, delimiter="|")
-                for line in reader:
-                    if line[1].lower().strip() == benefit.lower().strip():
-                        found = True
-                        break
-
-            if not found:
-                # get constituent list
-                constituents_lst = []
-                with open(f'database/articles/{entity}/medicine/benefits/constituents_list.csv', 'r', encoding='utf-8') as f:
-                    reader = csv.reader(f, delimiter="|")
-                    for line in reader:
-                        if line[1].lower().strip() == benefit.lower().strip():
-                            constituents_lst.append(line[2].lower().strip())
-
-                constituents = '- ' + '\n- '.join(constituents_lst)
-                # print(constituents)
-                # continue
-
-                # prompt = f'''
-                #     Write 100 words about what constituents in {common_name} {benefit} and explain why.
-                #     Include these constituents: {constituents}.
-                #     Write only 1 short sentence per constituent.
-                # '''
-                prompt = f'''
-                    For each constituent in the following list:
-                    {constituents}
-
-                    Write 1 short sentence explaining why that constituent in {common_name} {benefit}. 
-                '''
-
-                print()
-                print(f"Q: {i+1}/{num_articles}")
-                print()
-                print(prompt)
-                print()
-                print("A:")
-                print()
-                reply = ''
-                for text in llm(prompt, stream=True):
-                    reply += text
-                    print(text, end="", flush=True)
-                print()
-                print()
-
-                reply = reply.replace('"', '')
-                reply = re.sub("\s\s+" , " ", reply)
-                reply = reply.strip()
-                with open(f'database/articles/{entity}/medicine/benefits/constituents_text.csv', 'a', newline='', encoding='utf-8') as csvfile:
-                    writer = csv.writer(csvfile, delimiter='|')
-                    writer.writerow([entity, benefit, reply])
-                
-
-
-
-
-            with open(f'database/articles/{entity}/medicine/benefits/conditions_list.csv', 'a', newline='', encoding='utf-8') as csvfile:
-                pass
-
-            found = False
-            with open(f'database/articles/{entity}/medicine/benefits/conditions_list.csv', 'r', encoding='utf-8') as f:
-                reader = csv.reader(f, delimiter="|")
-                for line in reader:
-                    if line[1].lower().strip() == benefit.lower().strip():
-                        found = True
-                        break
-
-            if not found:
-                prompt = f'''
-                    {SYSTEM_PROMPT_LIST}
-                    {common_name}'s benefit: {benefit}.
-                    Write the 3-7 most important health conditions helped by this benefit.
-                    Give me just the names of the conditions. Don't add descriptions.
-                '''
-
-                print()
-                print(f"Q: {i+1}/{num_articles}")
-                print()
-                print(prompt)
-                print()
-                print("A:")
-                print()
-                reply = ''
-                for text in llm(prompt, stream=True):
-                    reply += text
-                    print(text, end="", flush=True)
-                print()
-                print()
-
-                lines = reply.split('\n')
-                constituents_list = []
-                for line in lines:
-                    formatted_line = ''
-                    line = line.strip()
-                    if line == '': continue
-                    if line[0].isdigit(): formatted_line = ' '.join(line.split(' ')[1:])
-                    if formatted_line != '': constituents_list.append(formatted_line)
-
-                with open(f'database/articles/{entity}/medicine/benefits/conditions_list.csv', 'a', newline='', encoding='utf-8') as csvfile:
-                    writer = csv.writer(csvfile, delimiter='|')
-                    for constituent in constituents_list[:7]:
-                        writer.writerow([entity, benefit, constituent])
-
-
-
-
-                        
-
-        for i, benefit in enumerate(benefits):
-            with open(f'database/articles/{entity}/medicine/benefits/conditions_text.csv', 'a', newline='', encoding='utf-8') as csvfile:
-                pass
-
-            found = False
-            with open(f'database/articles/{entity}/medicine/benefits/conditions_text.csv', 'r', encoding='utf-8') as f:
-                reader = csv.reader(f, delimiter="|")
-                for line in reader:
-                    if line[1].lower().strip() == benefit.lower().strip():
-                        found = True
-                        break
-
-            if not found:
-                # get constituent list
-                _lst = []
-                with open(f'database/articles/{entity}/medicine/benefits/conditions_list.csv', 'r', encoding='utf-8') as f:
-                    reader = csv.reader(f, delimiter="|")
-                    for line in reader:
-                        if line[1].lower().strip() == benefit.lower().strip():
-                            _lst.append(line[2].lower().strip())
-
-                _lst = '- ' + '\n- '.join(_lst)
-
-                prompt = f'''
-                    {common_name} has this benefit: {benefit}.
-
-                    For each conditions in the following list:
-                    {_lst}
-
-                    Write 1 short sentence explaining why {common_name} helps with that condition. 
-                '''
-
-                print()
-                print(f"Q: {i+1}/{num_articles}")
-                print()
-                print(prompt)
-                print()
-                print("A:")
-                print()
-                reply = ''
-                for text in llm(prompt, stream=True):
-                    reply += text
-                    print(text, end="", flush=True)
-                print()
-                print()
-
-                reply = reply.replace('"', '')
-                reply = re.sub("\s\s+" , " ", reply)
-                reply = reply.strip()
-                with open(f'database/articles/{entity}/medicine/benefits/conditions_text.csv', 'a', newline='', encoding='utf-8') as csvfile:
-                    writer = csv.writer(csvfile, delimiter='|')
-                    writer.writerow([entity, benefit, reply])
-
-
-write_plant_medicine_benefits()
-
-            
-
-
-
-
-
-
-
-            
-
-            # prompt = f'''
-            #     {SYSTEM_PROMPT}
-            #     Write 100 words about what constituents in {common_name} {item} and explain why.
-            #     Include these constituents: Azulene, Azygine, Chamazulein, Flavonoids, Monoterpenes, Sesquiterpene lactones.
-            #     Write one short sentence for each of these constituent.
-            #     Start the paragraph with these words: "The Azulene contained in {common_name} ".
-            # '''
-            
-            # print()
-            # print(f"Q: {i+1}/{num_articles}")
-            # print()
-            # print(prompt)
-            # print()
-            # print("A:")
-            # print()
-            # reply = ''
-            # for text in llm(prompt, stream=True):
-            #     reply += text
-            #     print(text, end="", flush=True)
-            # print()
-            # print()
-
-            quit()
-
-write_plant_medicine_benefits()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-rom_pretrained("C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.1.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=256)
+llm = AutoModelForCausalLM.from_pretrained("C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.1.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=256)
 
 
 def write_list(section):
     rows = csv_get_rows(f'plants.csv') 
     for i, row in enumerate(rows[1:num_articles+1]):
+
+        start_time = time.time()
         # print()
 
         entity = row[0].strip()
@@ -620,8 +276,8 @@ def write_list(section):
             prompt = prompt_template.replace('<att_1>', 'culinary uses')
         elif section == 'horticulture':
             prompt = prompt_template.replace('<att_1>', 'tips for growing')
-        elif section == 'botany':
-            prompt = prompt_template.replace('<att_1>', 'morphological characteristics')
+        # elif section == 'botany':
+            # prompt = prompt_template.replace('<att_1>', 'morphological characteristics')
         elif section == 'history':
             prompt = prompt_template.replace('<att_1>', 'historical uses')
         else: 
@@ -682,13 +338,15 @@ def write_list(section):
             writer = csv.writer(f, delimiter='|')
             for line in lines_formatted:
                 writer.writerow(line)
+                
+        print(f"--- {(time.time() - start_time)} seconds ---")
 
 
 for i in range(3):
     write_list('medicine')
     write_list('cuisine')
     write_list('horticulture')
-    write_list('botany')
+    # write_list('botany')
     write_list('history')
 
 
@@ -698,48 +356,6 @@ llm = AutoModelForCausalLM.from_pretrained(
     context_length=1024, 
     max_new_tokens=256, 
 )
-
-
-# def generate_data():
-#     rows = csv_get_rows(f'plants.csv') 
-#     for i, row in enumerate(rows[1:num_articles+1]):
-#         # print()
-
-#         entity = row[0].strip()
-#         common_name = row[1].strip()
-#         latin_name = get_latin_name(entity)
-
-#         prompt = f'''
-#             Give me the linnaean taxonomy in list format of {common_name} ({latin_name}).
-#             The list must include:
-#             - Domain
-#             - Kingdom
-#             - Phylum
-#             - Class
-#             - Order
-#             - Family
-#             - Genus
-#             - Species
-#         '''
-
-#         print()
-#         print(f"Q: {i+1}/{num_articles}")
-#         print()
-#         print(prompt)
-#         print()
-#         print("A:")
-#         print()
-#         reply = ''
-#         for text in llm(prompt, stream=True):
-#             reply += text
-#             print(text, end="", flush=True)
-#         print()
-#         print()
-        
-#         break
-
-# generate_data()
-
 
 
 
