@@ -1,0 +1,7 @@
+Lemon Balm is not only a beautiful ornamental plant, but it also offers delicious culinary options with its mint-like leaves and lemon scent. You can utilize this herb in salads as well to add both visual appeal due to the bright green color of young tender leaves while imparting unique zestiness from their aroma; plus, you could use them for garnishing soups or making fresh fruit juices taste more refreshing with its lemony-fresh flavor.
+
+The Lemon Balm's edible parts typically encompass tender young stems and leaf tips for both consumption directly as well incorporating them into various recipes, which is known to make their lemony zing more pronounced when used in food preparation such as salads or dishes including eggs due the citrus taste pair beautifully with butter.
+
+ It would be recommended adding it towards end of cooking processes, so its natural oils release can provide maximum essential benefits without getting cooked off too quickly – by lightly tossing over already prepared dishes such as pasta or grains immediately before serving; you could also add whole stems into simmered liquids that require a mild infusion like tea for extra depth of flavor.
+
+Despite being generally safe and non-toxic, Lemon Balm can cause some allergic reactions in certain individuals who may experience rashes or skin irritations from contact with its oils; if you notice any side effects during use remember always err on the cautious note by taking moderation into practice within your culinary experiments.

@@ -49,10 +49,84 @@ llm = AutoModelForCausalLM.from_pretrained(
     )
 # llm = AutoModelForCausalLM.from_pretrained("C:\\Users\\admin\\Desktop\\models\\dolphin-2.1-mistral-7b.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=1024)
 
-num_articles = 60
+num_articles = 70
 
 
 
+def generate_reply(prompt):
+    print(f"Q: ---")
+    print(prompt)
+    print()
+    print("A: ---")
+    reply = ''
+    for text in llm(prompt, stream=True):
+        reply += text
+        print(text, end="", flush=True)
+    print()
+    print()
+    return reply
+
+
+def clean_reply(reply):
+    reply = reply.strip()
+    lines = reply.split('\n')
+    lines_formatted = []
+    for line in lines:
+        line = line.strip()
+        if line == '': continue
+        if line.strip().endswith(':'): continue
+        if len(line.split('.')) < 2: 
+            print('skipped: len < 2')
+            continue
+        if ':' in line: line = line.split(':')[1]
+        if line[0].isdigit(): line = ' '.join(line.split(' ')[1:])
+        if line[0] == '-': line = ' '.join(line.split(' ')[1:])
+        if 'in summary' in line.lower(): 
+            print('skipped: in summary')
+            continue
+        if 'to summarize' in line.lower():
+            print('skipped: to summarize') 
+            continue
+        if 'in conclusion' in line.lower():
+            print('skipped: in conclusion') 
+            continue
+        if 'overall' in line.lower(): 
+            print('skipped: overall')
+            continue
+        lines_formatted.append(line)
+    reply = '\n\n'.join(lines_formatted)
+
+    return reply
+
+
+def check_reply(reply):
+    is_valid = True
+
+    tot_words = 0
+    num_paragraphs = 0
+    paragraphs = reply.split('\n')
+    for paragraph in paragraphs:
+        if paragraph.strip() != '':
+            paragraph = paragraph.split(' ')
+            tot_words += len(paragraph)
+            num_paragraphs += 1
+    agv_words = tot_words//num_paragraphs
+    print(f'Tot Length: {tot_words}')
+    print(f'Avg Length: {agv_words}')
+    print(f'Num Paragraphs: {num_paragraphs}')
+    if tot_words < 200:
+        print() 
+        print("ABORT: Too few words *****************************") 
+        is_valid = False
+    if num_paragraphs < 3 or num_paragraphs > 5:
+        print() 
+        print("ABORT: Wrong num paragraphs *****************************")
+        is_valid = False
+    print()
+    print()
+    print()
+
+    return is_valid
 
 
 def write_section(section, action='default'):
@@ -90,6 +164,7 @@ def write_section(section, action='default'):
 
         if section == 'intro':
             prompt = f'''
+                {SYSTEM_PROMPT}
                 Write 3 paragraphs in 300 words about {common_name} ({latin_name}).
                 In paragraph 1, write about the medicinal and culinary aspects of this plant. Also, start paragraph 1 with the following words: "{common_name}, scientifically know as {latin_name}, is ".
                 In paragraph 2, write about the horticultural and ornamental aspects of this plant.
@@ -97,6 +172,7 @@ def write_section(section, action='default'):
             '''
         elif section == 'medicine':
             prompt = f'''
+                {SYSTEM_PROMPT}
                 Write 5 paragraphs in 400 words about the medicinal aspects {common_name} ({latin_name}).
                 In paragraph 1, write about the health benefits and health conditions this plant helps, without mentioning constituents. Start paragraph 1 with the following words: "{common_name.capitalize()} ({latin_name}) has many health benefits, such as ".
                 In paragraph 2, write about the medicinal constituents.
@@ -106,6 +182,7 @@ def write_section(section, action='default'):
             '''
         elif section == 'cuisine':
             prompt = f'''
+                {SYSTEM_PROMPT}
                 Write 5 paragraphs in 400 words about the culinary aspects of {common_name} ({latin_name}).
                 In paragraph 1, write about the culinary uses.
                 In paragraph 2, write about the flavor profile.
@@ -118,6 +195,7 @@ def write_section(section, action='default'):
             '''
         elif section == 'horticulture':
             prompt = f'''
+                {SYSTEM_PROMPT}
                 Write 5 paragraphs in 400 words about the horticultural aspects of {common_name} ({latin_name}).
                 In paragraph 1, write what are the growth requirements.
                 In paragraph 2, write what are the planting tips.
@@ -130,6 +208,7 @@ def write_section(section, action='default'):
             '''
         elif section == 'botany':
             prompt = f'''
+                {SYSTEM_PROMPT}
                 Write 5 paragraphs in 400 words about the botanical aspects of {common_name} ({latin_name}).
                 In paragraph 1, tell me the taxonomy, including domain, kingdom, phylum, class, order, family, genus, species. Then, tell me the common names. Also, start paragraph 1 with the following words: "{common_name}, with botanical name {latin_name}, belongs to the domain ".
                 In paragraph 3, tell me the morphology.
@@ -141,6 +220,7 @@ def write_section(section, action='default'):
             '''
         elif section == 'history':
             prompt = f'''
+                {SYSTEM_PROMPT}
                 Write 5 paragraphs in 400 words about the historical aspects of {common_name} ({latin_name}).
                 In paragraph 1, write about the origin and etymology of the word "{common_name}". Start paragraph 1 with the following words: The etymology of "{common_name}" originates from .
                 In paragraph 2, write about the cultural significances.
@@ -151,71 +231,13 @@ def write_section(section, action='default'):
             '''
 
 
+        print(f'{i+1}/{num_articles}')
 
+        reply = generate_reply(prompt)
+        reply = clean_reply(reply)
+        is_valid = check_reply(reply)
 
-        print()
-        print(f"Q: {i+1}/{num_articles}")
-        print()
-        print(prompt)
-        print()
-        print("A:")
-        print()
-        reply = ''
-        for text in llm(prompt, stream=True):
-            reply += text
-            print(text, end="", flush=True)
-        print()
-        print()
-
-        # clean text
-        reply = reply.strip()
-        lines = reply.split('\n')
-        lines_formatted = []
-        for line in lines:
-            line = line.strip()
-            if line == '': continue
-            if line.strip().endswith(':'): continue
-            if len(line.split('.')) < 2: continue
-            if ':' in line: line = line.split(':')[1]
-            if line[0].isdigit(): line = ' '.join(line.split(' ')[1:])
-            if line[0] == '-': line = ' '.join(line.split(' ')[1:])
-            if 'in summary' in line.lower(): continue
-            if 'to summarize' in line.lower(): continue
-            if 'in conclusion' in line.lower(): continue
-            if 'overall' in line.lower(): continue
-            lines_formatted.append(line)
-        reply = '\n\n'.join(lines_formatted)
-
-        # calculate lenght text
-        tot_words = 0
-        num_paragraphs = 0
-        paragraphs = reply.split('\n')
-        for paragraph in paragraphs:
-            if paragraph.strip() != '':
-                paragraph = paragraph.split(' ')
-                tot_words += len(paragraph)
-                num_paragraphs += 1
-        agv_words = tot_words//num_paragraphs
-        print(f'Tot Length: {tot_words}')
-        print(f'Avg Length: {agv_words}')
-        print(f'Num Paragraphs: {num_paragraphs}')
-        if section == 'intro':
-            if tot_words < 200:
-                print() 
-                print("ABORT: Too few words *****************************") 
-                continue
-        else:
-            if tot_words < 200:
-                print() 
-                print("ABORT: Too few words *****************************") 
-                continue
-        if num_paragraphs < 3 or num_paragraphs > 5:
-            print() 
-            print("ABORT: Wrong num paragraphs *****************************") 
-            continue
-        print()
-        print()
-        print()
+        if not is_valid: continue
 
         # if action == 'default' or action == 'override':
         with open(f'database/articles/{entity}/{section}.md', 'w', newline='', encoding='utf-8') as f:
@@ -231,13 +253,6 @@ for i in range(3):
     write_section('horticulture')
     write_section('botany')
     write_section('history')
-
-
-
-
-
-
-
 
 
 llm = AutoModelForCausalLM.from_pretrained("C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.1.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=256)
@@ -338,7 +353,7 @@ def write_list(section):
             writer = csv.writer(f, delimiter='|')
             for line in lines_formatted:
                 writer.writerow(line)
-                
+
         print(f"--- {(time.time() - start_time)} seconds ---")
 
 

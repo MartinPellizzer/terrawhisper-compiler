@@ -1,0 +1,7 @@
+The etymology of "Psyllium" originates from Ancient Greek and is derived directly or indirectly related to 'plant'. Psylli (πσύλοι in ancient greek meaning 'plants', later evolved into Psyttalo which became Psychillum, then finally transformed as we know it today - ‘psyllium’.
+
+Historical aspects of the plant have been culturally significant throughout its existence. It has played a substantial role among communities that resided around areas where this particular species grew wildly abundant in nature such as Europe and Asia Minor regions which made these locations, important hubs for medicinal exchanges between people across time periods
+
+Psyllium holds an intriguing place within mythology. The plant has been entangled with some tales concerning demons or spirits that inhabit it due to its unique appearance resembling a feathered quill from afar, which led ancient civilizations such as the Greeks and Persians assign mystical powers onto these peculiar little pods – known widely since their discovery.
+
+In addition to cultural and literary references of psyllia- use is prominent within various folklores as well. The plant has been used for a myriad reasons including treating digestive issues, relieving constipation or promoting bowel regularity among others - an attribute which makes it stand out even today amongst herbal remedies and alternative medicines sought by millions across the world

@@ -33,7 +33,7 @@ def get_latin_name(entity):
 
 
 
-num_articles = 10
+num_articles = 20
 
 
 
@@ -222,7 +222,7 @@ def write_plant_medicine_benefits():
                     if line[0].isdigit(): formatted_line = ' '.join(line.split(' ')[1:])
                     if formatted_line != '': constituents_list.append(formatted_line)
 
-                reply = '. '.join(constituent_list)
+                reply = '. '.join(constituents_list)
 
 
                 reply = reply.replace('"', '')

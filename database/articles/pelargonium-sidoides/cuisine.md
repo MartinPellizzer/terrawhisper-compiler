@@ -1,0 +1,9 @@
+Pelargonium is often considered culinarily due to its versatile leaves which can be utilized for flavoring dishes like salads and stir-fries, or brewed into refreshing teas with unique taste profiles that provide zesty bursts of flavors while still staying pleasantly mellow. The flowers too add a beautiful splash color on platters as well as contribute their distinct fragrances to create enhanced eating experiences through sensory engagements
+
+Pelargonium's flavor profile is primarily rooted in its citrusy, floral notes which come together for an unforgettable combination. The leaves impart a mild sweetness while the flowers bring forth delicate hints of spiciness and fruity tones that dance around your palate once ingested – offering up both refreshingly bright high-notes alongside subtler lingering nuances
+
+When it comes to edible parts, all elements within Pelargonium are fair game. From its aromatic leaves teeming with flavorful essences, delicate and fragrant flowers that lend a vibrant pop of color as well providing unique taste characteristics due their diverse flavors – every part can be used in various culinary applications
+
+Culinary tips revolve around the ingenious ways to incorporate Pelargonium into different dishes. Its leaves add wonderful flavor when added raw or cooked, while its florets are perfect for garnishing and bringing additional zestiness on your plate. Don’t forget how tea-making with these vibrant blooms not only makes them more approachable but also brings their essence directly to life
+
+However it's essential be cautious because side effects or toxicity related incidents haven't been widely reported, though there might potentially some adverse reaction arising from allergies as a result of consuming any new ingredient. It is always advised practicing food safety measures and moderate use while experimenting with unique botanical flavors like Pelargonium can provide an exciting culinary adventure

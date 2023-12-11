@@ -1,3 +1,7 @@
+- leonardo, 10 >
+
+- randomize images on articles, modify main.py with new paths
+
 - fix medicine benefits images (alt)
 - make all medicine benefits articles
 
