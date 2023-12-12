@@ -1,0 +1,9 @@
+Baical Skullcap is known by its botanic name Scutellaria baicialensis and belongs to Plantae kingdom within Viridiplantae division, which includes vascular plants or flowering plant group. It falls under Magnoliophyta class with magnolian superclass as part of Liliopsida order for lilies, grasses such in the family Scutellariaceae called Skullcap's due to its skull-like appearance on flowers and finally within genus 'Scuttelaria'. Common names include Baikal Skullcap or Chinese Skulcarp.
+
+The plant comes with different variants like S.baicalensis Georgi, a more significant member grown for medicinal purposes in China which can have distinct features compared to the standard one due its origins where growing conditions and selection processes are varied greatly over time as it adapted itself accordingly leading to variations that occur through gene flow or genetic drift making these strains unique from each other.
+
+The morphological makeup includes an erect perennial herb with hairy stems, simple oval shaped dark green leaves arranged alternately along the stem and purple flowers on whorls of axial positions appearing at terminal nodes that resemble a skull hence its common names' connection to it due for obvious reasons.
+
+It originates from Mongolia in Asia up northwest part China reaching as far east into Japan where these plants thrive mainly through regions experiencing moist climate and shady locations thus naturalizing itself well within mountain forests or along river banks providing an ideal ecological niche that supports its growth conditions while avoiding harsh direct sunlight.
+
+Lastly, Baical Skullcap follows a typical life cycle like most flowering plant species where they go from seed germination through juvenile stage to maturity in adulthood completing sexual reproduction and eventually die off leaving new seeds which begin the lifecycle once again thus ensuring propagation continues over generations.

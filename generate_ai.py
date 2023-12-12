@@ -49,7 +49,7 @@ llm = AutoModelForCausalLM.from_pretrained(
     )
 # llm = AutoModelForCausalLM.from_pretrained("C:\\Users\\admin\\Desktop\\models\\dolphin-2.1-mistral-7b.Q8_0.gguf", model_type="mistral", context_length=1024, max_new_tokens=1024)
 
-num_articles = 70
+num_articles = 100
 
 
 
@@ -79,8 +79,11 @@ def clean_reply(reply):
             print('skipped: len < 2')
             continue
         if ':' in line: line = line.split(':')[1]
-        if line[0].isdigit(): line = ' '.join(line.split(' ')[1:])
-        if line[0] == '-': line = ' '.join(line.split(' ')[1:])
+        if line == '': continue
+        if line[0].isdigit(): 
+            line = ' '.join(line.split(' ')[1:])
+        if line[0] == '-': 
+            line = ' '.join(line.split(' ')[1:])
         if 'in summary' in line.lower(): 
             print('skipped: in summary')
             continue

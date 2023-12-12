@@ -4,8 +4,7 @@ import shutil
 IMG_FOLDER = 'H:/tw-images/auto'
 
 for folder in os.listdir(IMG_FOLDER):
-    try: os.mkdir(f'{IMG_FOLDER}/{folder}/4x3')
-    except: pass
+    os.mkdir(f'{IMG_FOLDER}/{folder}/4x3')
     try: os.mkdir(f'{IMG_FOLDER}/{folder}/3x4')
     except: pass
 

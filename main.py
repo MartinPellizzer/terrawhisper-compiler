@@ -13,6 +13,7 @@ import re
 import csv
 import sys
 import utils
+import random
 
 entity_arg = None
 REGEN_ALL_FORCED = False 
@@ -1942,8 +1943,8 @@ def img_resize_2(img):
     return img
 
 
-def generate_featured_image_2(entity, common_name):
-    img = Image.open(f'{image_folder}/{entity}/overview.jpg')
+def generate_featured_image_2(entity, common_name, attribute_lst, filename):
+    img = Image.open(f'{image_folder}/{entity}/4x3/{filename}')
     img = img_resize_2(img)
 
     w_banner = img.size[0]
@@ -1959,8 +1960,9 @@ def generate_featured_image_2(entity, common_name):
     base.paste(top, (0, 0), mask)
     img.paste(base, (0, y_img - y_banner), base)
 
-
-    line = f'{common_name.title()} Overview'
+    attributes = ' '.join(attribute_lst).title()
+    if attributes != '': attributes += ' '
+    line = f'{common_name.title()}\'s {attributes}Overview'
     draw = ImageDraw.Draw(img)
     font_size = 36
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
@@ -1968,9 +1970,11 @@ def generate_featured_image_2(entity, common_name):
     line_h = font.getbbox('y')[3]
     draw.text((w_banner//2 - line_w//2, y_img - line_h - 30), line, '#ffffff', font=font)
 
-    featured_image_filpath = f'website/images/{entity}-overview.jpg'
+    attributes = '-'.join(attribute_lst)
+    if attributes != '': attributes += '-'
+    featured_image_filpath = f'website/images/{entity}-{attributes}overview.jpg'
     img.save(f'{featured_image_filpath}', format='JPEG', subsampling=0, quality=100)
-    featured_image_filpath = f'images/{entity}-overview.jpg'
+    featured_image_filpath = f'/images/{entity}-{attributes}overview.jpg'
 
     return featured_image_filpath
 
@@ -2504,9 +2508,10 @@ for i, row in enumerate(articles_master_rows[1:]):
         title = f'What to know before using {common_name} ({latin_name.capitalize()})'.title()
         article += f'<h1>{title}</h1>'
         
+        attribute_lst = []
         try:
             image_title = f'{latin_name.title()} Overview'
-            featured_image_filepath = generate_featured_image_2(entity, common_name)
+            featured_image_filepath = generate_featured_image_2(entity, common_name, attribute_lst, '0000.jpg')
             article += f'![{image_title}]({featured_image_filepath} "{image_title}")\n\n'
         except: pass
 
@@ -2514,10 +2519,10 @@ for i, row in enumerate(articles_master_rows[1:]):
             content = f.read()
 
         article += f'{content}\n\n'
-
         article += f'In this article, you will discover what are the medicinal and culinary uses of {common_name}. Then, you\'ll learn how to cultivate it, what is its botanical profile, and how it was used historically.\n\n'
 
-        img_num = 0
+        images_filenames = os.listdir(f'{image_folder}/{entity}/3x4')
+        random.shuffle(images_filenames)
 
         # ----------------------------------
         section = 'medicine'
@@ -2528,13 +2533,15 @@ for i, row in enumerate(articles_master_rows[1:]):
         paragraph_1 = content_paragraphs[0]
         paragraph_rest = content_paragraphs[1:]
 
-        try: filepath = generate_image_template_3(
-            entity, 
-            common_name, 
-            f'{image_folder}/{entity}/000{img_num}.jpg', 
-            f'{section}', 
-            f'database/tables/{section}.csv'
-        )
+        image_filename = images_filenames.pop()
+        try:
+            filepath = generate_image_template_3(
+                entity, 
+                common_name, 
+                f'{image_folder}/{entity}/3x4/{image_filename}', 
+                f'{section}', 
+                f'database/tables/{section}.csv'
+            )
         except:
             print(f'Missing Image: {entity} {section}') 
             filepath = ''
@@ -2553,7 +2560,6 @@ for i, row in enumerate(articles_master_rows[1:]):
         article += f'<img src="images/{entity}-{section}.jpg" alt="{latin_name.title()} {section.title()}">'
         for paragraph in paragraph_rest:
             article += f'<p>{paragraph}</p>'
-        img_num += 1
             
         # ----------------------------------
         section = 'cuisine'
@@ -2564,10 +2570,11 @@ for i, row in enumerate(articles_master_rows[1:]):
         paragraph_1 = content_paragraphs[0]
         paragraph_rest = content_paragraphs[1:]
 
+        image_filename = images_filenames.pop()
         try: filepath = generate_image_template_3(
             entity, 
             common_name, 
-            f'{image_folder}/{entity}/000{img_num}.jpg', 
+            f'{image_folder}/{entity}/3x4/{image_filename}', 
             f'{section}', 
             f'database/tables/{section}.csv'
         )
@@ -2584,7 +2591,6 @@ for i, row in enumerate(articles_master_rows[1:]):
         article += f'<img src="images/{entity}-{section}.jpg" alt="{latin_name.title()} {section.title()}">'
         for paragraph in paragraph_rest:
             article += f'<p>{paragraph}</p>'
-        img_num += 1
             
         # ----------------------------------
         section = 'horticulture'
@@ -2595,10 +2601,11 @@ for i, row in enumerate(articles_master_rows[1:]):
         paragraph_1 = content_paragraphs[0]
         paragraph_rest = content_paragraphs[1:]
 
+        image_filename = images_filenames.pop()
         try: filepath = generate_image_template_3(
             entity, 
             common_name, 
-            f'{image_folder}/{entity}/000{img_num}.jpg', 
+            f'{image_folder}/{entity}/3x4/{image_filename}', 
             f'{section}', 
             f'database/tables/{section}.csv'
         )
@@ -2615,7 +2622,6 @@ for i, row in enumerate(articles_master_rows[1:]):
         article += f'<img src="images/{entity}-{section}.jpg" alt="{latin_name.title()} {section.title()}">'
         for paragraph in paragraph_rest:
             article += f'<p>{paragraph}</p>'
-        img_num += 1
             
         # ----------------------------------
         section = 'botany'
@@ -2637,10 +2643,11 @@ for i, row in enumerate(articles_master_rows[1:]):
         taxonomy_rows[7] = f'Genus: {taxonomy_rows[7].capitalize()}'
         taxonomy_rows[8] = f'Species: {taxonomy_rows[8]}'
 
+        image_filename = images_filenames.pop()
         try: filepath = generate_image_template_4(
             entity, 
             common_name, 
-            f'{image_folder}/{entity}/000{img_num}.jpg', 
+            f'{image_folder}/{entity}/3x4/{image_filename}', 
             f'{section}', 
             'Taxonomy', 
             taxonomy_rows[1:],
@@ -2658,7 +2665,6 @@ for i, row in enumerate(articles_master_rows[1:]):
         article += f'<img src="images/{entity}-{section}.jpg" alt="{latin_name.title()} {section.title()}">'
         for paragraph in paragraph_rest:
             article += f'<p>{paragraph}</p>'
-        img_num += 1
             
         # ----------------------------------
         section = 'history'
@@ -2669,10 +2675,11 @@ for i, row in enumerate(articles_master_rows[1:]):
         paragraph_1 = content_paragraphs[0]
         paragraph_rest = content_paragraphs[1:]
 
+        image_filename = images_filenames.pop()
         try: filepath = generate_image_template_3(
             entity, 
             common_name, 
-            f'{image_folder}/{entity}/000{img_num}.jpg', 
+            f'{image_folder}/{entity}/3x4/{image_filename}', 
             f'{section}', 
             f'database/tables/{section}.csv'
         )
@@ -2689,9 +2696,7 @@ for i, row in enumerate(articles_master_rows[1:]):
         article += f'<img src="images/{entity}-{section}.jpg" alt="{latin_name.title()} {section.title()}">'
         for paragraph in paragraph_rest:
             article += f'<p>{paragraph}</p>'
-        img_num += 1
-
-                
+  
     # medicine
     elif 'medicine' in attribute_1.lower() and attribute_2.strip() == '':
         title = f'{common_name.capitalize()} ({latin_name.capitalize()}) Medicinal Guide: Benefits, Constituents, and Preparations'
@@ -2851,16 +2856,29 @@ for i, row in enumerate(articles_master_rows[1:]):
         title = f'10 Health Benefits of {common_name.capitalize()} ({latin_name.capitalize()})'
         article += f'# {title}\n\n'
 
-        attribute_lst = ['medicine', 'benefits', 'overview']
-        image_title = f'{common_name.capitalize()}\'s Medicinal Benefits'
-        image_filepath = generate_featured_image(entity, attribute_lst, image_title)
-        article += f'![{image_title}]({image_filepath} "{image_title}")\n\n'
+        attribute_lst = ['medicine', 'benefits']
+        try:
+            image_title = f'{common_name.capitalize()}\'s Medicinal Benefits'
+            featured_image_filepath = generate_featured_image_2(
+                entity, 
+                common_name, 
+                attribute_lst, 
+                '0001.jpg'
+            )
+            article += f'![{image_title}]({featured_image_filepath} "{image_title}")\n\n'
+        except: 
+            pass
+
+        # image_filepath = generate_featured_image(entity, attribute_lst, image_title)
 
         article += get_content('medicine/benefits/_intro', f'database/articles/{entity}')
         article += f'This article explains in details the most important and well recognized health benefits of {common_name}, including what constituents are responsible for those benefits and what health condititions they can help.' + '\n\n'
 
         benefits_rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
         benefits = [f'{x[1]}' for x in benefits_rows]
+
+        images_filenames = os.listdir(f'{image_folder}/{entity}/3x4')
+        random.shuffle(images_filenames)
 
         for img_num, benefit in enumerate(benefits):
             data_title = f'## {img_num+1}. {benefit}'
@@ -2901,11 +2919,12 @@ for i, row in enumerate(articles_master_rows[1:]):
                 if _row[1] == benefit:
                     data_conditions_lst.append(_row[2].title())
 
+            image_filename = images_filenames.pop()
             try: 
                 filepath = generate_image_template_4(
                 entity, 
                 common_name, 
-                f'{image_folder}/{entity}/medicine/benefits/000{img_num}.jpg', 
+                f'{image_folder}/{entity}/3x4/{image_filename}', 
                 f'{benefit}', 
                 benefit, 
                 data_conditions_lst,)

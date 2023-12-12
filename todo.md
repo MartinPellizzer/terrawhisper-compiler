@@ -1,21 +1,13 @@
 - leonardo, 10 >
 
-- randomize images on articles, modify main.py with new paths
+- do medicinal articles, before benefits articles
 
 - fix medicine benefits images (alt)
 - make all medicine benefits articles
 
-- fix health benefits
-- complete yarrow topical map
-
-- do better titles on articles
-
 - pinterest
     - fill board description and title with keywords
-    - html to pin?
-    - update csv with date and image number after pin
     - rich pins setup
-    - single benefit to pin (complete)
 
 - about me page
 - homepage (copyright, articles at the bottom)

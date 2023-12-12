@@ -28,7 +28,7 @@ Azulene is known for its anti-inflammatory properties and can be found in yarrow
 
 The illustration below shows some common health conditions that benefits from the fact that yarrow relieves inflammation.
 
-![Yarrow Attribute_2](/ "Yarrow Attribute_2")
+![Yarrow Attribute_2](/images/achillea-millefolium-relieves-inflammation.jpg "Yarrow Attribute_2")
 
 Yarrow's ability to reduce inflammation is crucial for several health conditions. Inflammation is a natural defense system by the body that responds to injuries or infections. However, when it becomes excessive, chronic, or uncontrolled, as happens in certain diseases, it can do more harm than good. This is where yarrow plays a vital role; with its potent anti-inflammatory properties, it helps alleviate pain and swelling associated with such health conditions, ultimately reducing the risk of further complications. Consequently, individuals suffering from arthritis, gout, bursitis, inflammatory bowel diseases, sprains and strains, swollen joints, autoimmune diseases can benefit significantly from yarrow's therapeutic effects.
 
@@ -50,7 +50,7 @@ Azulene present in yarrow promotes digestion by its carminative properties, whic
 
 The illustration below shows some common health conditions that benefits from the fact that yarrow promotes digestion.
 
-![Yarrow Attribute_2](/ "Yarrow Attribute_2")
+![Yarrow Attribute_2](/images/achillea-millefolium-promotes-digestion.jpg "Yarrow Attribute_2")
 
 Yarrow's ability to improve digestion is its inherent potential for aiding in the treatment of various health conditions related to gastrointestinal and digestive systems. Gastritis is an inflammation of the stomach lining, and it could lead to symptoms such as pain and bloating. Yarrow can ease this condition by regulating stomach acid secretion and reducing inflammation in the affected area. Inflammatory bowel diseases (IBD) like Crohn's or ulcerative colitis also involve inflammation of the digestive tract. By aiding in digestion, yarrow can help reduce symptoms such as diarrhea and abdominal pain experienced by patients with IBD.
 
@@ -72,7 +72,7 @@ Achillein is known for its strong ability to reduce inflammation, thus it can he
 
 The illustration below shows some common health conditions that benefits from the fact that yarrow alleviates menstrual discomfort.
 
-![Yarrow Attribute_2](/ "Yarrow Attribute_2")
+![Yarrow Attribute_2](/images/achillea-millefolium-alleviates-menstrual-discomfort.jpg "Yarrow Attribute_2")
 
 Yarrow's ability to relieve menstrual discomfort is due to its natural properties that can address a wide range of health concerns. The primary function of yarrow for alleviating menstrual-related issues lies in its efficacy at easing pain, reducing inflammation and promoting the production of hormones necessary for maintaining balance during this sensitive period. It not only directly combats menstrual discomfort but also provides benefits for other related symptoms like hot flashes, nausea, vomiting, anxiety, stress, digestive issues, skin conditions, and even inflammation. Hence, its usefulness extends beyond just easing period-related discomfort.
 
@@ -94,7 +94,7 @@ Azulene, found in yarrow, acts as a strong antioxidant that enhances wound heali
 
 The illustration below shows some common health conditions that benefits from the fact that yarrow enhances wound healing.
 
-![Yarrow Attribute_2](/ "Yarrow Attribute_2")
+![Yarrow Attribute_2](/images/achillea-millefolium-enhances-wound-healing.jpg "Yarrow Attribute_2")
 
 Yarrow's ability to promote effective tissue regeneration and blood circulation offers significant advantages in treating various health conditions related to wound care and healing. It aids in the faster recovery of injuries, including bruises, by minimizing inflammation and reducing swelling. Additionally, yarrow helps soothe skin irritations due to its anti-inflammatory properties. Furthermore, it can alleviate symptoms associated with hemorrhoids, varicose veins, and venous insufficiency by improving blood flow and reducing discomfort and appearance. In essence, yarrow's healing effects play a pivotal role in treating various conditions characterized by damaged tissues or impaired circulation.
 
@@ -116,7 +116,7 @@ Azulene, found in Yarrow, is known for its anti-inflammatory and soothing proper
 
 The illustration below shows some common health conditions that benefits from the fact that yarrow reduces high blood pressure.
 
-![Yarrow Attribute_2](/ "Yarrow Attribute_2")
+![Yarrow Attribute_2](/images/achillea-millefolium-reduces-high-blood-pressure.jpg "Yarrow Attribute_2")
 
 Yarrow's ability to reduce high blood pressure has numerous benefits for various aspects of our overall well-being. It can help alleviate health conditions related to the circulatory and cardiovascular systems, including high blood pressure itself. This action can further enhance the heart's functionality by supporting a healthy flow of blood. Stress reduction is another positive outcome, as reduced hypertension may lower stress levels in individuals. Additionally, yarrow can contribute positively to our immune system by strengthening it and promoting better health, reducing susceptibility to illnesses. Digestion might also improve with the help of yarrow. High blood pressure could be linked to certain digestive problems due to constriction or inflammation around crucial organs. Yarrow's anti-inflammatory properties can help reduce these issues, thus improving gut health. Finally, cholesterol regulation could be positively impacted by the plant's action on blood pressure and inflammation control, potentially benefitting the cardiovascular system as a whole. Hence, yarrow's influence on high blood pressure can have far-reaching effects on diverse areas of health, offering an integrated approach to maintaining overall wellness.
 
@@ -138,7 +138,7 @@ Azulene, a natural compound found in yarrow, has anti-inflammatory properties wh
 
 The illustration below shows some common health conditions that benefits from the fact that yarrow boosts immunity.
 
-![Yarrow Attribute_2](/ "Yarrow Attribute_2")
+![Yarrow Attribute_2](/images/achillea-millefolium-boosts-immunity.jpg "Yarrow Attribute_2")
 
 Yarrow's ability to enhance immunity provides multiple benefits for various health issues. It can significantly protect one from colds and flus by boosting the body's natural defense system. As it strengthens the immune system, yarrow helps combat skin disorders such as eczema or acne and can assist with healing wounds faster. Digestive health also improves due to its soothing properties on the gastrointestinal tract. Additionally, it is said to help reduce stress levels, contributing to better general health as chronic stress has a negative impact on our immune system. Lastly, yarrow may aid in fighting chronic fatigue syndrome by promoting overall body resilience and energy levels.
 
@@ -160,7 +160,7 @@ Achilleine, a compound found in yarrow, works as an anti-inflammatory agent whic
 
 The illustration below shows some common health conditions that benefits from the fact that yarrow alleviates anxiety and stress.
 
-![Yarrow Attribute_2](/ "Yarrow Attribute_2")
+![Yarrow Attribute_2](/images/achillea-millefolium-alleviates-anxiety-and-stress.jpg "Yarrow Attribute_2")
 
 Yarrow's ability to mitigate anxiety and stress has various advantages on several aspects of our well-being. For instance, in terms of mental health, it can support better mood regulation and reduce the intensity of psychological problems, leading to improved emotional balance. Additionally, its calming effects can significantly improve our sleep quality by counteracting insomnia. Moreover, yarrow's soothing nature proves crucial when dealing with nervous disorders such as restlessness or panic attacks. With such assistance, it provides comfort during challenging times and promotes overall mental well-being.
 
@@ -182,7 +182,7 @@ Azulene, found in yarrow, supports respiratory health by acting as an anti-infla
 
 The illustration below shows some common health conditions that benefits from the fact that yarrow supports respiratory health.
 
-![Yarrow Attribute_2](/ "Yarrow Attribute_2")
+![Yarrow Attribute_2](/images/achillea-millefolium-supports-respiratory-health.jpg "Yarrow Attribute_2")
 
 Yarrow's ability to strengthen overall immune system functions makes it an excellent herb for addressing various health conditions related to respiratory issues. The herb's astringent and antimicrobial properties help in preventing bacterial and viral infections, which are common triggers for bronchitis, asthma, coughs, colds, allergies, pulmonary diseases, and emphysema. It also helps reduce inflammation and soothe irritated respiratory tissues, allowing individuals to breathe more easily. Thus, yarrow's benefits are versatile and beneficial for numerous respiratory problems affecting individuals of all ages.
 
@@ -204,7 +204,7 @@ Acetin helps soothe skin irritation and inflammation, chlorogenic acid possesses
 
 The illustration below shows some common health conditions that benefits from the fact that yarrow improves skin health.
 
-![Yarrow Attribute_2](/ "Yarrow Attribute_2")
+![Yarrow Attribute_2](/images/achillea-millefolium-improves-skin-health.jpg "Yarrow Attribute_2")
 
 Yarrow's ability to improve skin health is due to its rich content of antioxidants and anti-inflammatory compounds which aid in reducing inflammation, healing wounds more effectively, fading scars faster and curing certain conditions that include acne, eczema, psoriasis and rosacea. Moreover, its benefits can also help to reduce redness, itching, and other skin irritations commonly associated with these health issues. This makes yarrow a versatile and beneficial herb for maintaining overall skin wellbeing.
 
@@ -226,7 +226,7 @@ Azulene, a compound found in yarrow, is known for its anti-inflammatory properti
 
 The illustration below shows some common health conditions that benefits from the fact that yarrow enhances circulation.
 
-![Yarrow Attribute_2](/ "Yarrow Attribute_2")
+![Yarrow Attribute_2](/images/achillea-millefolium-enhances-circulation.jpg "Yarrow Attribute_2")
 
 Yarrow's ability to improve circulation comes from its unique properties that help in clearing obstructive particles or elements that block blood flow. This is particularly beneficial for high blood pressure because it helps regulate blood flow and reduce stress on the arteries. Similarly, people suffering from arthritis and poor circulation can benefit from enhanced blood flow to their joints, muscles, and tissues. Heart disease and atherosclerosis require proper blood supply as well, making yarrow useful for these conditions. Moreover, it can help prevent clogged arteries by maintaining the health of them over time and reduce the risk of varicose veins due to better circulation in the lower extremities.
 

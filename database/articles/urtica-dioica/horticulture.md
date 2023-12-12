@@ -1,0 +1,7 @@
+Nettle (Urtica dioica), commonly referred to simply as stinging nettle, has particular growth requirements including an open exposure within full sunlight or partial shade condition with a well-drained soil mix providing abundant moisture and nutrients necessary for its thriving process throughout the year.
+
+For planting Nettle seeds in your garden bed, ensure to select an area that is free from heavy shading where they can receive sufficient light while also being protected against strong winds which may rip these tiny fragile plants apart at early stages of growth; sow their delicate stamen deep within the rich composted earth but maintain enough room between each seed for a natural air circulation and spread as per individual specimens' needs.
+
+After successful plantation, maintaining Nettle with appropriate care will ensure its continued healthfulness and sustainability in your garden; water regularly to keep soil moist without causing any over saturation (over-watering might lead root rot), remove weeds periodically so as not to compete for precious resources such as sunlight or nutrients essentials, add fertilizers every few months during growing seasons ensuring adequate nitrogen supply is available.
+
+Harvest mature Nettle leaves carefully by using scissors when the plants reach an appropriate height (this helps prevent any damage), aim to harvest in late spring and summer before they flower; do not collect young immature sprouts, since it might cause stunted growth or even death of whole plant.
