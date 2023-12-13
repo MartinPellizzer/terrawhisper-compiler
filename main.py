@@ -3747,7 +3747,8 @@ articles_morphology_html = ''
 articles_taxonomy_html = ''
 articles_distribution_html = ''
 articles_main_html = ''
-articles_home_html = ''
+articles_home_benefits_html = ''
+articles_home_preparations_html = ''
 
 for article in articles:
     
@@ -3783,14 +3784,9 @@ for article in articles:
             \n
         '''
     elif attribute_1 == 'medicine':
-        if attribute_2 == 'benefits' or attribute_2 == 'preparations':
-            img = f'images/{entity}-{attribute_1}-{attribute_2}-overview.jpg'
-            url = f'{entity}/{attribute_1}/{attribute_2}.html'
-            if attribute_2 == 'benefits':
-                title = f'10 Health Benefits of {common_name.capitalize()} ({latin_name.capitalize()})'
-            elif attribute_2 == 'preparations':
-                title = f'10 Medicinal Preparations of {common_name.capitalize()} ({latin_name.capitalize()})'
-            articles_home_html += f'''
+        if attribute_2 == 'benefits':
+            title = f'10 Health Benefits of {common_name.capitalize()} ({latin_name.capitalize()})'
+            articles_home_benefits_html += f'''
                 <a href="{url}">
                     <div>
                         <img src="{img}" alt="">
@@ -3799,6 +3795,20 @@ for article in articles:
                 </a>
                 \n
             '''
+        elif attribute_2 == 'preparations':
+            img = f'images/{entity}-{attribute_1}-{attribute_2}-overview.jpg'
+            url = f'{entity}/{attribute_1}/{attribute_2}.html'
+            title = f'10 Medicinal Preparations of {common_name.capitalize()} ({latin_name.capitalize()})'
+            articles_home_preparations_html += f'''
+                <a href="{url}">
+                    <div>
+                        <img src="{img}" alt="">
+                        <h2 class="mt-0 mb-0">{title}</h2>
+                    </div>
+                </a>
+                \n
+            '''
+
     elif attribute_1 == '' and attribute_2 == '':
         img = f'images/{entity}-guide.jpg'
         url = f'{entity}/index.html'
@@ -3831,15 +3841,29 @@ if normalize(articles_main_html) != '':
     </section>
     '''
     
-articles_section_home_html = ''
-if normalize(articles_home_html) != '':
-    articles_section_home_html = f'''
+articles_home_section_benefits_html = ''
+if normalize(articles_home_benefits_html) != '':
+    articles_home_section_benefits_html = f'''
     <section class="my-96">
         <div class="container-lg">
-            <h2 class="text-center mb-16">Medicinal Guides on Plants</h2>
-            <p class="text-center mb-48">Learn how to use plants for improving your health: medicinal properties, active constituents, key preparations, and precautions.</p>
+            <h2 class="text-center mb-16">Guides on Medicinal Plants' Benefits</h2>
+            <p class="text-center mb-48">Learn which are the most important plants' benefits to improve your health.</p>
             <div class="articles">
-                {articles_home_html}
+                {articles_home_benefits_html}
+            </div>
+        </div>
+    </section>
+    '''
+    
+articles_home_section_preparations_html = ''
+if normalize(articles_home_preparations_html) != '':
+    articles_home_section_preparations_html = f'''
+    <section class="my-96">
+        <div class="container-lg">
+            <h2 class="text-center mb-16">Guides on Medicinal Plants' Preparations</h2>
+            <p class="text-center mb-48">Find out what are the most useful plants' preparations and how to use them as remedies.</p>
+            <div class="articles">
+                {articles_home_preparations_html}
             </div>
         </div>
     </section>
@@ -3900,7 +3924,8 @@ html = f'''
             </div>
         </section>
 
-        {articles_section_home_html}
+        {articles_home_section_benefits_html}
+        {articles_home_section_preparations_html}
         
         <footer>
             <div class="container-lg">

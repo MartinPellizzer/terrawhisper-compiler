@@ -1,0 +1,1 @@
+Astragalus is a plant known for its various health benefits.1.

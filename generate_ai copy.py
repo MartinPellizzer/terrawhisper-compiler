@@ -20,7 +20,7 @@ def write_plant_medicine_benefits():
         for i, benefit in enumerate(benefits):
 
             # check if benefit already exists
-            with open(f'database/articles/{}/medicine/benefits/data.json', encoding='utf-8') as json_file:
+            with open(f'database/articles/{entity}/medicine/benefits/data.json', encoding='utf-8') as json_file:
                 data = json.load(json_file)
 
             found = False

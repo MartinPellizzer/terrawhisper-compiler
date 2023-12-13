@@ -7,4 +7,4 @@ Celery's hydrating properties are noteworthy, as it contains about 95% water by 
 
 Studies suggest that regular consumption of celery contributes to enhanced immune function due to its rich vitamin and antioxidant content. Furthermore, the vegetable's potential as a detoxifying agent is supported by research highlighting its role in aiding the removal of toxins from the body.
 
-Celery's contribution to bone health cannot be overlooked; it contains notable amounts of calcium and vitamin K, vital for bone strength and density. Moreover, its antioxidants and vitamins, such as vitamin C, support skin health by combating oxidative stress and promoting collagen synthesis, contributing to a healthier complexion.
+Celery's contribution to bone health cannot be overlooked; it contains notable amounts of calcium and vitamin K, vital for bone strength and density. Moreover, its antioxidants and vitamins, such as vitamin C, support skin health by combating oxidative stress and promoting collagen synthesis, contributing to a healthier complexion.1.Celery has various benefits to maintain a healthy lifestyle.

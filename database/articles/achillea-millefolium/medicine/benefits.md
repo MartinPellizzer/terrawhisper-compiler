@@ -14,4 +14,6 @@ Additionally, the antioxidant-rich content of yarrow is instrumental in supporti
 
 Its positive effects on respiratory health are also quantifiable, with a 30-40% reduction in symptoms like cough frequency and congestion reported within a week of treatment. For skincare, clinical trials have documented a 25-35% reduction in acne severity and a 20-25% improvement in eczema symptoms when utilizing yarrow-based products.
 
-Lastly, yarrow's enhancement of blood circulation is supported by a 15-20% increase in blood flow velocity in various vascular regions. This effect leads to a 25-30% reduction in symptoms related to poor circulation.
+Lastly, yarrow's enhancement of blood circulation is supported by a 15-20% increase in blood flow velocity in various vascular regions. This effect leads to a 25-30% reduction in symptoms related to poor circulation.Firstly, Yarrow helps your body fight against inflammation which can otherwise contribute to illness and pain.Yarrow is a plant that has been used for various medicinal purposes throughout history due to its numerous health benefits.
+
+Yarrow is a medicinal plant that offers several health benefits thanks to the compounds it contains.

@@ -244,26 +244,40 @@ for i, row in enumerate(master_rows[1:]):
 
     # 10 health benefits of yarrow (Achillea millefolium)
     # 10 medicinal preparations of yarrow (Achillea millefolium)
-    num_benefit = int(current_image) % 10
+    # num_benefit = int(current_image) % 10
     if org.strip() == 'medicine/benefits':
         rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
-        attribute = [f'{x[1]}' for x in rows[:10]][num_benefit]
+        attributes = [f'{x[1]}' for x in rows[:10]]
+        attribute = random.choice(attributes)
         title = f'{common_name.title()} {attribute}: How to Use It'
         img_title = f'{common_name.title()} {attribute}'
-    elif org.strip() == 'medicine/preparations':
-        # continue
-        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/preparations.csv', entity)
-        attribute = [f'{x[1]}' for x in rows[:10]][num_benefit]
-        title = f'{attribute}: Uses, Benefits, and Preparation'
-        img_title = f'{attribute} Preparation and Benefits'
+
+        print(rows)
+        print(attributes)
+        print(attribute)
+        print(title)
+        print(img_title)
+
+    # elif org.strip() == 'medicine/preparations':
+    #     rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/preparations.csv', entity)
+    #     attributes = [f'{x[1]}' for x in rows[:10]]
+    #     attribute = random.choice(attributes)
+    #     title = f'{attribute}: Uses, Benefits, and Preparation'
+    #     img_title = f'{attribute} Preparation and Benefits'
 
     url = f'http://terrawhisper.com/{entity}/{org}.html'
 
     # description
 
     folderpath = f'database/articles/{entity}/{org}'
+    num_benefit = random.randint(0, 9)
     num_benefit = f'0{num_benefit}'
-    file = [f for f in os.listdir(folderpath) if f.startswith(f'{num_benefit}')][0]
+    file = []
+    print(folderpath)
+    for f in os.listdir(folderpath):
+        print(f)
+        if f.startswith(f'{num_benefit}')[0]:
+            file.append(f)
     with open(f'{folderpath}/{file}', encoding="utf-8") as f:
             description = f.read()
     

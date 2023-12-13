@@ -10,223 +10,223 @@ Preparations include teas, tinctures, and infusions using various plant parts, p
 
 This article explains in details the most important and well recognized health benefits of yarrow, including what constituents are responsible for those benefits and what health condititions they can help.
 
-## 1. Relieves Inflammation
+## 1. Reduces inflammation
 
-Yarrow's ability to relieve inflammation refers to its potential to reduce swelling and discomfort caused by various conditions.
-
-The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
-
-- Azulene
-- Chamazulene
-- Alpha-bisabolol
-- Flavonoids
-- Sesquiterpenoids
-- Diterpenoids
-- Essential Oils
-
-Azulene is known for its anti-inflammatory properties and can be found in yarrow, thus making it a natural choice for relieving inflammation. Chamazulene, another component of yarrow, also has similar soothing effects on the body. Alpha-bisabolol, a terpene present in yarrow, helps reduce swelling and pain, further contributing to its anti-inflammatory benefits. Flavonoids are antioxidants that can protect cells from damage caused by inflammation. Sesquiterpenoids and diterpenoids, both found in yarrow essential oils, possess anti-inflammatory properties as well. Therefore, the combination of these various constituents in yarrow works synergistically to relieve inflammation effectively.
-
-The illustration below shows some common health conditions that benefits from the fact that yarrow relieves inflammation.
-
-![Yarrow Attribute_2](/images/achillea-millefolium-relieves-inflammation.jpg "Yarrow Attribute_2")
-
-Yarrow's ability to reduce inflammation is crucial for several health conditions. Inflammation is a natural defense system by the body that responds to injuries or infections. However, when it becomes excessive, chronic, or uncontrolled, as happens in certain diseases, it can do more harm than good. This is where yarrow plays a vital role; with its potent anti-inflammatory properties, it helps alleviate pain and swelling associated with such health conditions, ultimately reducing the risk of further complications. Consequently, individuals suffering from arthritis, gout, bursitis, inflammatory bowel diseases, sprains and strains, swollen joints, autoimmune diseases can benefit significantly from yarrow's therapeutic effects.
-
-## 2. Promotes Digestion
-
-Yarrow's ability to promote digestion represents its role in enhancing the body's natural process of breaking down and absorbing food, ultimately aiding overall gastrointestinal health.
+Yarrow's ability to reduce inflammation indicates its capability in alleviating swelling and discomfort caused by irritation or injury.
 
 The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
 
-- Azulene
-- Acetylenic
-- Aromatic compounds
-- Flavonoids
-- Iridoid glycosides
-- Volatile oils
-- Monoterpenes
-
-Azulene present in yarrow promotes digestion by its carminative properties, which help to relieve gas and improve the function of the gastrointestinal system. Aromatic compounds also aid digestion through their stimulating effect on the production of stomach acids and enzymes, while volatile oils have antibacterial and antifungal properties that can prevent infections in the digestive tract. Flavonoids enhance cell communication within the intestines for efficient absorption, while monoterpenes act as antioxidants to protect against free radical damage and inflammation throughout the body, including the digestive system. Iridoid glycosides contribute to overall wellness by regulating metabolism, aiding in detoxification, and enhancing immunity - all of which can indirectly improve digestion.
-
-The illustration below shows some common health conditions that benefits from the fact that yarrow promotes digestion.
-
-![Yarrow Attribute_2](/images/achillea-millefolium-promotes-digestion.jpg "Yarrow Attribute_2")
-
-Yarrow's ability to improve digestion is its inherent potential for aiding in the treatment of various health conditions related to gastrointestinal and digestive systems. Gastritis is an inflammation of the stomach lining, and it could lead to symptoms such as pain and bloating. Yarrow can ease this condition by regulating stomach acid secretion and reducing inflammation in the affected area. Inflammatory bowel diseases (IBD) like Crohn's or ulcerative colitis also involve inflammation of the digestive tract. By aiding in digestion, yarrow can help reduce symptoms such as diarrhea and abdominal pain experienced by patients with IBD.
-
-## 3. Alleviates Menstrual Discomfort
-
-Yarrow's ability to alleviate menstrual discomfort refers to its potential for reducing the pain and discomfort experienced during menstruation by women.
-
-The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
-
+- Achnatin
+- Achillin
 - Achillein
-- Acetylcholine
-- Alpha-amyrin
-- Aucubin
-- Calcium
-- Cinnamic acid
-- Flavonoids
+- Hepar Sulphuris Calc
+- Lycopodium
+- Mercurius Solubilis
+- Silicea
 
-Achillein is known for its strong ability to reduce inflammation, thus it can help alleviate menstrual discomfort caused by cramps and swelling. Acetylcholine, an essential chemical compound involved in nerve signaling, can help improve mood during periods which could contribute to a more comfortable experience. Alpha-amyrin is a phytosterol that aids hormone balance, potentially reducing the severity of symptoms. Aucubin and flavonoids are both antioxidants found in yarrow, working together to protect cells from damage and relieve associated pain. Calcium plays a vital role in muscle relaxation and may provide some relief during cramping, while cinnamic acid has anti-inflammatory properties that could contribute to less discomfort.
 
-The illustration below shows some common health conditions that benefits from the fact that yarrow alleviates menstrual discomfort.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-alleviates-menstrual-discomfort.jpg "Yarrow Attribute_2")
+The illustration below shows some common health conditions that benefits from the fact that yarrow reduces inflammation.
 
-Yarrow's ability to relieve menstrual discomfort is due to its natural properties that can address a wide range of health concerns. The primary function of yarrow for alleviating menstrual-related issues lies in its efficacy at easing pain, reducing inflammation and promoting the production of hormones necessary for maintaining balance during this sensitive period. It not only directly combats menstrual discomfort but also provides benefits for other related symptoms like hot flashes, nausea, vomiting, anxiety, stress, digestive issues, skin conditions, and even inflammation. Hence, its usefulness extends beyond just easing period-related discomfort.
+![Yarrow Attribute_2](/images/achillea-millefolium-reduces-inflammation.jpg "Yarrow Attribute_2")
 
-## 4. Enhances Wound Healing
+Yarrow's ability to lessen inflammation within the body has various implications in healing health conditions that include both internal and external symptoms. Inflammation is a common underlying cause for many health concerns, like arthritis (a degenerative joint disease), gout (an inflammatory arthritis caused by excess uric acid levels) as well as muscle pain and swelling. Moreover, yarrow's anti-inflammatory properties are useful in treating skin irritations and reducing redness or itchiness from various ailments. It also offers relief to people suffering from conditions that exhibit inflammation, like inflammatory bowel disease which causes abdominal pain and diarrhea. Lastly, yarrow can help alleviate respiratory issues such as allergies and asthma by reducing swelling in the airways and easing irritations that come with them.
 
-Yarrow's ability to enhance wound healing refers to its natural properties that aid in speeding up the body's process of repairing damaged skin and reducing inflammation, promoting overall healthier tissue regeneration at the injury site.
+## 2. Improves digestion
+
+Yarrow's ability to improve digestion refers to its potential effect on helping the body break down food more efficiently and alleviate related issues such as stomachaches or indigestion.
 
 The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
 
-- Azulene
-- Azelein
-- Achilleine
+- Acremonium
+- Achillea millefolium
 - Flavonoids
-- Picroside
-- Alantolactone
-- Caffeoyl tartaric acid
-
-Azulene, found in yarrow, acts as a strong antioxidant that enhances wound healing by reducing inflammation and promoting tissue regeneration. Azelein and Achilleine, also present in yarrow, aid in increasing circulation near the injury site which promotes faster healing. The other constituents such as flavonoids, picroside, alantolactone, caffeoyl tartaric acid play a role as analgesics and help prevent infection by boosting immunity, which altogether enhance the overall wound healing process in yarrow.
-
-The illustration below shows some common health conditions that benefits from the fact that yarrow enhances wound healing.
-
-![Yarrow Attribute_2](/images/achillea-millefolium-enhances-wound-healing.jpg "Yarrow Attribute_2")
-
-Yarrow's ability to promote effective tissue regeneration and blood circulation offers significant advantages in treating various health conditions related to wound care and healing. It aids in the faster recovery of injuries, including bruises, by minimizing inflammation and reducing swelling. Additionally, yarrow helps soothe skin irritations due to its anti-inflammatory properties. Furthermore, it can alleviate symptoms associated with hemorrhoids, varicose veins, and venous insufficiency by improving blood flow and reducing discomfort and appearance. In essence, yarrow's healing effects play a pivotal role in treating various conditions characterized by damaged tissues or impaired circulation.
-
-## 5. Reduces High Blood Pressure
-
-Yarrow's ability to reduce high blood pressure refers to its potential benefit for people with hypertension by helping lower their arterial pressure and promoting better cardiovascular health.
-
-The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
-
-- Azulene
-- Achillein
-- Quercetin
-- Cichoriolin A
-- Chlorogenic acid
-- Alpha-amyrin
-- Beta-sitosterol
-
-Azulene, found in Yarrow, is known for its anti-inflammatory and soothing properties which can help alleviate pressure on the blood vessels, potentially reducing high blood pressure. Achillein, a chemical compound with possible therapeutic uses, may also contribute to blood pressure reduction. Quercetin, an antioxidant flavonoid present in Yarrow, has been associated with relaxing blood vessel walls and improving blood flow. Similarly, chlorogenic acid can improve blood circulation as part of the cardiovascular system which impacts blood pressure. Alpha-amyrin is a terpenoid that may offer some health benefits related to inflammation and blood pressure regulation. Beta-sitosterol, a plant sterol commonly found in Yarrow, has been shown to reduce LDL cholesterol and prevent blood vessels from narrowing due to plaque formation – thereby also reducing the risk of high blood pressure. Cichoriolin A is another flavonoid compound, much like quercetin, that can help relax blood vessel walls, promoting better blood flow which might in turn lower high blood pressure.
-
-The illustration below shows some common health conditions that benefits from the fact that yarrow reduces high blood pressure.
-
-![Yarrow Attribute_2](/images/achillea-millefolium-reduces-high-blood-pressure.jpg "Yarrow Attribute_2")
-
-Yarrow's ability to reduce high blood pressure has numerous benefits for various aspects of our overall well-being. It can help alleviate health conditions related to the circulatory and cardiovascular systems, including high blood pressure itself. This action can further enhance the heart's functionality by supporting a healthy flow of blood. Stress reduction is another positive outcome, as reduced hypertension may lower stress levels in individuals. Additionally, yarrow can contribute positively to our immune system by strengthening it and promoting better health, reducing susceptibility to illnesses. Digestion might also improve with the help of yarrow. High blood pressure could be linked to certain digestive problems due to constriction or inflammation around crucial organs. Yarrow's anti-inflammatory properties can help reduce these issues, thus improving gut health. Finally, cholesterol regulation could be positively impacted by the plant's action on blood pressure and inflammation control, potentially benefitting the cardiovascular system as a whole. Hence, yarrow's influence on high blood pressure can have far-reaching effects on diverse areas of health, offering an integrated approach to maintaining overall wellness.
-
-## 6. Boosts Immunity
-
-Yarrow's ability to boosts immunity refers to increasing the body's natural defense system, which helps in fighting off diseases and pathogens more effectively.
-
-The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
-
-- Azulene
-- Chlorogenic acid
-- Flavonoids
-- Isochlorogenic acids
-- Volatile oils
-- Terpenes
-- Essential oils
-
-Azulene, a natural compound found in yarrow, has anti-inflammatory properties which helps reduce inflammation and supports overall immune function. Chlorogenic acid is an antioxidant that fights free radicals to protect against illness and disease. Flavonoids are plant compounds with potent antioxidant effects, helping the body fight off infections and strengthening immunity. Isochlorogenic acids act as immune boosters by enhancing phagocytosis (the process where cells engulf harmful pathogens) and promoting a healthy inflammatory response. Volatile oils contain antimicrobial properties that can help prevent infections, while terpenes have been shown to improve overall respiratory health. Essential oils possess anti-inflammatory and antibacterial characteristics that assist in maintaining a strong immune system.
-
-The illustration below shows some common health conditions that benefits from the fact that yarrow boosts immunity.
-
-![Yarrow Attribute_2](/images/achillea-millefolium-boosts-immunity.jpg "Yarrow Attribute_2")
-
-Yarrow's ability to enhance immunity provides multiple benefits for various health issues. It can significantly protect one from colds and flus by boosting the body's natural defense system. As it strengthens the immune system, yarrow helps combat skin disorders such as eczema or acne and can assist with healing wounds faster. Digestive health also improves due to its soothing properties on the gastrointestinal tract. Additionally, it is said to help reduce stress levels, contributing to better general health as chronic stress has a negative impact on our immune system. Lastly, yarrow may aid in fighting chronic fatigue syndrome by promoting overall body resilience and energy levels.
-
-## 7. Alleviates Anxiety and Stress
-
-Yarrow's ability to alleviate anxiety and stress refers to its therapeutic benefits when it comes to relaxing the mind and improving mood during times of emotional discomfort or mental strain.
-
-The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
-
-- Achilleine
-- Angustifolioides
-- Chlorogenic Acid
-- Flavonoids
-- Glycosides
-- Inularessus
-- Methyl Salicylate
-
-Achilleine, a compound found in yarrow, works as an anti-inflammatory agent which reduces physical symptoms linked to stress and anxiety. Angustifolioides, another component of yarrow, is known for its calming effects on the central nervous system that aid in reducing stress levels. Chlorogenic acid possesses antioxidant properties, helping protect against cellular damage caused by stressors while promoting a relaxed state. Flavonoids can increase dopamine production leading to increased calm and happiness. Glycosides, found in yarrow plants, have been associated with alleviating tension due to their relaxing effects on muscles. Inularessus, an essential oil present in yarrow, contains methyl salicylate known for its pain-relieving properties, reducing physical discomfort related to stress and anxiety.
-
-The illustration below shows some common health conditions that benefits from the fact that yarrow alleviates anxiety and stress.
-
-![Yarrow Attribute_2](/images/achillea-millefolium-alleviates-anxiety-and-stress.jpg "Yarrow Attribute_2")
-
-Yarrow's ability to mitigate anxiety and stress has various advantages on several aspects of our well-being. For instance, in terms of mental health, it can support better mood regulation and reduce the intensity of psychological problems, leading to improved emotional balance. Additionally, its calming effects can significantly improve our sleep quality by counteracting insomnia. Moreover, yarrow's soothing nature proves crucial when dealing with nervous disorders such as restlessness or panic attacks. With such assistance, it provides comfort during challenging times and promotes overall mental well-being.
-
-## 8. Supports Respiratory Health
-
-Yarrow's ability to support respiratory health refers to its potential benefits in maintaining healthy lungs and alleviating breathing issues.
-
-The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
-
-- Azulene
-- Beta-carotene
-- Emodin
-- Flavonoids
-- Glycosides
+- Phenolic compounds
 - Tannins
+- Sesquiterpenes
 - Volatile oils
 
-Azulene, found in yarrow, supports respiratory health by acting as an anti-inflammatory agent to reduce swelling and irritation within the airways. Beta-carotene, a precursor of vitamin A, helps maintain healthy mucous membranes essential for proper functioning of the respiratory system. Emodin aids in relieving coughs and congestion, while flavonoids have antioxidant properties to help neutralize free radicals that damage tissue throughout the body, including the lungs. Glycosides are known for their expectorant action, assisting in loosening mucus that can obstruct breathing. Tannins possess astringent characteristics promoting drying effects on sore and irritated mucous membranes. Volatile oils in yarrow act as decongestants through a pleasant aroma, which helps clear the nasal passages to promote easier breathing.
 
-The illustration below shows some common health conditions that benefits from the fact that yarrow supports respiratory health.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-supports-respiratory-health.jpg "Yarrow Attribute_2")
+The illustration below shows some common health conditions that benefits from the fact that yarrow improves digestion.
 
-Yarrow's ability to strengthen overall immune system functions makes it an excellent herb for addressing various health conditions related to respiratory issues. The herb's astringent and antimicrobial properties help in preventing bacterial and viral infections, which are common triggers for bronchitis, asthma, coughs, colds, allergies, pulmonary diseases, and emphysema. It also helps reduce inflammation and soothe irritated respiratory tissues, allowing individuals to breathe more easily. Thus, yarrow's benefits are versatile and beneficial for numerous respiratory problems affecting individuals of all ages.
+![Yarrow Attribute_2](/images/achillea-millefolium-improves-digestion.jpg "Yarrow Attribute_2")
 
-## 9. Improves Skin Health
+Yarrow's ability to help in the process of digestion is a crucial remedy as it enhances the body's capacity to break down food properly, assimilate nutrients, and expel waste effectively. This leads to fewer troubles caused by undigested foods or gas buildup. The benefits it provides have implications for digestion issues, irritable bowel syndrome (IBS), stomach discomfort, indigestion, nausea, poor appetite, bloating, and gas. By addressing these concerns, yarrow promotes overall gut health, making it a valuable herb to be considered in various situations where the gastrointestinal tract might not be functioning at its best.
 
-Yarrow's ability to improve skin health implies its potential in alleviating various skin issues and promoting overall skin wellness.
+## 3. Reduces fever
+
+Yarrow's ability to reduce fever signifies its potential use in treating or alleviating symptoms of high body temperature, such as heat-related discomfort and chills.
 
 The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
 
-- Acetin
+- Achilleine
+- Flavonoids
+- Azulene
+- Alpha-terpene
+- Chamazulene
+- Tannins
+- Acetylenes
+
+
+
+The illustration below shows some common health conditions that benefits from the fact that yarrow reduces fever.
+
+![Yarrow Attribute_2](/images/achillea-millefolium-reduces-fever.jpg "Yarrow Attribute_2")
+
+Yarrow's ability to reduce fever is significant because it directly addresses the root cause of many health problems. When our body temperature rises above normal levels due to illness or infection, fever helps kill pathogens by raising our immune system's response. However, too high a fever can be dangerous. Yarrow's cooling properties aid in lowering this temperature safely and effectively. Aside from reducing fever, it also soothes inflammation often seen in the context of various conditions such as pain, skin rashes, or respiratory distress. Furthermore, its anti-inflammatory nature helps heal wounds faster by promoting tissue regeneration. Lastly, yarrow's multiple beneficial properties make it an ideal herbal remedy for cold and flu symptoms, digestive problems, and even some respiratory infections.
+
+## 4. Promotes wound healing
+
+Yarrow's ability to promote wound healing refers to its capacity to expedite the recovery process for cuts, scrapes, and other skin injuries.
+
+The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
+
+- Flavonoids
+- Essential oils
+- Terpenes
+- Polysaccharides
+- Diterpene lactones
+- Volatile oils
+- Acylated flavonoid glycoside
+
+
+
+The illustration below shows some common health conditions that benefits from the fact that yarrow promotes wound healing.
+
+![Yarrow Attribute_2](/images/achillea-millefolium-promotes-wound-healing.jpg "Yarrow Attribute_2")
+
+Yarrow's ability to promote better blood flow and tissue repair assists in healing different bodily ailments. This herb helps wounds heal faster by stimulating the production of collagen, a key protein for restoring tissue health. Its anti-inflammatory properties aid in reducing swelling and discomfort from injuries, as well as easing skin irritations. By improving digestion and blood circulation, yarrow addresses digestive issues and supports the nervous system. Furthermore, yarrow has shown promise in enhancing respiratory health and mental well-being by reducing stress and clearing sinus congestion.
+
+## 5. Reduces pain
+
+Yarrow's ability to reduce pain indicates that it possesses natural properties which can help alleviate discomfort or soreness in various parts of the body.
+
+The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
+
+- Flavonoids
+- Volatile Oils
+- Acylated Flavones
+- Catechins
+- Diterpenes
+- Tannins
+- Sesquiterpenes
+
+
+
+The illustration below shows some common health conditions that benefits from the fact that yarrow reduces pain.
+
+![Yarrow Attribute_2](/images/achillea-millefolium-reduces-pain.jpg "Yarrow Attribute_2")
+
+Yarrow's ability to reduce pain is useful in various health conditions. For example, migraines and headaches are characterized by severe headaches caused due to stress or other triggers. Pain relief offered by yarrow eases their intensity, allowing the individual better mobility. Arthritis causes inflammation and pain in joints, which can make daily tasks difficult. Yarrow can help alleviate this discomfort and reduce swelling. Periodic menstrual cramps and muscle spasms are also often characterized by uncomfortable tightness or pain. Yarrow's pain-relieving properties address the same as effectively. Lastly, fibromyalgia, a disorder impacting the nervous system and leading to widespread muscular pain, may see relief from yarrow's pain-reducing effects. Gout, characterized by joint inflammation and intense pain, is also eased with its aid.
+
+## 6. Boosts immune system
+
+Yarrow's ability to boosts immune system refers to its potential to enhance your body's natural defenses, keeping you healthy.
+
+The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
+
+- Chamazulene
+- Alpha-acetoxyphellandrene
+- Cryptopatufol
+- Milotin
+- Germanacrenes A and B
+- Azulenes
+- Achillin
+
+
+
+The illustration below shows some common health conditions that benefits from the fact that yarrow boosts immune system.
+
+![Yarrow Attribute_2](/images/achillea-millefolium-boosts-immune-system.jpg "Yarrow Attribute_2")
+
+Yarrow's ability to strengthen the body's natural defenses makes it a valuable herb for treating various health issues. In particular, its role in supporting respiratory function helps combat respiratory illnesses, while its anti-inflammatory properties aid in easing skin problems and alleviating allergies and asthma symptoms. Additionally, yarrow's soothing effects on the digestive system can help with related issues, as well as immune system disorders like the common cold or flu. Lastly, its positive influence on mood helps reduce stress-induced inflammation while lowering anxiety levels for overall health improvement.
+
+## 7. Relieves menstrual cramps
+
+Yarrow's ability to relieve menstrual cramps refers to its use as a herbal remedy easing discomfort during monthly cycles.
+
+The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
+
+- Achilleine
+- Chlorogenic acid
+- Luteolin
+- Apigenin
+- Patuletin
+- Hexadecanoic acid
+- Oleanolic acid
+
+
+
+The illustration below shows some common health conditions that benefits from the fact that yarrow relieves menstrual cramps.
+
+![Yarrow Attribute_2](/images/achillea-millefolium-relieves-menstrual-cramps.jpg "Yarrow Attribute_2")
+
+Yarrow's ability to relieve menstrual cramps is a reflection of its broader range of therapeutic properties that extend beyond alleviating pain associated with periods. It can help manage fever by lowering body temperature and stimulating perspiration, which in turn helps release excess heat from the body. Digestion benefits from yarrow's soothing effect on the gastrointestinal tract, calming any discomfort or irritation. By combating inflammation, it eases various symptoms associated with inflammatory conditions and even supports wound healing due to its astringent properties that help contract tissues, slow blood flow, and prevent infection. Additionally, yarrow has stress-relieving effects which contribute to overall well-being and potentially headache relief by reducing tension within the body.
+
+## 8. Eases anxiety
+
+Yarrow's ability to ease anxiety refers to its potential to reduce stress and promote calmness for some individuals.
+
+The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
+
+- Achilleine
+- Chamazulene
+- E-beta-caryophyllene
+- Alpha-humulene
+- Caffeylquinic acid
+- Acorcarveol
+- Milottidin
+
+
+
+The illustration below shows some common health conditions that benefits from the fact that yarrow eases anxiety.
+
+![Yarrow Attribute_2](/ "Yarrow Attribute_2")
+
+Yarrow's ability to relieve anxiety stems from its active compounds like flavonoids and volatile oils which have a calming effect on the nervous system, lowering stress levels and promoting mental well-being. In addition, they may help reduce inflammation and balance bodily functions, contributing to overall health improvement. These benefits are useful in treating various conditions such as panic disorders, stress-induced digestive issues, hypertension, migraines, and even support cancer therapies due to its antioxidant properties. Incorporating yarrow into one's lifestyle can therefore bring both psychological and physical advantages.
+
+## 9. Lowers blood pressure
+
+Yarrow's ability to lower blood pressure refers to its properties and benefits in regulating cardiovascular system function.
+
+The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
+
+- Achillein
 - Chlorogenic acid
 - Apigenin
 - Luteolin
 - Quercetin
-- Azulene
-- Alpha-bisabolol
+- Rutin
+- Zeatin
 
-Acetin helps soothe skin irritation and inflammation, chlorogenic acid possesses antioxidant properties, apigenin and luteolin are known to have anti-inflammatory effects, quercetin reduces oxidative stress, azulene has antibacterial benefits, while alpha-bisabolol promotes wound healing. All these constituents contribute in making yarrow an effective remedy for improving skin health and providing various therapeutic benefits.
 
-The illustration below shows some common health conditions that benefits from the fact that yarrow improves skin health.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-improves-skin-health.jpg "Yarrow Attribute_2")
+The illustration below shows some common health conditions that benefits from the fact that yarrow lowers blood pressure.
 
-Yarrow's ability to improve skin health is due to its rich content of antioxidants and anti-inflammatory compounds which aid in reducing inflammation, healing wounds more effectively, fading scars faster and curing certain conditions that include acne, eczema, psoriasis and rosacea. Moreover, its benefits can also help to reduce redness, itching, and other skin irritations commonly associated with these health issues. This makes yarrow a versatile and beneficial herb for maintaining overall skin wellbeing.
+![Yarrow Attribute_2](/images/achillea-millefolium-lowers-blood-pressure.jpg "Yarrow Attribute_2")
 
-## 10. Enhances Circulation
+Yarrow's ability to regulate blood pressure has significant effects on various health issues related to the circulatory system and overall wellbeing. In the case of high blood pressure or hypertension, lowering its levels helps reduce strain on blood vessels, leading to reduced risk of heart disease, strokes, and other cardiovascular complications such as arrhythmias. Yarrow's impact on blood pressure can also benefit people with diabetes by potentially helping control blood sugar levels and preventing further damage to the delicate circulatory system in long-term diabetes patients. By maintaining healthy arteries, yarrow promotes good heart health, contributing to a stronger immune system and better general body function. In this context, keeping blood pressure at optimal levels is vital for one's overall health.
 
-Yarrow's ability to enhance circulation refers to its potential to improve blood flow and circulation in various parts of the body, contributing to better overall health.
+## 10. Increases longevity
+
+Yarrow's ability to increase longevity refers to its potential to enhance health and promote overall well-being, resulting in an extended life expectancy for those who use it.
 
 The following list includes the main medicinal constituents that give Achillea millefolium this benefit.
 
+- Achilleine
+- Acetin
+- Akebulon
 - Azulene
-- Achillein
-- Chamazulene
-- Flavonoids
-- Sesquiterpenes
-- Dihydroactinidines
-- Catechins
+- Flavone
+- Quercetin
+- Umbelliferone
 
-Azulene, a compound found in yarrow, is known for its anti-inflammatory properties and can help enhance circulation by promoting blood flow through relaxation of the blood vessels and reduction of swelling. Achillein has similar effects on blood vessels, aiding in better circulation. Chamazulene's analgesic qualities can relieve discomfort or pain associated with poor circulation. Flavonoids are antioxidants that protect against free radicals damaging the circulatory system and improve overall health. Sesquiterpenes have shown potential to enhance blood vessel formation and dilation, thus improving blood flow. Dihydroactinidines help prevent platelet aggregation, which can reduce the risk of blood clots and promote better circulation. Catechins support improved vascular function and contribute to healthy blood vessels, further contributing to enhanced circulation.
 
-The illustration below shows some common health conditions that benefits from the fact that yarrow enhances circulation.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-enhances-circulation.jpg "Yarrow Attribute_2")
+The illustration below shows some common health conditions that benefits from the fact that yarrow increases longevity.
 
-Yarrow's ability to improve circulation comes from its unique properties that help in clearing obstructive particles or elements that block blood flow. This is particularly beneficial for high blood pressure because it helps regulate blood flow and reduce stress on the arteries. Similarly, people suffering from arthritis and poor circulation can benefit from enhanced blood flow to their joints, muscles, and tissues. Heart disease and atherosclerosis require proper blood supply as well, making yarrow useful for these conditions. Moreover, it can help prevent clogged arteries by maintaining the health of them over time and reduce the risk of varicose veins due to better circulation in the lower extremities.
+![Yarrow Attribute_2](/images/achillea-millefolium-increases-longevity.jpg "Yarrow Attribute_2")
+
+Yarrow's ability to increase longevity encompasses a wide range of benefits, addressing various aspects of one's well-being and functioning. It helps in maintaining heart health by regulating blood pressure and reducing inflammation, thus lowering the risk of heart diseases. Moreover, its strengthened immune system helps combat infections more efficiently and prevents illnesses. Yarrow's wound healing properties aid in faster recovery from injuries and surgeries, while also reducing scars and marks. Similarly, it improves skin health by promoting better hydration and nourishment, keeping the skin soft, smooth, and radiant. Additionally, its positive effects on digestive health promote better nutrient absorption, alleviate digestive issues, and ensure optimal gastrointestinal function. Lastly, yarrow supports bone and joint health by minimizing inflammation, easing pain, and improving mobility in those with arthritis or other joint-related conditions, as well as strengthening bones to prevent fractures and osteoporosis. In summary, increasing longevity through yarrow's versatility addresses multiple aspects of health holistically for a more fulfilling life.
 

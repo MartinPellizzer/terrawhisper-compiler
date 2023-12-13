@@ -8,4 +8,4 @@ In the context of chronic venous insufficiency (CVI), horse chestnut demonstrate
 
 The herb's topical applications have quantifiable results as well, with creams and gels showcasing effectiveness in reducing itching associated with skin conditions such as eczema. This is substantiated by clinical data indicating a statistically significant decrease in subjective measures of discomfort by approximately 40%.
 
-In the realm of joint health, horse chestnut's anti-inflammatory properties contribute to its efficacy in managing conditions like arthritis. Objective assessments reveal a measurable reduction in joint pain by up to 30% and improved overall joint comfort.
+In the realm of joint health, horse chestnut's anti-inflammatory properties contribute to its efficacy in managing conditions like arthritis. Objective assessments reveal a measurable reduction in joint pain by up to 30% and improved overall joint comfort.Firstly, horse chestnut offers numerous health benefits that can improve our overall wellbeing.Firstly, horse chestnut offers health benefits such as reducing blood pressure, which is crucial for maintaining good cardiovascular health.

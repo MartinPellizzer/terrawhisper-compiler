@@ -6,13 +6,13 @@ import sys
 import utils
 import json
 
-sys_arg_override = False
+sys_override = False
 try: 
-    if sys.argv[1] == 'override': sys_arg_override = True
+    if sys.argv[1] == 'override': sys_override = True
 except: pass
 
 
-SYSTEM_PROMPT = 'You are an expert botanist who explain things using simple, short, straightforward sentences and use correct grammar and puntuation.'
+SYSTEM_PROMPT = 'You are an expert botanist who explains things using short and straightforward sentences, who never uses lists, and who separates paragraphs with a new line ever 2-3 sentences.'
 SYSTEM_PROMPT_LIST = 'You are an expert botanist who only write numbered lists and nothing else.'
 
 def csv_get_rows(filepath):
@@ -33,7 +33,7 @@ def get_latin_name(entity):
 
 
 
-num_articles = 20
+num_articles = 30
 
 
 
@@ -43,6 +43,92 @@ llm = AutoModelForCausalLM.from_pretrained(
     context_length=1024, 
     max_new_tokens=1024,
     )
+
+
+def create_folder(folderpath):
+    chunks = folderpath.split('/')
+    current_path = ''
+    for chunk in chunks:
+        current_path += f'{chunk}/'    
+        try: os.makedirs(current_path)
+        except: pass
+
+
+def exists_content(filepath):
+    with open(filepath, 'a', newline='', encoding='utf-8') as csvfile: pass
+    with open(filepath, 'r', encoding='utf-8') as f: content = f.read()
+    
+    if content.strip() == '': found = False
+    else: found = True
+
+    return found
+
+
+def write_plant_medicine():
+    rows = csv_get_rows(f'plants.csv') 
+    for i, row in enumerate(rows[1:num_articles+1]):
+        entity = row[0].strip()
+        common_name = row[1].strip()
+        latin_name = get_latin_name(entity)
+
+        create_folder(f'database/articles/{entity}/medicine')
+
+        # TODO: find a way to change path to >> f'database/tables/medicine/benefits.csv',
+        
+        # benefits
+        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine.csv', entity)
+        benefits_lst = [f'{x[1]}' for x in rows[:10]]
+        benefits = ', '.join(benefits_lst)
+
+        # override content
+        filepath = f'database/articles/{entity}/medicine/benefits.md'
+        if sys_override: found = False
+        else: found = exists_content(filepath)
+
+        if not found:
+            prompt = f'''
+                {SYSTEM_PROMPT}
+                Explain in 300 words these health benefits of {common_name}: {benefits}. 
+            '''
+
+            print()
+            print(f"Q: {i+1}/{num_articles}")
+            print()
+            print(prompt)
+            print()
+            print("A:")
+            print()
+            reply = ''
+            for text in llm(prompt, stream=True):
+                reply += text
+                print(text, end="", flush=True)
+            print()
+            print()
+
+            paragraphs = reply.split('\n')
+            paragraphs_lst = []
+            for paragraph in paragraphs:
+                paragraph.strip()
+                if paragraph == '': continue
+                if paragraph.endswith(':'): continue
+                if paragraph[0].isdigit(): paragraph = ' '.join(paragraph.split(' ')[1:])
+                if ':' in paragraph: paragraph = paragraph.split(':')[1]
+                paragraphs_lst.append(paragraph)
+
+            content = '\n\n'.join(paragraphs_lst)
+            
+            if sys_override:
+                with open(filepath, 'w', encoding='utf-8') as f: 
+                    f.write(content)
+            else: 
+                with open(filepath, 'a', encoding='utf-8') as f: 
+                    f.write(content)
+        
+
+
+# write_plant_medicine()
+
+
 
 def write_plant_medicine_benefits():
     rows = csv_get_rows(f'plants.csv') 
@@ -57,16 +143,25 @@ def write_plant_medicine_benefits():
         except: pass
         try: os.makedirs(f'database/articles/{entity}')
         except: pass
+        try: os.makedirs(f'database/articles/{entity}/medicine')
+        except: pass
+        try: os.makedirs(f'database/articles/{entity}/medicine/benefits')
+        except: pass
 
-        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
+
+        # TODO: find a way to change path to >> f'database/tables/medicine/benefits.csv',
+        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine.csv', entity)
         benefits = [f'{x[1]}' for x in rows[:10]]
         images_text = ''
 
+        print(benefits)
 
 
 
 
         for i, benefit in enumerate(benefits):
+
+            # definitions
             with open(f'database/articles/{entity}/medicine/benefits/definitions.csv', 'a', newline='', encoding='utf-8') as csvfile:
                 pass
 
@@ -75,6 +170,7 @@ def write_plant_medicine_benefits():
                 reader = csv.reader(f, delimiter="|")
                 for line in reader:
                     if line[1].lower().strip() == benefit.lower().strip():
+                        print(line)
                         found = True
                         break
 
@@ -110,7 +206,7 @@ def write_plant_medicine_benefits():
 
 
 
-
+            # constituents_list
             with open(f'database/articles/{entity}/medicine/benefits/constituents_list.csv', 'a', newline='', encoding='utf-8') as csvfile:
                 pass
 
@@ -118,6 +214,7 @@ def write_plant_medicine_benefits():
             with open(f'database/articles/{entity}/medicine/benefits/constituents_list.csv', 'r', encoding='utf-8') as f:
                 reader = csv.reader(f, delimiter="|")
                 for line in reader:
+                    print(line)
                     if line[1].lower().strip() == benefit.lower().strip():
                         found = True
                         break
@@ -162,6 +259,7 @@ def write_plant_medicine_benefits():
 
 
 
+        # constituents_text
         for i, benefit in enumerate(benefits):
             with open(f'database/articles/{entity}/medicine/benefits/constituents_text.csv', 'a', newline='', encoding='utf-8') as csvfile:
                 pass
@@ -184,14 +282,7 @@ def write_plant_medicine_benefits():
                             constituents_lst.append(line[2].lower().strip())
 
                 constituents = '- ' + '\n- '.join(constituents_lst)
-                # print(constituents)
-                # continue
 
-                # prompt = f'''
-                #     Write 100 words about what constituents in {common_name} {benefit} and explain why.
-                #     Include these constituents: {constituents}.
-                #     Write only 1 short sentence per constituent.
-                # '''
                 prompt = f'''
                     For each constituent in the following list:
                     {constituents}
@@ -236,6 +327,7 @@ def write_plant_medicine_benefits():
 
 
 
+            # conditions_list
             with open(f'database/articles/{entity}/medicine/benefits/conditions_list.csv', 'a', newline='', encoding='utf-8') as csvfile:
                 pass
 
@@ -287,7 +379,7 @@ def write_plant_medicine_benefits():
 
 
                         
-
+        # conditions_text
         for i, benefit in enumerate(benefits):
             with open(f'database/articles/{entity}/medicine/benefits/conditions_text.csv', 'a', newline='', encoding='utf-8') as csvfile:
                 pass

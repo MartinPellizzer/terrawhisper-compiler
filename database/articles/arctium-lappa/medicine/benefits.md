@@ -7,4 +7,4 @@ Furthermore, burdock plays a significant role in strengthening the immune system
 
 Additionally, this herb acts as a potent antioxidant, scavenging free radicals and reducing oxidative stress. Antioxidants in burdock have demonstrated the ability to neutralize harmful molecules, potentially reducing cell damage and lowering the risk of chronic diseases.
 
-Burdock's diverse properties extend to promoting healthy hair and alleviating joint pain. Its hormonal balancing effects have been linked to menstrual regulation and easing symptoms of hormonal imbalance. Studies also suggest its potential in aiding weight management by promoting a feeling of fullness and supporting metabolic function.
+Burdock's diverse properties extend to promoting healthy hair and alleviating joint pain. Its hormonal balancing effects have been linked to menstrual regulation and easing symptoms of hormonal imbalance. Studies also suggest its potential in aiding weight management by promoting a feeling of fullness and supporting metabolic function.One important part of burdock is its ability to enhance digestion.1.

@@ -1,0 +1,1 @@
+Bupleurum is a plant that offers numerous health benefits due to its various properties.1.

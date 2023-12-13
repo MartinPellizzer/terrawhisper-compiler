@@ -1,0 +1,9 @@
+Prickly ash (Zanthoxylum americanum) belongs to the domain Eukaryota and kingdom Plantae with phyla Magnoliophyta, class Spermatopsida, order Santalales family Zanthoxyloideaceae genus Zanthoxylum species Americanum. Common names include Northern Prickly Ash or Western North America Prickleash.
+
+ Subsp. Angustifolia mainly grows along stream banks, has leaves that measure 1 to 3 inches long with an elongated base forming a sharp point at its tip while leaflets have smooth margins without any teeth; on the other hand, Zanthoxylum americanoamericanoi tends more towards dryer areas and is shorter due as it can grow up to only two feet tall.
+
+ dark-green leaves with 5–7 pairs of leaflets each forming a rounded or slightly pointed tip; flowers appear in small clusters at the branch ends having both male (stamens) and female reproductive parts on separate individual trees known as monoecious plants. The tree is easily recognizable by its light, gray bark that becomes darker with age showing numerous shallow fissures while fruits are reddish-brown drupes containing one to three seeds per fruitcase encapsulating in a woody cone.
+
+Prickly ash can be found naturally across North America from Canada down through the eastern United States into northern Mexico, occupying varied habitats such as dry rocky hillsides or mountainsides covered by chaparral shrubs; moist bottomlands near streams with its soil needs to have good drainage and it also requires full sun exposure for proper growth.
+
+ starting from seed germination, juvenile development stage before the flowering age then reproductive maturity leading towards fruiting stages when flowers become fertilized by pollinators ultimately turning into mature fruits containing seeds ready to disperse via animals or wind currents.

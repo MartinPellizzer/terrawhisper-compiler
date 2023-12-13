@@ -1,0 +1,1 @@
+Black Cohosh is a plant that has been used for its health benefits for many years.Black Cohosh is a medicinal herb that has numerous benefits for overall health.

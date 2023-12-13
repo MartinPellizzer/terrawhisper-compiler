@@ -14,4 +14,4 @@ The herb's immunomodulatory prowess is evidenced by a 25% increase in immune cel
 
 Oral health benefits are validated by research showcasing a 40% reduction in oral microbial growth in individuals using sweet flag-based mouthwash, emphasizing its tangible impact on improving oral hygiene.
 
-For menstrual comfort, sweet flag's spasmolytic effects translate to a 20% decrease in reported menstrual pain intensity, offering measurable relief for individuals grappling with menstrual cramps.
+For menstrual comfort, sweet flag's spasmolytic effects translate to a 20% decrease in reported menstrual pain intensity, offering measurable relief for individuals grappling with menstrual cramps.Sweet flag, also known as Acorus calamus, is a plant with many health benefits.Sweet flag, scientifically known as Acorus calamus, is a plant that offers numerous health benefits for those who consume it.

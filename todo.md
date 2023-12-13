@@ -1,4 +1,4 @@
-- leonardo, 10 >
+- fix description generation in pinteres (generate .md in main.py on benefits articles)
 
 - do medicinal articles, before benefits articles
 

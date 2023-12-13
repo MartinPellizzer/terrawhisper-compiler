@@ -6,4 +6,4 @@ Internally consumed, aloe vera exhibits digestive health benefits. Research indi
 
 In the realm of immunity, aloe vera's constituents contribute to bolstering the body's defenses. The plant contains compounds like acemannan, recognized for their immunomodulatory effects. These bioactive molecules stimulate the immune system, enhancing the body's ability to resist infections, as evidenced by studies showing an increase of up to 25% in immune cell activity.
 
-Aloe vera's antimicrobial properties extend to oral health, where it combats dental plaque and gingivitis. Clinical trials substantiate its efficacy, showcasing reduced plaque levels of up to 40% and improved gingival health with aloe vera use. In conclusion,
+Aloe vera's antimicrobial properties extend to oral health, where it combats dental plaque and gingivitis. Clinical trials substantiate its efficacy, showcasing reduced plaque levels of up to 40% and improved gingival health with aloe vera use. In conclusion,1.Aloe vera has various benefits for our health.

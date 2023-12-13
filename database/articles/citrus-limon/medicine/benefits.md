@@ -1,0 +1,1 @@
+Boosts Immunity: The lemon is rich in Vitamin C, which helps strengthen the immune system to fight off pathogens and diseases.1.

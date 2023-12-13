@@ -1,0 +1,1 @@
+Cinchona is a plant that provides multiple health benefits for humans.Cinchona is a plant that has been used for centuries to treat various health conditions due to its numerous benefits.

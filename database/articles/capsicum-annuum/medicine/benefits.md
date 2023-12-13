@@ -1,0 +1,1 @@
+Cayenne peppers are known to be rich in vitamins and minerals.Cayenne is a spicy chili pepper that offers various benefits to one's health.
