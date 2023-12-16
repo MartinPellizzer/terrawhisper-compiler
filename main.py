@@ -3785,6 +3785,8 @@ for article in articles:
         '''
     elif attribute_1 == 'medicine':
         if attribute_2 == 'benefits':
+            img = f'images/{entity}-{attribute_1}-{attribute_2}-overview.jpg'
+            url = f'{entity}/{attribute_1}/{attribute_2}.html'
             title = f'10 Health Benefits of {common_name.capitalize()} ({latin_name.capitalize()})'
             articles_home_benefits_html += f'''
                 <a href="{url}">

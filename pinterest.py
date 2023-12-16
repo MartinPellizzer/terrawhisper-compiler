@@ -245,18 +245,21 @@ for i, row in enumerate(master_rows[1:]):
     # 10 health benefits of yarrow (Achillea millefolium)
     # 10 medicinal preparations of yarrow (Achillea millefolium)
     # num_benefit = int(current_image) % 10
-    if org.strip() == 'medicine/benefits':
-        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
-        attributes = [f'{x[1]}' for x in rows[:10]]
-        attribute = random.choice(attributes)
-        title = f'{common_name.title()} {attribute}: How to Use It'
-        img_title = f'{common_name.title()} {attribute}'
 
-        print(rows)
-        print(attributes)
-        print(attribute)
-        print(title)
-        print(img_title)
+    random_row = ''
+    if org.strip() == 'medicine/benefits':
+        rows = utils.csv_get_rows_by_entity(f'database/articles/{entity}/medicine/benefits/conditions_text.csv', entity)
+        random_row = random.choice(rows)
+        benefit = random_row[1].title()
+
+        title = f'{common_name.title()} {benefit}: How to Use It'
+        img_title = f'{common_name.title()} {benefit}'
+
+        # print(rows)
+        # print(title)
+        # print(img_title)
+    else:
+        continue
 
     # elif org.strip() == 'medicine/preparations':
     #     rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/preparations.csv', entity)
@@ -267,19 +270,21 @@ for i, row in enumerate(master_rows[1:]):
 
     url = f'http://terrawhisper.com/{entity}/{org}.html'
 
+    description = random_row[2]
+
     # description
 
-    folderpath = f'database/articles/{entity}/{org}'
-    num_benefit = random.randint(0, 9)
-    num_benefit = f'0{num_benefit}'
-    file = []
-    print(folderpath)
-    for f in os.listdir(folderpath):
-        print(f)
-        if f.startswith(f'{num_benefit}')[0]:
-            file.append(f)
-    with open(f'{folderpath}/{file}', encoding="utf-8") as f:
-            description = f.read()
+    # folderpath = f'database/articles/{entity}/{org}'
+    # num_benefit = random.randint(0, 9)
+    # num_benefit = f'0{num_benefit}'
+    # file = []
+    # print(folderpath)
+    # for f in os.listdir(folderpath):
+    #     print(f)
+    #     if f.startswith(f'{num_benefit}')[0]:
+    #         file.append(f)
+    # with open(f'{folderpath}/{file}', encoding="utf-8") as f:
+    #         description = f.read()
     
     description = description.replace('\n', ' ')
     description = re.sub("\s\s+" , " ", description)
@@ -294,6 +299,7 @@ for i, row in enumerate(master_rows[1:]):
             description += word + ' '
         else:
             break
+    description = description.replace('..', '.')
     description = description.strip() + '... '
     description += 'Click the pin link to learn more.'
 
@@ -303,6 +309,7 @@ for i, row in enumerate(master_rows[1:]):
     # pin_generate_2(entity, common_name_title, img_filename, image_name, subtitle)
 
     # pin_generate_3(entity, common_name, filepath, text, filename)
+    attribute = random_row[1]
     pin_generate_3(
         entity,
         common_name,

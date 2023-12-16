@@ -1,7 +1,39 @@
-Visnaga (Ammi visnaga) presents a myriad of medicinal benefits supported by empirical evidence. Renowned for its bronchodilator properties, it aids in asthma management by dilating bronchial airways, facilitating easier breathing. Studies have shown its efficacy in reducing bronchospasms, with recommended doses ranging from 30 to 90 milligrams of khellin (derived from Visnaga) per day. Additionally, Visnaga exhibits anti-hypertensive effects, effectively lowering high blood pressure levels. Research indicates that consuming Visnaga extract or khellin in doses between 20 to 120 milligrams daily contributes to this blood pressure reduction.
+visnaga has many health benefits, such as 1. Reducing inflammation in your body can help prevent certain illnesses and improve overall well-being.
 
-The plant's prowess extends to urinary tract health, notably in mitigating urinary issues like kidney stones and infections. Visnaga's diuretic properties assist in increasing urine production, thereby aiding in detoxification and reducing water retention. Studies suggest using doses ranging from 60 to 120 milligrams of khellin extract per day for these purposes.
+            Add new line for clarity - inflammation is linked to numerous ailments, so controlling it is essential.
 
-Visnaga's anti-spasmodic qualities offer relief from muscle and organ spasms, contributing to improved digestive health. This includes alleviating gastrointestinal discomforts such as indigestion and bloating. Moreover, its anti-inflammatory properties help reduce inflammation in the body. Research has shown potential benefits in menstrual regulation and management of menstrual pain. Recommended dosages for these purposes often range between 30 to 60 milligrams of khellin extract per day.
+           2. Low blood pressure helps to avoid heart diseases and keeps you energized throughout the day.
 
-Further exploration suggests Visnaga's potential in supporting heart health by strengthening heart muscles. Its usage in doses of 30 to 120 milligrams of khellin extract daily has shown promising results. Additionally, Visnaga may aid in managing certain skin conditions due to its anti-inflammatory properties.Visnaga is a plant that offers numerous health benefits to the human body due to its rich nutrients and essential oils.Visnaga is a plant that provides several benefits for maintaining good health.
+ lowering your blood pressure supports the work of your heart and allows you to feel better.
+
+           3. Boosting your immune system is vital for staying healthy, as it fights off infections and sicknesses easily.
+
+          New line - a strong immune system means less time spent being ill and more time doing the things you love.
+
+           4. Supporting the digestive system helps with proper nutrient absorption and prevents stomach issues.
+
+           A healthy gut means better food processing, less tummy troubles, and overall well-being.
+
+           5. Relieving skin problems can make you feel more confident about your appearance, especially when dealing with acne or eczema.
+
+          New line - clearer skin makes you look healthier and gives you a boost in self-esteem.
+
+           6. Improving heart health by strengthening cardiovascular function reduces the risk of heart disease and ensures proper blood circulation.
+
+           A healthy heart means more energy and better overall health.
+
+           7. Promoting healthy liver function aids detoxification, allowing your body to remove harmful substances and keep you feeling good.
+
+          New line - supporting liver function leads to increased energy levels and enhanced general wellness.
+
+           8. Regulating blood sugar levels helps prevent diabetes and keeps your energy stable throughout the day.
+
+           Managing your blood sugar means fewer crashes and more balanced, sustainable energy.
+
+           9. Reducing cholesterol levels decreases the chance of developing heart-related issues and strokes, keeping you safe from related health risks.
+
+          New line - maintaining healthy cholesterol levels can protect you against life-threatening cardiovascular problems.
+
+          10. Preventing cancer by fighting free radicals and reducing oxidative stress increases your chances of staying cancer-free throughout your life.
+
+            New line - combating cancer-causing agents means a lower risk for cancer, giving you peace of mind.

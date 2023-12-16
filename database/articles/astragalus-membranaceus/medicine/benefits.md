@@ -1,1 +1,5 @@
-Astragalus is a plant known for its various health benefits.1.
+Astragalus has many health benefits, such as boosting the immune system that fights off diseases. This means your body can better defend against bacteria and viruses. Secondly, it reduces inflammation in the body which helps prevent various health problems. It also promotes heart health by reducing risks of cardiovascular illnesses like high blood pressure, stroke, and coronary artery disease. Furthermore, this powerful herb improves digestion by aiding healthy bacterial growth in the gut and aids with nutrient absorption. 
+
+             Astragalus can also help your lungs function better, reducing respiratory issues such as asthma or bronchitis. Reducing stress is another benefit of using this plant because it helps regulate cortisol levels and lowers anxiety. This, in turn, promotes better bone health and skin health. 
+
+             The herb can also boost energy levels by enhancing oxygen circulation throughout the body which keeps you active for longer periods of time without getting tired as easily. Lastly, astragalus might improve cognitive function, helping to keep your brain sharp and healthy. This herbal remedy works wonders in providing multiple health benefits for your overall well-being.

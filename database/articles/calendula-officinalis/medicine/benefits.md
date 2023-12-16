@@ -1,1 +1,5 @@
-Calendula, also known as marigold, offers multiple benefits for our health.1.
+Calendula has many health benefits, such as relieving and reducing inflammation in the body. This herb can also promote better skin health by helping to heal wounds, reduce redness, and soothe irritated skin. Besides improving your skin's condition, this flower can help calm down an upset stomach or ease muscle spasms throughout your body. 
+
+             Another great benefit of using Calendula is its ability to lessen the severity of headaches. It also helps in fighting off allergies and boosting our immunity system, making us stronger against illnesses. Furthermore, this plant can support respiratory functions by helping people who struggle with asthma or other breathing difficulties. 
+
+             Additionally, Calendula has been known to reduce fever, aiding the body's natural process of fighting off infections and illnesses. Moreover, it is effective in aiding the healing of wounds, making it an excellent remedy for treating small cuts and scrapes. In summary, Calendula offers various health benefits, making it a useful and versatile herb for enhancing our overall well-being.
