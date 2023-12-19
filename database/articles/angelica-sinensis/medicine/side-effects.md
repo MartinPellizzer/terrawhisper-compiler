@@ -1,0 +1,11 @@
+Dong Quai can have some side effects if used improperly, such as affecting hormones within your body which could lead to various issues. This herbal supplement has been used for centuries, and its primary purpose is to balance female reproductive health. While many of the side effects are mild and typically do not cause permanent harm when the remedy is employed correctly, it's essential to be aware of them so that you can avoid potential risks altogether or mitigate them accordingly.
+
+ One adverse consequence related to dong quai consumption could include disruptions in hormonal balance. This may result in irregular menstruation or even infertility if left unchecked for an extended period. If this issue isn't taken care of immediately, it can have lasting impacts on your overall health and wellbeing.
+
+ Another potential downside of using dong quai is the possibility that it could cause miscarriage in pregnant women who consume too much or take it without proper medical supervision. This risk underscores the importance of consulting with a healthcare professional before starting any new herbal treatment, especially during pregnancy.
+
+ Dong Quai is well-known for its ability to increase bleeding risks since it contains compounds that may affect blood clotting and blood flow throughout your body. While this can be helpful in certain cases, such as treating menstrual cramps or other issues related to blood circulation, excessive bleeding could lead to additional problems that require medical intervention.
+
+ Another concern associated with dong quai is its potential impact on blood pressure levels. This herbal remedy may lower high blood pressure, which is beneficial for some individuals but can be dangerous if you already have low blood pressure or are taking medications that affect your blood pressure. Consulting a healthcare professional before using dong quai can help minimize the risks associated with this side effect.
+
+ Dong Quai also has the potential to stimulate uterine contractions, which could lead to complications during pregnancy. Therefore, it's important to avoid using it unless advised by your doctor or midwife when expecting a child.

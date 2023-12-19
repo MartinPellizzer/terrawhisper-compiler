@@ -14,7 +14,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-# images from leonardo 768x864 per pins
 
 driver = webdriver.Firefox()
 driver.get("https://www.pinterest.com/login/")
@@ -52,72 +51,6 @@ def csv_to_llst(filepath):
     return llst
 
 
-
-
-
-def pin_generate_2(entity, common_name, filename, image_name, subtitle):
-    img_w, img_h = 600, 900
-
-    img_background = Image.open(f'{img_folder}/{filename}')
-    
-    img_background.thumbnail([img_w, img_h], Image.Resampling.LANCZOS)
-    img_background_size = img_background.size
-
-    img = Image.new(mode="RGB", size=(img_w, img_h), color='#1c1917')
-    img = Image.new(mode="RGB", size=(img_w, img_h), color='#0f766e')
-    img.paste(img_background, (0, 250))
-
-    draw = ImageDraw.Draw(img)
-
-    line_1 = '10'
-    if image_name == 'medicinal-preparations': line_2 = 'Medicinal Preparations'
-    elif image_name == 'medicinal-benefits': line_2 = 'Health Benefits'
-    line_3 = f'of {common_name.title()}'
-
-    max_len = len(line_1)
-    if max_len < len(line_2): max_len = len(line_2)
-    if max_len < len(line_3): max_len = len(line_3)
-
-    font_size = 1100 // max_len
-    if font_size > 64: font_size = 64
-
-    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
-    tot_y = font.getbbox('y')[3] * 3
-
-    current_y = (250 - tot_y) // 2
-
-    # font_size = 48
-    line_height = 1.0
-    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
-    line = line_1
-    line_w = font.getbbox(line)[2]
-    line_h = font.getbbox('y')[3]
-    draw.text((img_w//2 - line_w//2, current_y), line, '#ffffff', font=font)
-    current_y += line_h * line_height
-    
-    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
-    line = line_2
-    line_w = font.getbbox(line)[2]
-    line_h = font.getbbox('y')[3]
-    draw.text((img_w//2 - line_w//2, current_y), line, '#ffffff', font=font)
-    current_y += line_h * line_height
-    
-    font = ImageFont.truetype("assets/fonts/arialbd.ttf", font_size)
-    line = line_3
-    line_w = font.getbbox(line)[2]
-    line_h = font.getbbox('y')[3]
-    draw.text((img_w//2 - line_w//2, current_y), line, '#ffffff', font=font)
-    current_y += line_h
-
-    font_size = 18
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = 'TerraWhisper.com'
-    line_w = font.getbbox(line)[2]
-    line_h = font.getbbox(line)[3]
-    draw.text((img_w//2 - line_w//2, img_h - 36), line, '#ffffff', font=font)
-
-    common_name_fotmatted = common_name.lower().replace(' ', '-')
-    img.save(f'pinterest/tmp/{common_name_fotmatted}-{image_name}.jpg', format='JPEG', subsampling=0, quality=100)
 
 
 def pin_generate_3(entity, common_name, filepath, text, attribute):
@@ -195,6 +128,8 @@ def pin_generate_3(entity, common_name, filepath, text, attribute):
 
     print(lines)
 
+    draw.rectangle(((0, img_h - 50), (img_w, img_h)), fill='#0f766e')
+
     font_size = 18
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
     line = 'TerraWhisper.com'
@@ -229,12 +164,9 @@ for i, row in enumerate(master_rows[1:]):
     common_name = row[articles_dict['common_name']].strip()
     org = row[articles_dict['org']].strip()
     last_day = row[articles_dict['last_day']].strip()
-    current_image = row[articles_dict['current_image']].strip()
-    image_name = row[articles_dict['image_name']].strip()
-    description_folder = row[articles_dict['description_folder']].strip()
 
-    common_names = utils.csv_get_rows_by_entity('database/tables/botany/common-names.csv', entity)
-    common_name = common_names[0][1].lower()
+    # common_names = utils.csv_get_rows_by_entity('database/tables/botany/common-names.csv', entity)
+    # common_name = common_names[0][1].lower()
     common_name_formatted = common_name.lower().replace(' ', '-')
 
     today_day = datetime.now().day
@@ -244,7 +176,6 @@ for i, row in enumerate(master_rows[1:]):
 
     # 10 health benefits of yarrow (Achillea millefolium)
     # 10 medicinal preparations of yarrow (Achillea millefolium)
-    # num_benefit = int(current_image) % 10
 
     random_row = ''
     if org.strip() == 'medicine/benefits':
@@ -303,10 +234,16 @@ for i, row in enumerate(master_rows[1:]):
     description = description.strip() + '... '
     description += 'Click the pin link to learn more.'
 
-    images = os.listdir(f'H:\\tw-images\\pin\\{entity}')
-    image_filename = random.choice(images) 
-    img_filepath = f'H:\\tw-images\\pin\\{entity}\\{image_filename}'
-    # pin_generate_2(entity, common_name_title, img_filename, image_name, subtitle)
+    try: 
+        image_folder = 'C:/tw-images/pin'
+        images = os.listdir(f'{image_folder}/{entity}')
+        image_filename = random.choice(images) 
+        img_filepath = f'{image_folder}/{entity}/{image_filename}'
+    except:
+        image_folder = 'C:/tw-images/auto'
+        images = os.listdir(f'{image_folder}/{entity}/3x4')
+        image_filename = random.choice(images) 
+        img_filepath = f'{image_folder}/{entity}/3x4/{image_filename}'
 
     # pin_generate_3(entity, common_name, filepath, text, filename)
     attribute = random_row[1]
@@ -370,7 +307,6 @@ for i, row in enumerate(master_rows[1:]):
 
         if entity == curr_entity and org == curr_org:
             new_row[articles_dict['last_day']] = str(int(today_day))
-            new_row[articles_dict['current_image']] = str(int(new_row[articles_dict['current_image']]) + 1)
             new_rows.append(new_row)
         else:
             new_rows.append(new_row)

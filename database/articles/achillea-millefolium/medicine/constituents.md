@@ -1,19 +1,17 @@
-Yarrow contains a diverse array of constituents, including alkaloids, tannins, flavonoids, sesquiterpene lactones, volatile oils, coumarins, polyacetylenes, glycosides, phytosterols, and a variety of vitamins and minerals such as vitamin C, vitamin K, and potassium. These compounds collectively contribute to the plant's multifaceted properties and have been studied for their potential effects on health and well-being.
+Yarrow has many medicinal constituents, such as flavonoids, volatile oils, iridoid glycosides, sesquiterpene lactones, tannins, acetylcholine, amino acids, vitamins (A, C, E), minerals, antioxidants. Each of these components can affect different systems within the body to promote overall wellbeing or relief in specific conditions.
 
-One of the primary categories of compounds in yarrow is alkaloids, which can vary in type and quantity among different species. Alkaloids are a group of natural compounds characterized by the presence of nitrogen atoms in their structure. They play a crucial role in plant physiology and may exert various effects on the human body.
+Flavonoids are plant pigments that exhibit various biological activities, such as antiviral, antibacterial, and anti-inflammatory properties. They protect cell membranes from damage and help regulate blood vessel functions, supporting heart health and contributing to the prevention of chronic diseases.
 
-Tannins, another noteworthy constituent, are present in the range of 4% to 9% by dry weight. These polyphenolic compounds are responsible for the astringent taste associated with this plant. Tannins can interact with proteins and have been linked to digestive and astringent properties.
+Volatile oils in yarrow are responsible for its distinctive aroma and have therapeutic effects on respiratory issues such as bronchitis or asthma, working as expectorants to clear airways of mucus and phlegm. They also possess antimicrobial properties that help fight against various infections.
 
-Its flavonoid content is quite significant, with concentrations ranging from 0.2% to 0.9% in dried yarrow. These antioxidants have garnered attention for their potential to combat free radicals and promote various health benefits.
+Iridoid glycosides found in yarrow are known for their anti-inflammatory, antibacterial, and antifungal effects, contributing to overall immunity. These compounds can help manage inflammation associated with arthritis or skin conditions. They may also provide relief from digestive issues like indigestion, gastritis, or stomach ulcers.
 
-Sesquiterpene lactones, a class of compounds with diverse chemical structures, are also present in this plant. Their specific types and quantities can vary, contributing to the plant's overall biological activity.
+Sesquiterpene lactones in yarrow have anti-inflammatory and antioxidant properties that help alleviate pain and inflammation associated with musculoskeletal disorders such as rheumatism or arthritis. They are also capable of inhibiting the growth of certain cancer cells, making them a potential option in supporting cancer treatment.
 
-Volatile oils in Achille millefolium, constituting approximately 0.2% to 1% of its dried weight, play a role in the plant's characteristic fragrance. They are often extracted for their potential therapeutic applications.
+Tannins in yarrow possess astringent properties, which can help treat diarrhea by contracting intestinal muscles and decreasing excessive secretions. Additionally, tannins may support healthy skin by reducing inflammation and preventing bacterial or fungal growth.
 
-Yarrow contains coumarins, including compounds like scopoletin, at levels of about 0.01% by dry weight. Coumarins have diverse biological activities, adding to the plant's pharmacological complexity.
+Acetylcholine is a neurotransmitter found in yarrow that influences muscle movement, memory, and learning. It can help improve cognitive function, treat symptoms of Alzheimer's disease, and aid in the treatment of Parkinson's disease.
 
-Glycosides, a group of sugar-bound compounds with varied structures, have been identified in this plant. Their potential physiological effects are associated with the specific glycosides present.
+Lastly, yarrow contains essential amino acids, vitamins A, C, and E, which contribute to various body functions such as immunity, cell growth, and tissue repair. They also provide antioxidant benefits that help protect cells from damage caused by harmful environmental agents, potentially promoting longevity and overall health.
 
-Phytosterols, plant-derived sterols structurally akin to cholesterol, can also be found in varying amounts in A. millefolium. These compounds have attracted attention for their potential health benefits.
-
-Yarrow is not just a source of unique compounds, it also contains essential vitamins and minerals. For instance, it provides vitamin C, with levels averaging around 0.1-0.4 mg per 100 grams of fresh yarrow, along with vitamin K and minerals like potassium.
+In conclusion, the numerous medicinal components of yarrow work together to deliver comprehensive support for various health conditions through their diverse properties and effects on different body systems.

@@ -1,17 +1,17 @@
-Performing a patch test before widespread application of Aloe Vera is a common practice, with studies reporting that approximately 1 in 100 people may experience an allergic reaction to Aloe Vera.
+It's important to take precautions when using Aloe Vera medicinally, such as  
 
-The importance of selecting Aloe Vera products with pure formulations is underscored by research indicating that additives in some commercially available Aloe Vera products may compromise their medicinal properties. A study found that over 30% of Aloe Vera products on the market contained additives that could potentially reduce their efficacy.
+ Firstly, be aware that not all Aloe Vera products available in the market are pure or of good quality. It's crucial to check for the authenticity of the product you wish to purchase; this can include reading labels and researching the brand and manufacturer to ensure their reputation is reliable and high quality control has been implemented. 
 
-Moderation in Aloe Vera consumption, particularly internally, is advised due to potential adverse effects. Studies suggest that exceeding a daily intake of 1 gram of Aloe Vera latex may result in increased risks of adverse effects, including diarrhea and cramps.
+ Always remember to use Aloe Vera according to the instructions provided on the packaging, whether it's a topical ointment, gel or oral supplement. Misusing these products may result in unexpected issues which could be avoided by strictly adhering to usage recommendations, dosages and frequency. 
 
-Consulting healthcare professionals before using Aloe Vera is crucial, especially for specific demographics. Studies highlight the importance of professional guidance during pregnancy, breastfeeding, or for individuals with existing health conditions.
+ Another precaution is to avoid applying Aloe Vera directly onto open wounds, cuts, bruises or irritated skin. While it can help with minor injuries like scratches and mild sunburns, there might be potential risks for more severe conditions if it interacts negatively with other treatments you may have started. 
 
-Aloe Vera's laxative effects are well-documented, with research recommending starting internal consumption with small amounts. Studies suggest that a daily intake of 10 milligrams of Aloe Vera latex is a generally well-tolerated starting point to minimize the risk of adverse effects.
+ Before using any Aloe Vera product for the first time, conduct a patch test on an unaffected area of your skin by leaving some of the substance in that location and checking for allergic reactions or any unwanted side effects over a short period, preferably about twenty-four hours, especially if you have sensitive skin. 
 
-Storage conditions significantly impact the efficacy of Aloe Vera products. Research emphasizes the importance of storing Aloe Vera in cool, dark environments, as exposure to light and heat may lead to the degradation of active compounds. Adhering to specified expiration dates is crucial, as studies indicate that after the designated period, the concentration of active compounds may diminish.
+ It's also crucial to understand the specific condition you wish to use Aloe Vera for; familiarising yourself with your health concerns will help determine the most appropriate application method and product type to address those needs. 
 
-Ensuring product quality is essential, with studies revealing variations in Aloe Vera product formulations. Opting for reputable brands and sources is advised to mitigate the risk of substandard or adulterated products.
+ In some cases, it is wise to consult a professional such as a doctor or herbalist who can provide insight on how best to incorporate Aloe Vera into your overall healthcare regimen safely. It's especially essential when considering alternative medicine in the context of your current medications and treatments. 
 
-Awareness of potential interactions between Aloe Vera and medications is crucial, with studies indicating that certain compounds in Aloe Vera may interfere with drug absorption or metabolism.
+ Do not swallow Aloe Vera whole; it is meant for topical use only, and ingesting too much can lead to stomach discomfort or other digestive issues. Store your Aloe Vera products correctly away from heat and direct sunlight in a cool, dry place to maintain its effectiveness over time. 
 
-Avoiding the latex layer beneath the Aloe Vera leaf's skin is recommended due to its potent laxative properties. Studies highlight that ingesting more than 1 gram of Aloe Vera latex daily significantly increases the risk of gastrointestinal side effects.
+ After coming into contact with any Aloe Vera product, wash your hands and body thoroughly using soap and water to avoid any residue which may cause irritation or allergies later on.

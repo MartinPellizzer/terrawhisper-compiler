@@ -5,6 +5,7 @@ from ctransformers import AutoModelForCausalLM
 import sys
 import utils
 import json
+import time
 
 sys_override = False
 try: 
@@ -12,7 +13,7 @@ try:
 except: pass
 
 
-SYSTEM_PROMPT = 'You are an expert botanist. You explain things write short and simple sentences. You write short paragraphs and add a new line every 2-3 sentences. You never write lists.'
+SYSTEM_PROMPT = 'You are an expert botanist. You love to explain things using short, simple, and easy to understand sentences.'
 SYSTEM_PROMPT_LIST = 'You are an expert botanist who only write numbered lists and nothing else.'
 
 def csv_get_rows(filepath):
@@ -33,8 +34,9 @@ def get_latin_name(entity):
 
 
 
-num_articles = 20
+num_articles = 50
 
+plants = csv_get_rows(f'plants.csv') 
 
 
 llm = AutoModelForCausalLM.from_pretrained(
@@ -111,8 +113,538 @@ def csv_update_override_cell(filepath, entity, benefit, value):
 
 
 # ################################################################
+# MAIN
+# ################################################################
+
+def gen_plant_medicine_constituents(plant):
+    filepath = f'database/tables/medicine/constituents.csv'
+
+    entity = plant[0].strip()
+    common_name = plant[1].strip()
+    latin_name = get_latin_name(entity)
+
+    if sys_override: found = False
+    else:    
+        tmp_rows = csv_get_rows(filepath)
+        tmp_entities = [tmp_row[0] for tmp_row in tmp_rows]
+        if entity in tmp_entities: found = True
+        else: found = False 
+
+    if not found:
+        prompt = f"""
+            Write a numbered list of the 10 primary medicinal constituents of {common_name} ({latin_name}).
+            Write just the names. Don't add descriptions.
+            Write each list item in a new line.
+        """
+        
+        start_time = time.time()
+        reply = gen_reply(prompt)
+        end_time = time.time()
+        print(f"--- {(end_time - start_time)} seconds ---")
+
+        lines = reply.split('\n')
+        lines_formatted = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+            if line[0].isdigit():
+                line = ' '.join(line.split(' ')[1:])
+                line = line.replace('.', '')
+                line = line.split(':')[0]
+                line = line.split(' - ')[0]
+            elif line[0] == '*':
+                line = line.replace('*', '')
+                line = line.split(':')[0]
+                line = line.split(' - ')[0]
+            else:
+                continue
+            lines_formatted.append(line.strip())
+                
+        if sys_override:
+            filtered_rows = []
+            with open(filepath, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f, delimiter="|")
+                for line in reader:
+                    if line[0].lower().strip() != entity.lower().strip():
+                        filtered_rows.append(line)
+                        
+            with open(filepath, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                writer.writerows(filtered_rows)
+                        
+            with open(filepath, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                for line in lines_formatted:
+                    writer.writerow([entity, line])
+        else:
+            with open(filepath, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                for line in lines_formatted:
+                    writer.writerow([entity, line])
+
+
+def gen_plant_medicine_preparations(plant):
+    filepath = f'database/tables/medicine/preparations.csv'
+
+    entity = plant[0].strip()
+    common_name = plant[1].strip()
+    latin_name = get_latin_name(entity)
+
+    if sys_override: found = False
+    else:    
+        tmp_rows = csv_get_rows(filepath)
+        tmp_entities = [tmp_row[0] for tmp_row in tmp_rows]
+        if entity in tmp_entities: found = True
+        else: found = False 
+
+    if not found:
+        prompt = f"""
+            Write a numbered list of the 10 most important preparations of {common_name} ({latin_name}) for medicinal purposes (ex. tea, etc...).
+            Write just the names of the preparations. Don't add descriptions.
+            Write each name of the praparations in 1 or 2 words max.
+            Write each list item in a new line.
+        """
+        
+        start_time = time.time()
+        reply = gen_reply(prompt)
+        end_time = time.time()
+        print(f"--- {(end_time - start_time)} seconds ---")
+
+        lines = reply.split('\n')
+        lines_formatted = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+            if line[0].isdigit():
+                line = ' '.join(line.split(' ')[1:])
+                line = line.replace('.', '')
+                line = line.split(':')[0]
+                line = line.split(' - ')[0]
+            elif line[0] == '*':
+                line = line.replace('*', '')
+                line = line.split(':')[0]
+                line = line.split(' - ')[0]
+            else:
+                continue
+            lines_formatted.append(line.strip())
+                
+        if sys_override:
+            filtered_rows = []
+            with open(filepath, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f, delimiter="|")
+                for line in reader:
+                    if line[0].lower().strip() != entity.lower().strip():
+                        filtered_rows.append(line)
+                        
+            with open(filepath, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                writer.writerows(filtered_rows)
+                        
+            with open(filepath, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                for line in lines_formatted:
+                    writer.writerow([entity, line])
+        else:
+            with open(filepath, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                for line in lines_formatted:
+                    writer.writerow([entity, line])
+                    
+
+def gen_plant_medicine_effects(plant):
+    filepath = f'database/tables/medicine/effects.csv'
+    with open(filepath, 'a', encoding='utf-8') as f: pass
+
+    entity = plant[0].strip()
+    common_name = plant[1].strip()
+    latin_name = get_latin_name(entity)
+
+    if sys_override: found = False
+    else:    
+        tmp_rows = csv_get_rows(filepath)
+        tmp_entities = [tmp_row[0] for tmp_row in tmp_rows]
+        if entity in tmp_entities: found = True
+        else: found = False 
+
+    if not found:
+        prompt = f"""
+            Write a numbered list of 10 negative effects of {common_name} ({latin_name}).
+            Write each list item in 3 words or less.
+            Start each list item with a verb.
+            Write each list item in a new line.
+            Don't add descriptions.
+        """
+        
+        start_time = time.time()
+        reply = gen_reply(prompt)
+        end_time = time.time()
+        print(f"--- {(end_time - start_time)} seconds ---")
+
+        lines = reply.split('\n')
+        lines_formatted = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+            if line[0].isdigit():
+                line = ' '.join(line.split(' ')[1:])
+                line = line.replace('.', '')
+                line = line.split(':')[0]
+                line = line.split(' - ')[0]
+            elif line[0] == '*':
+                line = line.replace('*', '')
+                line = line.split(':')[0]
+                line = line.split(' - ')[0]
+            else:
+                continue
+            lines_formatted.append(line.strip())
+                
+        if sys_override:
+            filtered_rows = []
+            with open(filepath, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f, delimiter="|")
+                for line in reader:
+                    if line[0].lower().strip() != entity.lower().strip():
+                        filtered_rows.append(line)
+                        
+            with open(filepath, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                writer.writerows(filtered_rows)
+                        
+            with open(filepath, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                for line in lines_formatted:
+                    writer.writerow([entity, line])
+        else:
+            with open(filepath, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                for line in lines_formatted:
+                    writer.writerow([entity, line])
+
+
+def gen_plant_medicine_precautions(plant):
+    filepath = f'database/tables/medicine/precautions.csv'
+    with open(filepath, 'a', encoding='utf-8') as f: pass
+
+    entity = plant[0].strip()
+    common_name = plant[1].strip()
+    latin_name = get_latin_name(entity)
+
+    if sys_override: found = False
+    else:    
+        tmp_rows = csv_get_rows(filepath)
+        tmp_entities = [tmp_row[0] for tmp_row in tmp_rows]
+        if entity in tmp_entities: found = True
+        else: found = False 
+
+    if not found:
+        prompt = f"""
+            Write a numbered list of 10 precautions to take when using {common_name} ({latin_name}) as a medicine.
+            Write each list item in a new line.
+            Write each list item using less than 5 words.
+            Don't add descriptions.
+        """
+        
+        start_time = time.time()
+        reply = gen_reply(prompt)
+        end_time = time.time()
+        print(f"--- {(end_time - start_time)} seconds ---")
+
+        lines = reply.split('\n')
+        lines_formatted = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+            if line[0].isdigit():
+                line = ' '.join(line.split(' ')[1:])
+                line = line.replace('.', '')
+                line = line.split(':')[0]
+                line = line.split(' - ')[0]
+            elif line[0] == '*':
+                line = line.replace('*', '')
+                line = line.split(':')[0]
+                line = line.split(' - ')[0]
+            else:
+                continue
+            lines_formatted.append(line.strip())
+                
+        if sys_override:
+            filtered_rows = []
+            with open(filepath, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f, delimiter="|")
+                for line in reader:
+                    if line[0].lower().strip() != entity.lower().strip():
+                        filtered_rows.append(line)
+                        
+            with open(filepath, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                writer.writerows(filtered_rows)
+                        
+            with open(filepath, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                for line in lines_formatted:
+                    writer.writerow([entity, line])
+        else:
+            with open(filepath, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                for line in lines_formatted:
+                    writer.writerow([entity, line])
+
+
+
+# ################################################################
 # MEDICINE
 # ################################################################
+
+def gen_medicine_benefits_text(entity, common_name):
+    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
+    lst = [f'{x[1]}' for x in rows[:10]]
+    # benefits = ', '.join(benefits_lst)
+    lst = '- ' + '\n- '.join(lst)
+
+    out_filepath = f'database/articles/{entity}/medicine/benefits.md'
+    if sys_override: found = False
+    else: found = exists_content(out_filepath)
+
+    if not found:
+
+        starting_text = f'{common_name.title()} has many health benefits, such as '
+        # starting_text = f'1) {common_name.title()} '
+        # prompt = f'''
+        #     For each benefit of {common_name} in the following list:
+        #     {benefits}
+
+        #     Write a short paragraph explaing that benefit.
+        #     All paragraph must be 2-3 sentences long.
+        #     Add a new empty line after every paragraph.
+        #     Write about 400 words of content.
+        #     Start with these words: {starting_text}
+
+        # '''
+
+        prompt = f'''
+            Explain in 400 words these health benefits of {common_name}: {lst}. 
+            Start with these words: {starting_text}
+        '''
+
+        reply = gen_reply(prompt)
+        reply = reply.strip()
+        paragraphs = reply.split('\n')
+        paragraphs_lst = []
+        for paragraph in paragraphs:
+            paragraph.strip()
+            if paragraph == '': continue
+            if paragraph.endswith(':'): continue
+            if paragraph[0].isdigit(): paragraph = ' '.join(paragraph.split(' ')[1:])
+            if ':' in paragraph: paragraph = paragraph.split(':')[1]
+            paragraph = re.sub("\s\s+" , " ", paragraph)
+            paragraphs_lst.append(paragraph)
+        content = '\n\n'.join(paragraphs_lst)
+        if not reply.strip()[0].isdigit():
+            content = starting_text + content
+        
+        if sys_override:
+            with open(out_filepath, 'w', encoding='utf-8') as f: 
+                f.write(content)
+        else: 
+            with open(out_filepath, 'a', encoding='utf-8') as f: 
+                f.write(content)
+
+
+def gen_medicine_constituents_text(entity, common_name):
+    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/constituents.csv', entity)
+    lst = [f'{x[1]}' for x in rows[:10]]
+    lst = ', '.join(lst)
+
+    out_filepath = f'database/articles/{entity}/medicine/constituents.md'
+    if sys_override: found = False
+    else: found = exists_content(out_filepath)
+
+    if not found:
+        starting_text = f'{common_name.title()} has many medicinal constituents, such as '
+        prompt = f'''
+            Explain in 400 words these medicinal constituents of {common_name}: {lst}. 
+            Start with these words: {starting_text}
+        '''
+
+        
+        reply = gen_reply(prompt)
+        reply = reply.strip()
+        paragraphs = reply.split('\n')
+        paragraphs_lst = []
+        for paragraph in paragraphs:
+            paragraph.strip()
+            if paragraph == '': continue
+            if paragraph.endswith(':'): continue
+            if paragraph[0].isdigit(): paragraph = ' '.join(paragraph.split(' ')[1:])
+            if ':' in paragraph: paragraph = paragraph.split(':')[1]
+            paragraph = re.sub("\s\s+" , " ", paragraph)
+            paragraphs_lst.append(paragraph)
+        content = '\n\n'.join(paragraphs_lst)
+        if not reply.strip()[0].isdigit():
+            content = starting_text + content
+        
+        if sys_override:
+            with open(out_filepath, 'w', encoding='utf-8') as f: 
+                f.write(content)
+        else: 
+            with open(out_filepath, 'a', encoding='utf-8') as f: 
+                f.write(content)
+
+
+def gen_medicine_preparations_text(entity, common_name):
+    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/preparations.csv', entity)
+    lst = [f'{x[1]}' for x in rows[:10]]
+    lst = ', '.join(lst)
+
+    out_filepath = f'database/articles/{entity}/medicine/preparations.md'
+    if sys_override: found = False
+    else: found = exists_content(out_filepath)
+
+    if not found:
+        starting_text = f'{common_name.title()} has many medicinal preparations, such as '
+        # prompt = f'''
+        #     {SYSTEM_PROMPT}
+        #     Explain in 400 words these medicinal preparations of {common_name}: {lst}. 
+        #     Use numbered paragraphs that are 2-3 sentences long.
+        #     Start with these words: {starting_text}
+        # '''
+        
+        prompt = f'''
+            Explain in 400 words these medicinal preparations of {common_name}: {lst}. 
+            Start with these words: {starting_text}
+        '''
+        # Add a new empty line after every paragraph.
+
+        reply = gen_reply(prompt)
+        reply = reply.strip()
+        reply = starting_text + reply
+
+        reply = gen_reply(prompt)
+        reply = reply.strip()
+        paragraphs = reply.split('\n')
+        paragraphs_lst = []
+        for paragraph in paragraphs:
+            paragraph.strip()
+            if paragraph == '': continue
+            if paragraph.endswith(':'): continue
+            if paragraph[0].isdigit(): paragraph = ' '.join(paragraph.split(' ')[1:])
+            if ':' in paragraph: paragraph = paragraph.split(':')[1]
+            paragraph = re.sub("\s\s+" , " ", paragraph)
+            paragraphs_lst.append(paragraph)
+        content = '\n\n'.join(paragraphs_lst)
+        if not reply.strip()[0].isdigit():
+            content = starting_text + content
+                    
+        if sys_override:
+            with open(out_filepath, 'w', encoding='utf-8') as f: 
+                f.write(content)
+        else: 
+            with open(out_filepath, 'a', encoding='utf-8') as f: 
+                f.write(content)
+
+
+def gen_medicine_side_effects_text(entity, common_name):
+    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/side-effects.csv', entity)
+    lst = [f'{x[1]}' for x in rows[:10]]
+    lst = '-' + '\n- '.join(lst)
+
+    out_filepath = f'database/articles/{entity}/medicine/side-effects.md'
+    if sys_override: found = False
+    else: found = exists_content(out_filepath)
+
+    if not found:
+        starting_text = f'{common_name.title()} can have some side effects if used improperly, such as '
+        # prompt = f'''
+        #     {SYSTEM_PROMPT}
+
+        #     Explain in 400 words these negative effects of {common_name}: 
+        #     {lst} 
+
+        #     Write paragraphs that are 2-3 sentences long.
+        #     Start with these words: {starting_text}
+        # '''
+        
+        prompt = f'''
+            Explain in 400 words these negative effects of {common_name}: {lst}. 
+            Start with these words: {starting_text}
+        '''
+
+        
+        reply = gen_reply(prompt)
+        reply = reply.strip()
+        paragraphs = reply.split('\n')
+        paragraphs_lst = []
+        for paragraph in paragraphs:
+            paragraph.strip()
+            if paragraph == '': continue
+            if paragraph.endswith(':'): continue
+            if paragraph[0].isdigit(): paragraph = ' '.join(paragraph.split(' ')[1:])
+            if ':' in paragraph: paragraph = paragraph.split(':')[1]
+            paragraph = re.sub("\s\s+" , " ", paragraph)
+            paragraphs_lst.append(paragraph)
+        content = '\n\n'.join(paragraphs_lst)
+        if not reply.strip()[0].isdigit():
+            content = starting_text + content
+                    
+        if sys_override:
+            with open(out_filepath, 'w', encoding='utf-8') as f: 
+                f.write(content)
+        else: 
+            with open(out_filepath, 'a', encoding='utf-8') as f: 
+                f.write(content)
+
+
+def gen_medicine_precautions_text(entity, common_name):
+    rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/precautions.csv', entity)
+    lst = [f'{x[1]}' for x in rows[:10]]
+    lst = '-' + '\n- '.join(lst)
+
+    out_filepath = f'database/articles/{entity}/medicine/precautions.md'
+    if sys_override: found = False
+    else: found = exists_content(out_filepath)
+
+    if not found:
+        starting_text = f'It\'s important to take precautions when using {common_name.title()} medicinally, such as '
+        # prompt = f'''
+        #     {SYSTEM_PROMPT}
+
+        #     Explain in 400 words the following precautions you must take when using {common_name} medicinally: 
+        #     {lst} 
+
+        #     Write paragraphs that are 2-3 sentences long.
+        #     Start with these words: {starting_text}
+        # '''
+        
+        prompt = f'''
+            Explain in 400 words these precautions when using {common_name}: {lst}. 
+            Start with these words: {starting_text}
+        '''
+
+        reply = gen_reply(prompt)
+
+        reply = gen_reply(prompt)
+        reply = reply.strip()
+        paragraphs = reply.split('\n')
+        paragraphs_lst = []
+        for paragraph in paragraphs:
+            paragraph.strip()
+            if paragraph == '': continue
+            if paragraph.endswith(':'): continue
+            if paragraph[0].isdigit(): paragraph = ' '.join(paragraph.split(' ')[1:])
+            if ':' in paragraph: paragraph = paragraph.split(':')[1]
+            paragraph = re.sub("\s\s+" , " ", paragraph)
+            paragraphs_lst.append(paragraph)
+        content = '\n\n'.join(paragraphs_lst)
+        if not reply.strip()[0].isdigit():
+            content = starting_text + content
+                    
+        if sys_override:
+            with open(out_filepath, 'w', encoding='utf-8') as f: 
+                f.write(content)
+        else: 
+            with open(out_filepath, 'a', encoding='utf-8') as f: 
+                f.write(content)
+
 
 def write_plant_medicine():
     rows = csv_get_rows(f'plants.csv') 
@@ -121,56 +653,26 @@ def write_plant_medicine():
         common_name = row[1].strip()
         latin_name = get_latin_name(entity)
 
-        print(f'{i+1}/{num_articles} - {entity}')
-
         create_folder(f'database/articles/{entity}/medicine')
 
-        rows = utils.csv_get_rows_by_entity(f'database/tables/benefits.csv', entity)
-        benefits_lst = [f'{x[1]}' for x in rows[:10]]
-        benefits = ', '.join(benefits_lst)
+        print(f'{i+1}/{num_articles} - {entity}')
+        # gen_medicine_benefits_text(entity, common_name)
+        # gen_medicine_constituents_text(entity, common_name)
+        # gen_medicine_preparations_text(entity, common_name)
+        # gen_medicine_side_effects_text(entity, common_name)
+        # gen_medicine_precautions_text(entity, common_name)
 
-        # override content
-        out_filepath = f'database/articles/{entity}/medicine/benefits.md'
-        if sys_override: found = False
-        else: found = exists_content(out_filepath)
-
-        if not found:
-            starting_text = f'{common_name} has many health benefits, such as '
-            prompt = f'''
-                {SYSTEM_PROMPT}
-                Explain in 300 words these health benefits of {common_name}: {benefits}. 
-                Start with these words: {starting_text}
-            '''
-
-            reply = gen_reply(prompt)
-            reply = reply.strip()
-            reply = starting_text + reply
-
-            paragraphs = reply.split('\n')
-            paragraphs_lst = []
-            for paragraph in paragraphs:
-                paragraph.strip()
-                if paragraph == '': continue
-                if paragraph.endswith(':'): continue
-                if paragraph[0].isdigit(): paragraph = ' '.join(paragraph.split(' ')[1:])
-                if ':' in paragraph: paragraph = paragraph.split(':')[1]
-                paragraphs_lst.append(paragraph)
-
-            content = '\n\n'.join(paragraphs_lst)
-            
-            if sys_override:
-                with open(out_filepath, 'w', encoding='utf-8') as f: 
-                    f.write(content)
-            else: 
-                with open(out_filepath, 'a', encoding='utf-8') as f: 
-                    f.write(content)
         
+        
+
+
+
+
 
 
 # ################################################################
 # MEDICINE >> BENEFITS
 # ################################################################
-
 
 # sys_override = True
 # entity = 'achillea-millefolium'
@@ -411,7 +913,7 @@ def write_plant_medicine_benefits():
         create_folder(f'database/articles/{entity}/medicine/benefits')
 
         # TODO: find a way to change path to >> f'database/tables/medicine/benefits.csv',
-        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine.csv', entity)
+        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
         benefits = [f'{x[1]}' for x in rows[:10]]
 
         for benefit in benefits:
@@ -432,6 +934,20 @@ def write_plant_medicine_benefits():
 # MAIN
 # ################################################################
 
-# write_plant_medicine_benefits()
 
-write_plant_medicine()
+# write_plant_medicine()
+write_plant_medicine_benefits()
+        
+
+
+
+for i, plant in enumerate(plants[1:num_articles+1]):
+    entity = plant[0]
+    # print(f'{i+1}/{num_articles} - {entity}')
+    # gen_plant_medicine_constituents(plant)
+    # print(f'{i+1}/{num_articles} - {entity}')
+    # gen_plant_medicine_preparations(plant)
+    # print(f'{i+1}/{num_articles} - {entity}')
+    # gen_plant_medicine_effects(plant)
+    # print(f'{i+1}/{num_articles} - {entity}')
+    # gen_plant_medicine_precautions(plant)

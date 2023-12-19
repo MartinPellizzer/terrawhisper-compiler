@@ -1,6 +1,6 @@
-- fix description generation in pinteres (generate .md in main.py on benefits articles)
-
-- do medicinal articles, before benefits articles
+- compile medicine articles (main.py)
+- generate benefits articles (ai)
+- scrape keywords
 
 - fix medicine benefits images (alt)
 - make all medicine benefits articles

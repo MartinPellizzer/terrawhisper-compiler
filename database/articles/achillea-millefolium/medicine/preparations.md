@@ -1,25 +1,15 @@
-Yarrow offers versatile health preparations, including yarrow tea, tincture, infused oil, poultice, capsules, salve, compress, essential oil, powder, bath, and inhalation. These diverse forms enable yarrow's use for medicinal teas, topical treatments, aromatherapy, and dietary supplements, catering to a wide range of health needs, from wound care to relaxation.
+Yarrow has many medicinal preparations, such as infusions, decoctions, tinctures, powders, salves, oils, extracts, capsules, essential oils, and teas. Each of these forms serves a specific purpose in treating a variety of health issues due to its various healing properties. To better understand these preparations, let's examine each one individually.
 
-Yarrow Tea, a classic preparation, involves steeping 2-3 grams of dried yarrow leaves and flowers in 250 ml (8.45 oz) of hot water. This infusion, rich in flavonoids and antioxidants, offers a soothing herbal drink.
+ An infusion is made by steeping yarrow leaves or dried plant in boiling water for several minutes, which then allows the active ingredients to seep into the water, turning it into a liquid that can be consumed as tea or applied topically. Infusions are often used to treat minor wounds and skin irritations because they contain anti-inflammatory properties that help soothe these conditions.
 
-For a more concentrated approach, there's the Yarrow Tincture. In this method, 20-30 grams of yarrow are macerated in 100 ml (3.38 oz) of alcohol (40-60% ethanol). The resulting tincture packs a potent punch of yarrow compounds suitable for medicinal use.
+ A decoction is created by simmering yarrow leaves in water for an extended period of time, which helps release more potent active ingredients from the plant into the liquid. This process is commonly used to treat respiratory issues such as coughs and congestion because it contains expectorant properties that assist with clearing mucus from the airways.
 
-Yarrow's benefits extend to skincare as well. Yarrow Infused Oil involves steeping 30 grams of yarrow in 100 ml (3.38 oz) of a carrier oil like olive or coconut oil. The resulting oil is a prized ingredient for massages and skin care, thanks to its anti-inflammatory and healing properties.
+ A tincture involves using an alcohol solvent, like vodka or glycerin, to extract the active components of the plant for use in a more concentrated form. Tinctures are used as herbal remedies and can be applied directly onto wounds, taken internally for overall immune support, or utilized externally to relieve pain and promote healing in various parts of the body.
 
-In cases of wounds or skin irritations, a Yarrow Poultice is the go-to choice. By mashing fresh or dried yarrow and applying it topically, the herb's antimicrobial and astringent properties promote wound healing.
+ A powder is made by drying and grinding yarrow leaves into a fine substance that can be easily incorporated into other preparations or consumed on its own. Powdered yarrow is often used as a topical application to assist in wound healing, due to its antiseptic properties.
 
-Those seeking a standardized dose of yarrow often turn to Yarrow Capsules, which typically contain 300-600 mg of yarrow per capsule. This method provides a convenient way to access yarrow's benefits in measured amounts.
+ Salves are ointments made from combining herbal ingredients with an oil base, such as olive oil or coconut oil, along with beeswax, which helps solidify the salve. Yarrow salves are great for promoting skin health and healing, as they can be applied to areas where there is inflammation, irritation or swelling due to their soothing properties.
 
-Yarrow Salves, created by combining yarrow-infused oil with beeswax (often at a ratio of 1:5), are effective for addressing skin issues when applied topically.
+ Oils extracted from yarrow leaves have a variety of uses, including as a base for massage oils that help relax muscles and relieve stress. Extracts contain concentrated doses of specific components found in the plant, making them suitable for use in capsules or supplements that can be ingested to support overall health.
 
-Yarrow's versatility continues with the Yarrow Compress, where a cloth soaked in yarrow tea or diluted yarrow tincture is applied to reduce inflammation. A common dilution ratio is 1:3 (yarrow tea to water) for compresses.
-
-Yarrow Essential Oil is utilized in aromatherapy or diluted for topical use, typically with a 1-2% dilution ratio (1-2 ml of yarrow essential oil per 100 ml of carrier oil).
-
-Yarrow powder, typically 1-2 grams (0.035-0.07 oz) per serving, is added to smoothies, soups, or other foods for a nutritional boost.
-
-An enjoyable and relaxing way to utilize yarrow is by taking a Yarrow Bath, achieved by infusing bathwater with 30-60 grams of dried yarrow in a standard bath (around 150 liters or 39.63 gallons). This practice eases muscle tension and promotes relaxation.
-
-For respiratory relief, Yarrow Inhalation involves inhaling steam from a bowl of hot water infused with 10 grams of yarrow per 500 ml (16.91 oz) of water.
-
-Lastly, a Yarrow Foot Soak is prepared by adding 15-20 grams of dried yarrow to a basin containing 5 liters (1.32 gallons) of warm water. This soothing soak is particularly beneficial for tired feet and circulation.
+ Finally, essential oils distill yarrow's aromatic compounds into a highly potent liquid form, which can be used in aromatherapy practices or diluted with a carrier oil for topical application.
