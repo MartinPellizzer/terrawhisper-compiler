@@ -1,6 +1,6 @@
 # Horse chestnut (Aesculus hippocastanum) Medicinal Guide: Benefits, Constituents, and Preparations
 
-![Aesculus Hippocastanum Medicinal Guide](/images/aesculus-hippocastanum-medicine-overview.jpg "Aesculus Hippocastanum Medicinal Guide")
+![Aesculus Hippocastanum Medicinal Guide](/images/aesculus-hippocastanum-medicine-introduction.jpg "Aesculus Hippocastanum Medicinal Guide")
 
 Horse chestnut, scientifically known as Aesculus hippocastanum, is a tree that has been used for centuries for its medicinal and culinary properties. The seeds of the horse chestnut are high in vitamin C and have been used to treat various ailments such as coughs and colds. Additionally, the bark and leaves can be made into a tea which helps alleviate joint pain and swelling. The young shoots of the tree can also be cooked and eaten like asparagus.
 

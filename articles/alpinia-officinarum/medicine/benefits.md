@@ -1,6 +1,6 @@
 # 10 Health Benefits of Galangal (Alpinia officinarum)
 
-![Galangal's Medicinal Benefits](/images/alpinia-officinarum-medicine-benefits-overview.jpg "Galangal's Medicinal Benefits")
+![Galangal's Medicinal Benefits](/images/alpinia-officinarum-medicine-benefits-introduction.jpg "Galangal's Medicinal Benefits")
 
 Galangal, known for its medicinal properties, offers diverse health benefits. Its digestive aid stems from volatile oils like cineole, easing gastrointestinal discomforts and reducing inflammation. The plant's immune-boosting features, mainly derived from polyphenols, combat oxidative stress, bolstering the body's defenses and reducing inflammation-related symptoms.
 
@@ -32,7 +32,7 @@ Galangin, found within the herb galangal, is a type of flavonoid known for its a
 
 The illustration below shows some common health conditions that benefits from the fact that galangal reduces inflammation.
 
-![Galangal Attribute_2](/images/alpinia-officinarum-reduces-inflammation.jpg "Galangal Attribute_2")
+![Galangal Attribute_2](//images/alpinia-officinarum-reduces-inflammation.jpg "Galangal Attribute_2")
 
 Galangal's ability to reduce inflammation is a key factor that aids in treating various health conditions. Inflammation can cause problems in different parts of the body, from muscles and joints to skin. It plays a role in the development of diseases such as arthritis and gout, which are characterized by excessive swelling and pain around these regions. Moreover, inflammation can also worsen existing conditions like joint pain or muscle soreness, affecting everyday tasks. Skin irritations may also stem from chronic inflammation. Thus, incorporating galangal in the diet due to its anti-inflammatory properties can help alleviate these issues and promote overall wellbeing.
 
@@ -54,7 +54,7 @@ Shikimic acid, a key component of galangal, plays a vital role in the production
 
 The illustration below shows some common health conditions that benefits from the fact that galangal promotes digestion.
 
-![Galangal Attribute_2](/images/alpinia-officinarum-promotes-digestion.jpg "Galangal Attribute_2")
+![Galangal Attribute_2](//images/alpinia-officinarum-promotes-digestion.jpg "Galangal Attribute_2")
 
 Galangal's ability to enhance digestion has significant effects on several health conditions that involve the gastrointestinal system. When it comes to digestive issues, galangal works as a natural aid by stimulating the production of enzymes and acids necessary for proper food breakdown. This promotes smoother digestion, reducing common symptoms such as bloating and stomach discomfort. Moreover, those struggling with heartburn and gastrointestinal reflux can also benefit from galangal's assistance in regulating the flow of stomach contents into the esophagus, thereby minimizing irritation and burning sensations. In cases of nausea, it helps alleviate symptoms by easing an overly active digestive system or settling the stomach when experiencing motion sickness. All these health conditions directly correlate with improved digestion, making galangal a valuable component for holistic well-being.
 
@@ -76,7 +76,7 @@ Gingerols, shogaols, and chavicol present in galangal, contribute to its anti-in
 
 The illustration below shows some common health conditions that benefits from the fact that galangal boosts immune system.
 
-![Galangal Attribute_2](/images/alpinia-officinarum-boosts-immune-system.jpg "Galangal Attribute_2")
+![Galangal Attribute_2](//images/alpinia-officinarum-boosts-immune-system.jpg "Galangal Attribute_2")
 
 Galangal's ability to strengthen the immune system has multiple benefits for various health concerns. A powerful component that enables your body to fight off infections and illnesses better, it can help you deal with immunity issues directly, making you less susceptible to common ailments like colds and flu. It also helps with allergies by alleviating symptoms such as sneezing, runny nose, and watery eyes. Inflammation can be reduced due to galangal's anti-inflammatory properties, which are beneficial for conditions like arthritis. Moreover, it may help manage stress levels, contributing to better overall health. Lastly, digestive problems can improve as galangal aids in the production of gastric enzymes and helps regulate digestion. Additionally, its antioxidant properties aid in fighting against aging-related issues.
 
@@ -98,7 +98,7 @@ Galangin is a component of galangal that possesses anti-inflammatory properties,
 
 The illustration below shows some common health conditions that benefits from the fact that galangal supports joint health.
 
-![Galangal Attribute_2](/images/alpinia-officinarum-supports-joint-health.jpg "Galangal Attribute_2")
+![Galangal Attribute_2](//images/alpinia-officinarum-supports-joint-health.jpg "Galangal Attribute_2")
 
 Galangal's ability to support joint health stems from its rich composition of nutrients and antioxidants that help alleviate pain and inflammation in the body. It contributes to the management of various conditions related to joints, such as joint pain, arthritis, muscle soreness, poor range of motion, inflammation, and swelling. By addressing these issues, galangal becomes beneficial not just for immediate relief but also for long-term maintenance of overall joint health and mobility.
 
@@ -120,7 +120,7 @@ Galangin, a component of galangal, helps to relieve pain by functioning as an an
 
 The illustration below shows some common health conditions that benefits from the fact that galangal relieves pain.
 
-![Galangal Attribute_2](/images/alpinia-officinarum-relieves-pain.jpg "Galangal Attribute_2")
+![Galangal Attribute_2](//images/alpinia-officinarum-relieves-pain.jpg "Galangal Attribute_2")
 
 Galangal's ability to relieve pain comes from its active components like gingerols and shogaols, which can ease inflammation and reduce swelling. These pain-relieving characteristics contribute immensely in providing relief for various health issues. In arthritis, it soothes joint pain and stiffness; muscle soreness benefits from reduced inflammation and faster recovery; headaches receive relief as blood vessels dilate; menstrual cramps benefit from its anti-inflammatory properties; joint pain also experiences relief due to galangal's analgesic nature, while inflammation is tackled in feverish chills with fever reduction. Galangal's versatility makes it a useful natural remedy for multiple ailments involving pain and inflammation.
 
@@ -142,7 +142,7 @@ Galangal's constituent, galangin, can enhance mood and improve overall well-bein
 
 The illustration below shows some common health conditions that benefits from the fact that galangal increases energy levels.
 
-![Galangal Attribute_2](/images/alpinia-officinarum-increases-energy-levels.jpg "Galangal Attribute_2")
+![Galangal Attribute_2](//images/alpinia-officinarum-increases-energy-levels.jpg "Galangal Attribute_2")
 
 Galangal's ability to increase energy levels is significant for several health conditions. When the body lacks energy, it can lead to various problems such as fatigue, low energy levels, and lethargy. These issues can affect daily activities and overall well-being. Physical exhaustion and mental tiredness are other areas where galangal's energy-boosting properties may prove helpful by offering improved alertness and focus. Stress-related anxiety is often associated with a constant drain on the body's resources, leading to further depletion of energy reserves. Consuming galangal can help manage this condition by reducing stress levels and improving mental health. Finally, individuals dealing with chronic illnesses may benefit from increased energy levels, allowing them to cope better with their condition and maintain a more positive outlook on life.
 
@@ -164,7 +164,7 @@ Galactose, a sugar often found in dairy products like milk and used by your body
 
 The illustration below shows some common health conditions that benefits from the fact that galangal aids in weight loss.
 
-![Galangal Attribute_2](/images/alpinia-officinarum-aids-in-weight-loss.jpg "Galangal Attribute_2")
+![Galangal Attribute_2](//images/alpinia-officinarum-aids-in-weight-loss.jpg "Galangal Attribute_2")
 
 Galangal's ability to help promote weight loss can be beneficial in addressing several health concerns related to body weight management. This tropical plant's active components aid in metabolic issues and obesity, boosting energy levels and improving overall well-being. Additionally, it supports digestive health by enhancing the body's ability to process food efficiently and extract nutrients effectively. By doing so, galangal can help alleviate symptoms associated with a slow metabolism and inefficient energy production, leading to improved physical and mental performance.
 
@@ -186,7 +186,7 @@ Gingerol, a key component of galangal, plays an important role in improving brai
 
 The illustration below shows some common health conditions that benefits from the fact that galangal improves brain function.
 
-![Galangal Attribute_2](/images/alpinia-officinarum-improves-brain-function.jpg "Galangal Attribute_2")
+![Galangal Attribute_2](//images/alpinia-officinarum-improves-brain-function.jpg "Galangal Attribute_2")
 
 Galangal's ability to enhance brain function is significant for various reasons. It positively impacts several aspects of our mental health, including memory enhancement by promoting better retention and recall, cognitive development through stimulating learning and problem-solving abilities, focus improvement by helping us concentrate more efficiently on tasks at hand, brain clarity as it reduces mental fogginess, mental performance by boosting overall brain activity, and neurological wellness by supporting healthy brain structure and function. These benefits work together to promote an optimally functioning mind.
 
@@ -209,7 +209,7 @@ Shogaol, gingerols, terpenes, 1'-acetoxychavicol acetate, zingiberene are all co
 
 The illustration below shows some common health conditions that benefits from the fact that galangal reduces nausea and vomiting.
 
-![Galangal Attribute_2](/images/alpinia-officinarum-reduces-nausea-and-vomiting.jpg "Galangal Attribute_2")
+![Galangal Attribute_2](//images/alpinia-officinarum-reduces-nausea-and-vomiting.jpg "Galangal Attribute_2")
 
 Galangal's ability to minimize stomach ailments like nausea and vomiting plays a significant role in improving the conditions that accompany them. These include nausea, vomiting as independent situations themselves and as components of morning sickness experienced during pregnancy, sea or motion sickness induced by movement or environmental factors, chemotherapy side-effects of stomach disturbances, and gastroenteritis caused by an infection or food poisoning. By alleviating these symptoms, galangal effectively manages diverse health concerns where nausea and vomiting are involved.
 
@@ -231,7 +231,7 @@ Gingerols and shogaol, both found in ginger, have antioxidant properties which h
 
 The illustration below shows some common health conditions that benefits from the fact that galangal protects against oxidative stress.
 
-![Galangal Attribute_2](/images/alpinia-officinarum-protects-against-oxidative-stress.jpg "Galangal Attribute_2")
+![Galangal Attribute_2](//images/alpinia-officinarum-protects-against-oxidative-stress.jpg "Galangal Attribute_2")
 
 Galangal's ability to counter oxidative stress is significant in combating various health issues. Oxidation occurs when an imbalance between free radicals and antioxidants exists, leading to cell damage. This can result in the development of chronic diseases such as cancer, heart disease, diabetes, arthritis, Alzheimer's disease, liver ailments, high blood pressure, and more. By protecting against oxidative stress, galangal helps maintain overall health and reduce the risk of these conditions.
 

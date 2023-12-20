@@ -1,6 +1,6 @@
 # Celery (Apium graveolens) Medicinal Guide: Benefits, Constituents, and Preparations
 
-![Apium Graveolens Medicinal Guide](/images/apium-graveolens-medicine-overview.jpg "Apium Graveolens Medicinal Guide")
+![Apium Graveolens Medicinal Guide](/images/apium-graveolens-medicine-introduction.jpg "Apium Graveolens Medicinal Guide")
 
 Celery, scientifically known as Apium graveolens, is a versatile plant with both medicinal and culinary uses. Its crunchy stalks and aromatic leaves have been used in cooking for centuries, providing a fresh flavor to soups, salads, and stews. Celery is also rich in nutrients such as vitamin K, potassium, folate, and antioxidants, making it a healthy addition to any diet. Furthermore, celery has been traditionally used for its medicinal properties, particularly as a natural diuretic to relieve water retention and promote urination. Its essential oils have also been utilized in aromatherapy for their calming and soothing effects on the mind.
 

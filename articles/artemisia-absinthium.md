@@ -1,4 +1,4 @@
-<h1>What To Know Before Using Wormwood (Artemisia Absinthium)</h1>![Artemisia Absinthium Overview](/images/artemisia-absinthium-overview.jpg "Artemisia Absinthium Overview")
+<h1>What To Know Before Using Wormwood (Artemisia Absinthium)</h1>![Artemisia Absinthium Overview](/images/artemisia-absinthium-introduction.jpg "Artemisia Absinthium Overview")
 
 Wormwood, scientifically known as Artemisia absinthium, is a perennial herb that has been used for its medicinal and culinary properties for centuries. Native to Europe, North Africa, and Asia, this plant can grow up to 120 cm tall and has small yellow flowers on the top of its branches. It also produces an essential oil, known as absinthium oil, which is used in aromatherapy and herbal medicine.
 

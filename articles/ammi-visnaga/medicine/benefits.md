@@ -1,6 +1,6 @@
 # 10 Health Benefits of Visnaga (Ammi visnaga)
 
-![Visnaga's Medicinal Benefits](/images/ammi-visnaga-medicine-benefits-overview.jpg "Visnaga's Medicinal Benefits")
+![Visnaga's Medicinal Benefits](/images/ammi-visnaga-medicine-benefits-introduction.jpg "Visnaga's Medicinal Benefits")
 
 Visnaga, known for its various medicinal properties, exhibits the ability to act as a diuretic, facilitating increased urine production and the elimination of excess water and salts from the body. This effect is primarily attributed to its key constituents, khellin and visnagin. Khellin, comprising about 1.5% to 3% of the dried Visnaga plant, functions as a smooth muscle relaxant and vasodilator, while visnagin, present in quantities from 0.5% to 1.5%, amplifies these effects, stimulating the kidneys to boost urine output. Its diuretic properties offer relief for conditions such as edema, commonly linked to congestive heart failure, kidney disorders, or liver conditions, aiding in reducing fluid retention and alleviating associated discomforts like swelling and bloating. Utilizing primarily seeds and fruits, which contain concentrated amounts of khellin and visnagin, Visnaga extracts or supplements serve as effective diuretics, potentially aiding in managing high blood pressure by reducing fluid volume in the bloodstream.
 
@@ -28,7 +28,7 @@ Viscumin is an anti-inflammatory compound found in Visnaga, which helps soothe s
 
 The illustration below shows some common health conditions that benefits from the fact that visnaga reduces inflammation.
 
-![Visnaga Attribute_2](/images/ammi-visnaga-reduces-inflammation.jpg "Visnaga Attribute_2")
+![Visnaga Attribute_2](//images/ammi-visnaga-reduces-inflammation.jpg "Visnaga Attribute_2")
 
 Visnaga's ability to reduce inflammation affects different parts of the body in various ways, improving health conditions. Arthritis and gout both involve joint pain due to inflammation; visnaga reduces swelling, offering relief. Inflammatory bowel diseases like Crohn's and ulcerative colitis have symptoms such as abdominal pain and diarrhea; the herb's anti-inflammatory effects ease discomfort. Asthma is a respiratory issue, with inflammation in airways causing shortness of breath - reducing inflammation can help. Acne and eczema are skin conditions caused by excessive oil production and immune responses respectively; visnaga's properties could help manage these. Lastly, allergies involve an overreaction to substances that aren't usually harmful; visnaga may help regulate the body's response to allergens.
 
@@ -50,7 +50,7 @@ Furostanol saponins are a class of phytochemicals, naturally found in Visnaga an
 
 The illustration below shows some common health conditions that benefits from the fact that visnaga lowers blood pressure.
 
-![Visnaga Attribute_2](/images/ammi-visnaga-lowers-blood-pressure.jpg "Visnaga Attribute_2")
+![Visnaga Attribute_2](//images/ammi-visnaga-lowers-blood-pressure.jpg "Visnaga Attribute_2")
 
 Visnaga's ability to lower blood pressure is crucial for reducing some conditions connected with poor circulation and increased strain on the cardiovascular system. Hypertension, high blood pressure, and other health problems such as cardiovascular disease, stroke, heart attack, atherosclerosis, cognitive decline can all be impacted negatively when blood pressure remains persistently elevated. In essence, visnaga plays an essential role in improving blood circulation and reducing the risk of these detrimental conditions by maintaining healthy blood pressure levels.
 
@@ -72,7 +72,7 @@ Flavonoids are a large and varied class of plant pigments, and in addition to gi
 
 The illustration below shows some common health conditions that benefits from the fact that visnaga boosts immune system.
 
-![Visnaga Attribute_2](/images/ammi-visnaga-boosts-immune-system.jpg "Visnaga Attribute_2")
+![Visnaga Attribute_2](//images/ammi-visnaga-boosts-immune-system.jpg "Visnaga Attribute_2")
 
 Visnaga's ability to boost the immune system is crucial for ensuring effective responses against various health issues. It plays a vital role in enhancing our body's natural defenses, which help protect us from pathogens and external threats. This enhancement aids in reducing inflammation, promoting faster wound healing, and defending against bacterial infections by targeting harmful microbes before they can cause harm. Additionally, strengthening the immune system contributes to better cellular regeneration, improved overall well-being, and helps manage oxidative stress, which can lead to chronic diseases if left unchecked.
 
@@ -94,7 +94,7 @@ Beta-sitosterol is a phytosterol found in plants which helps manage various cond
 
 The illustration below shows some common health conditions that benefits from the fact that visnaga supports digestive system.
 
-![Visnaga Attribute_2](/images/ammi-visnaga-supports-digestive-system.jpg "Visnaga Attribute_2")
+![Visnaga Attribute_2](//images/ammi-visnaga-supports-digestive-system.jpg "Visnaga Attribute_2")
 
 Visnaga's ability to aid the digestive system is crucial for a healthy body function and contributes significantly in addressing various health issues. When it comes to constipation, diarrhea, indigestion, flatulence, irritable bowel syndrome (IBS), acid reflux, and heartburn, visnaga plays an essential role by regulating the movement of food through the gastrointestinal tract, promoting better absorption of nutrients and efficient removal of waste products. This balance creates comfort against unwanted conditions and ensures overall well-being.
 
@@ -116,7 +116,7 @@ Phenylethylamine is a natural chemical produced by the human body that can help 
 
 The illustration below shows some common health conditions that benefits from the fact that visnaga relieves skin problems.
 
-![Visnaga Attribute_2](/images/ammi-visnaga-relieves-skin-problems.jpg "Visnaga Attribute_2")
+![Visnaga Attribute_2](//images/ammi-visnaga-relieves-skin-problems.jpg "Visnaga Attribute_2")
 
 Visnaga's ability to alleviate skin issues. Beneficial for various conditions like acne, eczema, psoriasis, rosacea, dermatitis and rash as it works by targeting inflammation, supporting immune responses, regulating oil production, and improving overall skin health. It provides relief from irritation, redness, and discomfort related to these conditions, ultimately contributing to healthier and more radiant skin.
 
@@ -138,7 +138,7 @@ Flavonoids found in visnaga help improve heart health by reducing inflammation a
 
 The illustration below shows some common health conditions that benefits from the fact that visnaga improves heart health.
 
-![Visnaga Attribute_2](/images/ammi-visnaga-improves-heart-health.jpg "Visnaga Attribute_2")
+![Visnaga Attribute_2](//images/ammi-visnaga-improves-heart-health.jpg "Visnaga Attribute_2")
 
 Visnaga's ability to promote better heart function comes from its antioxidant and anti-inflammatory properties that help maintain healthy blood vessels and prevent the buildup of plaque, reducing the risk of various cardiovascular diseases. It is useful in treating conditions related to irregular heartbeats or poor circulation, such as arrhythmias and Raynaud's syndrome. Furthermore, it can lower high blood pressure (hypertension) and cholesterol levels, ultimately preventing atherosclerosis and reducing the risk of strokes by enhancing overall circulatory health.
 
@@ -160,7 +160,7 @@ Visnaga, a traditional herbal remedy, contains potent antioxidants and essential
 
 The illustration below shows some common health conditions that benefits from the fact that visnaga promotes healthy liver function.
 
-![Visnaga Attribute_2](/images/ammi-visnaga-promotes-healthy-liver-function.jpg "Visnaga Attribute_2")
+![Visnaga Attribute_2](//images/ammi-visnaga-promotes-healthy-liver-function.jpg "Visnaga Attribute_2")
 
 Visnaga's ability to enhance liver function aids various health conditions that involve the hepatological system. It helps in managing liver issues, such as hepatitis and cirrhosis; fatty liver disease, jaundice, and detoxification are also improved by visnaga's influence on metabolic processes. Additionally, better liver function may contribute to digestive health, which in turn affects overall well-being. By supporting the liver, visnaga can positively impact several bodily systems and their associated issues.
 
@@ -182,7 +182,7 @@ The variety of complex chemical compounds found within alkaloids, saponins, flav
 
 The illustration below shows some common health conditions that benefits from the fact that visnaga regulates blood sugar levels.
 
-![Visnaga Attribute_2](/images/ammi-visnaga-regulates-blood-sugar-levels.jpg "Visnaga Attribute_2")
+![Visnaga Attribute_2](//images/ammi-visnaga-regulates-blood-sugar-levels.jpg "Visnaga Attribute_2")
 
 Visnaga's ability to regulate blood sugar levels is significant because it affects how our bodies process glucose. This regulation plays a crucial role in maintaining healthy blood sugar levels and preventing fluctuations that can lead to several health issues, including type 2 diabetes, gestational diabetes, insulin resistance, prediabetes, high blood sugar levels, and metabolic syndrome. When we consume visnaga or use it as part of our diet, the regulation it provides contributes positively to our overall well-being. It keeps glucose in check and can help prevent these conditions from developing or worsening.
 
@@ -204,7 +204,7 @@ Coumarin, a natural occurring organic compound found in Visnaga, helps reduce ch
 
 The illustration below shows some common health conditions that benefits from the fact that visnaga reduces cholesterol levels.
 
-![Visnaga Attribute_2](/images/ammi-visnaga-reduces-cholesterol-levels.jpg "Visnaga Attribute_2")
+![Visnaga Attribute_2](//images/ammi-visnaga-reduces-cholesterol-levels.jpg "Visnaga Attribute_2")
 
 Visnaga's ability to lower cholesterol levels is advantageous for various health issues linked to excessive cholesterol build-up, such as high blood pressure, heart disease, and stroke. By regulating cholesterol levels, visnaga helps prevent the accumulation of fats and plaques in artery walls, which can lead to restricted blood flow, clot formation, or inflammation. This beneficial effect not only promotes cardiovascular health but also reduces the risk of developing related conditions that may negatively impact overall well-being. Therefore, the cholesterol-lowering property of visnaga makes it a potential natural aid for maintaining good heart and vascular health.
 
@@ -226,7 +226,7 @@ Limonene, a monoterpene found in Visnaga, helps prevent cancer by inhibiting the
 
 The illustration below shows some common health conditions that benefits from the fact that visnaga prevents cancer.
 
-![Visnaga Attribute_2](/images/ammi-visnaga-prevents-cancer.jpg "Visnaga Attribute_2")
+![Visnaga Attribute_2](//images/ammi-visnaga-prevents-cancer.jpg "Visnaga Attribute_2")
 
 Visnaga's ability to prevent cancer is due to its nutritive properties that can potentially aid in reducing the risk of developing various health conditions. Incorporating visnaga into a daily lifestyle through dietary intake or supplements might assist individuals who have already been diagnosed with diabetes, heart disease, obesity, high blood pressure, stroke, and inflammation. This herb may help manage symptoms related to these conditions by providing essential nutrients that promote overall well-being and proper function within the body systems.
 

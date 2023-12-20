@@ -1,6 +1,6 @@
 # 10 Health Benefits of Horse chestnut (Aesculus hippocastanum)
 
-![Horse chestnut's Medicinal Benefits](/images/aesculus-hippocastanum-medicine-benefits-overview.jpg "Horse chestnut's Medicinal Benefits")
+![Horse chestnut's Medicinal Benefits](/images/aesculus-hippocastanum-medicine-benefits-introduction.jpg "Horse chestnut's Medicinal Benefits")
 
 Horse Chestnut, rich in the bioactive compound aescin, offers various health benefits. It enhances circulation by reducing capillary permeability and fragility, strengthening blood vessel walls. Aescin's anti-inflammatory properties alleviate conditions like chronic venous insufficiency (CVI), varicose veins, and leg swelling. Horse Chestnut also relieves swelling by inhibiting inflammatory mediators, enhancing capillary integrity, and improving lymphatic drainage. Its aescin content strengthens capillaries, reducing the risk of fragility, benefiting CVI, varicose veins, and hemorrhoids.
 
@@ -28,7 +28,7 @@ Aesculin, escin, and chlorogenic acid are all compounds within horse chestnut th
 
 The illustration below shows some common health conditions that benefits from the fact that horse chestnut reduces blood pressure.
 
-![Horse Chestnut Attribute_2](/images/aesculus-hippocastanum-reduces-blood-pressure.jpg "Horse Chestnut Attribute_2")
+![Horse Chestnut Attribute_2](//images/aesculus-hippocastanum-reduces-blood-pressure.jpg "Horse Chestnut Attribute_2")
 
 Horse Chestnut's ability to regulate and lower blood pressure can significantly improve overall health by managing multiple related issues in one simple solution. High blood pressure is a primary risk factor for cardiovascular diseases, heart problems, stroke risks, and poor circulation; while lowering it may lessen complications linked to these conditions. Lowered blood pressure also contributes to improved circulation by limiting clogs in arteries due to fat build-up (atherosclerosis), thereby potentially mitigating edema – the swelling of body tissues caused by fluid leakage or poor circulation.
 
@@ -50,7 +50,7 @@ Escin is a component found in horse chestnut, and it is believed to lower choles
 
 The illustration below shows some common health conditions that benefits from the fact that horse chestnut lowers cholesterol levels.
 
-![Horse Chestnut Attribute_2](/images/aesculus-hippocastanum-lowers-cholesterol-levels.jpg "Horse Chestnut Attribute_2")
+![Horse Chestnut Attribute_2](//images/aesculus-hippocastanum-lowers-cholesterol-levels.jpg "Horse Chestnut Attribute_2")
 
 Horse Chestnut's ability to reduce cholesterol levels can significantly improve five associated health concerns; its potential role in helping these issues is explained below. High cholesterol, a common issue affecting many people, can be addressed as the plant lowers bad cholesterol and raises good cholesterol levels, leading to better overall heart health. This positive change affects heart disease risk by reducing chances of cardiovascular problems and decreases the likelihood of a stroke, which is often a direct outcome of poor blood circulation due to restricted vessels (arteries). Moreover, by controlling cholesterol, Horse Chestnut inhibits the development of artery plaque buildup, thereby preventing further blockages that can lead to reduced blood flow resulting in diminished oxygen delivery and circulation. In essence, all these benefits work together to maintain a healthy cardiovascular system.
 
@@ -72,7 +72,7 @@ Aesculin, a naturally occurring chemical compound in the plant's bark and seeds 
 
 The illustration below shows some common health conditions that benefits from the fact that horse chestnut improves heart health.
 
-![Horse Chestnut Attribute_2](/images/aesculus-hippocastanum-improves-heart-health.jpg "Horse Chestnut Attribute_2")
+![Horse Chestnut Attribute_2](//images/aesculus-hippocastanum-improves-heart-health.jpg "Horse Chestnut Attribute_2")
 
 Horse Chestnut's ability to improve heart health stems from its various beneficial properties. By addressing different aspects of cardiovascular well-being, this plant has the potential to help individuals struggling with diverse issues related to their hearts. These include high blood pressure, which can be regulated; heart disease, where improved circulation may reduce strain on the organ; cholesterol problems, as it aids in maintaining healthy levels; atherosclerosis by reducing plaque buildup; irregular rhythms by ensuring efficient pumping action; weakened function through enhanced efficiency; and stroke prevention due to better blood flow throughout the body. In essence, horse chestnut's heart benefits serve numerous vital roles within our cardiovascular system.
 
@@ -94,7 +94,7 @@ Flavonoids, being part of the horse chestnut, help boost the immune system by pr
 
 The illustration below shows some common health conditions that benefits from the fact that horse chestnut boosts immune system.
 
-![Horse Chestnut Attribute_2](/images/aesculus-hippocastanum-boosts-immune-system.jpg "Horse Chestnut Attribute_2")
+![Horse Chestnut Attribute_2](//images/aesculus-hippocastanum-boosts-immune-system.jpg "Horse Chestnut Attribute_2")
 
 Horse Chestnut's ability to enhance the body's immune system is vital for maintaining overall health and well-being. This benefit has significant implications on various health conditions. For example, a stronger immune response can help the body better fight off infections leading to illnesses like colds or flus, reducing the chances of contracting them. Also, allergy sufferers can see improvement, since strengthened immunity aids the body in handling allergens more effectively. Asthma symptoms may also be reduced as stronger immune systems are associated with better lung function and less inflammation. Lastly, boosted immunity contributes to faster wound healing and helps minimize recurring infections due to an enhanced ability to fight off pathogens.
 
@@ -116,7 +116,7 @@ Aesculin, being a type of compound derived from the horse chestnut plant, may wo
 
 The illustration below shows some common health conditions that benefits from the fact that horse chestnut promotes healthy skin.
 
-![Horse Chestnut Attribute_2](/images/aesculus-hippocastanum-promotes-healthy-skin.jpg "Horse Chestnut Attribute_2")
+![Horse Chestnut Attribute_2](//images/aesculus-hippocastanum-promotes-healthy-skin.jpg "Horse Chestnut Attribute_2")
 
 Horse Chestnut's ability to promote healthy skin stems from its rich content of flavonoids and other beneficial compounds that work together to support various functions necessary for keeping our skin looking radiant, smooth, and resilient. These nutrients aid in nourishing the skin, enhancing blood circulation, reducing inflammation, controlling excess oil production, and preventing damage caused by environmental factors. These effects have a positive impact on numerous health conditions related to the skin, such as acne, eczema, psoriasis, rosacea, dry skin, and wrinkles. Horse chestnut can help regulate sebum production in cases of acne-prone skin, soothe inflammation for people with eczema or psoriasis, reduce redness and swelling associated with rosacea, and maintain the moisture balance for those suffering from dry skin. Lastly, its antioxidant properties may help slow down the visible signs of aging like wrinkles.
 
@@ -138,7 +138,7 @@ Aesculin, a compound found in horse chestnut, is known for its astringent proper
 
 The illustration below shows some common health conditions that benefits from the fact that horse chestnut eases constipation.
 
-![Horse Chestnut Attribute_2](/images/aesculus-hippocastanum-eases-constipation.jpg "Horse Chestnut Attribute_2")
+![Horse Chestnut Attribute_2](//images/aesculus-hippocastanum-eases-constipation.jpg "Horse Chestnut Attribute_2")
 
 Horse Chestnut's ability to aid digestion and relieve constipation has multiple health benefits, notably for those suffering from conditions like constipation, irregular bowel movements, hard stools, slow intestinal peristalsis, potential surgery needs as with obstruction, fecal impaction, and difficulties in passing stool. By easing these symptoms, the horse chestnut supports a smooth gastrointestinal process, promoting overall digestive well-being.
 
@@ -160,7 +160,7 @@ Escin, as a major component of horse chestnut, helps support brain function by e
 
 The illustration below shows some common health conditions that benefits from the fact that horse chestnut supports brain function.
 
-![Horse Chestnut Attribute_2](/images/aesculus-hippocastanum-supports-brain-function.jpg "Horse Chestnut Attribute_2")
+![Horse Chestnut Attribute_2](//images/aesculus-hippocastanum-supports-brain-function.jpg "Horse Chestnut Attribute_2")
 
 Horse Chestnut's ability to support brain function aids various mental and emotional health issues due to its potential effects on cognitive performance. By boosting overall brain activity, it may help alleviate symptoms of dementia, Alzheimer's disease, cognitive impairment, memory loss, mental fatigue, and depression. This herbal remedy contributes positively by enhancing brain efficiency in numerous ways, thus benefiting our overall well-being. Remembering the different applications where the brain functions is crucial for understanding how horse chestnut aids these conditions. It's clear that this plant has the potential to make significant contributions in areas where mental health and wellbeing is concerned.
 
@@ -182,7 +182,7 @@ Aesculin, esculin, quercetin, proanthocyanidins, and rutin are antioxidant and a
 
 The illustration below shows some common health conditions that benefits from the fact that horse chestnut helps manage diabetes.
 
-![Horse Chestnut Attribute_2](/images/aesculus-hippocastanum-helps-manage-diabetes.jpg "Horse Chestnut Attribute_2")
+![Horse Chestnut Attribute_2](//images/aesculus-hippocastanum-helps-manage-diabetes.jpg "Horse Chestnut Attribute_2")
 
 Horse Chestnut's ability to manage diabetes can help various health conditions by controlling glucose levels in the body, which directly influences our organs, metabolism, and overall wellbeing. These controlled glucose levels then impact heart disease (affecting blood sugar, fat level in our blood), arthritis (reducing inflammation), asthma (regulating breathing), cholesterol issues (lowering bad cholesterol and triglycerides), obesity (maintaining a healthy body mass), blood pressure (improving vascular health). This natural remedy has many potential benefits, offering an alternative approach to managing these conditions.
 
@@ -204,7 +204,7 @@ Aesculin and esculin are both found in horse chestnut, these phytochemicals have
 
 The illustration below shows some common health conditions that benefits from the fact that horse chestnut reduces inflammation.
 
-![Horse Chestnut Attribute_2](/images/aesculus-hippocastanum-reduces-inflammation.jpg "Horse Chestnut Attribute_2")
+![Horse Chestnut Attribute_2](//images/aesculus-hippocastanum-reduces-inflammation.jpg "Horse Chestnut Attribute_2")
 
 Horse Chestnut's ability to reduce inflammation, being a key component in the body's response to injury or disease, plays a significant role in alleviating symptoms of various health conditions. Inflammation is the immune system's natural reaction to heal and protect our bodies from harm. Sometimes though, there is an excess of inflammation, leading to pain and discomfort. Arthritis, gout, edema, bruising, swelling, muscle aches, injuries are all conditions with either underlying or direct involvement in increased levels of inflammation causing associated symptoms. By reducing this overreaction, horse chestnut helps manage these health issues, allowing the body to heal more effectively while improving comfort and reducing discomfort.
 
@@ -226,7 +226,7 @@ Aesculin, esculin, and tannins all contain astringent properties which help to c
 
 The illustration below shows some common health conditions that benefits from the fact that horse chestnut improves blood circulation.
 
-![Horse Chestnut Attribute_2](/images/aesculus-hippocastanum-improves-blood-circulation.jpg "Horse Chestnut Attribute_2")
+![Horse Chestnut Attribute_2](//images/aesculus-hippocastanum-improves-blood-circulation.jpg "Horse Chestnut Attribute_2")
 
 Horse Chestnut's ability to enhance blood circulation has significant implications for several health issues. When your vein valves malfunction and your blood flow is impeded, you can experience varicose veins, chronic venous insufficiency, or even the more severe condition of venous ulcers. The swelling in legs due to poor blood flow, also known as edema, often results from a dysfunction in the lymphatic system that needs circulation improvement. Spider veins and leg cramps are other signs of weakened blood circulation, and finally, this botanical remedy may help prevent blood clots by maintaining optimal blood flow.
 

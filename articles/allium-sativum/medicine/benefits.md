@@ -1,6 +1,6 @@
 # 10 Health Benefits of Garlic (Allium sativum)
 
-![Garlic's Medicinal Benefits](/images/allium-sativum-medicine-benefits-overview.jpg "Garlic's Medicinal Benefits")
+![Garlic's Medicinal Benefits](/images/allium-sativum-medicine-benefits-introduction.jpg "Garlic's Medicinal Benefits")
 
 
 Garlic offers numerous health benefits, acting as a versatile ally in promoting overall well-being. Rich in bioactive compounds, garlic, when crushed or chopped, releases allicin, a key contributor to its immune-boosting properties. This sulfur-containing compound demonstrates antibacterial, antiviral, and antifungal effects, supported by additional immune-enhancing components like selenium, vitamins C, and B6.
@@ -31,7 +31,7 @@ Alliin, a precursor of allicin, is responsible for the strong smell and taste of
 
 The illustration below shows some common health conditions that benefits from the fact that garlic lowers blood pressure.
 
-![Garlic Attribute_2](/images/allium-sativum-lowers-blood-pressure.jpg "Garlic Attribute_2")
+![Garlic Attribute_2](//images/allium-sativum-lowers-blood-pressure.jpg "Garlic Attribute_2")
 
 Garlic's ability to lower blood pressure is a crucial factor in improving overall cardiovascular health. By doing so, it helps address several health issues that can arise from high blood pressure or poor heart function. For instance, hypertension, which is another name for high blood pressure, puts undue stress on the circulatory system leading to various complications if not adequately managed. Similarly, cardiovascular diseases like atherosclerosis and coronary artery disease can be alleviated due to garlic's potential cholesterol-lowering properties. The risk of stroke, which is a sudden loss of blood flow to the brain, can also be reduced as regular intake of garlic keeps blood pressure in check. Improved artery health is another benefit, as garlic may help prevent the buildup of plaque inside our vascular system, thus reducing the chance of future complications. Enhanced blood flow regulation enhances heart health by ensuring that vital organs receive sufficient oxygen and nutrients. In summary, garlic's blood pressure-lowering effects contribute significantly to overall better health of our cardiovascular system.
 
@@ -53,7 +53,7 @@ Allicin, a compound found in garlic, is known for its immune boosting benefits i
 
 The illustration below shows some common health conditions that benefits from the fact that garlic boosts immune system.
 
-![Garlic Attribute_2](/images/allium-sativum-boosts-immune-system.jpg "Garlic Attribute_2")
+![Garlic Attribute_2](//images/allium-sativum-boosts-immune-system.jpg "Garlic Attribute_2")
 
 Garlic's ability to boost immunity lies within its composition of sulfur-containing compounds that give it anti-inflammatory and antibacterial properties. These properties help fight respiratory infections, thus protecting from colds & flus. Also, they prevent blood clots, which reduce the risks for heart diseases. Garlic has a positive effect on glucose levels and insulin resistance, thus aiding those with diabetes by enhancing their body's ability to manage sugar intake effectively. Garlic helps in lowering high blood pressure by relaxing blood vessels and improving blood circulation. It contains antioxidants, which reduce cell damage that can lead to cancer. The fiber content in garlic aids digestion, thus benefiting those with digestive issues. Moreover, the natural compound Allicin within garlic boosts energy levels by increasing oxygen delivery and overall body efficiency.
 
@@ -75,7 +75,7 @@ Alliin, when metabolized into allicin and other sulfur-based compounds present i
 
 The illustration below shows some common health conditions that benefits from the fact that garlic reduces inflammation.
 
-![Garlic Attribute_2](/images/allium-sativum-reduces-inflammation.jpg "Garlic Attribute_2")
+![Garlic Attribute_2](//images/allium-sativum-reduces-inflammation.jpg "Garlic Attribute_2")
 
 Garlic's ability to combat inflammation is a significant health benefit because it has positive effects on various illnesses linked to swelling and irritation in the body, specifically diseases like rheumatoid arthritis (which involves painful joint inflammation), inflammatory bowel disease that creates internal gastrointestinal upset and damage, and asthma or allergies where the respiratory system is affected. Additionally, garlic can help reduce symptoms for chronic disorders such as gout (affecting the joints), cardiovascular issues like hypertension (that impacts blood vessels), and neuropathic pain (related to nerve-related inflammation). So, garlic's inflammation-fighting powers extend broadly across multiple health conditions.
 
@@ -97,7 +97,7 @@ Alliin, upon transforming into allicin, is responsible for fighting microbial pa
 
 The illustration below shows some common health conditions that benefits from the fact that garlic fights infection and disease.
 
-![Garlic Attribute_2](/images/allium-sativum-fights-infection-and-disease.jpg "Garlic Attribute_2")
+![Garlic Attribute_2](//images/allium-sativum-fights-infection-and-disease.jpg "Garlic Attribute_2")
 
 Garlic's ability to fight infections and diseases derives from its rich content of sulfur compounds like allicin, which possess potent antimicrobial, anti-inflammatory, and immune system boosting properties. These qualities help combat various health issues such as infection, disease, aid the body's defense mechanisms (immune system), improve cardiovascular health by lowering blood pressure, manage blood vessel inflammation, and enhance digestion by promoting healthy bowel functions. All these benefits stem from garlic's unique combination of medicinal properties.
 
@@ -119,7 +119,7 @@ Organosulfur compounds and its many derivatives, such as allicin, diallyl trisul
 
 The illustration below shows some common health conditions that benefits from the fact that garlic lowers cholesterol levels.
 
-![Garlic Attribute_2](/images/allium-sativum-lowers-cholesterol-levels.jpg "Garlic Attribute_2")
+![Garlic Attribute_2](//images/allium-sativum-lowers-cholesterol-levels.jpg "Garlic Attribute_2")
 
 Garlic's ability to lower cholesterol levels can contribute to better overall heart health and protect our cardiovascular system by maintaining an optimal balance of substances, such as high-density lipoprotein (good) cholesterol and low-density lipoprotein (bad) cholesterol. This beneficial effect reduces the risks of several serious health issues, including high cholesterol, heart disease, stroke, cardiovascular problems, artery plaque buildup, blood vessel impairment, and atherosclerosis which causes hardening and narrowing of arterial walls that can lead to severe complications.
 
@@ -141,7 +141,7 @@ Alliinase converts allicin into various compounds when garlic is crushed or chop
 
 The illustration below shows some common health conditions that benefits from the fact that garlic promotes healthy digestion.
 
-![Garlic Attribute_2](/images/allium-sativum-promotes-healthy-digestion.jpg "Garlic Attribute_2")
+![Garlic Attribute_2](//images/allium-sativum-promotes-healthy-digestion.jpg "Garlic Attribute_2")
 
 Garlic's ability to support digestive health is crucial for maintaining overall well-being. It aids in easing gastrointestinal problems that might result from indigestion, bloating, or upset stomach issues due to its anti-inflammatory properties. It also helps with the movement of food through the gut by addressing gas and constipation concerns. Additionally, garlic's antibacterial characteristics help relieve symptoms such as diarrhea and heartburn by keeping harmful bacteria in check. In summary, garlic promotes digestive health, enabling better functioning and preventing numerous gastrointestinal issues that impact one's quality of life.
 
@@ -163,7 +163,7 @@ Allicin, one of the main components found in garlic, has been shown to prevent c
 
 The illustration below shows some common health conditions that benefits from the fact that garlic prevents cancer cell growth.
 
-![Garlic Attribute_2](/images/allium-sativum-prevents-cancer-cell-growth.jpg "Garlic Attribute_2")
+![Garlic Attribute_2](//images/allium-sativum-prevents-cancer-cell-growth.jpg "Garlic Attribute_2")
 
 Garlic's ability to inhibit the proliferation of cancerous cells has been widely documented, meaning it slows down their growth. This benefit is crucial for all stages of cancer prevention, as it helps to halt or even reverse the progression of malignant tumors. As a bonus, garlic also affects various non-cancer health concerns, such as reducing cholesterol levels and improving heart health by promoting healthy blood flow. It boosts the immune system, aiding in digestion, regulating blood pressure, decreasing inflammation that exacerbates conditions like arthritis, and overall enhancing bodily functions.
 
@@ -185,7 +185,7 @@ Allinase, which breaks down other active compounds in garlic, can contribute to 
 
 The illustration below shows some common health conditions that benefits from the fact that garlic supports cardiovascular health.
 
-![Garlic Attribute_2](/images/allium-sativum-supports-cardiovascular-health.jpg "Garlic Attribute_2")
+![Garlic Attribute_2](//images/allium-sativum-supports-cardiovascular-health.jpg "Garlic Attribute_2")
 
 Garlic's ability to support cardiovascular health stems from its significant impacts on various factors that influence our heart function. With high blood pressure, it eases tension in the blood vessels, allowing for better circulation and decreased risk of complications like aneurysms or strokes. Atherosclerosis is lessened as garlic prevents cholesterol oxidation, reducing plaque buildup in artery walls. Cholesterol issues are addressed as well; the allicin compound found in garlic can help lower LDL and triglycerides. Moreover, garlic reduces blood clotting risk by hindering platelet aggregation, thus averting dangerous blockages that could lead to heart attacks or strokes. In summary, its numerous cardiovascular benefits make it an ideal choice for overall heart health maintenance.
 
@@ -207,7 +207,7 @@ Alliin, a precursor of allicin which is responsible for the pungent smell and ta
 
 The illustration below shows some common health conditions that benefits from the fact that garlic improves brain function.
 
-![Garlic Attribute_2](/images/allium-sativum-improves-brain-function.jpg "Garlic Attribute_2")
+![Garlic Attribute_2](//images/allium-sativum-improves-brain-function.jpg "Garlic Attribute_2")
 
 Garlic's ability to enhance brain function has multiple advantages. By boosting mental activities, it can help individuals cope with cognitive decline, a common issue as we age. Moreover, Alzheimer's disease and memory issues are also targeted thanks to its brain-supporting properties. Garlic is known for improving mood disorders by easing stress and anxiety, which in turn promotes better concentration, focus, and overall mental well-being. Therefore, consuming garlic regularly contributes significantly to one's brain health.
 
@@ -229,7 +229,7 @@ Quercetin is a compound in garlic with anti-inflammatory and antioxidant propert
 
 The illustration below shows some common health conditions that benefits from the fact that garlic alleviates respiratory problems.
 
-![Garlic Attribute_2](/images/allium-sativum-alleviates-respiratory-problems.jpg "Garlic Attribute_2")
+![Garlic Attribute_2](//images/allium-sativum-alleviates-respiratory-problems.jpg "Garlic Attribute_2")
 
 Garlic's ability to address various ailments, including respiratory issues, stems from its potent combination of naturally occurring enzymes and sulfur compounds. These components work together to reduce inflammation within the airways, easing symptoms such as coughs, wheezing, chest congestion, and difficulty breathing. This makes it particularly beneficial for individuals suffering from respiratory problems like asthma, bronchitis, colds, and allergic reactions, allowing them to breathe more freely and easily.
 

@@ -1,4 +1,4 @@
-<h1>What To Know Before Using Visnaga (Ammi Visnaga)</h1>![Ammi Visnaga Overview](/images/ammi-visnaga-overview.jpg "Ammi Visnaga Overview")
+<h1>What To Know Before Using Visnaga (Ammi Visnaga)</h1>![Ammi Visnaga Overview](/images/ammi-visnaga-introduction.jpg "Ammi Visnaga Overview")
 
  Visnaga, scientifically known as Ammi visnaga, is a versatile plant that has been used for centuries for both its medicinal and culinary properties. This herbaceous biennial plant is native to the Mediterranean region and has been cultivated in many parts of the world due to its numerous health benefits. The seeds, leaves, and roots of visnaga are known to have diuretic, anti-inflammatory, and antispasmodic properties which help in treating various ailments such as urinary tract infections, arthritis, and digestive issues. Moreover, its seeds are used as a spice in many cuisines, particularly in Indian and Middle Eastern cooking. They have a unique flavor that is often compared to fennel and can be added to salads, soups, or stews for an extra kick.
 

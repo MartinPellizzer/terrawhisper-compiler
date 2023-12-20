@@ -1,6 +1,6 @@
 # 10 Health Benefits of Dong quai (Angelica sinensis)
 
-![Dong quai's Medicinal Benefits](/images/angelica-sinensis-medicine-benefits-overview.jpg "Dong quai's Medicinal Benefits")
+![Dong quai's Medicinal Benefits](/images/angelica-sinensis-medicine-benefits-introduction.jpg "Dong quai's Medicinal Benefits")
 
 
 Dong Quai, scientifically known as Angelica sinensis, offers various medicinal benefits through its diverse preparations. Its ability to regulate the menstrual cycle relies on compounds like ligustilide, constituting 0.1% to 0.3% of its root, alleviating irregular periods and menstrual cramps. Additionally, Dong Quai mitigates menopausal symptoms owing to its 1-2% ligustilide content, easing discomforts such as hot flashes and mood swings. The herb enhances blood circulation due to ferulic acid (0.5% to 1.7%) and ligustilide (1.5% to 2.5%), aiding cardiovascular health and oxygenation of tissues.
@@ -31,7 +31,7 @@ Phenolic compounds can help reduce hot flashes by acting as antioxidants and reg
 
 The illustration below shows some common health conditions that benefits from the fact that dong quai reduces hot flashes.
 
-![Dong Quai Attribute_2](/images/angelica-sinensis-reduces-hot-flashes.jpg "Dong Quai Attribute_2")
+![Dong Quai Attribute_2](//images/angelica-sinensis-reduces-hot-flashes.jpg "Dong Quai Attribute_2")
 
 Dong Quai's ability to reduce hot flashes makes it a great supplement for several health conditions that share similar symptoms like the ones mentioned above - menopause and menstruation-related issues, hormonal imbalances or mood fluctuations such as PMS, infertility problems, and stress-related disorders in women. This herb helps regulate the body's temperature and hormone levels, providing relief from uncomfortable sensations like hot flashes.
 
@@ -53,7 +53,7 @@ Coumestrol, a phytoestrogen, and other plant chemicals including volatile oil co
 
 The illustration below shows some common health conditions that benefits from the fact that dong quai improves blood circulation.
 
-![Dong Quai Attribute_2](/images/angelica-sinensis-improves-blood-circulation.jpg "Dong Quai Attribute_2")
+![Dong Quai Attribute_2](//images/angelica-sinensis-improves-blood-circulation.jpg "Dong Quai Attribute_2")
 
 Dong Quai's ability to enhance blood flow can positively impact a number of health issues. As a traditional Chinese medicine, it has been used for years due to its several potential therapeutic uses including aiding in menstrual disorders and menopausal symptoms, such as improving overall sexual function, relieving hot flashes, and easing mood swings. Additionally, dong quai can also help with digestive issues like bloating, constipation, and indigestion. Its circulatory benefits also play a role in preventing blood clots. Finally, this herb is known to boost the immune system and support overall well-being.
 
@@ -75,7 +75,7 @@ Acanthopanax sessiliflorus contains various compounds which may help improve bon
 
 The illustration below shows some common health conditions that benefits from the fact that dong quai boosts bone density.
 
-![Dong Quai Attribute_2](/images/angelica-sinensis-boosts-bone-density.jpg "Dong Quai Attribute_2")
+![Dong Quai Attribute_2](//images/angelica-sinensis-boosts-bone-density.jpg "Dong Quai Attribute_2")
 
 Dong Quai's ability to strengthen bone tissue is crucial for overall wellness in maintaining several health conditions. For those with osteoporosis, which causes weak and porous bones, dong quai provides nourishment to help improve bone density. This directly addresses the issue of brittle bones that are prone to fractures. In terms of arthritis patients whose joints are affected by inflammation, dong quai promotes joint health and flexibility, reducing pain and stiffness. Its role in addressing weak bones is also significant for those with muscle weakness, as it helps maintain bone strength that supports muscle function. Finally, dong quai offers post-menopausal women relief from symptoms resulting from bone loss after menopause.
 
@@ -97,7 +97,7 @@ Coumestrol, a phytoestrogen with estrogenic effects found in dong quai, has been
 
 The illustration below shows some common health conditions that benefits from the fact that dong quai fights cancer cells.
 
-![Dong Quai Attribute_2](/images/angelica-sinensis-fights-cancer-cells.jpg "Dong Quai Attribute_2")
+![Dong Quai Attribute_2](//images/angelica-sinensis-fights-cancer-cells.jpg "Dong Quai Attribute_2")
 
 Dong Quai's ability to interact on a cellular level is what makes it so impactful. By inhibiting the growth of cancer cells and reducing tumor size, this herb plays an important role in preventing cancer or lessening its severity. Moreover, by regulating cell growth, dong quai helps maintain overall balance and ensure optimal functioning for various body systems. This includes strengthening immunity, protecting the immune system from potential threats, and offering anti-inflammatory benefits to minimize inflammation and associated discomforts. These properties work together to support a healthier state against a variety of conditions related to cellular function.
 
@@ -119,7 +119,7 @@ Adenosine improves digestion by playing a key role in the body's energy producti
 
 The illustration below shows some common health conditions that benefits from the fact that dong quai improves digestion.
 
-![Dong Quai Attribute_2](/images/angelica-sinensis-improves-digestion.jpg "Dong Quai Attribute_2")
+![Dong Quai Attribute_2](//images/angelica-sinensis-improves-digestion.jpg "Dong Quai Attribute_2")
 
 Dong Quai's ability to enhance digestion can be beneficial for a variety of health concerns related to the gastrointestinal system. Firstly, by improving the body's digestive process, it helps alleviate digestive issues such as indigestion or nausea. Secondly, with improved digestion comes better bowel movements and thus relief from constipation. Thirdly, dong quai's assistance can mitigate discomfort associated with bloating due to proper gas absorption and distribution in the body. Furthermore, it may stimulate a better appetite by optimizing nutrient assimilation, which is essential for good overall health. Lastly, those who experience irritable bowel syndrome (IBS) might see a noticeable reduction of symptoms with dong quai's help as well due to its contribution in boosting digestive functioning and soothing the gut.
 
@@ -141,7 +141,7 @@ Phytoestrogens help balance hormones, which can relieve menstrual cramps by redu
 
 The illustration below shows some common health conditions that benefits from the fact that dong quai relieves menstrual cramps.
 
-![Dong Quai Attribute_2](/images/angelica-sinensis-relieves-menstrual-cramps.jpg "Dong Quai Attribute_2")
+![Dong Quai Attribute_2](//images/angelica-sinensis-relieves-menstrual-cramps.jpg "Dong Quai Attribute_2")
 
 Dong Quai's ability to reduce pain and regulate hormones directly impact the mentioned health conditions. For instance, menstrual cramps are a symptom that is improved when pain levels are reduced. Similarly, women suffering from pain associated with menopause feel relief due to its pain-relieving properties. Pre-menstrual syndrome or PMS is another condition affected as the herb helps alleviate some symptoms like mood swings and abdominal pain. Its relaxing effects on muscles are useful in muscle soreness, while headaches can also benefit from reduced tension. Infertility issues might improve due to hormone regulation, and stress-related disorders may be eased as dong quai helps maintain balance in the body. Dong Quai thus plays a multi-faceted role in addressing various health concerns.
 
@@ -163,7 +163,7 @@ Phytoestrogens are plant compounds found in dong quai that mimic the effects of 
 
 The illustration below shows some common health conditions that benefits from the fact that dong quai lowers cholesterol levels.
 
-![Dong Quai Attribute_2](/images/angelica-sinensis-lowers-cholesterol-levels.jpg "Dong Quai Attribute_2")
+![Dong Quai Attribute_2](//images/angelica-sinensis-lowers-cholesterol-levels.jpg "Dong Quai Attribute_2")
 
 Dong Quai's ability to decrease cholesterol levels can positively impact various health issues connected with its influence on cardiovascular wellbeing and systemic inflammation. By reducing the likelihood of blood vessel blockages, it helps in lowering the risk of cardiovascular diseases such as heart attacks and strokes. With high blood sugar and metabolic syndrome also linked to cholesterol levels, the cholesterol-lowering benefits of dong quai can indirectly assist with managing these conditions too.
 
@@ -185,7 +185,7 @@ Phytoestrogens balance hormones, helping to reduce stress and anxiety.. Polysacc
 
 The illustration below shows some common health conditions that benefits from the fact that dong quai reduces stress and anxiety.
 
-![Dong Quai Attribute_2](/images/angelica-sinensis-reduces-stress-and-anxiety.jpg "Dong Quai Attribute_2")
+![Dong Quai Attribute_2](//images/angelica-sinensis-reduces-stress-and-anxiety.jpg "Dong Quai Attribute_2")
 
 Dong Quai's ability to reduce stress can have a positive impact on various aspects of an individual's well-being, including physical and mental health. Stress has been associated with numerous health issues such as high blood pressure, weakened immune system, and even depression. By lowering anxiety levels, dong quai aids in preventing these problems from arising or worsening. Furthermore, reduced stress helps in regulating body functions, allowing for better digestion, sleep, and overall energy levels. Consequently, this herb's benefits on stress and anxiety can contribute to improved health outcomes across various systems of the human body.
 
@@ -207,7 +207,7 @@ Coumestans, as phytoestrogens can mimic the action of estrogen and help improve 
 
 The illustration below shows some common health conditions that benefits from the fact that dong quai enhances skin elasticity.
 
-![Dong Quai Attribute_2](/images/angelica-sinensis-enhances-skin-elasticity.jpg "Dong Quai Attribute_2")
+![Dong Quai Attribute_2](//images/angelica-sinensis-enhances-skin-elasticity.jpg "Dong Quai Attribute_2")
 
 Dong Quai's ability to promote better skin health has multiple implications for various skin conditions. For people grappling with skin aging, it can help reduce the effects of sun damage and preserve the skin's vitality. In sunburn recovery, dong quai accelerates healing as a gentle anti-inflammatory agent. Wrinkles reduction is another benefit, as this herb supports collagen production, which enhances skin elasticity. Stretch marks prevention can be achieved by using it for its antioxidant properties to inhibit free radical damage. Eczema relief stems from dong quai's ability to regulate the immune system and calm inflammation. Scar fading is also possible as dong quai can boost collagen production, which aids in smooth regenerated tissue during wound healing. Lastly, acne improvement can be achieved by its anti-inflammatory effects on the skin and potential ability to reduce oil secretion.
 
@@ -229,7 +229,7 @@ Patrinacine, a chemical compound found in Dong Quai, might have some effects on 
 
 The illustration below shows some common health conditions that benefits from the fact that dong quai reduces blood pressure.
 
-![Dong Quai Attribute_2](/images/angelica-sinensis-reduces-blood-pressure.jpg "Dong Quai Attribute_2")
+![Dong Quai Attribute_2](//images/angelica-sinensis-reduces-blood-pressure.jpg "Dong Quai Attribute_2")
 
 Dong Quai's ability to reduce blood pressure is significant for several health conditions related to the circulatory system and overall well-being. It can help lower high blood pressure and prevent hypertension, reducing the risk of heart disease, stroke, and other cardiovascular issues. Moreover, this adaptogen has the potential to support diabetics in managing blood sugar levels while alleviating complications related to kidney diseases caused by poor circulation and excess fluid buildup. In summary, dong quai's blood pressure-regulating properties make it a valuable herb for promoting better health across various circulatory systems concerns.
 

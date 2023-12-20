@@ -1,4 +1,4 @@
-<h1>What To Know Before Using Sweet Flag (Acorus Calamus)</h1>![Acorus Calamus Overview](/images/acorus-calamus-overview.jpg "Acorus Calamus Overview")
+<h1>What To Know Before Using Sweet Flag (Acorus Calamus)</h1>![Acorus Calamus Overview](/images/acorus-calamus-introduction.jpg "Acorus Calamus Overview")
 
 Sweet flag, scientifically known as Acorus calamus, is a versatile plant that has been used for centuries in both medicinal and culinary applications. Its rhizomes are rich in essential oils and have been traditionally used to treat various health conditions, such as digestive problems, inflammation, and respiratory issues. In addition to its medicinal properties, sweet flag is also a popular ingredient in herbal teas and various traditional cuisines. Its crispy texture and mildly sweet taste make it an excellent addition to soups, stews, and salads.
 

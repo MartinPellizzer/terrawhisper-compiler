@@ -1,6 +1,6 @@
 # 10 Health Benefits of Aloe vera (Aloe vera)
 
-![Aloe vera's Medicinal Benefits](/images/aloe-vera-medicine-benefits-overview.jpg "Aloe vera's Medicinal Benefits")
+![Aloe vera's Medicinal Benefits](/images/aloe-vera-medicine-benefits-introduction.jpg "Aloe vera's Medicinal Benefits")
 
 Aloe vera offers multiple health benefits attributed to its rich composition. It soothes irritation by reducing inflammation, aiding in conditions like sunburns, cuts, and insect bites. Its hydrating properties benefit dry skin and conditions like eczema. Aloe vera accelerates healing, particularly in wound closure and treating burns. 
 
@@ -28,7 +28,7 @@ Aloe vera gel, rich in polysaccharides, provides nutrients and hydration to the 
 
 The illustration below shows some common health conditions that benefits from the fact that aloe vera heals burns.
 
-![Aloe Vera Attribute_2](/images/aloe-vera-heals-burns.jpg "Aloe Vera Attribute_2")
+![Aloe Vera Attribute_2](//images/aloe-vera-heals-burns.jpg "Aloe Vera Attribute_2")
 
 Aloe Vera's ability to heal and soothe skin is widely recognized. It contains compounds such as vitamins, minerals, enzymes, amino acids, and antioxidants which contribute to its therapeutic effects. This makes it an ideal remedy for various skin-related issues like burns, skin irritation, sunburns, wound healing, inflammation, acne, and rosacea, all conditions which cause discomfort or even harm due to their impact on the skin's health.
 
@@ -50,7 +50,7 @@ Aloe gel helps soothe skin irritation because it contains various compounds such
 
 The illustration below shows some common health conditions that benefits from the fact that aloe vera soothes skin irritation.
 
-![Aloe Vera Attribute_2](/images/aloe-vera-soothes-skin-irritation.jpg "Aloe Vera Attribute_2")
+![Aloe Vera Attribute_2](//images/aloe-vera-soothes-skin-irritation.jpg "Aloe Vera Attribute_2")
 
 Aloe Vera's ability to relieve discomfort from agitated and damaged skin is especially relevant when it comes to addressing several common conditions including, but not limited to, skin irritation, sunburn, eczema, rosacea, inflammation, acne, and psoriasis. This natural remedy's properties allow for soothing effects on the skin by cooling down redness and providing much-needed hydration that helps speed up healing processes. Knowing the significance of aloe vera in offering respite from various skin ailments, it becomes evident how this benefit plays an essential role in reducing aggravated symptoms like irritation, pain, or even inflammation associated with these health conditions. By leveraging its nurturing properties, aloe vera can help restore the skin's balance and promote faster healing without the use of harsh chemicals.
 
@@ -72,7 +72,7 @@ Aloe vera gel contains substances like anthraquinones, lignin, and saponins that
 
 The illustration below shows some common health conditions that benefits from the fact that aloe vera reduces inflammation.
 
-![Aloe Vera Attribute_2](/images/aloe-vera-reduces-inflammation.jpg "Aloe Vera Attribute_2")
+![Aloe Vera Attribute_2](//images/aloe-vera-reduces-inflammation.jpg "Aloe Vera Attribute_2")
 
 Aloe Vera's ability to reduce inflammation plays a crucial role in addressing various health conditions. It can relieve symptoms of arthritis by decreasing swelling and pain around joints, improving mobility. Skin inflammation benefits from aloe vera as it helps soothe irritations and promotes healing. Gastrointestinal issues are also addressed since the plant's anti-inflammatory properties can help ease digestive discomfort. Wound healing is aided by aloe vera as its inflammation reduction properties accelerate the repair of tissues, promoting faster recovery. Similarly, it helps in managing inflammatory bowel disease symptoms, contributing to better gut health. Lastly, acne and psoriasis – which have skin-related inflammation – can significantly benefit from aloe vera's soothing effects on irritations while simultaneously aiding in healing the affected areas.
 
@@ -94,7 +94,7 @@ Polysaccharides contain essential sugars that help stimulate immune cells and pr
 
 The illustration below shows some common health conditions that benefits from the fact that aloe vera promotes wound healing.
 
-![Aloe Vera Attribute_2](/images/aloe-vera-promotes-wound-healing.jpg "Aloe Vera Attribute_2")
+![Aloe Vera Attribute_2](//images/aloe-vera-promotes-wound-healing.jpg "Aloe Vera Attribute_2")
 
 Aloe Vera's ability to stimulate and speed up the wound healing process makes it beneficial for various health conditions involving damaged skin. It helps in reducing inflammation that accompanies wounds, burns, or skin irritations like acne, psoriasis, and eczema. The gel also aids in soothing sunburns by providing relief from pain and promoting quick recovery of damaged skin. All these factors contribute to the overall improvement of skin health and well-being.
 
@@ -116,7 +116,7 @@ Anthraquinones are compounds found in aloe vera which help stimulate the bowel m
 
 The illustration below shows some common health conditions that benefits from the fact that aloe vera eases digestive problems.
 
-![Aloe Vera Attribute_2](/images/aloe-vera-eases-digestive-problems.jpg "Aloe Vera Attribute_2")
+![Aloe Vera Attribute_2](//images/aloe-vera-eases-digestive-problems.jpg "Aloe Vera Attribute_2")
 
 Aloe Vera's ability to relieve digestive discomfort is due to its rich content of nutrients and vitamins that help soothe and stimulate the intestinal tract, promoting regular bowel movements and reducing inflammation in the gastrointestinal system. This natural remedy can aid in treating various health conditions related to the digestive system such as digestive issues, constipation, IBS, diverticulitis, IBD, gastric ulcers, chronic heartburn, or acid reflux by regulating and easing symptoms.
 
@@ -138,7 +138,7 @@ Aloe gel, which is a key component of aloe vera, contains anthraquinone derivati
 
 The illustration below shows some common health conditions that benefits from the fact that aloe vera relieves constipation.
 
-![Aloe Vera Attribute_2](/images/aloe-vera-relieves-constipation.jpg "Aloe Vera Attribute_2")
+![Aloe Vera Attribute_2](//images/aloe-vera-relieves-constipation.jpg "Aloe Vera Attribute_2")
 
 Aloe Vera's ability to relieve constipation is a significant aid for overall wellness. It helps in easing bowel movements, thereby resolving constipation and other gastrointestinal issues related to irregular digestion. Moreover, its soothing properties can benefit skin conditions like burns or inflammation. Aloe Vera's anti-inflammatory action can also be useful for gastritis or upset stomach, promoting better gut health. It can further enhance hydration and detoxification within the body, supporting the immune system to function optimally.
 
@@ -160,7 +160,7 @@ Aloin, a unique molecule found in aloe vera, stimulates the digestion of fats an
 
 The illustration below shows some common health conditions that benefits from the fact that aloe vera boosts immunity.
 
-![Aloe Vera Attribute_2](/images/aloe-vera-boosts-immunity.jpg "Aloe Vera Attribute_2")
+![Aloe Vera Attribute_2](//images/aloe-vera-boosts-immunity.jpg "Aloe Vera Attribute_2")
 
 Aloe Vera's ability to enhance immunity plays a crucial role in various aspects of our health. It supports the immune system, making it more resilient against illnesses. This also helps address skin issues by promoting healthy cell regeneration and repairing damaged tissue. For wound healing, its antimicrobial properties protect the site from infection while speeding up recovery. Aloe vera is an excellent digestion aid as it aids in nutrient absorption and soothes the gastrointestinal tract. Furthermore, aloe vera has high water content, contributing to increased energy levels and easing stress by balancing hormones and improving mental well-being. Lastly, its anti-inflammatory properties can help reduce inflammation related to arthritis or other chronic inflammations.
 
@@ -182,7 +182,7 @@ Anthraquinones help flush the intestines and have antifungal properties, which m
 
 The illustration below shows some common health conditions that benefits from the fact that aloe vera treats heartburn.
 
-![Aloe Vera Attribute_2](/images/aloe-vera-treats-heartburn.jpg "Aloe Vera Attribute_2")
+![Aloe Vera Attribute_2](//images/aloe-vera-treats-heartburn.jpg "Aloe Vera Attribute_2")
 
 Aloe Vera's ability to treat heartburn gives us a natural remedy for various stomach discomforts and improves overall digestion health, while also benefiting other body systems such as skin, wounds, inflammation reduction, immune system support, and general well-being. This versatile plant offers numerous advantages across various facets of physical fitness due to its powerful soothing effects.
 
@@ -204,7 +204,7 @@ Acemannan is a polysaccharide found in aloe vera gel, which has anti-inflammator
 
 The illustration below shows some common health conditions that benefits from the fact that aloe vera helps with oral health.
 
-![Aloe Vera Attribute_2](/images/aloe-vera-helps-with-oral-health.jpg "Aloe Vera Attribute_2")
+![Aloe Vera Attribute_2](//images/aloe-vera-helps-with-oral-health.jpg "Aloe Vera Attribute_2")
 
 Aloe Vera's ability to improve overall dental health can aid in multiple oral concerns. By combating common ailments like cavities or tooth decay, it helps maintain strong teeth and gums. Its anti-inflammatory and healing properties make it particularly helpful in dealing with conditions such as gum diseases and ulcers by alleviating pain and promoting faster healing. Bad breath can also be addressed through regular usage due to its antimicrobial action that neutralizes bacterial odors. Lastly, aloe vera gel offers relief from dry mouth by stimulating saliva production, which is essential for maintaining healthy teeth and gums.
 
@@ -226,7 +226,7 @@ Aloe vera gel contains nutrients and enzymes that aid the detoxification process
 
 The illustration below shows some common health conditions that benefits from the fact that aloe vera detoxifies body.
 
-![Aloe Vera Attribute_2](/images/aloe-vera-detoxifies-body.jpg "Aloe Vera Attribute_2")
+![Aloe Vera Attribute_2](//images/aloe-vera-detoxifies-body.jpg "Aloe Vera Attribute_2")
 
 Aloe Vera's ability to detoxify the body is crucial for various health concerns as it removes harmful toxins and promotes overall wellness. For skin issues, it helps clear up blemishes and moisturizes while enhancing collagen production. Digestion problems benefit from its laxative properties that ease constipation. Boosting immunity is vital for a healthy body, as detoxification supports the immune system by flushing out toxins. Inflammation reduction comes in handy when managing chronic conditions like arthritis and gout. Aloe Vera also aids weight loss by improving metabolism and curbing cravings. Lastly, enhanced energy levels stem from a healthier body that can perform optimally without hindrances of toxins.
 

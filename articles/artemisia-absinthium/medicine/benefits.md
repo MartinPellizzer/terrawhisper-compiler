@@ -1,6 +1,6 @@
 # 10 Health Benefits of Wormwood (Artemisia absinthium)
 
-![Wormwood's Medicinal Benefits](/images/artemisia-absinthium-medicine-benefits-overview.jpg "Wormwood's Medicinal Benefits")
+![Wormwood's Medicinal Benefits](/images/artemisia-absinthium-medicine-benefits-introduction.jpg "Wormwood's Medicinal Benefits")
 
 
 Wormwood, scientifically known as Artemisia absinthium, offers various health benefits due to its active compounds. Its primary biochemical compounds contributing to health benefits include sesquiterpene lactones (such as absinthin, anabsinthin, and thujone), flavonoids (like artemetin, quercetin, and luteolin), and essential oils. These constituents play pivotal roles in Wormwood's effects on digestion stimulation, parasite fighting, menstrual discomfort alleviation, liver health support, fever alleviation, appetite improvement, joint pain relief, cognitive function enhancement, wound healing assistance, anxiety, and insomnia management.
@@ -27,7 +27,7 @@ Artemisinin can assist the healing of the gastrointestinal tract, making digesti
 
 The illustration below shows some common health conditions that benefits from the fact that wormwood promotes digestion.
 
-![Wormwood Attribute_2](/images/artemisia-absinthium-promotes-digestion.jpg "Wormwood Attribute_2")
+![Wormwood Attribute_2](//images/artemisia-absinthium-promotes-digestion.jpg "Wormwood Attribute_2")
 
 Wormwood's ability to promote digestion is beneficial for various health issues related to the gastrointestinal system and can lead to relief from symptoms associated with indigestion, constipation, stomach ache, bloating, poor appetite, irritable bowel syndrome (IBS), and acid reflux. It works by enhancing digestive enzyme function and facilitating smooth movement of food through the gastrointestinal tract, easing associated pain, inflammation, and discomfort.
 
@@ -49,7 +49,7 @@ Artemisinin, a major ingredient in wormwood, has been proven to be effective in 
 
 The illustration below shows some common health conditions that benefits from the fact that wormwood relieves fever.
 
-![Wormwood Attribute_2](/images/artemisia-absinthium-relieves-fever.jpg "Wormwood Attribute_2")
+![Wormwood Attribute_2](//images/artemisia-absinthium-relieves-fever.jpg "Wormwood Attribute_2")
 
 Wormwood's ability to reduce a patient's temperature is crucial in managing fevers and easing the discomfort commonly experienced when suffering from high temperatures. Headaches, too, are often associated with fever, so by alleviating this underlying cause, headache symptoms can be mitigated. Additionally, digestive issues may arise due to an inflamed gastrointestinal tract, which wormwood could potentially help reduce as it also possesses anti-inflammatory properties. Nausea is another condition that might result from a fever, and the soothing effects of wormwood can help alleviate queasiness. Furthermore, stress and anxiety, linked to insomnia, may be eased by the mild calming nature of wormwood, thus improving sleep quality.
 
@@ -71,7 +71,7 @@ Artemisia ketone is a compound found in wormwood known to have detoxifying effec
 
 The illustration below shows some common health conditions that benefits from the fact that wormwood detoxifies liver.
 
-![Wormwood Attribute_2](/images/artemisia-absinthium-detoxifies-liver.jpg "Wormwood Attribute_2")
+![Wormwood Attribute_2](//images/artemisia-absinthium-detoxifies-liver.jpg "Wormwood Attribute_2")
 
 Wormwood's ability to improve the liver's natural purification process aids in treating various health conditions related to the liver and its functions. Liver detoxification, hepatitis, fatty liver disease, jaundice, skin disorders (liver problems can manifest on our body as well), digestive issues, and gallstones can all benefit from better liver functionality and its capacity to eliminate toxins and waste products effectively. This helps in promoting overall well-being and ensuring proper health maintenance.
 
@@ -93,7 +93,7 @@ Thymol, a natural compound found in wormwood, is known for its antifungal and an
 
 The illustration below shows some common health conditions that benefits from the fact that wormwood boosts immune system.
 
-![Wormwood Attribute_2](/images/artemisia-absinthium-boosts-immune-system.jpg "Wormwood Attribute_2")
+![Wormwood Attribute_2](//images/artemisia-absinthium-boosts-immune-system.jpg "Wormwood Attribute_2")
 
 Wormwood's ability to enhance immune system response is crucial for individuals trying to combat various health issues such as colds, the flu, and seasonal allergies by aiding their bodies in fighting off viruses and bacteria. Furthermore, it can help mitigate adverse reactions brought on by certain types of infections or even shield them from developing further complications. Additionally, this unique quality may also aid in relieving stress which indirectly boosts overall well-being. Lastly, its immunity-boosting properties can be beneficial for those who experience frequent illnesses and fatigue, allowing their systems to operate more efficiently and effectively.
 
@@ -115,7 +115,7 @@ Artemisinin is a chemical compound found in wormwood which helps reduce inflamma
 
 The illustration below shows some common health conditions that benefits from the fact that wormwood reduces inflammation.
 
-![Wormwood Attribute_2](/images/artemisia-absinthium-reduces-inflammation.jpg "Wormwood Attribute_2")
+![Wormwood Attribute_2](//images/artemisia-absinthium-reduces-inflammation.jpg "Wormwood Attribute_2")
 
 Wormwood's ability to reduce inflammation has positive implications for several health conditions where swelling or redness play a significant role in the symptoms, leading to discomfort and pain. Arthritis, rheumatism, gout, fibromyalgia are all examples of such conditions that cause pain, stiffness, or even trouble breathing, and these symptoms might intensify with inflammation. Additionally, swollen joints can also be eased through reducing inflammation. Wormwood helps manage these conditions by lessening their root cause – inflammation - to ensure overall better health.
 
@@ -137,7 +137,7 @@ Artemisinin, a key component in the treatment of malaria derived from the sweet 
 
 The illustration below shows some common health conditions that benefits from the fact that wormwood treats malaria.
 
-![Wormwood Attribute_2](/images/artemisia-absinthium-treats-malaria.jpg "Wormwood Attribute_2")
+![Wormwood Attribute_2](//images/artemisia-absinthium-treats-malaria.jpg "Wormwood Attribute_2")
 
 Wormwood's ability to fight against malaria is due to its potent antimalarial properties. This effect is beneficial not only in tackling the root cause of malaria but also helps in alleviating related symptoms like fever and digestion issues as it combats the parasites causing the disease. Furthermore, it may help with respiratory problems by reducing inflammation. Moreover, its antioxidant and anti-inflammatory properties can aid in liver and gallbladder ailments, constipation, and anxiety management.
 
@@ -159,7 +159,7 @@ Thujone, a compound found in wormwood, has been shown to have heart benefits as 
 
 The illustration below shows some common health conditions that benefits from the fact that wormwood supports heart health.
 
-![Wormwood Attribute_2](/images/artemisia-absinthium-supports-heart-health.jpg "Wormwood Attribute_2")
+![Wormwood Attribute_2](//images/artemisia-absinthium-supports-heart-health.jpg "Wormwood Attribute_2")
 
 Wormwood's ability to support the proper function of our heart is crucial for various health conditions. It has numerous properties which improve the overall cardiovascular system, thus preventing or mitigating several issues. With increased attention to blood circulation and vessel relaxation, wormwood plays a key role in addressing high blood pressure concerns and lowering risks associated with it. In doing so, it also contributes significantly towards a healthier heart by reducing chances of developing cardiovascular diseases like angina and heart failure, preventing strokes, and minimizing the risk of atherosclerosis or clogged arteries. Furthermore, wormwood helps maintain normal heart rhythms, combating arrhythmia as well.
 
@@ -181,7 +181,7 @@ Artemisinin helps fight malaria, which may lead to clearer cognitive functions a
 
 The illustration below shows some common health conditions that benefits from the fact that wormwood improves brain function.
 
-![Wormwood Attribute_2](/images/artemisia-absinthium-improves-brain-function.jpg "Wormwood Attribute_2")
+![Wormwood Attribute_2](//images/artemisia-absinthium-improves-brain-function.jpg "Wormwood Attribute_2")
 
 Wormwood's ability to enhance brain functions enables people to perform better in areas that require mental sharpness and focus. For instance, memory enhancement allows individuals to retain more information for longer periods, which aids learning and retention. Cognitive decline prevention helps maintain brain health as we age, while concentration improvement ensures that our attention remains on tasks at hand effectively. Mental clarity enables better decision-making, mood balance keeps emotions stable, and neuroprotection safeguards the nervous system against potential damage. All these benefits contribute to a holistic approach towards overall brain health maintenance.
 
@@ -203,7 +203,7 @@ Thujone is a key compound found in wormwood which has been associated with sever
 
 The illustration below shows some common health conditions that benefits from the fact that wormwood promotes respiratory health.
 
-![Wormwood Attribute_2](/images/artemisia-absinthium-promotes-respiratory-health.jpg "Wormwood Attribute_2")
+![Wormwood Attribute_2](//images/artemisia-absinthium-promotes-respiratory-health.jpg "Wormwood Attribute_2")
 
 Wormwood's ability to promote respiratory health can significantly aid various respiratory problems because it directly influences the overall well-being of the lungs and airways. For instance, in asthma, bronchitis, emphysema, cystic fibrosis, COPD, and other diseases where mucus or inflammation affects the lungs' capacity to expel air, Wormwood works to enhance airway functioning by reducing mucus production and alleviating inflammation. This leads to improved lung function and breathing in these conditions, easing shortness of breath associated with respiratory infections. Wormwood's benefits are particularly useful for individuals dealing with issues related to their respiratory system.
 
@@ -225,7 +225,7 @@ Thujone, a terpene found in wormwood, helps alleviate headaches by potentially w
 
 The illustration below shows some common health conditions that benefits from the fact that wormwood alleviates headaches.
 
-![Wormwood Attribute_2](/images/artemisia-absinthium-alleviates-headaches.jpg "Wormwood Attribute_2")
+![Wormwood Attribute_2](//images/artemisia-absinthium-alleviates-headaches.jpg "Wormwood Attribute_2")
 
 Wormwood's ability to reduce pain in the head can be beneficial for several health conditions related to pain or stress. For instance, individuals experiencing constant throbbing sensations as a result of headaches and migraines often look towards this herb for relief. Moreover, it can help with reducing stress, anxiety, and tension by promoting relaxation. Inflammation management is another area where it helps reduce swelling and discomfort. Wormwood can positively impact people dealing with neurodegenerative diseases due to its antioxidant properties that may protect the brain from damage.
 

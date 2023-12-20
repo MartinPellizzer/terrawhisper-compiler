@@ -1,4 +1,4 @@
-<h1>What To Know Before Using Burdock (Arctium Lappa)</h1>![Arctium Lappa Overview](/images/arctium-lappa-overview.jpg "Arctium Lappa Overview")
+<h1>What To Know Before Using Burdock (Arctium Lappa)</h1>![Arctium Lappa Overview](/images/arctium-lappa-introduction.jpg "Arctium Lappa Overview")
 
  Burdock, scientifically known as Arctium lappa, is a beneficial medicinal and culinary plant. It has been used for centuries in traditional medicine to treat various ailments such as skin conditions, digestive issues, and liver problems. Its leaves and roots are edible, being rich in vitamins and minerals that can contribute to overall health. Moreover, the young shoots of burdock can be eaten like asparagus or cooked as a vegetable.
 

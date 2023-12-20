@@ -1,6 +1,6 @@
 # Aloe vera (Aloe vera) Medicinal Guide: Benefits, Constituents, and Preparations
 
-![Aloe Vera Medicinal Guide](/images/aloe-vera-medicine-overview.jpg "Aloe Vera Medicinal Guide")
+![Aloe Vera Medicinal Guide](/images/aloe-vera-medicine-introduction.jpg "Aloe Vera Medicinal Guide")
 
  Aloe vera, scientifically known as Aloe vera, is a succulent plant species that belongs to the Liliaceae family. It is widely recognized for its medicinal and culinary aspects, which have been utilized since ancient times. A popular ingredient in natural skincare products, aloe vera gel can soothe sunburns and heal minor cuts and burns due to its anti-inflammatory properties. Additionally, it has been used as a laxative in traditional medicine to treat constipation and other digestive issues. In the culinary world, aloe vera leaves are sometimes consumed raw or cooked, providing nutrients like vitamins A, C, and E, as well as amino acids and minerals like calcium, magnesium, and zinc.
 

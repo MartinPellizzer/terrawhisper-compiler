@@ -1,4 +1,4 @@
-<h1>What To Know Before Using Galangal (Alpinia Officinarum)</h1>![Alpinia Officinarum Overview](/images/alpinia-officinarum-overview.jpg "Alpinia Officinarum Overview")
+<h1>What To Know Before Using Galangal (Alpinia Officinarum)</h1>![Alpinia Officinarum Overview](/images/alpinia-officinarum-introduction.jpg "Alpinia Officinarum Overview")
 
 Galangal, scientifically known as Alpinia officinarum, is a versatile plant with both medicinal and culinary properties. This aromatic root, also referred to as Thai ginger or Siamese ginger, has been used for centuries in traditional medicine to treat various ailments, including digestive issues, respiratory infections, and inflammation. In the kitchen, galangal imparts an earthy, warm, and slightly spicy flavor that complements many dishes, particularly those from Southeast Asian cuisine. It's often used in soups, curries, and stir-fries to add depth and complexity to the taste profile.
 

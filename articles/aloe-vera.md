@@ -1,4 +1,4 @@
-<h1>What To Know Before Using Aloe Vera (Aloe Vera)</h1>![Aloe Vera Overview](/images/aloe-vera-overview.jpg "Aloe Vera Overview")
+<h1>What To Know Before Using Aloe Vera (Aloe Vera)</h1>![Aloe Vera Overview](/images/aloe-vera-introduction.jpg "Aloe Vera Overview")
 
  Aloe vera, scientifically known as Aloe vera, is a succulent plant species that belongs to the Liliaceae family. It is widely recognized for its medicinal and culinary aspects, which have been utilized since ancient times. A popular ingredient in natural skincare products, aloe vera gel can soothe sunburns and heal minor cuts and burns due to its anti-inflammatory properties. Additionally, it has been used as a laxative in traditional medicine to treat constipation and other digestive issues. In the culinary world, aloe vera leaves are sometimes consumed raw or cooked, providing nutrients like vitamins A, C, and E, as well as amino acids and minerals like calcium, magnesium, and zinc.
 

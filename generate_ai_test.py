@@ -13,7 +13,7 @@ try:
 except: pass
 
 
-SYSTEM_PROMPT = 'You are an expert botanist. You love to explain things using short, simple, and easy to understand sentences.'
+SYSTEM_PROMPT = 'Act as an expert botanist. Write short, simple, and easy sentences.'
 SYSTEM_PROMPT_LIST = 'You are an expert botanist who only write numbered lists and nothing else.'
 
 def csv_get_rows(filepath):
@@ -34,7 +34,7 @@ def get_latin_name(entity):
 
 
 
-num_articles = 50
+num_articles = 10
 
 plants = csv_get_rows(f'plants.csv') 
 
@@ -656,11 +656,11 @@ def write_plant_medicine():
         create_folder(f'database/articles/{entity}/medicine')
 
         print(f'{i+1}/{num_articles} - {entity}')
-        # gen_medicine_benefits_text(entity, common_name)
-        # gen_medicine_constituents_text(entity, common_name)
-        # gen_medicine_preparations_text(entity, common_name)
-        # gen_medicine_side_effects_text(entity, common_name)
-        # gen_medicine_precautions_text(entity, common_name)
+        gen_medicine_benefits_text(entity, common_name)
+        gen_medicine_constituents_text(entity, common_name)
+        gen_medicine_preparations_text(entity, common_name)
+        gen_medicine_side_effects_text(entity, common_name)
+        gen_medicine_precautions_text(entity, common_name)
 
         
         
@@ -930,24 +930,181 @@ def write_plant_medicine_benefits():
 
 
 
+
+# ################################################################
+# MEDICINE >> PREPARATIONS
+# ################################################################
+
+def gen_medicine_preparation_definition(entity, common_name, item):
+    folderpath = f'database/articles/{entity}/medicine/preparations'
+    filepath = f'database/articles/{entity}/medicine/preparations/definitions.csv'
+
+    create_folder(folderpath)
+    if sys_override: found = False
+    else: found = exists_subsection(filepath, item)
+
+    if not found:
+        starting_text = f'{common_name.title()} {item.title()} is '
+        prompt = f'''
+            Write 1 sentece to define in detail what "{common_name} {item}" is. 
+            Start the sentence with these words: {starting_text}
+        '''
+
+        reply = gen_reply(prompt)
+
+        reply = reply.strip()
+        reply = reply.split('.')[0] + '.'
+        reply = reply.replace('"', '')
+        if not reply[0].isupper():
+            reply = starting_text + reply
+
+
+        if sys_override:
+            with open(filepath, 'a', newline='', encoding='utf-8') as f: pass
+            csv_update_override_cell(filepath, entity, item, reply)
+        else:
+            with open(filepath, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                writer.writerow([entity, item, reply])
+
+
+def gen_medicine_preparations_conditions_list(entity, common_name, item):
+    filepath = f'database/articles/{entity}/medicine/preparations/conditions_list.csv'
+
+    if sys_override: found = False
+    else: found = exists_subsection(filepath, item)
+
+    if not found:
+        prompt = f'''
+            Write a numbered list of the most important conditions that {common_name} {item} helps to heal. 
+            Write one condition per line.
+            Give me just the names of the conditions. Don't add descriptions.
+        '''
+
+        reply = gen_reply(prompt)
+
+        lines = reply.split('\n')
+        constituents_list = []
+        for line in lines:
+            formatted_line = ''
+            line = line.strip()
+            if line == '': continue
+            if line[0].isdigit(): formatted_line = ' '.join(line.split(' ')[1:])
+            if formatted_line != '': constituents_list.append(formatted_line)
+
+        if sys_override:
+            filtered_rows = []
+            with open(filepath, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f, delimiter="|")
+                for line in reader:
+                    if line[1].lower().strip() != item.lower().strip():
+                        filtered_rows.append(line)
+                        
+            with open(filepath, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                writer.writerows(filtered_rows)
+                        
+            with open(filepath, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                for constituent in constituents_list:
+                    writer.writerow([entity, item, constituent])
+        else:
+            with open(filepath, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                for constituent in constituents_list:
+                    writer.writerow([entity, item, constituent])
+
+
+def gen_medicine_preparations_conditions_text(entity, common_name, item):
+    filepath = f'database/articles/{entity}/medicine/preparations/conditions_text.csv'
+
+    if sys_override: found = False
+    else: found = exists_subsection(filepath, item)
+
+    if not found:
+        conditions_lst = []
+        with open(f'database/articles/{entity}/medicine/preparations/conditions_list.csv', 'r', encoding='utf-8') as f:
+            reader = csv.reader(f, delimiter="|")
+            for line in reader:
+                if line[1].lower().strip() == item.lower().strip():
+                    conditions_lst.append(line[2].lower().strip())
+
+        conditions = '- ' + '\n- '.join(conditions_lst)
+
+        starting_text = f'{common_name.title()} {item.title()} helps '
+        prompt = f'''
+            Write 200 words explainin why {common_name} {item} helps the following conditions:
+            {conditions}
+
+            Start with the following words: {starting_text}
+
+        '''
+        # f'{common_name.title()} {item.title()} is used '
+
+        reply = gen_reply(prompt)
+
+        lines = reply.split('\n')
+        conditions_list = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+            if line[0].isdigit(): line = ' '.join(line.split(' ')[1:])
+            if line != '': conditions_list.append(line)
+        reply = '. '.join(conditions_list)
+        reply = reply.replace('"', '')
+        reply = re.sub("\s\s+" , " ", reply)
+        reply = reply.strip()
+        if not reply[0].isupper():
+            reply = starting_text + reply
+        
+        if sys_override:
+            csv_update_override_cell(filepath, entity, item, reply)
+        else:
+            with open(filepath, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f, delimiter='|')
+                writer.writerow([entity, item, reply])
+
+
+def write_plant_medicine_preparations():
+    rows = csv_get_rows(f'plants.csv') 
+    for i, row in enumerate(rows[1:num_articles+1]):
+        entity = row[0].strip()
+        common_name = row[1].strip()
+        latin_name = get_latin_name(entity)
+
+        create_folder(f'database/articles/{entity}/medicine/preparations')
+
+        rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/preparations.csv', entity)
+        items = [f'{x[1]}' for x in rows[:10]]
+
+        for item in items:
+            # print(f'{i}/{num_articles} - {entity}')
+            # gen_medicine_preparation_definition(entity, common_name, item)
+            # print(f'{i}/{num_articles} - {entity}')
+            # gen_medicine_preparations_conditions_list(entity, common_name, item)
+            print(f'{i}/{num_articles} - {entity}')
+            gen_medicine_preparations_conditions_text(entity, common_name, item)
+
+
 # ################################################################
 # MAIN
 # ################################################################
-
-
-# write_plant_medicine()
-write_plant_medicine_benefits()
-        
-
-
 
 for i, plant in enumerate(plants[1:num_articles+1]):
     entity = plant[0]
     # print(f'{i+1}/{num_articles} - {entity}')
     # gen_plant_medicine_constituents(plant)
     # print(f'{i+1}/{num_articles} - {entity}')
+    # TODO: remove plant names in preparations
     # gen_plant_medicine_preparations(plant)
     # print(f'{i+1}/{num_articles} - {entity}')
     # gen_plant_medicine_effects(plant)
     # print(f'{i+1}/{num_articles} - {entity}')
     # gen_plant_medicine_precautions(plant)
+
+# write_plant_medicine()
+# write_plant_medicine_benefits()
+write_plant_medicine_preparations()
+        
+
+

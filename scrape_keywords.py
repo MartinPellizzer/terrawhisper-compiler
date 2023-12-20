@@ -1,78 +1,74 @@
-# Pemavor.com Autocomplete Scraper
-# Author: Stefan Neefischer (stefan.neefischer@gmail.com)
-
-import concurrent.futures
-import pandas as pd
-import itertools
-import requests
-import string
-import json
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 import time
+import os
+import csv
+import pyperclip
 
-startTime = time.time()
 
-# If you use more than 50 seed keywords you should slow down your requests - otherwise google is blocking the script
-# If you have thousands of seed keywords use e.g. WAIT_TIME = 1 and MAX_WORKERS = 10
+driver = webdriver.Firefox()
 
-WAIT_TIME = 0.1
-MAX_WORKERS = 20
 
-# set the autocomplete language
-lang = "en"
+num_articles = 10
 
-charList = " " + string.ascii_lowercase + string.digits
 
-def makeGoogleRequest(query):
-    # If you make requests too quickly, you may be blocked by google 
-    time.sleep(WAIT_TIME)
-    URL="http://suggestqueries.google.com/complete/search"
-    PARAMS = {"client":"firefox",
-            "hl":lang,
-            "q":query}
-    headers = {'User-agent':'Mozilla/5.0'}
-    response = requests.get(URL, params=PARAMS, headers=headers)
-    if response.status_code == 200:
-        suggestedSearches = json.loads(response.content.decode('utf-8'))[1]
-        return suggestedSearches
-    else:
-        return "ERR"
+def csv_get_rows(filepath):
+    rows = []
+    with open(filepath, encoding='utf-8', errors='ignore') as f:
+        reader = csv.reader(f, delimiter="|")
+        for i, line in enumerate(reader):
+            rows.append(line)
+    return rows
 
-def getGoogleSuggests(keyword):
-    # err_count1 = 0
-    queryList = [keyword + " " + char for char in charList]
-    suggestions = []
-    for query in queryList:
-        suggestion = makeGoogleRequest(query)
-        if suggestion != 'ERR':
-            suggestions.append(suggestion)
 
-    # Remove empty suggestions
-    suggestions = set(itertools.chain(*suggestions))
-    if "" in suggestions:
-        suggestions.remove("")
+def get_latin_name(entity):
+    entity_words = entity.capitalize().split('-')
+    first_word = entity_words[0]
+    rest_words = '-'.join(entity_words[1:])
+    latin_name = ' '.join([first_word, rest_words])
+    return latin_name
 
-    return suggestions
 
-#read your csv file that contain keywords that you want to send to google autocomplete
-df = pd.read_csv("keyword_seeds.csv")
-# Take values of first column as keywords
-keywords = df.iloc[:,0].tolist()
 
-resultList = []
+rows = csv_get_rows(f'plants.csv') 
+for i, row in enumerate(rows[1:num_articles+1]):
+    entity = row[0].strip()
+    common_name = row[1].strip()
+    latin_name = get_latin_name(entity)
 
-with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-    futuresGoogle = {executor.submit(getGoogleSuggests, keyword): keyword for keyword in keywords}
+    driver.get("https://keywordsheeter.com/")
+    time.sleep(10) 
 
-    for future in concurrent.futures.as_completed(futuresGoogle):
-        key = futuresGoogle[future]
-        for suggestion in future.result():
-            resultList.append([key, suggestion])
+    e = driver.find_element(By.XPATH, '//textarea[@id="input"]')
+    e.click()
+    e.send_keys(Keys.CONTROL, 'a')
+    e.send_keys(Keys.BACKSPACE)
+    time.sleep(5) 
 
-# Convert the results to a dataframe
-outputDf = pd.DataFrame(resultList, columns=['Keyword','Suggestion'])
+    e = driver.find_element(By.XPATH, '//textarea[@id="input"]')
+    e.send_keys(common_name)
+    time.sleep(5) 
 
-# Save dataframe as a CSV file
-outputDf.to_csv('keyword_suggestions.csv', index=False)
-print('keyword_suggestions.csv File Saved')
+    e = driver.find_element(By.XPATH, '//button[@id="tempSheet"]')
+    e.click()
+    time.sleep(5) 
 
-print(f"Execution time: { ( time.time() - startTime ) :.2f} sec")
+    time.sleep(60)
+
+    e = driver.find_element(By.XPATH, '//button[@id="startjob"]')
+    e.click()
+    time.sleep(5) 
+
+    e = driver.find_element(By.XPATH, '//textarea[@id="input"]')
+    e.click()
+    e.send_keys(Keys.CONTROL, 'a')
+    e.send_keys(Keys.CONTROL, 'c')
+
+    s = pyperclip.paste() 
+    with open(f'keywords/{entity}.txt', 'w', newline='', encoding='utf-8') as f:
+        f.write(s)
+
+    time.sleep(60)

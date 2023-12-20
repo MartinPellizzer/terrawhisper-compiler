@@ -1,4 +1,4 @@
-<h1>What To Know Before Using Garlic (Allium Sativum)</h1>![Allium Sativum Overview](/images/allium-sativum-overview.jpg "Allium Sativum Overview")
+<h1>What To Know Before Using Garlic (Allium Sativum)</h1>![Allium Sativum Overview](/images/allium-sativum-introduction.jpg "Allium Sativum Overview")
 
 Garlic, scientifically known as Allium sativum, is a widely cultivated plant for both its medicinal and culinary uses. It has been used for thousands of years to treat various ailments such as infections, high blood pressure, and high cholesterol levels. The bulbs can be eaten raw or cooked, and are often used as an ingredient in many dishes around the world. They have a distinct pungent aroma when sliced, which is believed to be due to the presence of sulfur-containing compounds such as allicin.
 

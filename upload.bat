@@ -3,6 +3,6 @@ cd ..
 cd terrawhisper
 git add .
 git commit -m "'"
-git push
+git push --force
 cd ..
 cd terrawhisper-compiler

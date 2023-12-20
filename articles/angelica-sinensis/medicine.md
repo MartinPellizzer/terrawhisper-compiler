@@ -1,6 +1,6 @@
 # Dong quai (Angelica sinensis) Medicinal Guide: Benefits, Constituents, and Preparations
 
-![Angelica Sinensis Medicinal Guide](/images/angelica-sinensis-medicine-overview.jpg "Angelica Sinensis Medicinal Guide")
+![Angelica Sinensis Medicinal Guide](/images/angelica-sinensis-medicine-introduction.jpg "Angelica Sinensis Medicinal Guide")
 
  Dong quai, scientifically known as Angelica sinensis, is a widely-used medicinal herb in traditional Chinese medicine (TCM) that has been used for thousands of years. It is also utilized in culinary practices to impart unique flavors and fragrances. Rich in essential oils and vitamins, dong quai is known for its ability to regulate menstrual cycles, alleviate menopausal symptoms, and promote general well-being among women. In addition to its health benefits, dong quai's culinary properties add an exciting depth of flavor to dishes such as soups, stews, and stir-fries.
 

@@ -1,3 +1,10 @@
+- generate first 10 preparations articles >> alreadey pinned so articles must be there
+  (moved old code to main copy.py)
+
+- integrate generate_static.py into main.py
+- missing images in benefits
+- missing links medicine >> benefits
+
 - compile medicine articles (main.py)
 - generate benefits articles (ai)
 - scrape keywords

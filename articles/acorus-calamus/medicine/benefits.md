@@ -1,6 +1,6 @@
 # 10 Health Benefits of Sweet flag (Acorus calamus)
 
-![Sweet flag's Medicinal Benefits](/images/acorus-calamus-medicine-benefits-overview.jpg "Sweet flag's Medicinal Benefits")
+![Sweet flag's Medicinal Benefits](/images/acorus-calamus-medicine-benefits-introduction.jpg "Sweet flag's Medicinal Benefits")
 
 Sweet flag (Acorus calamus) offers diverse medicinal benefits. Its rhizomes, rich in bioactive compounds like β-asarone, α-asarone, and essential oils, soothe digestive distress by providing anti-inflammatory and spasmolytic effects. This aids conditions like irritable bowel syndrome and indigestion. Cognitive function is enhanced through β-asarone, positively impacting neurotransmitter levels crucial for memory. Sweet flag eases respiratory issues by containing bronchodilatory compounds, aiding conditions like asthma. It regulates blood sugar by improving insulin sensitivity, beneficial for type 2 diabetes. Additionally, the herb alleviates stress and anxiety with anxiolytic β-asarone, aiding disorders like generalized anxiety and insomnia.
 
@@ -28,7 +28,7 @@ Phloroglucinol, a bioactive chemical found in sweet flag, has anti-inflammatory 
 
 The illustration below shows some common health conditions that benefits from the fact that sweet flag reduces inflammation.
 
-![Sweet Flag Attribute_2](/images/acorus-calamus-reduces-inflammation.jpg "Sweet Flag Attribute_2")
+![Sweet Flag Attribute_2](//images/acorus-calamus-reduces-inflammation.jpg "Sweet Flag Attribute_2")
 
 Sweet Flag's ability to reduce inflammation provides benefits in various health conditions by lessening the body's immune response and reducing swelling or redness. Inflammatory ailments such as arthritis, skin issues, and sinusitis can be alleviated, while gastrointestinal discomfort and muscle soreness from overuse get improved relief with this natural remedy. Furthermore, post-workout recovery is enhanced by minimizing inflammation associated with muscles exertion, enabling a quicker return to pre-training levels of fitness and flexibility.
 
@@ -50,7 +50,7 @@ Acetylides are known for their ability to form strong bonds, contributing to the
 
 The illustration below shows some common health conditions that benefits from the fact that sweet flag promotes relaxation.
 
-![Sweet Flag Attribute_2](/images/acorus-calamus-promotes-relaxation.jpg "Sweet Flag Attribute_2")
+![Sweet Flag Attribute_2](//images/acorus-calamus-promotes-relaxation.jpg "Sweet Flag Attribute_2")
 
 Sweet Flag's ability to reduce physical and mental tension can help alleviate various health issues. When it comes to anxiety, stress, depression, nervousness, insomnia, sleep difficulties, or tension headaches caused by stress-induced tensions in our body and mind, consuming Sweet Flag promotes relaxation, which leads to a more balanced emotional state. This allows us to better cope with daily challenges and achieve a healthier mental well-being.
 
@@ -72,7 +72,7 @@ Acetylcholine, being a neurotransmitter linked with cognitive function, helps im
 
 The illustration below shows some common health conditions that benefits from the fact that sweet flag boosts memory and cognition.
 
-![Sweet Flag Attribute_2](/images/acorus-calamus-boosts-memory-and-cognition.jpg "Sweet Flag Attribute_2")
+![Sweet Flag Attribute_2](//images/acorus-calamus-boosts-memory-and-cognition.jpg "Sweet Flag Attribute_2")
 
 Sweet Flag's ability to improve cognitive functions enhances numerous health conditions related to the brain and its functioning. Memory loss is often a result of weakened neuron connections; sweet flag helps strengthen them, preserving our memory. Cognitive impairment can be mild or severe but also benefits from this herb's effects on mental clarity. Dementia, Alzheimer's disease, and MCI are all conditions where memory loss is a key symptom; sweet flag's impact on brain function can help with slowing down the progression of these conditions and alleviate symptoms. Age-related memory decline may affect the elderly but can be supported through enhancing cognitive abilities using sweet flag. Lastly, brain fog – mental exhaustion or confusion – is also eased as this herb promotes better mental performance.
 
@@ -94,7 +94,7 @@ Acorus, also known as sweet flag, contains numerous useful components such as ac
 
 The illustration below shows some common health conditions that benefits from the fact that sweet flag relieves digestive issues.
 
-![Sweet Flag Attribute_2](/images/acorus-calamus-relieves-digestive-issues.jpg "Sweet Flag Attribute_2")
+![Sweet Flag Attribute_2](//images/acorus-calamus-relieves-digestive-issues.jpg "Sweet Flag Attribute_2")
 
 Sweet Flag's ability to improve digestive functions impacts our entire body. By supporting proper absorption and breakdown of food in the gastrointestinal tract, it helps alleviate various health issues like indigestion and bloating, while also aiding in regular bowel movements to prevent constipation or diarrhea. In addition, its soothing effects can help reduce nausea, making it a holistic option for overall digestive wellness.
 
@@ -116,7 +116,7 @@ A volatile oil, found in various plants and spices such as sweet flag, is known 
 
 The illustration below shows some common health conditions that benefits from the fact that sweet flag enhances immune function.
 
-![Sweet Flag Attribute_2](/images/acorus-calamus-enhances-immune-function.jpg "Sweet Flag Attribute_2")
+![Sweet Flag Attribute_2](//images/acorus-calamus-enhances-immune-function.jpg "Sweet Flag Attribute_2")
 
 Sweet Flag's ability to stimulate and strengthen the immune system is significant because it helps our body defend itself against various health problems. It works on combating infections such as cold and flu by boosting the body's natural defense mechanisms. Similarly, respiratory infections are also dealt with more efficiently as the immune system is enhanced. Sweet Flag assists with emotional well-being too, like mood enhancement and stress reduction. Digestive issues can be improved as it aids in digestion, while allergies may lessen due to its anti-inflammatory properties. This adaptogenic herb helps the body maintain overall health and wellness.
 
@@ -138,7 +138,7 @@ Volatile oils are known for their fragrance and can act as natural preservatives
 
 The illustration below shows some common health conditions that benefits from the fact that sweet flag promotes skin health.
 
-![Sweet Flag Attribute_2](/images/acorus-calamus-promotes-skin-health.jpg "Sweet Flag Attribute_2")
+![Sweet Flag Attribute_2](//images/acorus-calamus-promotes-skin-health.jpg "Sweet Flag Attribute_2")
 
 Sweet Flag's ability to enhance skin health is due to its rich content of antioxidants and anti-inflammatory properties. These qualities help address various skin issues such as acne, eczema, psoriasis, and aging skin. Antioxidants combat free radical damage and reduce inflammation, both known causes of these conditions. The same components also help improve dry skin by replenishing lost moisture and soothe rashes, itching, and other irritations through their anti-inflammatory effects. Overall, Sweet Flag is a natural remedy with promising benefits for maintaining healthy skin.
 
@@ -160,7 +160,7 @@ Acetylidesoxycholine is a chemical compound found in sweet flag which can potent
 
 The illustration below shows some common health conditions that benefits from the fact that sweet flag supports respiratory function.
 
-![Sweet Flag Attribute_2](/images/acorus-calamus-supports-respiratory-function.jpg "Sweet Flag Attribute_2")
+![Sweet Flag Attribute_2](//images/acorus-calamus-supports-respiratory-function.jpg "Sweet Flag Attribute_2")
 
 Sweet Flag's ability to influence the respiratory system is a significant aid for individuals dealing with various health conditions involving respiratory issues. By supporting and promoting optimal respiratory function, it can help alleviate symptoms in diseases like asthma, bronchitis, emphysema, COPD, and more. Furthermore, its effects on inflammation can provide relief from respiratory infections, allergic rhinitis, and cystic fibrosis. In summary, it strengthens the respiratory system to combat numerous health concerns related to breathing difficulties.
 
@@ -182,7 +182,7 @@ Acetylcholine is a neurotransmitter responsible for sending signals between nerv
 
 The illustration below shows some common health conditions that benefits from the fact that sweet flag reduces stress levels.
 
-![Sweet Flag Attribute_2](/images/acorus-calamus-reduces-stress-levels.jpg "Sweet Flag Attribute_2")
+![Sweet Flag Attribute_2](//images/acorus-calamus-reduces-stress-levels.jpg "Sweet Flag Attribute_2")
 
 Sweet Flag's ability to reduce stress levels directly impacts various aspects of our health, helping us cope better in managing conditions such as stress, anxiety, and depression. By easing mental pressure, emotional well-being improves significantly, leading to enhanced moods and a better sense of happiness. Furthermore, this herb can also aid in supporting the nervous system, improving cognitive function and overall brain health. These combined benefits help to optimize the body's response to stressors and enable one to enjoy improved mental health and well-being.
 
@@ -204,7 +204,7 @@ Coumarins, as a part of the essential oils in sweet flag, enhance its soothing e
 
 The illustration below shows some common health conditions that benefits from the fact that sweet flag improves sleep quality.
 
-![Sweet Flag Attribute_2](/images/acorus-calamus-improves-sleep-quality.jpg "Sweet Flag Attribute_2")
+![Sweet Flag Attribute_2](//images/acorus-calamus-improves-sleep-quality.jpg "Sweet Flag Attribute_2")
 
 Sweet Flag's ability to enhance sleep quality has a significant impact on several health issues. By improving the duration and depth of slumber, it can directly aid those suffering from sleep disorders. Insomnia, for instance, is characterized by difficulty falling or staying asleep, something which improved sleep would clearly counteract. Similarly, restlessness, mental fatigue, stress, anxiety, depression - all are influenced by one's sleep pattern. Enhancing this crucial aspect can ultimately boost general well-being and emotional stability.
 
@@ -226,7 +226,7 @@ A volatile oil, one of the components in sweet flag, helps to soothe the mind, a
 
 The illustration below shows some common health conditions that benefits from the fact that sweet flag eases anxiety and depression.
 
-![Sweet Flag Attribute_2](/images/acorus-calamus-eases-anxiety-and-depression.jpg "Sweet Flag Attribute_2")
+![Sweet Flag Attribute_2](//images/acorus-calamus-eases-anxiety-and-depression.jpg "Sweet Flag Attribute_2")
 
 Sweet Flag's ability to alleviate anxiety and reduce the symptoms of depression can significantly improve overall mental health. It helps in managing stress levels, which is essential for maintaining emotional well-being. Additionally, its soothing effect on the nervous system aids in cognitive functioning and boosts overall productivity. In summary, this herb's benefits contribute to better mental health, wellness, and everyday functioning.
 

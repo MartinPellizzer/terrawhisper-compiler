@@ -1,4 +1,4 @@
-<h1>What To Know Before Using Yarrow (Achillea Millefolium)</h1>![Achillea Millefolium Overview](/images/achillea-millefolium-overview.jpg "Achillea Millefolium Overview")
+<h1>What To Know Before Using Yarrow (Achillea Millefolium)</h1>![Achillea Millefolium Overview](/images/achillea-millefolium-introduction.jpg "Achillea Millefolium Overview")
 
 Yarrow, scientifically known as Achillea millefolium, is a perennial flowering plant that has been used for centuries for its medicinal and culinary properties. The leaves and flowers of yarrow have long been used in traditional medicine to treat various ailments such as wounds, bruises, and inflammation due to their antiseptic and anti-inflammatory properties. In addition, the plant has been used as a culinary herb for flavoring soups, salads, and teas.
 

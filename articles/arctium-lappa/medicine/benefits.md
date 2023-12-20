@@ -1,6 +1,6 @@
 # 10 Health Benefits of Burdock (Arctium lappa)
 
-![Burdock's Medicinal Benefits](/images/arctium-lappa-medicine-benefits-overview.jpg "Burdock's Medicinal Benefits")
+![Burdock's Medicinal Benefits](/images/arctium-lappa-medicine-benefits-introduction.jpg "Burdock's Medicinal Benefits")
 
 Burdock, recognized for its detoxification support, aids in eliminating toxins from the body through its high antioxidant content, primarily polyphenols and flavonoids. Studies suggest Burdock root extract enhances detox pathways by up to 45%, promoting toxin elimination via increased urine production. Constituents like inulin and mucilage play key roles in supporting digestion by stimulating beneficial gut bacteria growth and soothing the digestive tract.
 
@@ -30,7 +30,7 @@ Inulin is a type of fibrous carbohydrate which can help improve digestion by pro
 
 The illustration below shows some common health conditions that benefits from the fact that burdock improves digestion.
 
-![Burdock Attribute_2](/images/arctium-lappa-improves-digestion.jpg "Burdock Attribute_2")
+![Burdock Attribute_2](//images/arctium-lappa-improves-digestion.jpg "Burdock Attribute_2")
 
 Burdock's ability to enhance digestive function is crucial in treating various health issues that arise from poor digestion or related complications. It can aid in indigestion by improving gut mobility, which helps break down food more effectively. Burdock addresses constipation by promoting regular bowel movements and relieving strain on the bowels. For IBS sufferers, it could mitigate symptoms like abdominal pain and bloating. Gastritis and dyspepsia are both linked to stomach discomfort; burdock can help ease these symptoms through better digestion. Lastly, flatulence may be reduced as well due to the enhanced digestive process.
 
@@ -52,7 +52,7 @@ Polyphenols are antioxidants found in plants which help to neutralize free radic
 
 The illustration below shows some common health conditions that benefits from the fact that burdock boosts immunity.
 
-![Burdock Attribute_2](/images/arctium-lappa-boosts-immunity.jpg "Burdock Attribute_2")
+![Burdock Attribute_2](//images/arctium-lappa-boosts-immunity.jpg "Burdock Attribute_2")
 
 Burdock's ability to strengthen the immune system is a significant benefit for various health conditions. It helps combat infections and diseases by enhancing the body's defense mechanism. By reducing inflammation, burdock may lessen the symptoms of chronic illnesses or discomfort resulting from injury. Detoxification and skin disorders improvement are also positively influenced by this herb. Burdock aids digestion, making it easier for the body to assimilate nutrients efficiently and promote overall well-being. It can help alleviate respiratory issues, while promoting quicker healing for wounds.
 
@@ -74,7 +74,7 @@ Inulin, a type of fiber, promotes the growth of good bacteria in the gut, which 
 
 The illustration below shows some common health conditions that benefits from the fact that burdock supports liver function.
 
-![Burdock Attribute_2](/images/arctium-lappa-supports-liver-function.jpg "Burdock Attribute_2")
+![Burdock Attribute_2](//images/arctium-lappa-supports-liver-function.jpg "Burdock Attribute_2")
 
 Burdock's ability to aid the liver helps improve overall health in various ways. The liver plays a significant role not just by breaking down toxic substances but also by regulating cholesterol levels, managing sugar and storing glucose (essential for energy). It is connected with digestive well-being as it processes nutrients absorbed from food. Skin irritation can indicate unaddressed internal issues, so liver function plays a part here too. Detoxification is vital to keep the body free of toxins, and burdock helps this process. Lastly, inflammation reduction reduces health complications linked to inflammatory responses in numerous areas of the body.
 
@@ -96,7 +96,7 @@ Inulin, a type of carbohydrate found in burdock root, helps reduce inflammation 
 
 The illustration below shows some common health conditions that benefits from the fact that burdock reduces inflammation.
 
-![Burdock Attribute_2](/images/arctium-lappa-reduces-inflammation.jpg "Burdock Attribute_2")
+![Burdock Attribute_2](//images/arctium-lappa-reduces-inflammation.jpg "Burdock Attribute_2")
 
 Burdock's ability to reduce inflammation within the body helps it relieve various health conditions by targeting specific symptoms related to swelling or excess fluid retention in tissues. Inflammatory bowel disease (IBD), arthritis, and gout are examples of diseases where joints, intestines, and other organs experience inflammation as their main symptom; with the use of burdock, these conditions can potentially see an improvement in symptoms and overall quality of life. Additionally, it's not just about physical ailments, allergies also involve an immune response that leads to inflammation; reducing inflammatory responses can help manage related respiratory issues or skin reactions like those observed with eczema, psoriasis, and acne. In essence, burdock aids in combating inflammation in multiple ways, benefiting a wide range of health conditions marked by similar symptoms.
 
@@ -118,7 +118,7 @@ Inulin helps to lower bad cholesterol levels, which can reduce the risk of heart
 
 The illustration below shows some common health conditions that benefits from the fact that burdock improves heart health.
 
-![Burdock Attribute_2](/images/arctium-lappa-improves-heart-health.jpg "Burdock Attribute_2")
+![Burdock Attribute_2](//images/arctium-lappa-improves-heart-health.jpg "Burdock Attribute_2")
 
 Burdock's ability to enhance overall heart health has significant implications for several associated health concerns. By improving the functioning of the heart and enhancing circulation, it helps in reducing the risk of developing certain types of cardiovascular issues. Moreover, regulating blood pressure levels is vital in managing high blood pressure, which can lead to various health complications. Similarly, cholesterol problems are often linked to heart diseases. Lowering LDL (bad) cholesterol and raising HDL (good) levels positively impact the cardiovascular system. Lastly, maintaining heart health lowers stroke risk by preventing plaque buildup in arteries, which can potentially cause blockage in vessels leading to a stroke.
 
@@ -140,7 +140,7 @@ Lignans found in burdock are phytoestrogens, which may help balance hormones and
 
 The illustration below shows some common health conditions that benefits from the fact that burdock promotes weight loss.
 
-![Burdock Attribute_2](/images/arctium-lappa-promotes-weight-loss.jpg "Burdock Attribute_2")
+![Burdock Attribute_2](//images/arctium-lappa-promotes-weight-loss.jpg "Burdock Attribute_2")
 
 Burdock's ability to assist with weight loss has implications in tackling various health concerns. By supporting healthy metabolic processes and promoting satiety, it helps maintain a balanced weight. This is essential for those struggling with weight loss and obesity issues as excessive fat could aggravate problems like high cholesterol, blood sugar imbalances, arthritis due to stress on joints, digestive issues caused by unhealthy gut flora, and skin conditions such as acne or eczema because a healthy weight can ease the burden on the body's overall system. In sum, managing a stable weight with burdock helps prevent numerous health issues related to extra fat.
 
@@ -162,7 +162,7 @@ Inulin in burdock has a low glycemic index, which is capable of slowing down the
 
 The illustration below shows some common health conditions that benefits from the fact that burdock regulates blood sugar levels.
 
-![Burdock Attribute_2](/images/arctium-lappa-regulates-blood-sugar-levels.jpg "Burdock Attribute_2")
+![Burdock Attribute_2](//images/arctium-lappa-regulates-blood-sugar-levels.jpg "Burdock Attribute_2")
 
 Burdock's ability to regulate blood sugar levels has a positive impact on several health conditions related to insulin resistance and glucose regulation. Diabetes, for example, is characterized by high blood sugar levels that burdock can help lower and manage. In relation, metabolic syndrome often accompanies diabetes due to hormonal imbalances; thus, burdock's action on blood sugar could potentially benefit those with this condition too. Insulin resistance directly impacts an individual's ability to utilize glucose effectively. High blood pressure (hypertension) and obesity also link back to unhealthy blood sugar levels, hence a stable sugar intake is important for overall well-being. Lastly, heart disease and kidney diseases can be connected with increased inflammation associated with poor glucose management. Burdock's action on blood sugar, by controlling insulin resistance, may contribute to reducing these risks.
 
@@ -184,7 +184,7 @@ Inulin helps improve skin health by supporting the growth of beneficial bacteria
 
 The illustration below shows some common health conditions that benefits from the fact that burdock improves skin health.
 
-![Burdock Attribute_2](/images/arctium-lappa-improves-skin-health.jpg "Burdock Attribute_2")
+![Burdock Attribute_2](//images/arctium-lappa-improves-skin-health.jpg "Burdock Attribute_2")
 
 Burdock's ability to improve skin health is attributed to its various beneficial properties like detoxification, anti-inflammatory effects, and nourishing capabilities that target different skin conditions at once. This herb works on multiple fronts in addressing issues such as acne, eczema, dandruff, psoriasis, rosacea, wound healing, scar reduction, and general skin irritation, showing promising results in achieving overall skin wellness.
 
@@ -206,7 +206,7 @@ Arctigenin is a compound found in burdock root which has the potential to lessen
 
 The illustration below shows some common health conditions that benefits from the fact that burdock alleviates arthritis pain.
 
-![Burdock Attribute_2](/images/arctium-lappa-alleviates-arthritis-pain.jpg "Burdock Attribute_2")
+![Burdock Attribute_2](//images/arctium-lappa-alleviates-arthritis-pain.jpg "Burdock Attribute_2")
 
 Burdock's ability to treat arthritis pain originates from its anti-inflammatory properties, which help reduce swelling and irritation in the joints. This not only relieves discomfort caused by conditions such as arthritis pain but also addresses associated problems like inflammation and joint discomfort. Additionally, burdock aids with alleviating muscle soreness that often accompanies these health issues, especially in individuals suffering from rheumatism or fibromyalgia. Furthermore, its effect on easing osteoarthritis symptoms makes it an effective remedy for managing the various health complications caused by excessive strain on joints and connective tissues.
 
@@ -228,7 +228,7 @@ Triterpenoids found in burdock may help regulate hormones, which can positively 
 
 The illustration below shows some common health conditions that benefits from the fact that burdock enhances mood and mental clarity.
 
-![Burdock Attribute_2](/images/arctium-lappa-enhances-mood-and-mental-clarity.jpg "Burdock Attribute_2")
+![Burdock Attribute_2](//images/arctium-lappa-enhances-mood-and-mental-clarity.jpg "Burdock Attribute_2")
 
 Burdock's ability to positively influence mood and mental well-being contributes immensely in combating several health issues. For instance, by supporting a more stable emotional state, it can help alleviate depression symptoms. Similarly, its soothing properties can ease anxiety by promoting relaxation. Mental fatigue may also improve as burdock enhances focus and energy levels. Cognitive problems such as memory lapses or brain fog could benefit from better mental clarity and cognitive function promoted by this herb. Lastly, dealing with daily stress may be more manageable due to its calming effects on the nervous system. Thus, burdock's potential impacts can greatly enhance overall health and well-being.
 

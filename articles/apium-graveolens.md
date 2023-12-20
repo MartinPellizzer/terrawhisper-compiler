@@ -1,4 +1,4 @@
-<h1>What To Know Before Using Celery (Apium Graveolens)</h1>![Apium Graveolens Overview](/images/apium-graveolens-overview.jpg "Apium Graveolens Overview")
+<h1>What To Know Before Using Celery (Apium Graveolens)</h1>![Apium Graveolens Overview](/images/apium-graveolens-introduction.jpg "Apium Graveolens Overview")
 
 Celery, scientifically known as Apium graveolens, is a versatile plant with both medicinal and culinary uses. Its crunchy stalks and aromatic leaves have been used in cooking for centuries, providing a fresh flavor to soups, salads, and stews. Celery is also rich in nutrients such as vitamin K, potassium, folate, and antioxidants, making it a healthy addition to any diet. Furthermore, celery has been traditionally used for its medicinal properties, particularly as a natural diuretic to relieve water retention and promote urination. Its essential oils have also been utilized in aromatherapy for their calming and soothing effects on the mind.
 

@@ -1,6 +1,6 @@
 # 10 Health Benefits of Celery (Apium graveolens)
 
-![Celery's Medicinal Benefits](/images/apium-graveolens-medicine-benefits-overview.jpg "Celery's Medicinal Benefits")
+![Celery's Medicinal Benefits](/images/apium-graveolens-medicine-benefits-introduction.jpg "Celery's Medicinal Benefits")
 
 
 Celery offers numerous health benefits, including reducing inflammation, lowering blood pressure, aiding digestion, supporting heart health, hydrating the body, promoting weight loss, boosting immunity, detoxifying, improving bone health, and enhancing skin health. Its anti-inflammatory properties, attributed to compounds like phenolic acids and antioxidants, help mitigate conditions like arthritis and cardiovascular issues. Celery's fiber content aids digestion and weight loss while its vitamins and antioxidants bolster immunity and promote detoxification.
@@ -29,7 +29,7 @@ Phthalides found in celery help relax the muscles around blood vessels, thus low
 
 The illustration below shows some common health conditions that benefits from the fact that celery lowers blood pressure.
 
-![Celery Attribute_2](/images/apium-graveolens-lowers-blood-pressure.jpg "Celery Attribute_2")
+![Celery Attribute_2](//images/apium-graveolens-lowers-blood-pressure.jpg "Celery Attribute_2")
 
 Celery's ability to lower blood pressure is a crucial factor in maintaining overall health and preventing various conditions linked to elevated pressures. By keeping blood pressure within the ideal range, individuals can combat several potential threats. High blood pressure (hypertension) is a significant risk factor for cardiovascular diseases like heart attacks and strokes. Lowering blood pressure through celery helps to manage and possibly avoid these conditions. Additionally, improved blood flow results from reduced pressure, promoting overall heart health by transporting necessary oxygen throughout the body. This healthy lifestyle practice of including celery in diets might even have anti-inflammatory benefits contributing towards a reduction in chronic inflammation which can worsen cardiovascular issues.
 
@@ -51,7 +51,7 @@ Phytonutrients provide various health benefits, including reducing inflammation 
 
 The illustration below shows some common health conditions that benefits from the fact that celery reduces inflammation.
 
-![Celery Attribute_2](/images/apium-graveolens-reduces-inflammation.jpg "Celery Attribute_2")
+![Celery Attribute_2](//images/apium-graveolens-reduces-inflammation.jpg "Celery Attribute_2")
 
 Celery's ability to reduce inflammation brings notable help for various health conditions. Inflammation is a body response that occurs when the immune system deals with toxins, infections or irritants. When it goes out of control, however, this can lead to arthritis, asthma, gout, allergies, hypertension, inflammatory bowel disease (IBD), and rheumatoid arthritis. By reducing the excessive levels of inflammation through consumption of celery, one may be able to minimize or prevent these conditions from getting worse or worsen in the first place.
 
@@ -73,7 +73,7 @@ Apigenin, a flavonoid found in celery, supports respiratory health by working as
 
 The illustration below shows some common health conditions that benefits from the fact that celery supports respiratory health.
 
-![Celery Attribute_2](/images/apium-graveolens-supports-respiratory-health.jpg "Celery Attribute_2")
+![Celery Attribute_2](//images/apium-graveolens-supports-respiratory-health.jpg "Celery Attribute_2")
 
 Celery's ability to support respiratory health stems from its high content of essential vitamins and minerals, including vitamin C, potassium, and antioxidants. These nutrients play a crucial role in protecting the lungs against harmful free radicals, inflammation, and allergens that can exacerbate certain health conditions such as asthma, bronchitis, respiratory infections, emphysema, chronic obstructive pulmonary disease (COPD), and cystic fibrosis. Moreover, celery's anti-inflammatory properties help alleviate the symptoms associated with these ailments by promoting better lung function and easing the discomfort caused by respiratory issues.
 
@@ -95,7 +95,7 @@ Coumarin is known to stimulate digestive enzymes for smooth functioning of the d
 
 The illustration below shows some common health conditions that benefits from the fact that celery promotes healthy digestion.
 
-![Celery Attribute_2](/images/apium-graveolens-promotes-healthy-digestion.jpg "Celery Attribute_2")
+![Celery Attribute_2](//images/apium-graveolens-promotes-healthy-digestion.jpg "Celery Attribute_2")
 
 Celery's ability to improve digestion is vital because it aids in the proper assimilation of nutrients from food. This facilitates the movement of waste through the gastrointestinal tract, promoting regular bowel movements and preventing constipation. Gastric issues like heartburn and acid reflux can be eased as well due to better digestion, and IBS symptoms may improve with balanced nutrition obtained from a healthy gut environment. For overall good health, an appetite is maintained for effective fuel intake; therefore, it plays a part in these mentioned ailments too.
 
@@ -117,7 +117,7 @@ Phthalides help reduce blood pressure and relax muscles, which can result in bet
 
 The illustration below shows some common health conditions that benefits from the fact that celery helps maintain a healthy weight.
 
-![Celery Attribute_2](/images/apium-graveolens-helps-maintain-a-healthy-weight.jpg "Celery Attribute_2")
+![Celery Attribute_2](//images/apium-graveolens-helps-maintain-a-healthy-weight.jpg "Celery Attribute_2")
 
 Celery's ability to help maintain a healthy weight is crucial for various health issues related to excess body fat. This low-calorie food rich in water, essential minerals, and vitamins offers multiple advantages. It helps reduce the risk of obesity, an issue that can lead to severe complications such as high blood pressure, type 2 diabetes, or heart disease. Overweight issues also contribute to metabolic problems like insulin resistance, which increases the risk for chronic diseases like cancer and Alzheimer's. Through effective weight management and maintaining a healthy body weight, celery supports overall nutritional balance and improves metabolism function, ultimately contributing to better health outcomes.
 
@@ -139,7 +139,7 @@ Phytonutrients help to lower cholesterol, protecting the heart from potential da
 
 The illustration below shows some common health conditions that benefits from the fact that celery boosts heart health.
 
-![Celery Attribute_2](/images/apium-graveolens-boosts-heart-health.jpg "Celery Attribute_2")
+![Celery Attribute_2](//images/apium-graveolens-boosts-heart-health.jpg "Celery Attribute_2")
 
 Celery's ability to enhance heart health is due to its rich content of vitamins and minerals like potassium, folate, and antioxidants that work together to support various cardiovascular functions. These nutrients contribute positively to the prevention and management of numerous conditions affecting the heart, including heart disease, high blood pressure, stroke, atherosclerosis, cardiovascular problems, arrhythmia, and cholesterol issues. By consuming celery regularly, individuals can improve their overall heart health and reduce the risk of developing these related complications.
 
@@ -161,7 +161,7 @@ Phytonutrients found in celery contribute to its overall health benefits, and ha
 
 The illustration below shows some common health conditions that benefits from the fact that celery reduces stress levels.
 
-![Celery Attribute_2](/images/apium-graveolens-reduces-stress-levels.jpg "Celery Attribute_2")
+![Celery Attribute_2](//images/apium-graveolens-reduces-stress-levels.jpg "Celery Attribute_2")
 
 Celery's ability to reduce stress levels is a crucial benefit in terms of our overall well-being because stress impacts various aspects of physical health like anxiety, depression, high blood pressure, sleep issues, digestion problems, and immune system support. Stress can have an adverse effect on these health conditions either by intensifying the symptoms or triggering them. By consuming celery, which helps alleviate stress, we are indirectly contributing to better management of these issues.
 
@@ -183,7 +183,7 @@ Lutein, found in celery, is an antioxidant that helps protect the brain cells fr
 
 The illustration below shows some common health conditions that benefits from the fact that celery improves brain function.
 
-![Celery Attribute_2](/images/apium-graveolens-improves-brain-function.jpg "Celery Attribute_2")
+![Celery Attribute_2](//images/apium-graveolens-improves-brain-function.jpg "Celery Attribute_2")
 
 Celery's ability to enhance brain function is due to the rich array of nutrients it contains such as phytochemicals like flavonoids which fight off free radicals, improve blood flow and reduce inflammation. These benefits help in preventing or alleviating conditions like Alzheimer's disease, dementia, depression, mood swings, memory loss, poor focus and concentration, cognitive decline as they can support the brain's overall health and performance.
 
@@ -205,7 +205,7 @@ Phenolic compounds, flavonoids and phytonutrients are all natural chemicals pres
 
 The illustration below shows some common health conditions that benefits from the fact that celery has antioxidant properties.
 
-![Celery Attribute_2](/images/apium-graveolens-has-antioxidant-properties.jpg "Celery Attribute_2")
+![Celery Attribute_2](//images/apium-graveolens-has-antioxidant-properties.jpg "Celery Attribute_2")
 
 Celery's ability to neutralize harmful free radicals due to its high levels of antioxidants aids in preventing or mitigating the occurrence and growth of various diseases. In terms of health conditions, this property helps prevent cancer as it restricts malignant cell development. Furthermore, better heart health can be achieved by improving blood circulation and reducing cholesterol levels. Reducing inflammation in different body systems supports an overall well-functioning system, leading to a stronger immune response. Digestion is enhanced with antioxidants supporting the gut microbiome, while weight management benefits from reduced oxidative stress. Lastly, healthy skin can be promoted as cell damage that would potentially harm it is lessened. In essence, celery's rich content of antioxidants impacts health across many vital bodily functions.
 
@@ -227,7 +227,7 @@ Coumarin, a natural chemical compound found in celery, is known for its antioxid
 
 The illustration below shows some common health conditions that benefits from the fact that celery supports liver health.
 
-![Celery Attribute_2](/images/apium-graveolens-supports-liver-health.jpg "Celery Attribute_2")
+![Celery Attribute_2](//images/apium-graveolens-supports-liver-health.jpg "Celery Attribute_2")
 
 Celery's ability to support the liver improves numerous health issues because this part plays a crucial role in detoxification and metabolism of fats, proteins, and carbohydrates within the body. When functioning at optimal levels, the liver helps reduce liver problems such as fatty liver disease, manage cholesterol levels by increasing good HDL cholesterol, and improve digestion by aiding in the breakdown of food into usable nutrients. This, in turn, aids in reducing bloating and indigestion symptoms. Celery has an anti-inflammatory effect, helping to alleviate inflammation related conditions. By supporting heart health and maintaining healthy blood pressure levels, celery further enhances our general wellbeing, reduces risks of hypertension-associated issues such as strokes and heart attacks. Moreover, celery's diuretic properties contribute towards the prevention of urinary tract infections, kidney stones by increasing urine production which helps flush out excess salt, uric acid, and other waste products from the body.
 
