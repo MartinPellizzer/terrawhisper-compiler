@@ -1,0 +1,11 @@
+Pelargonium can have some side effects if used improperly, such as causing discomfort or illness to those who are exposed to it without safety precautions. It is essential to understand the possible outcomes that may arise from its use and how they might affect different parts of one's body. 
+
+ A common negative effect of Pelargonium is the development of rashes on skin areas that have come into contact with it. This can be highly inconvenient as it leads to itchiness and further discomfort as an individual tries to manage their new-found irritation. Moreover, this allergic reaction may also cause inflammation, swelling, or redness in the affected region. 
+
+ Pelargonium has been known to impact a person's respiratory system, often causing breathing difficulties and making it hard for one to breathe properly. For some people, these side effects might be severe enough to warrant medical attention as it poses significant health risks if left unattended or untreated. This shows the importance of being cautious when handling any substances with potentially harmful properties like Pelargonium, not only on physical well-being but also mental health.
+
+ Aside from these external effects, Pelargonium can also lead to internal discomfort such as nausea and vomiting. Nausea is characterized by a feeling of unease or sickness in the stomach, which may eventually result in vomiting if not addressed promptly. These symptoms are often accompanied by dizziness, making it difficult for an individual to remain standing without feeling lightheaded or disoriented.
+
+ Additionally, exposure to Pelargonium could have impacts on other bodily functions as well, causing individuals to experience fatigue and headaches. This may lead to a decrease in focus, productivity, and overall quality of life. On a wider scale, these side effects might contribute to reduced mental capacity and an individual's ability to carry out daily tasks efficiently.
+
+ In conclusion, it is crucial for people to be aware of the possible consequences associated with using Pelargonium due to its negative impact on various aspects of one's health and well-being. Adhering to safety guidelines and seeking proper medical advice can help mitigate any potential risks or complications that may arise from its usage.

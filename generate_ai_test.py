@@ -34,7 +34,7 @@ def get_latin_name(entity):
 
 
 
-num_articles = 10
+num_articles = 70
 
 plants = csv_get_rows(f'plants.csv') 
 
@@ -251,8 +251,8 @@ def gen_plant_medicine_preparations(plant):
                     writer.writerow([entity, line])
                     
 
-def gen_plant_medicine_effects(plant):
-    filepath = f'database/tables/medicine/effects.csv'
+def gen_plant_medicine_side_effects(plant):
+    filepath = f'database/tables/medicine/side-effects.csv'
     with open(filepath, 'a', encoding='utf-8') as f: pass
 
     entity = plant[0].strip()
@@ -657,9 +657,13 @@ def write_plant_medicine():
 
         print(f'{i+1}/{num_articles} - {entity}')
         gen_medicine_benefits_text(entity, common_name)
+        print(f'{i+1}/{num_articles} - {entity}')
         gen_medicine_constituents_text(entity, common_name)
+        print(f'{i+1}/{num_articles} - {entity}')
         gen_medicine_preparations_text(entity, common_name)
+        print(f'{i+1}/{num_articles} - {entity}')
         gen_medicine_side_effects_text(entity, common_name)
+        print(f'{i+1}/{num_articles} - {entity}')
         gen_medicine_precautions_text(entity, common_name)
 
         
@@ -1078,10 +1082,10 @@ def write_plant_medicine_preparations():
         items = [f'{x[1]}' for x in rows[:10]]
 
         for item in items:
-            # print(f'{i}/{num_articles} - {entity}')
-            # gen_medicine_preparation_definition(entity, common_name, item)
-            # print(f'{i}/{num_articles} - {entity}')
-            # gen_medicine_preparations_conditions_list(entity, common_name, item)
+            print(f'{i}/{num_articles} - {entity}')
+            gen_medicine_preparation_definition(entity, common_name, item)
+            print(f'{i}/{num_articles} - {entity}')
+            gen_medicine_preparations_conditions_list(entity, common_name, item)
             print(f'{i}/{num_articles} - {entity}')
             gen_medicine_preparations_conditions_text(entity, common_name, item)
 
@@ -1094,16 +1098,19 @@ for i, plant in enumerate(plants[1:num_articles+1]):
     entity = plant[0]
     # print(f'{i+1}/{num_articles} - {entity}')
     # gen_plant_medicine_constituents(plant)
+
     # print(f'{i+1}/{num_articles} - {entity}')
-    # TODO: remove plant names in preparations
+    # # TODO: remove plant names in preparations
     # gen_plant_medicine_preparations(plant)
+
     # print(f'{i+1}/{num_articles} - {entity}')
-    # gen_plant_medicine_effects(plant)
+    # gen_plant_medicine_side_effects(plant)
+
     # print(f'{i+1}/{num_articles} - {entity}')
     # gen_plant_medicine_precautions(plant)
 
-# write_plant_medicine()
-# write_plant_medicine_benefits()
+write_plant_medicine()
+write_plant_medicine_benefits()
 write_plant_medicine_preparations()
         
 

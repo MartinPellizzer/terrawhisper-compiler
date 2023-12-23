@@ -392,7 +392,7 @@ def gen_img_lst(entity, common_name, image_filepath, attributes, subtitle, lst):
     attributes = attributes.lower().replace(' ', '-').replace('/', '-')
     out_filename = f'website/images/{entity}-{attributes}.jpg'
     img.save(out_filename, format='JPEG', optimize=True, quality=50)
-    filepath = f'/images/{entity}-{attributes}.jpg'
+    filepath = f'images/{entity}-{attributes}.jpg'
 
     # print(out_filename)
     # print(filepath)
@@ -1185,11 +1185,73 @@ for i, row in enumerate(articles_master_rows[1:]):
             article += data_conditions_text + '\n\n'
             
 
+    # medicine >> preparations
+    elif 'medicine' in attribute_1.lower() and attribute_2.strip() == 'preparations':
+        title = f'10 Medicinal Preparations of {common_name.capitalize()} ({latin_name.capitalize()})'
+        article += f'# {title}\n\n'
         
+        attribute_lst = ['medicine', 'preparations']
+        image_title = f'{common_name.capitalize()}\'s Medicinal Preparations'
+        featured_image_filepath = generate_featured_image(
+            entity, 
+            common_name, 
+            attribute_lst, 
+            '0000.jpg'
+        )
+        article += f'![{image_title}]({featured_image_filepath} "{image_title}")\n\n'
 
+        article += get_content('medicine/preparations/_intro', f'database/articles/{entity}')
+        article += f'This article explains in details the most important and well recognized medicinal preparations of {common_name}.' + '\n\n'
 
+        preparations = utils.csv_get_rows_by_entity(f'database/tables/medicine/preparations.csv', entity)
+        preparations = [f'{x[1]}' for x in preparations]
 
+        images_filenames = os.listdir(f'{image_folder}/{entity}/3x4')
+        random.shuffle(images_filenames)
 
+        for img_num, preparation in enumerate(preparations):
+            data_title = f'## {img_num+1}. {common_name.title()} {preparation.title()}'
+            
+            data_definition = ''
+            _rows = utils.csv_get_rows_by_entity(f'database/articles/{entity}/medicine/preparations/definitions.csv', entity)
+            for _row in _rows:
+                if _row[1] == preparation:
+                    data_definition = _row[2]
+
+            data_conditions_lst = [] 
+            _rows = utils.csv_get_rows_by_entity(f'database/articles/{entity}/medicine/preparations/conditions_list.csv', entity)
+            for _row in _rows:
+                if _row[1] == preparation:
+                    data_conditions_lst.append(_row[2])
+
+            data_conditions_text = ''
+            _rows = utils.csv_get_rows_by_entity(f'database/articles/{entity}/medicine/preparations/conditions_text.csv', entity)
+            for _row in _rows:
+                if _row[1] == preparation:
+                    data_conditions_text = _row[2]
+
+            image_filename = images_filenames.pop()
+            filepath = gen_img_lst(
+                entity, 
+                common_name, 
+                f'{image_folder}/{entity}/3x4/{image_filename}', 
+                preparation, 
+                preparation, 
+                data_conditions_lst,
+            )
+            image_title = f'{common_name.title()} {item.title()}'
+            image_section = f'![{image_title}](/{filepath} "{image_title}")'
+
+            article += data_title + '\n\n'
+            article += data_definition + '\n\n'
+
+            article += f'The illustration below summarize some common health conditions that benefits from {latin_name} {preparation}.' + '\n\n'
+            article += image_section + '\n\n'
+
+            article += f'The following list includes the main conditions that {common_name} {preparation} helps to heal.' + '\n\n'
+            article += lst_to_blt(data_conditions_lst) + '\n\n'
+            
+            article += data_conditions_text + '\n\n'
 
 
 
@@ -1203,6 +1265,7 @@ for i, row in enumerate(articles_master_rows[1:]):
 
     
     article = article.replace('’', "'") 
+    article = article.replace('..', ".") 
     attribute_lst = [x for x in [attribute_1, attribute_2] if x.strip() != '']
     article_filepath = generate_html(date, title, article, entity, attribute_lst)
 

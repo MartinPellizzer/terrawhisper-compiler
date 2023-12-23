@@ -1,0 +1,11 @@
+Wild Yam has many medicinal preparations, such as  These can be either water-based or alcohol-based, depending on the method used for extraction. They preserve all the nutrients and active compounds in their original form, making them effective remedies for treating conditions such as menstrual cramps, premenstrual syndrome (PMS), and menopause symptoms like hot flashes. Additionally, these extracts can help alleviate muscle aches due to arthritis or other inflammatory disorders.
+
+ These are popularly taken in the form of supplements where its steroidal saponins and phytoestrogenic compounds are concentrated into capsule form. Wild yam capsules can be used to alleviate menstrual problems, hormone fluctuations that cause mood swings, and even support healthy aging by maintaining bone density as it may contain calcium.
+
+ Because of its hormone-balancing properties, wild yam creams, gels, or ointments can be applied topically to reduce menstrual cramps and alleviate pain associated with conditions like endometriosis, a medical condition where the tissue that lines the uterus grows in other locations, causing painful symptoms. These topical preparations are also effective in treating inflammation, skin irritations, and even relieving muscle soreness and fatigue.
+
+ By infusing dried wild yam root into hot water to prepare a tea, the compounds and nutrients present in the plant can be consumed directly through ingestion. This method is popular among individuals seeking to promote digestive health or combat gastric ulcers since some of the saponins found in wild yam have been shown to reduce inflammation within the gastrointestinal tract.
+
+ Wild yam tincture is a concentrated liquid form of the plant, which can be mixed with water or other beverages for consumption. This preparation is often used as a potent remedy for menstrual problems due to its antispasmodic properties that help relieve cramps. The tincture can also help support bone health by promoting calcium absorption and maintaining healthy bones during aging.
+
+Overall, the versatile medicinal uses of wild yam demonstrate its potential in addressing a variety of health issues through various preparations such as extracts, supplements, capsules, topical applications, tea, and tinctures.

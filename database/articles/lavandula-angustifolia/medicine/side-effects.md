@@ -1,0 +1,11 @@
+Lavender can have some side effects if used improperly, such as allergic reactions and interaction issues with certain medications. Lavender is a widely popular herb that has been known to offer numerous benefits; from healing properties to calming scents. However, lavender isn’t entirely harmless in some circumstances and understanding its potential negative effects can help prevent any mishaps.
+
+One of the major issues arises when lavender oil is used on the skin without proper dilution. An individual might experience mild redness or irritation which can result in a more severe reaction such as dermatitis or an allergic rash. It is also important to note that certain individuals may be more sensitive to lavender than others, so it's necessary for anyone considering its use to pay attention to their body's response.
+
+Another negative aspect of lavender is the possible interference with some medications. The herb contains chemicals known as coumarins which can interact with blood-thinning drugs like warfarin and cause excessive bleeding in individuals taking these medicines. Therefore, consulting your healthcare professional before using lavender if you are on any medication could reduce your risk of complications.
+
+Some cases have also reported that consuming large amounts of lavender, or misusing it due to insufficient knowledge about its correct dosage, can result in headaches, dizziness, and nausea. Over-application may not only lead to these side effects but could also cause skin irritation, allergic reactions and a condition called photosensitivity where the individual is more sensitive to ultraviolet rays from sunlight.
+
+Inhalation of lavender oil can sometimes lead to respiratory issues such as difficulty in breathing, coughing, or wheezing particularly for individuals with asthma or other respiratory conditions. It's essential to ensure that the space where lavender is being burned for its fragrance is adequately ventilated. This prevents a buildup of fumes and helps reduce the risk of any adverse effects on your respiratory system.
+
+Lavender's potential negative effects are not limited to these mentioned points, but it is vital to be aware of them before incorporating this herb into one's lifestyle. Taking proper precautions can help ensure that lavender remains a beneficial and enjoyable part of our daily lives.

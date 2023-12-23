@@ -1,0 +1,11 @@
+It's important to take precautions when using Lavender medicinally, such as avoiding certain types of use, keeping it away from certain areas of the body, and following safety measures in its application.
+
+ While Lavender may be a popular choice for aromatherapy, there are some instances where it's not recommended to employ lavender due to possible negative reactions. These include avoiding its use on open wounds, sensitive skin, or near the eyes. Additionally, using undiluted lavender oil directly onto your skin might cause irritation, so it is essential to mix it with a carrier oil like coconut or sweet almond oil for proper application and minimized risk of complications.
+
+ Lavender should be applied cautiously in certain areas of the body. For instance, although lavender has antiseptic properties that can help heal minor cuts and burns, you shouldn't apply it directly to open wounds. The same applies to sensitive skin—ensure your dilution is right for your skin type before applying lavender oil. In the case of the eyes, applying or having any contact with lavender around the area may lead to irritation and even burning sensation.
+
+ Ingesting lavender or using it undiluted can be hazardous due to possible poisoning from its toxic component, linalool. Thus, only choose culinary-grade food or medicinal oils to include this oil in any recipes. Lavender essential oil should not replace proper medical treatment for serious ailments such as cancer, heart disease, diabetes, etc., and it shouldn't be considered as the only method for curing these conditions. Also, before applying lavender topically on pregnant women or nursing mothers, consult with their healthcare provider to ensure its safe usage.
+
+ To use Lavender safely, learn more about this plant through books, articles, workshops or professional consultation to have a thorough understanding of the right way to use it. Additionally, always read and follow instructions on the essential oil bottle label for accurate guidance regarding the proper dilution ratio, correct storage conditions, and safety tips from professionals who have studied Lavender deeply.
+
+In summary, applying adequate caution when using lavender is crucial to minimize adverse reactions. Be cautious about the ways you use it and seek advice beforehand to ensure its safe application for your specific needs.

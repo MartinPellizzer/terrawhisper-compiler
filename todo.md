@@ -1,5 +1,4 @@
-- generate first 10 preparations articles >> alreadey pinned so articles must be there
-  (moved old code to main copy.py)
+- complete tables (medicine >> constituents, precautions, preparations, side-effects) 
 
 - integrate generate_static.py into main.py
 - missing images in benefits
