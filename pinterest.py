@@ -169,6 +169,8 @@ for i, row in enumerate(master_rows[1:]):
     # common_name = common_names[0][1].lower()
     common_name_formatted = common_name.lower().replace(' ', '-')
 
+    url = f'http://terrawhisper.com/{entity}/{org}.html'
+    
     today_day = datetime.now().day
     if int(last_day) == int(today_day): 
         print(f'>> skipped {entity} {url}')
@@ -199,7 +201,6 @@ for i, row in enumerate(master_rows[1:]):
     #     title = f'{attribute}: Uses, Benefits, and Preparation'
     #     img_title = f'{attribute} Preparation and Benefits'
 
-    url = f'http://terrawhisper.com/{entity}/{org}.html'
 
     description = random_row[2]
 

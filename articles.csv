@@ -1,107 +1,101 @@
-"entity"\"state"\"done"\"date"\"update"\\"attribute_1"\"attribute_2"
-"achillea-millefolium"\"published"\\"2023/11/11"\\\\
-"achillea-millefolium"\"published"\\"2023/11/11"\"x"\\"medicine"\
-"achillea-millefolium"\"published"\\"2023/11/11"\"x"\\"medicine"\"benefits"
-"achillea-millefolium"\"published"\\"2023/11/23"\\\"medicine"\"constituents"
-"achillea-millefolium"\"published"\\"2023/11/19"\"x"\\"medicine"\"preparations"
-\\\\\\\
-\\\\\\\
-"acorus-calamus"\"published"\\"2023/11/11"\\\\
-"acorus-calamus"\"published"\\"2023/11/11"\\\"medicine"\
-"acorus-calamus"\"published"\\"2023/11/12"\\\"medicine"\"benefits"
-"acorus-calamus"\"published"\\"2023/11/18"\\\"medicine"\"preparations"
-\\\\\\\
-"aesculus-hippocastanum"\"published"\\"2023/11/11"\\\\
-"aesculus-hippocastanum"\"published"\\"2023/11/11"\\\"medicine"\
-"aesculus-hippocastanum"\"published"\\"2023/11/12"\\\"medicine"\"benefits"
-"aesculus-hippocastanum"\"published"\\"2023/11/18"\\\"medicine"\"preparations"
-\\\\\\\
-"allium-sativum"\"published"\\"2023/11/13"\\\\
-"allium-sativum"\"published"\\"2023/11/13"\\\"medicine"\
-"allium-sativum"\"published"\\"2023/11/13"\\\"medicine"\"benefits"
-"allium-sativum"\"published"\\"2023/11/23"\\\"medicine"\"preparations"
-\\\\\\\
-"aloe-vera"\"published"\\"2023/11/13"\\\\
-"aloe-vera"\"published"\\"2023/11/13"\\\"medicine"\
-"aloe-vera"\"published"\\"2023/11/19"\\\"medicine"\"benefits"
-"aloe-vera"\"published"\\\\\"medicine"\"preparations"
-\\\\\\\
-"alpinia-officinarum"\"published"\\"2023/11/15"\\\\
-"alpinia-officinarum"\"published"\\"2023/11/15"\\\"medicine"\
-"alpinia-officinarum"\"published"\\"2023/11/18"\\\"medicine"\"benefits"
-"alpinia-officinarum"\"published"\\"2023/11/26"\\\"medicine"\"preparations"
-\\\\\\\
-"ammi-visnaga"\"published"\\"2023/11/18"\\\\
-"ammi-visnaga"\"published"\\"2023/11/15"\\\"medicine"\
-"ammi-visnaga"\"published"\\"2023/11/26"\\\"medicine"\"benefits"
-\\\\\\\
-"angelica-sinensis"\"published"\\"2023/11/18"\\\\
-"angelica-sinensis"\"published"\\"2023/11/18"\\\"medicine"\
-"angelica-sinensis"\"published"\\"2023/11/18"\\\"medicine"\"benefits"
-\\\\\\\
-"apium-graveolens"\"published"\\"2023/11/20"\\\\
-"apium-graveolens"\"published"\\"2023/11/20"\\\"medicine"\
-"apium-graveolens"\"published"\\"2023/11/20"\\\"medicine"\"benefits"
-\\\\\\\
-"arctium-lappa"\"published"\\"2023/11/21"\\\\
-"arctium-lappa"\"published"\\"2023/11/21"\\\"medicine"\
-"arctium-lappa"\"published"\\"2023/11/21"\\\"medicine"\"benefits"
-\\\\\\\
-"artemisia-absinthium"\"published"\\"2023/11/26"\\\\
-"artemisia-absinthium"\"published"\\"2023/11/26"\\\"medicine"\
-"artemisia-absinthium"\"published"\\"2023/12/18"\\\"medicine"\"benefits"
-\\\\\\\
-"artemisia-annua"\"published"\\"2023/12/03"\\\\
-"astragalus-membranaceus"\"published"\\"2023/12/03"\\\\
-"atropa-belladonna"\"published"\\"2023/12/03"\\\\
-"azadirachta-indica"\"published"\\"2023/12/03"\\\\
-"barosma-betulina"\"published"\\"2023/12/03"\\\\
-"bupleurum-chinense"\"published"\\"2023/12/03"\\\\
-"calendula-officinalis"\"published"\\"2023/12/03"\\\\
-"capsicum-annuum"\"published"\\"2023/12/03"\\\\
-"cassia-senna"\"published"\\"2023/12/03"\\\\
-"centella-asiatica"\"published"\\"2023/12/04"\\\\
-"chamomilla-recutita"\"published"\\"2023/12/04"\\\\
-"chrysanthemum-morifolium"\"published"\\"2023/12/04"\\\\
-"cimicifuga-racemosa"\"published"\\"2023/12/04"\\\\
-"cinchona-officinalis"\"published"\\"2023/12/04"\\\\
-"cinnamomum-verum"\"published"\\"2023/12/04"\\\\
-"citrus-limon"\"published"\\"2023/12/04"\\\\
-"codonopsis-pilosula"\"published"\\"2023/12/04"\\\\
-"coleus-forskohlii"\"published"\\"2023/12/04"\\\\
-"commiphora-molmol"\"published"\\"2023/12/04"\\\\
-"corydalis-yanhusuo"\"published"\\"2023/12/06"\\\\
-"crataegus-oxyacantha"\"published"\\"2023/12/06"\\\\
-"crataeva-nurvula"\"published"\\"2023/12/06"\\\\
-"crocus-sativa"\"published"\\"2023/12/06"\\\\
-"curcuma-longa"\"published"\\"2023/12/06"\\\\
-"dioscorea-villosa"\"published"\\"2023/12/06"\\\\
-"echinacea-angustifolia"\"published"\\"2023/12/06"\\\\
-"elettaria-cardamomum"\"published"\\"2023/12/06"\\\\
-"eleutherococcus-senticosus"\"published"\\"2023/12/06"\\\\
-"ephedra-sinica"\"published"\\"2023/12/06"\\\\
-"eucalyptus-globulus"\"published"\\"2023/12/06"\\\\
-"eugenia-caryophyllata"\"published"\\"2023/12/06"\\\\
-"filipendula-ulmaria"\"published"\\"2023/12/06"\\\\
-"gentiana-lutea"\"published"\\"2023/12/06"\\\\
-"ginkgo-biloba"\"published"\\"2023/12/06"\\\\
-"glycyrrhiza-glabra"\"published"\\"2023/12/06"\\\\
-"hamamelis-virginiana"\"published"\\"2023/12/06"\\\\
-"harpagophytum-procumbens"\"published"\\"2023/12/06"\\\\
-"humulus-lupulus"\"published"\\"2023/12/06"\\\\
-"hydrastis-canadensis"\"published"\\"2023/12/06"\\\\
-"hypericum-perforatum"\\\\\\\
-"inula-helenium"\\\\\\\
-"lavandula-angustifolia"\\\\\\\
-"linum-usitatissimum"\\\\\\\
-"lobelia-inflata"\\\\\\\
-"lycium-chinense"\\\\\\\
-"melaleuca-alternifolia"\\\\\\\
-"melissa-officinalis"\\\\\\\
-"mentha-x-piperita"\\\\\\\
-"myristica-fragrans"\\\\\\\
-"ocimum-tenuiflorum"\\\\\\\
-"paeonia-lactiflora"\\\\\\\
-"panax-ginseng"\\\\\\\
-"passiflora-incarnata"\\\\\\\
-"pelargonium-sidoides"\\\\\\\
+entity\common_name\root\medicine\medicine_benefits\medicine_preparations
+achillea-millefolium\yarrow\x\x\x\x
+acorus-calamus\sweet flag\x\x\x\x
+aesculus-hippocastanum\horse chestnut\x\x\x\x
+allium-sativum\garlic\x\x\x\x
+aloe-vera\aloe vera\x\x\x\x
+alpinia-officinarum\galangal\x\x\x\x
+ammi-visnaga\visnaga\x\x\x\x
+angelica-sinensis\dong quai\x\x\x\x
+apium-graveolens\celery\x\x\x\x
+arctium-lappa\burdock\x\x\x\x
+artemisia-absinthium\Wormwood \x\x\x\x
+artemisia-annua\Sweet Annie \x\x\x\x
+astragalus-membranaceus\Astragalus \x\x\x\x
+atropa-belladonna\Deadly Nightshade \x\x\x\x
+azadirachta-indica\Neem \x\x\x\x
+barosma-betulina\Buchu \x\x\x\x
+bupleurum-chinense\Bupleurum \x\x\x\x
+calendula-officinalis\Calendula \x\x\x\x
+capsicum-annuum\Cayenne \x\x\x\x
+cassia-senna\Senna \x\x\x\x
+centella-asiatica\Gotu Kola \\\\
+chamomilla-recutita\German Chamomile \\\\
+chrysanthemum-morifolium\Ju Hua \\\\
+cimicifuga-racemosa\Black Cohosh \\\\
+cinchona-officinalis\Cinchona \\\\
+cinnamomum-verum\Cinnamon \\\\
+citrus-limon\Lemon \\\\
+codonopsis-pilosula\Codonopsis \\\\
+coleus-forskohlii\Coleus \\\\
+commiphora-molmol\Myrrh \\\\
+corydalis-yanhusuo\Corydalis \\\\
+crataegus-oxyacantha\Hawthorn \\\\
+crataeva-nurvula\Varuna \\\\
+crocus-sativa\Saffron \\\\
+curcuma-longa\Turmeric \\\\
+dioscorea-villosa\Wild Yam \\\\
+echinacea-angustifolia\Echinacea \\\\
+elettaria-cardamomum\Cardamom \\\\
+eleutherococcus-senticosus\Siberian Ginseng \\\\
+ephedra-sinica\Ephedra \\\\
+eucalyptus-globulus\Eucalyptus \\\\
+eugenia-caryophyllata\Clove \\\\
+filipendula-ulmaria\Meadowsweet \\\\
+gentiana-lutea\Gentian \\\\
+ginkgo-biloba\Ginkgo \\\\
+glycyrrhiza-glabra\Licorice \\\\
+hamamelis-virginiana\Witch Hazel \\\\
+harpagophytum-procumbens\Devil’s Claw \\\\
+humulus-lupulus\Hops \\\\
+hydrastis-canadensis\Goldenseal \\\\
+hypericum-perforatum\St. John’s Wort \\\\
+inula-helenium\Elecampane \\\\
+lavandula-angustifolia\Lavender \\\\
+linum-usitatissimum\Flaxseed \\\\
+lobelia-inflata\Lobelia \\\\
+lycium-chinense\Goji Berry \\\\
+melaleuca-alternifolia\Tea Tree \\\\
+melissa-officinalis\Lemon Balm \\\\
+mentha-x-piperita\Peppermint \\\\
+myristica-fragrans\Nutmeg & Mace \\\\
+ocimum-tenuiflorum\Holy Basil \\\\
+paeonia-lactiflora\White Peony \\\\
+panax-ginseng\Ginseng \\\\
+passiflora-incarnata\Passionflower \\\\
+pelargonium-sidoides\Pelargonium \\\\
+persea-americana\Avocado \\\\
+piper-methysticum\Kava \\\\
+plantago-lanceolata\Psyllium \\\\
+polygonum-multiflorum\Fo Ti \\\\
+rehmannia-glutinosa\Rehmannia \\\\
+rheum-palmatum\Chinese Rhubarb \\\\
+rhodiola-rosea\Rhodiola \\\\
+rosmarinus-officinalis\Rosemary \\\\
+salix-alba\White Willow \\\\
+salvia-miltiorrhiza\Dan Shen \\\\
+salvia-officinalis\Sage \\\\
+sambucus-nigra\Elder \\\\
+schisandra-chinensis\Schisandra \\\\
+scutellaria-baicalensis\Baical Skullcap \\\\
+scutellaria-lateriflora\Skullcap \\\\
+serenoa-repens\Saw Palmetto \\\\
+silybum-marianum\Milk Thistle \\\\
+symphytum-officinale\Comfrey \\\\
+tabebuia-rosea\Pau d’Arco \\\\
+tanacetum-parthenium\Feverfew \\\\
+taraxacum-officinale\Dandelion \\\\
+terminalia-arjuna\Arjun \\\\
+thymus-vulgaris\Thyme \\\\
+turnera-diffusa\Damiana \\\\
+ulmus-rubra\Slippery Elm \\\\
+urtica-dioica\Nettle \\\\
+vaccinium-myrtillus\Bilberry \\\\
+valeriana-officinalis\Valerian \\\\
+verbena-officinalis\Vervain \\\\
+viburnum-opulus\Cramp Bark \\\\
+vitex-agnus-castus\Chaste Tree \\\\
+withania-somnifera\Ashwagandha \\\\
+zanthoxylum-americanum\Prickly ash \\\\
+zea-mays\Corn \\\\
+zingiber-officinale\Ginger \\\\

@@ -1,230 +1,89 @@
-import sys
-import shutil
+import os
 
-print('params (ACTION, ENTITY, WORD)')
+folderpath = 'keywords/_sorted_auto'
 
-# if len(sys.argv) != 4:
-#     print('ERR: params (ACTION, ENTITY, OUT_FILENAME, WORD)')
-#     quit()
+try: os.makedirs(folderpath)
+except: pass
 
+# remaining_keywords = []
 
-action = sys.argv[1]
-entity = sys.argv[2]
-word = sys.argv[3]
+# keywords_found = []
+# for keyword in keywords:
+#     if 'with' in keyword: continue  
+#     words = keyword.split(' ')
+#     found = False
+#     for word in words:
+#         if 'tea' == word.lower().strip():
+#             found = True
+#             break
+#     if found:
+#         keywords_found.append(keyword)
+#     else:
+#         remaining_keywords.append(keyword)
 
+preparations = [
+    'tea',
+    'tincture',
+    'extract',
+    'serum',
+    'drop',
+    'capsule',
+    'essential oil', 
+    'infused oil', 
+    'oil', 
+    'ointment',
+    'salve',
+    'infusion',
+    'infuse',
 
+    'benefit',
 
-if action == 'filter':
-    with open(f'keywords/{entity}/master.md', encoding='utf-8') as f:
-        keywords = f.readlines()
-        
-    filtered_keywords_1 = []
+    'dye',
+]
 
-    with open(f'keywords/plants.md', encoding='utf-8') as f:
-        plants = f.readlines()
+for f in os.listdir('keywords'):
+    if f.endswith('.txt'):
+        entity = f.split('.')[0].replace(' ', '-').lower()
 
-    for keyword in keywords:
-        found = False
-        for plant in plants:
-            if plant.strip() not in keyword:
-                found = True
-                break
-        if found:
-            filtered_keywords_1.append(keyword)
+        with open(f'keywords/{f}', 'r', encoding='utf-8') as reader:
+            keywords = reader.readlines()
 
-    with open(f'keywords/blacklist.md', encoding='utf-8') as f:
-        blacklisted_words = f.readlines()
-
-    filtered_keywords_2 = []
-    for keyword in filtered_keywords_1:
-        found = False
-        for blacklisted_word in blacklisted_words:
-            if blacklisted_word.strip() in keyword:
-                found = True
-                break
-        if not found:
-            filtered_keywords_2.append(keyword)
-        else:
-            pass
-    
-    with open(f'keywords/{entity}/master_filtered.md', 'w', encoding='utf-8') as f:
-        for item in filtered_keywords_2:
-            f.write(item)
-
-
-
-
+        try: os.makedirs(f'{folderpath}/{entity}')
+        except: pass
+        # try: os.makedirs(f'{folderpath}/{entity}/preparations')
+        # except: pass
 
 
-
-
-
-
-elif action == 'group':
-
-    with open(f'keywords/{entity}/master_filtered.md', encoding='utf-8') as f:
-        keywords = f.readlines()
-
-    keep_lst = []
-    move_lst = []
-    for keyword in keywords:
-        keyword = keyword.strip()
-        if word in keyword:
-            move_lst.append(keyword)
-        else:
-            keep_lst.append(keyword)
-
-    with open(f'keywords/{entity}/master_filtered.md', 'w', encoding='utf-8') as f:
-        for item in keep_lst:
-            f.write(f'{item}\n')
             
-    with open(f'keywords/{entity}/master_group.md', 'a', encoding='utf-8') as f:
-        f.write(f'{word}\n')
-        for item in move_lst:
-            f.write(f'    {item}\n')
-        f.write(f'\n')
-
-    print(len(keep_lst))
-
-    pass
-
-elif action == 'groups-preparations':
-    shutil.copy2(f'keywords/{entity}/master.md', f'keywords/{entity}/master_filtered.md')
-
-    with open(f'keywords/{entity}/master_group.md', 'w', encoding='utf-8') as f:
-        f.write('')
-
-    with open(f'keywords/groups-preparations.md', encoding='utf-8') as f:
-        groups = f.readlines()
-
-    for group in groups:
-        if group.strip() == '': break
-        with open(f'keywords/{entity}/master_filtered.md', encoding='utf-8') as f:
-            keywords = f.readlines()
-
-        group = group.strip()
-        keep_lst = []
-        move_lst = []
-        for keyword in keywords:
-            keyword = keyword.strip()
-            if group in keyword:
-                move_lst.append(keyword)
-            else:
-                keep_lst.append(keyword)
-
-        if move_lst:
-
-            with open(f'keywords/{entity}/master_filtered.md', 'w', encoding='utf-8') as f:
-                for item in keep_lst:
-                    f.write(f'{item}\n')
-                    
-            with open(f'keywords/{entity}/master_group.md', 'a', encoding='utf-8') as f:
-                f.write(f'{group}\n')
-                for item in move_lst:
-                    f.write(f'    {item}\n')
-                f.write(f'\n')
-
-            print(len(keep_lst))
 
 
-elif action == 'group-auto':
+        remaining_keywords = keywords
 
-    with open(f'keywords/groups.md', encoding='utf-8') as f:
-        groups = f.readlines()
+        with open(f'{folderpath}/{entity}/preparations.txt', 'w', encoding='utf-8') as writer: pass
 
-    for group in groups:
-        with open(f'keywords/{entity}/master_filtered.md', encoding='utf-8') as f:
-            keywords = f.readlines()
+        for preparation in preparations:
 
-        group = group.strip()
-        keep_lst = []
-        move_lst = []
-        for keyword in keywords:
-            keyword = keyword.strip()
-            if group in keyword:
-                move_lst.append(keyword)
-            else:
-                keep_lst.append(keyword)
+            tmp_remaining_keywords = [x for x in remaining_keywords]
+            remaining_keywords = []
 
-        if move_lst:
+            keywords_found = []
+            for keyword in tmp_remaining_keywords:
+                if preparation.lower() in keyword.lower(): keywords_found.append(keyword)
+                else: remaining_keywords.append(keyword)
 
-            with open(f'keywords/{entity}/master_filtered.md', 'w', encoding='utf-8') as f:
-                for item in keep_lst:
-                    f.write(f'{item}\n')
-                    
-            with open(f'keywords/{entity}/master_group.md', 'a', encoding='utf-8') as f:
-                f.write(f'{group}\n')
-                for item in move_lst:
-                    f.write(f'    {item}\n')
-                f.write(f'\n')
-
-            print(len(keep_lst))
+            with open(f'{folderpath}/{entity}/preparations.txt', 'a', encoding='utf-8') as writer:
+                for keyword in keywords_found:
+                    writer.write(keyword)
+                writer.write('\n')
 
 
-elif action == 'group-auto-test':
 
-    with open(f'keywords/group.md', encoding='utf-8') as f:
-        groups = f.readlines()
-
-    for group in reversed(groups):
-        if group.strip() == '': continue
-        with open(f'keywords/{entity}/master_filtered.md', encoding='utf-8') as f:
-            keywords = f.readlines()
-
-        group = group.strip()
-        keep_lst = []
-        move_lst = []
-        for keyword in keywords:
-            keyword = keyword.strip()
-            if group in keyword:
-                move_lst.append(keyword)
-            else:
-                keep_lst.append(keyword)
-
-        if move_lst:
-            with open(f'keywords/{entity}/master_group.md', 'r', encoding='utf-8') as f:
-                content = f.read()
-            print(content)
-                    
-            with open(f'keywords/{entity}/master_group.md', 'w', encoding='utf-8') as f:
-                f.write(f'{group}\n')
-                for item in move_lst:
-                    f.write(f'    {item}\n')
-                f.write(f'\n')
-                f.write(content)
-
-            print(len(keep_lst))
+        # remaining
+        with open(f'{folderpath}/{entity}/remaining.txt', 'w', encoding='utf-8') as writer:
+            for keyword in remaining_keywords:
+                writer.write(keyword)
+            writer.write('\n')
 
 
-elif action == 'group-auto-reverse':
 
-    with open(f'keywords/groups.md', encoding='utf-8') as f:
-        groups = f.readlines()
-
-    for group in groups:
-        with open(f'keywords/{entity}/master_filtered.md', encoding='utf-8') as f:
-            keywords = f.readlines()
-
-        group = group.strip()
-        keep_lst = []
-        move_lst = []
-        for keyword in keywords:
-            keyword = keyword.strip()
-            if group in keyword:
-                move_lst.append(keyword)
-            else:
-                keep_lst.append(keyword)
-
-        if move_lst:
-
-            with open(f'keywords/{entity}/master_filtered.md', 'w', encoding='utf-8') as f:
-                for item in keep_lst:
-                    f.write(f'{item}\n')
-                    
-            with open(f'keywords/{entity}/master_group.md', 'a', encoding='utf-8') as f:
-                f.write(f'{group}\n')
-                for item in move_lst:
-                    f.write(f'    {item}\n')
-                f.write(f'\n')
-
-            print(len(keep_lst))
+        

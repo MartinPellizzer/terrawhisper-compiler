@@ -1,4 +1,4 @@
-- complete tables (medicine >> constituents, precautions, preparations, side-effects) 
+- new article generation csv - adjust main.py
 
 - integrate generate_static.py into main.py
 - missing images in benefits

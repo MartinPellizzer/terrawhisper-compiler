@@ -5453,3 +5453,349 @@ Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1703350200137	geckodriver	INFO	Listening on 127.0.0.1:65282
+1703350203205	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65283" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileqMrCXv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703350204324	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703350204574	Marionette	INFO	Listening on port 65290
+WebDriver BiDi listening on ws://127.0.0.1:65283
+Read port: 65290
+1703350205437	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:65283/devtools/browser/407b979b-fd5e-48c6-abfe-5179fabbd45a
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yn/l/en_US/-8JcK-uJO0F.js?_nc_x=Ij3Wp8lg5Kz, line 392: Script terminated by timeout at:
+_sendBeacon@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yn/l/en_US/-8JcK-uJO0F.js?_nc_x=Ij3Wp8lg5Kz:392:1743
+_tryToSendViaBeacon@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yn/l/en_US/-8JcK-uJO0F.js?_nc_x=Ij3Wp8lg5Kz:392:4231
+_initialize/<@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yn/l/en_US/-8JcK-uJO0F.js?_nc_x=Ij3Wp8lg5Kz:392:1247
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yn/l/en_US/-8JcK-uJO0F.js?_nc_x=Ij3Wp8lg5Kz:67:10432
+c.__emitToSubscription@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yn/l/en_US/-8JcK-uJO0F.js?_nc_x=Ij3Wp8lg5Kz:76:1477
+c.emit@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yn/l/en_US/-8JcK-uJO0F.js?_nc_x=Ij3Wp8lg5Kz:76:1303
+@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yn/l/en_US/-8JcK-uJO0F.js?_nc_x=Ij3Wp8lg5Kz:391:1046
+applyWithGuard@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yn/l/en_US/-8JcK-uJO0F.js?_nc_x=Ij3Wp8lg5Kz:67:10432
+d@https://static.xx.fbcdn.net/rsrc.php/v3i7M54/yn/l/en_US/-8JcK-uJO0F.js?_nc_x=Ij3Wp8lg5Kz:503:2086
+
+1703350227080	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1703350234674	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs, line 25: Script terminated by timeout at:
+364448/lk/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:93586
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19882
+938085/k/</<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19964
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17357
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19882
+938085/k/</<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19964
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17357
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs, line 25: Script terminated by timeout at:
+s@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:121875
+lU@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:99072
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:98945
+lD@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:96033
+r6@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:44812
+364448/lk/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:93597
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1703419259826	geckodriver	INFO	Listening on 127.0.0.1:59092
+1703419262888	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59093" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilekazErl"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703419264041	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703419264230	Marionette	INFO	Listening on port 59102
+WebDriver BiDi listening on ws://127.0.0.1:59093
+Read port: 59102
+1703419264846	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:59093/devtools/browser/ec165d05-0de5-4d2c-b832-411efb7fa3c1
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+1703419286219	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1703419294479	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript warning: https://s.pinimg.com/webapp/83119-a1b728b9bcace9a7.mjs, line 1: Script terminated by timeout at:
+b@https://s.pinimg.com/webapp/83119-a1b728b9bcace9a7.mjs:1:15703
+L@https://s.pinimg.com/webapp/83119-a1b728b9bcace9a7.mjs:1:16186
+883119/nc<@https://s.pinimg.com/webapp/83119-a1b728b9bcace9a7.mjs:1:128595
+iS@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:60901
+oc@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:71204
+s@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:121500
+lU@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:99072
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:98945
+lD@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:96033
+r6@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:44812
+364448/lk/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:93597
+
+JavaScript warning: https://s.pinimg.com/webapp/44762-0fbeb6c22e73c9fd.mjs, line 1: Script terminated by timeout at:
+pause@https://s.pinimg.com/webapp/44762-0fbeb6c22e73c9fd.mjs:1:17185
+99772/ae/</<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:70:276715
+567450/l/<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:66:33117
+l@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:66:33105
+567450/</<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:66:33500
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+938085/k/</<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19996
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17357
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19882
+938085/k/</<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19964
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17357
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19882
+938085/k/</<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19964
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17357
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs, line 25: Script terminated by timeout at:
+aA@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:48184
+iZ@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:65738
+965900/p/i<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:70:48843
+965900/p/</<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:70:49511
+567450/l/<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:66:33117
+l@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:66:33105
+567450/</<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:66:33500
+
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs, line 25: Script terminated by timeout at:
+aL@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:48368
+aA@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:48272
+iZ@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:65738
+965900/p/i<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:70:48843
+965900/p/</<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:70:49511
+567450/l/<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:66:33117
+l@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:66:33105
+567450/</<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:66:33500
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://s.pinimg.com/webapp/16550-e89f65017860221d.mjs, line 1: Script terminated by timeout at:
+W@https://s.pinimg.com/webapp/16550-e89f65017860221d.mjs:1:19435
+l@https://s.pinimg.com/webapp/www/idea-ads-tool-0c12cd9af329a918.mjs:239:95441
+y@https://s.pinimg.com/webapp/www/idea-ads-tool-0c12cd9af329a918.mjs:239:93750
+iS@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:60901
+ov@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:72779
+s@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:120312
+lU@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:99072
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:98945
+lD@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:96033
+r6@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:44812
+364448/lk/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:93597
+
+JavaScript warning: https://s.pinimg.com/webapp/72826-7b1d73043901cbd3.mjs, line 9: Script terminated by timeout at:
+jn@https://s.pinimg.com/webapp/72826-7b1d73043901cbd3.mjs:9:29570
+383434/o/<@https://s.pinimg.com/webapp/50040-906add3951988fcf.mjs:1:4333
+113558/$/<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:70:317457
+938085/m/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17027
+938085/q/</<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:21439
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+938085/k/</<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19996
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17357
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs, line 25: Script terminated by timeout at:
+iP@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:63019
+872408/t.useSyncExternalStore@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:53:6221
+950139/a.useSyncExternalStoreWithSelector@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:63:368
+702664/m/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:130462
+_@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:70:14935
+873268/e9/<@https://s.pinimg.com/webapp/AuthDesktopPageWrapper-d75ff1e9b54edb1c.mjs:59:54415
+e9@https://s.pinimg.com/webapp/AuthDesktopPageWrapper-d75ff1e9b54edb1c.mjs:59:54548
+iS@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:60901
+ov@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:72779
+s@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:120312
+lU@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:99072
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:98945
+lD@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:96033
+r6@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:44812
+364448/lk/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:93597
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17367
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19882
+938085/k/</<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19964
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17357
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/90123-fcdba8d45565fada.mjs, line 1: Script terminated by timeout at:
+c@https://s.pinimg.com/webapp/90123-fcdba8d45565fada.mjs:1:4657
+433780/h/d</<@https://s.pinimg.com/webapp/90123-fcdba8d45565fada.mjs:1:7669
+99772/ae/</<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:70:276734
+567450/l/<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:66:33117
+l@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:66:33105
+567450/</<@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:66:33500
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17367
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19882
+938085/k/</<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19964
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17357
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/72826-7b1d73043901cbd3.mjs, line 9: Script terminated by timeout at:
+qJ@https://s.pinimg.com/webapp/72826-7b1d73043901cbd3.mjs:9:42659
+e@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:70:282454
+
+JavaScript warning: https://s.pinimg.com/webapp/AuthDesktopPageWrapper-d75ff1e9b54edb1c.mjs, line 59: Script terminated by timeout at:
+HF@https://s.pinimg.com/webapp/AuthDesktopPageWrapper-d75ff1e9b54edb1c.mjs:59:84668
+render@https://s.pinimg.com/webapp/ProPartnerHeaderDesktop-d2f97f0d862a4047.mjs:8:529298
+om@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:75807
+og@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:75605
+s@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:120396
+lU@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:99072
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:98945
+lD@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:96033
+r6@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:44812
+364448/lk/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:93597
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+i@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:20907
+938085/q/</<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:21378
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/72826-7b1d73043901cbd3.mjs, line 8: Script terminated by timeout at:
+214494/<@https://s.pinimg.com/webapp/72826-7b1d73043901cbd3.mjs:8:19494
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19882
+938085/k/</<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19964
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17357
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19882
+938085/k/</<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19964
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17357
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+d@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19882
+938085/k/</<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:19964
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17357
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+1703434911248	geckodriver	INFO	Listening on 127.0.0.1:57739
+1703434914364	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57740" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilez1ZjYn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703434915093	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703434915209	Marionette	INFO	Listening on port 57747
+Read port: 57747
+WebDriver BiDi listening on ws://127.0.0.1:57740
+1703434915878	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57740/devtools/browser/110ad004-7a34-40bf-a482-64e162fd042d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1703434945158	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+console.error: ({})
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs, line 1: Script terminated by timeout at:
+938085/g/<@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17367
+t@https://s.pinimg.com/webapp/37406-2971d09a9764f878.mjs:1:17228
+
+JavaScript warning: https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs, line 66: Script terminated by timeout at:
+useHook@https://s.pinimg.com/webapp/www/_client-1c973d27c1285913.mjs:66:687
+l@https://s.pinimg.com/webapp/www/idea-ads-tool-0c12cd9af329a918.mjs:239:95363
+s@https://s.pinimg.com/webapp/www/idea-ads-tool-0c12cd9af329a918.mjs:239:94951
+aP@https://s.pinimg.com/webapp/ProPartnerHeaderDesktop-d2f97f0d862a4047.mjs:8:533092
+iS@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:60901
+ov@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:72779
+s@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:120312
+lU@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:99072
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:98945
+lD@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:96033
+r6@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:44812
+364448/lk/<@https://s.pinimg.com/webapp/vendor-react-76e71fd67c83934b.mjs:25:93597
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1703515615631	geckodriver	INFO	Listening on 127.0.0.1:56003
+1703515618698	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56004" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileKHdKhz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703515619589	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703515619774	Marionette	INFO	Listening on port 56011
+WebDriver BiDi listening on ws://127.0.0.1:56004
+Read port: 56011
+1703515620296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56004/devtools/browser/2b36044a-3223-4f3c-9a16-f1dc6d24726b
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1703515649810	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+1703515666149	geckodriver	INFO	Listening on 127.0.0.1:56063
+1703515669194	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56064" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileTAQOzD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703515670052	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703515670240	Marionette	INFO	Listening on port 56072
+WebDriver BiDi listening on ws://127.0.0.1:56064
+Read port: 56072
+1703515670791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56064/devtools/browser/8fcdab76-eedb-4aa5-ab6a-95f6d00b361e
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1703515700209	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1703523908161	Marionette	INFO	Stopped listening on port 56072
+Dynamically enable window occlusion 1
+ng command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55577" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofiledTqtra"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703523530880	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703523531104	Marionette	INFO	Listening on port 55584
+WebDriver BiDi listening on ws://127.0.0.1:55577
+Read port: 55584
+1703523531889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55577/devtools/browser/3b311cc8-214a-47ff-80b9-1ac6ab29b699
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1703523561108	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+1703523906063	Marionette	INFO	Stopped listening on port 55584
+Dynamically enable window occlusion 1

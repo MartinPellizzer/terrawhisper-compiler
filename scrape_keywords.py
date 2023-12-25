@@ -12,7 +12,9 @@ import pyperclip
 driver = webdriver.Firefox()
 
 
-num_articles = 10
+ARTICLE_START = 0
+ARTICLE_END = 20
+SCRAPE_SECONDS = 300
 
 
 def csv_get_rows(filepath):
@@ -33,8 +35,9 @@ def get_latin_name(entity):
 
 
 
-rows = csv_get_rows(f'plants.csv') 
-for i, row in enumerate(rows[1:num_articles+1]):
+rows = csv_get_rows(f'plants.csv')[1:]
+
+for i, row in enumerate(rows[ARTICLE_START:ARTICLE_END]):
     entity = row[0].strip()
     common_name = row[1].strip()
     latin_name = get_latin_name(entity)
@@ -56,7 +59,7 @@ for i, row in enumerate(rows[1:num_articles+1]):
     e.click()
     time.sleep(5) 
 
-    time.sleep(60)
+    time.sleep(SCRAPE_SECONDS)
 
     e = driver.find_element(By.XPATH, '//button[@id="startjob"]')
     e.click()

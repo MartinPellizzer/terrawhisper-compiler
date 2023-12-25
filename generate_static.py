@@ -2,6 +2,19 @@ import os
 import shutil
 import utils
 
+# PATHS
+ARTICLES_CSV = 'articles.csv'
+
+# INITS
+articles = utils.csv_to_llst(ARTICLES_CSV)
+
+# index col with dict
+articles_dict = {}
+for i, item in enumerate(articles[0]):
+    articles_dict[item] = i
+
+articles = articles[1:]
+
 
 google_tag = '''
     <!-- Google tag (gtag.js) -->
@@ -21,20 +34,15 @@ def normalize(text):
 
 
 all_plants_grid = []
-articles_benefits = []
-
-plants_rows = utils.csv_to_llst_2('plants.csv')
-
-# col index
-plants_dict = {}
-for i, item in enumerate(plants_rows[0]):
-    plants_dict[item] = i
-
-for i, plant_row in enumerate(plants_rows[1:]):
-    print(f'{i+1}/{len(plants_rows[1:])} - {plant_row}')
-    entity = plant_row[plants_dict['entity']].strip()
-    common_name = plant_row[plants_dict['common_name']].strip().lower()
+for i, plant_row in enumerate(articles[1:]):
+    print(f'{i+1}/{len(articles[1:])} - {plant_row}')
+    entity = plant_row[articles_dict['entity']].strip()
+    common_name = plant_row[articles_dict['common_name']].strip().lower()
     latin_name = entity.capitalize().replace('-', ' ')
+
+    root = plant_row[articles_dict['root']].strip().lower()
+
+    if root == '': continue
 
     if os.path.exists(f'website/{entity}.html'):
         all_plants_grid.append(
@@ -45,16 +53,6 @@ for i, plant_row in enumerate(plants_rows[1:]):
                 f'images/{entity}-introduction.jpg',
             ]
         )
-        
-    # if os.path.exists(f'website/{entity}/medicine/benefits.html'):
-    #     articles_benefits.append(
-    #         [
-    #             entity,
-    #             common_name,
-    #             latin_name,
-    #             f'images/{entity}-medicine-overview.jpg',
-    #         ]
-    #     )
 
 articles_html = ''
 for home_article in all_plants_grid:
@@ -108,9 +106,17 @@ html = f'''
     </html>
 '''
 
+
 with open(f'website/plants.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
+
+
+##################################################################################################
+# ABOUT
+##################################################################################################
+
+shutil.copy2('static/about.html', 'website/about.html')
 
 
 # articles_html = ''

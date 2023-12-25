@@ -17,22 +17,20 @@ import random
 
 entity_arg = None
 REGEN_ALL_FORCED = False 
+TEST = False 
+TEST_NUM = 1
 if len(sys.argv) == 2:
     if sys.argv[1] == 'force':
         REGEN_ALL_FORCED = True
+    if '-d' in sys.argv[1]:
+        TEST = True
+        TEST_NUM = int(sys.argv[1].split('d')[1])
 
 website_img_path = 'website/images'
+AUTHOR_NAME = 'Leen Randell'
 
 # vars
-image_folder = 'C:/tw-images/auto'
-image_folder_old = 'C:/tw-images/website'
-
-# with open("database/growing_zones.json", encoding='utf-8') as f:
-#     growing_zones_data = json.loads(f.read())
-
-
-ARTICLES_CSV = 'articles.csv'
-
+lst_line_height = 40
 
 google_tag = '''
     <!-- Google tag (gtag.js) -->
@@ -46,7 +44,24 @@ google_tag = '''
     </script>
 '''
 
-lst_line_height = 40
+
+# PATHS
+ARTICLES_CSV = 'articles.csv'
+image_folder = 'C:/tw-images/auto'
+image_folder_old = 'C:/tw-images/website'
+
+
+# INITS
+articles = utils.csv_to_llst(ARTICLES_CSV)
+
+# index col with dict
+articles_dict = {}
+for i, item in enumerate(articles[0]):
+    articles_dict[item] = i
+
+articles = articles[1:]
+
+
 
 # TODO: maybe unite folderpath + section
 def get_content(section, folderpath):
@@ -114,23 +129,6 @@ def is_row_not_empty(row):
             break
     return found
 
-
-
-
-
-# def csv_get_rows_by_entity(filepath, entity):
-#     rows = []
-#     with open(filepath, encoding='utf-8', errors='ignore') as f:
-#         reader = csv.reader(f, delimiter="|")
-#         for i, line in enumerate(reader):
-#             rows.append(line)
-    
-#     filtered_rows = [] 
-#     for row in rows:
-#         if row[0].strip() == entity[0].strip():
-#             filtered_rows.append(row)
-#     return rows
-            
 
 def sanitize_one_word(text):
     return text.split(',')[0].split(' ')[0]
@@ -412,8 +410,9 @@ def generate_header_light():
             <div class="container-lg">
                 <header>
                     <a class="text-stone-700" href="/">TerraWhisper</a>
-                    <nav>
+                    <nav class="flex gap-16">
                         <a class="text-stone-700" href="/plants.html">All Plants</a>
+                        <a class="text-stone-700" href="/about.html">About</a>
                     </nav>
                 </header>
             </div>
@@ -537,7 +536,7 @@ def generate_breadcrumbs(filepath_chunks):
     return breadcrumbs_lst
 
 
-def generate_html(date, title, article, entity, attribute_lst):
+def generate_html(title, article, entity, attribute_lst):
     attributes = '/'.join(attribute_lst)
 
     if attributes != '':
@@ -574,7 +573,7 @@ def generate_html(date, title, article, entity, attribute_lst):
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta name="author" content="Martin Pellizzer">
+            <meta name="author" content="{AUTHOR_NAME}">
             <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
             <link rel="stylesheet" href="/style.css">
             <title>{title}</title>
@@ -594,7 +593,7 @@ def generate_html(date, title, article, entity, attribute_lst):
             <section class="my-96">
                 <div class="container">
                     <div class="flex justify-between mb-16">
-                        <span>by Martin Pellizzer - <time datetime="{date.replace("/", "-")}">{date}</time></span>
+                        <span>by {AUTHOR_NAME}</span>
                         <span>{reading_time_html}</span>
                     </div>
                     {article_html}
@@ -610,6 +609,7 @@ def generate_html(date, title, article, entity, attribute_lst):
 
         </html>
     '''
+    # - <time datetime="{date.replace("/", "-")}">{date}</time>
 
     if len(attributes) != 0: path = '/'.join([entity, attributes])
     else: path = entity
@@ -654,68 +654,48 @@ for chunk in chunks:
 ######################################################################
 
 shutil.copy2('style.css', 'website/style.css')
-shutil.copy2('index.html', 'website/index.html')
 # shutil.copy2('articles-images/hero.jpg', f'{website_img_path}/hero.jpg')
 # shutil.copy2('articles-images/medicinal-plants.jpg', f'{website_img_path}/medicinal-plants.jpg')
-shutil.copy2('images/medicinal-plants.jpg', f'{website_img_path}/medicinal-plants.jpg')
+shutil.copy2('assets/images/medicinal-plants.jpg', f'{website_img_path}/medicinal-plants.jpg')
+shutil.copy2('assets/images/leen-randell-profile-picture.jpg', f'{website_img_path}/leen-randell-profile-picture.jpg')
 
 
 
 articles_home = []
 
-articles_master_rows = utils.csv_to_llst(ARTICLES_CSV)
 
-# index col with dict
-articles_dict = {}
-for i, item in enumerate(articles_master_rows[0]):
-    articles_dict[item] = i
-
-for i, row in enumerate(articles_master_rows[1:]):
-    print(f'{i+1}/{len(articles_master_rows[1:])} - {row}')
+for i, row in enumerate(articles):
+    if TEST:
+        if i >= TEST_NUM: break
+    # print(f'{i+1}/{len(articles_master_rows[1:])} - {row}')
 
     entity = row[articles_dict['entity']].strip()
-    attribute_1 = row[articles_dict['attribute_1']].strip()
-    attribute_2 = row[articles_dict['attribute_2']].strip()
-    date = row[articles_dict['date']].strip()
-    state = row[articles_dict['state']].strip()
-    done = row[articles_dict['done']].strip()
-    update = row[articles_dict['update']].strip()
+    common_name = row[articles_dict['common_name']].strip()
     latin_name = entity.replace('-', ' ').capitalize()
 
-    if not REGEN_ALL_FORCED:
-        if update.strip() == '': continue
-
-    if entity_arg:
-        if entity_arg.strip() != entity:
-            continue
-
-    if state != 'published': continue
-
-    try:
-        common_names = utils.csv_get_rows_by_entity('plants.csv', entity)
-        common_name = common_names[0][1].lower().strip()
-    except:
-        common_names = []
-        common_name = ''
+    root = row[articles_dict['root']].strip()
+    medicine = row[articles_dict['medicine']].strip()
+    medicine_benefits = row[articles_dict['medicine_benefits']].strip()
+    medicine_preparations = row[articles_dict['medicine_preparations']].strip()
 
     try: os.mkdir(f'articles/{entity}')
     except: pass
-    try: os.mkdir(f'articles/{entity}/{attribute_1}')
-    except: pass
-    try: os.mkdir(f'articles/{entity}/{attribute_1}/{attribute_2}')
+    try: os.mkdir(f'articles/{entity}/medicine')
     except: pass
     try: os.mkdir(f'website/{entity}')
     except: pass
-    try: os.mkdir(f'website/{entity}/{attribute_1}')
-    except: pass
-    try: os.mkdir(f'website/{entity}/{attribute_1}/{attribute_2}')
+    try: os.mkdir(f'website/{entity}/medicine')
     except: pass
 
     article = ''
     featured_image_filpath = ''
 
+    print(row)
     # root
-    if attribute_1.strip() == '':
+    if root != '':
+        article = ''
+        attributes = ''
+
         # intro
         title = f'What to know before using {common_name} ({latin_name.capitalize()})'.title()
         article += f'<h1>{title}</h1>'
@@ -726,7 +706,7 @@ for i, row in enumerate(articles_master_rows[1:]):
             entity, 
             common_name, 
             attribute_lst, 
-            '0001.jpg')
+            '0000.jpg')
         article += f'![{image_title}]({featured_image_filepath} "{image_title}")\n\n'
 
 
@@ -909,11 +889,19 @@ for i, row in enumerate(articles_master_rows[1:]):
         article += f'<img src="images/{entity}-{section}.jpg" alt="{latin_name.title()} {section.title()}">'
         for paragraph in paragraph_rest:
             article += f'<p>{paragraph}</p>'
-  
+            
+        article = article.replace('’', "'") 
+        article = article.replace('..', ".") 
 
+        attribute_lst = [x for x in attributes.split('/')]
+        article_filepath = generate_html(title, article, entity, attribute_lst)
+  
   
     # medicine
-    elif 'medicine' in attribute_1.lower() and attribute_2.strip() == '':
+    if medicine != '':
+        article = ''
+        attributes = 'medicine'
+
         title = f'{common_name.capitalize()} ({latin_name.capitalize()}) Medicinal Guide: Benefits, Constituents, and Preparations'
         article += f'# {title}\n\n'
         
@@ -1084,12 +1072,18 @@ for i, row in enumerate(articles_master_rows[1:]):
         for paragraph in paragraph_rest:
             article += f'<p>{paragraph}</p>'
 
+        article = article.replace('’', "'") 
+        article = article.replace('..', ".") 
 
-
-
+        attribute_lst = [x for x in attributes.split('/')]
+        article_filepath = generate_html(title, article, entity, attribute_lst)
+            
 
     # medicine >> benefits
-    elif 'medicine' in attribute_1.lower() and attribute_2.strip() == 'benefits':
+    if medicine_benefits != '':
+        article = ''
+        attributes = 'medicine/benefits'
+
         title = f'10 Health Benefits of {common_name.capitalize()} ({latin_name.capitalize()})'
         article += f'# {title}\n\n'
 
@@ -1100,7 +1094,7 @@ for i, row in enumerate(articles_master_rows[1:]):
                 entity, 
                 common_name, 
                 attribute_lst, 
-                '0001.jpg'
+                '0002.jpg'
             )
             article += f'![{image_title}]({featured_image_filepath} "{image_title}")\n\n'
         except: 
@@ -1183,21 +1177,32 @@ for i, row in enumerate(articles_master_rows[1:]):
             article += f'The illustration below shows some common health conditions that benefits from the fact that {common_name} {benefit.lower()}.' + '\n\n'
             article += image_section + '\n\n'
             article += data_conditions_text + '\n\n'
+
+        article = article.replace('’', "'") 
+        article = article.replace('..', ".") 
+
+        attribute_lst = [x for x in attributes.split('/')]
+        article_filepath = generate_html(title, article, entity, attribute_lst)
             
 
     # medicine >> preparations
-    elif 'medicine' in attribute_1.lower() and attribute_2.strip() == 'preparations':
+    if medicine_preparations != '':
+        article = ''
+        attributes = 'medicine/preparations'
+
         title = f'10 Medicinal Preparations of {common_name.capitalize()} ({latin_name.capitalize()})'
         article += f'# {title}\n\n'
         
         attribute_lst = ['medicine', 'preparations']
         image_title = f'{common_name.capitalize()}\'s Medicinal Preparations'
-        featured_image_filepath = generate_featured_image(
-            entity, 
-            common_name, 
-            attribute_lst, 
-            '0000.jpg'
-        )
+        try:
+            featured_image_filepath = generate_featured_image(
+                entity, 
+                common_name, 
+                attribute_lst, 
+                '0003.jpg'
+            )
+        except: pass
         article += f'![{image_title}]({featured_image_filepath} "{image_title}")\n\n'
 
         article += get_content('medicine/preparations/_intro', f'database/articles/{entity}')
@@ -1253,29 +1258,307 @@ for i, row in enumerate(articles_master_rows[1:]):
             
             article += data_conditions_text + '\n\n'
 
+        article = article.replace('’', "'") 
+        article = article.replace('..', ".") 
+
+        attribute_lst = [x for x in attributes.split('/')]
+        article_filepath = generate_html(title, article, entity, attribute_lst)
 
 
 
 
 
 
+##################################################################################################
+# ALL PLANTS PAGE
+##################################################################################################
 
+all_plants_grid = []
+for i, plant_row in enumerate(articles):
+    if TEST:
+        if i >= TEST_NUM: break
 
+    print(f'{i+1}/{len(articles[1:])} - {plant_row}')
+    entity = plant_row[articles_dict['entity']].strip()
+    common_name = plant_row[articles_dict['common_name']].strip().lower()
+    latin_name = entity.capitalize().replace('-', ' ')
 
+    root = plant_row[articles_dict['root']].strip().lower()
 
+    if root == '': continue
+
+    if os.path.exists(f'website/{entity}.html'):
+        all_plants_grid.append(
+            [
+                entity,
+                common_name,
+                latin_name,
+                f'images/{entity}-introduction.jpg',
+            ]
+        )
+
+articles_html = ''
+for home_article in all_plants_grid:
+    title = f'{home_article[1]} ({home_article[2]}) Guide'.title()
+    articles_html += f'''
+        <div>
+            <img src="{home_article[3]}">
+            <h2 class="grid-articles-title"><a href="{home_article[0]}.html">{title}</a></h2>
+        </div>
+    '''
+
+html = f'''
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="{AUTHOR_NAME}">
+        <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042" />
+        <link rel="stylesheet" href="style.css">
+        <title>All Plant | TerraWhisper</title>
+        {google_tag}
+    </head>
+
+    <body>
+        <section class="header-divider">
+            <div class="container-lg">
+                <header>
+                    <a class="text-stone-700" href="/">TerraWhisper</a>
+                    <nav>
+                        <a class="text-stone-700" href="/plants.html">All Plants</a>
+                    </nav>
+                </header>
+            </div>
+        </section>
+
+        <section class="container-lg mt-96 grid gap-48 grid-3">
+            {articles_html}
+        </section>
+
+        
+        <footer>
+            <div class="container-lg">
+                <span>© TerraWhisper.com 2023 | All Rights Reserved
+            </div>
+        </footer>
+    </body>
     
-    article = article.replace('’', "'") 
-    article = article.replace('..', ".") 
-    attribute_lst = [x for x in [attribute_1, attribute_2] if x.strip() != '']
-    article_filepath = generate_html(date, title, article, entity, attribute_lst)
 
+    </html>
+'''
+
+with open(f'website/plants.html', 'w', encoding='utf-8') as f:
+    f.write(html)
 
 
 ##################################################################################################
 # HOME PAGE
 ##################################################################################################
 
-articles = utils.csv_to_llst(ARTICLES_CSV)[1:]
+
+articles_home_benefits_html = ''
+articles_home_preparations_html = ''
+for i, article in enumerate(articles):
+    if TEST:
+        if i >= TEST_NUM: break
+    entity = article[articles_dict['entity']]
+    common_name = article[articles_dict['common_name']]
+    latin_name = entity.replace('-', ' ').capitalize()
+    
+    medicine_benefits = article[articles_dict['medicine_benefits']]
+    medicine_preparations = article[articles_dict['medicine_preparations']]
+
+    if medicine_benefits != '':
+        print(article)
+        img = f'images/{entity}-medicine-benefits-introduction.jpg'
+        url = f'{entity}/medicine/benefits.html'
+        title = f'10 Health Benefits of {common_name.capitalize()} ({latin_name.capitalize()})'
+        articles_home_benefits_html += f'''
+            <a href="{url}">
+                <div>
+                    <img src="{img}" alt="">
+                    <h2 class="mt-0 mb-0">{title}</h2>
+                </div>
+            </a>
+            \n
+        '''
+        
+    if medicine_preparations != '':
+        print(article)
+        img = f'images/{entity}-medicine-preparations-introduction.jpg'
+        url = f'{entity}/medicine/preparations.html'
+        title = f'10 Medicinal Preparations of {common_name.capitalize()} ({latin_name.capitalize()})'
+        articles_home_preparations_html += f'''
+            <a href="{url}">
+                <div>
+                    <img src="{img}" alt="">
+                    <h2 class="mt-0 mb-0">{title}</h2>
+                </div>
+            </a>
+            \n
+        '''
+
+articles_home_section_benefits_html = ''
+if normalize(articles_home_benefits_html) != '':
+    articles_home_section_benefits_html = f'''
+    <section class="my-96">
+        <div class="container-lg">
+            <h2 class="text-center mb-16">Guides on Medicinal Plants' Benefits</h2>
+            <p class="text-center mb-48">Learn which are the most important plants' benefits to improve your health.</p>
+            <div class="articles">
+                {articles_home_benefits_html}
+            </div>
+        </div>
+    </section>
+    '''
+
+articles_home_section_preparations_html = ''
+if normalize(articles_home_preparations_html) != '':
+    articles_home_section_preparations_html = f'''
+    <section class="my-96">
+        <div class="container-lg">
+            <h2 class="text-center mb-16">Guides on Medicinal Plants' Preparations</h2>
+            <p class="text-center mb-48">Find out what are the most useful plants' preparations and how to use them as remedies.</p>
+            <div class="articles">
+                {articles_home_preparations_html}
+            </div>
+        </div>
+    </section>
+    '''
+
+html = f'''
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="{AUTHOR_NAME}">
+        <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Medicinal Plants | TerraWhisper</title>
+        {google_tag}
+        
+    </head>
+
+    <body>
+        <section class="hero-section">
+            <div class="container-lg h-full">
+
+                <section>
+                    <div class="container-lg">
+                        <header>
+                            <a class="fg-white" href="/">TerraWhisper</a>
+                            <nav>
+                                <a class="fg-white" href="/plants.html">All Plants</a>
+                            </nav>
+                        </header>
+                    </div>
+                </section>
+
+                <div class="flex flex-col justify-center items-center h-90">
+                    <h1 class="fg-white text-center size-72 weight-400">Learn how to use plants to improve your life</h1>
+
+                    <div class="container">
+                        <p class="fg-white text-center">If you are interested in healing herbs and natural remedies, welcome
+                            to the tribe. Here you will find out what are the best plants to boost your health and how to
+                            use them correctly to improve results.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-96">
+            <div class="container">
+                <h2 class="text-center mb-16">Embrace Scientific Herbalism</h2>
+                <p class="text-center mb-16">The medicinal properties of herbs are well recognized by science and 1000+ new
+                    scientific studies are conducted every year to document it. In fact, more than 75% of modern medicinals
+                    are made by synthesizing and extracting biochemical compounds from plants all around the world, and the
+                    number is increasing day by day.</p>
+                <p class="text-center mb-16">If you are looking for a science-based approach to herbalism, and not a
+                    "magical" one, enjoy our articles packed with tons of scientific data on plants' healing effects.</p>
+            </div>
+        </section>
+
+        {articles_home_section_benefits_html}
+        {articles_home_section_preparations_html}
+        
+        <footer>
+            <div class="container-lg">
+                <span>© TerraWhisper.com 2023 | All Rights Reserved
+            </div>
+        </footer>
+
+    </body>
+
+    </html>
+'''
+
+with open(f'website/index.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+
+
+##################################################################################################
+# ABOUT
+##################################################################################################
+
+header = generate_header_light()
+html = f'''
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="{AUTHOR_NAME}">
+        <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042" />
+        <link rel="stylesheet" href="style.css">
+        <title>TerraWhisper | About</title>
+        {google_tag}
+
+    </head>
+
+    <body>
+        {header}
+
+        <section class="my-96">
+            <div class="container-lg flex gap-96">
+                <div class="flex-2">
+                    <h2 class="mb-16">Embrace Scientific Herbalism</h2>
+                    <p class="mb-16">The medicinal properties of herbs are well recognized by science and 1000+ new
+                        scientific studies are conducted every year to document it. In fact, more than 75% of modern medicinals
+                        are made by synthesizing and extracting biochemical compounds from plants all around the world, and the
+                        number is increasing day by day.</p>
+                    <p class="mb-16">If you are looking for a science-based approach to herbalism, and not a
+                        "magical" one, enjoy our articles packed with tons of scientific data on plants' healing effects.</p>
+                </div>
+                <div class="flex-1 profile-box">
+                    <img class="profile-pic mb-16" src="/images/leen-randell-profile-picture.jpg">
+                    <p class="profile-name text-center">Leen Randell</p>
+                    <p class="text-center mb-0">Herbalist, Botanist, Biologist, Scientist, and Self-Proclaimed Alchemist - Lover of Nature, Plants, and Chickens 🐣</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container-lg">
+                <span>© TerraWhisper.com 2023 | All Rights Reserved
+            </div>
+        </footer>
+
+    </body>
+
+    </html>
+'''
+# <p class="text-center mb-0">Herbalist, Botanist, and Self-Proclaimed Alchemist. Lover of Seas, Skyes, and Everything in Between.</p>
+
+
+with open(f'website/about.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+
+quit()
 
 articles_morphology_html = ''
 articles_taxonomy_html = ''
@@ -1413,7 +1696,7 @@ html = f'''
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Martin Pellizzer">
+        <meta name="author" content="{AUTHOR_NAME}">
         <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
         <link rel="stylesheet" href="style.css">
         <title>Medicinal Plants | TerraWhisper</title>
@@ -1547,4 +1830,4 @@ shutil.copy2('style.css', 'website/style.css')
 shutil.copy2('index.html', 'website/index.html')
 # shutil.copy2('articles-images/hero.jpg', f'{website_img_path}/hero.jpg')
 # shutil.copy2('articles-images/medicinal-plants.jpg', f'{website_img_path}/medicinal-plants.jpg')
-shutil.copy2('images/medicinal-plants.jpg', f'{website_img_path}/medicinal-plants.jpg')
+shutil.copy2('assets/images/medicinal-plants.jpg', f'{website_img_path}/medicinal-plants.jpg')

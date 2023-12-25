@@ -1,6 +1,6 @@
 # 10 Medicinal Preparations of Yarrow (Achillea millefolium)
 
-![Yarrow's Medicinal Preparations](/images/achillea-millefolium-medicine-preparations-introduction.jpg "Yarrow's Medicinal Preparations")
+![Yarrow's Medicinal Preparations](/images/achillea-millefolium-medicine-introduction.jpg "Yarrow's Medicinal Preparations")
 
 Yarrow, a versatile herb, offers various medicinal preparations each with distinct benefits. Yarrow Tea, made from its flowers and leaves, possesses anti-inflammatory and digestive aid qualities, promoting relaxation and immune support. Preparation involves steeping dried yarrow in hot water, cautioning against excessive intake due to potential adverse effects like skin irritation or heightened photosensitivity.
 
@@ -20,7 +20,7 @@ Yarrow Infusion is a herbal remedy made by steeping dried yarrow leaves, flowerh
 
 The illustration below summarize some common health conditions that benefits from Achillea millefolium infusion.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-infusion.jpg "Yarrow Attribute_2")
+![Yarrow Medicine_Preparations](/images/achillea-millefolium-infusion.jpg "Yarrow Medicine_Preparations")
 
 The following list includes the main conditions that yarrow infusion helps to heal.
 
@@ -43,7 +43,7 @@ Yarrow Decoction is a form of herbal preparation made by boiling the Yarrow plan
 
 The illustration below summarize some common health conditions that benefits from Achillea millefolium decoction.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-decoction.jpg "Yarrow Attribute_2")
+![Yarrow Medicine_Preparations](/images/achillea-millefolium-decoction.jpg "Yarrow Medicine_Preparations")
 
 The following list includes the main conditions that yarrow decoction helps to heal.
 
@@ -66,7 +66,7 @@ Yarrow Tincture is a herbal remedy made by soaking yarrow leaves, flower heads a
 
 The illustration below summarize some common health conditions that benefits from Achillea millefolium tincture.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-tincture.jpg "Yarrow Attribute_2")
+![Yarrow Medicine_Preparations](/images/achillea-millefolium-tincture.jpg "Yarrow Medicine_Preparations")
 
 The following list includes the main conditions that yarrow tincture helps to heal.
 
@@ -89,7 +89,7 @@ Yarrow Powder, an herbal supplement derived from Achillea millefolium plant, is 
 
 The illustration below summarize some common health conditions that benefits from Achillea millefolium powder.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-powder.jpg "Yarrow Attribute_2")
+![Yarrow Medicine_Preparations](/images/achillea-millefolium-powder.jpg "Yarrow Medicine_Preparations")
 
 The following list includes the main conditions that yarrow powder helps to heal.
 
@@ -111,7 +111,7 @@ Yarrow Salve refers to a homemade or commercially prepared healing ointment whic
 
 The illustration below summarize some common health conditions that benefits from Achillea millefolium salve.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-salve.jpg "Yarrow Attribute_2")
+![Yarrow Medicine_Preparations](/images/achillea-millefolium-salve.jpg "Yarrow Medicine_Preparations")
 
 The following list includes the main conditions that yarrow salve helps to heal.
 
@@ -135,7 +135,7 @@ Yarrow Oil is a natural essential oil extracted from the aromatic yarrow plant, 
 
 The illustration below summarize some common health conditions that benefits from Achillea millefolium oil.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-oil.jpg "Yarrow Attribute_2")
+![Yarrow Medicine_Preparations](/images/achillea-millefolium-oil.jpg "Yarrow Medicine_Preparations")
 
 The following list includes the main conditions that yarrow oil helps to heal.
 
@@ -158,7 +158,7 @@ Yarrow Extract is a natural plant derivative acquired from the Achillea millefol
 
 The illustration below summarize some common health conditions that benefits from Achillea millefolium extract.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-extract.jpg "Yarrow Attribute_2")
+![Yarrow Medicine_Preparations](/images/achillea-millefolium-extract.jpg "Yarrow Medicine_Preparations")
 
 The following list includes the main conditions that yarrow extract helps to heal.
 
@@ -178,7 +178,7 @@ Yarrow Capsules is a supplement made from the dried flower heads of the yarrow p
 
 The illustration below summarize some common health conditions that benefits from Achillea millefolium capsules.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-capsules.jpg "Yarrow Attribute_2")
+![Yarrow Medicine_Preparations](/images/achillea-millefolium-capsules.jpg "Yarrow Medicine_Preparations")
 
 The following list includes the main conditions that yarrow capsules helps to heal.
 
@@ -203,7 +203,7 @@ Yarrow Essential Oil is extracted from the aromatic yarrow plant using a distill
 
 The illustration below summarize some common health conditions that benefits from Achillea millefolium essential oil.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-essential-oil.jpg "Yarrow Attribute_2")
+![Yarrow Medicine_Preparations](/images/achillea-millefolium-essential-oil.jpg "Yarrow Medicine_Preparations")
 
 The following list includes the main conditions that yarrow essential oil helps to heal.
 
@@ -222,7 +222,7 @@ Yarrow Tea is a natural herbal beverage created by brewing dried yarrow plant le
 
 The illustration below summarize some common health conditions that benefits from Achillea millefolium tea.
 
-![Yarrow Attribute_2](/images/achillea-millefolium-tea.jpg "Yarrow Attribute_2")
+![Yarrow Medicine_Preparations](/images/achillea-millefolium-tea.jpg "Yarrow Medicine_Preparations")
 
 The following list includes the main conditions that yarrow tea helps to heal.
 
