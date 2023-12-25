@@ -377,7 +377,7 @@ td {
 
 .profile-box {
     background-color: #e7e5e4;
-    border-radius: 13px;
+    border-radius: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -396,9 +396,11 @@ td {
     /* text-transform: uppercase; */
 }
 
-
-
-
+.side-note {
+    background-color: #f5f5f4;
+    padding: 1.6rem 3.2rem;
+    border-radius: 8px;
+}
 
 
 

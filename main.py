@@ -658,6 +658,7 @@ shutil.copy2('style.css', 'website/style.css')
 # shutil.copy2('articles-images/medicinal-plants.jpg', f'{website_img_path}/medicinal-plants.jpg')
 shutil.copy2('assets/images/medicinal-plants.jpg', f'{website_img_path}/medicinal-plants.jpg')
 shutil.copy2('assets/images/leen-randell-profile-picture.jpg', f'{website_img_path}/leen-randell-profile-picture.jpg')
+shutil.copy2('assets/images/leen-garden-medicinal-plants.jpg', f'{website_img_path}/leen-garden-medicinal-plants.jpg')
 
 
 
@@ -1503,6 +1504,11 @@ with open(f'website/index.html', 'w', encoding='utf-8') as f:
 ##################################################################################################
 # ABOUT
 ##################################################################################################
+with open(f'static/about.md', 'r', encoding='utf-8') as f:
+    article = f.read()
+
+
+article_html = markdown.markdown(article, extensions=['markdown.extensions.tables'])
 
 header = generate_header_light()
 html = f'''
@@ -1526,18 +1532,14 @@ html = f'''
         <section class="my-96">
             <div class="container-lg flex gap-96">
                 <div class="flex-2">
-                    <h2 class="mb-16">Embrace Scientific Herbalism</h2>
-                    <p class="mb-16">The medicinal properties of herbs are well recognized by science and 1000+ new
-                        scientific studies are conducted every year to document it. In fact, more than 75% of modern medicinals
-                        are made by synthesizing and extracting biochemical compounds from plants all around the world, and the
-                        number is increasing day by day.</p>
-                    <p class="mb-16">If you are looking for a science-based approach to herbalism, and not a
-                        "magical" one, enjoy our articles packed with tons of scientific data on plants' healing effects.</p>
+                    {article_html}
                 </div>
-                <div class="flex-1 profile-box">
-                    <img class="profile-pic mb-16" src="/images/leen-randell-profile-picture.jpg">
-                    <p class="profile-name text-center">Leen Randell</p>
-                    <p class="text-center mb-0">Herbalist, Botanist, Biologist, Scientist, and Self-Proclaimed Alchemist - Lover of Nature, Plants, and Chickens 🐣</p>
+                <div class="flex-1">
+                    <div class="profile-box">
+                        <img class="profile-pic mb-16" src="/images/leen-randell-profile-picture.jpg">
+                        <p class="profile-name text-center">Leen Randell</p>
+                        <p class="text-center mb-0">Herbalist, Botanist, Biologist, Scientist, and Self-Proclaimed Alchemist - Lover of Nature, Plants, and Chickens 🐣</p>
+                    </div>
                 </div>
             </div>
         </section>
