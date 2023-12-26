@@ -1,3 +1,0 @@
-edible
-    acorus calamus edible
-

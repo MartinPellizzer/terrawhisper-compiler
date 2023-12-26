@@ -1560,6 +1560,63 @@ html = f'''
 with open(f'website/about.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
+
+
+
+
+
+
+filename = 'herbal-tea-beginner'
+with open(f'static/articles/{filename}.md', 'r', encoding='utf-8') as f: article = f.read()
+article_html = markdown.markdown(article, extensions=['markdown.extensions.tables'])
+header = generate_header_light()
+
+html = f'''
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="{AUTHOR_NAME}">
+        <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+        <link rel="stylesheet" href="/style.css">
+        <title>7 Steps To Make Effective Medicinal Herbal Tea (Beginner Guide)</title>
+        {google_tag}
+        
+    </head>
+
+    <body>
+        {header}
+
+        <section class="my-96">
+            <div class="container">
+                <div class="flex justify-between mb-16">
+                    <span>by {AUTHOR_NAME}</span>
+                </div>
+                {article_html}
+            </div>
+        </section>
+
+        <footer>
+            <div class="container-lg">
+                <span>© TerraWhisper.com 2023 | All Rights Reserved
+            </div>
+        </footer>
+    </body>
+
+    </html>
+'''
+with open(f'{filename}.html', 'w', encoding='utf-8') as f: f.write(html)
+
+
+
+
+
+
+
+
+
 quit()
 
 articles_morphology_html = ''

@@ -119,6 +119,11 @@ ul {
     margin-bottom: 3.2rem;
 }
 
+ol {
+    margin-left: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
 li {
     margin-bottom: 0.8rem;
     line-height: 1.5;

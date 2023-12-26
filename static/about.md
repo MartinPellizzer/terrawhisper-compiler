@@ -28,6 +28,12 @@ How can I be so sure about that? What qualifies me to say so?
 
 Glad you asked!
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quos sequi dolore obcaecati quo dolorem, laborum ex laboriosam fugiat. Tenetur, quisquam dolorum! Animi placeat numquam, deleniti aut ut quibusdam in.
+First of all, let me show you a piece of my beautiful garden (which I'm so proud of) in the image below.
 
 ![leen's garden full of medicinal plants](/images/leen-garden-medicinal-plants.jpg)
+
+This garden it's the best gift I've ever received in my life. But it took me a lot of time, sweat, and tears to grow it like that.
+
+When I was a kid, my mom used to ...
+
+Just so you know this is my 7th year in a row without cathing a cold.
