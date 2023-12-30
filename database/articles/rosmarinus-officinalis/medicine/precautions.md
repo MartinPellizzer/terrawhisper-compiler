@@ -1,0 +1,13 @@
+It's important to take precautions when using Rosemary medicinally, such as knowing the correct dosage, consulting a herbalist, being aware of any allergies one might have, taking caution in its use, informing your doctor about it, thinking of safety concerns while pregnant or breastfeeding, keeping away from children, not using it long-term to prevent adverse effects, refraining from combining with alcoholic beverages, and discontinuing if any side effects occur. 
+
+ The first step in ensuring safe use of Rosemary is knowing the proper dosage required according to one's personal needs. This prevents the risk of either under or over-consumption which may result in adverse reactions. Consulting a herbalist can provide valuable advice based on their knowledge and experience with various botanicals, helping you determine safe intake levels tailored specifically for your individual circumstances. 
+
+ Secondly, it's essential to be aware of any potential allergies or sensitivities one might have towards Rosemary or its components since such a reaction can lead to serious health complications. If unsure, consulting with a medical professional is recommended before using the herb. 
+
+ Using caution when incorporating Rosemary into your daily routine is also essential for maintaining overall well-being. It's crucial to monitor any changes in your body and seek advice if needed. Additionally, informing a health care provider about your use of this herb can help them better understand how it interacts with prescribed medications or other treatments you may be taking simultaneously. 
+
+ Pregnant women should exercise caution when using Rosemary as there is limited research on its impact on both the mother and fetus during pregnancy. Breastfeeding mothers should also consult their doctor before considering consumption due to potential side effects affecting milk supply. 
+
+ As a safety precaution, keep away from small children when dealing with this herb or using products that may contain Rosemary in your home. It's recommended to store these items out of reach to avoid accidental ingestion by young ones. 
+
+ Continuing the use of Rosemary for extended periods could potentially lead to negative long-term effects; therefore, limiting usage as directed is advised. Lastly, it's crucial not to mix Rosemary with alcoholic beverages as this combination can cause severe health complications. If any adverse reactions occur after using Rosemary, discontinue its use immediately and seek professional medical advice.

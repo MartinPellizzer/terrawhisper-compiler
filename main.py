@@ -228,8 +228,6 @@ def generate_table_simple(rows):
 # IMAGES 
 ######################################################################
 
-
-
 def img_resize(img):
     w, h = 768, 578
 
@@ -260,7 +258,11 @@ def img_resize(img):
 
 
 def generate_featured_image(entity, common_name, attribute_lst, filename):
-    img = Image.open(f'{image_folder}/{entity}/4x3/{filename}')
+    try: 
+        filename = filename.replace('.jpg', '.png')
+        img = Image.open(f'{image_folder}/{entity}/1024x1024/{filename}')
+    except:
+        img = Image.open(f'{image_folder}/{entity}/4x3/{filename}')
     img = img_resize(img)
 
     w_banner = img.size[0]
@@ -404,17 +406,26 @@ def gen_img_lst(entity, common_name, image_filepath, attributes, subtitle, lst):
 # HTML 
 ######################################################################
 
-def generate_header_light():
+def generate_header_base():
     html = '''
+        <header>
+            <a class="text-stone-700" href="/">TerraWhisper</a>
+            <nav class="flex gap-32">
+                <a class="text-stone-700" href="/tea/preparation.html">Start Here</a>
+                <a class="text-stone-700" href="/herbs.html">Herbs</a>
+                <a class="text-stone-700" href="/about.html">About</a>
+            </nav>
+        </header>
+    '''
+    return html
+
+
+def generate_header_light():
+    header_html = generate_header_base()
+    html = f'''
         <section class="header-divider">
             <div class="container-lg">
-                <header>
-                    <a class="text-stone-700" href="/">TerraWhisper</a>
-                    <nav class="flex gap-16">
-                        <a class="text-stone-700" href="/plants.html">All Plants</a>
-                        <a class="text-stone-700" href="/about.html">About</a>
-                    </nav>
-                </header>
+                {header_html}
             </div>
         </section>
     '''
@@ -732,11 +743,14 @@ for i, row in enumerate(articles):
 
         _rows = utils.csv_get_rows_by_entity(f'database/tables/medicine/benefits.csv', entity)
         lst = [_row[1] for _row in _rows]
+
         image_filename = images_filenames.pop()
+        image_filepath = f'{image_folder}/{entity}/3x4/{image_filename}'
+
         filepath = gen_img_lst(
             entity, 
             common_name, 
-            image_filepath=f'{image_folder}/{entity}/3x4/{image_filename}', 
+            image_filepath=image_filepath, 
             attributes=section, 
             subtitle=section.title().replace('-', ' '), 
             lst=lst,
@@ -1271,7 +1285,7 @@ for i, row in enumerate(articles):
 
 
 ##################################################################################################
-# ALL PLANTS PAGE
+# HERBS PAGE
 ##################################################################################################
 
 all_plants_grid = []
@@ -1308,6 +1322,8 @@ for home_article in all_plants_grid:
         </div>
     '''
 
+header_html = generate_header_base()
+
 html = f'''
     <!DOCTYPE html>
     <html lang="en">
@@ -1325,12 +1341,7 @@ html = f'''
     <body>
         <section class="header-divider">
             <div class="container-lg">
-                <header>
-                    <a class="text-stone-700" href="/">TerraWhisper</a>
-                    <nav>
-                        <a class="text-stone-700" href="/plants.html">All Plants</a>
-                    </nav>
-                </header>
+                {header_html}
             </div>
         </section>
 
@@ -1350,14 +1361,13 @@ html = f'''
     </html>
 '''
 
-with open(f'website/plants.html', 'w', encoding='utf-8') as f:
+with open(f'website/herbs.html', 'w', encoding='utf-8') as f:
     f.write(html)
 
 
 ##################################################################################################
 # HOME PAGE
 ##################################################################################################
-
 
 articles_home_benefits_html = ''
 articles_home_preparations_html = ''
@@ -1429,6 +1439,8 @@ if normalize(articles_home_preparations_html) != '':
     </section>
     '''
 
+header_html = generate_header_base()
+
 html = f'''
     <!DOCTYPE html>
     <html lang="en">
@@ -1445,29 +1457,24 @@ html = f'''
     </head>
 
     <body>
-        <section class="hero-section">
-            <div class="container-lg h-full">
-
-                <section>
-                    <div class="container-lg">
-                        <header>
-                            <a class="fg-white" href="/">TerraWhisper</a>
-                            <nav>
-                                <a class="fg-white" href="/plants.html">All Plants</a>
-                            </nav>
-                        </header>
+        <section class="section-hero-2">
+            <div class="flex h-full">
+                <div class="flex-1">
+                    <div class="container mt-16">
+                        {header_html}
                     </div>
-                </section>
+                    <div class="container flex flex-col justify-center items-center h-90">
+                        <h1 class="size-64 weight-400">Learn how to use herbs to boost your health
+                        </h1>
 
-                <div class="flex flex-col justify-center items-center h-90">
-                    <h1 class="fg-white text-center size-72 weight-400">Learn how to use plants to improve your life</h1>
-
-                    <div class="container">
-                        <p class="fg-white text-center">If you are interested in healing herbs and natural remedies, welcome
-                            to the tribe. Here you will find out what are the best plants to boost your health and how to
+                        <p>If you are interested in healing herbs and natural remedies,
+                            welcome
+                            to the tribe. Here you will find out what are the best plants to boost your health and how
+                            to
                             use them correctly to improve results.</p>
                     </div>
                 </div>
+                <div class="hero-image flex-1"></div>
             </div>
         </section>
 
@@ -1511,6 +1518,7 @@ with open(f'static/about.md', 'r', encoding='utf-8') as f:
 article_html = markdown.markdown(article, extensions=['markdown.extensions.tables'])
 
 header = generate_header_light()
+
 html = f'''
     <!DOCTYPE html>
     <html lang="en">
@@ -1554,8 +1562,6 @@ html = f'''
 
     </html>
 '''
-# <p class="text-center mb-0">Herbalist, Botanist, and Self-Proclaimed Alchemist. Lover of Seas, Skyes, and Everything in Between.</p>
-
 
 with open(f'website/about.html', 'w', encoding='utf-8') as f:
     f.write(html)
@@ -1566,8 +1572,8 @@ with open(f'website/about.html', 'w', encoding='utf-8') as f:
 
 
 
-filename = 'herbal-tea-beginner'
-with open(f'static/articles/{filename}.md', 'r', encoding='utf-8') as f: article = f.read()
+filepath = 'tea/preparation'
+with open(f'static/{filepath}.md', 'r', encoding='utf-8') as f: article = f.read()
 article_html = markdown.markdown(article, extensions=['markdown.extensions.tables'])
 header = generate_header_light()
 
@@ -1581,7 +1587,7 @@ html = f'''
         <meta name="author" content="{AUTHOR_NAME}">
         <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
         <link rel="stylesheet" href="/style.css">
-        <title>7 Steps To Make Effective Medicinal Herbal Tea (Beginner Guide)</title>
+        <title>5 Simple Steps To Make Effective Medicinal Herbal Tea (Beginner Guide)</title>
         {google_tag}
         
     </head>
@@ -1607,15 +1613,28 @@ html = f'''
 
     </html>
 '''
-with open(f'{filename}.html', 'w', encoding='utf-8') as f: f.write(html)
+curr_path = ''
+for chunk in filepath.split('/')[:-1]:
+    curr_path += f'{chunk}/'
+    try: os.makedirs(f'website/{curr_path}')
+    except: pass
+with open(f'website/{filepath}.html', 'w', encoding='utf-8') as f: f.write(html)
 
 
 
 
 
-
-
-
+shutil.copy2('static/images/tea-preparation-overview.png', 'website/images/tea-preparation-overview.png')
+shutil.copy2('static/images/tea-preparation-herbs.png', 'website/images/tea-preparation-herbs.png')
+shutil.copy2('static/images/tea-preparation-bags.png', 'website/images/tea-preparation-bags.png')
+shutil.copy2('static/images/tea-preparation-kettle.png', 'website/images/tea-preparation-kettle.png')
+shutil.copy2('static/images/tea-preparation-cup.png', 'website/images/tea-preparation-cup.png')
+shutil.copy2('static/images/tea-preparation-sugar.png', 'website/images/tea-preparation-sugar.png')
+# shutil.copy2('herbal-tea-beginner.html', 'website/herbal-tea-beginner.html')
+# shutil.copy2('index_new.html', 'website/index_new.html')
+shutil.copy2('assets/images/leen-drinking-tea-2x-2.png', f'{website_img_path}/leen-drinking-tea-2x-2.png')
+shutil.copy2('assets/images/leen-randell-profile-picture-hd.png', f'{website_img_path}/leen-randell-profile-picture-hd.png')
+# shutil.copy2('index.html', 'website/index.html')
 
 quit()
 

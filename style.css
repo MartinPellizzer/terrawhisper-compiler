@@ -293,6 +293,10 @@ td {
     font-size: 4.8rem;
 }
 
+.size-64 {
+    font-size: 6.4rem;
+}
+
 .weight-700 {
     font-weight: 700;
 }
@@ -309,6 +313,22 @@ td {
     /* The least supported option. */
 
     /* background-image: url('https://images.unsplash.com/photo-1586281010691-f9da4be5b1f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80'); */
+    background-size: cover;
+    background-position: center;
+}
+
+
+.section-hero-2 {
+    height: 100vh;
+    background-color: #e7e5e4;
+    /* background-color: #b79881; */
+    /* background-color: #d6d3d1; */
+}
+
+.hero-image {
+    background: url("/images/leen-drinking-tea-2x-2.png");
+    background: url("/images/leen-randell-profile-picture-hd.png");
+    background: url("/images/tea-preparation-herbs.png");
     background-size: cover;
     background-position: center;
 }

@@ -34,7 +34,7 @@ def get_latin_name(entity):
 
 
 
-num_articles = 70
+num_articles = 80
 
 plants = csv_get_rows(f'plants.csv') 
 

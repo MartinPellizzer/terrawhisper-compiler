@@ -5799,3 +5799,4 @@ console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timesta
 console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
 1703523906063	Marionette	INFO	Stopped listening on port 55584
 Dynamically enable window occlusion 1
+1703970356777	geckodriver	INFO	Listening on 127.0.0.1:58747

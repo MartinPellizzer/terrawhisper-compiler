@@ -1,0 +1,2 @@
+decotion = tea
+tincture (drops)
