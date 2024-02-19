@@ -1,0 +1,9 @@
+Domain – Eukarayota (cells contain nucleus) Kingdom - Plantae Family- Araliaceae Class– Magnoliopsida Order—Apiales Genus-Panax Species-GInsengu the other names of variants, which are quite different in their properties or physical characteristics include Korean red ginseng and American Gingsing.
+
+Morphology refers to plant's structure including its root system; for Panax ginsen it has a unique fleshy taproot that is often shaped like the human body - short, plump with five fingers resembling toes or leaves on some cultivars giving rise to alternate common names.
+
+Variants of Gingseng are distinct based not only upon physical aspects and usage but also geographic origins such as where they naturally grow which greatly affects their medicinal properties too due partly by differences in soil, sunlight conditions etc., affecting secondary metabolites accumulated during the plant's growth stages resulting into unique phytochemical compositions that set them apart from each other.
+
+Ginseng is native to East Asia specifically Korean peninsula where it grows wildly under certain climatic and environmental constraints while in America there’re attempts of cultivation due its high demand worldwide especially as herbal medicine or supplements for various health benefits like regulating blood sugar levels, enhancing energy endurance amongst other uses.
+
+The life-cycle is an essential aspect to understand the plant's growth pattern and reproductive behaviour in terms if perenniality (grows annually) flowering stage & reproduction through seeds or vegetative ways among which its adaptability makes it a resilient species that can endure changing environmental conditions.

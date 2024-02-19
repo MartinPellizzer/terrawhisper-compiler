@@ -1,0 +1,5 @@
+Alpinia officinarum gas herbaceous stems, lacking the woody nature found in some plants. They display an alternating arrangement along the stem, with cylindrical shapes that are slightly ribbed. In terms of size, the stems can grow to heights ranging from 1 to 3 meters (3.28 to 9.84 feet), with a diameter of approximately 1 to 3 centimeters (0.39 to 1.18 inches).
+
+The color of these stems is predominantly green, often marked by reddish or brown patches. When touched, the stems have a smooth texture, sometimes featuring fine hairs. Their surface is notably glossy and possesses a waxy quality.
+
+Stem nodes on Alpinia officinarum are distinct and serve as points where leaves and branches originate. The internodes, which are the spaces between these nodes, measure about 10 to 30 centimeters (3.94 to 11.81 inches) in length.

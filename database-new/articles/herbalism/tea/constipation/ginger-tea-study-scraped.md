@@ -1,0 +1,3 @@
+source: European Journal of Experimental Biology
+
+Ginger has been used by traditional Chinese and Indian medicine for over 25 centuries. Fresh ginger contains 80.9% moisture, 2.3% protein, 0.9% fat, 1.2% minerals, 2.4% fibre and 12.3% carbohydrates. The active components of ginger is reported to stimulate digestion, absorption, relieve constipation and flatulence by increasing muscular activity in the digestive. In traditional Chinese medicine, ginger is used to improve the flow of body fluids. It stimulates blood circulation throughout the body by powerful stimulatory effect on the heart muscle and by diluting blood. The effect of an aqueous extract of ginger on platelet thromboxane-B2 and prostaglandin-E2 (PGE2) production was examined af

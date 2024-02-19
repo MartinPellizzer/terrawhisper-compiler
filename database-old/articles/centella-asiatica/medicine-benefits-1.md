@@ -1,0 +1,1 @@
+Gotu Kola has many health benefits, such as improving memory retention which enhances cognitive function, thereby boosting brain performance overall, providing us with a heightened and sharper mental ability. This makes it an excellent herb for maintaining good brain health.

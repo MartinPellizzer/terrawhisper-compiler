@@ -1,0 +1,7 @@
+ The medicinal constituents include a diverse range of phytonutrients like flavonoids, coumarins, phenolic acids, and volatile oils. These compounds contribute to celery's medicinal properties such as its antioxidant, anti-inflammatory, and diuretic effects.
+
+ The most used parts for medicinal purposes are the leaves, seeds, and roots of this plant. Leaves are commonly made into tea to alleviate bloating, gas, and digestive issues. Seeds are utilized as a component of tonics that may aid in detoxifying and cleansing the body, while root extracts have been used for treating respiratory disorders.
+
+ It is essential to be cautious when consuming celery, as some individuals might experience allergic reactions or side effects due to its potential to interact with certain medications, particularly blood thinners. Furthermore, excessive consumption of celery can lead to bloating and may increase the risk of kidney stones in people who already have a high level of oxalate.
+
+ To avoid these side effects, it is advisable to consult with a healthcare professional before incorporating celery into your diet, especially if you have any pre-existing health conditions or are taking medications. Also, consume celery in moderation and monitor for adverse reactions.

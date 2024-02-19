@@ -1,0 +1,1 @@
+Cinchona has many health benefits, such as reducing fevers and soothing an upset stomach. It also helps to strengthen the body's defense mechanisms by boosting the immune system. These properties make it essential in combating ailments and promoting overall well-being.

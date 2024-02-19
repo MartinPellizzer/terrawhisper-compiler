@@ -1,0 +1,7 @@
+ Garlic's medicinal constituents include sulfur compounds like allicin, which are responsible for its pungent odor and anti-inflammatory, antibacterial, antifungal, and antiviral properties. These elements work together to enhance the overall health benefits of garlic.
+
+ The clove and bulb parts of garlic are commonly used in medicinal applications and cooking. It is generally prepared as a supplement or added to food in various forms such as freshly chopped, powdered, and cooked. Garlic can also be found in capsules or extracted liquid forms, making it easy to integrate into daily routines.
+
+ While garlic has numerous benefits, there are some potential side effects associated with its use. These may include gastrointestinal upset such as gas, bloating, and heartburn, as well as allergic reactions in sensitive individuals. It is also important to note that certain medicines might interact with garlic and therefore it should be used cautiously under medical supervision.
+
+ To minimize any risks and maximize the advantages of garlic consumption, practice some precautions. Start by consulting a healthcare professional before incorporating garlic into your routine, especially if you are already on medication or have specific health conditions. Also, ensure that you store garlic properly to maintain its freshness, flavor, and potency.

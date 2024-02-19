@@ -1,0 +1,1 @@
+Neem has many health benefits, such as lowering cholesterol levels and enhancing the body's immune system function by eliminating harmful toxins, viruses, and bacteria that can cause diseases. Additionally, it is known for its potential in preventing or fighting cancer cells, offering overall well-being protection.

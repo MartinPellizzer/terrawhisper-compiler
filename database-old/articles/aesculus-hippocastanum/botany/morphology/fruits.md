@@ -1,0 +1,7 @@
+Aesculus hippocastanum bears distinct capsules as its fruit which are notable for their specific characteristics. They are arranged in clusters, often containing 1-3 fruits per cluster. The shape of these capsules is intriguing, with a rounded apex and a flattened base that forms a circular or slightly flattened structure. They have modest dimensions, measuring 5-7 cm (2-2.8 inches) in height, 4-5 cm (1.6-2 inches) in width, and 2-3 cm (0.8-1.2 inches) in thickness. The diameter aligns closely with the width, hovering around 4-5 cm (1.6-2 inches).
+
+These capsules mature at a relatively uniform rate, appearing once a year in late summer or fall. They boast a smooth margin and a woody texture when mature, encased in a leathery, slightly wrinkled surface. Mature horse chestnut capsules take on a distinctive dark chestnut brown color, emitting a mild, earthy aroma. That said, it is essential to note that the horse chestnut capsules are not meant for consumption due to their bitter and toxic nature.
+
+These capsules are attached to the tree's branches through short stalks, and they develop at the base of the flower stalk from the remnants of the flower's ovary. The stem, or pedicel, of the capsule measures about 2-3 cm (0.8-1.2 inches) in length.
+
+Beyond their external characteristics, the horse chestnut capsules house 1-2 shiny, dark brown seeds known as conkers. These seeds are very distinctive and are the true reproductive structure of the tree.

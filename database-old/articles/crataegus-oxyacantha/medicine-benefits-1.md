@@ -1,0 +1,1 @@
+Hawthorn has many health benefits, such as lowering blood pressure by easing its circulation, enhancing the heart's efficiency, hence increasing our lifespan, which further bolsters the immune system to fight off diseases and infections. Moreover, it significantly reduces inflammation throughout the body, ensuring better overall physical functioning for a healthier life.

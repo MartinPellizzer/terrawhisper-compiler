@@ -1,0 +1,1 @@
+Nettle has many health benefits, such as reducing itching and inflammation, which are both associated with allergies or any infection. Additionally, nettle can alleviate discomfort due to its pain-relieving properties, making it a valuable remedy for various ailments. These attributes make it an increasingly sought after natural medicine.

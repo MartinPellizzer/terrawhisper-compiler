@@ -1,0 +1,1 @@
+Baical Skullcap has many health benefits, such as reducing stress levels which improves the cardiac efficiency while providing energy for better mental focus. It also enhances immunity by boosting the body's defense mechanisms to protect from diseases and infections. These attributes make it a valuable medicinal herb.

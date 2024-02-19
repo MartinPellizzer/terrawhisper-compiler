@@ -1,0 +1,1 @@
+Yarrow has many health benefits, such as reducing inflammation in ailing areas of the body; its leaves and flowers can be used to improve digestion by enhancing the absorption of nutrients. Furthermore, yarrow is known for its ability to reduce fever by soothing and calming internal heat. All these properties make it an effective natural remedy.

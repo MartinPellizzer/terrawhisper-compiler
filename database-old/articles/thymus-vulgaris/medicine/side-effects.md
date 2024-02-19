@@ -1,0 +1,11 @@
+Thyme can have some side effects if used improperly, such as negative influence it may have on the body. One of the most common issues is an adverse reaction on the skin. It can irritate the skin and even cause redness or rashes. This effect occurs especially when thyme is applied directly onto the skin in its concentrated form. 
+
+Another potential issue with thyme relates to its impact on the thyroid gland. In some cases, consuming too much thyme may lower thyroid function. This can lead to a range of other complications as it pertains to overall health. Therefore, it is crucial to consume thyme in moderation and seek medical advice if you have any concerns about your thyroid function. 
+
+Furthermore, the use of thyme has also been found to potentially worsen certain respiratory issues. For individuals with lung problems or asthma, using thyme may exacerbate these conditions by irritating the airways and making it difficult for them to breathe easily. As a result, it is crucial for anyone experiencing any of these health concerns to consult their healthcare provider before incorporating thyme into their wellness regimen.
+
+Headaches can also be a potential outcome from consuming excessive amounts of thyme. The reason behind this negative side effect remains unclear but has been observed in certain individuals. Consequently, people who are prone to headaches or experience any symptoms should exercise caution when using thyme and consider seeking professional advice if necessary. 
+
+Another concern with thyme is its impact on the digestive system. It can sometimes cause an upset stomach and discomfort in some individuals. This side effect usually results from overconsumption of thyme, but it's essential to keep an eye out for any unusual digestive issues when using this herb. 
+
+Thyme may also pose risks during pregnancy. Although it is generally considered safe, excessive consumption might cause harm to the fetus or lead to complications for both mother and baby. Therefore, pregnant women should consult their healthcare provider before using thyme in any form. Lastly, thyme can negatively affect liver function when taken in high doses, so caution is necessary even among individuals who are not expecting or breastfeeding.

@@ -1,0 +1,9 @@
+ ray and disc - known to create inflorescences that look like a single composite unit; it's found within Family Asteraceae which includes daisies, sunflowers etc.; finally, at Genus level Tanacetum houses feverfew as part of its collection alongside others such as tansy.
+
+Common names for Feverfrew include Parthenium Integrifolius and Wild Chamomile with variants named Double Blooms which have double rows or flowers in their heads, while the other variant called 'Dwarf' has shorter flowering stems that give it a compact appearance compared to regular fever friew.
+
+Morphologically speaking Tanacetum parthenium can reach heights of 30-65cm with hollow leaves typically measuring between 12 cm - and having oval serrated margins along its entire edge, these grow opposite one another on the stem; it develops daisy like flower heads that possess ray florets as well disc ones which look almost identical but have different functions.
+
+Feverfew is native to Southern Europe including Italy however it has been introduced and naturalized across other parts of world such Australia, Africa where they thrive in various types soil environments be the ground moist or dry; its habitats typically comprise open areas like grasslands with well-drained soils exposing them towards full sun exposure.
+
+From sowing seeds until harvest varies largely for Feverfew because depending upon weather conditions and location, it can take between 2 to even upwards of a year (around three years) before reaching the maximum flower production stage; after fertilization occurs in Spring followed by blooming period which starts again during Summer.

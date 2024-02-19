@@ -1,0 +1,577 @@
+:root {
+    --container-width: 76.8rem;
+    --bg-color: #0c0a09;
+    --bg-color-2: #1c1917;
+    --bg-color: #ffffff;
+    --bg-color-2: #fafafa;
+    --fg-color: #d6d3d1;
+    --fg-color: #44403c;
+    --fg-color-2: #0c0a09;
+
+    --off-White: #F5F5F5;
+    --deep-forest-green: #2C5E4F;
+    --herbal-green: #5FA07A;
+    --goldenrod-yellow: #FFD700;
+    --rustic-brown: #8B5A2B;
+    --laboratory-blue: #4D6FAC;
+    --herbal-teal: #3B9D9D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--fg-color);
+    background-color: var(--bg-color);
+}
+
+/* *************************************************************** */
+/* COLORS */
+/* *************************************************************** */
+
+.bg-teal-50 {
+    background-color: #f0fdfa;
+}
+
+.bg-teal-700 {
+    background-color: #0f766e;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.fg-white {
+    color: white;
+}
+
+.text-stone-700 {
+    color: #44403c;
+}
+
+.text-stone-950 {
+    color: #0c0a09;
+}
+
+header {
+    padding: 1.6rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.header-divider {
+    /* box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.header-light {
+    color: #0c0a09;
+}
+
+.header-light a {
+    color: #0c0a09;
+}
+
+footer {
+    /* background-color: #0f766e; */
+    padding: 1.6rem 0;
+}
+
+footer span {
+    /* color: white; */
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 1.6rem;
+}
+
+.container-md {
+    max-width: 76.8rem;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+}
+
+.container-lg {
+    max-width: 128.0rem;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+}
+
+h1 {
+    font-size: 4.8rem;
+    color: var(--fg-color-2);
+    margin-bottom: 1.6rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+    color: var(--fg-color-2);
+    margin-top: 6.4rem;
+    margin-bottom: 1.6rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+    color: var(--fg-color-2);
+    margin-top: 4.8rem;
+    margin-bottom: 1.6rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+    color: var(--fg-color-2);
+    margin-top: 4.8rem;
+    margin-bottom: 1.6rem;
+}
+
+p {
+    margin-bottom: 1.6rem;
+    line-height: 1.5;
+}
+
+ul {
+    margin-left: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+ol {
+    margin-left: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+li {
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    /* margin-bottom: 1.6rem; */
+}
+
+.icon {
+    width: 3.6rem;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 4.8rem;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid;
+    padding: 0.8rem 1.6rem;
+}
+
+.text-highlight {
+    /* color: white;
+    background-color: #0f766e;
+    padding: 0.8rem 1.6rem; */
+    color: #0f766e;
+}
+
+.text-highlight-2 {
+    /* color: white;
+    background-color: #0f766e;
+    padding: 0.8rem 1.6rem; */
+    color: #5eead4;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-teal-700 {
+    color: #0f766e;
+}
+
+.bg-teal-700 {
+    background-color: #0f766e;
+}
+
+.study p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+.author-image {
+    width: 6.4rem;
+    border-radius: 50%;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-16 {
+    margin-bottom: 1.6rem;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-16 {
+    margin-top: 1.6rem;
+}
+
+.mt-96 {
+    margin-top: 9.6rem;
+}
+
+.mb-16 {
+    margin-bottom: 1.6rem;
+}
+
+.mb-32 {
+    margin-bottom: 3.2rem;
+}
+
+.mb-48 {
+    margin-bottom: 4.8rem;
+}
+
+.mb-96 {
+    margin-bottom: 9.6rem;
+}
+
+.my-96 {
+    margin-top: 9.6rem;
+    margin-bottom: 9.6rem;
+}
+
+.py-16 {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.gap-16 {
+    gap: 1.6rem;
+}
+
+.gap-32 {
+    gap: 3.2rem;
+}
+
+.gap-48 {
+    gap: 4.8rem;
+}
+
+.gap-64 {
+    gap: 4.8rem;
+}
+
+.gap-96 {
+    gap: 9.69rem;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-1 {
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.size-96 {
+    font-size: 9.6rem;
+}
+
+.size-72 {
+    font-size: 7.2rem;
+}
+
+.size-32 {
+    font-size: 3.2rem;
+}
+
+.size-36 {
+    font-size: 3.6rem;
+}
+
+.size-40 {
+    font-size: 4.0rem;
+}
+
+.size-48 {
+    font-size: 4.8rem;
+}
+
+.size-64 {
+    font-size: 6.4rem;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/herbalism-natural-remedies.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.section-hero-2 {
+    height: 100vh;
+    background-color: #e7e5e4;
+    /* background-color: #b79881; */
+    /* background-color: #d6d3d1; */
+}
+
+.img-1 {
+    height: 60rem;
+    background-image: url('https://images.unsplash.com/photo-1569745358610-b01866003860?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    height: 30rem;
+    background-image: url('https://images.unsplash.com/photo-1569166808816-4057e8f51703?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80');
+    background-size: cover;
+    background-position: center;
+}
+
+/* .img-featured {
+    width: 100%;
+    height: calc(var(--container-width) / 4 * 3);
+    object-fit: cover;
+} */
+
+.grid-articles-title {
+    font-size: 2.4rem;
+    margin-top: 1.6rem;
+}
+
+.grid-articles-title a {
+    color: #0c0a09;
+    text-decoration: none;
+}
+
+
+/* TABLE OF CONTENTS ********************************************************************************* */
+.toc {
+    background-color: var(--bg-color-2);
+    padding: 3.2rem;
+}
+
+.toc-title {
+    display: inline-block;
+    color: var(--fg-color);
+    font-size: 4.0rem;
+    margin-bottom: 3.2rem;
+}
+
+.toc ul {
+    margin-bottom: 0;
+}
+
+
+/* *************************************************************** */
+/* BLOCKS */
+/* *************************************************************** */
+
+.study {
+    background-color: #f4f4f5;
+    padding: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.study-3 {
+    background-color: #f4f4f5;
+    padding: 3.2rem;
+    padding-bottom: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.icon-study {
+    display: block;
+    height: 6.4rem;
+    color: #d4d4d4;
+    margin: 0 auto;
+    margin-bottom: 1.6rem;
+}
+
+.recipe {
+    background-color: #ffedd5;
+    padding: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.icon-recipe {
+    display: block;
+    height: 6.4rem;
+    color: #f97316;
+    margin: 0 auto;
+    margin-bottom: 1.6rem;
+}
+
+.recipe ol {
+    margin-bottom: 0;
+}
+
+
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4.8rem;
+}
+
+.articles h2 {
+    font-size: 2.4rem;
+}
+
+.articles a {
+    text-decoration: none;
+}
+
+.article-card {
+    background-color: #f5f5f4;
+    padding: 3.2rem 3.2rem;
+}
+
+
+
+.profile-box {
+    background-color: #e7e5e4;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4.8rem 3.2rem;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+}
+
+.profile-name {
+    font-size: 2.4rem;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+}
+
+.side-note {
+    background-color: #f5f5f4;
+    padding: 1.6rem 3.2rem;
+    border-radius: 8px;
+}
+
+
+
+
+
+/* MEDIA **************************************************** */
+
+@media (max-width: 768px) {
+    .articles {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .articles {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+/* UTILS **************************************************** */
+
+.pt-16 {
+    padding-top: 1.6rem;
+}
+
+.pt-32 {
+    padding-top: 3.2rem;
+}
+
+.pt-64 {
+    padding-top: 6.4rem;
+}
+
+.pt-96 {
+    padding-top: 9.6rem;
+}

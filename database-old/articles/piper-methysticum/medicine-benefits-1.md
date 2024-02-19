@@ -1,0 +1,1 @@
+Kava has many health benefits, such as reducing inflammation which aids in healing and preventing illnesses, boosting cognitive function that enhances memory and learning, and promoting relaxation to help manage stress and anxiety. These features make it an essential medicinal herb for overall well-being.

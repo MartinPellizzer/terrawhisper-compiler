@@ -1,0 +1,9 @@
+The inflorescence type of Arctium lappa is categorized as a "capitulum," which refers to a clustered arrangement of 2-5 flowers at the tip of the stem. These flowers are relatively simple, composed of a single layer. They display actinomorphic or radial symmetry, with five floral parts.
+
+The flowers of Arctium lappa are bisexual and complete, containing both male and female reproductive structures. They attach at the terminal end of the stem, and their shape is tubular, with a tubular-campanulate or bell-shaped appearance. The flowers are relatively small, with a length ranging from 1.5 to 3 cm (0.6 to 1.2 inches) and a width between 1 and 2 cm (0.4 to 0.8 inches).
+
+In terms of color, these flowers typically appear in shades of purple to pink or white, contributing to their visual appeal. The surface of the flowers is smooth and hairless, with 10 petal-like segments, formed by the fusion of sepals and petals, collectively referred to as the perianth.
+
+Each flower possesses five green, lanceolate sepals and five fused petals with small lobes at the tip, making up the corolla. Within the flowers, there are five stamens, alternately positioned with the petals, bearing filaments and anthers for pollen production. The single pistil consists of an elongated ovary, style, and a bifurcated stigma.
+
+These flowers exhibit an inferior ovary, positioned below the attachment point, and a long, slender style. The absence of stipules is a notable feature, while the involucre surrounds the capitulum with hooked bracts. The tall peduncle supports the capitulum, with a height ranging from 50 to 150 cm (20 to 60 inches), while the pedicels are short, measuring 1 to 2 cm (0.4 to 0.8 inches).

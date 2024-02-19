@@ -1,0 +1,7 @@
+garlic has many medicinal constituents, such as Alliin and Allicin are the two most important ones. They have antioxidant and antibacterial properties. They can help fight illnesses like colds, flu, and ear infections. In addition, sulfur compounds found in garlic play a crucial role in boosting the immune system. 
+
+          There is also a group of nutrients called phytonutrients present in garlic that aid in detoxifying the body and preventing several kinds of cancers like those related to prostate, colon, or breast. Furthermore, garlic contains vitamins B1, B6, and C as well as minerals such as selenium, copper, and potassium. These nutrients help in promoting good heart health, improving brain function, and maintaining healthy bones and muscles. 
+
+          An important group of compounds called Organosulfur Compound, which includes Diallyl Disulfide, Diallyl Trisulfide, Allyl Propyl Disulfide, and Ajoene, are also found in garlic. They have anti-inflammatory properties that can help reduce the risk of diseases like arthritis or asthma. Moreover, these compounds can lower bad cholesterol levels and improve blood circulation. 
+
+          In summary, incorporating garlic into your daily diet can provide several health benefits due to its rich content of Alliin, Allicin, Sulfur compounds, Phytonutrients, Vitamins B1, B6, C, Minerals, and Organosulfur Compound. It aids in maintaining good overall health, preventing certain diseases, and improving various bodily functions.

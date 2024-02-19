@@ -1,0 +1,2 @@
+
+Overdosing yarrow's constituents may cause side effects, such as gastrointestinal upset, skin irritation, allergic reactions, and potential exacerbation of pre-existing conditions. Excessive intake might lead to increased bleeding tendencies due to its blood-thinning properties and can induce vomiting or diarrhea. In some cases, it could also result in dizziness, headaches, and photosensitivity. Prolonged or high doses may interfere with certain medications or therapies, warranting caution when consuming yarrow or its extracts in excessive amounts.

@@ -1,0 +1,1 @@
+Prickly Ash has many health benefits, such as reducing inflammation in the body, boosting one's immune system to better combat diseases, and also offering relief from common ailments like pain and fever by lessening their severity. These properties make it an essential herb for natural healing methods.

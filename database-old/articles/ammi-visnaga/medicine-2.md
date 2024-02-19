@@ -1,0 +1,8 @@
+
+The medicinal constituents found in this herb contribute to the diverse array of its medicinal properties. These components include essential oils like estragole and farnesene, which have antioxidant and anti-inflammatory effects, making them useful for treating respiratory ailments and other conditions that involve inflammation or oxidative stress.
+
+The most commonly used parts of the visnaga plant in medicine include its leaves, stems, seeds, roots, fruits, flowers, and essential oils. Different parts are utilized to create various medicinal preparations, such as extracts, infusions, decoctions, and tinctures. These can be used for treating respiratory issues like asthma or bronchitis, digestive problems like indigestion or constipation, as well as for relieving symptoms of menstrual disorders, gout, and arthritis pain.
+
+Although visnaga is generally considered safe with minimal side effects, some individuals may experience allergic reactions due to its terpenes content. These can cause skin irritation or mild discomfort. However, it's important to note that such incidents are relatively rare and require medical attention if they persist or seem particularly severe.
+
+ consult with a healthcare professional before starting any herbal treatment, especially if you have known allergies to plants in the same family as Ammi visnaga; be cautious when using it during pregnancy or breastfeeding; and avoid excessive consumption of visnaga products to prevent potential side effects. By adhering to these precautions, individuals can safely reap the numerous health benefits offered by this remarkable medicinal plant.

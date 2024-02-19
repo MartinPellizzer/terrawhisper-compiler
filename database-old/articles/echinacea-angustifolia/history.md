@@ -1,0 +1,9 @@
+ Echinacea angusitflora or more widely known as just Plain Echinanceae in Europe, Purple Cone Flower at places like North America.
+
+The cultural significances of this plant date back to centuries where indigenous American cultures used the herb for various medical treatments and healing purposes especially linked with ailments such as colds or sore throats due to its antiviral properties being recognised even then by healers. Traditional knowledge was passed on through oral tradition that enlightens these Native communities in their use of medicine not only medicinal but also spiritual practices associated within this plant which they considered sacred and symbolic representing renewal, endurance as well protection against harm from external forces such as the evil spirits or disease causing bacteria.
+
+Legendary myths surrounding Echinacea have been told through generations by these same cultures revealing its magical powers with supernatural connections linked back to tales of gods like Apollo and Gaia who were said responsible for creating this unique plant on Earth bringing it from their divine realms above where they resided along the likes Goddess Nektis, god-like figures in Native American folklore.
+
+Literature has referenced Echinacea over several instances due to its therapeutic value throughout history which includes herbal remedies mentioned by Greek philosopher Aristotle and Roman physician Dioscorides who made notable studies on medicinal plants, as well in traditional African folklore where it was used for various health concerns like rheumatism or snakebites.
+
+Lastly the rich oral traditions of Native American cultures show how they employed Echinacea through their healing practices with anecdotes involving curative properties attributed to this plant such as being a remedy against venomous bites from snakes, insects and other creatures; its effectiveness in relieving physical pain due inflammations too.

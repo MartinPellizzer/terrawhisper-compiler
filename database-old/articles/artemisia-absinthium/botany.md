@@ -1,0 +1,9 @@
+Wormwood, with botanical name Artemisia absinthium, belongs to the domain Eukarya, kingdom Plantae, phylum Tracheophyta, class Magnoliopsida, order Apiales, family Asteraceae, genus Artemisia, species absinthium. The plant also has several common names such as wormwood, green ginger, and old man.
+
+The Wormwood is a perennial herbaceous plant that grows up to 1-2 meters in height. It has an erect stem with numerous branches and leaves that are covered with short white hairs. The leaves are pinnately compound, with each leaflet being about 1-3 cm long and 0.5-1 cm wide. The flowers are small, yellow or greenish-yellow, arranged in flat-topped or dome-shaped clusters called capitula.
+
+There are several variants of Wormwood, including Artemisia absinthium var. pontica and Artemisia absinthium var. absinthium. The main difference between these two is their geographic distribution. Var. pontica is found in Eastern Europe, Western Asia, and the Caucasus region, while var. absinthium is more commonly found throughout Europe.
+
+Wormwood can be found growing wildly in various habitats across its native range. It prefers well-drained soils and can tolerate a wide range of soil types from sandy to clayey. It thrives in full sun or partial shade, and it is often found in disturbed sites such as roadsides, fields, and waste areas.
+
+The life cycle of Wormwood begins with the production of seeds which are dispersed by wind or animals. These seeds germinate when conditions are favorable, typically during spring or early summer. The plants then grow throughout the growing season, producing flowers in late summer or early fall. After pollination, the flowers develop into seed heads that contain the new generation of seeds.

@@ -1,0 +1,7 @@
+ Dandelions thrive best under full sun exposure with a soil PH ranging between neutral to slightly alkaline conditions and average humidity levels, preferably around 60-75%. A well-drained environment is essential for their growth as they dislike waterlogged soils.
+
+ To plant dandelions from seeds directly outdoors during early spring or fall when the soil temperature reaches between roughly five to fifteen degrees Celsius; simply spread them evenly over a prepared bed, ensuring about two centimeters apart and lightly press down into their location with your fingers.
+
+ Watering is crucial for dandelions' growth as they require approximately one inch of water per week during the growing season but reduce this to half or no longer in winter months when it’s dormant; also, ensure proper weeding around them and avoid over-fertilization with an appropriate ratio.
+
+ Dandelion leaves are harvested while they're still tender early during the growing season for their culinary uses like salads or soups—after three years of growth; flowers can be picked when in full bloom and used to make wine, syrup, jelly. Roots should only be collected after about a year since germination until spring has arrived again next time around as they store energy from last season's sunshine that fuels new flower production cycle annually thereafter

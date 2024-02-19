@@ -1,0 +1,1 @@
+Calendula has many health benefits, such as reducing inflammation in various parts of the body; its potency for promoting skin health is well known; it also calms down an agitated or upset stomach, thereby aiding the digestive system. These properties make Calendula a valued remedy by individuals everywhere.

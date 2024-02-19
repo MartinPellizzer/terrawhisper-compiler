@@ -1,0 +1,6 @@
+
+Horse chestnut, derived from the seeds of the Aesculus hippocastanum tree, offers diverse medicinal preparations rich in aescin, flavonoids, and saponins. These compounds contribute to its anti-inflammatory, antioxidant, and vasoprotective properties, widely used in traditional medicine. Preparations like dried powder, tincture, decoction, salve, tea infusion, capsules, oil infusion, cold-pressed oil, poultice, and vinegar infusion cater to various health concerns.
+
+Dried powder involves grinding dried seeds into a fine form, used for treating conditions like chronic venous insufficiency (CVI). Tincture, made by soaking crushed seeds in alcohol, aids circulation and vein strength. Decoction, obtained by boiling seeds or bark, addresses venous issues. Salve, oil infusion, and cold-pressed oil offer topical solutions for skin conditions and circulation support. 
+
+Tea infusion and vinegar infusion are consumed orally or topically for venous issues, but cautious dosage adherence is crucial to avoid potential toxicity and side effects. Pregnant or breastfeeding individuals, those allergic to horse chestnuts, or with certain medical conditions should seek professional advice before use.

@@ -1,0 +1,1 @@
+Rosemary has many health benefits, such as reducing oxidative stress on our body cells and increasing immunity to disease. It also offers psychological assistance by improving memory and concentration. This herb can even alleviate negative moods like anxiety and depression, promoting a better mental state.

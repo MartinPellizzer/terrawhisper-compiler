@@ -1,0 +1,1 @@
+Meadowsweet has many health benefits, such as its ability to reduce anxiety, aid digestion, and promote better quality of sleep. These positive impacts can be attributed to the herb's natural anti-inflammatory and analgesic properties that have been used medicinally for centuries.

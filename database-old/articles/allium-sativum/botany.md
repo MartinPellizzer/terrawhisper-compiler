@@ -1,0 +1,9 @@
+ Garlic (Allium sativum) is a member of the kingdom Plantae, phylum Tracheophyta, class Magnoliopsida, order Asterales, family Alliaceae, genus Allium, and species sativum. Common names for garlic include aglio, ajo, alho, dung po, kyo-cho, leek, neep, onion, porro, pye, rakshas, shalot, shikitagawa, sokolovka, sulfoxide, and yangtze onion.
+
+ Garlic is an evergreen perennial herb that grows from a rosette of broad, flat leaves. The plant has a distinctive odor caused by the formation of sulfur compounds in the bulb. Garlic produces small white flowers on a spadix surrounded by bracts. The bulb develops from the fleshy base of the plant and contains several cloves or segments that can be separated for planting or cooking.
+
+ Garlic variants include garlic hardneck (Allium sativum var. ophioscorodon) and softneck (Allium sativum var. sativum). Hardneck garlic has a harder stem and more prominent bud than softneck garlic. This means that hardneck garlic must be planted deeper in the soil, which allows it to reach colder temperatures and develop a larger bulb. Softneck garlic is grown for its milder flavor and easier growing conditions.
+
+ Garlic is native to Central Asia but has been cultivated throughout the world for thousands of years. Garlic grows best in cool, well-drained soil and prefers full sun exposure. The bulb is harvested in the fall when it has matured and the outer skin has turned brown.
+
+ Garlic completes its life cycle in one growing season. The garlic flowering season occurs during spring, with the plant producing white flowers on a stalk that rises from the rosette. Once the flowers have bloomed, the bulb forms and begins to grow underground. The bulb matures in the fall and is harvested for use in cooking or for replanting.

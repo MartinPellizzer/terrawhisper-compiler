@@ -1,0 +1,1 @@
+Holy Basil has many health benefits, such as supporting respiratory health by clearing airways and easing breathing, reducing inflammation in the body to prevent diseases, and promoting good digestion for overall well-being. These medicinal qualities make it an effective natural remedy.

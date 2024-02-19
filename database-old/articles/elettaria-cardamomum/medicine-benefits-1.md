@@ -1,0 +1,1 @@
+Cardamom has many health benefits, such as reducing bloating and aiding digestion, thereby alleviating discomfort caused by excessive gas formation. Additionally, it also enhances the heart's functioning, improving cardiovascular health. This versatile spice is undoubtedly beneficial for overall well-being.

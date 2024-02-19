@@ -1,0 +1,6 @@
+source: Phytomedicine
+
+
+https://www.sciencedirect.com/science/article/abs/pii/S0944711304702767
+
+The phytochemistry and biological activity of Scutellaria lateriflora L. (American skullcap) which has been traditionally used as a sedative and to treat various nervous disorders such as anxiety was studied. In vivo animal behaviour trials were performed to test anxiolytic effects in rats orally administered S. laterifolia extracts. Significant increases in the number of entries into the center of an “open-field arena”; number of unprotected head dips, number of entries and the length of time spent on the open arms of the Elevated Plus-Maze were found. The identification and quantification of the flavonoid, baicalin in a 50% EtOH extract (40 mg/g) and its aglycone baicalein in a 95% EtOH extract (33 mg/g), as well as the amino acids GABA in H2O and EtOH extracts (∼1.6 mg/g) and glutamine in a H2O extract (31 mg/g), was performed using HPLC. These compounds may play a role in anxiolytic activity since baicalin and baicalein are known to bind to the benzodiazepine site of the GABAA receptor and since GABA is the main inhibitory neurotransmitter.

@@ -1,0 +1,1 @@
+Bupleurum has many health benefits, such as reducing stress levels and promoting a better night's sleep by inducing relaxation. Moreover, it is known to boost the immune system, enhancing overall body defenses against illnesses and diseases. It is truly a wondrous medicinal herb for good health.

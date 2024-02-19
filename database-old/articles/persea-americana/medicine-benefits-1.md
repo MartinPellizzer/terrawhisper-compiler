@@ -1,0 +1,1 @@
+Avocado has many health benefits, such as boosting the body's immune system function, reducing inflammation which can lead to various diseases, and lowering blood sugar levels - especially useful for diabetics or those at risk. All these properties contribute to its medicinal value.

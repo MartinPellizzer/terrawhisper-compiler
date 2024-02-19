@@ -1,0 +1,2 @@
+
+Calendula tea is known for its anti-inflammatory and antispasmodic properties, which can help alleviate the symptoms of acid reflux. It contains flavonoids that may reduce inflammation in the esophagus, while also relaxing the muscles responsible for heartburn and spasms. Additionally, calendula tea has been shown to increase mucus production in the stomach, which can help prevent food from flowing back into the esophagus. Overall, the anti-inflammatory and antispasmodic properties of calendula tea make it a popular choice for those looking to relieve acid reflux symptoms.

@@ -1,0 +1,9 @@
+The etymology of "Flaxseed" originates from 'Linum', a Latin term meaning flax or any kind related to it and its derivatives like Linen (Textiles). On other hand, we also know about this particular word - Flaxseeds as simply Camellia in French. This crop holds the title of being one among Old World plants; traces dating back 50,00 years were discovered by archaeologists at Peshawar Pakistan suggesting its presence during the ancient days with some cultivation happening even before the development stages of agriculture.
+
+Flaxseed or Linum usitatissimum symbolizes a lot in various cultures across different parts of globe including spiritual and cultural connotations - serving numerous purposes, not just limited to one alone; it's versatility makes them valuable assets for societies which led way into making the floral wonder gain further appreciation & recognition.
+
+Mythologies play an important part all throughout history with its diverse representations ranging from a symbol of prosperity and fertile land in Egypt or as being associated closely to goddess Atargatis – regarded as Gods’ mother who was believed by Phoenicians, Syrians, Hittites & Arameans while for Greeks; the golden flax seed signified immortality.
+
+"Maud", a novel written way back in 1872 shows character's use of linseed oil which reflects on its importance during that time as being more significant than just seeds used merely for cooking purposes or any other uses, it was also considered valuable resource and had multiple applications making flax seed an essential part within their lives.
+
+Lastly folkloristic aspects play a vital role in understanding the historical significance of Fluxseed; from its symbolism that indicates prosperity & good fortune to being used as a protective talisman due believed protection against witchcraft, it has been regarded significantly since times before man evolved culturally or spiritually.

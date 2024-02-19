@@ -1,0 +1,1 @@
+Goldenseal has many health benefits, such as promoting detoxification of toxins from the body, supporting urinary tract health by preventing infections and alleviating digestive issues, including indigestion, diarrhea, and constipation. These medicinal properties make it a highly regarded natural remedy.

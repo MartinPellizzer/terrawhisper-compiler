@@ -1,0 +1,11 @@
+Milk Thistle can have some side effects if used improperly, such as allergic reactions developing into those where the body's immune system reacts negatively to proteins found in milk thistle. This can cause symptoms like itchiness or rashes on skin. Allergies are a complex topic but essentially, they happen when the body sees an element of the food as harmful and thus attacks it to fight the threat, resulting in an adverse reaction.
+
+ Milk Thistle may also induce headaches in some individuals due to its potential impact on brain chemicals or sensitivity within someone’s head. These headaches could be either mild or severe depending on the person's biochemistry and overall health condition. It is important to carefully watch one’s health when using this herb, as certain reactions may vary from person to person.
+
+ Another possible negative effect of Milk Thistle use is digestive issues such as stomach upset, bloating, nausea or diarrhea. These symptoms could occur because the body might not be able to process the plant's components efficiently leading to gastrointestinal discomfort. If these problems persist, it would be advised for one to consult with their physician in order to determine whether they should continue using Milk Thistle or not.
+
+ In some cases, consuming Milk Thistle may lead to insomnia due to its stimulating properties that could disrupt sleep patterns by making it difficult for an individual to relax and fall asleep easily at night. People with a history of sleep disorders might want to be cautious while taking this herbal remedy as it may potentially aggravate those conditions.
+
+ Diarrhea is another side effect associated with Milk Thistle usage, which can occur when the plant’s properties conflict with an individual's digestive system leading them experiencing looser stools or more frequent bowel movements than usual. This could be a concern if diarrhea becomes chronic or severe enough to interfere with daily life activities.
+
+ Furthermore, Milk Thistle may worsen skin conditions by irritating sensitive skin or triggering an allergic reaction that results in inflammation or redness on the skin's surface. People who have pre-existing skin issues should be extra cautious when using this herb as it might exacerbate their condition.

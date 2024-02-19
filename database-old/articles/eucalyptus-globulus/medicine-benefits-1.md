@@ -1,0 +1,1 @@
+Eucalyptus has many health benefits, such as providing relief from cold and cough symptoms due to its decongestant properties. It works like an inflammatory agent helping with pain and stiffness as well. Also, it significantly helps in boosting the immune system making it stronger.

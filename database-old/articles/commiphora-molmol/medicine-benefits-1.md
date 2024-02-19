@@ -1,0 +1,1 @@
+Myrrh has many health benefits, such as improving blood sugar regulation by reducing glucose spikes, helping to maintain a balanced state of the body. It also works on reducing inflammation and soothing irritated tissues in various parts of the body. Furthermore, it aids in maintaining healthy cholesterol levels which ultimately supports overall cardiovascular health.

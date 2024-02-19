@@ -1,0 +1,1 @@
+Celery has many health benefits, such as lowering blood pressure, effectively dealing with inflammations and contributing to better respiratory health through nutritious elements it contains. The natural phytochemicals and volatile oils in celery can do wonders for your overall well-being.

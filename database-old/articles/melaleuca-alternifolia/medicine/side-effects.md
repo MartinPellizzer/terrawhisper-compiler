@@ -1,0 +1,13 @@
+Tea Tree can have some side effects if used improperly, such as allergic reactions or irritation on skin and other parts of the body due to its oil-based compounds. It is essential to learn how to use this product correctly for best results while minimizing potential risks. 
+
+ Tea Tree oil contains potent antimicrobial substances including terpinen-4-ol, which is a strong anti-fungal agent. While these properties can be helpful in many areas of health and skin care, they also contribute to the possibility of negative reactions in certain individuals. 
+
+ One common issue associated with tea tree oil usage is an allergic reaction. This can occur when an individual has a sensitivity or allergy to any of the active ingredients present in the oil. Symptoms may include redness, itching, and inflammation of the skin. To minimize this risk, dilution and proper testing are crucial before applying tea tree oil directly onto your skin. If an allergic reaction occurs, seek immediate medical attention.
+
+ Another potential side effect of tea tree oil is irritation on different body parts including not just the skin but also the eyes, mouth, or nose. This can happen when the oil comes into direct contact with these sensitive areas without proper dilution or protection. In case you experience any discomfort after using tea tree oil, rinse the affected area with water and remove all traces of the oil. Avoid getting the oil in your eyes as it may cause temporary burning sensations and irritation.
+
+ Some people have experienced dizziness, headaches, nausea, or breathing difficulties when exposed to tea tree oil through inhalation or direct application. These reactions are usually caused by an overdose of the oil or a sensitivity to its aromatic compounds. To prevent such issues, use the product within recommended limits and only as needed for treating specific health concerns.
+
+ In addition to these immediate effects, long-term consequences such as skin damage or hormonal imbalances may arise from frequent or excessive usage of tea tree oil. The antifungal properties can interfere with the natural balance of yeast present in your body, leading to a disruption of vital biological processes. It is, therefore, important to follow instructions carefully and always discuss the use of any new product with your healthcare professional.
+
+ By understanding these potential negative effects, users can make informed decisions about how they should safely incorporate tea tree oil into their health care regimens for optimal results without compromising their well-being.

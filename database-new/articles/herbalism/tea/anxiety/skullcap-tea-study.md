@@ -1,0 +1,2 @@
+
+The chronic administration of melatonin (0.75 mg at night, 10 days) led to a significant decrease in the thresholds of retinal brightness sensitivity and improved the emotional state in anxious young subjects. Analogous changes were less pronounced after the treatment with common motherwort (Leonurus cardiaca) tincture. It is suggested that there is a relation between the limitation of anxiety and the improvement of visual function (sensitivity).

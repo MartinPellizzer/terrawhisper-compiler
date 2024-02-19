@@ -1,0 +1,1 @@
+Schisandra has many health benefits, such as being an adaptogenic herb which aids body’s ability to respond to stress, an antioxidant for counteracting free radicals and preventing diseases, and an anti-inflammatory agent that soothes and reduces inflammation. These properties make it a valuable addition to one's diet.

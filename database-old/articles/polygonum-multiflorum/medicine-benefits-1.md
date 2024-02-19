@@ -1,0 +1,1 @@
+Fo Ti has many health benefits, such as lowering blood pressure and promoting heart health. This ancient Chinese herb also improves digestion, thus offering comprehensive support for overall wellness.

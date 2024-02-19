@@ -1,0 +1,1 @@
+Rhodiola has many health benefits, such as enhancing energy levels by reducing fatigue and increasing stamina. It also helps in dealing with stress effectively and improving mental performance for better concentration and memory retention. Overall, this versatile herb works on boosting mental as well as physical well-being.

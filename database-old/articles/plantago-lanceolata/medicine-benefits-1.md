@@ -1,0 +1,1 @@
+Psyllium has many health benefits, such as alleviating irritations caused by dry skin. It also aids in soothing gastrointestinal problems and provides relief from uncomfortable muscle spasms. All these features contribute to the overall well-being of an individual who uses it.

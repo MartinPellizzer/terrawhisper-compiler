@@ -1,0 +1,11 @@
+Comfrey can have some side effects if used improperly, such as harmful results for different areas in the body. One of the most notable is its impact on skin health; consuming large amounts of comfrey can lead to skin rashes or irritation due to the plant's allergenic qualities and its potential to exacerbate pre-existing skin conditions. 
+
+ Moving to liver concerns, regular ingestion of comfrey may result in an increase of toxins being put into the body and affect overall liver function. This can lead to hepatic problems and possibly even liver failure in severe cases. Moreover, fertility issues might also be experienced due to its potential to disrupt hormone balance in both men and women, affecting their reproductive health. 
+
+ Another alarming issue is the possible link between comfrey and an increased risk of developing certain types of cancer. This is because it contains pyrrolizidine alkaloids which can damage DNA and cause mutations that lead to tumor growth. It's important to note, though, that research on this aspect is ongoing as of now, and there is not yet enough concrete evidence for such claims. 
+
+ Slowed digestion may also be a consequence of consuming comfrey, as it contains compounds that can interfere with the natural processes in the gastrointestinal system, potentially resulting in abdominal discomfort or constipation. Similarly, damage to kidney function is another potential side effect when utilizing comfrey products excessively; this may occur due to its impact on overall urinary health and renal functioning. 
+
+ When it comes to heart health, the use of this plant has been linked to worsening cardiovascular conditions such as atherosclerosis and hypertension, although direct correlations between these problems and comfrey intake have not yet been established. Another negative aspect is its potential effect on the immune system; research shows that high concentrations might weaken the body's natural defenses against harmful pathogens. 
+
+ Lastly, concerns regarding comfrey include potential risks during pregnancy, such as heightening the chances of birth defects or increasing the risk of miscarriages for mothers who consume it. All in all, these negative effects illustrate that caution should be exercised when using this herb due to its complex nature and varying impact on different aspects of human health.

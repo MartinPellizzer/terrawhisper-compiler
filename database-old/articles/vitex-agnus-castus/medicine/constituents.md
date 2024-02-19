@@ -1,0 +1,15 @@
+Chaste Tree has many medicinal constituents, such as Diterpenes are compounds which make up a group of chemical substances characterized by their molecular structure consisting of two isoprene units linked together. They can be found in various plants and fungi including the Chaste Tree, known scientifically as Vitex agnus-castus. These diterpens play a role in supporting hormonal balance and reducing stress levels.
+
+ Flavonoids are another group of natural substances that have antioxidant and anti-inflammatory properties, commonly found in fruits and vegetables, as well as the Chaste Tree. They help protect cells from damage caused by harmful free radicals and contribute to various bodily functions, such as improving cognitive performance, maintaining heart health, and promoting a healthy immune system.
+
+ Iridoid glycosides belong to plant constituents often found in many species, including the Chaste Tree. These compounds possess anti-inflammatory, antibacterial, and antiviral properties that can contribute significantly to overall wellness. They have been used for treating various ailments ranging from respiratory disorders to digestive issues throughout traditional medicine practices.
+
+ Steroidal saponins are naturally occurring plant metabolites that share structural similarities with steroids and glycosides. These compounds can be found in various plant species, including the Chaste Tree, where they have been known to demonstrate a range of biological activities such as their positive effects on reproductive health, immunity, and blood circulation.
+
+ Coumarins are another group of organic chemical compounds which naturally occur within specific types of plants, including the Chaste Tree. These substances exhibit diverse bioactivities like anticoagulant and anti-inflammatory properties, and have been studied for their potential in treating conditions such as hypertension and diabetes.
+
+ Lignans are a class of polyphenols found in various plants including the Chaste Tree. These phytoestrogens possess numerous health benefits like promoting cardiovascular health, reducing inflammation, and providing antioxidant protection. Additionally, they have been shown to exhibit estrogenic activity which may benefit menstrual problems, osteoporosis, and hormonal imbalances in women.
+
+ Essential oils obtained from Chaste Tree plants are known for their aromatherapeutic effects as well as their potential health benefits such as stress relief, improved mood, and enhanced cognitive function. These oils are primarily composed of terpenes, which contribute to the overall medicinal value of Chaste Tree preparations.
+
+ Finally, Phenolic acids, Quinones, and Terpenes also constitute important compounds present in the Chaste Tree plant and provide additional health benefits such as antioxidant activity, anti-inflammatory properties, and support for various bodily systems.

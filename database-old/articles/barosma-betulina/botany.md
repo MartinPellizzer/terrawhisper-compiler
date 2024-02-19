@@ -1,0 +1,9 @@
+Buchu, with botanical name Barosma betulina, belongs to the domain Eukarya, kingdom Plantae, phylum Tracheophyta, class Magnoliopsida, order Rutales, family Rutaceae, genus Barosma, and species betulina. Common names include Cape Buchu and Pepper Bush.
+
+Buchu is a small, evergreen shrub that grows up to 2 meters in height. It has lance-shaped leaves with serrated margins, which are arranged alternately along the stem. The flowers are white or pale pink, and they bloom from late winter to early spring. Buchu bears small, round fruits that turn blue when ripe.
+
+ B. betulina var. marginata and B. betulina var. betulina. The primary difference between these two variants is the shape of their leaves. In var. marginata, the leaf margins are entire (smooth), while in var. betulina, they are serrated (toothed).
+
+Buchu is native to South Africa, specifically in the Western Cape province. It grows naturally in fynbos vegetation - a unique type of shrubland found on nutrient-poor soils along the coast and mountains of the region. This habitat supports an extraordinary diversity of flora and fauna due to its distinct climatic conditions and geological history.
+
+The life cycle of Buchu starts with germination from seeds or vegetative propagation through cuttings or layering. The plant grows slowly during its first few years but becomes more vigorous as it matures. It produces flowers in late winter, followed by fruit development if pollination is successful. After fruit formation, the seeds disperse naturally via wind or animal dispersal, allowing the species to persist and spread within its natural range.

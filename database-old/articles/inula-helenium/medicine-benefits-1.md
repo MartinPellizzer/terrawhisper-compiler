@@ -1,0 +1,1 @@
+Elecampane has many health benefits, such as alleviating anxiety by reducing stress levels and promoting relaxation. It also works effectively in enhancing sleep quality which aids in overall wellbeing. These properties make it a highly beneficial medicinal plant for various ailments.

@@ -1,0 +1,1 @@
+Dan Shen has many health benefits, such as improving blood circulation, boosting the immune system, and reducing inflammation. This traditional Chinese herb has been used for centuries to treat various illnesses due to its numerous medicinal properties. By enhancing blood flow and immunity, it ensures better overall well-being.

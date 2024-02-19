@@ -1,0 +1,7 @@
+The stems of Acorus calamus are herbaceous in nature, which means they are non-woody and relatively soft. They are arranged in a whorled pattern, with multiple stems emerging from the same point in a circular fashion. These stems are cylindrical, giving them a round, uniform shape.
+
+In terms of height, Acorus calamus stems can reach up to 1.5 meters (4.9 feet), making them quite tall in comparison to the plant's overall size. Their diameter is approximately 1.5 cm (0.6 inches), and they have nodes present at regular intervals along their length. The internodes, the sections of stem between nodes, measure about 15-20 cm (5.9-7.9 inches) apart. This results in a smooth-textured, green-colored stem, which gives Acorus calamus its characteristic appearance.
+
+While the stems of Acorus calamus are fascinating, the rhizomes, which grow underground, have their own set of unique characteristics. These rhizomes are horizontally arranged, running parallel to the ground.
+
+Their shape varies, ranging from tuberous to cylindrical, and they typically have a height of 10-30 cm (3.9-11.8 inches). Rhizomes have a diameter of about 1-2 cm (0.4-0.8 inches), and their nodes are sporadically present, meaning they aren't as consistently spaced as the stem nodes. The internodes of the rhizomes can vary in length, typically measuring 1-5 cm (0.4-2 inches). They have a fleshy texture with a somewhat waxy surface and are often light to dark brown in color.

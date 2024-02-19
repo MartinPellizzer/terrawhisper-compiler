@@ -1,0 +1,5 @@
+Alpinia officinarum has seeds that are of the endospermic type, which means they contain endosperm tissue. Typically, a single seed is found within each fruit, and the seed has an ellipsoid shape, measuring about 2.5 cm in length, 1 cm in width, and 0.5 cm in thickness (approximately 0.98 inches long, 0.39 inches wide, and 0.2 inches thick).
+
+Notably, these seeds lack any appendages. They are hard and have a dark brown seed coat that is smooth, shiny, and thin. The seed coat is impermeable, meaning it does not allow the passage of water or gases. One distinctive feature is the absence of a visible scar known as the hilum.
+
+The embryo within the seed is small and centrally located, while the cotyledons are present as two dicotyledonous structures. Additionally, each seed contains a radicle, which emerges from one end of the seed.

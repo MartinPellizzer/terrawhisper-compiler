@@ -1,0 +1,2 @@
+
+It's important to take some precautions when using Wormwood as a medicine. Begin with consulting a healthcare professional for dosage and suitability. Avoid long-term use due to its thujone content. Use only recommended amounts as excess can lead to seizures or organ damage. Pregnant or nursing women should avoid it entirely. Ensure sourcing from reputable suppliers to minimize contamination risks. Prioritize using Wormwood under expert guidance to harness its medicinal benefits safely.

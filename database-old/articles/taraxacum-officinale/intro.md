@@ -1,0 +1,7 @@
+Dandelion (Taraxiscusm officinalis), commonly known as a weed but also used for its medicinal properties is an incredible resource to humans in various ways aside from just being invasive lawn pest or edible parts like leaves, flower head clusters and root tubers which can be consumed raw.
+
+ Dandelion's nutritional value has been known since ancient times where its use dates back as far as the Roman empire to aid digestions problems such as constipation caused by rich diet or food poisoning symptoms due t oxalate present in dandeonlons. This weed also offers remedy for liver and gallbladder issues which includes increasing bile production that helps detoxify blood, cleanse skin through sweat excretion process known to reduce acne thus earning its place as a beauty aid too!
+
+ Its versatile uses extend beyond medicinal purposes. It is an attractive ornamental plant with yellow flowers which bloom during summertime giving it decorative appeal for gardeners who appreciate diversity in their yard décor that stands out without being overly showy like many cultivated plants can be perceived as gaudiness if improper handled aesthetically, thereby earning its place amongst gardener's favorite flowering species.
+
+ For centuries it has been a symbol of vitality and hope in various cultures around the world; notably seen on medieval European heraldry where dandelions are incorporated into coats-of arms due to their tenacity despite harsh conditions they face as invasive weeds suggesting strong fortitude necessary during tumultuous times.

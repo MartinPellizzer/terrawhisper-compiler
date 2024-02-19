@@ -1,0 +1,11 @@
+It's important to take precautions when using Flaxseed medicinally, such as  Flaxseed is high in fatty acids, which can affect the absorption and effectiveness of other supplements. To ensure proper absorption, it's advisable to take flaxseed at least an hour before or four hours after taking any medications or supplements. Additionally, adjusting one’s diet can significantly help enhance its effects, by including more fruits, vegetables, whole grains, and lean proteins while reducing intake of unhealthy fats and processed foods.
+
+ Although rare, some individuals may be allergic to flaxseeds or any of their constituent elements, which can cause symptoms such as skin rash, nasal congestion, itchy throat, and difficulty breathing. If you notice these or other signs of an allergic reaction after consuming flaxseed, consult your doctor immediately.
+
+ Flaxseeds have properties that increase the risk of bleeding in some people, particularly those already taking blood-thinning medications like warfarin (Coumadin), clopidogrel (Plavix) and aspirin. If you are on any of these medications, be sure to discuss the possible interactions with your healthcare professional before including flaxseed into your diet as an additional precautionary measure.
+
+ There isn't enough evidence about the effects of flaxseeds on pregnancy and breastfeeding, but since they contain phytoestrogens which may interfere with hormones during these periods, caution is advised. Women in such cases are encouraged to speak to their doctors for guidance before consuming flaxseed or any other supplements.
+
+ Flaxseed has been known to cause minor gas and bloating due to its high fiber content. People with sensitive stomachs, irritable bowel syndrome (IBS) or inflammatory bowel disease may initially experience some gastrointestinal discomfort when starting a flaxseed diet, but this typically subsides with continued use as the body adjusts to the new addition.
+
+Remembering these precautions and discussing them with your healthcare professional can ensure a safe and effective use of flaxseed for its numerous health benefits.

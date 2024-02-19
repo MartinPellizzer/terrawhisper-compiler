@@ -1,0 +1,1 @@
+Arjun has many health benefits, such as lowering blood sugar levels which is essential for diabetes management. It also boosts heart health by reducing cholesterol and controlling blood pressure. Moreover, it improves brain function through improving focus, memory retention, and processing ability; hence contributing to overall well-being.

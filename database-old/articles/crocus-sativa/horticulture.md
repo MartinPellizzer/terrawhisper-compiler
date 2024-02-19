@@ -1,0 +1,9 @@
+To obtain premium-quality Saffron, Crocus sativa requires particular climate conditions and soil properties. It thrives in a temperate climate with well-distributed rainfall of around 500 millimeters (mm) per year. The soil must be rich in organic matter, have good drainage, and maintain a pH level between 6 and 7.5.
+
+For successful plantation, bulbs should be planted in late summer or early autumn when temperatures begin to decrease but before the first frost. Dig trenches about 10 centimeters (cm) deep, spacing the bulbs at least 15 cm apart within the rows and 20-25 cm between each row. Cover them with soil and water well to settle in and facilitate root growth.
+
+After planting, maintain proper irrigation by providing sufficient moisture throughout the growing season. Water the plants regularly but avoid overwatering or saturating the soil as this may cause rot. Fertilize annually using a balanced fertilizer during early spring before new growth appears to support flower production and enhance bulb size.
+
+Saffron blooms in late September to mid-October when flowers reach their peak. To harvest, carefully pick the flowers just after dawn while they are still closed. Once open, the flowers lose their aroma. Hold each flower with a pair of tweezers or gentle hands and gently remove the three stigmas (threads) found in the center of the bloom. Dry these threads in a cool, dark place for around 7-14 days.
+
+Though resilient to many pests and diseases, saffron plants may still face issues such as fungal infection caused by Botrytis cinerea. Keeping the flowers clean during blooming and maintaining proper air circulation can help prevent this fungal development. Additionally, monitor for unwelcome invaders like slugs and snails, which may cause damage to the plant's tender green leaves.

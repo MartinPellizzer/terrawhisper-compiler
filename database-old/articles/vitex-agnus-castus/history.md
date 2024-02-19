@@ -1,0 +1,9 @@
+ 'vitex', meaning vine or grape plant and 'agnus-casta'. These terms are combined to represent both its appearance, resembling the trunk structure similar to a branchy woodland tree (Vitis) but also symbolizing purity ("agno castum" means "pure as chaste"). The Chaste Tree is known by other regional and linguistic names such as Abraham's Browse or Virgin's Bower.
+
+Throughout history, the cultural significance of this botanical species has been profoundly associated with religious practices in various societies worldwide - primarily concerning abstinence from carnal activities for spiritual purification purposes like chastity rituals among ancient pagans as well as during bouts observed by nuns and monks within monasteries.
+
+A series of myths, legends, folklore stories have been linked to the Chaste Tree across cultures too; often incorporating magical powers associated with its leaves or fruits which are said can cure infertility issues among women seeking conception as well heal ailments in cattle such cases being noted from ancient Greece and even today found in India.
+
+The historical significance of this plant has also been documented through several pieces literary work where it is mentioned either directly, like Virgils' Aeneid (an epic poem) or symbolically alluding to the purity its name implies - as seen with Shakespeare reference using Vitex agnus-casta in a sonnet.
+
+Across generations and communities around the world there are many uses of Chaste Tree derived from cultural beliefs, superstitions that have been passed down through folklore which has played an essential role throughout its history - including it's purported capabilities like warding off evil spirits or even as a deterrent to stop wandering children; these practices continue until this day in certain societies.

@@ -1,0 +1,1 @@
+Astragalus has many health benefits, such as boosting immune system functions to fight off diseases, reducing inflammation that causes pain and discomfort, and promoting heart health by lowering high blood pressure and bad cholesterol levels. All these factors make it a powerful medicinal plant for overall well-being.

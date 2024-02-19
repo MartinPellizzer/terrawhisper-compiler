@@ -1,0 +1,1 @@
+Wild Yam has many health benefits, such as supporting digestion by aiding proper functioning of the gastrointestinal system; it helps improve metabolic processes and increases energy levels. Another added advantage is its ability to reduce inflammation in the body, which can lead to enhanced wellbeing and immunity.

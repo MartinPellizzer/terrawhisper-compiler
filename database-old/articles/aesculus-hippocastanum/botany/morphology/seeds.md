@@ -1,0 +1,5 @@
+Aesculus hippocastanum, commonly known as the horse chestnut, produces seeds with distinctive morphological characteristics. These seeds are generally ovoid or spherical in shape, measuring about 2.5 centimeters (1 inch) in length, 1.5 centimeters (0.6 inches) in width, and approximately 1 centimeter (0.4 inches) in thickness. Also, they weigh roughly 5-10 grams (0.18-0.35 ounces) each.
+
+The seeds of Aesculus hippocastanum have smooth margins, making them easy to handle. Unlike some plant parts, these seeds do not exhibit any growth rate when matured, remaining static in size. They possess a shiny, smooth surface texture, and their color is a rich, glossy brown, with a lighter hilum (scar) at one end, adding to their distinct appearance.
+
+One notable feature of these seeds is the absence of significant venation. They do not have any prominent lines or patterns on their surface. Moreover, Aesculus hippocastanum seeds are not known for their aroma and they typically lack any discernible odor. In terms of flavor, these seeds are not consumed for their taste, but if tasted, they are generally bitter.

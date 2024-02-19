@@ -1,0 +1,7 @@
+ Slippery Elm (Ulmus rubra), often used for its culinary purposes, is a tree species with nutrient-rich inner bark that can be easily consumed by humans in various dishes and drinks due to their appealing properties of tastiness combined with health benefits such as soothing digestion issues.
+
+ The edible parts of Slippery Elm (Ulmus rubra) include both inner bark strips which have been softened with water to make a thick, sludgy base ingredient and the seeds or nuts found within this tree's fruits called 'wingnuts'. These can be eaten raw after extracting from their wood-like shell.
+
+ To use Slippery Elm (Ulmus rubra) in culinary dishes like pies, cakes or smoothies you might incorporate its slender twigs to enhance texture and give a unique flavor twist; however don't overdo it since an excess amount could ruin your desserts.
+
+ While Slippery Elm (Ulmus rubra) is generally considered safe for human consumption, there are some side effects one needs cautions about such as possible allergic reactions that can result from ingesting the tree's sap or parts due to its high protein content; therefore it’s best suited after discussing potential intolerances with a healthcare professional. Additionally watch out on using other medications simultaneously since interactions may occur between certain drugs and this natural ingredient, thus affecting bodily response in unwanted ways - so always be cautious when experimenting new foods combinations for the first time!

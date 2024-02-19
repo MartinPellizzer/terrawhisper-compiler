@@ -1,0 +1,3 @@
+Aesculus hippocastanum, commonly known as the horse chestnut, belongs to the Plantae kingdom and the Angiosperms phylum. In the realm of Angiosperms, it is specifically classified under the class Eudicots. Moving further into its taxonomy, it falls under the order Sapindales, which is a group of flowering plants.
+
+This majestic tree finds its place in the Sapindaceae family, a family that includes a variety of flowering plants. The genus to which Aesculus hippocastanum belongs is simply named Aesculus.

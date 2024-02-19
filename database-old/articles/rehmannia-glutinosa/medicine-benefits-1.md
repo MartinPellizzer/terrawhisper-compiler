@@ -1,0 +1,1 @@
+Rehmannia has many health benefits, such as reducing inflammation, which helps in easing joint pains and other inflammatory conditions. It also aids in controlling blood sugar levels, thus being useful for those with diabetes. Furthermore, it enhances the immune system, enabling our body to fight off diseases more effectively.

@@ -1,0 +1,13 @@
+It's important to take precautions when using Rhodiola medicinally, such as consulting a doctor before starting any kind of treatment or supplement regimen including it. This can be especially crucial for individuals who have pre-existing medical conditions or are taking other medications that might interact with the herb in a potentially harmful way. Additionally, it is also advised to follow the instructions given on the packaging carefully and not exceed the recommended dosage. 
+
+Rhodiola, also known as 'golden root' or 'Arctic root,' can be beneficial for alleviating stress, improving concentration and energy levels when taken at proper amounts. However, it is crucial to avoid overdose since consuming excessive quantities might result in adverse effects rather than benefiting the consumer's wellbeing. 
+
+It is also essential to store Rhodiola supplements properly in a dry environment away from direct sunlight or extreme temperature changes, as these conditions can degrade the quality and effectiveness of the herb over time. Keeping the supplements safe in their original packaging, preferably in a cool and dark place, helps preserve the therapeutic properties inherent to Rhodiola.
+
+Storing it at room temperature is recommended since extreme heat or cold may impact the stability of the active compounds in the herb. This can lead to degradation or alteration of the components' potency, rendering the supplement less effective for the user's intended purpose. It should always be kept away from children, as accidental consumption can pose potential risks depending on factors such as age and individual sensitivities.
+
+Rhodiola should not be used without having a clear reason for its use, such as specific health concerns or objectives to improve overall well-being. Avoid taking the herb if you do not have any particular need for it, as there might not be sufficient evidence supporting its generalized use for enhancing daily life.
+
+Being mindful of potential interactions between Rhodiola and other medications or substances one may consume is crucial to ensure safety. If you are unsure about possible interactions, discuss these concerns with your healthcare provider to better understand the risks associated with using the herb in combination with any treatments or supplements you currently take.
+
+Lastly, if any side effects from consuming Rhodiola occur, it is advisable to discontinue use and consult a professional for guidance on whether continuing its usage is safe under the circumstances.

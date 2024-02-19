@@ -1,0 +1,8 @@
+
+Yarrow possesses various medicinal properties, but its use may trigger adverse effects if improperly administered. The plant can induce skin irritation due to compounds like sesquiterpene lactones, leading to redness or rashes upon contact. This reaction can worsen conditions like eczema and affect individuals with Asteraceae family plant allergies. To minimize this risk, cautious topical application and proper dilution in oils or teas, typically around 1-5%, are recommended.
+
+Additionally, Yarrow might induce digestive discomfort, manifesting as nausea or diarrhea, mainly attributed to its volatile oils and bitter compounds. Excessive consumption could aggravate gastrointestinal issues like gastritis or peptic ulcers. To prevent such effects, maintaining moderate dosages, such as 1-4 grams of dried herb for teas, and gradual increases while monitoring symptoms are advised.
+
+Furthermore, Yarrow could lead to allergic reactions due to sesquiterpene lactones, potentially causing severe skin issues or respiratory difficulties. This risk heightens for individuals allergic to Asteraceae plants or those with asthma or hay fever. Consulting healthcare professionals, starting with smaller doses, and careful monitoring can help minimize allergic responses.
+
+These adverse effects underscore the importance of using Yarrow cautiously, adhering to recommended dosages, and seeking guidance to mitigate potential health complications. Properly preparing Yarrow, being mindful of individual sensitivities, and consulting healthcare experts remain crucial for safe usage.

@@ -1,0 +1,1 @@
+Dong Quai has many health benefits, such as reducing menopausal symptoms like hot flashes and improving blood circulation, which is beneficial for women. Furthermore, it aids in increasing bone density, ensuring stronger bones. All these features make it an effective natural remedy.

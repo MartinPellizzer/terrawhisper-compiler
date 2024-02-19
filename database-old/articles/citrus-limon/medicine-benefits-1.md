@@ -1,0 +1,1 @@
+Lemon has many health benefits, such as boosting immunity levels against sickness and improving digestive processes in the body, thereby preventing stomach ailments. Additionally, it offers immense possibilities in combating cancerous cells. These properties make lemon a powerful medicinal fruit.

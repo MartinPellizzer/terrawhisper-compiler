@@ -1,0 +1,1 @@
+Saffron has many health benefits, such as effectively decreasing pain and inflammation in the body, enhancing the function of immune cells to fight off diseases, and aiding in reducing symptoms of mental health issues like anxiety and depression. These properties make it an essential spice for overall well-being.

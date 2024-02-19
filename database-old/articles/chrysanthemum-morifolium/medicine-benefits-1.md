@@ -1,0 +1,1 @@
+Ju Hua has many health benefits, such as alleviating cold symptoms like a runny nose and sneezing, calming an individual's mind during stressful times, and relieving headaches caused by various factors. These properties make it popular for promoting overall wellness in people.

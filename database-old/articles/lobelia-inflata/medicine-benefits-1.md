@@ -1,0 +1,1 @@
+Lobelia has many health benefits, such as helping in reducing the effects of common ailments like coughs, flu symptoms, and cold by easing out phlegm from the lungs. It also improves the respiratory system's overall functioning due to its ability to promote detoxification within the lungs. These features make it an excellent medicinal herb for various health concerns.

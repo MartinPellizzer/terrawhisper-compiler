@@ -1,0 +1,1 @@
+Buchu has many health benefits, such as reducing inflammation, which can aid in pain relief and improve overall wellness; furthermore, it is known for boosting cognitive function, making mental tasks easier to handle and sharpening the mind; lastly, it increases energy levels, allowing individuals to perform daily activities more effectively.

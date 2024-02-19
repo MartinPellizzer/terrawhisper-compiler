@@ -1,0 +1,1 @@
+Comfrey has many health benefits, such as relieving pain in different parts of the body due to its anti-inflammatory properties. It also reduces swelling and inflammation that could potentially damage internal organs or tissues. Another perk is that it soothes a sore throat, making it an effective remedy for respiratory issues as well.

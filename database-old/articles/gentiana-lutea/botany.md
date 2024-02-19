@@ -1,0 +1,9 @@
+Gentian, with botanical name Gentiana lutea, belongs to the domain Eukaryota, kingdom Plantae, phylum Magnoliophyta, class Magnoliopsida, order Gentianales, family Gentianaceae, and genus Gentiana. Common names for this plant include Yellow Gentian, Feverfew, and Bitterwort.
+
+The main variants of Gentiana lutea are G. lutea var. altior (taller plants), G. lutea var. latifolia (large-leaved), and G. lutea var. villosa (hairy). While each type has slight differences in height, leaf size, and hairiness, they all share the same unique botanical characteristics of this species.
+
+Gentiana lutea boasts an elegant and distinctive appearance with its tall, straight stems that can reach up to three feet in height. The plant features large, deep green leaves with a pointed oval shape on stems and purple flowers, creating striking contrasts throughout the plant.
+
+Gentian is native to Europe, primarily found in mountainous areas in countries such as Austria, France, Germany, Italy, Portugal, Slovenia, Switzerland, and Spain. It thrives in well-drained soils and cooler climates at elevations of around 2000 meters above sea level. The plant can also be cultivated in other parts of the world with similar growing conditions.
+
+Gentiana lutea's life cycle involves a biennial growth pattern, meaning it takes two years to complete its entire life cycle. In the first year, the plant will form an herbaceous rosette consisting of leaves and a basal rosette before eventually developing a tall flowering stem in the second year. Once matured, the flowers attract pollinators like bees, butterflies, and moths, leading to seed production and ultimately dispersal for the next generation.

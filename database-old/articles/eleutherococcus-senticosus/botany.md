@@ -1,0 +1,7 @@
+Siberian Ginseng, with botanical name Eleutherococcus senticosus, belongs to the domain of Eukarya, kingdom Plantae, phylum Tracheobionta, class Magnoliopsida, order Cornales, family Araliaceae, and genus Eleutherococcus. Common names for this plant include Siberian Ginseng and Acanthopanax senticosus.
+
+ Russian, Chinese, and Japanese. The Russian variant exhibits smooth stems and spiny leaves whereas the other two have prickly stems with spines on them. The variations have adapted slightly based upon their native environments.
+
+Geographically distributed throughout Russia and parts of Asia, Siberian Ginseng thrives in subarctic to temperate forests on mountains as well as in coniferous and mixed forests. It can also be found growing near lakesides or streams, where it prefers moist soil with a neutral pH.
+
+The life cycle of Siberian Ginseng is characterized by its perennial growth habit. This plant grows from seeds, which germinate under the right conditions and can grow up to 6 feet tall in maturity. It produces small white flowers that bloom in clusters during spring or early summer. After pollination by various insects, the flowers develop into greenish-yellow berries called achates. These berries later mature to red, turning dark purple when ripe and are consumed by birds, which aid in seed dispersal, further supporting the growth and distribution of this remarkable botanical species.

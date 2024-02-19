@@ -1,0 +1,1 @@
+Elder has many health benefits, such as boosting one's immunity to fight off diseases and infections due to a rich vitamin C content. It also helps reduce inflammation and aids in soothing discomfort, such as alleviating sore throat symptoms. These properties make it an excellent addition to any natural medicine cabinet.

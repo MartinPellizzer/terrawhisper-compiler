@@ -1,0 +1,1 @@
+Peppermint has many health benefits, such as helping digestion, easing headaches, and soothing inflammation. It is a versatile herb that can be used in various forms like tea or oil for maximum relief. People have long trusted this natural remedy for centuries.

@@ -1,0 +1,1 @@
+Lemon Balm has many health benefits, such as its capability to reduce stress and anxiety levels, which consequently contributes to one’s well-being. Furthermore, it aids in improving digestion and supports the immune system, ensuring overall good health. These attributes make Lemon Balm an essential herb for daily usage.

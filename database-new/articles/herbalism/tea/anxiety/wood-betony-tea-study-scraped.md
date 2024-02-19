@@ -1,0 +1,6 @@
+source: Phytotherapy Research
+
+
+https://onlinelibrary.wiley.com/doi/abs/10.1002/ptr.3106
+
+We performed a basic behavioral characterization of methanol extracts of four Balkan endemic Stachys taxa: S. anisochila (SA), S. beckeana (SB), S. plumosa (SP) and S. alpina subsp. dinarica (SAD). The behavioral activity of extracts dosed intraperitoneally in the range 100–400 mg/kg was examined in adult male Wistar rats, in the elevated plus maze, spontaneous locomotor activity, and grip strength tests, mainly predictive of anxiolytic, sedative and myorelaxant actions, respectively. All investigated Stachys extracts lacked anxiolytic or myorelaxant activities, while SB at 400 mg/kg exerted an anxiogenic-like effect. The study with the selective antagonist β-CCt showed that the sedative effect of SAD was only partially mediated by GABAA receptors containing the α1-subunit. While discernible, the behavioral effects of SA and SP were not distinct. In all extracts, chlorogenic acid and verbascoside were identified. In SA, SB, and SAD the flavonoid fraction was constituted of isoscutellarein and hypolaetine glycosides, while in SP chrysoeriol and apigenin glycosides were present. The results reveal the psychotropic potential of four endemic Stachys taxa, of which SAD appeared most promising as a natural sedative.

@@ -1,0 +1,5 @@
+source: Journal of Functional Foods
+https://www.sciencedirect.com/science/article/pii/S1756464623001500
+
+M. officinalis a traditional herbal remedy used by local people of Kurdistan Region extract (250 and 500 mg/kg) investigated to study the gastroprotective efficacy using ethanol-induced gastric ulcer rats. Macroscopic study showed a significant decrement in ulcer index at high dose (500 mg/kg) (0.894 ± 0.07, P value ≤ 0.05) in comparison to both negative and positive control (omeprazole 20 mg/kg). Microscopical study confirm the potency of the plant (500 mg/kg) extract showed remarkable mucosal lesion improvement. The plant extract showed a great efficacy for decreasing the proinflammatory markers (TNF-α and IL-β1) (579.633 and 1184.873 pg/mL, respectively). M. officinalis plant expressed a significant capacity for scavenging DPPH free radicals (19.09 ± 0.71 µg/mL, P value ≤ 0.05). The phytochemical study showed an appreciable amount of tannin and flavonoids in the extract. The study observations candidate M. officinalis to be a potent gastroprotection agent.
+
