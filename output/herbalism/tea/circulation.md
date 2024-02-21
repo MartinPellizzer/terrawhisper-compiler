@@ -165,7 +165,7 @@ The following image shows a cup of echinacea tea for circulation.
 
 ![Echinacea Tea For Circulation](/images/echinacea-tea-for-circulation.jpg)
 
-## 13. Angelica Tea 
+## 13. Angelica Tea (Angelica Archangelica)
 
 Angelica tea can improve blood flow and boost overall circulation due to its rich antioxidant content.
 

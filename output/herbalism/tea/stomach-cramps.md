@@ -1,9 +1,9 @@
 ---
-title: 13 Best Herbal Teas For Stomach Cramps
+title: 11 Best Herbal Teas For Stomach Cramps
 ---
 
 
-# 13 Best Herbal Teas For Stomach Cramps
+# 11 Best Herbal Teas For Stomach Cramps
 
 ![Herbal Tea For Stomach Cramps](/images/herbal-tea-for-stomach-cramps.jpg)
 

@@ -1,9 +1,9 @@
 ---
-title: 13 Best Herbal Teas For Cramps
+title: 15 Best Herbal Teas For Cramps
 ---
 
 
-# 13 Best Herbal Teas For Cramps
+# 15 Best Herbal Teas For Cramps
 
 ![Herbal Tea For Cramps](/images/herbal-tea-for-cramps.jpg)
 
@@ -141,7 +141,7 @@ The following image shows a cup of eucalyptus tea for cramps.
 
 ![Eucalyptus Tea For Cramps](/images/eucalyptus-tea-for-cramps.jpg)
 
-## 11. Pomegranate Tea 
+## 11. Pomegranate Tea (Punica Granatum)
 
 Pomegranate tea is known for its anti-inflammatory properties, which can help to reduce cramping by targeting the root cause of the pain.
 

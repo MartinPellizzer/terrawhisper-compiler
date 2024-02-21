@@ -2143,7 +2143,7 @@ for i, filepath in enumerate(_articles):
     # GET IMAGES
     _condition = filepath.split('/')[-1]
     _preparation = filepath.split('/')[-2]
-    _data = csv_get_rows('database/remedies/remedies.csv')
+    _data = csv_get_rows('database-old/remedies/remedies.csv')
     # _data = util.json_read(f'database-new/articles/herbalism/tea/{_condition}')
     _data = [_row for _row in _data if _row[0].strip().lower().replace(' ', '-') == _condition]
     _data = [_row for _row in _data if _row[1].strip().lower().replace(' ', '-') == _preparation]

@@ -1,9 +1,9 @@
 ---
-title: 13 Best Herbal Teas For Mucus
+title: 11 Best Herbal Teas For Mucus
 ---
 
 
-# 13 Best Herbal Teas For Mucus
+# 11 Best Herbal Teas For Mucus
 
 ![Herbal Tea For Mucus](/images/herbal-tea-for-mucus.jpg)
 
@@ -105,7 +105,7 @@ The following image shows a cup of thyme tea for mucus.
 
 ![Thyme Tea For Mucus](/images/thyme-tea-for-mucus.jpg)
 
-## 8. Marshmallow Tea 
+## 8. Marshmallow Tea (Althaea Officinalis)
 
 Marshmallow tea is often recommended to help with mucus because it has been traditionally used as an expectorant, which means it helps loosen and expel mucus from the lungs.
 

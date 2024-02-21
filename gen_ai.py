@@ -143,6 +143,7 @@ def ai_gen_remedies():
         herbs = []
         for line in lines:
             line = line.strip().lower()
+            if line == '': continue
             if not line[0].isdigit(): continue
             if preparation not in line: continue
             if '. ' not in line: continue
@@ -187,7 +188,7 @@ def ai_gen_remedies_intro():
 
             scientific_name = ''
             try: scientific_name = get_scientific_name(herb).capitalize()
-            except: print(f'MISSING SCIENTIFIC NAME >> {herb}')
+            except: print(f'MISSING SCIENTIFIC NAME >> {herb} --- {keyword}')
 
             if intro != '': continue
 
@@ -237,7 +238,7 @@ def ai_gen_number():
 
 
 # TODO: put al ai_gen functions inside this one
-def ai_gen_json():
+def ai_gen_json_tea():
     conditions = [row[0] for row in util.csv_get_rows('conditions.csv')]
 
     articles = []
@@ -250,6 +251,8 @@ def ai_gen_json():
                 'condition': condition,
                 'preparation': 'tea',
                 'url': f'herbalism/tea/{condition_dash}',
+                'intro_1': '',
+                'intro_2': '',
                 'remedies': [],
                 'supplementary': [],
             }
@@ -308,10 +311,12 @@ def ai_gen_json():
                 Include which are the main causes that make people have this problem.
                 Include what effects this problem has on other aspects of health.
                 Include numbers, percentages, and statistics.
-            '''
+            '''            
+            prompt = '\n'.join([line.strip() for line in prompt.split('\n') if line.strip() != ''])
+
             prompt = prompt.replace('[1]', condition)
             reply = gen_reply(prompt).strip()
-            if '\n' not in reply:
+            if reply != '' and '\n' not in reply:
                 data['intro_1'] = reply
                 util.json_write(json_filepath, data)
 
@@ -322,9 +327,11 @@ def ai_gen_json():
             prompt = f'''
                 Write a 5-line paragraph about herbal tea for [1]. 
             '''
+            prompt = '\n'.join([line.strip() for line in prompt.split('\n') if line.strip() != ''])
+
             prompt = prompt.replace('[1]', condition)
             reply = gen_reply(prompt).strip()
-            if '\n' not in reply:
+            if reply != '' and '\n' not in reply:
                 data['intro_2'] = reply
                 util.json_write(json_filepath, data)
 
@@ -337,43 +344,45 @@ def ai_gen_json():
             prompt = '\n'.join([line.strip() for line in prompt.split('\n') if line.strip() != ''])
             reply = gen_reply(prompt).strip()
 
-            lines = reply.split('\n')
-            herbs = []
-            for line in lines:
-                line = line.strip().lower()
-                if not line[0].isdigit(): continue
-                if preparation not in line: continue
-                if '. ' not in line: continue
+            if reply != '': 
+                lines = reply.split('\n')
+                herbs = []
+                for line in lines:
+                    line = line.strip().lower()
+                    if line == '': continue
+                    if not line[0].isdigit(): continue
+                    if preparation not in line: continue
+                    if '. ' not in line: continue
 
-                line = line.split('. ')[1]
-                line = line.replace(preparation, '')
-                line = line.replace(' leaf', '')
-                line = line.replace(' root', '')
-                line = line.replace(' seed', '')
-                line = line.replace(' flower', '')
-                line = line.replace(' bark', '')
-                line = line.replace(' extract', '')
-                line = line.replace(' oil', '')
-                line = line.replace(' milk', '')
-                line = line.replace(' berry', '')
-                line = line.replace(' leaves', '')
-                line = line.replace(' herbal', '')
-                line = line.strip()
-                herbs.append(line)
+                    line = line.split('. ')[1]
+                    line = line.replace(preparation, '')
+                    line = line.replace(' leaf', '')
+                    line = line.replace(' root', '')
+                    line = line.replace(' seed', '')
+                    line = line.replace(' flower', '')
+                    line = line.replace(' bark', '')
+                    line = line.replace(' extract', '')
+                    line = line.replace(' oil', '')
+                    line = line.replace(' milk', '')
+                    line = line.replace(' berry', '')
+                    line = line.replace(' leaves', '')
+                    line = line.replace(' herbal', '')
+                    line = line.strip()
+                    herbs.append(line)
 
-            data['remedies'] = []
-            for herb in herbs:
-                data['remedies'].append(
-                    {
-                        'herb': f'{herb}',
-                        'preparation': f'{preparation}',
-                        'intro': '',
-                        'study': '',
-                        'recipe': [],
-                    }
-                )
+                data['remedies'] = []
+                for herb in herbs:
+                    data['remedies'].append(
+                        {
+                            'herb': f'{herb}',
+                            'preparation': f'{preparation}',
+                            'intro': '',
+                            'study': '',
+                            'recipe': [],
+                        }
+                    )
 
-            util.json_write(json_filepath, data)
+                util.json_write(json_filepath, data)
 
         # REMEDIES INTRO
         json_filepath = f'database/articles/{url}.json'
@@ -384,34 +393,28 @@ def ai_gen_json():
             intro = remedy['intro'].strip()
 
             scientific_name = ''
-            try: scientific_name = get_scientific_name(herb).capitalize()
-            except: print(f'MISSING SCIENTIFIC NAME >> {herb}')
+            try: scientific_name = get_scientific_name(herb).capitalize().strip()
+            except: print(f'MISSING SCIENTIFIC NAME >> {herb} --- {keyword}')
 
             if intro != '': continue
 
             prompt = f'''
-                Explain why [0] [1] helps with [2]. 
+                Explain in detail why [0] [1] helps with [2]. 
                 Answer in a 5-sentence paragraph without using lists. 
-                Don't include studies.
-                Don't include preparations.
             '''
+            prompt = '\n'.join([line.strip() for line in prompt.split('\n') if line.strip() != ''])
 
             scientific_name_formatted = ''
-            if scientific_name.strip() != '':
+            if scientific_name != '':
                 scientific_name_formatted = f'({scientific_name})'
             prompt = prompt.replace('[0]', f'{herb} {scientific_name_formatted}')
             prompt = prompt.replace('[1]', preparation)
             prompt = prompt.replace('[2]', condition)
-            reply = gen_reply(prompt)
+            reply = gen_reply(prompt).strip()
 
-            if ':' in reply: continue
-
-            reply = reply.replace('\n', '')
-            reply = re.sub("\s\s+" , " ", reply)
-
-            data['remedies'][i]['intro'] = reply.strip()
-            
-            util.json_write(json_filepath, data)
+            if reply != '' and '\n' not in reply and ':' not in reply:
+                data['remedies'][i]['intro'] = reply
+                util.json_write(json_filepath, data)
 
 
 def gen_output():
@@ -635,7 +638,7 @@ def gen_output_2():
 
 
 
-# ai_gen_json()
+ai_gen_json_tea()
 # ai_gen_number()
 gen_output_2()
 

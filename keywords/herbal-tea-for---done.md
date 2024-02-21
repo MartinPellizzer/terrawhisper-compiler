@@ -172,6 +172,7 @@ herbal tea for constipation
     herbal teas to make you poop
     herbal treatment constipation
     herbal treatment for constipation in adults
+    herbal tea for bowel movement
 
 
 dry, itchy, infection, pain, mucus, cough, cold, acid reflux, strep, congestion, irritation, 
@@ -570,3 +571,48 @@ herbal tea for anti inflammatory
 
 
 herbal tea for back pain
+
+herbal tea for pregnancy
+    herbal tea for early pregnancy
+    herbal tea for nausea during pregnancy
+    herbal tea ok for pregnancy
+    herbal tea for pregnancy nausea
+    herbal tea for pregnancy sickness
+    herbal tea for pregnancy first trimester
+    herbal tea for pregnant mothers
+    chinese herbal tea for pregnancy
+    herbal tea for heartburn pregnancy
+    herbal tea recipes for pregnancy
+    herbal tea suitable for pregnancy
+    homemade herbal tea for pregnancy
+    herbal tea remedies for pregnancy
+    herbal tea pregnancy nhs
+    herbal tea pregnancy avoid
+    herbal tea and pregnancy first trimester
+    herbal tea and pregnancy risks
+    herbal teas and pregnancy nhs
+    herbal teas in pregnancy acog
+    herbal teas after pregnancy
+    herbal teas to avoid pregnant
+    what herbal tea is good for pregnancy
+    what herbal tea is good for early pregnancy
+    what herbal teas to drink when pregnant
+
+herbal tea for allergies
+
+herbal tea for fatigue
+    herbal tea for adrenal fatigue
+
+herbal tea for babies
+    herbal tea for newborn baby
+
+herbal tea for belly fat
+    does herbal tea burn belly fat
+    
+herbal tea for brain fog
+
+
+herbal tea for congestion
+    herbal tea for chest congestion
+        herbal tea for lung congestion
+    herbal tea for nasal congestion

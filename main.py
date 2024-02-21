@@ -9,6 +9,8 @@ import util
 
 
 
+
+
 IMAGE_FOLDER = 'C:/terrawhisper-assets/images'
 
 AUTHOR_NAME = 'Martin Pellizzer'
@@ -169,6 +171,70 @@ def generate_home():
     util.file_write(f'website/index.html', template)
 
 
+def generate_about():
+    header = generate_header_light()
+    content = util.file_read(f'static/about.md')
+    content = markdown.markdown(content, extensions=['markdown.extensions.tables'])
+    
+    template = util.file_read('templates/about.html')
+
+    template = template.replace('[meta_title]', 'TerraWhisper | About')
+    template = template.replace('[google_tag]', GOOGLE_TAG)
+    template = template.replace('[author_name]', AUTHOR_NAME)
+    template = template.replace('[header]', header)
+    template = template.replace('[content]', content)
+
+    util.file_write(f'website/about.html', template)
+
+
+def generate_page_herbalism():
+    page_url = 'herbalism'
+
+    header = generate_header_light()
+
+    page_html = util.file_read(f'static/{page_url}.html')
+
+    page_html = page_html.replace('[meta_title]', 'Herbalism')
+    page_html = page_html.replace('[google_tag]', GOOGLE_TAG)
+    page_html = page_html.replace('[author_name]', AUTHOR_NAME)
+    page_html = page_html.replace('[header]', header)
+
+    util.file_write(f'website/{page_url}.html', page_html)
+
+
+def generate_page_herbalism_tea():
+    sections = []
+    articles_folderpath = 'database/articles/herbalism/tea'
+    for article_filename in os.listdir(articles_folderpath):
+        article_filepath = f'{articles_folderpath}/{article_filename}'
+        data = util.json_read(article_filepath)
+        keyword = data['keyword']
+        condition = data['condition']
+        url = data['url']
+        sections.append(f'<li><a href="/{url}.html">{condition}</a></li>')
+    sections = '<ul>' + ''.join(sections) + '</ul>'
+
+    page_url = 'herbalism/tea'
+
+    header = generate_header_light()
+
+    page_html = util.file_read(f'static/{page_url}.html')
+
+    page_html = page_html.replace('[meta_title]', 'Herbalism')
+    page_html = page_html.replace('[google_tag]', GOOGLE_TAG)
+    page_html = page_html.replace('[author_name]', AUTHOR_NAME)
+    page_html = page_html.replace('[header]', header)
+    page_html = page_html.replace('[sections]', sections)
+
+    util.file_write(f'website/{page_url}.html', page_html)
+
+
+
+
+##############################################################################
+# ARTICLES
+##############################################################################
+
 def generate_articles():
     IMG_FOLDER_TEA = 'C:/terrawhisper-assets/images/tea'
     img_folders_names = os.listdir(IMG_FOLDER_TEA)
@@ -176,7 +242,6 @@ def generate_articles():
     for img_folder_name in img_folders_names:
         img_folders_files = os.listdir(f'{IMG_FOLDER_TEA}/{img_folder_name}')
         img_dict[img_folder_name] = img_folders_files
-    img_folders_paths = os.listdir(IMG_FOLDER_TEA) 
 
 
     ARTICLES_FOLDERPATH_MD = 'output/herbalism/tea'
@@ -248,7 +313,6 @@ def generate_articles():
             except: pass
         util.file_write(f'{article_filepath_out}', html)
 
-
         # GET IMAGES
         data = util.json_read(article_filepath_json)
         condition = data['condition']
@@ -292,7 +356,6 @@ def generate_articles():
                 try: scientific_name = util.get_scientific_name(herb)
                 except: scientific_name = ''
                 print(article_filepath_in)
-                print(image_path_in)
                 print(f'*** MISSING: {herb_dash} ({scientific_name}) {preparation_dash} ***')
                 print()
 
@@ -318,4 +381,11 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 
+
+
+generate_articles()
+
 generate_home()
+generate_about()
+generate_page_herbalism()
+generate_page_herbalism_tea()

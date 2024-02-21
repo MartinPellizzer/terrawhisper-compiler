@@ -1,9 +1,9 @@
 ---
-title: 13 Best Herbal Teas For Overactive Bladder
+title: 11 Best Herbal Teas For Overactive Bladder
 ---
 
 
-# 13 Best Herbal Teas For Overactive Bladder
+# 11 Best Herbal Teas For Overactive Bladder
 
 ![Herbal Tea For Overactive Bladder](/images/herbal-tea-for-overactive-bladder.jpg)
 
