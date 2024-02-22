@@ -232,7 +232,7 @@ def generate_page_herbalism_tea():
 
 
 ##############################################################################
-# ARTICLES
+# ARTICLES TEA
 ##############################################################################
 
 def generate_articles():
@@ -362,6 +362,136 @@ def generate_articles():
 
 
 ##############################################################################
+# ARTICLES PLANTS
+##############################################################################
+
+def generate_articles_plants():
+    articles_folderpath = 'database/articles/plants'
+    articles_filenames = os.listdir(articles_folderpath)
+    for article_filename in articles_filenames:
+        article_filepath_in = f'{articles_folderpath}/{article_filename}'
+        article_filepath_out = f'website/{article_filename}'.replace('.json', '.html')
+
+        data = util.json_read(article_filepath_in)
+        title = data['title']
+        latin_name = data['latin_name']
+        latin_name_dash = latin_name.lower().replace(' ', '-')
+        medicine = data['medicine']
+        horticulture = data['horticulture']
+        botany = data['botany']
+
+        article_html = ''
+        title_html = f'<h1>{title}</h1>'
+        image_featured_html = f'<p><img src="/images/{latin_name_dash}.jpg" alt="{latin_name}"></p>'
+        medicine_title_html = f'<h2>What are the medicinal properties of {latin_name}?</h2>'
+        medicine_image_html = f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>'
+        medicine_paragraphs_html = ''.join([f'<p>{paragraph}</p>' for paragraph in medicine])
+        horticulture_title_html = f'<h2>What are the horticultural conditions of {latin_name}?</h2>'
+        horticulture_image_html = f'<p><img src="/images/{latin_name_dash}-horticulture.jpg" alt="{latin_name} horticulture"></p>'
+        horticulture_paragraphs_html = ''.join([f'<p>{paragraph}</p>' for paragraph in horticulture])
+        botany_title_html = f'<h2>What are the botanical characteristics of {latin_name}?</h2>'
+        botany_image_html = f'<p><img src="/images/{latin_name_dash}-botany.jpg" alt="{latin_name} botany"></p>'
+        botany_paragraphs_html = ''.join([f'<p>{paragraph}</p>' for paragraph in botany])
+        # print(medicine_paragraphs_html)
+        # quit()
+
+        article_html += title_html
+        article_html += image_featured_html
+        article_html += medicine_title_html
+        article_html += medicine_image_html
+        article_html += medicine_paragraphs_html
+        article_html += horticulture_title_html
+        article_html += horticulture_image_html
+        article_html += horticulture_paragraphs_html
+        article_html += botany_title_html
+        article_html += botany_image_html
+        article_html += botany_paragraphs_html
+
+        header_html = generate_header_light()
+
+        # word_count = len(article_md.split(' '))
+        # reading_time_html = str(word_count // 200) + ' minutes'
+        reading_time_html = '0' + ' minutes'
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                
+                <section class="my-96">
+                    <div class="container">
+                        <div class="flex items-center justify-between mb-16">
+                            <div class="flex items-center gap-16">
+                                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                            </div>
+                            <span>{reading_time_html}</span>
+                        </div>
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(f'{article_filepath_out}', html)
+
+        # IMAGES
+        folderpath = f'{IMAGE_FOLDER}/plants/{latin_name_dash}'
+        filenames = os.listdir(folderpath)
+        filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+
+        filepath_in = filepaths_in[0]
+        filepath_out = f'website/images/{latin_name_dash}.jpg'
+        img = Image.open(filepath_in)
+        img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+        img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+        filepath_in = filepaths_in[1]
+        filepath_out = f'website/images/{latin_name_dash}-medicine.jpg'
+        img = Image.open(filepath_in)
+        img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+        img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+        filepath_in = filepaths_in[2]
+        filepath_out = f'website/images/{latin_name_dash}-horticulture.jpg'
+        img = Image.open(filepath_in)
+        img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+        img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+        filepath_in = filepaths_in[3]
+        filepath_out = f'website/images/{latin_name_dash}-botany.jpg'
+        img = Image.open(filepath_in)
+        img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+        img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+        
+        quit()
+
+
+
+
+
+##############################################################################
 # STATIC FILES
 ##############################################################################
 
@@ -383,7 +513,8 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 
-generate_articles()
+# generate_articles()
+generate_articles_plants()
 
 generate_home()
 generate_about()
