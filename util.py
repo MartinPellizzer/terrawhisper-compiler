@@ -6,6 +6,7 @@ import json
 ###################################
 # CSV
 ###################################
+
 def csv_get_rows(filepath, delimiter='\\'):
     rows = []
     with open(filepath, encoding='utf-8', errors='ignore') as f:
@@ -13,8 +14,6 @@ def csv_get_rows(filepath, delimiter='\\'):
         for i, line in enumerate(reader):
             rows.append(line)
     return rows
-
-
 
 
 def folder_create(path):
@@ -54,6 +53,7 @@ def json_append(filepath, data):
     with open(filepath, 'a', encoding='utf-8') as f:
         json.dump(data, f)
 
+
 def json_read(filepath):
     if not os.path.exists(filepath):
         file_append(filepath, '')
@@ -63,6 +63,7 @@ def json_read(filepath):
     
     with open(filepath, 'r', encoding='utf-8') as f: 
         return json.load(f)
+
 
 def json_write(filepath, data):
     with open(filepath, 'w', encoding='utf-8') as f:
@@ -78,6 +79,7 @@ def json_write(filepath, data):
 ###################################
 # FORMAT
 ###################################
+
 def text_format_131(text):
     text_formatted = ''
     lines = text.split('. ')
@@ -97,8 +99,6 @@ def text_format_131(text):
 ###################################
 # SCIENTIFIC NAME
 ###################################
-
-    
 
 def get_scientific_name(common_name, delimiter='\\'):
     rows = csv_get_rows('plants.csv', delimiter=delimiter)

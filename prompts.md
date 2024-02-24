@@ -2,7 +2,7 @@ person with headaches, Pinterest, natural light, 8k
 
 beautiful photo of Achillea millefolium on a wooden table surrounded by many other medicinal herbs and spices, Pinterest
 
-beautiful photo of achillea millefolium in the wild, Pinterest, natural light, 8k
+beautiful photo of achillea millefolium plant in the wild, Pinterest, natural light, 8k
 
 a beautiful 3/4 photo realistic shot of Eucalyptus tea on a wooden table surrounded by medicinal herbs, Pinterest
 
