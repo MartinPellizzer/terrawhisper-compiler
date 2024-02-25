@@ -4,6 +4,7 @@ import json
 import re
 from ctransformers import AutoModelForCausalLM
 import random
+import g
 
 import util
 
@@ -13,6 +14,7 @@ import util
 
 MODELS = [
     'C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.1.Q8_0.gguf',
+    'C:\\Users\\admin\\Desktop\\models\\neural-chat-7b-v3-3.Q8_0.gguf',
     'C:\\Users\\admin\\.cache\\lm-studio\\models\\mlabonne\\AlphaMonarch-7B-GGUF\\alphamonarch-7b.Q8_0.gguf',
     'C:\\Users\\admin\\.cache\\lm-studio\\models\\TheBloke\\Starling-LM-7B-alpha-GGUF\\starling-lm-7b-alpha.Q8_0.gguf',
 ]
@@ -27,12 +29,10 @@ llm = AutoModelForCausalLM.from_pretrained(
 
 
 plants = [row for row in util.csv_get_rows('database/tables/plants.csv')]
-
 cols = {}
 for i, item in enumerate(plants[0]):
     cols[item] = i
-
-plants = plants[1:]
+plants = plants[1:g.ARTICLES_NUM]
 
 
 def gen_reply(prompt):
@@ -263,7 +263,6 @@ def ai_gen_json():
     return running
 
 
-
 def ai_gen_medicine_section():
     plants = [row for row in util.csv_get_rows('database/tables/plants.csv')]
 
@@ -339,7 +338,6 @@ def ai_gen_medicine_section():
             util.json_write(filepath, data)
 
             running = True
-
 
 
 def ai_gen_medicine_benefits_section():
@@ -432,7 +430,6 @@ def ai_gen_medicine_benefits_section():
             running = True
 
 
-
 def ai_gen_medicine_benefits_definition_section():
     plants = [row for row in util.csv_get_rows('database/tables/plants.csv')]
 
@@ -442,7 +439,7 @@ def ai_gen_medicine_benefits_definition_section():
 
     plants = plants[1:]
 
-    for plant in plants[:3]:
+    for plant in plants[:g.ARTICLES_NUM]:
         latin_name = plant[cols['latin_name']].strip()
         common_name = plant[cols['common_name']].strip()
 
@@ -517,7 +514,11 @@ def ai_gen_medicine_benefits_definition_section():
 
 
 
+
+
 def ai_gen_medicine_benefits_constituents_section():
+    running = False
+    
     plants = [row for row in util.csv_get_rows('database/tables/plants.csv')]
 
     cols = {}
@@ -526,7 +527,8 @@ def ai_gen_medicine_benefits_constituents_section():
 
     plants = plants[1:]
 
-    for plant in plants[:3]:
+    for index, plant in enumerate(plants[:g.ARTICLES_NUM]):
+        print(index, '-', g.ARTICLES_NUM)
         latin_name = plant[cols['latin_name']].strip()
         common_name = plant[cols['common_name']].strip()
 
@@ -578,11 +580,12 @@ def ai_gen_medicine_benefits_constituents_section():
             except: benefit['constituents'] = []
 
             if benefit_constituents != []: continue
+            running = True
             
             prompt_paragraphs_num = 10
             prompt = f'''
-                Write a numbered list of the {prompt_paragraphs_num} most important medicinal constituents of {common_name} ({latin_name}) that help with the following benefit: {benefit_name}. 
-                Write just the names, not the descriptions.
+                Write a numbered list of the {prompt_paragraphs_num} most important medicinal constituents of the {latin_name} plant that help with this benefit: {benefit_name}. 
+                Write only the names of the constituents, not the descriptions.
             '''        
             prompt = prompt_normalize(prompt)
             reply = gen_reply(prompt)
@@ -595,12 +598,10 @@ def ai_gen_medicine_benefits_constituents_section():
                 if line[0].isdigit() and '. ' in line:
                     line = '. '.join(line.split('. ')[1:]).strip()
                     if line == '': continue
-                    if ':' in line: continue
-                    if '&' in line: line = line.split('&')[0].strip()
-                    if 'and' in line: line = line.split('and')[0].strip()
-                    if ',' in line: line = line.split(',')[0].strip()
+                    if ':' in line: line = line.split(':')[0].strip()
                     if '(' in line: line = line.split('(')[0].strip()
-                    if '-' in line: line = line.split('-')[0].strip()
+                    if line.endswith('.'): line = line[0:-1]
+                    if len(line.split(' ')) > 3: continue
                     reply_formatted.append(line)
             
             print('***************************************')
@@ -611,18 +612,20 @@ def ai_gen_medicine_benefits_constituents_section():
                 benefit['constituents'] = reply_formatted
                 util.json_write(filepath, data)
 
+    return running
 
 
 def ai_gen_medicine_benefits_constituents_text_section():
-    plants = [row for row in util.csv_get_rows('database/tables/plants.csv')]
+    running = False
 
+    plants = [row for row in util.csv_get_rows('database/tables/plants.csv')]
     cols = {}
     for i, item in enumerate(plants[0]):
         cols[item] = i
-
     plants = plants[1:]
 
-    for plant in plants[:3]:
+    for index, plant in enumerate(plants[:g.ARTICLES_NUM]):
+        print(index, '-', g.ARTICLES_NUM)
         latin_name = plant[cols['latin_name']].strip()
         common_name = plant[cols['common_name']].strip()
 
@@ -680,11 +683,21 @@ def ai_gen_medicine_benefits_constituents_text_section():
             if benefit_constituents == []: continue
             if benefit_constituents_text != '': continue
 
+            running = True
+
             constituents = ', '.join(benefit_constituents[:7])
-            # starting_text = f'{common_name} '
             prompt = f'''
-                Write a 60-word paragraph explaining how these constituents in {common_name} {benefit_name}: {constituents}.
+                Write a 60-word paragraph explaining how these constituents contained in the {common_name} plant {benefit_name}: {constituents}.
             '''
+
+            # constituents = '- ' + '\n- '.join(benefit_constituents[:7])
+            # prompt = f'''
+            #     For each constituent in the following list:
+            #     {constituents}
+
+            #     Write 1 short sentence explaining why that constituent in {common_name} {benefit_name}.
+            # '''
+
             prompt = prompt_normalize(prompt)
             reply = gen_reply(prompt)
             reply = reply.strip()
@@ -703,9 +716,12 @@ def ai_gen_medicine_benefits_constituents_text_section():
                 benefit['constituents_text'] = reply
                 util.json_write(filepath, data)
 
+    return running
 
 
 def ai_gen_medicine_benefits_conditions_section():
+    running = False
+
     plants = [row for row in util.csv_get_rows('database/tables/plants.csv')]
 
     cols = {}
@@ -714,7 +730,7 @@ def ai_gen_medicine_benefits_conditions_section():
 
     plants = plants[1:]
 
-    for plant in plants[:3]:
+    for plant in plants[:g.ARTICLES_NUM]:
         latin_name = plant[cols['latin_name']].strip()
         common_name = plant[cols['common_name']].strip()
 
@@ -768,6 +784,8 @@ def ai_gen_medicine_benefits_conditions_section():
 
             if benefit_conditions != []: continue
             
+            running = True
+
             prompt_paragraphs_num = 10
             prompt = f'''
                 Write a numbered list of the {prompt_paragraphs_num} most common health conditions helped by this benefit of {common_name}: {benefit_name}.
@@ -800,10 +818,11 @@ def ai_gen_medicine_benefits_conditions_section():
                 benefit['conditions'] = reply_formatted
                 util.json_write(filepath, data)
 
-
+    return running
 
 
 def ai_gen_medicine_benefits_conditions_text_section():
+    running = False
     plants = [row for row in util.csv_get_rows('database/tables/plants.csv')]
 
     cols = {}
@@ -812,7 +831,8 @@ def ai_gen_medicine_benefits_conditions_text_section():
 
     plants = plants[1:]
 
-    for plant in plants[:3]:
+    for index, plant in enumerate(plants[:g.ARTICLES_NUM]):
+        print(index, '-', g.ARTICLES_NUM)
         latin_name = plant[cols['latin_name']].strip()
         common_name = plant[cols['common_name']].strip()
 
@@ -869,6 +889,8 @@ def ai_gen_medicine_benefits_conditions_text_section():
 
             if benefit_conditions == []: continue
             if benefit_conditions_text != '': continue
+            
+            running = True
 
             conditions = ', '.join(benefit_conditions[:7])
             # starting_text = f'{common_name} '
@@ -895,6 +917,184 @@ def ai_gen_medicine_benefits_conditions_text_section():
 
                 benefit['conditions_text'] = paragraphs_filtered
                 util.json_write(filepath, data)
+
+    return running
+
+
+#######################################################################
+# ROOT >> MEDICINE
+#######################################################################
+
+def folder_create(filepath):
+    chunks = filepath.split('/')
+    chunk_curr = ''
+    for chunk in chunks[:-1]:
+        chunk_curr += chunk + '/'
+        try: os.makedirs(f'{chunk_curr}')
+        except: pass
+
+
+
+
+
+def ai_entity_medicine_benefits(filepath):
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    benefits_list = []
+    try: benefits_list = data['benefits_list']
+    except: data['benefits_list'] = []
+
+    if benefits_list != []: return
+    running = True
+
+    prompt_paragraphs_num = 10
+    prompt = f'''
+        Write a numbered list of the {prompt_paragraphs_num} best health benefits of {latin_name} ({common_name}).
+        Add descriptions to the health benefits.
+    '''     
+    prompt = prompt_normalize(prompt)
+    reply = gen_reply(prompt)
+
+    reply = reply.strip()
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if line[0].isdigit():
+            line = line.split('. ')[1].strip()
+            if line == '': continue
+            reply_formatted.append(line)
+
+    if prompt_paragraphs_num == len(reply_formatted):
+        for paragraph in reply_formatted:
+            print('***************************************')
+            print(paragraph)
+            print('***************************************')
+
+        data['benefits_list'] = reply_formatted
+        util.json_write(filepath, data)
+
+
+def ai_entity_medicine_constituents(filepath):
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    constituents_list = []
+    try: constituents_list = data['constituents_list']
+    except: data['constituents_list'] = []
+
+    if constituents_list != []: return
+    running = True
+
+    prompt_paragraphs_num = 10
+    prompt = f'''
+        Write a numbered list of the {prompt_paragraphs_num} best active constituents of {latin_name} ({common_name}) for health.
+        Add descriptions to the active constituents.
+    '''     
+    prompt = prompt_normalize(prompt)
+    reply = gen_reply(prompt)
+
+    reply = reply.strip()
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if line[0].isdigit():
+            line = line.split('. ')[1].strip()
+            if line == '': continue
+            reply_formatted.append(line)
+
+    if prompt_paragraphs_num == len(reply_formatted):
+        for paragraph in reply_formatted:
+            print('***************************************')
+            print(paragraph)
+            print('***************************************')
+        data['constituents_list'] = reply_formatted
+        util.json_write(filepath, data)
+
+
+def ai_entity_medicine_preparations(filepath):
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    preparations_list = []
+    try: preparations_list = data['preparations_list']
+    except: data['preparations_list'] = []
+
+    if preparations_list != []: return
+    running = True
+
+    prompt_paragraphs_num = 10
+    prompt = f'''
+        Write a numbered list of the {prompt_paragraphs_num} best medicinal preparations of {latin_name} ({common_name}).
+        Add descriptions to the medicinal preparations.
+        Examples of medicinal preparations are infusions and tincures.
+    '''     
+    prompt = prompt_normalize(prompt)
+    reply = gen_reply(prompt)
+
+    reply = reply.strip()
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if line[0].isdigit():
+            line = line.split('. ')[1].strip()
+            if line == '': continue
+            reply_formatted.append(line)
+
+    if prompt_paragraphs_num == len(reply_formatted):
+        for paragraph in reply_formatted:
+            print('***************************************')
+            print(paragraph)
+            print('***************************************')
+        data['preparations_list'] = reply_formatted
+        util.json_write(filepath, data)
+
+
+def ai_entity_medicine():
+    running = False
+
+    for index, plant in enumerate(plants):
+        print(index, '-', len(plants))
+
+        latin_name = plant[cols['latin_name']].strip().capitalize()
+        common_name = plant[cols['common_name']].strip().title()
+
+        entity = latin_name.lower().replace(' ', '-')
+        url = f'{entity}/medicine'
+
+        filepath = f'database/articles/plants/{url}.json'
+        folder_create(filepath)
+
+        # INIT
+        data = util.json_read(filepath)
+        if not data:
+            data = {
+                'entity': entity,
+                'url': url,
+                'latin_name': latin_name,
+                'common_name': common_name,
+                'title': f'{latin_name} ({common_name})',
+            }
+            print(f'creating new file: {filepath}')
+        util.json_write(filepath, data)
+
+        # BENEFITS
+        # ai_entity_medicine_benefits(filepath)
+
+        # CONSTITUENTS
+        # ai_entity_medicine_constituents(filepath)
+
+        # PREPARATIONS
+        ai_entity_medicine_preparations(filepath)
+
+    return running
+
 
 
 
@@ -928,7 +1128,11 @@ def ai_gen_basic():
         # quit()
 
 
-
-ai_gen_medicine_benefits_constituents_text_section()
-ai_gen_medicine_benefits_conditions_section()
-ai_gen_medicine_benefits_conditions_text_section()
+running = True
+while running:
+    # ai_gen_medicine_benefits_definition_section()
+    # running = ai_gen_medicine_benefits_constituents_section()
+    # running = ai_gen_medicine_benefits_constituents_text_section()
+    # running = ai_gen_medicine_benefits_conditions_section()
+    # running = ai_gen_medicine_benefits_conditions_text_section()
+    running = ai_entity_medicine()

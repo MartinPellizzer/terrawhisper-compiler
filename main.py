@@ -8,6 +8,7 @@ import glob
 
 from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 
+import g
 import util
 
 
@@ -37,7 +38,7 @@ plants = [row for row in util.csv_get_rows('database/tables/plants.csv')]
 cols = {}
 for i, item in enumerate(plants[0]):
     cols[item] = i
-plants = plants[1:]
+plants = plants[1:g.ARTICLES_NUM]
 
 
 
@@ -428,10 +429,11 @@ def generate_articles():
 
 def generate_articles_plants():
     articles_folderpath = 'database/articles/plants'
-    articles_filenames = [filename for filename in os.listdir(articles_folderpath) if filename.endswith('.json')]
-    for article_filename in articles_filenames:
-        article_filepath_in = f'{articles_folderpath}/{article_filename}'
-        article_filepath_out = f'website/{article_filename}'.replace('.json', '.html')
+    for plant in plants:
+        latin_name = plant[cols['latin_name']].strip().capitalize()
+        entity = latin_name.lower().replace(' ', '-')
+        article_filepath_in = f'{articles_folderpath}/{entity}.json'
+        article_filepath_out = f'website/{entity}.html'
 
         data = util.json_read(article_filepath_in)
         try: title = data['title']
@@ -451,6 +453,7 @@ def generate_articles_plants():
         medicine_title_html = f'<h2>What are the medicinal properties of {latin_name}?</h2>'
         medicine_image_html = f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>'
         medicine_paragraphs_html = ''.join([f'<p>{paragraph}</p>' for paragraph in medicine])
+        medicine_link_html = f'<p>Here\'s an article explaining in detail the <a href="/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>'
         horticulture_title_html = f'<h2>What are the horticultural conditions of {latin_name}?</h2>'
         horticulture_image_html = f'<p><img src="/images/{latin_name_dash}-horticulture.jpg" alt="{latin_name} horticulture"></p>'
         horticulture_paragraphs_html = ''.join([f'<p>{paragraph}</p>' for paragraph in horticulture])
@@ -463,6 +466,7 @@ def generate_articles_plants():
         article_html += medicine_title_html
         article_html += medicine_image_html
         article_html += medicine_paragraphs_html
+        article_html += medicine_link_html
         article_html += horticulture_title_html
         article_html += horticulture_image_html
         article_html += horticulture_paragraphs_html
@@ -553,7 +557,6 @@ def generate_articles_plants():
 
 
 def gen_articles_plant_medicine_benefits():
-    # GET ARTICLES JSON
     articles_folderpath = 'database/articles/plants'
     articles_filepath = []
     for plant in plants:
@@ -575,26 +578,87 @@ def gen_articles_plant_medicine_benefits():
         except: benefits = []
 
         article_html = ''
-        article_html = f'<h1>{title}</h1>'
-        article_html = f'<p><img src="/images/{entity}.jpg" alt="{latin_name}"></p>'
+        article_html += f'<h1>{title}</h1>' + '\n'
+        article_html += f'<p><img src="/images/{entity}.jpg" alt="{latin_name}"></p>' + '\n'
+
+        images_plant_foldername = f'{IMAGE_FOLDER}/plants/{entity}'
+        try: images_plant_filename = os.listdir(images_plant_foldername)
+        except: images_plant_filename = None
+        
+        images_filepath = []
+        if images_plant_filename:
+            images_filepath = [f'{images_plant_foldername}/{filename}' for filename in images_plant_filename]
 
         for i, benefit in enumerate(benefits[:10]):
-            benefit_name = benefit['benefit']
+            benefit_name = benefit['benefit'].strip()
+            benefit_name_dash = benefit_name.lower().replace(' ' , '-')
+            article_html += f'<h2>{i+1}. {benefit_name}</h2>' + '\n'
+
             try: definition = benefit['definition']
             except: definition = ''
-            article_html += f'<h2>{i+1}. {benefit_name}</h2>'
-
-            if definition != '': article_html += f'<p>{definition}</p>'
+            if definition != '': article_html += f'<p>{definition}</p>' + '\n'
             else: print(f'MISSING DEFINITION: {article_filepath_in} >> {benefit_name}')
-            
-            print(definition)
-            # print(benefit_name)
-            # quit()
+
+            try: constituents = benefit['constituents']
+            except: constituents = []
+            constituents_list_html = ''
+            constituents_list_html += '<ul>'
+            for constituent in constituents:
+                constituents_list_html += f'<li>{constituent}</li>'
+            constituents_list_html += '</ul>'
+            article_html += constituents_list_html + '\n'
+
+            try: constituents_text = benefit['constituents_text']
+            except: constituents_text = ''
+            if constituents_text != '':
+                constituents_text_html = ''
+                sentences = constituents_text.split('. ')
+                constituents_text_html += f'<p>{sentences[0]}.</p>'
+                central_section = ". ".join(sentences[1:-1])
+                if central_section != '':
+                    constituents_text_html += f'<p>{central_section}.</p>'
+                constituents_text_html += f'<p>{sentences[-1]}</p>'
+                article_html += constituents_text_html + '\n'
+            else: print(f'MISSING ARTICLE CONSTITUENTS TEXT: {article_filepath_in} >> {benefit_name}')
+
+            if images_filepath:
+                image_filepath_in = images_filepath.pop(0)
+                image_filepath_out = f'website/images/{entity}-medicine-{benefit_name_dash}.jpg'
+                if not os.path.exists(image_filepath_out):
+                    img = Image.open(image_filepath_in)
+                    img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+                    img.save(image_filepath_out, format='JPEG', optimize=True, quality=50)
+                article_html += f'<p><img src="/images/{entity}-medicine-{benefit_name_dash}.jpg" alt="{latin_name} medicine {benefit_name.lower()}"></p>' + '\n'
+
+            try: conditions = benefit['conditions']
+            except: conditions = []
+            conditions_list_html = ''
+            conditions_list_html += '<ul>'
+            for condition in conditions:
+                conditions_list_html += f'<li>{condition}</li>'
+            conditions_list_html += '</ul>'
+            article_html += conditions_list_html + '\n'
+
+            try: conditions_text = benefit['conditions_text']
+            except: conditions_text = ''
+            if conditions_text != '':
+                conditions_text_html = ''
+                sentences = conditions_text.split('. ')
+                conditions_text_html += f'<p>{sentences[0]}.</p>'
+                central_section = ". ".join(sentences[1:-1])
+                if central_section != '':
+                    conditions_text_html += f'<p>{central_section}.</p>'
+                conditions_text_html += f'<p>{sentences[-1]}</p>'
+                article_html += conditions_text_html + '\n'
+            else: print(f'MISSING ARTICLE CONDITIONS TEXT: {article_filepath_in} >> {benefit_name}')
+
+
 
         header_html = generate_header_light()
-        # word_count = len(article_md.split(' '))
-        # reading_time_html = str(word_count // 200) + ' minutes'
-        reading_time_html = '0' + ' minutes'
+        word_count = len(article_html.split(' '))
+        reading_time_html = str(word_count // 200) + ' minutes'
+
+        article_html = generate_toc(article_html)
 
         html = f'''
             <!DOCTYPE html>
@@ -646,6 +710,101 @@ def gen_articles_plant_medicine_benefits():
 
         util.file_write(f'{article_filepath_out}', html)
 
+
+
+
+def gen_articles_plant_medicine():
+    articles_folderpath = 'database/articles/plants'
+    articles_filepath = []
+    for plant in plants:
+        latin_name = plant[cols['latin_name']].strip().capitalize()
+        common_name = plant[cols['common_name']].strip().title()
+        entity = latin_name.lower().replace(' ', '-')
+        article_filepath = f'{articles_folderpath}/{entity}/medicine.json'
+
+        if not os.path.exists(article_filepath): continue
+
+        article_filepath_in = article_filepath
+        article_filepath_out = article_filepath.replace(articles_folderpath, 'website').replace('.json', '.html')
+
+        data = util.json_read(article_filepath_in)
+        article_html = ''
+
+        try: title = data['title']
+        except: title = ''
+        article_html += f'<h1>{title}</h1>' + '\n'
+        article_html += f'<p><img src="/images/{entity}.jpg" alt="{latin_name}"></p>' + '\n'
+
+        try: benefits_list = data['benefits_list']
+        except: benefits_list = []
+        if benefits_list:
+            article_html += f'<h2>What are the health benefits of {latin_name} ({common_name})?</h2>' + '\n'
+            article_html += f'<p>The following list shows the <a href="/{entity}/medicine/benefits.html">health benefits of {latin_name}</a>.</p>' + '\n'
+            benefits_list_html = ''
+            benefits_list_html += '<ul>'
+            for benefit in benefits_list:
+                article_html += f'<li>{benefit}</li>'
+            benefits_list_html += '</ul>'
+            article_html += benefits_list_html
+
+        header_html = generate_header_light()
+        word_count = len(article_html.split(' '))
+        reading_time_html = str(word_count // 200) + ' minutes'
+
+        article_html = generate_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                
+                <section class="my-96">
+                    <div class="container">
+                        <div class="flex items-center justify-between mb-16">
+                            <div class="flex items-center gap-16">
+                                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                            </div>
+                            <span>{reading_time_html}</span>
+                        </div>
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        chunks = article_filepath_out.split('/')
+        chunk_curr = ''
+        for chunk in chunks[:-1]:
+            chunk_curr += chunk + '/'
+            try: os.makedirs(chunk_curr)
+            except: pass
+
+        util.file_write(f'{article_filepath_out}', html)
+
+
+
 ##############################################################################
 # STATIC FILES
 ##############################################################################
@@ -669,13 +828,14 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 # generate_articles()
-# generate_articles_plants()
+generate_articles_plants()
+gen_articles_plant_medicine()
+# gen_articles_plant_medicine_benefits()
 
 # generate_home()
 # generate_page_herbs()
 # generate_about()
 
-gen_articles_plant_medicine_benefits()
 
 # generate_page_herbalism()
 # generate_page_herbalism_tea()
