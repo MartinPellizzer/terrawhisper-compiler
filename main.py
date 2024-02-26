@@ -42,6 +42,20 @@ plants = plants[1:g.ARTICLES_NUM]
 
 
 
+def lst_to_html_bold(lst):
+    lst_html = '<ul>'
+    for item in lst:
+        item = item.split(': ')
+        item_name = f'<strong>{item[0]}</strong>'
+        item_desc = ': '.join(item[1:])
+        item = f'{item_name}: {item_desc}'
+        lst_html += f'<li>{item}</li>'
+    lst_html += '</ul>'
+    return lst_html
+
+
+
+
 ##############################################################################
 # BLOCKS
 ##############################################################################
@@ -243,25 +257,26 @@ def generate_page_herbalism_tea():
 
 
 def generate_page_herbs():
-    sections = []
     articles_folderpath = 'database/articles/plants'
-    articles_filenames = [filename for filename in os.listdir(articles_folderpath) if filename.endswith('.json')]
-    articles_filepaths = [f'{articles_folderpath}/{filename}' for filename in articles_filenames]
+    # articles_filenames = [filename for filename in os.listdir(articles_folderpath) if filename.endswith('.json')]
+    # articles_filepaths = [f'{articles_folderpath}/{filename}' for filename in articles_filenames]
     articles_html = ''
-    for filepath in articles_filepaths:
-        data = util.json_read(filepath)
+    for plant in plants:
+        latin_name = plant[cols['latin_name']].strip().capitalize()
+        entity = latin_name.lower().replace(' ', '-')
+        filepath_in = f'{articles_folderpath}/{entity}.json'
+
+        data = util.json_read(filepath_in)
         try: latin_name = data['latin_name']
         except: latin_name = ''
 
         if latin_name == '': continue
 
-        # continue
-
         latin_name_dash = latin_name.lower().replace(' ', '-')
 
         try: title = data['title']
         except: title = ''
-        print(title)
+        # print(title)
 
         if title != '':
             articles_html += f'''
@@ -443,6 +458,7 @@ def generate_articles_plants():
             continue
         latin_name = data['latin_name']
         latin_name_dash = latin_name.lower().replace(' ', '-')
+        intro = data['intro']
         medicine = data['medicine']
         horticulture = data['horticulture']
         botany = data['botany']
@@ -450,6 +466,7 @@ def generate_articles_plants():
         article_html = ''
         title_html = f'<h1>{title}</h1>'
         image_featured_html = f'<p><img src="/images/{latin_name_dash}.jpg" alt="{latin_name}"></p>'
+        intro_html = '\n'.join([f'<p>{paragraph}</p>' for paragraph in intro])
         medicine_title_html = f'<h2>What are the medicinal properties of {latin_name}?</h2>'
         medicine_image_html = f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>'
         medicine_paragraphs_html = ''.join([f'<p>{paragraph}</p>' for paragraph in medicine])
@@ -461,24 +478,25 @@ def generate_articles_plants():
         botany_image_html = f'<p><img src="/images/{latin_name_dash}-botany.jpg" alt="{latin_name} botany"></p>'
         botany_paragraphs_html = ''.join([f'<p>{paragraph}</p>' for paragraph in botany])
 
-        article_html += title_html
-        article_html += image_featured_html
-        article_html += medicine_title_html
-        article_html += medicine_image_html
-        article_html += medicine_paragraphs_html
-        article_html += medicine_link_html
-        article_html += horticulture_title_html
-        article_html += horticulture_image_html
-        article_html += horticulture_paragraphs_html
-        article_html += botany_title_html
-        article_html += botany_image_html
-        article_html += botany_paragraphs_html
+        article_html += title_html + '\n'
+        article_html += image_featured_html + '\n'
+        article_html += intro_html + '\n'
+        article_html += medicine_title_html + '\n'
+        article_html += medicine_image_html + '\n'
+        article_html += medicine_paragraphs_html + '\n'
+        article_html += medicine_link_html + '\n'
+        article_html += horticulture_title_html + '\n'
+        article_html += horticulture_image_html + '\n'
+        article_html += horticulture_paragraphs_html + '\n'
+        article_html += botany_title_html + '\n'
+        article_html += botany_image_html + '\n'
+        article_html += botany_paragraphs_html + '\n'
 
         header_html = generate_header_light()
+        word_count = len(article_html.split(' '))
+        reading_time_html = str(word_count // 200) + ' minutes'
 
-        # word_count = len(article_md.split(' '))
-        # reading_time_html = str(word_count // 200) + ' minutes'
-        reading_time_html = '0' + ' minutes'
+        article_html = generate_toc(article_html)
 
         html = f'''
             <!DOCTYPE html>
@@ -555,6 +573,134 @@ def generate_articles_plants():
         # quit()
 
 
+def gen_articles_plant_medicine():
+    articles_folderpath = 'database/articles/plants'
+    articles_filepath = []
+    for plant in plants:
+        latin_name = plant[cols['latin_name']].strip().capitalize()
+        common_name = plant[cols['common_name']].strip().title()
+        entity = latin_name.lower().replace(' ', '-')
+        article_filepath = f'{articles_folderpath}/{entity}/medicine.json'
+
+        if not os.path.exists(article_filepath): continue
+
+        article_filepath_in = article_filepath
+        article_filepath_out = article_filepath.replace(articles_folderpath, 'website').replace('.json', '.html')
+
+        data = util.json_read(article_filepath_in)
+        article_html = ''
+
+        try: title = data['title']
+        except: title = ''
+        article_html += f'<h1>{title}</h1>' + '\n'
+        article_html += f'<p><img src="/images/{entity}.jpg" alt="{latin_name}"></p>' + '\n'
+
+        try: intro = data['intro']
+        except: intro = ''
+        intro_html = '\n'.join([f'<p>{paragraph}</p>' for paragraph in intro]) + '\n'
+        intro_html_start = intro_html.split('. ')[0]
+        intro_html_mid = '. '.join(intro_html.split('. ')[1: -1])
+        intro_html_end = intro_html.split('. ')[-1]
+        article_html += f'<p>{intro_html_start}.</p>' + '\n'
+        article_html += f'<p>{intro_html_mid}.</p>' + '\n'
+        article_html += f'<p>{intro_html_end}</p>' + '\n'
+
+        try: benefits_list = data['benefits_list']
+        except: benefits_list = []
+        if benefits_list:
+            article_html += f'<h2>What are the health benefits of {latin_name} ({common_name})?</h2>' + '\n'
+            article_html += f'<p>The following list shows the <a href="/{entity}/medicine/benefits.html">health benefits of {latin_name}</a>.</p>' + '\n'
+            benefits_list_html = lst_to_html_bold(benefits_list)
+            article_html += benefits_list_html + '\n'
+
+        try: constituents_list = data['constituents_list']
+        except: constituents_list = []
+        if constituents_list:
+            article_html += f'<h2>What are the active constituents of {latin_name} ({common_name})?</h2>' + '\n'
+            article_html += f'<p>The following list shows the active constituents of {latin_name}.</p>' + '\n'
+            constituents_list_html = lst_to_html_bold(constituents_list)
+            article_html += constituents_list_html + '\n'
+
+        try: preparations_list = data['preparations_list']
+        except: preparations_list = []
+        if preparations_list:
+            article_html += f'<h2>What are the medicinal preparations of {latin_name} ({common_name})?</h2>' + '\n'
+            article_html += f'<p>The following list shows the medicinal preparations of {latin_name}.</p>' + '\n'
+            preparations_list_html = lst_to_html_bold(preparations_list)
+            article_html += preparations_list_html + '\n'
+
+        try: side_effects_list = data['side_effects_list']
+        except: side_effects_list = []
+        if side_effects_list:
+            article_html += f'<h2>What are the possible side effects of using {latin_name} ({common_name}) for medicinal purposes?</h2>' + '\n'
+            article_html += f'<p>The following list shows the possible side effects of {latin_name} for medicinal purposes.</p>' + '\n'
+            side_effects_list_html = lst_to_html_bold(side_effects_list)
+            article_html += side_effects_list_html + '\n'
+
+        try: precautions_list = data['precautions_list']
+        except: precautions_list = []
+        if precautions_list:
+            article_html += f'<h2>What are the precautions to take when using {latin_name} ({common_name}) medicinally?</h2>' + '\n'
+            article_html += f'<p>The following list shows the precautions to take when using {latin_name} medicinally.</p>' + '\n'
+            precautions_list_html = lst_to_html_bold(precautions_list)
+            article_html += precautions_list_html + '\n'
+        
+        header_html = generate_header_light()
+        word_count = len(article_html.split(' '))
+        reading_time_html = str(word_count // 200) + ' minutes'
+
+        article_html = generate_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                
+                <section class="my-96">
+                    <div class="container">
+                        <div class="flex items-center justify-between mb-16">
+                            <div class="flex items-center gap-16">
+                                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                            </div>
+                            <span>{reading_time_html}</span>
+                        </div>
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        chunks = article_filepath_out.split('/')
+        chunk_curr = ''
+        for chunk in chunks[:-1]:
+            chunk_curr += chunk + '/'
+            try: os.makedirs(chunk_curr)
+            except: pass
+
+        util.file_write(f'{article_filepath_out}', html)
+
 
 def gen_articles_plant_medicine_benefits():
     articles_folderpath = 'database/articles/plants'
@@ -599,6 +745,9 @@ def gen_articles_plant_medicine_benefits():
             if definition != '': article_html += f'<p>{definition}</p>' + '\n'
             else: print(f'MISSING DEFINITION: {article_filepath_in} >> {benefit_name}')
 
+            constituents_list_intro_html = f'<p>{latin_name} {benefit_name.lower()} thanks to the active constituents listed below.</p>'
+            article_html += constituents_list_intro_html + '\n'
+
             try: constituents = benefit['constituents']
             except: constituents = []
             constituents_list_html = ''
@@ -629,6 +778,9 @@ def gen_articles_plant_medicine_benefits():
                     img.thumbnail((768, 768), Image.Resampling.LANCZOS)
                     img.save(image_filepath_out, format='JPEG', optimize=True, quality=50)
                 article_html += f'<p><img src="/images/{entity}-medicine-{benefit_name_dash}.jpg" alt="{latin_name} medicine {benefit_name.lower()}"></p>' + '\n'
+
+            conditions_list_intro_html = f'<p>The following list shows some health problems that can be relieved by {latin_name} thanks to the fact that it {benefit_name.lower()}.</p>'
+            article_html += conditions_list_intro_html + '\n'
 
             try: conditions = benefit['conditions']
             except: conditions = []
@@ -711,100 +863,6 @@ def gen_articles_plant_medicine_benefits():
         util.file_write(f'{article_filepath_out}', html)
 
 
-
-
-def gen_articles_plant_medicine():
-    articles_folderpath = 'database/articles/plants'
-    articles_filepath = []
-    for plant in plants:
-        latin_name = plant[cols['latin_name']].strip().capitalize()
-        common_name = plant[cols['common_name']].strip().title()
-        entity = latin_name.lower().replace(' ', '-')
-        article_filepath = f'{articles_folderpath}/{entity}/medicine.json'
-
-        if not os.path.exists(article_filepath): continue
-
-        article_filepath_in = article_filepath
-        article_filepath_out = article_filepath.replace(articles_folderpath, 'website').replace('.json', '.html')
-
-        data = util.json_read(article_filepath_in)
-        article_html = ''
-
-        try: title = data['title']
-        except: title = ''
-        article_html += f'<h1>{title}</h1>' + '\n'
-        article_html += f'<p><img src="/images/{entity}.jpg" alt="{latin_name}"></p>' + '\n'
-
-        try: benefits_list = data['benefits_list']
-        except: benefits_list = []
-        if benefits_list:
-            article_html += f'<h2>What are the health benefits of {latin_name} ({common_name})?</h2>' + '\n'
-            article_html += f'<p>The following list shows the <a href="/{entity}/medicine/benefits.html">health benefits of {latin_name}</a>.</p>' + '\n'
-            benefits_list_html = ''
-            benefits_list_html += '<ul>'
-            for benefit in benefits_list:
-                article_html += f'<li>{benefit}</li>'
-            benefits_list_html += '</ul>'
-            article_html += benefits_list_html
-
-        header_html = generate_header_light()
-        word_count = len(article_html.split(' '))
-        reading_time_html = str(word_count // 200) + ' minutes'
-
-        article_html = generate_toc(article_html)
-
-        html = f'''
-            <!DOCTYPE html>
-            <html lang="en">
-
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{AUTHOR_NAME}">
-                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-                <link rel="stylesheet" href="/style.css">
-                <title>{title}</title>
-                {GOOGLE_TAG}
-                
-            </head>
-
-            <body>
-                {header_html}
-                
-                <section class="my-96">
-                    <div class="container">
-                        <div class="flex items-center justify-between mb-16">
-                            <div class="flex items-center gap-16">
-                                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
-                            </div>
-                            <span>{reading_time_html}</span>
-                        </div>
-                        {article_html}
-                    </div>
-                </section>
-
-                <footer>
-                    <div class="container-lg">
-                        <span>© TerraWhisper.com 2024 | All Rights Reserved
-                    </div>
-                </footer>
-            </body>
-
-            </html>
-        '''
-
-        chunks = article_filepath_out.split('/')
-        chunk_curr = ''
-        for chunk in chunks[:-1]:
-            chunk_curr += chunk + '/'
-            try: os.makedirs(chunk_curr)
-            except: pass
-
-        util.file_write(f'{article_filepath_out}', html)
-
-
-
 ##############################################################################
 # STATIC FILES
 ##############################################################################
@@ -828,12 +886,12 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 # generate_articles()
-generate_articles_plants()
-gen_articles_plant_medicine()
+# generate_articles_plants()
+# gen_articles_plant_medicine()
 # gen_articles_plant_medicine_benefits()
 
 # generate_home()
-# generate_page_herbs()
+generate_page_herbs()
 # generate_about()
 
 

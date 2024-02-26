@@ -35,6 +35,15 @@ for i, item in enumerate(plants[0]):
 plants = plants[1:g.ARTICLES_NUM]
 
 
+def folder_create(filepath):
+    chunks = filepath.split('/')
+    chunk_curr = ''
+    for chunk in chunks[:-1]:
+        chunk_curr += chunk + '/'
+        try: os.makedirs(f'{chunk_curr}')
+        except: pass
+
+
 def gen_reply(prompt):
     print()
     print("Q:")
@@ -922,19 +931,161 @@ def ai_gen_medicine_benefits_conditions_text_section():
 
 
 #######################################################################
+# ROOT
+#######################################################################
+
+def ai_entity_intro(filepath):
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    intro = []
+    try: intro = data['intro']
+    except: data['intro'] = []
+
+    if intro != []: return
+    running = True
+
+    prompt = f'''
+        Write a 5-sentence paragraph about {latin_name} ({common_name}).
+
+        In sentence 1, write the medicinal aspects.
+        In sentence 2, write the horticulture aspects.
+        In sentence 3, write the botanical aspects.
+        In sentence 4, write the geographical aspects.
+        In sentence 5, write the historical aspects.
+    '''     
+    prompt = prompt_normalize(prompt)
+    reply = gen_reply(prompt)
+
+    reply = reply.strip()
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if line[0].isdigit():
+            line = line.split('. ')[1].strip()
+            if line == '': continue
+        if ":" in line:
+            line = line.split(':')[1].strip()
+            if line == '': continue
+        reply_formatted.append(line)
+
+    if reply_formatted != '':
+        for paragraph in reply_formatted:
+            print('***************************************')
+            print(paragraph)
+            print('***************************************')
+
+        data['intro'] = reply_formatted
+        util.json_write(filepath, data)
+
+
+def ai_entity():
+    running = False
+
+    for index, plant in enumerate(plants):
+        print(index, '-', len(plants))
+
+        latin_name = plant[cols['latin_name']].strip().capitalize()
+        common_name = plant[cols['common_name']].strip().title()
+
+        entity = latin_name.lower().replace(' ', '-')
+        url = f'{entity}'
+
+        filepath = f'database/articles/plants/{url}.json'
+        folder_create(filepath)
+
+        # INIT
+        data = util.json_read(filepath)
+        if not data:
+            data = {
+                'entity': entity,
+                'url': url,
+                'latin_name': latin_name,
+                'common_name': common_name,
+                'title': f'{latin_name} ({common_name})',
+            }
+            print(f'creating new file: {filepath}')
+        util.json_write(filepath, data)
+
+        # INTRO
+        ai_entity_medicine_intro(filepath)
+
+        # BENEFITS
+        # ai_entity_medicine_benefits(filepath)
+
+        # CONSTITUENTS
+        # ai_entity_medicine_constituents(filepath)
+
+        # PREPARATIONS
+        # ai_entity_medicine_preparations(filepath)
+
+        # SIDE EFFECTS
+        # ai_entity_medicine_side_effects(filepath)
+
+        # PRECAUTIONS
+        # ai_entity_medicine_precautions(filepath)
+
+    return running
+
+
+
+
+
+#######################################################################
 # ROOT >> MEDICINE
 #######################################################################
 
-def folder_create(filepath):
-    chunks = filepath.split('/')
-    chunk_curr = ''
-    for chunk in chunks[:-1]:
-        chunk_curr += chunk + '/'
-        try: os.makedirs(f'{chunk_curr}')
-        except: pass
+def ai_entity_medicine_intro(filepath):
+    running = False
 
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
 
+    intro = []
+    try: intro = data['intro']
+    except: data['intro'] = []
 
+    if intro != []: return
+    running = True
+
+    prompt = f'''
+        Write a 5-sentence paragraph about the medicinal aspects of {latin_name} ({common_name}).
+
+        In sentence 1, write the benefits.
+        In sentence 2, write the constituents.
+        In sentence 3, write the preparations.
+        In sentence 4, write the side effects.
+        In sentence 5, write the precautions.
+    '''     
+    prompt = prompt_normalize(prompt)
+    reply = gen_reply(prompt)
+
+    reply = reply.strip()
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if line[0].isdigit():
+            line = line.split('. ')[1].strip()
+            if line == '': continue
+        if ":" in line:
+            line = line.split(':')[1].strip()
+            if line == '': continue
+        reply_formatted.append(line)
+
+    if reply_formatted != '':
+        for paragraph in reply_formatted:
+            print('***************************************')
+            print(paragraph)
+            print('***************************************')
+
+        data['intro'] = reply_formatted
+        util.json_write(filepath, data)
+
+    return running
 
 
 def ai_entity_medicine_benefits(filepath):
@@ -1056,6 +1207,86 @@ def ai_entity_medicine_preparations(filepath):
         util.json_write(filepath, data)
 
 
+def ai_entity_medicine_side_effects(filepath):
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    side_effects_list = []
+    try: side_effects_list = data['side_effects_list']
+    except: data['side_effects_list'] = []
+
+    if side_effects_list != []: return
+    running = True
+
+    prompt_paragraphs_num = 10
+    prompt = f'''
+        Write a numbered list of the {prompt_paragraphs_num} possible side effects of using {latin_name} ({common_name}) for medicinal purposes.
+        Add descriptions to the side effects.
+    '''     
+    prompt = prompt_normalize(prompt)
+    reply = gen_reply(prompt)
+
+    reply = reply.strip()
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if ':' not in line: continue
+        if line[0].isdigit():
+            line = '. '.join(line.split('. ')[1:]).strip()
+            if line == '': continue
+            reply_formatted.append(line)
+
+    if prompt_paragraphs_num == len(reply_formatted):
+        for paragraph in reply_formatted:
+            print('***************************************')
+            print(paragraph)
+            print('***************************************')
+        data['side_effects_list'] = reply_formatted
+        util.json_write(filepath, data)
+
+
+def ai_entity_medicine_precautions(filepath):
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    precautions_list = []
+    try: precautions_list = data['precautions_list']
+    except: data['precautions_list'] = []
+
+    if precautions_list != []: return
+    running = True
+
+    prompt_paragraphs_num = 10
+    prompt = f'''
+        Write a numbered list of the {prompt_paragraphs_num} precautions to take when of using {latin_name} ({common_name}) for medicinal purposes.
+        Include the names of the precautions and add descriptions.
+    '''     
+    prompt = prompt_normalize(prompt)
+    reply = gen_reply(prompt)
+
+    reply = reply.strip()
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if ':' not in line: continue
+        if line[0].isdigit():
+            line = '. '.join(line.split('. ')[1:]).strip()
+            if line == '': continue
+            reply_formatted.append(line)
+
+    if prompt_paragraphs_num == len(reply_formatted):
+        for paragraph in reply_formatted:
+            print('***************************************')
+            print(paragraph)
+            print('***************************************')
+        data['precautions_list'] = reply_formatted
+        util.json_write(filepath, data)
+
+
 def ai_entity_medicine():
     running = False
 
@@ -1084,6 +1315,9 @@ def ai_entity_medicine():
             print(f'creating new file: {filepath}')
         util.json_write(filepath, data)
 
+        # INTRO
+        running = ai_entity_medicine_intro(filepath)
+
         # BENEFITS
         # ai_entity_medicine_benefits(filepath)
 
@@ -1091,7 +1325,13 @@ def ai_entity_medicine():
         # ai_entity_medicine_constituents(filepath)
 
         # PREPARATIONS
-        ai_entity_medicine_preparations(filepath)
+        # ai_entity_medicine_preparations(filepath)
+
+        # SIDE EFFECTS
+        # ai_entity_medicine_side_effects(filepath)
+
+        # PRECAUTIONS
+        # ai_entity_medicine_precautions(filepath)
 
     return running
 
@@ -1130,9 +1370,11 @@ def ai_gen_basic():
 
 running = True
 while running:
-    # ai_gen_medicine_benefits_definition_section()
+    # running = ai_gen_medicine_benefits_definition_section()
     # running = ai_gen_medicine_benefits_constituents_section()
     # running = ai_gen_medicine_benefits_constituents_text_section()
     # running = ai_gen_medicine_benefits_conditions_section()
     # running = ai_gen_medicine_benefits_conditions_text_section()
+
     running = ai_entity_medicine()
+    running = ai_entity()
