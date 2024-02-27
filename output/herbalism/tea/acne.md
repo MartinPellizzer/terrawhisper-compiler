@@ -1,9 +1,9 @@
 ---
-title: 15 Best Herbal Teas For Acne
+title: 11 Best Herbal Teas For Acne
 ---
 
 
-# 15 Best Herbal Teas For Acne
+# 11 Best Herbal Teas For Acne
 
 ![Herbal Tea For Acne](/images/herbal-tea-for-acne.jpg)
 

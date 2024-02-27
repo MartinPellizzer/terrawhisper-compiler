@@ -1,9 +1,9 @@
 ---
-title: 15 Best Herbal Teas For Cough
+title: 11 Best Herbal Teas For Cough
 ---
 
 
-# 15 Best Herbal Teas For Cough
+# 11 Best Herbal Teas For Cough
 
 ![Herbal Tea For Cough](/images/herbal-tea-for-cough.jpg)
 

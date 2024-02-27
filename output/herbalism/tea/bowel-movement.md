@@ -1,9 +1,9 @@
 ---
-title: 15 Best Herbal Teas For Bowel Movement
+title: 13 Best Herbal Teas For Bowel Movement
 ---
 
 
-# 15 Best Herbal Teas For Bowel Movement
+# 13 Best Herbal Teas For Bowel Movement
 
 ![Herbal Tea For Bowel Movement](/images/herbal-tea-for-bowel-movement.jpg)
 

@@ -19,6 +19,9 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
 
+ARTICLES_NUM = 12
+
+
 
 driver = webdriver.Firefox()
 driver.get("https://www.pinterest.com/login/")
@@ -43,14 +46,13 @@ time.sleep(10)
 
 
 # GET RANDOM ARTICLES TO PIN
-articles_num = 10
 articles_filename = os.listdir('database/articles/herbalism/tea')
 articles_filepath = [
     f'database/articles/herbalism/tea/{article_filename}'
     for article_filename in articles_filename
 ]    
 random.shuffle(articles_filepath)
-articles_filepath = articles_filepath[:articles_num]
+articles_filepath = articles_filepath[:ARTICLES_NUM]
 
 # START PINNING
 for article_filepath in articles_filepath:

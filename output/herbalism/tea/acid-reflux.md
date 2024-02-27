@@ -1,9 +1,9 @@
 ---
-title: 13 Best Herbal Teas For Acid Reflux
+title: 15 Best Herbal Teas For Acid Reflux
 ---
 
 
-# 13 Best Herbal Teas For Acid Reflux
+# 15 Best Herbal Teas For Acid Reflux
 
 ![Herbal Tea For Acid Reflux](/images/herbal-tea-for-acid-reflux.jpg)
 

@@ -1,9 +1,9 @@
 ---
-title: 13 Best Herbal Teas For Pregnancy
+title: 11 Best Herbal Teas For Pregnancy
 ---
 
 
-# 13 Best Herbal Teas For Pregnancy
+# 11 Best Herbal Teas For Pregnancy
 
 ![Herbal Tea For Pregnancy](/images/herbal-tea-for-pregnancy.jpg)
 

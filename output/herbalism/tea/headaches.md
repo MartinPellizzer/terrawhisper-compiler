@@ -1,9 +1,9 @@
 ---
-title: 11 Best Herbal Teas For Headaches
+title: 15 Best Herbal Teas For Headaches
 ---
 
 
-# 11 Best Herbal Teas For Headaches
+# 15 Best Herbal Teas For Headaches
 
 ![Herbal Tea For Headaches](/images/herbal-tea-for-headaches.jpg)
 

@@ -258,8 +258,6 @@ def generate_page_herbalism_tea():
 
 def generate_page_herbs():
     articles_folderpath = 'database/articles/plants'
-    # articles_filenames = [filename for filename in os.listdir(articles_folderpath) if filename.endswith('.json')]
-    # articles_filepaths = [f'{articles_folderpath}/{filename}' for filename in articles_filenames]
     articles_html = ''
     for plant in plants:
         latin_name = plant[cols['latin_name']].strip().capitalize()
@@ -276,7 +274,6 @@ def generate_page_herbs():
 
         try: title = data['title']
         except: title = ''
-        # print(title)
 
         if title != '':
             articles_html += f'''
@@ -288,15 +285,11 @@ def generate_page_herbs():
                 </a>
             '''
 
-
-
-
-
     page_url = 'herbs'
 
     header = generate_header_light()
 
-    page_html = util.file_read(f'static/{page_url}.html')
+    page_html = util.file_read(f'templates/{page_url}.html')
 
     page_html = page_html.replace('[meta_title]', 'Herbs')
     page_html = page_html.replace('[google_tag]', GOOGLE_TAG)
@@ -886,13 +879,13 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 # generate_articles()
-# generate_articles_plants()
+generate_articles_plants()
 # gen_articles_plant_medicine()
 # gen_articles_plant_medicine_benefits()
 
-# generate_home()
+generate_home()
 generate_page_herbs()
-# generate_about()
+generate_about()
 
 
 # generate_page_herbalism()

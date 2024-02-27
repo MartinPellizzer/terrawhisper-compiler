@@ -1,9 +1,9 @@
 ---
-title: 13 Best Herbal Teas For Sore Throat
+title: 11 Best Herbal Teas For Sore Throat
 ---
 
 
-# 13 Best Herbal Teas For Sore Throat
+# 11 Best Herbal Teas For Sore Throat
 
 ![Herbal Tea For Sore Throat](/images/herbal-tea-for-sore-throat.jpg)
 

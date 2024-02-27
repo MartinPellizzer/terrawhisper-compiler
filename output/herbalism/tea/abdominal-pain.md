@@ -1,9 +1,9 @@
 ---
-title: 13 Best Herbal Teas For Abdominal Pain
+title: 15 Best Herbal Teas For Abdominal Pain
 ---
 
 
-# 13 Best Herbal Teas For Abdominal Pain
+# 15 Best Herbal Teas For Abdominal Pain
 
 ![Herbal Tea For Abdominal Pain](/images/herbal-tea-for-abdominal-pain.jpg)
 

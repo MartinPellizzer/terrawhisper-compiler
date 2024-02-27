@@ -1,9 +1,9 @@
 ---
-title: 13 Best Herbal Teas For Colds
+title: 11 Best Herbal Teas For Colds
 ---
 
 
-# 13 Best Herbal Teas For Colds
+# 11 Best Herbal Teas For Colds
 
 ![Herbal Tea For Colds](/images/herbal-tea-for-colds.jpg)
 
@@ -152,28 +152,4 @@ Finally, its pleasant taste makes it an enjoyable beverage to drink regularly, w
 The following image shows a cup of schisandra tea for colds.
 
 ![Schisandra Tea For Colds](/images/schisandra-tea-for-colds.jpg)
-
-## 12. Elderberry Tea (Sambucus Nigra)
-
-Elderberry tea is believed to help with colds because it contains compounds that may reduce inflammation and support the immune system.
-
-It is thought to work by boosting production of white blood cells, which fight off infections. Additionally, elderberries are rich in vitamins and antioxidants, which can also help protect against illness. While many people find elderberry tea helpful for colds, it's important to remember that there is no scientific evidence to support its effectiveness.
-
-As with any herbal remedy or beverage, those experiencing cold symptoms should speak with their healthcare provider before drinking elderberry tea.
-
-The following image shows a cup of elderberry tea for colds.
-
-![Elderberry Tea For Colds](/images/elderberry-tea-for-colds.jpg)
-
-## 13. Turmeric Tea (Curcuma Longa)
-
-Turmeric, also known as Curcuma longa, has been used for centuries in traditional medicine to treat various ailments.
-
-One of its most well-known benefits is its ability to fight inflammation. This property makes it an excellent remedy for colds, which are caused by viruses that inflame the respiratory system. The anti-inflammatory effects of turmeric help reduce congestion, sore throats, and other symptoms associated with a cold.
-
-Additionally, turmeric is known to boost the immune system, helping your body fight off infections more effectively.
-
-The following image shows a cup of turmeric tea for colds.
-
-![Turmeric Tea For Colds](/images/turmeric-tea-for-colds.jpg)
 

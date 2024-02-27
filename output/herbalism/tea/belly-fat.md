@@ -1,9 +1,9 @@
 ---
-title: 15 Best Herbal Teas For Belly Fat
+title: 13 Best Herbal Teas For Belly Fat
 ---
 
 
-# 15 Best Herbal Teas For Belly Fat
+# 13 Best Herbal Teas For Belly Fat
 
 ![Herbal Tea For Belly Fat](/images/herbal-tea-for-belly-fat.jpg)
 

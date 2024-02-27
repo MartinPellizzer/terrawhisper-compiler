@@ -1,9 +1,9 @@
 ---
-title: 11 Best Herbal Teas For Upset Stomach
+title: 13 Best Herbal Teas For Upset Stomach
 ---
 
 
-# 11 Best Herbal Teas For Upset Stomach
+# 13 Best Herbal Teas For Upset Stomach
 
 ![Herbal Tea For Upset Stomach](/images/herbal-tea-for-upset-stomach.jpg)
 

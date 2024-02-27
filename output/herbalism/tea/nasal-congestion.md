@@ -1,9 +1,9 @@
 ---
-title: 13 Best Herbal Teas For Nasal Congestion
+title: 11 Best Herbal Teas For Nasal Congestion
 ---
 
 
-# 13 Best Herbal Teas For Nasal Congestion
+# 11 Best Herbal Teas For Nasal Congestion
 
 ![Herbal Tea For Nasal Congestion](/images/herbal-tea-for-nasal-congestion.jpg)
 
@@ -152,28 +152,4 @@ Overall, hibiscus tea is a natural remedy for nasal congestion, thanks to its an
 The following image shows a cup of hibiscus tea for nasal congestion.
 
 ![Hibiscus Tea For Nasal Congestion](/images/hibiscus-tea-for-nasal-congestion.jpg)
-
-## 12. Valerian Tea (Valeriana Officinalis)
-
-Valerian tea is believed to help with nasal congestion because of its anti-inflammatory and decongestant properties.
-
-It contains compounds that can reduce inflammation in the nasal passages, which helps relieve stuffiness and blockage. Additionally, valerian tea has natural antimicrobial properties that can help clear out bacteria and viruses that may be contributing to congestion. The tea's mild sedative effects can also help promote relaxation, which can improve breathing and alleviate other symptoms of nasal congestion.
-
-Overall, valerian tea is a gentle, natural remedy for nasal congestion that many people find effective.
-
-The following image shows a cup of valerian tea for nasal congestion.
-
-![Valerian Tea For Nasal Congestion](/images/valerian-tea-for-nasal-congestion.jpg)
-
-## 13. Thyme Tea (Thymus Vulgaris)
-
-Thyme tea is known for its aromatic compounds, which help to soothe and decongest the nasal passages.
-
-The menthol present in thyme helps to dissolve mucus and relieve congestion by stimulating blood flow to the nasal cavity. Additionally, the antibacterial properties of thyme tea can help to fight off viral or bacterial infections that may be causing nasal congestion. Drinking warm thyme tea can also help to soothe a sore throat and reduce coughing, further alleviating symptoms of nasal congestion.
-
-Overall, thyme tea is a natural remedy that can provide relief from nasal congestion by promoting healthy nasal function and reducing inflammation.
-
-The following image shows a cup of thyme tea for nasal congestion.
-
-![Thyme Tea For Nasal Congestion](/images/thyme-tea-for-nasal-congestion.jpg)
 

@@ -1,9 +1,9 @@
 ---
-title: 11 Best Herbal Teas For Constipation
+title: 13 Best Herbal Teas For Constipation
 ---
 
 
-# 11 Best Herbal Teas For Constipation
+# 13 Best Herbal Teas For Constipation
 
 ![Herbal Tea For Constipation](/images/herbal-tea-for-constipation.jpg)
 
