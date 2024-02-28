@@ -729,7 +729,7 @@ def gen_articles_plant_medicine_benefits():
             images_filepath = [f'{images_plant_foldername}/{filename}' for filename in images_plant_filename]
 
         for i, benefit in enumerate(benefits[:10]):
-            benefit_name = benefit['benefit'].strip()
+            benefit_name = benefit['name'].strip()
             benefit_name_dash = benefit_name.lower().replace(' ' , '-')
             article_html += f'<h2>{i+1}. {benefit_name}</h2>' + '\n'
 
@@ -878,8 +878,8 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 
-# generate_articles()
-generate_articles_plants()
+generate_articles()
+# generate_articles_plants()
 # gen_articles_plant_medicine()
 # gen_articles_plant_medicine_benefits()
 

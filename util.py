@@ -15,6 +15,25 @@ def csv_get_rows(filepath, delimiter='\\'):
             rows.append(line)
     return rows
 
+def csv_add_rows(filepath, rows, delimiter='\\'):
+    with open(filepath, 'a', encoding='utf-8', errors='ignore', newline='') as f:
+        writer = csv.writer(f, delimiter=delimiter)
+        writer.writerows(rows)
+
+def csv_set_rows(filepath, rows, delimiter='\\'):
+    with open(filepath, 'w', encoding='utf-8', errors='ignore', newline='') as f:
+        writer = csv.writer(f, delimiter=delimiter)
+        writer.writerows(rows)
+        
+
+def csv_get_rows_by_entity(filepath, entity, delimiter='\\'):
+    rows = []
+    with open(filepath, encoding='utf-8', errors='ignore') as f:
+        reader = csv.reader(f, delimiter=delimiter)
+        for i, line in enumerate(reader):
+            if line[0].lower().strip() == entity.lower().strip():
+                rows.append(line)
+    return rows
 
 def folder_create(path):
     if not os.path.exists(path): os.makedirs(path)
