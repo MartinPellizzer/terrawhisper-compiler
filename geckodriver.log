@@ -11715,3 +11715,83 @@ i@https://s.pinimg.com/webapp/www/_client-ffcfc022d5604d38.mjs:38:91236
 
 Exiting due to channel error.
 Exiting due to channel error.
+1709228910606	geckodriver	INFO	Listening on 127.0.0.1:53515
+1709228913718	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53516" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile8K5jd7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709228914625	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709228914818	Marionette	INFO	Listening on port 53523
+Read port: 53523
+WebDriver BiDi listening on ws://127.0.0.1:53516
+1709228915090	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53516/devtools/browser/8023cba4-d97b-4fb8-93a6-4596b3f04982
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1709228945032	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21714
+t@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21589
+
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21714
+t@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21589
+
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21714
+t@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21589
+
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21714
+t@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21589
+
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21714
+t@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21589
+
+JavaScript warning: https://s.pinimg.com/webapp/90123-874c343d19813c00.mjs, line 1: Script terminated by timeout at:
+c@https://s.pinimg.com/webapp/90123-874c343d19813c00.mjs:1:4551
+433780/h/d</<@https://s.pinimg.com/webapp/90123-874c343d19813c00.mjs:1:7584
+507651/tS/</<@https://s.pinimg.com/webapp/www/_client-ffcfc022d5604d38.mjs:38:371925
+567450/i/<@https://s.pinimg.com/webapp/www/_client-ffcfc022d5604d38.mjs:38:91248
+i@https://s.pinimg.com/webapp/www/_client-ffcfc022d5604d38.mjs:38:91236
+567450/</<@https://s.pinimg.com/webapp/www/_client-ffcfc022d5604d38.mjs:38:91631
+
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+198462/Z/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:11270
+
+JavaScript warning: https://s.pinimg.com/webapp/90123-874c343d19813c00.mjs, line 1: Script terminated by timeout at:
+c@https://s.pinimg.com/webapp/90123-874c343d19813c00.mjs:1:4551
+433780/h/d</<@https://s.pinimg.com/webapp/90123-874c343d19813c00.mjs:1:7584
+507651/tS/</<@https://s.pinimg.com/webapp/www/_client-0db72a8f133befd9.mjs:38:373854
+567450/s/<@https://s.pinimg.com/webapp/www/_client-0db72a8f133befd9.mjs:38:91248
+s@https://s.pinimg.com/webapp/www/_client-0db72a8f133befd9.mjs:38:91236
+567450/</<@https://s.pinimg.com/webapp/www/_client-0db72a8f133befd9.mjs:38:91631
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://s.pinimg.com/webapp/17492-67afebc66f63f8d8.mjs, line 9: NetworkError: A network error occurred.
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21714
+t@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21589
+
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs, line 25: Script terminated by timeout at:
+o@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:82426
+364448/lV/n<@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:99812
+lV@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:106183
+lU@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:99131
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:98945
+lC@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:93984
+R@https://s.pinimg.com/webapp/www/_client-0db72a8f133befd9.mjs:9:1365
+N@https://s.pinimg.com/webapp/www/_client-0db72a8f133befd9.mjs:9:1894
+
+1709247756086	Marionette	INFO	Stopped listening on port 53523
+Dynamically enable window occlusion 1
