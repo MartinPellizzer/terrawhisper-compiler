@@ -111,6 +111,40 @@ def text_format_131(text):
     text_formatted = text_formatted.replace('..', '.')
     return text_formatted
 
+    
+def text_format_131_html(text):
+    text_formatted = ''
+    lines = text.split('. ')
+    line_0 = lines[0]
+    line_1 = '. '.join(lines[1:-1])
+    line_2 = lines[-1]
+    text_formatted += f'<p>{line_0}.</p>' + '\n'
+    text_formatted += f'<p>{line_1}.</p>' + '\n'
+    text_formatted += f'<p>{line_2}.</p>' + '\n'
+    text_formatted = text_formatted.replace('..', '.')
+    return text_formatted
+
+
+
+
+    
+def text_format_1N1_html(text):
+    text_formatted = ''
+    lines = text.split('. ')
+    lines_num = len(lines[1:-1])
+    paragraphs = []
+    paragraphs.append(lines[0])
+    if lines_num > 3: 
+        paragraphs.append('. '.join(lines[1:lines_num//2+1]))
+        paragraphs.append('. '.join(lines[lines_num//2+1:-1]))
+    else:
+        paragraphs.append('. '.join(lines[1:-1]))
+    paragraphs.append(lines[-1])
+    for paragraph in paragraphs:
+        text_formatted += f'<p>{paragraph}.</p>' + '\n'
+    text_formatted = text_formatted.replace('..', '.')
+    return text_formatted
+
 
 
 
@@ -127,6 +161,15 @@ def get_scientific_name(common_name, delimiter='\\'):
         if row[1].lower().strip().replace(' ', '-') == common_name.lower().strip().replace(' ', '-')]
     scientific_name = rows[0][0].replace('-', ' ')
     return scientific_name
+    
+def get_common_name(entity, delimiter='\\'):
+    rows = csv_get_rows('plants.csv', delimiter=delimiter)
+    rows = [
+        row 
+        for row in rows 
+        if row[0].lower().strip().replace(' ', '-') == entity.lower().strip().replace(' ', '-')]
+    name = rows[0][1].replace('-', ' ')
+    return name
 
 
 

@@ -19,12 +19,13 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
 
-ARTICLES_NUM = 13
+ARTICLES_NUM = 16
 
 
 
 driver = webdriver.Firefox()
 driver.get("https://www.pinterest.com/login/")
+driver.maximize_window()
 time.sleep(3)
 
 e = driver.find_element(By.XPATH, '//input[@id="email"]')
@@ -66,7 +67,10 @@ for article_filepath in articles_filepath:
     remedies = data['remedies']
 
     filename_out = url.replace('/', '-')
-    remedies_intros = [remedy['intro'] for remedy in remedies]
+    remedies_descriptions = []
+    for remedy in remedies:
+        try: remedies_descriptions.append(remedy['remedy_desc'])
+        except: pass
 
     # GET ALL IMAGE IN IMAGES/TEA FOLDER
     start_folder = 'C:/terrawhisper-assets/images/tea'
@@ -91,8 +95,11 @@ for article_filepath in articles_filepath:
     )
 
     # GET RANDOM DESCRIPTION
-    random.shuffle(remedies_intros)
-    description = remedies_intros[0][:490] + '...'
+    if remedies_descriptions:
+        random.shuffle(remedies_descriptions)
+        description = remedies_descriptions[0][:490] + '...'
+    else:
+        description = ''
 
     # LOG
     print(article_filepath)

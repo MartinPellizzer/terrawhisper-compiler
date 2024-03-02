@@ -11795,3 +11795,103 @@ N@https://s.pinimg.com/webapp/www/_client-0db72a8f133befd9.mjs:9:1894
 
 1709247756086	Marionette	INFO	Stopped listening on port 53523
 Dynamically enable window occlusion 1
+1709314801910	geckodriver	INFO	Listening on 127.0.0.1:52630
+1709314804942	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52631" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileWJoUCi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709314805480	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709314805579	Marionette	INFO	Listening on port 52644
+Read port: 52644
+WebDriver BiDi listening on ws://127.0.0.1:52631
+1709314805773	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52631/devtools/browser/d1bdc00d-7122-4b82-9bc1-26f6e915bc8c
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1709314835521	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs, line 38: Script terminated by timeout at:
+a@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:35353
+flushEvents@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:15191
+flushContextEvents@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:16939
+507651/tS/</<@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:375350
+567450/i/<@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:91248
+i@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:91236
+567450/</<@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:91631
+
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21714
+t@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21589
+
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21714
+t@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21589
+
+JavaScript warning: https://s.pinimg.com/webapp/90123-874c343d19813c00.mjs, line 1: Script terminated by timeout at:
+433780/p/<@https://s.pinimg.com/webapp/90123-874c343d19813c00.mjs:1:4601
+
+JavaScript warning: https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs, line 38: Script terminated by timeout at:
+i@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:91236
+567450/</<@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:91631
+
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21714
+t@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21589
+
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+i@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:25695
+45528/Q/</<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:26277
+t@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21589
+
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs, line 25: Script terminated by timeout at:
+i4@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:66424
+iJ@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:65768
+965900/_/s<@https://s.pinimg.com/webapp/www/_client-db8d0151aa9e0f4f.mjs:38:150964
+965900/_/</<@https://s.pinimg.com/webapp/www/_client-db8d0151aa9e0f4f.mjs:38:151632
+567450/i/<@https://s.pinimg.com/webapp/www/_client-db8d0151aa9e0f4f.mjs:38:91248
+i@https://s.pinimg.com/webapp/www/_client-db8d0151aa9e0f4f.mjs:38:91236
+567450/</<@https://s.pinimg.com/webapp/www/_client-db8d0151aa9e0f4f.mjs:38:91631
+
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs, line 25: Script terminated by timeout at:
+aL@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:48368
+aA@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:48272
+iJ@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:65738
+965900/_/s<@https://s.pinimg.com/webapp/www/_client-db8d0151aa9e0f4f.mjs:38:150964
+965900/_/</<@https://s.pinimg.com/webapp/www/_client-db8d0151aa9e0f4f.mjs:38:151632
+567450/i/<@https://s.pinimg.com/webapp/www/_client-db8d0151aa9e0f4f.mjs:38:91248
+i@https://s.pinimg.com/webapp/www/_client-db8d0151aa9e0f4f.mjs:38:91236
+567450/</<@https://s.pinimg.com/webapp/www/_client-db8d0151aa9e0f4f.mjs:38:91631
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21714
+t@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21589
+
+JavaScript warning: https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs, line 38: Script terminated by timeout at:
+Z@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:79686
+507651/tS/</<@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:375222
+567450/i/<@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:91248
+i@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:91236
+567450/</<@https://s.pinimg.com/webapp/www/_client-b719fd448e1fb0c1.mjs:38:91631
+
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21714
+t@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21589
+
+JavaScript warning: https://s.pinimg.com/webapp/www/_client-0debfaa227297d97.mjs, line 38: Script terminated by timeout at:
+a@https://s.pinimg.com/webapp/www/_client-0debfaa227297d97.mjs:38:35353
+flushEvents@https://s.pinimg.com/webapp/www/_client-0debfaa227297d97.mjs:38:15191
+flushContextEvents@https://s.pinimg.com/webapp/www/_client-0debfaa227297d97.mjs:38:16939
+507651/tS/</<@https://s.pinimg.com/webapp/www/_client-0debfaa227297d97.mjs:38:375370
+567450/i/<@https://s.pinimg.com/webapp/www/_client-0debfaa227297d97.mjs:38:91248
+i@https://s.pinimg.com/webapp/www/_client-0debfaa227297d97.mjs:38:91236
+567450/</<@https://s.pinimg.com/webapp/www/_client-0debfaa227297d97.mjs:38:91631
+
+Exiting due to channel error.
+Exiting due to channel error.
