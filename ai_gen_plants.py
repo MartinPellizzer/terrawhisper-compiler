@@ -5,13 +5,17 @@ import re
 from ctransformers import AutoModelForCausalLM
 import random
 import time
+from groq import Groq
+
 
 import g
 
 import util
 
-# TODO: missing latin_name (and other) in json. fill it in ai_gen.
 
+client = Groq(
+    api_key='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',
+)
 
 
 MODELS = [
@@ -46,19 +50,44 @@ def folder_create(filepath):
         except: pass
 
 
+# def gen_reply(prompt):
+#     print()
+#     print("Q:")
+#     print()
+#     print(prompt)
+#     print()
+#     print("A:")
+#     print()
+#     reply = ''
+#     for text in llm(prompt, stream=True):
+#         reply += text
+#         print(text, end="", flush=True)
+#     print()
+#     print()
+#     return reply
+
+
 def gen_reply(prompt):
+    completion = client.chat.completions.create(
+        messages=[
+            {
+                "role": "user",
+                "content": prompt,
+            }
+        ],
+        model="mixtral-8x7b-32768",
+    )
+
+    reply = completion.choices[0].message.content
+    print()
+    print()
     print()
     print("Q:")
     print()
     print(prompt)
     print()
     print("A:")
-    print()
-    reply = ''
-    for text in llm(prompt, stream=True):
-        reply += text
-        print(text, end="", flush=True)
-    print()
+    print(reply)
     print()
     return reply
 
@@ -1530,11 +1559,13 @@ def ai_herbalism_teas_conditions_description(condition):
         starting_text = f'{remedy_name_formatted.capitalize()} helps with {condition.lower()} because '
         prompt = f'''
             Explain in a 5-sentence paragraph why {remedy_name_formatted} helps with {condition.lower()}.
-            Start with these words: {starting_text}
+            Start with these words: {starting_text}.
         '''     
         prompt = prompt_normalize(prompt)
         reply = gen_reply(prompt)
-        reply = starting_text + reply.strip()
+        reply = reply.strip()
+        if starting_text.lower().strip() not in reply.lower():
+            reply = starting_text + reply 
 
         reply_formatted = []
         for line in reply.split('\n'):
@@ -1559,6 +1590,60 @@ def ai_herbalism_teas_conditions_description(condition):
             data['remedies'][index]['remedy_desc'] = reply_formatted[0]
             util.json_write(filepath, data)
 
+        time.sleep(30)
+        # return running
+
+
+def ai_herbalism_teas_conditions_recipe(condition):
+    condition_dash = condition.strip().lower().replace(' ', '-')
+    filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
+    data = util.json_read(filepath)
+
+    for index, remedy in enumerate(data['remedies']):
+        remedy_name = remedy['remedy_name']
+
+        remedy_recipe = []
+        try: remedy_recipe = remedy['remedy_recipe']
+        except: remedy['remedy_recipe'] = []
+
+        if remedy_recipe != []: continue
+
+        remedy_name_formatted = remedy_name.lower().strip() + ' tea'
+        remedy_name_formatted = remedy_name_formatted.replace(' tea tea', ' tea')
+        prompt = f'''
+            Write a detailed 5-step recipe in ordered list format on how to make why {remedy_name_formatted} for {condition.lower()}.
+            Include numbers like ingredient dosages and times of preparation in the steps when applicable.
+            Each step must be only 1 sentence long.
+        '''     
+        prompt = prompt_normalize(prompt)
+        reply = gen_reply(prompt)
+        reply = reply.strip()
+
+        reply_formatted = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if not line[0].isdigit(): continue
+            
+            line = '. '.join(line.split('. ')[1:]).strip()
+            if line == '': continue
+            # if ":" in line:
+            #     line = ': '.join(line.split(':')[1:]).strip()
+            #     if line == '': continue
+            # line = line.replace('...', '')
+            # line = re.sub("\s\s+" , " ", line)
+            reply_formatted.append(line)
+
+        if reply_formatted == '' or len(reply_formatted) == 5:
+            print('***************************************')
+            for paragraph in reply_formatted:
+                print(paragraph)
+            print('***************************************')
+
+            data['remedies'][index]['remedy_recipe'] = reply_formatted
+            util.json_write(filepath, data)
+
+        time.sleep(30)
         # return running
 
 
@@ -1566,12 +1651,13 @@ rows = util.csv_get_rows('database/tables/conditions.csv')
 conditions = [row[0] for row in rows[1:]]
 for condition in conditions:
     
-    start = time.time()
+    # start = time.time()
 
     ai_herbalism_teas_conditions_description(condition)
+    ai_herbalism_teas_conditions_recipe(condition)
     
-    end = time.time()
-    print(end - start)
+    # end = time.time()
+    # print(end - start)
 
 ################################################################################
 

@@ -1,6 +1,9 @@
 import os
 import csv
 import json
+import random
+from PIL import Image, ImageColor, ImageEnhance
+
 
 
 ###################################
@@ -203,3 +206,33 @@ def img_resize(img, w=768, h=578):
     img = img.crop(area)
 
     return img
+
+
+def image_variate(filepath_in, filepath_out):
+    w, h = 1024, 1024
+    
+    image = Image.open(filepath_in)
+
+    random_enhancer_val = random.uniform(0.9, 1.1)
+    image_enhancer = ImageEnhance.Color(image)
+    image = image_enhancer.enhance(random_enhancer_val)
+    random_enhancer_val = random.uniform(0.9, 1.1)
+    image_enhancer = ImageEnhance.Contrast(image)
+    image = image_enhancer.enhance(random_enhancer_val)
+    random_enhancer_val = random.uniform(0.9, 1.1)
+    image_enhancer = ImageEnhance.Brightness(image)
+    image = image_enhancer.enhance(random_enhancer_val)
+    random_enhancer_val = random.uniform(0.9, 1.1)
+    image_enhancer = ImageEnhance.Sharpness(image)
+    image = image_enhancer.enhance(random_enhancer_val)
+
+
+    random_val_x1 = random.randint(50, 100)
+    random_val_y1 = random.randint(50, 100)
+    random_val_x2 = random.randint(50, 100)
+    random_val_y2 = random.randint(50, 100)
+    image = image.crop((random_val_x1, random_val_y1, w-random_val_x2, h-random_val_y2))
+    image = image.resize((w, h), Image.Resampling.LANCZOS)
+
+    image.thumbnail((768, 768), Image.Resampling.LANCZOS)
+    image.save(filepath_out, format='JPEG', optimize=True, quality=50)

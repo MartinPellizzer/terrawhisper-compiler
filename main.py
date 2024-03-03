@@ -444,7 +444,7 @@ def generate_articles_herbalism_tea():
     article_foldrpath_relative = f'herbalism/tea'
     article_foldrpath_relative_dash = article_foldrpath_relative.replace('/', '-')
     conditions = [row[0] for row in util.csv_get_rows('database/tables/conditions.csv')[1:]]
-    for condition in conditions:
+    for condition in conditions[:10]:
         condition_dash = condition.lower().strip().replace(' ', '-')
         article_filename = f'{articles_folderpath}/{condition_dash}.json'
         
@@ -467,9 +467,10 @@ def generate_articles_herbalism_tea():
             remedy_name = remedy['remedy_name']
             remedy_desc = remedy['remedy_desc']
             remedy_name_dash = remedy_name.lower().strip().replace(' ', '-')
+            remedy_desc_formatted = util.text_format_1N1_html(remedy_desc)
             article_html += f'<h2>{index+1}. {remedy_name}</h2>' + '\n'
             article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-{remedy_name_dash}.jpg" alt="herbal teas for {condition} {remedy_name.lower()}"></p>' + '\n'
-            article_html += f'<p>{remedy_desc}</p>' + '\n'
+            article_html += f'<p>{remedy_desc_formatted}</p>' + '\n'
 
         header_html = generate_header_light()
         word_count = len(article_html.split(' '))
@@ -528,7 +529,7 @@ def generate_articles_herbalism_tea():
 
         # GET IMAGES
         data = util.json_read(article_filepath_in)
-        print(article_filepath_in)
+        # print(article_filepath_in)
         condition = data['condition']
         preparation = data['preparation']
         condition_dash = condition.lower().strip().replace(' ', '-')
@@ -573,6 +574,145 @@ def generate_articles_herbalism_tea():
                 print(f'*** MISSING: {herb_dash} ({scientific_name}) {preparation_dash} ***')
                 print()
 
+
+def generate_articles_herbalism_tea_2():
+    # IMAGES
+    IMG_FOLDER_TEA = 'C:/terrawhisper-assets/images/tea'
+    img_folders_names = os.listdir(IMG_FOLDER_TEA)
+    img_dict = {}
+    for img_folder_name in img_folders_names:
+        img_folders_files = os.listdir(f'{IMG_FOLDER_TEA}/{img_folder_name}')
+        img_dict[img_folder_name] = img_folders_files
+
+
+    articles_folderpath = 'database/articles/herbalism/tea'
+    article_foldrpath_relative = f'herbalism/tea'
+    article_foldrpath_relative_dash = article_foldrpath_relative.replace('/', '-')
+    conditions = [row[0] for row in util.csv_get_rows('database/tables/conditions.csv')[1:]]
+    for condition in conditions[:10]:
+        condition_dash = condition.lower().strip().replace(' ', '-')
+        article_filename = f'{articles_folderpath}/{condition_dash}.json'
+        
+        article_filepath_in = article_filename
+        article_filepath_out = article_filename.replace('database/articles', 'website').replace('.json', '.html')
+
+        data = util.json_read(article_filepath_in)
+        article_html = ''
+
+        title = ''
+        try: title = data['keyword'].title()
+        except: print(f'***** MISSING TITLE: {article_filepath_in}')
+        article_html += f'<h1>{title}</h1>' + '\n'
+        article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-overview.jpg" alt="herbal teas for {condition} overview"></p>' + '\n'
+
+        remedies = []
+        try: remedies = data['remedies']
+        except: print(f'***** MISSING REMEDIES: {article_filepath_in}')
+        for index, remedy in enumerate(remedies[:10]):
+            remedy_name = remedy['remedy_name']
+            remedy_desc = remedy['remedy_desc']
+            remedy_name_dash = remedy_name.lower().strip().replace(' ', '-')
+            remedy_desc_formatted = util.text_format_1N1_html(remedy_desc)
+            article_html += f'<h2>{index+1}. {remedy_name}</h2>' + '\n'
+            article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-{remedy_name_dash}.jpg" alt="herbal teas for {condition} {remedy_name.lower()}"></p>' + '\n'
+            article_html += f'<p>{remedy_desc_formatted}</p>' + '\n'
+
+        header_html = generate_header_light()
+        word_count = len(article_html.split(' '))
+        reading_time_html = str(word_count // 200) + ' minutes'
+
+        article_html = generate_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                
+                <section class="my-96">
+                    <div class="container">
+                        <div class="flex items-center justify-between mb-16">
+                            <div class="flex items-center gap-16">
+                                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                            </div>
+                            <span>{reading_time_html}</span>
+                        </div>
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        chunks = article_filepath_out.split('/')
+        chunk_curr = ''
+        for chunk in chunks[:-1]:
+            chunk_curr += chunk + '/'
+            try: os.makedirs(chunk_curr)
+            except: pass
+        util.file_write(f'{article_filepath_out}', html)
+
+        # GET IMAGES
+        data = util.json_read(article_filepath_in)
+        condition = data['condition']
+        preparation = data['preparation']
+        condition_dash = condition.lower().strip().replace(' ', '-')
+        preparation_dash = preparation.lower().strip().replace(' ', '-')
+        herbs = [remedy['remedy_name'] for remedy in data['remedies']]
+        
+        # FEATURED IMAGE
+        featured_image_folder = herbs[0].lower().strip().replace(' ', '-')
+        try: img_name = random.choice(img_dict[featured_image_folder])
+        except: img_name = ''
+        if img_name != '':
+            image_path_in = f'{IMAGE_FOLDER}/{preparation_dash}/{featured_image_folder}/{img_name}'
+            image_path_out = f'website/images/herbal-{preparation_dash}-for-{condition_dash}-overview' + '.jpg'
+            if not os.path.exists(image_path_out):
+                util.image_variate(image_path_in, image_path_out)
+        else:
+            try: scientific_name = util.get_scientific_name(featured_image_folder)
+            except: scientific_name = ''
+            print(article_filepath_in)
+            print(featured_image_folder)
+            print(f'*** MISSING: {featured_image_folder} ({scientific_name}) {preparation_dash} ***')
+            print()
+            
+        # SECTIONS IMAGES
+        for herb in herbs:
+            herb_dash = herb.strip().lower().replace(' ', '-')
+            try: img_name = random.choice(img_dict[herb_dash])
+            except: img_name = ''
+            if img_name != '':
+                image_path_in = f'{IMAGE_FOLDER}/{preparation_dash}/{herb_dash}/{img_name}'
+                image_path_out = f'website/images/herbal-tea-for-{condition_dash}-{herb_dash}' + '.jpg'
+                if not os.path.exists(image_path_out):
+                    util.image_variate(image_path_in, image_path_out)
+            else:
+                try: scientific_name = util.get_scientific_name(herb)
+                except: scientific_name = ''
+                print(article_filepath_in)
+                print(f'*** MISSING: {herb_dash} ({scientific_name}) {preparation_dash} ***')
+                print()
 
 
 ##############################################################################
@@ -1210,7 +1350,7 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 
-generate_articles_herbalism_tea()
+generate_articles_herbalism_tea_2()
 # generate_articles_plants()
 # gen_articles_plant_medicine()
 # gen_articles_plant_medicine_benefits()
