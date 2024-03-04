@@ -217,6 +217,9 @@ def generate_about():
 def generate_page_herbalism():
     page_url = 'herbalism'
 
+    content = util.file_read(f'static/{page_url}.md')
+    content = markdown.markdown(content, extensions=['markdown.extensions.tables'])
+
     header = generate_header_light()
 
     page_html = util.file_read(f'static/{page_url}.html')
@@ -225,6 +228,7 @@ def generate_page_herbalism():
     page_html = page_html.replace('[google_tag]', GOOGLE_TAG)
     page_html = page_html.replace('[author_name]', AUTHOR_NAME)
     page_html = page_html.replace('[header]', header)
+    page_html = page_html.replace('[content]', content)
 
     util.file_write(f'website/{page_url}.html', page_html)
 
@@ -235,7 +239,6 @@ def generate_page_herbalism_tea():
     for article_filename in os.listdir(articles_folderpath):
         article_filepath = f'{articles_folderpath}/{article_filename}'
         data = util.json_read(article_filepath)
-        keyword = data['keyword']
         condition = data['condition']
         url = data['url']
         sections.append(f'<li><a href="/{url}.html">{condition}</a></li>')
@@ -584,15 +587,15 @@ def generate_articles_herbalism_tea_2():
         img_folders_files = os.listdir(f'{IMG_FOLDER_TEA}/{img_folder_name}')
         img_dict[img_folder_name] = img_folders_files
 
-
     articles_folderpath = 'database/articles/herbalism/tea'
     article_foldrpath_relative = f'herbalism/tea'
     article_foldrpath_relative_dash = article_foldrpath_relative.replace('/', '-')
     conditions = [row[0] for row in util.csv_get_rows('database/tables/conditions.csv')[1:]]
-    for condition in conditions[:10]:
+    for condition in conditions:
+        print(condition)
         condition_dash = condition.lower().strip().replace(' ', '-')
         article_filename = f'{articles_folderpath}/{condition_dash}.json'
-        
+
         article_filepath_in = article_filename
         article_filepath_out = article_filename.replace('database/articles', 'website').replace('.json', '.html')
 
@@ -600,7 +603,7 @@ def generate_articles_herbalism_tea_2():
         article_html = ''
 
         title = ''
-        try: title = data['keyword'].title()
+        try: title = data['title'].title()
         except: print(f'***** MISSING TITLE: {article_filepath_in}')
         article_html += f'<h1>{title}</h1>' + '\n'
         article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-overview.jpg" alt="herbal teas for {condition} overview"></p>' + '\n'
@@ -611,11 +614,16 @@ def generate_articles_herbalism_tea_2():
         for index, remedy in enumerate(remedies[:10]):
             remedy_name = remedy['remedy_name']
             remedy_desc = remedy['remedy_desc']
+            remedy_recipe = remedy['remedy_recipe']
             remedy_name_dash = remedy_name.lower().strip().replace(' ', '-')
             remedy_desc_formatted = util.text_format_1N1_html(remedy_desc)
             article_html += f'<h2>{index+1}. {remedy_name}</h2>' + '\n'
             article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-{remedy_name_dash}.jpg" alt="herbal teas for {condition} {remedy_name.lower()}"></p>' + '\n'
             article_html += f'<p>{remedy_desc_formatted}</p>' + '\n'
+            article_html += f'<ol>' + '\n'
+            for item in remedy_recipe:
+                article_html += f'<li>{item}</li>' + '\n'
+            article_html += f'</ol>' + '\n'
 
         header_html = generate_header_light()
         word_count = len(article_html.split(' '))
@@ -1359,8 +1367,7 @@ generate_articles_herbalism_tea_2()
 # generate_page_herbs()
 # generate_about()
 
-
-# generate_page_herbalism()
-# generate_page_herbalism_tea()
+generate_page_herbalism()
+generate_page_herbalism_tea()
 
 

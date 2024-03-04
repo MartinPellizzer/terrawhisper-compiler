@@ -1,11 +1,7 @@
 herbal tea for
 
-herbal tea for appetite suppressant
-herbal tea for anti aging
-herbal tea for breastfeeding
 herbal tea for beginners
 
-herbal tea for cholesterol
 herbal tea for clear skin
 herbal tea for colon cleanse
 herbal tea for cats
@@ -67,7 +63,6 @@ herbal tea for hormonal imbalance
 herbal tea for heart health
 herbal tea for hot flashes
 herbal tea for hypertension
-herbal tea for high cholesterol
 herbal tea for health
 herbal tea for hangover
 herbal tea for hydration
@@ -115,7 +110,6 @@ herbal tea for lactation
 herbal tea for lymphatic system
 herbal tea for liver and kidney
 herbal tea for luteal phase
-herbal tea for lowering cholesterol
 herbal tea for migraines
 herbal tea for menopause
 herbal tea for morning

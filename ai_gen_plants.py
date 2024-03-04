@@ -87,6 +87,7 @@ def gen_reply(prompt):
     print(prompt)
     print()
     print("A:")
+    print()
     print(reply)
     print()
     return reply
@@ -181,82 +182,6 @@ def ai_gen_json():
         util.json_write(filepath, data)
    
 
-
-def ai_gen_medicine_section():
-    plants = [row for row in util.csv_get_rows('database/tables/plants.csv')]
-
-    cols = {}
-    for i, item in enumerate(plants[0]):
-        cols[item] = i
-
-    plants = plants[1:]
-
-    for plant in plants:
-        latin_name = plant[cols['latin_name']].strip()
-        common_name = plant[cols['common_name']].strip()
-
-        latin_name_dash = latin_name.lower().replace(' ', '-')
-        entity = latin_name_dash
-        url = f'{entity}/medicine'
-
-        filepath = f'database/articles/plants/{url}.json'
-
-
-
-        # CREATE FOLDER
-        chunks = filepath.split('/')
-        chunk_curr = ''
-        for chunk in chunks[:-1]:
-            chunk_curr += chunk + '/'
-            try: os.makedirs(f'{chunk_curr}')
-            except: pass
-
-
-
-        # INIT
-        data = util.json_read(filepath)
-        if not data:
-            data = {
-                'entity': entity,
-                'url': url,
-                'latin_name': latin_name,
-                'common_name': common_name,
-                'title': f'{latin_name} ({common_name})',
-            }
-            print(f'creating new file: {filepath}')
-        util.json_write(filepath, data)
-
-
-
-        # MEDICINE SECTION
-        data = util.json_read(filepath)
-
-        try: data_medicine = data['benefits']
-        except: data['benefits'] = []
-
-        if data['benefits'] == []:
-            # starting_text = f'{common_name.title()} has many health benefits, such as '
-            prompt = f'''
-                Explain in 5 paragraphs in 400 words the health benefits of {common_name}. 
-            '''
-                # Start with these words: {starting_text}
-            prompt = prompt_normalize(prompt)
-            reply = gen_reply(prompt)
-            reply_normalized = reply_normalize(reply)
-
-            # if not reply_normalized.startswith(f'{starting_text}'):
-            #     reply_normalized += starting_text + reply_normalized
-
-            for paragraph in reply_normalized:
-                print('***************************************')
-                print(paragraph)
-                print('***************************************')
-            reply_paragraphs_num = len(reply_normalized)
-
-            data['benefits'] = reply_normalized
-            util.json_write(filepath, data)
-
-            running = True
 
 
 
@@ -535,49 +460,6 @@ def ai_entity_medicine_intro(filepath, running):
     return running
 
 
-# def ai_entity_medicine_benefits(filepath, running):
-#     data = util.json_read(filepath)
-#     latin_name = data['latin_name']
-#     common_name = data['common_name']
-
-#     benefits_list = []
-#     try: benefits_list = data['benefits_list']
-#     except: data['benefits_list'] = []
-
-#     if benefits_list != []: return
-#     running = True
-
-#     prompt_paragraphs_num = 10
-#     prompt = f'''
-#         Write a numbered list of the {prompt_paragraphs_num} best health benefits of {latin_name} ({common_name}).
-#         Add descriptions to the health benefits.
-#     '''     
-#     prompt = prompt_normalize(prompt)
-#     reply = gen_reply(prompt)
-
-#     reply = reply.strip()
-#     reply_formatted = []
-#     for line in reply.split('\n'):
-#         line = line.strip()
-#         if line == '': continue
-#         if ':' not in line: continue
-#         if line[0].isdigit():
-#             line = '. '.join(line.split('. ')[1:]).strip()
-#             if line == '': continue
-#             reply_formatted.append(line)
-
-#     if prompt_paragraphs_num == len(reply_formatted):
-#         for paragraph in reply_formatted:
-#             print('***************************************')
-#             print(paragraph)
-#             print('***************************************')
-
-#         data['benefits_list'] = reply_formatted
-#         util.json_write(filepath, data)
-
-#     return running
-
-
 def ai_entity_medicine_constituents(filepath, running):
     data = util.json_read(filepath)
     latin_name = data['latin_name']
@@ -804,60 +686,100 @@ def ai_entity_medicine_main():
 # ROOT >> MEDICINE >> BENEFITS
 #######################################################################
 
-def ai_entity_medicine_benefits_list(filepath):
-    running = False
+# RESETS
+def entity_medicine_benefits_init():
+    for index, plant in enumerate(plants):
+        latin_name = plant[cols['latin_name']].strip().capitalize()
+        common_name = plant[cols['common_name']].strip().title()
+        entity = latin_name.lower().replace(' ', '-')
+        url = f'{entity}/medicine/benefits'
+        filepath = f'database/articles/plants/{url}.json'
+        folder_create(filepath)
 
+        data = util.json_read(filepath)
+        if not data: continue
+        data['benefits'] = []
+        util.json_write(filepath, data)
+    
+# entity_medicine_benefits_init()
+
+# ---------------------------------------------------------------------
+
+
+def ai_entity_medicine_benefits_section(filepath, csv_benefits, running):
     data = util.json_read(filepath)
     latin_name = data['latin_name']
     common_name = data['common_name']
 
+    benefits = []
     try: benefits = data['benefits']
-    except: data['benefits'] = []
-    if data['benefits'] == []:
-        running = True
-        prompt_paragraphs_num = 10
-        prompt = f'''
-            Write a numbered list of the {prompt_paragraphs_num} best health benefits of {common_name} ({latin_name}).
-            Include names and descriptions.
-            Start the names with a third-person singular action verb.
-        '''
-        prompt = prompt_normalize(prompt)
-        reply = gen_reply(prompt)
-        reply = reply.strip()
+    except: data['benefits'] = benefits
 
-        reply_formatted = []
-        for line in reply.split('\n'):
-            line_name = ''
-            line_desc = ''
-            line = line.strip()
-            if line == '': continue
+    if benefits != []: return
+    running = True
 
-            if ': ' in line: 
-                line_name = line.split(': ')[0].strip()
-                line_desc = ': '.join(line.split(': ')[1:]).strip()
-                if line_name == '': continue
-                if line_desc == '': continue
-
-                if line_name[0].isdigit():
-                    if '. ' in line_name: line_name = line_name.split('. ')[1].strip()
-                    if line_name == '': continue
-                    reply_formatted.append({"name": line_name, "desc": line_desc})
-
-        if prompt_paragraphs_num == len(reply_formatted):
-            for paragraph in reply_formatted:
-                print('***************************************')
-                print(paragraph)
-                print('***************************************')
-
-            data['benefits'] = reply_formatted
-            util.json_write(filepath, data)
-
-    return running
+    benefits_tmp = []
+    for benefit in csv_benefits:
+        benefits_tmp.append({'benefit_name': benefit})
+    
+    data['benefits'] = benefits_tmp
+    util.json_write(filepath, data)
 
 
-def ai_entity_medicine_benefits_definition(filepath):
-    running = False
+# def ai_entity_medicine_benefits_list(filepath):
+#     running = False
 
+#     data = util.json_read(filepath)
+#     latin_name = data['latin_name']
+#     common_name = data['common_name']
+
+#     try: benefits = data['benefits']
+#     except: data['benefits'] = []
+
+#     if data['benefits'] != []: return running
+#     running = True
+    
+#     prompt_num = 10
+#     prompt = f'''
+#         Write a numbered list of the {prompt_num} best health benefits of {common_name} ({latin_name}).
+#         Include names and descriptions.
+#         Start the names with a third-person singular action verb.
+#     '''
+#     prompt = prompt_normalize(prompt)
+#     reply = gen_reply(prompt)
+#     reply = reply.strip()
+
+#     reply_formatted = []
+#     for line in reply.split('\n'):
+#         line_name = ''
+#         line_desc = ''
+#         line = line.strip()
+#         if line == '': continue
+
+#         if ': ' in line: 
+#             line_name = line.split(': ')[0].strip()
+#             line_desc = ': '.join(line.split(': ')[1:]).strip()
+#             if line_name == '': continue
+#             if line_desc == '': continue
+
+#             if line_name[0].isdigit():
+#                 if '. ' in line_name: line_name = line_name.split('. ')[1].strip()
+#                 if line_name == '': continue
+#                 reply_formatted.append({"name": line_name, "desc": line_desc})
+
+#     if prompt_num == len(reply_formatted):
+#         for paragraph in reply_formatted:
+#             print('***************************************')
+#             print(paragraph)
+#             print('***************************************')
+
+#         data['benefits'] = reply_formatted
+#         util.json_write(filepath, data)
+
+#     return running
+
+
+def ai_entity_medicine_benefits_definition(filepath, running):
     data = util.json_read(filepath)
     latin_name = data['latin_name']
     common_name = data['common_name']
@@ -867,13 +789,11 @@ def ai_entity_medicine_benefits_definition(filepath):
     except: return
 
     for benefit in benefits[:10]:
-        # TODO: UNIFY WHEN POSSIBLE
-        try: benefit_name = benefit['name']
-        except: benefit_name = benefit['benefit']
+        benefit_name = benefit['benefit_name']
         
         benefit_definition = ''
         try: benefit_definition = benefit['definition']
-        except: benefit['definition'] = ''
+        except: benefit['definition'] = benefit_definition
 
         if benefit_definition != '': continue
         running = True
@@ -883,33 +803,94 @@ def ai_entity_medicine_benefits_definition(filepath):
                 Define in detail in 1 sentence what "{common_name} {benefit_name}" means. 
                 Start the sentence with these words: {starting_text}
             '''
-
         prompt = prompt_normalize(prompt)
         reply = gen_reply(prompt)
         reply = reply.strip()
-        reply = starting_text + reply
-        
-        print('***************************************')
-        print(reply)
-        print('***************************************')
+        if starting_text.lower().strip() not in reply.lower():
+            reply = starting_text + reply 
 
-        if reply != '':
-            benefit['definition'] = reply
+        paragraphs = reply.split('\n')
+        paragraphs_filtered = []
+        for paragraph in paragraphs:
+            if ":" in paragraph: continue
+            if paragraph[0].isdigit(): continue
+            if len(paragraph.split('. ')) != 1: continue
+            paragraphs_filtered.append(paragraph)
+        
+        if len(paragraphs_filtered) == 1:
+            print('***************************************')
+            print(reply)
+            print('***************************************')
+
+            benefit['definition'] = paragraphs_filtered[0]
             util.json_write(filepath, data)
+        
+        time.sleep(30)
 
     return running
 
 
-def ai_entity_medicine_benefits_constituents_list(filepath):
-    running = False
-    
+
+def ai_entity_medicine_benefits_description_text(filepath, running):
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+    benefits = data['benefits']
+
+    for benefit in benefits[]:
+        benefit_name = benefit['benefit_name']
+        
+        benefit_desc = ''
+        try: benefit_desc = benefit['benefit_desc']
+        except: benefit['benefit_desc'] = benefit_desc
+
+        if benefit_desc != '': continue
+        running = True
+
+        # starting_text = f'"{common_name.title()} {benefit_name.lower()}" refers to its ability to '
+        prompt = f'''
+                Write a 5-sentence paragraph about this health benefit of {latin_name.capitalize()} ({common_name}): {benefit_name}.
+                In sentence 1, write a detailed definition of "{benefit_name}" in the context of {latin_name.capitalize()}.
+                In sentence 2, write what are the main active constituents of {latin_name.capitalize()} that give this benefit.
+                In sentence 3, write what are the primary parts of the {latin_name.capitalize()} plant that give this benefit.
+                In sentence 4, write what are the main medicinal preparations of {latin_name.capitalize()} that give this benefit.
+                In sentence 5, write what are the main health conditions that this benefit of {latin_name.capitalize()} helps relieve.
+            '''
+        prompt = prompt_normalize(prompt)
+        reply = gen_reply(prompt)
+        reply = reply.strip()
+        # if starting_text.lower().strip() not in reply.lower():
+            # reply = starting_text + reply 
+
+        paragraphs = reply.split('\n')
+        paragraphs_filtered = []
+        for paragraph in paragraphs:
+            if ":" in paragraph: continue
+            if paragraph[0].isdigit(): continue
+            if len(paragraph.split('. ')) != 1: continue
+            paragraphs_filtered.append(paragraph)
+        
+        if len(paragraphs_filtered) == 1:
+            print('***************************************')
+            print(reply)
+            print('***************************************')
+
+            benefit['definition'] = paragraphs_filtered[0]
+            util.json_write(filepath, data)
+        
+        time.sleep(30)
+
+    return running
+
+
+def ai_entity_medicine_benefits_constituents_list(filepath, running):
     data = util.json_read(filepath)
     latin_name = data['latin_name']
     common_name = data['common_name']
 
-    benefits = []
-    try: benefits = data['benefits']
-    except: return
+    # benefits = []
+    # try: benefits = data['benefits']
+    # except: return
 
     for benefit in benefits[:10]:
         # TODO: UNIFY WHEN POSSIBLE
@@ -923,9 +904,9 @@ def ai_entity_medicine_benefits_constituents_list(filepath):
         if benefit_constituents != []: continue
         running = True
         
-        prompt_paragraphs_num = 10
+        prompt_num = 10
         prompt = f'''
-            Write a numbered list of the {prompt_paragraphs_num} most important medicinal constituents of the {latin_name} plant that help with this benefit: {benefit_name}. 
+            Write a numbered list of the {prompt_num} most important medicinal constituents of {latin_name} that help with this benefit: {benefit_name}. 
             Write only the names of the constituents, not the descriptions.
         '''        
         prompt = prompt_normalize(prompt)
@@ -949,7 +930,7 @@ def ai_entity_medicine_benefits_constituents_list(filepath):
         print(reply_formatted)
         print('***************************************')
 
-        if prompt_paragraphs_num == len(reply_formatted):
+        if prompt_num == len(reply_formatted):
             benefit['constituents'] = reply_formatted
             util.json_write(filepath, data)
 
@@ -1126,9 +1107,9 @@ def ai_entity_medicine_benefits_main():
 
         latin_name = plant[cols['latin_name']].strip().capitalize()
         common_name = plant[cols['common_name']].strip().title()
-
         entity = latin_name.lower().replace(' ', '-')
         url = f'{entity}/medicine/benefits'
+        benefits = [row[1] for row in util.csv_get_rows_by_entity('database/tables/benefits.csv', entity)]
 
         filepath = f'database/articles/plants/{url}.json'
         folder_create(filepath)
@@ -1149,22 +1130,41 @@ def ai_entity_medicine_benefits_main():
         # LIST
         # running = ai_entity_medicine_benefits_list(filepath)
 
-        # BENEFIT DEFINITION
-        # running = ai_entity_medicine_benefits_definition(filepath)
+        # BENEFITS SECTIONS
+        # running = ai_entity_medicine_benefits_section(filepath, benefits, running)
+
+        # BENEFITS DEFINITIONS
+        # running = ai_entity_medicine_benefits_definition(filepath, running)
+
+        # BENEFITS DESCRIPTIONS
+        running = ai_entity_medicine_benefits_description_text(filepath, running)
 
         # BENEFIT CONSTITUENTS LIST
-        ai_entity_medicine_benefits_constituents_list(filepath)
+        # running = ai_entity_medicine_benefits_constituents_list(filepath, running)
 
         # BENEFIT CONSTITUENTS TEXT
-        running = ai_entity_medicine_benefits_constituents_text(filepath, running)
+        # running = ai_entity_medicine_benefits_constituents_text(filepath, running)
 
         # BENEFIT CONDITIONS LIST
         # running = ai_entity_medicine_benefits_conditions_list(filepath, running)
 
         # BENEFIT CONDITIONS TEXT
-        running = ai_entity_medicine_benefits_conditions_text(filepath, running)
+        # running = ai_entity_medicine_benefits_conditions_text(filepath, running)
 
     return running
+
+
+running = True
+while running:
+    # running = ai_gen_medicine_benefits_definition_section()
+    # running = ai_gen_medicine_benefits_constituents_section()
+    # running = ai_gen_medicine_benefits_constituents_text_section()
+    # running = ai_gen_medicine_benefits_conditions_section()
+    # running = ai_gen_medicine_benefits_conditions_text_section()
+
+    # running = ai_entity_main()
+    # running = ai_entity_medicine_main()
+    running = ai_entity_medicine_benefits_main()
 
 
 
@@ -1430,236 +1430,6 @@ def ai_entity_medicine_precautions_csv():
             util.csv_add_rows(filepath, reply_formatted)
 
 
-
-
-
-def ai_herbalism_teas_conditions_csv(condition):
-    filepath = 'database/tables/herbalism-teas-conditions.csv'
-    rows = util.csv_get_rows_by_entity(filepath, condition)
-
-    if rows != []: return
-
-    prompt_paragraphs_num = 20
-    prompt = f'''
-        Write a numbered list of the {prompt_paragraphs_num} best herbal teas for {condition}.
-        Write only the names of the herbs of the herbal teas, not the descriptions.
-        Include only 1 herb for each list item.
-    '''
-
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
-    reply = reply.strip()
-
-    reply_formatted = []
-    for line in reply.split('\n'):
-        line = line.strip()
-        if line == '': continue
-        if ':' in line: continue 
-        if line[0].isdigit():
-            if '. ' in line: line = '. '.join(line.split('. ')[1:]).strip()
-            if line == '': continue
-            if line.endswith('.'): line = line[0:-1]
-            reply_formatted.append([condition, line, ''])
-
-    if prompt_paragraphs_num == len(reply_formatted):
-        print('***************************************')
-        for line in reply_formatted:
-            print(line)
-        print('***************************************')
-
-        util.csv_add_rows(filepath, reply_formatted)
-
-    # quit()        
-
-conditions = [
-'abdominal pain',
-'acid reflux',
-'acne',
-'adrenal fatigue',
-'alertness',
-'allergies',
-'anxiety',
-'babies',
-'back pain',
-'bad breath',
-'belly fat',
-'bladder pain',
-'bloating',
-'bone health',
-'bowel movement',
-'brain fog',
-'chest congestion',
-'circulation',
-'colds',
-'constipation',
-'cough',
-'cramps',
-'fatigue',
-'headaches',
-'high blood pressure',
-'menstrual cramps',
-'mucus',
-'nasal congestion',
-'overactive bladder',
-'pregnancy',
-'sleep',
-'sore throat',
-'stomach cramps',
-'upset stomach',
-'weight loss',
-]
-
-for condition in conditions:
-    ai_herbalism_teas_conditions_csv(condition)
-
-
-
-def ai_herbalism_teas_conditions_init():
-    rows = util.csv_get_rows('database/tables/conditions.csv')
-    conditions = [row[0] for row in rows[1:]]
-    for condition in conditions:
-        condition_dash = condition.lower().strip().replace(' ', '-')
-        rows = util.csv_get_rows_by_entity('database/tables/herbalism-teas-conditions.csv', condition)
-        
-        if not rows: continue
-
-        remedies = []
-        for row in rows:
-            remedies.append(
-                {
-                    'remedy_name': row[1],
-                }
-            )
-
-        article_filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
-        data = util.json_read(article_filepath)
-
-        if data['remedies']: continue
-
-        data['remedies'] = remedies
-        data = util.json_write(article_filepath, data)
-        
-
-def ai_herbalism_teas_conditions_description(condition):
-    condition_dash = condition.strip().lower().replace(' ', '-')
-    filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
-    data = util.json_read(filepath)
-
-    for index, remedy in enumerate(data['remedies']):
-        remedy_name = remedy['remedy_name']
-
-        remedy_desc = ''
-        try: remedy_desc = remedy['remedy_desc']
-        except: remedy['remedy_desc'] = ''
-
-        if remedy_desc != '': continue
-
-        remedy_name_formatted = remedy_name.lower().strip() + ' tea'
-        remedy_name_formatted = remedy_name_formatted.replace(' tea tea', ' tea')
-        starting_text = f'{remedy_name_formatted.capitalize()} helps with {condition.lower()} because '
-        prompt = f'''
-            Explain in a 5-sentence paragraph why {remedy_name_formatted} helps with {condition.lower()}.
-            Start with these words: {starting_text}.
-        '''     
-        prompt = prompt_normalize(prompt)
-        reply = gen_reply(prompt)
-        reply = reply.strip()
-        if starting_text.lower().strip() not in reply.lower():
-            reply = starting_text + reply 
-
-        reply_formatted = []
-        for line in reply.split('\n'):
-            line = line.strip()
-            if line == '': continue
-            if line[0].isdigit():
-                line = '. '.join(line.split('. ')[1:]).strip()
-                if line == '': continue
-            if ":" in line:
-                line = ': '.join(line.split(':')[1:]).strip()
-                if line == '': continue
-            line = line.replace('...', '')
-            line = re.sub("\s\s+" , " ", line)
-            reply_formatted.append(line)
-
-        if reply_formatted == '' or len(reply_formatted) == 1:
-            print('***************************************')
-            for paragraph in reply_formatted:
-                print(paragraph)
-            print('***************************************')
-
-            data['remedies'][index]['remedy_desc'] = reply_formatted[0]
-            util.json_write(filepath, data)
-
-        time.sleep(30)
-        # return running
-
-
-def ai_herbalism_teas_conditions_recipe(condition):
-    condition_dash = condition.strip().lower().replace(' ', '-')
-    filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
-    data = util.json_read(filepath)
-
-    for index, remedy in enumerate(data['remedies']):
-        remedy_name = remedy['remedy_name']
-
-        remedy_recipe = []
-        try: remedy_recipe = remedy['remedy_recipe']
-        except: remedy['remedy_recipe'] = []
-
-        if remedy_recipe != []: continue
-
-        remedy_name_formatted = remedy_name.lower().strip() + ' tea'
-        remedy_name_formatted = remedy_name_formatted.replace(' tea tea', ' tea')
-        prompt = f'''
-            Write a detailed 5-step recipe in ordered list format on how to make why {remedy_name_formatted} for {condition.lower()}.
-            Include numbers like ingredient dosages and times of preparation in the steps when applicable.
-            Each step must be only 1 sentence long.
-        '''     
-        prompt = prompt_normalize(prompt)
-        reply = gen_reply(prompt)
-        reply = reply.strip()
-
-        reply_formatted = []
-        for line in reply.split('\n'):
-            line = line.strip()
-            if line == '': continue
-            if not line[0].isdigit(): continue
-            
-            line = '. '.join(line.split('. ')[1:]).strip()
-            if line == '': continue
-            # if ":" in line:
-            #     line = ': '.join(line.split(':')[1:]).strip()
-            #     if line == '': continue
-            # line = line.replace('...', '')
-            # line = re.sub("\s\s+" , " ", line)
-            reply_formatted.append(line)
-
-        if reply_formatted == '' or len(reply_formatted) == 5:
-            print('***************************************')
-            for paragraph in reply_formatted:
-                print(paragraph)
-            print('***************************************')
-
-            data['remedies'][index]['remedy_recipe'] = reply_formatted
-            util.json_write(filepath, data)
-
-        time.sleep(30)
-        # return running
-
-
-rows = util.csv_get_rows('database/tables/conditions.csv')
-conditions = [row[0] for row in rows[1:]]
-for condition in conditions:
-    
-    # start = time.time()
-
-    ai_herbalism_teas_conditions_description(condition)
-    ai_herbalism_teas_conditions_recipe(condition)
-    
-    # end = time.time()
-    # print(end - start)
-
-################################################################################
 
 
 
@@ -2192,17 +1962,6 @@ for index, plant in enumerate(plants):
 
 # article_clear_data()
 
-# running = True
-# while running:
-    # running = ai_gen_medicine_benefits_definition_section()
-    # running = ai_gen_medicine_benefits_constituents_section()
-    # running = ai_gen_medicine_benefits_constituents_text_section()
-    # running = ai_gen_medicine_benefits_conditions_section()
-    # running = ai_gen_medicine_benefits_conditions_text_section()
-
-    # running = ai_entity_main()
-    # running = ai_entity_medicine_main()
-    # running = ai_entity_medicine_benefits_main()
 
 
 
