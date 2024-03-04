@@ -244,6 +244,11 @@ def ai_herbalism_teas_conditions_init(condition):
     except: data['url'] = url_json
     if url_json == '': data['url'] = f'herbalism/tea/{condition_dash}'
 
+    num_json = ''
+    try: num_json = data['remedy_num']
+    except: data['remedy_num'] = num_json
+    if num_json == '': data['remedy_num'] = 10
+
     util.json_write(filepath, data)
 
 

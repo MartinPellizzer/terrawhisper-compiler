@@ -12118,3 +12118,31 @@ Read port: 62432
 1709573483780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 DevTools listening on ws://127.0.0.1:62424/devtools/browser/cce0a60d-8ad2-4856-8169-5aaea25a0960
 Exiting due to channel error.
+1709573505246	geckodriver	INFO	Listening on 127.0.0.1:62471
+1709573508310	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62472" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofiledoimIT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1709573508831	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1709573508924	Marionette	INFO	Listening on port 62481
+WebDriver BiDi listening on ws://127.0.0.1:62472
+Read port: 62481
+1709573509187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62472/devtools/browser/c110955d-1030-49a2-aee6-850143c56013
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1709573538874	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+198462/Z/</<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:11313
+198462/Z/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:11270
+
+JavaScript warning: https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21714
+t@https://s.pinimg.com/webapp/99961-68ab52c574f3b10c.mjs:1:21589
+
