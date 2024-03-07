@@ -19,24 +19,24 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
 
-ARTICLES_NUM = 17
+ARTICLES_NUM = 20
 
 
 
 driver = webdriver.Firefox()
 driver.get("https://www.pinterest.com/login/")
 driver.maximize_window()
-time.sleep(3)
+time.sleep(10)
 
 e = driver.find_element(By.XPATH, '//input[@id="email"]')
 # e.send_keys('martinpellizzer@gmail.com') 
 e.send_keys('leenrandell@gmail.com') 
-time.sleep(3)
+time.sleep(10)
 
 e = driver.find_element(By.XPATH, '//input[@id="password"]')
 # e.send_keys('Newoliark1') 
 e.send_keys('Newoliark1') 
-time.sleep(3)
+time.sleep(10)
 
 e = driver.find_element(By.XPATH, '//div[text()="Log in"]')
 e.click()
@@ -60,7 +60,7 @@ for article_filepath in articles_filepath:
     data = util.json_read(article_filepath)
 
     remedy_num = data['remedy_num']
-    keyword = data['keyword']
+    title = data['title']
     condition = data['condition']
     preparation = data['preparation']
     url = data['url']
@@ -104,7 +104,7 @@ for article_filepath in articles_filepath:
     # LOG
     print(article_filepath)
     print(remedy_num)
-    print(keyword)
+    print(title)
     print(condition)
     print(preparation)
     print(url)
@@ -114,7 +114,7 @@ for article_filepath in articles_filepath:
     print()
 
     url = f'https://terrawhisper.com/{url}.html'
-    title = f'{remedy_num} {keyword.title()}'
+    title = f'{remedy_num} {title.title()}'
     board_name = 'Herbal Tea'
 
     driver.get("https://www.pinterest.com/pin-creation-tool/")
@@ -158,74 +158,6 @@ for article_filepath in articles_filepath:
     driver.get("https://www.google.com/")
 
     time.sleep(300)
-
-
-
-
-
-# articles_rows = util.csv_get_rows('static-articles.csv')
-# articles_dict = {}
-# for i, item in enumerate(articles_rows[0]):
-#     articles_dict[item] = i
-
-# for i, row in enumerate(articles_rows[1:]):
-#     day_last_pinned = row[articles_dict['day_last_pinned']].strip()
-#     url = row[articles_dict['url']].strip()
-#     line_1 = 'best herbal teas for'
-#     line_2 = row[articles_dict['problem']].strip()
-#     num = int(row[articles_dict['num']].strip())
-#     pin_title = str(num).strip() + ' ' + row[articles_dict['title']].strip()
-#     out_filename = url.split('/')[-1].strip()
-
-#     board_name = 'Herbal Tea'
-
-#     if str(day_last_pinned).strip() == str(datetime.today().day).strip():
-#         continue
-
-#     print(day_last_pinned)
-#     print(pin_title)
-#     print(url)
-#     print(line_1)
-#     print(line_2)
-
-
-#     _start_folder = 'C:/terrawhisper-assets/images/tea'
-#     _img_teas_folders = os.listdir(_start_folder)
-#     _img_teas_filepaths = []
-#     for _folder in _img_teas_folders:
-#         _img_filepaths = os.listdir(f'{_start_folder}/{_folder}')
-#         for _img_filepath in _img_filepaths:
-#             _img_teas_filepaths.append(f'{_start_folder}/{_folder}/{_img_filepath}')
-
-
-#     random.shuffle(_img_teas_filepaths)
-
-#     images = _img_teas_filepaths
-#     line_list = [line_1, line_2]
-#     img_filepath = pinterest_util.gen_img_template(
-#         line_list,
-#         images,
-#         out_filename,
-#         num,
-#     )
-
-#     print(img_filepath)
-
-
-
-#     url = f'https://terrawhisper.com/{url}.html'
-#     url_description = url.replace('https://terrawhisper.com/', 'C:/terrawhisper-compiler/website/')
-#     with open(url_description) as fp:
-#         soup = BeautifulSoup(fp, 'html.parser')
-
-#     content = soup.find_all('p')
-#     lines = [p.getText() for p in content]
-#     random.shuffle(lines)
-#     description = '. '.join(lines[:3])
-#     description = re.sub("\s\s+" , " ", description)
-#     print(description)
-
-#     description = description[:500]
 
 
 

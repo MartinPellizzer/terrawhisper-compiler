@@ -219,6 +219,7 @@ def ai_herbalism_teas_conditions_recipe(condition, condition_i):
         time.sleep(30)
 
 
+
 def ai_herbalism_teas_conditions_init(condition):
     condition_dash = condition.strip().lower().replace(' ', '-')
     filepath = f'database/articles/herbalism/tea/{condition_dash}.json'

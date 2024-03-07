@@ -5,6 +5,14 @@ import random
 from PIL import Image, ImageColor, ImageEnhance
 
 
+def create_folder_for_filepath(filepath):
+    chunks = filepath.split('/')
+    chunk_curr = ''
+    for chunk in chunks[:-1]:
+        chunk_curr += chunk + '/'
+        try: os.makedirs(chunk_curr)
+        except: pass
+
 
 ###################################
 # CSV
@@ -61,8 +69,8 @@ def file_append(filepath, text):
 
 
 def file_write(filepath, text):
-    with open(filepath, 'w', encoding='utf-8') as f: 
-        f.write(text)
+    create_folder_for_filepath(filepath)
+    with open(filepath, 'w', encoding='utf-8') as f: f.write(text)
 
 
 
@@ -114,6 +122,7 @@ def text_format_131(text):
     text_formatted = text_formatted.replace('..', '.')
     return text_formatted
 
+
     
 def text_format_131_html(text):
     text_formatted = ''
@@ -129,8 +138,6 @@ def text_format_131_html(text):
 
 
 
-
-    
 def text_format_1N1_html(text):
     text_formatted = ''
     lines = text.split('. ')
@@ -164,7 +171,8 @@ def get_scientific_name(common_name, delimiter='\\'):
         if row[1].lower().strip().replace(' ', '-') == common_name.lower().strip().replace(' ', '-')]
     scientific_name = rows[0][0].replace('-', ' ')
     return scientific_name
-    
+
+
 def get_common_name(entity, delimiter='\\'):
     rows = csv_get_rows('plants.csv', delimiter=delimiter)
     rows = [
