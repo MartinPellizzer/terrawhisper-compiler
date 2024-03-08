@@ -1203,7 +1203,7 @@ def gen_articles_plant_medicine_2():
         
         article_html += f'<p><img src="/images/{entity}-medicine-overview.jpg" alt="{latin_name}"></p>' + '\n'
         
-        try: article_html += util.text_format_1N1_html('\n'.join(data['intro'])) + '\n'
+        try: article_html += util.text_format_1N1_html(data['intro']) + '\n'
         except: print('MISSING >>>>> INTRO\n')
 
         article_html += f'<h2>What are the health benefits of {latin_name} ({common_name})?</h2>' + '\n'
@@ -1242,14 +1242,14 @@ def gen_articles_plant_medicine_2():
             article_html += lst_to_html_bold(data['side_effects_list']) + '\n'
         except: print('MISSING >>>>> SIDE EFFECTS LIST\n')
 
-        # article_html += f'<h2>What are the precautions to take when using {latin_name} ({common_name}) medicinally?</h2>' + '\n'
-        # article_html += f'<p><img src="/images/{entity}-medicine-precautions.jpg" alt="{latin_name}"></p>' + '\n'
-        # try: article_html += util.text_format_1N1_html('\n'.join(data['precautions_text'])) + '\n'
-        # except: print('MISSING >>>>> PRECAUTIONS TEXT\n')
-        # try:
-        #     article_html += f'<p>The following list shows the precautions to take when using {latin_name} medicinally.</p>' + '\n'
-        #     article_html += lst_to_html_bold('\n'.join(data['precautions_list'])) + '\n'
-        # except: print('MISSING >>>>> PRECAUTIONS LIST\n')
+        article_html += f'<h2>What are the precautions to take when using {latin_name} ({common_name}) medicinally?</h2>' + '\n'
+        article_html += f'<p><img src="/images/{entity}-medicine-precautions.jpg" alt="{latin_name}"></p>' + '\n'
+        try: article_html += util.text_format_1N1_html(data['precautions_text']) + '\n'
+        except: print('MISSING >>>>> PRECAUTIONS TEXT\n')
+        try:
+            article_html += f'<p>The following list shows the precautions to take when using {latin_name} medicinally.</p>' + '\n'
+            article_html += lst_to_html_bold(data['precautions_list']) + '\n'
+        except: print('MISSING >>>>> PRECAUTIONS LIST\n')
 
         header_html = generate_header_light()
         word_count = len(article_html.split(' '))
@@ -1488,7 +1488,7 @@ def gen_articles_plant_medicine_benefits():
         util.file_write(f'{article_filepath_out}', html)
 
 
-def gen_articles_plant_medicine_benefits_2():
+def articles_benefits():
     articles_folderpath = 'database/articles/plants'
     articles_filepath = []
     for plant in plants:
@@ -1510,14 +1510,16 @@ def gen_articles_plant_medicine_benefits_2():
         else: print('MISSING >>>>> TITLE\n')
         
         article_html += f'<p><img src="/images/{entity}.jpg" alt="{latin_name}"></p>' + '\n'
-
-        images_plant_foldername = f'{IMAGE_FOLDER}/plants/{entity}'
-        try: images_plant_filename = os.listdir(images_plant_foldername)
-        except: images_plant_filename = None
         
-        images_filepath = []
-        if images_plant_filename:
-            images_filepath = [f'{images_plant_foldername}/{filename}' for filename in images_plant_filename]
+        try: article_html += util.text_format_1N1_html(data['intro']) + '\n'
+        except: print('MISSING >>>>> INTRO\n')
+        # images_plant_foldername = f'{IMAGE_FOLDER}/plants/{entity}'
+        # try: images_plant_filename = os.listdir(images_plant_foldername)
+        # except: images_plant_filename = None
+        
+        # images_filepath = []
+        # if images_plant_filename:
+        #     images_filepath = [f'{images_plant_foldername}/{filename}' for filename in images_plant_filename]
 
         try: benefits = data['benefits']
         except: benefits = []
@@ -1526,7 +1528,7 @@ def gen_articles_plant_medicine_benefits_2():
             benefit_name_dash = benefit_name.lower().replace(' ' , '-')
 
             article_html += f'<h2>{i+1}. {benefit_name}</h2>' + '\n'
-            article_html += f'<p><img src="/images/{entity}-medicine-benefits.jpg" alt="{latin_name}"></p>' + '\n'
+            article_html += f'<p><img src="/images/{entity}-medicine-benefits-{benefit["benefit_name"].strip().lower().replace(" ", "-")}.jpg" alt="{latin_name}"></p>' + '\n'
             try: article_html += util.text_format_1N1_html(benefit['benefit_desc']) + '\n'
             except: print(f'MISSING DESCRIPTION: {article_filepath_in} >> {benefit_name}')
 
@@ -1600,20 +1602,21 @@ def gen_articles_plant_medicine_benefits_2():
             img.save(filepath_out, format='JPEG', optimize=True, quality=50)
 
 
-        filepaths_out = [
-            f'website/images/{entity}-medicine-benefits-{benefits[0]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-            f'website/images/{entity}-medicine-benefits-{benefits[1]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-            f'website/images/{entity}-medicine-benefits-{benefits[2]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-            f'website/images/{entity}-medicine-benefits-{benefits[3]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-            f'website/images/{entity}-medicine-benefits-{benefits[4]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-            f'website/images/{entity}-medicine-benefits-{benefits[5]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-            f'website/images/{entity}-medicine-benefits-{benefits[6]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-            f'website/images/{entity}-medicine-benefits-{benefits[7]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-            f'website/images/{entity}-medicine-benefits-{benefits[8]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-            f'website/images/{entity}-medicine-benefits-{benefits[9]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-        ]
+        # filepaths_out = [
+        #     f'website/images/{entity}-medicine-benefits-{benefits[0]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
+        #     f'website/images/{entity}-medicine-benefits-{benefits[1]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
+        #     f'website/images/{entity}-medicine-benefits-{benefits[2]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
+        #     f'website/images/{entity}-medicine-benefits-{benefits[3]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
+        #     f'website/images/{entity}-medicine-benefits-{benefits[4]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
+        #     f'website/images/{entity}-medicine-benefits-{benefits[5]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
+        #     f'website/images/{entity}-medicine-benefits-{benefits[6]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
+        #     f'website/images/{entity}-medicine-benefits-{benefits[7]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
+        #     f'website/images/{entity}-medicine-benefits-{benefits[8]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
+        #     f'website/images/{entity}-medicine-benefits-{benefits[9]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
+        # ]
 
-        for i, filepath_out in enumerate(filepaths_out):
+        for benefit in benefits[:10]:
+            filepath_out = f'website/images/{entity}-medicine-benefits-{benefit["benefit_name"].strip().lower().replace(" ", "-")}.jpg'
             if os.path.exists(filepath_out): continue
             print(filepath_out)
             try: filepath_in = filepaths_in[i]
@@ -1653,8 +1656,8 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 # generate_articles_herbalism_tea_2()
 # generate_articles_plants()
 # generate_articles_plants_2()
-gen_articles_plant_medicine_2()
-# gen_articles_plant_medicine_benefits_2()
+# gen_articles_plant_medicine_2()
+articles_benefits()
 
 # generate_home()
 # generate_page_herbs()

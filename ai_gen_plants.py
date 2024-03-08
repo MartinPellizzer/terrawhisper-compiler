@@ -428,38 +428,7 @@ def ai_entity_main():
 # MEDICINE
 #######################################################################
 
-def ai_medicine_intro(filepath):
-    data = util.json_read(filepath)
-    latin_name = data['latin_name']
-    common_name = data['common_name']
 
-    intro = ''
-    try: intro = data['intro']
-    except: data['intro'] = intro
-    if intro != '': return
-
-    prompt = f'''
-        Write a 5-sentence paragraph about the medicinal aspects of {latin_name} ({common_name}).
-        In sentence 1, write the benefits of {latin_name}.
-        In sentence 2, write the constituents of {latin_name}.
-        In sentence 3, write the preparations of {latin_name}.
-        In sentence 4, write the side effects of {latin_name}.
-        In sentence 5, write the precautions of {latin_name}.
-    '''     
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
-    reply_formatted = reply_to_paragraphs(reply)
-
-    if len(reply_formatted) == 1:
-        p = reply_formatted[0]
-        print('***************************************')
-        print(p)
-        print('***************************************')
-
-        data['intro'] = p
-        util.json_write(filepath, data)
-
-    time.sleep(30)
 
 
 def ai_medicine_constituents(filepath, running):
@@ -726,8 +695,41 @@ def ai_medicine_benefits_description_list_csv(entity):
 
 
 
+def ai_medicine_intro(entity):
+    var_val = ''
+    var_name = 'intro'
+    
+    filepath = f'database/articles/plants/{entity}/medicine.json'
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+    
+    try: var_val = data[var_name]
+    except: data[var_name] = var_val
+    # if var_val != '': return
 
+    prompt = f'''
+        Write a 5-sentence paragraph about the medicinal aspects of {latin_name}.
+        In sentence 1, write the benefits of {latin_name}.
+        In sentence 2, write the constituents of {latin_name}.
+        In sentence 3, write the preparations of {latin_name}.
+        In sentence 4, write the side effects of {latin_name}.
+        In sentence 5, write the precautions of {latin_name}.
+    '''     
+    prompt = prompt_normalize(prompt)
+    reply = gen_reply(prompt)
+    reply_formatted = reply_to_paragraphs(reply)
 
+    if len(reply_formatted) == 1:
+        p = reply_formatted[0]
+        print('***************************************')
+        print(p)
+        print('***************************************')
+
+        data[var_name] = p
+        util.json_write(filepath, data)
+
+    time.sleep(30)
 
 
 def ai_medicine_benefits_list(entity):
@@ -1150,7 +1152,7 @@ def ai_medicine_main_2():
         data['title'] = f'{latin_name} ({common_name}) Medicinal Guide'
         util.json_write(filepath, data)
 
-        # ai_medicine_intro(filepath)
+        ai_medicine_intro(entity)
         ai_medicine_benefits_list(entity)
         ai_medicine_constituents_text(entity)
         ai_medicine_constituents_list(entity)
@@ -1180,8 +1182,8 @@ def ai_medicine_main_2():
 
 
 
-ai_medicine_main_2()
-quit()
+# ai_medicine_main_2()
+# quit()
 
 
 
@@ -1207,6 +1209,41 @@ def entity_medicine_benefits_init():
 # entity_medicine_benefits_init()
 
 # ---------------------------------------------------------------------
+
+
+
+
+def ai_benefits_intro(entity):
+    var_val = ''
+    var_name = 'intro'
+    
+    filepath = f'database/articles/plants/{entity}/medicine/benefits.json'
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+    
+    try: var_val = data[var_name]
+    except: data[var_name] = var_val
+    if var_val != '': return
+
+    prompt = f'''
+        Write a 5-sentence paragraph about the medicinal benefits of {latin_name}.
+    '''     
+    prompt = prompt_normalize(prompt)
+    reply = gen_reply(prompt)
+    reply_formatted = reply_to_paragraphs(reply)
+
+    if len(reply_formatted) == 1:
+        p = reply_formatted[0]
+        print('***************************************')
+        print(p)
+        print('***************************************')
+
+        data[var_name] = p
+        util.json_write(filepath, data)
+
+    time.sleep(30)
+
 
 
 def ai_benefits_section(filepath, csv_benefits, running):
@@ -1621,11 +1658,14 @@ def ai_benefits_main():
             print(f'creating new file: {filepath}')
         util.json_write(filepath, data)
 
-        ai_benefits_section(filepath, csv_benefits, running)
-        ai_benefits_description_text(filepath, running)
+        ai_benefits_intro(entity)
+
+        # ai_benefits_section(filepath, csv_benefits, running)
+        # ai_benefits_description_text(filepath, running)
         
 
-
+ai_benefits_main()
+quit()
 
 
 #######################################################################
