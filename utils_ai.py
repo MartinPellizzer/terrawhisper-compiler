@@ -5,15 +5,18 @@ client = Groq(
 )
 
 
+
 def gen_reply(prompt):
     completion = client.chat.completions.create(
+        # model="llama2-70b-4096",
         model="mixtral-8x7b-32768",
         messages=[
             {
                 "role": "user",
                 "content": prompt,
             }
-        ]
+        ],
+        temperature=0.5,
     )
 
     reply = completion.choices[0].message.content

@@ -865,11 +865,11 @@ def generate_articles_plants():
         # quit()
 
 
-def generate_articles_plants_2():
+def articles_plants():
     articles_folderpath = 'database/articles/plants'
     for plant in plants:
         latin_name = plant[cols['latin_name']].strip().capitalize()
-        entity = latin_name.lower().replace(' ', '-')
+        entity = latin_name.lower().replace(' ', '-').replace('.', '')
         article_filepath_in = f'{articles_folderpath}/{entity}.json'
         article_filepath_out = f'website/{entity}.html'
 
@@ -890,7 +890,7 @@ def generate_articles_plants_2():
         article_html = ''
 
         article_html += f'<h1>{title}</h1>' + '\n'
-        article_html += f'<p><img src="/images/{latin_name_dash}.jpg" alt="{latin_name}"></p>' + '\n'
+        article_html += f'<p><img src="/images/{latin_name_dash}-overview.jpg" alt="{latin_name}"></p>' + '\n'
         article_html += util.text_format_1N1_html(intro) + '\n'
         article_html += f'<h2>What are the medicinal properties of {latin_name}?</h2>' + '\n'
         article_html += f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
@@ -963,6 +963,33 @@ def generate_articles_plants_2():
         '''
 
         util.file_write(f'{article_filepath_out}', html)
+
+
+        # GET IMAGES
+        folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
+        if not os.path.exists(folderpath): 
+            print('MISSING >>>>> IMAGE FOLDER')
+            continue
+        filenames = os.listdir(folderpath)
+        filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+        random.shuffle(filepaths_in)
+
+        # GENERATE IMAGES IF NEW
+        filepaths_out = [
+            f'website/images/{entity}-overview.jpg',
+            f'website/images/{entity}-medicine.jpg',
+            f'website/images/{entity}-horticulture.jpg',
+            f'website/images/{entity}-botany.jpg',
+        ]
+
+        for i, filepath_out in enumerate(filepaths_out):
+            if os.path.exists(filepath_out): continue
+            filepath_in = filepaths_in[i]
+            img = Image.open(filepath_in)
+            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+
 
         # IMAGES
         # folderpath = f'{IMAGE_FOLDER}/plants/{latin_name_dash}'
@@ -1179,12 +1206,12 @@ def gen_articles_plant_medicine():
         img.save(filepath_out, format='JPEG', optimize=True, quality=50)
 
 
-def gen_articles_plant_medicine_2():
+def articles_medicine():
     articles_folderpath = 'database/articles/plants'
     for plant in plants:
         latin_name = plant[cols['latin_name']].strip().capitalize()
         common_name = plant[cols['common_name']].strip().title()
-        entity = latin_name.lower().replace(' ', '-')
+        entity = latin_name.lower().replace(' ', '-').replace('.', '')
         article_filepath = f'{articles_folderpath}/{entity}/medicine.json'
 
         if not os.path.exists(article_filepath): continue
@@ -1508,7 +1535,7 @@ def articles_benefits():
         except: title = ''
         if title != '': article_html += f'<h1>{title}</h1>' + '\n'
         else: print('MISSING >>>>> TITLE\n')
-        
+
         article_html += f'<p><img src="/images/{entity}.jpg" alt="{latin_name}"></p>' + '\n'
         
         try: article_html += util.text_format_1N1_html(data['intro']) + '\n'
@@ -1615,7 +1642,7 @@ def articles_benefits():
         #     f'website/images/{entity}-medicine-benefits-{benefits[9]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
         # ]
 
-        for benefit in benefits[:10]:
+        for i, benefit in enumerate(benefits[:10]):
             filepath_out = f'website/images/{entity}-medicine-benefits-{benefit["benefit_name"].strip().lower().replace(" ", "-")}.jpg'
             if os.path.exists(filepath_out): continue
             print(filepath_out)
@@ -1655,13 +1682,13 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 # generate_articles_herbalism_tea_2()
 # generate_articles_plants()
-# generate_articles_plants_2()
-# gen_articles_plant_medicine_2()
+articles_plants()
+articles_medicine()
 articles_benefits()
 
-# generate_home()
-# generate_page_herbs()
-# generate_about()
+generate_home()
+generate_page_herbs()
+generate_about()
 
 # generate_page_herbalism()
 # generate_page_herbalism_tea()

@@ -52,8 +52,9 @@ def ai_herbalism_teas_conditions_csv(condition, condition_i):
     prompt_paragraphs_num = 20
     prompt = f'''
         Write a numbered list of the {prompt_paragraphs_num} best herbal teas for {condition}.
-        Write only the names of the herbs of the herbal teas, not the descriptions.
+        Write only the names of the herbs, not the descriptions.
         Include only 1 herb for each list item.
+        Don't specify the part of the herb.
     '''
 
     prompt = prompt_normalize(prompt)
@@ -253,14 +254,16 @@ def ai_herbalism_teas_conditions_init(condition):
     util.json_write(filepath, data)
 
 
+
+
 rows = util.csv_get_rows('database/tables/conditions.csv')
 conditions = [row[0] for row in rows[1:]]
 for condition_i, condition in enumerate(conditions):
-    ai_herbalism_teas_conditions_init(condition)
+    # ai_herbalism_teas_conditions_init(condition)
 
     # ai_herbalism_teas_conditions_csv(condition, condition_i)
     # ai_herbalism_teas_conditions_csv_to_json()
 
-    # ai_herbalism_teas_conditions_description(condition, condition_i)
-    # ai_herbalism_teas_conditions_recipe(condition, condition_i)
+    ai_herbalism_teas_conditions_description(condition, condition_i)
+    ai_herbalism_teas_conditions_recipe(condition, condition_i)
     

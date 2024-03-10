@@ -2,38 +2,13 @@ herbal tea for
 
 herbal tea for beginners
 
-herbal tea for clear skin
-herbal tea for colon cleanse
 herbal tea for cats
-herbal tea for diarrhea
-herbal tea for digestion
 herbal tea for dogs
-herbal tea for dizziness
-herbal tea for detox
-herbal tea for dehydration
 herbal tea for daniel fast
-herbal tea for diarrhoea
-herbal tea for digestion recipe
 herbal tea for daily consumption
-herbal tea for diet
-herbal tea for digestive system
-herbal tea for energy
-herbal tea for eczema
-herbal tea for eye health
-herbal tea for ear infection
-herbal tea for energy boost
-herbal tea for edema
-herbal tea for earache
+
 herbal tea for estrogen dominance
-herbal tea for eyesight
-herbal tea for endometriosis pain
-herbal tea for eye floaters
-herbal tea for enlarged spleen
-herbal tea for esophagus
-herbal tea for flu
-herbal tea for fever
-herbal tea for fertility
-herbal tea for flat tummy
+
 herbal tea for focus
 herbal tea for fasting
 herbal tea for flatulence

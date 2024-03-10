@@ -238,6 +238,7 @@ def reply_to_list(reply):
 
         if ':' in line: line = line.split(':')[1]
         if line.strip() == '': continue
+        if len(line.strip().split(' ')) <= 10: continue
 
         reply_formatted.append(line)
     return reply_formatted
@@ -261,12 +262,13 @@ def ai_entity_intro(filepath):
     intro = ''
     try: intro = data['intro']
     except: data['intro'] = intro
-    # if intro != '': return
+    if intro != '': return
 
     prompt = f'''
         Write a 5-sentence paragraph about of {latin_name}.
         Include the medicinal properties of {latin_name}, the horticultural conditions of {latin_name}, and the botanical characteristics of {latin_name}.
         Don't include lists.
+        Don't add empty lines between sentences.
     '''     
     prompt = prompt_normalize(prompt)
     reply = gen_reply(prompt)
@@ -341,7 +343,6 @@ def ai_entity_horticolture(filepath):
         In paragraph 3, write 5 sentences about the caring tips of {latin_name}.
         In paragraph 4, write 5 sentences about the harvesting tips of {latin_name}.
         In paragraph 5, write 5 sentences about the pests and diseases of {latin_name}.
-        Don't include lists.
     '''  
     prompt = prompt_normalize(prompt)
     reply = gen_reply(prompt)
@@ -371,13 +372,12 @@ def ai_entity_botany(filepath):
     if var_val != '': return
 
     prompt = f'''
-        Write 5 paragraphs in 400 words about the horticultural aspects of {latin_name}.
+        Write 5 paragraphs in 400 words about the botanical aspects of {latin_name}.
         In paragraph 1, write 5 sentences about the taxonomy of {latin_name}.
         In paragraph 2, write 5 sentences about the morphology of {latin_name}.
         In paragraph 3, write 5 sentences about the variants names and differences of {latin_name}.
         In paragraph 4, write 5 sentences about the geographic distribution and natural habitats of {latin_name}.
         In paragraph 5, write 5 sentences about the life-cycle of {latin_name}.
-        Don't include lists.
     '''  
     prompt = prompt_normalize(prompt)
     reply = gen_reply(prompt)
@@ -599,40 +599,40 @@ def ai_medicine_precautions(filepath, running):
     return running
 
 
-def ai_medicine_main():
-    for index, plant in enumerate(plants):
-        print(index, '-', len(plants))
+# def ai_medicine_main():
+#     for index, plant in enumerate(plants):
+#         print(index, '-', len(plants))
 
-        latin_name = plant[cols['latin_name']].strip().capitalize()
-        common_name = plant[cols['common_name']].strip().title()
+#         latin_name = plant[cols['latin_name']].strip().capitalize()
+#         common_name = plant[cols['common_name']].strip().title()
 
-        entity = latin_name.lower().replace(' ', '-')
-        filepath = f'database/articles/plants/{entity}/medicine.json'
+#         entity = latin_name.lower().replace(' ', '-')
+#         filepath = f'database/articles/plants/{entity}/medicine.json'
         
-        data = util.json_read(filepath)
-        data['entity'] = entity
-        data['url'] = f'{entity}/medicine'
-        data['latin_name'] = latin_name
-        data['common_name'] = common_name
-        data['title'] = f'{latin_name} ({common_name}) Medicinal Guide'
-        util.json_write(filepath, data)
+#         data = util.json_read(filepath)
+#         data['entity'] = entity
+#         data['url'] = f'{entity}/medicine'
+#         data['latin_name'] = latin_name
+#         data['common_name'] = common_name
+#         data['title'] = f'{latin_name} ({common_name}) Medicinal Guide'
+#         util.json_write(filepath, data)
 
-        ai_medicine_intro(filepath)
+#         ai_medicine_intro(filepath)
 
-        # # BENEFITS
-        # ai_entity_medicine_benefits(filepath, running)
+#         # # BENEFITS
+#         # ai_entity_medicine_benefits(filepath, running)
 
-        # # CONSTITUENTS
-        # ai_entity_medicine_constituents(filepath, running)
+#         # # CONSTITUENTS
+#         # ai_entity_medicine_constituents(filepath, running)
 
-        # # PREPARATIONS
-        # ai_entity_medicine_preparations(filepath, running)
+#         # # PREPARATIONS
+#         # ai_entity_medicine_preparations(filepath, running)
 
-        # # SIDE EFFECTS
-        # ai_entity_medicine_side_effects(filepath, running)
+#         # # SIDE EFFECTS
+#         # ai_entity_medicine_side_effects(filepath, running)
 
-        # # PRECAUTIONS
-        # ai_entity_medicine_precautions(filepath, running)
+#         # # PRECAUTIONS
+#         # ai_entity_medicine_precautions(filepath, running)
 
 
 
@@ -641,6 +641,332 @@ def ai_medicine_main():
 #######################################################################
 # ROOT / MEDICINE
 #######################################################################
+
+
+
+
+
+
+# def ai_medicine_benefits_text(data):
+#     entity = data['entity']
+#     latin_name = data['latin_name']
+#     common_name = data['common_name']
+
+#     filepath = f'database/articles/plants/{entity}/medicine.json'
+
+#     benefits_text = ''
+#     try: benefits_text = data['benefits_text']
+#     except: data['benefits_text'] = benefits_text
+#     if benefits_text != '':  return
+
+#     rows = util.csv_get_rows_by_entity('database/tables/benefits.csv', entity)
+#     benefits = [row[1] for row in rows]
+#     benefits_formatted = ', '.join(benefits)
+
+#     aka = f', also known as {common_name.lower()},'
+#     starting_text = f'{latin_name}{aka} has '
+#     prompt = f'''
+#         Explain in a 5-sentence paragraph the following health benefits of {latin_name}: {benefits_formatted}.
+#         Don't include the common name of the plant.
+#         Start with the following words: {starting_text}
+#     '''
+#     prompt = prompt_normalize(prompt)
+#     reply = gen_reply(prompt)
+#     reply = reply.replace(aka, '')
+#     reply_formatted = reply_to_paragraphs(reply)
+
+#     if len(reply_formatted) == 1:
+#         p = reply_formatted[0]
+#         print('***************************************')
+#         print(p)
+#         print('***************************************')
+
+#         data['benefits_text'] = p
+#         util.json_write(filepath, data)
+
+#     time.sleep(30)
+
+
+# def ai_medicine_constituents_text(data):
+#     section = 'constituents'
+
+#     entity = data['entity']
+#     latin_name = data['latin_name']
+#     common_name = data['common_name']
+
+#     data_param = f'{section}_text'
+#     data_var = ''
+#     try: data_var = data[data_param]
+#     except: data[data_param] = data_var
+
+#     if data_var != '':  return
+
+#     rows = util.csv_get_rows_by_entity(f'database/tables/{section}.csv', entity)
+#     lst = [row[1] for row in rows]
+#     lst_formatted = ', '.join(lst)
+
+#     aka = f', also known as {common_name.lower()},'
+#     starting_text = f'{latin_name}{aka} has several active constituents, '
+#     prompt = f'''
+#         Explain in a 5-sentence paragraph the following active constituents of {latin_name}: {lst_formatted}.
+#         Start with these words: {starting_text}
+#     '''    
+#     prompt = prompt_normalize(prompt)
+#     reply = gen_reply(prompt)
+#     reply = reply.replace(aka, '')
+#     reply_formatted = reply_to_paragraphs(reply)
+
+#     if len(reply_formatted) == 1:
+#         p = reply_formatted[0]
+#         print('***************************************')
+#         print(p)
+#         print('***************************************')
+
+#         data[data_param] = p
+#         util.json_write(f'database/articles/plants/{entity}/medicine.json', data)
+
+#     time.sleep(30)
+
+
+# def ai_medicine_preparations_text(data):
+#     section = 'preparations'
+
+#     entity = data['entity']
+#     latin_name = data['latin_name']
+#     common_name = data['common_name']
+
+#     data_param = f'{section}_text'
+#     data_var = ''
+#     try: data_var = data[data_param]
+#     except: data[data_param] = data_var
+
+#     if data_var != '':  return
+
+#     rows = util.csv_get_rows_by_entity(f'database/tables/{section}.csv', entity)
+#     lst = [row[1] for row in rows]
+#     lst_formatted = ', '.join(lst)
+
+#     starting_text = f'{latin_name}, also known as {common_name.lower()}, has many medicinal preparations, such as '
+#     prompt = f'''
+#         Explain in a 5-sentence paragraph the following medicinal preparations of {latin_name}: {lst_formatted}.
+#         Start with these words: {starting_text}
+#     '''    
+#     prompt = prompt_normalize(prompt)
+#     reply = gen_reply(prompt)
+#     reply = reply.replace(f', also known as {common_name.lower()},', '')
+#     reply = reply.replace(f', also known as {common_name.title()},', '')
+#     reply = reply.replace(f', also known as {common_name.capitalize()},', '')
+#     reply_formatted = reply_to_paragraphs(reply)
+
+#     if len(reply_formatted) == 1:
+#         p = reply_formatted[0]
+#         print('***************************************')
+#         print(p)
+#         print('***************************************')
+
+#         data[data_param] = p
+#         util.json_write(f'database/articles/plants/{entity}/medicine.json', data)
+
+#     time.sleep(30)
+
+
+# def ai_medicine_side_effects_text(data):
+#     section = 'side-effects'
+
+#     entity = data['entity']
+#     latin_name = data['latin_name']
+#     common_name = data['common_name']
+
+#     data_param = f'{section}_text'.replace('-', '_')
+#     data_var = ''
+#     try: data_var = data[data_param]
+#     except: data[data_param] = data_var
+
+#     if data_var != '':  return
+
+#     rows = util.csv_get_rows_by_entity(f'database/tables/{section}.csv', entity)
+#     lst = [row[1] for row in rows]
+#     lst_formatted = ', '.join(lst)
+
+#     starting_text = f'{latin_name}, also known as {common_name.lower()}, can have side effects if used improperly, such as'
+#     prompt = f'''
+#         Explain in a 5-sentence paragraph the following possible side effects of {latin_name}: {lst}.
+#         Start with these words: {starting_text}
+#     '''     
+#     prompt = prompt_normalize(prompt)
+#     reply = gen_reply(prompt)
+#     reply = reply.replace(f', also known as {common_name.lower()},', '')
+#     reply = reply.replace(f', also known as {common_name.title()},', '')
+#     reply = reply.replace(f', also known as {common_name.capitalize()},', '')
+#     reply_formatted = reply_to_paragraphs(reply)
+
+#     if len(reply_formatted) == 1:
+#         p = reply_formatted[0]
+#         print('***************************************')
+#         print(p)
+#         print('***************************************')
+
+#         data[data_param] = p
+#         util.json_write(f'database/articles/plants/{entity}/medicine.json', data)
+
+#     time.sleep(30)
+
+
+# def ai_medicine_precautions_text(data):
+#     section = 'precautions'
+
+#     entity = data['entity']
+#     latin_name = data['latin_name']
+#     common_name = data['common_name']
+
+#     data_param = f'{section}_text'.replace('-', '_')
+#     data_var = ''
+#     try: data_var = data[data_param]
+#     except: data[data_param] = data_var
+
+#     # if data_var != '':  return
+
+#     rows = util.csv_get_rows_by_entity(f'database/tables/{section}.csv', entity)
+#     lst = [row[1] for row in rows]
+#     lst_formatted = ', '.join(lst)
+
+#     starting_text = f'It\'s important to take some precautions when using {latin_name} for medicinal purposes, such as'
+#     prompt = f'''
+#         Explain in a 5-sentence paragraph why is important to take the following precautions when using {latin_name} for medicinal purposes: {lst}.
+#         Start with these words: {starting_text}
+#     '''     
+#     prompt = prompt_normalize(prompt)
+#     reply = gen_reply(prompt)
+#     reply = reply.replace(f', also known as {common_name.lower()},', '')
+#     reply = reply.replace(f', also known as {common_name.title()},', '')
+#     reply = reply.replace(f', also known as {common_name.capitalize()},', '')
+#     reply_formatted = reply_to_paragraphs(reply)
+
+#     if len(reply_formatted) == 1:
+#         p = reply_formatted[0]
+#         print('***************************************')
+#         print(p)
+#         print('***************************************')
+
+#         data[data_param] = p
+#         util.json_write(f'database/articles/plants/{entity}/medicine.json', data)
+
+#     time.sleep(30)
+
+
+# def ai_medicine_main():
+#     for plant in plants:
+#         latin_name = plant[cols['latin_name']].strip()
+#         common_name = plant[cols['common_name']].strip()
+
+#         entity = latin_name.lower().replace(' ', '-')
+#         filepath = f'database/articles/plants/{entity}/medicine.json'
+
+#         data = util.json_read(filepath)
+#         data['entity'] = entity
+#         data['url'] = f'{entity}/medicine'
+#         data['latin_name'] = latin_name
+#         data['common_name'] = common_name
+#         data['title'] = f'{latin_name} ({common_name}) Medicinal Properties and Uses'
+#         util.json_write(filepath, data)
+
+#         ai_medicine_benefits_text(data)
+#         ai_medicine_constituents_text(data)
+#         ai_medicine_preparations_text(data)
+#         ai_medicine_side_effects_text(data)
+#         ai_medicine_precautions_text(data)
+
+
+def ai_medicine_section_text(entity, section, prompt):
+    section_underscore = section.lower().strip().replace(' ', '_')
+    section_dash = section.lower().strip().replace(' ', '-')
+    var_val = ''
+    var_name = f'{section_underscore}_text'
+
+    filepath = f'database/articles/plants/{entity}/medicine.json'
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    try: var_val = data[var_name]
+    except: data[var_name] = var_val
+    if var_val != '':  return
+
+    rows = util.csv_get_rows_by_entity(f'database/tables/{section_dash}.csv', entity)
+    lst = [row[1] for row in rows]
+    lst = ', '.join(lst)
+
+    prompt = prompt.replace('<lst>', lst)
+
+    prompt = prompt_normalize(prompt)
+    reply = gen_reply(prompt)
+    reply = reply.replace(f', also known as {common_name.lower()},', '')
+    reply = reply.replace(f', also known as {common_name.title()},', '')
+    reply = reply.replace(f', also known as {common_name.capitalize()},', '')
+    reply_formatted = reply_to_paragraphs(reply)
+
+    if len(reply_formatted) == 1:
+        p = reply_formatted[0]
+        print('***************************************')
+        print(p)
+        print('***************************************')
+
+        data[var_name] = p
+        util.json_write(filepath, data)
+
+    time.sleep(30)
+
+def ai_medicine_section_list(entity, section, prompt):
+    section_underscore = section.lower().strip().replace(' ', '_')
+    section_dash = section.lower().strip().replace(' ', '-')
+    var_val = []
+    var_name = f'{section_underscore}_list'
+    lst_num = 10
+
+    filepath_in = f'database/tables/{section_dash}.csv'
+    filepath_out = f'database/articles/plants/{entity}/medicine.json'
+    data = util.json_read(filepath_out)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    try: var_val = data[var_name]
+    except: data[var_name] = var_val
+    if var_val != []: return
+    
+    rows = [row[1] for row in util.csv_get_rows_by_entity(filepath_in, entity)]
+    lst = ''.join(f'{i+1}. {row}\n' for i, row in enumerate(rows[:lst_num]))
+
+    prompt = prompt.replace('<lst>', lst)
+      
+    prompt = prompt_normalize(prompt)
+    reply = utils_ai.gen_reply(prompt)
+    
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if not line[0].isdigit(): continue
+        if ':' not in line: continue
+        if '. 'not in line: continue
+        if not reply.endswith('.'): reply += '.'
+        line = line.strip()
+        reply_formatted.append(line)
+
+    if len(reply_formatted) == lst_num:
+        print('***************************************')
+        for paragraph in reply_formatted:
+            print(paragraph)
+        print('***************************************')
+
+        data[var_name] = reply_formatted
+        util.json_write(filepath_out, data)
+
+    time.sleep(30)
+
+
+
+
+
 
 def ai_medicine_benefits_description_list_csv(entity):
     running = False
@@ -706,7 +1032,7 @@ def ai_medicine_intro(entity):
     
     try: var_val = data[var_name]
     except: data[var_name] = var_val
-    # if var_val != '': return
+    if var_val != '': return
 
     prompt = f'''
         Write a 5-sentence paragraph about the medicinal aspects of {latin_name}.
@@ -718,6 +1044,50 @@ def ai_medicine_intro(entity):
     '''     
     prompt = prompt_normalize(prompt)
     reply = gen_reply(prompt)
+    reply_formatted = reply_to_paragraphs(reply)
+
+    if len(reply_formatted) == 1:
+        p = reply_formatted[0]
+        print('***************************************')
+        print(p)
+        print('***************************************')
+
+        data[var_name] = p
+        util.json_write(filepath, data)
+
+    time.sleep(30)
+
+
+
+
+
+def ai_medicine_benefits_text(entity):
+    var_val = ''
+    var_name = 'benefits_text'
+
+    filepath = f'database/articles/plants/{entity}/medicine.json'
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    try: var_val = data[var_name]
+    except: data[var_name] = var_val
+    if var_val != '':  return
+
+    rows = util.csv_get_rows_by_entity('database/tables/benefits.csv', entity)
+    lst = [row[1] for row in rows]
+    lst = ', '.join(lst)
+
+    starting_text = f'{latin_name}, also known as {common_name.lower()}, has several health benefits, such as '
+    prompt = f'''
+        Explain in a 5-sentence paragraph the following health benefits of {latin_name}: {lst}.
+        Start with these words: {starting_text}
+    '''     
+    prompt = prompt_normalize(prompt)
+    reply = gen_reply(prompt)
+    reply = reply.replace(f', also known as {common_name.lower()},', '')
+    reply = reply.replace(f', also known as {common_name.title()},', '')
+    reply = reply.replace(f', also known as {common_name.capitalize()},', '')
     reply_formatted = reply_to_paragraphs(reply)
 
     if len(reply_formatted) == 1:
@@ -796,13 +1166,16 @@ def ai_medicine_constituents_text(entity):
     lst = [row[1] for row in rows]
     lst = ', '.join(lst)
 
-    starting_text = f'{latin_name} has several active constituents, such as '
+    starting_text = f'{latin_name}, also known as {common_name.lower()}, has several active constituents, such as '
     prompt = f'''
         Explain in a 5-sentence paragraph the following medicinal constituents of {latin_name}: {lst}.
         Start with these words: {starting_text}
     '''     
     prompt = prompt_normalize(prompt)
     reply = gen_reply(prompt)
+    reply = reply.replace(f', also known as {common_name.lower()},', '')
+    reply = reply.replace(f', also known as {common_name.title()},', '')
+    reply = reply.replace(f', also known as {common_name.capitalize()},', '')
     reply_formatted = reply_to_paragraphs(reply)
 
     if len(reply_formatted) == 1:
@@ -883,13 +1256,16 @@ def ai_medicine_preparations_text(entity):
     lst = [row[1] for row in rows]
     lst = ', '.join(lst)
 
-    starting_text = f'{latin_name} has several medicinal preparations, such as '
+    starting_text = f'{latin_name}, also known as {common_name.lower()}, has several medicinal preparations, such as '
     prompt = f'''
         Explain in a 5-sentence paragraph the following medicinal preparations of {latin_name}: {lst}.
         Start with these words: {starting_text}
     '''     
     prompt = prompt_normalize(prompt)
     reply = gen_reply(prompt)
+    reply = reply.replace(f', also known as {common_name.lower()},', '')
+    reply = reply.replace(f', also known as {common_name.title()},', '')
+    reply = reply.replace(f', also known as {common_name.capitalize()},', '')
     reply_formatted = reply_to_paragraphs(reply)
 
     if len(reply_formatted) == 1:
@@ -972,13 +1348,16 @@ def ai_medicine_side_effects_text(entity):
     lst = [row[1] for row in rows]
     lst = ', '.join(lst)
 
-    starting_text = f'{latin_name} can have side effects if used improperly, '
+    starting_text = f'{latin_name}, also known as {common_name.lower()}, can have side effects if used improperly, '
     prompt = f'''
         Explain in a 5-sentence paragraph the following possible side effects of {latin_name}: {lst}.
         Start with these words: {starting_text}
     '''     
     prompt = prompt_normalize(prompt)
     reply = gen_reply(prompt)
+    reply = reply.replace(f', also known as {common_name.lower()},', '')
+    reply = reply.replace(f', also known as {common_name.title()},', '')
+    reply = reply.replace(f', also known as {common_name.capitalize()},', '')
     reply_formatted = reply_to_paragraphs(reply)
 
     if len(reply_formatted) == 1:
@@ -1045,7 +1424,6 @@ def ai_medicine_side_effects_list(entity):
 
 
 def ai_medicine_precautions_text(entity):
-    
     var_val = ''
     var_name = 'precautions_text'
 
@@ -1069,6 +1447,9 @@ def ai_medicine_precautions_text(entity):
     '''     
     prompt = prompt_normalize(prompt)
     reply = gen_reply(prompt)
+    reply = reply.replace(f', also known as {common_name.lower()},', '')
+    reply = reply.replace(f', also known as {common_name.title()},', '')
+    reply = reply.replace(f', also known as {common_name.capitalize()},', '')
     reply_formatted = reply_to_paragraphs(reply)
 
     if len(reply_formatted) == 1:
@@ -1134,15 +1515,22 @@ def ai_medicine_precautions_list(entity):
     
 
 
-def ai_medicine_main_2():
+def ai_medicine_main():
     for index, plant in enumerate(plants):
-        print(index, '-', len(plants))
+        print(index, '-', len(plants), '>>', plant[0])
 
         latin_name = plant[cols['latin_name']].strip().capitalize()
         common_name = plant[cols['common_name']].strip().title()
 
         entity = latin_name.lower().replace(' ', '-')
         filepath = f'database/articles/plants/{entity}/medicine.json'
+
+        chunks = filepath.split('/')[:-1]
+        chunk_curr = ''
+        for chunk in chunks:
+            chunk_curr += chunk + '/'
+            if not os.path.exists(chunk_curr):
+                os.makedirs(chunk_curr)
         
         data = util.json_read(filepath)
         data['entity'] = entity
@@ -1152,38 +1540,82 @@ def ai_medicine_main_2():
         data['title'] = f'{latin_name} ({common_name}) Medicinal Guide'
         util.json_write(filepath, data)
 
-        ai_medicine_intro(entity)
-        ai_medicine_benefits_list(entity)
-        ai_medicine_constituents_text(entity)
-        ai_medicine_constituents_list(entity)
-        ai_medicine_preparations_text(entity)
-        ai_medicine_preparations_list(entity)
-        ai_medicine_side_effects_text(entity)
-        ai_medicine_side_effects_list(entity)
-        ai_medicine_precautions_text(entity)
-        ai_medicine_precautions_list(entity)
+        ai_medicine_section_text(entity, 'benefits', 
+            f'''
+                Explain in a 5-sentence paragraph the following health benefits of {latin_name}: <lst>.
+                Start with these words: {latin_name}, also known as {common_name.lower()}, has several health benefits, such as '
+            '''
+        )
+        ai_medicine_section_list(entity, 'benefits', 
+            f'''
+                Write a 1 sentence description for each benefit of {latin_name} in the following list: \n<lst>
+                Answer in a ordered list using the following format. benefit: description.
+            '''  
+        ) 
+        
+        ai_medicine_section_text(entity, 'constituents', 
+            f'''
+                Explain in a 5-sentence paragraph the following medicinal constituents of {latin_name}: <lst>.
+                Start with these words: {latin_name}, also known as {common_name.lower()}, has several active constituents, such as '
+            '''   
+        )
+        ai_medicine_section_list(entity, 'constituents', 
+            f'''
+                Write a 1 sentence description for each medicinal constituent of {latin_name} in the following list: \n<lst>
+                Answer in a ordered list using the following format. constituent: description.
+            '''
+        ) 
 
-        # # BENEFITS
-        # ai_entity_medicine_benefits(filepath, running)
+        prompt = f'''
+            Explain in a 5-sentence paragraph the following medicinal preparations of {latin_name}: <lst>.
+            Start with these words: {latin_name}, also known as {common_name.lower()}, has several medicinal preparations, such as '
+        '''
+        ai_medicine_section_text(entity, 'preparations', prompt)
+        prompt = f'''
+            Write a 1 sentence description for each medicinal preparation of {latin_name} in the following list: \n<lst>
+            Answer in a ordered list using the following format. preparation: description.
+        '''    
+        ai_medicine_section_list(entity, 'preparations', prompt) 
 
-        # # CONSTITUENTS
-        # ai_entity_medicine_constituents(filepath, running)
+        prompt = f'''
+            Explain in a 5-sentence paragraph the following possible side effects of {latin_name}: <lst>.
+            Start with these words: {latin_name}, also known as {common_name.lower()}, can have side effects if used improperly, '
+        '''   
+        ai_medicine_section_text(entity, 'side effects', prompt)
+        prompt = f'''
+            Write a 1 sentence description for each possible side effect of {latin_name} in the following list: \n<lst>
+            Answer in a ordered list using the following format. side effect: description.
+        '''  
+        ai_medicine_section_list(entity, 'side effects', prompt) 
 
-        # # PREPARATIONS
-        # ai_entity_medicine_preparations(filepath, running)
+        prompt = f'''
+            Explain in a 5-sentence paragraph the following precautions when using {latin_name} for medicinal purposes: <lst>.
+            Start with these words: Before using {latin_name} it\'s important to take some precautions, such as '
+        '''     
+        ai_medicine_section_text(entity, 'precautions', prompt)
+        prompt = f'''
+            Write a 1 sentence description for each of the following precaution you should take when using {latin_name} for medicinal purposes: \n<lst>
+            Answer in a ordered list using the following format. precaution: description.
+        '''   
+        ai_medicine_section_list(entity, 'precautions', prompt) 
 
-        # # SIDE EFFECTS
-        # ai_entity_medicine_side_effects(filepath, running)
-
-        # # PRECAUTIONS
-        # ai_entity_medicine_precautions(filepath, running)
 
 
 
 
+        # ai_medicine_intro(entity)
+        # ai_medicine_benefits_text(entity)
+        # ai_medicine_benefits_list(entity)
+        # ai_medicine_constituents_text(entity)
+        # ai_medicine_constituents_list(entity)
+        # ai_medicine_preparations_text(entity)
+        # ai_medicine_preparations_list(entity)
+        # ai_medicine_side_effects_text(entity)
+        # ai_medicine_side_effects_list(entity)
+        # ai_medicine_precautions_text(entity)
+        # ai_medicine_precautions_list(entity)
 
-# ai_medicine_main_2()
-# quit()
+
 
 
 
@@ -1634,7 +2066,7 @@ def ai_benefits_main():
     running = True
 
     for index, plant in enumerate(plants):
-        print(index, '-', len(plants))
+        print(index, '-', len(plants), '>>', plant[0])
 
         latin_name = plant[cols['latin_name']].strip().capitalize()
         common_name = plant[cols['common_name']].strip().title()
@@ -1658,15 +2090,11 @@ def ai_benefits_main():
             print(f'creating new file: {filepath}')
         util.json_write(filepath, data)
 
-        ai_benefits_intro(entity)
+        # ai_benefits_intro(entity)
 
-        # ai_benefits_section(filepath, csv_benefits, running)
-        # ai_benefits_description_text(filepath, running)
+        ai_benefits_section(filepath, csv_benefits, running)
+        ai_benefits_description_text(filepath, running)
         
-
-ai_benefits_main()
-quit()
-
 
 #######################################################################
 # CSV
@@ -1685,13 +2113,12 @@ def ai_entity_medicine_benefits_csv():
         rows = util.csv_get_rows_by_entity(filepath, entity)
         if rows != []: continue
 
-        prompt_num = 20
         prompt = f'''
-            List the {prompt_num} best health benefits of {common_name} ({latin_name}).
-            Start each benefit with a third-person singular action verb.
-            Write only the names of the benefits, not the descriptions.
-            Write each benefit name in less than 5 words.
-            Don't include side effects similar to those you already added.
+            List the 17 best health benefits of {common_name} ({latin_name}).
+            # Start each benefit with a third-person singular action verb.
+            # Write only the names of the benefits, not the descriptions.
+            # Write each benefit name in less than 5 words.
+            # Don't include side effects similar to those you already added.
         '''
 
         prompt = prompt_normalize(prompt)
@@ -1722,12 +2149,11 @@ def ai_entity_medicine_constituents_csv():
         rows = util.csv_get_rows_by_entity(filepath, entity)
         if rows != []: continue
 
-        prompt_num = 20
         prompt = f'''
-            List the {prompt_num} most important medicinal constituents of {latin_name}.
+            List the 20 most important medicinal constituents of {latin_name}.
+            An example of medicinal constituents are flavonoids and tannins.
             Write only the names of the constituents, not the descriptions.
             Write only 1 constituent per list item.
-            Don't include examples for the constituents names.
             Use few words as possible.
         '''
 
@@ -1759,15 +2185,11 @@ def ai_entity_medicine_preparations_csv():
         rows = util.csv_get_rows_by_entity(filepath, entity)
         if rows != []: continue
 
-        prompt_num = 20
-        
         prompt = f'''
-            Write a numbered list of the {prompt_num} best medicinal preparations of {latin_name} ({common_name}).
+            Write a numbered list of the 20 best medicinal preparations of {latin_name} ({common_name}).
             Examples of preparations are infusion and tincture.
             Write only the names of the preparations, don't add descriptions.
-            Don't include examples for the preparations names.
-            Don't include preparations with long names.
-            Don't include preparations similar to those you already added.
+            Don't include the name of the plant.
         '''
 
         prompt = prompt_normalize(prompt)
@@ -1805,7 +2227,6 @@ def ai_entity_medicine_side_effects_csv():
             Write only the names of the side effects, not the descriptions.
             Don't include examples for the side effects names.
             Don't include side effects with long names.
-            Don't include side effects similar to those you already added.
         '''
 
         prompt = prompt_normalize(prompt)
@@ -1836,14 +2257,11 @@ def ai_entity_medicine_precautions_csv():
         rows = util.csv_get_rows_by_entity(filepath, entity)
         if rows != []: continue
 
-        prompt_num = 20
-        
         prompt = f'''
-            Write a numbered list of the {prompt_num} most important precautions to take when using {latin_name} ({common_name}) for medicinal purposes.
+            Write a numbered list of the 20 most important precautions to take when using {latin_name} ({common_name}) for medicinal purposes.
             Write only the names of the precautions, not the descriptions.
-            Start each benefit with a third-person singular action verb.
-            Write each precautions using less than 7 words.
-            Don't include precautions similar to those you already added.
+            Start each precaution with a third-person singular action verb.
+            Answer in as few words as possible.
         '''
 
         prompt = prompt_normalize(prompt)
@@ -1861,349 +2279,21 @@ def ai_entity_medicine_precautions_csv():
         time.sleep(30)
 
 
+#######################################################################################
+
+
+
+
+##################################################################
+# EXE
+##################################################################
 
 # ai_entity_medicine_benefits_csv()
 # ai_entity_medicine_constituents_csv()
-ai_entity_medicine_preparations_csv()
+# ai_entity_medicine_preparations_csv()
 # ai_entity_medicine_side_effects_csv()
 # ai_entity_medicine_precautions_csv()
 
-
-
-quit()
-
-
-
-def ai_medicine_benefits_text(data):
-    entity = data['entity']
-    latin_name = data['latin_name']
-    common_name = data['common_name']
-
-    filepath = f'database/articles/plants/{entity}/medicine.json'
-
-    benefits_text = ''
-    try: benefits_text = data['benefits_text']
-    except: data['benefits_text'] = benefits_text
-    if benefits_text != '':  return
-
-    rows = util.csv_get_rows_by_entity('database/tables/benefits.csv', entity)
-    benefits = [row[1] for row in rows]
-    benefits_formatted = ', '.join(benefits)
-
-    aka = f', also known as {common_name.lower()},'
-    starting_text = f'{latin_name}{aka} has '
-    prompt = f'''
-        Explain in a 5-sentence paragraph the following health benefits of {latin_name}: {benefits_formatted}.
-        Don't include the common name of the plant.
-        Start with the following words: {starting_text}
-    '''
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
-    reply = reply.replace(aka, '')
-    reply_formatted = reply_to_paragraphs(reply)
-
-    if len(reply_formatted) == 1:
-        p = reply_formatted[0]
-        print('***************************************')
-        print(p)
-        print('***************************************')
-
-        data['benefits_text'] = p
-        util.json_write(filepath, data)
-
-    time.sleep(30)
-
-
-def ai_medicine_constituents_text(data):
-    section = 'constituents'
-
-    entity = data['entity']
-    latin_name = data['latin_name']
-    common_name = data['common_name']
-
-    data_param = f'{section}_text'
-    data_var = ''
-    try: data_var = data[data_param]
-    except: data[data_param] = data_var
-
-    if data_var != '':  return
-
-    rows = util.csv_get_rows_by_entity(f'database/tables/{section}.csv', entity)
-    lst = [row[1] for row in rows]
-    lst_formatted = ', '.join(lst)
-
-    aka = f', also known as {common_name.lower()},'
-    starting_text = f'{latin_name}{aka} has several active constituents, '
-    prompt = f'''
-        Explain in a 5-sentence paragraph the following active constituents of {latin_name}: {lst_formatted}.
-        Start with these words: {starting_text}
-    '''    
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
-    reply = reply.replace(aka, '')
-    reply_formatted = reply_to_paragraphs(reply)
-
-    if len(reply_formatted) == 1:
-        p = reply_formatted[0]
-        print('***************************************')
-        print(p)
-        print('***************************************')
-
-        data[data_param] = p
-        util.json_write(f'database/articles/plants/{entity}/medicine.json', data)
-
-    time.sleep(30)
-
-
-def ai_medicine_preparations_text(data):
-    section = 'preparations'
-
-    entity = data['entity']
-    latin_name = data['latin_name']
-    common_name = data['common_name']
-
-    data_param = f'{section}_text'
-    data_var = ''
-    try: data_var = data[data_param]
-    except: data[data_param] = data_var
-
-    if data_var != '':  return
-
-    rows = util.csv_get_rows_by_entity(f'database/tables/{section}.csv', entity)
-    lst = [row[1] for row in rows]
-    lst_formatted = ', '.join(lst)
-
-    starting_text = f'{latin_name}, also known as {common_name.lower()}, has many medicinal preparations, such as '
-    prompt = f'''
-        Explain in a 5-sentence paragraph the following medicinal preparations of {latin_name}: {lst_formatted}.
-        Start with these words: {starting_text}
-    '''    
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
-    reply = reply.replace(f', also known as {common_name.lower()},', '')
-    reply = reply.replace(f', also known as {common_name.title()},', '')
-    reply = reply.replace(f', also known as {common_name.capitalize()},', '')
-    reply_formatted = reply_to_paragraphs(reply)
-
-    if len(reply_formatted) == 1:
-        p = reply_formatted[0]
-        print('***************************************')
-        print(p)
-        print('***************************************')
-
-        data[data_param] = p
-        util.json_write(f'database/articles/plants/{entity}/medicine.json', data)
-
-    time.sleep(30)
-
-
-def ai_medicine_side_effects_text(data):
-    section = 'side-effects'
-
-    entity = data['entity']
-    latin_name = data['latin_name']
-    common_name = data['common_name']
-
-    data_param = f'{section}_text'.replace('-', '_')
-    data_var = ''
-    try: data_var = data[data_param]
-    except: data[data_param] = data_var
-
-    if data_var != '':  return
-
-    rows = util.csv_get_rows_by_entity(f'database/tables/{section}.csv', entity)
-    lst = [row[1] for row in rows]
-    lst_formatted = ', '.join(lst)
-
-    starting_text = f'{latin_name}, also known as {common_name.lower()}, can have side effects if used improperly, such as'
-    prompt = f'''
-        Explain in a 5-sentence paragraph the following possible side effects of {latin_name}: {lst}.
-        Start with these words: {starting_text}
-    '''     
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
-    reply = reply.replace(f', also known as {common_name.lower()},', '')
-    reply = reply.replace(f', also known as {common_name.title()},', '')
-    reply = reply.replace(f', also known as {common_name.capitalize()},', '')
-    reply_formatted = reply_to_paragraphs(reply)
-
-    if len(reply_formatted) == 1:
-        p = reply_formatted[0]
-        print('***************************************')
-        print(p)
-        print('***************************************')
-
-        data[data_param] = p
-        util.json_write(f'database/articles/plants/{entity}/medicine.json', data)
-
-    time.sleep(30)
-
-
-def ai_medicine_precautions_text(data):
-    section = 'precautions'
-
-    entity = data['entity']
-    latin_name = data['latin_name']
-    common_name = data['common_name']
-
-    data_param = f'{section}_text'.replace('-', '_')
-    data_var = ''
-    try: data_var = data[data_param]
-    except: data[data_param] = data_var
-
-    # if data_var != '':  return
-
-    rows = util.csv_get_rows_by_entity(f'database/tables/{section}.csv', entity)
-    lst = [row[1] for row in rows]
-    lst_formatted = ', '.join(lst)
-
-    starting_text = f'It\'s important to take some precautions when using {latin_name} for medicinal purposes, such as'
-    prompt = f'''
-        Explain in a 5-sentence paragraph why is important to take the following precautions when using {latin_name} for medicinal purposes: {lst}.
-        Start with these words: {starting_text}
-    '''     
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
-    reply = reply.replace(f', also known as {common_name.lower()},', '')
-    reply = reply.replace(f', also known as {common_name.title()},', '')
-    reply = reply.replace(f', also known as {common_name.capitalize()},', '')
-    reply_formatted = reply_to_paragraphs(reply)
-
-    if len(reply_formatted) == 1:
-        p = reply_formatted[0]
-        print('***************************************')
-        print(p)
-        print('***************************************')
-
-        data[data_param] = p
-        util.json_write(f'database/articles/plants/{entity}/medicine.json', data)
-
-    time.sleep(30)
-
-
-
-def ai_medicine_main():
-    for plant in plants:
-        latin_name = plant[cols['latin_name']].strip()
-        common_name = plant[cols['common_name']].strip()
-
-        entity = latin_name.lower().replace(' ', '-')
-        filepath = f'database/articles/plants/{entity}/medicine.json'
-
-        data = util.json_read(filepath)
-        data['entity'] = entity
-        data['url'] = f'{entity}/medicine'
-        data['latin_name'] = latin_name
-        data['common_name'] = common_name
-        data['title'] = f'{latin_name} ({common_name}) Medicinal Properties and Uses'
-        util.json_write(filepath, data)
-
-        ai_medicine_benefits_text(data)
-        ai_medicine_constituents_text(data)
-        ai_medicine_preparations_text(data)
-        ai_medicine_side_effects_text(data)
-        ai_medicine_precautions_text(data)
-
-
-
+# ai_entity_main()
 ai_medicine_main()
-
-
-
-
-
-
-
-
-# running = True
-# while running:
-    # running = ai_gen_medicine_benefits_definition_section()
-    # running = ai_gen_medicine_benefits_constituents_section()
-    # running = ai_gen_medicine_benefits_constituents_text_section()
-    # running = ai_gen_medicine_benefits_conditions_section()
-    # running = ai_gen_medicine_benefits_conditions_text_section()
-
-    # running = ai_entity_main()
-    # running = ai_entity_medicine_main()
-    # running = ai_entity_medicine_benefits_main()
-
-
-
-
-
-
-
-# for index, plant in enumerate(plants):
-#     print(index, '-', len(plants))
-
-#     latin_name = plant[cols['latin_name']].strip().capitalize()
-#     entity = latin_name.lower().replace(' ', '-')
-
-#     ai_medicine_benefits_description_text(entity)
-
-#     # ai_entity_medicine_benefits_description_list(entity)
-
-#     # running = ai_entity_medicine_constituents_description_text(entity)
-#     # running = ai_entity_medicine_constituents_description_list(entity)
-
-#     # running = ai_entity_medicine_preparations_description_text(entity)
-#     # running = ai_entity_medicine_preparations_description_list(entity)
-
-#     # running = ai_entity_medicine_side_effects_description_list(entity)
-#     # running = ai_entity_medicine_side_effects_description_text(entity)
-
-#     # running = ai_entity_medicine_precautions_description(entity)
-
-# # def article_clear_data():
-# #     filepath = 'database/articles/plants/achillea-millefolium/medicine.json'
-
-# # article_clear_data()
-
-
-
-
-# def json_entity_medicine(entity):
-#     rows = util.csv_get_rows_by_entity('database/tables/benefits.csv', entity)
-#     lst = [f'{row[1].title()}: {row[2]}' for row in rows]
-#     article_filepath = f'database/articles/plants/{entity}/medicine.json'
-#     data = util.json_read(article_filepath)
-#     data['benefits_list'] = lst
-#     data = util.json_write(article_filepath, data)
-
-#     rows = util.csv_get_rows_by_entity('database/tables/constituents.csv', entity)
-#     lst = [f'{row[1].title()}: {row[2]}' for row in rows]
-#     article_filepath = f'database/articles/plants/{entity}/medicine.json'
-#     data = util.json_read(article_filepath)
-#     data['constituents_list'] = lst
-#     data = util.json_write(article_filepath, data)
-
-#     rows = util.csv_get_rows_by_entity('database/tables/preparations.csv', entity)
-#     lst = [f'{row[1].title()}: {row[2]}' for row in rows]
-#     article_filepath = f'database/articles/plants/{entity}/medicine.json'
-#     data = util.json_read(article_filepath)
-#     data['preparations_list'] = lst
-#     data = util.json_write(article_filepath, data)
-
-#     rows = util.csv_get_rows_by_entity('database/tables/side-effects.csv', entity)
-#     lst = [f'{row[1].title()}: {row[2]}' for row in rows]
-#     article_filepath = f'database/articles/plants/{entity}/medicine.json'
-#     data = util.json_read(article_filepath)
-#     data['side_effects_list'] = lst
-#     data = util.json_write(article_filepath, data)
-
-#     rows = util.csv_get_rows_by_entity('database/tables/precautions.csv', entity)
-#     lst = [f'{row[1].title()}: {row[2]}' for row in rows]
-#     article_filepath = f'database/articles/plants/{entity}/medicine.json'
-#     data = util.json_read(article_filepath)
-#     data['precautions_list'] = lst
-#     data = util.json_write(article_filepath, data)
-
-
-
-# for index, plant in enumerate(plants):
-#     latin_name = plant[cols['latin_name']].strip().capitalize()
-#     common_name = plant[cols['common_name']].strip().title()
-#     entity = latin_name.lower().replace(' ', '-')
-
-#     json_entity_medicine(entity)
-
+# ai_benefits_main()
