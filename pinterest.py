@@ -19,7 +19,7 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
 
-ARTICLES_NUM = 21
+ARTICLES_NUM = 24
 
 
 
@@ -29,12 +29,10 @@ driver.maximize_window()
 time.sleep(10)
 
 e = driver.find_element(By.XPATH, '//input[@id="email"]')
-# e.send_keys('martinpellizzer@gmail.com') 
 e.send_keys('leenrandell@gmail.com') 
 time.sleep(10)
 
 e = driver.find_element(By.XPATH, '//input[@id="password"]')
-# e.send_keys('Newoliark1') 
 e.send_keys('Newoliark1') 
 time.sleep(10)
 

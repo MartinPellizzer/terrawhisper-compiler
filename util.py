@@ -158,6 +158,14 @@ def text_format_1N1_html(text):
 
 
 
+def lst_to_html(lst):
+    lst_html = '<ul>' + '\n'
+    for item in lst: lst_html += f'<li>{item}</li>' + '\n'
+    lst_html += '</ul>' + '\n'
+    return lst_html
+
+
+
 
 ###################################
 # SCIENTIFIC NAME

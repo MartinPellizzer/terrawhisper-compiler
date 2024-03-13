@@ -16,7 +16,7 @@ def gen_reply(prompt):
                 "content": prompt,
             }
         ],
-        temperature=0.5,
+        temperature=1,
     )
 
     reply = completion.choices[0].message.content

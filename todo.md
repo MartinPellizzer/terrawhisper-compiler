@@ -1,4 +1,1 @@
-- create entity>>medicine achillea page from csv
-- fix images in main: plants' benefits pages
-- pinterest: test black text vs lunar green text
-- fix echinacea-spp. remove dot?
+- api

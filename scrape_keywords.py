@@ -7,23 +7,15 @@ import time
 import os
 import csv
 import pyperclip
-
+import util
 
 driver = webdriver.Firefox()
 
 
 ARTICLE_START = 0
-ARTICLE_END = 20
+ARTICLE_END = 100
 SCRAPE_SECONDS = 300
 
-
-def csv_get_rows(filepath):
-    rows = []
-    with open(filepath, encoding='utf-8', errors='ignore') as f:
-        reader = csv.reader(f, delimiter="|")
-        for i, line in enumerate(reader):
-            rows.append(line)
-    return rows
 
 
 def get_latin_name(entity):
@@ -35,7 +27,8 @@ def get_latin_name(entity):
 
 
 
-rows = csv_get_rows(f'plants.csv')[1:]
+rows = util.csv_get_rows(f'database/tables/plants.csv')[1:]
+# print(rows)
 
 for i, row in enumerate(rows[ARTICLE_START:ARTICLE_END]):
     entity = row[0].strip()
@@ -52,7 +45,7 @@ for i, row in enumerate(rows[ARTICLE_START:ARTICLE_END]):
     time.sleep(5) 
 
     e = driver.find_element(By.XPATH, '//textarea[@id="input"]')
-    e.send_keys(common_name)
+    e.send_keys(latin_name)
     time.sleep(5) 
 
     e = driver.find_element(By.XPATH, '//button[@id="tempSheet"]')
@@ -71,7 +64,7 @@ for i, row in enumerate(rows[ARTICLE_START:ARTICLE_END]):
     e.send_keys(Keys.CONTROL, 'c')
 
     s = pyperclip.paste() 
-    with open(f'keywords/{entity}.txt', 'w', newline='', encoding='utf-8') as f:
+    with open(f'keywords/plants/{entity}.txt', 'w', newline='', encoding='utf-8') as f:
         f.write(s)
 
     time.sleep(60)

@@ -56,7 +56,9 @@ def gen_text_num(img, line_list, num):
     text = num
     text_w = font.getbbox(text)[2]
     text_h = font.getbbox(text)[3]
-    draw.text((img_w//2 - text_w//2, img_h//2 - 200 - font_size//2), text, C_BLACK, font=font)
+    if random.randint(0, 100) < 50: color_rand = C_BLACK
+    else: color_rand = C_LUNAR_GREEN
+    draw.text((img_w//2 - text_w//2, img_h//2 - 200 - font_size//2), text, color_rand, font=font)
 
 
     font_family, font_weight = 'Lato', 'Regular'
@@ -73,7 +75,7 @@ def gen_text_num(img, line_list, num):
     text = line_list[1]
     text_w = font.getbbox(text)[2]
     text_h = font.getbbox(text)[3]
-    draw.text((img_w//2 - text_w//2, img_h//2 - text_h//2 + text_h*0.4), text, C_BLACK, font=font)
+    draw.text((img_w//2 - text_w//2, img_h//2 - text_h//2 + text_h*0.4), text, color_rand, font=font)
 
     return img
 

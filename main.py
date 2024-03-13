@@ -264,31 +264,133 @@ def generate_page_herbalism_tea():
 def generate_page_herbs():
     articles_folderpath = 'database/articles/plants'
     articles_html = ''
+
+    plants_primary_a = []
+    plants_primary_b = []
+    plants_primary_c = []
+    plants_primary_d = []
+    plants_primary_e = []
+    plants_primary_f = []
+    plants_primary_g = []
+    plants_primary_h = []
+    plants_primary_i = []
+    plants_primary_j = []
+    plants_primary_k = []
+    plants_primary_l = []
+    plants_primary_m = []
+    plants_primary_n = []
+    plants_primary_o = []
+    plants_primary_p = []
+    plants_primary_q = []
+    plants_primary_r = []
+    plants_primary_s = []
+    plants_primary_t = []
+    plants_primary_u = []
+    plants_primary_v = []
+    plants_primary_w = []
+    plants_primary_x = []
+    plants_primary_y = []
+    plants_primary_z = []
+
     for plant in plants:
-        latin_name = plant[cols['latin_name']].strip().capitalize()
+        latin_name = plant[0].strip().capitalize()
         entity = latin_name.lower().replace(' ', '-')
         filepath_in = f'{articles_folderpath}/{entity}.json'
-
         data = util.json_read(filepath_in)
-        try: latin_name = data['latin_name']
-        except: latin_name = ''
 
-        if latin_name == '': continue
+        title = data['title']
+        common_name = data['common_name']
 
-        latin_name_dash = latin_name.lower().replace(' ', '-')
+        article_html = f'''
+            <a href="{entity}.html">
+                <div>
+                    <img src="images/{entity}.jpg" alt="">
+                    <h3 class="mt-0 mb-0">{latin_name} ({common_name})</h3>
+                </div>
+            </a>
+        '''
 
-        try: title = data['title']
-        except: title = ''
+        if entity[0] == 'a': plants_primary_a.append(article_html)
+        if entity[0] == 'b': plants_primary_b.append(article_html)
+        if entity[0] == 'c': plants_primary_c.append(article_html)
+        if entity[0] == 'd': plants_primary_d.append(article_html)
+        if entity[0] == 'e': plants_primary_e.append(article_html)
+        if entity[0] == 'f': plants_primary_f.append(article_html)
+        if entity[0] == 'g': plants_primary_g.append(article_html)
+        if entity[0] == 'h': plants_primary_h.append(article_html)
+        if entity[0] == 'i': plants_primary_i.append(article_html)
+        if entity[0] == 'j': plants_primary_j.append(article_html)
+        if entity[0] == 'k': plants_primary_k.append(article_html)
+        if entity[0] == 'l': plants_primary_l.append(article_html)
+        if entity[0] == 'm': plants_primary_m.append(article_html)
+        if entity[0] == 'n': plants_primary_n.append(article_html)
+        if entity[0] == 'o': plants_primary_o.append(article_html)
+        if entity[0] == 'p': plants_primary_p.append(article_html)
+        if entity[0] == 'q': plants_primary_q.append(article_html)
+        if entity[0] == 'r': plants_primary_r.append(article_html)
+        if entity[0] == 's': plants_primary_s.append(article_html)
+        if entity[0] == 't': plants_primary_t.append(article_html)
+        if entity[0] == 'u': plants_primary_u.append(article_html)
+        if entity[0] == 'v': plants_primary_v.append(article_html)
+        if entity[0] == 'w': plants_primary_w.append(article_html)
+        if entity[0] == 'x': plants_primary_x.append(article_html)
+        if entity[0] == 'y': plants_primary_y.append(article_html)
+        if entity[0] == 'z': plants_primary_z.append(article_html)
 
-        if title != '':
-            articles_html += f'''
-                <a href="{latin_name_dash}.html">
-                    <div>
-                        <img src="images/{latin_name_dash}.jpg" alt="">
-                        <h2 class="mt-0 mb-0">{title}</h2>
-                    </div>
-                </a>
-            '''
+    if plants_primary_a != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "a"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_a) + '</div>'
+    if plants_primary_b != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "b"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_b) + '</div>'
+    if plants_primary_c != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "c"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_c) + '</div>'
+    if plants_primary_d != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "d"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_d) + '</div>'
+    if plants_primary_e != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "e"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_e) + '</div>'
+    if plants_primary_f != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "f"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_f) + '</div>'
+    if plants_primary_g != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "g"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_g) + '</div>'
+    if plants_primary_h != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "h"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_h) + '</div>'
+    if plants_primary_i != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "i"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_i) + '</div>'
+    if plants_primary_j != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "j"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_j) + '</div>'
+    if plants_primary_k != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "k"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_k) + '</div>'
+    if plants_primary_l != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "l"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_l) + '</div>'
+    if plants_primary_m != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "m"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_m) + '</div>'
+    if plants_primary_n != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "n"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_n) + '</div>'
+    if plants_primary_o != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "o"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_o) + '</div>'
+    if plants_primary_p != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "p"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_p) + '</div>'
+    if plants_primary_q != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "q"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_q) + '</div>'
+    if plants_primary_r != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "r"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_r) + '</div>'
+    if plants_primary_s != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "s"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_s) + '</div>'
+    if plants_primary_t != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "t"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_t) + '</div>'
+    if plants_primary_u != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "u"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_u) + '</div>'
+    if plants_primary_v != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "v"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_v) + '</div>'
+    if plants_primary_w != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "w"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_w) + '</div>'
+    if plants_primary_x != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "x"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_x) + '</div>'
+    if plants_primary_y != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "y"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_y) + '</div>'
+    if plants_primary_z != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "z"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_z) + '</div>'
+
+
+
+    plants_secondary = []
+    rows = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
+    for plant in rows:
+        latin_name = plant[0].strip().capitalize()
+        entity = latin_name.lower().replace(' ', '-')
+        filepath_in = f'{articles_folderpath}/{entity}.json'
+        data = util.json_read(filepath_in)
+
+        title = data['title']
+        common_name = data['common_name']
+
+                    # <img src="images/{entity}.jpg" alt="">
+        article_html = f'''
+            <a href="{entity}.html">
+                <div>
+                    <h3 class="mt-0 mb-0">{latin_name} ({common_name})</h3>
+                </div>
+            </a>
+        '''
+        plants_secondary.append(article_html)
+
+    articles_html += '<h2 class="articles-alphabeta-title">' + 'Other Medicinal Plants Worthy Of Notice'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_secondary) + '</div>'
+
+
+
 
     page_url = 'herbs'
 
@@ -1023,6 +1125,164 @@ def articles_plants():
         # quit()
 
 
+def articles_plants_secondary():
+    plants_secondary = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
+    for plant in plants_secondary:
+        latin_name = plant[0].strip().capitalize()
+        entity = latin_name.lower().replace(' ', '-').replace('.', '')
+        article_filepath_in = f'database/articles/plants/{entity}.json'
+        article_filepath_out = f'website/{entity}.html'
+
+        print(article_filepath_in)
+        data = util.json_read(article_filepath_in)
+        try: title = data['title']
+        except: title = ''
+        if title == '':
+            print(f'MISSING TITLE: {article_filepath_in}')
+            continue
+        latin_name = data['latin_name']
+        latin_name_dash = latin_name.lower().replace(' ', '-')
+        intro = data['intro']
+        medicine_desc = data['medicine_desc']
+        horticulture_desc = data['horticulture_desc']
+        botany_desc = data['botany_desc']
+
+        article_html = ''
+
+        article_html += f'<h1>{title}</h1>' + '\n'
+        # article_html += f'<p><img src="/images/{latin_name_dash}-overview.jpg" alt="{latin_name}"></p>' + '\n'
+        article_html += util.text_format_1N1_html(intro) + '\n'
+        article_html += f'<h2>What are the medicinal properties of {latin_name}?</h2>' + '\n'
+        # article_html += f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        article_html += f'<p>{medicine_desc[0]}</p>' + '\n'
+        article_html += f'<p>{medicine_desc[1]}</p>' + '\n'
+        article_html += f'<p>{medicine_desc[2]}</p>' + '\n'
+        article_html += f'<p>{medicine_desc[3]}</p>' + '\n'
+        article_html += f'<p>{medicine_desc[4]}</p>' + '\n'
+        article_html += f'<p>Here\'s an article explaining in detail the <a href="/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
+        article_html += f'<h2>What are the horticultural conditions of {latin_name}?</h2>' + '\n'
+        # article_html += f'<p><img src="/images/{latin_name_dash}-horticulture.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        article_html += f'<p>{horticulture_desc[0]}</p>' + '\n'
+        article_html += f'<p>{horticulture_desc[1]}</p>' + '\n'
+        article_html += f'<p>{horticulture_desc[2]}</p>' + '\n'
+        article_html += f'<p>{horticulture_desc[3]}</p>' + '\n'
+        article_html += f'<p>{horticulture_desc[4]}</p>' + '\n'
+        article_html += f'<h2>What are the botanical characteristics of {latin_name}?</h2>' + '\n'
+        # article_html += f'<p><img src="/images/{latin_name_dash}-botany.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        article_html += f'<p>{botany_desc[0]}</p>' + '\n'
+        article_html += f'<p>{botany_desc[1]}</p>' + '\n'
+        article_html += f'<p>{botany_desc[2]}</p>' + '\n'
+        article_html += f'<p>{botany_desc[3]}</p>' + '\n'
+        article_html += f'<p>{botany_desc[4]}</p>' + '\n'
+
+        header_html = generate_header_light()
+        word_count = len(article_html.split(' '))
+        reading_time_html = str(word_count // 200) + ' minutes'
+
+        article_html = generate_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                
+                <section class="my-96">
+                    <div class="container">
+                        <div class="flex items-center justify-between mb-16">
+                            <div class="flex items-center gap-16">
+                                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                            </div>
+                            <span>{reading_time_html}</span>
+                        </div>
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(f'{article_filepath_out}', html)
+
+
+        # # GET IMAGES
+        # folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
+        # if not os.path.exists(folderpath): 
+        #     print('MISSING >>>>> IMAGE FOLDER')
+        #     continue
+        # filenames = os.listdir(folderpath)
+        # filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+        # random.shuffle(filepaths_in)
+
+        # # GENERATE IMAGES IF NEW
+        # filepaths_out = [
+        #     f'website/images/{entity}-overview.jpg',
+        #     f'website/images/{entity}-medicine.jpg',
+        #     f'website/images/{entity}-horticulture.jpg',
+        #     f'website/images/{entity}-botany.jpg',
+        # ]
+
+        # for i, filepath_out in enumerate(filepaths_out):
+        #     if os.path.exists(filepath_out): continue
+        #     filepath_in = filepaths_in[i]
+        #     img = Image.open(filepath_in)
+        #     img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+        #     img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+
+
+        # IMAGES
+        # folderpath = f'{IMAGE_FOLDER}/plants/{latin_name_dash}'
+        # filenames = os.listdir(folderpath)
+        # filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+
+        # filepath_in = filepaths_in[0]
+        # filepath_out = f'website/images/{latin_name_dash}.jpg'
+        # img = Image.open(filepath_in)
+        # img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+        # img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+        # filepath_in = filepaths_in[1]
+        # filepath_out = f'website/images/{latin_name_dash}-medicine.jpg'
+        # img = Image.open(filepath_in)
+        # img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+        # img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+        # filepath_in = filepaths_in[2]
+        # filepath_out = f'website/images/{latin_name_dash}-horticulture.jpg'
+        # img = Image.open(filepath_in)
+        # img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+        # img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+        # filepath_in = filepaths_in[3]
+        # filepath_out = f'website/images/{latin_name_dash}-botany.jpg'
+        # img = Image.open(filepath_in)
+        # img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+        # img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+        # quit()
+
+
 def gen_articles_plant_medicine():
     articles_folderpath = 'database/articles/plants'
     for plant in plants:
@@ -1558,6 +1818,9 @@ def articles_benefits():
             article_html += f'<p><img src="/images/{entity}-medicine-benefits-{benefit["benefit_name"].strip().lower().replace(" ", "-")}.jpg" alt="{latin_name}"></p>' + '\n'
             try: article_html += util.text_format_1N1_html(benefit['benefit_desc']) + '\n'
             except: print(f'MISSING DESCRIPTION: {article_filepath_in} >> {benefit_name}')
+            article_html += f'<p>{latin_name} {benefit_name.lower()} thanks to the active constituents listed below.</p>' + '\n'
+            try: article_html += util.lst_to_html(benefit['constituents_list']) + '\n'
+            except: print(f'MISSING CONSTITUENTS: {article_filepath_in} >> {benefit_name}')
 
         header_html = generate_header_light()
         word_count = len(article_html.split(' '))
@@ -1658,6 +1921,138 @@ def articles_benefits():
 
 
 
+
+def articles_constituents():
+    articles_folderpath = 'database/articles/plants'
+    articles_type = 'constituents'
+
+    for plant in plants:
+        latin_name = plant[cols['latin_name']].strip()
+        entity = latin_name.lower().replace(' ', '-')
+
+        article_filepath = f'{articles_folderpath}/{entity}/medicine/constituents.json'
+        article_filepath_in = article_filepath
+        article_filepath_out = article_filepath.replace(articles_folderpath, 'website').replace('.json', '.html')
+
+        if not os.path.exists(article_filepath): continue
+
+        data = util.json_read(article_filepath_in)
+
+        article_html = ''
+
+        try: title = data["title"]
+        except: title = ''
+        if title != '': article_html += f'<h1>{title}</h1>' + '\n'
+        else: print('MISSING >>>>> TITLE\n')
+
+        article_html += f'<p><img src="/images/{entity}-medicine-constituents-overview.jpg" alt="{latin_name} medicine constituents overview"></p>' + '\n'
+        
+        try: article_html += util.text_format_1N1_html(data['intro']) + '\n'
+        except: print('MISSING >>>>> INTRO\n')
+
+        try: constituents = data['constituents']
+        except: constituents = []
+        for i, item in enumerate(constituents[:10]):
+            try: item_name = item['constituent_name'].strip()
+            except:
+                print('MISSING >>>>> CONSTITUENT NAME\n')
+                continue
+            item_name_dash = item_name.lower().replace(' ' , '-')
+
+            article_html += f'<h2>{i+1}. {item_name}</h2>' + '\n'
+            article_html += f'<p><img src="/images/{entity}-medicine-constituents-{item["constituent_name"].strip().lower().replace(" ", "-")}.jpg" alt="{latin_name}"></p>' + '\n'
+            try: article_html += util.text_format_1N1_html(item['constituent_desc']) + '\n'
+            except: print(f'MISSING DESCRIPTION: {article_filepath_in} >> {item_name}')
+            article_html += f'<p>{latin_name} {item_name.lower()} thanks to the active constituents listed below.</p>' + '\n'
+            # try: article_html += util.lst_to_html(item['constituents_list']) + '\n'
+            # except: print(f'MISSING CONSTITUENTS: {article_filepath_in} >> {item_name}')
+
+        header_html = generate_header_light()
+        word_count = len(article_html.split(' '))
+        reading_time_html = str(word_count // 200) + ' minutes'
+
+        article_html = generate_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                
+                <section class="my-96">
+                    <div class="container">
+                        <div class="flex items-center justify-between mb-16">
+                            <div class="flex items-center gap-16">
+                                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                            </div>
+                            <span>{reading_time_html}</span>
+                        </div>
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(f'{article_filepath_out}', html)
+
+        # IMAGES
+        folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
+        if not os.path.exists(folderpath): 
+            print('MISSING >>>>> IMAGE FOLDER')
+            continue
+        filenames = os.listdir(folderpath)
+        filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+
+        random.shuffle(filepaths_in)
+
+        filepath_out = f'website/images/{entity}-medicine-constituents-overview.jpg'
+        if not os.path.exists(filepath_out):
+            try: 
+                filepath_in = filepaths_in[3]
+                img = Image.open(filepath_in)
+                img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+                img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+            except: 
+                print(f'MISSING IMAGE: {entity} >> {i}')
+                continue
+
+        for i, item in enumerate(constituents[:10]):
+            filepath_out = f'website/images/{entity}-medicine-constituents-{item["constituent_name"].strip().lower().replace(" ", "-")}.jpg'
+            if os.path.exists(filepath_out): continue
+            print(filepath_out)
+            try: filepath_in = filepaths_in[i]
+            except: 
+                print(f'MISSING IMAGE: {entity} >> {i}')
+                continue
+            img = Image.open(filepath_in)
+            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+
+
+
+
 ##############################################################################
 # STATIC FILES
 ##############################################################################
@@ -1682,13 +2077,16 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 # generate_articles_herbalism_tea_2()
 # generate_articles_plants()
-articles_plants()
-articles_medicine()
-articles_benefits()
+#articles_plants()
+articles_plants_secondary()
+# articles_medicine()
 
-generate_home()
+# articles_benefits()
+# articles_constituents()
+
+# generate_home()
 generate_page_herbs()
-generate_about()
+# generate_about()
 
 # generate_page_herbalism()
 # generate_page_herbalism_tea()

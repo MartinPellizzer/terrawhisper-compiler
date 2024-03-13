@@ -4,41 +4,7 @@ import re
 from groq import Groq
 
 import util
-
-client = Groq(
-    api_key='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',
-)
-
-
-
-def gen_reply(prompt):
-    completion = client.chat.completions.create(
-        messages=[
-            {
-                "role": "user",
-                "content": prompt,
-            }
-        ],
-        model="mixtral-8x7b-32768",
-    )
-
-    reply = completion.choices[0].message.content
-    print()
-    print()
-    print()
-    print("Q:")
-    print()
-    print(prompt)
-    print()
-    print("A:")
-    print()
-    print(reply)
-    print()
-    return reply
-
-
-def prompt_normalize(prompt):
-    return '\n'.join([line.strip() for line in prompt.split('\n') if line.strip() != ''])
+import util_ai
 
 
 
@@ -58,7 +24,7 @@ def ai_herbalism_teas_conditions_csv(condition, condition_i):
     '''
 
     prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    reply = util.gen_reply(prompt)
     reply = reply.strip()
 
     reply_formatted = []
@@ -137,7 +103,7 @@ def ai_herbalism_teas_conditions_description(condition, condition_i):
             Start with these words: {starting_text}
         '''     
         prompt = prompt_normalize(prompt)
-        reply = gen_reply(prompt)
+        reply = util.gen_reply(prompt)
         reply = reply.strip()
         if starting_text.lower().strip() not in reply.lower():
             reply = starting_text + reply 
@@ -176,7 +142,6 @@ def ai_herbalism_teas_conditions_recipe(condition, condition_i):
 
     if not data: return
 
-
     for index, remedy in enumerate(data['remedies']):
         print(f'{condition_i+1}/{len(conditions)} >> {index+1}/{len(data["remedies"])} -- {condition}')
         remedy_name = remedy['remedy_name']
@@ -190,12 +155,13 @@ def ai_herbalism_teas_conditions_recipe(condition, condition_i):
         remedy_name_formatted = remedy_name.lower().strip() + ' tea'
         remedy_name_formatted = remedy_name_formatted.replace(' tea tea', ' tea')
         prompt = f'''
-            Write a detailed 5-step recipe in ordered list format on how to make {remedy_name_formatted} for {condition.lower()}.
-            Include numbers like ingredient dosages and times of preparation in the steps when applicable.
-            Each step must be only 1 sentence long.
+            Write a 5-step recipe to make {remedy_name_formatted} for {condition.lower()}.
+            Include ingredients dosages and preparations times.
+            Write only 1 sentence for step.
+            Answer in list format.
         '''     
         prompt = prompt_normalize(prompt)
-        reply = gen_reply(prompt)
+        reply = util.gen_reply(prompt)
         reply = reply.strip()
 
         reply_formatted = []
@@ -221,49 +187,28 @@ def ai_herbalism_teas_conditions_recipe(condition, condition_i):
 
 
 
-def ai_herbalism_teas_conditions_init(condition):
-    condition_dash = condition.strip().lower().replace(' ', '-')
-    filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
-    data = util.json_read(filepath)
-
-    condition_json = ''
-    try: condition_json = data['condition']
-    except: data['condition'] = condition_json
-    if condition_json == '': data['condition'] = condition
-
-    preparation_json = ''
-    try: preparation_json = data['preparation']
-    except: data['preparation'] = preparation_json
-    if preparation_json == '': data['preparation'] = 'tea'
-
-    title_json = ''
-    try: title_json = data['title']
-    except: data['title'] = title_json
-    if title_json == '': data['title'] = f'best herbal teas for {condition}'
-
-    url_json = ''
-    try: url_json = data['url']
-    except: data['url'] = url_json
-    if url_json == '': data['url'] = f'herbalism/tea/{condition_dash}'
-
-    num_json = ''
-    try: num_json = data['remedy_num']
-    except: data['remedy_num'] = num_json
-    if num_json == '': data['remedy_num'] = 10
-
-    util.json_write(filepath, data)
 
 
+def ai_herbalism_teas_conditions_main():
+    rows = util.csv_get_rows('database/tables/conditions.csv')
+    conditions = [row[0] for row in rows[1:]]
+    for condition_i, condition in enumerate(conditions):
+        condition_dash = condition.strip().lower().replace(' ', '-')
+        filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
+        data = util.json_read(filepath)
+
+        data['condition'] = condition
+        data['preparation'] = 'tea'
+        data['title'] = f'best herbal teas for {condition}'
+        data['url'] = f'herbalism/tea/{condition_dash}'
+        data['remedy_num'] = 10
+
+        util.json_write(filepath, data)
 
 
-rows = util.csv_get_rows('database/tables/conditions.csv')
-conditions = [row[0] for row in rows[1:]]
-for condition_i, condition in enumerate(conditions):
-    # ai_herbalism_teas_conditions_init(condition)
+        # ai_herbalism_teas_conditions_csv(condition, condition_i)
+        ai_herbalism_teas_conditions_csv_to_json()
 
-    # ai_herbalism_teas_conditions_csv(condition, condition_i)
-    # ai_herbalism_teas_conditions_csv_to_json()
-
-    ai_herbalism_teas_conditions_description(condition, condition_i)
-    ai_herbalism_teas_conditions_recipe(condition, condition_i)
-    
+        ai_herbalism_teas_conditions_description(condition, condition_i)
+        ai_herbalism_teas_conditions_recipe(condition, condition_i)
+        
