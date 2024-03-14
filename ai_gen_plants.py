@@ -1251,6 +1251,144 @@ def ai_constituents_main():
 
 
 
+
+
+#######################################################################
+# ROOT >> MEDICINE >> PREPARATIONS
+#######################################################################
+
+def ai_preparations_intro(entity):
+    var_val = ''
+    var_name = 'intro'
+    
+    filepath = f'database/articles/plants/{entity}/medicine/preparations.json'
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+    
+    try: var_val = data[var_name]
+    except: data[var_name] = var_val
+    if var_val != '': return
+
+    prompt = f'''
+        Write a 5-sentence paragraph about the medicinal preparations of {latin_name} (ex. tisane and tincture).
+    '''     
+    prompt = prompt_normalize(prompt)
+    reply = gen_reply(prompt)
+    reply_formatted = reply_to_paragraphs(reply)
+
+    if len(reply_formatted) == 1:
+        p = reply_formatted[0]
+        print('***************************************')
+        print(p)
+        print('***************************************')
+
+        data[var_name] = p
+        util.json_write(filepath, data)
+
+    time.sleep(30)
+
+
+def ai_preparations_sections_csv_to_json(filepath, csv_rows):
+    var_val = []
+    var_name_p = 'preparations'
+    var_name_s = 'preparation'
+
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    try: var_val = data[var_name_p]
+    except: data[var_name_p] = var_val
+    if var_val != []: return
+
+    lst = [{f'{var_name_s}_name': csv_row} for csv_row in csv_rows]
+    
+    data[var_name_p] = lst
+    util.json_write(filepath, data)
+
+
+def ai_preparations_sections_description(filepath):
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+    preparations = data['preparations']
+
+    for item in preparations:
+        preparation_name = item['preparation_name']
+        
+        var_val = ''
+        var_name = 'constituent_desc'
+        try: var_val = item[var_name]
+        except: item[var_name] = var_val
+        if var_val != '': continue
+
+        starting_text = f'{latin_name.title()} {preparation_name.lower()} is '
+        prompt = f'''
+                Write a 5-sentence paragraph about this medicinal preparations of {latin_name.capitalize()} ({common_name}): {preparation_name}.
+                In sentence 1, write a detailed definition of "{latin_name.capitalize()} {preparation_name}". Start this sentence with these words: {starting_text}.
+                In sentence 2, write what are the main health benefits of this {latin_name.capitalize()} preparation.
+                In sentence 3, write what are the main plant parts used for this {latin_name.capitalize()} preparation.
+                In sentence 4, write how to make this {latin_name.capitalize()} preparation.
+                In sentence 5, write what are the main precautions to take when using this {latin_name.capitalize()} preparation.
+                Don't add new empty lines between sentences.
+            '''
+        prompt = prompt_normalize(prompt)
+
+        running = True
+        while running:
+            try:
+                reply = gen_reply(prompt)
+                running = False
+            except:
+                time.sleep(300)
+
+        reply = reply.replace(f', also known as {common_name.lower()},', '')
+        reply = reply.replace(f', also known as {common_name.title()},', '')
+        reply = reply.replace(f', also known as {common_name.capitalize()},', '')
+        paragraphs_filtered = reply_to_paragraphs(reply)
+        
+        if len(paragraphs_filtered) == 1:
+            p = paragraphs_filtered[0]
+            print('***************************************')
+            print(p)
+            print('***************************************')
+
+            item[var_name] = p
+            util.json_write(filepath, data)
+        
+        time.sleep(30)
+
+
+def ai_preparations_main():
+    sections_num = 10
+    article_type = 'preparations'
+
+    for index, plant in enumerate(plants):
+        print(index, '-', len(plants), '>>', plant[0])
+
+        latin_name = plant[cols['latin_name']].strip().capitalize()
+        common_name = plant[cols['common_name']].strip().title()
+        entity = latin_name.lower().replace(' ', '-')
+        url = f'{entity}/medicine/preparations'
+        csv_rows = [row[1] for row in util.csv_get_rows_by_entity('database/tables/preparations.csv', entity)[:sections_num]]
+
+        filepath = f'database/articles/plants/{url}.json'
+        data = util.json_read(filepath)
+        data['entity'] = entity
+        data['url'] = url
+        data['latin_name'] = latin_name
+        data['common_name'] = common_name
+        data['title'] = f'10 Best Medicinal Preparations of {latin_name} ({common_name})'
+        util.json_write(filepath, data)
+
+        ai_preparations_intro(entity)
+        ai_preparations_sections_csv_to_json(filepath, csv_rows)
+        ai_preparations_sections_description(filepath)
+        
+
+
+
 #######################################################################
 # CSV
 #######################################################################
@@ -1449,7 +1587,8 @@ def ai_entity_medicine_precautions_csv():
 # ai_entity_medicine_side_effects_csv()
 # ai_entity_medicine_precautions_csv()
 
-ai_entity_main()
+# ai_entity_main()
 # ai_medicine_main()
 # ai_benefits_main()
 # ai_constituents_main()
+ai_preparations_main()

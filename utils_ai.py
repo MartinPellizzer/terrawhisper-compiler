@@ -1,7 +1,10 @@
 from groq import Groq
 
+with open('C:/api/groq.txt', 'r', encoding='utf-8') as f:
+    api = f.read()
+
 client = Groq(
-    api_key='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',
+    api_key=api,
 )
 
 
