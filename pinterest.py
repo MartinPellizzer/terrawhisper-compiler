@@ -19,7 +19,7 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
 
-ARTICLES_NUM = 24
+ARTICLES_NUM = 25
 
 
 

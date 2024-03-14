@@ -14,11 +14,6 @@ import util
 import utils_ai
 
 
-client = Groq(
-    api_key='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',
-)
-
-
 # MODELS = [
 #     'C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.1.Q8_0.gguf',
 #     'C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.2.Q8_0.gguf',
@@ -44,11 +39,16 @@ def get_common_name(latin_name):
 
 
 
+
+
 plants = [row for row in util.csv_get_rows('database/tables/plants.csv')]
 cols = {}
 for i, item in enumerate(plants[0]):
     cols[item] = i
 plants = plants[1:g.ARTICLES_NUM+1]
+
+
+
 
 
 def folder_create(filepath):
@@ -60,51 +60,6 @@ def folder_create(filepath):
         except: pass
 
 
-# def gen_reply(prompt):
-#     print()
-#     print("Q:")
-#     print()
-#     print(prompt)
-#     print()
-#     print("A:")
-#     print()
-#     reply = ''
-#     for text in llm(prompt, stream=True):
-#         reply += text
-#         print(text, end="", flush=True)
-#     print()
-#     print()
-#     return reply
-
-
-def gen_reply(prompt):
-    completion = client.chat.completions.create(
-        messages=[
-            {
-                "role": "user",
-                "content": prompt,
-            }
-        ],
-        model="mixtral-8x7b-32768",
-    )
-
-    reply = completion.choices[0].message.content
-    print()
-    print()
-    print()
-    print("Q:")
-    print()
-    print(prompt)
-    print()
-    print("A:")
-    print()
-    print(reply)
-    print()
-    return reply
-
-
-def prompt_normalize(prompt):
-    return '\n'.join([line.strip() for line in prompt.split('\n') if line.strip() != ''])
 
 
 def reply_normalize(reply):
@@ -315,8 +270,7 @@ def ai_entity_intro(filepath):
         Don't include lists.
         Don't add empty lines between sentences.
     '''     
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    reply = utils_ai.gen_reply(prompt)
     reply_formatted = reply_to_paragraphs(reply)
 
     if len(reply_formatted) == 1:
@@ -345,24 +299,33 @@ def ai_entity_medicine(filepath):
 
     prompt = f'''
         Write 5 paragraphs about the medicinal aspects of {latin_name}.
-        In paragraph 1, write 5 sentences about the benefits of {latin_name}.
-        In paragraph 2, write 5 sentences about the constituents of {latin_name}.
-        In paragraph 3, write 5 sentences about the preparations of {latin_name}.
-        In paragraph 4, write 5 sentences about the side effects of {latin_name}.
-        In paragraph 5, write 5 sentences about the precautions of {latin_name}.
+        In paragraph 1, write about the benefits of {latin_name}.
+        In paragraph 2, write about the constituents of {latin_name}.
+        In paragraph 3, write about the preparations of {latin_name}.
+        In paragraph 4, write about the side effects of {latin_name}.
+        In paragraph 5, write about the precautions of {latin_name}.
         Don't include lists.
+        Make sure the number of paragraphs is exactly 5.
     '''     
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    
+    reply = utils_ai.gen_reply(prompt)
     reply_formatted = reply_to_list(reply)
 
 
+    print(len(reply_formatted))
     if len(reply_formatted) == 5:
         p = reply_formatted
         print('***************************************')
         print(p)
         print('***************************************')
+        data[var_name] = p
+        util.json_write(filepath, data)
 
+    elif len(reply_formatted) == 6:
+        p = reply_formatted[:5]
+        print('***************************************')
+        print(p)
+        print('***************************************')
         data[var_name] = p
         util.json_write(filepath, data)
 
@@ -383,14 +346,16 @@ def ai_entity_horticolture(filepath):
 
     prompt = f'''
         Write 5 paragraphs in 400 words about the horticultural aspects of {latin_name}.
-        In paragraph 1, write 5 sentences about the growth requirements of {latin_name}.
-        In paragraph 2, write 5 sentences about the planting tips of {latin_name}.
-        In paragraph 3, write 5 sentences about the caring tips of {latin_name}.
-        In paragraph 4, write 5 sentences about the harvesting tips of {latin_name}.
-        In paragraph 5, write 5 sentences about the pests and diseases of {latin_name}.
+        In paragraph 1, write about the growth requirements of {latin_name}.
+        In paragraph 2, write about the planting tips of {latin_name}.
+        In paragraph 3, write about the caring tips of {latin_name}.
+        In paragraph 4, write about the harvesting tips of {latin_name}.
+        In paragraph 5, write about the pests and diseases of {latin_name}.
+        Don't include lists.
+        Make sure the number of paragraphs is exactly 5.
     '''  
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    
+    reply = utils_ai.gen_reply(prompt)
     reply_formatted = reply_to_list(reply)
 
     if len(reply_formatted) == 5:
@@ -416,15 +381,6 @@ def ai_entity_botany(filepath):
     except: data[var_name] = var_val
     if var_val != '': return
 
-    # prompt = f'''
-    #     Write 5 paragraphs in 400 words about the botanical aspects of {latin_name}.
-    #     In paragraph 1, write 5 sentences about the taxonomy of {latin_name}.
-    #     In paragraph 2, write 5 sentences about the morphology of {latin_name}.
-    #     In paragraph 3, write 5 sentences about the variants names and differences of {latin_name}.
-    #     In paragraph 4, write 5 sentences about the geographic distribution and natural habitats of {latin_name}.
-    #     In paragraph 5, write 5 sentences about the life-cycle of {latin_name}.
-    # '''  
-
     prompt = f'''
         Write 5 paragraphs in 400 words about the botanical aspects of {latin_name}.
         In paragraph 1, write about the taxonomy of {latin_name}.
@@ -432,14 +388,24 @@ def ai_entity_botany(filepath):
         In paragraph 3, write about the variants names and differences of {latin_name}.
         In paragraph 4, write about the geographic distribution and natural habitats of {latin_name}.
         In paragraph 5, write about the life-cycle of {latin_name}.
+        Make sure the number of paragraphs is exactly 5.
+        Don't include lists.
+        Don't include titles for paragraphs.
     '''  
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    
+    reply = utils_ai.gen_reply(prompt)
     reply_formatted = reply_to_list(reply)
 
     print(len(reply_formatted))
     if len(reply_formatted) == 5:
         p = reply_formatted
+        print('***************************************')
+        print(p)
+        print('***************************************')
+        data[var_name] = p
+        util.json_write(filepath, data)
+    elif len(reply_formatted) == 6:
+        p = reply_formatted[:5]
         print('***************************************')
         print(p)
         print('***************************************')
@@ -482,9 +448,6 @@ def ai_entity_main():
 
 
 
-
-
-
 #######################################################################
 # MEDICINE
 #######################################################################
@@ -505,8 +468,8 @@ def ai_medicine_constituents(filepath, running):
         Write a numbered list of the {prompt_paragraphs_num} best active constituents of {latin_name} ({common_name}) for health.
         Add descriptions to the active constituents.
     '''     
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    
+    reply = utils_ai.gen_reply(prompt)
 
     reply = reply.strip()
     reply_formatted = []
@@ -548,8 +511,8 @@ def ai_medicine_preparations(filepath, running):
         Add descriptions to the medicinal preparations.
         Examples of medicinal preparations are infusions and tincures.
     '''     
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    
+    reply = utils_ai.gen_reply(prompt)
 
     reply = reply.strip()
     reply_formatted = []
@@ -590,8 +553,8 @@ def ai_medicine_side_effects(filepath, running):
         Write a numbered list of the {prompt_paragraphs_num} possible side effects of using {latin_name} ({common_name}) for medicinal purposes.
         Add descriptions to the side effects.
     '''     
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    
+    reply = utils_ai.gen_reply(prompt)
 
     reply = reply.strip()
     reply_formatted = []
@@ -632,8 +595,8 @@ def ai_medicine_precautions(filepath, running):
         Write a numbered list of the {prompt_paragraphs_num} precautions to take when of using {latin_name} ({common_name}) for medicinal purposes.
         Include the names of the precautions and add descriptions.
     '''     
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    
+    reply = utils_ai.gen_reply(prompt)
 
     reply = reply.strip()
     reply_formatted = []
@@ -685,8 +648,8 @@ def ai_medicine_section_text(entity, section, prompt):
 
     prompt = prompt.replace('<lst>', lst)
 
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    
+    reply = utils_ai.gen_reply(prompt)
     reply = reply.replace(f', also known as {common_name.lower()},', '')
     reply = reply.replace(f', also known as {common_name.title()},', '')
     reply = reply.replace(f', also known as {common_name.capitalize()},', '')
@@ -726,7 +689,7 @@ def ai_medicine_section_list(entity, section, prompt):
 
     prompt = prompt.replace('<lst>', lst)
       
-    prompt = prompt_normalize(prompt)
+    
     reply = utils_ai.gen_reply(prompt)
     
     reply_formatted = []
@@ -778,8 +741,8 @@ def ai_medicine_benefits_description_list_csv(entity):
             Explain in 1 sentence in detail why {latin_name} {benefit}.
             Start with these words: {starting_text}
         '''     
-        prompt = prompt_normalize(prompt)
-        reply = gen_reply(prompt)
+        
+        reply = utils_ai.gen_reply(prompt)
         reply = starting_text + reply.strip()
 
         reply_formatted = []
@@ -825,8 +788,8 @@ def ai_medicine_intro(entity):
         In sentence 4, write the side effects of {latin_name}.
         In sentence 5, write the precautions of {latin_name}.
     '''     
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    
+    reply = utils_ai.gen_reply(prompt)
     reply_formatted = reply_to_paragraphs(reply)
 
     if len(reply_formatted) == 1:
@@ -965,8 +928,8 @@ def ai_benefits_intro(entity):
     prompt = f'''
         Write a 5-sentence paragraph about the medicinal benefits of {latin_name}.
     '''     
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    
+    reply = utils_ai.gen_reply(prompt)
     reply_formatted = reply_to_paragraphs(reply)
 
     if len(reply_formatted) == 1:
@@ -1024,8 +987,8 @@ def ai_benefits_description(filepath, running):
                 In sentence 4, write what are the main medicinal preparations of {latin_name.capitalize()} that give this benefit.
                 In sentence 5, write what are the main health conditions that this benefit of {latin_name.capitalize()} helps relieve.
             '''
-        prompt = prompt_normalize(prompt)
-        reply = gen_reply(prompt)
+        
+        reply = utils_ai.gen_reply(prompt)
         paragraphs_filtered = reply_to_paragraphs(reply)
         
         if len(paragraphs_filtered) == 1:
@@ -1067,8 +1030,8 @@ def ai_benefits_constituents(filepath):
             Write only constituents with short names.
             Write only constituents that don't include numbers in the names.
         '''
-        prompt = prompt_normalize(prompt)
-        reply = gen_reply(prompt)
+        
+        reply = utils_ai.gen_reply(prompt)
         paragraphs_filtered = reply_to_list_2(reply)
         
         if len(paragraphs_filtered) >= 5:
@@ -1133,8 +1096,8 @@ def ai_constituents_intro(entity):
     prompt = f'''
         Write a 5-sentence paragraph about the active constituents of {latin_name} for medicinal purposes.
     '''     
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    
+    reply = utils_ai.gen_reply(prompt)
     reply_formatted = reply_to_paragraphs(reply)
 
     if len(reply_formatted) == 1:
@@ -1193,12 +1156,12 @@ def ai_constituents_sections_description(filepath):
                 In sentence 5, write what are the some possible side effect of this {latin_name.capitalize()} constituent if used improperly.
                 Don't add new empty lines between sentences.
             '''
-        prompt = prompt_normalize(prompt)
+        
 
         running = True
         while running:
             try:
-                reply = gen_reply(prompt)
+                reply = utils_ai.gen_reply(prompt)
                 running = False
             except:
                 time.sleep(300)
@@ -1273,8 +1236,8 @@ def ai_preparations_intro(entity):
     prompt = f'''
         Write a 5-sentence paragraph about the medicinal preparations of {latin_name} (ex. tisane and tincture).
     '''     
-    prompt = prompt_normalize(prompt)
-    reply = gen_reply(prompt)
+    
+    reply = utils_ai.gen_reply(prompt)
     reply_formatted = reply_to_paragraphs(reply)
 
     if len(reply_formatted) == 1:
@@ -1333,12 +1296,12 @@ def ai_preparations_sections_description(filepath):
                 In sentence 5, write what are the main precautions to take when using this {latin_name.capitalize()} preparation.
                 Don't add new empty lines between sentences.
             '''
-        prompt = prompt_normalize(prompt)
+        
 
         running = True
         while running:
             try:
-                reply = gen_reply(prompt)
+                reply = utils_ai.gen_reply(prompt)
                 running = False
             except:
                 time.sleep(300)
@@ -1414,7 +1377,7 @@ def ai_entity_medicine_benefits_csv():
             # Don't include side effects similar to those you already added.
         '''
 
-        prompt = prompt_normalize(prompt)
+        
         reply = utils_ai.gen_reply(prompt)
         reply_formatted = ai_list_to_csv(entity, reply)
 
@@ -1450,8 +1413,8 @@ def ai_entity_medicine_constituents_csv():
             Use few words as possible.
         '''
 
-        prompt = prompt_normalize(prompt)
-        reply = gen_reply(prompt)
+        
+        reply = utils_ai.gen_reply(prompt)
         reply_formatted = ai_list_to_csv(entity, reply)
 
         if len(reply_formatted) >= 10:
@@ -1485,8 +1448,8 @@ def ai_entity_medicine_preparations_csv():
             Don't include the name of the plant.
         '''
 
-        prompt = prompt_normalize(prompt)
-        reply = gen_reply(prompt)
+        
+        reply = utils_ai.gen_reply(prompt)
         reply_formatted = ai_list_to_csv(entity, reply)
 
         if len(reply_formatted) >= 10:
@@ -1522,8 +1485,8 @@ def ai_entity_medicine_side_effects_csv():
             Don't include side effects with long names.
         '''
 
-        prompt = prompt_normalize(prompt)
-        reply = gen_reply(prompt)
+        
+        reply = utils_ai.gen_reply(prompt)
         reply_formatted = ai_list_to_csv(entity, reply)
 
         if len(reply_formatted) >= 10:
@@ -1557,8 +1520,8 @@ def ai_entity_medicine_precautions_csv():
             Answer in as few words as possible.
         '''
 
-        prompt = prompt_normalize(prompt)
-        reply = gen_reply(prompt)
+        
+        reply = utils_ai.gen_reply(prompt)
         reply_formatted = ai_list_to_csv(entity, reply)
 
         if len(reply_formatted) >= 10:
@@ -1572,7 +1535,11 @@ def ai_entity_medicine_precautions_csv():
         time.sleep(30)
 
 
+
+
+
 #######################################################################################
+
 
 
 
@@ -1587,8 +1554,8 @@ def ai_entity_medicine_precautions_csv():
 # ai_entity_medicine_side_effects_csv()
 # ai_entity_medicine_precautions_csv()
 
-# ai_entity_main()
+ai_entity_main()
 # ai_medicine_main()
 # ai_benefits_main()
 # ai_constituents_main()
-ai_preparations_main()
+# ai_preparations_main()
