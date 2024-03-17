@@ -1,4 +1,2 @@
-- 60 articles plants secondary
-- colab stable diffusion image generator
+- complete an compile preparations articles
 - api
-- preparations articles

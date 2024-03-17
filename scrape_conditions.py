@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.options import Options
 
 import time
 import os
@@ -10,19 +11,41 @@ import csv
 import pyperclip
 import util
 
-driver = webdriver.Firefox()
+options = Options()
+options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
+driver = webdriver.Firefox(executable_path=r'C:\drivers\geckodriver.exe', options=options)
 driver.get("https://www.pharmachoice.com/health-advice/medical-conditions/")
 time.sleep(5) 
 
-elements = driver.find_elements(By.XPATH, '//h4[contains(@class, "elementor-heading-title")]')
-condition = {}
-for e in elements:
-    if not e.text.startswith('('):
-        print(condition)
-        condition = {}
-        condition['name'] = e.text
+for i in range(100):
+    elements = driver.find_elements(By.XPATH, '//h4[contains(@class, "elementor-heading-title")]')
+    condition = {}
+    print(i)
+    for e in elements:
+        if not e.text.startswith('('):
+            if condition != {}:
+                rows = util.csv_get_rows_by_entity('database/tables/_conditions.csv', condition['name'])
+                if rows == []:
+                    try: condition_name = condition['name']
+                    except: condition_name = ''
+                    try: condition_alias = condition['alias']
+                    except: condition_alias = ''
+                    util.csv_add_rows('database/tables/_conditions.csv', [[condition_name, condition_alias]])
+                # print(condition)
+            condition = {}
+            condition['name'] = e.text
+        else:
+            condition['alias'] = e.text
+
+    elements = driver.find_elements(By.XPATH, '//span[contains(text(), "LOAD MORE")]')
+    if elements:
+        for e in elements:
+            e.click()
     else:
-        condition['alias'] = e.text
+        print('no more elements to downoad')
+
+    time.sleep(10)
+
 
 
 # for i, row in enumerate(rows[ARTICLE_START:ARTICLE_END]):

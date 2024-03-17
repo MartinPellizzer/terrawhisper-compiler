@@ -304,8 +304,6 @@ def ai_entity_medicine(filepath):
         In paragraph 3, write about the preparations of {latin_name}.
         In paragraph 4, write about the side effects of {latin_name}.
         In paragraph 5, write about the precautions of {latin_name}.
-        Don't include lists.
-        Make sure the number of paragraphs is exactly 5.
     '''     
     
     reply = utils_ai.gen_reply(prompt)
@@ -351,8 +349,6 @@ def ai_entity_horticolture(filepath):
         In paragraph 3, write about the caring tips of {latin_name}.
         In paragraph 4, write about the harvesting tips of {latin_name}.
         In paragraph 5, write about the pests and diseases of {latin_name}.
-        Don't include lists.
-        Make sure the number of paragraphs is exactly 5.
     '''  
     
     reply = utils_ai.gen_reply(prompt)
@@ -388,9 +384,6 @@ def ai_entity_botany(filepath):
         In paragraph 3, write about the variants names and differences of {latin_name}.
         In paragraph 4, write about the geographic distribution and natural habitats of {latin_name}.
         In paragraph 5, write about the life-cycle of {latin_name}.
-        Make sure the number of paragraphs is exactly 5.
-        Don't include lists.
-        Don't include titles for paragraphs.
     '''  
     
     reply = utils_ai.gen_reply(prompt)
@@ -1278,17 +1271,17 @@ def ai_preparations_sections_description(filepath):
     preparations = data['preparations']
 
     for item in preparations:
-        preparation_name = item['preparation_name']
+        preparation_name = item['name']
         
         var_val = ''
-        var_name = 'constituent_desc'
+        var_name = 'desc'
         try: var_val = item[var_name]
         except: item[var_name] = var_val
         if var_val != '': continue
 
         starting_text = f'{latin_name.title()} {preparation_name.lower()} is '
         prompt = f'''
-                Write a 5-sentence paragraph about this medicinal preparations of {latin_name.capitalize()} ({common_name}): {preparation_name}.
+                Write 1 paragraph in 5 sentences about this medicinal preparations of {latin_name.capitalize()} ({common_name}): {preparation_name}.
                 In sentence 1, write a detailed definition of "{latin_name.capitalize()} {preparation_name}". Start this sentence with these words: {starting_text}.
                 In sentence 2, write what are the main health benefits of this {latin_name.capitalize()} preparation.
                 In sentence 3, write what are the main plant parts used for this {latin_name.capitalize()} preparation.

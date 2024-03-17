@@ -14,19 +14,25 @@ import util
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.options import Options
 
 from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
 
-ARTICLES_NUM = 25
+ARTICLES_NUM = 28
 
 
-
-driver = webdriver.Firefox()
+options = Options()
+options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
+driver = webdriver.Firefox(executable_path=r'C:\drivers\geckodriver.exe', options=options)
 driver.get("https://www.pinterest.com/login/")
 driver.maximize_window()
 time.sleep(10)
+
+# driver = webdriver.Firefox()
+# driver.get("https://www.pinterest.com/login/")
+# time.sleep(5) 
 
 e = driver.find_element(By.XPATH, '//input[@id="email"]')
 e.send_keys('leenrandell@gmail.com') 
@@ -155,7 +161,9 @@ for article_filepath in articles_filepath:
 
     driver.get("https://www.google.com/")
 
-    time.sleep(300)
+    # break
+
+    time.sleep(900)
 
 
 

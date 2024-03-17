@@ -9,43 +9,6 @@ herbal tea for daily consumption
 
 herbal tea for estrogen dominance
 
-herbal tea for focus
-herbal tea for fasting
-herbal tea for flatulence
-herbal tea for fever and flu
-herbal tea for fat loss
-herbal tea for fluid retention
-herbal tea for female libido
-herbal tea for female fertility
-herbal tea for female hormone balance
-herbal tea for focus and concentration
-herbal tea for gerd
-herbal tea for gut health
-herbal tea for gas
-herbal tea for gastritis
-herbal tea for glowing skin
-herbal tea for gas pain
-herbal tea for good health
-herbal tea for grief
-herbal tea for gut healing
-herbal tea for gastric
-herbal tea for gastroparesis
-herbal tea for gas relief
-herbal tea for gut
-herbal tea for heartburn
-herbal tea for hair growth
-herbal tea for hormonal imbalance
-herbal tea for heart health
-herbal tea for hot flashes
-herbal tea for hypertension
-herbal tea for health
-herbal tea for hangover
-herbal tea for hydration
-herbal tea for hair loss
-herbal tea for immune system
-herbal tea for insomnia
-herbal tea for infection
-herbal tea for itchy skin
 herbal tea for irregular periods
 herbal tea for immunity
 herbal tea for iron deficiency

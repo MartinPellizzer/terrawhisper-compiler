@@ -83,7 +83,7 @@ Medicinal preparations involve various methods of extracting and using the medic
 
 Here are some main herbal preparations commonly used in herbalism:
 
-- [Infusions (Teas)](/herbalism/tea.com): Made by steeping plant material (usually leaves or flowers) in hot water for a short period.
+- [Infusions (Teas)](/herbalism/tea.html): Made by steeping plant material (usually leaves or flowers) in hot water for a short period.
 - Decoctions: Involves boiling tougher plant parts like roots or bark to extract medicinal compounds.
 - Tinctures: Concentrated liquid extracts created by soaking plant material in alcohol or glycerin. Tinctures preserve the active constituents of the herbs and have a longer shelf life.
 - Extracts: Similar to tinctures but may use different solvents like water or vinegar. They concentrate the beneficial compounds for medicinal use.

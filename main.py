@@ -188,7 +188,6 @@ def generate_toc(content_html):
 
 def generate_home():
     header = generate_header_transparent()
-    print(header)
 
     template = util.file_read('templates/home.html')
             
@@ -406,6 +405,45 @@ def generate_page_herbs():
 
     util.file_write(f'website/{page_url}.html', page_html)
 
+
+
+def generate_page_teas():
+    article_html = ''
+    article_html += '<div class="articles">'
+
+    articles_folderpath = 'database/articles/herbalism/tea'
+    for article_filename in os.listdir(articles_folderpath):
+        condition = article_filename.split('.')[0].strip()
+        condition_dash = condition.lower().replace(' ', '-')
+        article_filepath = f'{articles_folderpath}/{article_filename}'
+        data = util.json_read(article_filepath)
+
+        article_html += f'''
+            <a href="/herbalism/tea/{condition_dash}.html">
+                <div>
+                    <img src="/images/herbal-tea-for-{condition_dash}-overview.jpg" alt="herbal tea for {condition} overview">
+                    <h3 class="mt-0 mb-0">{condition}</h3>
+                </div>
+            </a>
+        '''
+
+    article_html += '</div>'
+
+    page_url = 'herbalism/tea'
+
+    header = generate_header_light()
+
+    page_html = util.file_read(f'templates/{page_url}.html')
+
+    page_html = page_html.replace('[meta_title]', 'Herbalism')
+    page_html = page_html.replace('[google_tag]', GOOGLE_TAG)
+    page_html = page_html.replace('[author_name]', AUTHOR_NAME)
+    page_html = page_html.replace('[header]', header)
+    page_html = page_html.replace('[articles]', article_html)
+
+    util.file_write(f'website/{page_url}.html', page_html)
+
+    
 
 
 
@@ -713,6 +751,8 @@ def generate_articles_herbalism_tea_2():
         except: print(f'***** MISSING TITLE: {article_filepath_in}')
         article_html += f'<h1>{title}</h1>' + '\n'
         article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-overview.jpg" alt="herbal teas for {condition} overview"></p>' + '\n'
+        try: article_html += f'<p>{util.text_format_1N1_html(data["intro"])}</p>\n'
+        except: print(f'***** MISSING INTRO: {article_filepath_in}')
 
         remedies = []
         try: remedies = data['remedies']
@@ -723,9 +763,10 @@ def generate_articles_herbalism_tea_2():
             remedy_recipe = remedy['remedy_recipe']
             remedy_name_dash = remedy_name.lower().strip().replace(' ', '-')
             remedy_desc_formatted = util.text_format_1N1_html(remedy_desc)
-            article_html += f'<h2>{index+1}. {remedy_name}</h2>' + '\n'
+            article_html += f'<h2>{index+1}. {remedy_name.title()}</h2>' + '\n'
             article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-{remedy_name_dash}.jpg" alt="herbal teas for {condition} {remedy_name.lower()}"></p>' + '\n'
             article_html += f'<p>{remedy_desc_formatted}</p>' + '\n'
+            article_html += f'<p>The following procedure explaing how to make {remedy_name.lower()} tea for {condition}.</p>'
             article_html += f'<ol>' + '\n'
             for item in remedy_recipe:
                 article_html += f'<li>{item}</li>' + '\n'
@@ -1507,7 +1548,7 @@ def articles_medicine():
         try: article_html += util.text_format_1N1_html(data['constituents_text']) + '\n'
         except: print('MISSING >>>>> CONSTITUENTS TEXT\n')
         try:
-            article_html += f'<p>The following list shows the active constituents of {latin_name}.</p>' + '\n'
+            article_html += f'<p>The following list shows the <a href="/{entity}/medicine/constituents.html">active constituents of {latin_name}</a>.</p>' + '\n'
             article_html += lst_to_html_bold(data['constituents_list']) + '\n'
         except: print('MISSING >>>>> CONSTITUENTS LIST\n')
 
@@ -1516,7 +1557,7 @@ def articles_medicine():
         try: article_html += util.text_format_1N1_html(data['preparations_text']) + '\n'
         except: print('MISSING >>>>> PREPARATIONS TEXT\n')
         try:
-            article_html += f'<p>The following list shows the medicinal preparations of {latin_name}.</p>' + '\n'
+            article_html += f'<p>The following list shows the <a href="/{entity}/medicine/preparations.html">medicinal preparations of {latin_name}</a>.</p>' + '\n'
             article_html += lst_to_html_bold(data['preparations_list']) + '\n'
         except: print('MISSING >>>>> PREPARATIONS LIST\n')
 
@@ -1918,10 +1959,6 @@ def articles_benefits():
             img.save(filepath_out, format='JPEG', optimize=True, quality=50)
 
 
-
-
-
-
 def articles_constituents():
     articles_folderpath = 'database/articles/plants'
     articles_type = 'constituents'
@@ -1963,7 +2000,7 @@ def articles_constituents():
             article_html += f'<p><img src="/images/{entity}-medicine-constituents-{item["constituent_name"].strip().lower().replace(" ", "-")}.jpg" alt="{latin_name}"></p>' + '\n'
             try: article_html += util.text_format_1N1_html(item['constituent_desc']) + '\n'
             except: print(f'MISSING DESCRIPTION: {article_filepath_in} >> {item_name}')
-            article_html += f'<p>{latin_name} {item_name.lower()} thanks to the active constituents listed below.</p>' + '\n'
+            # article_html += f'<p>{latin_name} {item_name.lower()} thanks to the active constituents listed below.</p>' + '\n'
             # try: article_html += util.lst_to_html(item['constituents_list']) + '\n'
             # except: print(f'MISSING CONSTITUENTS: {article_filepath_in} >> {item_name}')
 
@@ -2050,6 +2087,132 @@ def articles_constituents():
             img.save(filepath_out, format='JPEG', optimize=True, quality=50)
 
 
+def articles_preparations():
+    articles_folderpath = 'database/articles/plants'
+    articles_type = 'preparations'
+
+    for plant in plants:
+        latin_name = plant[cols['latin_name']].strip()
+        entity = latin_name.lower().replace(' ', '-')
+
+        article_filepath = f'{articles_folderpath}/{entity}/medicine/preparations.json'
+        article_filepath_in = article_filepath
+        article_filepath_out = article_filepath.replace(articles_folderpath, 'website').replace('.json', '.html')
+
+        if not os.path.exists(article_filepath): continue
+
+        data = util.json_read(article_filepath_in)
+
+        article_html = ''
+
+        try: title = data["title"]
+        except: title = ''
+        if title != '': article_html += f'<h1>{title}</h1>' + '\n'
+        else: print('MISSING >>>>> TITLE\n')
+
+        article_html += f'<p><img src="/images/{entity}-medicine-preparations-overview.jpg" alt="{latin_name} medicine preparations overview"></p>' + '\n'
+        
+        try: article_html += util.text_format_1N1_html(data['intro']) + '\n'
+        except: print('MISSING >>>>> INTRO\n')
+
+        try: preparations = data['preparations']
+        except: preparations = []
+        for i, item in enumerate(preparations[:10]):
+            try: item_name = item['preparation_name'].strip()
+            except:
+                print('MISSING >>>>> PREPARATION NAME\n')
+                continue
+            item_name_dash = item_name.lower().replace(' ' , '-')
+
+            article_html += f'<h2>{i+1}. {item_name}</h2>' + '\n'
+            article_html += f'<p><img src="/images/{entity}-medicine-preparations-{item["preparation_name"].strip().lower().replace(" ", "-")}.jpg" alt="{latin_name}"></p>' + '\n'
+            try: article_html += util.text_format_1N1_html(item['constituent_desc']) + '\n'
+            except: print(f'MISSING DESCRIPTION: {article_filepath_in} >> {item_name}')
+            # article_html += f'<p>{latin_name} {item_name.lower()} thanks to the active preparations listed below.</p>' + '\n'
+
+        header_html = generate_header_light()
+        word_count = len(article_html.split(' '))
+        reading_time_html = str(word_count // 200) + ' minutes'
+
+        article_html = generate_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                
+                <section class="my-96">
+                    <div class="container">
+                        <div class="flex items-center justify-between mb-16">
+                            <div class="flex items-center gap-16">
+                                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                            </div>
+                            <span>{reading_time_html}</span>
+                        </div>
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(f'{article_filepath_out}', html)
+
+        # IMAGES
+        folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
+        if not os.path.exists(folderpath): 
+            print(f'MISSING >>>>> IMAGE FOLDER --- {entity}')
+            continue
+        filenames = os.listdir(folderpath)
+        filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+
+        random.shuffle(filepaths_in)
+
+        filepath_out = f'website/images/{entity}-medicine-preparations-overview.jpg'
+        if not os.path.exists(filepath_out):
+            try: 
+                filepath_in = filepaths_in[3]
+                img = Image.open(filepath_in)
+                img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+                img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+            except: 
+                print(f'MISSING IMAGE: {entity} >> {i}')
+                continue
+
+        for i, item in enumerate(preparations[:10]):
+            filepath_out = f'website/images/{entity}-medicine-preparations-{item["preparation_name"].strip().lower().replace(" ", "-")}.jpg'
+            if os.path.exists(filepath_out): continue
+            print(filepath_out)
+            try: filepath_in = filepaths_in[i]
+            except: 
+                print(f'MISSING IMAGE: {entity} >> {i}')
+                continue
+            img = Image.open(filepath_in)
+            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+
 
 
 
@@ -2075,20 +2238,22 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 
-# generate_articles_herbalism_tea_2()
+generate_articles_herbalism_tea_2()
 # generate_articles_plants()
 #articles_plants()
-articles_plants_secondary()
+# articles_plants_secondary()
 # articles_medicine()
 
 # articles_benefits()
 # articles_constituents()
+# articles_preparations()
 
 # generate_home()
-generate_page_herbs()
+# generate_page_herbs()
+# generate_page_teas()
 # generate_about()
 
-# generate_page_herbalism()
+generate_page_herbalism()
 # generate_page_herbalism_tea()
 
 
