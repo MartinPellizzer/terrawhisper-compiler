@@ -1081,3 +1081,183 @@ def ai_benefits_definition(filepath):
 
 #     return running
 
+
+
+
+
+
+
+
+#######################################################################
+# MEDICINE
+#######################################################################
+
+def ai_medicine_constituents(filepath, running):
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    constituents_list = ''
+    try: constituents_list = data['constituents_list']
+    except: data['constituents_list'] = constituents_list
+    if constituents_list != '': return
+    running = True
+
+    prompt_paragraphs_num = 10
+    prompt = f'''
+        Write a numbered list of the {prompt_paragraphs_num} best active constituents of {latin_name} ({common_name}) for health.
+        Add descriptions to the active constituents.
+    '''     
+    
+    reply = utils_ai.gen_reply(prompt)
+
+    reply = reply.strip()
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if ':' not in line: continue
+        if line[0].isdigit():
+            line = '. '.join(line.split('. ')[1:]).strip()
+            if line == '': continue
+            reply_formatted.append(line)
+
+    if prompt_paragraphs_num == len(reply_formatted):
+        for paragraph in reply_formatted:
+            print('***************************************')
+            print(paragraph)
+            print('***************************************')
+        data['constituents_list'] = reply_formatted
+        util.json_write(filepath, data)
+
+    return running
+
+
+def ai_medicine_preparations(filepath, running):
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    preparations_list = []
+    try: preparations_list = data['preparations_list']
+    except: data['preparations_list'] = []
+
+    if preparations_list != []: return
+    running = True
+
+    prompt_paragraphs_num = 10
+    prompt = f'''
+        Write a numbered list of the {prompt_paragraphs_num} best medicinal preparations of {latin_name} ({common_name}).
+        Add descriptions to the medicinal preparations.
+        Examples of medicinal preparations are infusions and tincures.
+    '''     
+    
+    reply = utils_ai.gen_reply(prompt)
+
+    reply = reply.strip()
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if ':' not in line: continue
+        if line[0].isdigit():
+            line = '. '.join(line.split('. ')[1:]).strip()
+            if line == '': continue
+            reply_formatted.append(line)
+
+    if prompt_paragraphs_num == len(reply_formatted):
+        for paragraph in reply_formatted:
+            print('***************************************')
+            print(paragraph)
+            print('***************************************')
+        data['preparations_list'] = reply_formatted
+        util.json_write(filepath, data)
+        
+    return running
+
+
+def ai_medicine_side_effects(filepath, running):
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    side_effects_list = []
+    try: side_effects_list = data['side_effects_list']
+    except: data['side_effects_list'] = []
+
+    if side_effects_list != []: return
+    running = True
+
+    prompt_paragraphs_num = 10
+    prompt = f'''
+        Write a numbered list of the {prompt_paragraphs_num} possible side effects of using {latin_name} ({common_name}) for medicinal purposes.
+        Add descriptions to the side effects.
+    '''     
+    
+    reply = utils_ai.gen_reply(prompt)
+
+    reply = reply.strip()
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if ':' not in line: continue
+        if line[0].isdigit():
+            line = '. '.join(line.split('. ')[1:]).strip()
+            if line == '': continue
+            reply_formatted.append(line)
+
+    if prompt_paragraphs_num == len(reply_formatted):
+        for paragraph in reply_formatted:
+            print('***************************************')
+            print(paragraph)
+            print('***************************************')
+        data['side_effects_list'] = reply_formatted
+        util.json_write(filepath, data)
+        
+    return running
+
+
+def ai_medicine_precautions(filepath, running):
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    precautions_list = []
+    try: precautions_list = data['precautions_list']
+    except: data['precautions_list'] = []
+
+    if precautions_list != []: return
+    running = True
+
+    prompt_paragraphs_num = 10
+    prompt = f'''
+        Write a numbered list of the {prompt_paragraphs_num} precautions to take when of using {latin_name} ({common_name}) for medicinal purposes.
+        Include the names of the precautions and add descriptions.
+    '''     
+    
+    reply = utils_ai.gen_reply(prompt)
+
+    reply = reply.strip()
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if ':' not in line: continue
+        if line[0].isdigit():
+            line = '. '.join(line.split('. ')[1:]).strip()
+            if line == '': continue
+            reply_formatted.append(line)
+
+    if prompt_paragraphs_num == len(reply_formatted):
+        for paragraph in reply_formatted:
+            print('***************************************')
+            print(paragraph)
+            print('***************************************')
+        data['precautions_list'] = reply_formatted
+        util.json_write(filepath, data)
+        
+    return running
+
+
+

@@ -17,7 +17,7 @@ import util
 
 IMAGE_FOLDER = 'C:/terrawhisper-assets/images'
 
-AUTHOR_NAME = 'Martin Pellizzer'
+
 GOOGLE_TAG = '''
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9086LN3SRR"></script>
@@ -42,6 +42,10 @@ plants = plants[1:g.ARTICLES_NUM+1]
 
 
 
+##############################################################################
+# UTIL
+##############################################################################
+
 def lst_to_html_bold(lst):
     lst_html = '<ul>'
     for item in lst:
@@ -52,6 +56,20 @@ def lst_to_html_bold(lst):
         lst_html += f'<li>{item}</li>'
     lst_html += '</ul>'
     return lst_html
+
+
+def gen_article_metadata(article_content):
+    reading_time_html = str(len(article_content.split(' ')) // 200) + ' minutes'
+    return f'''
+        <div class="flex items-center justify-between mb-16">
+            <div class="flex items-center gap-16">
+                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+                <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
+            </div>
+            <span>{reading_time_html}</span>
+        </div>
+    '''
+
 
 
 
@@ -193,7 +211,7 @@ def generate_home():
             
     template = template.replace('[meta_title]', 'Herbalism & Natural Healing')
     template = template.replace('[google_tag]', GOOGLE_TAG)
-    template = template.replace('[author_name]', AUTHOR_NAME)
+    template = template.replace('[g.AUTHOR_NAME]', g.AUTHOR_NAME)
     template = template.replace('[header]', header)
 
     util.file_write(f'website/index.html', template)
@@ -208,33 +226,38 @@ def generate_about():
 
     template = template.replace('[meta_title]', 'TerraWhisper | About')
     template = template.replace('[google_tag]', GOOGLE_TAG)
-    template = template.replace('[author_name]', AUTHOR_NAME)
+    template = template.replace('[g.AUTHOR_NAME]', g.AUTHOR_NAME)
     template = template.replace('[header]', header)
     template = template.replace('[content]', content)
 
     util.file_write(f'website/about.html', template)
 
 
-def generate_page_herbalism():
+def herbalism():
     page_url = 'herbalism'
 
+    header = generate_header_light()
+    
     content = util.file_read(f'static/{page_url}.md')
     content = markdown.markdown(content, extensions=['markdown.extensions.tables'])
 
-    header = generate_header_light()
+    meta = gen_article_metadata(content)
+    content = generate_toc(content)
 
     page_html = util.file_read(f'static/{page_url}.html')
 
     page_html = page_html.replace('[meta_title]', 'Herbalism')
     page_html = page_html.replace('[google_tag]', GOOGLE_TAG)
-    page_html = page_html.replace('[author_name]', AUTHOR_NAME)
+    page_html = page_html.replace('[g.AUTHOR_NAME]', g.AUTHOR_NAME)
+
     page_html = page_html.replace('[header]', header)
+    page_html = page_html.replace('[meta]', meta)
     page_html = page_html.replace('[content]', content)
 
     util.file_write(f'website/{page_url}.html', page_html)
 
 
-def generate_page_herbalism_tea():
+def herbalism_tea():
     sections = []
     articles_folderpath = 'database/articles/herbalism/tea'
     for article_filename in os.listdir(articles_folderpath):
@@ -253,7 +276,7 @@ def generate_page_herbalism_tea():
 
     page_html = page_html.replace('[meta_title]', 'Herbalism')
     page_html = page_html.replace('[google_tag]', GOOGLE_TAG)
-    page_html = page_html.replace('[author_name]', AUTHOR_NAME)
+    page_html = page_html.replace('[g.AUTHOR_NAME]', g.AUTHOR_NAME)
     page_html = page_html.replace('[header]', header)
     page_html = page_html.replace('[sections]', sections)
 
@@ -303,7 +326,7 @@ def generate_page_herbs():
         article_html = f'''
             <a href="{entity}.html">
                 <div>
-                    <img src="images/{entity}.jpg" alt="">
+                    <img src="/images/{entity}-overview.jpg" alt="">
                     <h3 class="mt-0 mb-0">{latin_name} ({common_name})</h3>
                 </div>
             </a>
@@ -364,7 +387,6 @@ def generate_page_herbs():
     if plants_primary_z != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "z"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_z) + '</div>'
 
 
-
     plants_secondary = []
     rows = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
     for plant in rows:
@@ -376,7 +398,7 @@ def generate_page_herbs():
         title = data['title']
         common_name = data['common_name']
 
-                    # <img src="images/{entity}.jpg" alt="">
+                    # <img src="/images/{entity}.jpg" alt="">
         article_html = f'''
             <a href="{entity}.html">
                 <div>
@@ -399,12 +421,11 @@ def generate_page_herbs():
 
     page_html = page_html.replace('[meta_title]', 'Herbs')
     page_html = page_html.replace('[google_tag]', GOOGLE_TAG)
-    page_html = page_html.replace('[author_name]', AUTHOR_NAME)
+    page_html = page_html.replace('[g.AUTHOR_NAME]', g.AUTHOR_NAME)
     page_html = page_html.replace('[header]', header)
     page_html = page_html.replace('[articles]', articles_html)
 
     util.file_write(f'website/{page_url}.html', page_html)
-
 
 
 def generate_page_teas():
@@ -437,7 +458,7 @@ def generate_page_teas():
 
     page_html = page_html.replace('[meta_title]', 'Herbalism')
     page_html = page_html.replace('[google_tag]', GOOGLE_TAG)
-    page_html = page_html.replace('[author_name]', AUTHOR_NAME)
+    page_html = page_html.replace('[g.AUTHOR_NAME]', g.AUTHOR_NAME)
     page_html = page_html.replace('[header]', header)
     page_html = page_html.replace('[articles]', article_html)
 
@@ -452,277 +473,7 @@ def generate_page_teas():
 # ARTICLES TEA
 ##############################################################################
 
-# def generate_articles():
-#     IMG_FOLDER_TEA = 'C:/terrawhisper-assets/images/tea'
-#     img_folders_names = os.listdir(IMG_FOLDER_TEA)
-#     img_dict = {}
-#     for img_folder_name in img_folders_names:
-#         img_folders_files = os.listdir(f'{IMG_FOLDER_TEA}/{img_folder_name}')
-#         img_dict[img_folder_name] = img_folders_files
-
-
-#     ARTICLES_FOLDERPATH_MD = 'output/herbalism/tea'
-#     ARTICLES_FOLDERPATH_HTML = 'website/herbalism/tea'
-#     ARTICLES_FOLDERPATH_JSON = 'database/articles/herbalism/tea'
-#     for article_filename in os.listdir(ARTICLES_FOLDERPATH_MD):
-#         article_filepath_in = f'{ARTICLES_FOLDERPATH_MD}/{article_filename}'
-#         article_filepath_out = f'{ARTICLES_FOLDERPATH_HTML}/{article_filename}'.replace('.md', '.html')
-#         article_filepath_json = f'{ARTICLES_FOLDERPATH_JSON}/{article_filename}'.replace('.md', '.json')
-#         article_md = util.file_read(f'{article_filepath_in}')
-
-#         md = markdown.Markdown(extensions=['meta'])
-#         md.convert(article_md)
-#         title = md.Meta['title'][0]
-        
-#         header_html = generate_header_light()
-
-#         word_count = len(article_md.split(' '))
-#         reading_time_html = str(word_count // 200) + ' minutes'
-
-#         article_html = md.convert(article_md)
-#         article_html = generate_toc(article_html)
-
-#         html = f'''
-#             <!DOCTYPE html>
-#             <html lang="en">
-
-#             <head>
-#                 <meta charset="UTF-8">
-#                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-#                 <meta name="author" content="{AUTHOR_NAME}">
-#                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-#                 <link rel="stylesheet" href="/style.css">
-#                 <title>{title}</title>
-#                 {GOOGLE_TAG}
-                
-#             </head>
-
-#             <body>
-#                 {header_html}
-                
-#                 <section class="my-96">
-#                     <div class="container">
-#                         <div class="flex items-center justify-between mb-16">
-#                             <div class="flex items-center gap-16">
-#                                 <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-#                                 <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
-#                             </div>
-#                             <span>{reading_time_html}</span>
-#                         </div>
-#                         {article_html}
-#                     </div>
-#                 </section>
-
-#                 <footer>
-#                     <div class="container-lg">
-#                         <span>© TerraWhisper.com 2024 | All Rights Reserved
-#                     </div>
-#                 </footer>
-#             </body>
-
-#             </html>
-#         '''
-
-#         curr_path = ''
-#         for chunk in article_filepath_out.split('/')[:-1]:
-#             curr_path += f'{chunk}/'
-#             try: os.makedirs(f'{curr_path}')
-#             except: pass
-#         util.file_write(f'{article_filepath_out}', html)
-
-#         # GET IMAGES
-#         data = util.json_read(article_filepath_json)
-#         condition = data['condition']
-#         preparation = data['preparation']
-#         condition_dash = condition.lower().strip().replace(' ', '-')
-#         preparation_dash = preparation.lower().strip().replace(' ', '-')
-#         herbs = [remedy['herb'] for remedy in data['remedies']]
-        
-#         # FEATURED IMAGE
-#         featured_image_folder = herbs[0].lower().strip().replace(' ', '-')
-#         try: img_name = img_dict[featured_image_folder].pop(0)
-#         except: img_name = ''
-#         if img_name != '':
-#             image_path_in = f'{IMAGE_FOLDER}/{preparation_dash}/{featured_image_folder}/{img_name}'
-#             image_path_out = f'website/images/herbal-{preparation_dash}-for-{condition_dash}' + '.jpg'
-#             if not os.path.exists(image_path_out):
-#                 img = Image.open(image_path_in)
-#                 img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-#                 img.save(image_path_out, format='JPEG', optimize=True, quality=50)
-#         else:
-#             try: scientific_name = util.get_scientific_name(featured_image_folder)
-#             except: scientific_name = ''
-#             print(article_filepath_in)
-#             print(featured_image_folder)
-#             print(f'*** MISSING: {featured_image_folder} ({scientific_name}) {preparation_dash} ***')
-#             print()
-
-#         # SECTIONS IMAGES
-#         for herb in herbs:
-#             herb_dash = herb.strip().lower().replace(' ', '-')
-#             try: img_name = img_dict[herb_dash].pop(0)
-#             except: img_name = ''
-#             if img_name != '':
-#                 image_path_in = f'{IMAGE_FOLDER}/{preparation_dash}/{herb_dash}/{img_name}'
-#                 image_path_out = f'website/images/{herb_dash}-{preparation_dash}-for-{condition_dash}' + '.jpg'
-#                 if not os.path.exists(image_path_out):
-#                     img = Image.open(image_path_in)
-#                     img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-#                     img.save(image_path_out, format='JPEG', optimize=True, quality=50)
-#             else:
-#                 try: scientific_name = util.get_scientific_name(herb)
-#                 except: scientific_name = ''
-#                 print(article_filepath_in)
-#                 print(f'*** MISSING: {herb_dash} ({scientific_name}) {preparation_dash} ***')
-#                 print()
-
-
-def generate_articles_herbalism_tea():
-    # IMAGES
-    IMG_FOLDER_TEA = 'C:/terrawhisper-assets/images/tea'
-    img_folders_names = os.listdir(IMG_FOLDER_TEA)
-    img_dict = {}
-    for img_folder_name in img_folders_names:
-        img_folders_files = os.listdir(f'{IMG_FOLDER_TEA}/{img_folder_name}')
-        img_dict[img_folder_name] = img_folders_files
-
-    
-    articles_folderpath = 'database/articles/herbalism/tea'
-    article_foldrpath_relative = f'herbalism/tea'
-    article_foldrpath_relative_dash = article_foldrpath_relative.replace('/', '-')
-    conditions = [row[0] for row in util.csv_get_rows('database/tables/conditions.csv')[1:]]
-    for condition in conditions[:10]:
-        condition_dash = condition.lower().strip().replace(' ', '-')
-        article_filename = f'{articles_folderpath}/{condition_dash}.json'
-        
-        article_filepath_in = article_filename
-        article_filepath_out = article_filename.replace('database/articles', 'website').replace('.json', '.html')
-
-        data = util.json_read(article_filepath_in)
-        article_html = ''
-
-        title = ''
-        try: title = data['keyword'].title()
-        except: print(f'***** MISSING TITLE: {article_filepath_in}')
-        article_html += f'<h1>{title}</h1>' + '\n'
-        article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-overview.jpg" alt="herbal teas for {condition} overview"></p>' + '\n'
-
-        remedies = []
-        try: remedies = data['remedies']
-        except: print(f'***** MISSING REMEDIES: {article_filepath_in}')
-        for index, remedy in enumerate(remedies[:10]):
-            remedy_name = remedy['remedy_name']
-            remedy_desc = remedy['remedy_desc']
-            remedy_name_dash = remedy_name.lower().strip().replace(' ', '-')
-            remedy_desc_formatted = util.text_format_1N1_html(remedy_desc)
-            article_html += f'<h2>{index+1}. {remedy_name}</h2>' + '\n'
-            article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-{remedy_name_dash}.jpg" alt="herbal teas for {condition} {remedy_name.lower()}"></p>' + '\n'
-            article_html += f'<p>{remedy_desc_formatted}</p>' + '\n'
-
-        header_html = generate_header_light()
-        word_count = len(article_html.split(' '))
-        reading_time_html = str(word_count // 200) + ' minutes'
-
-        article_html = generate_toc(article_html)
-
-        html = f'''
-            <!DOCTYPE html>
-            <html lang="en">
-
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{AUTHOR_NAME}">
-                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-                <link rel="stylesheet" href="/style.css">
-                <title>{title}</title>
-                {GOOGLE_TAG}
-                
-            </head>
-
-            <body>
-                {header_html}
-                
-                <section class="my-96">
-                    <div class="container">
-                        <div class="flex items-center justify-between mb-16">
-                            <div class="flex items-center gap-16">
-                                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
-                            </div>
-                            <span>{reading_time_html}</span>
-                        </div>
-                        {article_html}
-                    </div>
-                </section>
-
-                <footer>
-                    <div class="container-lg">
-                        <span>© TerraWhisper.com 2024 | All Rights Reserved
-                    </div>
-                </footer>
-            </body>
-
-            </html>
-        '''
-
-        chunks = article_filepath_out.split('/')
-        chunk_curr = ''
-        for chunk in chunks[:-1]:
-            chunk_curr += chunk + '/'
-            try: os.makedirs(chunk_curr)
-            except: pass
-        util.file_write(f'{article_filepath_out}', html)
-
-        # GET IMAGES
-        data = util.json_read(article_filepath_in)
-        # print(article_filepath_in)
-        condition = data['condition']
-        preparation = data['preparation']
-        condition_dash = condition.lower().strip().replace(' ', '-')
-        preparation_dash = preparation.lower().strip().replace(' ', '-')
-        herbs = [remedy['remedy_name'] for remedy in data['remedies']]
-        
-        # FEATURED IMAGE
-        featured_image_folder = herbs[0].lower().strip().replace(' ', '-')
-        try: img_name = img_dict[featured_image_folder].pop(0)
-        except: img_name = ''
-        if img_name != '':
-            image_path_in = f'{IMAGE_FOLDER}/{preparation_dash}/{featured_image_folder}/{img_name}'
-            image_path_out = f'website/images/herbal-{preparation_dash}-for-{condition_dash}-overview' + '.jpg'
-            if not os.path.exists(image_path_out):
-                img = Image.open(image_path_in)
-                img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-                img.save(image_path_out, format='JPEG', optimize=True, quality=50)
-        else:
-            try: scientific_name = util.get_scientific_name(featured_image_folder)
-            except: scientific_name = ''
-            print(article_filepath_in)
-            print(featured_image_folder)
-            print(f'*** MISSING: {featured_image_folder} ({scientific_name}) {preparation_dash} ***')
-            print()
-
-        # SECTIONS IMAGES
-        for herb in herbs:
-            herb_dash = herb.strip().lower().replace(' ', '-')
-            try: img_name = img_dict[herb_dash].pop(0)
-            except: img_name = ''
-            if img_name != '':
-                image_path_in = f'{IMAGE_FOLDER}/{preparation_dash}/{herb_dash}/{img_name}'
-                image_path_out = f'website/images/herbal-tea-for-{condition_dash}-{herb_dash}' + '.jpg'
-                if not os.path.exists(image_path_out):
-                    img = Image.open(image_path_in)
-                    img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-                    img.save(image_path_out, format='JPEG', optimize=True, quality=50)
-            else:
-                try: scientific_name = util.get_scientific_name(herb)
-                except: scientific_name = ''
-                print(article_filepath_in)
-                print(f'*** MISSING: {herb_dash} ({scientific_name}) {preparation_dash} ***')
-                print()
-
-
-def generate_articles_herbalism_tea_2():
+def herbalism_tea_condition():
     # IMAGES
     IMG_FOLDER_TEA = 'C:/terrawhisper-assets/images/tea'
     img_folders_names = os.listdir(IMG_FOLDER_TEA)
@@ -773,9 +524,9 @@ def generate_articles_herbalism_tea_2():
             article_html += f'</ol>' + '\n'
 
         header_html = generate_header_light()
-        word_count = len(article_html.split(' '))
-        reading_time_html = str(word_count // 200) + ' minutes'
 
+        
+        meta = gen_article_metadata(article_html)
         article_html = generate_toc(article_html)
 
         html = f'''
@@ -785,7 +536,7 @@ def generate_articles_herbalism_tea_2():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="author" content="{g.AUTHOR_NAME}">
                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
                 <link rel="stylesheet" href="/style.css">
                 <title>{title}</title>
@@ -798,13 +549,7 @@ def generate_articles_herbalism_tea_2():
                 
                 <section class="my-96">
                     <div class="container">
-                        <div class="flex items-center justify-between mb-16">
-                            <div class="flex items-center gap-16">
-                                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
-                            </div>
-                            <span>{reading_time_html}</span>
-                        </div>
+                        {meta}
                         {article_html}
                     </div>
                 </section>
@@ -940,7 +685,7 @@ def generate_articles_plants():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="author" content="{g.AUTHOR_NAME}">
                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
                 <link rel="stylesheet" href="/style.css">
                 <title>{title}</title>
@@ -956,7 +701,7 @@ def generate_articles_plants():
                         <div class="flex items-center justify-between mb-16">
                             <div class="flex items-center gap-16">
                                 <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                                <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
                             </div>
                             <span>{reading_time_html}</span>
                         </div>
@@ -1071,7 +816,7 @@ def articles_plants():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="author" content="{g.AUTHOR_NAME}">
                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
                 <link rel="stylesheet" href="/style.css">
                 <title>{title}</title>
@@ -1087,7 +832,7 @@ def articles_plants():
                         <div class="flex items-center justify-between mb-16">
                             <div class="flex items-center gap-16">
                                 <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                                <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
                             </div>
                             <span>{reading_time_html}</span>
                         </div>
@@ -1229,7 +974,7 @@ def articles_plants_secondary():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="author" content="{g.AUTHOR_NAME}">
                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
                 <link rel="stylesheet" href="/style.css">
                 <title>{title}</title>
@@ -1245,7 +990,7 @@ def articles_plants_secondary():
                         <div class="flex items-center justify-between mb-16">
                             <div class="flex items-center gap-16">
                                 <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                                <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
                             </div>
                             <span>{reading_time_html}</span>
                         </div>
@@ -1420,7 +1165,7 @@ def gen_articles_plant_medicine():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="author" content="{g.AUTHOR_NAME}">
                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
                 <link rel="stylesheet" href="/style.css">
                 <title>{title}</title>
@@ -1436,7 +1181,7 @@ def gen_articles_plant_medicine():
                         <div class="flex items-center justify-between mb-16">
                             <div class="flex items-center gap-16">
                                 <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                                <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
                             </div>
                             <span>{reading_time_html}</span>
                         </div>
@@ -1592,7 +1337,7 @@ def articles_medicine():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="author" content="{g.AUTHOR_NAME}">
                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
                 <link rel="stylesheet" href="/style.css">
                 <title>{title}</title>
@@ -1608,7 +1353,7 @@ def articles_medicine():
                         <div class="flex items-center justify-between mb-16">
                             <div class="flex items-center gap-16">
                                 <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                                <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
                             </div>
                             <span>{reading_time_html}</span>
                         </div>
@@ -1772,7 +1517,7 @@ def gen_articles_plant_medicine_benefits():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="author" content="{g.AUTHOR_NAME}">
                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
                 <link rel="stylesheet" href="/style.css">
                 <title>{title}</title>
@@ -1788,7 +1533,7 @@ def gen_articles_plant_medicine_benefits():
                         <div class="flex items-center justify-between mb-16">
                             <div class="flex items-center gap-16">
                                 <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                                <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
                             </div>
                             <span>{reading_time_html}</span>
                         </div>
@@ -1876,7 +1621,7 @@ def articles_benefits():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="author" content="{g.AUTHOR_NAME}">
                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
                 <link rel="stylesheet" href="/style.css">
                 <title>{title}</title>
@@ -1892,7 +1637,7 @@ def articles_benefits():
                         <div class="flex items-center justify-between mb-16">
                             <div class="flex items-center gap-16">
                                 <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                                <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
                             </div>
                             <span>{reading_time_html}</span>
                         </div>
@@ -2017,7 +1762,7 @@ def articles_constituents():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="author" content="{g.AUTHOR_NAME}">
                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
                 <link rel="stylesheet" href="/style.css">
                 <title>{title}</title>
@@ -2033,7 +1778,7 @@ def articles_constituents():
                         <div class="flex items-center justify-between mb-16">
                             <div class="flex items-center gap-16">
                                 <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                                <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
                             </div>
                             <span>{reading_time_html}</span>
                         </div>
@@ -2143,7 +1888,7 @@ def articles_preparations():
             <head>
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{AUTHOR_NAME}">
+                <meta name="author" content="{g.AUTHOR_NAME}">
                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
                 <link rel="stylesheet" href="/style.css">
                 <title>{title}</title>
@@ -2159,7 +1904,7 @@ def articles_preparations():
                         <div class="flex items-center justify-between mb-16">
                             <div class="flex items-center gap-16">
                                 <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                <address class="author">By <a rel="author" href="/about.html">{AUTHOR_NAME}</a></address>
+                                <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
                             </div>
                             <span>{reading_time_html}</span>
                         </div>
@@ -2215,6 +1960,258 @@ def articles_preparations():
 
 
 
+##############################################################################
+# PAGES PLANTS (TAXONOMY)
+##############################################################################
+
+def gen_pages_taxonomy():
+    try: shutil.rmtree('website/taxonomy')
+    except: pass
+    try: os.remove('website/taxonomy.html')
+    except: pass
+    
+    rows = util.csv_get_rows('database/tables/taxonomy.csv')
+
+    kingdoms = []
+    phylums = []
+    classes = []
+    for row in rows[1:]:
+        entity = row[0]
+        kingdom = row[1]
+        phylum = row[2]
+        clss = row[3]
+        order = row[4]
+        family = row[5]
+        genus = row[6]
+        species = row[7]
+
+        full_path = f'{kingdom}/{phylum}/{clss}/{order}/{family}/{genus}/{species}'
+
+        if kingdoms == []: 
+            kingdoms = [[kingdom, phylum]]
+        else:
+            found = False
+            for kingdom_old in kingdoms:
+                if kingdom_old[0] == kingdom:
+                    if phylum not in kingdom_old:
+                        kingdom_old.append(phylum)
+                    found = True
+                    break
+            if not found:
+                kingdoms.append([kingdom, phylum])
+                
+        if phylums == []: 
+            phylums = [[phylum, clss]]
+        else:
+            found = False
+            for phylum_old in phylums:
+                if phylum_old[0] == phylum:
+                    if clss not in phylum_old:
+                        phylum_old.append(clss)
+                    found = True
+                    break
+            if not found:
+                phylums.append([phylum, clss])
+
+        if classes == []: 
+            classes = [[clss, order]]
+        else:
+            found = False
+            for clss_old in classes:
+                if clss_old[0] == clss:
+                    if order not in clss_old:
+                        clss_old.append(order)
+                    found = True
+                    break
+            if not found:
+                classes.append([clss, order])
+
+    
+    for kingdom in kingdoms:
+        print(kingdom)
+    print()
+    print()
+    print()
+    for phylum in phylums:
+        print(phylum)
+    print()
+    print()
+    print()
+    for clss in classes:
+        print(clss)
+    print()
+    print()
+    print()
+    quit()
+
+    for kingdom in kingdoms:
+        title = kingdom[0]
+
+        article_html = ''
+        kingdom_slug = kingdom[0].lower().strip().replace(' ', '-')
+        for phylum in kingdom[1:]:
+            phylum_slug = phylum.lower().strip().replace(' ', '-')
+            article_html += f'<p><a href="/taxonomy/{kingdom_slug}/{phylum_slug}.html">{phylum}</a></p>'
+        
+        header_html = generate_header_light()
+        word_count = len(article_html.split(' '))
+        reading_time_html = str(word_count // 200) + ' minutes'
+        article_html = generate_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {GOOGLE_TAG}
+            </head>
+
+            <body>
+                {header_html}
+                
+                <section class="my-96">
+                    <div class="container">
+                        <div class="flex items-center justify-between mb-16">
+                            <div class="flex items-center gap-16">
+                                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+                                <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
+                            </div>
+                            <span>{reading_time_html}</span>
+                        </div>
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+        article_filepath_out = f'website/taxonomy/{kingdom_slug}.html'
+        util.file_write(f'{article_filepath_out}', html)
+
+        for phylum in phylums:
+            title = phylum[0]
+
+            article_html = ''
+            phylum_slug = phylum[0].lower().strip().replace(' ', '-')
+            for clss in phylum[1:]:
+                clss_slug = clss.lower().strip().replace(' ', '-')
+                article_html += f'<p><a href="/taxonomy/{kingdom_slug}/{phylum_slug}/{clss_slug}.html">{clss}</a></p>'
+            
+            header_html = generate_header_light()
+            word_count = len(article_html.split(' '))
+            reading_time_html = str(word_count // 200) + ' minutes'
+            article_html = generate_toc(article_html)
+
+            html = f'''
+                <!DOCTYPE html>
+                <html lang="en">
+
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta name="author" content="{g.AUTHOR_NAME}">
+                    <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                    <link rel="stylesheet" href="/style.css">
+                    <title>{title}</title>
+                    {GOOGLE_TAG}
+                </head>
+
+                <body>
+                    {header_html}
+                    
+                    <section class="my-96">
+                        <div class="container">
+                            <div class="flex items-center justify-between mb-16">
+                                <div class="flex items-center gap-16">
+                                    <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+                                    <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
+                                </div>
+                                <span>{reading_time_html}</span>
+                            </div>
+                            {article_html}
+                        </div>
+                    </section>
+
+                    <footer>
+                        <div class="container-lg">
+                            <span>© TerraWhisper.com 2024 | All Rights Reserved
+                        </div>
+                    </footer>
+                </body>
+
+                </html>
+            '''
+
+            article_filepath_out = f'website/taxonomy/{kingdom_slug}/{phylum_slug}.html'
+            util.file_write(f'{article_filepath_out}', html)
+
+
+    article_html = ''
+    title = 'taxonomy'
+
+    header_html = generate_header_light()
+    word_count = len(article_html.split(' '))
+    reading_time_html = str(word_count // 200) + ' minutes'
+    article_html = generate_toc(article_html)
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="{g.AUTHOR_NAME}">
+            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+            <link rel="stylesheet" href="/style.css">
+            <title>{title}</title>
+            {GOOGLE_TAG}
+        </head>
+
+        <body>
+            {header_html}
+            
+            <section class="my-96">
+                <div class="container">
+                    <div class="flex items-center justify-between mb-16">
+                        <div class="flex items-center gap-16">
+                            <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+                            <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
+                        </div>
+                        <span>{reading_time_html}</span>
+                    </div>
+                    <a href="/taxonomy/plantae.html">Plantae</a>
+                </div>
+            </section>
+
+            <footer>
+                <div class="container-lg">
+                    <span>© TerraWhisper.com 2024 | All Rights Reserved
+                </div>
+            </footer>
+        </body>
+
+        </html>
+    '''
+
+    article_filepath_out = f'website/taxonomy.html'
+    util.file_write(f'{article_filepath_out}', html)
+
+
+
+
 
 ##############################################################################
 # STATIC FILES
@@ -2238,12 +2235,14 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 
-generate_articles_herbalism_tea_2()
+herbalism()
+herbalism_tea()
+herbalism_tea_condition()
 # generate_articles_plants()
-#articles_plants()
+# articles_plants()
 # articles_plants_secondary()
-# articles_medicine()
 
+# articles_medicine()
 # articles_benefits()
 # articles_constituents()
 # articles_preparations()
@@ -2253,7 +2252,6 @@ generate_articles_herbalism_tea_2()
 # generate_page_teas()
 # generate_about()
 
-generate_page_herbalism()
-# generate_page_herbalism_tea()
 
+# gen_pages_taxonomy()
 

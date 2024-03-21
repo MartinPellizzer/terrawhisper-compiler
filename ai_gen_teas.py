@@ -40,7 +40,11 @@ def reply_to_list(reply):
         
         line = '. '.join(line.split('. ')[1:]).strip()
         if line == '': continue
+
+        if len(line.split(' ')) < 10: continue
+
         reply_formatted.append(line)
+
     return reply_formatted
 
 
@@ -188,7 +192,7 @@ def ai_herbalism_teas_conditions_description(condition, condition_i):
         time.sleep(30)
 
 
-def ai_herbalism_teas_conditions_recipe(condition, condition_i):
+def ai_recipe(condition, prompt):
     condition_dash = condition.strip().lower().replace(' ', '-')
     filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
     data = util.json_read(filepath)
@@ -206,11 +210,8 @@ def ai_herbalism_teas_conditions_recipe(condition, condition_i):
 
         remedy_name_formatted = remedy_name.lower().strip() + ' tea'
         remedy_name_formatted = remedy_name_formatted.replace(' tea tea', ' tea')
-        prompt = f'''
-            Write a recipe in 5 steps in list format to make {remedy_name_formatted} for {condition.lower()}.
-            Include ingredients dosages and preparations times.
-            Write only 1 sentence for step.
-        '''     
+        prompt = prompt.replace('<remedy_name_formatted>', remedy_name_formatted)
+
         reply = utils_ai.gen_reply(prompt)
         reply_formatted = reply_to_list(reply)
 
@@ -225,8 +226,6 @@ def ai_herbalism_teas_conditions_recipe(condition, condition_i):
             util.json_write(filepath, data)
 
         time.sleep(30)
-
-
 
 
 
@@ -259,13 +258,27 @@ def ai_herbalism_teas_conditions_main():
         # STEP 2: GEN JSON FROM AI GEN HERBAL TEAS (AFTER CLEANING)
         # ai_herbalism_teas_conditions_csv_to_json()
 
-        ai_intro(condition)
+        # ai_intro(condition)
 
         # STEP 3: AI GEN DESCRIPTIONS FOR HERBAL TEAS
         # ai_herbalism_teas_conditions_description(condition, condition_i)
 
         # STEP 4: AI GEN RECIPES FOR HERBAL TEAS
-        ai_herbalism_teas_conditions_recipe(condition, condition_i)
+        ai_recipe(
+            condition, 
+            f'''
+                Write a 5-step recipe in list format to make <remedy_name_formatted> for {condition.lower()}.
+                Include ingredients dosages and preparations times.
+                Write only 1 sentence for step.
+                Start each step in the list with an action verb.
+            '''     
+        )
+        ai_recipe(
+            condition,
+            f'''
+                Write a 5-step recipe to make <remedy_name_formatted> for {condition.lower()}.
+            ''' 
+        )
 
 
 

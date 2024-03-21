@@ -1,1 +1,4 @@
 ARTICLES_NUM = 100
+
+# EDITORIAL
+AUTHOR_NAME = 'Martin Pellizzer'

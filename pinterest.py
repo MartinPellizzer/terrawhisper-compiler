@@ -20,7 +20,8 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
 
-ARTICLES_NUM = 28
+ARTICLES_NUM = 32
+WAIT_SECONDS = 300
 
 
 options = Options()
@@ -44,7 +45,7 @@ time.sleep(10)
 
 e = driver.find_element(By.XPATH, '//div[text()="Log in"]')
 e.click()
-time.sleep(10)
+time.sleep(30)
 
 
 
@@ -118,7 +119,8 @@ for article_filepath in articles_filepath:
     print()
 
     url = f'https://terrawhisper.com/{url}.html'
-    title = f'{remedy_num} {title.title()}'
+    title = f'{title.title()}'
+    # title = f'{remedy_num} {title.title()}'
     board_name = 'Herbal Tea'
 
     driver.get("https://www.pinterest.com/pin-creation-tool/")
@@ -163,7 +165,7 @@ for article_filepath in articles_filepath:
 
     # break
 
-    time.sleep(900)
+    time.sleep(WAIT_SECONDS)
 
 
 
