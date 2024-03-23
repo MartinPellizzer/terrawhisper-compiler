@@ -9,18 +9,57 @@ entity_intro = [
         Don't include lists.
         Don't add empty lines between sentences.
     ''',
+    '''
+        Write 1 paragraph in 5 sentences about of [latin_name].
+        Include the medicinal properties of [latin_name], the horticultural conditions of [latin_name], and the botanical characteristics of [latin_name].
+        Don't include lists.
+        Don't add empty lines between sentences.
+    ''',
 ] 
 
 
 
+# entity_medicine = [
+#     '''
+#         Write 5 paragraphs about the medicinal aspects of [latin_name].
+#         In paragraph 1, write about the benefits of [latin_name].
+#         In paragraph 2, write about the constituents of [latin_name].
+#         In paragraph 3, write about the preparations of [latin_name].
+#         In paragraph 4, write about the side effects of [latin_name].
+#         In paragraph 5, write about the precautions of [latin_name].
+#     ''',
+# ]
+
 entity_medicine = [
     '''
-        Write 5 paragraphs about the medicinal aspects of [latin_name].
-        In paragraph 1, write about the benefits of [latin_name].
-        In paragraph 2, write about the constituents of [latin_name].
-        In paragraph 3, write about the preparations of [latin_name].
-        In paragraph 4, write about the side effects of [latin_name].
+        Write a 5-sentence paragraph about the medicinal uses of [latin_name].
+        In sentence 1, write about the benefits of [latin_name].
+        In sentence 2, write about the constituents of [latin_name].
+        In sentence 3, write about the preparations of [latin_name].
+        In sentence 4, write about the side effects of [latin_name].
+        In sentence 5, write about the precautions of [latin_name].
+        Start with the following words: [latin_name][aka] has several medicinal uses, such as .
+    ''',
+    '''
+        Write 1 paragraph in 5 sentences about the medicinal uses of [latin_name].
+        In sentence 1, write about the benefits of [latin_name].
+        In sentence 2, write about the constituents of [latin_name].
+        In sentence 3, write about the preparations of [latin_name].
+        In sentence 4, write about the side effects of [latin_name].
+        In sentence 5, write about the precautions of [latin_name].
+        Start with the following words: [latin_name][aka] has several medicinal uses, such as .
+    ''',
+]
+
+entity_medicine_paragraphs = [
+    '''
+        Write 5 paragraphs in 400 words about the medicinal uses of [latin_name].
+        In paragraph 1, write about the health benefits of [latin_name].
+        In paragraph 2, write about the medicinal constituents of [latin_name].
+        In paragraph 3, write about the medicinal preparations of [latin_name].
+        In paragraph 4, write about the possible side effects of [latin_name].
         In paragraph 5, write about the precautions of [latin_name].
+        Start with the following words: [latin_name][aka] has several medicinal uses, such as .
     ''',
 ]
 
@@ -67,6 +106,12 @@ entity_side_effects = [
 entity_precautions = [
     '''
         Write a detailed 5-sentence paragraph about the precautions and best practices when using [latin_name] for medicinal purposes.
+        Don't include side effects.
+        Don't use lists.
+        Start with the following words: You should take some precautions when using [latin_name][aka] for medicinal purposes, such as .
+    ''',
+    '''
+        Write 1 paragraph in 5 sentences about the precautions and best practices when using [latin_name] for medicinal purposes.
         Don't include side effects.
         Don't use lists.
         Start with the following words: You should take some precautions when using [latin_name][aka] for medicinal purposes, such as .
@@ -137,6 +182,36 @@ entity_botany = [
         In paragraph 3, write about the variants names and differences of [latin_name].
         In paragraph 4, write about the geographic distribution and natural habitats of [latin_name].
         In paragraph 5, write about the life-cycle of [latin_name].
+        Don't add conclusions. Don't add introductions.
+    ''',
+]
+
+
+entity_history = [
+    '''
+        Write 5 paragraphs in 400 words about the historical aspects of [latin_name].
+        In paragraph 1, write about the historical medicinal uses of [latin_name].
+        In paragraph 2, write about the mythology of [latin_name].
+        In paragraph 4, write about the ancient rituals of [latin_name].
+        In paragraph 5, write about the literature of [latin_name].
+        In paragraph 3, write about the symbolism of [latin_name].
+    ''',
+    '''
+        Write 5 paragraphs in 400 words about the historical aspects of [latin_name].
+        In paragraph 1, write about the historical medicinal uses of [latin_name].
+        In paragraph 2, write about the mythology of [latin_name].
+        In paragraph 4, write about the ancient rituals of [latin_name].
+        In paragraph 5, write about the literature of [latin_name].
+        In paragraph 3, write about the symbolism of [latin_name].
+        Don't add conclusions.
+    ''',
+    '''
+        Write 5 paragraphs in 400 words about the historical aspects of [latin_name].
+        In paragraph 1, write about the historical medicinal uses of [latin_name].
+        In paragraph 2, write about the mythology of [latin_name].
+        In paragraph 4, write about the ancient rituals of [latin_name].
+        In paragraph 5, write about the literature of [latin_name].
+        In paragraph 3, write about the symbolism of [latin_name].
         Don't add conclusions. Don't add introductions.
     ''',
 ]

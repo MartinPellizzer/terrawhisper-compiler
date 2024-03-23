@@ -66,7 +66,7 @@ def reply_to_paragraphs(reply):
         if ':' in line: 
             tmp_line = line.split(':')[1]
             if tmp_line.strip() == '': continue
-            if len(tmp_line.strip().split(' ')) <= 3: continue
+        if len(line.strip().split(' ')) <= 16: continue
         reply_formatted.append(line)
     return reply_formatted
     
@@ -106,14 +106,14 @@ def reply_remove_aka(reply, common_name):
 #######################################################################
 
 def ai_entity(json_filepath, section, paragraph_num, prompt, aka=True, save=True):
-    var_val = ''
+    var_val = []
     var_name = f'{section}_desc'
 
     data = util.json_read(json_filepath)
 
     try: var_val = data[var_name]
     except: data[var_name] = var_val
-    if var_val != '': return
+    if var_val != []: return
     
     reply = utils_ai.gen_reply(prompt)
     if not aka: reply = reply_remove_aka(reply, data['common_name'])
@@ -158,14 +158,15 @@ def ai_entity_main():
         util.json_write(json_filepath, data)
 
         # INTRO
-        # for prompt in prompts.entity_intro:
-        #     prompt = prompt.replace('[latin_name]', latin_name)
-        #     ai_entity(json_filepath, 'intro', 1, prompt)
+        for prompt in prompts.entity_intro:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            ai_entity(json_filepath, 'intro', 1, prompt)
 
         # MEDICINE
-        # for prompt in prompts.entity_medicine:
-        #     prompt = prompt.replace('[latin_name]', latin_name)
-        #     ai_entity(json_filepath, 'medicine', 5, prompt)
+        for prompt in prompts.entity_medicine:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'medicine', 1, prompt, aka=False, save=True)
 
         # for prompt in prompts.entity_benefits:
         #     prompt = prompt.replace('[latin_name]', latin_name)
@@ -183,20 +184,84 @@ def ai_entity_main():
         #     prompt = prompt.replace('[latin_name]', latin_name)
         #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
         #     ai_entity(json_filepath, 'side_effects', 1, prompt, aka=False, save=True)
-        for prompt in prompts.entity_precautions:
+        # for prompt in prompts.entity_precautions:
+        #     prompt = prompt.replace('[latin_name]', latin_name)
+        #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+        #     ai_entity(json_filepath, 'precautions', 1, prompt, aka=False, save=True)
+        
+        # HORTICULTURE
+        for prompt in prompts.entity_horticulture:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            ai_entity(json_filepath, 'horticulture', 5, prompt)
+
+        # BOTANY
+        for prompt in prompts.entity_botany:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            ai_entity(json_filepath, 'botany', 5, prompt)
+
+        # HISTORY
+        for prompt in prompts.entity_history:
             prompt = prompt.replace('[latin_name]', latin_name)
             prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
-            ai_entity(json_filepath, 'precautions', 1, prompt, aka=False, save=True)
-        
-        # # HORTICULTURE
-        # for prompt in prompts.entity_horticulture:
-        #     prompt = prompt.replace('[latin_name]', latin_name)
-        #     ai_entity(json_filepath, 'horticulture', 5, prompt)
+            ai_entity(json_filepath, 'history', 5, prompt, aka=False, save=True)
 
-        # # BOTANY
-        # for prompt in prompts.entity_botany:
-        #     prompt = prompt.replace('[latin_name]', latin_name)
-        #     ai_entity(json_filepath, 'botany', 5, prompt)
+        
+def ai_entity_trefle_main():
+    plants_trefle = [row for row in util.csv_get_rows('database/tables/_plants_all_new.csv')[1:]]
+
+    plants_primary = [row for row in util.csv_get_rows('database/tables/plants.csv')[1:]]
+    plants_secondary = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
+    
+    plants_done = []
+    for plant in plants_primary: plants_done.append(plant)
+    for plant in plants_secondary: plants_done.append(plant)
+
+    for index, plant in enumerate(plants_trefle):
+        print(index, '-', len(plants), '>>', plant)
+        if plant in plants_done: continue
+
+        entity = plant[0].strip()
+        latin_name = entity.replace('-', ' ').capitalize()
+        common_name = plant[2].strip().title()
+
+        json_filepath = f'database/articles/plants_trefle/{entity}.json'
+
+        data = util.json_read(json_filepath)
+        data['entity'] = entity
+        data['url'] = f'{entity}'
+        data['latin_name'] = latin_name
+        data['common_name'] = common_name
+        data['title'] = f'What to know before using {latin_name} ({common_name})?'
+        util.json_write(json_filepath, data)
+
+        # INTRO
+        for prompt in prompts.entity_intro:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            ai_entity(json_filepath, 'intro', 1, prompt)
+
+        # MEDICINE
+        for prompt in prompts.entity_medicine_paragraphs:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'medicine', 5, prompt, aka=False, save=True)
+
+        # HORTICULTURE
+        for prompt in prompts.entity_horticulture:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'horticulture', 5, prompt, aka=False, save=True)
+
+        # BOTANY
+        for prompt in prompts.entity_botany:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'botany', 5, prompt, aka=False, save=True)
+
+        # HISTORY
+        for prompt in prompts.entity_history:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'history', 5, prompt, aka=False, save=True)
 
 
 #######################################################################
@@ -375,8 +440,6 @@ def ai_medicine_intro(entity, filepath):
         util.json_write(filepath, data)
 
     time.sleep(30)
-
-
 
 
 def ai_medicine_main(plants='primary'):
@@ -1127,76 +1190,99 @@ def ai_entity_medicine_precautions_csv():
 #######################################################################################
 
 
-def ai_entity_taxonomy_csv():
-    csv_filepath = 'database/tables/taxonomy.csv'
-    plants = [row for row in util.csv_get_rows('database/tables/plants.csv')[1:]]
+# def ai_entity_taxonomy_csv():
+#     csv_filepath = 'database/tables/taxonomy.csv'
+#     plants = [row for row in util.csv_get_rows('database/tables/plants.csv')[1:]]
+
+#     for index, plant in enumerate(plants):
+#         latin_name = plant[cols['latin_name']].strip().capitalize()
+#         common_name = plant[cols['common_name']].strip().title()
+#         entity = latin_name.lower().replace(' ', '-')
+
+#         print(index, '-', len(plants), '>>' , latin_name, '|', 'taxonomy')
+
+#         rows = util.csv_get_rows_by_entity(csv_filepath, entity)
+#         if rows != []: continue
+
+#         prompt = f'''
+#             Give me an ordered list with the Linnaean Taxonomy of {latin_name}. Include:
+#             1. Kingdom
+#             2. Phylum
+#             3. Class
+#             4. Order
+#             5. Family
+#             6. Genus
+#             7. Species
+#         '''
+
+#         reply = utils_ai.gen_reply(prompt).strip()
+
+#         reply_formatted = [entity]
+#         i = 0
+#         for line in reply.split('\n'):
+#             line = line.strip()
+#             if line == '': continue
+#             if not line[0].isdigit(): continue
+#             if '. ' in line: line = '. '.join(line.split('. ')[1:])
+#             else: continue
+#             if ': ' in line: 
+#                 line_name = line.split(': ')[0].strip()
+#                 if line_name.lower() == 'species': line_desc = latin_name
+#                 else: line_desc = line.split(': ')[1].strip()
+#             else: continue
+#             if '(' in line_desc: line_desc = line_desc.split('(')[0].strip()
+#             line_name = line_name.replace('*', '')
+#             line_desc = line_desc.replace('*', '')
+#             line_name = line_name.lower()
+#             if i == 0 and line_name == 'kingdom':
+#                 reply_formatted.append(line_desc)
+#             elif i == 1 and line_name == 'phylum':
+#                 reply_formatted.append(line_desc)
+#             elif i == 2 and line_name == 'class':
+#                 reply_formatted.append(line_desc)
+#             elif i == 3 and line_name == 'order':
+#                 reply_formatted.append(line_desc)
+#             elif i == 4 and line_name == 'family':
+#                 reply_formatted.append(line_desc)
+#             elif i == 5 and line_name == 'genus':
+#                 reply_formatted.append(line_desc)
+#             elif i == 6 and line_name == 'species':
+#                 reply_formatted.append(line_desc)
+#             else: continue
+#             i += 1
+
+#         print(len(reply_formatted))
+#         if len(reply_formatted) == 8:
+#             print('***************************************')
+#             for line in reply_formatted:
+#                 print(line)
+#             print('***************************************')
+#             util.csv_add_rows(csv_filepath, [reply_formatted])
+
+#         time.sleep(30)
+
+
+
+def clear_entity_field(field): 
+    plants_primary = [row for row in util.csv_get_rows('database/tables/plants.csv')[1:]]
+    plants_secondary = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
+    
+    plants = []
+    for plant in plants_primary: plants.append(plant)
+    for plant in plants_secondary: plants.append(plant)
 
     for index, plant in enumerate(plants):
-        latin_name = plant[cols['latin_name']].strip().capitalize()
-        common_name = plant[cols['common_name']].strip().title()
+        print(index, '-', len(plants), '>>', plant)
+
+        latin_name = plant[0].strip().capitalize()
+        common_name = plant[1].strip().title()
+
         entity = latin_name.lower().replace(' ', '-')
+        json_filepath = f'database/articles/plants/{entity}.json'
 
-        print(index, '-', len(plants), '>>' , latin_name, '|', 'taxonomy')
-
-        rows = util.csv_get_rows_by_entity(csv_filepath, entity)
-        if rows != []: continue
-
-        prompt = f'''
-            Give me an ordered list with the Linnaean Taxonomy of {latin_name}. Include:
-            1. Kingdom
-            2. Phylum
-            3. Class
-            4. Order
-            5. Family
-            6. Genus
-            7. Species
-        '''
-
-        reply = utils_ai.gen_reply(prompt).strip()
-
-        reply_formatted = [entity]
-        i = 0
-        for line in reply.split('\n'):
-            line = line.strip()
-            if line == '': continue
-            if not line[0].isdigit(): continue
-            if '. ' in line: line = '. '.join(line.split('. ')[1:])
-            else: continue
-            if ': ' in line: 
-                line_name = line.split(': ')[0].strip()
-                if line_name.lower() == 'species': line_desc = latin_name
-                else: line_desc = line.split(': ')[1].strip()
-            else: continue
-            if '(' in line_desc: line_desc = line_desc.split('(')[0].strip()
-            line_name = line_name.replace('*', '')
-            line_desc = line_desc.replace('*', '')
-            line_name = line_name.lower()
-            if i == 0 and line_name == 'kingdom':
-                reply_formatted.append(line_desc)
-            elif i == 1 and line_name == 'phylum':
-                reply_formatted.append(line_desc)
-            elif i == 2 and line_name == 'class':
-                reply_formatted.append(line_desc)
-            elif i == 3 and line_name == 'order':
-                reply_formatted.append(line_desc)
-            elif i == 4 and line_name == 'family':
-                reply_formatted.append(line_desc)
-            elif i == 5 and line_name == 'genus':
-                reply_formatted.append(line_desc)
-            elif i == 6 and line_name == 'species':
-                reply_formatted.append(line_desc)
-            else: continue
-            i += 1
-
-        print(len(reply_formatted))
-        if len(reply_formatted) == 8:
-            print('***************************************')
-            for line in reply_formatted:
-                print(line)
-            print('***************************************')
-            util.csv_add_rows(csv_filepath, [reply_formatted])
-
-        time.sleep(30)
+        data = util.json_read(json_filepath)
+        data[field] = []
+        util.json_write(json_filepath, data)
 
 
 
@@ -1205,6 +1291,9 @@ def ai_entity_taxonomy_csv():
 ##################################################################
 # EXE
 ##################################################################
+
+
+# clear_entity_field('medicine_desc')
 
 # ai_entity_medicine_benefits_csv()
 # ai_entity_medicine_constituents_csv()
@@ -1215,6 +1304,8 @@ def ai_entity_taxonomy_csv():
 # ai_entity_taxonomy_csv()
 
 ai_entity_main()
+# ai_entity_trefle_main()
+
 # ai_medicine_main()
 # ai_benefits_main()
 # ai_constituents_main()

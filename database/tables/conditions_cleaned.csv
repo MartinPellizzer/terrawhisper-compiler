@@ -1,17 +1,17 @@
 condition\system\organ\synonyms\related
-
+\\\\
 bad breath\digestive\mouth \halitosis, mouth odour\
 dry mouth\digestive\mouth\\
 mouth ulcers\digestive\mouth\\
 oral thrush\digestive\mouth, throat\\oral thrush in babies
 Aphthous Ulcers\digestive\mouth\canker sores \
 Periodontal Disease\digestive\mouth\\
-
+\\\\
 throat pain\digestive\throat\\
-
+\\\\
 heartburn\digestive\esophagus\\heartburn during pregnancy
 acid reflux\digestive\esophagus\\gerd, Esophagitis and Gastroesophageal Reflux
-
+\\\\
 stomach pain\digestive\stomach\\
 bloated stomach\digestive\stomach\\bloating
 hyperacidity\digestive\stomach\acidity\
@@ -29,29 +29,46 @@ queasy stomach\digestive\stomach\\
 Gastritis\digestive\stomach\\
 Peptic Ulcers\digestive\stomach, small intestine (duodenum)\\
 Hiatus Hernia\digestive\stomach\\
-
+\\\\
 hangover\digestive\liver\\
 Jaundice\digestive\liver \\
 Chronic Hepatitis\digestive\liver \\
 Viral Hepatitis\digestive\liver \\
 Cirrhosis\digestive\liver \\
-
+\\\\
 gall stones\digestive\gallbladder\\
 Cholecystitis\digestive\gallbladder \\
 Cholelithiasis\digestive\gallbladder \\
-
+\\\\
 abdominal pain\digestive\abdomen\\lower abdominal pain
-
+\\\\
 gas pains\digestive\intestines \gas pain\
-
+\\\\
 quick digestion\digestive\small intestine \\
 Inflammatory Bowel Disease\digestive\small intestine, large intestine\\
-
+\\\\
 constipation\digestive\colon\\constipation during pregnancy, kids constipation
 diarrhea\digestive\colon\diarrhoea, loose motion, running stomach\
 flatulence\digestive\colon\gas\
 Irritable Bowel Syndrome\digestive\colon (large intestine)\\
 Ulcerative Colitis\digestive\colon\\
 Diverticulitis\digestive\colon\\
-
+\\\\
 Hemorrhoids\digestive\rectum, anus\\
+\\\\
+\\\\
+\\\\
+\\\\
+\\\\
+high blood pressure\cardiovascular\heart, blood vessels, kidneys, brain, and eyes\hypertension\
+low blood pressure\cardiovascular\heart, blood vessels \hypotension\
+heart pain\cardiovascular\heart\angina\
+high cholesterol\cardiovascular\liver, blood vessels, heart \\
+jaundice\cardiovascular\liver\\jaundice in newborn
+nose bleeding\cardiovascular\nose\epistaxis \nose bleeding in child
+palpitation\cardiovascular\heart\\
+swollen feet\cardiovascular\feet, blood vessels, hearth\\
+Arteriosclerosis\cardiovascular\arteries \\
+Congestive Heart Failure\cardiovascular\heart \\
+Peripheral Arterial Occlusive Disease\cardiovascular\arteries \\
+Varicose Veins \cardiovascular\veins \\
