@@ -22,8 +22,8 @@ MODEL = MODELS[1]
 llm = AutoModelForCausalLM.from_pretrained(
     MODEL,
     model_type="mistral", 
-    context_length=1024, 
-    max_new_tokens=1024,
+    context_length=2048, 
+    max_new_tokens=2048,
     )
 
 

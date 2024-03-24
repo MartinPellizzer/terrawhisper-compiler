@@ -907,7 +907,14 @@ def plants_primary():
         article_html += f'<h2>What are the medicinal uses of {latin_name}?</h2>' + '\n'
         article_html += f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][0])}</p>\n'
-        article_html += f'<p>Here\'s an article explaining in detail the <a href="/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
+        article_html += f'<p>Here are the most important <a href="/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
+        article_html += f'<ul>' + '\n'
+        article_html += f'<li>Health benefits</li>' + '\n'
+        article_html += f'<li>Active constituents</li>' + '\n'
+        article_html += f'<li>Medicinal preparations</li>' + '\n'
+        article_html += f'<li>Side effects</li>' + '\n'
+        article_html += f'<li>Precautions</li>' + '\n'
+        article_html += f'</ul>' + '\n'
         # article_html += f'<p>{medicine_desc[0]}</p>' + '\n'
         # article_html += f'<p>{medicine_desc[1]}</p>' + '\n'
         # article_html += f'<p>{medicine_desc[2]}</p>' + '\n'
@@ -926,18 +933,42 @@ def plants_primary():
 
         article_html += f'<h2>What are the horticultural conditions of {latin_name}?</h2>' + '\n'
         article_html += f'<p><img src="/images/{latin_name_dash}-horticulture.jpg" alt="{latin_name} medicine"></p>' + '\n'
-        article_html += f'<p>{ data["horticulture_desc"][0]}</p>' + '\n'
-        article_html += f'<p>{ data["horticulture_desc"][1]}</p>' + '\n'
-        article_html += f'<p>{ data["horticulture_desc"][2]}</p>' + '\n'
-        article_html += f'<p>{ data["horticulture_desc"][3]}</p>' + '\n'
-        article_html += f'<p>{ data["horticulture_desc"][4]}</p>' + '\n'
+        article_html += f'<h3>What are the growth requirements uses of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][0])}</p>' + '\n'
+        article_html += f'<h3>What are the planting tips of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][1])}</p>' + '\n'
+        article_html += f'<h3>What are the caring tips of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][2])}</p>' + '\n'
+        article_html += f'<h3>What are the harvesting tips of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][3])}</p>' + '\n'
+        article_html += f'<h3>What are the pests and diseases of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][4])}</p>' + '\n'
+
         article_html += f'<h2>What are the botanical characteristics of {latin_name}?</h2>' + '\n'
         article_html += f'<p><img src="/images/{latin_name_dash}-botany.jpg" alt="{latin_name} medicine"></p>' + '\n'
-        article_html += f'<p>{data["botany_desc"][0]}</p>' + '\n'
-        article_html += f'<p>{data["botany_desc"][1]}</p>' + '\n'
-        article_html += f'<p>{data["botany_desc"][2]}</p>' + '\n'
-        article_html += f'<p>{data["botany_desc"][3]}</p>' + '\n'
-        article_html += f'<p>{data["botany_desc"][4]}</p>' + '\n'
+        article_html += f'<h3>What is the taxonomy of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][0])}</p>' + '\n'
+        article_html += f'<h3>What is the morphology of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][1])}</p>' + '\n'
+        article_html += f'<h3>What are the variants of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][2])}</p>' + '\n'
+        article_html += f'<h3>What is the geographic distribution of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][3])}</p>' + '\n'
+        article_html += f'<h3>What is the life-cycle of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][4])}</p>' + '\n'
+
+        article_html += f'<h2>What is the history of {latin_name}?</h2>' + '\n'
+        article_html += f'<p><img src="/images/{latin_name_dash}-history.jpg" alt="{latin_name} history"></p>' + '\n'
+        article_html += f'<h3>What are the historical medicinal uses of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][0])}</p>' + '\n'
+        article_html += f'<h3>What are the mythological references of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][1])}</p>' + '\n'
+        article_html += f'<h3>What are the ancient rituals of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][2])}</p>' + '\n'
+        article_html += f'<h3>What are the literature references of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][3])}</p>' + '\n'
+        article_html += f'<h3>What are the symbolic aspects of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][4])}</p>' + '\n'
 
         header_html = generate_header_light()
         meta = gen_article_metadata(article_html)
@@ -1004,6 +1035,7 @@ def plants_primary():
             f'website/images/{entity}-medicine.jpg',
             f'website/images/{entity}-horticulture.jpg',
             f'website/images/{entity}-botany.jpg',
+            f'website/images/{entity}-history.jpg',
         ]
 
         for i, filepath_out in enumerate(filepaths_out):
@@ -2027,7 +2059,7 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 # RUN
 ##############################################################################
 
-# home()
+home()
 # about()
 # top_herbs()
 # teas()
@@ -2040,17 +2072,17 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 plants_primary()
 plants_secondary()
 
-articles_medicine()
+# articles_medicine()
 
-articles_benefits()
-articles_constituents()
-articles_preparations()
+# articles_benefits()
+# articles_constituents()
+# articles_preparations()
 
 
 
 # gen_pages_taxonomy()
 
-sitemap.sitemap_main()
-sitemap.sitemap_teas()
-sitemap.sitemap_plants()
+# sitemap.sitemap_main()
+# sitemap.sitemap_teas()
+# sitemap.sitemap_plants()
 
