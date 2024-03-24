@@ -187,7 +187,30 @@ entity_botany = [
 ]
 
 
-entity_history = [
+
+entity_history_intro = [
+    '''
+        Write a 5-sentence paragraph about the medicinal uses of [latin_name].
+        In sentence 1, write about the historical medicinal uses of [latin_name].
+        In sentence 2, write about the mythology of [latin_name].
+        In sentence 3, write about the ancient rituals of [latin_name].
+        In sentence 4, write about the literature of [latin_name].
+        In sentence 5, write about the symbolism of [latin_name].
+        Start with the following words: [latin_name][aka] has several historical medicinal uses, such as .
+    ''',
+    '''
+        Write 1 paragraph in 5 sentences about the medicinal uses of [latin_name].
+        In sentence 1, write about the historical medicinal uses of [latin_name].
+        In sentence 2, write about the mythology of [latin_name].
+        In sentence 3, write about the ancient rituals of [latin_name].
+        In sentence 4, write about the literature of [latin_name].
+        In sentence 5, write about the symbolism of [latin_name].
+        Start with the following words: [latin_name][aka] has several historical medicinal uses, such as .
+    ''',
+]
+
+
+entity_history_paragraphs = [
     '''
         Write 5 paragraphs in 400 words about the historical aspects of [latin_name].
         In paragraph 1, write about the historical medicinal uses of [latin_name].

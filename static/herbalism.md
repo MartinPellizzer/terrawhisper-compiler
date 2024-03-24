@@ -1,5 +1,7 @@
 # Exploring Herbalism: A Comprehensive Guide
 
+![herbalism overview](/images/herbalism-overview.jpg)
+
 Herbalism, the age-old practice of harnessing the healing properties of plants, has witnessed a remarkable resurgence in recent times. 
 
 With roots deeply embedded in history and a philosophy grounded in holistic well-being, herbalism offers a unique approach to health and vitality. 
@@ -8,6 +10,8 @@ This comprehensive guide delves into the multifaceted world of herbalism, coveri
 
 ## What is herbalism?
 
+![herbalism what is](/images/herbalism-what-is.jpg)
+
 Herbalism is a traditional medicinal practice rooted in the use of plants and plant extracts to promote health and treat ailments. 
 
 It relies on the therapeutic properties of herbs, flowers, roots, and leaves, harnessing their natural compounds to address various health issues. Herbalists draw from centuries-old wisdom, often passed down through generations, and blend ancient knowledge with modern research. This holistic approach considers the interconnectedness of body and nature, aiming to restore balance and harmony. 
@@ -15,6 +19,8 @@ It relies on the therapeutic properties of herbs, flowers, roots, and leaves, ha
 While herbalism is embraced for its gentleness and minimal side effects, it is essential to consult trained herbalists for safe and effective usage.
 
 ## Which health conditions can herbalism relieve?
+
+![herbalism health conditions](/images/herbalism-health-conditions.jpg)
 
 Herbalism has been associated with alleviating various health conditions, including anxiety and stress-related disorders, as certain herbs possess calming properties. 
 
@@ -37,6 +43,8 @@ Right below, you can find a list of the most common health conditions that herba
 
 ## What are the most common herbs used in herbalism?
 
+![herbalism common herbs](/images/herbalism-common-herbs.jpg)
+
 In herbalism, common herbs serve diverse therapeutic roles. 
 
 Chamomile, renowned for its calming properties, aids in stress relief and sleep improvement. Echinacea is celebrated for its immune-boosting abilities, often employed to fend off colds. Lavender, prized for its soothing fragrance, is utilized for relaxation and as a remedy for anxiety. Peppermint, known for its refreshing flavor, aids digestion and alleviates headaches. Additionally, Ginseng is esteemed in herbal traditions for its adaptogenic qualities, enhancing resilience to stress and promoting overall well-being. 
@@ -57,6 +65,8 @@ In the following list, you can find some of the most common herbs used in herbal
 - **Nettle**: Nettle is a nutritive herb rich in vitamins and minerals. It's commonly used to support overall health and well-being, as well as to alleviate allergy symptoms and promote healthy skin. Nettle tea and supplements are popular forms of consumption.
 
 ## What are the main active constituents used in herbalism for medicinal purposes?
+
+![herbalism active constituents](/images/herbalism-active-constituents.jpg)
 
 Plants utilized in herbalism for medicinal purposes contain a myriad of active constituents.
 
@@ -79,6 +89,8 @@ The following list give a brief description of the primary active constituents u
 
 ## What are the main medicinal preparations in herbalism?
 
+![herbalism medicinal preparations](/images/herbalism-medicinal-preparations.jpg)
+
 Medicinal preparations involve various methods of extracting and using the medicinal properties of plants for therapeutic purposes. 
 
 Here are some main herbal preparations commonly used in herbalism:
@@ -99,6 +111,8 @@ Here are some main herbal preparations commonly used in herbalism:
 
 
 ## What are the primary tools used in herbalism?
+
+![herbalism primary tools](/images/herbalism-primary-tools.jpg)
 
 Herbalism relies on several key tools to harness the healing properties of plants. 
 

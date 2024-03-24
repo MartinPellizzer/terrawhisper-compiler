@@ -2889,3 +2889,141 @@ def gen_articles_plant_medicine():
         img.thumbnail((768, 768), Image.Resampling.LANCZOS)
         img.save(filepath_out, format='JPEG', optimize=True, quality=50)
 
+
+
+
+
+# def plant():
+#     articles_folderpath = 'database/articles/plants'
+#     for index, plant in enumerate(plants):
+#         print(f'{index}/{len(plants)} - {plant}')
+#         latin_name = plant[cols['latin_name']].strip().capitalize()
+#         entity = latin_name.lower().replace(' ', '-')
+#         article_filepath_in = f'{articles_folderpath}/{entity}.json'
+#         article_filepath_out = f'website/{entity}.html'
+
+#         data = util.json_read(article_filepath_in)
+#         try: title = data['title']
+#         except: title = ''
+#         if title == '':
+#             print(f'MISSING TITLE: {article_filepath_in}')
+#             continue
+#         latin_name = data['latin_name']
+#         latin_name_dash = latin_name.lower().replace(' ', '-')
+#         try: medicine = data['medicine_desc']
+#         except: medicine = ''
+
+#         article_html = ''
+
+#         article_html += f'<h1>{title}</h1>' + '\n'
+#         article_html += f'<p><img src="/images/{latin_name_dash}.jpg" alt="{latin_name}"></p>' + '\n'
+#         article_html += '\n'.join([f'<p>{paragraph}</p>' for paragraph in data['intro_desc']]) + '\n'
+
+#         article_html += f'<h2>What are the medicinal uses of {latin_name}?</h2>' + '\n'
+#         article_html += f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
+#         article_html += ''.join([f'<p>{paragraph}</p>' for paragraph in medicine]) + '\n'
+#         article_html += f'<p>Here\'s an article explaining in detail the <a href="/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
+#         article_html += f'<h3>What are the health benefits of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["benefits_desc"][0])}</p>\n'
+#         article_html += f'<h3>What are the active constituents of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["constituents_desc"][0])}</p>\n'
+#         article_html += f'<h3>What are the medicinal preparations of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["preparations_desc"][0])}</p>\n'
+#         article_html += f'<h3>What are the possible side effects of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["side_effects_desc"][0])}</p>\n'
+#         article_html += f'<h3>What are the precautions to take when using {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["precautions_desc"][0])}</p>\n'
+
+#         article_html += f'<h2>What are the horticultural conditions of {latin_name}?</h2>' + '\n'
+#         article_html += f'<p><img src="/images/{latin_name_dash}-horticulture.jpg" alt="{latin_name} horticulture"></p>' + '\n'
+#         article_html += ''.join([f'<p>{paragraph}</p>' for paragraph in data['horticulture_desc']]) + '\n'
+
+#         article_html += f'<h2>What are the botanical characteristics of {latin_name}?</h2>' + '\n'
+#         article_html += f'<p><img src="/images/{latin_name_dash}-botany.jpg" alt="{latin_name} botany"></p>' + '\n'
+#         article_html += ''.join([f'<p>{paragraph}</p>' for paragraph in data['botany_desc']]) + '\n'
+
+#         header_html = generate_header_light()
+#         word_count = len(article_html.split(' '))
+#         reading_time_html = str(word_count // 200) + ' minutes'
+
+#         article_html = generate_toc(article_html)
+
+#         html = f'''
+#             <!DOCTYPE html>
+#             <html lang="en">
+
+#             <head>
+#                 <meta charset="UTF-8">
+#                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#                 <meta name="author" content="{g.AUTHOR_NAME}">
+#                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+#                 <link rel="stylesheet" href="/style.css">
+#                 <title>{title}</title>
+#                 {g.GOOGLE_TAG}
+                
+#             </head>
+
+#             <body>
+#                 {header_html}
+                
+#                 <section class="my-96">
+#                     <div class="container">
+#                         <div class="flex items-center justify-between mb-16">
+#                             <div class="flex items-center gap-16">
+#                                 <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+#                                 <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
+#                             </div>
+#                             <span>{reading_time_html}</span>
+#                         </div>
+#                         {article_html}
+#                     </div>
+#                 </section>
+
+#                 <footer>
+#                     <div class="container-lg">
+#                         <span>© TerraWhisper.com 2024 | All Rights Reserved
+#                     </div>
+#                 </footer>
+#             </body>
+
+#             </html>
+#         '''
+
+#         util.file_write(f'{article_filepath_out}', html)
+
+#         # IMAGES
+#         folderpath = f'{IMAGE_FOLDER}/plants/{latin_name_dash}'
+#         if os.path.exists(folderpath):
+#             filenames = os.listdir(folderpath)
+#             filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+
+#             filepath_in = filepaths_in[0]
+#             filepath_out = f'website/images/{latin_name_dash}.jpg'
+#             if not os.path.exists(filepath_out):
+#                 img = Image.open(filepath_in)
+#                 img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+#                 img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+#             filepath_in = filepaths_in[1]
+#             filepath_out = f'website/images/{latin_name_dash}-medicine.jpg'
+#             if not os.path.exists(filepath_out):
+#                 img = Image.open(filepath_in)
+#                 img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+#                 img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+#             filepath_in = filepaths_in[2]
+#             filepath_out = f'website/images/{latin_name_dash}-horticulture.jpg'
+#             if not os.path.exists(filepath_out):
+#                 img = Image.open(filepath_in)
+#                 img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+#                 img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+#             filepath_in = filepaths_in[3]
+#             filepath_out = f'website/images/{latin_name_dash}-botany.jpg'
+#             if not os.path.exists(filepath_out):
+#                 img = Image.open(filepath_in)
+#                 img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+#                 img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+#             # quit()
+

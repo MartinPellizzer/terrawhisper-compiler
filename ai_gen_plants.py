@@ -200,7 +200,11 @@ def ai_entity_main():
             ai_entity(json_filepath, 'botany', 5, prompt)
 
         # HISTORY
-        for prompt in prompts.entity_history:
+        for prompt in prompts.entity_history_intro:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'history_intro', 1, prompt, aka=False, save=True)
+        for prompt in prompts.entity_history_paragraphs:
             prompt = prompt.replace('[latin_name]', latin_name)
             prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
             ai_entity(json_filepath, 'history', 5, prompt, aka=False, save=True)

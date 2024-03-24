@@ -1,5 +1,5 @@
-- filter 5 paragraphs and generate h3
-- push when done the steps above
+- generate single h3 for primary and secondary plants
+- generate single intros for section content before h3
 - complete entity articles (culinary, etc...)
 
 - generate conditions pages
@@ -8,5 +8,4 @@
 - generate pil variation of the images for 100 articles
 
 - gen 10 plant articles x day, increase by 5 articles per day
-- add 1 section and images to herbalism page
 - gen tea page, talk about all aspects of teas and add many sessions for conditions (by body system)
