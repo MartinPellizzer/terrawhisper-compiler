@@ -1,4 +1,5 @@
-- generate single h3 for primary and secondary plants
+- check auto lastmod update (datetime) in ai_gen next time you generate content
+- generate single h3 section (not entire h2 section) for primary and secondary plants
 - generate single intros for section content before h3
 - complete entity articles (culinary, etc...)
 
@@ -7,5 +8,8 @@
 - complete images for 100 articles
 - generate pil variation of the images for 100 articles
 
-- gen 10 plant articles x day, increase by 5 articles per day
+- gen 10 trefle plant articles x day, only root article with h2 ai gen. increase by 5 articles per day
 - gen tea page, talk about all aspects of teas and add many sessions for conditions (by body system)
+
+- gen conditions page
+- add main conditions to homepage

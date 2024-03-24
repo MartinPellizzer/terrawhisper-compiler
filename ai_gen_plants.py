@@ -11,6 +11,7 @@ import g
 import util
 import utils_ai
 import prompts
+import datetime
 
 
 
@@ -33,6 +34,8 @@ plants = plants[1:g.ARTICLES_NUM+1]
 
 
 
+def date_now():
+    return datetime.datetime.now().date()
 
 
 def ai_list_to_csv(entity, reply):
@@ -126,6 +129,7 @@ def ai_entity(json_filepath, section, paragraph_num, prompt, aka=True, save=True
         print(p)
         print('***************************************')
         data[var_name] = p
+        data['lastmod'] = str(date_now())
         if save: util.json_write(json_filepath, data)
         else: print('### NOT SAVED - TEST MODE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 
@@ -211,22 +215,28 @@ def ai_entity_main():
 
         
 def ai_entity_trefle_main():
+    index_last_plant = 0
+    number_of_plants_to_do_today = 15
+
     plants_trefle = [row for row in util.csv_get_rows('database/tables/_plants_all_new.csv')[1:]]
+    plants_trefle_today = plants_trefle[index_last_plant:number_of_plants_to_do_today]
 
     plants_primary = [row for row in util.csv_get_rows('database/tables/plants.csv')[1:]]
     plants_secondary = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
     
     plants_done = []
-    for plant in plants_primary: plants_done.append(plant)
-    for plant in plants_secondary: plants_done.append(plant)
+    for plant in plants_primary: plants.append(plant)
+    for plant in plants_secondary: plants.append(plant)
 
-    for index, plant in enumerate(plants_trefle):
+    for index, plant in enumerate(plants_trefle_today):
         print(index, '-', len(plants), '>>', plant)
         if plant in plants_done: continue
 
         entity = plant[0].strip()
         latin_name = entity.replace('-', ' ').capitalize()
         common_name = plant[2].strip().title()
+        genus = plant[3].strip().title()
+        family = plant[4].strip().title()
 
         json_filepath = f'database/articles/plants_trefle/{entity}.json'
 
@@ -235,41 +245,45 @@ def ai_entity_trefle_main():
         data['url'] = f'{entity}'
         data['latin_name'] = latin_name
         data['common_name'] = common_name
+        data['genus'] = genus
+        data['family'] = family
         data['title'] = f'What to know before using {latin_name} ({common_name})?'
         util.json_write(json_filepath, data)
 
-        # INTRO
-        for prompt in prompts.entity_intro:
-            prompt = prompt.replace('[latin_name]', latin_name)
-            ai_entity(json_filepath, 'intro', 1, prompt)
+        # # INTRO
+        # for prompt in prompts.entity_intro:
+        #     prompt = prompt.replace('[latin_name]', latin_name)
+        #     ai_entity(json_filepath, 'intro', 1, prompt)
 
-        # MEDICINE
-        for prompt in prompts.entity_medicine_paragraphs:
-            prompt = prompt.replace('[latin_name]', latin_name)
-            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
-            ai_entity(json_filepath, 'medicine', 5, prompt, aka=False, save=True)
+        # # MEDICINE
+        # for prompt in prompts.entity_medicine_paragraphs:
+        #     prompt = prompt.replace('[latin_name]', latin_name)
+        #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+        #     ai_entity(json_filepath, 'medicine', 5, prompt, aka=False, save=True)
 
-        # HORTICULTURE
-        for prompt in prompts.entity_horticulture:
-            prompt = prompt.replace('[latin_name]', latin_name)
-            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
-            ai_entity(json_filepath, 'horticulture', 5, prompt, aka=False, save=True)
+        # # HORTICULTURE
+        # for prompt in prompts.entity_horticulture:
+        #     prompt = prompt.replace('[latin_name]', latin_name)
+        #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+        #     ai_entity(json_filepath, 'horticulture', 5, prompt, aka=False, save=True)
 
         # BOTANY
-        for prompt in prompts.entity_botany:
+        for prompt in prompts.trefle_entity_botany:
             prompt = prompt.replace('[latin_name]', latin_name)
             prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            prompt = prompt.replace('[genus]', genus)
+            prompt = prompt.replace('[family]', family)
             ai_entity(json_filepath, 'botany', 5, prompt, aka=False, save=True)
 
-        # HISTORY
-        for prompt in prompts.entity_history:
-            prompt = prompt.replace('[latin_name]', latin_name)
-            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
-            ai_entity(json_filepath, 'history', 5, prompt, aka=False, save=True)
+        # # HISTORY
+        # for prompt in prompts.entity_history:
+        #     prompt = prompt.replace('[latin_name]', latin_name)
+        #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+        #     ai_entity(json_filepath, 'history', 5, prompt, aka=False, save=True)
 
 
 #######################################################################
-# ROOT / MEDICINE
+# MEDICINE
 #######################################################################
 
 def ai_medicine_section_text(entity, section, prompt):
@@ -561,11 +575,8 @@ def ai_medicine_main(plants='primary'):
         # ai_medicine_precautions_list(entity)
 
 
-
-
-
 #######################################################################
-# ROOT >> MEDICINE >> BENEFITS
+# BENEFITS
 #######################################################################
 
 def ai_benefits_intro(entity):
@@ -729,11 +740,8 @@ def ai_benefits_main():
         # ai_benefits_constituents(filepath)
         
 
-
-
-
 #######################################################################
-# ROOT >> MEDICINE >> CONSTITUENTS
+# CONSTITUENTS
 #######################################################################
 
 def ai_constituents_intro(entity):
@@ -868,11 +876,8 @@ def ai_constituents_main():
         # ai_benefits_constituents(filepath)
         
 
-
-
-
 #######################################################################
-# ROOT >> MEDICINE >> PREPARATIONS
+# PREPARATIONS
 #######################################################################
 
 def ai_preparations_intro(entity):

@@ -37,12 +37,12 @@ def csv_set_rows(filepath, rows, delimiter='\\'):
         writer.writerows(rows)
         
 
-def csv_get_rows_by_entity(filepath, entity, delimiter='\\'):
+def csv_get_rows_by_entity(filepath, entity, delimiter='\\', num_col=0):
     rows = []
     with open(filepath, encoding='utf-8', errors='ignore') as f:
         reader = csv.reader(f, delimiter=delimiter)
         for i, line in enumerate(reader):
-            if line[0].lower().strip() == entity.lower().strip():
+            if line[num_col].lower().strip() == entity.lower().strip():
                 rows.append(line)
     return rows
 

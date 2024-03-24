@@ -190,7 +190,7 @@ entity_botany = [
 
 entity_history_intro = [
     '''
-        Write a 5-sentence paragraph about the medicinal uses of [latin_name].
+        Write a 5-sentence paragraph about the historical aspects of [latin_name].
         In sentence 1, write about the historical medicinal uses of [latin_name].
         In sentence 2, write about the mythology of [latin_name].
         In sentence 3, write about the ancient rituals of [latin_name].
@@ -199,7 +199,7 @@ entity_history_intro = [
         Start with the following words: [latin_name][aka] has several historical medicinal uses, such as .
     ''',
     '''
-        Write 1 paragraph in 5 sentences about the medicinal uses of [latin_name].
+        Write 1 paragraph in 5 sentences about the historical aspects of [latin_name].
         In sentence 1, write about the historical medicinal uses of [latin_name].
         In sentence 2, write about the mythology of [latin_name].
         In sentence 3, write about the ancient rituals of [latin_name].
@@ -276,5 +276,40 @@ entity_medicine_intro = [
         In sentence 3, write the preparations of [latin_name].
         In sentence 4, write the side effects of [latin_name].
         In sentence 5, write the precautions of [latin_name].
+    ''',
+]
+
+
+
+#######################################################################################
+# TREFLE
+#######################################################################################
+
+trefle_entity_botany = [
+    '''
+        Write 5 paragraphs in 400 words about the botanical aspects of [latin_name].
+        In paragraph 1, write about the taxonomy of [latin_name], including the genus [genus] and the family [family].
+        In paragraph 2, write about the morphology of [latin_name].
+        In paragraph 3, write about the variants names and differences of [latin_name].
+        In paragraph 4, write about the geographic distribution and natural habitats of [latin_name].
+        In paragraph 5, write about the life-cycle of [latin_name].
+    ''',
+    '''
+        Write 5 paragraphs in 400 words about the botanical aspects of [latin_name].
+        In paragraph 1, write about the taxonomy of [latin_name].
+        In paragraph 2, write about the morphology of [latin_name].
+        In paragraph 3, write about the variants names and differences of [latin_name].
+        In paragraph 4, write about the geographic distribution and natural habitats of [latin_name].
+        In paragraph 5, write about the life-cycle of [latin_name].
+        Don't add conclusions.
+    ''',
+    '''
+        Write 5 paragraphs in 400 words about the botanical aspects of [latin_name].
+        In paragraph 1, write about the taxonomy of [latin_name].
+        In paragraph 2, write about the morphology of [latin_name].
+        In paragraph 3, write about the variants names and differences of [latin_name].
+        In paragraph 4, write about the geographic distribution and natural habitats of [latin_name].
+        In paragraph 5, write about the life-cycle of [latin_name].
+        Don't add conclusions. Don't add introductions.
     ''',
 ]

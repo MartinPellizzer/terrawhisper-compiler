@@ -32,17 +32,14 @@ def sitemap_teas():
 
 
 
+
+
 def sitemap_plants():
+    lastmod = '2024-03-17'
     sitemap = ''
     sitemap += '''
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 '''
     for filename in os.listdir('database/articles/plants'):
         if filename.endswith('.json'):
@@ -51,7 +48,7 @@ def sitemap_plants():
             sitemap += f'''
 <url>
   <loc>https://terrawhisper.com/{filename_html}</loc>
-  <lastmod>2024-03-17T17:42:42+00:00</lastmod>
+  <lastmod>{lastmod}</lastmod>
 </url>
 '''.strip() + '\n'
         elif os.path.isdir(f'database/articles/plants/{filename}'):
@@ -61,7 +58,7 @@ def sitemap_plants():
                     sitemap += f'''
 <url>
   <loc>https://terrawhisper.com/{filename}/{filename_2_html}</loc>
-  <lastmod>2024-03-17T17:42:42+00:00</lastmod>
+  <lastmod>{lastmod}</lastmod>
 </url>
 '''.strip() + '\n'
                 elif os.path.isdir(f'database/articles/plants/{filename}/{filename_2}'):
@@ -71,15 +68,16 @@ def sitemap_plants():
                             sitemap += f'''
 <url>
   <loc>https://terrawhisper.com/{filename}/{filename_2}/{filename_3_html}</loc>
-  <lastmod>2024-03-17T17:42:42+00:00</lastmod>
+  <lastmod>{lastmod}</lastmod>
 </url>
 '''.strip() + '\n'
 
     sitemap += '''
-
 </urlset>
 '''
     util.file_write('sitemap_plants.xml', sitemap.strip())
+
+
 
 
 

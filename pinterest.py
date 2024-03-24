@@ -20,8 +20,8 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
 
-ARTICLES_NUM = 34
-WAIT_SECONDS = 600
+ARTICLES_NUM = 35
+WAIT_SECONDS = 300
 
 
 options = Options()

@@ -1673,250 +1673,276 @@ def articles_preparations():
 # PAGES PLANTS (TAXONOMY)
 ##############################################################################
 
-def gen_pages_taxonomy():
-    try: shutil.rmtree('website/taxonomy')
-    except: pass
-    try: os.remove('website/taxonomy.html')
-    except: pass
+# def gen_pages_taxonomy():
+#     try: shutil.rmtree('website/taxonomy')
+#     except: pass
+#     try: os.remove('website/taxonomy.html')
+#     except: pass
     
-    rows = util.csv_get_rows('database/tables/taxonomy.csv')
+#     rows = util.csv_get_rows('database/tables/taxonomy.csv')
 
-    kingdoms = []
-    phylums = []
-    classes = []
-    for row in rows[1:]:
-        entity = row[0]
-        kingdom = row[1]
-        phylum = row[2]
-        clss = row[3]
-        order = row[4]
-        family = row[5]
-        genus = row[6]
-        species = row[7]
+#     kingdoms = []
+#     phylums = []
+#     classes = []
+#     for row in rows[1:]:
+#         entity = row[0]
+#         kingdom = row[1]
+#         phylum = row[2]
+#         clss = row[3]
+#         order = row[4]
+#         family = row[5]
+#         genus = row[6]
+#         species = row[7]
 
-        full_path = f'{kingdom}/{phylum}/{clss}/{order}/{family}/{genus}/{species}'
+#         full_path = f'{kingdom}/{phylum}/{clss}/{order}/{family}/{genus}/{species}'
 
-        if kingdoms == []: 
-            kingdoms = [[kingdom, phylum]]
-        else:
-            found = False
-            for kingdom_old in kingdoms:
-                if kingdom_old[0] == kingdom:
-                    if phylum not in kingdom_old:
-                        kingdom_old.append(phylum)
-                    found = True
-                    break
-            if not found:
-                kingdoms.append([kingdom, phylum])
+#         if kingdoms == []: 
+#             kingdoms = [[kingdom, phylum]]
+#         else:
+#             found = False
+#             for kingdom_old in kingdoms:
+#                 if kingdom_old[0] == kingdom:
+#                     if phylum not in kingdom_old:
+#                         kingdom_old.append(phylum)
+#                     found = True
+#                     break
+#             if not found:
+#                 kingdoms.append([kingdom, phylum])
                 
-        if phylums == []: 
-            phylums = [[phylum, clss]]
-        else:
-            found = False
-            for phylum_old in phylums:
-                if phylum_old[0] == phylum:
-                    if clss not in phylum_old:
-                        phylum_old.append(clss)
-                    found = True
-                    break
-            if not found:
-                phylums.append([phylum, clss])
+#         if phylums == []: 
+#             phylums = [[phylum, clss]]
+#         else:
+#             found = False
+#             for phylum_old in phylums:
+#                 if phylum_old[0] == phylum:
+#                     if clss not in phylum_old:
+#                         phylum_old.append(clss)
+#                     found = True
+#                     break
+#             if not found:
+#                 phylums.append([phylum, clss])
 
-        if classes == []: 
-            classes = [[clss, order]]
-        else:
-            found = False
-            for clss_old in classes:
-                if clss_old[0] == clss:
-                    if order not in clss_old:
-                        clss_old.append(order)
-                    found = True
-                    break
-            if not found:
-                classes.append([clss, order])
+#         if classes == []: 
+#             classes = [[clss, order]]
+#         else:
+#             found = False
+#             for clss_old in classes:
+#                 if clss_old[0] == clss:
+#                     if order not in clss_old:
+#                         clss_old.append(order)
+#                     found = True
+#                     break
+#             if not found:
+#                 classes.append([clss, order])
 
     
-    for kingdom in kingdoms:
-        print(kingdom)
-    print()
-    print()
-    print()
-    for phylum in phylums:
-        print(phylum)
-    print()
-    print()
-    print()
-    for clss in classes:
-        print(clss)
-    print()
-    print()
-    print()
-    quit()
+#     for kingdom in kingdoms:
+#         print(kingdom)
+#     print()
+#     print()
+#     print()
+#     for phylum in phylums:
+#         print(phylum)
+#     print()
+#     print()
+#     print()
+#     for clss in classes:
+#         print(clss)
+#     print()
+#     print()
+#     print()
+#     quit()
 
-    for kingdom in kingdoms:
-        title = kingdom[0]
+#     for kingdom in kingdoms:
+#         title = kingdom[0]
 
-        article_html = ''
-        kingdom_slug = kingdom[0].lower().strip().replace(' ', '-')
-        for phylum in kingdom[1:]:
-            phylum_slug = phylum.lower().strip().replace(' ', '-')
-            article_html += f'<p><a href="/taxonomy/{kingdom_slug}/{phylum_slug}.html">{phylum}</a></p>'
+#         article_html = ''
+#         kingdom_slug = kingdom[0].lower().strip().replace(' ', '-')
+#         for phylum in kingdom[1:]:
+#             phylum_slug = phylum.lower().strip().replace(' ', '-')
+#             article_html += f'<p><a href="/taxonomy/{kingdom_slug}/{phylum_slug}.html">{phylum}</a></p>'
         
-        header_html = generate_header_light()
-        word_count = len(article_html.split(' '))
-        reading_time_html = str(word_count // 200) + ' minutes'
-        article_html = generate_toc(article_html)
+#         header_html = generate_header_light()
+#         word_count = len(article_html.split(' '))
+#         reading_time_html = str(word_count // 200) + ' minutes'
+#         article_html = generate_toc(article_html)
 
-        html = f'''
-            <!DOCTYPE html>
-            <html lang="en">
+#         html = f'''
+#             <!DOCTYPE html>
+#             <html lang="en">
 
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{g.AUTHOR_NAME}">
-                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-                <link rel="stylesheet" href="/style.css">
-                <title>{title}</title>
-                {g.GOOGLE_TAG}
-            </head>
+#             <head>
+#                 <meta charset="UTF-8">
+#                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#                 <meta name="author" content="{g.AUTHOR_NAME}">
+#                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+#                 <link rel="stylesheet" href="/style.css">
+#                 <title>{title}</title>
+#                 {g.GOOGLE_TAG}
+#             </head>
 
-            <body>
-                {header_html}
+#             <body>
+#                 {header_html}
                 
-                <section class="my-96">
-                    <div class="container">
-                        <div class="flex items-center justify-between mb-16">
-                            <div class="flex items-center gap-16">
-                                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
-                            </div>
-                            <span>{reading_time_html}</span>
-                        </div>
-                        {article_html}
-                    </div>
-                </section>
+#                 <section class="my-96">
+#                     <div class="container">
+#                         <div class="flex items-center justify-between mb-16">
+#                             <div class="flex items-center gap-16">
+#                                 <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+#                                 <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
+#                             </div>
+#                             <span>{reading_time_html}</span>
+#                         </div>
+#                         {article_html}
+#                     </div>
+#                 </section>
 
-                <footer>
-                    <div class="container-lg">
-                        <span>© TerraWhisper.com 2024 | All Rights Reserved
-                    </div>
-                </footer>
-            </body>
+#                 <footer>
+#                     <div class="container-lg">
+#                         <span>© TerraWhisper.com 2024 | All Rights Reserved
+#                     </div>
+#                 </footer>
+#             </body>
 
-            </html>
-        '''
-        article_filepath_out = f'website/taxonomy/{kingdom_slug}.html'
-        util.file_write(f'{article_filepath_out}', html)
+#             </html>
+#         '''
+#         article_filepath_out = f'website/taxonomy/{kingdom_slug}.html'
+#         util.file_write(f'{article_filepath_out}', html)
 
-        for phylum in phylums:
-            title = phylum[0]
+#         for phylum in phylums:
+#             title = phylum[0]
 
-            article_html = ''
-            phylum_slug = phylum[0].lower().strip().replace(' ', '-')
-            for clss in phylum[1:]:
-                clss_slug = clss.lower().strip().replace(' ', '-')
-                article_html += f'<p><a href="/taxonomy/{kingdom_slug}/{phylum_slug}/{clss_slug}.html">{clss}</a></p>'
+#             article_html = ''
+#             phylum_slug = phylum[0].lower().strip().replace(' ', '-')
+#             for clss in phylum[1:]:
+#                 clss_slug = clss.lower().strip().replace(' ', '-')
+#                 article_html += f'<p><a href="/taxonomy/{kingdom_slug}/{phylum_slug}/{clss_slug}.html">{clss}</a></p>'
             
-            header_html = generate_header_light()
-            word_count = len(article_html.split(' '))
-            reading_time_html = str(word_count // 200) + ' minutes'
-            article_html = generate_toc(article_html)
+#             header_html = generate_header_light()
+#             word_count = len(article_html.split(' '))
+#             reading_time_html = str(word_count // 200) + ' minutes'
+#             article_html = generate_toc(article_html)
 
-            html = f'''
-                <!DOCTYPE html>
-                <html lang="en">
+#             html = f'''
+#                 <!DOCTYPE html>
+#                 <html lang="en">
 
-                <head>
-                    <meta charset="UTF-8">
-                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                    <meta name="author" content="{g.AUTHOR_NAME}">
-                    <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-                    <link rel="stylesheet" href="/style.css">
-                    <title>{title}</title>
-                    {g.GOOGLE_TAG}
-                </head>
+#                 <head>
+#                     <meta charset="UTF-8">
+#                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#                     <meta name="author" content="{g.AUTHOR_NAME}">
+#                     <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+#                     <link rel="stylesheet" href="/style.css">
+#                     <title>{title}</title>
+#                     {g.GOOGLE_TAG}
+#                 </head>
 
-                <body>
-                    {header_html}
+#                 <body>
+#                     {header_html}
                     
-                    <section class="my-96">
-                        <div class="container">
-                            <div class="flex items-center justify-between mb-16">
-                                <div class="flex items-center gap-16">
-                                    <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                                    <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
-                                </div>
-                                <span>{reading_time_html}</span>
-                            </div>
-                            {article_html}
-                        </div>
-                    </section>
+#                     <section class="my-96">
+#                         <div class="container">
+#                             <div class="flex items-center justify-between mb-16">
+#                                 <div class="flex items-center gap-16">
+#                                     <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+#                                     <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
+#                                 </div>
+#                                 <span>{reading_time_html}</span>
+#                             </div>
+#                             {article_html}
+#                         </div>
+#                     </section>
 
-                    <footer>
-                        <div class="container-lg">
-                            <span>© TerraWhisper.com 2024 | All Rights Reserved
-                        </div>
-                    </footer>
-                </body>
+#                     <footer>
+#                         <div class="container-lg">
+#                             <span>© TerraWhisper.com 2024 | All Rights Reserved
+#                         </div>
+#                     </footer>
+#                 </body>
 
-                </html>
-            '''
+#                 </html>
+#             '''
 
-            article_filepath_out = f'website/taxonomy/{kingdom_slug}/{phylum_slug}.html'
-            util.file_write(f'{article_filepath_out}', html)
+#             article_filepath_out = f'website/taxonomy/{kingdom_slug}/{phylum_slug}.html'
+#             util.file_write(f'{article_filepath_out}', html)
 
 
-    article_html = ''
-    title = 'taxonomy'
+#     article_html = ''
+#     title = 'taxonomy'
 
-    header_html = generate_header_light()
-    word_count = len(article_html.split(' '))
-    reading_time_html = str(word_count // 200) + ' minutes'
-    article_html = generate_toc(article_html)
+#     header_html = generate_header_light()
+#     word_count = len(article_html.split(' '))
+#     reading_time_html = str(word_count // 200) + ' minutes'
+#     article_html = generate_toc(article_html)
 
-    html = f'''
-        <!DOCTYPE html>
-        <html lang="en">
+#     html = f'''
+#         <!DOCTYPE html>
+#         <html lang="en">
 
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta name="author" content="{g.AUTHOR_NAME}">
-            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-            <link rel="stylesheet" href="/style.css">
-            <title>{title}</title>
-            {g.GOOGLE_TAG}
-        </head>
+#         <head>
+#             <meta charset="UTF-8">
+#             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#             <meta name="author" content="{g.AUTHOR_NAME}">
+#             <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+#             <link rel="stylesheet" href="/style.css">
+#             <title>{title}</title>
+#             {g.GOOGLE_TAG}
+#         </head>
 
-        <body>
-            {header_html}
+#         <body>
+#             {header_html}
             
-            <section class="my-96">
-                <div class="container">
-                    <div class="flex items-center justify-between mb-16">
-                        <div class="flex items-center gap-16">
-                            <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-                            <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
-                        </div>
-                        <span>{reading_time_html}</span>
-                    </div>
-                    <a href="/taxonomy/plantae.html">Plantae</a>
-                </div>
-            </section>
+#             <section class="my-96">
+#                 <div class="container">
+#                     <div class="flex items-center justify-between mb-16">
+#                         <div class="flex items-center gap-16">
+#                             <img class="author-image" src="/martin-pellizzer.jpg" alt="">
+#                             <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
+#                         </div>
+#                         <span>{reading_time_html}</span>
+#                     </div>
+#                     <a href="/taxonomy/plantae.html">Plantae</a>
+#                 </div>
+#             </section>
 
-            <footer>
-                <div class="container-lg">
-                    <span>© TerraWhisper.com 2024 | All Rights Reserved
-                </div>
-            </footer>
-        </body>
+#             <footer>
+#                 <div class="container-lg">
+#                     <span>© TerraWhisper.com 2024 | All Rights Reserved
+#                 </div>
+#             </footer>
+#         </body>
 
-        </html>
-    '''
+#         </html>
+#     '''
 
-    article_filepath_out = f'website/taxonomy.html'
-    util.file_write(f'{article_filepath_out}', html)
+#     article_filepath_out = f'website/taxonomy.html'
+#     util.file_write(f'{article_filepath_out}', html)
+
+def taxonomy():
+    rows = util.csv_get_rows('database/tables/_plants_all_new.csv')
+
+    families = [row[4] for row in rows if row[4].strip() != ''][1:]
+    families = list(set(families))
+    families = sorted(families)
+    families_html = ''
+    for i, family in enumerate(families):
+        print(f'{i}/{len(families)} - {family}')
+        families_html += f'<p><a href="/taxonomy/{family}.html">{family}</a></p>'
+
+        rows = util.csv_get_rows_by_entity('database/tables/_plants_all_new.csv', family, num_col=4)
+        genuses = [row[3] for row in rows][1:]
+        genuses = list(set(genuses))
+        genuses = sorted(genuses)
+        genuses_html = ''
+        for genus in genuses:
+            genuses_html += f'<p><a href="#">{genus}</a></p>'
+
+        util.file_write(f'website/taxonomy/{family}.html', genuses_html)
+
+    util.file_write('website/taxonomy.html', families_html)
+
+    
+    
 
 
 
@@ -1954,7 +1980,7 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 # top_herbs()
 # teas()
 
-herbalism()
+# herbalism()
 # herbalism_tea()
 # herbalism_tea_condition()
 
@@ -1975,4 +2001,6 @@ herbalism()
 # sitemap.sitemap_main()
 # sitemap.sitemap_teas()
 # sitemap.sitemap_plants()
+
+taxonomy()
 
