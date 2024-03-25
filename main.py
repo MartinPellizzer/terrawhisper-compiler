@@ -1670,6 +1670,168 @@ def articles_preparations():
 
 
 ##############################################################################
+# ARTICLES TREFLE
+##############################################################################
+
+def gen_articles_trefle():
+    articles_folderpath = 'database/articles/plants_trefle'
+    plants_filenames = os.listdir(articles_folderpath)
+    for plant_filename in plants_filenames:
+        plant_filename_no_ext = plant_filename.replace('.json', '')
+        article_filepath_in = f'{articles_folderpath}/{plant_filename_no_ext}.json'
+        article_filepath_out = f'website/plants/{plant_filename_no_ext}.html'
+
+        try: data = util.json_read(article_filepath_in)
+        except: continue
+
+        print(article_filepath_in)
+
+        title = data['title']
+        latin_name = data['latin_name']
+        entity = data['entity']
+        article_html = ''
+
+        article_html += f'<h1>{title}</h1>' + '\n'
+        article_html += f'<p><img src="/images/{entity}-overview.jpg" alt="{latin_name}"></p>' + '\n'
+        article_html += util.text_format_1N1_html(data['intro'][0]) + '\n'
+
+        article_html += f'<h2>What are the medicinal uses of {latin_name}?</h2>' + '\n'
+        article_html += f'<p><img src="/images/{entity}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][0])}</p>\n'
+        article_html += f'<p>Here are the most important <a href="/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
+        article_html += f'<ul>' + '\n'
+        article_html += f'<li>Health benefits</li>' + '\n'
+        article_html += f'<li>Active constituents</li>' + '\n'
+        article_html += f'<li>Medicinal preparations</li>' + '\n'
+        article_html += f'<li>Side effects</li>' + '\n'
+        article_html += f'<li>Precautions</li>' + '\n'
+        article_html += f'</ul>' + '\n'
+        
+        article_html += f'<h3>What are the health benefits of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][0])}</p>\n'
+        article_html += f'<h3>What are the active constituents of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][1])}</p>\n'
+        article_html += f'<h3>What are the medicinal preparations of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][2])}</p>\n'
+        article_html += f'<h3>What are the possible side effects of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][3])}</p>\n'
+        article_html += f'<h3>What are the precautions to take when using {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][4])}</p>\n'
+
+        article_html += f'<h2>What are the horticultural conditions of {latin_name}?</h2>' + '\n'
+        article_html += f'<p><img src="/images/{entity}-horticulture.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        article_html += f'<h3>What are the growth requirements uses of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][0])}</p>' + '\n'
+        article_html += f'<h3>What are the planting tips of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][1])}</p>' + '\n'
+        article_html += f'<h3>What are the caring tips of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][2])}</p>' + '\n'
+        article_html += f'<h3>What are the harvesting tips of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][3])}</p>' + '\n'
+        article_html += f'<h3>What are the pests and diseases of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][4])}</p>' + '\n'
+
+        article_html += f'<h2>What are the botanical characteristics of {latin_name}?</h2>' + '\n'
+        article_html += f'<p><img src="/images/{entity}-botany.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        article_html += f'<h3>What is the taxonomy of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][0])}</p>' + '\n'
+        article_html += f'<h3>What is the morphology of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][1])}</p>' + '\n'
+        article_html += f'<h3>What are the variants of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][2])}</p>' + '\n'
+        article_html += f'<h3>What is the geographic distribution of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][3])}</p>' + '\n'
+        article_html += f'<h3>What is the life-cycle of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][4])}</p>' + '\n'
+
+        article_html += f'<h2>What is the history of {latin_name}?</h2>' + '\n'
+        article_html += f'<p><img src="/images/{entity}-history.jpg" alt="{latin_name} history"></p>' + '\n'
+        article_html += f'<h3>What are the historical medicinal uses of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][0])}</p>' + '\n'
+        article_html += f'<h3>What are the mythological references of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][1])}</p>' + '\n'
+        article_html += f'<h3>What are the ancient rituals of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][2])}</p>' + '\n'
+        article_html += f'<h3>What are the literature references of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][3])}</p>' + '\n'
+        article_html += f'<h3>What are the symbolic aspects of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][4])}</p>' + '\n'
+
+        header_html = generate_header_light()
+        meta = gen_article_metadata(article_html)
+        article_html = generate_toc(article_html)
+
+        breadcrumbs_html = breadcrumbs(article_filepath_out)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                <section class="container-lg">
+                    {breadcrumbs_html}
+                </section>
+                
+                <section class="my-96">
+                    <div class="container">
+                        {meta}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(f'{article_filepath_out}', html)
+
+
+        # GET IMAGES
+        folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
+        if not os.path.exists(folderpath): 
+            print('MISSING >>>>> IMAGE FOLDER')
+            continue
+        filenames = os.listdir(folderpath)
+        filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+        random.shuffle(filepaths_in)
+
+        # GENERATE IMAGES IF NEW
+        filepaths_out = [
+            f'website/images/{entity}-overview.jpg',
+            f'website/images/{entity}-medicine.jpg',
+            f'website/images/{entity}-horticulture.jpg',
+            f'website/images/{entity}-botany.jpg',
+            f'website/images/{entity}-history.jpg',
+        ]
+
+        for i, filepath_out in enumerate(filepaths_out):
+            if os.path.exists(filepath_out): continue
+            filepath_in = filepaths_in[i]
+            img = Image.open(filepath_in)
+            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+
+
+##############################################################################
 # PAGES PLANTS (TAXONOMY)
 ##############################################################################
 
@@ -1999,8 +2161,8 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 # gen_pages_taxonomy()
 
 # sitemap.sitemap_main()
-# sitemap.sitemap_teas()
-# sitemap.sitemap_plants()
 
-taxonomy()
+gen_articles_trefle()
+
+# taxonomy()
 

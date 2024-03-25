@@ -85,11 +85,11 @@ def json_append(filepath, data):
 
 
 def json_read(filepath):
-    if not os.path.exists(filepath):
-        file_append(filepath, '')
+    # if not os.path.exists(filepath):
+    #     file_append(filepath, '')
 
-    if file_read(filepath).strip() == '':
-        file_append(filepath, '{}')
+    # if file_read(filepath).strip() == '':
+    #     file_append(filepath, '{}')
     
     with open(filepath, 'r', encoding='utf-8') as f: 
         return json.load(f)

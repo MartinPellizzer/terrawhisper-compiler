@@ -110,7 +110,7 @@ def reply_remove_aka(reply, common_name):
 
 def ai_entity(json_filepath, section, paragraph_num, prompt, aka=True, save=True):
     var_val = []
-    var_name = f'{section}_desc'
+    var_name = f'{section}'
 
     data = util.json_read(json_filepath)
 
@@ -119,19 +119,24 @@ def ai_entity(json_filepath, section, paragraph_num, prompt, aka=True, save=True
     if var_val != []: return
     
     reply = utils_ai.gen_reply(prompt)
-    if not aka: reply = reply_remove_aka(reply, data['common_name'])
-    reply = reply_to_paragraphs(reply)
+    if reply != '': 
+        if not aka: 
+            reply = reply_remove_aka(reply, data['common_name'])
+            if "also known as" in reply:
+                chunks = reply.split(',')
+                reply = chunks[0] + ', '.join(chunks[2:])
+        reply = reply_to_paragraphs(reply)
 
-    print(len(reply))
-    if len(reply) == paragraph_num:
-        p = reply
-        print('***************************************')
-        print(p)
-        print('***************************************')
-        data[var_name] = p
-        data['lastmod'] = str(date_now())
-        if save: util.json_write(json_filepath, data)
-        else: print('### NOT SAVED - TEST MODE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+        print(len(reply))
+        if len(reply) == paragraph_num:
+            p = reply
+            print('***************************************')
+            print(p)
+            print('***************************************')
+            data[var_name] = p
+            data['lastmod'] = str(date_now())
+            if save: util.json_write(json_filepath, data)
+            else: print('### NOT SAVED - TEST MODE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
 
     time.sleep(30)
 
@@ -170,7 +175,7 @@ def ai_entity_main():
         for prompt in prompts.entity_medicine:
             prompt = prompt.replace('[latin_name]', latin_name)
             prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
-            ai_entity(json_filepath, 'medicine', 1, prompt, aka=False, save=True)
+            ai_entity(json_filepath, 'medicine_desc', 1, prompt, aka=False, save=True)
 
         # for prompt in prompts.entity_benefits:
         #     prompt = prompt.replace('[latin_name]', latin_name)
@@ -194,14 +199,19 @@ def ai_entity_main():
         #     ai_entity(json_filepath, 'precautions', 1, prompt, aka=False, save=True)
         
         # HORTICULTURE
-        for prompt in prompts.entity_horticulture:
+        for prompt in prompts.entity_horticulture_paragraphs:
             prompt = prompt.replace('[latin_name]', latin_name)
-            ai_entity(json_filepath, 'horticulture', 5, prompt)
+            ai_entity(json_filepath, 'horticulture_desc', 5, prompt)
 
         # BOTANY
-        for prompt in prompts.entity_botany:
+        for prompt in prompts.entity_botany_intro:
             prompt = prompt.replace('[latin_name]', latin_name)
-            ai_entity(json_filepath, 'botany', 5, prompt)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'botany_intro', 1, prompt, aka=False, save=True)
+        for prompt in prompts.entity_botany_paragraphs:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'botany_desc', 5, prompt, aka=False, save=True)
 
         # HISTORY
         for prompt in prompts.entity_history_intro:
@@ -211,75 +221,9 @@ def ai_entity_main():
         for prompt in prompts.entity_history_paragraphs:
             prompt = prompt.replace('[latin_name]', latin_name)
             prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
-            ai_entity(json_filepath, 'history', 5, prompt, aka=False, save=True)
+            ai_entity(json_filepath, 'history_desc', 5, prompt, aka=False, save=True)
 
-        
-def ai_entity_trefle_main():
-    index_last_plant = 0
-    number_of_plants_to_do_today = 15
 
-    plants_trefle = [row for row in util.csv_get_rows('database/tables/_plants_all_new.csv')[1:]]
-    plants_trefle_today = plants_trefle[index_last_plant:number_of_plants_to_do_today]
-
-    plants_primary = [row for row in util.csv_get_rows('database/tables/plants.csv')[1:]]
-    plants_secondary = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
-    
-    plants_done = []
-    for plant in plants_primary: plants.append(plant)
-    for plant in plants_secondary: plants.append(plant)
-
-    for index, plant in enumerate(plants_trefle_today):
-        print(index, '-', len(plants), '>>', plant)
-        if plant in plants_done: continue
-
-        entity = plant[0].strip()
-        latin_name = entity.replace('-', ' ').capitalize()
-        common_name = plant[2].strip().title()
-        genus = plant[3].strip().title()
-        family = plant[4].strip().title()
-
-        json_filepath = f'database/articles/plants_trefle/{entity}.json'
-
-        data = util.json_read(json_filepath)
-        data['entity'] = entity
-        data['url'] = f'{entity}'
-        data['latin_name'] = latin_name
-        data['common_name'] = common_name
-        data['genus'] = genus
-        data['family'] = family
-        data['title'] = f'What to know before using {latin_name} ({common_name})?'
-        util.json_write(json_filepath, data)
-
-        # # INTRO
-        # for prompt in prompts.entity_intro:
-        #     prompt = prompt.replace('[latin_name]', latin_name)
-        #     ai_entity(json_filepath, 'intro', 1, prompt)
-
-        # # MEDICINE
-        # for prompt in prompts.entity_medicine_paragraphs:
-        #     prompt = prompt.replace('[latin_name]', latin_name)
-        #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
-        #     ai_entity(json_filepath, 'medicine', 5, prompt, aka=False, save=True)
-
-        # # HORTICULTURE
-        # for prompt in prompts.entity_horticulture:
-        #     prompt = prompt.replace('[latin_name]', latin_name)
-        #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
-        #     ai_entity(json_filepath, 'horticulture', 5, prompt, aka=False, save=True)
-
-        # BOTANY
-        for prompt in prompts.trefle_entity_botany:
-            prompt = prompt.replace('[latin_name]', latin_name)
-            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
-            prompt = prompt.replace('[genus]', genus)
-            prompt = prompt.replace('[family]', family)
-            ai_entity(json_filepath, 'botany', 5, prompt, aka=False, save=True)
-
-        # # HISTORY
-        # for prompt in prompts.entity_history:
-        #     prompt = prompt.replace('[latin_name]', latin_name)
-        #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
-        #     ai_entity(json_filepath, 'history', 5, prompt, aka=False, save=True)
 
 
 #######################################################################
@@ -575,6 +519,9 @@ def ai_medicine_main(plants='primary'):
         # ai_medicine_precautions_list(entity)
 
 
+
+
+
 #######################################################################
 # BENEFITS
 #######################################################################
@@ -740,6 +687,10 @@ def ai_benefits_main():
         # ai_benefits_constituents(filepath)
         
 
+
+
+
+
 #######################################################################
 # CONSTITUENTS
 #######################################################################
@@ -875,6 +826,9 @@ def ai_constituents_main():
         ai_constituents_sections_description(filepath)
         # ai_benefits_constituents(filepath)
         
+
+
+
 
 #######################################################################
 # PREPARATIONS
@@ -1296,6 +1250,146 @@ def clear_entity_field(field):
 
 
 
+##################################################################
+# TREFLE
+##################################################################
+        
+def ai_entity_trefle_main():
+    index_last_plant = 0
+    number_of_plants_to_do_today = 15
+
+    plants_trefle = [row for row in util.csv_get_rows('database/tables/_plants_all_new.csv')[1:]]
+    plants_trefle_today = plants_trefle[index_last_plant:number_of_plants_to_do_today]
+
+    plants_primary = [row for row in util.csv_get_rows('database/tables/plants.csv')[1:]]
+    plants_secondary = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
+    
+    plants_done = []
+    for plant in plants_primary: plants_done.append(plant)
+    for plant in plants_secondary: plants_done.append(plant)
+
+    for index, plant in enumerate(plants_trefle_today):
+        print(index, '-', len(plants_trefle_today), '>>', plant)
+
+        # skip plants from primary and secondary
+        found = False
+        for plant_done in plants_done:
+            if plant[0].lower().strip() in plant_done[0].lower().strip().replace(' ', '-'): 
+                found = True
+                break
+        if found: continue
+
+        entity = plant[0].strip()
+        latin_name = entity.replace('-', ' ').capitalize()
+        common_name = plant[2].strip().title()
+        genus = plant[3].strip().title()
+        family = plant[4].strip().title()
+
+        json_filepath = f'database/articles/plants_trefle/{entity}.json'
+
+        data = util.json_read(json_filepath)
+        data['entity'] = entity
+        data['url'] = f'{entity}'
+        data['latin_name'] = latin_name
+        data['common_name'] = common_name
+        data['genus'] = genus
+        data['family'] = family
+        data['title'] = f'What to know before using {latin_name} ({common_name})?'
+        try: lastmod = data['lastmod']
+        except: data['lastmod'] = str(date_now())
+        util.json_write(json_filepath, data)
+
+        # INTRO
+        for prompt in prompts.entity_intro:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            ai_entity(json_filepath, 'intro', 1, prompt)
+
+        # MEDICINE
+        for prompt in prompts.entity_medicine_intro:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'medicine_intro', 1, prompt, aka=False, save=True)
+        for prompt in prompts.entity_medicine_paragraphs:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'medicine_desc', 5, prompt, aka=False, save=True)
+
+        # HORTICULTURE
+        for prompt in prompts.entity_horticulture_intro:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'horticulture_intro', 1, prompt, aka=False, save=True)
+        for prompt in prompts.entity_horticulture_paragraphs:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'horticulture_desc', 5, prompt, aka=False, save=True)
+
+        # BOTANY
+        for prompt in prompts.entity_botany_intro:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            prompt = prompt.replace('[genus]', genus)
+            prompt = prompt.replace('[family]', family)
+            ai_entity(json_filepath, 'botany_intro', 1, prompt, aka=False, save=True)
+        for prompt in prompts.entity_botany_paragraphs:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            prompt = prompt.replace('[genus]', genus)
+            prompt = prompt.replace('[family]', family)
+            ai_entity(json_filepath, 'botany_desc', 5, prompt, aka=False, save=True)
+
+        # HISTORY
+        for prompt in prompts.entity_history_intro:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            prompt = prompt.replace('[genus]', genus)
+            prompt = prompt.replace('[family]', family)
+            ai_entity(json_filepath, 'history_intro', 1, prompt, aka=False, save=True)
+        for prompt in prompts.entity_history_paragraphs:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'history_desc', 5, prompt, aka=False, save=True)
+
+
+
+##################################################################
+# MOD FIELDS
+##################################################################
+
+
+def field_rename(name_old, name_new): 
+    for filename in os.listdir('database/articles/plants'):
+        if filename.endswith('.json'):
+            filepath = f'database/articles/plants/{filename}'
+            print(filepath)
+            
+            content = util.file_read(filepath)
+            content = content.replace(name_old, name_new)
+            util.file_write(filepath, content)
+            # quit()
+
+    # plants_primary = [row for row in util.csv_get_rows('database/tables/plants.csv')[1:]]
+    # plants_secondary = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
+    
+    # plants = []
+    # for plant in plants_primary: plants.append(plant)
+    # for plant in plants_secondary: plants.append(plant)
+
+    # for index, plant in enumerate(plants):
+    #     print(index, '-', len(plants), '>>', plant)
+    #     content = csv.file_read()
+
+        # latin_name = plant[0].strip().capitalize()
+        # common_name = plant[1].strip().title()
+
+        # entity = latin_name.lower().replace(' ', '-')
+        # json_filepath = f'database/articles/plants/{entity}.json'
+
+        # data = util.json_read(json_filepath)
+        # data[field] = []
+        # util.json_write(json_filepath, data)
+
+
 
 ##################################################################
 # EXE
@@ -1319,3 +1413,5 @@ ai_entity_main()
 # ai_benefits_main()
 # ai_constituents_main()
 # ai_preparations_main()
+
+# field_rename('botany_intro_desc', 'botany_intro')

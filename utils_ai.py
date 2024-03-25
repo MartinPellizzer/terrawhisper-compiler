@@ -1,5 +1,6 @@
 from groq import Groq
 from ctransformers import AutoModelForCausalLM
+import time
 
 
 with open('C:/api/groq.txt', 'r', encoding='utf-8') as f:
@@ -73,7 +74,17 @@ def gen_reply_local(prompt):
 
 
 def gen_reply(prompt):
-    reply = gen_reply_api(prompt)
+    reply = ''
+    try: reply = gen_reply_api(prompt)
+    except: 
+        print(
+            '''
+            ********************************************************************
+            ERROR API: WAITING FOR SOME MINUTES... THEN RETRY...
+            ********************************************************************
+            '''
+        )
+        time.sleep(600)
     # reply = gen_reply_local(prompt)
 
     return reply

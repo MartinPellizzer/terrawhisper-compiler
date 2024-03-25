@@ -51,6 +51,18 @@ entity_medicine = [
     ''',
 ]
 
+entity_medicine_intro = [
+    '''
+        Write a 5-sentence paragraph about the medicinal uses of [latin_name].
+        Include the health benefits of [latin_name].
+        Include the active constituents of [latin_name].
+        Include the medicinal preparations of [latin_name].
+        Include the possible side effects of [latin_name].
+        Include the precautions of [latin_name].
+        Start with the following words: [latin_name][aka] is used to .
+    ''',
+]
+
 entity_medicine_paragraphs = [
     '''
         Write 5 paragraphs in 400 words about the medicinal uses of [latin_name].
@@ -59,6 +71,26 @@ entity_medicine_paragraphs = [
         In paragraph 3, write about the medicinal preparations of [latin_name].
         In paragraph 4, write about the possible side effects of [latin_name].
         In paragraph 5, write about the precautions of [latin_name].
+        Start with the following words: [latin_name][aka] has several medicinal uses, such as .
+    ''',
+    '''
+        Write 5 paragraphs in 400 words about the medicinal uses of [latin_name].
+        In paragraph 1, write about the health benefits of [latin_name].
+        In paragraph 2, write about the medicinal constituents of [latin_name].
+        In paragraph 3, write about the medicinal preparations of [latin_name].
+        In paragraph 4, write about the possible side effects of [latin_name].
+        In paragraph 5, write about the precautions of [latin_name].
+        Don't add conclusions.
+        Start with the following words: [latin_name][aka] has several medicinal uses, such as .
+    ''',
+    '''
+        Write 5 paragraphs in 400 words about the medicinal uses of [latin_name].
+        In paragraph 1, write about the health benefits of [latin_name].
+        In paragraph 2, write about the medicinal constituents of [latin_name].
+        In paragraph 3, write about the medicinal preparations of [latin_name].
+        In paragraph 4, write about the possible side effects of [latin_name].
+        In paragraph 5, write about the precautions of [latin_name].
+        Don't add conclusions. Don't add introductions.
         Start with the following words: [latin_name][aka] has several medicinal uses, such as .
     ''',
 ]
@@ -120,7 +152,19 @@ entity_precautions = [
 
 
 
-entity_horticulture = [
+entity_horticulture_intro = [
+    '''
+        Write a 5-sentence paragraph about the horticultural aspects of [latin_name].
+        Include the growth requirements of [latin_name].
+        Include the planting tips of [latin_name].
+        Include the caring tips of [latin_name].
+        Include the harvesting tips of [latin_name].
+        Include the pests and diseases of [latin_name].
+        Start with the following words: [latin_name][aka] needs .
+    ''',
+]
+
+entity_horticulture_paragraphs = [
     '''
         Write 5 paragraphs in 400 words about the horticultural aspects of [latin_name].
         In paragraph 1, write about the growth requirements of [latin_name].
@@ -128,6 +172,8 @@ entity_horticulture = [
         In paragraph 3, write about the caring tips of [latin_name].
         In paragraph 4, write about the harvesting tips of [latin_name].
         In paragraph 5, write about the pests and diseases of [latin_name].
+        Don't include morphological characteristics.
+        Start with the following words: [latin_name][aka] has specific growth requirements, like .
     ''',
     '''
         Write 5 paragraphs about the horticultural aspects of [latin_name].
@@ -136,6 +182,8 @@ entity_horticulture = [
         In paragraph 3, write about the caring tips of [latin_name].
         In paragraph 4, write about the harvesting tips of [latin_name].
         In paragraph 5, write about the pests of [latin_name].
+        Don't include morphological characteristics.
+        Start with the following words: [latin_name][aka] has specific growth requirements, like .
     ''',
     '''
         Write 5 paragraphs in 400 words about the horticultural aspects of [latin_name].
@@ -145,6 +193,8 @@ entity_horticulture = [
         In paragraph 4, write about the harvesting tips of [latin_name].
         In paragraph 5, write about the pests and diseases of [latin_name].
         Don't add conclusions.
+        Don't include morphological characteristics.
+        Start with the following words: [latin_name][aka] has specific growth requirements, like .
     ''',
     '''
         Write 5 paragraphs in 400 words about the horticultural aspects of [latin_name].
@@ -154,35 +204,61 @@ entity_horticulture = [
         In paragraph 4, write about the harvesting tips of [latin_name].
         In paragraph 5, write about the pests and diseases of [latin_name].
         Don't add conclusions. Don't add introductions.
+        Don't include morphological characteristics.
+        Start with the following words: [latin_name][aka] has specific growth requirements, like .
     ''',
 ]
 
-entity_botany = [
+
+entity_botany_intro = [
+    '''
+        Write a 5-sentence paragraph about the botanical aspects of [latin_name].
+        Include the taxonomy of [latin_name], where the genus is [genus] and the family is [family].
+        Include the morphology of [latin_name].
+        Include the variants names and differences of [latin_name].
+        Include the geographic distribution and natural habitats of [latin_name].
+        Include the life-cycle of [latin_name].
+        Start with the following words: [latin_name][aka] belongs to the .
+    ''',
+    '''
+        Write 1 paragraph in 5 sentences about the botanical aspects of [latin_name].
+        Include the taxonomy of [latin_name], where the genus is [genus] and the family is [family].
+        Include the morphology of [latin_name].
+        Include the variants names and differences of [latin_name].
+        Include the geographic distribution and natural habitats of [latin_name].
+        Include the life-cycle of [latin_name].
+        Start with the following words: [latin_name][aka] belongs to the .
+    ''',
+]
+entity_botany_paragraphs = [
     '''
         Write 5 paragraphs in 400 words about the botanical aspects of [latin_name].
-        In paragraph 1, write about the taxonomy of [latin_name].
+        In paragraph 1, write about the taxonomy of [latin_name], including the genus [genus] and the family [family].
         In paragraph 2, write about the morphology of [latin_name].
         In paragraph 3, write about the variants names and differences of [latin_name].
         In paragraph 4, write about the geographic distribution and natural habitats of [latin_name].
         In paragraph 5, write about the life-cycle of [latin_name].
+        Start with the following words: [latin_name][aka] is .
     ''',
     '''
         Write 5 paragraphs in 400 words about the botanical aspects of [latin_name].
-        In paragraph 1, write about the taxonomy of [latin_name].
+        In paragraph 1, write about the taxonomy of [latin_name], including the genus [genus] and the family [family].
         In paragraph 2, write about the morphology of [latin_name].
         In paragraph 3, write about the variants names and differences of [latin_name].
         In paragraph 4, write about the geographic distribution and natural habitats of [latin_name].
         In paragraph 5, write about the life-cycle of [latin_name].
         Don't add conclusions.
+        Start with the following words: [latin_name][aka] is .
     ''',
     '''
         Write 5 paragraphs in 400 words about the botanical aspects of [latin_name].
-        In paragraph 1, write about the taxonomy of [latin_name].
+        In paragraph 1, write about the taxonomy of [latin_name], including the genus [genus] and the family [family].
         In paragraph 2, write about the morphology of [latin_name].
         In paragraph 3, write about the variants names and differences of [latin_name].
         In paragraph 4, write about the geographic distribution and natural habitats of [latin_name].
         In paragraph 5, write about the life-cycle of [latin_name].
         Don't add conclusions. Don't add introductions.
+        Start with the following words: [latin_name][aka] is .
     ''',
 ]
 
@@ -191,21 +267,21 @@ entity_botany = [
 entity_history_intro = [
     '''
         Write a 5-sentence paragraph about the historical aspects of [latin_name].
-        In sentence 1, write about the historical medicinal uses of [latin_name].
-        In sentence 2, write about the mythology of [latin_name].
-        In sentence 3, write about the ancient rituals of [latin_name].
-        In sentence 4, write about the literature of [latin_name].
-        In sentence 5, write about the symbolism of [latin_name].
-        Start with the following words: [latin_name][aka] has several historical medicinal uses, such as .
+        Include the historical medicinal uses of [latin_name].
+        Include the mythology of [latin_name].
+        Include the ancient rituals of [latin_name].
+        Include the literature of [latin_name].
+        Include the symbolism of [latin_name].
+        Start with the following words: [latin_name][aka] has been used historically for as a medicine for .
     ''',
     '''
         Write 1 paragraph in 5 sentences about the historical aspects of [latin_name].
-        In sentence 1, write about the historical medicinal uses of [latin_name].
-        In sentence 2, write about the mythology of [latin_name].
-        In sentence 3, write about the ancient rituals of [latin_name].
-        In sentence 4, write about the literature of [latin_name].
-        In sentence 5, write about the symbolism of [latin_name].
-        Start with the following words: [latin_name][aka] has several historical medicinal uses, such as .
+        Include the historical medicinal uses of [latin_name].
+        Include the mythology of [latin_name].
+        Include the ancient rituals of [latin_name].
+        Include the literature of [latin_name].
+        Include the symbolism of [latin_name].
+        Start with the following words: [latin_name][aka] has been used historically for as a medicine for .
     ''',
 ]
 
@@ -218,6 +294,7 @@ entity_history_paragraphs = [
         In paragraph 4, write about the ancient rituals of [latin_name].
         In paragraph 5, write about the literature of [latin_name].
         In paragraph 3, write about the symbolism of [latin_name].
+        Start with the following words: [latin_name][aka] has several historical medicinal uses, such as .
     ''',
     '''
         Write 5 paragraphs in 400 words about the historical aspects of [latin_name].
@@ -227,6 +304,7 @@ entity_history_paragraphs = [
         In paragraph 5, write about the literature of [latin_name].
         In paragraph 3, write about the symbolism of [latin_name].
         Don't add conclusions.
+        Start with the following words: [latin_name][aka] has several historical medicinal uses, such as .
     ''',
     '''
         Write 5 paragraphs in 400 words about the historical aspects of [latin_name].
@@ -236,6 +314,7 @@ entity_history_paragraphs = [
         In paragraph 5, write about the literature of [latin_name].
         In paragraph 3, write about the symbolism of [latin_name].
         Don't add conclusions. Don't add introductions.
+        Start with the following words: [latin_name][aka] has several historical medicinal uses, such as .
     ''',
 ]
 
@@ -268,48 +347,19 @@ entity_taxonomy = [
 # ENTITY >> MEDICINE
 #######################################################################################
 
-entity_medicine_intro = [
-    '''
-        Write a 5-sentence paragraph about the medicinal aspects of [latin_name].
-        In sentence 1, write the benefits of [latin_name].
-        In sentence 2, write the constituents of [latin_name].
-        In sentence 3, write the preparations of [latin_name].
-        In sentence 4, write the side effects of [latin_name].
-        In sentence 5, write the precautions of [latin_name].
-    ''',
-]
+# entity_medicine_intro = [
+#     '''
+#         Write a 5-sentence paragraph about the medicinal aspects of [latin_name].
+#         In sentence 1, write the benefits of [latin_name].
+#         In sentence 2, write the constituents of [latin_name].
+#         In sentence 3, write the preparations of [latin_name].
+#         In sentence 4, write the side effects of [latin_name].
+#         In sentence 5, write the precautions of [latin_name].
+#     ''',
+# ]
 
 
 
 #######################################################################################
 # TREFLE
 #######################################################################################
-
-trefle_entity_botany = [
-    '''
-        Write 5 paragraphs in 400 words about the botanical aspects of [latin_name].
-        In paragraph 1, write about the taxonomy of [latin_name], including the genus [genus] and the family [family].
-        In paragraph 2, write about the morphology of [latin_name].
-        In paragraph 3, write about the variants names and differences of [latin_name].
-        In paragraph 4, write about the geographic distribution and natural habitats of [latin_name].
-        In paragraph 5, write about the life-cycle of [latin_name].
-    ''',
-    '''
-        Write 5 paragraphs in 400 words about the botanical aspects of [latin_name].
-        In paragraph 1, write about the taxonomy of [latin_name].
-        In paragraph 2, write about the morphology of [latin_name].
-        In paragraph 3, write about the variants names and differences of [latin_name].
-        In paragraph 4, write about the geographic distribution and natural habitats of [latin_name].
-        In paragraph 5, write about the life-cycle of [latin_name].
-        Don't add conclusions.
-    ''',
-    '''
-        Write 5 paragraphs in 400 words about the botanical aspects of [latin_name].
-        In paragraph 1, write about the taxonomy of [latin_name].
-        In paragraph 2, write about the morphology of [latin_name].
-        In paragraph 3, write about the variants names and differences of [latin_name].
-        In paragraph 4, write about the geographic distribution and natural habitats of [latin_name].
-        In paragraph 5, write about the life-cycle of [latin_name].
-        Don't add conclusions. Don't add introductions.
-    ''',
-]

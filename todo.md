@@ -1,4 +1,5 @@
-- check auto lastmod update (datetime) in ai_gen next time you generate content
+- add generated trefle plants to website (quasi-done)
+    - check errors in live server of the plants
 - generate single h3 section (not entire h2 section) for primary and secondary plants
 - generate single intros for section content before h3
 - complete entity articles (culinary, etc...)
@@ -13,3 +14,5 @@
 
 - gen conditions page
 - add main conditions to homepage
+
+- sitemap lastmod: update on all articles (not just entity articles)
