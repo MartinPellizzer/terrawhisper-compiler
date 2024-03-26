@@ -1,3 +1,4 @@
+- fix menu items text color in desktop for white background
 - add generated trefle plants to website (quasi-done)
     - check errors in live server of the plants
 - generate single h3 section (not entire h2 section) for primary and secondary plants

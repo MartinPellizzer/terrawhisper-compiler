@@ -162,8 +162,16 @@ entity_horticulture_intro = [
         Include the pests and diseases of [latin_name].
         Start with the following words: [latin_name][aka] needs .
     ''',
+    '''
+        Write 1 paragraph in 5 sentences about the horticultural aspects of [latin_name].
+        Include the growth requirements of [latin_name].
+        Include the planting tips of [latin_name].
+        Include the caring tips of [latin_name].
+        Include the harvesting tips of [latin_name].
+        Include the pests and diseases of [latin_name].
+        Start with the following words: [latin_name][aka] needs .
+    ''',
 ]
-
 entity_horticulture_paragraphs = [
     '''
         Write 5 paragraphs in 400 words about the horticultural aspects of [latin_name].
@@ -208,6 +216,9 @@ entity_horticulture_paragraphs = [
         Start with the following words: [latin_name][aka] has specific growth requirements, like .
     ''',
 ]
+
+
+
 
 
 entity_botany_intro = [
@@ -264,6 +275,8 @@ entity_botany_paragraphs = [
 
 
 
+
+
 entity_history_intro = [
     '''
         Write a 5-sentence paragraph about the historical aspects of [latin_name].
@@ -284,8 +297,6 @@ entity_history_intro = [
         Start with the following words: [latin_name][aka] has been used historically for as a medicine for .
     ''',
 ]
-
-
 entity_history_paragraphs = [
     '''
         Write 5 paragraphs in 400 words about the historical aspects of [latin_name].
@@ -297,7 +308,7 @@ entity_history_paragraphs = [
         Start with the following words: [latin_name][aka] has several historical medicinal uses, such as .
     ''',
     '''
-        Write 5 paragraphs in 400 words about the historical aspects of [latin_name].
+        Write 5 detailed paragraphs words about the historical aspects of [latin_name].
         In paragraph 1, write about the historical medicinal uses of [latin_name].
         In paragraph 2, write about the mythology of [latin_name].
         In paragraph 4, write about the ancient rituals of [latin_name].
@@ -307,7 +318,7 @@ entity_history_paragraphs = [
         Start with the following words: [latin_name][aka] has several historical medicinal uses, such as .
     ''',
     '''
-        Write 5 paragraphs in 400 words about the historical aspects of [latin_name].
+        Write 400 words in 5 paragraphs about the historical aspects of [latin_name].
         In paragraph 1, write about the historical medicinal uses of [latin_name].
         In paragraph 2, write about the mythology of [latin_name].
         In paragraph 4, write about the ancient rituals of [latin_name].

@@ -1,0 +1,45 @@
+.study {
+    background-color: #f4f4f5;
+    padding: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.study-3 {
+    background-color: #f4f4f5;
+    padding: 3.2rem;
+    padding-bottom: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.icon-study {
+    display: block;
+    height: 6.4rem;
+    color: #d4d4d4;
+    margin: 0 auto;
+    margin-bottom: 1.6rem;
+}
+
+.recipe {
+    background-color: #ffedd5;
+    padding: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.icon-recipe {
+    display: block;
+    height: 6.4rem;
+    color: #f97316;
+    margin: 0 auto;
+    margin-bottom: 1.6rem;
+}
+
+.recipe ol {
+    margin-bottom: 0;
+}
+
+
+
+
+.study p:last-child {
+    margin-bottom: 0;
+}

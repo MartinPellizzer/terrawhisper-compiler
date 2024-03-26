@@ -106,8 +106,26 @@ def generate_header_base():
     return html
 
 
+def gen_header_base_new():
+    return '''
+        <header>
+            <a class="text-neutral-700" href="/">TerraWhisper</a>
+            <nav>
+                <input type="checkbox" class="toggle-menu">
+                <div class="hamburger-dark"></div>
+                <ul class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a class="text-neutral-700" href="/herbalism.html">Herbalism</a></li>
+                    <li><a class="text-neutral-700" href="/herbalism/tea.html">Teas</a></li>
+                    <li><a class="text-neutral-700" href="/top-herbs.html">Top Herbs</a></li>
+                    <li><a class="text-neutral-700" href="/about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+    '''
+
 def generate_header_light():
-    header_html = generate_header_base()
+    header_html = gen_header_base_new()
     html = f'''
         <section class="header-divider">
             <div class="container-lg">
@@ -119,13 +137,14 @@ def generate_header_light():
 
 
 def generate_header_transparent():
-    header_html = generate_header_base()
+    header_html = gen_header_base_new()
     html = f'''
         <section class="header-divider">
             {header_html}
         </section>
     '''
-    html = html.replace('text-stone-700', 'fg-white')
+    html = html.replace('text-neutral-700', 'text-white')
+    html = html.replace('hamburger-dark', 'hamburger-white')
     return html
 
 
@@ -795,7 +814,6 @@ def plants_primary():
             continue
         latin_name = data['latin_name']
         latin_name_dash = latin_name.lower().replace(' ', '-')
-        medicine_desc = data['medicine_desc']
         article_html = ''
 
         article_html += f'<h1>{title}</h1>' + '\n'
@@ -804,7 +822,7 @@ def plants_primary():
 
         article_html += f'<h2>What are the medicinal uses of {latin_name}?</h2>' + '\n'
         article_html += f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
-        article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][0])}</p>\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["medicine_intro"][0])}</p>\n'
         article_html += f'<p>Here are the most important <a href="/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
         article_html += f'<ul>' + '\n'
         article_html += f'<li>Health benefits</li>' + '\n'
@@ -825,7 +843,8 @@ def plants_primary():
         article_html += f'<p>{util.text_format_1N1_html(data["precautions_desc"][0])}</p>\n'
 
         article_html += f'<h2>What are the horticultural conditions of {latin_name}?</h2>' + '\n'
-        article_html += f'<p><img src="/images/{latin_name_dash}-horticulture.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        article_html += f'<p><img src="/images/{latin_name_dash}-horticulture.jpg" alt="{latin_name} horticulture"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_intro"][0])}</p>\n'
         article_html += f'<h3>What are the growth requirements uses of {latin_name}?</h3>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][0])}</p>' + '\n'
         article_html += f'<h3>What are the planting tips of {latin_name}?</h3>' + '\n'
@@ -962,7 +981,7 @@ def plants_secondary():
 
         article_html += f'<h2>What are the medicinal uses of {latin_name}?</h2>' + '\n'
         article_html += f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
-        article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][0])}</p>\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["medicine_intro"][0])}</p>\n'
         # article_html += f'<p>{medicine_desc[0]}</p>' + '\n'
         # article_html += f'<p>{medicine_desc[1]}</p>' + '\n'
         # article_html += f'<p>{medicine_desc[2]}</p>' + '\n'
@@ -1693,7 +1712,7 @@ def gen_articles_trefle():
 
         article_html += f'<h1>{title}</h1>' + '\n'
         article_html += f'<p><img src="/images/{entity}-overview.jpg" alt="{latin_name}"></p>' + '\n'
-        article_html += util.text_format_1N1_html(data['intro'][0]) + '\n'
+        article_html += util.text_format_1N1_html(data['intro_desc'][0]) + '\n'
 
         article_html += f'<h2>What are the medicinal uses of {latin_name}?</h2>' + '\n'
         article_html += f'<p><img src="/images/{entity}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
@@ -2137,10 +2156,10 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 # RUN
 ##############################################################################
 
-# home()
-# about()
-# top_herbs()
-# teas()
+home()
+teas()
+top_herbs()
+about()
 
 # herbalism()
 # herbalism_tea()
@@ -2162,7 +2181,7 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 # sitemap.sitemap_main()
 
-gen_articles_trefle()
+# gen_articles_trefle()
 
 # taxonomy()
 

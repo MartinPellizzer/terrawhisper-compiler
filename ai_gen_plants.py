@@ -169,13 +169,13 @@ def ai_entity_main():
         # INTRO
         for prompt in prompts.entity_intro:
             prompt = prompt.replace('[latin_name]', latin_name)
-            ai_entity(json_filepath, 'intro', 1, prompt)
+            ai_entity(json_filepath, 'intro_desc', 1, prompt)
 
         # MEDICINE
         for prompt in prompts.entity_medicine:
             prompt = prompt.replace('[latin_name]', latin_name)
             prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
-            ai_entity(json_filepath, 'medicine_desc', 1, prompt, aka=False, save=True)
+            ai_entity(json_filepath, 'medicine_intro', 1, prompt, aka=False, save=True)
 
         # for prompt in prompts.entity_benefits:
         #     prompt = prompt.replace('[latin_name]', latin_name)
@@ -199,6 +199,10 @@ def ai_entity_main():
         #     ai_entity(json_filepath, 'precautions', 1, prompt, aka=False, save=True)
         
         # HORTICULTURE
+        for prompt in prompts.entity_horticulture_intro:
+            prompt = prompt.replace('[latin_name]', latin_name)
+            prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+            ai_entity(json_filepath, 'horticulture_intro', 1, prompt, aka=False, save=True)
         for prompt in prompts.entity_horticulture_paragraphs:
             prompt = prompt.replace('[latin_name]', latin_name)
             ai_entity(json_filepath, 'horticulture_desc', 5, prompt)
@@ -1255,8 +1259,8 @@ def clear_entity_field(field):
 ##################################################################
         
 def ai_entity_trefle_main():
-    index_last_plant = 0
-    number_of_plants_to_do_today = 15
+    index_last_plant = 15
+    number_of_plants_to_do_today = index_last_plant + 15
 
     plants_trefle = [row for row in util.csv_get_rows('database/tables/_plants_all_new.csv')[1:]]
     plants_trefle_today = plants_trefle[index_last_plant:number_of_plants_to_do_today]
@@ -1287,6 +1291,7 @@ def ai_entity_trefle_main():
 
         json_filepath = f'database/articles/plants_trefle/{entity}.json'
 
+        util.json_generate_if_not_exists(json_filepath)
         data = util.json_read(json_filepath)
         data['entity'] = entity
         data['url'] = f'{entity}'
@@ -1302,7 +1307,7 @@ def ai_entity_trefle_main():
         # INTRO
         for prompt in prompts.entity_intro:
             prompt = prompt.replace('[latin_name]', latin_name)
-            ai_entity(json_filepath, 'intro', 1, prompt)
+            ai_entity(json_filepath, 'intro_desc', 1, prompt, save=True)
 
         # MEDICINE
         for prompt in prompts.entity_medicine_intro:
@@ -1342,8 +1347,6 @@ def ai_entity_trefle_main():
         for prompt in prompts.entity_history_intro:
             prompt = prompt.replace('[latin_name]', latin_name)
             prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
-            prompt = prompt.replace('[genus]', genus)
-            prompt = prompt.replace('[family]', family)
             ai_entity(json_filepath, 'history_intro', 1, prompt, aka=False, save=True)
         for prompt in prompts.entity_history_paragraphs:
             prompt = prompt.replace('[latin_name]', latin_name)
@@ -1357,15 +1360,26 @@ def ai_entity_trefle_main():
 ##################################################################
 
 
-def field_rename(name_old, name_new): 
-    for filename in os.listdir('database/articles/plants'):
+def field_rename(folderpath, name_old, name_new): 
+    for filename in os.listdir(folderpath):
         if filename.endswith('.json'):
-            filepath = f'database/articles/plants/{filename}'
+            filepath = f'{folderpath}/{filename}'
             print(filepath)
             
             content = util.file_read(filepath)
             content = content.replace(name_old, name_new)
             util.file_write(filepath, content)
+            
+
+def field_delete(folderpath, key): 
+    for filename in os.listdir(folderpath):
+        if filename.endswith('.json'):
+            filepath = f'{folderpath}/{filename}'
+            print(filepath)
+            
+            data = util.json_read(filepath)
+            del data[key]
+            util.json_write(filepath, data)
             # quit()
 
     # plants_primary = [row for row in util.csv_get_rows('database/tables/plants.csv')[1:]]
@@ -1414,4 +1428,6 @@ ai_entity_main()
 # ai_constituents_main()
 # ai_preparations_main()
 
-# field_rename('botany_intro_desc', 'botany_intro')
+
+# field_rename('database/articles/plants', 'medicine_desc', 'medicine_intro')
+# field_delete('database/articles/plants', 'intro_desc')

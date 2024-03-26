@@ -14,11 +14,22 @@ import util
 #         print('ok')
 #     # print(filepath)
 
-    
-filenames = os.listdir('database/articles/plants_trefle')
 
-for filename in filenames:
-    filepath = f'database/articles/plants_trefle/{filename}'
-    content = util.file_read(filepath)
-    if content == '{}':
-        os.remove(filepath)
+def rename():
+    filenames = os.listdir('database/articles/plants_trefle')
+
+    for filename in filenames:
+        filepath = f'database/articles/plants_trefle/{filename}'
+        content = util.file_read(filepath)
+        if content == '{}':
+            os.remove(filepath)
+
+
+def delete():
+    filenames = os.listdir('database/articles/plants_trefle')
+
+    for filename in filenames:
+        filepath = f'database/articles/plants_trefle/{filename}'
+        content = util.file_read(filepath)
+        if content == '{}':
+            os.remove(filepath)

@@ -79,6 +79,14 @@ def file_write(filepath, text):
 # JSON
 ###################################
 
+def json_generate_if_not_exists(filepath):
+    if not os.path.exists(filepath):
+        file_append(filepath, '')
+
+    if file_read(filepath).strip() == '':
+        file_append(filepath, '{}')
+
+
 def json_append(filepath, data):
     with open(filepath, 'a', encoding='utf-8') as f:
         json.dump(data, f)
