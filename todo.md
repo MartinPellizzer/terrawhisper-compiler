@@ -1,4 +1,4 @@
-- fix menu items text color in desktop for white background
+- fix menu items text color in mobile for non-home pages
 - add generated trefle plants to website (quasi-done)
     - check errors in live server of the plants
 - generate single h3 section (not entire h2 section) for primary and secondary plants
