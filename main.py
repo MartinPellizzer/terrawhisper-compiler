@@ -256,7 +256,7 @@ def about():
     
     template = util.file_read('templates/about.html')
 
-    template = template.replace('[meta_title]', 'TerraWhisper | About')
+    template = template.replace('[title]', 'TerraWhisper | About')
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
     template = template.replace('[author_name]', g.AUTHOR_NAME)
     template = template.replace('[header]', header)
@@ -306,7 +306,7 @@ def top_herbs():
         common_name = data['common_name']
 
         article_html = f'''
-            <a href="{entity}.html">
+            <a href="/plants/{entity}.html">
                 <div>
                     <img src="/images/{entity}-overview.jpg" alt="">
                     <h3 class="mt-0 mb-0">{latin_name} ({common_name})</h3>
@@ -382,7 +382,7 @@ def top_herbs():
 
                     # <img src="/images/{entity}.jpg" alt="">
         article_html = f'''
-            <a href="{entity}.html">
+            <a href="/plants/{entity}.html">
                 <div>
                     <h3 class="mt-0 mb-0">{latin_name} ({common_name})</h3>
                 </div>
@@ -438,7 +438,7 @@ def teas():
 
     page_html = util.file_read(f'templates/{page_url}.html')
 
-    page_html = page_html.replace('[meta_title]', 'Herbalism')
+    page_html = page_html.replace('[meta_title]', 'Herbal Teas')
     page_html = page_html.replace('[google_tag]', g.GOOGLE_TAG)
     page_html = page_html.replace('[author_name]', g.AUTHOR_NAME)
     page_html = page_html.replace('[header]', header)
@@ -1163,7 +1163,7 @@ def articles_medicine():
         print(article_filepath)
 
         article_filepath_in = article_filepath
-        article_filepath_out = article_filepath.replace(articles_folderpath, 'website').replace('.json', '.html')
+        article_filepath_out = f'website/plants/{entity}/medicine.html'
 
         data = util.json_read(article_filepath_in)
         article_html = ''
@@ -1274,7 +1274,7 @@ def articles_medicine():
             </html>
         '''
 
-        util.file_write(f'{article_filepath_out}', html)
+        util.file_write(article_filepath_out, html)
 
         # IMAGES
         folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
@@ -1314,7 +1314,7 @@ def articles_benefits():
         if not os.path.exists(article_filepath): continue
 
         article_filepath_in = article_filepath
-        article_filepath_out = article_filepath.replace(articles_folderpath, 'website').replace('.json', '.html')
+        article_filepath_out = f'website/plants/{entity}/medicine/benefits.json'
 
         data = util.json_read(article_filepath_in)
         article_html = ''
@@ -1460,7 +1460,7 @@ def articles_constituents():
 
         article_filepath = f'{articles_folderpath}/{entity}/medicine/constituents.json'
         article_filepath_in = article_filepath
-        article_filepath_out = article_filepath.replace(articles_folderpath, 'website').replace('.json', '.html')
+        article_filepath_out = f'website/plants/{entity}/medicine/constituents.json'
 
         if not os.path.exists(article_filepath): continue
 
@@ -1592,7 +1592,7 @@ def articles_preparations():
 
         article_filepath = f'{articles_folderpath}/{entity}/medicine/preparations.json'
         article_filepath_in = article_filepath
-        article_filepath_out = article_filepath.replace(articles_folderpath, 'website').replace('.json', '.html')
+        article_filepath_out = f'website/plants/{entity}/medicine/preparations.json'
 
         if not os.path.exists(article_filepath): continue
 
@@ -2196,7 +2196,7 @@ herbalism_tea_condition()
 plants_primary_secondary()
 # plants_secondary()
 
-# articles_medicine()
+articles_medicine()
 
 # articles_benefits()
 # articles_constituents()

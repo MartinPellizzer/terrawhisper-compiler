@@ -324,11 +324,16 @@ td {
 .home-problem {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 9.6rem;
+    margin-bottom: 9.6rem;
 }
 
 .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    margin-top: 9.6rem;
+    margin-bottom: 9.6rem;
 }
 
 .home-solution-intro {
@@ -663,15 +668,11 @@ footer {
     .home-problem {
         grid-template-columns: 1fr;
         gap: 1.6rem;
-        margin-top: 9.6rem;
-        margin-bottom: 9.6rem;
     }
 
     .about-grid {
         grid-template-columns: 1fr;
         gap: 1.6rem;
-        margin-top: 9.6rem;
-        margin-bottom: 9.6rem;
     }
 
     .home-solution-intro {

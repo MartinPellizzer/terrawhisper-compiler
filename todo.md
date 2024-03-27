@@ -1,3 +1,4 @@
+- create plants page (all plants???)
 - fix menu items text color in mobile for non-home pages
 - make header with dark background color
 - put all plants files and folder inside the plant folder
