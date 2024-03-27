@@ -19,9 +19,9 @@ from selenium.webdriver.firefox.options import Options
 from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
-
-ARTICLES_NUM = 35
-WAIT_SECONDS = 300
+random_num = random.randint(-2, 2)
+ARTICLES_NUM = 36 - random_num
+WAIT_SECONDS = 600
 
 
 options = Options()

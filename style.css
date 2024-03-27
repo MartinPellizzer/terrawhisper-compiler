@@ -30,7 +30,7 @@ body {
 /* CONTAINER */
 /* ************************************************************ */
 .container {
-    max-width: var(76.8rem);
+    max-width: 76.8rem;
     margin: 0 auto;
     padding: 0 1.6rem;
 }
@@ -471,7 +471,7 @@ nav input:checked~.menu {
 
 .menu li a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
 
 .home .menu li a {

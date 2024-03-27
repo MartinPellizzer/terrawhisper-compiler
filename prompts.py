@@ -29,27 +29,26 @@ entity_intro = [
 #         In paragraph 5, write about the precautions of [latin_name].
 #     ''',
 # ]
-
-entity_medicine = [
-    '''
-        Write a 5-sentence paragraph about the medicinal uses of [latin_name].
-        In sentence 1, write about the benefits of [latin_name].
-        In sentence 2, write about the constituents of [latin_name].
-        In sentence 3, write about the preparations of [latin_name].
-        In sentence 4, write about the side effects of [latin_name].
-        In sentence 5, write about the precautions of [latin_name].
-        Start with the following words: [latin_name][aka] has several medicinal uses, such as .
-    ''',
-    '''
-        Write 1 paragraph in 5 sentences about the medicinal uses of [latin_name].
-        In sentence 1, write about the benefits of [latin_name].
-        In sentence 2, write about the constituents of [latin_name].
-        In sentence 3, write about the preparations of [latin_name].
-        In sentence 4, write about the side effects of [latin_name].
-        In sentence 5, write about the precautions of [latin_name].
-        Start with the following words: [latin_name][aka] has several medicinal uses, such as .
-    ''',
-]
+# entity_medicine = [
+#     '''
+#         Write a 5-sentence paragraph about the medicinal uses of [latin_name].
+#         In sentence 1, write about the benefits of [latin_name].
+#         In sentence 2, write about the constituents of [latin_name].
+#         In sentence 3, write about the preparations of [latin_name].
+#         In sentence 4, write about the side effects of [latin_name].
+#         In sentence 5, write about the precautions of [latin_name].
+#         Start with the following words: [latin_name][aka] has several medicinal uses, such as .
+#     ''',
+#     '''
+#         Write 1 paragraph in 5 sentences about the medicinal uses of [latin_name].
+#         In sentence 1, write about the benefits of [latin_name].
+#         In sentence 2, write about the constituents of [latin_name].
+#         In sentence 3, write about the preparations of [latin_name].
+#         In sentence 4, write about the side effects of [latin_name].
+#         In sentence 5, write about the precautions of [latin_name].
+#         Start with the following words: [latin_name][aka] has several medicinal uses, such as .
+#     ''',
+# ]
 
 entity_medicine_intro = [
     '''
@@ -62,7 +61,6 @@ entity_medicine_intro = [
         Start with the following words: [latin_name][aka] is used to .
     ''',
 ]
-
 entity_medicine_paragraphs = [
     '''
         Write 5 paragraphs in 400 words about the medicinal uses of [latin_name].
@@ -94,7 +92,6 @@ entity_medicine_paragraphs = [
         Start with the following words: [latin_name][aka] has several medicinal uses, such as .
     ''',
 ]
-
 entity_benefits = [
     '''
         Write a detailed 5-sentence paragraph about the health benefits of [latin_name].
@@ -102,7 +99,6 @@ entity_benefits = [
         Start with the following words: [latin_name], [aka] has many health benefits, such as .
     ''',
 ]
-
 entity_constituents = [
     '''
         Write a detailed 5-sentence paragraph about the primary medicinal consituents of [latin_name].
@@ -110,7 +106,6 @@ entity_constituents = [
         Start with the following words: [latin_name][aka] has many active constituents, such as .
     ''',
 ]
-
 entity_preparations = [
     '''
         Write a detailed 5-sentence paragraph about the primary medicinal preparations of [latin_name].
@@ -123,7 +118,6 @@ entity_preparations = [
         Start with the following words: [latin_name][aka] has many medicinal preparations, such as .
     ''',
 ]
-
 entity_side_effects = [
     '''
         Write a detailed 5-sentence paragraph about the possible side effects of [latin_name] when used medicinally.
@@ -134,7 +128,6 @@ entity_side_effects = [
         Start with the following words: [latin_name][aka] can have some side effects if used improperly, such as .
     ''',
 ]
-
 entity_precautions = [
     '''
         Write a detailed 5-sentence paragraph about the precautions and best practices when using [latin_name] for medicinal purposes.
@@ -219,8 +212,6 @@ entity_horticulture_paragraphs = [
 
 
 
-
-
 entity_botany_intro = [
     '''
         Write a 5-sentence paragraph about the botanical aspects of [latin_name].
@@ -238,6 +229,16 @@ entity_botany_intro = [
         Include the variants names and differences of [latin_name].
         Include the geographic distribution and natural habitats of [latin_name].
         Include the life-cycle of [latin_name].
+        Start with the following words: [latin_name][aka] belongs to the .
+    ''',
+    '''
+        Write 1 paragraph in 5 sentences about the botanical aspects of [latin_name].
+        Include the taxonomy of [latin_name], where the genus is [genus] and the family is [family].
+        Include the morphology of [latin_name].
+        Include the variants names and differences of [latin_name].
+        Include the geographic distribution and natural habitats of [latin_name].
+        Include the life-cycle of [latin_name].
+        Don't include intros or conclusions.
         Start with the following words: [latin_name][aka] belongs to the .
     ''',
 ]
@@ -272,8 +273,6 @@ entity_botany_paragraphs = [
         Start with the following words: [latin_name][aka] is .
     ''',
 ]
-
-
 
 
 

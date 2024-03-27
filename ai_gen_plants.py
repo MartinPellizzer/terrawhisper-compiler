@@ -1259,8 +1259,8 @@ def clear_entity_field(field):
 ##################################################################
         
 def ai_entity_trefle_main():
-    index_last_plant = 15
-    number_of_plants_to_do_today = index_last_plant + 15
+    index_last_plant = 30
+    number_of_plants_to_do_today = index_last_plant + 20
 
     plants_trefle = [row for row in util.csv_get_rows('database/tables/_plants_all_new.csv')[1:]]
     plants_trefle_today = plants_trefle[index_last_plant:number_of_plants_to_do_today]
