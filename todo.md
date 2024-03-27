@@ -1,4 +1,6 @@
 - fix menu items text color in mobile for non-home pages
+- make header with dark background color
+- put all plants files and folder inside the plant folder
 - add generated trefle plants to website (quasi-done)
     - check errors in live server of the plants
 - generate single h3 section (not entire h2 section) for primary and secondary plants

@@ -811,7 +811,7 @@ def plants_primary_secondary():
         latin_name = plant[cols['latin_name']].strip().capitalize()
         entity = latin_name.lower().replace(' ', '-').replace('.', '')
         article_filepath_in = f'{articles_folderpath}/{entity}.json'
-        article_filepath_out = f'website/{entity}.html'
+        article_filepath_out = f'website/plants/{entity}.html'
 
         print(article_filepath_in)
         data = util.json_read(article_filepath_in)
