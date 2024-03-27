@@ -821,7 +821,7 @@ def plants_primary_secondary():
         article_html = ''
 
         article_html += f'<h1>{title}</h1>' + '\n'
-        article_html += f'<p><img src="/images/{latin_name_dash}-overview.jpg" alt="{latin_name}"></p>' + '\n'
+        article_html += f'<p><img src="/images/{latin_name_dash}-overview.jpg" alt="{latin_name} overview"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["intro_desc"][0])}</p>' + '\n'
 
         article_html += f'<h2>What are the medicinal uses of {latin_name}?</h2>' + '\n'
