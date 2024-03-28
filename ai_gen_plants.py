@@ -972,6 +972,233 @@ def ai_preparations_main():
 
 
 #######################################################################
+# SIDE EFFECTS
+#######################################################################
+
+def ai_side_effects_intro(entity):
+    var_val = ''
+    var_name = 'intro'
+    
+    filepath = f'database/articles/plants/{entity}/medicine/side-effects.json'
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+    
+    try: var_val = data[var_name]
+    except: data[var_name] = var_val
+    if var_val != '': return
+
+    prompt = f'''
+        Write a 5-sentence paragraph about the possible health side effects of {latin_name} if used improperly.
+    '''     
+    
+    reply = utils_ai.gen_reply(prompt)
+    reply_formatted = reply_to_paragraphs(reply)
+
+    if len(reply_formatted) == 1:
+        p = reply_formatted[0]
+        print('***************************************')
+        print(p)
+        print('***************************************')
+
+        data[var_name] = p
+        util.json_write(filepath, data)
+
+    time.sleep(30)
+
+
+def ai_side_effects_sections_csv_to_json(filepath, csv_rows):
+    var_val = []
+    var_name_p = 'preparations'
+    var_name_s = 'preparation'
+
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+
+    try: var_val = data[var_name_p]
+    except: data[var_name_p] = var_val
+    if var_val != []: return
+
+    lst = [{f'{var_name_s}_name': csv_row} for csv_row in csv_rows]
+    
+    data[var_name_p] = lst
+    util.json_write(filepath, data)
+
+
+def ai_side_effects_sections_description(filepath):
+    data = util.json_read(filepath)
+    latin_name = data['latin_name']
+    common_name = data['common_name']
+    preparations = data['preparations']
+
+    for item in preparations:
+        preparation_name = item['name']
+        
+        var_val = ''
+        var_name = 'desc'
+        try: var_val = item[var_name]
+        except: item[var_name] = var_val
+        if var_val != '': continue
+
+        starting_text = f'{latin_name.title()} {preparation_name.lower()} is '
+        prompt = f'''
+                Write 1 paragraph in 5 sentences about this medicinal preparations of {latin_name.capitalize()} ({common_name}): {preparation_name}.
+                In sentence 1, write a detailed definition of "{latin_name.capitalize()} {preparation_name}". Start this sentence with these words: {starting_text}.
+                In sentence 2, write what are the main health benefits of this {latin_name.capitalize()} preparation.
+                In sentence 3, write what are the main plant parts used for this {latin_name.capitalize()} preparation.
+                In sentence 4, write how to make this {latin_name.capitalize()} preparation.
+                In sentence 5, write what are the main precautions to take when using this {latin_name.capitalize()} preparation.
+                Don't add new empty lines between sentences.
+            '''
+        
+
+        running = True
+        while running:
+            try:
+                reply = utils_ai.gen_reply(prompt)
+                running = False
+            except:
+                time.sleep(300)
+
+        reply = reply.replace(f', also known as {common_name.lower()},', '')
+        reply = reply.replace(f', also known as {common_name.title()},', '')
+        reply = reply.replace(f', also known as {common_name.capitalize()},', '')
+        paragraphs_filtered = reply_to_paragraphs(reply)
+        
+        if len(paragraphs_filtered) == 1:
+            p = paragraphs_filtered[0]
+            print('***************************************')
+            print(p)
+            print('***************************************')
+
+            item[var_name] = p
+            util.json_write(filepath, data)
+        
+        time.sleep(30)
+
+
+def ai_side_effects_main():
+    sections_num = 10
+    for index, plant in enumerate(plants):
+        print(index, '-', len(plants), '>>', plant[0])
+
+        latin_name = plant[cols['latin_name']].strip().capitalize()
+        common_name = plant[cols['common_name']].strip().title()
+        entity = latin_name.lower().replace(' ', '-')
+        url = f'{entity}/medicine/side-effects'
+        csv_rows = [row[1] for row in util.csv_get_rows_by_entity('database/tables/side-effects.csv', entity)[:sections_num]]
+
+        json_filepath = f'database/articles/plants/{url}.json'
+
+        util.json_generate_if_not_exists(json_filepath)
+        data = util.json_read(json_filepath)
+        data['entity'] = entity
+        data['url'] = url
+        data['latin_name'] = latin_name
+        data['common_name'] = common_name
+        data['title'] = f'10 possible side effects of {latin_name} ({common_name}) if used improperly'
+        util.json_write(json_filepath, data)
+
+        ai_side_effects_intro(entity)
+        # ai_side_effects_sections_csv_to_json(json_filepath, csv_rows)
+        # ai_side_effects_sections_description(json_filepath)
+        
+
+
+# def ai_side_effects_main():
+#     plants_primary = [row for row in util.csv_get_rows('database/tables/plants.csv')[1:]]
+#     plants_secondary = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
+    
+#     plants = []
+#     for plant in plants_primary: plants.append(plant)
+#     for plant in plants_secondary: plants.append(plant)
+
+#     for index, plant in enumerate(plants):
+#         print(index, '-', len(plants), '>>', plant)
+
+#         latin_name = plant[0].strip().capitalize()
+#         common_name = plant[1].strip().title()
+
+#         entity = latin_name.lower().replace(' ', '-')
+#         json_filepath = f'database/articles/plants/{entity}/medicine/side-effects.json'
+
+#         util.json_generate_if_not_exists(json_filepath)
+#         data = util.json_read(json_filepath)
+#         data['entity'] = entity
+#         data['url'] = f'{entity}'
+#         data['latin_name'] = latin_name
+#         data['common_name'] = common_name
+#         data['title'] = f'10 possible side effects of {latin_name} ({common_name}) if used improperly'
+#         util.json_write(json_filepath, data)
+#         # quit()
+
+#         # INTRO
+#         for prompt in prompts.side_effects_intro:
+#             prompt = prompt.replace('[latin_name]', latin_name)
+#             ai_entity(json_filepath, 'side_effects_intro', 1, prompt, aka=False, save=True)
+
+#         # MEDICINE
+#         # for prompt in prompts.entity_medicine:
+#         #     prompt = prompt.replace('[latin_name]', latin_name)
+#         #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+#         #     ai_entity(json_filepath, 'medicine_intro', 1, prompt, aka=False, save=True)
+
+#         # for prompt in prompts.entity_benefits:
+#         #     prompt = prompt.replace('[latin_name]', latin_name)
+#         #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+#         #     ai_entity(json_filepath, 'benefits', 1, prompt, aka=False)
+#         # for prompt in prompts.entity_constituents:
+#         #     prompt = prompt.replace('[latin_name]', latin_name)
+#         #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+#         #     ai_entity(json_filepath, 'constituents', 1, prompt, aka=False)
+#         # for prompt in prompts.entity_preparations:
+#         #     prompt = prompt.replace('[latin_name]', latin_name)
+#         #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+#         #     ai_entity(json_filepath, 'preparations', 1, prompt, aka=False, save=True)
+#         # for prompt in prompts.entity_side_effects:
+#         #     prompt = prompt.replace('[latin_name]', latin_name)
+#         #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+#         #     ai_entity(json_filepath, 'side_effects', 1, prompt, aka=False, save=True)
+#         # for prompt in prompts.entity_precautions:
+#         #     prompt = prompt.replace('[latin_name]', latin_name)
+#         #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+#         #     ai_entity(json_filepath, 'precautions', 1, prompt, aka=False, save=True)
+        
+#         # # HORTICULTURE
+#         # for prompt in prompts.entity_horticulture_intro:
+#         #     prompt = prompt.replace('[latin_name]', latin_name)
+#         #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+#         #     ai_entity(json_filepath, 'horticulture_intro', 1, prompt, aka=False, save=True)
+#         # for prompt in prompts.entity_horticulture_paragraphs:
+#         #     prompt = prompt.replace('[latin_name]', latin_name)
+#         #     ai_entity(json_filepath, 'horticulture_desc', 5, prompt)
+
+#         # # BOTANY
+#         # for prompt in prompts.entity_botany_intro:
+#         #     prompt = prompt.replace('[latin_name]', latin_name)
+#         #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+#         #     ai_entity(json_filepath, 'botany_intro', 1, prompt, aka=False, save=True)
+#         # for prompt in prompts.entity_botany_paragraphs:
+#         #     prompt = prompt.replace('[latin_name]', latin_name)
+#         #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+#         #     ai_entity(json_filepath, 'botany_desc', 5, prompt, aka=False, save=True)
+
+#         # # HISTORY
+#         # for prompt in prompts.entity_history_intro:
+#         #     prompt = prompt.replace('[latin_name]', latin_name)
+#         #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+#         #     ai_entity(json_filepath, 'history_intro', 1, prompt, aka=False, save=True)
+#         # for prompt in prompts.entity_history_paragraphs:
+#         #     prompt = prompt.replace('[latin_name]', latin_name)
+#         #     prompt = prompt.replace('[aka]', f', also known as {common_name.lower()},')
+#         #     ai_entity(json_filepath, 'history_desc', 5, prompt, aka=False, save=True)
+
+
+
+
+
+#######################################################################
 # CSV
 #######################################################################
 
@@ -1259,8 +1486,8 @@ def clear_entity_field(field):
 ##################################################################
         
 def ai_entity_trefle_main():
-    index_last_plant = 30
-    number_of_plants_to_do_today = index_last_plant + 20
+    index_last_plant = 50
+    number_of_plants_to_do_today = index_last_plant + 25
 
     plants_trefle = [row for row in util.csv_get_rows('database/tables/_plants_all_new.csv')[1:]]
     plants_trefle_today = plants_trefle[index_last_plant:number_of_plants_to_do_today]
@@ -1420,13 +1647,14 @@ def field_delete(folderpath, key):
 
 # ai_entity_taxonomy_csv()
 
-ai_entity_main()
+# ai_entity_main()
 # ai_entity_trefle_main()
 
 # ai_medicine_main()
 # ai_benefits_main()
 # ai_constituents_main()
 # ai_preparations_main()
+ai_side_effects_main() # TODO
 
 
 # field_rename('database/articles/plants', 'medicine_desc', 'medicine_intro')

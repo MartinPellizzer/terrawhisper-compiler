@@ -20,7 +20,7 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
 random_num = random.randint(-2, 2)
-ARTICLES_NUM = 36 - random_num
+ARTICLES_NUM = 37 - random_num
 WAIT_SECONDS = 600
 
 

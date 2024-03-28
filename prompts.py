@@ -369,6 +369,22 @@ entity_taxonomy = [
 # ]
 
 
+#######################################################################################
+# ENTITY >> MEDICINE >> SIDE EFFECTS
+#######################################################################################
+
+# side_effects_intro = [
+#     '''
+#         Write a 5-sentence paragraph about the medicinal aspects of [latin_name].
+#         In sentence 1, write the benefits of [latin_name].
+#         In sentence 2, write the constituents of [latin_name].
+#         In sentence 3, write the preparations of [latin_name].
+#         In sentence 4, write the side effects of [latin_name].
+#         In sentence 5, write the precautions of [latin_name].
+#     ''',
+# ]
+
+
 
 #######################################################################################
 # TREFLE

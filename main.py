@@ -36,10 +36,15 @@ plants = plants[1:g.ARTICLES_NUM+1]
 ##############################################################################
 # IMAGES
 ##############################################################################
+
 def thumbnail_save(filepath_in, filepath_out):
     img = Image.open(filepath_in)
     img.thumbnail((768, 768), Image.Resampling.LANCZOS)
     img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+
+
+
 
 ##############################################################################
 # UTIL
@@ -81,7 +86,12 @@ def breadcrumbs(filepath):
         breadcrumbs.append(f'<a href="{filepath_curr}.html">{chunk}</a>')
     breadcrumbs = ' > '.join(breadcrumbs)
     breadcrumbs += f' > {chunks[-1].strip().replace(".html", "").replace("-", " ").title()}'
-    return breadcrumbs
+    breadcrumbs_section = f'''
+        <section class="container-lg mt-16">
+            {breadcrumbs}
+        </section>
+    '''
+    return breadcrumbs_section
 
 
 
@@ -91,43 +101,30 @@ def breadcrumbs(filepath):
 # BLOCKS
 ##############################################################################
 
-def generate_header_base():
-    html = '''
-        <header>
-            <a class="text-stone-700" href="/">TerraWhisper</a>
-            <nav class="flex gap-32">
-                <a class="text-stone-700" href="/herbalism.html">Herbalism</a>
-                <a class="text-stone-700" href="/herbalism/tea.html">Teas</a>
-                <a class="text-stone-700" href="/top-herbs.html">Top Herbs</a>
-                <a class="text-stone-700" href="/about.html">About</a>
-            </nav>
-        </header>
-    '''
-    return html
-
-
-def gen_header_base_new():
+def gen_header_base():
     return '''
         <header>
-            <a class="text-neutral-700" href="/">TerraWhisper</a>
+            <a class="text-white" href="/">TerraWhisper</a>
             <nav>
                 <input type="checkbox" class="toggle-menu">
-                <div class="hamburger-dark"></div>
+                <div class="hamburger"></div>
                 <ul class="menu">
-                    <li><a class="text-neutral-700" href="/">Home</a></li>
-                    <li><a class="text-neutral-700" href="/herbalism.html">Herbalism</a></li>
-                    <li><a class="text-neutral-700" href="/herbalism/tea.html">Teas</a></li>
-                    <li><a class="text-neutral-700" href="/top-herbs.html">Top Herbs</a></li>
-                    <li><a class="text-neutral-700" href="/about.html">About</a></li>
+                    <li><a class="text-white" href="/">Home</a></li>
+                    <li><a class="text-white" href="/herbalism.html">Herbalism</a></li>
+                    <li><a class="text-white" href="/herbalism/tea.html">Teas</a></li>
+                    <li><a class="text-white" href="/plants.html">Plants</a></li>
+                    <li><a class="text-white" href="/top-herbs.html">Top Herbs</a></li>
+                    <li><a class="text-white" href="/about.html">About</a></li>
                 </ul>
             </nav>
         </header>
     '''
 
-def generate_header_light():
-    header_html = gen_header_base_new()
+
+def generate_header_default():
+    header_html = gen_header_base()
     html = f'''
-        <section class="header-divider">
+        <section class="header">
             <div class="container-lg">
                 {header_html}
             </div>
@@ -137,14 +134,14 @@ def generate_header_light():
 
 
 def generate_header_transparent():
-    header_html = gen_header_base_new()
+    header_html = gen_header_base()
     html = f'''
-        <section class="header-divider">
-            {header_html}
+        <section>
+            <div class="container-lg">
+                {header_html}
+            </div>
         </section>
     '''
-    html = html.replace('text-neutral-700', 'text-white')
-    html = html.replace('hamburger-dark', 'hamburger-white')
     return html
 
 
@@ -250,7 +247,7 @@ def home():
 
 
 def about():
-    header = generate_header_light()
+    header = generate_header_default()
     content = util.file_read(f'static/about.md')
     content = markdown.markdown(content, extensions=['markdown.extensions.tables'])
     
@@ -397,7 +394,7 @@ def top_herbs():
 
     page_url = 'top-herbs'
 
-    header = generate_header_light()
+    header = generate_header_default()
 
     page_html = util.file_read(f'templates/{page_url}.html')
 
@@ -434,7 +431,7 @@ def teas():
 
     page_url = 'herbalism/tea'
 
-    header = generate_header_light()
+    header = generate_header_default()
 
     page_html = util.file_read(f'templates/{page_url}.html')
 
@@ -457,7 +454,7 @@ def teas():
 def herbalism():
     page_url = 'herbalism'
 
-    header = generate_header_light()
+    header = generate_header_default()
     
     content = util.file_read(f'static/{page_url}.md')
     content = markdown.markdown(content, extensions=['markdown.extensions.tables'])
@@ -544,7 +541,7 @@ def herbalism():
 #             article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-{remedy_name_dash}.jpg" alt="herbal teas for {condition} {remedy_name.lower()}"></p>' + '\n'
 #             article_html += f'<p>{remedy_desc_formatted}</p>' + '\n'
 
-#         header_html = generate_header_light()
+#         header_html = generate_header_default()
 #         word_count = len(article_html.split(' '))
 #         reading_time_html = str(word_count // 200) + ' minutes'
 
@@ -697,7 +694,7 @@ def herbalism_tea_condition():
                 article_html += f'<li>{item}</li>' + '\n'
             article_html += f'</ol>' + '\n'
 
-        header_html = generate_header_light()
+        header_html = generate_header_default()
 
         
         meta = gen_article_metadata(article_html)
@@ -912,7 +909,7 @@ def plants_primary_secondary():
         article_html += f'<h3>What are the symbolic aspects of {latin_name}?</h3>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][4])}</p>' + '\n'
 
-        header_html = generate_header_light()
+        header_html = generate_header_default()
         meta = gen_article_metadata(article_html)
         article_html = generate_toc(article_html)
 
@@ -935,9 +932,7 @@ def plants_primary_secondary():
 
             <body>
                 {header_html}
-                <section class="container-lg">
-                    {breadcrumbs_html}
-                </section>
+                {breadcrumbs_html}
                 
                 <section class="article-section">
                     <div class="container">
@@ -1040,7 +1035,7 @@ def plants_primary_secondary():
 #         article_html += f'<p>{data["botany_desc"][3]}</p>' + '\n'
 #         article_html += f'<p>{data["botany_desc"][4]}</p>' + '\n'
 
-#         header_html = generate_header_light()
+#         header_html = generate_header_default()
 #         word_count = len(article_html.split(' '))
 #         reading_time_html = str(word_count // 200) + ' minutes'
 
@@ -1223,7 +1218,7 @@ def articles_medicine():
             article_html += lst_to_html_bold(data['precautions_list']) + '\n'
         except: print('MISSING >>>>> PRECAUTIONS LIST\n')
 
-        header_html = generate_header_light()
+        header_html = generate_header_default()
         word_count = len(article_html.split(' '))
         reading_time_html = str(word_count // 200) + ' minutes'
 
@@ -1247,9 +1242,7 @@ def articles_medicine():
 
             <body>
                 {header_html}
-                <section class="container-lg">
-                    {breadcrumbs_html}
-                </section>
+                {breadcrumbs_html}
                 
                 <section class="article-section">
                     <div class="container">
@@ -1350,7 +1343,7 @@ def articles_benefits():
             try: article_html += util.lst_to_html(benefit['constituents_list']) + '\n'
             except: print(f'MISSING CONSTITUENTS: {article_filepath_in} >> {benefit_name}')
 
-        header_html = generate_header_light()
+        header_html = generate_header_default()
         word_count = len(article_html.split(' '))
         reading_time_html = str(word_count // 200) + ' minutes'
 
@@ -1374,9 +1367,7 @@ def articles_benefits():
 
             <body>
                 {header_html}
-                <section class="container-lg">
-                    {breadcrumbs_html}
-                </section>
+                {breadcrumbs_html}
                 
                 <section class="article-section">
                     <div class="container">
@@ -1495,7 +1486,7 @@ def articles_constituents():
             # try: article_html += util.lst_to_html(item['constituents_list']) + '\n'
             # except: print(f'MISSING CONSTITUENTS: {article_filepath_in} >> {item_name}')
 
-        header_html = generate_header_light()
+        header_html = generate_header_default()
         word_count = len(article_html.split(' '))
         reading_time_html = str(word_count // 200) + ' minutes'
 
@@ -1519,9 +1510,7 @@ def articles_constituents():
 
             <body>
                 {header_html}
-                <section class="container-lg">
-                    {breadcrumbs_html}
-                </section>
+                {breadcrumbs_html}
                 
                 <section class="article-section">
                     <div class="container">
@@ -1625,7 +1614,7 @@ def articles_preparations():
             except: print(f'MISSING DESCRIPTION: {article_filepath_in} >> {item_name}')
             # article_html += f'<p>{latin_name} {item_name.lower()} thanks to the active preparations listed below.</p>' + '\n'
 
-        header_html = generate_header_light()
+        header_html = generate_header_default()
         word_count = len(article_html.split(' '))
         reading_time_html = str(word_count // 200) + ' minutes'
 
@@ -1649,9 +1638,7 @@ def articles_preparations():
 
             <body>
                 {header_html}
-                <section class="container-lg">
-                    {breadcrumbs_html}
-                </section>
+                {breadcrumbs_html}
                 
                 <section class="article-section">
                     <div class="container">
@@ -1802,7 +1789,7 @@ def gen_articles_trefle():
         article_html += f'<h3>What are the symbolic aspects of {latin_name}?</h3>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][4])}</p>' + '\n'
 
-        header_html = generate_header_light()
+        header_html = generate_header_default()
         meta = gen_article_metadata(article_html)
         article_html = generate_toc(article_html)
 
@@ -1825,9 +1812,7 @@ def gen_articles_trefle():
 
             <body>
                 {header_html}
-                <section class="container-lg">
-                    {breadcrumbs_html}
-                </section>
+                {breadcrumbs_html}
                 
                 <section class="article-section">
                     <div class="container">
@@ -1969,7 +1954,7 @@ def gen_pages_taxonomy():
             phylum_slug = phylum.lower().strip().replace(' ', '-')
             article_html += f'<p><a href="/taxonomy/{kingdom_slug}/{phylum_slug}.html">{phylum}</a></p>'
         
-        header_html = generate_header_light()
+        header_html = generate_header_default()
         word_count = len(article_html.split(' '))
         reading_time_html = str(word_count // 200) + ' minutes'
         article_html = generate_toc(article_html)
@@ -2025,7 +2010,7 @@ def gen_pages_taxonomy():
                 clss_slug = clss.lower().strip().replace(' ', '-')
                 article_html += f'<p><a href="/taxonomy/{kingdom_slug}/{phylum_slug}/{clss_slug}.html">{clss}</a></p>'
             
-            header_html = generate_header_light()
+            header_html = generate_header_default()
             word_count = len(article_html.split(' '))
             reading_time_html = str(word_count // 200) + ' minutes'
             article_html = generate_toc(article_html)
@@ -2077,7 +2062,7 @@ def gen_pages_taxonomy():
     article_html = ''
     title = 'taxonomy'
 
-    header_html = generate_header_light()
+    header_html = generate_header_default()
     word_count = len(article_html.split(' '))
     reading_time_html = str(word_count // 200) + ' minutes'
     article_html = generate_toc(article_html)
@@ -2149,9 +2134,27 @@ def taxonomy():
 
     util.file_write('website/taxonomy.html', families_html)
 
-    
-    
 
+def page_plants():
+    folderpath_in = 'database/articles/plants'
+    filepath_out = 'website/plants.html'
+    json_filenames = [filename for filename in os.listdir(folderpath_in) if filename.endswith('.json')]
+    plants_html = ''
+    for filename in json_filenames:
+        filepath_in = f'{folderpath_in}/{filename}'
+        data = util.json_read(filepath_in)
+        plant_name = data['latin_name']
+        plant_slug = data['entity']
+        plants_html += f'<a href="/plants/{plant_slug}.html">{plant_name}</a>'
+
+    page_url = 'plants'
+    template = util.file_read(f'templates/{page_url}.html')
+    template = template.replace('[title]', 'Plants')
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+    template = template.replace('[author_name]', g.AUTHOR_NAME)
+    template = template.replace('[header]', generate_header_default())
+    template = template.replace('[items]', plants_html)
+    util.file_write(f'website/{page_url}.html', template)
 
 
 
@@ -2164,6 +2167,7 @@ def taxonomy():
 shutil.copy2('style.css', 'website/style.css')
 shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 shutil.copy2('robots.txt', 'website/robots.txt')
+shutil.copy2('CNAME', 'website/CNAME')
 
 # COMPRESS AND TRASFER IMAGES
 img = Image.open('assets/images/medicinal-herbs.png')
@@ -2183,20 +2187,24 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 # RUN
 ##############################################################################
 
-home()
-teas()
-top_herbs()
-about()
+page_plants()
 
-herbalism()
+# quit()
+
+# home()
+# teas()
+# top_herbs()
+# about()
+
+# herbalism()
 # herbalism_tea()
-herbalism_tea_condition()
+# herbalism_tea_condition()
 
 # plant()
-plants_primary_secondary()
+# plants_primary_secondary()
 # plants_secondary()
 
-articles_medicine()
+# articles_medicine()
 
 # articles_benefits()
 # articles_constituents()
