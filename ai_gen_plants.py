@@ -1009,8 +1009,8 @@ def ai_side_effects_intro(entity):
 
 def ai_side_effects_sections_csv_to_json(filepath, csv_rows):
     var_val = []
-    var_name_p = 'preparations'
-    var_name_s = 'preparation'
+    var_name_p = 'side_effects'
+    var_name_s = 'side_effect'
 
     data = util.json_read(filepath)
     latin_name = data['latin_name']
@@ -1026,14 +1026,14 @@ def ai_side_effects_sections_csv_to_json(filepath, csv_rows):
     util.json_write(filepath, data)
 
 
-def ai_side_effects_sections_description(filepath):
+def ai_side_effects_sections_description(filepath): # TODO: Prompt
     data = util.json_read(filepath)
     latin_name = data['latin_name']
     common_name = data['common_name']
-    preparations = data['preparations']
+    side_effects = data['side_effects']
 
-    for item in preparations:
-        preparation_name = item['name']
+    for item in side_effects:
+        side_effect_name = item['side_effect_name']
         
         var_val = ''
         var_name = 'desc'
@@ -1041,26 +1041,19 @@ def ai_side_effects_sections_description(filepath):
         except: item[var_name] = var_val
         if var_val != '': continue
 
-        starting_text = f'{latin_name.title()} {preparation_name.lower()} is '
+        starting_text = f'{side_effect_name} caused by {latin_name.title()}, also knwon as {common_name.lower()}, refers '
         prompt = f'''
-                Write 1 paragraph in 5 sentences about this medicinal preparations of {latin_name.capitalize()} ({common_name}): {preparation_name}.
-                In sentence 1, write a detailed definition of "{latin_name.capitalize()} {preparation_name}". Start this sentence with these words: {starting_text}.
-                In sentence 2, write what are the main health benefits of this {latin_name.capitalize()} preparation.
-                In sentence 3, write what are the main plant parts used for this {latin_name.capitalize()} preparation.
-                In sentence 4, write how to make this {latin_name.capitalize()} preparation.
-                In sentence 5, write what are the main precautions to take when using this {latin_name.capitalize()} preparation.
+                Write 1 paragraph in 5 sentences about this possible side effects of {latin_name.capitalize()} ({common_name}): {side_effect_name}.
+                In sentence 1, write a detailed definition of what is "{side_effect_name}" in the context of {latin_name.capitalize()}.
+                In sentence 2, write what are the main active constituents of {latin_name.capitalize()} that can cause this side effect.
+                In sentence 3, write what are the main medicinal preparations of {latin_name.capitalize()} that can cause this side effect if misused.
+                In sentence 4, write what type of people are more {latin_name.capitalize()} are most likely to experience this side effect.
+                In sentence 5, write what are the main precautions to take when using this {latin_name.capitalize()} to avoid this side effect.
                 Don't add new empty lines between sentences.
+                Start the reply with the following words: {starting_text}.
             '''
-        
 
-        running = True
-        while running:
-            try:
-                reply = utils_ai.gen_reply(prompt)
-                running = False
-            except:
-                time.sleep(300)
-
+        reply = utils_ai.gen_reply(prompt)
         reply = reply.replace(f', also known as {common_name.lower()},', '')
         reply = reply.replace(f', also known as {common_name.title()},', '')
         reply = reply.replace(f', also known as {common_name.capitalize()},', '')
@@ -1100,9 +1093,9 @@ def ai_side_effects_main():
         data['title'] = f'10 possible side effects of {latin_name} ({common_name}) if used improperly'
         util.json_write(json_filepath, data)
 
-        ai_side_effects_intro(entity)
+        # ai_side_effects_intro(entity)
         # ai_side_effects_sections_csv_to_json(json_filepath, csv_rows)
-        # ai_side_effects_sections_description(json_filepath)
+        ai_side_effects_sections_description(json_filepath)
         
 
 

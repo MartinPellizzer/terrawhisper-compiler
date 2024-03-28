@@ -1,3 +1,5 @@
+- gen sitemap
+
 [...] complete: create plants page (all plants???)
 [...] double-check: fix menu items text color in mobile for non-home pages
 [...] double-check: make header with dark background color
