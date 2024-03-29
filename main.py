@@ -818,11 +818,13 @@ def plants_primary_secondary():
         article_html = ''
 
         article_html += f'<h1>{title}</h1>' + '\n'
-        article_html += f'<p><img src="/images/{latin_name_dash}-overview.jpg" alt="{latin_name} overview"></p>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-overview.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-overview.jpg" alt="{latin_name} overview"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["intro_desc"][0])}</p>' + '\n'
 
         article_html += f'<h2>What are the medicinal uses of {latin_name}?</h2>' + '\n'
-        article_html += f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-medicine.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["medicine_intro"][0])}</p>\n'
         article_html += f'<p>Here are the most important <a href="/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
         article_html += f'<ul>' + '\n'
@@ -844,7 +846,8 @@ def plants_primary_secondary():
         article_html += f'<p>{util.text_format_1N1_html(data["precautions_desc"][0])}</p>\n'
 
         article_html += f'<h2>What are the horticultural conditions of {latin_name}?</h2>' + '\n'
-        article_html += f'<p><img src="/images/{latin_name_dash}-horticulture.jpg" alt="{latin_name} horticulture"></p>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-horticulture.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-horticulture.jpg" alt="{latin_name} horticulture"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["horticulture_intro"][0])}</p>\n'
         article_html += f'<p>Here are the most important horticultural aspects of {latin_name}.</p>' + '\n'
         article_html += f'<ul>' + '\n'
@@ -866,7 +869,8 @@ def plants_primary_secondary():
         article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][4])}</p>' + '\n'
 
         article_html += f'<h2>What are the botanical characteristics of {latin_name}?</h2>' + '\n'
-        article_html += f'<p><img src="/images/{latin_name_dash}-botany.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-botany.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-botany.jpg" alt="{latin_name} medicine"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["botany_intro"][0])}</p>\n'
         article_html += f'<p>Here are the most important botanical characteristics of {latin_name}.</p>' + '\n'
         article_html += f'<ul>' + '\n'
@@ -888,7 +892,8 @@ def plants_primary_secondary():
         article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][4])}</p>' + '\n'
 
         article_html += f'<h2>What are the historical references of {latin_name}?</h2>' + '\n'
-        article_html += f'<p><img src="/images/{latin_name_dash}-history.jpg" alt="{latin_name} history"></p>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-history.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-history.jpg" alt="{latin_name} history"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["history_intro"][0])}</p>\n'
         article_html += f'<p>Here are the most important historical references of {latin_name}.</p>' + '\n'
         article_html += f'<ul>' + '\n'
@@ -1724,12 +1729,14 @@ def gen_articles_trefle():
         article_html = ''
 
         article_html += f'<h1>{title}</h1>' + '\n'
-        article_html += f'<p><img src="/images/{entity}-overview.jpg" alt="{latin_name}"></p>' + '\n'
+        if os.path.exists(f'website/images/{entity}-overview.jpg'):
+            article_html += f'<p><img src="/images/{entity}-overview.jpg" alt="{latin_name}"></p>' + '\n'
         article_html += util.text_format_1N1_html(data['intro_desc'][0]) + '\n'
 
         article_html += f'<h2>What are the medicinal uses of {latin_name}?</h2>' + '\n'
-        article_html += f'<p><img src="/images/{entity}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
-        article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][0])}</p>\n'
+        if os.path.exists(f'website/images/{entity}-medicine.jpg'):
+            article_html += f'<p><img src="/images/{entity}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["medicine_intro"][0])}</p>\n'
         article_html += f'<p>Here are the most important <a href="/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
         article_html += f'<ul>' + '\n'
         article_html += f'<li>Health benefits</li>' + '\n'
@@ -1738,7 +1745,6 @@ def gen_articles_trefle():
         article_html += f'<li>Side effects</li>' + '\n'
         article_html += f'<li>Precautions</li>' + '\n'
         article_html += f'</ul>' + '\n'
-        
         article_html += f'<h3>What are the health benefits of {latin_name}?</h3>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][0])}</p>\n'
         article_html += f'<h3>What are the active constituents of {latin_name}?</h3>' + '\n'
@@ -1751,7 +1757,17 @@ def gen_articles_trefle():
         article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][4])}</p>\n'
 
         article_html += f'<h2>What are the horticultural conditions of {latin_name}?</h2>' + '\n'
-        article_html += f'<p><img src="/images/{entity}-horticulture.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        if os.path.exists(f'website/images/{entity}-horticulture.jpg'):
+            article_html += f'<p><img src="/images/{entity}-horticulture.jpg" alt="{latin_name} horticulture"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_intro"][0])}</p>\n'
+        article_html += f'<p>Here are the most important horticultural aspects of {latin_name}.</p>' + '\n'
+        article_html += f'<ul>' + '\n'
+        article_html += f'<li>Growth Requirements</li>' + '\n'
+        article_html += f'<li>Planting Tips</li>' + '\n'
+        article_html += f'<li>Caring Tips</li>' + '\n'
+        article_html += f'<li>Harvesting Tips</li>' + '\n'
+        article_html += f'<li>Pests and Diseases</li>' + '\n'
+        article_html += f'</ul>' + '\n'
         article_html += f'<h3>What are the growth requirements uses of {latin_name}?</h3>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][0])}</p>' + '\n'
         article_html += f'<h3>What are the planting tips of {latin_name}?</h3>' + '\n'
@@ -1764,7 +1780,17 @@ def gen_articles_trefle():
         article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][4])}</p>' + '\n'
 
         article_html += f'<h2>What are the botanical characteristics of {latin_name}?</h2>' + '\n'
-        article_html += f'<p><img src="/images/{entity}-botany.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        if os.path.exists(f'website/images/{entity}-botany.jpg'):
+            article_html += f'<p><img src="/images/{entity}-botany.jpg" alt="{latin_name} botany"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_intro"][0])}</p>\n'
+        article_html += f'<p>Here are the most important botanical characteristics of {latin_name}.</p>' + '\n'
+        article_html += f'<ul>' + '\n'
+        article_html += f'<li>Taxonomy</li>' + '\n'
+        article_html += f'<li>Morphology</li>' + '\n'
+        article_html += f'<li>Variants Names and Differences</li>' + '\n'
+        article_html += f'<li>Geographic Distribution and Natural Habitats</li>' + '\n'
+        article_html += f'<li>Life-Cycle</li>' + '\n'
+        article_html += f'</ul>' + '\n'
         article_html += f'<h3>What is the taxonomy of {latin_name}?</h3>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][0])}</p>' + '\n'
         article_html += f'<h3>What is the morphology of {latin_name}?</h3>' + '\n'
@@ -1777,7 +1803,17 @@ def gen_articles_trefle():
         article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][4])}</p>' + '\n'
 
         article_html += f'<h2>What is the history of {latin_name}?</h2>' + '\n'
-        article_html += f'<p><img src="/images/{entity}-history.jpg" alt="{latin_name} history"></p>' + '\n'
+        if os.path.exists(f'website/images/{entity}-history.jpg'):
+            article_html += f'<p><img src="/images/{entity}-history.jpg" alt="{latin_name} history"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_intro"][0])}</p>\n'
+        article_html += f'<p>Here are the most important historical references of {latin_name}.</p>' + '\n'
+        article_html += f'<ul>' + '\n'
+        article_html += f'<li>Historical Medicinal Uses</li>' + '\n'
+        article_html += f'<li>Mythology</li>' + '\n'
+        article_html += f'<li>Ancient Rituals</li>' + '\n'
+        article_html += f'<li>Literature</li>' + '\n'
+        article_html += f'<li>Symbolism</li>' + '\n'
+        article_html += f'</ul>' + '\n'
         article_html += f'<h3>What are the historical medicinal uses of {latin_name}?</h3>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][0])}</p>' + '\n'
         article_html += f'<h3>What are the mythological references of {latin_name}?</h3>' + '\n'
@@ -2136,16 +2172,23 @@ def taxonomy():
 
 
 def page_plants():
-    folderpath_in = 'database/articles/plants'
-    filepath_out = 'website/plants.html'
-    json_filenames = [filename for filename in os.listdir(folderpath_in) if filename.endswith('.json')]
-    plants_html = ''
-    for filename in json_filenames:
-        filepath_in = f'{folderpath_in}/{filename}'
+    json_filenames_plants_primary_secondary = [filename.lower().strip() for filename in os.listdir('database/articles/plants') if filename.endswith('.json')]
+    json_filenames_plants_treffle = [filename.lower().strip() for filename in os.listdir('database/articles/plants_trefle') if filename.endswith('.json')]
+    
+    json_filepaths_plants = [] 
+    for filename in json_filenames_plants_primary_secondary: json_filepaths_plants.append(f'database/articles/plants/{filename}')
+    for filename in json_filenames_plants_treffle: json_filepaths_plants.append(f'database/articles/plants_trefle/{filename}')
+
+    plants_list = []
+    for filepath in json_filepaths_plants:
+        filepath_in = f'{filepath}'
         data = util.json_read(filepath_in)
         plant_name = data['latin_name']
         plant_slug = data['entity']
-        plants_html += f'<a href="/plants/{plant_slug}.html">{plant_name}</a>'
+        plants_list.append(f'<a href="/plants/{plant_slug}.html">{plant_name}</a>')
+
+    plants_list = sorted(plants_list)
+    plants_html = ''.join(plants_list)
 
     page_url = 'plants'
     template = util.file_read(f'templates/{page_url}.html')
@@ -2153,10 +2196,57 @@ def page_plants():
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
     template = template.replace('[author_name]', g.AUTHOR_NAME)
     template = template.replace('[header]', generate_header_default())
+    template = template.replace('[plants_num]', str(len(json_filepaths_plants)))
     template = template.replace('[items]', plants_html)
     util.file_write(f'website/{page_url}.html', template)
 
+    # rows = []
+    # for filepath in json_filepaths_plants:
+    #     slug = filepath.split('/')[-1].split('.')[0].strip().lower()
+    #     rows.append([slug])
 
+    # csv_plants_primary = util.csv_get_rows('database/tables/plants.csv')
+    # csv_plants_secondary = util.csv_get_rows('database/tables/plants-secondary.csv')
+    # csv_plants_trefle = util.csv_get_rows('database/tables/_plants_all_new.csv')
+
+    # csv_plants = [] 
+    # for row in csv_plants_primary: csv_plants.append(row)
+    # for row in csv_plants_secondary: csv_plants.append(row)
+    # for row in csv_plants_trefle: csv_plants.append(row)
+
+    # rows_final = [['slug', 'scientific_name', 'common_name', 'genus', 'family']]
+    # for row in rows:
+    #     for csv_plant in csv_plants:
+    #         if csv_plant[0].strip().lower() == row[0].strip().lower():
+    #             rows_final.append(csv_plant)
+    #             break
+
+    # util.csv_set_rows('website/plants.csv', rows_final, delimiter=',')
+
+
+def page_conditions():
+    conditions_rows = util.csv_get_rows('database/tables/conditions_cleaned.csv')
+
+    conditions_html = ''
+    for condition_row in conditions_rows[1:]:
+        if condition_row[0].strip() == '': continue
+        condition_name = condition_row[0].strip().lower()
+        condition_slug = condition_name.replace(' ', '-')
+        condition_system = condition_row[1].strip().lower()
+        condition_organ_main = condition_row[2].split(',')[0].strip().lower()
+
+        conditions_html += f'<a href="/conditions/{condition_slug}.html">{condition_name}</a>'
+        print(condition_row)
+
+        
+    page_url = 'conditions'
+    template = util.file_read(f'templates/{page_url}.html')
+    template = template.replace('[title]', 'Plants')
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+    template = template.replace('[author_name]', g.AUTHOR_NAME)
+    template = template.replace('[header]', generate_header_default())
+    template = template.replace('[items]', conditions_html)
+    util.file_write(f'website/{page_url}.html', template)
 
 
 ##############################################################################
@@ -2187,6 +2277,9 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 ##############################################################################
 
 # page_plants()
+page_conditions()
+
+quit()
 
 # quit()
 
@@ -2199,9 +2292,9 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 # herbalism_tea()
 # herbalism_tea_condition()
 
-# plant()
-# plants_primary_secondary()
-# plants_secondary()
+plants_primary_secondary()
+gen_articles_trefle()
+
 
 # articles_medicine()
 
@@ -2213,10 +2306,8 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 # gen_pages_taxonomy()
 
-sitemap.sitemap_all()
-shutil.copy2('sitemap.xml', 'website/sitemap.xml')
-
-# gen_articles_trefle()
+# sitemap.sitemap_all()
+# shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 
 # taxonomy()
 

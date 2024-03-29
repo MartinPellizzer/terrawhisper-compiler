@@ -1390,7 +1390,7 @@ def clear_entity_field(field):
 ##################################################################
         
 def ai_entity_trefle_main():
-    index_last_plant = 50
+    index_last_plant = 75
     number_of_plants_to_do_today = index_last_plant + 25
 
     plants_trefle = [row for row in util.csv_get_rows('database/tables/_plants_all_new.csv')[1:]]
@@ -1552,13 +1552,13 @@ def field_delete(folderpath, key):
 # ai_entity_taxonomy_csv()
 
 # ai_entity_main()
-# ai_entity_trefle_main()
+ai_entity_trefle_main()
 
 # ai_medicine_main()
 # ai_benefits_main()
 # ai_constituents_main()
 # ai_preparations_main()
-ai_side_effects_main() # TODO
+# ai_side_effects_main()
 
 
 # field_rename('database/articles/plants', 'medicine_desc', 'medicine_intro')

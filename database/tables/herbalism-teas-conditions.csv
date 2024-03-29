@@ -4,12 +4,12 @@ colds\Ginger\
 colds\Echinacea\
 colds\Chamomile\
 colds\Peppermint\
-colds\Licorice root\
+colds\Licorice\
 colds\Ginseng\
 colds\Lemon balm\
 colds\Thyme\
 colds\Sage\
-colds\Marshmallow root\
+colds\Marshmallow\
 colds\Eucalyptus\
 colds\Rosehips\
 colds\Catnip\
@@ -17,8 +17,8 @@ colds\Holy basil\
 colds\Turmeric\
 colds\Hibiscus\
 colds\Elderflower\
-colds\Valerian root\
-colds\Raspberry leaf\
+colds\Valerian\
+colds\Raspberry\
 abdominal pain\Chamomile\
 abdominal pain\Ginger\
 abdominal pain\Peppermint\
@@ -35,110 +35,110 @@ abdominal pain\Parsley\
 abdominal pain\Coriander\
 abdominal pain\Cinnamon\
 abdominal pain\Cloves\
-abdominal pain\Angelica root\
-abdominal pain\Caraway seeds\
+abdominal pain\Angelica\
+abdominal pain\Caraway\
 abdominal pain\Cardamom\
 acid reflux\Chamomile\
 acid reflux\Ginger\
-acid reflux\Licorice root\
-acid reflux\Fennel seed\
-acid reflux\Marshmallow root\
+acid reflux\Licorice\
+acid reflux\Fennel\
+acid reflux\Marshmallowroot\
 acid reflux\Slippery elm\
 acid reflux\Turmeric\
 acid reflux\Gingko biloba\
-acid reflux\Angelica root\
-acid reflux\Dandelion root\
+acid reflux\Angelica\
+acid reflux\Dandelion\
 acid reflux\Milk thistle\
 acid reflux\Cardamom\
 acid reflux\Star anise\
 acid reflux\Cinnamon\
-acid reflux\Aloe vera leaf\
-acid reflux\Papaya leaf\
+acid reflux\Aloe vera\
+acid reflux\Papaya\
 acid reflux\Marjoram\
 acid reflux\Peppermint\
-acid reflux\Coriander seed\
-acid reflux\Calendula flower\
+acid reflux\Coriander\
+acid reflux\Calendula\
 acne\Chamomile\
 acne\Lavender\
 acne\Calendula\
 acne\Green tea\
 acne\Red clover\
-acne\Burdock root\
-acne\Dandelion root\
+acne\Burdock\
+acne\Dandelion\
 acne\Ginger\
 acne\Turmeric\
-acne\Marshmallow root\
-acne\Licorice root\
-acne\Yellow dock\
+acne\Marshmallow\
+acne\Licorice\
+acne\Yellow\
 acne\Neem\
 acne\Echinacea\
 acne\Sage\
 acne\Rosehips\
-acne\Blackberry leaf\
-acne\Hawthorn berry\
-acne\Raspberry leaf\
+acne\Blackberry\
+acne\Hawthorn\
+acne\Raspberry\
 acne\Sarsaparilla\
 adrenal fatigue\Ashwagandha\
 adrenal fatigue\Holy Basil\
 adrenal fatigue\Rhodiola\
-adrenal fatigue\Licorice Root\
-adrenal fatigue\Maca Root\
-adrenal fatigue\Schisandra Berry\
+adrenal fatigue\Licorice\
+adrenal fatigue\Maca\
+adrenal fatigue\Schisandra\
 adrenal fatigue\Chaga Mushroom\
 adrenal fatigue\Gynostemma\
 adrenal fatigue\Passionflower\
-adrenal fatigue\Rehmannia Root\
+adrenal fatigue\Rehmannia\
 adrenal fatigue\Eleuthero\
 adrenal fatigue\He Shou Wu\
 adrenal fatigue\Red Clover\
 adrenal fatigue\Milk Thistle\
-adrenal fatigue\Dandelion Root\
+adrenal fatigue\Dandelion\
 adrenal fatigue\Chamomile\
 adrenal fatigue\Ginger\
 adrenal fatigue\Turmeric\
-adrenal fatigue\Valerian Root\
+adrenal fatigue\Valerian\
 alertness\Guayusa\
 alertness\Yerba Mate\
 alertness\Green Tea\
 alertness\Gingko Biloba\
 alertness\Gotu Kola\
-alertness\Maca Root\
+alertness\Maca\
 alertness\Ashwagandha\
 alertness\Rhodiola Rosea\
 alertness\Holy Basil\
-alertness\Schisandra Berries\
+alertness\Schisandra\
 alertness\Bacopa Monnieri\
-alertness\Licorice Root\
+alertness\Licorice\
 alertness\Passionflower\
 alertness\Ginseng\
 alertness\Sage\
 alertness\Oolong\
 alertness\Turmeric\
 alertness\Milk Thistle\
-alertness\Dandelion Root\
-alertness\Chrysanthemum Flowers\
+alertness\Dandelion\
+alertness\Chrysanthemum\
 allergies\Chamomile\
 allergies\Elderflower\
 allergies\Echinacea\
 allergies\Ginger\
 allergies\Ginkgo Biloba\
-allergies\Hawthorn Berry\
-allergies\Licorice Root\
-allergies\Marshmallow Root\
-allergies\Nettle Leaf\
+allergies\Hawthorn\
+allergies\Licorice\
+allergies\Marshmallow\
+allergies\Nettle\
 allergies\Peppermint\
-allergies\Raspberry Leaf\
+allergies\Raspberry\
 allergies\Turmeric\
-allergies\White Willow Bark\
+allergies\White Willow\
 allergies\Yarrow\
 allergies\Basil\
-allergies\Fennel Seed\
+allergies\Fennel\
 allergies\Lemon Balm\
 anxiety\Chamomile\
 anxiety\Lavender\
 anxiety\Lemon Balm\
 anxiety\Passionflower\
-anxiety\Valerian Root\
+anxiety\Valerian\
 anxiety\Ashwagandha\
 anxiety\Holy Basil\
 anxiety\Kava Kava\
@@ -156,7 +156,7 @@ anxiety\Oat Straw\
 babies\Chamomile\
 babies\Fennel\
 babies\Ginger\
-babies\Raspberry Leaf\
+babies\Raspberry\
 babies\Lemon Balm\
 babies\Marshmallow\
 babies\Nettle\
@@ -175,25 +175,25 @@ babies\Marjoram\
 back pain\Chamomile\
 back pain\Ginger\
 back pain\Turmeric\
-back pain\Willow bark\
+back pain\White Willow\
 back pain\Devil's claw\
 back pain\Cat's claw\
-back pain\Fennel seed\
-back pain\Licorice root\
+back pain\Fennel\
+back pain\Licorice\
 back pain\Passionflower\
-back pain\Valerian root\
+back pain\Valerian\
 back pain\Black cohosh\
-back pain\Eucalyptus leaf\
-back pain\Peppermint leaf\
+back pain\Eucalyptus\
+back pain\Peppermint\
 back pain\Holy basil\
-back pain\Red raspberry leaf\
-back pain\Milk thistle seed\
-back pain\Dandelion root\
-back pain\Burdock root\
-back pain\Parsley leaf\
+back pain\Raspberry\
+back pain\Milk thistle\
+back pain\Dandelion\
+back pain\Burdock\
+back pain\Parsley\
 bad breath\Parsley\
 bad breath\Chamomile\
-bad breath\Fennel seed\
+bad breath\Fennel\
 bad breath\Mint\
 bad breath\Cardamom\
 bad breath\Cinnamon\
@@ -204,21 +204,21 @@ bad breath\Sage\
 bad breath\Rosemary\
 bad breath\Thyme\
 bad breath\Neem\
-bad breath\Licorice root\
+bad breath\Licorice\
 bad breath\Eucalyptus\
-bad breath\Coriander seed\
+bad breath\Coriander\
 bad breath\Basil\
-bad breath\Fenugreek seed\
-bad breath\Dandelion leaf\
+bad breath\Fenugreek\
+bad breath\Dandelion\
 bad breath\Ginkgo biloba\
-belly fat\Fennel seed\
+belly fat\Fennel\
 belly fat\Ginger\
 belly fat\Turmeric\
-belly fat\Licorice root\
+belly fat\Licorice\
 belly fat\Chamomile\
 belly fat\Peppermint\
-belly fat\Dandelion root\
-belly fat\Senna leaf\
+belly fat\Dandelion\
+belly fat\Senna\
 belly fat\Holy basil\
 belly fat\Ginseng\
 belly fat\Green tea\
@@ -227,68 +227,87 @@ belly fat\Alfalfa\
 belly fat\Nettle\
 belly fat\Parsley\
 belly fat\Milk thistle\
-belly fat\Burdock root\
-belly fat\Hawthorn berry\
-belly fat\Valerian root\
+belly fat\Burdock\
+belly fat\Hawthorn\
+belly fat\Valerian\
 bladder pain\Cornsilk\
-bladder pain\Marshmallow Root\
-bladder pain\Dandelion Leaf\
+bladder pain\Marshmallow\
+bladder pain\Dandelion\
 bladder pain\Parsley\
 bladder pain\Chamomile\
 bladder pain\Ginger\
-bladder pain\Juniper Berries\
+bladder pain\Juniper\
 bladder pain\Uva Ursi\
 bladder pain\Bearberry\
 bladder pain\Buchu\
 bladder pain\Horsetail\
 bladder pain\Cranberries\
 bladder pain\Rose hips\
-bladder pain\Celery Seed\
+bladder pain\Celery\
 bladder pain\Turmeric\
-bladder pain\Hawthorn Berries\
+bladder pain\Hawthorn\
 bladder pain\Red clover\
 bladder pain\Cornflowers\
 bladder pain\Stinging Nettle\
-bladder pain\Linden Flowers\
-bloating\Fennel seed\
-bloating\Ginger root\
-bloating\Chamomile flower\
-bloating\Peppermint leaf\
-bloating\Turmeric root\
-bloating\Cardamom pod\
+bladder pain\Linden\
+bloating\Fennel\
+bloating\Ginger\
+bloating\Chamomile\
+bloating\Peppermint\
+bloating\Turmeric\
+bloating\Cardamom\
 bloating\Aniseed\
-bloating\Dandelion root\
-bloating\Cumin seed\
-bloating\Coriander seed\
+bloating\Dandelion\
+bloating\Cumin\
+bloating\Coriander\
 bloating\Parsley\
 bloating\Lemongrass\
-bloating\Licorice root\
-bloating\Angelica root\
-bloating\Caraway seed\
+bloating\Licorice\
+bloating\Angelica\
+bloating\Caraway\
 bloating\Dill weed\
-bloating\Fenugreek seed\
+bloating\Fenugreek\
 bloating\Catnip\
-bloating\Papaya leaf\
-bone health\Holy basil (Tulsi)\
+bloating\Papaya\
+bone health\Holy basil\
 bone health\Black cohosh\
 bone health\Red clover\
 bone health\Parsley\
 bone health\Sage\
 bone health\Skullcap\
 bone health\Fenugreek\
-bone health\Dandelion root\
+bone health\Dandelion\
 bone health\Nettle\
 bone health\Horsetail\
 bone health\Oat straw\
 bone health\Alfalfa\
-bone health\Licorice root\
+bone health\Licorice\
 bone health\Ginger\
 bone health\Turmeric\
 bone health\Anise\
-bone health\Fennel seed\
+bone health\Fennel\
 bone health\Chamomile\
 bone health\Passionflower\
-bone health\Valerian root\
+bone health\Valerian\
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 bowel movement\Senna leaves\
 bowel movement\Slippery elm bark\
 bowel movement\Psyllium husk\

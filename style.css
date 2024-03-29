@@ -117,6 +117,12 @@ td {
     padding: 0.8rem 1.6rem;
 }
 
+.button {
+    background-color: #0c0a09;
+    color: white;
+    padding: 1.6rem;
+    text-decoration: none;
+}
 
 /* *************************************************************** */
 /* AUTHOR */

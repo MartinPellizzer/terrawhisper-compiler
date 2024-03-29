@@ -20,8 +20,8 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
 random_num = random.randint(-2, 2)
-ARTICLES_NUM = 37 - random_num
-WAIT_SECONDS = 600
+ARTICLES_NUM = 38 - random_num
+WAIT_SECONDS = 300
 
 
 options = Options()
