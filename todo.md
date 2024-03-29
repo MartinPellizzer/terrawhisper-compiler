@@ -1,12 +1,13 @@
-- gen sitemap
+- gen sitemap with python!!!
+- generate number of plants in "plants page" dynamically
 
-[...] complete: create plants page (all plants???)
+[...] complete: create plants page (all plants???) - add csv users can download with full database of plants - pagination (a-z)??
 [...] double-check: fix menu items text color in mobile for non-home pages
 [...] double-check: make header with dark background color
 
 - dont' add images tags on articles wehre images are missiong
 
-- add generated trefle plants to website (quasi-done)
+- add generated trefle plants to website (quasi-done) (plants page?)
     - check errors in live server of the plants
 
 - complete entity articles (culinary, etc...)

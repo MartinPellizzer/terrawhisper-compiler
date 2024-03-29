@@ -26,10 +26,12 @@ def csv_get_rows(filepath, delimiter='\\'):
             rows.append(line)
     return rows
 
+
 def csv_add_rows(filepath, rows, delimiter='\\'):
     with open(filepath, 'a', encoding='utf-8', errors='ignore', newline='') as f:
         writer = csv.writer(f, delimiter=delimiter)
         writer.writerows(rows)
+
 
 def csv_set_rows(filepath, rows, delimiter='\\'):
     with open(filepath, 'w', encoding='utf-8', errors='ignore', newline='') as f:
@@ -46,8 +48,10 @@ def csv_get_rows_by_entity(filepath, entity, delimiter='\\', num_col=0):
                 rows.append(line)
     return rows
 
+
 def folder_create(path):
     if not os.path.exists(path): os.makedirs(path)
+
 
 
 
@@ -71,6 +75,7 @@ def file_append(filepath, text):
 def file_write(filepath, text):
     create_folder_for_filepath(filepath)
     with open(filepath, 'w', encoding='utf-8') as f: f.write(text)
+
 
 
 
@@ -111,9 +116,6 @@ def json_write(filepath, data):
 
 
 
-
-
-
 ###################################
 # FORMAT
 ###################################
@@ -130,7 +132,6 @@ def text_format_131(text):
     text_formatted = text_formatted.replace('..', '.')
     return text_formatted
 
-
     
 def text_format_131_html(text):
     text_formatted = ''
@@ -143,7 +144,6 @@ def text_format_131_html(text):
     text_formatted += f'<p>{line_2}.</p>' + '\n'
     text_formatted = text_formatted.replace('..', '.')
     return text_formatted
-
 
 
 def text_format_1N1_html(text):
@@ -164,13 +164,12 @@ def text_format_1N1_html(text):
     return text_formatted
 
 
-
-
 def lst_to_html(lst):
     lst_html = '<ul>' + '\n'
     for item in lst: lst_html += f'<li>{item}</li>' + '\n'
     lst_html += '</ul>' + '\n'
     return lst_html
+
 
 
 
@@ -197,6 +196,7 @@ def get_common_name(entity, delimiter='\\'):
         if row[0].lower().strip().replace(' ', '-') == entity.lower().strip().replace(' ', '-')]
     name = rows[0][1].replace('-', ' ')
     return name
+
 
 
 

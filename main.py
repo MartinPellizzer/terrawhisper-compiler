@@ -2165,7 +2165,6 @@ def page_plants():
 
 # TRANSFER STATIC FILES
 shutil.copy2('style.css', 'website/style.css')
-shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 shutil.copy2('robots.txt', 'website/robots.txt')
 shutil.copy2('CNAME', 'website/CNAME')
 
@@ -2187,7 +2186,7 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 # RUN
 ##############################################################################
 
-page_plants()
+# page_plants()
 
 # quit()
 
@@ -2214,7 +2213,8 @@ page_plants()
 
 # gen_pages_taxonomy()
 
-# sitemap.sitemap_main()
+sitemap.sitemap_all()
+shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 
 # gen_articles_trefle()
 

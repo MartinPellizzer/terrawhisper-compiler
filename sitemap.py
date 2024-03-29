@@ -1,142 +1,107 @@
 import util
 import os
+import pathlib
+
+
+def sitemap_all():
+    sitemap = ''
+    sitemap += '<?xml version="1.0" encoding="UTF-8"?>\n'
+    sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    sitemap += sitemap_main()
+    sitemap += sitemap_teas()
+    sitemap += sitemap_plants()
+    sitemap += '</urlset>\n'
+    util.file_write('sitemap.xml', sitemap.strip())
+
+
+
 
 def sitemap_teas():
-    sitemap = ''
-    sitemap += '''
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-'''
+    urls = ''
     for filename in os.listdir('database/articles/herbalism/tea'):
         if filename.endswith('.json'):
             filename_html = filename.replace('.json', '.html')
-            sitemap += f'''
+            urls += f'''
 <url>
   <loc>https://terrawhisper.com/herbalism/teas/{filename_html}</loc>
-  <lastmod>2024-03-17T17:42:42+00:00</lastmod>
+  <lastmod>2024-03-17</lastmod>
 </url>
 '''.strip() + '\n'
-        
 
-    sitemap += '''
-
-</urlset>
-'''
-    util.file_write('sitemap_teas.xml', sitemap.strip())
+    return urls
 
 
 
-
-
+# EXCLUDE ARTICLES IN "MEDICINE/" UTIL GENERATED THE HTMLS
 def sitemap_plants():
-    lastmod = '2024-03-17'
-    sitemap = ''
-    sitemap += '''
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-'''
-    # ENTITIES
-    for filename in os.listdir('database/articles/plants'):
-        if filename.endswith('.json'):
-            filename_html = filename.replace('.json', '.html')
-            data = util.json_read(f'database/articles/plants/{filename}')
-            try: lastmod_entity = data['lastmod']
-            except: lastmod_entity = lastmod
-            # print(filename)
-            sitemap += f'''
-<url>
-  <loc>https://terrawhisper.com/{filename_html}</loc>
-  <lastmod>{lastmod_entity}</lastmod>
-</url>
-'''.strip() + '\n'
+    lastmod_dummy = '2024-03-17'
+    urls = ''
 
-        # MEDICINE, ETC...
-        elif os.path.isdir(f'database/articles/plants/{filename}'):
-            for filename_2 in os.listdir(f'database/articles/plants/{filename}'):
-                if filename_2.endswith('.json'):
-                    filename_2_html = filename_2.replace('.json', '.html')
-                    sitemap += f'''
-<url>
-  <loc>https://terrawhisper.com/{filename}/{filename_2_html}</loc>
-  <lastmod>{lastmod}</lastmod>
-</url>
-'''.strip() + '\n'
-                # BENEFITS, ETC...
-                elif os.path.isdir(f'database/articles/plants/{filename}/{filename_2}'):
-                    for filename_3 in os.listdir(f'database/articles/plants/{filename}/{filename_2}'):
-                        if filename_3.endswith('.json'):
-                            filename_3_html = filename_3.replace('.json', '.html')
-                            sitemap += f'''
-<url>
-  <loc>https://terrawhisper.com/{filename}/{filename_2}/{filename_3_html}</loc>
-  <lastmod>{lastmod}</lastmod>
-</url>
-'''.strip() + '\n'
+    path = pathlib.Path('database/articles/plants')
+    filepaths = path.rglob("*.json")
 
-    sitemap += '''
-</urlset>
-'''
-    util.file_write('sitemap_plants.xml', sitemap.strip())
+    for filepath in filepaths: 
+        filepath = str(filepath)
+        filepath_in = filepath.replace('\\', '/')
+        filepath_out = filepath_in.replace('database/articles/', '').replace('.json', '.html')
+        if 'medicine/' in filepath_in: continue
+        print(filepath_out)
+
+        data = util.json_read(filepath_in)
+        try: lastmod = data['lastmod']
+        except: lastmod = lastmod_dummy
+        urls += f'<url>\n'
+        urls += f'  <loc>https://terrawhisper.com/{filepath_out}</loc>\n'
+        urls += f'  <lastmod>{lastmod}</lastmod>\n'
+        urls += f'</url>\n'
+
+    return urls
 
 
 
 
 
 def sitemap_main():
-    sitemap = ''
-    sitemap += '''
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-
-'''
-
-    sitemap += f'''
+    urls = ''
+    urls += f'''
 <url>
   <loc>https://terrawhisper.com/</loc>
-  <lastmod>2024-03-17T17:42:42+00:00</lastmod>
+  <lastmod>2024-03-17</lastmod>
 </url>
 '''.strip() + '\n'
-    sitemap += f'''
+    urls += f'''
 <url>
   <loc>https://terrawhisper.com/herbalism.html</loc>
-  <lastmod>2024-03-17T17:42:42+00:00</lastmod>
+  <lastmod>2024-03-17</lastmod>
 </url>
 '''.strip() + '\n'
-    sitemap += f'''
+    urls += f'''
 <url>
   <loc>https://terrawhisper.com/herbalism/tea.html</loc>
-  <lastmod>2024-03-17T17:42:42+00:00</lastmod>
+  <lastmod>2024-03-17</lastmod>
 </url>
 '''.strip() + '\n'
-    sitemap += f'''
+    urls += f'''
+<url>
+  <loc>https://terrawhisper.com/plants.html</loc>
+  <lastmod>2024-03-17</lastmod>
+</url>
+'''.strip() + '\n'
+    urls += f'''
 <url>
   <loc>https://terrawhisper.com/top-herbs.html</loc>
-  <lastmod>2024-03-17T17:42:42+00:00</lastmod>
+  <lastmod>2024-03-17</lastmod>
 </url>
 '''.strip() + '\n'
-    sitemap += f'''
+    urls += f'''
 <url>
   <loc>https://terrawhisper.com/about.html</loc>
-  <lastmod>2024-03-17T17:42:42+00:00</lastmod>
+  <lastmod>2024-03-17</lastmod>
 </url>
 '''.strip() + '\n'
 
-    sitemap += '''
+    return urls
 
-</urlset>
-'''
-    util.file_write('sitemap_main.xml', sitemap.strip())
 
 
     
