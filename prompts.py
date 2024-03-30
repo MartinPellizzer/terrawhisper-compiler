@@ -389,3 +389,33 @@ entity_taxonomy = [
 #######################################################################################
 # TREFLE
 #######################################################################################
+
+
+
+
+
+
+#######################################################################################
+# TEAS
+#######################################################################################
+
+tea_intro = [
+    '''
+        Write a 5-sentence paragraph about herbal teas for medicinal purposes.
+        Include the definition of herbal teas.
+        Include the medicinal properties of herbal teas.
+        Include examples of what are some of the most used herbal teas.
+        Include examples of the most common health conditions you can heal with herbal teas.
+        Include a simple general procedure to make effective herbal teas.
+        Reply in as few words as possible.
+        Start with the following words: Herbal teas are .
+    ''',
+]
+
+tea_definition = [
+    '''
+        Write 1 paragraph about herbal teas (tisanes) for medicinal purposes.
+        Include a detailed definition of herbal teas.
+        Include a description of the medicinal properties of herbal teas. 
+    ''',
+]

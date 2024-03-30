@@ -1,23 +1,57 @@
-- clean herbal teas in herbalism-teas-conditions.csv (remove leaf, seeds, flowers, etc...)
-- gen tea page, talk about all aspects of teas and add many sessions for conditions (by body system)
+# ###################################################
+# DAILY
+# ###################################################
+
+- NEW ARTICLES:
+    gen ?? (max 50 for now) trefle plant articles x day, only root article with h2 ai gen. increase by 5 articles per day
+
+- PINTEREST:
+    just pin
 
 
-- add generated trefle plants to website (quasi-done) (plants page?)
-    - check errors in live server of the plants
 
-- complete entity articles (culinary, etc...)
 
-- generate conditions pages
-- add main conditions to homepage
+
+# ###################################################
+# WEEKLY (saturday?)
+# ###################################################
+
+- ANALYTICS
+    - check pinterest
+    - check google analytics
+    - check google search console
+
+
+
+
+
+# ###################################################
+# TODO
+# ###################################################
+
+- TEAS PAGE:
+    [1] gen ai 1 sentence each condition in system in herbalism/tea.json
+    [1] add all remaining conditions
+    [1] adjust conditions names using the names from old condition csv file (because pins already linking)
+    [1] complete other sections in tea page (ex. how to)
+
+- REFACTORIN:
+    [1] make 1 function only for both primary_secondary plants and trefle plants
+
+- PAGES:
+    [1] add benefits, constituents, etc... pages
+
+[3] improve entity articles (culinary, etc...)
+[2] pages entity/medicine/precautions
+
+- IMAGES:
+    [1] complete images for 100 articles
+    [1] generate pil variation of the images for 100 articles
+
+- ERRORS:
+    - check errors in plants articles (trefle) - formatting and content errors
 
 - generate taxomony pages
-
-[1] complete images for 100 articles
-[1] generate pil variation of the images for 100 articles
-
-- generate treffle images?
-
-- gen ?? (max 50 for now) trefle plant articles x day, only root article with h2 ai gen. increase by 5 articles per day
 
 - SITEMAP:
     - update on all articles (not just entity articles)

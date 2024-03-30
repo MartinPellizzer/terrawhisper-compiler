@@ -1,0 +1,122 @@
+condition\system_id\organ\synonyms\related
+\\\\
+bad breath\0\mouth \halitosis, mouth odour\
+dry mouth\0\mouth\\
+mouth ulcers\0\mouth\\
+oral thrush\0\mouth, throat\\oral thrush in babies
+Aphthous Ulcers\0\mouth\canker sores \
+Periodontal Disease\0\mouth\\
+\\\\
+throat pain\0\throat\\
+\\\\
+heartburn\0\esophagus\\heartburn during pregnancy
+acid reflux\0\esophagus\\gerd, Esophagitis and Gastroesophageal Reflux
+\\\\
+stomach pain\0\stomach\\
+bloated stomach\0\stomach\\bloating
+hyperacidity\0\stomach\acidity\
+food poisoning\0\stomach, intestines\\
+gastric pain\0\stomach\\
+gas in stomach\0\stomach\gassy stomach\
+gastric problem\0\stomach\\
+gastroenteritis\0\stomach, intestines\\
+indigestion\0\stomach \dyspepsia, Functional Dyspepsia\
+vomiting\0\stomach \\kids vomiting
+mucus in stomach\0\stomach\\
+nausea\0\stomach \\nausea during pregnancy
+overeating\0\stomach \\
+queasy stomach\0\stomach\\
+Gastritis\0\stomach\\
+Peptic Ulcers\0\stomach, small intestine (duodenum)\\
+Hiatus Hernia\0\stomach\\
+\\\\
+hangover\0\liver\\
+Jaundice\0\liver \\
+Chronic Hepatitis\0\liver \\
+Viral Hepatitis\0\liver \\
+Cirrhosis\0\liver \\
+\\\\
+gall stones\0\gallbladder\\
+Cholecystitis\0\gallbladder \\
+Cholelithiasis\0\gallbladder \\
+\\\\
+abdominal pain\0\abdomen\\lower abdominal pain
+\\\\
+gas pains\0\intestines \gas pain\
+\\\\
+quick digestion\0\small intestine \\
+Inflammatory Bowel Disease\0\small intestine, large intestine\\
+\\\\
+constipation\0\colon\\constipation during pregnancy, kids constipation
+diarrhea\0\colon\diarrhoea, loose motion, running stomach\
+flatulence\0\colon\gas\
+Irritable Bowel Syndrome\0\colon (large intestine)\\
+Ulcerative Colitis\0\colon\\
+Diverticulitis\0\colon\\
+\\\\
+Hemorrhoids\0\rectum, anus\\
+\\\\
+\\\\
+\\\\
+\\\\
+hay fever \1\nose, nasal passages, nasal cavity, sinuses, and the mucous membranes\allergic rhinitis\
+blocked nose\1\nose, nasal cavity, \clogged nose, nose block, stuffy nose\
+runny nose\1\nose, sinuses\rhinorrhea \
+post nasal drip\1\nose, nasal cavity, throat\\
+sinus headache\1\sinuses \\
+sinusitis\1\sinuses \sinus infection\
+The Common Cold\1\upper respiratory tract, nose, throat, sinuses\\
+sore throat\1\throat, pharynx\pharyngitis \sore throat at home, itchy throat, itchy throat cough
+dry throat\1\Throat, pharynx, larynx \\
+mucus in throat\1\throat, aka pharynx\\
+snoring\1\throat, soft palate, uvula\\
+laryngitis\1\larynx \\
+hoarse voice\1\larynx \\
+lost voice\1\larynx \\lost voice due to cough, losing voice, no voice
+Tonsillitis\1\tonsils, oropharynx\\
+cough\1\lungs, airways, trachea, bronchi, bronchiles\\dry cough, cough at night, night cough, cough in babies, baby cough, cough for kids, kids cough, kids sore throat, non stop coughing, persistent cough
+flu\1\lungs \influenza\
+chest congestion\1\lungs \\
+bronchitis\1\lungs \\
+Asthma\1\lungs \\
+phlegm\1\lungs, airways\\
+Acute Bronchitis\1\lungs\\
+Chronic Bronchitis\1\lungs \\
+Pertussis\1\lungs, airways\whooping cough \
+Emphysema\1\lungs \\
+hiccups\1\diaphragm \\
+ear pain due to cold\1\ear\\
+\\\\
+\\\\
+\\\\
+\\\\
+\\\\
+\\\\
+\\\\
+\\\\
+\\\\
+\\\\
+\\\\
+\\\\
+high blood pressure\2\heart, blood vessels, kidneys, brain, and eyes\hypertension\
+low blood pressure\2\heart, blood vessels \hypotension\
+heart pain\2\heart\angina\
+high cholesterol\2\liver, blood vessels, heart \\
+jaundice\2\liver\\jaundice in newborn
+nose bleeding\2\nose\epistaxis \nose bleeding in child
+palpitation\2\heart\\
+swollen feet\2\feet, blood vessels, hearth\\
+Arteriosclerosis\2\arteries \\
+Congestive Heart Failure\2\heart \\
+Peripheral Arterial Occlusive Disease\2\arteries \\
+Varicose Veins \2\veins \\
+\\\\
+\\\\
+\\\\
+\\\\
+\\\\
+\\\\
+\\\\
+\\\\
+quit smoking\10\\\
+kennel cough\10\trachea, bronchi \canine infectious tracheobronchitis \

@@ -111,7 +111,7 @@ def gen_header_base():
                 <ul class="menu">
                     <li><a class="text-white" href="/">Home</a></li>
                     <li><a class="text-white" href="/herbalism.html">Herbalism</a></li>
-                    <li><a class="text-white" href="/herbalism/tea.html">Teas</a></li>
+                    <li><a class="text-white" href="/conditions.html">Conditions</a></li>
                     <li><a class="text-white" href="/plants.html">Plants</a></li>
                     <li><a class="text-white" href="/top-herbs.html">Top Herbs</a></li>
                     <li><a class="text-white" href="/about.html">About</a></li>
@@ -119,6 +119,7 @@ def gen_header_base():
             </nav>
         </header>
     '''
+                    # <li><a class="text-white" href="/herbalism/tea.html">Teas</a></li>
 
 
 def generate_header_default():
@@ -498,150 +499,66 @@ def herbalism():
         print('MISSING >>>>> IMAGE FOLDER -> HERBALISM')
 
 
+def herbalism_tea():
+    filepath_in = 'database/articles/herbalism/tea.json'
+    filepath_out = 'website/herbalism/tea.html'
 
-# def herbalism_tea():
-#     # IMAGES
-#     IMG_FOLDER_TEA = 'C:/terrawhisper-assets/images/tea'
-#     img_folders_names = os.listdir(IMG_FOLDER_TEA)
-#     img_dict = {}
-#     for img_folder_name in img_folders_names:
-#         img_folders_files = os.listdir(f'{IMG_FOLDER_TEA}/{img_folder_name}')
-#         img_dict[img_folder_name] = img_folders_files
+    data = util.json_read(filepath_in)
+    title = data['title']
 
+    article_html = ''
+    article_html += f'<h1>{title}</h1>\n'
+    article_html += f'<p>{util.text_format_1N1_html(data["intro_desc"][0])}</p>\n'
+
+    article_html += f'<h2>What are herbal teas and which medicinal properties they have?</h2>\n'
+    article_html += f'<p>{util.text_format_1N1_html(data["definition_desc"][0])}</p>\n'
+
+    article_html += f'<h2>What conditions can herbal teas relieve?</h2>\n'
+    for condition in data['conditions']:
+        article_html += f'<p>{condition["name"]}</p>\n'
     
-#     articles_folderpath = 'database/articles/herbalism/tea'
-#     article_foldrpath_relative = f'herbalism/tea'
-#     article_foldrpath_relative_dash = article_foldrpath_relative.replace('/', '-')
-#     conditions = [row[0] for row in util.csv_get_rows('database/tables/conditions.csv')[1:]]
-#     for condition in conditions[:10]:
-#         condition_dash = condition.lower().strip().replace(' ', '-')
-#         article_filename = f'{articles_folderpath}/{condition_dash}.json'
-        
-#         article_filepath_in = article_filename
-#         article_filepath_out = article_filename.replace('database/articles', 'website').replace('.json', '.html')
+    # META
+    header_html = generate_header_default()   
+    meta = gen_article_metadata(article_html)
+    article_html = generate_toc(article_html)
 
-#         data = util.json_read(article_filepath_in)
-#         article_html = ''
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
 
-#         title = ''
-#         try: title = data['keyword'].title()
-#         except: print(f'***** MISSING TITLE: {article_filepath_in}')
-#         article_html += f'<h1>{title}</h1>' + '\n'
-#         article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-overview.jpg" alt="herbal teas for {condition} overview"></p>' + '\n'
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="{g.AUTHOR_NAME}">
+            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+            <link rel="stylesheet" href="/style.css">
+            <title>{title}</title>
+            {g.GOOGLE_TAG}
+            
+        </head>
 
-#         remedies = []
-#         try: remedies = data['remedies']
-#         except: print(f'***** MISSING REMEDIES: {article_filepath_in}')
-#         for index, remedy in enumerate(remedies[:10]):
-#             remedy_name = remedy['remedy_name']
-#             remedy_desc = remedy['remedy_desc']
-#             remedy_name_dash = remedy_name.lower().strip().replace(' ', '-')
-#             remedy_desc_formatted = util.text_format_1N1_html(remedy_desc)
-#             article_html += f'<h2>{index+1}. {remedy_name}</h2>' + '\n'
-#             article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-{remedy_name_dash}.jpg" alt="herbal teas for {condition} {remedy_name.lower()}"></p>' + '\n'
-#             article_html += f'<p>{remedy_desc_formatted}</p>' + '\n'
+        <body>
+            {header_html}
+            
+            <section class="article-section">
+                <div class="container">
+                    {meta}
+                    {article_html}
+                </div>
+            </section>
 
-#         header_html = generate_header_default()
-#         word_count = len(article_html.split(' '))
-#         reading_time_html = str(word_count // 200) + ' minutes'
+            <footer>
+                <div class="container-lg">
+                    <span>© TerraWhisper.com 2024 | All Rights Reserved
+                </div>
+            </footer>
+        </body>
 
-#         article_html = generate_toc(article_html)
+        </html>
+    '''
 
-#         html = f'''
-#             <!DOCTYPE html>
-#             <html lang="en">
+    util.file_write(filepath_out, html)
 
-#             <head>
-#                 <meta charset="UTF-8">
-#                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-#                 <meta name="author" content="{g.AUTHOR_NAME}">
-#                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-#                 <link rel="stylesheet" href="/style.css">
-#                 <title>{title}</title>
-#                 {g.GOOGLE_TAG}
-                
-#             </head>
-
-#             <body>
-#                 {header_html}
-                
-#                 <section class="article-section">
-#                     <div class="container">
-#                         <div class="flex items-center justify-between mb-16">
-#                             <div class="flex items-center gap-16">
-#                                 <img class="author-image" src="/martin-pellizzer.jpg" alt="">
-#                                 <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
-#                             </div>
-#                             <span>{reading_time_html}</span>
-#                         </div>
-#                         {article_html}
-#                     </div>
-#                 </section>
-
-#                 <footer>
-#                     <div class="container-lg">
-#                         <span>© TerraWhisper.com 2024 | All Rights Reserved
-#                     </div>
-#                 </footer>
-#             </body>
-
-#             </html>
-#         '''
-
-#         chunks = article_filepath_out.split('/')
-#         chunk_curr = ''
-#         for chunk in chunks[:-1]:
-#             chunk_curr += chunk + '/'
-#             try: os.makedirs(chunk_curr)
-#             except: pass
-#         util.file_write(f'{article_filepath_out}', html)
-
-#         # GET IMAGES
-#         data = util.json_read(article_filepath_in)
-#         # print(article_filepath_in)
-#         condition = data['condition']
-#         preparation = data['preparation']
-#         condition_dash = condition.lower().strip().replace(' ', '-')
-#         preparation_dash = preparation.lower().strip().replace(' ', '-')
-#         herbs = [remedy['remedy_name'] for remedy in data['remedies']]
-        
-#         # FEATURED IMAGE
-#         featured_image_folder = herbs[0].lower().strip().replace(' ', '-')
-#         try: img_name = img_dict[featured_image_folder].pop(0)
-#         except: img_name = ''
-#         if img_name != '':
-#             image_path_in = f'{IMAGE_FOLDER}/{preparation_dash}/{featured_image_folder}/{img_name}'
-#             image_path_out = f'website/images/herbal-{preparation_dash}-for-{condition_dash}-overview' + '.jpg'
-#             if not os.path.exists(image_path_out):
-#                 img = Image.open(image_path_in)
-#                 img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-#                 img.save(image_path_out, format='JPEG', optimize=True, quality=50)
-#         else:
-#             try: scientific_name = util.get_scientific_name(featured_image_folder)
-#             except: scientific_name = ''
-#             print(article_filepath_in)
-#             print(featured_image_folder)
-#             print(f'*** MISSING: {featured_image_folder} ({scientific_name}) {preparation_dash} ***')
-#             print()
-
-#         # SECTIONS IMAGES
-#         for herb in herbs:
-#             herb_dash = herb.strip().lower().replace(' ', '-')
-#             try: img_name = img_dict[herb_dash].pop(0)
-#             except: img_name = ''
-#             if img_name != '':
-#                 image_path_in = f'{IMAGE_FOLDER}/{preparation_dash}/{herb_dash}/{img_name}'
-#                 image_path_out = f'website/images/herbal-tea-for-{condition_dash}-{herb_dash}' + '.jpg'
-#                 if not os.path.exists(image_path_out):
-#                     img = Image.open(image_path_in)
-#                     img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-#                     img.save(image_path_out, format='JPEG', optimize=True, quality=50)
-#             else:
-#                 try: scientific_name = util.get_scientific_name(herb)
-#                 except: scientific_name = ''
-#                 print(article_filepath_in)
-#                 print(f'*** MISSING: {herb_dash} ({scientific_name}) {preparation_dash} ***')
-#                 print()
 
 
 def herbalism_tea_condition():
@@ -2225,27 +2142,30 @@ def page_plants():
 
 
 def page_conditions():
-    conditions_rows = util.csv_get_rows('database/tables/conditions_cleaned.csv')
+    systems_rows = util.csv_get_rows('database/tables/conditions/systems.csv')
+    conditions_rows = util.csv_get_rows('database/tables/conditions/conditions.csv')
+    
+    main_html = ''
+    for system_row in systems_rows[1:]:
+        system_id = system_row[0]
+        system_name = system_row[1]
+        main_html += f'<h2 class="mb-32">{system_name.title()} System</h2>'
 
-    conditions_html = ''
-    for condition_row in conditions_rows[1:]:
-        if condition_row[0].strip() == '': continue
-        condition_name = condition_row[0].strip().lower()
-        condition_slug = condition_name.replace(' ', '-')
-        condition_system = condition_row[1].strip().lower()
-        condition_organ_main = condition_row[2].split(',')[0].strip().lower()
-
-        conditions_html += f'<a href="/conditions/{condition_slug}.html">{condition_name}</a>'
-        print(condition_row)
-
+        conditions_rows_filtered = [row for row in conditions_rows if row[1] == system_id]
+        main_html += f'<div class="grid-4">'
+        for row in conditions_rows_filtered:
+            condition_name = row[0].strip().title()
+            main_html += f'<p>{condition_name}</p>'
+        main_html += f'</div>'
         
+    title = 'conditions'.title()
     page_url = 'conditions'
     template = util.file_read(f'templates/{page_url}.html')
-    template = template.replace('[title]', 'Plants')
+    template = template.replace('[title]', title)
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
     template = template.replace('[author_name]', g.AUTHOR_NAME)
     template = template.replace('[header]', generate_header_default())
-    template = template.replace('[items]', conditions_html)
+    template = template.replace('[main_html]', main_html)
     util.file_write(f'website/{page_url}.html', template)
 
 
@@ -2276,24 +2196,26 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 # RUN
 ##############################################################################
 
-# page_plants()
-page_conditions()
 
-quit()
 
-# quit()
+# plants_primary_secondary()
+# gen_articles_trefle()
+
+
+
+
+# teas()
 
 # home()
-# teas()
+# herbalism()
+# page_plants()
+# page_conditions()
 # top_herbs()
 # about()
 
-# herbalism()
-# herbalism_tea()
+herbalism_tea()
 # herbalism_tea_condition()
 
-plants_primary_secondary()
-gen_articles_trefle()
 
 
 # articles_medicine()

@@ -20,8 +20,8 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
 random_num = random.randint(-2, 2)
-ARTICLES_NUM = 38 - random_num
-WAIT_SECONDS = 300
+ARTICLES_NUM = 39 - random_num
+WAIT_SECONDS = 600
 
 
 options = Options()
@@ -165,7 +165,10 @@ for article_filepath in articles_filepath:
 
     # break
 
-    time.sleep(WAIT_SECONDS)
+    
+    random_time_to_wait = random.randint(-30, 30)
+    time_to_wait = WAIT_SECONDS + random_time_to_wait
+    time.sleep(time_to_wait)
 
 
 
