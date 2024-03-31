@@ -1,4 +1,4 @@
-condition\system_id\organ\synonyms\related
+condition\system_id\organ\synonyms\joint pain after viral fever
 \\\\
 bad breath\0\mouth \halitosis, mouth odour\
 dry mouth\0\mouth\\
@@ -110,6 +110,40 @@ Arteriosclerosis\2\arteries \\
 Congestive Heart Failure\2\heart \\
 Peripheral Arterial Occlusive Disease\2\arteries \\
 Varicose Veins \2\veins \\
+\\\\
+\\\\
+\\\\
+body aches\3\muscle\myalgia, muscle pain, muscle soreness \
+Osteoporosis\3\bones \\
+arthritis\3\joints \\arthritis in hands
+joint pain\3\joints \\joint pain in knee, joint pain in hands, joint pain in foot, joint pain after viral fever
+joint stiffness\3\joints \\
+Osteoarthritis\3\joints \\osteoarthritis in knees
+Rheumatoid Arthritis\3\joints \\
+Bursitis\3\joints \\
+Tendinitis\3\joints \\
+Gout\3\joints \\
+back pain\3\spine, kidney\\
+lower back pain\3\spine \\
+stiff neck\3\neck \\
+neck pain\3\neck\\
+frozen shoulder\3\shoulder \adhesive capsulitis\
+jammed finger\3\hand \\
+leg cramps\3\leg\\leg cramps at night
+leg pain\3\leg\\leg pain during periods
+Restless Leg Syndrome \3\leg\rls\
+knee pain\3\knee \\knee swelling and pain
+knee swelling\3\knee \\
+foot pain\3\foot \\
+plantar fasciitis\3\foot \\
+chapped lips\3\lips \\
+canker sores\3\mouth \aphthous ulcers \
+jaw pain\3\jaw\\
+jaw lock\3\jaw\\
+jaw clenching\3\jaw\bruxism \
+eye twitching\3\eye \myokymia \
+\\\\
+\\\\
 \\\\
 \\\\
 \\\\

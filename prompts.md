@@ -12,4 +12,4 @@ a beautiful 3/4 photo realistic shot of a cup of cinnamon tea on a wooden table 
 beautiful cup of cinnamon tea on a wooden table surrounded by medicinal herbs and spices, Pinterest, soft light, indoor
 
 
-achillea millefolium in the wild, natural light
+achillea millefolium, natural light

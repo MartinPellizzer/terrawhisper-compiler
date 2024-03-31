@@ -67,12 +67,12 @@ def gen_article_metadata(article_content):
     return f'''
         <div class="flex items-center justify-between mb-16">
             <div class="flex items-center gap-16">
-                <img class="author-image" src="/martin-pellizzer.jpg" alt="">
                 <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
             </div>
             <span>{reading_time_html}</span>
         </div>
     '''
+                # <img class="author-image" src="/martin-pellizzer.jpg" alt="">
 
 
 def breadcrumbs(filepath):
@@ -234,7 +234,7 @@ def generate_toc(content_html):
 # SITE
 ##############################################################################
 
-def home():
+def page_home():
     header = generate_header_transparent()
 
     template = util.file_read('templates/home.html')
@@ -247,7 +247,7 @@ def home():
     util.file_write(f'website/index.html', template)
 
 
-def about():
+def page_about():
     header = generate_header_default()
     content = util.file_read(f'static/about.md')
     content = markdown.markdown(content, extensions=['markdown.extensions.tables'])
@@ -263,7 +263,7 @@ def about():
     util.file_write(f'website/about.html', template)
 
 
-def top_herbs():
+def page_top_herbs():
     articles_folderpath = 'database/articles/plants'
     articles_html = ''
 
@@ -367,28 +367,28 @@ def top_herbs():
     if plants_primary_z != []: articles_html += '<h2 class="articles-alphabeta-title">' + 'Plants Starting With Letter: "z"'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_primary_z) + '</div>'
 
 
-    plants_secondary = []
-    rows = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
-    for plant in rows:
-        latin_name = plant[0].strip().capitalize()
-        entity = latin_name.lower().replace(' ', '-')
-        filepath_in = f'{articles_folderpath}/{entity}.json'
-        data = util.json_read(filepath_in)
+    # plants_secondary = []
+    # rows = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
+    # for plant in rows:
+    #     latin_name = plant[0].strip().capitalize()
+    #     entity = latin_name.lower().replace(' ', '-')
+    #     filepath_in = f'{articles_folderpath}/{entity}.json'
+    #     data = util.json_read(filepath_in)
 
-        title = data['title']
-        common_name = data['common_name']
+    #     title = data['title']
+    #     common_name = data['common_name']
 
-                    # <img src="/images/{entity}.jpg" alt="">
-        article_html = f'''
-            <a href="/plants/{entity}.html">
-                <div>
-                    <h3 class="mt-0 mb-0">{latin_name} ({common_name})</h3>
-                </div>
-            </a>
-        '''
-        plants_secondary.append(article_html)
+    #                 # <img src="/images/{entity}.jpg" alt="">
+    #     article_html = f'''
+    #         <a href="/plants/{entity}.html">
+    #             <div>
+    #                 <h3 class="mt-0 mb-0">{latin_name} ({common_name})</h3>
+    #             </div>
+    #         </a>
+    #     '''
+    #     plants_secondary.append(article_html)
 
-    articles_html += '<h2 class="articles-alphabeta-title">' + 'Other Medicinal Plants Worthy Of Notice'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_secondary) + '</div>'
+    # articles_html += '<h2 class="articles-alphabeta-title">' + 'Other Medicinal Plants Worthy Of Notice'.title() + '</h2>\n' + '<div class="articles">' +'\n'.join(plants_secondary) + '</div>'
 
 
 
@@ -452,7 +452,7 @@ def teas():
 # HERBALISM
 ##############################################################################
 
-def herbalism():
+def page_herbalism():
     page_url = 'herbalism'
 
     header = generate_header_default()
@@ -558,7 +558,6 @@ def herbalism_tea():
     '''
 
     util.file_write(filepath_out, html)
-
 
 
 def herbalism_tea_condition():
@@ -743,7 +742,7 @@ def plants_primary_secondary():
         if os.path.exists(f'website/images/{latin_name_dash}-medicine.jpg'):
             article_html += f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["medicine_intro"][0])}</p>\n'
-        article_html += f'<p>Here are the most important <a href="/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
+        article_html += f'<p>Here are the most important <a href="/plants/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
         article_html += f'<ul>' + '\n'
         article_html += f'<li>Health benefits</li>' + '\n'
         article_html += f'<li>Active constituents</li>' + '\n'
@@ -1100,7 +1099,7 @@ def articles_medicine():
         try: article_html += util.text_format_1N1_html(data['benefits_text']) + '\n'
         except: print('MISSING >>>>> BENEFITS TEXT\n')
         try:
-            article_html += f'<p>The following list shows the <a href="/{entity}/medicine/benefits.html">health benefits of {latin_name}</a>.</p>' + '\n' 
+            article_html += f'<p>The following list shows the <a href="/plants/{entity}/medicine/benefits.html">health benefits of {latin_name}</a>.</p>' + '\n' 
             article_html += lst_to_html_bold(data['benefits_list']) + '\n'
         except: print('MISSING >>>>> BENEFITS LIST\n')
 
@@ -1109,7 +1108,8 @@ def articles_medicine():
         try: article_html += util.text_format_1N1_html(data['constituents_text']) + '\n'
         except: print('MISSING >>>>> CONSTITUENTS TEXT\n')
         try:
-            article_html += f'<p>The following list shows the <a href="/{entity}/medicine/constituents.html">active constituents of {latin_name}</a>.</p>' + '\n'
+            article_html += f'<p>The following list shows the active constituents of {latin_name}.</p>' + '\n'
+            # article_html += f'<p>The following list shows the <a href="/plants/{entity}/medicine/constituents.html">active constituents of {latin_name}</a>.</p>' + '\n'
             article_html += lst_to_html_bold(data['constituents_list']) + '\n'
         except: print('MISSING >>>>> CONSTITUENTS LIST\n')
 
@@ -1118,7 +1118,8 @@ def articles_medicine():
         try: article_html += util.text_format_1N1_html(data['preparations_text']) + '\n'
         except: print('MISSING >>>>> PREPARATIONS TEXT\n')
         try:
-            article_html += f'<p>The following list shows the <a href="/{entity}/medicine/preparations.html">medicinal preparations of {latin_name}</a>.</p>' + '\n'
+            article_html += f'<p>The following list shows the medicinal preparations of {latin_name}.</p>' + '\n'
+            # article_html += f'<p>The following list shows the <a href="/plants/{entity}/medicine/preparations.html">medicinal preparations of {latin_name}</a>.</p>' + '\n'
             article_html += lst_to_html_bold(data['preparations_list']) + '\n'
         except: print('MISSING >>>>> PREPARATIONS LIST\n')
 
@@ -1229,7 +1230,7 @@ def articles_benefits():
         if not os.path.exists(article_filepath): continue
 
         article_filepath_in = article_filepath
-        article_filepath_out = f'website/plants/{entity}/medicine/benefits.json'
+        article_filepath_out = f'website/plants/{entity}/medicine/benefits.html'
 
         data = util.json_read(article_filepath_in)
         article_html = ''
@@ -1239,17 +1240,10 @@ def articles_benefits():
         if title != '': article_html += f'<h1>{title}</h1>' + '\n'
         else: print('MISSING >>>>> TITLE\n')
 
-        article_html += f'<p><img src="/images/{entity}.jpg" alt="{latin_name}"></p>' + '\n'
+        article_html += f'<p><img src="/images/{entity}-medicine-benefits-overview.jpg" alt="{latin_name} medicine benefits overview"></p>' + '\n'
         
         try: article_html += util.text_format_1N1_html(data['intro']) + '\n'
         except: print('MISSING >>>>> INTRO\n')
-        # images_plant_foldername = f'{IMAGE_FOLDER}/plants/{entity}'
-        # try: images_plant_filename = os.listdir(images_plant_foldername)
-        # except: images_plant_filename = None
-        
-        # images_filepath = []
-        # if images_plant_filename:
-        #     images_filepath = [f'{images_plant_foldername}/{filename}' for filename in images_plant_filename]
 
         try: benefits = data['benefits']
         except: benefits = []
@@ -1258,7 +1252,7 @@ def articles_benefits():
             benefit_name_dash = benefit_name.lower().replace(' ' , '-')
 
             article_html += f'<h2>{i+1}. {benefit_name}</h2>' + '\n'
-            article_html += f'<p><img src="/images/{entity}-medicine-benefits-{benefit["benefit_name"].strip().lower().replace(" ", "-")}.jpg" alt="{latin_name}"></p>' + '\n'
+            article_html += f'<p><img src="/images/{entity}-medicine-benefits-{benefit["benefit_name"].strip().lower().replace(" ", "-")}.jpg" alt="{latin_name} medicine benefits {benefit["benefit_name"].strip().lower()}"></p>' + '\n'
             try: article_html += util.text_format_1N1_html(benefit['benefit_desc']) + '\n'
             except: print(f'MISSING DESCRIPTION: {article_filepath_in} >> {benefit_name}')
             article_html += f'<p>{latin_name} {benefit_name.lower()} thanks to the active constituents listed below.</p>' + '\n'
@@ -1326,8 +1320,9 @@ def articles_benefits():
 
         random.shuffle(filepaths_in)
 
-        filepath_out = f'website/images/{entity}-medicine-benefits-overview.jpg',
-        if not os.path.exists(filepaths_in[3]):
+        filepath_out = f'website/images/{entity}-medicine-benefits-overview.jpg'
+        print('OUT:', filepaths_in[3])
+        if not os.path.exists(filepath_out):
             try: filepath_in = filepaths_in[3]
             except: 
                 print(f'MISSING IMAGE: {entity} >> {i}')
@@ -1335,20 +1330,6 @@ def articles_benefits():
             img = Image.open(filepath_in)
             img.thumbnail((768, 768), Image.Resampling.LANCZOS)
             img.save(filepath_out, format='JPEG', optimize=True, quality=50)
-
-
-        # filepaths_out = [
-        #     f'website/images/{entity}-medicine-benefits-{benefits[0]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-        #     f'website/images/{entity}-medicine-benefits-{benefits[1]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-        #     f'website/images/{entity}-medicine-benefits-{benefits[2]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-        #     f'website/images/{entity}-medicine-benefits-{benefits[3]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-        #     f'website/images/{entity}-medicine-benefits-{benefits[4]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-        #     f'website/images/{entity}-medicine-benefits-{benefits[5]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-        #     f'website/images/{entity}-medicine-benefits-{benefits[6]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-        #     f'website/images/{entity}-medicine-benefits-{benefits[7]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-        #     f'website/images/{entity}-medicine-benefits-{benefits[8]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-        #     f'website/images/{entity}-medicine-benefits-{benefits[9]["benefit_name"].strip().lower().replace(" ", "-")}.jpg',
-        # ]
 
         for i, benefit in enumerate(benefits[:10]):
             filepath_out = f'website/images/{entity}-medicine-benefits-{benefit["benefit_name"].strip().lower().replace(" ", "-")}.jpg'
@@ -1654,7 +1635,7 @@ def gen_articles_trefle():
         if os.path.exists(f'website/images/{entity}-medicine.jpg'):
             article_html += f'<p><img src="/images/{entity}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(data["medicine_intro"][0])}</p>\n'
-        article_html += f'<p>Here are the most important <a href="/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
+        article_html += f'<p>Here are the most important medicinal aspects of {latin_name}.</p>' + '\n'
         article_html += f'<ul>' + '\n'
         article_html += f'<li>Health benefits</li>' + '\n'
         article_html += f'<li>Active constituents</li>' + '\n'
@@ -1784,6 +1765,219 @@ def gen_articles_trefle():
             </html>
         '''
 
+        util.file_write(article_filepath_out, html)
+
+
+        # GET IMAGES
+        folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
+        if not os.path.exists(folderpath): 
+            print('MISSING >>>>> IMAGE FOLDER')
+            continue
+        filenames = os.listdir(folderpath)
+        filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+        random.shuffle(filepaths_in)
+
+        # GENERATE IMAGES IF NEW
+        filepaths_out = [
+            f'website/images/{entity}-overview.jpg',
+            f'website/images/{entity}-medicine.jpg',
+            f'website/images/{entity}-horticulture.jpg',
+            f'website/images/{entity}-botany.jpg',
+            f'website/images/{entity}-history.jpg',
+        ]
+
+        for i, filepath_out in enumerate(filepaths_out):
+            if os.path.exists(filepath_out): continue
+            filepath_in = filepaths_in[i]
+            img = Image.open(filepath_in)
+            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+
+
+##############################################################################
+# ARTICLES PLANTS
+##############################################################################
+
+def gen_plants():
+    articles_folderpath = 'database/articles/plants'
+
+    # plants_primary = [row for row in util.csv_get_rows('database/tables/plants.csv')[1:]]
+    # plants_secondary = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
+    # plants_trefle = [row for row in util.csv_get_rows('database/tables/plants/trefle.csv')[1:]]
+
+    # plants = []
+    # for plant in plants_primary: plants.append(plant)
+    # for plant in plants_secondary: plants.append(plant)
+    # for plant in plants_trefle: plants.append(plant)
+
+    plants_folder_content = os.listdir(articles_folderpath)
+    plants_filenames = [content for content in plants_folder_content if content.endswith('.json')]
+
+    for plant_filename in plants_filenames:
+        article_filepath = f'{articles_folderpath}/{plant_filename}'
+        print(article_filepath)
+        
+        data = util.json_read(article_filepath)
+        latin_name = data['latin_name']
+        entity = data['entity']
+        
+        article_filepath_in = article_filepath
+        article_filepath_out = f'website/plants/{entity}.html'
+
+        data = util.json_read(article_filepath_in)
+        title = data['title']
+        latin_name = data['latin_name']
+        latin_name_dash = latin_name.lower().replace(' ', '-')
+        article_html = ''
+
+        article_html += f'<h1>{title}</h1>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-overview.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-overview.jpg" alt="{latin_name} overview"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["intro_desc"][0])}</p>' + '\n'
+
+        article_html += f'<h2>What are the medicinal uses of {latin_name}?</h2>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-medicine.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["medicine_intro"][0])}</p>\n'
+        if os.path.exists(f'database/articles/plants/{entity}/medicine.json'):
+            article_html += f'<p>Here are the most important <a href="/plants/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
+        else:
+            article_html += f'<p>Here are the most important medicinal aspects of {latin_name}.</p>' + '\n'
+        article_html += f'<ul>' + '\n'
+        article_html += f'<li>Health benefits</li>' + '\n'
+        article_html += f'<li>Active constituents</li>' + '\n'
+        article_html += f'<li>Medicinal preparations</li>' + '\n'
+        article_html += f'<li>Side effects</li>' + '\n'
+        article_html += f'<li>Precautions</li>' + '\n'
+        article_html += f'</ul>' + '\n'
+        article_html += f'<h3>What are the health benefits of {latin_name}?</h3>' + '\n'
+        try: article_html += f'<p>{util.text_format_1N1_html(data["benefits_desc"][0])}</p>\n'
+        except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][0])}</p>\n'
+        article_html += f'<h3>What are the active constituents of {latin_name}?</h3>' + '\n'
+        try: article_html += f'<p>{util.text_format_1N1_html(data["constituents_desc"][0])}</p>\n'
+        except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][1])}</p>\n'
+        article_html += f'<h3>What are the medicinal preparations of {latin_name}?</h3>' + '\n'
+        try: article_html += f'<p>{util.text_format_1N1_html(data["preparations_desc"][0])}</p>\n'
+        except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][2])}</p>\n'
+        article_html += f'<h3>What are the possible side effects of {latin_name}?</h3>' + '\n'
+        try: article_html += f'<p>{util.text_format_1N1_html(data["side_effects_desc"][0])}</p>\n'
+        except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][3])}</p>\n'
+        article_html += f'<h3>What are the precautions to take when using {latin_name}?</h3>' + '\n'
+        try: article_html += f'<p>{util.text_format_1N1_html(data["precautions_desc"][0])}</p>\n'
+        except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][4])}</p>\n'
+
+        article_html += f'<h2>What are the horticultural conditions of {latin_name}?</h2>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-horticulture.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-horticulture.jpg" alt="{latin_name} horticulture"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_intro"][0])}</p>\n'
+        article_html += f'<p>Here are the most important horticultural aspects of {latin_name}.</p>' + '\n'
+        article_html += f'<ul>' + '\n'
+        article_html += f'<li>Growth Requirements</li>' + '\n'
+        article_html += f'<li>Planting Tips</li>' + '\n'
+        article_html += f'<li>Caring Tips</li>' + '\n'
+        article_html += f'<li>Harvesting Tips</li>' + '\n'
+        article_html += f'<li>Pests and Diseases</li>' + '\n'
+        article_html += f'</ul>' + '\n'
+        article_html += f'<h3>What are the growth requirements uses of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][0])}</p>' + '\n'
+        article_html += f'<h3>What are the planting tips of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][1])}</p>' + '\n'
+        article_html += f'<h3>What are the caring tips of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][2])}</p>' + '\n'
+        article_html += f'<h3>What are the harvesting tips of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][3])}</p>' + '\n'
+        article_html += f'<h3>What are the pests and diseases of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][4])}</p>' + '\n'
+
+        article_html += f'<h2>What are the botanical characteristics of {latin_name}?</h2>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-botany.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-botany.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_intro"][0])}</p>\n'
+        article_html += f'<p>Here are the most important botanical characteristics of {latin_name}.</p>' + '\n'
+        article_html += f'<ul>' + '\n'
+        article_html += f'<li>Taxonomy</li>' + '\n'
+        article_html += f'<li>Morphology</li>' + '\n'
+        article_html += f'<li>Variants Names and Differences</li>' + '\n'
+        article_html += f'<li>Geographic Distribution and Natural Habitats</li>' + '\n'
+        article_html += f'<li>Life-Cycle</li>' + '\n'
+        article_html += f'</ul>' + '\n'
+        article_html += f'<h3>What is the taxonomy of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][0])}</p>' + '\n'
+        article_html += f'<h3>What is the morphology of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][1])}</p>' + '\n'
+        article_html += f'<h3>What are the variants of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][2])}</p>' + '\n'
+        article_html += f'<h3>What is the geographic distribution of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][3])}</p>' + '\n'
+        article_html += f'<h3>What is the life-cycle of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][4])}</p>' + '\n'
+
+        article_html += f'<h2>What are the historical references of {latin_name}?</h2>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-history.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-history.jpg" alt="{latin_name} history"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_intro"][0])}</p>\n'
+        article_html += f'<p>Here are the most important historical references of {latin_name}.</p>' + '\n'
+        article_html += f'<ul>' + '\n'
+        article_html += f'<li>Historical Medicinal Uses</li>' + '\n'
+        article_html += f'<li>Mythology</li>' + '\n'
+        article_html += f'<li>Ancient Rituals</li>' + '\n'
+        article_html += f'<li>Literature</li>' + '\n'
+        article_html += f'<li>Symbolism</li>' + '\n'
+        article_html += f'</ul>' + '\n'
+        article_html += f'<h3>What are the historical medicinal uses of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][0])}</p>' + '\n'
+        article_html += f'<h3>What are the mythological references of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][1])}</p>' + '\n'
+        article_html += f'<h3>What are the ancient rituals of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][2])}</p>' + '\n'
+        article_html += f'<h3>What are the literature references of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][3])}</p>' + '\n'
+        article_html += f'<h3>What are the symbolic aspects of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][4])}</p>' + '\n'
+
+        header_html = generate_header_default()
+        meta = gen_article_metadata(article_html)
+        article_html = generate_toc(article_html)
+
+        breadcrumbs_html = breadcrumbs(article_filepath_out)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
         util.file_write(f'{article_filepath_out}', html)
 
 
@@ -1811,6 +2005,8 @@ def gen_articles_trefle():
             img = Image.open(filepath_in)
             img.thumbnail((768, 768), Image.Resampling.LANCZOS)
             img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+
 
 
 
@@ -2094,7 +2290,7 @@ def page_plants():
     
     json_filepaths_plants = [] 
     for filename in json_filenames_plants_primary_secondary: json_filepaths_plants.append(f'database/articles/plants/{filename}')
-    for filename in json_filenames_plants_treffle: json_filepaths_plants.append(f'database/articles/plants_trefle/{filename}')
+    # for filename in json_filenames_plants_treffle: json_filepaths_plants.append(f'database/articles/plants_trefle/{filename}')
 
     plants_list = []
     for filepath in json_filepaths_plants:
@@ -2198,28 +2394,28 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 
-# plants_primary_secondary()
-# gen_articles_trefle()
 
 
 
 
 # teas()
 
-# home()
-# herbalism()
-# page_plants()
-# page_conditions()
-# top_herbs()
-# about()
+page_home()
+page_herbalism()
+page_plants()
+page_conditions()
+page_top_herbs()
+page_about()
 
-herbalism_tea()
+# herbalism_tea()
 # herbalism_tea_condition()
 
 
 
-# articles_medicine()
+gen_plants()
+# gen_articles_trefle()
 
+# articles_medicine()
 # articles_benefits()
 # articles_constituents()
 # articles_preparations()
@@ -2228,8 +2424,8 @@ herbalism_tea()
 
 # gen_pages_taxonomy()
 
-# sitemap.sitemap_all()
-# shutil.copy2('sitemap.xml', 'website/sitemap.xml')
+sitemap.sitemap_all()
+shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 
 # taxonomy()
 

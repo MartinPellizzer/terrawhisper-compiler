@@ -13,7 +13,7 @@ import utils_ai
 import prompts
 import datetime
 
-trefle_today_num = 130
+trefle_today_num = 165
 index_last_plant = 0
 # index_last_plant = 100
 number_of_plants_to_do_today = index_last_plant + trefle_today_num
@@ -387,7 +387,7 @@ def ai_entity_main():
 # ---------------------------------------------------------------------
         
 def ai_entity_trefle_main():
-    plants_trefle = [row for row in util.csv_get_rows('database/tables/_plants_all_new.csv')[1:]]
+    plants_trefle = [row for row in util.csv_get_rows('database/tables/plants/trefle.csv')[1:]]
     plants_trefle_today = plants_trefle[index_last_plant:number_of_plants_to_do_today]
 
     plants_primary = [row for row in util.csv_get_rows('database/tables/plants.csv')[1:]]
@@ -1715,7 +1715,8 @@ def ai_herbalism_teas():
         for system in data['systems']:
             data_system_name = system['name']
             if data_system_name.lower().strip() == system_name.lower().strip():
-                json_conditions = system['conditions']
+                try: json_conditions = system['conditions']
+                except: json_conditions = []
                 found = False
                 for json_condition in json_conditions:
                     if json_condition['name'].strip().lower() == condition_name.strip().lower():
@@ -1760,7 +1761,7 @@ def ai_herbalism_teas():
 
                 time.sleep(30)
                 
-            print(condition)
+            # print(condition)
 
     # TODO: DELETE SYSTEMS/CONDITIONS IF MISSING FROM CSV
 
@@ -1793,7 +1794,7 @@ def ai_herbalism_teas():
 # ai_constituents_main()
 # ai_preparations_main()
 # ai_side_effects_main()
-ai_precautions_main()
+ai_precautions_main() # TODO
 
 
 # field_rename('database/articles/plants', 'medicine_desc', 'medicine_intro')

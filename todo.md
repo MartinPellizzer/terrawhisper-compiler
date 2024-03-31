@@ -30,19 +30,19 @@
 # ###################################################
 
 - TEAS PAGE:
-    [1] gen ai 1 sentence each condition in system in herbalism/tea.json
     [1] add all remaining conditions
+    [1] gen ai 1 sentence each condition in system in herbalism/tea.json
     [1] adjust conditions names using the names from old condition csv file (because pins already linking)
     [1] complete other sections in tea page (ex. how to)
 
-- REFACTORIN:
-    [1] make 1 function only for both primary_secondary plants and trefle plants
+- TOP HERBS PAGE:
+    [1] redo title and description
 
 - PAGES:
-    [1] add benefits, constituents, etc... pages
+    [1] add constituents, etc... pages
+    [1] breadcrumbs on all pages and articles
 
 [3] improve entity articles (culinary, etc...)
-[2] pages entity/medicine/precautions
 
 - IMAGES:
     [1] complete images for 100 articles
@@ -55,14 +55,16 @@
 
 - SITEMAP:
     - update on all articles (not just entity articles)
-    - add benefits, constituents, etc... when html articles generated
+    - add constituents, etc... when html articles generated
     - also, organize better sitemap.py
     
 - PLANTS PAGE:
     [3] make downloadable csv generation function faster
     - update on all articles (not just entity articles)
-    - add benefits, constituents, etc... when html articles generated
-    - also, organize better sitemap.py
-
+    - add constituents, etc... when html articles generated
+    
 - CONDITIONS PAGE:
     [2] do page conditions
+
+    - CONDITIONS:
+        [1] to do conditions page, you must generate conditions articles to link to (create template for article)

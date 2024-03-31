@@ -21,7 +21,7 @@ import random
 
 random_num = random.randint(-2, 2)
 ARTICLES_NUM = 39 - random_num
-WAIT_SECONDS = 600
+WAIT_SECONDS = 200
 
 
 options = Options()

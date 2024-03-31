@@ -287,6 +287,15 @@ entity_history_intro = [
         Start with the following words: [latin_name][aka] has been used historically for as a medicine for .
     ''',
     '''
+        Write a 5-sentence paragraph about the historical aspects of [latin_name].
+        Include 1 sentence about the historical medicinal uses of [latin_name].
+        Include 1 sentence about the mythology of [latin_name].
+        Include 1 sentence about the ancient rituals of [latin_name].
+        Include 1 sentence about the literature of [latin_name].
+        Include 1 sentence about the symbolism of [latin_name].
+        Start with the following words: [latin_name][aka] has been used historically for as a medicine for .
+    ''',
+    '''
         Write 1 paragraph in 5 sentences about the historical aspects of [latin_name].
         Include the historical medicinal uses of [latin_name].
         Include the mythology of [latin_name].
