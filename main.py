@@ -235,7 +235,7 @@ def generate_toc(content_html):
 ##############################################################################
 
 def page_home():
-    header = generate_header_transparent()
+    header = generate_header_default()
 
     template = util.file_read('templates/home.html')
             
@@ -2286,7 +2286,7 @@ def taxonomy():
 
 def page_plants():
     json_filenames_plants_primary_secondary = [filename.lower().strip() for filename in os.listdir('database/articles/plants') if filename.endswith('.json')]
-    json_filenames_plants_treffle = [filename.lower().strip() for filename in os.listdir('database/articles/plants_trefle') if filename.endswith('.json')]
+    # json_filenames_plants_treffle = [filename.lower().strip() for filename in os.listdir('database/articles/plants_trefle') if filename.endswith('.json')]
     
     json_filepaths_plants = [] 
     for filename in json_filenames_plants_primary_secondary: json_filepaths_plants.append(f'database/articles/plants/{filename}')
@@ -2313,6 +2313,7 @@ def page_plants():
     template = template.replace('[items]', plants_html)
     util.file_write(f'website/{page_url}.html', template)
 
+    # GENERATE CSV TO DOWNLOAD
     # rows = []
     # for filepath in json_filepaths_plants:
     #     slug = filepath.split('/')[-1].split('.')[0].strip().lower()
@@ -2320,7 +2321,7 @@ def page_plants():
 
     # csv_plants_primary = util.csv_get_rows('database/tables/plants.csv')
     # csv_plants_secondary = util.csv_get_rows('database/tables/plants-secondary.csv')
-    # csv_plants_trefle = util.csv_get_rows('database/tables/_plants_all_new.csv')
+    # csv_plants_trefle = util.csv_get_rows('database/tables/plants/trefle.csv')
 
     # csv_plants = [] 
     # for row in csv_plants_primary: csv_plants.append(row)
@@ -2401,19 +2402,18 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 # teas()
 
 page_home()
-page_herbalism()
-page_plants()
-page_conditions()
-page_top_herbs()
-page_about()
+# page_herbalism()
+# page_plants()
+# page_conditions()
+# page_top_herbs()
+# page_about()
 
 # herbalism_tea()
 # herbalism_tea_condition()
 
 
 
-gen_plants()
-# gen_articles_trefle()
+# gen_plants()
 
 # articles_medicine()
 # articles_benefits()

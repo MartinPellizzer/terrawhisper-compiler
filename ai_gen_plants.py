@@ -13,7 +13,7 @@ import utils_ai
 import prompts
 import datetime
 
-trefle_today_num = 165
+trefle_today_num = 200
 index_last_plant = 0
 # index_last_plant = 100
 number_of_plants_to_do_today = index_last_plant + trefle_today_num
@@ -414,7 +414,7 @@ def ai_entity_trefle_main():
         genus = plant[3].strip().title()
         family = plant[4].strip().title()
 
-        json_filepath = f'database/articles/plants_trefle/{entity}.json'
+        json_filepath = f'database/articles/plants/{entity}.json'
 
         util.json_generate_if_not_exists(json_filepath)
         data = util.json_read(json_filepath)
@@ -1787,7 +1787,7 @@ def ai_herbalism_teas():
 # ai_entity_taxonomy_csv()
 
 # ai_entity_main()
-# ai_entity_trefle_main()
+ai_entity_trefle_main()
 
 # ai_medicine_main()
 # ai_benefits_main()
