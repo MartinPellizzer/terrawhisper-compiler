@@ -1787,17 +1787,17 @@ def ai_herbalism_teas():
 # ai_entity_taxonomy_csv()
 
 # ai_entity_main()
-ai_entity_trefle_main()
+# ai_entity_trefle_main()
 
 # ai_medicine_main()
 # ai_benefits_main()
 # ai_constituents_main()
 # ai_preparations_main()
 # ai_side_effects_main()
-ai_precautions_main() # TODO
+# ai_precautions_main()
 
 
 # field_rename('database/articles/plants', 'medicine_desc', 'medicine_intro')
 # field_delete('database/articles/plants', 'intro_desc')
 
-# ai_herbalism_teas()
+ai_herbalism_teas()

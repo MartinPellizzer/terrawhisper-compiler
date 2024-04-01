@@ -1108,8 +1108,8 @@ def articles_medicine():
         try: article_html += util.text_format_1N1_html(data['constituents_text']) + '\n'
         except: print('MISSING >>>>> CONSTITUENTS TEXT\n')
         try:
-            article_html += f'<p>The following list shows the active constituents of {latin_name}.</p>' + '\n'
-            # article_html += f'<p>The following list shows the <a href="/plants/{entity}/medicine/constituents.html">active constituents of {latin_name}</a>.</p>' + '\n'
+            # article_html += f'<p>The following list shows the active constituents of {latin_name}.</p>' + '\n'
+            article_html += f'<p>The following list shows the <a href="/plants/{entity}/medicine/constituents.html">active constituents of {latin_name}</a>.</p>' + '\n'
             article_html += lst_to_html_bold(data['constituents_list']) + '\n'
         except: print('MISSING >>>>> CONSTITUENTS LIST\n')
 
@@ -2413,11 +2413,11 @@ page_home()
 
 
 
-# gen_plants()
+gen_plants()
 
-# articles_medicine()
-# articles_benefits()
-# articles_constituents()
+articles_medicine()
+articles_benefits()
+articles_constituents()
 # articles_preparations()
 
 
