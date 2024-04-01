@@ -28,6 +28,12 @@
 # ###################################################
 # TODO
 # ###################################################
+- IMAGES:
+    [1] reorganize images in c://...images/teas...
+
+- PAGES:
+    [1] add constituents, etc... pages
+    [1] breadcrumbs on all pages and articles
 
 - TEAS PAGE:
     [1] add all remaining conditions
@@ -38,10 +44,6 @@
 - TOP HERBS PAGE:
     [1] redo title and description
 
-- PAGES:
-    [1] add constituents, etc... pages
-    [1] breadcrumbs on all pages and articles
-
 [3] improve entity articles (culinary, etc...)
 
 - IMAGES:
@@ -51,11 +53,8 @@
 - ERRORS:
     - check errors in plants articles (trefle) - formatting and content errors
 
-- generate taxomony pages
-
 - SITEMAP:
-    - update on all articles (not just entity articles)
-    - add constituents, etc... when html articles generated
+    - add benefitsm, constituents, etc... when html articles generated
     - also, organize better sitemap.py
     
 - PLANTS PAGE:
@@ -64,7 +63,10 @@
     - add constituents, etc... when html articles generated
     
 - CONDITIONS PAGE:
-    [2] do page conditions
+    [1] do page conditions
 
     - CONDITIONS:
         [1] to do conditions page, you must generate conditions articles to link to (create template for article)
+
+- PAGE TAXONOMY
+    [3] generate
