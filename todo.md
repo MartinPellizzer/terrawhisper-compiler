@@ -70,3 +70,7 @@
 
 - PAGE TAXONOMY
     [3] generate
+
+- PLANTS:
+    [3] scrape_trefle_plant.py - scrape plants data
+    [3] scrape_trefle_plant.py - also scrape powo for data (ex. full taxonomy?)
