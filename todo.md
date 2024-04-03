@@ -28,6 +28,9 @@
 # ###################################################
 # TODO
 # ###################################################
+- REFACTOR:
+    [3] make benefits, constituents, etc... pages similar to side effects pages (main.py function) 
+
 - IMAGES:
     [1] reorganize images in c://...images/teas...
 
