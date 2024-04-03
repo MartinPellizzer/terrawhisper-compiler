@@ -989,7 +989,8 @@ def articles_medicine():
         try: article_html += util.text_format_1N1_html(data['side_effects_text']) + '\n'
         except: print('MISSING >>>>> SIDE EFFECTS TEXT\n')
         try:
-            article_html += f'<p>The following list shows the possible side effects of {latin_name} for medicinal purposes.</p>' + '\n'
+            # article_html += f'<p>The following list shows the possible side effects of {latin_name} for medicinal purposes.</p>' + '\n'
+            article_html += f'<p>The following list shows the <a href="/plants/{entity}/medicine/side-effects.html">possible side effects of {latin_name}</a>.</p>' + '\n'
             article_html += lst_to_html_bold(data['side_effects_list']) + '\n'
         except: print('MISSING >>>>> SIDE EFFECTS LIST\n')
 
@@ -1350,7 +1351,7 @@ def articles_preparations():
 
             article_html += f'<h2>{i+1}. {item_name}</h2>' + '\n'
             article_html += f'<p><img src="/images/{entity}-medicine-preparations-{item["preparation_name"].strip().lower().replace(" ", "-")}.jpg" alt="{latin_name}"></p>' + '\n'
-            try: article_html += util.text_format_1N1_html(item['constituent_desc']) + '\n'
+            try: article_html += util.text_format_1N1_html(item['preparation_desc']) + '\n'
             except: print(f'MISSING DESCRIPTION: {article_filepath_in} >> {item_name}')
             # article_html += f'<p>{latin_name} {item_name.lower()} thanks to the active preparations listed below.</p>' + '\n'
 
@@ -1429,6 +1430,242 @@ def articles_preparations():
             img = Image.open(filepath_in)
             img.thumbnail((768, 768), Image.Resampling.LANCZOS)
             img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+
+def articles_side_effects():
+    articles_folderpath = 'database/articles/plants'
+
+    for plant in plants:
+
+        # TEXT    
+        latin_name = plant[cols['latin_name']].strip()
+        entity = latin_name.lower().replace(' ', '-')
+
+        article_filepath = f'{articles_folderpath}/{entity}/medicine/side-effects.json'
+        article_filepath_in = article_filepath
+        article_filepath_out = f'website/plants/{entity}/medicine/side-effects.html'
+
+        if not os.path.exists(article_filepath): continue
+
+        data = util.json_read(article_filepath_in)
+
+        article_html = ''
+
+        try: title = data["title"]
+        except: title = ''
+        if title != '': article_html += f'<h1>{title}</h1>' + '\n'
+        else: print('MISSING >>>>> TITLE\n')
+
+        article_html += f'<p><img src="/images/{entity}-medicine-side-effects-overview.jpg" alt="{latin_name} medicine side effects overview"></p>' + '\n'
+        
+        try: article_html += util.text_format_1N1_html(data['intro']) + '\n'
+        except: print('MISSING >>>>> INTRO\n')
+
+        try: side_effects = data['side_effects']
+        except: side_effects = []
+        for i, item in enumerate(side_effects[:10]):
+            try: item_name = item['side_effect_name'].strip()
+            except:
+                print('MISSING >>>>> side_effects NAME\n')
+                continue
+            item_name_dash = item_name.lower().replace(' ' , '-')
+
+            article_html += f'<h2>{i+1}. {item_name}</h2>' + '\n'
+            article_html += f'<p><img src="/images/{entity}-medicine-side-effects-{item["side_effect_name"].strip().lower().replace(" ", "-")}.jpg" alt="{latin_name}"></p>' + '\n'
+            try: article_html += util.text_format_1N1_html(item['desc']) + '\n'
+            except: print(f'MISSING DESCRIPTION: {article_filepath_in} >> {item_name}')
+            # article_html += f'<p>{latin_name} {item_name.lower()} thanks to the active preparations listed below.</p>' + '\n'
+
+        header_html = generate_header_default()
+        meta = gen_article_metadata(article_html)
+        article_html = generate_toc(article_html)
+        breadcrumbs_html = breadcrumbs(article_filepath_out)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(f'{article_filepath_out}', html)
+
+        # IMAGES
+        folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
+        if not os.path.exists(folderpath): 
+            print(f'MISSING >>>>> IMAGE FOLDER --- {entity}')
+            continue
+        filenames = os.listdir(folderpath)
+        filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+
+        random.shuffle(filepaths_in)
+
+        filepath_out = f'website/images/{entity}-medicine-side-effects-overview.jpg'
+        if not os.path.exists(filepath_out):
+            try: 
+                filepath_in = filepaths_in[3]
+                img = Image.open(filepath_in)
+                img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+                img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+            except: 
+                print(f'MISSING IMAGE: {entity} >> {i}')
+                continue
+
+        for i, item in enumerate(side_effects[:10]):
+            filepath_out = f'website/images/{entity}-medicine-side-effects-{item["side_effect_name"].strip().lower().replace(" ", "-")}.jpg'
+            if os.path.exists(filepath_out): continue
+            print(filepath_out)
+            try: filepath_in = filepaths_in[i]
+            except: 
+                print(f'MISSING IMAGE: {entity} >> {i}')
+                continue
+            img = Image.open(filepath_in)
+            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+
+def articles_side_effects_new():
+    articles_folderpath = 'database/articles/plants'
+    plants_folders = [folder for folder in os.listdir(articles_folderpath) if os.path.isdir(f'{articles_folderpath}/{folder}')] 
+
+    for plant_folder in plants_folders:
+        
+        article_filepath_in = f'{articles_folderpath}/{plant_folder}/medicine/side-effects.json'
+        article_filepath_out = f'website/plants/{plant_folder}/medicine/side-effects.html'
+
+        if not os.path.exists(article_filepath_in): continue
+        
+        data = util.json_read(article_filepath_in)
+        entity = data['entity']
+        scientific_name = data['latin_name']
+        common_name = data['common_name']
+        title = data['title']
+        side_effects = data['side_effects']
+
+        article_html = ''
+        article_html += f'<h1>{title}</h1>' + '\n'
+        article_html += f'<p><img src="/images/{entity}-medicine-side-effects-overview.jpg" alt="{scientific_name} medicine side effects overview"></p>' + '\n'
+        article_html += util.text_format_1N1_html(data['intro']) + '\n'
+
+        i = 0
+        for item in side_effects[:10]:
+            i += 1
+            side_effect_name = item['side_effect_name'].strip()
+            side_effect_name_dash = side_effect_name.lower().replace(' ', '-')
+            side_effect_desc = item['desc'].strip()
+            article_html += f'<h2>{i}. {side_effect_name.title()}</h2>' + '\n'
+            article_html += f'<p><img src="/images/{entity}-medicine-side-effects-{side_effect_name_dash}.jpg" alt="{scientific_name} medicine side effects {side_effect_name}"></p>' + '\n'
+            article_html += util.text_format_1N1_html(side_effect_desc) + '\n'
+
+        # META
+        header_html = generate_header_default()
+        meta = gen_article_metadata(article_html)
+        article_html = generate_toc(article_html)
+        breadcrumbs_html = breadcrumbs(article_filepath_out)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(f'{article_filepath_out}', html)
+
+        # IMAGES
+        folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
+        if not os.path.exists(folderpath): 
+            print(f'MISSING >>>>> IMAGE FOLDER --- {entity}')
+            continue
+        filenames = os.listdir(folderpath)
+        filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+
+        random.shuffle(filepaths_in)
+
+        filepath_out = f'website/images/{entity}-medicine-side-effects-overview.jpg'
+        if not os.path.exists(filepath_out):
+            try: 
+                filepath_in = filepaths_in[3]
+                img = Image.open(filepath_in)
+                img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+                img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+            except: 
+                print(f'MISSING IMAGE: {entity} >> {i}')
+                continue
+
+        i = 0
+        for item in side_effects[:10]:
+            side_effect_name_dash = item['side_effect_name'].lower().replace(' ', '-')
+
+            filepath_out = f'website/images/{entity}-medicine-side-effects-{side_effect_name_dash}.jpg'
+            if os.path.exists(filepath_out): continue
+            print(filepath_out)
+            try: filepath_in = filepaths_in[i]
+            except: 
+                print(f'MISSING IMAGE: {entity} >> {i}')
+                continue
+            img = Image.open(filepath_in)
+            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+            i += 1
 
 
 
@@ -2018,23 +2255,25 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 # teas()
 
-page_home()
-page_plants()
-page_conditions()
-page_top_herbs()
-page_about()
+# page_home()
+# page_plants()
+# page_conditions()
+# page_top_herbs()
+# page_about()
 
-page_herbalism()
-page_herbalism_tea()
-page_herbalism_tea_condition()
+# page_herbalism()
+# page_herbalism_tea()
+# page_herbalism_tea_condition()
 
 
 
-articles_plants()
+# articles_plants()
 # articles_medicine()
 # articles_benefits()
 # articles_constituents()
 # articles_preparations()
+# articles_side_effects()
+articles_side_effects_new()
 
 
 
