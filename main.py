@@ -25,12 +25,6 @@ try: os.makedirs('website/images')
 except: pass
 
 
-plants = [row for row in util.csv_get_rows('database/tables/plants.csv')]
-cols = {}
-for i, item in enumerate(plants[0]):
-    cols[item] = i
-plants = plants[1:g.ARTICLES_NUM+1]
-
 
 
 ##############################################################################
@@ -248,9 +242,14 @@ def page_home():
 
 
 def page_about():
+    page_url = 'about'
+    article_filepath_out = f'website/{page_url}.html'
+
     header = generate_header_default()
+    breadcrumbs_html = breadcrumbs(article_filepath_out)
     content = util.file_read(f'static/about.md')
     content = markdown.markdown(content, extensions=['markdown.extensions.tables'])
+    print(content)
     
     template = util.file_read('templates/about.html')
 
@@ -258,9 +257,10 @@ def page_about():
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
     template = template.replace('[author_name]', g.AUTHOR_NAME)
     template = template.replace('[header]', header)
+    template = template.replace('[breadcrumbs]', breadcrumbs_html)
     template = template.replace('[content]', content)
 
-    util.file_write(f'website/about.html', template)
+    util.file_write(article_filepath_out, template)
 
 
 def page_top_herbs():
@@ -406,6 +406,138 @@ def page_top_herbs():
     page_html = page_html.replace('[articles]', articles_html)
 
     util.file_write(f'website/{page_url}.html', page_html)
+
+
+def page_top_herbs_new():
+    articles_folderpath = 'database/articles/plants'
+    plants = util.csv_get_rows('database/tables/plants.csv')
+    articles_html = ''
+
+    plants_primary = []
+    for plant in plants[1:]:
+        latin_name = plant[0].strip().capitalize()
+        entity = latin_name.lower().replace(' ', '-')
+        filepath_in = f'{articles_folderpath}/{entity}.json'
+        data = util.json_read(filepath_in)
+
+        title = data['title']
+        common_name = data['common_name']
+
+        article_html = f'''
+            <a href="/plants/{entity}.html">
+                <div>
+                    <img src="/images/{entity}-overview.jpg" alt="">
+                    <h3 class="mt-0 mb-0">{latin_name} ({common_name})</h3>
+                </div>
+            </a>
+        '''
+        plants_primary.append(article_html)
+
+    articles_html += '<div class="articles">' +'\n'.join(plants_primary) + '</div>'
+
+    page_url = 'top-herbs'
+    article_filepath_out = f'website/{page_url}.html'
+
+    header = generate_header_default()
+    breadcrumbs_html = breadcrumbs(article_filepath_out)
+
+    template = util.file_read(f'templates/{page_url}.html')
+    template = template.replace('[meta_title]', 'Herbs')
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+    template = template.replace('[author_name]', g.AUTHOR_NAME)
+    template = template.replace('[header]', header)
+    template = template.replace('[breadcrumbs]', breadcrumbs_html)
+    template = template.replace('[articles]', articles_html)
+
+    util.file_write(article_filepath_out, template)
+
+
+def page_plants(regen_csv=False):
+    json_filenames_plants_primary_secondary = [filename.lower().strip() for filename in os.listdir('database/articles/plants') if filename.endswith('.json')]
+    # json_filenames_plants_treffle = [filename.lower().strip() for filename in os.listdir('database/articles/plants_trefle') if filename.endswith('.json')]
+    
+    json_filepaths_plants = [] 
+    for filename in json_filenames_plants_primary_secondary: json_filepaths_plants.append(f'database/articles/plants/{filename}')
+    # for filename in json_filenames_plants_treffle: json_filepaths_plants.append(f'database/articles/plants_trefle/{filename}')
+
+    plants_list = []
+    for filepath in json_filepaths_plants:
+        filepath_in = f'{filepath}'
+        data = util.json_read(filepath_in)
+        plant_name = data['latin_name']
+        plant_slug = data['entity']
+        plants_list.append(f'<a href="/plants/{plant_slug}.html">{plant_name}</a>')
+
+    plants_list = sorted(plants_list)
+    plants_html = ''.join(plants_list)
+
+    page_url = 'plants'
+    article_filepath_out = f'website/{page_url}.html'
+    template = util.file_read(f'templates/{page_url}.html')
+    template = template.replace('[title]', 'Plants')
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+    template = template.replace('[author_name]', g.AUTHOR_NAME)
+    template = template.replace('[header]', generate_header_default())
+    template = template.replace('[breadcrumbs]', breadcrumbs(article_filepath_out))
+    template = template.replace('[plants_num]', str(len(json_filepaths_plants)))
+    template = template.replace('[items]', plants_html)
+    util.file_write(article_filepath_out, template)
+
+    # GENERATE CSV TO DOWNLOAD
+    if regen_csv:
+        rows = []
+        for filepath in json_filepaths_plants:
+            slug = filepath.split('/')[-1].split('.')[0].strip().lower()
+            rows.append([slug])
+
+        csv_plants_primary = util.csv_get_rows('database/tables/plants.csv')
+        csv_plants_secondary = util.csv_get_rows('database/tables/plants-secondary.csv')
+        csv_plants_trefle = util.csv_get_rows('database/tables/plants/trefle.csv')
+
+        csv_plants = [] 
+        for row in csv_plants_primary: csv_plants.append(row)
+        for row in csv_plants_secondary: csv_plants.append(row)
+        for row in csv_plants_trefle: csv_plants.append(row)
+
+        rows_final = [['slug', 'scientific_name', 'common_name', 'genus', 'family']]
+        for row in rows:
+            for csv_plant in csv_plants:
+                if csv_plant[0].strip().lower() == row[0].strip().lower():
+                    rows_final.append(csv_plant)
+                    break
+
+        util.csv_set_rows('website/plants.csv', rows_final, delimiter=',')
+
+
+
+def page_conditions():
+    systems_rows = util.csv_get_rows('database/tables/conditions/systems.csv')
+    conditions_rows = util.csv_get_rows('database/tables/conditions/conditions.csv')
+    
+    main_html = ''
+    for system_row in systems_rows[1:]:
+        system_id = system_row[0]
+        system_name = system_row[1]
+        main_html += f'<h2 class="mb-32">{system_name.title()} System</h2>'
+
+        conditions_rows_filtered = [row for row in conditions_rows if row[1] == system_id]
+        main_html += f'<div class="grid-4">'
+        for row in conditions_rows_filtered:
+            condition_name = row[0].strip().title()
+            main_html += f'<p>{condition_name}</p>'
+        main_html += f'</div>'
+        
+    title = 'conditions'.title()
+    page_url = 'conditions'
+    article_filepath_out = f'website/{page_url}.html'
+    template = util.file_read(f'templates/{page_url}.html')
+    template = template.replace('[title]', title)
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+    template = template.replace('[author_name]', g.AUTHOR_NAME)
+    template = template.replace('[header]', generate_header_default())
+    template = template.replace('[breadcrumbs]', breadcrumbs(article_filepath_out))
+    template = template.replace('[main_html]', main_html)
+    util.file_write(article_filepath_out, template)
 
 
 def teas():
@@ -596,31 +728,61 @@ def page_herbalism_tea_condition():
         data = util.json_read(article_filepath_in)
         article_html = ''
 
-        title = ''
-        try: title = data['title'].title()
-        except: print(f'***** MISSING TITLE: {article_filepath_in}')
+        title = data['title'].title()
         article_html += f'<h1>{title}</h1>' + '\n'
         article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-overview.jpg" alt="herbal teas for {condition} overview"></p>' + '\n'
         try: article_html += f'<p>{util.text_format_1N1_html(data["intro"])}</p>\n'
-        except: print(f'***** MISSING INTRO: {article_filepath_in}')
+        except: print(f'MISSING: data["intro"] -- {article_filepath_in}')
 
-        remedies = []
-        try: remedies = data['remedies']
-        except: print(f'***** MISSING REMEDIES: {article_filepath_in}')
+        remedies = data['remedies']
         for index, remedy in enumerate(remedies[:10]):
             remedy_name = remedy['remedy_name']
             remedy_desc = remedy['remedy_desc']
-            remedy_recipe = remedy['remedy_recipe']
             remedy_name_dash = remedy_name.lower().strip().replace(' ', '-')
             remedy_desc_formatted = util.text_format_1N1_html(remedy_desc)
             article_html += f'<h2>{index+1}. {remedy_name.title()}</h2>' + '\n'
-            article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-{remedy_name_dash}.jpg" alt="herbal teas for {condition} {remedy_name.lower()}"></p>' + '\n'
             article_html += f'<p>{remedy_desc_formatted}</p>' + '\n'
-            article_html += f'<p>The following procedure explains how to make {remedy_name.lower()} tea for {condition}.</p>'
-            article_html += f'<ol>' + '\n'
-            for item in remedy_recipe:
-                article_html += f'<li>{item}</li>' + '\n'
-            article_html += f'</ol>' + '\n'
+            article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-{remedy_name_dash}.jpg" alt="herbal teas for {condition} {remedy_name.lower()}"></p>' + '\n'
+
+            remedy_constituents = []
+            try: remedy_constituents = remedy['remedy_constituents']
+            except: remedy['remedy_constituents'] = remedy_constituents
+            if remedy_constituents != []:
+                article_html += f'<p>Right below you will find a list of the most important active constituents in {remedy_name.lower()} tea that help with {condition.lower()}.</p>'
+                article_html += f'<ol>' + '\n'
+                for item in remedy_constituents:
+                    item_parts = item.split(':')
+                    item_part_1 = item_parts[0][0].title() + ''.join(item_parts[0][1:])
+                    item_part_1 = f'<strong>{item_part_1}</strong>'
+                    item_part_2 = f'{item_parts[1]}'
+                    item_part_final = f'{item_part_1}: {item_part_2}'
+                    article_html += f'<li>{item_part_final}</li>' + '\n'
+                article_html += f'</ol>' + '\n'
+                
+            remedy_parts = []
+            try: remedy_parts = remedy['remedy_parts']
+            except: remedy['remedy_parts'] = remedy_parts
+            if remedy_parts != []:
+                article_html += f'<p>The following list reveals what parts of {remedy_name.lower()} are most commonly used to make medicinal tea for {condition.lower()}.</p>'
+                article_html += f'<ol>' + '\n'
+                for item in remedy_parts:
+                    item_parts = item.split(':')
+                    item_part_1 = item_parts[0][0].title() + ''.join(item_parts[0][1:])
+                    item_part_1 = f'<strong>{item_part_1}</strong>'
+                    item_part_2 = f'{item_parts[1]}'
+                    item_part_final = f'{item_part_1}: {item_part_2}'
+                    article_html += f'<li>{item_part_final}</li>' + '\n'
+                article_html += f'</ol>' + '\n'
+
+            remedy_recipe = []
+            try: remedy_recipe = remedy['remedy_recipe']
+            except: remedy['remedy_recipe'] = remedy_recipe
+            if remedy_recipe != []:
+                article_html += f'<p>The following procedure explains how to make {remedy_name.lower()} tea for {condition}.</p>'
+                article_html += f'<ol>' + '\n'
+                for item in remedy_recipe:
+                    article_html += f'<li>{item}</li>' + '\n'
+                article_html += f'</ol>' + '\n'
 
         header_html = generate_header_default()
 
@@ -723,15 +885,6 @@ def page_herbalism_tea_condition():
 
 def articles_plants():
     articles_folderpath = 'database/articles/plants'
-
-    # plants_primary = [row for row in util.csv_get_rows('database/tables/plants.csv')[1:]]
-    # plants_secondary = [row for row in util.csv_get_rows('database/tables/plants-secondary.csv')[1:]]
-    # plants_trefle = [row for row in util.csv_get_rows('database/tables/plants/trefle.csv')[1:]]
-
-    # plants = []
-    # for plant in plants_primary: plants.append(plant)
-    # for plant in plants_secondary: plants.append(plant)
-    # for plant in plants_trefle: plants.append(plant)
 
     plants_folder_content = os.listdir(articles_folderpath)
     plants_filenames = [content for content in plants_folder_content if content.endswith('.json')]
@@ -905,7 +1058,7 @@ def articles_plants():
         # GET IMAGES
         folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
         if not os.path.exists(folderpath): 
-            print('MISSING >>>>> IMAGE FOLDER')
+            print(f'MISSING >>>>> IMAGE FOLDER - {folderpath}')
             continue
         filenames = os.listdir(folderpath)
         filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
@@ -921,23 +1074,27 @@ def articles_plants():
         ]
 
         for i, filepath_out in enumerate(filepaths_out):
-            if os.path.exists(filepath_out): continue
-            filepath_in = filepaths_in[i]
-            img = Image.open(filepath_in)
-            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+            if not os.path.exists(filepath_out):
+                util.image_variate(filepaths_in[i], filepath_out)
 
 
 def articles_medicine():
     articles_folderpath = 'database/articles/plants'
-    for plant in plants:
-        latin_name = plant[cols['latin_name']].strip().capitalize()
-        common_name = plant[cols['common_name']].strip().title()
-        entity = latin_name.lower().replace(' ', '-').replace('.', '')
-        article_filepath = f'{articles_folderpath}/{entity}/medicine.json'
+    plants_folders = [folder for folder in os.listdir(articles_folderpath) if os.path.isdir(f'{articles_folderpath}/{folder}')]
+
+    for plant_folder in plants_folders:
+        if os.path.exists(f'{articles_folderpath}/{plant_folder}/medicine.json'):
+            article_filepath = f'{articles_folderpath}/{plant_folder}/medicine.json'
+        else: continue
+        print(article_filepath)
+        
+        data = util.json_read(article_filepath)
+        latin_name = data['latin_name']
+        common_name = data['common_name']
+        entity = data['entity']
+        title = data["title"]
 
         if not os.path.exists(article_filepath): continue
-        print(article_filepath)
 
         article_filepath_in = article_filepath
         article_filepath_out = f'website/plants/{entity}/medicine.html'
@@ -945,11 +1102,7 @@ def articles_medicine():
         data = util.json_read(article_filepath_in)
         article_html = ''
 
-        try: title = data["title"]
-        except: title = ''
-        if title != '': article_html += f'<h1>{data["title"]}</h1>' + '\n'
-        else: print('MISSING >>>>> TITLE\n')
-        
+        article_html += f'<h1>{title}</h1>' + '\n'
         article_html += f'<p><img src="/images/{entity}-medicine-overview.jpg" alt="{latin_name}"></p>' + '\n'
         
         try: article_html += util.text_format_1N1_html(data['intro']) + '\n'
@@ -969,7 +1122,6 @@ def articles_medicine():
         try: article_html += util.text_format_1N1_html(data['constituents_text']) + '\n'
         except: print('MISSING >>>>> CONSTITUENTS TEXT\n')
         try:
-            # article_html += f'<p>The following list shows the active constituents of {latin_name}.</p>' + '\n'
             article_html += f'<p>The following list shows the <a href="/plants/{entity}/medicine/constituents.html">active constituents of {latin_name}</a>.</p>' + '\n'
             article_html += lst_to_html_bold(data['constituents_list']) + '\n'
         except: print('MISSING >>>>> CONSTITUENTS LIST\n')
@@ -979,7 +1131,6 @@ def articles_medicine():
         try: article_html += util.text_format_1N1_html(data['preparations_text']) + '\n'
         except: print('MISSING >>>>> PREPARATIONS TEXT\n')
         try:
-            # article_html += f'<p>The following list shows the medicinal preparations of {latin_name}.</p>' + '\n'
             article_html += f'<p>The following list shows the <a href="/plants/{entity}/medicine/preparations.html">medicinal preparations of {latin_name}</a>.</p>' + '\n'
             article_html += lst_to_html_bold(data['preparations_list']) + '\n'
         except: print('MISSING >>>>> PREPARATIONS LIST\n')
@@ -989,7 +1140,6 @@ def articles_medicine():
         try: article_html += util.text_format_1N1_html(data['side_effects_text']) + '\n'
         except: print('MISSING >>>>> SIDE EFFECTS TEXT\n')
         try:
-            # article_html += f'<p>The following list shows the possible side effects of {latin_name} for medicinal purposes.</p>' + '\n'
             article_html += f'<p>The following list shows the <a href="/plants/{entity}/medicine/side-effects.html">possible side effects of {latin_name}</a>.</p>' + '\n'
             article_html += lst_to_html_bold(data['side_effects_list']) + '\n'
         except: print('MISSING >>>>> SIDE EFFECTS LIST\n')
@@ -999,7 +1149,7 @@ def articles_medicine():
         try: article_html += util.text_format_1N1_html(data['precautions_text']) + '\n'
         except: print('MISSING >>>>> PRECAUTIONS TEXT\n')
         try:
-            article_html += f'<p>The following list shows the precautions to take when using {latin_name} medicinally.</p>' + '\n'
+            article_html += f'<p>The following list shows the <a href="/plants/{entity}/medicine/precautions.html">precautions to take when using {latin_name}</a>.</p>' + '\n'
             article_html += lst_to_html_bold(data['precautions_list']) + '\n'
         except: print('MISSING >>>>> PRECAUTIONS LIST\n')
 
@@ -1066,34 +1216,28 @@ def articles_medicine():
         ]
 
         for i, filepath_out in enumerate(filepaths_out):
-            if os.path.exists(filepath_out): continue
-            filepath_in = filepaths_in[i]
-            img = Image.open(filepath_in)
-            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+            if not os.path.exists(filepath_out):
+                util.image_variate(filepaths_in[i], filepath_out)
 
 
 def articles_benefits():
     articles_folderpath = 'database/articles/plants'
-    articles_filepath = []
-    for plant in plants:
-        latin_name = plant[cols['latin_name']].strip()
-        entity = latin_name.lower().replace(' ', '-')
-        article_filepath = f'{articles_folderpath}/{entity}/medicine/benefits.json'
+    plants_folders = [folder for folder in os.listdir(articles_folderpath) if os.path.isdir(f'{articles_folderpath}/{folder}')] 
 
-        if not os.path.exists(article_filepath): continue
+    for plant_folder in plants_folders:
+        article_filepath_in = f'{articles_folderpath}/{plant_folder}/medicine/benefits.json'
+        article_filepath_out = f'website/plants/{plant_folder}/medicine/benefits.html'
 
-        article_filepath_in = article_filepath
-        article_filepath_out = f'website/plants/{entity}/medicine/benefits.html'
+        if not os.path.exists(article_filepath_in): continue
 
         data = util.json_read(article_filepath_in)
+        title = data["title"]
+        entity = data["entity"]
+        latin_name = data["latin_name"]
+        benefits = data['benefits']
+
         article_html = ''
-
-        try: title = data["title"]
-        except: title = ''
-        if title != '': article_html += f'<h1>{title}</h1>' + '\n'
-        else: print('MISSING >>>>> TITLE\n')
-
+        article_html += f'<h1>{title}</h1>' + '\n'
         article_html += f'<p><img src="/images/{entity}-medicine-benefits-overview.jpg" alt="{latin_name} medicine benefits overview"></p>' + '\n'
         
         try: article_html += util.text_format_1N1_html(data['intro']) + '\n'
@@ -1169,50 +1313,34 @@ def articles_benefits():
         filepath_out = f'website/images/{entity}-medicine-benefits-overview.jpg'
         print('OUT:', filepaths_in[3])
         if not os.path.exists(filepath_out):
-            try: filepath_in = filepaths_in[3]
-            except: 
-                print(f'MISSING IMAGE: {entity} >> {i}')
-                continue
-            img = Image.open(filepath_in)
-            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+                util.image_variate(filepaths_in[3], filepath_out)
 
         for i, benefit in enumerate(benefits[:10]):
             filepath_out = f'website/images/{entity}-medicine-benefits-{benefit["benefit_name"].strip().lower().replace(" ", "-")}.jpg'
-            if os.path.exists(filepath_out): continue
-            print(filepath_out)
-            try: filepath_in = filepaths_in[i]
-            except: 
-                print(f'MISSING IMAGE: {entity} >> {i}')
-                continue
-            img = Image.open(filepath_in)
-            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+            if not os.path.exists(filepath_out):
+                util.image_variate(filepaths_in[i], filepath_out)
+                print(filepath_out)
 
 
 def articles_constituents():
     articles_folderpath = 'database/articles/plants'
-    articles_type = 'constituents'
+    plants_folders = [folder for folder in os.listdir(articles_folderpath) if os.path.isdir(f'{articles_folderpath}/{folder}')] 
 
-    for plant in plants:
-        latin_name = plant[cols['latin_name']].strip()
-        entity = latin_name.lower().replace(' ', '-')
+    for plant_folder in plants_folders:
+        article_filepath_in = f'{articles_folderpath}/{plant_folder}/medicine/constituents.json'
+        article_filepath_out = f'website/plants/{plant_folder}/medicine/constituents.html'
 
-        article_filepath = f'{articles_folderpath}/{entity}/medicine/constituents.json'
-        article_filepath_in = article_filepath
-        article_filepath_out = f'website/plants/{entity}/medicine/constituents.html'
-
-        if not os.path.exists(article_filepath): continue
+        if not os.path.exists(article_filepath_in): continue
 
         data = util.json_read(article_filepath_in)
+        title = data["title"]
+        entity = data["entity"]
+        latin_name = data["latin_name"]
+        constituents = data['constituents']
 
         article_html = ''
 
-        try: title = data["title"]
-        except: title = ''
-        if title != '': article_html += f'<h1>{title}</h1>' + '\n'
-        else: print('MISSING >>>>> TITLE\n')
-
+        article_html += f'<h1>{title}</h1>' + '\n'
         article_html += f'<p><img src="/images/{entity}-medicine-constituents-overview.jpg" alt="{latin_name} medicine constituents overview"></p>' + '\n'
         
         try: article_html += util.text_format_1N1_html(data['intro']) + '\n'
@@ -1231,9 +1359,6 @@ def articles_constituents():
             article_html += f'<p><img src="/images/{entity}-medicine-constituents-{item["constituent_name"].strip().lower().replace(" ", "-")}.jpg" alt="{latin_name}"></p>' + '\n'
             try: article_html += util.text_format_1N1_html(item['constituent_desc']) + '\n'
             except: print(f'MISSING DESCRIPTION: {article_filepath_in} >> {item_name}')
-            # article_html += f'<p>{latin_name} {item_name.lower()} thanks to the active constituents listed below.</p>' + '\n'
-            # try: article_html += util.lst_to_html(item['constituents_list']) + '\n'
-            # except: print(f'MISSING CONSTITUENTS: {article_filepath_in} >> {item_name}')
 
         header_html = generate_header_default()
         meta = gen_article_metadata(article_html)
@@ -1301,47 +1426,31 @@ def articles_constituents():
 
         for i, item in enumerate(constituents[:10]):
             filepath_out = f'website/images/{entity}-medicine-constituents-{item["constituent_name"].strip().lower().replace(" ", "-")}.jpg'
-            if os.path.exists(filepath_out): continue
-            print(filepath_out)
-            try: filepath_in = filepaths_in[i]
-            except: 
-                print(f'MISSING IMAGE: {entity} >> {i}')
-                continue
-            img = Image.open(filepath_in)
-            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+            if not os.path.exists(filepath_out):
+                util.image_variate(filepaths_in[i], filepath_out)
+                print(filepath_out)
 
 
 def articles_preparations():
     articles_folderpath = 'database/articles/plants'
-    articles_type = 'preparations'
+    plants_folders = [folder for folder in os.listdir(articles_folderpath) if os.path.isdir(f'{articles_folderpath}/{folder}')] 
 
-    for plant in plants:
-        latin_name = plant[cols['latin_name']].strip()
-        entity = latin_name.lower().replace(' ', '-')
+    for plant_folder in plants_folders:
+        article_filepath_in = f'{articles_folderpath}/{plant_folder}/medicine/preparations.json'
+        article_filepath_out = f'website/plants/{plant_folder}/medicine/preparations.html'
 
-        article_filepath = f'{articles_folderpath}/{entity}/medicine/preparations.json'
-        article_filepath_in = article_filepath
-        article_filepath_out = f'website/plants/{entity}/medicine/preparations.html'
-
-        if not os.path.exists(article_filepath): continue
+        if not os.path.exists(article_filepath_in): continue
 
         data = util.json_read(article_filepath_in)
-
-        article_html = ''
-
-        try: title = data["title"]
-        except: title = ''
-        if title != '': article_html += f'<h1>{title}</h1>' + '\n'
-        else: print('MISSING >>>>> TITLE\n')
-
-        article_html += f'<p><img src="/images/{entity}-medicine-preparations-overview.jpg" alt="{latin_name} medicine preparations overview"></p>' + '\n'
+        title = data["title"]
+        entity = data["entity"]
+        latin_name = data["latin_name"]
+        preparations = data['preparations']
         
-        try: article_html += util.text_format_1N1_html(data['intro']) + '\n'
-        except: print('MISSING >>>>> INTRO\n')
+        article_html = ''
+        article_html += f'<p><img src="/images/{entity}-medicine-preparations-overview.jpg" alt="{latin_name} medicine preparations overview"></p>' + '\n'
+        article_html += util.text_format_1N1_html(data['intro']) + '\n'
 
-        try: preparations = data['preparations']
-        except: preparations = []
         for i, item in enumerate(preparations[:10]):
             try: item_name = item['preparation_name'].strip()
             except:
@@ -1421,139 +1530,12 @@ def articles_preparations():
 
         for i, item in enumerate(preparations[:10]):
             filepath_out = f'website/images/{entity}-medicine-preparations-{item["preparation_name"].strip().lower().replace(" ", "-")}.jpg'
-            if os.path.exists(filepath_out): continue
-            print(filepath_out)
-            try: filepath_in = filepaths_in[i]
-            except: 
-                print(f'MISSING IMAGE: {entity} >> {i}')
-                continue
-            img = Image.open(filepath_in)
-            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+            if not os.path.exists(filepath_out):
+                util.image_variate(filepaths_in[i], filepath_out)
+                print(filepath_out)
 
 
 def articles_side_effects():
-    articles_folderpath = 'database/articles/plants'
-
-    for plant in plants:
-
-        # TEXT    
-        latin_name = plant[cols['latin_name']].strip()
-        entity = latin_name.lower().replace(' ', '-')
-
-        article_filepath = f'{articles_folderpath}/{entity}/medicine/side-effects.json'
-        article_filepath_in = article_filepath
-        article_filepath_out = f'website/plants/{entity}/medicine/side-effects.html'
-
-        if not os.path.exists(article_filepath): continue
-
-        data = util.json_read(article_filepath_in)
-
-        article_html = ''
-
-        try: title = data["title"]
-        except: title = ''
-        if title != '': article_html += f'<h1>{title}</h1>' + '\n'
-        else: print('MISSING >>>>> TITLE\n')
-
-        article_html += f'<p><img src="/images/{entity}-medicine-side-effects-overview.jpg" alt="{latin_name} medicine side effects overview"></p>' + '\n'
-        
-        try: article_html += util.text_format_1N1_html(data['intro']) + '\n'
-        except: print('MISSING >>>>> INTRO\n')
-
-        try: side_effects = data['side_effects']
-        except: side_effects = []
-        for i, item in enumerate(side_effects[:10]):
-            try: item_name = item['side_effect_name'].strip()
-            except:
-                print('MISSING >>>>> side_effects NAME\n')
-                continue
-            item_name_dash = item_name.lower().replace(' ' , '-')
-
-            article_html += f'<h2>{i+1}. {item_name}</h2>' + '\n'
-            article_html += f'<p><img src="/images/{entity}-medicine-side-effects-{item["side_effect_name"].strip().lower().replace(" ", "-")}.jpg" alt="{latin_name}"></p>' + '\n'
-            try: article_html += util.text_format_1N1_html(item['desc']) + '\n'
-            except: print(f'MISSING DESCRIPTION: {article_filepath_in} >> {item_name}')
-            # article_html += f'<p>{latin_name} {item_name.lower()} thanks to the active preparations listed below.</p>' + '\n'
-
-        header_html = generate_header_default()
-        meta = gen_article_metadata(article_html)
-        article_html = generate_toc(article_html)
-        breadcrumbs_html = breadcrumbs(article_filepath_out)
-
-        html = f'''
-            <!DOCTYPE html>
-            <html lang="en">
-
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{g.AUTHOR_NAME}">
-                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-                <link rel="stylesheet" href="/style.css">
-                <title>{title}</title>
-                {g.GOOGLE_TAG}
-                
-            </head>
-
-            <body>
-                {header_html}
-                {breadcrumbs_html}
-                
-                <section class="article-section">
-                    <div class="container">
-                        {meta}
-                        {article_html}
-                    </div>
-                </section>
-
-                <footer>
-                    <div class="container-lg">
-                        <span>© TerraWhisper.com 2024 | All Rights Reserved
-                    </div>
-                </footer>
-            </body>
-
-            </html>
-        '''
-
-        util.file_write(f'{article_filepath_out}', html)
-
-        # IMAGES
-        folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
-        if not os.path.exists(folderpath): 
-            print(f'MISSING >>>>> IMAGE FOLDER --- {entity}')
-            continue
-        filenames = os.listdir(folderpath)
-        filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
-
-        random.shuffle(filepaths_in)
-
-        filepath_out = f'website/images/{entity}-medicine-side-effects-overview.jpg'
-        if not os.path.exists(filepath_out):
-            try: 
-                filepath_in = filepaths_in[3]
-                img = Image.open(filepath_in)
-                img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-                img.save(filepath_out, format='JPEG', optimize=True, quality=50)
-            except: 
-                print(f'MISSING IMAGE: {entity} >> {i}')
-                continue
-
-        for i, item in enumerate(side_effects[:10]):
-            filepath_out = f'website/images/{entity}-medicine-side-effects-{item["side_effect_name"].strip().lower().replace(" ", "-")}.jpg'
-            if os.path.exists(filepath_out): continue
-            print(filepath_out)
-            try: filepath_in = filepaths_in[i]
-            except: 
-                print(f'MISSING IMAGE: {entity} >> {i}')
-                continue
-            img = Image.open(filepath_in)
-            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
-
-
-def articles_side_effects_new():
     articles_folderpath = 'database/articles/plants'
     plants_folders = [folder for folder in os.listdir(articles_folderpath) if os.path.isdir(f'{articles_folderpath}/{folder}')] 
 
@@ -1654,17 +1636,117 @@ def articles_side_effects_new():
         i = 0
         for item in side_effects[:10]:
             side_effect_name_dash = item['side_effect_name'].lower().replace(' ', '-')
-
             filepath_out = f'website/images/{entity}-medicine-side-effects-{side_effect_name_dash}.jpg'
-            if os.path.exists(filepath_out): continue
-            print(filepath_out)
-            try: filepath_in = filepaths_in[i]
+            if not os.path.exists(filepath_out):
+                util.image_variate(filepaths_in[i], filepath_out)
+                print(filepath_out)
+            i += 1
+
+
+def articles_precautions():
+    articles_folderpath = 'database/articles/plants'
+    plants_folders = [folder for folder in os.listdir(articles_folderpath) if os.path.isdir(f'{articles_folderpath}/{folder}')] 
+
+    for plant_folder in plants_folders:
+        article_filepath_in = f'{articles_folderpath}/{plant_folder}/medicine/precautions.json'
+        article_filepath_out = f'website/plants/{plant_folder}/medicine/precautions.html'
+
+        if not os.path.exists(article_filepath_in): continue
+        
+        data = util.json_read(article_filepath_in)
+        entity = data['entity']
+        scientific_name = data['latin_name']
+        common_name = data['common_name']
+        title = data['title']
+        precautions = data['precautions']
+
+        article_html = ''
+        article_html += f'<h1>{title}</h1>' + '\n'
+        article_html += f'<p><img src="/images/{entity}-medicine-precautions-overview.jpg" alt="{scientific_name} medicine precautions overview"></p>' + '\n'
+        article_html += util.text_format_1N1_html(data['intro']) + '\n'
+
+        i = 0
+        for item in precautions[:10]:
+            i += 1
+            precautions_name = item['precaution_name'].strip().replace('/', '-')
+            precautions_name_dash = precautions_name.lower().replace(' ', '-')
+            precautions_desc = item['desc'].strip()
+            article_html += f'<h2>{i}. {precautions_name.title()}</h2>' + '\n'
+            article_html += f'<p><img src="/images/{entity}-medicine-precautions-{precautions_name_dash}.jpg" alt="{scientific_name} medicine precautions {precautions_name}"></p>' + '\n'
+            article_html += util.text_format_1N1_html(precautions_desc) + '\n'
+
+        # META
+        header_html = generate_header_default()
+        meta = gen_article_metadata(article_html)
+        article_html = generate_toc(article_html)
+        breadcrumbs_html = breadcrumbs(article_filepath_out)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(f'{article_filepath_out}', html)
+
+        # IMAGES
+        folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
+        if not os.path.exists(folderpath): 
+            print(f'MISSING >>>>> IMAGE FOLDER --- {entity}')
+            continue
+        filenames = os.listdir(folderpath)
+        filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+
+        random.shuffle(filepaths_in)
+
+        filepath_out = f'website/images/{entity}-medicine-precautions-overview.jpg'
+        if not os.path.exists(filepath_out):
+            try: 
+                filepath_in = filepaths_in[3]
+                img = Image.open(filepath_in)
+                img.thumbnail((768, 768), Image.Resampling.LANCZOS)
+                img.save(filepath_out, format='JPEG', optimize=True, quality=50)
             except: 
                 print(f'MISSING IMAGE: {entity} >> {i}')
                 continue
-            img = Image.open(filepath_in)
-            img.thumbnail((768, 768), Image.Resampling.LANCZOS)
-            img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
+        i = 0
+        for item in precautions[:10]:
+            precautions_name_dash = item['precaution_name'].lower().replace(' ', '-').replace('/', '-')
+            filepath_out = f'website/images/{entity}-medicine-precautions-{precautions_name_dash}.jpg'
+            if not os.path.exists(filepath_out):
+                util.image_variate(filepaths_in[i], filepath_out)
+                print(filepath_out)
             i += 1
 
 
@@ -2138,86 +2220,7 @@ def taxonomy():
     util.file_write('website/taxonomy.html', families_html)
 
 
-def page_plants():
-    json_filenames_plants_primary_secondary = [filename.lower().strip() for filename in os.listdir('database/articles/plants') if filename.endswith('.json')]
-    # json_filenames_plants_treffle = [filename.lower().strip() for filename in os.listdir('database/articles/plants_trefle') if filename.endswith('.json')]
-    
-    json_filepaths_plants = [] 
-    for filename in json_filenames_plants_primary_secondary: json_filepaths_plants.append(f'database/articles/plants/{filename}')
-    # for filename in json_filenames_plants_treffle: json_filepaths_plants.append(f'database/articles/plants_trefle/{filename}')
 
-    plants_list = []
-    for filepath in json_filepaths_plants:
-        filepath_in = f'{filepath}'
-        data = util.json_read(filepath_in)
-        plant_name = data['latin_name']
-        plant_slug = data['entity']
-        plants_list.append(f'<a href="/plants/{plant_slug}.html">{plant_name}</a>')
-
-    plants_list = sorted(plants_list)
-    plants_html = ''.join(plants_list)
-
-    page_url = 'plants'
-    template = util.file_read(f'templates/{page_url}.html')
-    template = template.replace('[title]', 'Plants')
-    template = template.replace('[google_tag]', g.GOOGLE_TAG)
-    template = template.replace('[author_name]', g.AUTHOR_NAME)
-    template = template.replace('[header]', generate_header_default())
-    template = template.replace('[plants_num]', str(len(json_filepaths_plants)))
-    template = template.replace('[items]', plants_html)
-    util.file_write(f'website/{page_url}.html', template)
-
-    # GENERATE CSV TO DOWNLOAD
-    # rows = []
-    # for filepath in json_filepaths_plants:
-    #     slug = filepath.split('/')[-1].split('.')[0].strip().lower()
-    #     rows.append([slug])
-
-    # csv_plants_primary = util.csv_get_rows('database/tables/plants.csv')
-    # csv_plants_secondary = util.csv_get_rows('database/tables/plants-secondary.csv')
-    # csv_plants_trefle = util.csv_get_rows('database/tables/plants/trefle.csv')
-
-    # csv_plants = [] 
-    # for row in csv_plants_primary: csv_plants.append(row)
-    # for row in csv_plants_secondary: csv_plants.append(row)
-    # for row in csv_plants_trefle: csv_plants.append(row)
-
-    # rows_final = [['slug', 'scientific_name', 'common_name', 'genus', 'family']]
-    # for row in rows:
-    #     for csv_plant in csv_plants:
-    #         if csv_plant[0].strip().lower() == row[0].strip().lower():
-    #             rows_final.append(csv_plant)
-    #             break
-
-    # util.csv_set_rows('website/plants.csv', rows_final, delimiter=',')
-
-
-def page_conditions():
-    systems_rows = util.csv_get_rows('database/tables/conditions/systems.csv')
-    conditions_rows = util.csv_get_rows('database/tables/conditions/conditions.csv')
-    
-    main_html = ''
-    for system_row in systems_rows[1:]:
-        system_id = system_row[0]
-        system_name = system_row[1]
-        main_html += f'<h2 class="mb-32">{system_name.title()} System</h2>'
-
-        conditions_rows_filtered = [row for row in conditions_rows if row[1] == system_id]
-        main_html += f'<div class="grid-4">'
-        for row in conditions_rows_filtered:
-            condition_name = row[0].strip().title()
-            main_html += f'<p>{condition_name}</p>'
-        main_html += f'</div>'
-        
-    title = 'conditions'.title()
-    page_url = 'conditions'
-    template = util.file_read(f'templates/{page_url}.html')
-    template = template.replace('[title]', title)
-    template = template.replace('[google_tag]', g.GOOGLE_TAG)
-    template = template.replace('[author_name]', g.AUTHOR_NAME)
-    template = template.replace('[header]', generate_header_default())
-    template = template.replace('[main_html]', main_html)
-    util.file_write(f'website/{page_url}.html', template)
 
 
 ##############################################################################
@@ -2253,34 +2256,30 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 
-# teas()
+page_home()
+page_plants(regen_csv=False)
+page_conditions()
+page_top_herbs_new()
+page_about()
 
-# page_home()
-# page_plants()
-# page_conditions()
-page_top_herbs()
-# page_about()
 
-# page_herbalism()
+
+page_herbalism_tea_condition()
 # page_herbalism_tea()
-# page_herbalism_tea_condition()
+# page_herbalism()
 
 
 
-# articles_plants()
-# articles_medicine()
 # articles_benefits()
 # articles_constituents()
 # articles_preparations()
 # articles_side_effects()
-# articles_side_effects_new()
+# articles_precautions()
+# articles_medicine()
+# articles_plants()
 
 
-
-# gen_pages_taxonomy()
 
 sitemap.sitemap_all()
 shutil.copy2('sitemap.xml', 'website/sitemap.xml')
-
-# taxonomy()
 

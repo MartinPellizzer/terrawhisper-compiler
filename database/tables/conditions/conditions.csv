@@ -1,266 +1,355 @@
-condition\system_id\organ\synonyms\joint pain after viral fever
-\\\\
-bad breath\0\mouth \halitosis, mouth odour\
-dry mouth\0\mouth\\
-mouth ulcers\0\mouth\\
-oral thrush\0\mouth, throat\\oral thrush in babies
-Aphthous Ulcers\0\mouth\canker sores \
-Periodontal Disease\0\mouth\\
-\\\\
-throat pain\0\throat\\
-\\\\
-heartburn\0\esophagus\\heartburn during pregnancy
-acid reflux\0\esophagus\\gerd, Esophagitis and Gastroesophageal Reflux
-\\\\
-stomach pain\0\stomach\\
-bloated stomach\0\stomach\\bloating
-hyperacidity\0\stomach\acidity\
-food poisoning\0\stomach, intestines\\
-gastric pain\0\stomach\\
-gas in stomach\0\stomach\gassy stomach\
-gastric problem\0\stomach\\
-gastroenteritis\0\stomach, intestines\\
-indigestion\0\stomach \dyspepsia, Functional Dyspepsia\
-vomiting\0\stomach \\kids vomiting
-mucus in stomach\0\stomach\\
-nausea\0\stomach \\nausea during pregnancy
-overeating\0\stomach \\
-queasy stomach\0\stomach\\
-Gastritis\0\stomach\\
-Peptic Ulcers\0\stomach, small intestine (duodenum)\\
-Hiatus Hernia\0\stomach\\
-\\\\
-hangover\0\liver\\
-Jaundice\0\liver \\
-Chronic Hepatitis\0\liver \\
-Viral Hepatitis\0\liver \\
-Cirrhosis\0\liver \\
-\\\\
-gall stones\0\gallbladder\\
-Cholecystitis\0\gallbladder \\
-Cholelithiasis\0\gallbladder \\
-\\\\
-abdominal pain\0\abdomen\\lower abdominal pain
-\\\\
-gas pains\0\intestines \gas pain\
-\\\\
-quick digestion\0\small intestine \\
-Inflammatory Bowel Disease\0\small intestine, large intestine\\
-\\\\
-constipation\0\colon\\constipation during pregnancy, kids constipation
-diarrhea\0\colon\diarrhoea, loose motion, running stomach\
-flatulence\0\colon\gas\
-Irritable Bowel Syndrome\0\colon (large intestine)\\
-Ulcerative Colitis\0\colon\\
-Diverticulitis\0\colon\\
-\\\\
-Hemorrhoids\0\rectum, anus\\
-\\\\
-\\\\
-\\\\
-\\\\
-hay fever \1\nose, nasal passages, nasal cavity, sinuses, and the mucous membranes\allergic rhinitis\
-blocked nose\1\nose, nasal cavity, \clogged nose, nose block, stuffy nose\
-runny nose\1\nose, sinuses\rhinorrhea \
-post nasal drip\1\nose, nasal cavity, throat\\
-sinus headache\1\sinuses \\
-sinusitis\1\sinuses \sinus infection\
-The Common Cold\1\upper respiratory tract, nose, throat, sinuses\\
-sore throat\1\throat, pharynx\pharyngitis \sore throat at home, itchy throat, itchy throat cough
-dry throat\1\Throat, pharynx, larynx \\
-mucus in throat\1\throat, aka pharynx\\
-snoring\1\throat, soft palate, uvula\\
-laryngitis\1\larynx \\
-hoarse voice\1\larynx \\
-lost voice\1\larynx \\lost voice due to cough, losing voice, no voice
-Tonsillitis\1\tonsils, oropharynx\\
-cough\1\lungs, airways, trachea, bronchi, bronchiles\\dry cough, cough at night, night cough, cough in babies, baby cough, cough for kids, kids cough, kids sore throat, non stop coughing, persistent cough
-flu\1\lungs \influenza\
-chest congestion\1\lungs \\
-bronchitis\1\lungs \\
-Asthma\1\lungs \\
-phlegm\1\lungs, airways\\
-Acute Bronchitis\1\lungs\\
-Chronic Bronchitis\1\lungs \\
-Pertussis\1\lungs, airways\whooping cough \
-Emphysema\1\lungs \\
-hiccups\1\diaphragm \\
-ear pain due to cold\1\ear\\
-\\\\
-\\\\
-\\\\
-\\\\
-\\\\
-\\\\
-\\\\
-\\\\
-\\\\
-\\\\
-\\\\
-\\\\
-high blood pressure\2\heart, blood vessels, kidneys, brain, and eyes\hypertension\
-low blood pressure\2\heart, blood vessels \hypotension\
-heart pain\2\heart\angina\
-high cholesterol\2\liver, blood vessels, heart \\
-jaundice\2\liver\\jaundice in newborn
-nose bleeding\2\nose\epistaxis \nose bleeding in child
-palpitation\2\heart\\
-swollen feet\2\feet, blood vessels, hearth\\
-Arteriosclerosis\2\arteries \\
-Congestive Heart Failure\2\heart \\
-Peripheral Arterial Occlusive Disease\2\arteries \\
-Varicose Veins \2\veins \\
-\\\\
-\\\\
-\\\\
-body aches\3\muscle\myalgia, muscle pain, muscle soreness \
-Osteoporosis\3\bones \\
-arthritis\3\joints \\arthritis in hands
-joint pain\3\joints \\joint pain in knee, joint pain in hands, joint pain in foot, joint pain after viral fever
-joint stiffness\3\joints \\
-Osteoarthritis\3\joints \\osteoarthritis in knees
-Rheumatoid Arthritis\3\joints \\
-Bursitis\3\joints \\
-Tendinitis\3\joints \\
-Gout\3\joints \\
-back pain\3\spine, kidney\\
-lower back pain\3\spine \\
-stiff neck\3\neck \\
-neck pain\3\neck\\
-frozen shoulder\3\shoulder \adhesive capsulitis\
-jammed finger\3\hand \\
-leg cramps\3\leg\\leg cramps at night
-leg pain\3\leg\\leg pain during periods
-Restless Leg Syndrome \3\leg\rls\
-knee pain\3\knee \\knee swelling and pain
-knee swelling\3\knee \\
-foot pain\3\foot \\
-plantar fasciitis\3\foot \\
-chapped lips\3\lips \\
-canker sores\3\mouth \aphthous ulcers \
-jaw pain\3\jaw\\
-jaw lock\3\jaw\\
-jaw clenching\3\jaw\bruxism \
-eye twitching\3\eye \myokymia \
-\\\\
-\\\\
-\\\\
-\\\\
-\\\\
-itchy skin\4\skin\\at night
-acne\4\skin\\
-bee sting\4\skin\\
-boils\4\skin \\
-chicken pox\4\skin \\
-dry skin\4\skin\\
-excessive sweating\4\skin\\
-fungal infection\4\skin\\
-glowing skin\4\skin\\
-insect bites\4\skin\\
-ingrown hair\4\skin\\
-jellyfish sting\4\skin\\
-mosquito bites\4\skin\\
-open pores\4\skin\\
-open wounds\4\skin\\
-pimples\4\skin\\
-pigmentation\4\skin\\
-ringworm\4\skin\\
-rashes\4\skin\\
-sunburn\4\skin\\
-Eczema \4\skin\\
-Psoriasis\4\skin\\
-Dermatitis\4\skin\\
-nail fungus\4\nails\\
-dry hair\4\hair\\
-frizzy hair\4\hair\\
-grey hair\4\hair\\
-hair fall\4\hair\\
-oily hair\4\hair\\
-quick hair growth\4\hair\\
-dandruff\4\scalp \\
-dry scalp\4\scalp\\
-itchy scalp\4\scalp\\
-lice\4\scalp \\
-oily face\4\face\\
-dark circles\4\eyes\\
-dry eyes\4\eyes\\
-puffy eyes\4\eyes\\
-itchy eyes\4\eyes\\
-red eyes\4\eyes\\
-stye\4\eyes\hordeolum \
-eye bags\4\eyes\\
-eye infection\4\eyes\\
-eye stye\4\eyes\hordeolum\
-eye irritation\4\eyes\\
-eye swelling\4\eyes\\
-itchy ears\4\ears\\
-bleeding gums\4\mouth \\
-gum pain\4\mouth \\
-cold sore\4\mouth \fever blisters \
-gum swelling\4\mouth\\
-gum infection\4\mouth\\
-inflamed gums\4\mouth\\
-mouth sores\4\mouth\\
-swollen gums\4\mouth\\
-athlete's foot\4\feet \pedis \
-cracked heels\4\feet \\
-foot odor\4\feet \\
-ingrown toenail\4\feet \\
-dry lips\4\lips\\
-dark lips\4\lips\\
-fever blister on lip\4\lips\\
-pink lips\4\lips\\
-toothache\4\tooth\\
-nipple pain during breastfeeding\4\nipples\\
-jock itch\4\groin \cruris \
-\\\\
-\\\\
-Neuritis\5\nerves\\
-nerve pain\5\nerves\\
-headache\5\brain \\headache due to cold weather, headache during pregnancy
-one side headache\5\brain \\
-migraine\5\brain \\
-insomnia\5\brain \\insomnia for elderly
-quick sleep\5\brain \\
-anxiety\5\brain \\
-Stress\5\brain \\
-Depression\5\brain \\
-Anorexia Nervosa\5\brain \\
-jet lag\5\brain \\
-eye pain\5\eyes\\
-eye strain\5\eyes\\
-pink eye\5\eyes\conjunctivitis\
-sore eyes\5\eyes\\
-Tinnitus\5\ears\\
-dizziness\5\ears\\
-ear blockage\5\ears\\
-motion sickness\5\ears\\
-Shingles \5\spine \herpes zoster \
-strep throat\5\throat\\
-nausea\5\stomach\\
-numbness in hands\5\hands\\
-burning feet\5\feet \\
-\\\\
-\\\\
-\\\\
-\\\\
-\\\\
-\\\\
-allergy\6\body\\
-fever\6\brain \\
-inflammation\6\body\\
-Detoxification\6\body\\
-Postoperative Recovery\6\body\\
-Vaginitis\6\vagina \\
-Prostatitis\6\prostate \\
-Boils\6\skin \\
-Fungal Skin Infection\6\skin \\
-Cancer \6\body\\
-\\\\
-\\\\
-frequent urination\7\bladder \overactive bladder\
-Dysuria\7\bladder \painful or difficult urination \
-Cystitis\7\bladder \\
-Urinary Calculus \7\kidney \\
-Hematuria\7\kidneys \\
-Edema\7\kidneys \\
+pinned\condition\slug\system_id\organ\synonyms\similar_searches\classification\related\causes
+\\\\\\\\\
+x\digestive system\Digestive-system\0\system\\\system\\
+x\gut health\Gut-health\0\gastrointestinal tract\\\\\
+x\gas\gas\0\gastrointestinal tract \\\\\
+\bad breath\\0\mouth \halitosis, mouth odour\\symptom\\
+\dry mouth\\0\mouth\\\\\
+\mouth ulcers\\0\mouth\\\\\
+\oral thrush\\0\mouth, throat\\oral thrush in babies\\\
+\Aphthous Ulcers\\0\mouth\canker sores \\\\
+\Periodontal Disease\\0\mouth\\\\\
+\throat pain\\0\throat\\\\\
+\heartburn\\0\esophagus\\heartburn during pregnancy\\\
+\acid reflux\\0\esophagus\\gerd, Esophagitis and Gastroesophageal Reflux\\\
+x\esophagus\esophagus\0\esophagus\\\\\
+x\gerd\gerd\0\esophagus \\\\\
+\stomach pain\\0\stomach\\\\\
+\bloating\\0\stomach\\bloated stomach\\\
+\hyperacidity\\0\stomach\acidity\\\\
+\food poisoning\\0\stomach, intestines\\\\\
+\gastric pain\\0\stomach\\\\\
+\gas in stomach\\0\stomach\gassy stomach\\\\
+\gastric problem\\0\stomach\\\\\
+\gastroenteritis\\0\stomach, intestines\\\\\
+x\digestion\digestion\0\stomach\\\\\
+\indigestion\\0\stomach \dyspepsia, Functional Dyspepsia\\\\
+\vomiting\\0\stomach \\kids vomiting\\\
+\mucus in stomach\\0\stomach\\\\\
+\nausea\\0\stomach \\nausea during pregnancy\\\
+\overeating\\0\stomach \\\\\
+\queasy stomach\\0\stomach\\\\\
+\Gastritis\\0\stomach\\\\\
+\Peptic Ulcers\\0\stomach, small intestine (duodenum)\\\\\
+\Hiatus Hernia\\0\stomach\\\\\
+x\stomach cramps\Stomach-cramps\0\stomach\\\\\
+x\upset stomach\Upset-stomach\0\stomach\\\\\
+x\gastroparesis\gastroparesis\0\stomach \\\\\
+\hangover\\0\liver\\\\\
+\Jaundice\\0\liver \\\\\
+\Chronic Hepatitis\\0\liver \\\\\
+\Viral Hepatitis\\0\liver \\\\\
+\Cirrhosis\\0\liver \\\\\
+\gall stones\\0\gallbladder\\\\\
+\Cholecystitis\\0\gallbladder \\\\\
+\Cholelithiasis\\0\gallbladder \\\\\
+\abdominal pain\\0\abdomen\\lower abdominal pain\\\
+\gas pains\\0\intestines \gas pain\\\\
+x\bowel movement\bowel-movement\0\intestines \\\\\
+\quick digestion\\0\small intestine \\\\\
+\Inflammatory Bowel Disease\\0\small intestine, large intestine\\\\\
+\constipation\\0\colon\\constipation during pregnancy, kids constipation\\\
+\diarrhea\\0\colon\diarrhoea, loose motion, running stomach\\\\
+\flatulence\\0\colon\gas\\\\
+\Irritable Bowel Syndrome\\0\colon (large intestine)\\\\\
+\Ulcerative Colitis\\0\colon\\\\\
+\Diverticulitis\\0\colon\\\\\
+x\colon cleanse\Colon-cleanse\0\colon\\\\\
+\Hemorrhoids\\0\rectum, anus\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\hay fever \\1\nose, nasal passages, nasal cavity, sinuses, and the mucous membranes\allergic rhinitis\\\\
+\blocked nose\\1\nose, nasal cavity, \clogged nose, nose block, stuffy nose\\\\
+\runny nose\\1\nose, sinuses\rhinorrhea \\\\
+\post nasal drip\\1\nose, nasal cavity, throat\\\\\
+\sinus headache\\1\sinuses \\\\\
+\sinusitis\\1\sinuses \sinus infection\\\\
+\The Common Cold\\1\upper respiratory tract, nose, throat, sinuses\\\\\
+\sore throat\\1\throat, pharynx\pharyngitis \sore throat at home, itchy throat, itchy throat cough\\\
+\dry throat\\1\Throat, pharynx, larynx \\\\\
+\mucus in throat\\1\throat, aka pharynx\\\\\
+\snoring\\1\throat, soft palate, uvula\\\\\
+\laryngitis\\1\larynx \\\\\
+\hoarse voice\\1\larynx \\\\\
+\lost voice\\1\larynx \\lost voice due to cough, losing voice, no voice\\\
+\Tonsillitis\\1\tonsils, oropharynx\\\\\
+x\cough\cough\1\lungs, airways, trachea, bronchi, bronchiles\\dry cough, cough at night, night cough, cough in babies, baby cough, cough for kids, kids cough, kids sore throat, non stop coughing, persistent cough\symptom\sore throat, chest congestion, blocked nose, runny nose, \colds, flu, hay fever, Bronchitis, Asthma 
+\flu\\1\lungs \influenza\\\\
+\chest congestion\\1\lungs \\\\\
+\bronchitis\\1\lungs \\\\\
+\Asthma\\1\lungs \\\\\
+\phlegm\\1\lungs, airways\\\\\
+\Acute Bronchitis\\1\lungs\\\\\
+\Chronic Bronchitis\\1\lungs \\\\\
+\Pertussis\\1\lungs, airways\whooping cough \\\\
+\Emphysema\\1\lungs \\\\\
+\hiccups\\1\diaphragm \\\\\
+\ear pain due to cold\\1\ear\\\\\
+x\colds\colds\1\respiratory tract \\\\\
+x\mucus\mucus\1\respiratory tract \\\\\
+x\nasal congestion\Nasal-congestion\1\nose \\\\\
+\\\\\\\\\
+\\\\\\\\\
+\high blood pressure\\2\heart, blood vessels, kidneys, brain, and eyes\\\\\
+\low blood pressure\\2\heart, blood vessels \\\\\
+\heart pain\\2\heart\\\\\
+\high cholesterol\\2\liver, blood vessels, heart \\\\\
+\jaundice\\2\liver\\\\\
+\nose bleeding\\2\nose\hypertension\\\\
+\palpitation\\2\heart\hypotension\\\\
+\swollen feet\\2\feet, blood vessels, hearth\angina\\\\
+\Arteriosclerosis\\2\arteries \\\\\
+\Congestive Heart Failure\\2\heart \\jaundice in newborn\\\
+\Peripheral Arterial Occlusive Disease\\2\arteries \epistaxis \nose bleeding in child\\\
+\Varicose Veins \\2\veins \\\\\
+x\circulation\circulation\2\heart \\\\\
+x\cholesterol\cholesterol\2\liver \\\\\
+x\heart health\Heart-health\2\heart \\\\\
+x\hypertension\hypertension\2\heart \\\\\
+\\\\\\\\\
+\\\\\\\\\
+\body aches\\3\muscle\myalgia, muscle pain, muscle soreness \\\\
+\Osteoporosis\\3\bones \\\\\
+\arthritis\\3\joints \\arthritis in hands\\\
+\joint pain\\3\joints \\joint pain in knee, joint pain in hands, joint pain in foot, joint pain after viral fever\\\
+\joint stiffness\\3\joints \\\\\
+\Osteoarthritis\\3\joints \\osteoarthritis in knees\\\
+\Rheumatoid Arthritis\\3\joints \\\\\
+\Bursitis\\3\joints \\\\\
+\Tendinitis\\3\joints \\\\\
+\Gout\\3\joints \\\\\
+\back pain\\3\spine, kidney\\\\\
+\lower back pain\\3\spine \\\\\
+\stiff neck\\3\neck \\\\\
+\neck pain\\3\neck\\\\\
+\frozen shoulder\\3\shoulder \adhesive capsulitis\\\\
+\jammed finger\\3\hand \\\\\
+\leg cramps\\3\leg\\leg cramps at night\\\
+\leg pain\\3\leg\\leg pain during periods\\\
+\Restless Leg Syndrome \\3\leg\rls\\\\
+\knee pain\\3\knee \\knee swelling and pain\\\
+\knee swelling\\3\knee \\\\\
+\foot pain\\3\foot \\\\\
+\plantar fasciitis\\3\foot \\\\\
+\chapped lips\\3\lips \\\\\
+\canker sores\\3\mouth \aphthous ulcers \\\\
+\jaw pain\\3\jaw\\\\\
+\jaw lock\\3\jaw\\\\\
+\jaw clenching\\3\jaw\bruxism \\\\
+\eye twitching\\3\eye \myokymia \\\\
+x\bone health\bone-health\3\bones \\\\\
+x\cramps\cramps\3\muscle\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\itchy skin\\4\skin\\at night\\\
+\acne\\4\skin\\\\\
+\bee sting\\4\skin\\\\\
+\boils\\4\skin \\\\\
+\chicken pox\\4\skin \\\\\
+\dry skin\\4\skin\\\\\
+\excessive sweating\\4\skin\\\\\
+\fungal infection\\4\skin\\\\\
+\glowing skin\\4\skin\\\\\
+\insect bites\\4\skin\\\\\
+\ingrown hair\\4\skin\\\\\
+\jellyfish sting\\4\skin\\\\\
+\mosquito bites\\4\skin\\\\\
+\open pores\\4\skin\\\\\
+\open wounds\\4\skin\\\\\
+\pimples\\4\skin\\\\\
+\pigmentation\\4\skin\\\\\
+\ringworm\\4\skin\\\\\
+\rashes\\4\skin\\\\\
+\sunburn\\4\skin\\\\\
+\Eczema \\4\skin\\\\\
+\Psoriasis\\4\skin\\\\\
+\Dermatitis\\4\skin\\\\\
+\nail fungus\\4\nails\\\\\
+\dry hair\\4\hair\\\\\
+\frizzy hair\\4\hair\\\\\
+\grey hair\\4\hair\\\\\
+\hair fall\\4\hair\\\\\
+\oily hair\\4\hair\\\\\
+\quick hair growth\\4\hair\\\\\
+\dandruff\\4\scalp \\\\\
+\dry scalp\\4\scalp\\\\\
+\itchy scalp\\4\scalp\\\\\
+\lice\\4\scalp \\\\\
+\oily face\\4\face\\\\\
+\dark circles\\4\eyes\\\\\
+\dry eyes\\4\eyes\\\\\
+\puffy eyes\\4\eyes\\\\\
+\itchy eyes\\4\eyes\\\\\
+\red eyes\\4\eyes\\\\\
+\stye\\4\eyes\hordeolum \\\\
+\eye bags\\4\eyes\\\\\
+\eye infection\\4\eyes\\\\\
+\eye stye\\4\eyes\hordeolum\\\\
+\eye irritation\\4\eyes\\\\\
+\eye swelling\\4\eyes\\\\\
+\itchy ears\\4\ears\\\\\
+\bleeding gums\\4\mouth \\\\\
+\gum pain\\4\mouth \\\\\
+\cold sore\\4\mouth \fever blisters \\\\
+\gum swelling\\4\mouth\\\\\
+\gum infection\\4\mouth\\\\\
+\inflamed gums\\4\mouth\\\\\
+\mouth sores\\4\mouth\\\\\
+\swollen gums\\4\mouth\\\\\
+\athlete's foot\\4\feet \pedis \\\\
+\cracked heels\\4\feet \\\\\
+\foot odor\\4\feet \\\\\
+\ingrown toenail\\4\feet \\\\\
+\dry lips\\4\lips\\\\\
+\dark lips\\4\lips\\\\\
+\fever blister on lip\\4\lips\\\\\
+\pink lips\\4\lips\\\\\
+\toothache\\4\tooth\\\\\
+\nipple pain during breastfeeding\\4\nipples\\\\\
+\jock itch\\4\groin \cruris \\\\
+x\oily skin\Oily-skin\4\skin\\\\\
+x\clear skin\Clear-skin\4\skin\\\\\
+x\eye health\Eye-health\4\eyes\\\\\
+x\eyesight\eyesight\4\eyes\\\\\
+x\hair growth\Hair-growth\4\hair\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\Neuritis\\5\nerves\\\\\
+\nerve pain\\5\nerves\\\\\
+\headaches\\5\brain \\headache, headache due to cold weather, headache during pregnancy\\\
+\one side headache\\5\brain \\\\\
+\migraine\\5\brain \\\\\
+\insomnia\\5\brain \\insomnia for elderly\\\
+\quick sleep\\5\brain \\\\\
+\anxiety\\5\brain \\\\\
+\Stress\\5\brain \\\\\
+\Depression\\5\brain \\\\\
+\Anorexia Nervosa\\5\brain \\\\\
+\jet lag\\5\brain \\\\\
+\eye pain\\5\eyes\\\\\
+\eye strain\\5\eyes\\\\\
+\pink eye\\5\eyes\conjunctivitis\\\\
+\sore eyes\\5\eyes\\\\\
+\Tinnitus\\5\ears\\\\\
+\dizziness\\5\ears\\\\\
+\ear blockage\\5\ears\\\\\
+\motion sickness\\5\ears\\\\\
+\Shingles \\5\spine \herpes zoster \\\\
+\strep throat\\5\throat\\\\\
+\nausea\\5\stomach\\\\\
+\numbness in hands\\5\hands\\\\\
+\burning feet\\5\feet \\\\\
+x\alertness\alertness\5\brain \\\\\
+x\brain fog\brain-fog\5\brain \\\\\
+x\fatigue\fatigue\5\brain \\\\\
+x\sleep\sleep\5\brain \\\\\
+x\ear infection\Ear-infection\5\ears\\\\\
+x\earache\earache\5\ears\\\\\
+x\eye floaters\Eye-floaters\5\eyes\\\\\
+x\focus\focus\5\brain \\\\\
+x\concentration\concentration\5\brain \\\\\
+x\grief\grief\5\brain \\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+x\allergy\allergies\6\body\\\\\
+\fever\\6\brain \\\\\
+\inflammation\\6\body\\\\\
+\detox\\6\body\Detoxification\\\\
+\Postoperative Recovery\\6\body\\\\\
+\Vaginitis\\6\vagina \\\\\
+\Prostatitis\\6\prostate \\\\\
+\Boils\\6\skin \\\\\
+\Fungal Skin Infection\\6\skin \\\\\
+\Cancer \\6\body\\\\\
+x\immune system\Immune-system\6\system\\\\\
+x\infection\infection\6\body\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\overactive bladder\\7\bladder \frequent urination\\\\
+\Dysuria\\7\bladder \painful or difficult urination \\\\
+\Cystitis\\7\bladder \\\\\
+\Urinary Calculus \\7\kidney \\\\\
+\Hematuria\\7\kidneys \\\\\
+\Edema\\7\kidneys \\\\\
+x\bladder pain\Bladder-pain\7\bladder \\\\\
+x\dehydration\dehydration\7\kidneys \\\\\
+x\fluid retention\Fluid-retention\7\kidneys \\\\\
+x\hydration\hydration\7\kidneys \\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\breast pain during breastfeeding\\8\breasts\\\\\
+\erectile dysfunction\\8\penis \\\\\
+\low sperm count\\8\testes \\\\\
+\menstrual cramps\\8\uterus \\\\\
+\morning sickness\\8\stomach \\\\\
+\ovulation pain\\8\ovaries \mittelschmerz\\\\
+\over bleeding during periods\\8\uterus \\\\\
+\period cramps\\8\uterus \dysmenorrhea \\\\
+\premature ejaculation\\8\penis \\\\\
+\prostate inflammation\\8\prostate \\\\\
+\periods\\8\uterus \menstruation \\\\
+\Amenorrhea\\8\ovaries \absence of menstrual periods \\\\
+\Premenstrual Syndrome\\8\ovaries \PMS \\\\
+\Menopause\\8\ovaries \\\\\
+\Pregnancy\\8\uterus \\\\\
+\Uterine Fibroids\\8\uterus \\\\\
+\Endometriosis\\8\uterus \\\\\
+\Fibrocystic Breast Disease\\8\breasts\\\\\
+\Benign Prostatic Hypertrophy \\8\prostate \BPH \\\\
+x\endometriosis pain\Endometriosis-pain\8\uterus \\\\\
+x\fertility\fertility\8\ovaries, testes \\\\\
+x\breastfeeding\breastfeeding\8\breasts\\\\\
+x\female libido\Female-libido\8\brain \\\\\
+x\female fertility\Female-fertility\8\ovaries\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\hormonal imbalance\\9\body\\\\\
+\hot flashes\\9\hypothalamus \\\\\
+\Hypothyroidism\\9\thyroid \\\\\
+\Hyperthyroidism\\9\thyroid \\\\\
+\Diabetes Mellitus\\9\pancreas \\\\\
+\The Adrenal Glands\\9\adrenal glands \\\\\
+\adrenal fatigue\\9\adrenal glands \\\\\
+x\female hormone balance\Female-hormone-balance\9\ovaries \\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+x\babies\babies\10\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+x\belly fat\belly-fat\11\\\\\\
+x\weight loss\Weight-loss\11\\\\\\
+x\anti aging\Anti-aging\11\\\\\\
+x\appetite suppression\Appetite-suppression\11\\\\\\
+x\diet\diet\11\\\\\\
+x\energy boost\Energy-boost\11\\\\\\
+x\flat tummy\Flat-tummy\11\\\\\\
+x\fasting\fasting\11\\\\\\
+x\fat loss\Fat-loss\11\\\\\\
+x\good health\Good-health\11\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+x\cats\cats\12\\\\\\
+x\dogs\dogs\12\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+\\\\\\\\\
+x\enlarged spleen\Enlarged-spleen\13 (lymphatic)\\\\\\

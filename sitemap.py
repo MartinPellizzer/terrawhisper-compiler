@@ -44,10 +44,6 @@ def sitemap_plants():
         filepath = str(filepath)
         filepath_in = filepath.replace('\\', '/')
         filepath_out = filepath_in.replace('database/articles/', '').replace('.json', '.html')
-        # if 'medicine/constituents' in filepath_in: continue
-        if 'medicine/preparations' in filepath_in: continue
-        if 'medicine/side-effects' in filepath_in: continue
-        if 'medicine/precautions' in filepath_in: continue
         print(filepath_out)
 
         data = util.json_read(filepath_in)
