@@ -13,7 +13,7 @@ import utils_ai
 import prompts
 import datetime
 
-trefle_today_num = 310
+trefle_today_num = 400
 index_last_plant = 0
 # index_last_plant = 100
 number_of_plants_to_do_today = index_last_plant + trefle_today_num
@@ -1748,7 +1748,7 @@ def ai_herbalism_teas():
 # ai_entity_taxonomy_csv()
 
 # ai_entity_main()
-# ai_entity_trefle_main()
+ai_entity_trefle_main()
 
 # ai_medicine_main()
 # ai_benefits_main()
@@ -1761,5 +1761,5 @@ def ai_herbalism_teas():
 # field_rename('database/articles/plants', 'medicine_desc', 'medicine_intro')
 # field_delete('database/articles/plants', 'intro_desc')
 
-ai_herbalism_tea_condition()
+# ai_herbalism_tea_condition()
 # ai_herbalism_teas()

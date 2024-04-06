@@ -3,15 +3,18 @@
 # ###################################################
 
 - NEW ARTICLES:
-    gen ?? (max 50 for now) trefle plant articles x day, only root article with h2 ai gen. increase by 5 articles per day
+    - gen ?? (max 50 for now) trefle plant articles x day, only root article with h2 ai gen. increase by 5 articles per day
+    - update plants page
 
 - SCRAPE POWO:
     - plants taxonomy
+    - fix scraper when elements not found
 
 - PINTEREST:
     just pin
 
-
+- IMAGES:
+    - generate images
 
 
 
@@ -31,6 +34,9 @@
 # ###################################################
 # TODO
 # ###################################################
+- REDIRECT:
+    [!!!] test redirect on terrawhisper website after upload
+
 - TEAS PAGE:
     [1] gen ai 1 sentence each condition in system in herbalism/tea.json
     [1] adjust conditions names using the names from old condition csv file (because pins already linking)
@@ -40,7 +46,6 @@
     [1] reorganize images in c://...images/teas...
 
 - PAGES:
-    [1] add constituents, etc... pages
     [2] should articles links (ex. home page articles) by a <article> tag?
 
 - CONDITIONS PAGE:

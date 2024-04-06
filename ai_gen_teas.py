@@ -73,6 +73,18 @@ def reply_to_list_column(reply):
     return reply_formatted
 
 
+def csv_get_header_dict(rows):
+    cols = {}
+    for i, val in enumerate(rows[0]):
+        cols[val] = i
+    return cols
+
+
+def field_delete(filepath, key): 
+    data = util.json_read(filepath)
+    del data[key]
+    util.json_write(filepath, data)
+
 
 ######################################################################
 # GENERATE
@@ -117,41 +129,68 @@ def ai_herbalism_teas_conditions_csv(condition, condition_i):
     time.sleep(30)
 
 
-def ai_herbalism_teas_conditions_csv_to_json():
-    rows = util.csv_get_rows('database/tables/conditions.csv')
-    conditions = [row[0] for row in rows[1:]]
-    for condition in conditions:
-        condition_dash = condition.lower().strip().replace(' ', '-')
-        rows = util.csv_get_rows_by_entity('database/tables/herbalism-teas-conditions.csv', condition)
+# def ai_herbalism_teas_conditions_csv_to_json():
+#     rows = util.csv_get_rows('database/tables/conditions.csv')
+#     conditions = [row[0] for row in rows[1:]]
+#     for condition in conditions:
+#         condition_dash = condition.lower().strip().replace(' ', '-')
+#         rows = util.csv_get_rows_by_entity('database/tables/herbalism-teas-conditions.csv', condition)
         
-        if not rows: continue
+#         if not rows: continue
 
-        remedies = []
-        for row in rows:
-            remedies.append(
-                {
-                    'remedy_name': row[1],
-                }
-            )
+#         remedies = []
+#         for row in rows:
+#             remedies.append(
+#                 {
+#                     'remedy_name': row[1],
+#                 }
+#             )
 
-        article_filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
-        data = util.json_read(article_filepath)
+#         article_filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
+#         data = util.json_read(article_filepath)
 
-        remedies_json = []
-        try: remedies_json = data['remedies']
-        except: data['remedies'] = remedies_json
+#         remedies_json = []
+#         try: remedies_json = data['remedies']
+#         except: data['remedies'] = remedies_json
 
-        if data['remedies']: continue
+#         if data['remedies']: continue
 
-        data['remedies'] = remedies
-        data = util.json_write(article_filepath, data)
+#         data['remedies'] = remedies
+#         data = util.json_write(article_filepath, data)
         
 
+def ai_herbalism_teas_conditions_csv_to_json(condition, slug):
+    # IF ALREADY REMEDIES: SKIP CONDITION
+    json_filepath = f'database/articles/herbalism/tea/{slug}.json'
+    data = util.json_read(json_filepath)
+    data_remedies = []
+    try: data_remedies = data['remedies']
+    except: data['remedies'] = data_remedies
+    if data_remedies != []: 
+        print(f'{condition}: data already present')
+        return
+
+    # IF NOT REMEDIES: SKIP CONDITION
+    filepath = 'database/tables/herbalism-teas-conditions.csv'
+    rows = util.csv_get_rows_by_entity(filepath, condition)
+    if rows == []:
+        print(f'{condition}: no remedy found') 
+        return
+
+    # INSERT REMEDIES IN JSON
+    remedies = []
+    for row in rows:
+        remedies.append(
+            {
+                'remedy_name': row[1],
+            }
+        )
+    data['remedies'] = remedies
+    util.json_write(json_filepath, data)
 
 
-def ai_herbalism_teas_conditions_description(condition, condition_i):
-    condition_dash = condition.strip().lower().replace(' ', '-')
-    filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
+def ai_herbalism_teas_conditions_description(condition, slug, condition_i):
+    filepath = f'database/articles/herbalism/tea/{slug}.json'
     data = util.json_read(filepath)
 
     for index, remedy in enumerate(data['remedies'][:NUM_REMEDIES]):
@@ -309,7 +348,6 @@ def ai_herbalism_teas_conditions_recipe(condition, condition_i):
         time.sleep(30)
 
 
-
 # def ai_recipe(condition, prompt):
 #     condition_dash = condition.strip().lower().replace(' ', '-')
 #     filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
@@ -344,8 +382,6 @@ def ai_herbalism_teas_conditions_recipe(condition, condition_i):
 #             util.json_write(filepath, data)
 
 #         time.sleep(30)
-
-
 
 
 # def ai_herbalism_tea_condition():
@@ -418,37 +454,47 @@ def ai_intro(condition):
 ######################################################################
 
 def ai_herbalism_teas_conditions_main():
-    rows = util.csv_get_rows('database/tables/conditions.csv')
-    conditions = [row[0] for row in rows[1:]]
-    for condition_i, condition in enumerate(conditions):
-        if 'cough' not in condition: continue
-        print(f'{condition_i+1}/{len(conditions)} -- {condition}')
+    rows = util.csv_get_rows('database/tables/conditions/conditions.csv')
+    cols = csv_get_header_dict(rows)
 
-        condition_dash = condition.strip().lower().replace(' ', '-')
-        filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
-        data = util.json_read(filepath)
+    for i, row in enumerate(rows):
+        condition = row[cols['condition']].lower().strip()
+        slug = row[cols['slug']].lower().strip()
+        classification = row[cols['classification']].lower().strip()
+        system_id = row[cols['system_id']].lower().strip()
 
+        if condition == '': continue
+        if classification != 'symptom': continue
+        if system_id != '0': continue
+
+        print(f'{i+1}/{len(rows)} -- {condition}')
+
+        json_filepath = f'database/articles/herbalism/tea/{slug}.json'
+        util.json_generate_if_not_exists(json_filepath)
+        data = util.json_read(json_filepath)
         data['condition'] = condition
         data['preparation'] = 'tea'
         data['title'] = f'{10} best herbal teas for {condition}'
-        data['url'] = f'herbalism/tea/{condition_dash}'
+        data['url'] = f'herbalism/tea/{slug}'
         data['remedy_num'] = 10
+        util.json_write(json_filepath, data)
 
-        util.json_write(filepath, data)
-
+        # try: field_delete(f'database/articles/herbalism/tea/{slug}.json', 'remedies')
+        # except: pass
+        # continue
 
         # STEP 1: AI GEN HERBAL TEAS FOR CONDITION (TO CLEAN)
-        # ai_herbalism_teas_conditions_csv(condition, condition_i)
+        ai_herbalism_teas_conditions_csv(condition, i)
 
         # STEP 2: GEN JSON FROM AI GEN HERBAL TEAS (AFTER CLEANING)
-        # ai_herbalism_teas_conditions_csv_to_json()
+        ai_herbalism_teas_conditions_csv_to_json(condition, slug)
 
         # STEP 3: AI GEN DESCRIPTIONS FOR HERBAL TEAS
-        ai_herbalism_teas_conditions_description(condition, condition_i)
-
-        ai_herbalism_teas_conditions_parts(condition, condition_i)
-        ai_herbalism_teas_conditions_constituents(condition, condition_i)
-        ai_herbalism_teas_conditions_recipe(condition, condition_i)
+        ai_herbalism_teas_conditions_description(condition, slug, i)
+        continue
+        ai_herbalism_teas_conditions_parts(condition, i)
+        ai_herbalism_teas_conditions_constituents(condition, i)
+        ai_herbalism_teas_conditions_recipe(condition, i)
 
         # STEP 4: AI GEN RECIPES FOR HERBAL TEAS
         # ai_recipe(condition, 

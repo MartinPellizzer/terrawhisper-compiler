@@ -42,7 +42,7 @@ acid reflux\Chamomile\
 acid reflux\Ginger\
 acid reflux\Licorice\
 acid reflux\Fennel\
-acid reflux\Marshmallowroot\
+acid reflux\Marshmallow\
 acid reflux\Slippery elm\
 acid reflux\Turmeric\
 acid reflux\Gingko biloba\
@@ -759,7 +759,7 @@ diarrhea\Peppermint\
 diarrhea\Ginger\
 diarrhea\Slippery Elm\
 diarrhea\Marshmallow\
-diarrhea\Red Raspberry\
+diarrhea\Raspberry\
 diarrhea\Blackberry\
 diarrhea\Blueberry\
 diarrhea\Oak Bark\
@@ -1566,7 +1566,7 @@ gastritis\Yellow dock\
 gastritis\Burdock\
 gastritis\Red clover\
 gastritis\Nettle\
-gastritis\Oak bark\
+gastritis\Oak\
 gastritis\Cinnamon\
 gas pain\Chamomile\
 gas pain\Peppermint\
@@ -1904,3 +1904,304 @@ cough\Plantain\
 cough\Sage\
 cough\Rosemary\
 cough\Basil\
+dry mouth\Licorice\
+dry mouth\Marshmallow\
+dry mouth\Slippery Elm\
+dry mouth\Chamomile\
+dry mouth\Skullcap\
+dry mouth\Passionflower\
+dry mouth\Lavender\
+dry mouth\Ginger\
+dry mouth\Fennel\
+dry mouth\Anise\
+dry mouth\Clove\
+dry mouth\Sage\
+dry mouth\Thyme\
+dry mouth\Rosemary\
+dry mouth\Birch\
+dry mouth\Cornsilk\
+dry mouth\Mullein\
+dry mouth\Red Clover\
+dry mouth\Alfalfa\
+mouth ulcers\Chamomile\
+mouth ulcers\Calendula\
+mouth ulcers\Echinacea\
+mouth ulcers\Licorice\
+mouth ulcers\Marshmallow\
+mouth ulcers\Slippery elm\
+mouth ulcers\Goldenseal\
+mouth ulcers\Sage\
+mouth ulcers\Basil\
+mouth ulcers\Clove\
+mouth ulcers\Tea tree\
+mouth ulcers\Fennel\
+mouth ulcers\Peppermint\
+mouth ulcers\Ginger\
+mouth ulcers\Turmeric\
+mouth ulcers\Cinnamon\
+mouth ulcers\Raspberry\
+mouth ulcers\Plantain\
+oral thrush\Calendula\
+oral thrush\Goldenseal\
+oral thrush\Echinacea\
+oral thrush\Licorice\
+oral thrush\Slippery elm\
+oral thrush\Marshmallow\
+oral thrush\Myrrh\
+oral thrush\Sage\
+oral thrush\Clove\
+oral thrush\Tea tree\
+oral thrush\Chamomile\
+oral thrush\Raspberry\
+oral thrush\Oregano\
+oral thrush\Thyme\
+oral thrush\Cinnamon\
+oral thrush\Turmeric\
+oral thrush\Ginger\
+oral thrush\Rosemary\
+oral thrush\Cornsilk\
+throat pain\Slippery Elm\
+throat pain\Marshmallow\
+throat pain\Licorice\
+throat pain\Chamomile\
+throat pain\Peppermint\
+throat pain\Saucy Sage\
+throat pain\Echinacea\
+throat pain\Goldenseal\
+throat pain\Clove\
+throat pain\Cinnamon\
+throat pain\Ginger\
+throat pain\Turmeric\
+throat pain\Raspberry\
+throat pain\Rosehip\
+throat pain\Hibiscus\
+throat pain\Fennel\
+throat pain\Anise\
+stomach pain\Chamomile\
+stomach pain\Peppermint\
+stomach pain\Ginger\
+stomach pain\Licorice\
+stomach pain\Fennel\
+stomach pain\Basil\
+stomach pain\Coriander\
+stomach pain\Dandelion\
+stomach pain\Marshmallow\
+stomach pain\Slippery elm\
+stomach pain\Skullcap\
+stomach pain\Catnip\
+stomach pain\Valerian\
+stomach pain\Passionflower\
+stomach pain\Hawthorn\
+stomach pain\Raspberry\
+stomach pain\Birch\
+stomach pain\Yarrow\
+stomach pain\Milk thistle\
+hyperacidity\Chamomile\
+hyperacidity\Licorice\
+hyperacidity\Marshmallow\
+hyperacidity\Slippery elm\
+hyperacidity\Meadowsweet\
+hyperacidity\Catnip\
+hyperacidity\Skullcap\
+hyperacidity\Valerian\
+hyperacidity\Passionflower\
+hyperacidity\Yellow dock\
+hyperacidity\Dandelion\
+hyperacidity\Ginger\
+hyperacidity\Fennel\
+hyperacidity\Anise\
+hyperacidity\Cumin\
+hyperacidity\Coriander\
+hyperacidity\Basil\
+hyperacidity\Rosemary\
+hyperacidity\Sage\
+mucus in stomach\Licorice\
+mucus in stomach\Marshmallow\
+mucus in stomach\Slippery Elm\
+mucus in stomach\Thyme\
+mucus in stomach\Anise\
+mucus in stomach\Fennel\
+mucus in stomach\Ginger\
+mucus in stomach\Chamomile\
+mucus in stomach\Peppermint\
+mucus in stomach\Catnip\
+mucus in stomach\Plantain\
+mucus in stomach\Skullcap\
+mucus in stomach\Yarrow\
+mucus in stomach\Goldenrod\
+mucus in stomach\Red Clover\
+mucus in stomach\Echinacea\
+mucus in stomach\Sage\
+mucus in stomach\Linden\
+mucus in stomach\Raspberry\
+queasy stomach\Ginger\
+queasy stomach\Peppermint\
+queasy stomach\Chamomile\
+queasy stomach\Fennel\
+queasy stomach\Licorice\
+queasy stomach\Slippery elm\
+queasy stomach\Marshmallow\
+queasy stomach\Skullcap\
+queasy stomach\Catnip\
+queasy stomach\Dandelion\
+queasy stomach\Yellow dock\
+queasy stomach\Burdock\
+queasy stomach\Valerian\
+queasy stomach\Passionflower\
+queasy stomach\Hawthorn\
+queasy stomach\Milk thistle\
+queasy stomach\Lavender\
+queasy stomach\Raspberry\
+queasy stomach\Nettle\
+nausea\Ginger\
+nausea\Peppermint\
+nausea\Chamomile\
+nausea\Licorice\
+nausea\Fennel\
+nausea\Raspberry\
+nausea\Slippery elm\
+nausea\Marshmallow\
+nausea\Skullcap\
+nausea\Valerian\
+nausea\Dandelion\
+nausea\Milk thistle\
+nausea\Catnip\
+nausea\Yarrow\
+nausea\Birch\
+nausea\Basil\
+nausea\Cloves\
+nausea\Spearmint\
+nausea\Hawthorn\
+vomiting\Ginger\
+vomiting\Peppermint\
+vomiting\Chamomile\
+vomiting\Licorice\
+vomiting\Slippery elm\
+vomiting\Fennel\
+vomiting\Yellow dock\
+vomiting\Marshmallow\
+vomiting\Raspberry\
+vomiting\Elderflower\
+vomiting\Clove\
+vomiting\Bergamot\
+vomiting\Valerian\
+vomiting\Skullcap\
+vomiting\Passionflower\
+vomiting\Dandelion\
+vomiting\Milk thistle\
+vomiting\Yarrow\
+vomiting\Catnip\
+gas in stomach\Peppermint\
+gas in stomach\Ginger\
+gas in stomach\Chamomile\
+gas in stomach\Fennel\
+gas in stomach\Anise\
+gas in stomach\Caraway\
+gas in stomach\Coriander\
+gas in stomach\Dandelion\
+gas in stomach\Licorice\
+gas in stomach\Senna\
+gas in stomach\Slippery elm\
+gas in stomach\Marshmallow\
+gas in stomach\Skullcap\
+gas in stomach\Valerian\
+gas in stomach\Passionflower\
+gas in stomach\Yellow dock\
+gas in stomach\Red clover\
+gas in stomach\Catnip\
+gas in stomach\Birch\
+food poisoning\Chamomile\
+food poisoning\Peppermint\
+food poisoning\Ginger\
+food poisoning\Lemongrass\
+food poisoning\Licorice\
+food poisoning\Raspberry\
+food poisoning\Slippery elm\
+food poisoning\Echinacea\
+food poisoning\Marshmallow\
+food poisoning\Yarrow\
+food poisoning\Goldenseal\
+food poisoning\Clove\
+food poisoning\Cinnamon\
+food poisoning\Basil\
+food poisoning\Fennel\
+food poisoning\Anise\
+food poisoning\Sage\
+food poisoning\Thyme\
+food poisoning\Oregano\
+jaundice\Milk Thistle\
+jaundice\Dandelion\
+jaundice\Turmeric\
+jaundice\Chicory\
+jaundice\Yarrow\
+jaundice\Greater Celandine\
+jaundice\Artichoke\
+jaundice\Birch\
+jaundice\Nettle\
+jaundice\Chamomile\
+jaundice\Burdock\
+jaundice\Red Clover\
+jaundice\Fennel\
+jaundice\Licorice\
+jaundice\Manjistha\
+jaundice\Ginger\
+jaundice\Peppermint\
+jaundice\Coriander\
+jaundice\Basil\
+quick digestion\Peppermint\
+quick digestion\Ginger\
+quick digestion\Chamomile\
+quick digestion\Fennel\
+quick digestion\Licorice\
+quick digestion\Senna\
+quick digestion\Dandelion\
+quick digestion\Marshmallow\
+quick digestion\Slippery elm\
+quick digestion\Cinnamon\
+quick digestion\Cardamom\
+quick digestion\Coriander\
+quick digestion\Clove\
+quick digestion\Spearmint\
+quick digestion\Raspberry\
+quick digestion\Skullcap\
+quick digestion\Valerian\
+quick digestion\Yarrow\
+quick digestion\Turmeric\
+hemorrhoids\Witch Hazel\
+hemorrhoids\Chamomile\
+hemorrhoids\Horse Chestnut\
+hemorrhoids\Butcher's Broom\
+hemorrhoids\Mullein\
+hemorrhoids\Goldenseal\
+hemorrhoids\Yarrow\
+hemorrhoids\Shepherd's Purse\
+hemorrhoids\Dandelion\
+hemorrhoids\Oak\
+hemorrhoids\Slippery Elm\
+hemorrhoids\Calendula\
+hemorrhoids\Plantain\
+hemorrhoids\Comfrey\
+hemorrhoids\St. John's Wort\
+hemorrhoids\Clove\
+hemorrhoids\Cayenne\
+hemorrhoids\Ginger\
+hemorrhoids\Turmeric\
+indigestion\Peppermint\
+indigestion\Ginger\
+indigestion\Chamomile\
+indigestion\Fennel\
+indigestion\Licorice\
+indigestion\Dandelion\
+indigestion\Marshmallow\
+indigestion\Slippery elm\
+indigestion\Skullcap\
+indigestion\Catnip\
+indigestion\Valerian\
+indigestion\Yarrow\
+indigestion\Birch\
+indigestion\Artichoke\
+indigestion\Turmeric\
+indigestion\Milk thistle\
+indigestion\Basil\
+indigestion\Cinnamon\
+indigestion\Cloves\

@@ -40,7 +40,8 @@ for row in rows[1:]:
     e.send_keys(Keys.RETURN) 
     time.sleep(5)
 
-    e = driver.find_element(By.XPATH, '//article')
+    try: e = driver.find_element(By.XPATH, '//article')
+    except: continue
     e.click() 
     time.sleep(5)
 

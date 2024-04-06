@@ -20,8 +20,8 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
 random_num = random.randint(-2, 2)
-ARTICLES_NUM = 42 - random_num
-WAIT_SECONDS = 300
+ARTICLES_NUM = 35 - random_num
+WAIT_SECONDS = 600
 
 
 options = Options()
@@ -61,7 +61,10 @@ random.shuffle(articles_filepath)
 articles_filepath = articles_filepath[:ARTICLES_NUM]
 
 # START PINNING
+i = 0
 for article_filepath in articles_filepath:
+    i += 1
+    print(f'{i}/{len(articles_filepath)}')
     data = util.json_read(article_filepath)
 
     remedy_num = data['remedy_num']
@@ -166,7 +169,7 @@ for article_filepath in articles_filepath:
     # break
 
     
-    random_time_to_wait = random.randint(-30, 30)
+    random_time_to_wait = random.randint(-60, 60)
     time_to_wait = WAIT_SECONDS + random_time_to_wait
     time.sleep(time_to_wait)
 

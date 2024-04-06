@@ -1,8 +1,25 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.options import Options
+
 import utils_ai
 import time
 
+
+options = Options()
+options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
+driver = webdriver.Firefox(executable_path=r'C:\drivers\geckodriver.exe', options=options)
+driver.get(f'https://pubmed.ncbi.nlm.nih.gov/?term=chamomile+sleep')
+time.sleep(10)
+
+
 # https://pubmed.ncbi.nlm.nih.gov/?term=chamomile+sleep 
 # TODO: scrape studies and automate the summary generation
+
+
 
 abstracts = [
 'Sleep is considered as one of the most important aspects for maintaining a healthy life. For a person to function normally, at least 6-8 hours of sleep daily is necessary. Sleep not only affects our mood, but also regulates the efficiency of work done. Many complications arise due to inadequacy of sleep. The unhealthy food and lifestyle choices have made us more prone to sleep disorders. The medications used for the treatment of sleep disorders are mainly habit forming and have tendencies of withdrawal symptoms. This inadequacy in medication has lead to search for newer, better options. The field of nutraceuticals fits apt for treating such disorders. The quality of being non-toxic, non-habit forming, and being practically more efficient has had made it an excellent option. Nutraceuticals make use of food or part of food for the treatment or to prevent any disease. Remarkable positive effects of nutraceuticals like Caffeine, Chamomile, Kava kava, Cherries and Cherry juice, L tryptophan, Valerian, Vitamin D, Marijuana, melatonin, Lemon balm had been mentioned in the treatment of sleep disorders. The present review gives a general overview of nutraceuticals and discusses their use in sleep disorders.',

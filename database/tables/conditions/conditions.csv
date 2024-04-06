@@ -1,61 +1,68 @@
 pinned\condition\slug\system_id\organ\synonyms\similar_searches\classification\related\causes
 \\\\\\\\\
-x\digestive system\Digestive-system\0\system\\\system\\
-x\gut health\Gut-health\0\gastrointestinal tract\\\\\
-x\gas\gas\0\gastrointestinal tract \\\\\
-\bad breath\\0\mouth \halitosis, mouth odour\\symptom\\
-\dry mouth\\0\mouth\\\\\
-\mouth ulcers\\0\mouth\\\\\
-\oral thrush\\0\mouth, throat\\oral thrush in babies\\\
-\Aphthous Ulcers\\0\mouth\canker sores \\\\
-\Periodontal Disease\\0\mouth\\\\\
-\throat pain\\0\throat\\\\\
-\heartburn\\0\esophagus\\heartburn during pregnancy\\\
-\acid reflux\\0\esophagus\\gerd, Esophagitis and Gastroesophageal Reflux\\\
-x\esophagus\esophagus\0\esophagus\\\\\
-x\gerd\gerd\0\esophagus \\\\\
-\stomach pain\\0\stomach\\\\\
-\bloating\\0\stomach\\bloated stomach\\\
-\hyperacidity\\0\stomach\acidity\\\\
-\food poisoning\\0\stomach, intestines\\\\\
-\gastric pain\\0\stomach\\\\\
-\gas in stomach\\0\stomach\gassy stomach\\\\
-\gastric problem\\0\stomach\\\\\
-\gastroenteritis\\0\stomach, intestines\\\\\
-x\digestion\digestion\0\stomach\\\\\
-\indigestion\\0\stomach \dyspepsia, Functional Dyspepsia\\\\
-\vomiting\\0\stomach \\kids vomiting\\\
-\mucus in stomach\\0\stomach\\\\\
-\nausea\\0\stomach \\nausea during pregnancy\\\
-\overeating\\0\stomach \\\\\
-\queasy stomach\\0\stomach\\\\\
-\Gastritis\\0\stomach\\\\\
-\Peptic Ulcers\\0\stomach, small intestine (duodenum)\\\\\
-\Hiatus Hernia\\0\stomach\\\\\
-x\stomach cramps\Stomach-cramps\0\stomach\\\\\
-x\upset stomach\Upset-stomach\0\stomach\\\\\
-x\gastroparesis\gastroparesis\0\stomach \\\\\
-\hangover\\0\liver\\\\\
-\Jaundice\\0\liver \\\\\
-\Chronic Hepatitis\\0\liver \\\\\
-\Viral Hepatitis\\0\liver \\\\\
-\Cirrhosis\\0\liver \\\\\
-\gall stones\\0\gallbladder\\\\\
-\Cholecystitis\\0\gallbladder \\\\\
-\Cholelithiasis\\0\gallbladder \\\\\
-\abdominal pain\\0\abdomen\\lower abdominal pain\\\
-\gas pains\\0\intestines \gas pain\\\\
-x\bowel movement\bowel-movement\0\intestines \\\\\
-\quick digestion\\0\small intestine \\\\\
-\Inflammatory Bowel Disease\\0\small intestine, large intestine\\\\\
-\constipation\\0\colon\\constipation during pregnancy, kids constipation\\\
-\diarrhea\\0\colon\diarrhoea, loose motion, running stomach\\\\
-\flatulence\\0\colon\gas\\\\
-\Irritable Bowel Syndrome\\0\colon (large intestine)\\\\\
-\Ulcerative Colitis\\0\colon\\\\\
-\Diverticulitis\\0\colon\\\\\
-x\colon cleanse\Colon-cleanse\0\colon\\\\\
-\Hemorrhoids\\0\rectum, anus\\\\\
+x\digestive system\digestive-system\0\system\\\system\\
+\\\\\\\\\
+x\gut health\gut-health\0\gastrointestinal tract\\\part\\
+\\\\\\\\\
+\bad breath\bad-breath\0\mouth \halitosis, mouth odour\\symptom\\
+\dry mouth\dry-mouth\0\mouth\Xerostomia \\symptom\\
+\mouth ulcers\Mouth-ulcers\0\mouth\canker sores, aphthous ulcers\\symptom\\
+\oral thrush\oral-thrush\0\mouth, throat\Candidiasis \oral thrush in babies\symptom\\
+\periodontal disease\periodontal-disease\0\mouth\Gum Disease \\condition \\
+\\\\\\\\\
+x\esophagus health\esophagus\0\esophagus\\\part\\
+\throat pain\throat-pain\0\throat\\\symptom\\
+\heartburn\heartburn\0\esophagus\\heartburn during pregnancy\symptom\\
+\acid reflux\acid-reflux\0\esophagus\\gerd, Esophagitis and Gastroesophageal Reflux\symptom\\
+x\gerd\gerd\0\esophagus \\\condition \\
+\\\\\\\\\
+x\digestion\digestion\0\stomach\\\process\\
+\indigestion\indigestion\0\stomach \dyspepsia, Functional Dyspepsia\\symptom\\
+\stomach pain\stomach-pain\0\stomach\gastric pain\\symptom\\
+x\stomach cramps\stomach-cramps\0\stomach\\\symptom\\
+\hyperacidity\hyperacidity\0\stomach\acidity\\symptom\\
+\gastric problem\gastric-problem\0\stomach\\\??\\
+\gastritis\gastritis\0\stomach\\\symptom\\
+\mucus in stomach\mucus-stomach\0\stomach\\\symptom\\
+\peptic ulcers\peptic-ulcers\0\stomach, small intestine (duodenum)\\\condition \\
+\gastroenteritis\gastroenteritis\0\stomach, intestines\\\condition \\
+x\gastroparesis\gastroparesis\0\stomach \\\condition \\
+\hiatus hernia\hiatus-hernia\0\stomach\\\condition \\
+\queasy stomach\queasy-stomach\0\stomach\\nausea? Vomit?\symptom\\
+x\upset stomach\upset-stomach\0\stomach\\\symptom\\
+\nausea\nausea\0\stomach \\nausea during pregnancy\symptom\\
+\vomiting\vomiting\0\stomach \\kids vomiting\symptom\\
+x\gas\gas\0\gastrointestinal tract \\\symptom\\
+\gas in stomach\gas-stomach\0\stomach\gassy stomach\\symptom\\
+\bloating\bloating\0\stomach\\bloated stomach\symptom\\
+\overeating\overeating\0\stomach \\\behavior\\
+\food poisoning\food-poisoning\0\stomach, intestines\\\symptom\\
+\\\\\\\\\
+\hangover\hangover\0\liver\\\symptom\\
+\jaundice\jaundice\0\liver \\\symptom\\
+\chronic hepatitis\chronic-hepatitis\0\liver \\\condition \\
+\viral hepatitis\viral-hepatitis\0\liver \\\condition \\
+\cirrhosis\cirrhosis\0\liver \\\condition \\
+\\\\\\\\\
+\gallstones\gallstones\0\gallbladder\cholelithiasis\\condition \\
+\cholecystitis\cholecystitis\0\gallbladder \\\condition \\
+\\\\\\\\\
+\abdominal pain\abdominal-pain\0\abdomen\\lower abdominal pain\symptom\\
+\\\\\\\\\
+\gas pain\gas-pain\0\intestines \gas pain\\symptom\\
+x\bowel movement\bowel-movement\0\intestines \\\process\\
+\quick digestion\quick-digestion\0\intestines \\\symptom\\
+\inflammatory bowel disease\inflammatory-bowel-disease\0\intestines, large intestine\\\group\\
+\\\\\\\\\
+\constipation\constipation\0\colon\\constipation during pregnancy, kids constipation\symptom\\
+\diarrhea\diarrhea\0\colon\diarrhoea, loose motion, running stomach\\symptom\\
+\flatulence\flatulence\0\colon\gas\\symptom\\
+\irritable bowel syndrome\irritable-bowel-syndrome\0\colon (large intestine)\\\condition \\
+\ulcerative colitis\ulcerative-colitis\0\colon\\\condition \\
+\diverticulitis\diverticulitis\0\colon\\\condition \\
+x\colon cleanse\colon-cleanse\0\colon\\\procedure\\
+\\\\\\\\\
+\hemorrhoids\hemorrhoids\0\rectum, anus\\\symptom\\
 \\\\\\\\\
 \\\\\\\\\
 \\\\\\\\\
