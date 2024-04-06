@@ -37,9 +37,12 @@
 - REDIRECT:
     [!!!] test redirect on terrawhisper website after upload
 
+- START HERE PAGE:
+    [1] make start here page
+
 - TEAS PAGE:
     [1] gen ai 1 sentence each condition in system in herbalism/tea.json
-    [1] adjust conditions names using the names from old condition csv file (because pins already linking)
+    [1] adjust conditions names using the names from old condition csv file (because pins already linking), or redirect?
     [1] complete other sections in tea page (ex. how to)
 
 - IMAGES:
@@ -53,9 +56,6 @@
 
     - CONDITIONS:
         [1] to do conditions page, you must generate conditions articles to link to (create template for article)
-
-- IMAGES:
-    [1] complete images for 100 articles
 
 - PAGE TAXONOMY
     [3] generate

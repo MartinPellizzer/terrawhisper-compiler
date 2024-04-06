@@ -17182,3 +17182,5 @@ Read port: 55986
 WebDriver BiDi listening on ws://127.0.0.1:55978
 1712390189502	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 DevTools listening on ws://127.0.0.1:55978/devtools/browser/9211925c-5604-4152-ade1-e9525b14ca27
+1712390219284	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
