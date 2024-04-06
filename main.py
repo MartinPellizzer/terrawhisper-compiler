@@ -27,6 +27,7 @@ except: pass
 
 
 
+
 ##############################################################################
 # IMAGES
 ##############################################################################
@@ -509,21 +510,23 @@ def page_plants(regen_csv=False):
         util.csv_set_rows('website/plants.csv', rows_final, delimiter=',')
 
 
-
 def page_conditions():
     systems_rows = util.csv_get_rows('database/tables/conditions/systems.csv')
+    systems_cols = util.csv_get_header_dict(systems_rows)
     conditions_rows = util.csv_get_rows('database/tables/conditions/conditions.csv')
+    conditions_cols = util.csv_get_header_dict(conditions_rows)
     
     main_html = ''
     for system_row in systems_rows[1:]:
-        system_id = system_row[0]
-        system_name = system_row[1]
-        main_html += f'<h2 class="mb-32">{system_name.title()} System</h2>'
+        system_id = system_row[systems_cols['id']]
+        system_name = system_row[systems_cols['name']]
 
-        conditions_rows_filtered = [row for row in conditions_rows if row[1] == system_id]
+        conditions_rows_filtered = [condition_row for condition_row in conditions_rows if condition_row[conditions_cols['system_id']] == system_id]
+
+        main_html += f'<h2 class="mb-32">{system_name.title()} System</h2>'
         main_html += f'<div class="grid-4">'
-        for row in conditions_rows_filtered:
-            condition_name = row[0].strip().title()
+        for condition_row in conditions_rows_filtered:
+            condition_name = condition_row[conditions_cols['condition']].strip().title()
             main_html += f'<p>{condition_name}</p>'
         main_html += f'</div>'
         
@@ -896,7 +899,29 @@ def articles_plants():
         data = util.json_read(article_filepath)
         latin_name = data['latin_name']
         entity = data['entity']
-        
+
+        # IMAGES
+        folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
+        if not os.path.exists(folderpath): 
+            print(f'MISSING >>>>> IMAGE FOLDER - {folderpath}')
+            continue
+        filenames = os.listdir(folderpath)
+        filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+        random.shuffle(filepaths_in)
+
+        filepaths_out = [
+            f'website/images/{entity}-overview.jpg',
+            f'website/images/{entity}-medicine.jpg',
+            f'website/images/{entity}-horticulture.jpg',
+            f'website/images/{entity}-botany.jpg',
+            f'website/images/{entity}-history.jpg',
+        ]
+
+        for i, filepath_out in enumerate(filepaths_out):
+            if not os.path.exists(filepath_out):
+                util.image_variate(filepaths_in[i], filepath_out)
+                
+        # TEXT
         article_filepath_in = article_filepath
         article_filepath_out = f'website/plants/{entity}.html'
 
@@ -1055,27 +1080,6 @@ def articles_plants():
         util.file_write(f'{article_filepath_out}', html)
 
 
-        # GET IMAGES
-        folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
-        if not os.path.exists(folderpath): 
-            print(f'MISSING >>>>> IMAGE FOLDER - {folderpath}')
-            continue
-        filenames = os.listdir(folderpath)
-        filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
-        random.shuffle(filepaths_in)
-
-        # GENERATE IMAGES IF NEW
-        filepaths_out = [
-            f'website/images/{entity}-overview.jpg',
-            f'website/images/{entity}-medicine.jpg',
-            f'website/images/{entity}-horticulture.jpg',
-            f'website/images/{entity}-botany.jpg',
-            f'website/images/{entity}-history.jpg',
-        ]
-
-        for i, filepath_out in enumerate(filepaths_out):
-            if not os.path.exists(filepath_out):
-                util.image_variate(filepaths_in[i], filepath_out)
 
 
 def articles_medicine():
@@ -2264,7 +2268,7 @@ page_about()
 
 
 
-# page_herbalism_tea_condition()
+page_herbalism_tea_condition()
 # page_herbalism_tea()
 # page_herbalism()
 

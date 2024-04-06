@@ -53,6 +53,13 @@ def folder_create(path):
     if not os.path.exists(path): os.makedirs(path)
 
 
+def csv_get_header_dict(rows):
+    cols = {}
+    for i, val in enumerate(rows[0]):
+        cols[val] = i
+    return cols
+
+
 
 
 

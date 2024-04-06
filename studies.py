@@ -6,8 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.options import Options
 
 import utils_ai
+import utils
 import time
-
 
 options = Options()
 options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
@@ -15,6 +15,34 @@ driver = webdriver.Firefox(executable_path=r'C:\drivers\geckodriver.exe', option
 driver.get(f'https://pubmed.ncbi.nlm.nih.gov/?term=chamomile+sleep')
 time.sleep(10)
 
+# SCRAPE URLS TO 10 FIRST STUDIES
+urls = []
+elements = driver.find_elements(By.XPATH, '//div[@class="docsum-wrap"]')
+for i, e in enumerate(elements):
+    url = e.find_element(By.XPATH, './/a').get_attribute('href')
+    urls.append(url)
+
+# SCRAPE THE ABSTRACTS OF THE ARTICLES
+for url in urls:
+    print(url)
+    driver.get(url)
+    time.sleep(5)
+
+    try: 
+        e = driver.find_element(By.XPATH, '//div[@class="abstract"]')
+        content = e.text
+    except:
+        print('failed scraping abstract')
+
+    util.file_write(f'tmp/{i}.txt', content)
+
+    time.sleep(5)
+
+# SAVE THE ABSTRACTS OF THE ARTICLES
+# ASK AI WHICH ARTICLE GIVES THE BEST DATA (POSITIVE) ABOUT A REMEDY
+# SUMMARIZE THE BEST ARTICLE
+# DOUBLE CHECK THAT THE ARTICLE SUMMARY TALKS GOOD ABOUT THE REMEDY
+# SAVE SUMMARY TO HERBALIS/TEA/CONDITION
 
 # https://pubmed.ncbi.nlm.nih.gov/?term=chamomile+sleep 
 # TODO: scrape studies and automate the summary generation

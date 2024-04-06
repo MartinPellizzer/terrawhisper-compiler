@@ -88,3 +88,20 @@ def gen_reply(prompt):
     # reply = gen_reply_local(prompt)
 
     return reply
+
+# #################################################################################
+# FORMAT REPLY
+# #################################################################################
+def reply_to_paragraphs(reply):
+    reply = reply.strip()
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if ':' in line: 
+            tmp_line = line.split(':')[1]
+            if tmp_line.strip() == '': continue
+        if len(line.strip().split(' ')) <= 16: continue
+        reply_formatted.append(line)
+    return reply_formatted
+    

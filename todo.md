@@ -2,8 +2,8 @@
 # DAILY
 # ###################################################
 
-- NEW ARTICLES:
-    - gen ?? (max 50 for now) trefle plant articles x day, only root article with h2 ai gen. increase by 5 articles per day
+- ARTICLES:
+    - gen 50 trefle plant articles
     - update plants page
 
 - SCRAPE POWO:
@@ -34,6 +34,9 @@
 # ###################################################
 # TODO
 # ###################################################
+- CONDITIONS PAGE:
+    [!!!] fix condition page
+    
 - REDIRECT:
     [!!!] test redirect on terrawhisper website after upload
 

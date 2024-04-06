@@ -17184,3 +17184,221 @@ WebDriver BiDi listening on ws://127.0.0.1:55978
 DevTools listening on ws://127.0.0.1:55978/devtools/browser/9211925c-5604-4152-ade1-e9525b14ca27
 1712390219284	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1712397198556	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1712400357755	geckodriver	INFO	Listening on 127.0.0.1:52158
+1712400360799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52159" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileoGnsYh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712400361286	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712400361370	Marionette	INFO	Listening on port 52171
+WebDriver BiDi listening on ws://127.0.0.1:52159
+Read port: 52171
+1712400361635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52159/devtools/browser/a57e6f4b-05ed-4785-84c1-349e2ad2db6c
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1712400391303	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs, line 25: Script terminated by timeout at:
+ts@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:17986
+lk@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:92681
+iJ@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:65753
+965900/p/a<@https://s.pinimg.com/webapp/98409-a2722c261c07849a.mjs:1:34184
+965900/p/</<@https://s.pinimg.com/webapp/98409-a2722c261c07849a.mjs:1:34852
+567450/s/<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69814
+s@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69802
+567450/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:70197
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://s.pinimg.com/webapp/26067-7139d1270b83c63a.mjs, line 1: Script terminated by timeout at:
+Z@https://s.pinimg.com/webapp/26067-7139d1270b83c63a.mjs:1:15073
+a@https://s.pinimg.com/webapp/17492-e11fa11c27fb59e8.mjs:9:31846
+getAjaxParams@https://s.pinimg.com/webapp/17492-e11fa11c27fb59e8.mjs:8:21458
+_call@https://s.pinimg.com/webapp/17492-e11fa11c27fb59e8.mjs:8:23561
+call@https://s.pinimg.com/webapp/17492-e11fa11c27fb59e8.mjs:8:20857
+callCreate@https://s.pinimg.com/webapp/17492-e11fa11c27fb59e8.mjs:8:20529
+c@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:35116
+flushEvents@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:15539
+flushContextEvents@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:17116
+507651/tp/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:339056
+567450/s/<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69814
+s@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69802
+567450/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:70197
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+198462/Z/</<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:11628
+198462/Z/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:11585
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+i@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:25892
+45528/Q/</<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:26474
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/98409-a2722c261c07849a.mjs, line 1: Script terminated by timeout at:
+pause@https://s.pinimg.com/webapp/98409-a2722c261c07849a.mjs:1:18822
+507651/tp/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:338941
+567450/s/<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69814
+s@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69802
+567450/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:70197
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/90123-ac97fa20a26ef905.mjs, line 1: Script terminated by timeout at:
+p@https://s.pinimg.com/webapp/90123-ac97fa20a26ef905.mjs:1:4556
+433780/m/u</<@https://s.pinimg.com/webapp/90123-ac97fa20a26ef905.mjs:1:7484
+507651/tp/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:338965
+567450/s/<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69814
+s@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69802
+567450/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:70197
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+198462/Z/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:11585
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+U@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:25301
+W@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:25454
+i@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:26128
+45528/Q/</<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:26474
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+198462/Z/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:11585
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+U@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:25301
+W@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:25454
+i@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:26128
+45528/Q/</<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:26474
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript warning: https://www.ncbi.nlm.nih.gov/core/alerts/alerts.js?_=1712421101070, line 560: unreachable code after return statement
+console.error: "Unable to find target with innerWindowId:6442450946"
+console.error: "Unable to find target with innerWindowId:6442450946"
+console.error: "Unable to find target with innerWindowId:6442450946"
+console.error: "Unable to find target with innerWindowId:6442450946"
+console.error: "Unable to find target with innerWindowId:6442450947"
+JavaScript warning: https://www.ncbi.nlm.nih.gov/core/alerts/alerts.js?_=1712421145661, line 560: unreachable code after return statement
+console.error: "Unable to find target with innerWindowId:6442450948"
+JavaScript warning: https://www.ncbi.nlm.n
