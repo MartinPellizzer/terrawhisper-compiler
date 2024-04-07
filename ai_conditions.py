@@ -18,7 +18,6 @@ conditions_cols = util.csv_get_header_dict(conditions_rows)
 
 def ai_paragraph(condition_slug, section_name, prompt):
     json_filepath = f'database/articles/conditions/{condition_slug}.json'
-    util.json_generate_if_not_exists(json_filepath)
     data = util.json_read(json_filepath)
 
     var_val = []
@@ -50,6 +49,13 @@ for condition_row in conditions_rows[1:]:
     if condition_classification != 'symptom': continue
     print(condition_name)
 
+    json_filepath = f'database/articles/conditions/{condition_slug}.json'
+    util.json_generate_if_not_exists(json_filepath)
+    data = util.json_read(json_filepath)
+    data['condition_name'] = condition_name
+    data['condition_slug'] = condition_slug
+    util.json_write(json_filepath, data)
+
 
     ai_paragraph(condition_slug, 'definition_desc',
         f'''
@@ -74,7 +80,6 @@ for condition_row in conditions_rows[1:]:
             Don't include herbs and herbal remedies.
         '''
     )
-
     ai_paragraph(condition_slug, 'associated_symptoms_desc',
         f'''
             Write a 5-sentence paragraph explaing what are other symptoms associated with {condition_name}.

@@ -40,9 +40,6 @@
 - REDIRECT:
     [!!!] test redirect on terrawhisper website after upload
 
-- START HERE PAGE:
-    [1] make start here page
-
 - TEAS PAGE:
     [1] gen ai 1 sentence each condition in system in herbalism/tea.json
     [1] adjust conditions names using the names from old condition csv file (because pins already linking), or redirect?

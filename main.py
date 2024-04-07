@@ -105,15 +105,16 @@ def gen_header_base():
                 <div class="hamburger"></div>
                 <ul class="menu">
                     <li><a class="text-white" href="/">Home</a></li>
+                    <li><a class="text-white" href="/start-here.html">Start Here</a></li>
                     <li><a class="text-white" href="/herbalism.html">Herbalism</a></li>
                     <li><a class="text-white" href="/conditions.html">Conditions</a></li>
                     <li><a class="text-white" href="/plants.html">Plants</a></li>
-                    <li><a class="text-white" href="/top-herbs.html">Top Herbs</a></li>
                     <li><a class="text-white" href="/about.html">About</a></li>
                 </ul>
             </nav>
         </header>
     '''
+                    # <li><a class="text-white" href="/top-herbs.html">Top Herbs</a></li>
                     # <li><a class="text-white" href="/herbalism/tea.html">Teas</a></li>
 
 
@@ -232,14 +233,30 @@ def generate_toc(content_html):
 def page_home():
     header = generate_header_default()
 
-    template = util.file_read('templates/home.html')
-            
+    slug = 'index'
+    template = util.file_read(f'templates/{slug}.html')
     template = template.replace('[meta_title]', 'Herbalism & Natural Healing')
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
     template = template.replace('[author_name]', g.AUTHOR_NAME)
     template = template.replace('[header]', header)
+    util.file_write(f'website/{slug}.html', template)
 
-    util.file_write(f'website/index.html', template)
+
+def page_start_here():
+    slug = 'start-here'
+    filepath_in = f'templates/{slug}.html'
+    filepath_out = f'website/{slug}.html'
+
+    header = generate_header_default()
+    breadcrumbs_html = breadcrumbs(filepath_out)
+
+    template = util.file_read(filepath_in)
+    template = template.replace('[meta_title]', 'Start Your Herbalism Journey Here At TerraWhisper')
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+    template = template.replace('[author_name]', g.AUTHOR_NAME)
+    template = template.replace('[header]', header)
+    template = template.replace('[breadcrumbs]', breadcrumbs_html)
+    util.file_write(filepath_out, template)
 
 
 def page_about():
@@ -510,39 +527,6 @@ def page_plants(regen_csv=False):
         util.csv_set_rows('website/plants.csv', rows_final, delimiter=',')
 
 
-def page_conditions():
-    systems_rows = util.csv_get_rows('database/tables/conditions/systems.csv')
-    systems_cols = util.csv_get_header_dict(systems_rows)
-    conditions_rows = util.csv_get_rows('database/tables/conditions/conditions.csv')
-    conditions_cols = util.csv_get_header_dict(conditions_rows)
-    
-    main_html = ''
-    for system_row in systems_rows[1:]:
-        system_id = system_row[systems_cols['id']]
-        system_name = system_row[systems_cols['name']]
-
-        conditions_rows_filtered = [condition_row for condition_row in conditions_rows if condition_row[conditions_cols['system_id']] == system_id]
-
-        main_html += f'<h2 class="mb-32">{system_name.title()} System</h2>'
-        main_html += f'<div class="grid-4">'
-        for condition_row in conditions_rows_filtered:
-            condition_name = condition_row[conditions_cols['condition']].strip().title()
-            main_html += f'<p>{condition_name}</p>'
-        main_html += f'</div>'
-        
-    title = 'conditions'.title()
-    page_url = 'conditions'
-    article_filepath_out = f'website/{page_url}.html'
-    template = util.file_read(f'templates/{page_url}.html')
-    template = template.replace('[title]', title)
-    template = template.replace('[google_tag]', g.GOOGLE_TAG)
-    template = template.replace('[author_name]', g.AUTHOR_NAME)
-    template = template.replace('[header]', generate_header_default())
-    template = template.replace('[breadcrumbs]', breadcrumbs(article_filepath_out))
-    template = template.replace('[main_html]', main_html)
-    util.file_write(article_filepath_out, template)
-
-
 def teas():
     article_html = ''
     article_html += '<div class="articles">'
@@ -578,6 +562,119 @@ def teas():
     page_html = page_html.replace('[articles]', article_html)
 
     util.file_write(f'website/{page_url}.html', page_html)
+
+
+
+
+
+
+##############################################################################
+# CONDITIONS
+##############################################################################
+
+def page_conditions():
+    systems_rows = util.csv_get_rows('database/tables/conditions/systems.csv')
+    systems_cols = util.csv_get_header_dict(systems_rows)
+    conditions_rows = util.csv_get_rows('database/tables/conditions/conditions.csv')
+    conditions_cols = util.csv_get_header_dict(conditions_rows)
+    
+    main_html = ''
+    for system_row in systems_rows[1:]:
+        system_id = system_row[systems_cols['id']]
+        system_name = system_row[systems_cols['name']]
+
+        conditions_rows_filtered = [condition_row for condition_row in conditions_rows if condition_row[conditions_cols['system_id']] == system_id]
+
+        main_html += f'<h2 class="mb-32">{system_name.title()} System</h2>'
+        main_html += f'<div class="grid-4">'
+        for condition_row in conditions_rows_filtered:
+            condition_name = condition_row[conditions_cols['condition']].strip().title()
+            condition_slug = condition_row[conditions_cols['slug']].strip().lower()
+            condition_classification = condition_row[conditions_cols['classification']].strip().lower()
+            # TODO: remove if condition in the future, used only for testing 
+            if system_id == '0' and condition_classification == 'symptom':
+                main_html += f'<p><a href="/conditions/{condition_slug}.html">{condition_name}</a></p>'
+            else:
+                main_html += f'<p>{condition_name}</p>'
+        main_html += f'</div>'
+        
+    title = 'conditions'.title()
+    page_url = 'conditions'
+    article_filepath_out = f'website/{page_url}.html'
+    template = util.file_read(f'templates/{page_url}.html')
+    template = template.replace('[title]', title)
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+    template = template.replace('[author_name]', g.AUTHOR_NAME)
+    template = template.replace('[header]', generate_header_default())
+    template = template.replace('[breadcrumbs]', breadcrumbs(article_filepath_out))
+    template = template.replace('[main_html]', main_html)
+    util.file_write(article_filepath_out, template)
+
+
+def page_condition():
+    articles_folderpath = 'database/articles/conditions'
+    conditions_filenames = [content for content in os.listdir(articles_folderpath) if content.endswith('.json')]
+    print(conditions_filenames)
+
+    for condition_filename in conditions_filenames:
+        article_filepath = f'{articles_folderpath}/{condition_filename}'
+        print(article_filepath)
+        
+        data = util.json_read(article_filepath)
+        condition_name = data['condition_name']
+        condition_slug = data['condition_slug']
+
+        article_filepath_out = f'website/conditions/{condition_slug}.html'
+
+        title = condition_name
+        article_html = ''
+        
+        article_html += f'<h1>{title}</h1>' + '\n'
+
+        header_html = generate_header_default()
+        meta = gen_article_metadata(article_html)
+        article_html = generate_toc(article_html)
+        breadcrumbs_html = breadcrumbs(article_filepath_out)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(f'{article_filepath_out}', html)
+
+
 
 
 
@@ -2260,30 +2357,34 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 
-page_home()
-page_plants(regen_csv=False)
-page_conditions()
-page_top_herbs_new()
-page_about()
+# page_home()
+# page_start_here()
+# page_plants(regen_csv=False)
+# page_top_herbs_new()
+# page_about()
 
 
 
-page_herbalism_tea_condition()
+# page_herbalism_tea_condition()
 # page_herbalism_tea()
 # page_herbalism()
 
 
-
-articles_benefits()
-articles_constituents()
-articles_preparations()
-articles_side_effects()
-articles_precautions()
-articles_medicine()
-articles_plants()
+page_conditions()
+page_condition()
 
 
 
-sitemap.sitemap_all()
-shutil.copy2('sitemap.xml', 'website/sitemap.xml')
+# articles_benefits()
+# articles_constituents()
+# articles_preparations()
+# articles_side_effects()
+# articles_precautions()
+# articles_medicine()
+# articles_plants()
+
+
+
+# sitemap.sitemap_all()
+# shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 

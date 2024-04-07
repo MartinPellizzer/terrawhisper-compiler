@@ -1,4 +1,4 @@
-# Exploring Herbalism: A Comprehensive Guide
+# What to know about herbalism to start practicing herbal healing
 
 ![herbalism overview](/images/herbalism-overview.jpg)
 

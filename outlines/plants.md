@@ -66,3 +66,48 @@ homeopathy?
 
 	- you can add sub- or super- between ranks when useful
 	- refer to apendix 7 for a list of ranks that contains useful medicinal plants
+	
+	- derivation of botanical names:
+		- mythological
+		- geographical / ecological
+		- place
+		- uses / properties
+		- classical
+		- people 
+		- historical
+		- anatomical 
+		- color
+		- aroma
+
+- phytochemistry
+	- constituents (active ingredients)
+	- type of herbs
+		- normalizers
+		- effectors (for illnesses)
+			- whole plant actions - mostly used in herbalism
+			- effects of specific active chemical(s) - mostly used in pharmacology
+	- ex constituents:
+		- carbohydrates
+		- glycosides
+		- terpenes
+		- phenolics
+		- alkaloids
+		
+	- metabolites
+		- primary (for plants survival)
+		- secondary (more plant specific)
+			- terpenes
+			- phenolics
+			- nitrogen-containing compounds
+			
+			- the dictionary of natural product (lists 170.000 compounds)
+			
+			- most important
+				- terpenes
+				- polyphenols
+				- alkaloids
+
+	- organic chemistry
+		- molecules that contain carbon and hydrogen
+
+- carbohydrates

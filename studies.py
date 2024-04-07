@@ -6,24 +6,26 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.options import Options
 
 import utils_ai
-import utils
+import util
 import time
+import os
 
 options = Options()
 options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
 driver = webdriver.Firefox(executable_path=r'C:\drivers\geckodriver.exe', options=options)
+
 driver.get(f'https://pubmed.ncbi.nlm.nih.gov/?term=chamomile+sleep')
 time.sleep(10)
 
 # SCRAPE URLS TO 10 FIRST STUDIES
 urls = []
 elements = driver.find_elements(By.XPATH, '//div[@class="docsum-wrap"]')
-for i, e in enumerate(elements):
+for e in elements:
     url = e.find_element(By.XPATH, './/a').get_attribute('href')
     urls.append(url)
 
 # SCRAPE THE ABSTRACTS OF THE ARTICLES
-for url in urls:
+for i, url in enumerate(urls):
     print(url)
     driver.get(url)
     time.sleep(5)
@@ -38,9 +40,42 @@ for url in urls:
 
     time.sleep(5)
 
-# SAVE THE ABSTRACTS OF THE ARTICLES
 # ASK AI WHICH ARTICLE GIVES THE BEST DATA (POSITIVE) ABOUT A REMEDY
+abstracts = []
+folderpath = 'tmp'
+for filename in os.listdir(folderpath):
+    filepath = f'{folderpath}/{filename}'
+    content = util.file_read(filepath)
+    abstracts.append(content)
+
+abstract_text = ''
+for i, abstract in enumerate(abstracts):
+    abstract_text += f'{i}. {abstract}\n'
+
+print(abstract_text)
+
+prompt = f'''
+Here is a numbered list of 3 abstracts from scientific studies.
+{abstract_text}
+Return me the number of the abstract that talk in more details about the use of chamomile for sleep in a positive way.
+Reply with -1 if none of the above abstract talk about chamomile for sleep in a positive way.
+Choose only 1 abstract.
+Reply with only a number and don't add additional content.
+'''
+reply = utils_ai.gen_reply(prompt)
+time.sleep(30)
+
 # SUMMARIZE THE BEST ARTICLE
+abstract_num = 5
+
+prompt = f'''
+Write me a summary in less than 100 words about the following text.
+{abstracts[abstract_num]}
+'''
+reply = utils_ai.gen_reply(prompt)
+time.sleep(30)
+
+
 # DOUBLE CHECK THAT THE ARTICLE SUMMARY TALKS GOOD ABOUT THE REMEDY
 # SAVE SUMMARY TO HERBALIS/TEA/CONDITION
 

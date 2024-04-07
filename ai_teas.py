@@ -7,7 +7,7 @@ import util
 import utils_ai
 
 
-NUM_REMEDIES = 20
+NUM_REMEDIES = 10
 
 
 
@@ -225,9 +225,8 @@ def ai_herbalism_teas_conditions_description(condition, slug, condition_i):
         time.sleep(30)
 
 
-def ai_herbalism_teas_conditions_parts(condition, condition_i):
-    condition_dash = condition.strip().lower().replace(' ', '-')
-    filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
+def ai_herbalism_teas_conditions_parts(condition, slug, condition_i):
+    filepath = f'database/articles/herbalism/tea/{slug}.json'
     data = util.json_read(filepath)
 
     for index, remedy in enumerate(data['remedies'][:NUM_REMEDIES]):
@@ -273,9 +272,8 @@ def ai_herbalism_teas_conditions_parts(condition, condition_i):
         time.sleep(30)
 
 
-def ai_herbalism_teas_conditions_constituents(condition, condition_i):
-    condition_dash = condition.strip().lower().replace(' ', '-')
-    filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
+def ai_herbalism_teas_conditions_constituents(condition, slug, condition_i):
+    filepath = f'database/articles/herbalism/tea/{slug}.json'
     data = util.json_read(filepath)
 
     for index, remedy in enumerate(data['remedies'][:NUM_REMEDIES]):
@@ -310,9 +308,8 @@ def ai_herbalism_teas_conditions_constituents(condition, condition_i):
         time.sleep(30)
 
 
-def ai_herbalism_teas_conditions_recipe(condition, condition_i):
-    condition_dash = condition.strip().lower().replace(' ', '-')
-    filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
+def ai_herbalism_teas_conditions_recipe(condition, slug, condition_i):
+    filepath = f'database/articles/herbalism/tea/{slug}.json'
     data = util.json_read(filepath)
 
     for index, remedy in enumerate(data['remedies'][:NUM_REMEDIES]):
@@ -491,10 +488,10 @@ def ai_herbalism_teas_conditions_main():
 
         # STEP 3: AI GEN DESCRIPTIONS FOR HERBAL TEAS
         ai_herbalism_teas_conditions_description(condition, slug, i)
+        ai_herbalism_teas_conditions_parts(condition, slug, i)
+        ai_herbalism_teas_conditions_constituents(condition, slug, i)
+        ai_herbalism_teas_conditions_recipe(condition, slug, i)
         continue
-        ai_herbalism_teas_conditions_parts(condition, i)
-        ai_herbalism_teas_conditions_constituents(condition, i)
-        ai_herbalism_teas_conditions_recipe(condition, i)
 
         # STEP 4: AI GEN RECIPES FOR HERBAL TEAS
         # ai_recipe(condition, 

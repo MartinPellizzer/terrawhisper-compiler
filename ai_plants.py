@@ -13,7 +13,7 @@ import utils_ai
 import prompts
 import datetime
 
-trefle_today_num = 400
+trefle_today_num = 450
 index_last_plant = 0
 # index_last_plant = 100
 number_of_plants_to_do_today = index_last_plant + trefle_today_num
