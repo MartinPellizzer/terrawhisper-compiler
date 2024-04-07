@@ -756,7 +756,9 @@ def page_herbalism_tea():
         except: continue
         
         for condition in system['conditions']:
-            article_html += f'<p>{condition["name"].title()}</[]>\n'
+            condition_name = condition['name'].title().strip()
+            condition_slug = condition['slug']
+            article_html += f'<p><a href="/herbalism/tea/{condition_slug}.html">{condition_name}</a></p>\n'
             
     
     # META
@@ -816,11 +818,17 @@ def page_herbalism_tea_condition():
     articles_folderpath = 'database/articles/herbalism/tea'
     article_foldrpath_relative = f'herbalism/tea'
     article_foldrpath_relative_dash = article_foldrpath_relative.replace('/', '-')
-    conditions = [row[0] for row in util.csv_get_rows('database/tables/conditions.csv')[1:]]
-    for condition in conditions:
-        print(condition)
-        condition_dash = condition.lower().strip().replace(' ', '-')
-        article_filename = f'{articles_folderpath}/{condition_dash}.json'
+    
+    conditions_rows = [row for row in util.csv_get_rows('database/tables/conditions/conditions.csv')]
+    conditions_cols = util.csv_get_header_dict(conditions_rows)
+    for condition_row in conditions_rows[1:]:
+        condition_name = condition_row[conditions_cols['condition']].strip().lower()
+        condition_slug = condition_row[conditions_cols['slug']].strip().lower()
+        condition_classification = condition_row[conditions_cols['classification']].strip().lower()
+
+        # TODO: remove condition when managed all other types of classification
+        if condition_name == '' or condition_classification != 'symptom': continue
+        article_filename = f'{articles_folderpath}/{condition_slug}.json'
 
         article_filepath_in = article_filename
         article_filepath_out = article_filename.replace('database/articles', 'website').replace('.json', '.html')
@@ -830,7 +838,7 @@ def page_herbalism_tea_condition():
 
         title = data['title'].title()
         article_html += f'<h1>{title}</h1>' + '\n'
-        article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-overview.jpg" alt="herbal teas for {condition} overview"></p>' + '\n'
+        article_html += f'<p><img src="/images/herbal-tea-for-{condition_slug}-overview.jpg" alt="herbal teas for {condition_name} overview"></p>' + '\n'
         try: article_html += f'<p>{util.text_format_1N1_html(data["intro"])}</p>\n'
         except: print(f'MISSING: data["intro"] -- {article_filepath_in}')
 
@@ -842,13 +850,13 @@ def page_herbalism_tea_condition():
             remedy_desc_formatted = util.text_format_1N1_html(remedy_desc)
             article_html += f'<h2>{index+1}. {remedy_name.title()}</h2>' + '\n'
             article_html += f'<p>{remedy_desc_formatted}</p>' + '\n'
-            article_html += f'<p><img src="/images/herbal-tea-for-{condition_dash}-{remedy_name_dash}.jpg" alt="herbal teas for {condition} {remedy_name.lower()}"></p>' + '\n'
+            article_html += f'<p><img src="/images/herbal-tea-for-{condition_slug}-{remedy_name_dash}.jpg" alt="herbal teas for {condition_name} {remedy_name.lower()}"></p>' + '\n'
 
             remedy_constituents = []
             try: remedy_constituents = remedy['remedy_constituents']
             except: remedy['remedy_constituents'] = remedy_constituents
             if remedy_constituents != []:
-                article_html += f'<p>Right below you will find a list of the most important active constituents in {remedy_name.lower()} tea that help with {condition.lower()}.</p>'
+                article_html += f'<p>Right below you will find a list of the most important active constituents in {remedy_name.lower()} tea that help with {condition_name}.</p>'
                 article_html += f'<ol>' + '\n'
                 for item in remedy_constituents:
                     item_parts = item.split(':')
@@ -863,7 +871,7 @@ def page_herbalism_tea_condition():
             try: remedy_parts = remedy['remedy_parts']
             except: remedy['remedy_parts'] = remedy_parts
             if remedy_parts != []:
-                article_html += f'<p>The following list reveals what parts of {remedy_name.lower()} are most commonly used to make medicinal tea for {condition.lower()}.</p>'
+                article_html += f'<p>The following list reveals what parts of {remedy_name.lower()} are most commonly used to make medicinal tea for {condition_name}.</p>'
                 article_html += f'<ol>' + '\n'
                 for item in remedy_parts:
                     item_parts = item.split(':')
@@ -878,7 +886,7 @@ def page_herbalism_tea_condition():
             try: remedy_recipe = remedy['remedy_recipe']
             except: remedy['remedy_recipe'] = remedy_recipe
             if remedy_recipe != []:
-                article_html += f'<p>The following procedure explains how to make {remedy_name.lower()} tea for {condition}.</p>'
+                article_html += f'<p>The following procedure explains how to make {remedy_name.lower()} tea for {condition_name}.</p>'
                 article_html += f'<ol>' + '\n'
                 for item in remedy_recipe:
                     article_html += f'<li>{item}</li>' + '\n'
@@ -2365,13 +2373,13 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 
-# page_herbalism_tea_condition()
-# page_herbalism_tea()
 # page_herbalism()
+page_herbalism_tea()
+page_herbalism_tea_condition()
 
 
-page_conditions()
-page_condition()
+# page_conditions()
+# page_condition()
 
 
 

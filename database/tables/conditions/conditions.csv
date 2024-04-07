@@ -67,36 +67,34 @@ x\colon cleanse\colon-cleanse\0\colon\\\procedure\\
 \\\\\\\\\
 \\\\\\\\\
 \\\\\\\\\
-\hay fever \\1\nose, nasal passages, nasal cavity, sinuses, and the mucous membranes\allergic rhinitis\\\\
-\blocked nose\\1\nose, nasal cavity, \clogged nose, nose block, stuffy nose\\\\
-\runny nose\\1\nose, sinuses\rhinorrhea \\\\
-\post nasal drip\\1\nose, nasal cavity, throat\\\\\
-\sinus headache\\1\sinuses \\\\\
-\sinusitis\\1\sinuses \sinus infection\\\\
-\The Common Cold\\1\upper respiratory tract, nose, throat, sinuses\\\\\
-\sore throat\\1\throat, pharynx\pharyngitis \sore throat at home, itchy throat, itchy throat cough\\\
-\dry throat\\1\Throat, pharynx, larynx \\\\\
-\mucus in throat\\1\throat, aka pharynx\\\\\
-\snoring\\1\throat, soft palate, uvula\\\\\
-\laryngitis\\1\larynx \\\\\
-\hoarse voice\\1\larynx \\\\\
-\lost voice\\1\larynx \\lost voice due to cough, losing voice, no voice\\\
-\Tonsillitis\\1\tonsils, oropharynx\\\\\
+\hay fever \\1\nose, nasal passages, nasal cavity, sinuses, and the mucous membranes\allergic rhinitis\\symptom\\
+\blocked nose\\1\nose, nasal cavity, \clogged nose, nose block, stuffy nose\\symptom\\
+\runny nose\\1\nose, sinuses\rhinorrhea \\symptom\\
+\post nasal drip\\1\nose, nasal cavity, throat\\\symptom\\
+\sinus headache\\1\sinuses \\\symptom\\
+\sinusitis\\1\sinuses \sinus infection\\condition \\
+\sore throat\\1\throat, pharynx\pharyngitis \sore throat at home, itchy throat, itchy throat cough\symptom\\
+\dry throat\\1\Throat, pharynx, larynx \\\symptom\\
+\snoring\\1\throat, soft palate, uvula\\\symptom\\
+\laryngitis\\1\larynx \\\symptom\\
+\hoarse voice\\1\larynx \\\symptom\\
+\lost voice\\1\larynx \\lost voice due to cough, losing voice, no voice\symptom\\
+\Tonsillitis\\1\tonsils, oropharynx\\\condition \\
 x\cough\cough\1\lungs, airways, trachea, bronchi, bronchiles\\dry cough, cough at night, night cough, cough in babies, baby cough, cough for kids, kids cough, kids sore throat, non stop coughing, persistent cough\symptom\sore throat, chest congestion, blocked nose, runny nose, \colds, flu, hay fever, Bronchitis, Asthma 
-\flu\\1\lungs \influenza\\\\
-\chest congestion\\1\lungs \\\\\
-\bronchitis\\1\lungs \\\\\
-\Asthma\\1\lungs \\\\\
-\phlegm\\1\lungs, airways\\\\\
-\Acute Bronchitis\\1\lungs\\\\\
-\Chronic Bronchitis\\1\lungs \\\\\
-\Pertussis\\1\lungs, airways\whooping cough \\\\
-\Emphysema\\1\lungs \\\\\
-\hiccups\\1\diaphragm \\\\\
-\ear pain due to cold\\1\ear\\\\\
-x\colds\colds\1\respiratory tract \\\\\
-x\mucus\mucus\1\respiratory tract \\\\\
-x\nasal congestion\Nasal-congestion\1\nose \\\\\
+\flu\\1\lungs \influenza\\condition \\
+\chest congestion\\1\lungs \\\symptom\\
+\bronchitis\\1\lungs \\\symptom\\
+\Asthma\\1\lungs \\\condition \\
+\phlegm\\1\lungs, airways\\\symptom\\
+\Acute Bronchitis\\1\lungs\\\condition \\
+\Chronic Bronchitis\\1\lungs \\\condition \\
+\Pertussis\\1\lungs, airways\whooping cough \\condition \\
+\Emphysema\\1\lungs \\\condition \\
+\hiccups\\1\diaphragm \\\condition \\
+\ear pain due to cold\\1\ear\\\symptom\\
+x\The Common Cold\colds\1\respiratory tract \colds\\symptom\\
+x\mucus in throat\mucus\1\respiratory tract \\\condition \\
+x\nasal congestion\nasal-congestion\1\nose \blocked nose\\symptom\\
 \\\\\\\\\
 \\\\\\\\\
 \high blood pressure\\2\heart, blood vessels, kidneys, brain, and eyes\\\\\

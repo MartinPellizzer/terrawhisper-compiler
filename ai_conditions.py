@@ -45,7 +45,7 @@ for condition_row in conditions_rows[1:]:
     condition_classification = condition_row[conditions_cols['classification']].lower().strip()
 
     # TODO: remove the next 2 lines, they are used for prompt testing
-    if system_id != '0': continue
+    if system_id != '0' and system_id != '1': continue
     if condition_classification != 'symptom': continue
     print(condition_name)
 

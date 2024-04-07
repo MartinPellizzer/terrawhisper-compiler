@@ -2,6 +2,7 @@ import os
 import csv
 import json
 import random
+import datetime
 from PIL import Image, ImageColor, ImageEnhance
 
 
@@ -177,6 +178,17 @@ def lst_to_html(lst):
     lst_html += '</ul>' + '\n'
     return lst_html
 
+
+
+
+
+###################################
+# DATE
+###################################
+
+
+def date_now():
+    return datetime.datetime.now().date()
 
 
 

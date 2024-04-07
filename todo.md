@@ -8,13 +8,14 @@
 
 - SCRAPE POWO:
     - plants taxonomy
+        [1] set N/A if failed scraped
     - fix scraper when elements not found
 
 - PINTEREST:
     just pin
 
 - IMAGES:
-    - generate images
+    - generate images (especially teas)
 
 
 
@@ -45,6 +46,9 @@
     [1] adjust conditions names using the names from old condition csv file (because pins already linking), or redirect?
     [1] complete other sections in tea page (ex. how to)
 
+    - TEAS ARTICLES:
+        [2] complete studies scraper + ai summary generator 
+
 - IMAGES:
     [1] reorganize images in c://...images/teas...
 
@@ -54,7 +58,7 @@
 - CONDITIONS PAGE:
     [1] do page conditions
 
-    - CONDITIONS:
+    - CONDITIONS ARTICLES:
         [1] to do conditions page, you must generate conditions articles to link to (create template for article)
 
 - PAGE TAXONOMY

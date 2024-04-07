@@ -5,6 +5,7 @@ from groq import Groq
 
 import util
 import utils_ai
+import prompts
 
 
 NUM_REMEDIES = 10
@@ -86,6 +87,40 @@ def field_delete(filepath, key):
     util.json_write(filepath, data)
 
 
+def ai_entity(json_filepath, section, paragraph_num, prompt, aka=True, save=True):
+    var_val = []
+    var_name = f'{section}'
+
+    data = util.json_read(json_filepath)
+
+    try: var_val = data[var_name]
+    except: data[var_name] = var_val
+    if var_val != []: return
+    
+    reply = utils_ai.gen_reply(prompt)
+    if reply != '': 
+        if not aka: 
+            reply = reply_remove_aka(reply, data['common_name'])
+            if "also known as" in reply:
+                chunks = reply.split(',')
+                reply = chunks[0] + ', '.join(chunks[2:])
+        reply = reply_to_paragraphs(reply)
+
+        print(len(reply))
+        if len(reply) == paragraph_num:
+            p = reply
+            print('***************************************')
+            print(p)
+            print('***************************************')
+            data[var_name] = p
+            data['lastmod'] = str(date_now())
+            if save: util.json_write(json_filepath, data)
+            else: print('### NOT SAVED - TEST MODE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+
+    time.sleep(30)
+
+
+
 ######################################################################
 # GENERATE
 ######################################################################
@@ -128,36 +163,6 @@ def ai_herbalism_teas_conditions_csv(condition, condition_i):
         
     time.sleep(30)
 
-
-# def ai_herbalism_teas_conditions_csv_to_json():
-#     rows = util.csv_get_rows('database/tables/conditions.csv')
-#     conditions = [row[0] for row in rows[1:]]
-#     for condition in conditions:
-#         condition_dash = condition.lower().strip().replace(' ', '-')
-#         rows = util.csv_get_rows_by_entity('database/tables/herbalism-teas-conditions.csv', condition)
-        
-#         if not rows: continue
-
-#         remedies = []
-#         for row in rows:
-#             remedies.append(
-#                 {
-#                     'remedy_name': row[1],
-#                 }
-#             )
-
-#         article_filepath = f'database/articles/herbalism/tea/{condition_dash}.json'
-#         data = util.json_read(article_filepath)
-
-#         remedies_json = []
-#         try: remedies_json = data['remedies']
-#         except: data['remedies'] = remedies_json
-
-#         if data['remedies']: continue
-
-#         data['remedies'] = remedies
-#         data = util.json_write(article_filepath, data)
-        
 
 def ai_herbalism_teas_conditions_csv_to_json(condition, slug):
     # IF ALREADY REMEDIES: SKIP CONDITION
@@ -493,22 +498,133 @@ def ai_herbalism_teas_conditions_main():
         ai_herbalism_teas_conditions_recipe(condition, slug, i)
         continue
 
-        # STEP 4: AI GEN RECIPES FOR HERBAL TEAS
-        # ai_recipe(condition, 
-        #     f'''
-        #         Write a 5-step recipe in list format to make <remedy_name_formatted> for {condition.lower()}.
-        #         Include ingredients dosages and preparations times.
-        #         Write only 1 sentence for step.
-        #         Start each step in the list with an action verb.
-        #     '''     
-        # )
-        # ai_recipe( condition,
-        #     f'''
-        #         Write a 5-step recipe to make <remedy_name_formatted> for {condition.lower()}.
-        #     ''' 
-        # )
-
-        # ai_intro(condition)
 
 
-ai_herbalism_teas_conditions_main()
+
+##################################################################
+##################################################################
+# HERBALISM
+##################################################################
+##################################################################
+
+# TEAS
+# ----------------------------------------------------------------
+
+def ai_herbalism_teas():
+    json_filepath = f'database/articles/herbalism/tea.json'
+    
+    util.json_generate_if_not_exists(json_filepath)
+    data = util.json_read(json_filepath)
+    data['title'] = f'Herbal Teas: Definition, Properties, Health Conditions They Help and Preparation'
+    try: data['lastmod']
+    except: data['lastmod'] = str(date_now())
+    try: data['systems']
+    except: data['systems'] = []
+    util.json_write(json_filepath, data)
+
+    # INTRO
+    for prompt in prompts.tea_intro:
+        ai_entity(json_filepath, 'intro_desc', 1, prompt, save=True)
+        
+    # DEFINITION
+    for prompt in prompts.tea_definition:
+        ai_entity(json_filepath, 'definition_desc', 1, prompt, save=False)
+
+    # SYSTEMS
+    systems_rows = util.csv_get_rows('database/tables/conditions/systems.csv')
+    for i, system_row in enumerate(systems_rows[1:]):
+        if system_row[0].strip() == '': continue
+
+        system_id = system_row[0].strip().lower()
+        system_name = system_row[1].strip().lower()
+
+        data = util.json_read(json_filepath)
+        data_systems = data['systems']
+
+        found = False
+        for data_system in data_systems:
+            data_system_name = ''
+            try: data_system_name = data_system['name']
+            except: pass
+            if data_system_name.lower().strip() == system_name.lower().strip():
+                found = True
+                break
+
+        if not found:
+            data['systems'].append({'name': system_name})
+
+        util.json_write(json_filepath, data)
+
+    # CONDITIONS
+    conditions_rows = util.csv_get_rows('database/tables/conditions/conditions.csv')
+    conditions_cols = util.csv_get_header_dict(conditions_rows)
+    for condition_row in conditions_rows[1:]:
+        condition_name = condition_row[conditions_cols['condition']].strip().lower()
+        condition_slug = condition_row[conditions_cols['slug']].strip().lower()
+        condition_classification = condition_row[conditions_cols['classification']].strip().lower()
+        system_id = condition_row[conditions_cols['system_id']].strip().lower()
+        try: system_name = util.csv_get_rows_by_entity('database/tables/conditions/systems.csv', system_id, num_col=0)[0][1].strip().lower()
+        except: continue
+
+        # TODO: remove next condition or differentiate between symptoms, conditions, general health?
+        if condition_classification != 'symptom': continue
+
+        data = util.json_read(json_filepath)
+        for system in data['systems']:
+            data_system_name = system['name']
+            if data_system_name.lower().strip() == system_name.lower().strip():
+                try: json_conditions = system['conditions']
+                except: json_conditions = []
+                found = False
+                for json_condition in json_conditions:
+                    if json_condition['name'].strip().lower() == condition_name.strip().lower():
+                        found = True
+                if not found:
+                    try: system['conditions'].append({'name': condition_name, 'slug': condition_slug})
+                    except: system['conditions'] = [{'name': condition_name, 'slug': condition_slug}]
+        
+        util.json_write(json_filepath, data)
+
+    # CONDITIONS AI
+    data = util.json_read(json_filepath)
+    for system in data['systems']:
+
+        conditions = []
+        try: conditions = system['conditions']
+        except: pass
+        for condition in conditions:
+            condition_name = condition['name']
+            condition_desc = []
+            try: condition_desc = condition['desc']
+            except: pass
+
+            # DESC
+            if condition_desc == []:
+                prompt = f'''
+                    Write 1 sentence explaining what is {condition_name} and what herbal teas can help with this problem.
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                if reply != '': 
+                    reply = reply_to_paragraphs(reply)
+
+                    print(len(reply))
+                    if len(reply) == 1:
+                        p = reply
+                        print('***************************************')
+                        print(p)
+                        print('***************************************')
+                        condition['desc'] = p
+                        data['lastmod'] = str(util.date_now())
+                        util.json_write(json_filepath, data)
+
+                time.sleep(30)
+                
+            # print(condition)
+
+    # TODO: DELETE SYSTEMS/CONDITIONS IF MISSING FROM CSV
+
+
+
+
+ai_herbalism_teas()
+# ai_herbalism_teas_conditions_main()
