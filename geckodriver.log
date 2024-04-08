@@ -17564,9 +17564,9 @@ JavaScript warning: https://s.pinimg.com/webapp/98409-a2722c261c07849a.mjs, line
 965900/p/</<@https://s.pinimg.com/webapp/98409-a2722c261c07849a.mjs:1:34852
 567450/s/<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69814
 s@https://s.pinimg.com/webapp/wwwJavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-ttps://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:70197
-
-JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+1712527259683	Marionette	INFO	Stopped listening on port 61070
+Dynamically enable window occlusion 1
+nimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
 JavaScript warning: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 38: Script terminated by timeout at:
 s@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69802
 567450/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:70197
@@ -17646,4 +17646,110 @@ JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, 
 JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
 45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
 t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+1712555477252	geckodriver	INFO	Listening on 127.0.0.1:50582
+1712555480333	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50583" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilePNMxmC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712555480856	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712555481008	Marionette	INFO	Listening on port 50592
+WebDriver BiDi listening on ws://127.0.0.1:50583
+Read port: 50592
+1712555481430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50583/devtools/browser/ee73a7de-e1ff-4d70-b2d8-bf4588ed4d13
+1712555512683	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55225" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileIKSD39"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712578643896	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712578643995	Marionette	INFO	Listening on port 55233
+WebDriver BiDi listening on ws://127.0.0.1:55225
+Read port: 55233
+1712578644279	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55225/devtools/browser/8c87b253-ab7e-4d53-a785-87ab549a53f5
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1712578673918	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 121: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs, line 25: Script terminated by timeout at:
+aL@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:48368
+aA@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:48272
+iJ@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:65738
+965900/p/a<@https://s.pinimg.com/webapp/98409-a2722c261c07849a.mjs:1:34184
+965900/p/</<@https://s.pinimg.com/webapp/98409-a2722c261c07849a.mjs:1:34852
+567450/s/<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69814
+s@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69802
+567450/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:70197
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 38: Script terminated by timeout at:
+s@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69802
+567450/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:70197
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 38: Script terminated by timeout at:
+a@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:33520
+flushEvents@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:15503
+flushContextEvents@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:17116
+507651/tp/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:339056
+567450/s/<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69814
+s@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69802
+567450/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:70197
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/17492-e11fa11c27fb59e8.mjs, line 9: Script terminated by timeout at:
+E@https://s.pinimg.com/webapp/17492-e11fa11c27fb59e8.mjs:9:35137
+507651/tp/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:339087
+567450/s/<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69814
+s@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:69802
+567450/</<@https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs:38:70197
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs, line 1: Script terminated by timeout at:
+45528/_/<@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21911
+t@https://s.pinimg.com/webapp/99961-5d92aec6f96874b8.mjs:1:21786
+
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript error: https://s.pinimg.com/webapp/www/_client-013146742b0ad456.mjs, line 1: Error: Cannot find module './en-US/LocaleDataLoaderLite'
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs, line 25: Script terminated by timeout at:
+l@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:56852
+ou@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:71123
+op@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:72581
+364448/s/<@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:119200
+s@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:119227
+lU@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:99072
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:98945
+lD@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:96033
+r6@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:44812
+364448/lR/<@https://s.pinimg.com/webapp/vendor-react-f4d3985b72942dff.mjs:25:93597
 

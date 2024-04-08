@@ -827,9 +827,9 @@ def page_herbalism_tea_condition():
         condition_classification = condition_row[conditions_cols['classification']].strip().lower()
 
         # TODO: remove condition when managed all other types of classification
-        if condition_name == '' or condition_classification != 'symptom': continue
-        article_filename = f'{articles_folderpath}/{condition_slug}.json'
+        if condition_name == '' or condition_classification != 'symptom' or condition_slug == '': continue
 
+        article_filename = f'{articles_folderpath}/{condition_slug}.json'
         article_filepath_in = article_filename
         article_filepath_out = article_filename.replace('database/articles', 'website').replace('.json', '.html')
 
@@ -2365,16 +2365,16 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 
 
-# page_home()
-# page_start_here()
-# page_plants(regen_csv=False)
-# page_top_herbs_new()
-# page_about()
+page_home()
+page_start_here()
+page_plants(regen_csv=False)
+page_top_herbs_new()
+page_about()
 
 
 
 # page_herbalism()
-page_herbalism_tea()
+# page_herbalism_tea()
 page_herbalism_tea_condition()
 
 

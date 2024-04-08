@@ -466,8 +466,9 @@ def ai_herbalism_teas_conditions_main():
         system_id = row[cols['system_id']].lower().strip()
 
         if condition == '': continue
+        if slug == '': continue
         if classification != 'symptom': continue
-        if system_id != '0': continue
+        if system_id != '0' and system_id != '1': continue
 
         print(f'{i+1}/{len(rows)} -- {condition}')
 
@@ -477,6 +478,7 @@ def ai_herbalism_teas_conditions_main():
         data['condition'] = condition
         data['preparation'] = 'tea'
         data['title'] = f'{10} best herbal teas for {condition}'
+        data['slug'] = slug
         data['url'] = f'herbalism/tea/{slug}'
         data['remedy_num'] = 10
         util.json_write(json_filepath, data)
@@ -486,17 +488,16 @@ def ai_herbalism_teas_conditions_main():
         # continue
 
         # STEP 1: AI GEN HERBAL TEAS FOR CONDITION (TO CLEAN)
-        ai_herbalism_teas_conditions_csv(condition, i)
+        # ai_herbalism_teas_conditions_csv(condition, i)
 
         # STEP 2: GEN JSON FROM AI GEN HERBAL TEAS (AFTER CLEANING)
-        ai_herbalism_teas_conditions_csv_to_json(condition, slug)
+        # ai_herbalism_teas_conditions_csv_to_json(condition, slug)
 
         # STEP 3: AI GEN DESCRIPTIONS FOR HERBAL TEAS
         ai_herbalism_teas_conditions_description(condition, slug, i)
         ai_herbalism_teas_conditions_parts(condition, slug, i)
         ai_herbalism_teas_conditions_constituents(condition, slug, i)
         ai_herbalism_teas_conditions_recipe(condition, slug, i)
-        continue
 
 
 
@@ -626,5 +627,5 @@ def ai_herbalism_teas():
 
 
 
-ai_herbalism_teas()
-# ai_herbalism_teas_conditions_main()
+# ai_herbalism_teas()
+ai_herbalism_teas_conditions_main()
