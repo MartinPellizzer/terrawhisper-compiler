@@ -191,7 +191,7 @@ def lst_to_html(lst):
 
 
 def date_now():
-    return datetime.datetime.now().date()
+    return str(datetime.date.today())
 
 
 

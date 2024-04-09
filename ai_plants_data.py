@@ -102,6 +102,13 @@ for plant_row in plants_rows[1:]:
     time.sleep(5)
 
     elements = driver.find_elements(By.XPATH, '//ul[contains(@class, "classification")]/li')
+    data['kingdom'] = 'NA'
+    data['phylum'] = 'NA'
+    data['class'] = 'NA'
+    data['order'] = 'NA'
+    data['family'] = 'NA'
+    data['genus'] = 'NA'
+    data['species'] = 'NA'
     for e in elements:
         spans = e.find_elements(By.XPATH, './/span')
         var = spans[0].text.strip().lower()
