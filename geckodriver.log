@@ -18032,3 +18032,16 @@ aa.tk/c/<@https://www.googletagmanager.com/gtag/js?id=G-ZVV2HHW7P6&l=dataLayer&c
 
 1712751058721	Marionette	INFO	Stopped listening on port 50573
 Dynamically enable window occlusion 1
+1712751093311	geckodriver	INFO	Listening on 127.0.0.1:61378
+1712751096371	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61379" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilecFlwrb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1712751096831	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1712751096908	Marionette	INFO	Listening on port 61386
+WebDriver BiDi listening on ws://127.0.0.1:61379
+Read port: 61386
+1712751097166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:61379/devtools/browser/849fbcc0-7f2f-4864-bdcf-8ddb2ded5631
+1712751129133	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE

@@ -114,7 +114,7 @@ for condition_row in conditions_rows[1:]:
                 {reply}
             '''  
             prompt = f'''
-                Remove the words "can", "may", "might" from the following text:
+                Remove the words "can", "may", "might" from the following paragraph, while leaving the rest of the text intact.
 
                 {reply}
             '''   
