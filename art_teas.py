@@ -93,14 +93,61 @@ for condition_row in conditions_rows[1:]:
 
     # AI (TO COMPLETE)
     for tea_obj in data['teas']:
+        del tea_obj['tea_desc'] # TODO: remove, temp reset
         if 'tea_desc' not in tea_obj:
-            tea_name = tea_obj['tea_name']
+            tea_name = tea_obj["tea_name"].strip().lower()
+            tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea') # manages case where the word 'tea' is already present in tea_name (ex. green tea)
+            starting_text = f'{tea_name.capitalize()} helps with {condition_name} because '
+            prompt = f'''
+                Explain in a 5-sentence paragraph why {tea_name} helps with {condition_name}.
+                Start with these words: {starting_text}
+            '''     
             prompt = f'''
                 Explain in a 5-sentence paragraph why {tea_name} tea helps with {condition_name}.
-            '''  
+            '''   
             reply = utils_ai.gen_reply(prompt)
-            tea_obj['tea_desc'] = reply
-            util.json_write(json_filepath, data)
+            time.sleep(30)
+
+            prompt = f'''
+                Rewrite the following text by removing the words "can", "may", "might" and without changing the meaning of the text:
+
+                {reply}
+            '''  
+            prompt = f'''
+                Remove the words "can", "may", "might" from the following text:
+
+                {reply}
+            '''   
+            reply = utils_ai.gen_reply(prompt)
+
+            reply = utils_ai.reply_to_paragraphs(reply)
+            if len(reply) == 1 and reply != '':
+                tea_obj['tea_desc'] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(30)
+
+        if 'tea_parts' not in tea_obj:
+            tea_name = tea_obj['tea_name']
+            prompt = f'''
+                Write a numbered list of the most used parts of the {tea_name} plant that are used to make medicinal tea for {condition_name}.
+                Reply by only selecting parts from the following list:
+                - Roots
+                - Rhyzomes
+                - Stems
+                - Leaves
+                - Flowers
+                - Seeds
+                - Buds
+                - Bark
+                Never include aerial parts.
+                Never repeat the same part twice and never include similar parts.
+                Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {condition_name}.
+            '''     
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_list_column(reply)
+            if reply != '':
+                tea_obj['tea_parts'] = reply
+                util.json_write(json_filepath, data)
             time.sleep(30)
 
     # HTML
@@ -119,13 +166,21 @@ for condition_row in conditions_rows[1:]:
         tea_name = tea_obj['tea_name'].strip().lower()
         tea_slug = tea_name.replace(' ', '-').replace("'", '-').replace('.', '-')
         tea_desc = tea_obj['tea_desc']
+        tea_parts = tea_obj['tea_parts']
         tea_image_url = f'/images/herbal-tea-for-{condition_slug}-{tea_slug}.jpg'
         article_html += f'<h2>{i}. {tea_name.title()}</h2>\n'
+        article_html += f'<p>{tea_desc}</p>\n'
         if os.path.exists(f'website{tea_image_url}'):
-            article_html += f'<img src="/images/herbal-tea-for-{condition_slug}-{tea_slug}.jpg">\n'
+            article_html += f'<p><img src="/images/herbal-tea-for-{condition_slug}-{tea_slug}.jpg"><p>\n'
         else:
             print(f'IMG MISSING: {tea_image_url}')
-        article_html += f'<p>{tea_desc}</p>\n'
+        article_html += f'<p>Right below you will find a list of the most important active constituents in {tea_name} tea that help with {condition_name}.</p>\n'
+        article_html += '<ul>\n'
+        for tea_part in tea_parts:
+            chunk_1 = tea_part.split(': ')[0]
+            chunk_2 = ': '.join(tea_part.split(': ')[1:])
+            article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
+        article_html += '</ul>\n'
 
     header_html = util.header_default()
     breadcrumbs_html = util.breadcrumbs(html_filepath)
@@ -213,17 +268,14 @@ if 'intro' not in tea_data:
 if 'systems' not in tea_data: tea_data['systems'] = []
 systems_rows = util.csv_get_rows('database/csv/ailments/systems.csv')
 systems_cols = util.csv_get_header_dict(systems_rows)
-
 for system_row in systems_rows[1:]:
     system_id = system_row[systems_cols['system_id']].strip()
     system_name = system_row[systems_cols['system_name']].strip().lower()
-    
     found = False
     for system_obj in tea_data['systems']:
         if system_obj['system_id'] == system_id:
             found = True
             break
-    
     if not found: 
         if system_name not in tea_data['systems']: tea_data['systems'].append({'system_id': system_id, 'system_name': system_name})
         util.json_write(json_filepath, tea_data)
@@ -260,10 +312,24 @@ for system_obj in tea_data['systems']:
                 'condition_slug': condition_slug,
                 'condition_classification': condition_classification,
             })
-        
-        # TODO: gen ai desc for conditions here?
-
 util.json_write(json_filepath, tea_data)
+
+# AI SYSTEMS CONDITIONS DESC
+for system_obj in tea_data['systems']:   
+    for condition_obj in system_obj['system_conditions']:
+        if 'condition_desc' not in condition_obj: condition_obj['condition_desc'] = ''
+        condition_name = condition_obj['condition_name']
+        condition_desc = condition_obj['condition_desc']
+        if condition_desc == '':
+            prompt = f'''
+                Write 1 sentence explaining what is {condition_name} and what herbal teas can help with this problem.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            condition_obj['condition_desc'] = reply
+            util.json_write(json_filepath, tea_data)
+            time.sleep(30)
+
+
 
 
 # HTML
@@ -278,10 +344,14 @@ article_html += f'<p>{intro}</p>\n'
 
 for system_obj in tea_data['systems']:
     system_name = system_obj['system_name']
-    article_html += f'<h2>{system_name}</h2>\n'
+    article_html += f'<h2>Herbal Teas For The {system_name.title()} System</h2>\n'
+    article_html += f'<ul>\n'
     for condition_obj in system_obj['system_conditions']:
-        condition_name = condition_obj['condition_name']
-        article_html += f'<p>{condition_name}</p>\n'
+        condition_name = condition_obj['condition_name'].strip().title()
+        condition_slug = condition_obj['condition_slug'].strip().lower()
+        condition_desc = condition_obj['condition_desc'].strip()
+        article_html += f'<li><strong><a href="/herbalism/tea/{condition_slug}.html">Herbal Teas For {condition_name}</a></strong>: {condition_desc}</li>\n'
+    article_html += f'</ul>\n'
 
 header_html = util.header_default()
 breadcrumbs_html = util.breadcrumbs(html_filepath)

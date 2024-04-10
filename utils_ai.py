@@ -89,6 +89,8 @@ def gen_reply(prompt):
 
     return reply
 
+
+
 # #################################################################################
 # FORMAT REPLY
 # #################################################################################
@@ -105,3 +107,27 @@ def reply_to_paragraphs(reply):
         reply_formatted.append(line)
     return reply_formatted
     
+
+def reply_to_list_column(reply):
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if not line[0].isdigit(): continue
+        
+        line = '. '.join(line.split('. ')[1:]).strip()
+        if line == '': continue
+
+        if len(line.split(' ')) < 10: continue
+
+        line = line.replace('*', '')
+
+        if ':' not in line: continue
+        line_chunks = line.split(':')
+        chunk_1 = line_chunks[0].split('(')[0].strip()
+        chunk_2 = line_chunks[1].strip()
+        line = f'{chunk_1}: {chunk_2}'
+
+        reply_formatted.append(line)
+
+    return reply_formatted
