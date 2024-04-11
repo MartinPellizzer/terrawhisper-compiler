@@ -1,4 +1,4 @@
-condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_searches\condition_classification\related\causes\pinned\regen
+condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_searches\condition_classification\related\causes\condition_pinned\regen
 0\digestive system\digestive-system\0\system\\\system\\\x\
 1\gut health\gut-health\0\gastrointestinal tract\\\part\\\x\
 2\bad breath\bad-breath\0\mouth \halitosis, mouth odour\\symptom\\\\
@@ -56,294 +56,294 @@ condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_sear
 \\\\\\\\\\\
 \\\\\\\\\\\
 \\\\\\\\\\\
-\hay fever \\1\nose, nasal passages, nasal cavity, sinuses, and the mucous membranes\allergic rhinitis\\symptom\\\\
-\blocked nose\\1\nose, nasal cavity, \clogged nose, nose block, stuffy nose\\symptom\\\\
-\runny nose\\1\nose, sinuses\rhinorrhea \\symptom\\\\
-\post nasal drip\\1\nose, nasal cavity, throat\\\symptom\\\\
-\sinus headache\\1\sinuses \\\symptom\\\\
-\sinusitis\\1\sinuses \sinus infection\\condition \\\\
-\sore throat\\1\throat, pharynx\pharyngitis \sore throat at home, itchy throat, itchy throat cough\symptom\\\\
-\dry throat\\1\Throat, pharynx, larynx \\\symptom\\\\
-\snoring\\1\throat, soft palate, uvula\\\symptom\\\\
-\laryngitis\\1\larynx \\\symptom\\\\
-\hoarse voice\\1\larynx \\\symptom\\\\
-\lost voice\\1\larynx \\lost voice due to cough, losing voice, no voice\symptom\\\\
-\Tonsillitis\\1\tonsils, oropharynx\\\condition \\\\
-\cough\cough\1\lungs, airways, trachea, bronchi, bronchiles\\dry cough, cough at night, night cough, cough in babies, baby cough, cough for kids, kids cough, kids sore throat, non stop coughing, persistent cough\symptom\sore throat, chest congestion, blocked nose, runny nose, \colds, flu, hay fever, Bronchitis, Asthma \x\
-\flu\\1\lungs \influenza\\condition \\\\
-\chest congestion\\1\lungs \\\symptom\\\\
-\bronchitis\\1\lungs \\\symptom\\\\
-\Asthma\\1\lungs \\\condition \\\\
-\phlegm\\1\lungs, airways\\\symptom\\\\
-\Acute Bronchitis\\1\lungs\\\condition \\\\
-\Chronic Bronchitis\\1\lungs \\\condition \\\\
-\Pertussis\\1\lungs, airways\whooping cough \\condition \\\\
-\Emphysema\\1\lungs \\\condition \\\\
-\hiccups\\1\diaphragm \\\condition \\\\
-\ear pain due to cold\\1\ear\\\symptom\\\\
-\The Common Cold\colds\1\respiratory tract \colds\\symptom\\\x\
-\mucus in throat\mucus\1\respiratory tract \\\condition \\\x\
-\nasal congestion\nasal-congestion\1\nose \blocked nose\\symptom\\\x\
+53\hay fever \\1\nose, nasal passages, nasal cavity, sinuses, and the mucous membranes\allergic rhinitis\\symptom\\\\
+54\blocked nose\\1\nose, nasal cavity, \clogged nose, nose block, stuffy nose\\symptom\\\\
+55\runny nose\\1\nose, sinuses\rhinorrhea \\symptom\\\\
+56\post nasal drip\\1\nose, nasal cavity, throat\\\symptom\\\\
+57\sinus headache\\1\sinuses \\\symptom\\\\
+58\sinusitis\\1\sinuses \sinus infection\\condition \\\\
+59\sore throat\\1\throat, pharynx\pharyngitis \sore throat at home, itchy throat, itchy throat cough\symptom\\\\
+60\dry throat\\1\Throat, pharynx, larynx \\\symptom\\\\
+61\snoring\\1\throat, soft palate, uvula\\\symptom\\\\
+62\laryngitis\\1\larynx \\\symptom\\\\
+63\hoarse voice\\1\larynx \\\symptom\\\\
+64\lost voice\\1\larynx \\lost voice due to cough, losing voice, no voice\symptom\\\\
+65\Tonsillitis\\1\tonsils, oropharynx\\\condition \\\\
+66\cough\cough\1\lungs, airways, trachea, bronchi, bronchiles\\dry cough, cough at night, night cough, cough in babies, baby cough, cough for kids, kids cough, kids sore throat, non stop coughing, persistent cough\symptom\sore throat, chest congestion, blocked nose, runny nose, \colds, flu, hay fever, Bronchitis, Asthma \x\
+67\flu\\1\lungs \influenza\\condition \\\\
+68\chest congestion\\1\lungs \\\symptom\\\\
+69\bronchitis\\1\lungs \\\symptom\\\\
+70\Asthma\\1\lungs \\\condition \\\\
+71\phlegm\\1\lungs, airways\\\symptom\\\\
+72\Acute Bronchitis\\1\lungs\\\condition \\\\
+73\Chronic Bronchitis\\1\lungs \\\condition \\\\
+74\Pertussis\\1\lungs, airways\whooping cough \\condition \\\\
+75\Emphysema\\1\lungs \\\condition \\\\
+76\hiccups\\1\diaphragm \\\condition \\\\
+77\ear pain due to cold\\1\ear\\\symptom\\\\
+78\the common cold\colds\1\respiratory tract \colds\\symptom\\\x\
+79\mucus in throat\mucus\1\respiratory tract \\\condition \\\x\
+80\nasal congestion\nasal-congestion\1\nose \blocked nose\\symptom\\\x\
 \\\\\\\\\\\
 \\\\\\\\\\\
-\high blood pressure\\2\heart, blood vessels, kidneys, brain, and eyes\\\\\\\
-\low blood pressure\\2\heart, blood vessels \\\\\\\
-\heart pain\\2\heart\\\\\\\
-\high cholesterol\\2\liver, blood vessels, heart \\\\\\\
-\jaundice\\2\liver\\\\\\\
-\nose bleeding\\2\nose\hypertension\\\\\\
-\palpitation\\2\heart\hypotension\\\\\\
-\swollen feet\\2\feet, blood vessels, hearth\angina\\\\\\
-\Arteriosclerosis\\2\arteries \\\\\\\
-\Congestive Heart Failure\\2\heart \\jaundice in newborn\\\\\
-\Peripheral Arterial Occlusive Disease\\2\arteries \epistaxis \nose bleeding in child\\\\\
-\Varicose Veins \\2\veins \\\\\\\
-\circulation\circulation\2\heart \\\\\\x\
-\cholesterol\cholesterol\2\liver \\\\\\x\
-\heart health\Heart-health\2\heart \\\\\\x\
-\hypertension\hypertension\2\heart \\\\\\x\
+81\high blood pressure\\2\heart, blood vessels, kidneys, brain, and eyes\\\\\\\
+82\low blood pressure\\2\heart, blood vessels \\\\\\\
+83\heart pain\\2\heart\\\\\\\
+84\high cholesterol\\2\liver, blood vessels, heart \\\\\\\
+85\jaundice\\2\liver\\\\\\\
+86\nose bleeding\\2\nose\hypertension\\\\\\
+87\palpitation\\2\heart\hypotension\\\\\\
+88\swollen feet\\2\feet, blood vessels, hearth\angina\\\\\\
+89\Arteriosclerosis\\2\arteries \\\\\\\
+90\Congestive Heart Failure\\2\heart \\jaundice in newborn\\\\\
+91\Peripheral Arterial Occlusive Disease\\2\arteries \epistaxis \nose bleeding in child\\\\\
+92\Varicose Veins \\2\veins \\\\\\\
+93\circulation\circulation\2\heart \\\symptom\\\x\
+94\cholesterol\cholesterol\2\liver \\\symptom\\\x\
+95\heart health\heart-health\2\heart \\\part\\\x\
+96\hypertension\hypertension\2\heart \\\condition \\\x\
 \\\\\\\\\\\
 \\\\\\\\\\\
-\body aches\\3\muscle\myalgia, muscle pain, muscle soreness \\\\\\
-\Osteoporosis\\3\bones \\\\\\\
-\arthritis\\3\joints \\arthritis in hands\\\\\
-\joint pain\\3\joints \\joint pain in knee, joint pain in hands, joint pain in foot, joint pain after viral fever\\\\\
-\joint stiffness\\3\joints \\\\\\\
-\Osteoarthritis\\3\joints \\osteoarthritis in knees\\\\\
-\Rheumatoid Arthritis\\3\joints \\\\\\\
-\Bursitis\\3\joints \\\\\\\
-\Tendinitis\\3\joints \\\\\\\
-\Gout\\3\joints \\\\\\\
-\back pain\\3\spine, kidney\\\\\\\
-\lower back pain\\3\spine \\\\\\\
-\stiff neck\\3\neck \\\\\\\
-\neck pain\\3\neck\\\\\\\
-\frozen shoulder\\3\shoulder \adhesive capsulitis\\\\\\
-\jammed finger\\3\hand \\\\\\\
-\leg cramps\\3\leg\\leg cramps at night\\\\\
-\leg pain\\3\leg\\leg pain during periods\\\\\
-\Restless Leg Syndrome \\3\leg\rls\\\\\\
-\knee pain\\3\knee \\knee swelling and pain\\\\\
-\knee swelling\\3\knee \\\\\\\
-\foot pain\\3\foot \\\\\\\
-\plantar fasciitis\\3\foot \\\\\\\
-\chapped lips\\3\lips \\\\\\\
-\canker sores\\3\mouth \aphthous ulcers \\\\\\
-\jaw pain\\3\jaw\\\\\\\
-\jaw lock\\3\jaw\\\\\\\
-\jaw clenching\\3\jaw\bruxism \\\\\\
-\eye twitching\\3\eye \myokymia \\\\\\
-\bone health\bone-health\3\bones \\\\\\x\
-\cramps\cramps\3\muscle\\\\\\x\
-\\\\\\\\\\\
-\\\\\\\\\\\
-\\\\\\\\\\\
-\itchy skin\\4\skin\\at night\\\\\
-\acne\\4\skin\\\\\\\
-\bee sting\\4\skin\\\\\\\
-\boils\\4\skin \\\\\\\
-\chicken pox\\4\skin \\\\\\\
-\dry skin\\4\skin\\\\\\\
-\excessive sweating\\4\skin\\\\\\\
-\fungal infection\\4\skin\\\\\\\
-\glowing skin\\4\skin\\\\\\\
-\insect bites\\4\skin\\\\\\\
-\ingrown hair\\4\skin\\\\\\\
-\jellyfish sting\\4\skin\\\\\\\
-\mosquito bites\\4\skin\\\\\\\
-\open pores\\4\skin\\\\\\\
-\open wounds\\4\skin\\\\\\\
-\pimples\\4\skin\\\\\\\
-\pigmentation\\4\skin\\\\\\\
-\ringworm\\4\skin\\\\\\\
-\rashes\\4\skin\\\\\\\
-\sunburn\\4\skin\\\\\\\
-\Eczema \\4\skin\\\\\\\
-\Psoriasis\\4\skin\\\\\\\
-\Dermatitis\\4\skin\\\\\\\
-\nail fungus\\4\nails\\\\\\\
-\dry hair\\4\hair\\\\\\\
-\frizzy hair\\4\hair\\\\\\\
-\grey hair\\4\hair\\\\\\\
-\hair fall\\4\hair\\\\\\\
-\oily hair\\4\hair\\\\\\\
-\quick hair growth\\4\hair\\\\\\\
-\dandruff\\4\scalp \\\\\\\
-\dry scalp\\4\scalp\\\\\\\
-\itchy scalp\\4\scalp\\\\\\\
-\lice\\4\scalp \\\\\\\
-\oily face\\4\face\\\\\\\
-\dark circles\\4\eyes\\\\\\\
-\dry eyes\\4\eyes\\\\\\\
-\puffy eyes\\4\eyes\\\\\\\
-\itchy eyes\\4\eyes\\\\\\\
-\red eyes\\4\eyes\\\\\\\
-\stye\\4\eyes\hordeolum \\\\\\
-\eye bags\\4\eyes\\\\\\\
-\eye infection\\4\eyes\\\\\\\
-\eye stye\\4\eyes\hordeolum\\\\\\
-\eye irritation\\4\eyes\\\\\\\
-\eye swelling\\4\eyes\\\\\\\
-\itchy ears\\4\ears\\\\\\\
-\bleeding gums\\4\mouth \\\\\\\
-\gum pain\\4\mouth \\\\\\\
-\cold sore\\4\mouth \fever blisters \\\\\\
-\gum swelling\\4\mouth\\\\\\\
-\gum infection\\4\mouth\\\\\\\
-\inflamed gums\\4\mouth\\\\\\\
-\mouth sores\\4\mouth\\\\\\\
-\swollen gums\\4\mouth\\\\\\\
-\athlete's foot\\4\feet \pedis \\\\\\
-\cracked heels\\4\feet \\\\\\\
-\foot odor\\4\feet \\\\\\\
-\ingrown toenail\\4\feet \\\\\\\
-\dry lips\\4\lips\\\\\\\
-\dark lips\\4\lips\\\\\\\
-\fever blister on lip\\4\lips\\\\\\\
-\pink lips\\4\lips\\\\\\\
-\toothache\\4\tooth\\\\\\\
-\nipple pain during breastfeeding\\4\nipples\\\\\\\
-\jock itch\\4\groin \cruris \\\\\\
-\oily skin\Oily-skin\4\skin\\\\\\x\
-\clear skin\Clear-skin\4\skin\\\\\\x\
-\eye health\Eye-health\4\eyes\\\\\\x\
-\eyesight\eyesight\4\eyes\\\\\\x\
-\hair growth\Hair-growth\4\hair\\\\\\x\
+97\body aches\\3\muscle\myalgia, muscle pain, muscle soreness \\\\\\
+98\Osteoporosis\\3\bones \\\\\\\
+99\arthritis\\3\joints \\arthritis in hands\\\\\
+100\joint pain\\3\joints \\joint pain in knee, joint pain in hands, joint pain in foot, joint pain after viral fever\\\\\
+101\joint stiffness\\3\joints \\\\\\\
+102\Osteoarthritis\\3\joints \\osteoarthritis in knees\\\\\
+103\Rheumatoid Arthritis\\3\joints \\\\\\\
+104\Bursitis\\3\joints \\\\\\\
+105\Tendinitis\\3\joints \\\\\\\
+106\Gout\\3\joints \\\\\\\
+107\back pain\\3\spine, kidney\\\\\\\
+108\lower back pain\\3\spine \\\\\\\
+109\stiff neck\\3\neck \\\\\\\
+110\neck pain\\3\neck\\\\\\\
+111\frozen shoulder\\3\shoulder \adhesive capsulitis\\\\\\
+112\jammed finger\\3\hand \\\\\\\
+113\leg cramps\\3\leg\\leg cramps at night\\\\\
+114\leg pain\\3\leg\\leg pain during periods\\\\\
+115\Restless Leg Syndrome \\3\leg\rls\\\\\\
+116\knee pain\\3\knee \\knee swelling and pain\\\\\
+117\knee swelling\\3\knee \\\\\\\
+118\foot pain\\3\foot \\\\\\\
+119\plantar fasciitis\\3\foot \\\\\\\
+120\chapped lips\\3\lips \\\\\\\
+121\canker sores\\3\mouth \aphthous ulcers \\\\\\
+122\jaw pain\\3\jaw\\\\\\\
+123\jaw lock\\3\jaw\\\\\\\
+124\jaw clenching\\3\jaw\bruxism \\\\\\
+125\eye twitching\\3\eye \myokymia \\\\\\
+126\bone health\bone-health\3\bones \\\part\\\x\
+127\cramps\cramps\3\muscle\\\symptom\\\x\
 \\\\\\\\\\\
 \\\\\\\\\\\
 \\\\\\\\\\\
-\\\\\\\\\\\
-\Neuritis\\5\nerves\\\\\\\
-\nerve pain\\5\nerves\\\\\\\
-\headaches\\5\brain \\headache, headache due to cold weather, headache during pregnancy\\\\\
-\one side headache\\5\brain \\\\\\\
-\migraine\\5\brain \\\\\\\
-\insomnia\\5\brain \\insomnia for elderly\\\\\
-\quick sleep\\5\brain \\\\\\\
-\anxiety\\5\brain \\\\\\\
-\Stress\\5\brain \\\\\\\
-\Depression\\5\brain \\\\\\\
-\Anorexia Nervosa\\5\brain \\\\\\\
-\jet lag\\5\brain \\\\\\\
-\eye pain\\5\eyes\\\\\\\
-\eye strain\\5\eyes\\\\\\\
-\pink eye\\5\eyes\conjunctivitis\\\\\\
-\sore eyes\\5\eyes\\\\\\\
-\Tinnitus\\5\ears\\\\\\\
-\dizziness\\5\ears\\\\\\\
-\ear blockage\\5\ears\\\\\\\
-\motion sickness\\5\ears\\\\\\\
-\Shingles \\5\spine \herpes zoster \\\\\\
-\strep throat\\5\throat\\\\\\\
-\nausea\\5\stomach\\\\\\\
-\numbness in hands\\5\hands\\\\\\\
-\burning feet\\5\feet \\\\\\\
-\alertness\alertness\5\brain \\\\\\x\
-\brain fog\brain-fog\5\brain \\\\\\x\
-\fatigue\fatigue\5\brain \\\\\\x\
-\sleep\sleep\5\brain \\\\\\x\
-\ear infection\Ear-infection\5\ears\\\\\\x\
-\earache\earache\5\ears\\\\\\x\
-\eye floaters\Eye-floaters\5\eyes\\\\\\x\
-\focus\focus\5\brain \\\\\\x\
-\concentration\concentration\5\brain \\\\\\x\
-\grief\grief\5\brain \\\\\\x\
+128\itchy skin\\4\skin\\at night\\\\\
+129\acne\\4\skin\\\\\\\
+130\bee sting\\4\skin\\\\\\\
+131\boils\\4\skin \\\\\\\
+132\chicken pox\\4\skin \\\\\\\
+133\dry skin\\4\skin\\\\\\\
+134\excessive sweating\\4\skin\\\\\\\
+135\fungal infection\\4\skin\\\\\\\
+136\glowing skin\\4\skin\\\\\\\
+137\insect bites\\4\skin\\\\\\\
+138\ingrown hair\\4\skin\\\\\\\
+139\jellyfish sting\\4\skin\\\\\\\
+140\mosquito bites\\4\skin\\\\\\\
+141\open pores\\4\skin\\\\\\\
+142\open wounds\\4\skin\\\\\\\
+143\pimples\\4\skin\\\\\\\
+144\pigmentation\\4\skin\\\\\\\
+145\ringworm\\4\skin\\\\\\\
+146\rashes\\4\skin\\\\\\\
+147\sunburn\\4\skin\\\\\\\
+148\Eczema \\4\skin\\\\\\\
+149\Psoriasis\\4\skin\\\\\\\
+150\Dermatitis\\4\skin\\\\\\\
+151\nail fungus\\4\nails\\\\\\\
+152\dry hair\\4\hair\\\\\\\
+153\frizzy hair\\4\hair\\\\\\\
+154\grey hair\\4\hair\\\\\\\
+155\hair fall\\4\hair\\\\\\\
+156\oily hair\\4\hair\\\\\\\
+157\quick hair growth\\4\hair\\\\\\\
+158\dandruff\\4\scalp \\\\\\\
+159\dry scalp\\4\scalp\\\\\\\
+160\itchy scalp\\4\scalp\\\\\\\
+161\lice\\4\scalp \\\\\\\
+162\oily face\\4\face\\\\\\\
+163\dark circles\\4\eyes\\\\\\\
+164\dry eyes\\4\eyes\\\\\\\
+165\puffy eyes\\4\eyes\\\\\\\
+166\itchy eyes\\4\eyes\\\\\\\
+167\red eyes\\4\eyes\\\\\\\
+168\stye\\4\eyes\hordeolum \\\\\\
+169\eye bags\\4\eyes\\\\\\\
+170\eye infection\\4\eyes\\\\\\\
+171\eye stye\\4\eyes\hordeolum\\\\\\
+172\eye irritation\\4\eyes\\\\\\\
+173\eye swelling\\4\eyes\\\\\\\
+174\itchy ears\\4\ears\\\\\\\
+175\bleeding gums\\4\mouth \\\\\\\
+176\gum pain\\4\mouth \\\\\\\
+177\cold sore\\4\mouth \fever blisters \\\\\\
+178\gum swelling\\4\mouth\\\\\\\
+179\gum infection\\4\mouth\\\\\\\
+180\inflamed gums\\4\mouth\\\\\\\
+181\mouth sores\\4\mouth\\\\\\\
+182\swollen gums\\4\mouth\\\\\\\
+183\athlete's foot\\4\feet \pedis \\\\\\
+184\cracked heels\\4\feet \\\\\\\
+185\foot odor\\4\feet \\\\\\\
+186\ingrown toenail\\4\feet \\\\\\\
+187\dry lips\\4\lips\\\\\\\
+188\dark lips\\4\lips\\\\\\\
+189\fever blister on lip\\4\lips\\\\\\\
+190\pink lips\\4\lips\\\\\\\
+191\toothache\\4\tooth\\\\\\\
+192\nipple pain during breastfeeding\\4\nipples\\\\\\\
+193\jock itch\\4\groin \cruris \\\\\\
+194\oily skin\oily-skin\4\skin\\\symptom\\\x\
+195\clear skin\clear-skin\4\skin\\\benefit\\\x\
+196\eye health\eye-health\4\eyes\\\part\\\x\
+197\eyesight\eyesight\4\eyes\\\benefit\\\x\
+198\hair growth\hair-growth\4\hair\\\procedure\\\x\
 \\\\\\\\\\\
 \\\\\\\\\\\
 \\\\\\\\\\\
 \\\\\\\\\\\
-\allergy\allergies\6\body\\\\\\x\
-\fever\\6\brain \\\\\\\
-\inflammation\\6\body\\\\\\\
-\detox\\6\body\Detoxification\\\\\\
-\Postoperative Recovery\\6\body\\\\\\\
-\Vaginitis\\6\vagina \\\\\\\
-\Prostatitis\\6\prostate \\\\\\\
-\Boils\\6\skin \\\\\\\
-\Fungal Skin Infection\\6\skin \\\\\\\
-\Cancer \\6\body\\\\\\\
-\immune system\Immune-system\6\system\\\\\\x\
-\infection\infection\6\body\\\\\\x\
-\\\\\\\\\\\
-\\\\\\\\\\\
-\\\\\\\\\\\
-\overactive bladder\\7\bladder \frequent urination\\\\\\
-\Dysuria\\7\bladder \painful or difficult urination \\\\\\
-\Cystitis\\7\bladder \\\\\\\
-\Urinary Calculus \\7\kidney \\\\\\\
-\Hematuria\\7\kidneys \\\\\\\
-\Edema\\7\kidneys \\\\\\\
-\bladder pain\Bladder-pain\7\bladder \\\\\\x\
-\dehydration\dehydration\7\kidneys \\\\\\x\
-\fluid retention\Fluid-retention\7\kidneys \\\\\\x\
-\hydration\hydration\7\kidneys \\\\\\x\
-\\\\\\\\\\\
-\\\\\\\\\\\
-\\\\\\\\\\\
-\\\\\\\\\\\
-\breast pain during breastfeeding\\8\breasts\\\\\\\
-\erectile dysfunction\\8\penis \\\\\\\
-\low sperm count\\8\testes \\\\\\\
-\menstrual cramps\\8\uterus \\\\\\\
-\morning sickness\\8\stomach \\\\\\\
-\ovulation pain\\8\ovaries \mittelschmerz\\\\\\
-\over bleeding during periods\\8\uterus \\\\\\\
-\period cramps\\8\uterus \dysmenorrhea \\\\\\
-\premature ejaculation\\8\penis \\\\\\\
-\prostate inflammation\\8\prostate \\\\\\\
-\periods\\8\uterus \menstruation \\\\\\
-\Amenorrhea\\8\ovaries \absence of menstrual periods \\\\\\
-\Premenstrual Syndrome\\8\ovaries \PMS \\\\\\
-\Menopause\\8\ovaries \\\\\\\
-\Pregnancy\\8\uterus \\\\\\\
-\Uterine Fibroids\\8\uterus \\\\\\\
-\Endometriosis\\8\uterus \\\\\\\
-\Fibrocystic Breast Disease\\8\breasts\\\\\\\
-\Benign Prostatic Hypertrophy \\8\prostate \BPH \\\\\\
-\endometriosis pain\Endometriosis-pain\8\uterus \\\\\\x\
-\fertility\fertility\8\ovaries, testes \\\\\\x\
-\breastfeeding\breastfeeding\8\breasts\\\\\\x\
-\female libido\Female-libido\8\brain \\\\\\x\
-\female fertility\Female-fertility\8\ovaries\\\\\\x\
+199\Neuritis\\5\nerves\\\\\\\
+200\nerve pain\\5\nerves\\\\\\\
+201\headaches\\5\brain \\headache, headache due to cold weather, headache during pregnancy\\\\\
+202\one side headache\\5\brain \\\\\\\
+203\migraine\\5\brain \\\\\\\
+204\insomnia\\5\brain \\insomnia for elderly\\\\\
+205\quick sleep\\5\brain \\\\\\\
+206\anxiety\\5\brain \\\\\\\
+207\Stress\\5\brain \\\\\\\
+208\Depression\\5\brain \\\\\\\
+209\Anorexia Nervosa\\5\brain \\\\\\\
+210\jet lag\\5\brain \\\\\\\
+211\eye pain\\5\eyes\\\\\\\
+212\eye strain\\5\eyes\\\\\\\
+213\pink eye\\5\eyes\conjunctivitis\\\\\\
+214\sore eyes\\5\eyes\\\\\\\
+215\Tinnitus\\5\ears\\\\\\\
+216\dizziness\\5\ears\\\\\\\
+217\ear blockage\\5\ears\\\\\\\
+218\motion sickness\\5\ears\\\\\\\
+219\Shingles \\5\spine \herpes zoster \\\\\\
+220\strep throat\\5\throat\\\\\\\
+221\nausea\\5\stomach\\\\\\\
+222\numbness in hands\\5\hands\\\\\\\
+223\burning feet\\5\feet \\\\\\\
+224\alertness\alertness\5\brain \\\benefit\\\x\
+225\brain fog\brain-fog\5\brain \\\symptom\\\x\
+226\fatigue\fatigue\5\brain \\\symptom\\\x\
+227\sleep\sleep\5\brain \\\symptom\\\x\
+228\ear infection\ear-infection\5\ears\\\condition \\\x\
+229\earache\earache\5\ears\\\symptom\\\x\
+230\eye floaters\eye-floaters\5\eyes\\\symptom\\\x\
+231\focus\focus\5\brain \\\benefit\\\x\
+232\concentration\concentration\5\brain \\\benefit\\\x\
+233\grief\grief\5\brain \\\symptom\\\x\
 \\\\\\\\\\\
 \\\\\\\\\\\
 \\\\\\\\\\\
 \\\\\\\\\\\
+234\allergy\allergies\6\body\\\condition \\\x\
+235\fever\\6\brain \\\\\\\
+236\inflammation\\6\body\\\\\\\
+237\detox\\6\body\Detoxification\\\\\\
+238\Postoperative Recovery\\6\body\\\\\\\
+239\Vaginitis\\6\vagina \\\\\\\
+240\Prostatitis\\6\prostate \\\\\\\
+241\Boils\\6\skin \\\\\\\
+242\Fungal Skin Infection\\6\skin \\\\\\\
+243\Cancer \\6\body\\\\\\\
+244\immune system\immune-system\6\system\\\system\\\x\
+245\infection\infection\6\body\\\symptom\\\x\
 \\\\\\\\\\\
 \\\\\\\\\\\
 \\\\\\\\\\\
-\hormonal imbalance\\9\body\\\\\\\
-\hot flashes\\9\hypothalamus \\\\\\\
-\Hypothyroidism\\9\thyroid \\\\\\\
-\Hyperthyroidism\\9\thyroid \\\\\\\
-\Diabetes Mellitus\\9\pancreas \\\\\\\
-\The Adrenal Glands\\9\adrenal glands \\\\\\\
-\adrenal fatigue\\9\adrenal glands \\\\\\\
-\female hormone balance\Female-hormone-balance\9\ovaries \\\\\\x\
-\\\\\\\\\\\
-\\\\\\\\\\\
-\\\\\\\\\\\
-\\\\\\\\\\\
-\babies\babies\10\\\\\\\x\
-\\\\\\\\\\\
-\\\\\\\\\\\
-\belly fat\belly-fat\11\\\\\\\x\
-\weight loss\Weight-loss\11\\\\\\\x\
-\anti aging\Anti-aging\11\\\\\\\x\
-\appetite suppression\Appetite-suppression\11\\\\\\\x\
-\diet\diet\11\\\\\\\x\
-\energy boost\Energy-boost\11\\\\\\\x\
-\flat tummy\Flat-tummy\11\\\\\\\x\
-\fasting\fasting\11\\\\\\\x\
-\fat loss\Fat-loss\11\\\\\\\x\
-\good health\Good-health\11\\\\\\\x\
+246\overactive bladder\\7\bladder \frequent urination\\\\\\
+247\Dysuria\\7\bladder \painful or difficult urination \\\\\\
+248\Cystitis\\7\bladder \\\\\\\
+249\Urinary Calculus \\7\kidney \\\\\\\
+250\Hematuria\\7\kidneys \\\\\\\
+251\Edema\\7\kidneys \\\\\\\
+252\bladder pain\bladder-pain\7\bladder \\\symptom\\\x\
+253\dehydration\dehydration\7\kidneys \\\condition \\\x\
+254\fluid retention\fluid-retention\7\kidneys \\\symptom\\\x\
+255\hydration\hydration\7\kidneys \\\condition \\\x\
 \\\\\\\\\\\
 \\\\\\\\\\\
 \\\\\\\\\\\
 \\\\\\\\\\\
-\cats\cats\12\\\\\\\x\
-\dogs\dogs\12\\\\\\\x\
+256\breast pain during breastfeeding\\8\breasts\\\\\\\
+257\erectile dysfunction\\8\penis \\\\\\\
+258\low sperm count\\8\testes \\\\\\\
+259\menstrual cramps\\8\uterus \\\\\\\
+260\morning sickness\\8\stomach \\\\\\\
+261\ovulation pain\\8\ovaries \mittelschmerz\\\\\\
+262\over bleeding during periods\\8\uterus \\\\\\\
+263\period cramps\\8\uterus \dysmenorrhea \\\\\\
+264\premature ejaculation\\8\penis \\\\\\\
+265\prostate inflammation\\8\prostate \\\\\\\
+266\periods\\8\uterus \menstruation \\\\\\
+267\Amenorrhea\\8\ovaries \absence of menstrual periods \\\\\\
+268\Premenstrual Syndrome\\8\ovaries \PMS \\\\\\
+269\Menopause\\8\ovaries \\\\\\\
+270\Pregnancy\\8\uterus \\\\\\\
+271\Uterine Fibroids\\8\uterus \\\\\\\
+272\Endometriosis\\8\uterus \\\\\\\
+273\Fibrocystic Breast Disease\\8\breasts\\\\\\\
+274\Benign Prostatic Hypertrophy \\8\prostate \BPH \\\\\\
+275\endometriosis pain\endometriosis-pain\8\uterus \\\symptom\\\x\
+276\fertility\fertility\8\ovaries, testes \\\condition \\\x\
+277\breastfeeding\breastfeeding\8\breasts\\\procedure\\\x\
+278\female libido\female-libido\8\brain \\\condition \\\x\
+279\female fertility\female-fertility\8\ovaries\\\condition \\\x\
 \\\\\\\\\\\
 \\\\\\\\\\\
 \\\\\\\\\\\
-\enlarged spleen\Enlarged-spleen\13 (lymphatic)\\\\\\\x\
+\\\\\\\\\\\
+\\\\\\\\\\\
+\\\\\\\\\\\
+\\\\\\\\\\\
+280\hormonal imbalance\\9\body\\\\\\\
+281\hot flashes\\9\hypothalamus \\\\\\\
+282\Hypothyroidism\\9\thyroid \\\\\\\
+283\Hyperthyroidism\\9\thyroid \\\\\\\
+284\Diabetes Mellitus\\9\pancreas \\\\\\\
+285\The Adrenal Glands\\9\adrenal glands \\\\\\\
+286\adrenal fatigue\\9\adrenal glands \\\\\\\
+287\female hormone balance\female-hormone-balance\9\ovaries \\\condition \\\x\
+\\\\\\\\\\\
+\\\\\\\\\\\
+\\\\\\\\\\\
+\\\\\\\\\\\
+288\babies\babies\10\\\\demography\\\x\
+\\\\\\\\\\\
+\\\\\\\\\\\
+289\belly fat\belly-fat\11\\\\symptom\\\x\
+290\weight loss\weight-loss\11\\\\benefit\\\x\
+291\anti aging\anti-aging\11\\\\benefit\\\x\
+292\appetite suppression\appetite-suppression\11\\\\benefit\\\x\
+293\diet\diet\11\\\\benefit\\\x\
+294\energy boost\energy-boost\11\\\\benefit\\\x\
+295\flat tummy\flat-tummy\11\\\\benefit\\\x\
+296\fasting\fasting\11\\\\benefit\\\x\
+297\fat loss\fat-loss\11\\\\benefit\\\x\
+298\good health\good-health\11\\\\benefit\\\x\
+\\\\\\\\\\\
+\\\\\\\\\\\
+\\\\\\\\\\\
+\\\\\\\\\\\
+299\cats\cats\12\\\\animal\\\x\
+230\dogs\dogs\12\\\\animal\\\x\
+\\\\\\\\\\\
+\\\\\\\\\\\
+\\\\\\\\\\\
+231\enlarged spleen\Enlarged-spleen\13 (lymphatic)\\\\symptom\\\x\

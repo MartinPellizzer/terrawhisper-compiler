@@ -1,9 +1,11 @@
+import shutil
 import time
 import os
 
 import g
 import util
 import utils_ai
+import sitemap
 
 csv_conditions_filepath = 'database/csv/ailments/conditions.csv'
 conditions_rows = util.csv_get_rows(csv_conditions_filepath)
@@ -15,10 +17,12 @@ for condition_row in conditions_rows[1:]:
     condition_id = condition_row[conditions_cols['condition_id']].strip()
     condition_name = condition_row[conditions_cols['condition_name']].strip().lower()
     condition_slug = condition_row[conditions_cols['condition_slug']]
-    condition_classification = condition_row[conditions_cols['condition_classification']]
+    condition_classification = condition_row[conditions_cols['condition_classification']].strip().lower()
+    condition_pinned = condition_row[conditions_cols['condition_pinned']].strip().lower()
 
     if condition_id == '': continue
     if condition_classification != 'symptom': continue
+    if condition_pinned == '': continue 
 
     # JSON
     json_filepath = f'database/json/herbalism/tea/{condition_slug}.json'
@@ -99,10 +103,6 @@ for condition_row in conditions_rows[1:]:
             tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea') # manages case where the word 'tea' is already present in tea_name (ex. green tea)
             starting_text = f'{tea_name.capitalize()} helps with {condition_name} because '
             prompt = f'''
-                Explain in a 5-sentence paragraph why {tea_name} helps with {condition_name}.
-                Start with these words: {starting_text}
-            '''     
-            prompt = f'''
                 Explain in a 5-sentence paragraph why {tea_name} tea helps with {condition_name}.
                 Never use the following words: can, may, might.
             '''   
@@ -122,31 +122,31 @@ for condition_row in conditions_rows[1:]:
                 util.json_write(json_filepath, data)
             time.sleep(30)
 
-        del tea_obj['tea_parts'] # TODO: remove, temp reset
-        if 'tea_parts' not in tea_obj:
-            tea_name = tea_obj['tea_name']
-            prompt = f'''
-                Write a numbered list of the most used parts of the {tea_name} plant that are used to make medicinal tea for {condition_name}.
-                Reply by only selecting parts from the following list:
-                - Roots
-                - Rhyzomes
-                - Stems
-                - Leaves
-                - Flowers
-                - Seeds
-                - Buds
-                - Bark
-                Never include aerial parts.
-                Never repeat the same part twice and never include similar parts.
-                Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {condition_name}.
-                Never use the following words: can, may, might.
-            '''     
-            reply = utils_ai.gen_reply(prompt)
-            reply = utils_ai.reply_to_list_column(reply)
-            if reply != '':
-                tea_obj['tea_parts'] = reply
-                util.json_write(json_filepath, data)
-            time.sleep(30)
+        # del tea_obj['tea_parts'] # TODO: remove, temp reset
+        # if 'tea_parts' not in tea_obj:
+        #     tea_name = tea_obj['tea_name']
+        #     prompt = f'''
+        #         Write a numbered list of the most used parts of the {tea_name} plant that are used to make medicinal tea for {condition_name}.
+        #         Reply by only selecting parts from the following list:
+        #         - Roots
+        #         - Rhyzomes
+        #         - Stems
+        #         - Leaves
+        #         - Flowers
+        #         - Seeds
+        #         - Buds
+        #         - Bark
+        #         Never include aerial parts.
+        #         Never repeat the same part twice and never include similar parts.
+        #         Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {condition_name}.
+        #         Never use the following words: can, may, might.
+        #     '''     
+        #     reply = utils_ai.gen_reply(prompt)
+        #     reply = utils_ai.reply_to_list_column(reply)
+        #     if reply != '':
+        #         tea_obj['tea_parts'] = reply
+        #         util.json_write(json_filepath, data)
+        #     time.sleep(30)
 
     # HTML
     html_filepath = f'website/herbalism/tea/{condition_slug}.html'
@@ -164,7 +164,7 @@ for condition_row in conditions_rows[1:]:
         tea_name = tea_obj['tea_name'].strip().lower()
         tea_slug = tea_name.replace(' ', '-').replace("'", '-').replace('.', '-')
         tea_desc = tea_obj['tea_desc']
-        tea_parts = tea_obj['tea_parts']
+        # tea_parts = tea_obj['tea_parts']
         tea_image_url = f'/images/herbal-tea-for-{condition_slug}-{tea_slug}.jpg'
         article_html += f'<h2>{i}. {tea_name.title()}</h2>\n'
         article_html += f'<p>{tea_desc}</p>\n'
@@ -172,13 +172,13 @@ for condition_row in conditions_rows[1:]:
             article_html += f'<p><img src="/images/herbal-tea-for-{condition_slug}-{tea_slug}.jpg"><p>\n'
         else:
             print(f'IMG MISSING: {tea_image_url}')
-        article_html += f'<p>Right below you will find a list of the most important active constituents in {tea_name} tea that help with {condition_name}.</p>\n'
-        article_html += '<ul>\n'
-        for tea_part in tea_parts:
-            chunk_1 = tea_part.split(': ')[0]
-            chunk_2 = ': '.join(tea_part.split(': ')[1:])
-            article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
-        article_html += '</ul>\n'
+        # article_html += f'<p>Right below you will find a list of the most important active constituents in {tea_name} tea that help with {condition_name}.</p>\n'
+        # article_html += '<ul>\n'
+        # for tea_part in tea_parts:
+        #     chunk_1 = tea_part.split(': ')[0]
+        #     chunk_2 = ': '.join(tea_part.split(': ')[1:])
+        #     article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
+        # article_html += '</ul>\n'
 
     header_html = util.header_default()
     breadcrumbs_html = util.breadcrumbs(html_filepath)
@@ -225,7 +225,7 @@ for condition_row in conditions_rows[1:]:
 
     # print(data)
 
-    break
+    # break
 
 
 ########################################################################
