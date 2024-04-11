@@ -18045,3 +18045,4 @@ Read port: 61386
 DevTools listening on ws://127.0.0.1:61379/devtools/browser/849fbcc0-7f2f-4864-bdcf-8ddb2ded5631
 1712751129133	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+Exiting due to channel error.

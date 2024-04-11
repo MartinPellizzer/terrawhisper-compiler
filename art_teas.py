@@ -93,7 +93,7 @@ for condition_row in conditions_rows[1:]:
 
     # AI (TO COMPLETE)
     for tea_obj in data['teas']:
-        del tea_obj['tea_desc'] # TODO: remove, temp reset
+        # del tea_obj['tea_desc'] # TODO: remove, temp reset
         if 'tea_desc' not in tea_obj:
             tea_name = tea_obj["tea_name"].strip().lower()
             tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea') # manages case where the word 'tea' is already present in tea_name (ex. green tea)
@@ -104,21 +104,17 @@ for condition_row in conditions_rows[1:]:
             '''     
             prompt = f'''
                 Explain in a 5-sentence paragraph why {tea_name} tea helps with {condition_name}.
+                Never use the following words: can, may, might.
             '''   
             reply = utils_ai.gen_reply(prompt)
             time.sleep(30)
 
-            prompt = f'''
-                Rewrite the following text by removing the words "can", "may", "might" and without changing the meaning of the text:
+            # prompt = f'''
+            #     Remove the words "can", "may", "might" from the following text and fix any grammatical error by changing this text as little as possible:
 
-                {reply}
-            '''  
-            prompt = f'''
-                Remove the words "can", "may", "might" from the following paragraph, while leaving the rest of the text intact.
-
-                {reply}
-            '''   
-            reply = utils_ai.gen_reply(prompt)
+            #     {reply}
+            # '''   
+            # reply = utils_ai.gen_reply(prompt)
 
             reply = utils_ai.reply_to_paragraphs(reply)
             if len(reply) == 1 and reply != '':
@@ -126,6 +122,7 @@ for condition_row in conditions_rows[1:]:
                 util.json_write(json_filepath, data)
             time.sleep(30)
 
+        del tea_obj['tea_parts'] # TODO: remove, temp reset
         if 'tea_parts' not in tea_obj:
             tea_name = tea_obj['tea_name']
             prompt = f'''
@@ -142,6 +139,7 @@ for condition_row in conditions_rows[1:]:
                 Never include aerial parts.
                 Never repeat the same part twice and never include similar parts.
                 Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {condition_name}.
+                Never use the following words: can, may, might.
             '''     
             reply = utils_ai.gen_reply(prompt)
             reply = utils_ai.reply_to_list_column(reply)
@@ -395,3 +393,13 @@ html = f'''
 '''
 
 util.file_write(html_filepath, html)
+
+
+
+
+
+
+
+sitemap.sitemap_all()
+shutil.copy2('sitemap.xml', 'website/sitemap.xml')
+

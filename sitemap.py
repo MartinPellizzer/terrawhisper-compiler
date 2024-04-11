@@ -18,7 +18,7 @@ def sitemap_all():
 
 def sitemap_teas():
     urls = ''
-    for filename in os.listdir('database/articles/herbalism/tea'):
+    for filename in os.listdir('database/json/herbalism/tea'):
         if filename.endswith('.json'):
             filename_html = filename.replace('.json', '.html')
             urls += f'''
