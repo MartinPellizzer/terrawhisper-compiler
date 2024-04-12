@@ -291,12 +291,13 @@ def image_variate(filepath_in, filepath_out):
 # ARTICLES
 ###################################
 
-def article_meta(content):
+def article_meta(content, date):
     reading_time = str(len(content.split(' ')) // 200) + ' minutes'
     return f'''
         <div class="flex items-center justify-between mb-16">
             <div class="flex items-center gap-16">
                 <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
+                <p>Last updated: Feb 14, 2018</p>
             </div>
             <span>{reading_time}</span>
         </div>

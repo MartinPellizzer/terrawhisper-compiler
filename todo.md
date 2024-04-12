@@ -35,6 +35,9 @@
 # ###################################################
 # TODO
 # ###################################################
+- TEA PAGE(S):
+    - update publishing date on meta in article
+
 - CONDITIONS PAGE:
     [!!!] fix condition page
     

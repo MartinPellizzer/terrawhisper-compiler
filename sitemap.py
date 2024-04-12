@@ -44,7 +44,7 @@ def sitemap_plants():
         filepath = str(filepath)
         filepath_in = filepath.replace('\\', '/')
         filepath_out = filepath_in.replace('database/articles/', '').replace('.json', '.html')
-        print(filepath_out)
+        # print(filepath_out)
 
         data = util.json_read(filepath_in)
         try: lastmod = data['lastmod']

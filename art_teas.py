@@ -21,7 +21,13 @@ for condition_row in conditions_rows[1:]:
     condition_pinned = condition_row[conditions_cols['condition_pinned']].strip().lower()
 
     if condition_id == '': continue
-    if condition_classification != 'symptom': continue
+    if (condition_classification != 'symptom' and
+        condition_classification != 'condition' and
+        condition_classification != 'system' and
+        condition_classification != 'procedure' and
+        condition_classification != 'benefit' and
+        condition_classification != 'part'
+    ): continue
     if condition_pinned == '': continue 
 
     # JSON
@@ -96,11 +102,11 @@ for condition_row in conditions_rows[1:]:
     util.json_write(json_filepath, data)
 
     # AI (TO COMPLETE)
-    for tea_obj in data['teas']:
+    for tea_obj in data['teas'][:remedy_num]:
         # del tea_obj['tea_desc'] # TODO: remove, temp reset
         if 'tea_desc' not in tea_obj:
             tea_name = tea_obj["tea_name"].strip().lower()
-            tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea') # manages case where the word 'tea' is already present in tea_name (ex. green tea)
+            tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea')
             starting_text = f'{tea_name.capitalize()} helps with {condition_name} because '
             prompt = f'''
                 Explain in a 5-sentence paragraph why {tea_name} tea helps with {condition_name}.
@@ -108,13 +114,6 @@ for condition_row in conditions_rows[1:]:
             '''   
             reply = utils_ai.gen_reply(prompt)
             time.sleep(30)
-
-            # prompt = f'''
-            #     Remove the words "can", "may", "might" from the following text and fix any grammatical error by changing this text as little as possible:
-
-            #     {reply}
-            # '''   
-            # reply = utils_ai.gen_reply(prompt)
 
             reply = utils_ai.reply_to_paragraphs(reply)
             if len(reply) == 1 and reply != '':
@@ -163,15 +162,16 @@ for condition_row in conditions_rows[1:]:
         i += 1
         tea_name = tea_obj['tea_name'].strip().lower()
         tea_slug = tea_name.replace(' ', '-').replace("'", '-').replace('.', '-')
-        tea_desc = tea_obj['tea_desc']
-        # tea_parts = tea_obj['tea_parts']
         tea_image_url = f'/images/herbal-tea-for-{condition_slug}-{tea_slug}.jpg'
         article_html += f'<h2>{i}. {tea_name.title()}</h2>\n'
-        article_html += f'<p>{tea_desc}</p>\n'
+        try: article_html += f'<p>{tea_obj["tea_desc"]}</p>\n'
+        except: print(f'MISSING DESC: {condition_name} >> {tea_name}')
         if os.path.exists(f'website{tea_image_url}'):
             article_html += f'<p><img src="/images/herbal-tea-for-{condition_slug}-{tea_slug}.jpg"><p>\n'
         else:
             print(f'IMG MISSING: {tea_image_url}')
+            
+        # tea_parts = tea_obj['tea_parts']
         # article_html += f'<p>Right below you will find a list of the most important active constituents in {tea_name} tea that help with {condition_name}.</p>\n'
         # article_html += '<ul>\n'
         # for tea_part in tea_parts:
@@ -182,7 +182,7 @@ for condition_row in conditions_rows[1:]:
 
     header_html = util.header_default()
     breadcrumbs_html = util.breadcrumbs(html_filepath)
-    meta_html = util.article_meta(article_html)
+    meta_html = util.article_meta(article_html, lastmod)
     article_html = util.article_toc(article_html)
 
     html = f'''
@@ -353,7 +353,7 @@ for system_obj in tea_data['systems']:
 
 header_html = util.header_default()
 breadcrumbs_html = util.breadcrumbs(html_filepath)
-meta_html = util.article_meta(article_html)
+meta_html = util.article_meta(article_html, lastmod)
 article_html = util.article_toc(article_html)
 
 html = f'''
