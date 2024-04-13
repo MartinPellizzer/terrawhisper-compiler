@@ -1,15 +1,26 @@
 import shutil
 import time
 import os
+import random
 
 import g
 import util
 import utils_ai
 import sitemap
 
+
+
+########################################################################
+# TEAS CONDITIONS
+########################################################################
+
 csv_conditions_filepath = 'database/csv/ailments/conditions.csv'
 conditions_rows = util.csv_get_rows(csv_conditions_filepath)
 conditions_cols = util.csv_get_header_dict(conditions_rows)
+
+csv_teas_filepath = 'database/csv/herbalism/teas_conditions.csv'
+teas_rows = util.csv_get_rows(csv_teas_filepath)
+teas_cols = util.csv_get_header_dict(teas_rows)
 
 for condition_row in conditions_rows[1:]:
 
@@ -21,13 +32,7 @@ for condition_row in conditions_rows[1:]:
     condition_pinned = condition_row[conditions_cols['condition_pinned']].strip().lower()
 
     if condition_id == '': continue
-    if (condition_classification != 'symptom' and
-        condition_classification != 'condition' and
-        condition_classification != 'system' and
-        condition_classification != 'procedure' and
-        condition_classification != 'benefit' and
-        condition_classification != 'part'
-    ): continue
+    if condition_classification == '': continue
     if condition_pinned == '': continue 
 
     # JSON
@@ -48,9 +53,11 @@ for condition_row in conditions_rows[1:]:
     util.json_write(json_filepath, data)
 
     # AI
+    # -----------------------------------------------------------------------------
+
+    # GEN INTRO
     failed_regen = False
     if 'intro' not in data:
-    # if 'intro' not in data or regen == True:
         prompt = f'''
             Write 1 short paragraph about the best herbal teas for {condition_name}.
         '''
@@ -64,44 +71,38 @@ for condition_row in conditions_rows[1:]:
 
     # INIT/CLEAN LIST OF TEAS (TO REFACTOR)
     if 'teas' not in data: data['teas'] = []
-    teas_rows = util.csv_get_rows('database/csv/herbalism/teas_conditions.csv')
-    teas_cols = util.csv_get_header_dict(teas_rows)
 
+    # ADD NEW TEAS
     for tea_row in teas_rows[1:]:
-        tea_condition_name = tea_row[teas_cols['condition']].strip().lower()
-        tea_name = tea_row[teas_cols['tea']].strip().lower()
-
-        if tea_condition_name != condition_name: continue
-
+        tea_condition_id = tea_row[teas_cols['condition_id']].strip().lower()
+        tea_name = tea_row[teas_cols['tea_name']].strip().lower()
+        if tea_condition_id != condition_id: continue
         found = False
         for tea_obj in data['teas']:
             if tea_obj['tea_name'] == tea_name: 
-                found = True 
+                found = True
                 break
-
         if not found:
             data['teas'].append({'tea_name': tea_name})
 
+    # DELETE REMOVED TEAS
     data_filtered = []
     for tea_obj in data['teas']: 
         found = False
         for tea_row in teas_rows[1:]:
-            tea_condition_name = tea_row[teas_cols['condition']].strip().lower()
-            tea_name = tea_row[teas_cols['tea']].strip().lower()
-
+            tea_condition_name = tea_row[teas_cols['condition_name']].strip().lower()
+            tea_name = tea_row[teas_cols['tea_name']].strip().lower()
             if tea_condition_name != condition_name: continue
-
             if tea_obj['tea_name'] == tea_name: 
                 found = True
                 break
-        
         if found:
             data_filtered.append(tea_obj)
-    
+
     data['teas'] = data_filtered
     util.json_write(json_filepath, data)
 
-    # AI (TO COMPLETE)
+    # GEN TEAS (TO COMPLETE)
     for tea_obj in data['teas'][:remedy_num]:
         # del tea_obj['tea_desc'] # TODO: remove, temp reset
         if 'tea_desc' not in tea_obj:
@@ -109,12 +110,10 @@ for condition_row in conditions_rows[1:]:
             tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea')
             starting_text = f'{tea_name.capitalize()} helps with {condition_name} because '
             prompt = f'''
-                Explain in a 5-sentence paragraph why {tea_name} tea helps with {condition_name}.
+                Explain in a 5-sentence paragraph why {tea_name} helps with {condition_name}.
                 Never use the following words: can, may, might.
             '''   
             reply = utils_ai.gen_reply(prompt)
-            time.sleep(30)
-
             reply = utils_ai.reply_to_paragraphs(reply)
             if len(reply) == 1 and reply != '':
                 tea_obj['tea_desc'] = reply[0]
@@ -122,30 +121,37 @@ for condition_row in conditions_rows[1:]:
             time.sleep(30)
 
         # del tea_obj['tea_parts'] # TODO: remove, temp reset
-        # if 'tea_parts' not in tea_obj:
-        #     tea_name = tea_obj['tea_name']
-        #     prompt = f'''
-        #         Write a numbered list of the most used parts of the {tea_name} plant that are used to make medicinal tea for {condition_name}.
-        #         Reply by only selecting parts from the following list:
-        #         - Roots
-        #         - Rhyzomes
-        #         - Stems
-        #         - Leaves
-        #         - Flowers
-        #         - Seeds
-        #         - Buds
-        #         - Bark
-        #         Never include aerial parts.
-        #         Never repeat the same part twice and never include similar parts.
-        #         Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {condition_name}.
-        #         Never use the following words: can, may, might.
-        #     '''     
-        #     reply = utils_ai.gen_reply(prompt)
-        #     reply = utils_ai.reply_to_list_column(reply)
-        #     if reply != '':
-        #         tea_obj['tea_parts'] = reply
-        #         util.json_write(json_filepath, data)
-        #     time.sleep(30)
+        if 'tea_parts' not in tea_obj:
+            tea_name = tea_obj['tea_name']
+            prompt = f'''
+                Write a numbered list of the most used parts of the {tea_name} plant that are used to make medicinal tea for {condition_name}.
+                Reply by only selecting parts from the following list:
+                - Roots
+                - Rhyzomes
+                - Stems
+                - Leaves
+                - Flowers
+                - Seeds
+                - Buds
+                - Bark
+                Never include aerial parts.
+                Never repeat the same part twice and never include similar parts.
+                Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {condition_name}.
+                Never use the following words: can, may, might.
+            '''     
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_list_column(reply)
+            if reply != '':
+                tea_obj['tea_parts'] = reply
+                util.json_write(json_filepath, data)
+            time.sleep(30)
+        
+        # gen study
+        # gen constituents
+        # gen recipe
+
+    # GEN SECONDARY CONTENT 
+    # related symptoms/causes
 
     # HTML
     html_filepath = f'website/herbalism/tea/{condition_slug}.html'
@@ -154,31 +160,63 @@ for condition_row in conditions_rows[1:]:
 
     article_html = ''
     article_html += f'<h1>{title}</h1>\n'
+
+    tea_obj = data['teas'][0]
+    tea_name = tea_obj['tea_name'].strip().lower()
+    tea_slug = tea_name.replace(' ', '-').replace("'", '-').replace('.', '-')
+    images_folderpath = f'C:/terrawhisper-assets/images/tea/{tea_slug}'
+    if os.path.exists(images_folderpath):
+        images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
+        image_filepath = random.choice(images_filepaths)
+        if image_filepath != '':
+            image_filepath_out = f'website/images/herbal-tea-for-{condition_slug}-overview.jpg'
+            if not os.path.exists(image_filepath_out):
+                util.image_variate(image_filepath, image_filepath_out)
+    else:
+        print(f'IMG FOLDER MISSING: {images_folderpath}')
+    tea_image_url = f'/images/herbal-tea-for-{condition_slug}-{tea_slug}.jpg'
+    if os.path.exists(f'website{tea_image_url}'):
+        article_html += f'<p><img src="/images/herbal-tea-for-{condition_slug}-overview.jpg"><p>\n'
+    else:
+        print(f'IMG MISSING: {tea_slug}')
+
     if 'intro' in data:
-        article_html += f'<p>{data["intro"]}</p>\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["intro"])}</p>\n'
     
     i = 0
     for tea_obj in data['teas'][:remedy_num]:
         i += 1
         tea_name = tea_obj['tea_name'].strip().lower()
         tea_slug = tea_name.replace(' ', '-').replace("'", '-').replace('.', '-')
-        tea_image_url = f'/images/herbal-tea-for-{condition_slug}-{tea_slug}.jpg'
+
         article_html += f'<h2>{i}. {tea_name.title()}</h2>\n'
-        try: article_html += f'<p>{tea_obj["tea_desc"]}</p>\n'
+        try: article_html += f'<p>{util.text_format_1N1_html(tea_obj["tea_desc"])}</p>\n'
         except: print(f'MISSING DESC: {condition_name} >> {tea_name}')
+
+        images_folderpath = f'C:/terrawhisper-assets/images/tea/{tea_slug}'
+        if os.path.exists(images_folderpath):
+            images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
+            image_filepath = random.choice(images_filepaths)
+            if image_filepath != '':
+                image_filepath_out = f'website/images/herbal-tea-for-{condition_slug}-{tea_slug}.jpg'
+                if not os.path.exists(image_filepath_out):
+                    util.image_variate(image_filepath, image_filepath_out)
+        else:
+            print(f'IMG FOLDER MISSING: {images_folderpath}')
+        tea_image_url = f'/images/herbal-tea-for-{condition_slug}-{tea_slug}.jpg'
         if os.path.exists(f'website{tea_image_url}'):
             article_html += f'<p><img src="/images/herbal-tea-for-{condition_slug}-{tea_slug}.jpg"><p>\n'
         else:
-            print(f'IMG MISSING: {tea_image_url}')
+            print(f'IMG MISSING: {tea_slug}')
             
-        # tea_parts = tea_obj['tea_parts']
-        # article_html += f'<p>Right below you will find a list of the most important active constituents in {tea_name} tea that help with {condition_name}.</p>\n'
-        # article_html += '<ul>\n'
-        # for tea_part in tea_parts:
-        #     chunk_1 = tea_part.split(': ')[0]
-        #     chunk_2 = ': '.join(tea_part.split(': ')[1:])
-        #     article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
-        # article_html += '</ul>\n'
+        tea_parts = tea_obj['tea_parts']
+        article_html += f'<p>Right below you will find a list of the most important active constituents in {tea_name} tea that help with {condition_name}.</p>\n'
+        article_html += '<ul>\n'
+        for tea_part in tea_parts:
+            chunk_1 = tea_part.split(': ')[0]
+            chunk_2 = ': '.join(tea_part.split(': ')[1:])
+            article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
+        article_html += '</ul>\n'
 
     header_html = util.header_default()
     breadcrumbs_html = util.breadcrumbs(html_filepath)
@@ -223,9 +261,7 @@ for condition_row in conditions_rows[1:]:
 
     util.file_write(html_filepath, html)
 
-    # print(data)
 
-    # break
 
 
 ########################################################################

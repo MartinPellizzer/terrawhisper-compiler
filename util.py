@@ -4,6 +4,7 @@ import json
 import random
 import datetime
 from PIL import Image, ImageColor, ImageEnhance
+from nltk import tokenize
 
 import g
 
@@ -159,7 +160,8 @@ def text_format_131_html(text):
 
 def text_format_1N1_html(text):
     text_formatted = ''
-    lines = text.split('. ')
+    lines = tokenize.sent_tokenize(text)
+    # lines = text.split('. ')
     lines_num = len(lines[1:-1])
     paragraphs = []
     paragraphs.append(lines[0])
