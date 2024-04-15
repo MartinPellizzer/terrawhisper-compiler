@@ -131,3 +131,22 @@ def reply_to_list_column(reply):
         reply_formatted.append(line)
 
     return reply_formatted
+
+
+    
+
+def reply_to_list(reply):
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if not line[0].isdigit(): continue
+        
+        line = '. '.join(line.split('. ')[1:]).strip()
+        if line == '': continue
+
+        # if len(line.split(' ')) < 10: continue
+
+        reply_formatted.append(line)
+
+    return reply_formatted

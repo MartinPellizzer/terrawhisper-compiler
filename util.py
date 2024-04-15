@@ -44,12 +44,12 @@ def csv_set_rows(filepath, rows, delimiter='\\'):
         writer.writerows(rows)
         
 
-def csv_get_rows_by_entity(filepath, entity, delimiter='\\', num_col=0):
+def csv_get_rows_by_entity(filepath, entity, delimiter='\\', col_num=0):
     rows = []
     with open(filepath, encoding='utf-8', errors='ignore') as f:
         reader = csv.reader(f, delimiter=delimiter)
         for i, line in enumerate(reader):
-            if line[num_col].lower().strip() == entity.lower().strip():
+            if line[col_num].lower().strip() == entity.lower().strip():
                 rows.append(line)
     return rows
 
@@ -293,17 +293,42 @@ def image_variate(filepath_in, filepath_out):
 # ARTICLES
 ###################################
 
-def article_meta(content, date):
+def article_meta(content, lastmod):
+    # date_obj = datetime.datetime.strptime(lastmod, '%Y-%M-%d').date()
+    year = lastmod.split('-')[0]
+    # month = date_obj.strftime("%b")
+    month = lastmod.split('-')[1]
+    if month == '01': month = "Jan"
+    if month == '02': month = "Feb"
+    if month == '03': month = "Mar"
+    if month == '04': month = "Apr"
+    if month == '05': month = "May"
+    if month == '06': month = "Jun"
+    if month == '07': month = "Jul"
+    if month == '08': month = "Aug"
+    if month == '09': month = "Sep"
+    if month == '10': month = "Oct"
+    if month == '11': month = "Nov"
+    if month == '12': month = "Dec"
+    day = lastmod.split('-')[2]
+
     reading_time = str(len(content.split(' ')) // 200) + ' minutes'
-    return f'''
-        <div class="flex items-center justify-between mb-16">
+    html = f'''
+        <div class="flex items-center justify-between mb-8">
             <div class="flex items-center gap-16">
                 <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
-                <p>Last updated: Feb 14, 2018</p>
             </div>
             <span>{reading_time}</span>
         </div>
+        <div class="flex items-center justify-between">
+            <div class="flex items-center gap-16">
+                <p>Last updated: {month} {day}, {year}</p>
+            </div>
+            <span></span>
+        </div>
     '''
+                # <p>Last updated: Feb 14, 2018</p>
+    return html
 
     
 def header_base():
@@ -315,7 +340,6 @@ def header_base():
                 <div class="hamburger"></div>
                 <ul class="menu">
                     <li><a class="text-white" href="/">Home</a></li>
-                    <li><a class="text-white" href="/start-here.html">Start Here</a></li>
                     <li><a class="text-white" href="/herbalism.html">Herbalism</a></li>
                     <li><a class="text-white" href="/conditions.html">Conditions</a></li>
                     <li><a class="text-white" href="/plants.html">Plants</a></li>
@@ -324,6 +348,7 @@ def header_base():
             </nav>
         </header>
     '''
+                    # <li><a class="text-white" href="/start-here.html">Start Here</a></li>
 
 
 def header_default():
