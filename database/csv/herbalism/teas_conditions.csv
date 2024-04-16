@@ -1965,7 +1965,6 @@ condition_id\condition_name\condition_slug\tea_name
 8\throat pain\throat-pain\licorice
 8\throat pain\throat-pain\chamomile
 8\throat pain\throat-pain\peppermint
-8\throat pain\throat-pain\saucy sage
 8\throat pain\throat-pain\echinacea
 8\throat pain\throat-pain\goldenseal
 8\throat pain\throat-pain\clove
@@ -2507,3 +2506,380 @@ condition_id\condition_name\condition_slug\tea_name
 20\peptic ulcers\peptic-ulcers\mullein
 20\peptic ulcers\peptic-ulcers\st. john's wort
 20\peptic ulcers\peptic-ulcers\rose petals
+53\hay fever\\nettle
+53\hay fever\\chamomile
+53\hay fever\\peppermint
+53\hay fever\\ginger
+53\hay fever\\lemon balm
+53\hay fever\\eyebright
+53\hay fever\\goldenseal
+53\hay fever\\raspberry
+53\hay fever\\red clover
+53\hay fever\\yarrow
+53\hay fever\\plantain
+53\hay fever\\thyme
+53\hay fever\\basil
+53\hay fever\\sage
+53\hay fever\\licorice
+53\hay fever\\marshmallow
+53\hay fever\\catnip
+53\hay fever\\fenugreek
+53\hay fever\\birch leaves
+54\blocked nose\\peppermint
+54\blocked nose\\eucalyptus
+54\blocked nose\\elderflower
+54\blocked nose\\ginger
+54\blocked nose\\licorice
+54\blocked nose\\chamomile
+54\blocked nose\\goldenrod
+54\blocked nose\\yarrow
+54\blocked nose\\basil
+54\blocked nose\\marshmallow
+54\blocked nose\\hyssop
+54\blocked nose\\sage
+54\blocked nose\\thyme
+54\blocked nose\\rosemary
+54\blocked nose\\fenugreek
+54\blocked nose\\coltsfoot
+54\blocked nose\\stinging nettle
+54\blocked nose\\mullein
+54\blocked nose\\birch
+55\runny nose\\peppermint
+55\runny nose\\eucalyptus
+55\runny nose\\elderberry
+55\runny nose\\ginger
+55\runny nose\\licorice
+55\runny nose\\echinacea
+55\runny nose\\goldenseal
+55\runny nose\\yarrow
+55\runny nose\\marshmallow
+55\runny nose\\plantain
+55\runny nose\\chamomile
+55\runny nose\\hyssop
+55\runny nose\\sage
+55\runny nose\\thyme
+55\runny nose\\parsley
+55\runny nose\\raspberry
+55\runny nose\\st. john's wort
+55\runny nose\\oregano
+55\runny nose\\basil
+56\post nasal drip\\slippery elm
+56\post nasal drip\\marshmallow
+56\post nasal drip\\licorice
+56\post nasal drip\\goldenrod
+56\post nasal drip\\yerba santa
+56\post nasal drip\\echinacea
+56\post nasal drip\\fenugreek
+56\post nasal drip\\plantain
+56\post nasal drip\\thyme
+56\post nasal drip\\chamomile
+56\post nasal drip\\sage
+56\post nasal drip\\reishi mushroom
+56\post nasal drip\\ginger
+56\post nasal drip\\cinnamon
+56\post nasal drip\\turmeric
+56\post nasal drip\\cloves
+56\post nasal drip\\fennel
+56\post nasal drip\\rooibos
+56\post nasal drip\\peppermint
+57\sinus headache\\elderberry
+57\sinus headache\\eucalyptus
+57\sinus headache\\peppermint
+57\sinus headache\\ginger
+57\sinus headache\\white willow
+57\sinus headache\\goldenseal
+57\sinus headache\\saw palmetto
+57\sinus headache\\yarrow
+57\sinus headache\\licorice
+57\sinus headache\\feverfew
+57\sinus headache\\parsley
+57\sinus headache\\marshmallow
+57\sinus headache\\chamomile
+57\sinus headache\\basil
+57\sinus headache\\thyme
+57\sinus headache\\hyssop
+57\sinus headache\\birch
+57\sinus headache\\roselle
+57\sinus headache\\catnip
+58\sinusitis\\elderberry
+58\sinusitis\\eucalyptus
+58\sinusitis\\peppermint
+58\sinusitis\\ginger
+58\sinusitis\\goldenseal
+58\sinusitis\\yarrow
+58\sinusitis\\licorice
+58\sinusitis\\marshmallow
+58\sinusitis\\thyme
+58\sinusitis\\basil
+58\sinusitis\\rosemary
+58\sinusitis\\cloves
+58\sinusitis\\cayenne pepper
+58\sinusitis\\catnip
+58\sinusitis\\hyssop
+58\sinusitis\\sage
+58\sinusitis\\alfalfa
+58\sinusitis\\chamomile
+58\sinusitis\\coltsfoot
+60\dry throat\\slippery elm
+60\dry throat\\licorice
+60\dry throat\\marshmallow
+60\dry throat\\chamomile
+60\dry throat\\peppermint
+60\dry throat\\sage
+60\dry throat\\cherry
+60\dry throat\\horehound
+60\dry throat\\elecampane
+60\dry throat\\hyssop
+60\dry throat\\pleurisy
+60\dry throat\\yerba santa
+60\dry throat\\mullein
+60\dry throat\\catnip
+60\dry throat\\basil
+60\dry throat\\ginger
+60\dry throat\\clove
+60\dry throat\\cinnamon
+61\snoring\\chamomile
+61\snoring\\peppermint
+61\snoring\\valerian
+61\snoring\\spearmint
+61\snoring\\eucalyptus
+61\snoring\\lavender
+61\snoring\\licorice
+61\snoring\\marjoram
+61\snoring\\sage
+61\snoring\\thyme
+61\snoring\\mullein
+61\snoring\\slippery elm
+61\snoring\\skullcap
+61\snoring\\catnip
+61\snoring\\horehound
+61\snoring\\lemon balm
+61\snoring\\yerba santa
+61\snoring\\birch
+62\laryngitis\\slippery elm
+62\laryngitis\\marshmallow
+62\laryngitis\\licorice
+62\laryngitis\\chamomile
+62\laryngitis\\peppermint
+62\laryngitis\\thyme
+62\laryngitis\\sage
+62\laryngitis\\echinacea
+62\laryngitis\\goldenseal
+62\laryngitis\\turmeric
+62\laryngitis\\ginger
+62\laryngitis\\clove
+62\laryngitis\\cinnamon
+62\laryngitis\\raspberry
+62\laryngitis\\fennel
+62\laryngitis\\basil
+62\laryngitis\\rosemary
+62\laryngitis\\honeysuckle
+62\laryngitis\\passionflower
+63\hoarse voice\\slippery elm
+63\hoarse voice\\marshmallow
+63\hoarse voice\\licorice
+63\hoarse voice\\turmeric
+63\hoarse voice\\ginger
+63\hoarse voice\\clove
+63\hoarse voice\\chamomile
+63\hoarse voice\\peppermint
+63\hoarse voice\\alfalfa
+63\hoarse voice\\basil
+63\hoarse voice\\cinnamon
+63\hoarse voice\\fennel
+63\hoarse voice\\raspberry
+63\hoarse voice\\sage
+63\hoarse voice\\rosemary
+63\hoarse voice\\yerba santa
+63\hoarse voice\\echinacea
+63\hoarse voice\\goldenseal
+64\lost voice\\slippery elm
+64\lost voice\\marshmallow
+64\lost voice\\licorice
+64\lost voice\\plantain
+64\lost voice\\chamomile
+64\lost voice\\peppermint
+64\lost voice\\ginger
+64\lost voice\\thyme
+64\lost voice\\sage
+64\lost voice\\turmeric
+64\lost voice\\clove
+64\lost voice\\cinnamon
+64\lost voice\\elecampane
+64\lost voice\\skullcap
+64\lost voice\\valerian
+64\lost voice\\yerba santa
+64\lost voice\\usnea
+64\lost voice\\fenugreek
+64\lost voice\\goldenseal
+65\tonsillitis\\chamomile
+65\tonsillitis\\licorice
+65\tonsillitis\\slippery elm
+65\tonsillitis\\marshmallow
+65\tonsillitis\\echinacea
+65\tonsillitis\\goldenseal
+65\tonsillitis\\sage
+65\tonsillitis\\peppermint
+65\tonsillitis\\basil
+65\tonsillitis\\clove
+65\tonsillitis\\cinnamon
+65\tonsillitis\\turmeric
+65\tonsillitis\\ginger
+65\tonsillitis\\raspberry
+65\tonsillitis\\fennel
+65\tonsillitis\\plantain
+65\tonsillitis\\yarrow
+65\tonsillitis\\hyssop
+65\tonsillitis\\blackberry
+69\bronchitis\\licorice
+69\bronchitis\\marshmallow
+69\bronchitis\\coltsfoot
+69\bronchitis\\mullein
+69\bronchitis\\thyme
+69\bronchitis\\elecampane
+69\bronchitis\\slippery elm
+69\bronchitis\\peppermint
+69\bronchitis\\ginger
+69\bronchitis\\ivy
+69\bronchitis\\plantain
+69\bronchitis\\grindelia
+69\bronchitis\\cherry
+69\bronchitis\\yerba santa
+69\bronchitis\\hyssop
+69\bronchitis\\sage
+69\bronchitis\\rosemary
+69\bronchitis\\horehound
+69\bronchitis\\skullcap
+70\asthma\\licorice
+70\asthma\\thyme
+70\asthma\\ginger
+70\asthma\\turmeric
+70\asthma\\peppermint
+70\asthma\\chamomile
+70\asthma\\ephedra
+70\asthma\\skullcap
+70\asthma\\elecampane
+70\asthma\\slippery elm
+70\asthma\\mullein
+70\asthma\\lobelia
+70\asthma\\ginkgo biloba
+70\asthma\\butterbur
+70\asthma\\osha
+70\asthma\\goldenseal
+70\asthma\\fenugreek
+70\asthma\\basil
+70\asthma\\aniseed
+71\phlegm\\licorice
+71\phlegm\\eucalyptus
+71\phlegm\\sage
+71\phlegm\\thyme
+71\phlegm\\peppermint
+71\phlegm\\ginger
+71\phlegm\\slippery elm
+71\phlegm\\marshmallow
+71\phlegm\\mullein
+71\phlegm\\coltsfoot
+71\phlegm\\elecampane
+71\phlegm\\pleurisy
+71\phlegm\\plantain
+71\phlegm\\horehound
+71\phlegm\\yerba santa
+71\phlegm\\grindelia
+71\phlegm\\buddleia
+71\phlegm\\skullcap
+71\phlegm\\alfalfa
+72\acute bronchitis\\licorice
+72\acute bronchitis\\marshmallow
+72\acute bronchitis\\coltsfoot
+72\acute bronchitis\\mullein
+72\acute bronchitis\\thyme
+72\acute bronchitis\\elecampane
+72\acute bronchitis\\grindelia
+72\acute bronchitis\\yerba santa
+72\acute bronchitis\\plantain
+72\acute bronchitis\\slippery elm
+72\acute bronchitis\\hyssop
+72\acute bronchitis\\ivy
+72\acute bronchitis\\saw palmetto
+72\acute bronchitis\\ginger
+72\acute bronchitis\\fenugreek
+72\acute bronchitis\\horehound
+72\acute bronchitis\\skullcap
+72\acute bronchitis\\birch
+72\acute bronchitis\\osha
+73\chronic bronchitis\\licorice
+73\chronic bronchitis\\coltsfoot
+73\chronic bronchitis\\marshmallow
+73\chronic bronchitis\\elecampane
+73\chronic bronchitis\\mullein
+73\chronic bronchitis\\peppermint
+73\chronic bronchitis\\thyme
+73\chronic bronchitis\\plantain
+73\chronic bronchitis\\grindelia
+73\chronic bronchitis\\hyssop
+73\chronic bronchitis\\yerba santa
+73\chronic bronchitis\\ivy
+73\chronic bronchitis\\slippery elm
+73\chronic bronchitis\\skullcap
+73\chronic bronchitis\\ginger
+73\chronic bronchitis\\fenugreek
+73\chronic bronchitis\\osha
+73\chronic bronchitis\\aurantium
+73\chronic bronchitis\\baptisia
+74\pertussis\\licorice
+74\pertussis\\coltsfoot
+74\pertussis\\mullein
+74\pertussis\\marshmallow
+74\pertussis\\horehound
+74\pertussis\\pleurisy
+74\pertussis\\hyssop
+74\pertussis\\elecampane
+74\pertussis\\thyme
+74\pertussis\\oregano
+74\pertussis\\sage
+74\pertussis\\anise
+74\pertussis\\fenugreek
+74\pertussis\\slippery elm
+74\pertussis\\ginger
+74\pertussis\\cloves
+74\pertussis\\cinnamon
+74\pertussis\\chamomile
+74\pertussis\\skullcap
+75\emphysema\\licorice
+75\emphysema\\coltsfoot
+75\emphysema\\plantain
+75\emphysema\\mullein
+75\emphysema\\thyme
+75\emphysema\\oregano
+75\emphysema\\sage
+75\emphysema\\rosemary
+75\emphysema\\peppermint
+75\emphysema\\eucalyptus
+75\emphysema\\ginger
+75\emphysema\\chamomile
+75\emphysema\\skullcap
+75\emphysema\\slippery elm
+75\emphysema\\marshmallow
+75\emphysema\\elecampane
+75\emphysema\\horehound
+75\emphysema\\linden
+75\emphysema\\passionflower
+76\hiccups\\fennel
+76\hiccups\\chamomile
+76\hiccups\\peppermint
+76\hiccups\\ginger
+76\hiccups\\anise
+76\hiccups\\valerian
+76\hiccups\\marjoram
+76\hiccups\\dill
+76\hiccups\\spearmint
+76\hiccups\\thyme
+76\hiccups\\sage
+76\hiccups\\basil
+76\hiccups\\clove
+76\hiccups\\coriander
+76\hiccups\\caraway
+76\hiccups\\parsley
+76\hiccups\\rosemary
+76\hiccups\\turmeric
+76\hiccups\\licorice

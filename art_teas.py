@@ -14,8 +14,9 @@ import sitemap
 # GET CSVs
 ########################################################################
 
-
+csv_conditions_filepath = 'database/csv/status/conditions.csv'
 csv_teas_filepath = 'database/csv/herbalism/teas_conditions.csv'
+
 teas_rows = util.csv_get_rows(csv_teas_filepath)
 teas_cols = util.csv_get_header_dict(teas_rows)
 
@@ -39,7 +40,6 @@ teas_cols = util.csv_get_header_dict(teas_rows)
 ########################################################################
 
 def teas_conditions_pages():
-    csv_conditions_filepath = 'database/csv/ailments/conditions.csv'
     conditions_rows = util.csv_get_rows(csv_conditions_filepath)
     conditions_cols = util.csv_get_header_dict(conditions_rows)
     
@@ -114,9 +114,10 @@ def teas_conditions_pages():
 
         # GEN TEAS (TO COMPLETE)
         for tea_obj in data['teas'][:remedy_num]:
+            tea_name = tea_obj["tea_name"].strip().lower()
+            tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea')
+
             if 'tea_desc' not in tea_obj:
-                tea_name = tea_obj["tea_name"].strip().lower()
-                tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea')
                 starting_text = f'{tea_name.capitalize()} helps with {condition_name} because '
                 prompt = f'''
                     Explain in a 5-sentence paragraph why {tea_name} helps with {condition_name}.
@@ -130,7 +131,6 @@ def teas_conditions_pages():
                 time.sleep(30)
 
             if 'tea_parts' not in tea_obj or tea_obj['tea_parts'] == []:
-                tea_name = tea_obj['tea_name']
                 prompt = f'''
                     Write a numbered list of the most used parts of the {tea_name} plant that are used to make medicinal tea for {condition_name}.
                     Reply by only selecting parts from the following list:
@@ -154,25 +154,23 @@ def teas_conditions_pages():
                     util.json_write(json_filepath, data)
                 time.sleep(30)
 
-            # if 'tea_recipe' not in tea_obj or tea_obj['tea_recipe'] == []:
-            #     tea_name = tea_obj['tea_name']
-            #     prompt = f'''
-            #         Write a 5-step recipe in list format to make {tea_name} tea for {condition_name}.
-            #         Include ingredients dosages and preparations times.
-            #         Write only 1 sentence for each step.
-            #         Start each step in the list with an action verb.
-            #         Don't include optional steps.
-            #     '''  
-            #     reply = utils_ai.gen_reply(prompt)
-            #     reply = utils_ai.reply_to_list(reply)
-            #     if reply != '':
-            #         tea_obj['tea_recipe'] = reply
-            #         util.json_write(json_filepath, data)
-            #     time.sleep(30)
+            if 'tea_recipe' not in tea_obj or tea_obj['tea_recipe'] == []:
+                prompt = f'''
+                    Write a 5-step recipe in list format to make {tea_name} tea for {condition_name}.
+                    Include ingredients dosages and preparations times.
+                    Write only 1 sentence for each step.
+                    Start each step in the list with an action verb.
+                    Don't include optional steps.
+                '''  
+                reply = utils_ai.gen_reply(prompt)
+                reply = utils_ai.reply_to_list(reply)
+                if reply != '':
+                    tea_obj['tea_recipe'] = reply
+                    util.json_write(json_filepath, data)
+                time.sleep(30)
             
             # gen study
             # gen constituents
-            # gen recipe
 
         # GEN SECONDARY CONTENT 
         # related symptoms/causes
@@ -333,7 +331,7 @@ def tea_page():
 
     # AI SYSTEMS
     if 'systems' not in tea_data: tea_data['systems'] = []
-    systems_rows = util.csv_get_rows('database/csv/ailments/systems.csv')
+    systems_rows = util.csv_get_rows('database/csv/status/systems.csv')
     systems_cols = util.csv_get_header_dict(systems_rows)
     for system_row in systems_rows[1:]:
         system_id = system_row[systems_cols['system_id']].strip()
@@ -352,7 +350,6 @@ def tea_page():
         if 'system_conditions' not in system_obj: system_obj['system_conditions'] = []
         system_id = system_obj['system_id']
 
-        csv_conditions_filepath = 'database/csv/ailments/conditions.csv'
         conditions_rows = util.csv_get_rows(csv_conditions_filepath)
         conditions_cols = util.csv_get_header_dict(conditions_rows)
 
@@ -463,7 +460,40 @@ def tea_page():
     util.file_write(html_filepath, html)
 
 
+def clean_old_json_files():
+    conditions_rows = util.csv_get_rows(csv_conditions_filepath)
+    conditions_cols = util.csv_get_header_dict(conditions_rows)
 
+    for tea_condition_json_filename in os.listdir('database/json/herbalism/tea'):
+        tea_condition_slug = tea_condition_json_filename.replace('.json', '').lower().strip()
+        tea_condition_filepath = f'database/json/herbalism/tea/{tea_condition_json_filename}'
+    
+        file_to_delete = ''
+        found = False
+        for condition_row in conditions_rows[1:]:
+            condition_slug = condition_row[conditions_cols['condition_slug']].strip().lower()
+            to_process = condition_row[conditions_cols['to_process']]
+
+            if to_process == '' and tea_condition_slug == condition_slug: 
+                found = True
+                file_to_delete = tea_condition_filepath
+                break
+
+        if found:
+            print(file_to_delete)
+
+
+# action = input('''
+# enter and action from the following:
+
+# 1. clean old json files
+
+# >> ''')
+
+# if action == '1':
+#     clean_old_json_files()
+
+# quit()
 
 
 teas_conditions_pages()

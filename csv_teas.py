@@ -4,7 +4,9 @@ import util
 import utils_ai
 
 
-csv_conditions_filepath = 'database/csv/ailments/conditions.csv'
+csv_conditions_filepath = 'database/csv/status/conditions.csv'
+csv_teas_filepath = 'database/csv/herbalism/teas_conditions.csv'
+
 conditions_rows = util.csv_get_rows(csv_conditions_filepath)
 conditions_cols = util.csv_get_header_dict(conditions_rows)
 
@@ -18,7 +20,6 @@ for condition_row in conditions_rows[1:]:
 
     if to_process == '': continue
 
-    csv_teas_filepath = 'database/csv/herbalism/teas_conditions.csv'
     teas_rows = util.csv_get_rows_by_entity(csv_teas_filepath, condition_id, col_num=0)
 
     if teas_rows != []: continue
