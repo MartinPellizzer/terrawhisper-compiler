@@ -231,7 +231,7 @@ def generate_toc(content_html):
 ##############################################################################
 
 def page_home():
-    header = generate_header_default()
+    header = util.header_default()
 
     slug = 'index'
     template = util.file_read(f'templates/{slug}.html')
@@ -251,7 +251,7 @@ def page_start_here():
     breadcrumbs_html = breadcrumbs(filepath_out)
 
     template = util.file_read(filepath_in)
-    template = template.replace('[meta_title]', 'Start Your Herbalism Journey Here At TerraWhisper')
+    template = template.replace('[title]', 'Start Your Herbalism Journey Here At TerraWhisper')
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
     template = template.replace('[author_name]', g.AUTHOR_NAME)
     template = template.replace('[header]', header)
@@ -2367,15 +2367,15 @@ shutil.copy2('assets/images/martin-pellizzer-300x300.jpg', f'website/images/mart
 
 page_home()
 page_start_here()
-page_plants(regen_csv=False)
-page_top_herbs_new()
-page_about()
+# page_plants(regen_csv=False)
+# page_top_herbs_new()
+# page_about()
 
 
 
 # page_herbalism()
 # page_herbalism_tea()
-page_herbalism_tea_condition()
+# page_herbalism_tea_condition()
 
 
 # page_conditions()

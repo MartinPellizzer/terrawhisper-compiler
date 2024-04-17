@@ -10,27 +10,50 @@ import sitemap
 
 
 
+def delete_old_json_conditions_files():
+    conditions_rows = util.csv_get_rows(csv_conditions_filepath)
+    conditions_cols = util.csv_get_header_dict(conditions_rows)
+
+    for tea_condition_json_filename in os.listdir('database/json/herbalism/tea'):
+        tea_condition_slug = tea_condition_json_filename.replace('.json', '').lower().strip()
+        tea_condition_filepath = f'database/json/herbalism/tea/{tea_condition_json_filename}'
+    
+        file_to_delete = ''
+        found = False
+        for condition_row in conditions_rows[1:]:
+            condition_slug = condition_row[conditions_cols['condition_slug']].strip().lower()
+            to_process = condition_row[conditions_cols['to_process']]
+
+            if to_process == '' and tea_condition_slug == condition_slug: 
+                found = True
+                file_to_delete = tea_condition_filepath
+                break
+
+        if found:
+            print(file_to_delete)
+
+
+def delete_json_teas_fields():
+    for condition_row in conditions_rows[1:]:
+        condition_slug = condition_row[conditions_cols['condition_slug']]
+        json_filepath = f'database/json/herbalism/tea/{condition_slug}.json'
+        try: data = util.json_read(json_filepath)
+        except: continue
+        for tea_obj in data['teas']:
+            try: del tea_obj['tea_recipe']
+            except: pass
+        util.json_write(json_filepath, data)
+
+
 ########################################################################
 # GET CSVs
 ########################################################################
 
-csv_conditions_filepath = 'database/csv/status/conditions.csv'
-csv_teas_filepath = 'database/csv/herbalism/teas_conditions.csv'
-
-teas_rows = util.csv_get_rows(csv_teas_filepath)
-teas_cols = util.csv_get_header_dict(teas_rows)
+# teas_rows = util.csv_get_rows(csv_teas_filepath)
+# teas_cols = util.csv_get_header_dict(teas_rows)
 
 
 
-# for condition_row in conditions_rows[1:]:
-#     condition_slug = condition_row[conditions_cols['condition_slug']]
-#     json_filepath = f'database/json/herbalism/tea/{condition_slug}.json'
-#     try: data = util.json_read(json_filepath)
-#     except: continue
-#     for tea_obj in data['teas']:
-#         try: del tea_obj['tea_recipe'] # TODO: remove, temp reset
-#         except: pass
-#     util.json_write(json_filepath, data)
 
 # quit()
 
@@ -40,18 +63,30 @@ teas_cols = util.csv_get_header_dict(teas_rows)
 ########################################################################
 
 def teas_conditions_pages():
+    csv_conditions_filepath = 'database/csv/status/conditions.csv'
     conditions_rows = util.csv_get_rows(csv_conditions_filepath)
     conditions_cols = util.csv_get_header_dict(conditions_rows)
-    
+
+    conditions_num = 0
+    for condition_row in conditions_rows[1:]:
+        to_process = condition_row[conditions_cols['to_process']].strip().lower()
+        if to_process != '':
+            conditions_num += 1
+
+    condition_curr_index = 0
     for condition_row in conditions_rows[1:]:
         condition_id = condition_row[conditions_cols['condition_id']].strip()
         condition_name = condition_row[conditions_cols['condition_name']].strip().lower()
         condition_slug = condition_row[conditions_cols['condition_slug']].strip().lower()
         condition_classification = condition_row[conditions_cols['condition_classification']].strip().lower()
         condition_pinned = condition_row[conditions_cols['condition_pinned']].strip().lower()
+        related_conditions = condition_row[conditions_cols['related_conditions']].strip().lower()
         to_process = condition_row[conditions_cols['to_process']]
 
         if to_process == '': continue
+
+        condition_curr_index += 1
+        print(f'{condition_curr_index}/{conditions_num} -- {condition_name}')
 
         # INIT
         json_filepath = f'database/json/herbalism/tea/{condition_slug}.json'
@@ -85,6 +120,10 @@ def teas_conditions_pages():
             time.sleep(30)
 
         # GEN TEA OBJS
+        csv_teas_filepath = 'database/csv/herbalism/teas_conditions.csv'
+        teas_rows = util.csv_get_rows(csv_teas_filepath)
+        teas_cols = util.csv_get_header_dict(teas_rows)
+
         if 'teas' not in data: data['teas'] = []
         for tea_row in teas_rows[1:]:
             tea_condition_id = tea_row[teas_cols['condition_id']].strip().lower()
@@ -97,6 +136,7 @@ def teas_conditions_pages():
                     break
             if not found:
                 data['teas'].append({'tea_name': tea_name})
+
         data_filtered = []
         for tea_obj in data['teas']: 
             found = False
@@ -109,6 +149,7 @@ def teas_conditions_pages():
                     break
             if found:
                 data_filtered.append(tea_obj)
+
         data['teas'] = data_filtered
         util.json_write(json_filepath, data)
 
@@ -122,7 +163,7 @@ def teas_conditions_pages():
                 prompt = f'''
                     Explain in a 5-sentence paragraph why {tea_name} helps with {condition_name}.
                     Never use the following words: can, may, might.
-                '''   
+                '''
                 reply = utils_ai.gen_reply(prompt)
                 reply = utils_ai.reply_to_paragraphs(reply)
                 if len(reply) == 1 and reply != '':
@@ -153,10 +194,25 @@ def teas_conditions_pages():
                     tea_obj['tea_parts'] = reply
                     util.json_write(json_filepath, data)
                 time.sleep(30)
+                
+            key = 'tea_constituents'
+            # if key in data: del data[key] # TODO: remove this line (debug only)
+            if key not in tea_obj or tea_obj[key] == []:
+                prompt = f'''
+                    Write a numbered list of the most important medicinal constituents of {tea_name} that help with {condition_name}.
+                    Include 1 short sentence description for each of these medicinal constituents, explaining why that medicinal contituent is good for {condition_name}.
+                    Include only medicinal constituents that have short names.
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                reply = utils_ai.reply_to_list_column(reply)
+                if reply != '':
+                    tea_obj[key] = reply
+                    util.json_write(json_filepath, data)
+                time.sleep(30)
 
             if 'tea_recipe' not in tea_obj or tea_obj['tea_recipe'] == []:
                 prompt = f'''
-                    Write a 5-step recipe in list format to make {tea_name} tea for {condition_name}.
+                    Write a 5-step recipe in list format to make {tea_name} for {condition_name}.
                     Include ingredients dosages and preparations times.
                     Write only 1 sentence for each step.
                     Start each step in the list with an action verb.
@@ -168,12 +224,38 @@ def teas_conditions_pages():
                     tea_obj['tea_recipe'] = reply
                     util.json_write(json_filepath, data)
                 time.sleep(30)
-            
-            # gen study
-            # gen constituents
 
-        # GEN SECONDARY CONTENT 
-        # related symptoms/causes
+            # gen study
+
+        # GEN SECONDARY CONTENT
+        # FIRST find causes of symptom
+        # SECOND find associated symptoms for causes
+        if related_conditions.strip() != '':
+            # related_conditions = related_conditions.split(', ')
+            key = 'related_conditions'
+            if key in data: del data[key] # TODO: remove this line (debug only)
+            if key not in data:
+                prompt = f'''
+                    Write 1 detailed paragraph about the most common related symptoms of: {condition_name}.
+                    Include the following symptoms: {related_conditions}.
+                    For each of the above symptoms, explain why they are related to {related_conditions}.
+                    Write each of the above symptoms in between square brackets: [].
+                    Don't explain what {condition_name} is.
+                    Don't explain what the causes of {condition_name} are.
+                    Don't include introductory or conclusionary text, just reply with the 1 short paragraph.
+                    Never use the following words: can, may, might.
+                '''
+                    # Indclude: {related_conditions}.
+                reply = utils_ai.gen_reply(prompt)
+                reply = utils_ai.reply_to_paragraphs(reply)
+                print(len(reply))
+                if reply != [] and len(reply) == 1:
+                    print('********************************')
+                    print(reply)
+                    print('********************************')
+                    data[key] = reply[0]
+                    util.json_write(json_filepath, data)
+                time.sleep(30)
 
         # HTML
         html_filepath = f'website/herbalism/tea/{condition_slug}.html'
@@ -240,13 +322,12 @@ def teas_conditions_pages():
                 article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
             article_html += '</ul>\n'
 
-            # article_html += '</ul>\n'
-            # tea_recipe = tea_obj['tea_recipe']
-            # article_html += f'<p>The following recipe gives a procedure to make a basic {tea_name} tea for {condition_name}.</p>\n'
-            # article_html += '<ul>\n'
-            # for step in tea_recipe:
-            #     article_html += f'<li>{step}</li>\n'
-            # article_html += '</ul>\n'
+            tea_recipe = tea_obj['tea_recipe']
+            article_html += f'<p>The following recipe gives a procedure to make a basic {tea_name} tea for {condition_name}.</p>\n'
+            article_html += '<ol>\n'
+            for step in tea_recipe:
+                article_html += f'<li>{step}</li>\n'
+            article_html += '</ol>\n'
 
         header_html = util.header_default()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
@@ -298,6 +379,7 @@ def teas_conditions_pages():
 # TEA PAGE
 ########################################################################
 def tea_page():
+    csv_conditions_filepath = 'database/csv/status/conditions.csv'
     title = 'herbal tea'
 
     # JSON
@@ -460,27 +542,6 @@ def tea_page():
     util.file_write(html_filepath, html)
 
 
-def clean_old_json_files():
-    conditions_rows = util.csv_get_rows(csv_conditions_filepath)
-    conditions_cols = util.csv_get_header_dict(conditions_rows)
-
-    for tea_condition_json_filename in os.listdir('database/json/herbalism/tea'):
-        tea_condition_slug = tea_condition_json_filename.replace('.json', '').lower().strip()
-        tea_condition_filepath = f'database/json/herbalism/tea/{tea_condition_json_filename}'
-    
-        file_to_delete = ''
-        found = False
-        for condition_row in conditions_rows[1:]:
-            condition_slug = condition_row[conditions_cols['condition_slug']].strip().lower()
-            to_process = condition_row[conditions_cols['to_process']]
-
-            if to_process == '' and tea_condition_slug == condition_slug: 
-                found = True
-                file_to_delete = tea_condition_filepath
-                break
-
-        if found:
-            print(file_to_delete)
 
 
 # action = input('''
@@ -491,7 +552,7 @@ def clean_old_json_files():
 # >> ''')
 
 # if action == '1':
-#     clean_old_json_files()
+#     delete_old_json_conditions_files()
 
 # quit()
 

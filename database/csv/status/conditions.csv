@@ -1,4 +1,4 @@
-condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_searches\condition_classification\related\causes\condition_pinned\regen\to_process
+condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_searches\condition_classification\related_conditions\causes\condition_pinned\regen\to_process
 0\digestive system\digestive-system\0\system\\\system\\\x\\x
 1\gut health\gut-health\0\gastrointestinal tract\\\part\\\x\\x
 2\bad breath\bad-breath\0\mouth \halitosis, mouth odour\\symptom\\\\\x
@@ -86,8 +86,8 @@ condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_sear
 80\nasal congestion\nasal-congestion\1\nose \blocked nose\\symptom\\\x\\x
 \\\\\\\\\\\\
 \\\\\\\\\\\\
-81\high blood pressure\\2\heart, blood vessels, kidneys, brain, and eyes\\\\\\\\
-82\low blood pressure\\2\heart, blood vessels \\\\\\\\
+81\high blood pressure\high-blood-pressure\2\heart, blood vessels, kidneys, brain, and eyes\\\symptom\\\\\x
+82\low blood pressure\low-blood-pressure\2\heart, blood vessels \\\symptom\\\\\x
 83\heart pain\\2\heart\\\\\\\\
 84\high cholesterol\\2\liver, blood vessels, heart \\\\\\\\
 85\jaundice\\2\liver\\\\\\\\
@@ -347,3 +347,8 @@ condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_sear
 \\\\\\\\\\\\
 \\\\\\\\\\\\
 231\enlarged spleen\enlarged-spleen\13 (lymphatic)\\\\symptom\\\x\\x
+\\\\\\\\\\\\
+\\\\\\\\\\\\
+\\\\\\\\\\\\
+\wheezing\\\\\\\\\\\
+\shortness of breath\\\\\\\\\\\

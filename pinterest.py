@@ -21,7 +21,7 @@ import random
 
 random_num = random.randint(-2, 2)
 ARTICLES_NUM = 35 - random_num
-WAIT_SECONDS = 450
+WAIT_SECONDS = 600
 
 
 options = Options()
@@ -52,11 +52,12 @@ time.sleep(30)
 
 
 # GET RANDOM ARTICLES TO PIN
-articles_filename = os.listdir('database/articles/herbalism/tea')
+
+articles_folderpath = 'database/json/herbalism/tea'
 articles_filepath = [
-    f'database/articles/herbalism/tea/{article_filename}'
-    for article_filename in articles_filename
-]    
+    f'{articles_folderpath}/{article_filename}'
+    for article_filename in os.listdir(articles_folderpath)
+]
 random.shuffle(articles_filepath)
 articles_filepath = articles_filepath[:ARTICLES_NUM]
 
@@ -64,15 +65,15 @@ articles_filepath = articles_filepath[:ARTICLES_NUM]
 i = 0
 for article_filepath in articles_filepath:
     i += 1
-    print(f'{i}/{len(articles_filepath)}')
+    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
     data = util.json_read(article_filepath)
 
     remedy_num = data['remedy_num']
     title = data['title']
-    condition = data['condition']
-    preparation = data['preparation']
+    condition_name = data['condition_name']
+    preparation = 'tea'
     url = data['url']
-    remedies = data['remedies']
+    remedies = data['teas']
 
     filename_out = url.replace('/', '-')
     remedies_descriptions = []
@@ -93,7 +94,7 @@ for article_filepath in articles_filepath:
     random.shuffle(img_teas_filepaths)
     images = img_teas_filepaths
     line_1 = f'best herbal teas for'.title()
-    line_2 = f'{condition}'.title()
+    line_2 = f'{condition_name}'.title()
     line_list = [line_1, line_2]
     img_filepath = pinterest_util.gen_img_template(
         line_list,
@@ -113,7 +114,7 @@ for article_filepath in articles_filepath:
     print(article_filepath)
     print(remedy_num)
     print(title)
-    print(condition)
+    print(condition_name)
     print(preparation)
     print(url)
     print(filename_out)

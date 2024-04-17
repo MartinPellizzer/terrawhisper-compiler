@@ -3,6 +3,7 @@
 # ###################################################
 
 - ARTICLES:
+    - gen tea_conditions articles
     - gen 50 trefle plant articles
     - update plants page
 
@@ -12,7 +13,7 @@
     - fix scraper when elements not found
 
 - PINTEREST:
-    just pin
+    just pin (to fix description selenium)
 
 - IMAGES:
     - generate images (especially teas)
@@ -35,11 +36,14 @@
 # ###################################################
 # TODO
 # ###################################################
-- TEA PAGE(S):
-    - update publishing date on meta in article
+- CHECK PINNED ARTICLES
+    [!] check database/articles/herbalism/tea jsons and make sure you have the in the tea_conditions csv with "to_process" cells active
 
 - CONDITIONS PAGE:
-    [!!!] fix condition page
+    [1] do page conditions
+
+    - CONDITIONS ARTICLES:
+        [1] to do conditions page, you must generate conditions articles to link to (create template for article)
     
 - REDIRECT:
     [!!!] test redirect on terrawhisper website after upload
@@ -57,12 +61,6 @@
 
 - PAGES:
     [2] should articles links (ex. home page articles) by a <article> tag?
-
-- CONDITIONS PAGE:
-    [1] do page conditions
-
-    - CONDITIONS ARTICLES:
-        [1] to do conditions page, you must generate conditions articles to link to (create template for article)
 
 - PAGE TAXONOMY
     [3] generate
