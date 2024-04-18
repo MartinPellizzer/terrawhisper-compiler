@@ -52,10 +52,6 @@ condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_sear
 50\diverticulitis\diverticulitis\0\colon\\\condition \\\\\x
 51\colon cleanse\colon-cleanse\0\colon\\\procedure\\\x\\x
 52\hemorrhoids\hemorrhoids\0\rectum, anus\\\symptom\\\\\x
-\\\\\\\\\\\\
-\\\\\\\\\\\\
-\\\\\\\\\\\\
-\\\\\\\\\\\\
 53\hay fever\hay-fever\1\nose, nasal passages, nasal cavity, sinuses, and the mucous membranes\allergic rhinitis\\symptom\\\\\x
 54\blocked nose\blocked-nose\1\nose, nasal cavity, \clogged nose, nose block, stuffy nose\\symptom\\\\\x
 55\runny nose\runny-nose\1\nose, sinuses\rhinorrhea \\symptom\\\\\x
@@ -84,37 +80,33 @@ condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_sear
 78\the common cold\colds\1\respiratory tract \colds\\symptom\\\x\\x
 79\mucus in throat\mucus\1\respiratory tract \\\condition \\\x\\x
 80\nasal congestion\nasal-congestion\1\nose \blocked nose\\symptom\\\x\\x
-\\\\\\\\\\\\
-\\\\\\\\\\\\
-81\high blood pressure\high-blood-pressure\2\heart, blood vessels, kidneys, brain, and eyes\\\symptom\\\\\x
-82\low blood pressure\low-blood-pressure\2\heart, blood vessels \\\symptom\\\\\x
+81\high blood pressure\high-blood-pressure\2\heart, blood vessels, kidneys, brain, and eyes\hypertension\\symptom\\\\\x
+82\low blood pressure\low-blood-pressure\2\heart, blood vessels \hypotension\\symptom\\\\\x
 83\heart pain\\2\heart\\\\\\\\
 84\high cholesterol\\2\liver, blood vessels, heart \\\\\\\\
-85\jaundice\\2\liver\\\\\\\\
-86\nose bleeding\\2\nose\hypertension\\\\\\\
-87\palpitation\\2\heart\hypotension\\\\\\\
-88\swollen feet\\2\feet, blood vessels, hearth\angina\\\\\\\
+85\jaundice\\2\liver\\jaundice in newborn\\\\\\
+86\nose bleeding\\2\nose\epistaxis \nose bleeding in child\\\\\\
+87\palpitation\\2\heart\\\\\\\\
+88\swollen feet\\2\feet, blood vessels, hearth\\\\\\\\
 89\Arteriosclerosis\\2\arteries \\\\\\\\
-90\Congestive Heart Failure\\2\heart \\jaundice in newborn\\\\\\
-91\Peripheral Arterial Occlusive Disease\\2\arteries \epistaxis \nose bleeding in child\\\\\\
+90\Congestive Heart Failure\\2\heart \\\\\\\\
+91\Peripheral Arterial Occlusive Disease\\2\arteries \\\\\\\\
 92\Varicose Veins \\2\veins \\\\\\\\
 93\circulation\circulation\2\heart \\\symptom\\\x\\x
 94\cholesterol\cholesterol\2\liver \\\symptom\\\x\\x
 95\heart health\heart-health\2\heart \\\part\\\x\\x
 96\hypertension\hypertension\2\heart \\\condition \\\x\\x
-\\\\\\\\\\\\
-\\\\\\\\\\\\
-97\body aches\\3\muscle\myalgia, muscle pain, muscle soreness \\\\\\\
-98\Osteoporosis\\3\bones \\\\\\\\
-99\arthritis\\3\joints \\arthritis in hands\\\\\\
-100\joint pain\\3\joints \\joint pain in knee, joint pain in hands, joint pain in foot, joint pain after viral fever\\\\\\
-101\joint stiffness\\3\joints \\\\\\\\
-102\Osteoarthritis\\3\joints \\osteoarthritis in knees\\\\\\
-103\Rheumatoid Arthritis\\3\joints \\\\\\\\
-104\Bursitis\\3\joints \\\\\\\\
-105\Tendinitis\\3\joints \\\\\\\\
-106\Gout\\3\joints \\\\\\\\
-107\back pain\\3\spine, kidney\\\\\\\\
+97\muscle pain\muscle-pain\3\muscle\myalgia, muscle pain, muscle soreness, body aches\\symptom\\\\\x
+98\osteoporosis\osteoporosis\3\bones \\\condition \\\\\x
+99\arthritis\arthritis\3\joints \\arthritis in hands\condition \\\\\x
+100\joint pain\joint-pain\3\joints \\joint pain in knee, joint pain in hands, joint pain in foot, joint pain after viral fever\symptom\\\\\x
+101\joint stiffness\joint-stiffness\3\joints \\\symptom\\\\\x
+102\osteoarthritis\osteoarthritis\3\joints \\osteoarthritis in knees\condition \\\\\x
+103\rheumatoid arthritis\rheumatoid-arthritis\3\joints \\\condition \\\\\x
+104\bursitis\bursitis\3\joints \\\condition \\\\\x
+105\tendinitis\tendinitis\3\joints \\\condition \\\\\x
+106\gout\gout\3\joints \\\condition \\\\\x
+107\back pain\\3\spine, kidney\Backache \\\\\\\
 108\lower back pain\\3\spine \\\\\\\\
 109\stiff neck\\3\neck \\\\\\\\
 110\neck pain\\3\neck\\\\\\\\
@@ -352,3 +344,25 @@ condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_sear
 \\\\\\\\\\\\
 \wheezing\\\\\\\\\\\
 \shortness of breath\\\\\\\\\\\
+\\\\\\\\\\\\
+\\\\\\\\\\\\
+\\\\\\\\\\\\
+\\\\\\\\\\\\
+\\\\\\\\\\\\
+\\\\\\\\\\\\
+232\aging \aging\4\\\\process\\\\\
+233\altitude sickness\altitude-sickness\1\\\\symptom\\\\\
+234\alzheimer’s disease\alzheimer-disease\5\\\\\\\\\
+235\angina\angina\2\\\\\\\\\
+236\ankylosing spondylitis \akylosing-spondylitis \3\\\\\\\\\
+237\baldness\baldness\4\\\\\\\\\
+238\bladder infection\bladder-infection\7\\\\\\\\\
+239\body odor\body-odor\4\\\\\\\\\
+240\breast enlargement\breast-enlargement\8\\\\\\\\\
+241\bruises\bruises\4\\\\\\\\\
+242\bunion \bunion \3\\\\\\\\\
+243\burns\burns\4\\\\\\\\\
+244\\\\\\\\\\\\
+245\\\\\\\\\\\\
+246\\\\\\\\\\\\
+247\\\\\\\\\\\\

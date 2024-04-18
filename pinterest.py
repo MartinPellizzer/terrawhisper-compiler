@@ -74,11 +74,11 @@ for article_filepath in articles_filepath:
     preparation = 'tea'
     url = data['url']
     remedies = data['teas']
-
     filename_out = url.replace('/', '-')
+
     remedies_descriptions = []
     for remedy in remedies:
-        try: remedies_descriptions.append(remedy['remedy_desc'])
+        try: remedies_descriptions.append(remedy['tea_desc'])
         except: pass
 
     # GET ALL IMAGE IN IMAGES/TEA FOLDER
@@ -163,9 +163,9 @@ for article_filepath in articles_filepath:
     e = driver.find_element(By.XPATH, '//div[@data-test-id="storyboard-creation-nav-done"]/..')
     e.click()
 
-    time.sleep(30)
+    time.sleep(60)
 
-    driver.get("https://www.google.com/")
+    # driver.get("https://www.google.com/")
 
     # break
 

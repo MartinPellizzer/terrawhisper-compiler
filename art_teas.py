@@ -202,9 +202,12 @@ def teas_conditions_pages():
                     Write a numbered list of the most important medicinal constituents of {tea_name} that help with {condition_name}.
                     Include 1 short sentence description for each of these medicinal constituents, explaining why that medicinal contituent is good for {condition_name}.
                     Include only medicinal constituents that have short names.
+                    Don't include the name of the plant in the constituents names.
+                    Write each list element using the following format: [constituent name]: [constituent description].
                 '''
                 reply = utils_ai.gen_reply(prompt)
                 reply = utils_ai.reply_to_list_column(reply)
+                reply = [line.replace('[', '').replace(']', '') for line in reply]
                 if reply != '':
                     tea_obj[key] = reply
                     util.json_write(json_filepath, data)
@@ -221,6 +224,9 @@ def teas_conditions_pages():
                 reply = utils_ai.gen_reply(prompt)
                 reply = utils_ai.reply_to_list(reply)
                 if reply != '':
+                    print('********************************')
+                    print(reply)
+                    print('********************************')
                     tea_obj['tea_recipe'] = reply
                     util.json_write(json_filepath, data)
                 time.sleep(30)
@@ -233,7 +239,7 @@ def teas_conditions_pages():
         if related_conditions.strip() != '':
             # related_conditions = related_conditions.split(', ')
             key = 'related_conditions'
-            if key in data: del data[key] # TODO: remove this line (debug only)
+            # if key in data: del data[key] # TODO: remove this line (debug only)
             if key not in data:
                 prompt = f'''
                     Write 1 detailed paragraph about the most common related symptoms of: {condition_name}.
@@ -245,7 +251,6 @@ def teas_conditions_pages():
                     Don't include introductory or conclusionary text, just reply with the 1 short paragraph.
                     Never use the following words: can, may, might.
                 '''
-                    # Indclude: {related_conditions}.
                 reply = utils_ai.gen_reply(prompt)
                 reply = utils_ai.reply_to_paragraphs(reply)
                 print(len(reply))
@@ -256,6 +261,45 @@ def teas_conditions_pages():
                     data[key] = reply[0]
                     util.json_write(json_filepath, data)
                 time.sleep(30)
+        
+        key = 'other_remedies'
+        if key not in data:
+            prompt = f'''
+                Write 1 detailed paragraph about what are the most common and effective natural remedies for {condition_name}.
+                Don't include herbal teas.
+                Never use the following words: can, may, might.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if reply != [] and len(reply) == 1:
+                print('********************************')
+                print(reply)
+                print('********************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(30)
+
+        if condition_classification == 'symptom':
+            key = 'causes'
+            if key not in data:
+                prompt = f'''
+                    Write a numbered list of the primary causes of {condition_name}.
+                    Write each list element using the format [constituent name]: [constituent description].
+                    Never use the following words: can, may, might.
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                reply = utils_ai.reply_to_list_column(reply)
+                reply = [line.replace('[', '').replace(']', '') for line in reply]
+                print(len(reply))
+                if reply != []:
+                    print('********************************')
+                    print(reply)
+                    print('********************************')
+                    data[key] = reply
+                    util.json_write(json_filepath, data)
+                time.sleep(30)
+
 
         # HTML
         html_filepath = f'website/herbalism/tea/{condition_slug}.html'
@@ -322,12 +366,26 @@ def teas_conditions_pages():
                 article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
             article_html += '</ul>\n'
 
+            tea_constituents = tea_obj['tea_constituents']
+            article_html += f'<p>The list below shows the primary active constituents in {tea_name} tea that help with {condition_name}.</p>\n'
+            article_html += '<ul>\n'
+            for tea_constituent in tea_constituents:
+                chunk_1 = tea_constituent.split(': ')[0]
+                chunk_2 = ': '.join(tea_constituent.split(': ')[1:])
+                article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
+            article_html += '</ul>\n'
+
             tea_recipe = tea_obj['tea_recipe']
             article_html += f'<p>The following recipe gives a procedure to make a basic {tea_name} tea for {condition_name}.</p>\n'
             article_html += '<ol>\n'
             for step in tea_recipe:
                 article_html += f'<li>{step}</li>\n'
             article_html += '</ol>\n'
+
+        key = 'other_remedies'
+        if key in data:
+            article_html += f'<h2>What other natural remedies help with {condition_name}?</h2>\n'
+            article_html += f'<p>{util.text_format_1N1_html(data[key])}</p>\n'
 
         header_html = util.header_default()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
@@ -378,9 +436,17 @@ def teas_conditions_pages():
 ########################################################################
 # TEA PAGE
 ########################################################################
+
 def tea_page():
     csv_conditions_filepath = 'database/csv/status/conditions.csv'
-    title = 'herbal tea'
+    conditions_rows = util.csv_get_rows(csv_conditions_filepath)
+    conditions_cols = util.csv_get_header_dict(conditions_rows)
+
+    conditions_num = 0
+    for condition_row in conditions_rows[1:]:
+        to_process = condition_row[conditions_cols['to_process']].strip().lower()
+        if to_process == '': continue
+        conditions_num += 1
 
     # JSON
     json_filepath = f'database/json/herbalism/tea.json'
@@ -388,10 +454,13 @@ def tea_page():
     util.json_generate_if_not_exists(json_filepath)
     tea_data = util.json_read(json_filepath)
     tea_data['url'] = f'herbalism/tea'
+    title = f'herbal tea ({conditions_num})'
+    tea_data['title'] = title
+
     lastmod = util.date_now()
     if 'lastmod' not in tea_data: tea_data['lastmod'] = lastmod
     else: lastmod = tea_data['lastmod'] 
-    tea_data['title'] = title
+
     util.json_write(json_filepath, tea_data)
 
     # AI
@@ -431,9 +500,6 @@ def tea_page():
     for system_obj in tea_data['systems']:
         if 'system_conditions' not in system_obj: system_obj['system_conditions'] = []
         system_id = system_obj['system_id']
-
-        conditions_rows = util.csv_get_rows(csv_conditions_filepath)
-        conditions_cols = util.csv_get_header_dict(conditions_rows)
 
         for condition_row in conditions_rows[1:]:
             condition_id = condition_row[conditions_cols['condition_id']]
