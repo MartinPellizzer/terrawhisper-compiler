@@ -143,6 +143,18 @@ def teas_conditions_pages():
             else:
                 failed_regen = True
             time.sleep(prompt_delay_time)
+            
+        # key = 'definition'
+        # if key not in data:
+        #     prompt = f'''
+        #         Write 1 short paragraph explaining what is {condition_name} and how it impacts people lives.
+        #         Never use the following words: can, may, might.
+        #     '''
+        #     reply = utils_ai.gen_reply(prompt)
+        #     if reply != '':
+        #         data[key] = reply
+        #         util.json_write(json_filepath, data)
+        #     time.sleep(prompt_delay_time)
 
         # GEN TEA OBJS
         csv_teas_filepath = 'database/csv/herbalism/teas_conditions.csv'
@@ -273,29 +285,63 @@ def teas_conditions_pages():
         # GEN SECONDARY CONTENT
         # FIRST find causes of symptom
         # SECOND find associated symptoms for causes
-        if related_conditions.strip() != '':
-            # related_conditions = related_conditions.split(', ')
-            key = 'related_conditions'
+        # if related_conditions.strip() != '':
+        #     # related_conditions = related_conditions.split(', ')
+        #     key = 'related_conditions'
+        #     # if key in data: del data[key] # TODO: remove this line (debug only)
+        #     if key not in data:
+        #         prompt = f'''
+        #             Write 1 detailed paragraph about the most common related symptoms of: {condition_name}.
+        #             Include the following symptoms: {related_conditions}.
+        #             For each of the above symptoms, explain why they are related to {related_conditions}.
+        #             Write each of the above symptoms in between square brackets: [].
+        #             Don't explain what {condition_name} is.
+        #             Don't explain what the causes of {condition_name} are.
+        #             Don't include introductory or conclusionary text, just reply with the 1 short paragraph.
+        #             Never use the following words: can, may, might.
+        #         '''
+        #         reply = utils_ai.gen_reply(prompt)
+        #         reply = utils_ai.reply_to_paragraphs(reply)
+        #         print(len(reply))
+        #         if reply != [] and len(reply) == 1:
+        #             print('********************************')
+        #             print(reply)
+        #             print('********************************')
+        #             data[key] = reply[0]
+        #             util.json_write(json_filepath, data)
+        #         time.sleep(prompt_delay_time)
+
+        
+        csv_related_problems_filepath = 'database/csv/status/related_problems.csv'
+        related_problems_rows = util.csv_get_rows(csv_related_problems_filepath)
+        related_problems_cols = util.csv_get_header_dict(related_problems_rows)
+
+        related_problmes_rows_filtered = []
+        for related_problem_row in related_problems_rows:
+            problem_condition_id = related_problem_row[related_problems_cols['condition_id']]
+            if problem_condition_id == condition_id:
+                related_problmes_rows_filtered.append(related_problem_row)
+        
+        if related_problmes_rows_filtered != []:
+            related_problems_names = [row[related_problems_cols['related_problem_name']] for row in related_problmes_rows_filtered]
+            related_problems_names_formatted = '\n- '.join(related_problems_names)
+
+            key = 'related_problems'
             # if key in data: del data[key] # TODO: remove this line (debug only)
             if key not in data:
                 prompt = f'''
-                    Write 1 detailed paragraph about the most common related symptoms of: {condition_name}.
-                    Include the following symptoms: {related_conditions}.
-                    For each of the above symptoms, explain why they are related to {related_conditions}.
-                    Write each of the above symptoms in between square brackets: [].
-                    Don't explain what {condition_name} is.
-                    Don't explain what the causes of {condition_name} are.
-                    Don't include introductory or conclusionary text, just reply with the 1 short paragraph.
+                    Write a numbered list explaining why people with {condition_name} also experience the following things:
+                    {related_problems_names_formatted}.
                     Never use the following words: can, may, might.
                 '''
                 reply = utils_ai.gen_reply(prompt)
-                reply = utils_ai.reply_to_paragraphs(reply)
+                reply = utils_ai.reply_to_list_column(reply)
                 print(len(reply))
-                if reply != [] and len(reply) == 1:
+                if reply != []:
                     print('********************************')
                     print(reply)
                     print('********************************')
-                    data[key] = reply[0]
+                    data[key] = reply
                     util.json_write(json_filepath, data)
                 time.sleep(prompt_delay_time)
         
@@ -436,16 +482,39 @@ def teas_conditions_pages():
                 article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
             article_html += '</ul>\n'
             
-        key = 'related_conditions'
+        # key = 'related_conditions'
+        # if key in data:
+        #     article_html += f'<h2>What other health issues people with {condition_name} are likely to experience?</h2>\n'
+        #     article_html += f'<p>The issues people with {condition_name} are likely to experiece are listed below.</p>\n'
+        #     article_html += '<ul>\n'
+        #     for item in data[key]:
+        #         chunk_1 = item.split(': ')[0]
+        #         # chunk_2 = ': '.join(item.split(': ')[1:])
+        #         # article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
+        #         article_html += f'<li>{chunk_1}</li>\n'
+        #     article_html += '</ul>\n'
+            
+        key = 'related_problems'
         if key in data:
             article_html += f'<h2>What other health issues people with {condition_name} are likely to experience?</h2>\n'
             article_html += f'<p>The issues people with {condition_name} are likely to experiece are listed below.</p>\n'
             article_html += '<ul>\n'
             for item in data[key]:
                 chunk_1 = item.split(': ')[0]
-                # chunk_2 = ': '.join(item.split(': ')[1:])
-                # article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
-                article_html += f'<li>{chunk_1}</li>\n'
+                
+                condition_slug_link = ''
+                for condition_row_tmp in conditions_rows[1:]:
+                    condition_name_tmp = condition_row_tmp[conditions_cols['condition_name']].strip().lower()
+                    condition_slug_tmp = condition_row_tmp[conditions_cols['condition_slug']].strip().lower()
+                    if condition_name_tmp == chunk_1.strip().lower():
+                        condition_slug_link = condition_slug_tmp
+                        break
+
+                chunk_2 = ': '.join(item.split(': ')[1:])
+                if condition_slug_link != '':
+                    article_html += f'<li><a href="/herbalism/tea/{condition_slug_link}.html"><strong>{chunk_1}</strong></a>: {chunk_2}</li>\n'
+                else:
+                    article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
             article_html += '</ul>\n'
 
         header_html = util.header_default()
