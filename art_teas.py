@@ -8,10 +8,12 @@ import util
 import utils_ai
 import sitemap
 
+prompt_delay_time = 5
+
 
 
 def delete_old_json_conditions_files():
-    conditions_rows = util.csv_get_rows(csv_conditions_filepath)
+    conditions_rows = util.csv_get_rows(g.CSV_CONDITIONS_FILEPATH)
     conditions_cols = util.csv_get_header_dict(conditions_rows)
 
     for tea_condition_json_filename in os.listdir('database/json/herbalism/tea'):
@@ -44,6 +46,28 @@ def delete_json_teas_fields():
             except: pass
         util.json_write(json_filepath, data)
 
+
+def delete_json_field(key):
+    csv_conditions_filepath = 'database/csv/status/conditions.csv'
+    conditions_rows = util.csv_get_rows(csv_conditions_filepath)
+    conditions_cols = util.csv_get_header_dict(conditions_rows)
+
+    for condition_row in conditions_rows[1:]:
+        condition_slug = condition_row[conditions_cols['condition_slug']]
+        json_filepath = f'database/json/herbalism/tea/{condition_slug}.json'
+        
+        try: data = util.json_read(json_filepath)
+        except: continue
+
+        print(json_filepath)
+        
+        try: del data[key]
+        except: pass
+        
+        util.json_write(json_filepath, data)
+
+# delete_json_field('intro')
+# quit()
 
 ########################################################################
 # GET CSVs
@@ -110,6 +134,7 @@ def teas_conditions_pages():
         if 'intro' not in data:
             prompt = f'''
                 Write 1 short paragraph about the best herbal teas for {condition_name}.
+                Never use the following words: can, may, might.
             '''
             reply = utils_ai.gen_reply(prompt)
             if reply != '':
@@ -117,7 +142,7 @@ def teas_conditions_pages():
                 util.json_write(json_filepath, data)
             else:
                 failed_regen = True
-            time.sleep(30)
+            time.sleep(prompt_delay_time)
 
         # GEN TEA OBJS
         csv_teas_filepath = 'database/csv/herbalism/teas_conditions.csv'
@@ -167,9 +192,12 @@ def teas_conditions_pages():
                 reply = utils_ai.gen_reply(prompt)
                 reply = utils_ai.reply_to_paragraphs(reply)
                 if len(reply) == 1 and reply != '':
+                    print('********************************')
+                    print(reply)
+                    print('********************************')
                     tea_obj['tea_desc'] = reply[0]
                     util.json_write(json_filepath, data)
-                time.sleep(30)
+                time.sleep(prompt_delay_time)
 
             if 'tea_parts' not in tea_obj or tea_obj['tea_parts'] == []:
                 prompt = f'''
@@ -186,14 +214,18 @@ def teas_conditions_pages():
                     Never include aerial parts.
                     Never repeat the same part twice and never include similar parts.
                     Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {condition_name}.
+                    Write each list element using the following format: [part name]: [part description].
                     Never use the following words: can, may, might.
                 '''     
                 reply = utils_ai.gen_reply(prompt)
                 reply = utils_ai.reply_to_list_column(reply)
-                if reply != '':
+                if reply != '' and reply != []:
+                    print('********************************')
+                    print(reply)
+                    print('********************************')
                     tea_obj['tea_parts'] = reply
                     util.json_write(json_filepath, data)
-                time.sleep(30)
+                time.sleep(prompt_delay_time)
                 
             key = 'tea_constituents'
             # if key in data: del data[key] # TODO: remove this line (debug only)
@@ -204,14 +236,18 @@ def teas_conditions_pages():
                     Include only medicinal constituents that have short names.
                     Don't include the name of the plant in the constituents names.
                     Write each list element using the following format: [constituent name]: [constituent description].
+                    Never use the following words: can, may, might.
                 '''
                 reply = utils_ai.gen_reply(prompt)
                 reply = utils_ai.reply_to_list_column(reply)
                 reply = [line.replace('[', '').replace(']', '') for line in reply]
-                if reply != '':
+                if reply != '' and reply != []:
+                    print('********************************')
+                    print(reply)
+                    print('********************************')
                     tea_obj[key] = reply
                     util.json_write(json_filepath, data)
-                time.sleep(30)
+                time.sleep(prompt_delay_time)
 
             if 'tea_recipe' not in tea_obj or tea_obj['tea_recipe'] == []:
                 prompt = f'''
@@ -220,16 +256,17 @@ def teas_conditions_pages():
                     Write only 1 sentence for each step.
                     Start each step in the list with an action verb.
                     Don't include optional steps.
+                    Never use the following words: can, may, might.
                 '''  
                 reply = utils_ai.gen_reply(prompt)
                 reply = utils_ai.reply_to_list(reply)
-                if reply != '':
+                if reply != '' and reply != []:
                     print('********************************')
                     print(reply)
                     print('********************************')
                     tea_obj['tea_recipe'] = reply
                     util.json_write(json_filepath, data)
-                time.sleep(30)
+                time.sleep(prompt_delay_time)
 
             # gen study
 
@@ -260,7 +297,7 @@ def teas_conditions_pages():
                     print('********************************')
                     data[key] = reply[0]
                     util.json_write(json_filepath, data)
-                time.sleep(30)
+                time.sleep(prompt_delay_time)
         
         key = 'other_remedies'
         if key not in data:
@@ -278,19 +315,20 @@ def teas_conditions_pages():
                 print('********************************')
                 data[key] = reply[0]
                 util.json_write(json_filepath, data)
-            time.sleep(30)
+            time.sleep(prompt_delay_time)
 
         if condition_classification == 'symptom':
             key = 'causes'
+            # if key in data: del data[key] # TODO: remove this line (debug only)
             if key not in data:
                 prompt = f'''
                     Write a numbered list of the primary causes of {condition_name}.
-                    Write each list element using the format [constituent name]: [constituent description].
+                    For each cause, include a short description on why that cause causes {condition_name}.
+                    Write each list element using the format [cause name]: [cause description].
                     Never use the following words: can, may, might.
                 '''
                 reply = utils_ai.gen_reply(prompt)
                 reply = utils_ai.reply_to_list_column(reply)
-                reply = [line.replace('[', '').replace(']', '') for line in reply]
                 print(len(reply))
                 if reply != []:
                     print('********************************')
@@ -298,7 +336,7 @@ def teas_conditions_pages():
                     print('********************************')
                     data[key] = reply
                     util.json_write(json_filepath, data)
-                time.sleep(30)
+                time.sleep(prompt_delay_time)
 
 
         # HTML
@@ -386,6 +424,29 @@ def teas_conditions_pages():
         if key in data:
             article_html += f'<h2>What other natural remedies help with {condition_name}?</h2>\n'
             article_html += f'<p>{util.text_format_1N1_html(data[key])}</p>\n'
+            
+        key = 'causes'
+        if key in data:
+            article_html += f'<h2>What are the main causes of {condition_name}?</h2>\n'
+            article_html += f'<p>The list below provides the primary causes of {condition_name}.</p>\n'
+            article_html += '<ul>\n'
+            for item in data[key]:
+                chunk_1 = item.split(': ')[0]
+                chunk_2 = ': '.join(item.split(': ')[1:])
+                article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
+            article_html += '</ul>\n'
+            
+        key = 'related_conditions'
+        if key in data:
+            article_html += f'<h2>What other health issues people with {condition_name} are likely to experience?</h2>\n'
+            article_html += f'<p>The issues people with {condition_name} are likely to experiece are listed below.</p>\n'
+            article_html += '<ul>\n'
+            for item in data[key]:
+                chunk_1 = item.split(': ')[0]
+                # chunk_2 = ': '.join(item.split(': ')[1:])
+                # article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
+                article_html += f'<li>{chunk_1}</li>\n'
+            article_html += '</ul>\n'
 
         header_html = util.header_default()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
@@ -478,7 +539,7 @@ def tea_page():
         reply = utils_ai.gen_reply(prompt)
         tea_data['intro'] = reply
         util.json_write(json_filepath, tea_data)
-        time.sleep(30)
+        time.sleep(prompt_delay_time)
 
     # AI SYSTEMS
     if 'systems' not in tea_data: tea_data['systems'] = []
@@ -541,7 +602,7 @@ def tea_page():
                 reply = utils_ai.gen_reply(prompt)
                 condition_obj['condition_desc'] = reply
                 util.json_write(json_filepath, tea_data)
-                time.sleep(30)
+                time.sleep(prompt_delay_time)
 
     # HTML
     html_filepath = f'website/herbalism/tea.html'
@@ -614,11 +675,15 @@ def tea_page():
 # enter and action from the following:
 
 # 1. clean old json files
+# 2. delete json field
 
 # >> ''')
 
 # if action == '1':
 #     delete_old_json_conditions_files()
+# elif action == '2':
+#     field_name = input('enter field name >> ')
+#     delete_json_field(field_name)
 
 # quit()
 

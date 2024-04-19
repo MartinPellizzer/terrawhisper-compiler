@@ -19207,3 +19207,62 @@ Exiting due to channel error.
 Exiting due to channel error.
 1713450545697	geckodriver	INFO	Listening on 127.0.0.1:51784
 1713450548762	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51785" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofile9uiz3h"
+1713450573734	geckodriver	INFO	Listening on 127.0.0.1:51827
+1713450576795	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51828" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileHjEMas"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1713450577204	Marionette	INFO	Marionette enabled
+1713450577289	Marionette	INFO	Listening on port 51835
+WebDriver BiDi listening on ws://127.0.0.1:51828
+Read port: 51835
+1713450577497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51828/devtools/browser/c7f503f8-012a-4c3d-8040-594d2518a633
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1713450607228	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.error: "Unable to find target with innerWindowId:6442450973"
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Unable to find target with innerWindowId:6442450987"
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Unable to find target with innerWindowId:6442451001"
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: https://s.pinimg.com/webapp/www/_client-5d926be8d3b61927.mjs, line 14: Script terminated by timeout at:
+s@https://s.pinimg.com/webapp/www/_client-5d926be8d3b61927.mjs:14:75147
+567450/</<@https://s.pinimg.com/webapp/www/_client-5d926be8d3b61927.mjs:14:75542
+EventListener.handleEvent*567450/<@https://s.pinimg.com/webapp/www/_client-5d926be8d3b61927.mjs:14:75509
+setTimeout handler*567450@https://s.pinimg.com/webapp/www/_client-5d926be8d3b61927.mjs:14:75235
+j@https://s.pinimg.com/webapp/runtime-90376e03f391569d.mjs:1:161
+572588@https://s.pinimg.com/webapp/www/_client-5d926be8d3b61927.mjs:14:15235
+j@https://s.pinimg.com/webapp/runtime-90376e03f391569d.mjs:1:161
+175464@https://s.pinimg.com/webapp/www/_client-5d926be8d3b61927.mjs:14:333675
+j@https://s.pinimg.com/webapp/runtime-90376e03f391569d.mjs:1:161
+t@https://s.pinimg.com/webapp/www/_client-5d926be8d3b61927.mjs:18:621
+@https://s.pinimg.com/webapp/www/_client-5d926be8d3b61927.mjs:18:777
+j.O@https://s.pinimg.com/webapp/runtime-90376e03f391569d.mjs:1:521
+@https://s.pinimg.com/webapp/www/_client-5d926be8d3b61927.mjs:18:789
+f@https://s.pinimg.com/webapp/runtime-90376e03f391569d.mjs:1:52246
+@https://s.pinimg.com/webapp/www/_client-5d926be8d3b61927.mjs:1:71
+

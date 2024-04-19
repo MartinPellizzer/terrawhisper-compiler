@@ -62,7 +62,7 @@ condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_sear
 60\dry throat\dry-throat\1\Throat, pharynx, larynx \\\symptom\\\\\x
 61\snoring\snoring\1\throat, soft palate, uvula\\\symptom\\\\\x
 62\laryngitis\laryngitis\1\larynx \\\symptom\\\\\x
-63\hoarse voice\hoarse-voice\1\larynx \\\symptom\\\\\x
+63\hoarse voice\hoarse-voice\1\larynx \\\symptom\hoarseness\\\\x
 64\lost voice\lost-voice\1\larynx \\lost voice due to cough, losing voice, no voice\symptom\\\\\x
 65\Tonsillitis\tonsillitis\1\tonsils, oropharynx\\\condition \\\\\x
 66\cough\cough\1\lungs, airways, trachea, bronchi, bronchiles\\dry cough, cough at night, night cough, cough in babies, baby cough, cough for kids, kids cough, kids sore throat, non stop coughing, persistent cough\symptom\sore throat, chest congestion, blocked nose, runny nose, \colds, flu, hay fever, Bronchitis, Asthma \x\\x
@@ -82,16 +82,16 @@ condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_sear
 80\nasal congestion\nasal-congestion\1\nose \blocked nose\\symptom\\\x\\x
 81\high blood pressure\high-blood-pressure\2\heart, blood vessels, kidneys, brain, and eyes\hypertension\\symptom\\\\\x
 82\low blood pressure\low-blood-pressure\2\heart, blood vessels \hypotension\\symptom\\\\\x
-83\heart pain\\2\heart\\\\\\\\
-84\high cholesterol\\2\liver, blood vessels, heart \\\\\\\\
-85\jaundice\\2\liver\\jaundice in newborn\\\\\\
-86\nose bleeding\\2\nose\epistaxis \nose bleeding in child\\\\\\
-87\palpitation\\2\heart\\\\\\\\
-88\swollen feet\\2\feet, blood vessels, hearth\\\\\\\\
-89\Arteriosclerosis\\2\arteries \\\\\\\\
-90\Congestive Heart Failure\\2\heart \\\\\\\\
-91\Peripheral Arterial Occlusive Disease\\2\arteries \\\\\\\\
-92\Varicose Veins \\2\veins \\\\\\\\
+83\heart pain\heart-pain\2\heart\\\symptom\\\\\x
+84\high cholesterol\high-cholesterol\2\liver, blood vessels, heart \\\condition \\\\\x
+85\jaundice\jaundice\2\liver\\jaundice in newborn\condition \\\\\x
+86\nose bleeding\nose-bleeding\2\nose\epistaxis \nose bleeding in child\symptom\\\\\x
+87\palpitation\palpitation\2\heart\\\symptom\\\\\x
+88\swollen feet\swollen-feet\2\feet, blood vessels, hearth\\\symptom\\\\\x
+89\Arteriosclerosis\arteriosclerosis\2\arteries \\\condition \\\\\x
+90\Congestive Heart Failure\congestive-heart-failure\2\heart \\\condition \\\\\x
+91\Peripheral Arterial Occlusive Disease\peripheral-arterial-occlusive-disease\2\arteries \\\condition \\\\\x
+92\Varicose Veins \varicose-veins\2\veins \\\condition \\\\\x
 93\circulation\circulation\2\heart \\\symptom\\\x\\x
 94\cholesterol\cholesterol\2\liver \\\symptom\\\x\\x
 95\heart health\heart-health\2\heart \\\part\\\x\\x
@@ -207,7 +207,7 @@ condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_sear
 \\\\\\\\\\\\
 199\Neuritis\\5\nerves\\\\\\\\
 200\nerve pain\\5\nerves\\\\\\\\
-201\headaches\\5\brain \\headache, headache due to cold weather, headache during pregnancy\\\\\\
+201\headache\headache\5\brain \\headache, headache due to cold weather, headache during pregnancy\symptom\\\\\x
 202\one side headache\\5\brain \\\\\\\\
 203\migraine\\5\brain \\\\\\\\
 204\insomnia\\5\brain \\insomnia for elderly\\\\\\
@@ -245,7 +245,7 @@ condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_sear
 \\\\\\\\\\\\
 \\\\\\\\\\\\
 234\allergy\allergies\6\body\\\condition \\\x\\x
-235\fever\\6\brain \\\\\\\\
+235\fever\fever\6\brain \\\symptom\\\\\x
 236\inflammation\\6\body\\\\\\\\
 237\detox\\6\body\Detoxification\\\\\\\
 238\Postoperative Recovery\\6\body\\\\\\\\
@@ -334,35 +334,35 @@ condition_id\condition_name\condition_slug\system_id\organ\synonyms\similar_sear
 \\\\\\\\\\\\
 \\\\\\\\\\\\
 299\cats\cats\12\\\\animal\\\x\\x
-230\dogs\dogs\12\\\\animal\\\x\\x
+300\dogs\dogs\12\\\\animal\\\x\\x
 \\\\\\\\\\\\
 \\\\\\\\\\\\
 \\\\\\\\\\\\
-231\enlarged spleen\enlarged-spleen\13 (lymphatic)\\\\symptom\\\x\\x
-\\\\\\\\\\\\
-\\\\\\\\\\\\
-\\\\\\\\\\\\
-\wheezing\\\\\\\\\\\
-\shortness of breath\\\\\\\\\\\
+301\enlarged spleen\enlarged-spleen\13 (lymphatic)\\\\symptom\\\x\\x
 \\\\\\\\\\\\
 \\\\\\\\\\\\
 \\\\\\\\\\\\
 \\\\\\\\\\\\
 \\\\\\\\\\\\
 \\\\\\\\\\\\
-232\aging \aging\4\\\\process\\\\\
-233\altitude sickness\altitude-sickness\1\\\\symptom\\\\\
-234\alzheimer’s disease\alzheimer-disease\5\\\\\\\\\
-235\angina\angina\2\\\\\\\\\
-236\ankylosing spondylitis \akylosing-spondylitis \3\\\\\\\\\
-237\baldness\baldness\4\\\\\\\\\
-238\bladder infection\bladder-infection\7\\\\\\\\\
-239\body odor\body-odor\4\\\\\\\\\
-240\breast enlargement\breast-enlargement\8\\\\\\\\\
-241\bruises\bruises\4\\\\\\\\\
-242\bunion \bunion \3\\\\\\\\\
-243\burns\burns\4\\\\\\\\\
-244\\\\\\\\\\\\
-245\\\\\\\\\\\\
-246\\\\\\\\\\\\
-247\\\\\\\\\\\\
+\\\\\\\\\\\\
+\\\\\\\\\\\\
+\\\\\\\\\\\\
+\\\\\\\\\\\\
+\\\\\\\\\\\\
+302\aging \aging\4\\\\process\\\\\
+303\altitude sickness\altitude-sickness\1\\\\symptom\\\\\
+304\alzheimer’s disease\alzheimer-disease\5\\\\condition \\\\\
+305\angina\angina\2\\\\condition \\\\\
+306\ankylosing spondylitis \akylosing-spondylitis \3\\\\condition \\\\\
+307\baldness\baldness\4\\\\condition \\\\\
+308\bladder infection\bladder-infection\7\\\\condition \\\\\
+309\body odor\body-odor\4\\\\symptom\\\\\
+310\breast enlargement\breast-enlargement\8\\\\condition \\\\\
+311\bruises\bruises\4\\\\symptom\\\\\
+312\bunion \bunion \3\\\\condition \\\\\
+313\burns\burns\4\\\\symptom\\\\\
+314\wheezing\wheezing\1\\\\symptom\\\\\x
+315\shortness of breath\breath-shortness\1\\\\symptom\\\\\x
+316\chills\chills\6\\\\symptom\\\\\x
+317\\\\\\\\\\\\

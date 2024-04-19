@@ -65,6 +65,13 @@ def csv_get_header_dict(rows):
     return cols
 
 
+def csv_get_cols(rows):
+    cols = {}
+    for i, val in enumerate(rows[0]):
+        cols[val] = i
+    return cols
+
+
 
 
 

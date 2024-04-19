@@ -27,3 +27,7 @@ GOOGLE_TAG = '''
 #     --laboratory-blue: #4D6FAC;
 #     --herbal-teal: #3B9D9D;
 # }
+
+PROMPT_DELAY_TIME = 5
+
+CSV_CONDITIONS_FILEPATH = 'database/csv/status/conditions.csv'

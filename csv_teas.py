@@ -3,6 +3,7 @@ import time
 import util
 import utils_ai
 
+prompt_delay_time = 5
 
 csv_conditions_filepath = 'database/csv/status/conditions.csv'
 csv_teas_filepath = 'database/csv/herbalism/teas_conditions.csv'
@@ -21,8 +22,14 @@ for condition_row in conditions_rows[1:]:
     if to_process == '': continue
 
     teas_rows = util.csv_get_rows_by_entity(csv_teas_filepath, condition_id, col_num=0)
+    print(condition_name)
+    print(teas_rows)
+    print()
+    print()
+    print()
 
     if teas_rows != []: continue
+
 
     prompt_paragraphs_num = 19
     prompt = f'''
@@ -53,5 +60,5 @@ for condition_row in conditions_rows[1:]:
 
         util.csv_add_rows(csv_teas_filepath, reply_formatted)
         
-    time.sleep(30)
+    time.sleep(prompt_delay_time)
 

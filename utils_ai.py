@@ -32,6 +32,7 @@ def gen_reply_api(prompt):
     completion = client.chat.completions.create(
         # model="llama2-70b-4096",
         model="mixtral-8x7b-32768",
+        # model="llama3-70b-8192",
         messages=[
             {
                 "role": "user",
@@ -121,6 +122,8 @@ def reply_to_list_column(reply):
         if len(line.split(' ')) < 10: continue
 
         line = line.replace('*', '')
+        line = line.replace('[', '')
+        line = line.replace(']', '')
 
         if ':' not in line: continue
         line_chunks = line.split(':')

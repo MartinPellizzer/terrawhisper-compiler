@@ -12,7 +12,7 @@ import util
 import utils_ai
 import prompts
 
-trefle_today_num = 699
+trefle_today_num = 715
 index_last_plant = 0
 # index_last_plant = 100
 number_of_plants_to_do_today = index_last_plant + trefle_today_num

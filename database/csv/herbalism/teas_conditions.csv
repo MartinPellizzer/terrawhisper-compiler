@@ -422,26 +422,26 @@ condition_id\condition_name\condition_slug\tea_name
 226\fatigue\fatigue\gotu kola
 226\fatigue\fatigue\milk thistle
 226\fatigue\fatigue\dandelion
-201\headaches\\chamomile
-201\headaches\\feverfew
-201\headaches\\ginger
-201\headaches\\peppermint
-201\headaches\\white willow
-201\headaches\\butterbur
-201\headaches\\raspberry
-201\headaches\\lavender
-201\headaches\\passionflower
-201\headaches\\valerian
-201\headaches\\turmeric
-201\headaches\\skullcap
-201\headaches\\catnip
-201\headaches\\lemon balm
-201\headaches\\elderflower
-201\headaches\\red clover
-201\headaches\\licorice
-201\headaches\\holy basil
-201\headaches\\sage
-201\headaches\\rosehips
+201\headache\\chamomile
+201\headache\\feverfew
+201\headache\\ginger
+201\headache\\peppermint
+201\headache\\white willow
+201\headache\\butterbur
+201\headache\\raspberry
+201\headache\\lavender
+201\headache\\passionflower
+201\headache\\valerian
+201\headache\\turmeric
+201\headache\\skullcap
+201\headache\\catnip
+201\headache\\lemon balm
+201\headache\\elderflower
+201\headache\\red clover
+201\headache\\licorice
+201\headache\\holy basil
+201\headache\\sage
+201\headache\\rosehips
 81\high blood pressure\\hawthorn
 81\high blood pressure\\garlic
 81\high blood pressure\\hibiscus
@@ -686,7 +686,7 @@ condition_id\condition_name\condition_slug\tea_name
 128\itchy skin\\sarsaparilla
 128\itchy skin\\dandelion
 128\itchy skin\\cleavers
-128\itchy skin\\oak bark
+128\itchy skin\\oak
 128\itchy skin\\witch hazel
 128\itchy skin\\rosemary
 128\itchy skin\\basil
@@ -762,7 +762,7 @@ condition_id\condition_name\condition_slug\tea_name
 46\diarrhea\diarrhea\raspberry
 46\diarrhea\diarrhea\blackberry
 46\diarrhea\diarrhea\blueberry
-46\diarrhea\diarrhea\oak bark
+46\diarrhea\diarrhea\oak
 46\diarrhea\diarrhea\cinnamon
 46\diarrhea\diarrhea\fennel
 46\diarrhea\diarrhea\licorice
@@ -975,7 +975,7 @@ condition_id\condition_name\condition_slug\tea_name
 46\diarrhoea\diarrhoea\ginger
 46\diarrhoea\diarrhoea\raspberry
 46\diarrhoea\diarrhoea\blackberry
-46\diarrhoea\diarrhoea\oak bark
+46\diarrhoea\diarrhoea\oak
 46\diarrhoea\diarrhoea\slippery elm
 46\diarrhoea\diarrhoea\marshmallow
 46\diarrhoea\diarrhoea\blueberry
@@ -1058,7 +1058,7 @@ condition_id\condition_name\condition_slug\tea_name
 148\eczema\\sarsaparilla
 148\eczema\\yellow dock
 148\eczema\\cleavers
-148\eczema\\oak bark
+148\eczema\\oak
 148\eczema\\licorice
 148\eczema\\marshmallow
 148\eczema\\slippery elm
@@ -1527,7 +1527,7 @@ condition_id\condition_name\condition_slug\tea_name
 1\gut health\gut-health\catnip
 1\gut health\gut-health\hawthorn
 1\gut health\gut-health\nettle
-1\gut health\gut-health\oak bark
+1\gut health\gut-health\oak
 28\gas\gas\chamomile
 28\gas\gas\peppermint
 28\gas\gas\ginger
@@ -2345,7 +2345,7 @@ condition_id\condition_name\condition_slug\tea_name
 38\gallstones\gallstones\chicory
 38\gallstones\gallstones\greater celandine
 38\gallstones\gallstones\wormwood
-38\gallstones\gallstones\borotutu bark
+38\gallstones\gallstones\borotutu
 38\gallstones\gallstones\basil
 38\gallstones\gallstones\ginger
 38\gallstones\gallstones\licorice
@@ -2467,7 +2467,7 @@ condition_id\condition_name\condition_slug\tea_name
 23\hiatus hernia\hiatus-hernia\passionflower
 23\hiatus hernia\hiatus-hernia\lavender
 23\hiatus hernia\hiatus-hernia\catnip
-23\hiatus hernia\hiatus-hernia\birch leaf
+23\hiatus hernia\hiatus-hernia\birch
 23\hiatus hernia\hiatus-hernia\corn silk
 37\cirrhosis\cirrhosis\milk thistle
 37\cirrhosis\cirrhosis\dandelion
@@ -2502,7 +2502,7 @@ condition_id\condition_name\condition_slug\tea_name
 20\peptic ulcers\peptic-ulcers\yarrow
 20\peptic ulcers\peptic-ulcers\red clover
 20\peptic ulcers\peptic-ulcers\birch
-20\peptic ulcers\peptic-ulcers\oak bark
+20\peptic ulcers\peptic-ulcers\oak
 20\peptic ulcers\peptic-ulcers\mullein
 20\peptic ulcers\peptic-ulcers\st. john's wort
 20\peptic ulcers\peptic-ulcers\rose petals
@@ -2524,7 +2524,7 @@ condition_id\condition_name\condition_slug\tea_name
 53\hay fever\\marshmallow
 53\hay fever\\catnip
 53\hay fever\\fenugreek
-53\hay fever\\birch leaves
+53\hay fever\\birch
 54\blocked nose\\peppermint
 54\blocked nose\\eucalyptus
 54\blocked nose\\elderflower
@@ -2902,3 +2902,477 @@ condition_id\condition_name\condition_slug\tea_name
 82\low blood pressure\low-blood-pressure\oatstraw
 82\low blood pressure\low-blood-pressure\nettle
 82\low blood pressure\low-blood-pressure\red clover
+97\muscle pain\muscle-pain\willow
+97\muscle pain\muscle-pain\jamaican dogwood
+97\muscle pain\muscle-pain\st. john's wort
+97\muscle pain\muscle-pain\turmeric
+97\muscle pain\muscle-pain\ginger
+97\muscle pain\muscle-pain\peppermint
+97\muscle pain\muscle-pain\valerian
+97\muscle pain\muscle-pain\passionflower
+97\muscle pain\muscle-pain\skullcap
+97\muscle pain\muscle-pain\california poppy
+97\muscle pain\muscle-pain\feverfew
+97\muscle pain\muscle-pain\birch
+97\muscle pain\muscle-pain\devil's claw
+97\muscle pain\muscle-pain\cat's claw
+97\muscle pain\muscle-pain\yarrow
+97\muscle pain\muscle-pain\meadowsweet
+97\muscle pain\muscle-pain\linden
+97\muscle pain\muscle-pain\black cohosh
+97\muscle pain\muscle-pain\mistletoe
+98\osteoporosis\osteoporosis\nettle
+98\osteoporosis\osteoporosis\horsetail
+98\osteoporosis\osteoporosis\dandelion
+98\osteoporosis\osteoporosis\black cohosh
+98\osteoporosis\osteoporosis\red clover
+98\osteoporosis\osteoporosis\alfalfa
+98\osteoporosis\osteoporosis\yellowdock
+98\osteoporosis\osteoporosis\sarsaparilla
+98\osteoporosis\osteoporosis\burdock
+98\osteoporosis\osteoporosis\oatstraw
+98\osteoporosis\osteoporosis\mugwort
+98\osteoporosis\osteoporosis\skullcap
+98\osteoporosis\osteoporosis\valerian
+98\osteoporosis\osteoporosis\chamomile
+98\osteoporosis\osteoporosis\ginger
+98\osteoporosis\osteoporosis\cinnamon
+98\osteoporosis\osteoporosis\turmeric
+98\osteoporosis\osteoporosis\licorice
+98\osteoporosis\osteoporosis\sage
+99\arthritis\arthritis\willow
+99\arthritis\arthritis\green tea
+99\arthritis\arthritis\ginger
+99\arthritis\arthritis\turmeric
+99\arthritis\arthritis\cat's claw
+99\arthritis\arthritis\boswellia
+99\arthritis\arthritis\alfalfa
+99\arthritis\arthritis\nettle
+99\arthritis\arthritis\burdock
+99\arthritis\arthritis\sarsaparilla
+99\arthritis\arthritis\yellow dock
+99\arthritis\arthritis\horsetail
+99\arthritis\arthritis\meadowsweet
+99\arthritis\arthritis\feverfew
+99\arthritis\arthritis\hawthorn
+99\arthritis\arthritis\skullcap
+99\arthritis\arthritis\licorice
+99\arthritis\arthritis\dandelion
+99\arthritis\arthritis\ashwagandha
+100\joint pain\joint-pain\willow
+100\joint pain\joint-pain\ginger
+100\joint pain\joint-pain\green tea
+100\joint pain\joint-pain\turmeric
+100\joint pain\joint-pain\cat's claw
+100\joint pain\joint-pain\boswellia
+100\joint pain\joint-pain\eucalyptus
+100\joint pain\joint-pain\burdock
+100\joint pain\joint-pain\devil's claw
+100\joint pain\joint-pain\alfalfa
+100\joint pain\joint-pain\sarsaparilla
+100\joint pain\joint-pain\yellow dock
+100\joint pain\joint-pain\stinging nettle
+100\joint pain\joint-pain\licorice
+100\joint pain\joint-pain\dandelion
+100\joint pain\joint-pain\meadowsweet
+100\joint pain\joint-pain\rosemary
+100\joint pain\joint-pain\feverfew
+100\joint pain\joint-pain\ashwagandha
+101\joint stiffness\joint-stiffness\willow
+101\joint stiffness\joint-stiffness\ginger
+101\joint stiffness\joint-stiffness\turmeric
+101\joint stiffness\joint-stiffness\green tea
+101\joint stiffness\joint-stiffness\thunder god vine
+101\joint stiffness\joint-stiffness\cat's claw
+101\joint stiffness\joint-stiffness\eucalyptus
+101\joint stiffness\joint-stiffness\birch
+101\joint stiffness\joint-stiffness\burdock
+101\joint stiffness\joint-stiffness\dandelion
+101\joint stiffness\joint-stiffness\alfalfa
+101\joint stiffness\joint-stiffness\nettle
+101\joint stiffness\joint-stiffness\saffron
+101\joint stiffness\joint-stiffness\fennel
+101\joint stiffness\joint-stiffness\licorice
+101\joint stiffness\joint-stiffness\skullcap
+101\joint stiffness\joint-stiffness\valerian
+101\joint stiffness\joint-stiffness\ashwagandha
+101\joint stiffness\joint-stiffness\yellow dock
+102\osteoarthritis\osteoarthritis\green tea
+102\osteoarthritis\osteoarthritis\willow
+102\osteoarthritis\osteoarthritis\ginger
+102\osteoarthritis\osteoarthritis\turmeric
+102\osteoarthritis\osteoarthritis\cat's claw
+102\osteoarthritis\osteoarthritis\boswellia
+102\osteoarthritis\osteoarthritis\devil's claw
+102\osteoarthritis\osteoarthritis\yucca
+102\osteoarthritis\osteoarthritis\alfalfa
+102\osteoarthritis\osteoarthritis\sage
+102\osteoarthritis\osteoarthritis\rosemary
+102\osteoarthritis\osteoarthritis\thyme
+102\osteoarthritis\osteoarthritis\oregano
+102\osteoarthritis\osteoarthritis\basil
+102\osteoarthritis\osteoarthritis\hawthorn
+102\osteoarthritis\osteoarthritis\nettle
+102\osteoarthritis\osteoarthritis\burdock
+102\osteoarthritis\osteoarthritis\dandelion
+102\osteoarthritis\osteoarthritis\lemongrass
+103\rheumatoid arthritis\rheumatoid-arthritis\willow
+103\rheumatoid arthritis\rheumatoid-arthritis\ginger
+103\rheumatoid arthritis\rheumatoid-arthritis\green tea
+103\rheumatoid arthritis\rheumatoid-arthritis\turmeric
+103\rheumatoid arthritis\rheumatoid-arthritis\thunder god vine
+103\rheumatoid arthritis\rheumatoid-arthritis\cat's claw
+103\rheumatoid arthritis\rheumatoid-arthritis\boswellia
+103\rheumatoid arthritis\rheumatoid-arthritis\eucalyptus
+103\rheumatoid arthritis\rheumatoid-arthritis\bromelain
+103\rheumatoid arthritis\rheumatoid-arthritis\stinging nettle
+103\rheumatoid arthritis\rheumatoid-arthritis\saffron
+103\rheumatoid arthritis\rheumatoid-arthritis\prickly pear
+103\rheumatoid arthritis\rheumatoid-arthritis\birch
+103\rheumatoid arthritis\rheumatoid-arthritis\frankincense
+103\rheumatoid arthritis\rheumatoid-arthritis\chaparral
+103\rheumatoid arthritis\rheumatoid-arthritis\devil's claw
+103\rheumatoid arthritis\rheumatoid-arthritis\yellow dock
+103\rheumatoid arthritis\rheumatoid-arthritis\yarrow
+103\rheumatoid arthritis\rheumatoid-arthritis\burdock
+104\bursitis\bursitis\willow
+104\bursitis\bursitis\green tea
+104\bursitis\bursitis\ginger
+104\bursitis\bursitis\turmeric
+104\bursitis\bursitis\devil's claw
+104\bursitis\bursitis\cat's claw
+104\bursitis\bursitis\boswellia
+104\bursitis\bursitis\yucca
+104\bursitis\bursitis\alfalfa
+104\bursitis\bursitis\burdock
+104\bursitis\bursitis\dandelion
+104\bursitis\bursitis\meadowsweet
+104\bursitis\bursitis\celery
+104\bursitis\bursitis\stinging nettle
+104\bursitis\bursitis\feverfew
+104\bursitis\bursitis\skullcap
+104\bursitis\bursitis\valerian
+104\bursitis\bursitis\passionflower
+104\bursitis\bursitis\california poppy
+105\tendinitis\tendinitis\willow
+105\tendinitis\tendinitis\ginger
+105\tendinitis\tendinitis\turmeric
+105\tendinitis\tendinitis\green tea
+105\tendinitis\tendinitis\devil's claw
+105\tendinitis\tendinitis\cat's claw
+105\tendinitis\tendinitis\yucca
+105\tendinitis\tendinitis\stinging nettle
+105\tendinitis\tendinitis\alfalfa
+105\tendinitis\tendinitis\burdock
+105\tendinitis\tendinitis\dandelion
+105\tendinitis\tendinitis\skullcap
+105\tendinitis\tendinitis\feverfew
+105\tendinitis\tendinitis\valerian
+105\tendinitis\tendinitis\passionflower
+105\tendinitis\tendinitis\chamomile
+105\tendinitis\tendinitis\lavender
+105\tendinitis\tendinitis\licorice
+105\tendinitis\tendinitis\cinnamon
+106\gout\gout\alfalfa
+106\gout\gout\burdock
+106\gout\gout\devil's claw
+106\gout\gout\ginger
+106\gout\gout\turmeric
+106\gout\gout\willow
+106\gout\gout\nettle
+106\gout\gout\dandelion
+106\gout\gout\yellow dock
+106\gout\gout\horsetail
+106\gout\gout\sarsaparilla
+106\gout\gout\birch
+106\gout\gout\celery
+106\gout\gout\feverfew
+106\gout\gout\meadowsweet
+106\gout\gout\marshmallow
+106\gout\gout\licorice
+106\gout\gout\parsley
+106\gout\gout\uva ursi
+83\heart pain\heart-pain\hawthorn
+83\heart pain\heart-pain\motherwort
+83\heart pain\heart-pain\lemon balm
+83\heart pain\heart-pain\passionflower
+83\heart pain\heart-pain\valerian
+83\heart pain\heart-pain\ashwagandha
+83\heart pain\heart-pain\ginseng
+83\heart pain\heart-pain\rhodiola
+83\heart pain\heart-pain\bacopa
+83\heart pain\heart-pain\ginkgo biloba
+83\heart pain\heart-pain\astragalus
+83\heart pain\heart-pain\schisandra
+83\heart pain\heart-pain\rose
+83\heart pain\heart-pain\lavender
+83\heart pain\heart-pain\chamomile
+83\heart pain\heart-pain\red clover
+83\heart pain\heart-pain\sage
+83\heart pain\heart-pain\cardamom
+83\heart pain\heart-pain\turmeric
+84\high cholesterol\high-cholesterol\ashwagandha
+84\high cholesterol\high-cholesterol\guggul
+84\high cholesterol\high-cholesterol\turmeric
+84\high cholesterol\high-cholesterol\ginger
+84\high cholesterol\high-cholesterol\cinnamon
+84\high cholesterol\high-cholesterol\cayenne
+84\high cholesterol\high-cholesterol\ginseng
+84\high cholesterol\high-cholesterol\green tea
+84\high cholesterol\high-cholesterol\hawthorn
+84\high cholesterol\high-cholesterol\holy basil
+84\high cholesterol\high-cholesterol\lemon balm
+84\high cholesterol\high-cholesterol\licorice
+84\high cholesterol\high-cholesterol\milk thistle
+84\high cholesterol\high-cholesterol\olive
+84\high cholesterol\high-cholesterol\parsley
+84\high cholesterol\high-cholesterol\red clover
+84\high cholesterol\high-cholesterol\sage
+84\high cholesterol\high-cholesterol\bilberry
+84\high cholesterol\high-cholesterol\yarrow
+85\jaundice\jaundice\turmeric
+85\jaundice\jaundice\dandelion
+85\jaundice\jaundice\milk thistle
+85\jaundice\jaundice\peppermint
+85\jaundice\jaundice\ginger
+85\jaundice\jaundice\chicory
+85\jaundice\jaundice\licorice
+85\jaundice\jaundice\artichoke
+85\jaundice\jaundice\burdock
+85\jaundice\jaundice\yellow dock
+85\jaundice\jaundice\fennel
+85\jaundice\jaundice\barberry
+85\jaundice\jaundice\chanca piedra
+85\jaundice\jaundice\red clover
+85\jaundice\jaundice\sarsaparilla
+85\jaundice\jaundice\gentian
+85\jaundice\jaundice\boldo
+85\jaundice\jaundice\picrohiza
+85\jaundice\jaundice\ashwagandha
+86\nose bleeding\nose-bleeding\yarrow
+86\nose bleeding\nose-bleeding\nettle
+86\nose bleeding\nose-bleeding\witch hazel
+86\nose bleeding\nose-bleeding\turmeric
+86\nose bleeding\nose-bleeding\ginger
+86\nose bleeding\nose-bleeding\chamomile
+86\nose bleeding\nose-bleeding\sage
+86\nose bleeding\nose-bleeding\peppermint
+86\nose bleeding\nose-bleeding\echinacea
+86\nose bleeding\nose-bleeding\lavender
+86\nose bleeding\nose-bleeding\marshmallow
+86\nose bleeding\nose-bleeding\calendula
+86\nose bleeding\nose-bleeding\ginkgo biloba
+86\nose bleeding\nose-bleeding\st. john's wort
+86\nose bleeding\nose-bleeding\eucalyptus
+86\nose bleeding\nose-bleeding\horsetail
+86\nose bleeding\nose-bleeding\goldenseal
+86\nose bleeding\nose-bleeding\slippery elm
+86\nose bleeding\nose-bleeding\plantain
+87\palpitation\palpitation\passionflower
+87\palpitation\palpitation\lavender
+87\palpitation\palpitation\chamomile
+87\palpitation\palpitation\valerian
+87\palpitation\palpitation\lemon balm
+87\palpitation\palpitation\hawthorn
+87\palpitation\palpitation\motherwort
+87\palpitation\palpitation\skullcap
+87\palpitation\palpitation\ashwagandha
+87\palpitation\palpitation\bacopa
+87\palpitation\palpitation\kava
+87\palpitation\palpitation\rhodiola
+87\palpitation\palpitation\ginkgo biloba
+87\palpitation\palpitation\ginseng
+87\palpitation\palpitation\reishi
+87\palpitation\palpitation\schisandra
+87\palpitation\palpitation\tulsi
+87\palpitation\palpitation\peppermint
+87\palpitation\palpitation\rose
+88\swollen feet\swollen-feet\peppermint
+88\swollen feet\swollen-feet\ginger
+88\swollen feet\swollen-feet\turmeric
+88\swollen feet\swollen-feet\ginkgo biloba
+88\swollen feet\swollen-feet\dandelion
+88\swollen feet\swollen-feet\horsetail
+88\swollen feet\swollen-feet\birch
+88\swollen feet\swollen-feet\st. john's wort
+88\swollen feet\swollen-feet\burdock
+88\swollen feet\swollen-feet\marshmallow
+88\swollen feet\swollen-feet\licorice
+88\swollen feet\swollen-feet\lavender
+88\swollen feet\swollen-feet\echinacea
+88\swollen feet\swollen-feet\willow
+88\swollen feet\swollen-feet\parsley
+88\swollen feet\swollen-feet\rosemary
+88\swollen feet\swollen-feet\sage
+88\swollen feet\swollen-feet\hawthorn
+88\swollen feet\swollen-feet\valerian
+89\arteriosclerosis\arteriosclerosis\turmeric
+89\arteriosclerosis\arteriosclerosis\ginger
+89\arteriosclerosis\arteriosclerosis\ginkgo biloba
+89\arteriosclerosis\arteriosclerosis\garlic
+89\arteriosclerosis\arteriosclerosis\hawthorn
+89\arteriosclerosis\arteriosclerosis\ashwagandha
+89\arteriosclerosis\arteriosclerosis\green tea
+89\arteriosclerosis\arteriosclerosis\rosemary
+89\arteriosclerosis\arteriosclerosis\sage
+89\arteriosclerosis\arteriosclerosis\olive
+89\arteriosclerosis\arteriosclerosis\dandelion
+89\arteriosclerosis\arteriosclerosis\red clover
+89\arteriosclerosis\arteriosclerosis\motherwort
+89\arteriosclerosis\arteriosclerosis\passionflower
+89\arteriosclerosis\arteriosclerosis\linden
+89\arteriosclerosis\arteriosclerosis\lemon balm
+89\arteriosclerosis\arteriosclerosis\valerian
+89\arteriosclerosis\arteriosclerosis\bilberry
+89\arteriosclerosis\arteriosclerosis\yarrow
+90\congestive heart failure\congestive-heart-failure\hawthorn
+90\congestive heart failure\congestive-heart-failure\ginkgo biloba
+90\congestive heart failure\congestive-heart-failure\ginger
+90\congestive heart failure\congestive-heart-failure\turmeric
+90\congestive heart failure\congestive-heart-failure\bilberry
+90\congestive heart failure\congestive-heart-failure\astragalus
+90\congestive heart failure\congestive-heart-failure\dong quai
+90\congestive heart failure\congestive-heart-failure\motherwort
+90\congestive heart failure\congestive-heart-failure\ashwagandha
+90\congestive heart failure\congestive-heart-failure\passionflower
+90\congestive heart failure\congestive-heart-failure\lemon balm
+90\congestive heart failure\congestive-heart-failure\yarrow
+90\congestive heart failure\congestive-heart-failure\valerian
+90\congestive heart failure\congestive-heart-failure\marshmallow
+90\congestive heart failure\congestive-heart-failure\dandelion
+90\congestive heart failure\congestive-heart-failure\sarsaparilla
+90\congestive heart failure\congestive-heart-failure\red clover
+90\congestive heart failure\congestive-heart-failure\rose petal
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\ginkgo biloba
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\turmeric
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\ginger
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\cayenne
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\garlic
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\hawthorn
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\bilberry
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\horse chestnut
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\butcher's broom
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\rosemary
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\sage
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\parsley
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\chamomile
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\peppermint
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\echinacea
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\ashwagandha
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\bacopa
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\schisandra
+91\peripheral arterial occlusive disease\peripheral-arterial-occlusive-disease\green tea
+92\varicose veins\varicose-veins\horse chestnut
+92\varicose veins\varicose-veins\butcher's broom
+92\varicose veins\varicose-veins\ginkgo biloba
+92\varicose veins\varicose-veins\grape
+92\varicose veins\varicose-veins\bilberry
+92\varicose veins\varicose-veins\witch hazel
+92\varicose veins\varicose-veins\st. john's wort
+92\varicose veins\varicose-veins\pine
+92\varicose veins\varicose-veins\gotu kola
+92\varicose veins\varicose-veins\hawthorn
+92\varicose veins\varicose-veins\buchu
+92\varicose veins\varicose-veins\bladderwrack
+92\varicose veins\varicose-veins\dandelion
+92\varicose veins\varicose-veins\nettle
+92\varicose veins\varicose-veins\red clover
+92\varicose veins\varicose-veins\yarrow
+92\varicose veins\varicose-veins\marigold
+92\varicose veins\varicose-veins\turmeric
+92\varicose veins\varicose-veins\ashwagandha
+300\dogs\dogs\chamomile
+300\dogs\dogs\peppermint
+300\dogs\dogs\ginger
+300\dogs\dogs\valerian
+300\dogs\dogs\milk thistle
+300\dogs\dogs\dandelion
+300\dogs\dogs\echinacea
+300\dogs\dogs\licorice
+300\dogs\dogs\calendula
+300\dogs\dogs\red clover
+300\dogs\dogs\skullcap
+300\dogs\dogs\passionflower
+300\dogs\dogs\hawthorn
+300\dogs\dogs\nettle
+300\dogs\dogs\oatstraw
+300\dogs\dogs\alfalfa
+300\dogs\dogs\yellow dock
+300\dogs\dogs\burdock
+300\dogs\dogs\marshmallow
+301\enlarged spleen\enlarged-spleen\milk thistle
+301\enlarged spleen\enlarged-spleen\dandelion
+301\enlarged spleen\enlarged-spleen\burdock
+301\enlarged spleen\enlarged-spleen\yellow dock
+301\enlarged spleen\enlarged-spleen\echinacea
+301\enlarged spleen\enlarged-spleen\turmeric
+301\enlarged spleen\enlarged-spleen\ginger
+301\enlarged spleen\enlarged-spleen\red clover
+301\enlarged spleen\enlarged-spleen\alfalfa
+301\enlarged spleen\enlarged-spleen\chaparral
+301\enlarged spleen\enlarged-spleen\myrrh
+301\enlarged spleen\enlarged-spleen\pau d'arco
+301\enlarged spleen\enlarged-spleen\sarsaparilla
+301\enlarged spleen\enlarged-spleen\yellowdock
+301\enlarged spleen\enlarged-spleen\fennel
+301\enlarged spleen\enlarged-spleen\licorice
+301\enlarged spleen\enlarged-spleen\marshmallow
+301\enlarged spleen\enlarged-spleen\cat's claw
+301\enlarged spleen\enlarged-spleen\reishi mushroom
+314\wheezing\wheezing\peppermint
+314\wheezing\wheezing\licorice
+314\wheezing\wheezing\chamomile
+314\wheezing\wheezing\slippery elm
+314\wheezing\wheezing\ginger
+314\wheezing\wheezing\marshmallow
+314\wheezing\wheezing\fenugreek
+314\wheezing\wheezing\turmeric
+314\wheezing\wheezing\elderberry
+314\wheezing\wheezing\nettle
+314\wheezing\wheezing\thyme
+314\wheezing\wheezing\elecampane
+314\wheezing\wheezing\sage
+314\wheezing\wheezing\skullcap
+314\wheezing\wheezing\mullein
+314\wheezing\wheezing\osha
+314\wheezing\wheezing\linden
+314\wheezing\wheezing\horehound
+314\wheezing\wheezing\basil
+315\shortness of breath\breath-shortness\peppermint
+315\shortness of breath\breath-shortness\eucalyptus
+315\shortness of breath\breath-shortness\licorice
+315\shortness of breath\breath-shortness\thyme
+315\shortness of breath\breath-shortness\oregano
+315\shortness of breath\breath-shortness\sage
+315\shortness of breath\breath-shortness\basil
+315\shortness of breath\breath-shortness\rosemary
+315\shortness of breath\breath-shortness\lavender
+315\shortness of breath\breath-shortness\chamomile
+315\shortness of breath\breath-shortness\ginger
+315\shortness of breath\breath-shortness\marshmallow
+315\shortness of breath\breath-shortness\slippery elm
+315\shortness of breath\breath-shortness\plantain
+315\shortness of breath\breath-shortness\skullcap
+315\shortness of breath\breath-shortness\elecampane
+315\shortness of breath\breath-shortness\mullein
+315\shortness of breath\breath-shortness\coltsfoot
+315\shortness of breath\breath-shortness\horehound
+316\chills\chills\peppermint
+316\chills\chills\ginger
+316\chills\chills\chamomile
+316\chills\chills\elderflower
+316\chills\chills\yarrow
+316\chills\chills\cinnamon
+316\chills\chills\licorice
+316\chills\chills\holy basil
+316\chills\chills\echinacea
+316\chills\chills\lemongrass
+316\chills\chills\cloves
+316\chills\chills\sage
+316\chills\chills\spearmint
+316\chills\chills\marshmallow
+316\chills\chills\hyssop
+316\chills\chills\rooibos
+316\chills\chills\fennel
+316\chills\chills\tulsi
+316\chills\chills\catnip

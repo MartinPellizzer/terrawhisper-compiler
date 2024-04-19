@@ -20,7 +20,7 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
 random_num = random.randint(-2, 2)
-ARTICLES_NUM = 35 - random_num
+ARTICLES_NUM = 15 - random_num
 WAIT_SECONDS = 600
 
 
@@ -52,7 +52,6 @@ time.sleep(30)
 
 
 # GET RANDOM ARTICLES TO PIN
-
 articles_folderpath = 'database/json/herbalism/tea'
 articles_filepath = [
     f'{articles_folderpath}/{article_filename}'
@@ -61,6 +60,11 @@ articles_filepath = [
 random.shuffle(articles_filepath)
 articles_filepath = articles_filepath[:ARTICLES_NUM]
 
+i = 0
+for article_filepath in articles_filepath:
+    i += 1
+    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
+    
 # START PINNING
 i = 0
 for article_filepath in articles_filepath:
