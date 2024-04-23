@@ -28,6 +28,10 @@ GOOGLE_TAG = '''
 #     --herbal-teal: #3B9D9D;
 # }
 
-PROMPT_DELAY_TIME = 5
+PROMPT_DELAY_TIME = 30
 
+CSV_SYSTEMS_FILEPATH = 'database/csv/status/systems.csv'
 CSV_CONDITIONS_FILEPATH = 'database/csv/status/conditions.csv'
+CSV_RELATED_PROBLEMS_FILEPATH = 'database/csv/status/related_problems.csv'
+
+CSV_TEAS_FILEPATH = 'database/csv/herbalism/teas_conditions.csv'

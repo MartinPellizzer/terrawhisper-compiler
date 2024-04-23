@@ -19,7 +19,6 @@
     - generate images (especially teas)
 
 
-
 # ###################################################
 # WEEKLY (saturday?)
 # ###################################################
@@ -36,6 +35,9 @@
 # ###################################################
 # TODO
 # ###################################################
+- copy old articles to new slug if not already present an article
+- fix pinterest, take articles from folders
+
 - CHECK PINNED ARTICLES
     [!] check database/articles/herbalism/tea jsons and make sure you have the in the tea_conditions csv with "to_process" cells active
 

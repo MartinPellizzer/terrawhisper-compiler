@@ -49,6 +49,7 @@ def csv_get_rows_by_entity(filepath, entity, delimiter='\\', col_num=0):
     with open(filepath, encoding='utf-8', errors='ignore') as f:
         reader = csv.reader(f, delimiter=delimiter)
         for i, line in enumerate(reader):
+            if line == []: continue
             if line[col_num].lower().strip() == entity.lower().strip():
                 rows.append(line)
     return rows

@@ -10,3 +10,41 @@ condition_id\condition_name\condition_slug\related_problem_id\related_problem_na
 66\cough\cough\246\chills\chills
 66\cough\cough\63\hoarseness\hoarse-voice
 66\cough\cough\244\wheezing\wheezing
+2\bad breath\bad-breath\321\bad taste\bad-taste
+2\bad breath\bad-breath\3\dry mouth\dry-mouth
+2\bad breath\bad-breath\320\white tongue\white-tongue
+2\bad breath\bad-breath\182\swollen gums\swollen-gums
+2\bad breath\bad-breath\319\inflamed gums\inflamed-gums
+2\bad breath\bad-breath\56\post-nasal drip\post-nasal-drip
+2\bad breath\bad-breath\66\persistent cough\cough
+2\bad breath\bad-breath\59\sore throat\sore-throat
+2\bad breath\bad-breath\\gastroesophageal reflux disease (gerd)\acid-reflux
+3\dry mouth\dry-mouth\2\bad breath\bad-breath
+3\dry mouth\dry-mouth\318\difficulty swallowing\difficulty-swallowing
+3\dry mouth\dry-mouth\60\dry throat\dry-throat
+3\dry mouth\dry-mouth\120\cracked lips\
+3\dry mouth\dry-mouth\4\sores in the mouth\
+3\dry mouth\dry-mouth\322\changes in taste\
+3\dry mouth\dry-mouth\323\increased plaque\
+3\dry mouth\dry-mouth\324\tooth decay\
+3\dry mouth\dry-mouth\6\gum disease\periodontal-disease
+3\dry mouth\dry-mouth\63\hoarseness\
+3\dry mouth\dry-mouth\325\dry nasal passages\
+4\mouth ulcers\mouth-ulcers\4\painful mouth sores\
+4\mouth ulcers\mouth-ulcers\326\swollen mouth lining\
+4\mouth ulcers\mouth-ulcers\327\difficulty chewing\
+4\mouth ulcers\mouth-ulcers\318\difficulty swallowing\difficulty-swallowing
+4\mouth ulcers\mouth-ulcers\328\speech difficulty\
+4\mouth ulcers\mouth-ulcers\321\persistent bad taste\
+4\mouth ulcers\mouth-ulcers\317\loss of appetite\appetite-loss
+4\mouth ulcers\mouth-ulcers\235\fever\
+4\mouth ulcers\mouth-ulcers\329\lymph node swelling\
+5\oral thrush\oral-thrush\330\white patches in month\
+5\oral thrush\oral-thrush\326\sore mouth\inflamed-mouth
+5\oral thrush\oral-thrush\3\cottony sensation in month\
+5\oral thrush\oral-thrush\331\loss of taste\
+5\oral thrush\oral-thrush\332\reddened corners in month\
+5\oral thrush\oral-thrush\333\difficulty eating\
+5\oral thrush\oral-thrush\334\painful swallowing\
+5\oral thrush\oral-thrush\2\bad breath\bad-breath
+5\oral thrush\oral-thrush\335\bleeding spots in mouth\

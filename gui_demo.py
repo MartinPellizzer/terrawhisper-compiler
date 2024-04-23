@@ -37,5 +37,12 @@ volume_var = tk.StringVar()
 volume_label = ttk.Label(master=window, text="Volume", textvariable=volume_var)
 volume_label.pack()
 
+items = ('1', '2', '3')
+combo_string = tk.StringVar(value=items[0])
+combo = ttk.Combobox(window, textvariable=combo_string)
+combo['values'] = items
+combo.pack()
+combo.bind('<<ComboboxSelected>>', lambda event: print('test'))
+
 
 window.mainloop()

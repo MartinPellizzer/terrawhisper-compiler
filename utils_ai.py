@@ -116,10 +116,10 @@ def reply_to_list_column(reply):
         if line == '': continue
         if not line[0].isdigit(): continue
         
-        line = '. '.join(line.split('. ')[1:]).strip()
+        line = '.'.join(line.split('.')[1:]).strip()
         if line == '': continue
 
-        if len(line.split(' ')) < 10: continue
+        # if len(line.split(' ')) < 10: continue
 
         line = line.replace('*', '')
         line = line.replace('[', '')
