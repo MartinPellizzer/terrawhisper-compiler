@@ -48,3 +48,27 @@ condition_id\condition_name\condition_slug\related_problem_id\related_problem_na
 5\oral thrush\oral-thrush\334\painful swallowing\
 5\oral thrush\oral-thrush\2\bad breath\bad-breath
 5\oral thrush\oral-thrush\335\bleeding spots in mouth\
+8\throat pain\digestive-system/throat-pain\334\painful swallowing\digestive-system/painful-swallowing
+8\throat pain\digestive-system/throat-pain\59\sore throat\respiratory-system/sore-throat
+8\throat pain\digestive-system/throat-pain\63\hoarse voice\respiratory-system/hoarse-voice
+8\throat pain\digestive-system/throat-pain\128\scratchy sensation\integumentary-system/itchy-skin
+8\throat pain\digestive-system/throat-pain\336\dry cough\respiratory-system/dry-cough
+8\throat pain\digestive-system/throat-pain\329\swollen glands\lymphatic-system/lymph-node-swelling
+8\throat pain\digestive-system/throat-pain\337\throat congestion\digestive-system/throat-congestion
+8\throat pain\digestive-system/throat-pain\338\difficult speaking\digestive-system/difficult-speaking
+8\throat pain\digestive-system/throat-pain\339\feverish feeling\immune-system/feverish-feeling
+8\throat pain\digestive-system/throat-pain\340\tickling throat\respiratory-system/tickling-throat
+8\throat pain\digestive-system/throat-pain\229\ear pain\nervous-system/earache
+8\throat pain\digestive-system/throat-pain\2\bad breath\digestive-system/bad-breath
+8\throat pain\digestive-system/throat-pain\341\throat redness\respiratory-system/throat-redness
+8\throat pain\digestive-system/throat-pain\318\swallowing difficulty\digestive-system/difficulty-swallowing
+8\throat pain\digestive-system/throat-pain\342\throat irritation\digestive-system/throat-irritation
+9\heartburn\digestive-system/heartburn\343\sour taste in mouth\digestive-system/mouth-sour-taste
+9\heartburn\digestive-system/heartburn\318\difficulty swallowing\digestive-system/difficulty-swallowing
+9\heartburn\digestive-system/heartburn\66\persistent coughing\respiratory-system/cough
+9\heartburn\digestive-system/heartburn\30\digestive-system/bloating\digestive-system/bloating
+9\heartburn\digestive-system/heartburn\344\bitter taste in mouth\digestive-system/mouth-bitter-taste
+9\heartburn\digestive-system/heartburn\26\nausea\digestive-system/nausea
+9\heartburn\digestive-system/heartburn\27\vomiting\digestive-system/vomiting
+9\heartburn\digestive-system/heartburn\345\burping\digestive-system/burping
+9\heartburn\digestive-system/heartburn\76\hiccups\respiratory-system/hiccups
