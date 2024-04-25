@@ -8,11 +8,11 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 6\digestive-system/periodontal-disease\periodontal-disease\periodontal disease, gum disease\0\\mouth\\\\condition \\\\\x
 7\digestive-system/esophagus-health\esophagus-health\esophagus health\0\\esophagus\\\\part\\\x\\x
 8\digestive-system/throat-pain\throat-pain\throat pain\0\\throat\\\\symptom\\\\\x
-9\digestive-system/heartburn\heartburn\heartburn, burning chest sensation\0\\esophagus\\\heartburn during pregnancy\symptom\\\\\x
+9\digestive-system/heartburn\heartburn\heartburn, burning chest sensation, heartburn sensation, burning sensation\0\\esophagus\\\heartburn during pregnancy\symptom\\\\\x
 10\digestive-system/acid-reflux\acid-reflux\acid reflux\0\\esophagus\gastroesophageal reflux disease, gerd\\gerd, Esophagitis and Gastroesophageal Reflux\symptom\\\\\x
 11\digestive-system/gerd\gerd\gerd\0\\esophagus \\\\condition \\\x\\x
 12\digestive-system/digestion\digestion\digestion\0\\stomach\\\\process\\\x\\x
-13\digestive-system/indigestion\indigestion\indigestion\0\\stomach \dyspepsia, Functional Dyspepsia\\\symptom\\\\\x
+13\digestive-system/indigestion\indigestion\indigestion, discomfort eating\0\\stomach \dyspepsia, Functional Dyspepsia\\\symptom\\\\\x
 14\digestive-system/stomach-pain\stomach-pain\stomach pain\0\\stomach\gastric pain\\\symptom\\\\\x
 15\digestive-system/stomach-cramps\stomach-cramps\stomach cramps\0\\stomach\\\\symptom\\\x\\x
 16\digestive-system/hyperacidity\hyperacidity\hyperacidity\0\\stomach\acidity\\\symptom\\\\\x
@@ -25,11 +25,11 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 23\digestive-system/hiatus-hernia\hiatus-hernia\hiatus hernia\0\\stomach\\\\condition \\\\\x
 24\digestive-system/queasy-stomach\queasy-stomach\queasy stomach\0\\stomach\\\nausea? Vomit?\symptom\\\\\x
 25\digestive-system/upset-stomach\upset-stomach\upset stomach\0\\stomach\\\\symptom\\\x\\x
-26\digestive-system/nausea\nausea\nausea\0\\stomach \\\nausea during pregnancy\symptom\\\\\x
+26\digestive-system/nausea\nausea\nausea, nausea sensation\0\\stomach \\\nausea during pregnancy\symptom\\\\\x
 27\digestive-system/vomiting\vomiting\vomiting\0\\stomach \\\kids vomiting\symptom\\\\\x
 28\digestive-system/gas\gas\gas\0\\gastrointestinal tract \\\\symptom\\\x\\x
 29\digestive-system/gas-stomach\gas-stomach\gas in stomach\0\\stomach\gassy stomach\\\symptom\\\\\x
-30\digestive-system/bloating\bloating\bloating, bloated stomach\0\\stomach\\\\symptom\\\\\x
+30\digestive-system/bloating\bloating\bloating, bloated stomach, bloating feeling, gas bloating, fullness feeling\0\\stomach\\\\symptom\\\\\x
 31\digestive-system/overeating\overeating\overeating\0\\stomach \\\\behavior\\\\\x
 32\digestive-system/food-poisoning\food-poisoning\food poisoning\0\\stomach, intestines\\\\symptom\\\\\x
 33\digestive-system/hangover\hangover\hangover\0\\liver\\\\symptom\\\\\x
@@ -39,14 +39,14 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 37\digestive-system/cirrhosis\cirrhosis\cirrhosis\0\\liver \\\\condition \\\\\x
 38\digestive-system/gallstones\gallstones\gallstones\0\\gallbladder\cholelithiasis\\\condition \\\\\x
 39\digestive-system/cholecystitis\cholecystitis\cholecystitis\0\\gallbladder \\\\condition \\\\\x
-40\digestive-system/abdominal-pain\abdominal-pain\abdominal pain\0\\abdomen\\\lower abdominal pain\symptom\\\\\x
+40\digestive-system/abdominal-pain\abdominal-pain\abdominal pain, painful abdomen\0\\abdomen\\\lower abdominal pain\symptom\\\\\x
 41\digestive-system/gas-pain\gas-pain\gas pain\0\\intestines \gas pain\\\symptom\\\\\x
 42\digestive-system/bowel-movement\bowel-movement\bowel movement\0\\intestines \\\\process\\\x\\x
 43\digestive-system/quick-digestion\quick-digestion\quick digestion\0\\intestines \\\\symptom\\\\\x
 44\digestive-system/inflammatory-bowel-disease\inflammatory-bowel-disease\inflammatory bowel disease\0\\intestines, large intestine\\\\group\\\\\x
 45\digestive-system/constipation\constipation\constipation\0\\colon\\\constipation during pregnancy, kids constipation\symptom\\\\\x
-46\digestive-system/diarrhea\diarrhea\diarrhea\0\\colon\diarrhoea, loose motion, running stomach\\\symptom\\\\\x
-47\digestive-system/flatulence\flatulence\flatulence\0\\colon\gas\\\symptom\\\\\x
+46\digestive-system/diarrhea\diarrhea\diarrhea, occasional diarrhea\0\\colon\diarrhoea, loose motion, running stomach\\\symptom\\\\\x
+47\digestive-system/flatulence\flatulence\flatulence, belching gas\0\\colon\gas\\\symptom\\\\\x
 48\digestive-system/irritable-bowel-syndrome\irritable-bowel-syndrome\irritable bowel syndrome\0\\colon (large intestine)\\\\condition \\\\\x
 49\digestive-system/ulcerative-colitis\ulcerative-colitis\ulcerative colitis\0\\colon\\\\condition \\\\\x
 50\digestive-system/diverticulitis\diverticulitis\diverticulitis\0\\colon\\\\condition \\\\\x
@@ -141,11 +141,11 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 139\integumentary-system/jellyfish-sting\jellyfish-sting\jellyfish sting\4\\skin\\\\problem\\\\\x
 140\\\\\\\\\\\\\\\
 141\integumentary-system/open-pores\open-pores\open pores\4\\skin\\\\problem\\\\\x
-142\\\open wounds\4\\skin\\\\\\\\\
-143\\\pimples\4\\skin\\\\\\\\\
-144\\\pigmentation\4\\skin\\\\\\\\\
-145\\\ringworm\4\\skin\\\\\\\\\
-146\\\rashes\4\\skin\\\\\\\\\
+142\integumentary-system/open-wounds\\open wounds\4\\skin\\\\problem\\\\\x
+143\integumentary-system/pimples\\pimples\4\\skin\\\\problem\\\\\x
+144\integumentary-system/pigmentation\\pigmentation\4\\skin\\\\problem\\\\\x
+145\integumentary-system/ringworm\\ringworm\4\\skin\\\\problem\\\\\x
+146\integumentary-system/rashes\\rashes\4\\skin\\\\problem\\\\\x
 147\\\sunburn\4\\skin\\\\\\\\\
 148\\\Eczema \4\\skin\\\\\\\\\
 149\\\Psoriasis\4\\skin\\\\\\\\\
@@ -363,7 +363,7 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 315\respiratory-system/breath-shortness\breath-shortness\shortness of breath\1\\\\\\problem\\\\\x
 316\immune-system/chills\chills\chills\6\\\\\\problem\\\\\x
 317\digestive-system/appetite-loss\appetite-loss\loss of appetite\0\\\\\\problem\\\\\x
-318\digestive-system/difficulty-swallowing\difficulty-swallowing\difficulty swallowing, swallowing difficulty\0\\\\dysphagia \\problem\\\\\x
+318\digestive-system/difficulty-swallowing\difficulty-swallowing\difficulty swallowing, swallowing difficulty, difficult swallowing\0\\\\dysphagia \\problem\\\\\x
 319\integumentary-system/inflamed-gums\inflamed-gums\inflamed gums\4\\\\\\problem\\\\\x
 320\integumentary-system/white-tongue\white-tongue\white tongue\4\\\\\\problem\\\\\x
 321\integumentary-system/bad-taste\bad-taste\bad taste, persistent bad taste\4\\\\\\problem\\\\\x
@@ -389,13 +389,13 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 341\respiratory-system/throat-redness\\throat redness\1\\\\\\problem\\\\\x
 342\digestive-system/throat-irritation\\throat irritation\0\\\\\\problem\\\\\x
 343\digestive-system/mouth-sour-taste\\sour taste in mouth\0\\\\\\problem\\\\\x
-344\digestive-system/mouth-bitter-taste\\bitter taste in mouth\0\\\\\\problem\\\\\x
-345\digestive-system/burping\\burping\0\\\\\\problem\\\\\x
-346\\\\\\\\\\\\\\\
-347\\\\\\\\\\\\\\\
-348\\\\\\\\\\\\\\\
-349\\\\\\\\\\\\\\\
-350\\\\\\\\\\\\\\\
+344\digestive-system/mouth-bitter-taste\\bitter taste in mouth, bitter taste\0\\\\\\problem\\\\\x
+345\digestive-system/burping\\burping, burping frequently\0\\\\\\problem\\\\\x
+346\digestive-system/regurgitation\\regurgitation\0\\\\\\problem\\\\\x
+347\digestive-system/stomach-discomfort\\stomach discomfort\0\\\\\\problem\\\\\x
+348\respiratory-system/coughing-fits\\coughing fits\1\\\\Paroxysmal coughing \\problem\\\\\x
+349\digestive-system/stomach-growling\\stomach growling\0\\\\\\problem\\\\\x
+350\digestive-system/upper-abdominal-pain\\upper abdominal pain\0\\\\\\problem\\\\\x
 351\\\\\\\\\\\\\\\
 352\\\\\\\\\\\\\\\
 353\\\\\\\\\\\\\\\

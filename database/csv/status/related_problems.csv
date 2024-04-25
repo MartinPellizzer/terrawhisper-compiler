@@ -72,3 +72,25 @@ condition_id\condition_name\condition_slug\related_problem_id\related_problem_na
 9\heartburn\digestive-system/heartburn\27\vomiting\digestive-system/vomiting
 9\heartburn\digestive-system/heartburn\345\burping\digestive-system/burping
 9\heartburn\digestive-system/heartburn\76\hiccups\respiratory-system/hiccups
+10\acid reflux\digestive-system/acid-reflux\9\heartburn sensation\digestive-system/heartburn
+10\acid reflux\digestive-system/acid-reflux\346\regurgitation\digestive-system/regurgitation
+10\acid reflux\digestive-system/acid-reflux\347\stomach discomfort\digestive-system/stomach-discomfort
+10\acid reflux\digestive-system/acid-reflux\30\bloating feeling\digestive-system/bloating
+10\acid reflux\digestive-system/acid-reflux\345\burping frequently\digestive-system/burping
+10\acid reflux\digestive-system/acid-reflux\26\nausea sensation\digestive-system/nausea
+10\acid reflux\digestive-system/acid-reflux\59\sore throat\respiratory-system/sore-throat
+10\acid reflux\digestive-system/acid-reflux\348\coughing fits\respiratory-system/coughing-fits
+10\acid reflux\digestive-system/acid-reflux\318\difficult swallowing\digestive-system/difficulty-swallowing
+10\acid reflux\digestive-system/acid-reflux\344\bitter taste\digestive-system/mouth-bitter-taste
+13\indigestion\digestive-system/indigestion\40\painful abdomen\digestive-system/abdominal-pain
+13\indigestion\digestive-system/indigestion\30\gas bloating\digestive-system/bloating
+13\indigestion\digestive-system/indigestion\10\acid reflux\digestive-system/acid-reflux
+13\indigestion\digestive-system/indigestion\9\burning sensation\digestive-system/heartburn
+13\indigestion\digestive-system/indigestion\26\nausea\digestive-system/nausea
+13\indigestion\digestive-system/indigestion\27\vomiting\digestive-system/vomiting
+13\indigestion\digestive-system/indigestion\349\stomach growling\digestive-system/stomach-growling
+13\indigestion\digestive-system/indigestion\47\belching gas\digestive-system/flatulence
+13\indigestion\digestive-system/indigestion\30\fullness feeling\digestive-system/bloating
+13\indigestion\digestive-system/indigestion\317\loss of appetite\digestive-system/appetite-loss
+13\indigestion\digestive-system/indigestion\46\occasional diarrhea\digestive-system/diarrhea
+13\indigestion\digestive-system/indigestion\350\upper abdominal pain\digestive-system/upper-abdominal-pain
