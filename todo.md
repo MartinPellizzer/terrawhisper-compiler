@@ -36,6 +36,7 @@
 # TODO
 # ###################################################
 - other preparations and best herbs/preparations for condition
+- !!! ailments sidequest
 
 - CHECK PINNED ARTICLES
     [!] check database/articles/herbalism/tea jsons and make sure you have the in the tea_conditions csv with "to_process" cells active

@@ -1,0 +1,55 @@
+{
+    "ailment_id": "2",
+    "ailment_slug": "bad-breath",
+    "ailment_name": "bad breath",
+    "url": "ailment/bad-breath",
+    "lastmod": "2024-04-25",
+    "title": "What to know about bad breath before using medicinal herbs",
+    "herbs": [
+        {
+            "herb_name": "parsley"
+        },
+        {
+            "herb_name": "peppermint"
+        },
+        {
+            "herb_name": "spearmint"
+        },
+        {
+            "herb_name": "rosemary"
+        },
+        {
+            "herb_name": "sage"
+        },
+        {
+            "herb_name": "thyme"
+        },
+        {
+            "herb_name": "clove"
+        },
+        {
+            "herb_name": "cinnamon"
+        },
+        {
+            "herb_name": "ginger"
+        },
+        {
+            "herb_name": "lemon balm"
+        },
+        {
+            "herb_name": "eucalyptus"
+        },
+        {
+            "herb_name": "myrrh"
+        },
+        {
+            "herb_name": "tea tree"
+        },
+        {
+            "herb_name": "lavender"
+        },
+        {
+            "herb_name": "fennel"
+        }
+    ]
+}
