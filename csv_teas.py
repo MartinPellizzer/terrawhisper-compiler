@@ -81,9 +81,9 @@ def related_conditions():
         prompt = f'''
             Write a numbered list of symptoms people may experience when they have {condition_name}.
             Write only the names, not the descriptions.
-            Write only 1 symptom per list item.
-            Write each symptom in 3 words or less.
+            Use as few words as possible.
         '''
+            # Write only 1 symptom per list item.
         reply = utils_ai.gen_reply(prompt)
         # reply = utils_ai.reply_to_list_column(reply)
 

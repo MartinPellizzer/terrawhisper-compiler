@@ -69,19 +69,22 @@ body {
 .container {
     max-width: 76.8rem;
     margin: 0 auto;
-    padding: 0 1.6rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
 }
 
 .container-md {
     max-width: 76.8rem;
     margin: 0 auto;
-    padding: 0 1.6rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
 }
 
 .container-lg {
     max-width: 128.0rem;
     margin: 0 auto;
-    padding: 0 1.6rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
 }
 
 /* *************************************************************** */
@@ -523,16 +526,24 @@ td {
 /* ************************************************************ */
 /* HEADER */
 /* ************************************************************ */
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 2.4rem;
+} */
+/* 
 .header {
     background-color: #171717;
-}
+} */
 
 header {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.6rem 0;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
 }
 
 nav {
@@ -544,10 +555,21 @@ nav input:checked~.menu {
     right: 0;
 }
 
+nav a {
+    text-decoration: none;
+    color: #171717;
+    font-size: 1.6rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
 .menu {
     display: flex;
     align-items: center;
-    gap: 3.2rem;
+    gap: 1.6rem;
     z-index: 1;
     height: 100%;
     margin-bottom: 0;
@@ -568,15 +590,11 @@ nav input:checked~.menu {
     color: var(--slate-950);
 }
 
-.header-section {
-    background-color: #1d4ed8;
-}
-
 .hamburger {
     position: relative;
     width: 30px;
     height: 4px;
-    background-color: white;
+    background-color: #171717;
     border-radius: 10px;
     z-index: 2;
 }
@@ -587,7 +605,7 @@ nav input:checked~.menu {
     position: absolute;
     height: 4px;
     right: 0;
-    background-color: white;
+    background-color: #171717;
     border-radius: 10px;
 }
 
@@ -623,17 +641,6 @@ nav input:checked~.menu {
     right: 0;
 }
 
-header a {
-    text-decoration: none;
-}
-
-.header-light {
-    color: #0c0a09;
-}
-
-.header-light a {
-    color: #0c0a09;
-}
 
 
 /* ************************************************************ */
@@ -667,7 +674,7 @@ footer {
         position: fixed;
         top: 0;
         right: -300px;
-        background-color: #171717;
+        background-color: #e5e5e5;
         width: 300px;
         height: 100%;
         padding-top: 65px;

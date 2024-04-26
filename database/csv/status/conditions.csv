@@ -19,7 +19,7 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 17\digestive-system/gastric-problem\gastric-problem\gastric problem\0\\stomach\\\\??\\\\\x
 18\digestive-system/gastritis\gastritis\gastritis\0\\stomach\\\\symptom\\\\\x
 19\digestive-system/mucus-stomach\mucus-stomach\mucus in stomach\0\\stomach\\\\symptom\\\\\x
-20\digestive-system/peptic-ulcers\peptic-ulcers\peptic ulcers\0\\stomach, small intestine (duodenum)\\\\condition \\\\\x
+20\digestive-system/peptic-ulcers\peptic-ulcers\peptic ulcers, peptic ulcer\0\\stomach, small intestine (duodenum)\\\\condition \\\\\x
 21\digestive-system/gastroenteritis\gastroenteritis\gastroenteritis\0\\stomach, intestines\\\\condition \\\\\x
 22\digestive-system/gastroparesis\gastroparesis\gastroparesis\0\\stomach \\\\condition \\\x\\x
 23\digestive-system/hiatus-hernia\hiatus-hernia\hiatus hernia\0\\stomach\\\\condition \\\\\x
@@ -151,11 +151,11 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 149\integumentary-system/psoriasis\\psoriasis\4\\skin\\\\problem\\\\\x
 150\integumentary-system/dermatitis\\dermatitis\4\\skin\\\\problem\\\\\x
 151\integumentary-system/nail-fungus\\nail fungus\4\\nails\\\\problem\\\\\x
-152\\\dry hair\4\\hair\\\\\\\\\
-153\\\frizzy hair\4\\hair\\\\\\\\\
-154\\\grey hair\4\\hair\\\\\\\\\
-155\\\hair fall\4\\hair\\\\\\\\\
-156\\\oily hair\4\\hair\\\\\\\\\
+152\integumentary-system/dry-hair\\dry hair\4\\hair\\\\problem\\\\\x
+153\integumentary-system/frizzy-hair\\frizzy hair\4\\hair\\\\problem\\\\\x
+154\integumentary-system/grey-hair\\grey hair\4\\hair\\\\problem\\\\\x
+155\integumentary-system/hair-fall\\hair fall\4\\hair\\\\problem\\\\\x
+156\integumentary-system/oily-hair\\oily hair\4\\hair\\\\problem\\\\\x
 157\\\quick hair growth\4\\hair\\\\\\\\\
 158\\\dandruff\4\\scalp \\\\\\\\\
 159\\\dry scalp\4\\scalp\\\\\\\\\
@@ -396,7 +396,7 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 348\respiratory-system/coughing-fits\\coughing fits\1\\\\Paroxysmal coughing \\problem\\\\\x
 349\digestive-system/stomach-growling\\stomach growling\0\\\\\\problem\\\\\x
 350\digestive-system/upper-abdominal-pain\\upper abdominal pain\0\\\\\\problem\\\\\x
-351\\\\\\\\\\\\\\\
+351\digestive-system/food-intolerance\\food intolerance\0\\\\\\problem\\\\\x
 352\\\\\\\\\\\\\\\
 353\\\\\\\\\\\\\\\
 354\\\\\\\\\\\\\\\

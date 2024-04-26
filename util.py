@@ -73,6 +73,16 @@ def csv_get_cols(rows):
     return cols
 
 
+def csv_get_rows_filtered(filepath, col_num, col_val, delimiter='\\'):
+    rows = []
+    with open(filepath, encoding='utf-8', errors='ignore') as f:
+        reader = csv.reader(f, delimiter=delimiter)
+        for i, line in enumerate(reader):
+            if line == []: continue
+            if line[col_num].lower().strip() == col_val.lower().strip():
+                rows.append(line)
+    return rows
+
 
 
 
@@ -347,11 +357,11 @@ def header_base():
                 <input type="checkbox" class="toggle-menu">
                 <div class="hamburger"></div>
                 <ul class="menu">
-                    <li><a class="text-white" href="/">Home</a></li>
-                    <li><a class="text-white" href="/herbalism.html">Herbalism</a></li>
-                    <li><a class="text-white" href="/conditions.html">Conditions</a></li>
-                    <li><a class="text-white" href="/plants.html">Plants</a></li>
-                    <li><a class="text-white" href="/about.html">About</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/herbalism.html">Herbalism</a></li>
+                    <li><a href="/conditions.html">Conditions</a></li>
+                    <li><a href="/plants.html">Plants</a></li>
+                    <li><a href="/about.html">About</a></li>
                 </ul>
             </nav>
         </header>
@@ -367,6 +377,34 @@ def header_default():
                 {header_html}
             </div>
         </section>
+    '''
+    return html
+
+
+def header_default_2():
+    html = f'''
+        <header class="container-lg">
+            <a href="#">
+                <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path
+                            d="m8 18c11.9545 0 12.9173-10.17083 12.9935-15.00334.0088-.55222-.4535-.99765-1.0057-.98751-16.9878.312-16.9878 8.54765-16.9878 15.99085v4" />
+                        <path d="m3 18s0-6 8-7" />
+                    </g>
+                </svg>
+            </a>
+            <nav>
+                <input type="checkbox" class="toggle-menu">
+                <div class="hamburger"></div>
+                <ul class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/herbalism.html">Herbalism</a></li>
+                    <li><a href="/plants.html">Herbs</a></li>
+                    <li><a href="/ailments.html">Ailments</a></li>
+                    <li><a href="/about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
     '''
     return html
 

@@ -15,6 +15,12 @@ conditions_cols = util.csv_get_cols(conditions_rows)
 systems_rows = util.csv_get_rows(g.CSV_SYSTEMS_FILEPATH)
 systems_cols = util.csv_get_cols(systems_rows)
 
+teas_rows = util.csv_get_rows(g.CSV_TEAS_FILEPATH)
+teas_cols = util.csv_get_header_dict(teas_rows)
+
+related_problems_rows = util.csv_get_rows(g.CSV_RELATED_PROBLEMS_FILEPATH)
+related_problems_cols = util.csv_get_header_dict(related_problems_rows)
+
 
 def delete_old_json_conditions_files():
     conditions_rows = util.csv_get_rows(g.CSV_CONDITIONS_FILEPATH)
@@ -75,6 +81,213 @@ def delete_json_field(key):
 # TEAS CONDITIONS
 ########################################################################
 
+def tea_condition_intro(json_filepath, data):
+    key = 'intro'
+    if key not in data:
+        condition_name = data['condition_name']
+        prompt = f'''
+            Write 1 short paragraph about the best herbal teas for {condition_name}.
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        if reply != '':
+            data[key] = reply
+            util.json_write(json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def tea_condition_teas(json_filepath, data):
+    condition_id = data['condition_id']
+    condition_name = data['condition_name']
+    condition_slug = data['condition_slug']
+    remedy_num = data['remedy_num']
+
+    # add new
+    if 'teas' not in data: data['teas'] = []
+    for tea_row in teas_rows[1:]:
+        tea_condition_id = tea_row[teas_cols['condition_id']].strip().lower()
+        tea_name = tea_row[teas_cols['tea_name']].strip().lower()
+        if tea_condition_id != condition_id: continue
+        found = False
+        for tea_obj in data['teas']:
+            if tea_obj['tea_name'] == tea_name: 
+                found = True
+                break
+        if not found:
+            data['teas'].append({'tea_name': tea_name})
+
+    # del old
+    data_filtered = []
+    for tea_obj in data['teas']: 
+        found = False
+        for tea_row in teas_rows[1:]:
+            tea_condition_id = tea_row[teas_cols['condition_id']].strip().lower()
+            tea_name = tea_row[teas_cols['tea_name']].strip().lower()
+            if tea_condition_id != condition_id: continue
+            if tea_obj['tea_name'] == tea_name: 
+                found = True
+                break
+        if found:
+            data_filtered.append(tea_obj)
+
+    data['teas'] = data_filtered
+    util.json_write(json_filepath, data)
+
+    # AI TEAS
+    for tea_obj in data['teas'][:remedy_num]:
+        tea_name = tea_obj["tea_name"].strip().lower()
+        tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea')
+
+        if 'tea_desc' not in tea_obj:
+            starting_text = f'{tea_name.capitalize()} helps with {condition_name} because '
+            prompt = f'''
+                Explain in a 5-sentence paragraph why {tea_name} helps with {condition_name}.
+                Never use the following words: can, may, might.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_paragraphs(reply)
+            if len(reply) == 1 and reply != '':
+                print('********************************')
+                print(reply)
+                print('********************************')
+                tea_obj['tea_desc'] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+        if 'tea_parts' not in tea_obj or tea_obj['tea_parts'] == []:
+            prompt = f'''
+                Write a numbered list of the most used parts of the {tea_name} plant that are used to make medicinal tea for {condition_name}.
+                Reply by only selecting parts from the following list:
+                - Roots
+                - Rhyzomes
+                - Stems
+                - Leaves
+                - Flowers
+                - Seeds
+                - Buds
+                - Bark
+                Never include aerial parts.
+                Never repeat the same part twice and never include similar parts.
+                Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {condition_name}.
+                Write each list element using the following format: [part name]: [part description].
+                Never use the following words: can, may, might.
+            '''     
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_list_column(reply)
+            if reply != '' and reply != []:
+                print('********************************')
+                print(reply)
+                print('********************************')
+                tea_obj['tea_parts'] = reply
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+            
+        key = 'tea_constituents'
+        if key not in tea_obj or tea_obj[key] == []:
+            prompt = f'''
+                Write a numbered list of the most important medicinal constituents of {tea_name} that help with {condition_name}.
+                Include 1 short sentence description for each of these medicinal constituents, explaining why that medicinal contituent is good for {condition_name}.
+                Include only medicinal constituents that have short names.
+                Don't include the name of the plant in the constituents names.
+                Write each list element using the following format: [constituent name]: [constituent description].
+                Never use the following words: can, may, might.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_list_column(reply)
+            reply = [line.replace('[', '').replace(']', '') for line in reply]
+            if reply != '' and reply != []:
+                print('********************************')
+                print(reply)
+                print('********************************')
+                tea_obj[key] = reply
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+        if 'tea_recipe' not in tea_obj or tea_obj['tea_recipe'] == []:
+            prompt = f'''
+                Write a 5-step recipe in list format to make {tea_name} for {condition_name}.
+                Include ingredients dosages and preparations times.
+                Write only 1 sentence for each step.
+                Start each step in the list with an action verb.
+                Don't include optional steps.
+                Never use the following words: can, may, might.
+            '''  
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_list(reply)
+            if reply != '' and reply != [] and len(reply) == 5:
+                print('********************************')
+                print(reply)
+                print('********************************')
+                tea_obj['tea_recipe'] = reply
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+        # TODO: gen study
+
+
+def tea_condition_supplementary(json_filepath, data):
+    condition_id = data['condition_id']
+    condition_name = data['condition_name']
+    condition_slug = data['condition_slug']
+    condition_classification = data['condition_classification']
+
+    if condition_classification != 'demography' and condition_classification != 'animal' and condition_classification == 'benefit':      
+        key = 'definition'
+        if key not in data:
+            prompt = f'''
+                Write 1 short paragraph explaining what is {condition_name} and how it impacts people lives.
+                Never use the following words: can, may, might.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            if reply != '':
+                data[key] = reply
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+        related_problmes_rows_filtered = []
+        for related_problem_row in related_problems_rows:
+            problem_condition_id = related_problem_row[related_problems_cols['condition_id']]
+            if problem_condition_id == condition_id:
+                related_problmes_rows_filtered.append(related_problem_row)
+        if related_problmes_rows_filtered != []:
+            related_problems_names = [row[related_problems_cols['related_problem_name']] for row in related_problmes_rows_filtered]
+            related_problems_names_formatted = '\n- '.join(related_problems_names)
+            key = 'related_problems'
+            if key not in data:
+                prompt = f'''
+                    Write a numbered list explaining why people with {condition_name} also experience the following problems:
+                    {related_problems_names_formatted}.
+                    Write the list items using the following structure: [related problem]: [explanation].
+                    Never use the following words: can, may, might.
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                reply = utils_ai.reply_to_list_column(reply)
+                if reply != []:
+                    print('********************************')
+                    print(reply)
+                    print('********************************')
+                    data[key] = reply
+                    util.json_write(json_filepath, data)
+                time.sleep(g.PROMPT_DELAY_TIME)
+        
+        key = 'other_remedies'
+        if key not in data:
+            prompt = f'''
+                Write 1 detailed paragraph about what are the most common and effective natural remedies for {condition_name}.
+                Don't include herbal teas.
+                Never use the following words: can, may, might.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_paragraphs(reply)
+            if reply != [] and len(reply) == 1:
+                print('********************************')
+                print(reply)
+                print('********************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+
 def teas_conditions_pages():
     for condition_row in conditions_rows[1:]:
         condition_id = condition_row[conditions_cols['condition_id']].strip()
@@ -89,9 +302,6 @@ def teas_conditions_pages():
         if to_process == '': continue
         if condition_id == '': continue
         if condition_slug == '': continue
-        # if condition_classification == 'benefit': continue
-        # if condition_name == 'digestive system': continue
-        # if condition_name != 'bad breath': continue
 
         print(f'>> {condition_name}')
 
@@ -104,18 +314,16 @@ def teas_conditions_pages():
                 util.create_folder_for_filepath(condition_new_filepath)
                 shutil.copy2(condition_old_filepath, condition_new_filepath)
 
-        # if condition_name == 'bladder infection':
-        #     print('here')
-        #     quit()
-
         # INIT
         json_filepath = f'database/json/herbalism/tea/{condition_slug}.json'
 
         util.create_folder_for_filepath(json_filepath)
         util.json_generate_if_not_exists(json_filepath)
         data = util.json_read(json_filepath)
+        data['condition_id'] = condition_id
         data['condition_name'] = condition_name
         data['condition_slug'] = condition_slug
+        data['condition_classification'] = condition_classification
         data['url'] = f'herbalism/tea/{condition_slug}'
 
         lastmod = util.date_now()
@@ -129,210 +337,10 @@ def teas_conditions_pages():
 
         util.json_write(json_filepath, data)
 
-        # AI INTRO
-        key = 'intro'
-        if key not in data:
-            prompt = f'''
-                Write 1 short paragraph about the best herbal teas for {condition_name}.
-                Never use the following words: can, may, might.
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            if reply != '':
-                data[key] = reply
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-
-        # JSON TEAS
-        teas_rows = util.csv_get_rows(g.CSV_TEAS_FILEPATH)
-        teas_cols = util.csv_get_header_dict(teas_rows)
-
-        # add new
-        if 'teas' not in data: data['teas'] = []
-        for tea_row in teas_rows[1:]:
-            tea_condition_id = tea_row[teas_cols['condition_id']].strip().lower()
-            tea_name = tea_row[teas_cols['tea_name']].strip().lower()
-            if tea_condition_id != condition_id: continue
-            found = False
-            for tea_obj in data['teas']:
-                if tea_obj['tea_name'] == tea_name: 
-                    found = True
-                    break
-            if not found:
-                data['teas'].append({'tea_name': tea_name})
-
-        # del old
-        data_filtered = []
-        for tea_obj in data['teas']: 
-            found = False
-            for tea_row in teas_rows[1:]:
-                tea_condition_id = tea_row[teas_cols['condition_id']].strip().lower()
-                tea_name = tea_row[teas_cols['tea_name']].strip().lower()
-                if tea_condition_id != condition_id: continue
-                if tea_obj['tea_name'] == tea_name: 
-                    found = True
-                    break
-            if found:
-                data_filtered.append(tea_obj)
-
-        data['teas'] = data_filtered
-        util.json_write(json_filepath, data)
-
-        # AI TEAS
-        for tea_obj in data['teas'][:remedy_num]:
-            tea_name = tea_obj["tea_name"].strip().lower()
-            tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea')
-
-            if 'tea_desc' not in tea_obj:
-                starting_text = f'{tea_name.capitalize()} helps with {condition_name} because '
-                prompt = f'''
-                    Explain in a 5-sentence paragraph why {tea_name} helps with {condition_name}.
-                    Never use the following words: can, may, might.
-                '''
-                reply = utils_ai.gen_reply(prompt)
-                reply = utils_ai.reply_to_paragraphs(reply)
-                if len(reply) == 1 and reply != '':
-                    print('********************************')
-                    print(reply)
-                    print('********************************')
-                    tea_obj['tea_desc'] = reply[0]
-                    util.json_write(json_filepath, data)
-                time.sleep(g.PROMPT_DELAY_TIME)
-
-            if 'tea_parts' not in tea_obj or tea_obj['tea_parts'] == []:
-                prompt = f'''
-                    Write a numbered list of the most used parts of the {tea_name} plant that are used to make medicinal tea for {condition_name}.
-                    Reply by only selecting parts from the following list:
-                    - Roots
-                    - Rhyzomes
-                    - Stems
-                    - Leaves
-                    - Flowers
-                    - Seeds
-                    - Buds
-                    - Bark
-                    Never include aerial parts.
-                    Never repeat the same part twice and never include similar parts.
-                    Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {condition_name}.
-                    Write each list element using the following format: [part name]: [part description].
-                    Never use the following words: can, may, might.
-                '''     
-                reply = utils_ai.gen_reply(prompt)
-                reply = utils_ai.reply_to_list_column(reply)
-                if reply != '' and reply != []:
-                    print('********************************')
-                    print(reply)
-                    print('********************************')
-                    tea_obj['tea_parts'] = reply
-                    util.json_write(json_filepath, data)
-                time.sleep(g.PROMPT_DELAY_TIME)
-                
-            key = 'tea_constituents'
-            if key not in tea_obj or tea_obj[key] == []:
-                prompt = f'''
-                    Write a numbered list of the most important medicinal constituents of {tea_name} that help with {condition_name}.
-                    Include 1 short sentence description for each of these medicinal constituents, explaining why that medicinal contituent is good for {condition_name}.
-                    Include only medicinal constituents that have short names.
-                    Don't include the name of the plant in the constituents names.
-                    Write each list element using the following format: [constituent name]: [constituent description].
-                    Never use the following words: can, may, might.
-                '''
-                reply = utils_ai.gen_reply(prompt)
-                reply = utils_ai.reply_to_list_column(reply)
-                reply = [line.replace('[', '').replace(']', '') for line in reply]
-                if reply != '' and reply != []:
-                    print('********************************')
-                    print(reply)
-                    print('********************************')
-                    tea_obj[key] = reply
-                    util.json_write(json_filepath, data)
-                time.sleep(g.PROMPT_DELAY_TIME)
-
-            if 'tea_recipe' not in tea_obj or tea_obj['tea_recipe'] == []:
-                prompt = f'''
-                    Write a 5-step recipe in list format to make {tea_name} for {condition_name}.
-                    Include ingredients dosages and preparations times.
-                    Write only 1 sentence for each step.
-                    Start each step in the list with an action verb.
-                    Don't include optional steps.
-                    Never use the following words: can, may, might.
-                '''  
-                reply = utils_ai.gen_reply(prompt)
-                reply = utils_ai.reply_to_list(reply)
-                if reply != '' and reply != [] and len(reply) == 5:
-                    print('********************************')
-                    print(reply)
-                    print('********************************')
-                    tea_obj['tea_recipe'] = reply
-                    util.json_write(json_filepath, data)
-                time.sleep(g.PROMPT_DELAY_TIME)
-
-            # TODO: gen study
-        
-        
-        if condition_classification != 'demography' and condition_classification != 'animal' and condition_classification == 'benefit':      
-            # AI DEFINITION
-            key = 'definition'
-            if key not in data:
-                prompt = f'''
-                    Write 1 short paragraph explaining what is {condition_name} and how it impacts people lives.
-                    Never use the following words: can, may, might.
-                '''
-                reply = utils_ai.gen_reply(prompt)
-                if reply != '':
-                    data[key] = reply
-                    util.json_write(json_filepath, data)
-                time.sleep(g.PROMPT_DELAY_TIME)
-
-            # AI RELATED PROBLEMS
-            related_problems_rows = util.csv_get_rows(g.CSV_RELATED_PROBLEMS_FILEPATH)
-            related_problems_cols = util.csv_get_header_dict(related_problems_rows)
-
-            related_problmes_rows_filtered = []
-            for related_problem_row in related_problems_rows:
-                problem_condition_id = related_problem_row[related_problems_cols['condition_id']]
-                if problem_condition_id == condition_id:
-                    related_problmes_rows_filtered.append(related_problem_row)
-            
-            if related_problmes_rows_filtered != []:
-                related_problems_names = [row[related_problems_cols['related_problem_name']] for row in related_problmes_rows_filtered]
-                related_problems_names_formatted = '\n- '.join(related_problems_names)
-
-                key = 'related_problems'
-                if key not in data:
-                    prompt = f'''
-                        Write a numbered list explaining why people with {condition_name} also experience the following problems:
-                        {related_problems_names_formatted}.
-                        Write the list items using the following structure: [related problem]: [explanation].
-                        Never use the following words: can, may, might.
-                    '''
-                    reply = utils_ai.gen_reply(prompt)
-                    reply = utils_ai.reply_to_list_column(reply)
-                    if reply != []:
-                        print('********************************')
-                        print(reply)
-                        print('********************************')
-                        data[key] = reply
-                        util.json_write(json_filepath, data)
-                    time.sleep(g.PROMPT_DELAY_TIME)
-            
-            # AI OTHER REMEDIES
-            key = 'other_remedies'
-            if key not in data:
-                prompt = f'''
-                    Write 1 detailed paragraph about what are the most common and effective natural remedies for {condition_name}.
-                    Don't include herbal teas.
-                    Never use the following words: can, may, might.
-                '''
-                reply = utils_ai.gen_reply(prompt)
-                reply = utils_ai.reply_to_paragraphs(reply)
-                if reply != [] and len(reply) == 1:
-                    print('********************************')
-                    print(reply)
-                    print('********************************')
-                    data[key] = reply[0]
-                    util.json_write(json_filepath, data)
-                time.sleep(g.PROMPT_DELAY_TIME)
-
+        # AI
+        tea_condition_intro(json_filepath, data)
+        tea_condition_teas(json_filepath, data)
+        tea_condition_supplementary(json_filepath, data)
 
         # HTML
         html_filepath = f'website/herbalism/tea/{condition_slug}.html'
@@ -1064,6 +1072,189 @@ def tea_page():
 #     util.file_write(html_filepath, html)
 
 
+
+def ailments():
+    csv_ailments_preparations_filepath = 'database/csv/ailments_preparations.csv'
+    ailments_preparations_rows = util.csv_get_rows(csv_ailments_preparations_filepath)
+    ailments_preparations_cols = util.csv_get_cols(ailments_preparations_rows)
+
+    csv_ailments_herbs_filepath = 'database/csv/ailments_herbs.csv'
+    ailments_herbs_rows = util.csv_get_rows(csv_ailments_herbs_filepath)
+    ailments_herbs_cols = util.csv_get_cols(ailments_herbs_rows)
+
+    for ailment_row in conditions_rows[1:]:
+        ailment_id = ailment_row[ailments_cols['condition_id']] 
+        ailment_name = ailment_row[ailments_cols['condition_names']].split(',')[0].strip().lower()
+        ailment_slug = ailment_row[ailments_cols['condition_slug']] 
+
+        ailment_system_id = ailment_row[ailments_cols['system_id']] 
+        ailment_system_slug = ''
+        for system_row in systems_rows[1:]:
+            system_id = system_row[systems_cols['system_id']]
+            system_slug = system_row[systems_cols['system_slug']]
+            if system_id == ailment_system_id:
+                ailment_system_slug = system_slug
+                break
+
+        # if ailment_id != '2': continue # test bad-breath
+
+        # # csv
+        # found = False
+        # for ailment_herb_row in ailments_herbs_rows[1:]:
+        #     ailment_id_tmp = ailment_herb_row[ailments_herbs_cols['ailment_id']]
+        #     if ailment_id == ailment_id_tmp:
+        #         found = True
+        
+        # if not found:
+        #     prompt = f'''
+        #         Write a numbered list of 15 medicinal herbs that helps with {ailment_name}. 
+        #         Write only the names of the herbs, not the descriptions.
+        #         Don't include the parts of herbs, only write the names of the herbs
+        #     '''
+            
+        #     reply = utils_ai.gen_reply(prompt)
+
+        #     lst = []
+        #     lines = reply.split('\n')
+        #     for line in lines:
+        #         line = line.strip().lower()
+        #         if line == '': continue
+        #         if not line[0].isdigit(): continue
+        #         if '.' not in line: continue
+        #         line = '.'.join(line.split('.')[1:])
+        #         line = line.strip()
+        #         if line == '': continue
+        #         lst.append([ailment_id, '', '', line])
+
+        #     if len(lst) >= 10:
+        #         print('*****************************************************')
+        #         print(lst)
+        #         print('*****************************************************')
+        #         util.csv_add_rows(csv_ailments_herbs_filepath, lst)
+                
+        #     time.sleep(g.PROMPT_DELAY_TIME)
+
+        # json
+        json_ailments_filepath = f'database/json/ailments/{ailment_slug}.json'
+
+        util.create_folder_for_filepath(json_ailments_filepath)
+        util.json_generate_if_not_exists(json_ailments_filepath)
+        data = util.json_read(json_ailments_filepath)
+
+        data['ailment_id'] = ailment_id
+        data['ailment_slug'] = ailment_slug
+        data['ailment_name'] = ailment_name
+        data['url'] = f'ailment/{ailment_slug}'
+
+        lastmod = util.date_now()
+        if 'lastmod' not in data: data['lastmod'] = lastmod
+        else: lastmod = data['lastmod'] 
+
+        title = f'What to know about {ailment_name} before using medicinal herbs'
+        data['title'] = title
+
+        if 'herbs' not in data: data['herbs'] = []
+
+        util.json_write(json_ailments_filepath, data)
+
+
+
+
+        # # find herbs for ailment
+        # ailments_herbs_rows_filtered = []
+        # for ailment_herb_row in ailments_herbs_rows[1:]:
+        #     ailment_id_tmp = ailment_herb_row[ailments_herbs_cols['ailment_id']]
+        #     if ailment_id_tmp == ailment_id:
+        #         ailments_herbs_rows_filtered.append(ailment_herb_row)
+
+
+        # # add herbs in json if not already present
+        # for ailment_herb_row in ailments_herbs_rows_filtered:
+        #     herb_name = ailment_herb_row[ailments_herbs_cols['herb_name']]
+        #     found = False
+        #     for herb_obj in data['herbs']:
+        #         herb_name_tmp = herb_obj['herb_name']
+        #         if herb_name_tmp == herb_name:
+        #             found = True
+        #             break
+
+        #     if not found:
+        #         data['herbs'].append({'herb_name': herb_name})
+
+        # util.json_write(json_ailments_filepath, data)
+
+        key = 'definition'
+        if key not in data: data[key] = ''
+        if data[key] == '':
+            prompt = f'''
+                Write 1 paragraph explaining what is {condition_name} and how it can affect negatively your life. 
+                Never use the following words: can, may, might.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_paragraphs(reply)
+            if len(reply) == 1:
+                print('*************************************************')
+                print(reply)
+                print('*************************************************')
+                data[key] = reply
+                util.json_write(json_ailments_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+
+
+        # html
+        html_ailments_filepath = f'website/ailments/{ailment_system_slug}/{ailment_slug}.html'
+
+        data = util.json_read(json_ailments_filepath)
+
+        article_html = ''
+        article_html += f'<h1>{title}</h1>\n'
+
+        header_html = util.header_default()
+        breadcrumbs_html = util.breadcrumbs(html_ailments_filepath)
+        meta_html = util.article_meta(article_html, lastmod)
+        article_html = util.article_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta_html}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(html_ailments_filepath, html)
+
+
+
 # action = input('''
 # enter and action from the following:
 
@@ -1082,10 +1273,14 @@ def tea_page():
 
 
 teas_conditions_pages()
-# teas_systems_page()
-# tea_page()
+teas_systems_page()
+tea_page()
+
+# ailments()
 
 
 # sitemap.sitemap_all()
 # shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 # shutil.copy2('style.css', 'website/style.css')
+
+
