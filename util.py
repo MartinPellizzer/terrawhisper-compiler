@@ -369,7 +369,7 @@ def header_base():
                     # <li><a class="text-white" href="/start-here.html">Start Here</a></li>
 
 
-def header_default():
+def header_default_old():
     header_html = header_base()
     html = f'''
         <section class="header">
@@ -381,7 +381,7 @@ def header_default():
     return html
 
 
-def header_default_2():
+def header_default():
     html = f'''
         <header class="container-lg">
             <a href="#">

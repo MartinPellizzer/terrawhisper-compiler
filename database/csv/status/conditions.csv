@@ -141,26 +141,26 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 139\integumentary-system/jellyfish-sting\jellyfish-sting\jellyfish sting\4\\skin\\\\problem\\\\\x
 140\\\\\\\\\\\\\\\
 141\integumentary-system/open-pores\open-pores\open pores\4\\skin\\\\problem\\\\\x
-142\integumentary-system/open-wounds\\open wounds\4\\skin\\\\problem\\\\\x
-143\integumentary-system/pimples\\pimples\4\\skin\\\\problem\\\\\x
-144\integumentary-system/pigmentation\\pigmentation\4\\skin\\\\problem\\\\\x
-145\integumentary-system/ringworm\\ringworm\4\\skin\\\\problem\\\\\x
-146\integumentary-system/rashes\\rashes\4\\skin\\\\problem\\\\\x
-147\integumentary-system/sunburn\\sunburn\4\\skin\\\\problem\\\\\x
-148\integumentary-system/eczema \\eczema \4\\skin\\\\problem\\\\\x
-149\integumentary-system/psoriasis\\psoriasis\4\\skin\\\\problem\\\\\x
-150\integumentary-system/dermatitis\\dermatitis\4\\skin\\\\problem\\\\\x
-151\integumentary-system/nail-fungus\\nail fungus\4\\nails\\\\problem\\\\\x
-152\integumentary-system/dry-hair\\dry hair\4\\hair\\\\problem\\\\\x
-153\integumentary-system/frizzy-hair\\frizzy hair\4\\hair\\\\problem\\\\\x
-154\integumentary-system/grey-hair\\grey hair\4\\hair\\\\problem\\\\\x
-155\integumentary-system/hair-fall\\hair fall\4\\hair\\\\problem\\\\\x
-156\integumentary-system/oily-hair\\oily hair\4\\hair\\\\problem\\\\\x
-157\\\quick hair growth\4\\hair\\\\\\\\\
-158\\\dandruff\4\\scalp \\\\\\\\\
-159\\\dry scalp\4\\scalp\\\\\\\\\
-160\\\itchy scalp\4\\scalp\\\\\\\\\
-161\\\lice\4\\scalp \\\\\\\\\
+142\integumentary-system/open-wounds\open-wounds\open wounds\4\\skin\\\\problem\\\\\x
+143\integumentary-system/pimples\pimples\pimples\4\\skin\\\\problem\\\\\x
+144\integumentary-system/pigmentation\pigmentation\pigmentation\4\\skin\\\\problem\\\\\x
+145\integumentary-system/ringworm\ringworm\ringworm\4\\skin\\\\problem\\\\\x
+146\integumentary-system/rashes\rashes\rashes\4\\skin\\\\problem\\\\\x
+147\integumentary-system/sunburn\sunburn\sunburn\4\\skin\\\\problem\\\\\x
+148\integumentary-system/eczema \eczema \eczema \4\\skin\\\\problem\\\\\x
+149\integumentary-system/psoriasis\psoriasis\psoriasis\4\\skin\\\\problem\\\\\x
+150\integumentary-system/dermatitis\dermatitis\dermatitis\4\\skin\\\\problem\\\\\x
+151\integumentary-system/nail-fungus\nail-fungus\nail fungus\4\\nails\\\\problem\\\\\x
+152\integumentary-system/dry-hair\dry-hair\dry hair\4\\hair\\\\problem\\\\\x
+153\integumentary-system/frizzy-hair\frizzy-hair\frizzy hair\4\\hair\\\\problem\\\\\x
+154\integumentary-system/grey-hair\grey-hair\grey hair\4\\hair\\\\problem\\\\\x
+155\integumentary-system/hair-fall\hair-fall\hair fall\4\\hair\\\\problem\\\\\x
+156\integumentary-system/oily-hair\oily-hair\oily hair\4\\hair\\\\problem\\\\\x
+157\integumentary-system/quick-hair-growth\quick-hair-growth\quick hair growth\4\\hair\\\\problem\\\\\x
+158\integumentary-system/dandruff\dandruff\dandruff\4\\scalp \\\\problem\\\\\x
+159\integumentary-system/dry-scalp\dry-scalp\dry scalp\4\\scalp\\\\problem\\\\\x
+160\integumentary-system/itchy-scalp\itchy-scalp\itchy scalp\4\\scalp\\\\problem\\\\\x
+161\integumentary-system/lice\lice\lice\4\\scalp \\\\problem\\\\\x
 162\\\oily face\4\\face\\\\\\\\\
 163\\\dark circles\4\\eyes\\\\\\\\\
 164\\\dry eyes\4\\eyes\\\\\\\\\
@@ -347,18 +347,18 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 \\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\
-302\integumentary-system/aging\\aging \4\\\\\\problem\\\\\x
-303\respiratory-system/altitude-sickness\\altitude sickness\1\\\\\\problem\\\\\x
-304\nervous-system/alzheimer-disease\\alzheimer’s disease\5\\\\\\problem\\\\\x
-305\cardiovascular-system/angina\\angina\2\\\\\\problem\\\\\x
-306\musculoskeletal-system/akylosing-spondylitis \\ankylosing spondylitis \3\\\\\\problem\\\\\x
-307\integumentary-system/baldness\\baldness\4\\\\\\problem\\\\\x
-308\urinary-system/bladder-infection\\bladder infection\7\\\\\\problem\\\\\x
-309\integumentary-system/body-odor\\body odor\4\\\\\\problem\\\\\x
-310\reproductive-system/breast-enlargement\\breast enlargement\8\\\\\\problem\\\\\x
-311\integumentary-system/bruises\\bruises\4\\\\\\problem\\\\\x
-312\musculoskeletal-system/bunion\\bunion \3\\\\\\problem\\\\\x
-313\integumentary-system/burns\\burns\4\\\\\\problem\\\\\x
+302\integumentary-system/aging\aging\aging \4\\\\\\problem\\\\\x
+303\respiratory-system/altitude-sickness\altitude-sickness\altitude sickness\1\\\\\\problem\\\\\x
+304\nervous-system/alzheimer-disease\alzheimer-disease\alzheimer’s disease\5\\\\\\problem\\\\\x
+305\cardiovascular-system/angina\angina\angina\2\\\\\\problem\\\\\x
+306\musculoskeletal-system/akylosing-spondylitis \akylosing-spondylitis \ankylosing spondylitis \3\\\\\\problem\\\\\x
+307\integumentary-system/baldness\baldness\baldness\4\\\\\\problem\\\\\x
+308\urinary-system/bladder-infection\bladder-infection\bladder infection\7\\\\\\problem\\\\\x
+309\integumentary-system/body-odor\body-odor\body odor\4\\\\\\problem\\\\\x
+310\reproductive-system/breast-enlargement\breast-enlargement\breast enlargement\8\\\\\\problem\\\\\x
+311\integumentary-system/bruises\bruises\bruises\4\\\\\\problem\\\\\x
+312\musculoskeletal-system/bunion\bunion\bunion \3\\\\\\problem\\\\\x
+313\integumentary-system/burns\burns\burns\4\\\\\\problem\\\\\x
 314\respiratory-system/wheezing\wheezing\wheezing\1\\\\\\problem\\\\\x
 315\respiratory-system/breath-shortness\breath-shortness\shortness of breath\1\\\\\\problem\\\\\x
 316\immune-system/chills\chills\chills\6\\\\\\problem\\\\\x
@@ -381,22 +381,22 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 333\digestive-system/difficulty-eating\difficulty-eating\difficulty eating\0\\\\\\problem\\\\\x
 334\digestive-system/painful-swallowing\painful-swallowing\painful swallowing\0\\\\\\problem\\\\\x
 335\integumentary-system/mouth-bleeding-spots\mouth-bleeding-spots\bleeding spots in mouth\4\\\\\\problem\\\\\x
-336\respiratory-system/dry-cough\\dry cough\1\\\\\\problem\\\\\x
-337\digestive-system/throat-congestion\\throat congestion\0\\\\\\problem\\\\\x
-338\digestive-system/difficult-speaking\\difficult speaking\0\\\\\\problem\\\\\x
-339\immune-system/feverish-feeling\\feverish feeling\6\\\\\\problem\\\\\x
-340\respiratory-system/tickling-throat\\tickling throat\1\\\\\\problem\\\\\x
-341\respiratory-system/throat-redness\\throat redness\1\\\\\\problem\\\\\x
-342\digestive-system/throat-irritation\\throat irritation\0\\\\\\problem\\\\\x
-343\digestive-system/mouth-sour-taste\\sour taste in mouth\0\\\\\\problem\\\\\x
-344\digestive-system/mouth-bitter-taste\\bitter taste in mouth, bitter taste\0\\\\\\problem\\\\\x
-345\digestive-system/burping\\burping, burping frequently\0\\\\\\problem\\\\\x
-346\digestive-system/regurgitation\\regurgitation\0\\\\\\problem\\\\\x
-347\digestive-system/stomach-discomfort\\stomach discomfort\0\\\\\\problem\\\\\x
-348\respiratory-system/coughing-fits\\coughing fits\1\\\\Paroxysmal coughing \\problem\\\\\x
-349\digestive-system/stomach-growling\\stomach growling\0\\\\\\problem\\\\\x
-350\digestive-system/upper-abdominal-pain\\upper abdominal pain\0\\\\\\problem\\\\\x
-351\digestive-system/food-intolerance\\food intolerance\0\\\\\\problem\\\\\x
+336\respiratory-system/dry-cough\dry-cough\dry cough\1\\\\\\problem\\\\\x
+337\digestive-system/throat-congestion\throat-congestion\throat congestion\0\\\\\\problem\\\\\x
+338\digestive-system/difficult-speaking\difficult-speaking\difficult speaking\0\\\\\\problem\\\\\x
+339\immune-system/feverish-feeling\feverish-feeling\feverish feeling\6\\\\\\problem\\\\\x
+340\respiratory-system/tickling-throat\tickling-throat\tickling throat\1\\\\\\problem\\\\\x
+341\respiratory-system/throat-redness\throat-redness\throat redness\1\\\\\\problem\\\\\x
+342\digestive-system/throat-irritation\throat-irritation\throat irritation\0\\\\\\problem\\\\\x
+343\digestive-system/mouth-sour-taste\mouth-sour-taste\sour taste in mouth\0\\\\\\problem\\\\\x
+344\digestive-system/mouth-bitter-taste\mouth-bitter-taste\bitter taste in mouth, bitter taste\0\\\\\\problem\\\\\x
+345\digestive-system/burping\burping\burping, burping frequently\0\\\\\\problem\\\\\x
+346\digestive-system/regurgitation\regurgitation\regurgitation\0\\\\\\problem\\\\\x
+347\digestive-system/stomach-discomfort\stomach-discomfort\stomach discomfort\0\\\\\\problem\\\\\x
+348\respiratory-system/coughing-fits\coughing-fits\coughing fits\1\\\\Paroxysmal coughing \\problem\\\\\x
+349\digestive-system/stomach-growling\stomach-growling\stomach growling\0\\\\\\problem\\\\\x
+350\digestive-system/upper-abdominal-pain\upper-abdominal-pain\upper abdominal pain\0\\\\\\problem\\\\\x
+351\digestive-system/food-intolerance\food-intolerance\food intolerance\0\\\\\\problem\\\\\x
 352\\\\\\\\\\\\\\\
 353\\\\\\\\\\\\\\\
 354\\\\\\\\\\\\\\\

@@ -346,7 +346,6 @@ def teas_conditions_pages():
         html_filepath = f'website/herbalism/tea/{condition_slug}.html'
 
         data = util.json_read(json_filepath)
-        condition_slugs_prev = condition_row[conditions_cols['condition_slugs_prev']].strip().lower()
 
         article_html = ''
         article_html += f'<h1>{title}</h1>\n'
@@ -521,6 +520,54 @@ def teas_conditions_pages():
         '''
 
         util.file_write(html_filepath, html)
+
+        # GEN TEAS HTML TOO FOR OLD REDIRECTS
+        condition_slug_old = condition_slug.split('/')[-1].strip()
+        html_filepath = f'website/herbalism/teas/{condition_slug_old}.html'
+
+        header_html = util.header_default()
+        breadcrumbs_html = util.breadcrumbs(html_filepath)
+        meta_html = util.article_meta(article_html, lastmod)
+        article_html = util.article_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <head>\n<meta http-equiv="refresh" content="0; url=https://terrawhisper.com/herbalism/tea/{condition_slug}.html">
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta_html}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+        util.file_write(html_filepath, html)
+
 
         # REDIRECTS
         condition_slugs_prev_list = condition_slugs_prev.split(',')
@@ -1272,15 +1319,15 @@ def ailments():
 # quit()
 
 
-teas_conditions_pages()
-teas_systems_page()
-tea_page()
+# teas_conditions_pages()
+# teas_systems_page()
+# tea_page()
 
 # ailments()
 
 
-# sitemap.sitemap_all()
-# shutil.copy2('sitemap.xml', 'website/sitemap.xml')
-# shutil.copy2('style.css', 'website/style.css')
+sitemap.sitemap_all()
+shutil.copy2('sitemap.xml', 'website/sitemap.xml')
+shutil.copy2('style.css', 'website/style.css')
 
 
