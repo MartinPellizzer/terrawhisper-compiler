@@ -1319,9 +1319,9 @@ def ailments():
 # quit()
 
 
-# teas_conditions_pages()
-# teas_systems_page()
-# tea_page()
+teas_conditions_pages()
+teas_systems_page()
+tea_page()
 
 # ailments()
 

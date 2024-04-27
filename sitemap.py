@@ -1,6 +1,14 @@
-import util
 import os
 import pathlib
+
+import g
+import util
+
+conditions_rows = util.csv_get_rows(g.CSV_CONDITIONS_FILEPATH)
+conditions_cols = util.csv_get_cols(conditions_rows)
+conditions_rows = conditions_rows[1:]
+# print(conditions_rows)
+
 
 
 def sitemap_all():
@@ -17,18 +25,37 @@ def sitemap_all():
 
 
 def sitemap_teas():
-    urls = ''
-    for filename in os.listdir('database/json/herbalism/tea'):
-        if filename.endswith('.json'):
-            filename_html = filename.replace('.json', '.html')
-            urls += f'''
+  urls = ''
+  for condition_row in conditions_rows:
+    # print(condition_row)
+    condition_slug = condition_row[conditions_cols['condition_slug']].strip().lower()
+    to_process = condition_row[conditions_cols['to_process']].lower().strip()
+
+    if to_process == '': continue
+    if condition_slug == '': continue
+
+    # print(condition_slug)
+
+    html_filepath = f'https://terrawhisper.com/herbalism/tea/{condition_slug}.html'
+    urls += f'''
 <url>
-  <loc>https://terrawhisper.com/herbalism/teas/{filename_html}</loc>
+  <loc>{html_filepath}</loc>
   <lastmod>2024-03-17</lastmod>
 </url>
 '''.strip() + '\n'
 
-    return urls
+#     urls = ''
+#     for filename in os.listdir('database/json/herbalism/tea'):
+#         if filename.endswith('.json'):
+#             filename_html = filename.replace('.json', '.html')
+#             urls += f'''
+# <url>
+#   <loc>https://terrawhisper.com/herbalism/tea/{filename_html}</loc>
+#   <lastmod>2024-03-17</lastmod>
+# </url>
+# '''.strip() + '\n'
+
+  return urls
 
 
 

@@ -320,13 +320,15 @@ def page_plants(regen_csv=False):
 # EXE
 # #########################################################
 
-# page_home()
+page_home()
 # page_start_here()
 # page_about()
 # page_top_herbs()
 # page_plants(regen_csv=False)
 
-art_problems()
+# art_problems()
 
 
 shutil.copy2('style.css', 'website/style.css')
+shutil.copy2('util.css', 'website/util.css')
+shutil.copy2('assets/images/healing-herbs.jpg', 'website/images/healing-herbs.jpg')

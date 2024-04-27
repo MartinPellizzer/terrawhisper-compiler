@@ -28,7 +28,7 @@ def teas_conditions():
             Write a numbered list of the {prompt_paragraphs_num} best herbal teas for {condition_name}.
             Write only the names of the herbs, not the descriptions.
             Include only 1 herb for each list item.
-            Don't specify the part of the herb.
+            Don't include the parts of the herbs.
         '''
 
         reply = utils_ai.gen_reply(prompt)
