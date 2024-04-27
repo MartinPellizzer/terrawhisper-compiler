@@ -11,6 +11,14 @@ problems_rows = util.csv_get_rows(g.CSV_PROBLEMS_FILEPATH)
 problems_cols = util.csv_get_cols(problems_rows)
 problems_rows = problems_rows[1:]
 
+conditions_rows = util.csv_get_rows(g.CSV_CONDITIONS_FILEPATH)
+conditions_cols = util.csv_get_cols(conditions_rows)
+conditions_rows = conditions_rows[1:]
+
+systems_rows = util.csv_get_rows(g.CSV_SYSTEMS_FILEPATH)
+systems_cols = util.csv_get_cols(systems_rows)
+systems_rows = systems_rows[1:]
+
 # #########################################################
 # ARTICLES - PROBLEMS
 # #########################################################
@@ -163,13 +171,42 @@ def art_problems():
 
 def page_home():
     header = util.header_default()
+    
+    teas_articles_html = ''
+    for condition_row in conditions_rows[:6]:
+        condition_name = condition_row[conditions_cols['condition_names']].split(',')[0].strip().lower()
+        condition_slug = condition_row[conditions_cols['condition_slugs_prev']].split(',')[0].strip().lower()
+
+        if condition_name == '': continue
+
+        condition_system_id = condition_row[conditions_cols['system_id']].split(',')[0].strip().lower()
+        condition_system_slug = util.csv_get_rows_filtered(g.CSV_SYSTEMS_FILEPATH, systems_cols['system_id'], condition_system_id)[0][systems_cols['system_slug']]
+
+        imagepath = f'/images/herbal-tea-for-{condition_slug}-overview.jpg'
+        teas_articles_html += f'''
+            <a href="/herbalism/tea/{condition_system_slug}/{condition_slug}.html">
+                <div class="card">
+                    <img class="card-image"
+                        src="{imagepath}" alt=""
+                        width="400" height="300">
+                    <h3 class="px-16 mt-16">10 Best Herbal Teas For {condition_name.title()}</h3>
+                    <p class="px-16 mt-16">Boosts the immune system and fights infections.</p>
+                </div>
+            </a>
+        '''
+
+    
 
     slug = 'index'
+
     template = util.file_read(f'templates/{slug}.html')
+
     template = template.replace('[meta_title]', 'Herbalism & Natural Healing')
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
     template = template.replace('[author_name]', g.AUTHOR_NAME)
     template = template.replace('[header]', header)
+    template = template.replace('[teas_articles]', teas_articles_html)
+
     util.file_write(f'website/{slug}.html', template)
     
     

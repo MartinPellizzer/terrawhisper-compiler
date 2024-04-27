@@ -201,6 +201,10 @@ td {
     gap: 1.6rem;
 }
 
+.gap-24 {
+    gap: 2.4rem;
+}
+
 .gap-32 {
     gap: 3.2rem;
 }
@@ -446,6 +450,30 @@ td {
     border-radius: 8px;
 }
 
+/* ************************************************************ */
+/* HOME */
+/* ************************************************************ */
+.home-best-teas a {
+    text-decoration: none;
+}
+
+.card {
+    /* height: 40rem; */
+    border-radius: 0.8rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    overflow: hidden;
+
+}
+
+.card p {
+    color: #374151;
+}
+
+.card-image {
+    width: 100%;
+    object-fit: cover;
+    height: 19.2rem;
+}
 
 
 /* ************************************************************ */
