@@ -1,5 +1,5 @@
 problem_id\problem_slug\problem_names\problem_system_id\problem_system_slug
-1\gut-health\gut health\0\digestive-system
+\\\\
 2\bad-breath\bad breath, halitosis, mouth odour\0\digestive-system
 3\dry-mouth\dry mouth, xerostomia, cottony sensation in mouth, cotton mouth\0\digestive-system
 4\mouth-ulcers\mouth ulcers, canker sores, aphthous ulcers, sores in the mouth, mouth sores, painful mouth sores\0\digestive-system
@@ -243,3 +243,61 @@ problem_id\problem_slug\problem_names\problem_system_id\problem_system_slug
 349\stomach-growling\stomach growling\0\digestive-system
 350\upper-abdominal-pain\upper abdominal pain\0\digestive-system
 351\food-intolerance\food intolerance\0\digestive-system
+157\quick-hair-growth\quick hair growth\4\integumentary-system
+158\dandruff\dandruff\4\integumentary-system
+159\dry-scalp\dry scalp\4\integumentary-system
+160\itchy-scalp\itchy scalp\4\integumentary-system
+161\lice\lice\4\integumentary-system
+162\oily-face\oily face\4\integumentary-system
+163\dark-circles\dark circles\4\integumentary-system
+164\dry-eyes\dry eyes\4\integumentary-system
+165\puffy-eyes\puffy eyes\4\integumentary-system
+166\itchy-eyes\itchy eyes\4\integumentary-system
+167\red-eyes\red eyes\4\integumentary-system
+168\stye\stye\4\integumentary-system
+169\eye-bags\eye bags\4\integumentary-system
+170\eye-infection\eye infection\4\integumentary-system
+171\eye-stye\eye stye\4\integumentary-system
+172\eye-irritation\eye irritation\4\integumentary-system
+173\eye-swelling\eye swelling\4\integumentary-system
+174\itchy-ears\itchy ears\4\integumentary-system
+175\bleeding-gums\bleeding gums\4\integumentary-system
+176\gum-pain\gum pain\4\integumentary-system
+177\cold-sore\cold sore\4\integumentary-system
+178\gum-swelling\gum swelling\4\integumentary-system
+179\gum-infection\gum infection\4\integumentary-system
+183\athlete-foot\athlete's foot\4\integumentary-system
+184\cracked-heels\cracked heels\4\integumentary-system
+185\foot-odor\foot odor\4\integumentary-system
+186\ingrown-toenail\ingrown toenail\4\integumentary-system
+187\dry-lips\dry lips\4\integumentary-system
+188\dark-lips\dark lips\4\integumentary-system
+189\lip-fever-blister\fever blister on lip\4\integumentary-system
+190\pink-lips\pink lips\4\integumentary-system
+191\toothache\toothache\4\integumentary-system
+192\breastfeeding-nipple-pain\nipple pain during breastfeeding\4\integumentary-system
+193\jock-itch\jock itch\4\integumentary-system
+199\neuritis\neuritis\5\nervous-system
+200\nerve-pain\nerve pain\5\nervous-system
+202\one-side-headache\one side headache\5\nervous-system
+203\migraine\migraine\5\nervous-system
+204\insomnia\insomnia\5\nervous-system
+205\quick-sleep\quick sleep\5\nervous-system
+206\anxiety\anxiety\5\nervous-system
+207\stress\stress\5\nervous-system
+208\depression\depression\5\nervous-system
+209\anorexia-nervosa\anorexia nervosa\5\nervous-system
+210\jet-lag\jet lag\5\nervous-system
+211\eye-pain\eye pain\5\nervous-system
+212\eye-strain\eye strain\5\nervous-system
+213\pink-eye\pink eye\5\nervous-system
+214\sore-eyes\sore eyes\5\nervous-system
+215\tinnitus\tinnitus\5\nervous-system
+216\dizziness\dizziness\5\nervous-system
+217\ear-blockage\ear blockage\5\nervous-system
+218\motion-sickness\motion sickness\5\nervous-system
+219\shingles\shingles\5\nervous-system
+220\strep-throat\strep throat\5\nervous-system
+221\nausea\nausea\5\nervous-system
+222\hands-numbness\numbness in hands\5\nervous-system
+223\burning-feet\burning feet\5\nervous-system

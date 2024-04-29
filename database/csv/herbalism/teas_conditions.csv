@@ -58,45 +58,45 @@ condition_id\condition_name\condition_slug\tea_name
 10\acid reflux\acid-reflux\peppermint
 10\acid reflux\acid-reflux\coriander
 10\acid reflux\acid-reflux\calendula
-129\acne\\chamomile
-129\acne\\lavender
-129\acne\\calendula
-129\acne\\green tea
-129\acne\\red clover
-129\acne\\burdock
-129\acne\\dandelion
-129\acne\\ginger
-129\acne\\turmeric
-129\acne\\marshmallow
-129\acne\\licorice
-129\acne\\yellow
-129\acne\\neem
-129\acne\\echinacea
-129\acne\\sage
-129\acne\\rosehips
-129\acne\\blackberry
-129\acne\\hawthorn
-129\acne\\raspberry
-129\acne\\sarsaparilla
-286\adrenal fatigue\\ashwagandha
-286\adrenal fatigue\\holy basil
-286\adrenal fatigue\\rhodiola
-286\adrenal fatigue\\licorice
-286\adrenal fatigue\\maca
-286\adrenal fatigue\\schisandra
-286\adrenal fatigue\\chaga mushroom
-286\adrenal fatigue\\gynostemma
-286\adrenal fatigue\\passionflower
-286\adrenal fatigue\\rehmannia
-286\adrenal fatigue\\eleuthero
-286\adrenal fatigue\\he shou wu
-286\adrenal fatigue\\red clover
-286\adrenal fatigue\\milk thistle
-286\adrenal fatigue\\dandelion
-286\adrenal fatigue\\chamomile
-286\adrenal fatigue\\ginger
-286\adrenal fatigue\\turmeric
-286\adrenal fatigue\\valerian
+129\acne\acne\chamomile
+129\acne\acne\lavender
+129\acne\acne\calendula
+129\acne\acne\green tea
+129\acne\acne\red clover
+129\acne\acne\burdock
+129\acne\acne\dandelion
+129\acne\acne\ginger
+129\acne\acne\turmeric
+129\acne\acne\marshmallow
+129\acne\acne\licorice
+129\acne\acne\yellow
+129\acne\acne\neem
+129\acne\acne\echinacea
+129\acne\acne\sage
+129\acne\acne\rosehips
+129\acne\acne\blackberry
+129\acne\acne\hawthorn
+129\acne\acne\raspberry
+129\acne\acne\sarsaparilla
+286\adrenal fatigue\adrenal-fatigue\ashwagandha
+286\adrenal fatigue\adrenal-fatigue\holy basil
+286\adrenal fatigue\adrenal-fatigue\rhodiola
+286\adrenal fatigue\adrenal-fatigue\licorice
+286\adrenal fatigue\adrenal-fatigue\maca
+286\adrenal fatigue\adrenal-fatigue\schisandra
+286\adrenal fatigue\adrenal-fatigue\chaga mushroom
+286\adrenal fatigue\adrenal-fatigue\gynostemma
+286\adrenal fatigue\adrenal-fatigue\passionflower
+286\adrenal fatigue\adrenal-fatigue\rehmannia
+286\adrenal fatigue\adrenal-fatigue\eleuthero
+286\adrenal fatigue\adrenal-fatigue\he shou wu
+286\adrenal fatigue\adrenal-fatigue\red clover
+286\adrenal fatigue\adrenal-fatigue\milk thistle
+286\adrenal fatigue\adrenal-fatigue\dandelion
+286\adrenal fatigue\adrenal-fatigue\chamomile
+286\adrenal fatigue\adrenal-fatigue\ginger
+286\adrenal fatigue\adrenal-fatigue\turmeric
+286\adrenal fatigue\adrenal-fatigue\valerian
 224\alertness\alertness\guayusa
 224\alertness\alertness\yerba mate
 224\alertness\alertness\green tea
@@ -134,25 +134,25 @@ condition_id\condition_name\condition_slug\tea_name
 234\allergy\allergies\basil
 234\allergy\allergies\fennel
 234\allergy\allergies\lemon balm
-206\anxiety\\chamomile
-206\anxiety\\lavender
-206\anxiety\\lemon balm
-206\anxiety\\passionflower
-206\anxiety\\valerian
-206\anxiety\\ashwagandha
-206\anxiety\\holy basil
-206\anxiety\\kava kava
-206\anxiety\\skullcap
-206\anxiety\\rhodiola
-206\anxiety\\ginger
-206\anxiety\\lemon verbena
-206\anxiety\\catnip
-206\anxiety\\passion fruit
-206\anxiety\\gotu kola
-206\anxiety\\bacopa monnieri
-206\anxiety\\sage
-206\anxiety\\chrysanthemum
-206\anxiety\\oat straw
+206\anxiety\anxiety\chamomile
+206\anxiety\anxiety\lavender
+206\anxiety\anxiety\lemon balm
+206\anxiety\anxiety\passionflower
+206\anxiety\anxiety\valerian
+206\anxiety\anxiety\ashwagandha
+206\anxiety\anxiety\holy basil
+206\anxiety\anxiety\kava kava
+206\anxiety\anxiety\skullcap
+206\anxiety\anxiety\rhodiola
+206\anxiety\anxiety\ginger
+206\anxiety\anxiety\lemon verbena
+206\anxiety\anxiety\catnip
+206\anxiety\anxiety\passion fruit
+206\anxiety\anxiety\gotu kola
+206\anxiety\anxiety\bacopa monnieri
+206\anxiety\anxiety\sage
+206\anxiety\anxiety\chrysanthemum
+206\anxiety\anxiety\oat straw
 288\babies\babies\chamomile
 288\babies\babies\fennel
 288\babies\babies\ginger
@@ -172,25 +172,25 @@ condition_id\condition_name\condition_slug\tea_name
 288\babies\babies\ginkgo biloba
 288\babies\babies\holy basil
 288\babies\babies\marjoram
-107\back pain\\chamomile
-107\back pain\\ginger
-107\back pain\\turmeric
-107\back pain\\white willow
-107\back pain\\devil's claw
-107\back pain\\cat's claw
-107\back pain\\fennel
-107\back pain\\licorice
-107\back pain\\passionflower
-107\back pain\\valerian
-107\back pain\\black cohosh
-107\back pain\\eucalyptus
-107\back pain\\peppermint
-107\back pain\\holy basil
-107\back pain\\raspberry
-107\back pain\\milk thistle
-107\back pain\\dandelion
-107\back pain\\burdock
-107\back pain\\parsley
+107\back pain\back-pain\chamomile
+107\back pain\back-pain\ginger
+107\back pain\back-pain\turmeric
+107\back pain\back-pain\white willow
+107\back pain\back-pain\devil's claw
+107\back pain\back-pain\cat's claw
+107\back pain\back-pain\fennel
+107\back pain\back-pain\licorice
+107\back pain\back-pain\passionflower
+107\back pain\back-pain\valerian
+107\back pain\back-pain\black cohosh
+107\back pain\back-pain\eucalyptus
+107\back pain\back-pain\peppermint
+107\back pain\back-pain\holy basil
+107\back pain\back-pain\raspberry
+107\back pain\back-pain\milk thistle
+107\back pain\back-pain\dandelion
+107\back pain\back-pain\burdock
+107\back pain\back-pain\parsley
 2\bad breath\bad-breath\parsley
 2\bad breath\bad-breath\chamomile
 2\bad breath\bad-breath\fennel
@@ -326,26 +326,26 @@ condition_id\condition_name\condition_slug\tea_name
 225\brain fog\brain-fog\ginseng
 225\brain fog\brain-fog\valerian
 225\brain fog\brain-fog\lemon verbena
-68\chest congestion\\eucalyptus
-68\chest congestion\\ginger
-68\chest congestion\\peppermint
-68\chest congestion\\licorice
-68\chest congestion\\marshmallow
-68\chest congestion\\turmeric
-68\chest congestion\\ginseng
-68\chest congestion\\elderberry
-68\chest congestion\\sage
-68\chest congestion\\thyme
-68\chest congestion\\oregano
-68\chest congestion\\rosemary
-68\chest congestion\\echinacea
-68\chest congestion\\sambucus
-68\chest congestion\\chamomile
-68\chest congestion\\hibiscus
-68\chest congestion\\lemon balm
-68\chest congestion\\fennel
-68\chest congestion\\anise
-68\chest congestion\\holy basil
+68\chest congestion\chest-congestion\eucalyptus
+68\chest congestion\chest-congestion\ginger
+68\chest congestion\chest-congestion\peppermint
+68\chest congestion\chest-congestion\licorice
+68\chest congestion\chest-congestion\marshmallow
+68\chest congestion\chest-congestion\turmeric
+68\chest congestion\chest-congestion\ginseng
+68\chest congestion\chest-congestion\elderberry
+68\chest congestion\chest-congestion\sage
+68\chest congestion\chest-congestion\thyme
+68\chest congestion\chest-congestion\oregano
+68\chest congestion\chest-congestion\rosemary
+68\chest congestion\chest-congestion\echinacea
+68\chest congestion\chest-congestion\sambucus
+68\chest congestion\chest-congestion\chamomile
+68\chest congestion\chest-congestion\hibiscus
+68\chest congestion\chest-congestion\lemon balm
+68\chest congestion\chest-congestion\fennel
+68\chest congestion\chest-congestion\anise
+68\chest congestion\chest-congestion\holy basil
 93\circulation\circulation\ginger
 93\circulation\circulation\turmeric
 93\circulation\circulation\garlic
@@ -5720,3 +5720,610 @@ condition_id\condition_name\condition_slug\tea_name
 193\jock itch\integumentary-system/jock-itch\ginger
 193\jock itch\integumentary-system/jock-itch\clove
 193\jock itch\integumentary-system/jock-itch\cinnamon
+199\neuritis\nervous-system/neuritis\willow
+199\neuritis\nervous-system/neuritis\turmeric
+199\neuritis\nervous-system/neuritis\ginger
+199\neuritis\nervous-system/neuritis\feverfew
+199\neuritis\nervous-system/neuritis\skullcap
+199\neuritis\nervous-system/neuritis\passionflower
+199\neuritis\nervous-system/neuritis\california poppy
+199\neuritis\nervous-system/neuritis\valerian
+199\neuritis\nervous-system/neuritis\lavender
+199\neuritis\nervous-system/neuritis\st. john's wort
+199\neuritis\nervous-system/neuritis\chamomile
+199\neuritis\nervous-system/neuritis\lemon balm
+199\neuritis\nervous-system/neuritis\oats straw
+199\neuritis\nervous-system/neuritis\birch
+199\neuritis\nervous-system/neuritis\nettle
+199\neuritis\nervous-system/neuritis\burdock
+199\neuritis\nervous-system/neuritis\dandelion
+199\neuritis\nervous-system/neuritis\rosemary
+199\neuritis\nervous-system/neuritis\cloves
+200\nerve pain\nervous-system/nerve-pain\st. john's wort
+200\nerve pain\nervous-system/nerve-pain\valerian
+200\nerve pain\nervous-system/nerve-pain\passionflower
+200\nerve pain\nervous-system/nerve-pain\skullcap
+200\nerve pain\nervous-system/nerve-pain\lavender
+200\nerve pain\nervous-system/nerve-pain\lemon balm
+200\nerve pain\nervous-system/nerve-pain\kava kava
+200\nerve pain\nervous-system/nerve-pain\california poppy
+200\nerve pain\nervous-system/nerve-pain\clary sage
+200\nerve pain\nervous-system/nerve-pain\hops
+200\nerve pain\nervous-system/nerve-pain\linden
+200\nerve pain\nervous-system/nerve-pain\hawthorn
+200\nerve pain\nervous-system/nerve-pain\ginkgo biloba
+200\nerve pain\nervous-system/nerve-pain\ashwagandha
+200\nerve pain\nervous-system/nerve-pain\turmeric
+200\nerve pain\nervous-system/nerve-pain\ginger
+200\nerve pain\nervous-system/nerve-pain\milk thistle
+200\nerve pain\nervous-system/nerve-pain\feverfew
+200\nerve pain\nervous-system/nerve-pain\yarrow
+202\one side headache\nervous-system/one-side-headache\feverfew
+202\one side headache\nervous-system/one-side-headache\willow
+202\one side headache\nervous-system/one-side-headache\ginger
+202\one side headache\nervous-system/one-side-headache\peppermint
+202\one side headache\nervous-system/one-side-headache\chamomile
+202\one side headache\nervous-system/one-side-headache\skullcap
+202\one side headache\nervous-system/one-side-headache\linden
+202\one side headache\nervous-system/one-side-headache\passionflower
+202\one side headache\nervous-system/one-side-headache\valerian
+202\one side headache\nervous-system/one-side-headache\lavender
+202\one side headache\nervous-system/one-side-headache\birch
+202\one side headache\nervous-system/one-side-headache\clary sage
+202\one side headache\nervous-system/one-side-headache\jamaican dogwood
+202\one side headache\nervous-system/one-side-headache\corn silk
+202\one side headache\nervous-system/one-side-headache\wood betony
+202\one side headache\nervous-system/one-side-headache\basil
+202\one side headache\nervous-system/one-side-headache\catnip
+202\one side headache\nervous-system/one-side-headache\coffeenut
+202\one side headache\nervous-system/one-side-headache\dandelion
+203\migraine\nervous-system/migraine\feverfew
+203\migraine\nervous-system/migraine\butterbur
+203\migraine\nervous-system/migraine\peppermint
+203\migraine\nervous-system/migraine\ginger
+203\migraine\nervous-system/migraine\willow
+203\migraine\nervous-system/migraine\valerian
+203\migraine\nervous-system/migraine\lavender
+203\migraine\nervous-system/migraine\linden
+203\migraine\nervous-system/migraine\skullcap
+203\migraine\nervous-system/migraine\passionflower
+203\migraine\nervous-system/migraine\chamomile
+203\migraine\nervous-system/migraine\coriander
+203\migraine\nervous-system/migraine\licorice
+203\migraine\nervous-system/migraine\turmeric
+203\migraine\nervous-system/migraine\yarrow
+203\migraine\nervous-system/migraine\hawthorn
+203\migraine\nervous-system/migraine\basil
+203\migraine\nervous-system/migraine\black cohosh
+203\migraine\nervous-system/migraine\chicory
+205\quick sleep\nervous-system/quick-sleep\chamomile
+205\quick sleep\nervous-system/quick-sleep\lavender
+205\quick sleep\nervous-system/quick-sleep\valerian
+205\quick sleep\nervous-system/quick-sleep\passionflower
+205\quick sleep\nervous-system/quick-sleep\lemon balm
+205\quick sleep\nervous-system/quick-sleep\hops
+205\quick sleep\nervous-system/quick-sleep\california poppy
+205\quick sleep\nervous-system/quick-sleep\skullcap
+205\quick sleep\nervous-system/quick-sleep\ashwagandha
+205\quick sleep\nervous-system/quick-sleep\st. john's wort
+205\quick sleep\nervous-system/quick-sleep\kava
+205\quick sleep\nervous-system/quick-sleep\magnolia
+205\quick sleep\nervous-system/quick-sleep\sage
+205\quick sleep\nervous-system/quick-sleep\catnip
+205\quick sleep\nervous-system/quick-sleep\clary sage
+205\quick sleep\nervous-system/quick-sleep\mistletoe
+205\quick sleep\nervous-system/quick-sleep\yarrow
+205\quick sleep\nervous-system/quick-sleep\linden
+205\quick sleep\nervous-system/quick-sleep\ziziphus
+207\stress\nervous-system/stress\chamomile
+207\stress\nervous-system/stress\lavender
+207\stress\nervous-system/stress\lemon balm
+207\stress\nervous-system/stress\peppermint
+207\stress\nervous-system/stress\valerian
+207\stress\nervous-system/stress\passionflower
+207\stress\nervous-system/stress\ashwagandha
+207\stress\nervous-system/stress\holy basil
+207\stress\nervous-system/stress\oat straw
+207\stress\nervous-system/stress\skullcap
+207\stress\nervous-system/stress\kava kava
+207\stress\nervous-system/stress\catnip
+207\stress\nervous-system/stress\mistletoe
+207\stress\nervous-system/stress\cordyceps
+207\stress\nervous-system/stress\reishi
+207\stress\nervous-system/stress\rhodiola
+207\stress\nervous-system/stress\schisandra
+207\stress\nervous-system/stress\tulsi
+207\stress\nervous-system/stress\gotu kola
+208\depression\nervous-system/depression\st. john's wort
+208\depression\nervous-system/depression\lavender
+208\depression\nervous-system/depression\chamomile
+208\depression\nervous-system/depression\ginkgo biloba
+208\depression\nervous-system/depression\passionflower
+208\depression\nervous-system/depression\lemon balm
+208\depression\nervous-system/depression\ashwagandha
+208\depression\nervous-system/depression\rhodiola rosea
+208\depression\nervous-system/depression\valerian
+208\depression\nervous-system/depression\skullcap
+208\depression\nervous-system/depression\hawthorn
+208\depression\nervous-system/depression\eleuthero
+208\depression\nervous-system/depression\saffron
+208\depression\nervous-system/depression\clary sage
+208\depression\nervous-system/depression\oat straw
+208\depression\nervous-system/depression\catnip
+208\depression\nervous-system/depression\holy basil
+208\depression\nervous-system/depression\fennel
+208\depression\nervous-system/depression\marjoram
+209\anorexia nervosa\nervous-system/anorexia-nervosa\peppermint
+209\anorexia nervosa\nervous-system/anorexia-nervosa\chamomile
+209\anorexia nervosa\nervous-system/anorexia-nervosa\lavender
+209\anorexia nervosa\nervous-system/anorexia-nervosa\lemon balm
+209\anorexia nervosa\nervous-system/anorexia-nervosa\ginger
+209\anorexia nervosa\nervous-system/anorexia-nervosa\skullcap
+209\anorexia nervosa\nervous-system/anorexia-nervosa\passionflower
+209\anorexia nervosa\nervous-system/anorexia-nervosa\valerian
+209\anorexia nervosa\nervous-system/anorexia-nervosa\hawthorn
+209\anorexia nervosa\nervous-system/anorexia-nervosa\linden
+209\anorexia nervosa\nervous-system/anorexia-nervosa\marshmallow
+209\anorexia nervosa\nervous-system/anorexia-nervosa\slippery elm
+209\anorexia nervosa\nervous-system/anorexia-nervosa\milk thistle
+209\anorexia nervosa\nervous-system/anorexia-nervosa\dandelion
+209\anorexia nervosa\nervous-system/anorexia-nervosa\nettle
+209\anorexia nervosa\nervous-system/anorexia-nervosa\red clover
+209\anorexia nervosa\nervous-system/anorexia-nervosa\alfalfa
+209\anorexia nervosa\nervous-system/anorexia-nervosa\oatstraw
+209\anorexia nervosa\nervous-system/anorexia-nervosa\rooibos
+210\jet lag\nervous-system/jet-lag\valerian
+210\jet lag\nervous-system/jet-lag\chamomile
+210\jet lag\nervous-system/jet-lag\lavender
+210\jet lag\nervous-system/jet-lag\lemon balm
+210\jet lag\nervous-system/jet-lag\passionflower
+210\jet lag\nervous-system/jet-lag\peppermint
+210\jet lag\nervous-system/jet-lag\ginger
+210\jet lag\nervous-system/jet-lag\skullcap
+210\jet lag\nervous-system/jet-lag\hawthorn
+210\jet lag\nervous-system/jet-lag\st. john's wort
+210\jet lag\nervous-system/jet-lag\yerba mate
+210\jet lag\nervous-system/jet-lag\kava kava
+210\jet lag\nervous-system/jet-lag\ashwagandha
+210\jet lag\nervous-system/jet-lag\magnolia
+210\jet lag\nervous-system/jet-lag\chinese skullcap
+210\jet lag\nervous-system/jet-lag\linden
+210\jet lag\nervous-system/jet-lag\catnip
+210\jet lag\nervous-system/jet-lag\sage
+210\jet lag\nervous-system/jet-lag\rosemary
+211\eye pain\nervous-system/eye-pain\chamomile
+211\eye pain\nervous-system/eye-pain\eyebright
+211\eye pain\nervous-system/eye-pain\lavender
+211\eye pain\nervous-system/eye-pain\ginkgo biloba
+211\eye pain\nervous-system/eye-pain\passionflower
+211\eye pain\nervous-system/eye-pain\bilberry
+211\eye pain\nervous-system/eye-pain\fennel
+211\eye pain\nervous-system/eye-pain\dandelion
+211\eye pain\nervous-system/eye-pain\marshmallow
+211\eye pain\nervous-system/eye-pain\linden
+211\eye pain\nervous-system/eye-pain\goldenrod
+211\eye pain\nervous-system/eye-pain\raspberry
+211\eye pain\nervous-system/eye-pain\calendula
+211\eye pain\nervous-system/eye-pain\nettle
+211\eye pain\nervous-system/eye-pain\rose petals
+211\eye pain\nervous-system/eye-pain\sage
+211\eye pain\nervous-system/eye-pain\mint
+211\eye pain\nervous-system/eye-pain\valerian
+211\eye pain\nervous-system/eye-pain\yarrow
+212\eye strain\nervous-system/eye-strain\chamomile
+212\eye strain\nervous-system/eye-strain\lavender
+212\eye strain\nervous-system/eye-strain\passionflower
+212\eye strain\nervous-system/eye-strain\valerian
+212\eye strain\nervous-system/eye-strain\linden
+212\eye strain\nervous-system/eye-strain\skullcap
+212\eye strain\nervous-system/eye-strain\hawthorn
+212\eye strain\nervous-system/eye-strain\fennel
+212\eye strain\nervous-system/eye-strain\ginkgo biloba
+212\eye strain\nervous-system/eye-strain\bilberry
+212\eye strain\nervous-system/eye-strain\eyebright
+212\eye strain\nervous-system/eye-strain\rooibos
+212\eye strain\nervous-system/eye-strain\dandelion
+212\eye strain\nervous-system/eye-strain\marshmallow
+212\eye strain\nervous-system/eye-strain\calendula
+212\eye strain\nervous-system/eye-strain\rosehip
+212\eye strain\nervous-system/eye-strain\sage
+212\eye strain\nervous-system/eye-strain\thyme
+212\eye strain\nervous-system/eye-strain\mint
+213\pink eye\nervous-system/pink-eye\chamomile
+213\pink eye\nervous-system/pink-eye\calendula
+213\pink eye\nervous-system/pink-eye\eyebright
+213\pink eye\nervous-system/pink-eye\goldenseal
+213\pink eye\nervous-system/pink-eye\fennel
+213\pink eye\nervous-system/pink-eye\licorice
+213\pink eye\nervous-system/pink-eye\red clover
+213\pink eye\nervous-system/pink-eye\raspberry
+213\pink eye\nervous-system/pink-eye\plantain
+213\pink eye\nervous-system/pink-eye\burdock
+213\pink eye\nervous-system/pink-eye\chaparral
+213\pink eye\nervous-system/pink-eye\garlic
+213\pink eye\nervous-system/pink-eye\ginkgo biloba
+213\pink eye\nervous-system/pink-eye\oak
+213\pink eye\nervous-system/pink-eye\sage
+213\pink eye\nervous-system/pink-eye\red clover
+213\pink eye\nervous-system/pink-eye\yarrow
+213\pink eye\nervous-system/pink-eye\peppermint
+213\pink eye\nervous-system/pink-eye\ginger
+214\sore eyes\nervous-system/sore-eyes\chamomile
+214\sore eyes\nervous-system/sore-eyes\eyebright
+214\sore eyes\nervous-system/sore-eyes\goldenseal
+214\sore eyes\nervous-system/sore-eyes\fennel
+214\sore eyes\nervous-system/sore-eyes\lavender
+214\sore eyes\nervous-system/sore-eyes\marshmallow
+214\sore eyes\nervous-system/sore-eyes\parsley
+214\sore eyes\nervous-system/sore-eyes\raspberry
+214\sore eyes\nervous-system/sore-eyes\calendula
+214\sore eyes\nervous-system/sore-eyes\ginkgo biloba
+214\sore eyes\nervous-system/sore-eyes\bilberry
+214\sore eyes\nervous-system/sore-eyes\dandelion
+214\sore eyes\nervous-system/sore-eyes\nettle
+214\sore eyes\nervous-system/sore-eyes\yarrow
+214\sore eyes\nervous-system/sore-eyes\cornflower
+214\sore eyes\nervous-system/sore-eyes\sage
+214\sore eyes\nervous-system/sore-eyes\red clover
+214\sore eyes\nervous-system/sore-eyes\fenugreek
+214\sore eyes\nervous-system/sore-eyes\liquorice
+217\ear blockage\nervous-system/ear-blockage\ginkgo biloba
+217\ear blockage\nervous-system/ear-blockage\goldenseal
+217\ear blockage\nervous-system/ear-blockage\echinacea
+217\ear blockage\nervous-system/ear-blockage\calendula
+217\ear blockage\nervous-system/ear-blockage\garlic
+217\ear blockage\nervous-system/ear-blockage\mullein
+217\ear blockage\nervous-system/ear-blockage\st. john's wort
+217\ear blockage\nervous-system/ear-blockage\olive
+217\ear blockage\nervous-system/ear-blockage\myrrh
+217\ear blockage\nervous-system/ear-blockage\peppermint
+217\ear blockage\nervous-system/ear-blockage\eucalyptus
+217\ear blockage\nervous-system/ear-blockage\lavender
+217\ear blockage\nervous-system/ear-blockage\chamomile
+217\ear blockage\nervous-system/ear-blockage\catnip
+217\ear blockage\nervous-system/ear-blockage\red clover
+217\ear blockage\nervous-system/ear-blockage\sage
+217\ear blockage\nervous-system/ear-blockage\basil
+217\ear blockage\nervous-system/ear-blockage\yarrow
+217\ear blockage\nervous-system/ear-blockage\birch
+218\motion sickness\nervous-system/motion-sickness\ginger
+218\motion sickness\nervous-system/motion-sickness\peppermint
+218\motion sickness\nervous-system/motion-sickness\chamomile
+218\motion sickness\nervous-system/motion-sickness\lemon balm
+218\motion sickness\nervous-system/motion-sickness\valerian
+218\motion sickness\nervous-system/motion-sickness\licorice
+218\motion sickness\nervous-system/motion-sickness\anise
+218\motion sickness\nervous-system/motion-sickness\fennel
+218\motion sickness\nervous-system/motion-sickness\cloves
+218\motion sickness\nervous-system/motion-sickness\skullcap
+218\motion sickness\nervous-system/motion-sickness\passionflower
+218\motion sickness\nervous-system/motion-sickness\holy basil
+218\motion sickness\nervous-system/motion-sickness\ginkgo biloba
+218\motion sickness\nervous-system/motion-sickness\turmeric
+218\motion sickness\nervous-system/motion-sickness\yarrow
+218\motion sickness\nervous-system/motion-sickness\raspberry
+218\motion sickness\nervous-system/motion-sickness\milk thistle
+218\motion sickness\nervous-system/motion-sickness\saw palmetto
+218\motion sickness\nervous-system/motion-sickness\black cohosh
+219\shingles\nervous-system/shingles\lemon balm
+219\shingles\nervous-system/shingles\st. john's wort
+219\shingles\nervous-system/shingles\licorice
+219\shingles\nervous-system/shingles\passionflower
+219\shingles\nervous-system/shingles\valerian
+219\shingles\nervous-system/shingles\chamomile
+219\shingles\nervous-system/shingles\ginger
+219\shingles\nervous-system/shingles\turmeric
+219\shingles\nervous-system/shingles\echinacea
+219\shingles\nervous-system/shingles\burdock
+219\shingles\nervous-system/shingles\red clover
+219\shingles\nervous-system/shingles\sage
+219\shingles\nervous-system/shingles\rosemary
+219\shingles\nervous-system/shingles\peppermint
+219\shingles\nervous-system/shingles\basil
+219\shingles\nervous-system/shingles\dandelion
+219\shingles\nervous-system/shingles\skullcap
+219\shingles\nervous-system/shingles\yarrow
+219\shingles\nervous-system/shingles\oat straw
+220\strep throat\nervous-system/strep-throat\chamomile
+220\strep throat\nervous-system/strep-throat\licorice
+220\strep throat\nervous-system/strep-throat\slippery elm
+220\strep throat\nervous-system/strep-throat\marshmallow
+220\strep throat\nervous-system/strep-throat\echinacea
+220\strep throat\nervous-system/strep-throat\goldenseal
+220\strep throat\nervous-system/strep-throat\clove
+220\strep throat\nervous-system/strep-throat\peppermint
+220\strep throat\nervous-system/strep-throat\sage
+220\strep throat\nervous-system/strep-throat\thyme
+220\strep throat\nervous-system/strep-throat\cinnamon
+220\strep throat\nervous-system/strep-throat\ginger
+220\strep throat\nervous-system/strep-throat\fenugreek
+220\strep throat\nervous-system/strep-throat\raspberry
+220\strep throat\nervous-system/strep-throat\rose hips
+220\strep throat\nervous-system/strep-throat\hibiscus
+220\strep throat\nervous-system/strep-throat\calendula
+220\strep throat\nervous-system/strep-throat\bishop's weed
+220\strep throat\nervous-system/strep-throat\yarrow
+221\nausea\nervous-system/nausea\ginger
+221\nausea\nervous-system/nausea\peppermint
+221\nausea\nervous-system/nausea\chamomile
+221\nausea\nervous-system/nausea\licorice
+221\nausea\nervous-system/nausea\fennel
+221\nausea\nervous-system/nausea\cloves
+221\nausea\nervous-system/nausea\anise
+221\nausea\nervous-system/nausea\basil
+221\nausea\nervous-system/nausea\cinnamon
+221\nausea\nervous-system/nausea\black cohosh
+221\nausea\nervous-system/nausea\slippery elm
+221\nausea\nervous-system/nausea\raspberry
+221\nausea\nervous-system/nausea\yarrow
+221\nausea\nervous-system/nausea\skullcap
+221\nausea\nervous-system/nausea\valerian
+221\nausea\nervous-system/nausea\marshmallow
+221\nausea\nervous-system/nausea\birch
+221\nausea\nervous-system/nausea\dandelion
+221\nausea\nervous-system/nausea\milk thistle
+222\numbness in hands\nervous-system/hands-numbness\ginkgo
+222\numbness in hands\nervous-system/hands-numbness\turmeric
+222\numbness in hands\nervous-system/hands-numbness\willow
+222\numbness in hands\nervous-system/hands-numbness\cayenne pepper
+222\numbness in hands\nervous-system/hands-numbness\ginger
+222\numbness in hands\nervous-system/hands-numbness\skullcap
+222\numbness in hands\nervous-system/hands-numbness\feverfew
+222\numbness in hands\nervous-system/hands-numbness\peppermint
+222\numbness in hands\nervous-system/hands-numbness\yarrow
+222\numbness in hands\nervous-system/hands-numbness\burdock
+222\numbness in hands\nervous-system/hands-numbness\dandelion
+222\numbness in hands\nervous-system/hands-numbness\valerian
+222\numbness in hands\nervous-system/hands-numbness\passionflower
+222\numbness in hands\nervous-system/hands-numbness\st. john's wort
+222\numbness in hands\nervous-system/hands-numbness\milk thistle
+222\numbness in hands\nervous-system/hands-numbness\nettle
+222\numbness in hands\nervous-system/hands-numbness\rosemary
+222\numbness in hands\nervous-system/hands-numbness\sage
+222\numbness in hands\nervous-system/hands-numbness\cloves
+223\burning feet\nervous-system/burning-feet\peppermint
+223\burning feet\nervous-system/burning-feet\chamomile
+223\burning feet\nervous-system/burning-feet\lemongrass
+223\burning feet\nervous-system/burning-feet\ginger
+223\burning feet\nervous-system/burning-feet\cinnamon
+223\burning feet\nervous-system/burning-feet\willow
+223\burning feet\nervous-system/burning-feet\bilberry
+223\burning feet\nervous-system/burning-feet\nettle
+223\burning feet\nervous-system/burning-feet\dandelion
+223\burning feet\nervous-system/burning-feet\yarrow
+223\burning feet\nervous-system/burning-feet\sage
+223\burning feet\nervous-system/burning-feet\rosemary
+223\burning feet\nervous-system/burning-feet\turmeric
+223\burning feet\nervous-system/burning-feet\burdock
+223\burning feet\nervous-system/burning-feet\cloves
+223\burning feet\nervous-system/burning-feet\basil
+223\burning feet\nervous-system/burning-feet\hawthorn
+223\burning feet\nervous-system/burning-feet\alfalfa
+223\burning feet\nervous-system/burning-feet\fennel
+215\tinnitus\nervous-system/tinnitus\ginkgo biloba
+215\tinnitus\nervous-system/tinnitus\black cohosh
+215\tinnitus\nervous-system/tinnitus\willow
+215\tinnitus\nervous-system/tinnitus\turmeric
+215\tinnitus\nervous-system/tinnitus\green tea
+215\tinnitus\nervous-system/tinnitus\echinacea
+215\tinnitus\nervous-system/tinnitus\goldenseal
+215\tinnitus\nervous-system/tinnitus\passionflower
+215\tinnitus\nervous-system/tinnitus\skullcap
+215\tinnitus\nervous-system/tinnitus\hops
+215\tinnitus\nervous-system/tinnitus\valerian
+215\tinnitus\nervous-system/tinnitus\mistletoe
+215\tinnitus\nervous-system/tinnitus\sage
+215\tinnitus\nervous-system/tinnitus\bilberry
+215\tinnitus\nervous-system/tinnitus\milk thistle
+215\tinnitus\nervous-system/tinnitus\dandelion
+215\tinnitus\nervous-system/tinnitus\yellow dock
+215\tinnitus\nervous-system/tinnitus\burdock
+215\tinnitus\nervous-system/tinnitus\red clover
+236\inflammation\immune-system/inflammation\chamomile
+236\inflammation\immune-system/inflammation\ginger
+236\inflammation\immune-system/inflammation\turmeric
+236\inflammation\immune-system/inflammation\willow
+236\inflammation\immune-system/inflammation\green tea
+236\inflammation\immune-system/inflammation\peppermint
+236\inflammation\immune-system/inflammation\basil
+236\inflammation\immune-system/inflammation\cinnamon
+236\inflammation\immune-system/inflammation\cloves
+236\inflammation\immune-system/inflammation\fennel
+236\inflammation\immune-system/inflammation\licorice
+236\inflammation\immune-system/inflammation\birch
+236\inflammation\immune-system/inflammation\devil's claw
+236\inflammation\immune-system/inflammation\dandelion
+236\inflammation\immune-system/inflammation\juniper
+236\inflammation\immune-system/inflammation\yarrow
+236\inflammation\immune-system/inflammation\st. john's wort
+236\inflammation\immune-system/inflammation\skullcap
+238\postoperative recovery\immune-system/postoperative-recovery\chamomile
+238\postoperative recovery\immune-system/postoperative-recovery\peppermint
+238\postoperative recovery\immune-system/postoperative-recovery\ginger
+238\postoperative recovery\immune-system/postoperative-recovery\valerian
+238\postoperative recovery\immune-system/postoperative-recovery\lavender
+238\postoperative recovery\immune-system/postoperative-recovery\lemon balm
+238\postoperative recovery\immune-system/postoperative-recovery\passionflower
+238\postoperative recovery\immune-system/postoperative-recovery\skullcap
+238\postoperative recovery\immune-system/postoperative-recovery\hawthorn
+238\postoperative recovery\immune-system/postoperative-recovery\milk thistle
+238\postoperative recovery\immune-system/postoperative-recovery\dandelion
+238\postoperative recovery\immune-system/postoperative-recovery\nettle
+238\postoperative recovery\immune-system/postoperative-recovery\red clover
+238\postoperative recovery\immune-system/postoperative-recovery\calendula
+238\postoperative recovery\immune-system/postoperative-recovery\echinacea
+238\postoperative recovery\immune-system/postoperative-recovery\yarrow
+238\postoperative recovery\immune-system/postoperative-recovery\burdock
+238\postoperative recovery\immune-system/postoperative-recovery\alfalfa
+238\postoperative recovery\immune-system/postoperative-recovery\sage
+239\vaginitis\immune-system/vaginitis\chamomile
+239\vaginitis\immune-system/vaginitis\calendula
+239\vaginitis\immune-system/vaginitis\echinacea
+239\vaginitis\immune-system/vaginitis\goldenseal
+239\vaginitis\immune-system/vaginitis\red clover
+239\vaginitis\immune-system/vaginitis\yarrow
+239\vaginitis\immune-system/vaginitis\oregon grape
+239\vaginitis\immune-system/vaginitis\marshmallow
+239\vaginitis\immune-system/vaginitis\slippery elm
+239\vaginitis\immune-system/vaginitis\lavender
+239\vaginitis\immune-system/vaginitis\tea tree
+239\vaginitis\immune-system/vaginitis\uva ursi
+239\vaginitis\immune-system/vaginitis\birch
+239\vaginitis\immune-system/vaginitis\dandelion
+239\vaginitis\immune-system/vaginitis\burdock
+239\vaginitis\immune-system/vaginitis\sage
+239\vaginitis\immune-system/vaginitis\rosemary
+239\vaginitis\immune-system/vaginitis\basil
+239\vaginitis\immune-system/vaginitis\oregano
+240\prostatitis\immune-system/prostatitis\saw palmetto
+240\prostatitis\immune-system/prostatitis\stinging nettle
+240\prostatitis\immune-system/prostatitis\pygeum
+240\prostatitis\immune-system/prostatitis\pumpkin
+240\prostatitis\immune-system/prostatitis\turmeric
+240\prostatitis\immune-system/prostatitis\ginger
+240\prostatitis\immune-system/prostatitis\milk thistle
+240\prostatitis\immune-system/prostatitis\dandelion
+240\prostatitis\immune-system/prostatitis\fennel
+240\prostatitis\immune-system/prostatitis\marshmallow
+240\prostatitis\immune-system/prostatitis\corn silk
+240\prostatitis\immune-system/prostatitis\goldenseal
+240\prostatitis\immune-system/prostatitis\cat's claw
+240\prostatitis\immune-system/prostatitis\buchu
+240\prostatitis\immune-system/prostatitis\uva ursi
+240\prostatitis\immune-system/prostatitis\cranberry
+240\prostatitis\immune-system/prostatitis\birch
+240\prostatitis\immune-system/prostatitis\garlic
+240\prostatitis\immune-system/prostatitis\juniper
+241\boils\immune-system/boils\burdock
+241\boils\immune-system/boils\echinacea
+241\boils\immune-system/boils\goldenseal
+241\boils\immune-system/boils\dandelion
+241\boils\immune-system/boils\red clover
+241\boils\immune-system/boils\oregon grape
+241\boils\immune-system/boils\sarsaparilla
+241\boils\immune-system/boils\yarrow
+241\boils\immune-system/boils\yellow dock
+241\boils\immune-system/boils\pokeweed
+241\boils\immune-system/boils\chaparral
+241\boils\immune-system/boils\turmeric
+241\boils\immune-system/boils\ginger
+241\boils\immune-system/boils\cinnamon
+241\boils\immune-system/boils\garlic
+241\boils\immune-system/boils\calendula
+241\boils\immune-system/boils\chamomile
+241\boils\immune-system/boils\lavender
+241\boils\immune-system/boils\licorice
+242\fungal skin infection\immune-system/fungal-skin-infection\chamomile
+242\fungal skin infection\immune-system/fungal-skin-infection\calendula
+242\fungal skin infection\immune-system/fungal-skin-infection\echinacea
+242\fungal skin infection\immune-system/fungal-skin-infection\goldenseal
+242\fungal skin infection\immune-system/fungal-skin-infection\oregon grape
+242\fungal skin infection\immune-system/fungal-skin-infection\st. john's wort
+242\fungal skin infection\immune-system/fungal-skin-infection\licorice
+242\fungal skin infection\immune-system/fungal-skin-infection\turmeric
+242\fungal skin infection\immune-system/fungal-skin-infection\ginger
+242\fungal skin infection\immune-system/fungal-skin-infection\neem
+242\fungal skin infection\immune-system/fungal-skin-infection\myrrh
+242\fungal skin infection\immune-system/fungal-skin-infection\pau d'arco
+242\fungal skin infection\immune-system/fungal-skin-infection\sage
+242\fungal skin infection\immune-system/fungal-skin-infection\thyme
+242\fungal skin infection\immune-system/fungal-skin-infection\oregano
+242\fungal skin infection\immune-system/fungal-skin-infection\tea tree
+242\fungal skin infection\immune-system/fungal-skin-infection\lavender
+242\fungal skin infection\immune-system/fungal-skin-infection\burdock
+242\fungal skin infection\immune-system/fungal-skin-infection\dandelion
+243\preventing cancer\immune-system/cancer-prevention\green tea
+243\preventing cancer\immune-system/cancer-prevention\turmeric
+243\preventing cancer\immune-system/cancer-prevention\ginger
+243\preventing cancer\immune-system/cancer-prevention\ginseng
+243\preventing cancer\immune-system/cancer-prevention\milk thistle
+243\preventing cancer\immune-system/cancer-prevention\echinacea
+243\preventing cancer\immune-system/cancer-prevention\dandelion
+243\preventing cancer\immune-system/cancer-prevention\red clover
+243\preventing cancer\immune-system/cancer-prevention\licorice
+243\preventing cancer\immune-system/cancer-prevention\pau d'arco
+243\preventing cancer\immune-system/cancer-prevention\chaparral
+243\preventing cancer\immune-system/cancer-prevention\yellow dock
+243\preventing cancer\immune-system/cancer-prevention\burdock
+243\preventing cancer\immune-system/cancer-prevention\sheep sorrel
+243\preventing cancer\immune-system/cancer-prevention\cat's claw
+243\preventing cancer\immune-system/cancer-prevention\slippery elm
+243\preventing cancer\immune-system/cancer-prevention\prickly ash
+243\preventing cancer\immune-system/cancer-prevention\goldenseal
+243\preventing cancer\immune-system/cancer-prevention\skullcap
+247\dysuria\urinary-system/dysuria\uva ursi
+247\dysuria\urinary-system/dysuria\buchu
+247\dysuria\urinary-system/dysuria\cornsilk
+247\dysuria\urinary-system/dysuria\marshmallow
+247\dysuria\urinary-system/dysuria\goldenrod
+247\dysuria\urinary-system/dysuria\cleavers
+247\dysuria\urinary-system/dysuria\echinacea
+247\dysuria\urinary-system/dysuria\horsetail
+247\dysuria\urinary-system/dysuria\parsley
+247\dysuria\urinary-system/dysuria\ginger
+247\dysuria\urinary-system/dysuria\dandelion
+247\dysuria\urinary-system/dysuria\cranberry
+247\dysuria\urinary-system/dysuria\sage
+247\dysuria\urinary-system/dysuria\yarrow
+247\dysuria\urinary-system/dysuria\birch
+247\dysuria\urinary-system/dysuria\chamomile
+247\dysuria\urinary-system/dysuria\st. john's wort
+247\dysuria\urinary-system/dysuria\raspberry
+247\dysuria\urinary-system/dysuria\oregano
+248\cystitis\urinary-system/cystitis\corn silk
+248\cystitis\urinary-system/cystitis\marshmallow
+248\cystitis\urinary-system/cystitis\parsley
+248\cystitis\urinary-system/cystitis\ginger
+248\cystitis\urinary-system/cystitis\dandelion
+248\cystitis\urinary-system/cystitis\uva ursi
+248\cystitis\urinary-system/cystitis\buchu
+248\cystitis\urinary-system/cystitis\bearberry
+248\cystitis\urinary-system/cystitis\cranberry
+248\cystitis\urinary-system/cystitis\horsetail
+248\cystitis\urinary-system/cystitis\goldenrod
+248\cystitis\urinary-system/cystitis\saw palmetto
+248\cystitis\urinary-system/cystitis\cleavers
+248\cystitis\urinary-system/cystitis\echinacea
+248\cystitis\urinary-system/cystitis\yarrow
+248\cystitis\urinary-system/cystitis\hydrangea
+248\cystitis\urinary-system/cystitis\juniper
+248\cystitis\urinary-system/cystitis\birch
+248\cystitis\urinary-system/cystitis\lemon balm
+249\urinary calculus\urinary-system/urinary-calculus\hydrangea
+249\urinary calculus\urinary-system/urinary-calculus\gravel
+249\urinary calculus\urinary-system/urinary-calculus\marshmallow
+249\urinary calculus\urinary-system/urinary-calculus\goldenrod
+249\urinary calculus\urinary-system/urinary-calculus\parsley
+249\urinary calculus\urinary-system/urinary-calculus\uva ursi
+249\urinary calculus\urinary-system/urinary-calculus\horsetail
+249\urinary calculus\urinary-system/urinary-calculus\ginger
+249\urinary calculus\urinary-system/urinary-calculus\dandelion
+249\urinary calculus\urinary-system/urinary-calculus\celery
+249\urinary calculus\urinary-system/urinary-calculus\basil
+249\urinary calculus\urinary-system/urinary-calculus\buchu
+249\urinary calculus\urinary-system/urinary-calculus\sage
+249\urinary calculus\urinary-system/urinary-calculus\corn silk
+249\urinary calculus\urinary-system/urinary-calculus\yarrow
+249\urinary calculus\urinary-system/urinary-calculus\birch
+249\urinary calculus\urinary-system/urinary-calculus\juniper
+249\urinary calculus\urinary-system/urinary-calculus\chicory
+249\urinary calculus\urinary-system/urinary-calculus\watermelon
+250\hematuria\urinary-system/hematuria\cornsilk
+250\hematuria\urinary-system/hematuria\horsetail
+250\hematuria\urinary-system/hematuria\ginger
+250\hematuria\urinary-system/hematuria\buchu
+250\hematuria\urinary-system/hematuria\parsley
+250\hematuria\urinary-system/hematuria\marshmallow
+250\hematuria\urinary-system/hematuria\dandelion
+250\hematuria\urinary-system/hematuria\goldenrod
+250\hematuria\urinary-system/hematuria\saw palmetto
+250\hematuria\urinary-system/hematuria\juliantia regosa
+250\hematuria\urinary-system/hematuria\sarsaparilla
+250\hematuria\urinary-system/hematuria\cleavers
+250\hematuria\urinary-system/hematuria\yarrow
+250\hematuria\urinary-system/hematuria\agrimony
+250\hematuria\urinary-system/hematuria\baical skullcap
+250\hematuria\urinary-system/hematuria\pigeonberry
+250\hematuria\urinary-system/hematuria\stinging nettle
+250\hematuria\urinary-system/hematuria\bearberry
+250\hematuria\urinary-system/hematuria\chaparral

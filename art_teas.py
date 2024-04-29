@@ -410,7 +410,7 @@ def teas_conditions_pages():
                 
             try:
                 tea_parts = tea_obj['tea_parts']
-                article_html += f'<p>Right below you will find a list of the most important active constituents in {tea_name} tea that help with {condition_name}.</p>\n'
+                article_html += f'<p>Right below you will find a list of the most important parts in {tea_name} tea that help with {condition_name}.</p>\n'
                 article_html += '<ul>\n'
                 for tea_part in tea_parts:
                     chunk_1 = tea_part.split(': ')[0]
@@ -421,7 +421,7 @@ def teas_conditions_pages():
 
             try:
                 tea_constituents = tea_obj['tea_constituents']
-                article_html += f'<p>The list below shows the primary active constituents in {tea_name} tea that help with {condition_name}.</p>\n'
+                article_html += f'<p>The list below shows the primary active constituents in {tea_name} tea that aid with {condition_name}.</p>\n'
                 article_html += '<ul>\n'
                 for tea_constituent in tea_constituents:
                     chunk_1 = tea_constituent.split(': ')[0]

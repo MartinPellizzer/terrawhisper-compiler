@@ -202,31 +202,31 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 \\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\
-199\\\Neuritis\5\\nerves\\\\\\\\\
-200\\\nerve pain\5\\nerves\\\\\\\\\
+199\nervous-system/neuritis\neuritis\neuritis\5\\nerves\\\\problem\\\\\x
+200\nervous-system/nerve-pain\nerve pain\nerve pain\5\\nerves\\\\problem\\\\\x
 201\nervous-system/headache\headache\headache\5\\brain \\\headache, headache due to cold weather, headache during pregnancy\symptom\\\\\x
-202\\\one side headache\5\\brain \\\\\\\\\
-203\\\migraine\5\\brain \\\\\\\\\
-204\\\insomnia\5\\brain \\\insomnia for elderly\\\\\\
-205\\\quick sleep\5\\brain \\\\\\\\\
-206\\\anxiety\5\\brain \\\\\\\\\
-207\\\Stress\5\\brain \\\\\\\\\
-208\\\Depression\5\\brain \\\\\\\\\
-209\\\Anorexia Nervosa\5\\brain \\\\\\\\\
-210\\\jet lag\5\\brain \\\\\\\\\
-211\\\eye pain\5\\eyes\\\\\\\\\
-212\\\eye strain\5\\eyes\\\\\\\\\
-213\\\pink eye\5\\eyes\conjunctivitis\\\\\\\\
-214\\\sore eyes\5\\eyes\\\\\\\\\
-215\\\Tinnitus\5\\ears\\\\\\\\\
-216\\\dizziness\5\\ears\\\\\\\\\
-217\\\ear blockage\5\\ears\\\\\\\\\
-218\\\motion sickness\5\\ears\\\\\\\\\
-219\\\Shingles \5\\spine \herpes zoster \\\\\\\\
-220\\\strep throat\5\\throat\\\\\\\\\
-221\\\nausea\5\\stomach\\\\\\\\\
-222\\\numbness in hands\5\\hands\\\\\\\\\
-223\\\burning feet\5\\feet \\\\\\\\\
+202\nervous-system/one-side-headache\one-side-headache\one side headache\5\\brain \\\\problem\\\\\x
+203\nervous-system/migraine\migraine\migraine\5\\brain \\\\problem\\\\\x
+204\nervous-system/insomnia\insomnia\insomnia\5\\brain \\\insomnia for elderly\problem\\\\\x
+205\nervous-system/quick-sleep\quick-sleep\quick sleep\5\\brain \\\\problem\\\\\x
+206\nervous-system/anxiety\anxiety\anxiety\5\\brain \\\\problem\\\\\x
+207\nervous-system/stress\stress\stress\5\\brain \\\\problem\\\\\x
+208\nervous-system/depression\depression\depression\5\\brain \\\\problem\\\\\x
+209\nervous-system/anorexia-nervosa\anorexia-nervosa\anorexia nervosa\5\\brain \\\\problem\\\\\x
+210\nervous-system/jet-lag\jet-lag\jet lag\5\\brain \\\\problem\\\\\x
+211\nervous-system/eye-pain\eye-pain\eye pain\5\\eyes\\\\problem\\\\\x
+212\nervous-system/eye-strain\eye-strain\eye strain\5\\eyes\\\\problem\\\\\x
+213\nervous-system/pink-eye\pink-eye\pink eye\5\\eyes\conjunctivitis\\\problem\\\\\x
+214\nervous-system/sore-eyes\sore-eyes\sore eyes\5\\eyes\\\\problem\\\\\x
+215\nervous-system/tinnitus\tinnitus\tinnitus\5\\ears\\\\problem\\\\\x
+216\nervous-system/dizziness\dizziness\dizziness\5\\ears\\\\problem\\\\\x
+217\nervous-system/ear-blockage\ear-blockage\ear blockage\5\\ears\\\\problem\\\\\x
+218\nervous-system/motion-sickness\motion-sickness\motion sickness\5\\ears\\\\problem\\\\\x
+219\nervous-system/shingles\shingles\shingles\5\\spine \herpes zoster \\\problem\\\\\x
+220\nervous-system/strep-throat\strep-throat\strep throat\5\\throat\\\\problem\\\\\x
+221\nervous-system/nausea\nausea\nausea\5\\stomach\\\\problem\\\\\x
+222\nervous-system/hands-numbness\hands-numbness\numbness in hands\5\\hands\\\\problem\\\\\x
+223\nervous-system/burning-feet\burning-feet\burning feet\5\\feet \\\\problem\\\\\x
 224\nervous-system/alertness\alertness\alertness\5\\brain \\\\benefit\\\x\\x
 225\nervous-system/brain-fog\brain-fog\brain fog\5\\brain \\\\symptom\\\x\\x
 226\nervous-system/fatigue\fatigue\fatigue\5\\brain \\\\symptom\\\x\\x
@@ -243,25 +243,25 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 \\\\\\\\\\\\\\\
 234\immune-system/allergies\allergies\allergy\6\\body\\\\condition \\\x\\x
 235\immune-system/fever\fever\fever\6\\brain \\\\symptom\\\\\x
-236\\\inflammation\6\\body\\\\\\\\\
-237\\\detox\6\\body\Detoxification\\\\\\\\
-238\\\Postoperative Recovery\6\\body\\\\\\\\\
-239\\\Vaginitis\6\\vagina \\\\\\\\\
-240\\\Prostatitis\6\\prostate \\\\\\\\\
-241\\\Boils\6\\skin \\\\\\\\\
-242\\\Fungal Skin Infection\6\\skin \\\\\\\\\
-243\\\Cancer \6\\body\\\\\\\\\
+236\immune-system/inflammation\inflammation\inflammation\6\\body\\\\problem\\\\\x
+237\immune-system/detox\detox\detox\6\\body\Detoxification\\\problem\\\\\x
+238\immune-system/postoperative-recovery\postoperative-recovery\postoperative recovery\6\\body\\\\problem\\\\\x
+239\immune-system/vaginitis\vaginitis\vaginitis\6\\vagina \\\\problem\\\\\x
+240\immune-system/prostatitis\prostatitis\prostatitis\6\\prostate \\\\problem\\\\\x
+241\immune-system/boils\boils\boils\6\\skin \\\\problem\\\\\x
+242\immune-system/fungal-skin-infection\fungal-skin-infection\fungal skin infection\6\\skin \\\\problem\\\\\x
+243\immune-system/cancer-prevention\cancer-prevention\preventing cancer\6\\body\\\\problem\\\\\x
 244\\\\\\\\\\\\\\\
 245\immune-system/infection\infection\infection\6\\body\\\\symptom\\\x\\x
 \\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\
-246\\\overactive bladder\7\\bladder \frequent urination\\\\\\\\
-247\\\Dysuria\7\\bladder \painful or difficult urination \\\\\\\\
-248\\\Cystitis\7\\bladder \\\\\\\\\
-249\\\Urinary Calculus \7\\kidney \\\\\\\\\
-250\\\Hematuria\7\\kidneys \\\\\\\\\
-251\\\Edema\7\\kidneys \\\\\\\\\
+246\urinary-system/overactive-bladder\overactive-bladder\overactive bladder\7\\bladder \frequent urination\\\problem\\\\\x
+247\urinary-system/dysuria\dysuria\dysuria\7\\bladder \painful or difficult urination \\\problem\\\\\x
+248\urinary-system/cystitis\cystitis\cystitis\7\\bladder \\\\problem\\\\\x
+249\urinary-system/urinary-calculus\urinary-calculus\urinary calculus\7\\kidney \\\\problem\\\\\x
+250\urinary-system/hematuria\hematuria\hematuria\7\\kidneys \\\\problem\\\\\x
+251\urinary-system/edema\edema\edema\7\\kidneys \\\\problem\\\\\x
 252\urinary-system/bladder-pain\bladder-pain\bladder pain\7\\bladder \\\\symptom\\\x\\x
 253\urinary-system/dehydration\dehydration\dehydration\7\\kidneys \\\\condition \\\x\\x
 254\urinary-system/fluid-retention\fluid-retention\fluid retention\7\\kidneys \\\\symptom\\\x\\x

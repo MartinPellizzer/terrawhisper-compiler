@@ -1,0 +1,21 @@
+=======================
+= PROBLEMS ARTICLES
+=======================
+
+- add "problems" to csv -- database/csv/problems.csv
+- main.py
+    - generate intro
+    - generate definition
+    - generate herbs section
+        - gen herbs list with ai
+        - add herbs to csv (database/csv/herbs.csv)
+        - clean herbs added to csv (normalize names, slugs, ids)
+        - gen herbs article section with ai from csv herbs
+
+
+
+=======================
+= HERBS CSV
+=======================
+
+- id, slug_curr, slugs_prev, common_names, scientific_name

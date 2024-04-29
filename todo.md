@@ -4,19 +4,14 @@
 
 - ARTICLES:
     - gen tea_conditions articles
-    - gen 50 trefle plant articles
-    - update plants page
-
-- SCRAPE POWO:
-    - plants taxonomy
-        [1] set N/A if failed scraped
-    - fix scraper when elements not found
+    - gen ailments articles
+    - gen herbs articles
 
 - PINTEREST:
-    just pin (to fix description selenium)
+    just pin
 
 - IMAGES:
-    - generate images (especially teas)
+    - generate images teas
 
 
 # ###################################################
