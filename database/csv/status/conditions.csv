@@ -198,10 +198,6 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 196\integumentary-system/eye-health\eye-health\eye health\4\\eyes\\\\part\\\x\\x
 197\integumentary-system/eyesight\eyesight\eyesight\4\\eyes\\\\benefit\\\x\\x
 198\integumentary-system/hair-growth\hair-growth\hair growth\4\\hair\\\\procedure\\\x\\x
-\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\
 199\nervous-system/neuritis\neuritis\neuritis\5\\nerves\\\\problem\\\\\x
 200\nervous-system/nerve-pain\nerve pain\nerve pain\5\\nerves\\\\problem\\\\\x
 201\nervous-system/headache\headache\headache\5\\brain \\\headache, headache due to cold weather, headache during pregnancy\symptom\\\\\x
@@ -237,10 +233,6 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 231\nervous-system/focus\focus\focus\5\\brain \\\\benefit\\\x\\x
 232\nervous-system/concentration\concentration\concentration\5\\brain \\\\benefit\\\x\\x
 233\nervous-system/grief\grief\grief\5\\brain \\\\symptom\\\x\\x
-\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\
 234\immune-system/allergies\allergies\allergy\6\\body\\\\condition \\\x\\x
 235\immune-system/fever\fever\fever\6\\brain \\\\symptom\\\\\x
 236\immune-system/inflammation\inflammation\inflammation\6\\body\\\\problem\\\\\x
@@ -253,9 +245,6 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 243\immune-system/cancer-prevention\cancer-prevention\preventing cancer\6\\body\\\\problem\\\\\x
 244\\\\\\\\\\\\\\\
 245\immune-system/infection\infection\infection\6\\body\\\\symptom\\\x\\x
-\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\
-\\\\\\\\\\\\\\\
 246\urinary-system/overactive-bladder\overactive-bladder\overactive bladder\7\\bladder \frequent urination\\\problem\\\\\x
 247\urinary-system/dysuria\dysuria\dysuria\7\\bladder \painful or difficult urination \\\problem\\\\\x
 248\urinary-system/cystitis\cystitis\cystitis\7\\bladder \\\\problem\\\\\x
@@ -270,25 +259,25 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 \\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\
-256\\\breast pain during breastfeeding\8\\breasts\\\\\\\\\
+256\reproductive-system/breastfeeding-breast-pain\breastfeeding-breast-pain \breast pain during breastfeeding\8\\breasts\\\\problem\\\\\x
 257\\\erectile dysfunction\8\\penis \\\\\\\\\
 258\\\low sperm count\8\\testes \\\\\\\\\
-259\\\menstrual cramps\8\\uterus \\\\\\\\\
-260\\\morning sickness\8\\stomach \\\\\\\\\
-261\\\ovulation pain\8\\ovaries \mittelschmerz\\\\\\\\
-262\\\over bleeding during periods\8\\uterus \\\\\\\\\
-263\\\period cramps\8\\uterus \dysmenorrhea \\\\\\\\
+259\reproductive-system/menstrual-cramps\menstrual-cramps\menstrual cramps\8\\uterus \\\\problem\\\\\x
+260\reproductive-system/morning-sickness\morning-sickness\morning sickness\8\\stomach \\\\problem\\\\\x
+261\reproductive-system/ovulation-pain\ovulation-pain\ovulation pain\8\\ovaries \mittelschmerz\\\problem\\\\\x
+262\reproductive-system/periods-over-bleeding\periods-over-bleeding\over bleeding during periods\8\\uterus \\\\problem\\\\\x
+263\reproductive-system/period-cramps\period-cramps\period cramps\8\\uterus \dysmenorrhea \\\problem\\\\\x
 264\\\premature ejaculation\8\\penis \\\\\\\\\
-265\\\prostate inflammation\8\\prostate \\\\\\\\\
-266\\\periods\8\\uterus \menstruation \\\\\\\\
-267\\\Amenorrhea\8\\ovaries \absence of menstrual periods \\\\\\\\
-268\\\Premenstrual Syndrome\8\\ovaries \PMS \\\\\\\\
-269\\\Menopause\8\\ovaries \\\\\\\\\
-270\\\Pregnancy\8\\uterus \\\\\\\\\
-271\\\Uterine Fibroids\8\\uterus \\\\\\\\\
-272\\\Endometriosis\8\\uterus \\\\\\\\\
-273\\\Fibrocystic Breast Disease\8\\breasts\\\\\\\\\
-274\\\Benign Prostatic Hypertrophy \8\\prostate \BPH \\\\\\\\
+265\reproductive-system/prostate-inflammation\prostate-inflammation\prostate inflammation\8\\prostate \\\\problem\\\\\x
+266\reproductive-system/periods\periods\periods\8\\uterus \menstruation \\\problem\\\\\x
+267\reproductive-system/amenorrhea\amenorrhea\amenorrhea\8\\ovaries \absence of menstrual periods \\\problem\\\\\x
+268\reproductive-system/premenstrual-syndrome\premenstrual-syndrome\premenstrual syndrome\8\\ovaries \PMS \\\problem\\\\\x
+269\reproductive-system/menopause\menopause\menopause\8\\ovaries \\\\problem\\\\\x
+270\\\\8\\uterus \\\\\\\\\
+271\reproductive-system/uterine-fibroids\uterine-fibroids\uterine fibroids\8\\uterus \\\\problem\\\\\x
+272\reproductive-system/endometriosis\endometriosis\endometriosis\8\\uterus \\\\problem\\\\\x
+273\reproductive-system/fibrocystic-breast-disease\fibrocystic-breast-disease\fibrocystic breast disease\8\\breasts\\\\problem\\\\\x
+274\reproductive-system/benign-prostatic-hypertrophy\benign-prostatic-hypertrophy\benign prostatic hypertrophy\8\\prostate \BPH \\\problem\\\\\x
 275\reproductive-system/endometriosis-pain\endometriosis-pain\endometriosis pain\8\\uterus \\\\symptom\\\x\\x
 276\reproductive-system/fertility\fertility\fertility\8\\ovaries, testes \\\\condition \\\x\\x
 277\reproductive-system/breastfeeding\breastfeeding\breastfeeding\8\\breasts\\\\procedure\\\x\\x
@@ -301,13 +290,13 @@ condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\syste
 \\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\
-280\\\hormonal imbalance\9\\body\\\\\\\\\
-281\\\hot flashes\9\\hypothalamus \\\\\\\\\
-282\\\Hypothyroidism\9\\thyroid \\\\\\\\\
-283\\\Hyperthyroidism\9\\thyroid \\\\\\\\\
-284\\\Diabetes Mellitus\9\\pancreas \\\\\\\\\
-285\\\The Adrenal Glands\9\\adrenal glands \\\\\\\\\
-286\\\adrenal fatigue\9\\adrenal glands \\\\\\\\\
+280\endocrine-system/hormonal-imbalance\hormonal-imbalance\hormonal imbalance\9\\body\\\\problem\\\\\x
+281\endocrine-system/hot-flashes\hot-flashes\hot flashes\9\\hypothalamus \\\\problem\\\\\x
+282\endocrine-system/hypothyroidism\hypothyroidism\hypothyroidism\9\\thyroid \\\\problem\\\\\x
+283\endocrine-system/hyperthyroidism\hyperthyroidism\hyperthyroidism\9\\thyroid \\\\problem\\\\\x
+284\endocrine-system/diabetes-mellitus\diabetes-mellitus\diabetes mellitus\9\\pancreas \\\\problem\\\\\x
+285\\\\9\\adrenal glands \\\\\\\\\
+286\adrenal-fatigue\adrenal-fatigue\adrenal fatigue\9\\adrenal glands \\\\problem\\\\\x
 287\endocrine-system/female-hormone-balance\female-hormone-balance\female hormone balance\9\\ovaries \\\\condition \\\x\\x
 \\\\\\\\\\\\\\\
 \\\\\\\\\\\\\\\
