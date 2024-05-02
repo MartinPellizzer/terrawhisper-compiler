@@ -384,7 +384,7 @@ def header_default_old():
 def header_default():
     html = f'''
         <header class="container-lg">
-            <a href="#">
+            <a href="/">
                 <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
                     <g stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                         <path

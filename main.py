@@ -929,6 +929,25 @@ def page_home():
     template = template.replace('[teas_articles]', teas_articles_html)
 
     util.file_write(f'website/{slug}.html', template)
+
+
+def page_herbalism():
+    header = util.header_default()
+
+    page_url = 'herbalism'
+    article_filepath_out = f'website/{page_url}.html'
+
+    template = util.file_read(f'templates/{page_url}.html')
+    breadcrumbs_html = util.breadcrumbs(article_filepath_out)
+
+    template = template.replace('[meta_title]', 'Herbalism & Natural Healing')
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+    template = template.replace('[author_name]', g.AUTHOR_NAME)
+    template = template.replace('[title]', 'Herbalism: Herbal Medicine and Preparations')
+    template = template.replace('[header]', header)
+    template = template.replace('[breadcrumbs]', breadcrumbs_html)
+
+    util.file_write(article_filepath_out, template)
     
     
 def page_start_here():
@@ -1079,17 +1098,18 @@ def page_plants(regen_csv=False):
 # #########################################################
 
 # page_home()
-# page_start_here()
-# page_about()
+page_herbalism()
 # page_top_herbs()
 # page_plants(regen_csv=False)
+# page_about()
+# page_start_here()
 
-art_problems()
+# art_problems()
 # art_systems()
 
 # gen_csvs(2)
 
 
-# shutil.copy2('style.css', 'website/style.css')
-# shutil.copy2('util.css', 'website/util.css')
-# shutil.copy2('assets/images/healing-herbs.jpg', 'website/images/healing-herbs.jpg')
+shutil.copy2('style.css', 'website/style.css')
+shutil.copy2('util.css', 'website/util.css')
+shutil.copy2('assets/images/healing-herbs.jpg', 'website/images/healing-herbs.jpg')
