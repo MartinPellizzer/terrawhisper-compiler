@@ -174,6 +174,26 @@ def csv_get_herbs_by_problem(problem_id):
     return herbs_rows_filtered
 
 
+def csv_get_problems_by_system(system_id):
+    problems_systems_rows_filtered = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_SYSTEMS_FILEPATH, problems_systems_cols['system_id'], system_id,
+    )
+
+    junction_problems_ids = [
+        row[problems_systems_cols['problem_id']] 
+        for row in problems_systems_rows_filtered
+        if row[problems_systems_cols['system_id']] == system_id
+    ]
+
+    problems_rows_filtered = []
+    for problem_row in problems_rows:
+        problem_id = problem_row[problems_cols['problem_id']]
+        if problem_id in junction_problems_ids:
+            problems_rows_filtered.append(problem_row)
+        
+    return problems_rows_filtered
+
+
 def csv_get_preparations_by_problem(problem_id):
     problems_preparations_rows_filtered = util.csv_get_rows_filtered(
         g.CSV_PROBLEMS_PREPARATIONS_FILEPATH, problems_preparations_cols['problem_id'], problem_id,
@@ -880,11 +900,202 @@ def art_systems():
         break
 
 
-def art_ailments():
-    title = 'What are the most common ailments and how to heal them with herbs'
+
+# #########################################################
+# AILMENTS
+# #########################################################
+
+def ai_ailments_definition(json_filepath, data):
+    key = 'definition_desc'
+    if key not in data:
+        prompt = f'''
+            Write 1 paragraph explaining what are ailments.
+            Include a detailed definition of the word "ailments".
+            Include an explanation on how ailments can affect your life.
+            Include examples.
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        reply = utils_ai.reply_to_paragraphs(reply)
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
 
 
+def ai_ailments_intro(json_filepath, data):
+    key = 'intro_desc'
+    if key not in data:
+        prompt = f'''
+            Write 1 intro paragraph for an article about ailments an healing herbs.
+            Start by explaining what are the impacts of ailments on people lives.
+            Then explain why healing herbs can help with the most common ailments. 
+            Finally explain that the rest of the article will reveal the most common ailments for each body system and what are the best herbs to get rid of those ailments.
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        reply = utils_ai.reply_to_paragraphs(reply)
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
 
+    
+def page_ailments():
+    json_filepath = f'database/json/ailments.json'
+
+    util.create_folder_for_filepath(json_filepath)
+    util.json_generate_if_not_exists(json_filepath)
+    data = util.json_read(json_filepath)
+
+    lastmod = util.date_now()
+    if 'lastmod' not in data: data['lastmod'] = lastmod
+    else: lastmod = data['lastmod'] 
+
+    title = f'What are the most common ailments and how to cure them with medicinal herbs'
+    data['title'] = title
+
+    util.json_write(json_filepath, data)
+
+    # ai
+    ai_ailments_intro(json_filepath, data)
+    ai_ailments_definition(json_filepath, data)
+
+    key = 'systems'
+    if key not in data: data[key] = []
+    for system_row in systems_rows:
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        found = False
+        for system_obj in data[key]:
+            if system_obj['system_id'] == system_id:
+                found = True
+                break
+        
+        if not found:
+            data[key].append({'system_id': system_id, 'system_slug': system_slug, 'system_name': system_name})
+
+    util.json_write(json_filepath, data)
+
+    key = 'system_desc'
+    for system_obj in data['systems']:
+        if key not in system_obj:
+            system_id = system_obj['system_id']
+            system_name = system_obj['system_name']
+
+            problems_rows_filtered = csv_get_problems_by_system(system_id)
+            if len(problems_rows_filtered) > 0:
+                problems_names = [row[problems_cols['problem_names']].split(',')[0].strip() for row in problems_rows_filtered]
+                problems_names_prompt = ', '.join(problems_names)
+                problems_names_prompt = f'Include the following common ailments: {problems_names_prompt}'
+            else:
+                problems_names_prompt = ''
+
+            prompt = f'''
+                Write 1 paragraph about the most common ailments of the {system_name} and how they affect your life.
+                {problems_names_prompt}.
+                Include what herbs and herbal remedies to use to help the {system_name}.
+                Start the reply with the following words: The most common ailments of the {system_name} are .
+                Never use the following words: can, may, might.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+
+            reply = utils_ai.reply_to_paragraphs(reply)
+
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                system_obj[key] = reply[0]
+                util.json_write(json_filepath, data)
+
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+
+    html_filepath = 'website/ailments.html'
+
+    data = util.json_read(json_filepath)
+
+    article_html = ''
+    
+    article_html += f'<h1>{title}</h1>\n'
+    article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
+
+    article_html += f'<h2>What are ailments and how they affect your life?</h2>\n'
+    article_html += f'{util.text_format_1N1_html(data["definition_desc"])}\n'
+
+    for system_obj in data['systems']:
+        system_id = system_obj['system_id']
+        system_slug = system_obj['system_slug']
+        system_name = system_obj['system_name']
+        system_desc = system_obj['system_desc']
+
+        article_html += f'<h2>{system_name.capitalize()} ailments</h2>\n'
+        article_html += f'{util.text_format_1N1_html(system_desc)}\n'
+
+        problems_rows_filtered = csv_get_problems_by_system(system_id)
+        if len(problems_rows_filtered) > 0:
+            article_html += f'The following link shows the <a href="/ailments/{system_slug}.html">most common ailments of the {system_name}</a> that you can alleviate with medicinal herbs.\n'
+
+    header_html = util.header_default()
+    breadcrumbs_html = util.breadcrumbs(html_filepath)
+    meta_html = util.article_meta(article_html, lastmod)
+    article_html = util.article_toc(article_html)
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="{g.AUTHOR_NAME}">
+            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+            <link rel="stylesheet" href="/util.css">
+            <link rel="stylesheet" href="/style.css">
+            <title>{title}</title>
+            {g.GOOGLE_TAG}
+        </head>
+
+        <body>
+            {header_html}
+            {breadcrumbs_html}
+            
+            <section class="article-section">
+                <div class="container">
+                    {meta_html}
+                    {article_html}
+                </div>
+            </section>
+
+            <footer>
+                <div class="container-lg">
+                    <span>© TerraWhisper.com 2024 | All Rights Reserved
+                </div>
+            </footer>
+        </body>
+
+        </html>
+    '''
+
+    util.file_write(html_filepath, html)
+
+    
 
 # #########################################################
 # PAGES
@@ -949,59 +1160,7 @@ def page_herbalism():
 
     util.file_write(article_filepath_out, template)
     
-    
-def page_ailments():
-    for system_row in systems_rows:
-        print(system_row)
 
-    quit()
-
-    article_filepath_out = 'website/ailments.html'
-
-    header_html = util.header_default()
-    breadcrumbs_html = util.breadcrumbs(html_filepath)
-    meta_html = util.article_meta(article_html, lastmod)
-    article_html = util.article_toc(article_html)
-
-    html = f'''
-        <!DOCTYPE html>
-        <html lang="en">
-
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta name="author" content="{g.AUTHOR_NAME}">
-            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-            <link rel="stylesheet" href="/util.css">
-            <link rel="stylesheet" href="/style.css">
-            <title>{title}</title>
-            {g.GOOGLE_TAG}
-        </head>
-
-        <body>
-            {header_html}
-            {breadcrumbs_html}
-            
-            <section class="article-section">
-                <div class="container">
-                    {meta_html}
-                    {article_html}
-                </div>
-            </section>
-
-            <footer>
-                <div class="container-lg">
-                    <span>© TerraWhisper.com 2024 | All Rights Reserved
-                </div>
-            </footer>
-        </body>
-
-        </html>
-    '''
-
-    util.file_write(article_filepath_out, template)
-
-    
     
 def page_start_here():
     slug = 'start-here'
