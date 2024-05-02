@@ -31,7 +31,6 @@
 # TODO
 # ###################################################
 - generate ailments page and ailments systems pages
-- fix menu on each page (main.py)
 - fix homepage sections
 - generate tincture bad breath and link it to ailment bad breath
 

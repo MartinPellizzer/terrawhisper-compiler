@@ -950,6 +950,59 @@ def page_herbalism():
     util.file_write(article_filepath_out, template)
     
     
+def page_ailments():
+    for system_row in systems_rows:
+        print(system_row)
+
+    quit()
+
+    article_filepath_out = 'website/ailments.html'
+
+    header_html = util.header_default()
+    breadcrumbs_html = util.breadcrumbs(html_filepath)
+    meta_html = util.article_meta(article_html, lastmod)
+    article_html = util.article_toc(article_html)
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="{g.AUTHOR_NAME}">
+            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+            <link rel="stylesheet" href="/util.css">
+            <link rel="stylesheet" href="/style.css">
+            <title>{title}</title>
+            {g.GOOGLE_TAG}
+        </head>
+
+        <body>
+            {header_html}
+            {breadcrumbs_html}
+            
+            <section class="article-section">
+                <div class="container">
+                    {meta_html}
+                    {article_html}
+                </div>
+            </section>
+
+            <footer>
+                <div class="container-lg">
+                    <span>© TerraWhisper.com 2024 | All Rights Reserved
+                </div>
+            </footer>
+        </body>
+
+        </html>
+    '''
+
+    util.file_write(article_filepath_out, template)
+
+    
+    
 def page_start_here():
     slug = 'start-here'
     filepath_in = f'templates/{slug}.html'
@@ -1098,7 +1151,7 @@ def page_plants(regen_csv=False):
 # #########################################################
 
 # page_home()
-page_herbalism()
+# page_herbalism()
 # page_top_herbs()
 # page_plants(regen_csv=False)
 # page_about()
@@ -1106,6 +1159,8 @@ page_herbalism()
 
 # art_problems()
 # art_systems()
+
+page_ailments()
 
 # gen_csvs(2)
 
