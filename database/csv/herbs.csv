@@ -1,35 +1,35 @@
 herb_id\herb_slug\herb_name_common\herb_name_scientific
-0\ginger\ginger\Zingiber officinale 
-1\turmeric\turmeric\Curcuma longa 
-2\licorice\licorice\Glycyrrhiza glabra 
-3\slippery-elm\slippery elm\Ulmus rubra 
-4\marshmallow\marshmallow\Althaea officinalis 
-5\chicory\chicory\Cichorium intybus 
-6\dandelion\dandelion\Taraxacum officinale 
-7\artichoke\artichoke\Cynara cardunculus var. scolymus 
-8\milk-thistle\milk thistle\Silybum marianum
-9\yarrow\yarrow\Achillea millefolium
-10\skullcap\skullcap\Scutellaria lateriflora 
-11\passionflower\passionflower\Passiflora incarnata 
-12\fennel\fennel\Foeniculum vulgare 
-13\cumin\cumin\Cuminum cyminum 
-14\coriander\coriander\Coriandrum sativum 
-15\anise\anise\Pimpinella anisum 
-16\angelica\angelica\Angelica archangelica 
-17\basil\basil\Ocimum basilicum 
-18\oregano\oregano\Origanum vulgare 
-19\parsley\parsley\Petroselinum crispum 
-20\peppermint\peppermint\Mentha × piperita 
-21\spearmint\spearmint\Mentha spicata 
-22\rosemary\rosemary\Salvia rosmarinus 
-23\sage\sage\Salvia officinalis 
-24\thyme\thyme\Thymus vulgaris 
-25\clove\clove\Syzygium aromaticum 
-26\cinnamon\cinnamon\Cinnamomum verum 
-27\eucalyptus\eucalyptus\Eucalyptus globulus 
-28\myrrh\myrrh\Commiphora myrrha 
-29\tea-tree\tea tree\Melaleuca alternifolia 
-30\lavender\lavender\Lavandula angustifolia 
-31\lemon-balm\lemon balm\Melissa officinalis 
-32\cardamom\cardamom\Elettaria cardamomum 
-33\bhringraj\bhringraj\Eclipta prostrata 
+0\zingiber-officinale\ginger\Zingiber officinale 
+1\curcuma-longa\turmeric\Curcuma longa 
+2\glycyrrhiza-glabra\licorice\Glycyrrhiza glabra 
+3\ulmus-rubra\slippery elm\Ulmus rubra 
+4\althaea-officinalis\marshmallow\Althaea officinalis 
+5\cichorium-intybus\chicory\Cichorium intybus 
+6\taraxacum-officinale\dandelion\Taraxacum officinale 
+7\cynara-cardunculusvar. scolymus \artichoke\Cynara cardunculus var. scolymus 
+8\silybum-marianummilk thistle\Silybum marianum
+9\achillea-millefoliumyarrow\Achillea millefolium
+10\scutellaria-lateriflora\skullcap\Scutellaria lateriflora 
+11\passiflora-incarnata\passionflower\Passiflora incarnata 
+12\foeniculum-vulgare\fennel\Foeniculum vulgare 
+13\cuminum-cyminum\cumin\Cuminum cyminum 
+14\coriandrum-sativum\coriander\Coriandrum sativum 
+15\pimpinella-anisum\anise\Pimpinella anisum 
+16\angelica-archangelica\angelica\Angelica archangelica 
+17\ocimum-basilicum\basil\Ocimum basilicum 
+18\origanum-vulgare\oregano\Origanum vulgare 
+19\petroselinum-crispum\parsley\Petroselinum crispum 
+20\mentha-x-piperita\peppermint\Mentha x piperita 
+21\mentha-spicata\spearmint\Mentha spicata 
+22\salvia-rosmarinus\rosemary\Salvia rosmarinus 
+23\salvia-officinalis\sage\Salvia officinalis 
+24\thymus-vulgaris\thyme\Thymus vulgaris 
+25\syzygium-aromaticum\clove\Syzygium aromaticum 
+26\cinnamomum-verum\cinnamon\Cinnamomum verum 
+27\eucalyptus-globulus\eucalyptus\Eucalyptus globulus 
+28\commiphora-myrrha\myrrh\Commiphora myrrha 
+29\melaleuca-alternifolia\tea tree\Melaleuca alternifolia 
+30\lavandula-angustifolia\lavender\Lavandula angustifolia 
+31\melissa-officinalis\lemon balm\Melissa officinalis 
+32\elettaria-cardamomum\cardamom\Elettaria cardamomum 
+33\eclipta-prostrata\bhringraj\Eclipta prostrata 

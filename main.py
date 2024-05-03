@@ -2,6 +2,7 @@ import os
 import time
 import shutil
 import markdown
+import random
 
 import g
 import util
@@ -27,6 +28,8 @@ preparations_rows = util.csv_get_rows(g.CSV_PREPARATIONS_FILEPATH)
 preparations_cols = util.csv_get_cols(preparations_rows)
 preparations_rows = preparations_rows[1:]
 
+
+
 # JUNCTIONS
 problems_herbs_rows = util.csv_get_rows(g.CSV_PROBLEMS_HERBS_FILEPATH)
 problems_herbs_cols = util.csv_get_cols(problems_herbs_rows)
@@ -40,13 +43,66 @@ problems_preparations_rows = util.csv_get_rows(g.CSV_PROBLEMS_PREPARATIONS_FILEP
 problems_preparations_cols = util.csv_get_cols(problems_preparations_rows)
 problems_preparations_rows = problems_preparations_rows[1:]
 
+problems_teas_rows = util.csv_get_rows(g.CSV_PROBLEMS_TEAS_FILEPATH)
+problems_teas_cols = util.csv_get_cols(problems_teas_rows)
+problems_teas_rows = problems_teas_rows[1:]
 
 
+teas_num = 10
 
 
 # #########################################################
 # CSVs
 # #########################################################
+
+def csv_gen_teas_for_problem(problem_row):
+    problem_id = problem_row[problems_cols['problem_id']]
+    problem_slug = problem_row[problems_cols['problem_slug']]
+    problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+    problems_teas_rows = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_TEAS_FILEPATH, problems_teas_cols['problem_id'], problem_id
+    )
+
+    if problems_teas_rows == []:
+        teas_num = 15
+        prompt = f'''
+            Write a numbered list of the {teas_num} best herbal teas for {problem_name}.
+            Order the herbs in the list by effectiveness in treating {problem_name}.
+            Write only the names of the herbs, not the descriptions.
+            Include only 1 herb name for each list item, without mentioning the herb part.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip().lower()
+            if line == '': continue
+            if not line[0].isdigit(): continue
+            if '.' not in line: continue
+            line = '.'.join(line.split('.')[1:])
+            line = line.strip()
+            if line == '': continue
+
+            herbs_rows_filtered = util.csv_get_rows_filtered(
+                g.CSV_HERBS_FILEPATH, herbs_cols['herb_name'], line
+            )
+            if herbs_rows_filtered != []:
+                herb_row = herbs_rows_filtered[0]
+                herb_id = herb_row[herbs_cols['herb_id']]
+            else:
+                herb_id = ''
+
+            lines.append([problem_id, problem_slug, herb_id, line])
+
+        if len(lines) >= 10:
+            print('***************************************************')
+            print(lines)
+            print('***************************************************')
+            util.csv_add_rows(g.CSV_PROBLEMS_HERBS_FILEPATH, lines)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
 
 def gen_csvs(id):
     for problem_row in problems_rows:
@@ -60,6 +116,9 @@ def gen_csvs(id):
         if problem_name == '': continue
 
         if problem_id != f'{id}': continue
+
+        # JSON
+        csv_gen_teas_for_problem(problem_row)
 
         # herbs
         problems_herbs_rows = util.csv_get_rows_filtered(
@@ -149,11 +208,6 @@ def gen_csvs(id):
 
 
 
-
-# #########################################################
-# ARTICLES - PROBLEMS
-# #########################################################
-
 def csv_get_herbs_by_problem(problem_id):
     problems_herbs_rows_filtered = util.csv_get_rows_filtered(
         g.CSV_PROBLEMS_HERBS_FILEPATH, problems_herbs_cols['problem_id'], problem_id,
@@ -170,6 +224,25 @@ def csv_get_herbs_by_problem(problem_id):
         herb_id = herb_row[herbs_cols['herb_id']]
         if herb_id in problems_herbs_ids:
             herbs_rows_filtered.append(herb_row)
+            
+    return herbs_rows_filtered
+
+
+def csv_get_teas_by_problem(problem_id):
+    problems_teas_rows_filtered = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_TEAS_FILEPATH, problems_teas_cols['problem_id'], problem_id,
+    )
+
+    herbs_rows_filtered = []
+    for problem_tea_row in problems_teas_rows_filtered:
+        jun_tea_id = problem_tea_row[problems_teas_cols['tea_id']]
+
+        for herb_row in herbs_rows:
+            herb_id = herb_row[herbs_cols['herb_id']]
+
+            if herb_id == jun_tea_id:
+                herbs_rows_filtered.append(herb_row)
+
             
     return herbs_rows_filtered
 
@@ -194,6 +267,21 @@ def csv_get_problems_by_system(system_id):
     return problems_rows_filtered
 
 
+def csv_get_system_by_problem(problem_id):
+    problems_systems_rows_filtered = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_SYSTEMS_FILEPATH, problems_systems_cols['problem_id'], problem_id,
+    )
+    problem_system_row = problems_systems_rows_filtered[0]
+    system_id = problem_system_row[problems_systems_cols['system_id']]
+
+    systems_rows_filtered = util.csv_get_rows_filtered(
+        g.CSV_SYSTEMS_FILEPATH, systems_cols['system_id'], system_id,
+    )
+    system_row = systems_rows_filtered[0]
+
+    return system_row
+
+
 def csv_get_preparations_by_problem(problem_id):
     problems_preparations_rows_filtered = util.csv_get_rows_filtered(
         g.CSV_PROBLEMS_PREPARATIONS_FILEPATH, problems_preparations_cols['problem_id'], problem_id,
@@ -213,6 +301,11 @@ def csv_get_preparations_by_problem(problem_id):
             
     return preparations_rows_filtered
 
+
+
+# #########################################################
+# ARTICLES - PROBLEMS
+# #########################################################
 
 
 
@@ -1231,6 +1324,549 @@ def art_systems():
 
 
 # #########################################################
+# TEAS
+# #########################################################
+
+def json_tea_systems_problems_intro(json_filepath, data):
+    key = 'intro'
+    # if key in data: del data[key]
+    if key not in data:
+        problem_id = data['problem_id']
+        problem_slug = data['problem_slug']
+        problem_name = data['problem_name']
+
+        herbs_rows_filtered = csv_get_teas_by_problem(problem_id)[:teas_num]
+        herbs_names = [row[herbs_cols['herb_name_common']] for row in herbs_rows_filtered]
+        herbs_names_prompt = ', '.join(herbs_names)
+
+        prompt = f'''
+            Write 1 paragraph on the best herbal teas for {problem_name}.
+            Write the names of the best herbal teas for {problem_name} that are {herbs_names_prompt}.
+            Explain what are the primary properties of herbal teas that help with {problem_name}.
+            Explain how herbal teas can improve the lives of people with {problem_name} and include examples.
+            Start the reply with the following words: The best herbal teas for {problem_name} are .
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        reply = utils_ai.reply_to_paragraphs(reply)
+
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def json_tea_systems_problems_teas_list(json_filepath, data):
+    problem_id = data['problem_id']
+    problem_name = data['problem_name']
+    problem_slug = data['problem_slug']
+    teas_num = data['teas_num']
+
+    herbs_rows_filtered = csv_get_teas_by_problem(problem_id)
+
+    key = 'teas_list'
+    if key not in data: data[key] = []
+    for herb_row in herbs_rows_filtered:
+        herb_id = herb_row[herbs_cols['herb_id']].strip()
+        herb_slug = herb_row[herbs_cols['herb_slug']].strip()
+        herb_name_common = herb_row[herbs_cols['herb_name_common']].strip()
+        herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip()
+
+        if herb_id == '': continue
+        if herb_slug == '': continue
+        if herb_name_common == '': continue
+        if herb_name_scientific == '': continue
+
+        found = False
+        for tea_obj in data[key]:
+            if tea_obj['herb_id'] == herb_id: 
+                found = True
+                break
+
+        if not found:
+            data[key].append({
+                'herb_id': herb_id,
+                'herb_slug': herb_slug,
+                'herb_name_common': herb_name_common,
+                'herb_name_scientific': herb_name_scientific,
+            })
+
+    util.json_write(json_filepath, data)
+
+    # # del old
+    # data_filtered = []
+    # for tea_obj in data['teas']: 
+    #     found = False
+    #     for tea_row in teas_rows[1:]:
+    #         tea_condition_id = tea_row[teas_cols['condition_id']].strip().lower()
+    #         tea_name = tea_row[teas_cols['tea_name']].strip().lower()
+    #         if tea_condition_id != condition_id: continue
+    #         if tea_obj['tea_name'] == tea_name: 
+    #             found = True
+    #             break
+    #     if found:
+    #         data_filtered.append(tea_obj)
+
+    # data['teas'] = data_filtered
+    # util.json_write(json_filepath, data)
+
+    # AI
+    for tea_obj in data['teas_list'][:teas_num]:
+        tea_name = tea_obj["herb_name_common"].strip().lower()
+        tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea')
+
+        if 'tea_desc' not in tea_obj or tea_obj['tea_desc'] == []:
+            prompt = f'''
+                Explain 1 paragraph on why {tea_name} helps with {problem_name}.
+                Start the reply with the following words: {tea_name.capitalize()} helps with {problem_name} because .
+                Never use the following words: can, may, might.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_paragraphs(reply)
+            if len(reply) == 1 and reply != '':
+                print('********************************')
+                print(reply)
+                print('********************************')
+                tea_obj['tea_desc'] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+            
+        if 'tea_constituents' not in tea_obj or tea_obj['tea_constituents'] == []:
+            prompt = f'''
+                Write a numbered list of the most important medicinal constituents of {tea_name} that help with {problem_name}.
+                Include 1 short sentence description for each of these medicinal constituents, explaining why that medicinal contituent is good for {problem_name}.
+                Include only medicinal constituents that have short names.
+                Don't include the name of the plant in the constituents names.
+                Write each list element using the following format: [constituent name]: [constituent description].
+                Never use the following words: can, may, might.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_list_column(reply)
+            reply = [line.replace('[', '').replace(']', '') for line in reply]
+            if reply != '' and reply != []:
+                print('********************************')
+                print(reply)
+                print('********************************')
+                tea_obj['tea_constituents'] = reply
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+        if 'tea_parts' not in tea_obj or tea_obj['tea_parts'] == []:
+            prompt = f'''
+                Write a numbered list of the most used parts of the {tea_name} plant that are used to make medicinal tea for {problem_name}.
+                Reply by only selecting parts from the following list:
+                - Roots
+                - Rhyzomes
+                - Stems
+                - Leaves
+                - Flowers
+                - Seeds
+                - Buds
+                - Bark
+                Never include aerial parts.
+                Never repeat the same part twice and never include similar parts.
+                Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {problem_name}.
+                Write each list element using the following format: [part name]: [part description].
+                Never use the following words: can, may, might.
+            '''     
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_list_column(reply)
+            if reply != '' and reply != []:
+                print('********************************')
+                print(reply)
+                print('********************************')
+                tea_obj['tea_parts'] = reply
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+        if 'tea_recipe' not in tea_obj or tea_obj['tea_recipe'] == []:
+            prompt = f'''
+                Write a 5-step recipe in list format to make {tea_name} for {problem_name}.
+                Include ingredients dosages and preparations times.
+                Write only 1 sentence for each step.
+                Start each step in the list with an action verb.
+                Don't include optional steps.
+                Never use the following words: can, may, might.
+            '''  
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_list(reply)
+            if reply != '' and reply != [] and len(reply) == 5:
+                print('********************************')
+                print(reply)
+                print('********************************')
+                tea_obj['tea_recipe'] = reply
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+        # TODO: gen study
+
+
+def json_tea_systems_problems_supplementary(json_filepath, data):
+    condition_id = data['condition_id']
+    condition_name = data['condition_name']
+    condition_slug = data['condition_slug']
+    condition_classification = data['condition_classification']
+
+    if condition_classification != 'demography' and condition_classification != 'animal' and condition_classification == 'benefit':      
+        key = 'definition'
+        if key not in data:
+            prompt = f'''
+                Write 1 short paragraph explaining what is {condition_name} and how it impacts people lives.
+                Never use the following words: can, may, might.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            if reply != '':
+                data[key] = reply
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+        related_problmes_rows_filtered = []
+        for related_problem_row in related_problems_rows:
+            problem_condition_id = related_problem_row[related_problems_cols['condition_id']]
+            if problem_condition_id == condition_id:
+                related_problmes_rows_filtered.append(related_problem_row)
+        if related_problmes_rows_filtered != []:
+            related_problems_names = [row[related_problems_cols['related_problem_name']] for row in related_problmes_rows_filtered]
+            related_problems_names_formatted = '\n- '.join(related_problems_names)
+            key = 'related_problems'
+            if key not in data:
+                prompt = f'''
+                    Write a numbered list explaining why people with {condition_name} also experience the following problems:
+                    {related_problems_names_formatted}.
+                    Write the list items using the following structure: [related problem]: [explanation].
+                    Never use the following words: can, may, might.
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                reply = utils_ai.reply_to_list_column(reply)
+                if reply != []:
+                    print('********************************')
+                    print(reply)
+                    print('********************************')
+                    data[key] = reply
+                    util.json_write(json_filepath, data)
+                time.sleep(g.PROMPT_DELAY_TIME)
+        
+        key = 'other_remedies'
+        if key not in data:
+            prompt = f'''
+                Write 1 detailed paragraph about what are the most common and effective natural remedies for {condition_name}.
+                Don't include herbal teas.
+                Never use the following words: can, may, might.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_paragraphs(reply)
+            if reply != [] and len(reply) == 1:
+                print('********************************')
+                print(reply)
+                print('********************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def art_tea_systems_problems():
+    for problem_row in problems_rows:
+        problem_id = problem_row[problems_cols['problem_id']]
+        problem_slug = problem_row[problems_cols['problem_slug']]
+        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+        if problem_id == '': continue
+        if problem_slug == '': continue
+        if problem_name == '': continue
+
+        print(f'> {problem_name}')
+
+        system_row = csv_get_system_by_problem(problem_id)
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        print(f'  > {system_name}')
+
+        json_filepath = f'database/json/herbalism/tea/{system_slug}/{problem_slug}.json'
+
+        util.create_folder_for_filepath(json_filepath)
+        util.json_generate_if_not_exists(json_filepath)
+        data = util.json_read(json_filepath)
+        data['problem_id'] = problem_id
+        data['problem_slug'] = problem_slug
+        data['problem_name'] = problem_name
+
+        lastmod = util.date_now()
+        if 'lastmod' not in data: data['lastmod'] = lastmod
+        else: lastmod = data['lastmod'] 
+
+        data['teas_num'] = teas_num
+        title = f'{teas_num} Best herbal teas for {problem_name}'
+        data['title'] = title
+
+        util.json_write(json_filepath, data)
+
+        # JSON
+        json_tea_systems_problems_intro(json_filepath, data)
+        json_tea_systems_problems_teas_list(json_filepath, data)
+
+        # HTML
+        html_filepath = f'website/herbalism/tea/{system_slug}/{problem_slug}.html'
+
+        data = util.json_read(json_filepath)
+
+        article_html = ''
+        article_html += f'<h1>{title}</h1>\n'
+
+        # # pil image
+        # tea_obj = data['teas'][0]
+        # tea_name = tea_obj['tea_name'].strip().lower()
+        # tea_slug = tea_name.replace(' ', '-').replace("'", '-').replace('.', '-')
+
+        # images_folderpath = f'C:/terrawhisper-assets/images/tea/{tea_slug}'
+        # if os.path.exists(images_folderpath):
+        #     images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
+        #     image_filepath = random.choice(images_filepaths)
+        #     if image_filepath != '':
+        #         image_condition_slug = condition_slug.split('/')[-1]
+        #         image_filepath_out = f'website/images/herbal-tea-for-{image_condition_slug}-overview.jpg'
+        #         if not os.path.exists(image_filepath_out):
+        #             util.image_variate(image_filepath, image_filepath_out)
+        # else:
+        #     print(f'IMG FOLDER MISSING: {images_folderpath}')
+        
+        # # html image
+        # tea_image_url = f'/images/herbal-tea-for-{image_condition_slug}-overview.jpg'
+        # if os.path.exists(f'website{tea_image_url}'):
+        #     article_html += f'<p><img src="{tea_image_url}"><p>\n'
+        # else:
+        #     print(f'IMG MISSING: {tea_slug}')
+
+        try: article_html += f'{util.text_format_1N1_html(data["intro"])}\n'
+        except: print(f'MISSING INTRO: {problem_name}')
+
+        
+        for i, tea_obj in enumerate(data['teas_list'][:teas_num]):
+            herb_slug = tea_obj['herb_slug'].strip().lower()
+            herb_name_common = tea_obj['herb_name_common'].strip().lower()
+            tea_name = tea_obj["herb_name_common"].strip().lower()
+            tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea')
+
+            article_html += f'<h2>{i+1}. {tea_name.capitalize()}</h2>\n'
+            
+            try: article_html += f'<p>{util.text_format_1N1_html(tea_obj["tea_desc"])}</p>\n'
+            except: print(f'MISSING TEA DESC: {problem_name} >> {tea_name}')
+
+        #     # img
+        #     images_folderpath = f'C:/terrawhisper-assets/images/tea/{tea_slug}'
+        #     if os.path.exists(images_folderpath):
+        #         images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
+        #         image_filepath = random.choice(images_filepaths)
+        #         if image_filepath != '':
+        #             image_condition_slug = condition_slug.split('/')[-1]
+        #             image_filepath_out = f'website/images/herbal-tea-for-{image_condition_slug}-{tea_slug}.jpg'
+        #             if not os.path.exists(image_filepath_out):
+        #                 util.image_variate(image_filepath, image_filepath_out)
+        #     else:
+        #         print(f'IMG FOLDER MISSING: {images_folderpath}')
+        #     tea_image_url = f'/images/herbal-tea-for-{image_condition_slug}-{tea_slug}.jpg'
+        #     if os.path.exists(f'website{tea_image_url}'):
+        #         article_html += f'<p><img src="{tea_image_url}"><p>\n'
+        #     else:
+        #         print(f'MISSING TEA IMAGE: {condition_name} >> {tea_name}')
+                
+                
+            try:
+                tea_constituents = tea_obj['tea_constituents']
+                # article_html += f'<h3>Constituents</h3>\n'
+                article_html += f'<p>The list below shows the primary active constituents in {tea_name} that aid with {problem_name}.</p>\n'
+                article_html += '<ul>\n'
+                for tea_constituent in tea_constituents:
+                    chunk_1 = tea_constituent.split(': ')[0]
+                    chunk_2 = ': '.join(tea_constituent.split(': ')[1:])
+                    article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
+                article_html += '</ul>\n'
+            except: print(f'MISSING TEA CONSTITUENTS: {problem_name} >> {tea_name}')
+
+            try:
+                tea_parts = tea_obj['tea_parts']
+                # article_html += f'<h3>Parts</h3>\n'
+                article_html += f'<p>Right below you will find a list of the most important parts in {tea_name} that help with {problem_name}.</p>\n'
+                article_html += '<ul>\n'
+                for tea_part in tea_parts:
+                    chunk_1 = tea_part.split(': ')[0]
+                    chunk_2 = ': '.join(tea_part.split(': ')[1:])
+                    article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
+                article_html += '</ul>\n'
+            except: print(f'MISSING TEA PARTS: {problem_name} >> {tea_name}')
+
+            try:
+                tea_recipe = tea_obj['tea_recipe']
+                # article_html += f'<h3>Recipe</h3>\n'
+                article_html += f'<p>The following recipe gives a procedure to make a basic {tea_name} for {problem_name}.</p>\n'
+                article_html += '<ol>\n'
+                for step in tea_recipe:
+                    article_html += f'<li>{step}</li>\n'
+                article_html += '</ol>\n'
+            except: print(f'MISSING TEA RECIPE: {problem_name} >> {tea_name}')
+ 
+        # if condition_classification != 'demography' and condition_classification != 'animal':
+        #     key = 'definition'
+        #     if key in data:
+        #         article_html += f'<h2>What is {condition_name} and how can it affect your life?</h2>\n'
+        #         definition = data[key]
+        #         if os.path.exists(f'ailments/{system_slug}/{condition_slug}.html'):
+        #             pass
+        #         article_html += f'<p>{util.text_format_1N1_html(definition)}</p>\n'
+        #     else:
+        #         print(f'MISSING DEFINITION: {condition_name}')
+
+        #     key = 'other_remedies'
+        #     if key in data:
+        #         article_html += f'<h2>What other natural remedies help with {condition_name}?</h2>\n'
+        #         article_html += f'<p>{util.text_format_1N1_html(data[key])}</p>\n'
+        #     else:
+        #         print(f'MISSING OTHER REMEDIES: {condition_name}')
+                
+        #     key = 'related_problems'
+        #     if key in data:
+        #         article_html += f'<h2>What other health issues people with {condition_name} are likely to experience?</h2>\n'
+        #         article_html += f'<p>The issues people with {condition_name} are likely to experiece are listed below.</p>\n'
+        #         article_html += '<ul>\n'
+        #         for item in data[key]:
+        #             chunk_1 = item.split(': ')[0]
+
+        #             # get related condition link
+        #             condition_slug_link = ''
+        #             for condition_row_tmp in conditions_rows[1:]:
+        #                 condition_names_tmp = condition_row_tmp[conditions_cols['condition_names']].strip().lower().split(', ')
+        #                 condition_slug_tmp = condition_row_tmp[conditions_cols['condition_slug']].strip().lower()
+        #                 if chunk_1.strip().lower() in condition_names_tmp:
+        #                     condition_slug_link = condition_slug_tmp
+        #                     break
+
+        #             chunk_2 = ': '.join(item.split(': ')[1:])
+        #             if condition_slug_link != '': article_html += f'<li><a href="/herbalism/tea/{condition_slug_link}.html"><strong>{chunk_1}</strong></a>: {chunk_2}</li>\n'
+        #             else: article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
+        #         article_html += '</ul>\n'
+        #     else:
+        #         print(f'MISSING RELATED PROBLEMS: {condition_name}')
+
+        header_html = util.header_default()
+        breadcrumbs_html = util.breadcrumbs(html_filepath)
+        meta_html = util.article_meta(article_html, lastmod)
+        article_html = util.article_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta_html}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(html_filepath, html)
+
+        # # GEN TEAS HTML TOO FOR OLD REDIRECTS
+        # condition_slug_old = condition_slug.split('/')[-1].strip()
+        # html_filepath = f'website/herbalism/teas/{condition_slug_old}.html'
+
+        # header_html = util.header_default()
+        # breadcrumbs_html = util.breadcrumbs(html_filepath)
+        # meta_html = util.article_meta(article_html, lastmod)
+        # article_html = util.article_toc(article_html)
+
+        # html = f'''
+        #     <!DOCTYPE html>
+        #     <html lang="en">
+
+        #     <head>
+        #         <head>\n<meta http-equiv="refresh" content="0; url=https://terrawhisper.com/herbalism/tea/{condition_slug}.html">
+        #         <meta charset="UTF-8">
+        #         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        #         <meta name="author" content="{g.AUTHOR_NAME}">
+        #         <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+        #         <link rel="stylesheet" href="/style.css">
+        #         <title>{title}</title>
+        #         {g.GOOGLE_TAG}
+                
+        #     </head>
+
+        #     <body>
+        #         {header_html}
+        #         {breadcrumbs_html}
+                
+        #         <section class="article-section">
+        #             <div class="container">
+        #                 {meta_html}
+        #                 {article_html}
+        #             </div>
+        #         </section>
+
+        #         <footer>
+        #             <div class="container-lg">
+        #                 <span>© TerraWhisper.com 2024 | All Rights Reserved
+        #             </div>
+        #         </footer>
+        #     </body>
+
+        #     </html>
+        # '''
+        # util.file_write(html_filepath, html)
+
+
+        # # REDIRECTS
+        # condition_slugs_prev_list = condition_slugs_prev.split(',')
+        # for condition_slug_prev in condition_slugs_prev_list:
+        #     print(condition_slug_prev)
+        #     if condition_slug_prev == condition_slug: continue
+        #     html_filepath_out = f'website/herbalism/tea/{condition_slug_prev}.html'
+        #     html_filepath_web = f'https://terrawhisper.com/herbalism/tea/{condition_slug}.html'
+        #     html = util.file_read(html_filepath_out)
+        #     if os.path.exists(html_filepath_out):
+        #         if f'<meta http-equiv="refresh" content="0; url={html_filepath_web}">' not in html:
+        #             html = html.replace(
+        #                 '<head>',
+        #                 f'<head>\n<meta http-equiv="refresh" content="0; url={html_filepath_web}">'
+        #             )
+        #     util.file_write(html_filepath_out, html)
+
+
+# #########################################################
 # PAGES
 # #########################################################
 
@@ -1453,9 +2089,16 @@ def page_plants(regen_csv=False):
 # art_systems()
 
 # art_ailments()
-art_systems()
+# art_systems()
+
+
+
+
 
 # gen_csvs(2)
+art_tea_systems_problems()
+
+
 
 
 shutil.copy2('style.css', 'website/style.css')

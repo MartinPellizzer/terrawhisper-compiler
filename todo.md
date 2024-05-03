@@ -30,9 +30,10 @@
 # ###################################################
 # TODO
 # ###################################################
-- generate ailments page and ailments systems pages
-- fix homepage sections
+- new herbs page from herbs database (create "herbs" url?)
+- fix homepage sections (fix plants and add ailments)
 - generate tincture bad breath and link it to ailment bad breath
+- put only herbal teas/tincures + ailments (and herbs when done) in sitemap for now
 
 
 - other preparations and best herbs/preparations for condition
