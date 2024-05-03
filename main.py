@@ -814,98 +814,35 @@ def art_problems():
 
 
 
-def art_systems():
-    for system_row in systems_rows:
-        system_id = system_row[systems_cols['system_id']]
-        system_slug = system_row[systems_cols['system_slug']]
-        system_name = system_row[systems_cols['system_name']]
-
-        if system_id == '': continue
-        if system_slug == '': continue
-        if system_name == '': continue
-
-
-
-        # json
-        json_filepath = f'database/json/problems/{system_slug}.json'
-
-        util.create_folder_for_filepath(json_filepath)
-        util.json_generate_if_not_exists(json_filepath)
-        data = util.json_read(json_filepath)
-
-        data['system_id'] = system_id
-        data['system_slug'] = system_slug
-        data['system_name'] = system_name
-
-        lastmod = util.date_now()
-        if 'lastmod' not in data: data['lastmod'] = lastmod
-        else: lastmod = data['lastmod'] 
-
-        title = f'{system_name}'
-        data['title'] = title
-
-        util.json_write(json_filepath, data)
-
-
-
-        # html
-        html_filepath = f'website/ailments/{system_slug}.html'
-
-        article_html = ''
-        article_html += f'<h1>{system_name}</h1>\n'
-
-        header_html = util.header_default()
-        breadcrumbs_html = util.breadcrumbs(html_filepath)
-        meta_html = util.article_meta(article_html, lastmod)
-        article_html = util.article_toc(article_html)
-
-        html = f'''
-            <!DOCTYPE html>
-            <html lang="en">
-
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{g.AUTHOR_NAME}">
-                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-                <link rel="stylesheet" href="/style.css">
-                <title>{title}</title>
-                {g.GOOGLE_TAG}
-                
-            </head>
-
-            <body>
-                {header_html}
-                {breadcrumbs_html}
-                
-                <section class="article-section">
-                    <div class="container">
-                        {meta_html}
-                        {article_html}
-                    </div>
-                </section>
-
-                <footer>
-                    <div class="container-lg">
-                        <span>© TerraWhisper.com 2024 | All Rights Reserved
-                    </div>
-                </footer>
-            </body>
-
-            </html>
-        '''
-
-        util.file_write(html_filepath, html)
-
-        break
-
 
 
 # #########################################################
 # AILMENTS
 # #########################################################
 
-def ai_ailments_definition(json_filepath, data):
+def art_ailments_intro(json_filepath, data):
+    key = 'intro_desc'
+    if key not in data:
+        prompt = f'''
+            Write 1 intro paragraph for an article about ailments an healing herbs.
+            Start by explaining what are the impacts of ailments on people lives.
+            Then explain why healing herbs can help with the most common ailments. 
+            Finally explain that the rest of the article will reveal the most common ailments for each body system and what are the best herbs to get rid of those ailments.
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        reply = utils_ai.reply_to_paragraphs(reply)
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def art_ailments_definition(json_filepath, data):
     key = 'definition_desc'
     if key not in data:
         prompt = f'''
@@ -927,48 +864,7 @@ def ai_ailments_definition(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def ai_ailments_intro(json_filepath, data):
-    key = 'intro_desc'
-    if key not in data:
-        prompt = f'''
-            Write 1 intro paragraph for an article about ailments an healing herbs.
-            Start by explaining what are the impacts of ailments on people lives.
-            Then explain why healing herbs can help with the most common ailments. 
-            Finally explain that the rest of the article will reveal the most common ailments for each body system and what are the best herbs to get rid of those ailments.
-            Never use the following words: can, may, might.
-        '''
-        reply = utils_ai.gen_reply(prompt)
-        reply = utils_ai.reply_to_paragraphs(reply)
-        print(len(reply))
-        if len(reply) == 1:
-            print('*******************************************')
-            print(reply)
-            print('*******************************************')
-            data[key] = reply[0]
-            util.json_write(json_filepath, data)
-        time.sleep(g.PROMPT_DELAY_TIME)
-
-    
-def page_ailments():
-    json_filepath = f'database/json/ailments.json'
-
-    util.create_folder_for_filepath(json_filepath)
-    util.json_generate_if_not_exists(json_filepath)
-    data = util.json_read(json_filepath)
-
-    lastmod = util.date_now()
-    if 'lastmod' not in data: data['lastmod'] = lastmod
-    else: lastmod = data['lastmod'] 
-
-    title = f'What are the most common ailments and how to cure them with medicinal herbs'
-    data['title'] = title
-
-    util.json_write(json_filepath, data)
-
-    # ai
-    ai_ailments_intro(json_filepath, data)
-    ai_ailments_definition(json_filepath, data)
-
+def art_ailments_systems(json_filepath, data):
     key = 'systems'
     if key not in data: data[key] = []
     for system_row in systems_rows:
@@ -1025,6 +921,29 @@ def page_ailments():
                 util.json_write(json_filepath, data)
 
             time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def art_ailments():
+    json_filepath = f'database/json/ailments.json'
+
+    util.create_folder_for_filepath(json_filepath)
+    util.json_generate_if_not_exists(json_filepath)
+    data = util.json_read(json_filepath)
+
+    lastmod = util.date_now()
+    if 'lastmod' not in data: data['lastmod'] = lastmod
+    else: lastmod = data['lastmod'] 
+
+    title = f'What are the most common ailments and how to cure them with medicinal herbs'
+    data['title'] = title
+
+    util.json_write(json_filepath, data)
+
+    # json art sections
+    art_ailments_intro(json_filepath, data)
+    art_ailments_definition(json_filepath, data)
+    art_ailments_systems(json_filepath, data)
+    
 
 
     html_filepath = 'website/ailments.html'
@@ -1096,6 +1015,220 @@ def page_ailments():
     util.file_write(html_filepath, html)
 
     
+    
+
+def art_systems_intro(json_filepath, data):
+    key = 'intro_desc'
+    if key not in data:
+        system_name = data['system_name']
+        prompt = f'''
+            Write 1 intro paragraph for an article about {system_name} ailments an healing herbs.
+            Start by explaining what are the impacts of the {system_name} ailments on people lives.
+            Then explain why healing herbs can help with the most common {system_name} ailments. 
+            Finally explain that the rest of the article will reveal the most common {system_name} ailments and what are the best herbs to get rid of those ailments.
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        reply = utils_ai.reply_to_paragraphs(reply)
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def art_systems_definition(json_filepath, data):
+    key = 'definition_desc'
+    if key not in data:
+        system_name = data['system_name']
+        prompt = f'''
+            Write 1 paragraph explaining what are {system_name} ailments.
+            Include a detailed definition of "{system_name} ailments".
+            Include an explanation on how {system_name} ailments can affect your life.
+            Include examples of {system_name} ailments.
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        reply = utils_ai.reply_to_paragraphs(reply)
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def art_systems_problems(json_filepath, data):
+    key = 'problems'
+    if key not in data: data[key] = []
+    for problem_row in problems_rows:
+        problem_id = problem_row[problems_cols['problem_id']]
+        problem_slug = problem_row[problems_cols['problem_slug']]
+        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+        if problem_id == '': continue
+        if problem_slug == '': continue
+        if problem_name == '': continue
+
+        found = False
+        for problem_obj in data[key]:
+            if problem_obj['problem_id'] == problem_id:
+                found = True
+                break
+        
+        if not found:
+            data[key].append({'problem_id': problem_id, 'problem_slug': problem_slug, 'problem_name': problem_name})
+
+    util.json_write(json_filepath, data)
+        
+    key = 'problem_desc'
+    for problem_obj in data['problems']:
+        # if key in problem_obj: del problem_obj[key]
+        if key not in problem_obj:
+            problem_id = problem_obj['problem_id']
+            problem_name = problem_obj['problem_name']
+
+            prompt = f'''
+                Write 1 paragraph about what is {problem_name}, how it affects your life, and what are the medicinal herbs for {problem_name}.
+                Start the reply with the following words: {problem_name.capitalize()} is .
+                Never use the words "can", "may", and "might".
+            '''
+            reply = utils_ai.gen_reply(prompt)
+
+            reply = utils_ai.reply_to_paragraphs(reply)
+
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                problem_obj[key] = reply[0]
+                util.json_write(json_filepath, data)
+
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def art_systems():
+    for system_row in systems_rows:
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        problems_rows_filtered = csv_get_problems_by_system(system_id)
+        problems_num = len(problems_rows_filtered)
+
+        if problems_num == 0: continue
+
+        # json
+        json_filepath = f'database/json/problems/{system_slug}.json'
+
+        util.create_folder_for_filepath(json_filepath)
+        util.json_generate_if_not_exists(json_filepath)
+        data = util.json_read(json_filepath)
+
+        data['system_id'] = system_id
+        data['system_slug'] = system_slug
+        data['system_name'] = system_name
+
+        lastmod = util.date_now()
+        if 'lastmod' not in data: data['lastmod'] = lastmod
+        else: lastmod = data['lastmod'] 
+
+        title = f'{problems_num} Most common {system_name} ailments and how to treat them with herbal medicine'
+        data['title'] = title
+
+        util.json_write(json_filepath, data)
+
+        # ai
+        art_systems_intro(json_filepath, data)
+        art_systems_definition(json_filepath, data)
+        art_systems_problems(json_filepath, data)
+
+       
+
+        # html
+        html_filepath = f'website/ailments/{system_slug}.html'
+
+        data = util.json_read(json_filepath)
+
+        article_html = ''
+        article_html += f'<h1>{title}</h1>\n'
+        article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
+
+        for i, problem_obj in enumerate(data['problems']):
+            problem_id = problem_obj['problem_id']
+            problem_slug = problem_obj['problem_slug']
+            problem_name = problem_obj['problem_name']
+            problem_desc = problem_obj['problem_desc']
+
+            problem_desc = problem_desc.replace(
+                problem_name.capitalize(),
+                f'<a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name.capitalize()}</a>',
+                1
+            )
+
+            article_html += f'<h2>{i+1}. {problem_name.capitalize()}</h2>\n'
+            article_html += f'{util.text_format_1N1_html(problem_desc)}\n'
+
+
+        article_html += f'<h2>What are {system_name} ailments and how they affect your life?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data["definition_desc"])}\n'
+
+        header_html = util.header_default()
+        breadcrumbs_html = util.breadcrumbs(html_filepath)
+        meta_html = util.article_meta(article_html, lastmod)
+        article_html = util.article_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta_html}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(html_filepath, html)
+
+
+
+
 
 # #########################################################
 # PAGES
@@ -1319,7 +1452,8 @@ def page_plants(regen_csv=False):
 # art_problems()
 # art_systems()
 
-page_ailments()
+# art_ailments()
+art_systems()
 
 # gen_csvs(2)
 
