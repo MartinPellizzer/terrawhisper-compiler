@@ -162,9 +162,104 @@ def csv_gen_related_for_problem(problem_row):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
+def csv_gen_herbs_for_problem(problem_row):
+    problem_id = problem_row[problems_cols['problem_id']]
+    problem_slug = problem_row[problems_cols['problem_slug']]
+    problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
 
-def gen_csvs(id):
-    for problem_row in problems_rows:
+    problems_herbs_rows = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_HERBS_FILEPATH, problems_herbs_cols['problem_id'], problem_id
+    )
+
+    if problems_herbs_rows == []:
+        prompt = f'''
+            Write a numbered list of 20 medicinal herbs for {problem_name}.
+            Write only the names of the herbs, not the descriptions.
+            Don't write the parts of the herbs.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip().lower()
+            if line == '': continue
+            if not line[0].isdigit(): continue
+            if '.' not in line: continue
+            line = '.'.join(line.split('.')[1:])
+            line = line.strip()
+            if line == '': continue
+
+            herbs_rows_filtered = util.csv_get_rows_filtered(
+                g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line
+            )
+            if herbs_rows_filtered != []:
+                herb_row = herbs_rows_filtered[0]
+                herb_id = herb_row[herbs_cols['herb_id']]
+            else:
+                herb_id = ''
+
+            lines.append([problem_id, problem_slug, herb_id, line])
+
+        if len(lines) >= 10:
+            print('***************************************************')
+            print(lines)
+            print('***************************************************')
+            util.csv_add_rows(g.CSV_PROBLEMS_HERBS_FILEPATH, lines)
+
+        print(problem_id, problem_slug, problem_name)
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def csv_gen_preparations_for_problem(problem_row):
+    problem_id = problem_row[problems_cols['problem_id']]
+    problem_slug = problem_row[problems_cols['problem_slug']]
+    problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+    problems_preparations_rows = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_PREPARATIONS_FILEPATH, problems_preparations_cols['problem_id'], problem_id
+    )
+
+    if problems_preparations_rows == []:
+        prompt = f'''
+            Write a numbered list of the 10 most effective type of herbal preparations for {problem_name}.
+            Write only the names of the types of the preparations, not the descriptions.
+            Write only the names of the types of the preparations, not the herbs names.
+            Example of types of preparations can be infusions and tinctures.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip().lower()
+            if line == '': continue
+            if not line[0].isdigit(): continue
+            if '.' not in line: continue
+            line = '.'.join(line.split('.')[1:])
+            line = line.strip()
+            if line == '': continue
+
+            preparations_rows_filtered = util.csv_get_rows_filtered(
+                g.CSV_PREPARATIONS_FILEPATH, preparations_cols['preparation_name'], line
+            )
+            if preparations_rows_filtered != []:
+                preparation_row = preparations_rows_filtered[0]
+                preparation_id = preparation_row[preparations_cols['preparation_id']]
+            else:
+                preparation_id = ''
+
+            lines.append([problem_id, problem_slug, preparation_id, line])
+
+        if len(lines) >= 10:
+            print('***************************************************')
+            print(lines)
+            print('***************************************************')
+            util.csv_add_rows(g.CSV_PROBLEMS_PREPARATIONS_FILEPATH, lines)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def gen_csvs():
+    for problem_row in problems_rows[:ART_NUM]:
         problem_id = problem_row[problems_cols['problem_id']].strip().lower()
         problem_slug = problem_row[problems_cols['problem_slug']].strip().lower()
         problem_names = problem_row[problems_cols['problem_names']]
@@ -174,99 +269,15 @@ def gen_csvs(id):
         if problem_slug == '': continue
         if problem_name == '': continue
 
-        if problem_id != f'{id}': continue
-
         print(f'> {problem_row}')
 
         # JSON
         csv_gen_teas_for_problem(problem_row)
         csv_gen_related_for_problem(problem_row)
+        csv_gen_herbs_for_problem(problem_row)
+        csv_gen_preparations_for_problem(problem_row)
 
-        # herbs
-        problems_herbs_rows = util.csv_get_rows_filtered(
-            g.CSV_PROBLEMS_HERBS_FILEPATH, problems_herbs_cols['problem_id'], problem_id
-        )
-
-        if problems_herbs_rows == []:
-            prompt = f'''
-                Write a numbered list of 20 medicinal herbs for {problem_name}.
-                Write only the names of the herbs, not the descriptions.
-                Don't write the parts of the herbs.
-            '''
-            reply = utils_ai.gen_reply(prompt)
-
-            lines = []
-            for line in reply.split('\n'):
-                line = line.strip().lower()
-                if line == '': continue
-                if not line[0].isdigit(): continue
-                if '.' not in line: continue
-                line = '.'.join(line.split('.')[1:])
-                line = line.strip()
-                if line == '': continue
-
-                herbs_rows_filtered = util.csv_get_rows_filtered(
-                    g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line
-                )
-                if herbs_rows_filtered != []:
-                    herb_row = herbs_rows_filtered[0]
-                    herb_id = herb_row[herbs_cols['herb_id']]
-                else:
-                    herb_id = ''
-
-                lines.append([problem_id, problem_slug, herb_id, line])
-
-            if len(lines) >= 10:
-                print('***************************************************')
-                print(lines)
-                print('***************************************************')
-                util.csv_add_rows(g.CSV_PROBLEMS_HERBS_FILEPATH, lines)
-
-            print(problem_id, problem_slug, problem_name)
-            time.sleep(g.PROMPT_DELAY_TIME)
-
-        # preparations
-        problems_preparations_rows = util.csv_get_rows_filtered(
-            g.CSV_PROBLEMS_PREPARATIONS_FILEPATH, problems_preparations_cols['problem_id'], problem_id
-        )
-
-        if problems_preparations_rows == []:
-            prompt = f'''
-                Write a numbered list of the 10 most effective type of herbal preparations for {problem_name}.
-                Write only the names of the types of the preparations, not the descriptions.
-                Write only the names of the types of the preparations, not the herbs names.
-                Example of types of preparations can be infusions and tinctures.
-            '''
-            reply = utils_ai.gen_reply(prompt)
-
-            lines = []
-            for line in reply.split('\n'):
-                line = line.strip().lower()
-                if line == '': continue
-                if not line[0].isdigit(): continue
-                if '.' not in line: continue
-                line = '.'.join(line.split('.')[1:])
-                line = line.strip()
-                if line == '': continue
-
-                preparations_rows_filtered = util.csv_get_rows_filtered(
-                    g.CSV_PREPARATIONS_FILEPATH, preparations_cols['preparation_name'], line
-                )
-                if preparations_rows_filtered != []:
-                    preparation_row = preparations_rows_filtered[0]
-                    preparation_id = preparation_row[preparations_cols['preparation_id']]
-                else:
-                    preparation_id = ''
-
-                lines.append([problem_id, problem_slug, preparation_id, line])
-
-            if len(lines) >= 10:
-                print('***************************************************')
-                print(lines)
-                print('***************************************************')
-                util.csv_add_rows(g.CSV_PROBLEMS_PREPARATIONS_FILEPATH, lines)
-
-            time.sleep(g.PROMPT_DELAY_TIME)
+        
 
 
 
@@ -2211,8 +2222,8 @@ def page_plants(regen_csv=False):
 
 
 
-# gen_csvs(2)
-art_tea_systems_problems()
+gen_csvs()
+# art_tea_systems_problems()
 
 
 
