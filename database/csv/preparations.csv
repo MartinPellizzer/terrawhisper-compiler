@@ -1,10 +1,13 @@
 preparation_id\preparation_slug\preparation_name
-0\infusion\infusion
-1\decoction\decoction
-2\tincture\tincture
-3\mouthwash\mouthwash
-4\toothpaste\toothpaste
-5\spray\spray
-6\chewable-tablet\chewable tablet
-7\gargle\gargle
-8\lozenge\lozenge
+0\infusions\infusions
+1\decoctions\decoctions
+2\tinctures\tinctures
+3\mouthwashes\mouthwashes
+4\toothpastes\toothpastes
+5\sprays\sprays
+6\chewable-tablets\chewable tablets
+7\gargles\gargles
+8\lozenges\lozenges
+9\gels\gels
+10\oils\oils
+10\capsules\capsules

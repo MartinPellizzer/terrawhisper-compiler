@@ -9,7 +9,7 @@ import util
 import utils_ai
 import sitemap
 
-ART_NUM = 1
+ART_NUM = 2
 
 problems_rows = util.csv_get_rows(g.CSV_PROBLEMS_FILEPATH)
 problems_cols = util.csv_get_cols(problems_rows)
@@ -91,8 +91,10 @@ def csv_gen_teas_for_problem(problem_row):
             line = line.strip()
             if line == '': continue
 
+            line = line.replace('licorice root', 'licorice')
+
             herbs_rows_filtered = util.csv_get_rows_filtered(
-                g.CSV_HERBS_FILEPATH, herbs_cols['herb_name'], line
+                g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line
             )
             if herbs_rows_filtered != []:
                 herb_row = herbs_rows_filtered[0]
@@ -106,7 +108,7 @@ def csv_gen_teas_for_problem(problem_row):
             print('***************************************************')
             print(lines)
             print('***************************************************')
-            util.csv_add_rows(g.CSV_PROBLEMS_HERBS_FILEPATH, lines)
+            util.csv_add_rows(g.CSV_PROBLEMS_TEAS_FILEPATH, lines)
 
         time.sleep(g.PROMPT_DELAY_TIME)
 
@@ -189,6 +191,11 @@ def csv_gen_herbs_for_problem(problem_row):
             line = line.strip()
             if line == '': continue
 
+            line = line.replicace('licorice root', 'licorice')
+            line = line.replicace('ginger root', 'ginger')
+            line = line.replicace('marshmallow root', 'marshmallow')
+            line = line.replicace('slippery elm bark', 'slippery elm')
+
             herbs_rows_filtered = util.csv_get_rows_filtered(
                 g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line
             )
@@ -237,6 +244,10 @@ def csv_gen_preparations_for_problem(problem_row):
             line = '.'.join(line.split('.')[1:])
             line = line.strip()
             if line == '': continue
+            
+            if line == 'teas':
+                if 'infusions' in lines:
+                    continue
 
             preparations_rows_filtered = util.csv_get_rows_filtered(
                 g.CSV_PREPARATIONS_FILEPATH, preparations_cols['preparation_name'], line
@@ -271,11 +282,10 @@ def gen_csvs():
 
         print(f'> {problem_row}')
 
-        # JSON
-        csv_gen_teas_for_problem(problem_row)
-        csv_gen_related_for_problem(problem_row)
         csv_gen_herbs_for_problem(problem_row)
         csv_gen_preparations_for_problem(problem_row)
+        csv_gen_teas_for_problem(problem_row)
+        csv_gen_related_for_problem(problem_row)
 
         
 
@@ -341,16 +351,22 @@ def csv_get_problems_by_system(system_id):
 
 
 def csv_get_system_by_problem(problem_id):
+    system_row = []
+
     problems_systems_rows_filtered = util.csv_get_rows_filtered(
         g.CSV_PROBLEMS_SYSTEMS_FILEPATH, problems_systems_cols['problem_id'], problem_id,
     )
-    problem_system_row = problems_systems_rows_filtered[0]
-    system_id = problem_system_row[problems_systems_cols['system_id']]
 
-    systems_rows_filtered = util.csv_get_rows_filtered(
-        g.CSV_SYSTEMS_FILEPATH, systems_cols['system_id'], system_id,
-    )
-    system_row = systems_rows_filtered[0]
+    if problems_systems_rows_filtered != []:
+        problem_system_row = problems_systems_rows_filtered[0]
+        system_id = problem_system_row[problems_systems_cols['system_id']]
+
+        systems_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_SYSTEMS_FILEPATH, systems_cols['system_id'], system_id,
+        )
+
+        if systems_rows_filtered != []:
+            system_row = systems_rows_filtered[0]
 
     return system_row
 
@@ -373,6 +389,31 @@ def csv_get_preparations_by_problem(problem_id):
             preparations_rows_filtered.append(herb_row)
             
     return preparations_rows_filtered
+
+
+def csv_get_related_by_problem(problem_id):
+    problems_related_rows_filtered = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_RELATED_FILEPATH, problems_related_cols['problem_id'], problem_id,
+    )
+
+    problems_rows_filtered = []
+    for problem_related_row in problems_related_rows_filtered:
+        jun_related_id = problem_related_row[problems_related_cols['related_id']]
+        jun_related_name = problem_related_row[problems_related_cols['related_name']]
+        for problem_row in problems_rows:
+            problem_id = problem_row[problems_cols['problem_id']]
+            problem_slug = problem_row[problems_cols['problem_slug']]
+            problem_names = problem_row[problems_cols['problem_names']]
+            if jun_related_id == problem_id:
+                problems_rows_filtered.append({
+                    'problem_id': problem_id, 
+                    'problem_slug': problem_slug, 
+                    'problem_names': problem_names, 
+                    'related_name': jun_related_name, 
+                })
+                break
+            
+    return problems_rows_filtered
 
 
 
@@ -793,6 +834,7 @@ def art_problems():
         problem_slug = problem_row[problems_cols['problem_slug']]
         problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
 
+
         if problem_id == '': continue
         if problem_slug == '': continue
         if problem_name == '': continue
@@ -825,6 +867,7 @@ def art_problems():
 
         # json
         json_filepath = f'database/json/problems/{system_slug}/{problem_slug}.json'
+        print(json_filepath)
 
         util.create_folder_for_filepath(json_filepath)
         util.json_generate_if_not_exists(json_filepath)
@@ -904,7 +947,7 @@ def art_problems():
             chunks = item.split(':')
             chunk_1 = chunks[0]
             chunk_2 = ':'.join(chunks[1:])
-            if chunk_1.lower().strip() == 'infusion':
+            if chunk_1.lower().strip() == 'infusions':
                 chunk_1 = f'<strong><a href="/herbalism/tea/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
             else:
                 chunk_1 = f'<strong>{chunk_1}</strong>'
@@ -973,8 +1016,6 @@ def art_problems():
         '''
 
         util.file_write(html_filepath, html)
-
-        break
 
 
 
@@ -1232,7 +1273,7 @@ def art_systems_definition(json_filepath, data):
 def art_systems_problems(json_filepath, data):
     key = 'problems'
     if key not in data: data[key] = []
-    for problem_row in problems_rows:
+    for problem_row in problems_rows[:ART_NUM]:
         problem_id = problem_row[problems_cols['problem_id']]
         problem_slug = problem_row[problems_cols['problem_slug']]
         problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
@@ -1608,26 +1649,8 @@ def json_tea_systems_problems_supplementary(json_filepath, data):
 
     key = 'problems_related'
     if key not in data:
-        problems_related_rows_filtered = util.csv_get_rows_filtered(
-            g.CSV_PROBLEMS_RELATED_FILEPATH, problems_related_cols['problem_id'], problem_id,
-        )
-
-        problems_rows_filtered = []
-        for problem_related_row in problems_related_rows_filtered:
-            jun_related_id = problem_related_row[problems_related_cols['related_id']]
-            jun_related_name = problem_related_row[problems_related_cols['related_name']]
-            for problem_row in problems_rows:
-                problem_id = problem_row[problems_cols['problem_id']]
-                problem_slug = problem_row[problems_cols['problem_slug']]
-                problem_names = problem_row[problems_cols['problem_names']]
-                if jun_related_id == problem_id:
-                    problems_rows_filtered.append({
-                        'problem_id': problem_id, 
-                        'problem_slug': problem_slug, 
-                        'problem_names': problem_names, 
-                        'related_name': jun_related_name, 
-                    })
-                    break
+        problems_rows_filtered = csv_get_related_by_problem()
+        
 
         related_names = [row['related_name'] for row in problems_rows_filtered]
         related_names_prompt = ''
@@ -1820,16 +1843,6 @@ def art_tea_systems_problems():
                 article_html += '</ol>\n'
             except: print(f'MISSING TEA RECIPE: {problem_name} >> {tea_name}')
  
-        # if condition_classification != 'demography' and condition_classification != 'animal':
-        #     key = 'definition'
-        #     if key in data:
-        #         article_html += f'<h2>What is {condition_name} and how can it affect your life?</h2>\n'
-        #         definition = data[key]
-        #         if os.path.exists(f'ailments/{system_slug}/{condition_slug}.html'):
-        #             pass
-        #         article_html += f'<p>{util.text_format_1N1_html(definition)}</p>\n'
-        #     else:
-        #         print(f'MISSING DEFINITION: {condition_name}')
 
         #     key = 'other_remedies'
         #     if key in data:
@@ -1881,8 +1894,41 @@ def art_tea_systems_problems():
             article_html += '<ul>\n'
             for item in data[key]:
                 chunk_1 = item.split(': ')[0]
+                
+                problem_url = ''
+
+                problems_related_rows_filtered = util.csv_get_rows_filtered(
+                    g.CSV_PROBLEMS_RELATED_FILEPATH, problems_related_cols['related_name'], chunk_1.strip().lower()
+                )
+
+                if problems_related_rows_filtered != []:
+                    problem_related_row = problems_related_rows_filtered[0]
+                    related_id = problem_related_row[problems_related_cols['related_id']]
+                else:
+                    related_id = ''
+
+                if related_id != '': 
+                    problems_rows_filtered = util.csv_get_rows_filtered(
+                        g.CSV_PROBLEMS_FILEPATH, problems_cols['problem_id'], related_id
+                    )
+                    
+                    if problems_rows_filtered != []:
+                        problem_row = problems_rows_filtered[0]
+                        problem_id = problem_row[problems_cols['problem_id']]
+                        problem_slug = problem_row[problems_cols['problem_slug']]
+
+                        system_row = csv_get_system_by_problem(problem_id)
+
+                        if system_row != []:
+                            system_slug = system_row[systems_cols['system_slug']]
+                            if os.path.exists(f'website/ailments/{system_slug}/{problem_slug}.html'):
+                                problem_url = f'/ailments/{system_slug}/{problem_slug}.html'
+
                 chunk_2 = ': '.join(item.split(': ')[1:])
-                article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
+                if problem_url != '':
+                    article_html += f'<li><strong><a href="{problem_url}">{chunk_1.capitalize()}</a></strong>: {chunk_2}</li>\n'
+                else:
+                    article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
             article_html += '</ul>\n'
 
 
@@ -2214,16 +2260,16 @@ def page_plants(regen_csv=False):
 # page_start_here()
 
 
-# art_ailments()
-# art_systems()
 # art_problems()
+# art_systems()
+# art_ailments()
 
 
 
 
 
-gen_csvs()
-# art_tea_systems_problems()
+# gen_csvs()
+art_tea_systems_problems()
 
 
 

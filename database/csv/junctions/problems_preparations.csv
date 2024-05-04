@@ -1,10 +1,19 @@
 problem_id\problem_name\preparation_id\preparation_name
-2\bad-breath\0\infusion
-2\bad-breath\1\decoction
-2\bad-breath\2\tincture
-2\bad-breath\3\mouthwash
-2\bad-breath\4\toothpaste
-2\bad-breath\5\spray
-2\bad-breath\6\chewable tablet
-2\bad-breath\7\gargle
-2\bad-breath\8\lozenge
+2\bad-breath\0\infusions
+2\bad-breath\1\decoctions
+2\bad-breath\2\tinctures
+2\bad-breath\3\mouthwashes
+2\bad-breath\4\toothpastes
+2\bad-breath\5\sprays
+2\bad-breath\6\chewable tablets
+2\bad-breath\7\gargles
+2\bad-breath\8\lozenges
+3\dry-mouth\0\infusions
+3\dry-mouth\1\decoctions
+3\dry-mouth\2\tinctures
+3\dry-mouth\3\mouthwashes
+3\dry-mouth\8\lozenges
+3\dry-mouth\5\sprays
+3\dry-mouth\9\gels
+3\dry-mouth\10\oils
+3\dry-mouth\11\capsules
