@@ -7,6 +7,9 @@ import random
 import g
 import util
 import utils_ai
+import sitemap
+
+ART_NUM = 1
 
 problems_rows = util.csv_get_rows(g.CSV_PROBLEMS_FILEPATH)
 problems_cols = util.csv_get_cols(problems_rows)
@@ -46,6 +49,10 @@ problems_preparations_rows = problems_preparations_rows[1:]
 problems_teas_rows = util.csv_get_rows(g.CSV_PROBLEMS_TEAS_FILEPATH)
 problems_teas_cols = util.csv_get_cols(problems_teas_rows)
 problems_teas_rows = problems_teas_rows[1:]
+
+problems_related_rows = util.csv_get_rows(g.CSV_PROBLEMS_RELATED_FILEPATH)
+problems_related_cols = util.csv_get_cols(problems_related_rows)
+problems_related_rows = problems_related_rows[1:]
 
 
 teas_num = 10
@@ -104,6 +111,58 @@ def csv_gen_teas_for_problem(problem_row):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
+def csv_gen_related_for_problem(problem_row):
+    problem_id = problem_row[problems_cols['problem_id']]
+    problem_slug = problem_row[problems_cols['problem_slug']]
+    problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+    problems_related_rows = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_RELATED_FILEPATH, problems_related_cols['problem_id'], problem_id
+    )
+
+    if problems_related_rows == []:
+        prompt = f'''
+            Write a numbered list of the most common symptoms people may also experience when they have {problem_name}.
+            Write only the names, not the descriptions.
+            Use as few words as possible.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip().lower()
+            if line == '': continue
+            if not line[0].isdigit(): continue
+            if '.' not in line: continue
+            line = '.'.join(line.split('.')[1:])
+            line = line.strip()
+            if line == '': continue
+
+            problems_rows_filtered = []
+            for problem_row in problems_rows:
+                problem_names = problem_row[problems_cols['problem_names']].split(',')
+                for problem_name in problem_names:
+                    if problem_name.strip() == line.strip():
+                        problems_rows_filtered.append(problem_row)
+
+            if problems_rows_filtered != []:
+                problem_row = problems_rows_filtered[0]
+                related_id = problem_row[problems_cols['problem_id']]
+            else:
+                related_id = ''
+
+            lines.append([problem_id, problem_slug, related_id, line])
+
+        if len(lines) >= 10:
+            print('***************************************************')
+            print(lines)
+            print('***************************************************')
+            util.csv_add_rows(g.CSV_PROBLEMS_RELATED_FILEPATH, lines)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+
 def gen_csvs(id):
     for problem_row in problems_rows:
         problem_id = problem_row[problems_cols['problem_id']].strip().lower()
@@ -117,8 +176,11 @@ def gen_csvs(id):
 
         if problem_id != f'{id}': continue
 
+        print(f'> {problem_row}')
+
         # JSON
         csv_gen_teas_for_problem(problem_row)
+        csv_gen_related_for_problem(problem_row)
 
         # herbs
         problems_herbs_rows = util.csv_get_rows_filtered(
@@ -715,7 +777,7 @@ def art_problems_other_remedies(json_filepath, data):
 
 
 def art_problems():
-    for problem_row in problems_rows:
+    for problem_row in problems_rows[:ART_NUM]:
         problem_id = problem_row[problems_cols['problem_id']]
         problem_slug = problem_row[problems_cols['problem_slug']]
         problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
@@ -1362,7 +1424,7 @@ def json_tea_systems_problems_intro(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def json_tea_systems_problems_teas_list(json_filepath, data):
+def json_tea_systems_problems_list(json_filepath, data):
     problem_id = data['problem_id']
     problem_name = data['problem_name']
     problem_slug = data['problem_slug']
@@ -1508,70 +1570,100 @@ def json_tea_systems_problems_teas_list(json_filepath, data):
 
 
 def json_tea_systems_problems_supplementary(json_filepath, data):
-    condition_id = data['condition_id']
-    condition_name = data['condition_name']
-    condition_slug = data['condition_slug']
-    condition_classification = data['condition_classification']
+    problem_id = data['problem_id']
+    problem_slug = data['problem_slug']
+    problem_name = data['problem_name']
 
-    if condition_classification != 'demography' and condition_classification != 'animal' and condition_classification == 'benefit':      
-        key = 'definition'
-        if key not in data:
-            prompt = f'''
-                Write 1 short paragraph explaining what is {condition_name} and how it impacts people lives.
-                Never use the following words: can, may, might.
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            if reply != '':
-                data[key] = reply
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
+    key = 'problem_definition'
+    if key not in data:
+        prompt = f'''
+            Write 1 paragraph explaining what is {problem_name} and how it impacts people lives.
+            Start the reply with the following words: {problem_name} is .
+            Never use these words: "can", "may", and "might".
+        '''
+        reply = utils_ai.gen_reply(prompt)
 
-        related_problmes_rows_filtered = []
-        for related_problem_row in related_problems_rows:
-            problem_condition_id = related_problem_row[related_problems_cols['condition_id']]
-            if problem_condition_id == condition_id:
-                related_problmes_rows_filtered.append(related_problem_row)
-        if related_problmes_rows_filtered != []:
-            related_problems_names = [row[related_problems_cols['related_problem_name']] for row in related_problmes_rows_filtered]
-            related_problems_names_formatted = '\n- '.join(related_problems_names)
-            key = 'related_problems'
-            if key not in data:
-                prompt = f'''
-                    Write a numbered list explaining why people with {condition_name} also experience the following problems:
-                    {related_problems_names_formatted}.
-                    Write the list items using the following structure: [related problem]: [explanation].
-                    Never use the following words: can, may, might.
-                '''
-                reply = utils_ai.gen_reply(prompt)
-                reply = utils_ai.reply_to_list_column(reply)
-                if reply != []:
-                    print('********************************')
-                    print(reply)
-                    print('********************************')
-                    data[key] = reply
-                    util.json_write(json_filepath, data)
-                time.sleep(g.PROMPT_DELAY_TIME)
+        reply = utils_ai.reply_to_paragraphs(reply)
+
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+    key = 'problems_related'
+    if key not in data:
+        problems_related_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_PROBLEMS_RELATED_FILEPATH, problems_related_cols['problem_id'], problem_id,
+        )
+
+        problems_rows_filtered = []
+        for problem_related_row in problems_related_rows_filtered:
+            jun_related_id = problem_related_row[problems_related_cols['related_id']]
+            jun_related_name = problem_related_row[problems_related_cols['related_name']]
+            for problem_row in problems_rows:
+                problem_id = problem_row[problems_cols['problem_id']]
+                problem_slug = problem_row[problems_cols['problem_slug']]
+                problem_names = problem_row[problems_cols['problem_names']]
+                if jun_related_id == problem_id:
+                    problems_rows_filtered.append({
+                        'problem_id': problem_id, 
+                        'problem_slug': problem_slug, 
+                        'problem_names': problem_names, 
+                        'related_name': jun_related_name, 
+                    })
+                    break
+
+        related_names = [row['related_name'] for row in problems_rows_filtered]
+        related_names_prompt = ''
+        for related_name in related_names:
+            related_names_prompt += f'- {related_name}\n'
+
+        prompt = f'''
+            Write a numbered list explaining why people with {problem_name} also experience the following problems:
+            {related_names_prompt}.
+            Write the list items using the following structure: [related problem]: [explanation].
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
         
-        key = 'other_remedies'
-        if key not in data:
-            prompt = f'''
-                Write 1 detailed paragraph about what are the most common and effective natural remedies for {condition_name}.
-                Don't include herbal teas.
-                Never use the following words: can, may, might.
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = utils_ai.reply_to_paragraphs(reply)
-            if reply != [] and len(reply) == 1:
-                print('********************************')
-                print(reply)
-                print('********************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
+        reply = utils_ai.reply_to_list_column(reply)
+
+        if reply != []:
+            print('********************************')
+            print(reply)
+            print('********************************')
+            data[key] = reply
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+    
+    # key = 'other_remedies'
+    # if key not in data:
+    #     prompt = f'''
+    #         Write 1 detailed paragraph about what are the most common and effective natural remedies for {condition_name}.
+    #         Don't include herbal teas.
+    #         Never use the following words: can, may, might.
+    #     '''
+    #     reply = utils_ai.gen_reply(prompt)
+    #     reply = utils_ai.reply_to_paragraphs(reply)
+    #     if reply != [] and len(reply) == 1:
+    #         print('********************************')
+    #         print(reply)
+    #         print('********************************')
+    #         data[key] = reply[0]
+    #         util.json_write(json_filepath, data)
+    #     time.sleep(g.PROMPT_DELAY_TIME)
+
+
 
 
 def art_tea_systems_problems():
-    for problem_row in problems_rows:
+    for problem_row in problems_rows[:ART_NUM]:
         problem_id = problem_row[problems_cols['problem_id']]
         problem_slug = problem_row[problems_cols['problem_slug']]
         problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
@@ -1614,7 +1706,8 @@ def art_tea_systems_problems():
 
         # JSON
         json_tea_systems_problems_intro(json_filepath, data)
-        json_tea_systems_problems_teas_list(json_filepath, data)
+        json_tea_systems_problems_list(json_filepath, data)
+        json_tea_systems_problems_supplementary(json_filepath, data)
 
         # HTML
         html_filepath = f'website/herbalism/tea/{system_slug}/{problem_slug}.html'
@@ -1649,7 +1742,7 @@ def art_tea_systems_problems():
         #     print(f'IMG MISSING: {tea_slug}')
 
         try: article_html += f'{util.text_format_1N1_html(data["intro"])}\n'
-        except: print(f'MISSING INTRO: {problem_name}')
+        except: print(f'MISSING INTRO: {html_filepath} >> {problem_name}')
 
         
         for i, tea_obj in enumerate(data['teas_list'][:teas_num]):
@@ -1659,9 +1752,9 @@ def art_tea_systems_problems():
             tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea')
 
             article_html += f'<h2>{i+1}. {tea_name.capitalize()}</h2>\n'
-            
             try: article_html += f'<p>{util.text_format_1N1_html(tea_obj["tea_desc"])}</p>\n'
-            except: print(f'MISSING TEA DESC: {problem_name} >> {tea_name}')
+            except: print(f'MISSING TEA DESC: {html_filepath} >> {problem_name} >> {tea_name}')
+
 
         #     # img
         #     images_folderpath = f'C:/terrawhisper-assets/images/tea/{tea_slug}'
@@ -1757,6 +1850,30 @@ def art_tea_systems_problems():
         #         article_html += '</ul>\n'
         #     else:
         #         print(f'MISSING RELATED PROBLEMS: {condition_name}')
+
+
+        problem_definition = data["problem_definition"]
+        if os.path.exists(f'website/ailments/{system_slug}/{problem_slug}.html'):
+            problem_definition = problem_definition.replace(
+                problem_name.capitalize(),
+                f'<a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name.capitalize()}</a>',
+                1
+            )
+        article_html += f'<h2>What is bad breath and why is important to treat it?</h2>\n'
+        try: article_html += f'{util.text_format_1N1_html(problem_definition)}\n'
+        except: print(f'MISSING INTRO: {html_filepath} >> {problem_name}')
+
+        key = 'problems_related'
+        if key in data:
+            article_html += f'<h2>What other health problems are likely to experience people when they have {problem_name}?</h2>\n'
+            article_html += f'<p>When people have {problem_name}, they are also likely to experience the health problems listed below.</p>\n'
+            article_html += '<ul>\n'
+            for item in data[key]:
+                chunk_1 = item.split(': ')[0]
+                chunk_2 = ': '.join(item.split(': ')[1:])
+                article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
+            article_html += '</ul>\n'
+
 
         header_html = util.header_default()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
@@ -2085,11 +2202,10 @@ def page_plants(regen_csv=False):
 # page_about()
 # page_start_here()
 
-# art_problems()
-# art_systems()
 
 # art_ailments()
 # art_systems()
+# art_problems()
 
 
 
@@ -2100,7 +2216,10 @@ art_tea_systems_problems()
 
 
 
+# sitemap.sitemap_all()
+# shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 
-shutil.copy2('style.css', 'website/style.css')
-shutil.copy2('util.css', 'website/util.css')
-shutil.copy2('assets/images/healing-herbs.jpg', 'website/images/healing-herbs.jpg')
+
+# shutil.copy2('style.css', 'website/style.css')
+# shutil.copy2('util.css', 'website/util.css')
+# shutil.copy2('assets/images/healing-herbs.jpg', 'website/images/healing-herbs.jpg')

@@ -360,12 +360,12 @@ def header_base():
                     <li><a href="/">Home</a></li>
                     <li><a href="/herbalism.html">Herbalism</a></li>
                     <li><a href="/conditions.html">Conditions</a></li>
-                    <li><a href="/plants.html">Plants</a></li>
                     <li><a href="/about.html">About</a></li>
                 </ul>
             </nav>
         </header>
     '''
+                    # <li><a href="/plants.html">Plants</a></li>
                     # <li><a class="text-white" href="/start-here.html">Start Here</a></li>
 
 
@@ -399,13 +399,13 @@ def header_default():
                 <ul class="menu">
                     <li><a href="/">Home</a></li>
                     <li><a href="/herbalism.html">Herbalism</a></li>
-                    <li><a href="/plants.html">Herbs</a></li>
                     <li><a href="/ailments.html">Ailments</a></li>
                     <li><a href="/about.html">About</a></li>
                 </ul>
             </nav>
         </header>
     '''
+                    # <li><a href="/plants.html">Herbs</a></li>
     return html
 
 

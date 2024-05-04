@@ -1605,6 +1605,404 @@ def ai_precautions_main():
 
 
 
+IMAGE_FOLDER = 'C:/terrawhisper-assets/images'
+
+# def redirect_plants():
+#     articles_folderpath = 'database/articles/plants'
+
+#     plants_folder_content = os.listdir(articles_folderpath)
+#     plants_filenames = [content for content in plants_folder_content if content.endswith('.json')]
+
+#     for plant_filename in plants_filenames:
+#         article_filepath = f'{articles_folderpath}/{plant_filename}'
+#         print(article_filepath)
+        
+#         data = util.json_read(article_filepath)
+#         latin_name = data['latin_name']
+#         entity = data['entity']
+
+#         # IMAGES
+#         folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
+#         if not os.path.exists(folderpath): 
+#             print(f'MISSING >>>>> IMAGE FOLDER - {folderpath}')
+#             continue
+#         filenames = os.listdir(folderpath)
+#         filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+#         random.shuffle(filepaths_in)
+
+#         filepaths_out = [
+#             f'website/images/{entity}-overview.jpg',
+#             f'website/images/{entity}-medicine.jpg',
+#             f'website/images/{entity}-horticulture.jpg',
+#             f'website/images/{entity}-botany.jpg',
+#             f'website/images/{entity}-history.jpg',
+#         ]
+
+#         for i, filepath_out in enumerate(filepaths_out):
+#             if not os.path.exists(filepath_out):
+#                 util.image_variate(filepaths_in[i], filepath_out)
+                
+#         # TEXT
+#         article_filepath_in = article_filepath
+
+#         data = util.json_read(article_filepath_in)
+#         title = data['title']
+#         latin_name = data['latin_name']
+#         latin_name_dash = latin_name.lower().replace(' ', '-')
+#         article_html = ''
+
+#         article_html += f'<h1>{title}</h1>' + '\n'
+#         if os.path.exists(f'website/images/{latin_name_dash}-overview.jpg'):
+#             article_html += f'<p><img src="/images/{latin_name_dash}-overview.jpg" alt="{latin_name} overview"></p>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["intro_desc"][0])}</p>' + '\n'
+
+#         article_html += f'<h2>What are the medicinal uses of {latin_name}?</h2>' + '\n'
+#         if os.path.exists(f'website/images/{latin_name_dash}-medicine.jpg'):
+#             article_html += f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["medicine_intro"][0])}</p>\n'
+#         if os.path.exists(f'database/articles/plants/{entity}/medicine.json'):
+#             article_html += f'<p>Here are the most important <a href="/plants/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
+#         else:
+#             article_html += f'<p>Here are the most important medicinal aspects of {latin_name}.</p>' + '\n'
+#         article_html += f'<ul>' + '\n'
+#         article_html += f'<li>Health benefits</li>' + '\n'
+#         article_html += f'<li>Active constituents</li>' + '\n'
+#         article_html += f'<li>Medicinal preparations</li>' + '\n'
+#         article_html += f'<li>Side effects</li>' + '\n'
+#         article_html += f'<li>Precautions</li>' + '\n'
+#         article_html += f'</ul>' + '\n'
+#         article_html += f'<h3>What are the health benefits of {latin_name}?</h3>' + '\n'
+#         try: article_html += f'<p>{util.text_format_1N1_html(data["benefits_desc"][0])}</p>\n'
+#         except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][0])}</p>\n'
+#         article_html += f'<h3>What are the active constituents of {latin_name}?</h3>' + '\n'
+#         try: article_html += f'<p>{util.text_format_1N1_html(data["constituents_desc"][0])}</p>\n'
+#         except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][1])}</p>\n'
+#         article_html += f'<h3>What are the medicinal preparations of {latin_name}?</h3>' + '\n'
+#         try: article_html += f'<p>{util.text_format_1N1_html(data["preparations_desc"][0])}</p>\n'
+#         except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][2])}</p>\n'
+#         article_html += f'<h3>What are the possible side effects of {latin_name}?</h3>' + '\n'
+#         try: article_html += f'<p>{util.text_format_1N1_html(data["side_effects_desc"][0])}</p>\n'
+#         except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][3])}</p>\n'
+#         article_html += f'<h3>What are the precautions to take when using {latin_name}?</h3>' + '\n'
+#         try: article_html += f'<p>{util.text_format_1N1_html(data["precautions_desc"][0])}</p>\n'
+#         except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][4])}</p>\n'
+
+#         article_html += f'<h2>What are the horticultural conditions of {latin_name}?</h2>' + '\n'
+#         if os.path.exists(f'website/images/{latin_name_dash}-horticulture.jpg'):
+#             article_html += f'<p><img src="/images/{latin_name_dash}-horticulture.jpg" alt="{latin_name} horticulture"></p>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["horticulture_intro"][0])}</p>\n'
+#         article_html += f'<p>Here are the most important horticultural aspects of {latin_name}.</p>' + '\n'
+#         article_html += f'<ul>' + '\n'
+#         article_html += f'<li>Growth Requirements</li>' + '\n'
+#         article_html += f'<li>Planting Tips</li>' + '\n'
+#         article_html += f'<li>Caring Tips</li>' + '\n'
+#         article_html += f'<li>Harvesting Tips</li>' + '\n'
+#         article_html += f'<li>Pests and Diseases</li>' + '\n'
+#         article_html += f'</ul>' + '\n'
+#         article_html += f'<h3>What are the growth requirements uses of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][0])}</p>' + '\n'
+#         article_html += f'<h3>What are the planting tips of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][1])}</p>' + '\n'
+#         article_html += f'<h3>What are the caring tips of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][2])}</p>' + '\n'
+#         article_html += f'<h3>What are the harvesting tips of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][3])}</p>' + '\n'
+#         article_html += f'<h3>What are the pests and diseases of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][4])}</p>' + '\n'
+
+#         article_html += f'<h2>What are the botanical characteristics of {latin_name}?</h2>' + '\n'
+#         if os.path.exists(f'website/images/{latin_name_dash}-botany.jpg'):
+#             article_html += f'<p><img src="/images/{latin_name_dash}-botany.jpg" alt="{latin_name} medicine"></p>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["botany_intro"][0])}</p>\n'
+#         article_html += f'<p>Here are the most important botanical characteristics of {latin_name}.</p>' + '\n'
+#         article_html += f'<ul>' + '\n'
+#         article_html += f'<li>Taxonomy</li>' + '\n'
+#         article_html += f'<li>Morphology</li>' + '\n'
+#         article_html += f'<li>Variants Names and Differences</li>' + '\n'
+#         article_html += f'<li>Geographic Distribution and Natural Habitats</li>' + '\n'
+#         article_html += f'<li>Life-Cycle</li>' + '\n'
+#         article_html += f'</ul>' + '\n'
+#         article_html += f'<h3>What is the taxonomy of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][0])}</p>' + '\n'
+#         article_html += f'<h3>What is the morphology of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][1])}</p>' + '\n'
+#         article_html += f'<h3>What are the variants of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][2])}</p>' + '\n'
+#         article_html += f'<h3>What is the geographic distribution of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][3])}</p>' + '\n'
+#         article_html += f'<h3>What is the life-cycle of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][4])}</p>' + '\n'
+
+#         article_html += f'<h2>What are the historical references of {latin_name}?</h2>' + '\n'
+#         if os.path.exists(f'website/images/{latin_name_dash}-history.jpg'):
+#             article_html += f'<p><img src="/images/{latin_name_dash}-history.jpg" alt="{latin_name} history"></p>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["history_intro"][0])}</p>\n'
+#         article_html += f'<p>Here are the most important historical references of {latin_name}.</p>' + '\n'
+#         article_html += f'<ul>' + '\n'
+#         article_html += f'<li>Historical Medicinal Uses</li>' + '\n'
+#         article_html += f'<li>Mythology</li>' + '\n'
+#         article_html += f'<li>Ancient Rituals</li>' + '\n'
+#         article_html += f'<li>Literature</li>' + '\n'
+#         article_html += f'<li>Symbolism</li>' + '\n'
+#         article_html += f'</ul>' + '\n'
+#         article_html += f'<h3>What are the historical medicinal uses of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][0])}</p>' + '\n'
+#         article_html += f'<h3>What are the mythological references of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][1])}</p>' + '\n'
+#         article_html += f'<h3>What are the ancient rituals of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][2])}</p>' + '\n'
+#         article_html += f'<h3>What are the literature references of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][3])}</p>' + '\n'
+#         article_html += f'<h3>What are the symbolic aspects of {latin_name}?</h3>' + '\n'
+#         article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][4])}</p>' + '\n'
+
+
+#         html_filepath = f'website/herbs/{entity}.html'
+
+#         lastmod = '2024-05-03'
+
+#         header_html = util.header_default()
+#         breadcrumbs_html = util.breadcrumbs(html_filepath)
+#         meta_html = util.article_meta(article_html, lastmod)
+#         article_html = util.article_toc(article_html)
+
+#         html = f'''
+#             <!DOCTYPE html>
+#             <html lang="en">
+
+#             <head>
+#                 <meta charset="UTF-8">
+#                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#                 <meta name="author" content="{g.AUTHOR_NAME}">
+#                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+#                 <link rel="stylesheet" href="/style.css">
+#                 <title>{title}</title>
+#                 {g.GOOGLE_TAG}
+                
+#             </head>
+
+#             <body>
+#                 {header_html}
+#                 {breadcrumbs_html}
+                
+#                 <section class="article-section">
+#                     <div class="container">
+#                         {meta_html}
+#                         {article_html}
+#                     </div>
+#                 </section>
+
+#                 <footer>
+#                     <div class="container-lg">
+#                         <span>© TerraWhisper.com 2024 | All Rights Reserved
+#                     </div>
+#                 </footer>
+#             </body>
+
+#             </html>
+#         '''
+
+#         util.file_write(html_filepath, html)
+
+
+def redirect_plants():
+    articles_folderpath = 'database/articles/plants'
+
+    plants_folder_content = os.listdir(articles_folderpath)
+    plants_filenames = [content for content in plants_folder_content if content.endswith('.json')]
+
+    for plant_filename in plants_filenames:
+        article_filepath = f'{articles_folderpath}/{plant_filename}'
+        print(article_filepath)
+        
+        data = util.json_read(article_filepath)
+        latin_name = data['latin_name']
+        entity = data['entity']
+
+        # IMAGES
+        folderpath = f'{IMAGE_FOLDER}/plants/{entity}'
+        if not os.path.exists(folderpath): 
+            print(f'MISSING >>>>> IMAGE FOLDER - {folderpath}')
+            continue
+        filenames = os.listdir(folderpath)
+        filepaths_in = [f'{folderpath}/{filename}' for filename in filenames]
+        random.shuffle(filepaths_in)
+
+        filepaths_out = [
+            f'website/images/{entity}-overview.jpg',
+            f'website/images/{entity}-medicine.jpg',
+            f'website/images/{entity}-horticulture.jpg',
+            f'website/images/{entity}-botany.jpg',
+            f'website/images/{entity}-history.jpg',
+        ]
+
+        for i, filepath_out in enumerate(filepaths_out):
+            if not os.path.exists(filepath_out):
+                util.image_variate(filepaths_in[i], filepath_out)
+                
+        # TEXT
+        article_filepath_in = article_filepath
+
+        data = util.json_read(article_filepath_in)
+        title = data['title']
+        latin_name = data['latin_name']
+        latin_name_dash = latin_name.lower().replace(' ', '-')
+        article_html = ''
+
+        article_html += f'<h1>{title}</h1>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-overview.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-overview.jpg" alt="{latin_name} overview"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["intro_desc"][0])}</p>' + '\n'
+
+        article_html += f'<h2>What are the medicinal uses of {latin_name}?</h2>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-medicine.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-medicine.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["medicine_intro"][0])}</p>\n'
+        if os.path.exists(f'database/articles/plants/{entity}/medicine.json'):
+            article_html += f'<p>Here are the most important <a href="/plants/{entity}/medicine.html">medicinal aspects of {latin_name}</a>.</p>' + '\n'
+        else:
+            article_html += f'<p>Here are the most important medicinal aspects of {latin_name}.</p>' + '\n'
+        article_html += f'<ul>' + '\n'
+        article_html += f'<li>Health benefits</li>' + '\n'
+        article_html += f'<li>Active constituents</li>' + '\n'
+        article_html += f'<li>Medicinal preparations</li>' + '\n'
+        article_html += f'<li>Side effects</li>' + '\n'
+        article_html += f'<li>Precautions</li>' + '\n'
+        article_html += f'</ul>' + '\n'
+        article_html += f'<h3>What are the health benefits of {latin_name}?</h3>' + '\n'
+        try: article_html += f'<p>{util.text_format_1N1_html(data["benefits_desc"][0])}</p>\n'
+        except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][0])}</p>\n'
+        article_html += f'<h3>What are the active constituents of {latin_name}?</h3>' + '\n'
+        try: article_html += f'<p>{util.text_format_1N1_html(data["constituents_desc"][0])}</p>\n'
+        except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][1])}</p>\n'
+        article_html += f'<h3>What are the medicinal preparations of {latin_name}?</h3>' + '\n'
+        try: article_html += f'<p>{util.text_format_1N1_html(data["preparations_desc"][0])}</p>\n'
+        except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][2])}</p>\n'
+        article_html += f'<h3>What are the possible side effects of {latin_name}?</h3>' + '\n'
+        try: article_html += f'<p>{util.text_format_1N1_html(data["side_effects_desc"][0])}</p>\n'
+        except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][3])}</p>\n'
+        article_html += f'<h3>What are the precautions to take when using {latin_name}?</h3>' + '\n'
+        try: article_html += f'<p>{util.text_format_1N1_html(data["precautions_desc"][0])}</p>\n'
+        except: article_html += f'<p>{util.text_format_1N1_html(data["medicine_desc"][4])}</p>\n'
+
+        article_html += f'<h2>What are the horticultural conditions of {latin_name}?</h2>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-horticulture.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-horticulture.jpg" alt="{latin_name} horticulture"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_intro"][0])}</p>\n'
+        article_html += f'<p>Here are the most important horticultural aspects of {latin_name}.</p>' + '\n'
+        article_html += f'<ul>' + '\n'
+        article_html += f'<li>Growth Requirements</li>' + '\n'
+        article_html += f'<li>Planting Tips</li>' + '\n'
+        article_html += f'<li>Caring Tips</li>' + '\n'
+        article_html += f'<li>Harvesting Tips</li>' + '\n'
+        article_html += f'<li>Pests and Diseases</li>' + '\n'
+        article_html += f'</ul>' + '\n'
+        article_html += f'<h3>What are the growth requirements uses of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][0])}</p>' + '\n'
+        article_html += f'<h3>What are the planting tips of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][1])}</p>' + '\n'
+        article_html += f'<h3>What are the caring tips of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][2])}</p>' + '\n'
+        article_html += f'<h3>What are the harvesting tips of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][3])}</p>' + '\n'
+        article_html += f'<h3>What are the pests and diseases of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["horticulture_desc"][4])}</p>' + '\n'
+
+        article_html += f'<h2>What are the botanical characteristics of {latin_name}?</h2>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-botany.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-botany.jpg" alt="{latin_name} medicine"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_intro"][0])}</p>\n'
+        article_html += f'<p>Here are the most important botanical characteristics of {latin_name}.</p>' + '\n'
+        article_html += f'<ul>' + '\n'
+        article_html += f'<li>Taxonomy</li>' + '\n'
+        article_html += f'<li>Morphology</li>' + '\n'
+        article_html += f'<li>Variants Names and Differences</li>' + '\n'
+        article_html += f'<li>Geographic Distribution and Natural Habitats</li>' + '\n'
+        article_html += f'<li>Life-Cycle</li>' + '\n'
+        article_html += f'</ul>' + '\n'
+        article_html += f'<h3>What is the taxonomy of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][0])}</p>' + '\n'
+        article_html += f'<h3>What is the morphology of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][1])}</p>' + '\n'
+        article_html += f'<h3>What are the variants of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][2])}</p>' + '\n'
+        article_html += f'<h3>What is the geographic distribution of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][3])}</p>' + '\n'
+        article_html += f'<h3>What is the life-cycle of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["botany_desc"][4])}</p>' + '\n'
+
+        article_html += f'<h2>What are the historical references of {latin_name}?</h2>' + '\n'
+        if os.path.exists(f'website/images/{latin_name_dash}-history.jpg'):
+            article_html += f'<p><img src="/images/{latin_name_dash}-history.jpg" alt="{latin_name} history"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_intro"][0])}</p>\n'
+        article_html += f'<p>Here are the most important historical references of {latin_name}.</p>' + '\n'
+        article_html += f'<ul>' + '\n'
+        article_html += f'<li>Historical Medicinal Uses</li>' + '\n'
+        article_html += f'<li>Mythology</li>' + '\n'
+        article_html += f'<li>Ancient Rituals</li>' + '\n'
+        article_html += f'<li>Literature</li>' + '\n'
+        article_html += f'<li>Symbolism</li>' + '\n'
+        article_html += f'</ul>' + '\n'
+        article_html += f'<h3>What are the historical medicinal uses of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][0])}</p>' + '\n'
+        article_html += f'<h3>What are the mythological references of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][1])}</p>' + '\n'
+        article_html += f'<h3>What are the ancient rituals of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][2])}</p>' + '\n'
+        article_html += f'<h3>What are the literature references of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][3])}</p>' + '\n'
+        article_html += f'<h3>What are the symbolic aspects of {latin_name}?</h3>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(data["history_desc"][4])}</p>' + '\n'
+
+
+        html_filepath = f'website/herbs/{entity}.html'
+
+        lastmod = '2024-05-03'
+
+        header_html = util.header_default()
+        breadcrumbs_html = util.breadcrumbs(html_filepath)
+        meta_html = util.article_meta(article_html, lastmod)
+        article_html = util.article_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta_html}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(html_filepath, html)
+
+
 
 
 ##################################################################
@@ -1625,7 +2023,11 @@ def ai_precautions_main():
 # ai_entity_taxonomy_csv()
 
 # ai_entity_main()
-ai_entity_trefle_main()
+# ai_entity_trefle_main()
+
+
+# redirect_plants()
+# redirect_plants_trefle()
 
 # ai_medicine_main()
 # ai_benefits_main()
