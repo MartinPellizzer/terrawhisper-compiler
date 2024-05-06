@@ -4,7 +4,6 @@ import g
 import util
 import utils_ai
 
-ART_NUM = 2
 
 problems_rows = util.csv_get_rows(g.CSV_PROBLEMS_FILEPATH)
 problems_cols = util.csv_get_cols(problems_rows)
@@ -13,6 +12,10 @@ problems_rows = problems_rows[1:]
 herbs_rows = util.csv_get_rows(g.CSV_HERBS_FILEPATH)
 herbs_cols = util.csv_get_cols(herbs_rows)
 herbs_rows = herbs_rows[1:]
+
+preparations_rows = util.csv_get_rows(g.CSV_PREPARATIONS_FILEPATH)
+preparations_cols = util.csv_get_cols(preparations_rows)
+preparations_rows = preparations_rows[1:]
 
 # JUNCTIONS
 problems_herbs_rows = util.csv_get_rows(g.CSV_PROBLEMS_HERBS_FILEPATH)
@@ -39,6 +42,7 @@ problems_tinctures_rows = problems_tinctures_rows[1:]
 ##################################################
 # TEAS
 ##################################################
+
 def csv_gen_teas_for_problem(problem_row):
     problem_id = problem_row[problems_cols['problem_id']]
     problem_slug = problem_row[problems_cols['problem_slug']]
@@ -69,6 +73,8 @@ def csv_gen_teas_for_problem(problem_row):
             if line == '': continue
 
             line = line.replace('licorice root', 'licorice')
+            line = line.replace('raspberry leaf', 'raspberry')
+            line = line.replace('oak bark', 'oak')
 
             herbs_rows_filtered = util.csv_get_rows_filtered(
                 g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line
@@ -101,7 +107,7 @@ def csv_gen_related_for_problem(problem_row):
 
     if problems_related_rows == []:
         prompt = f'''
-            Write a numbered list of the most common symptoms people may also experience when they have {problem_name}.
+            Write a numbered list of the most common ailments people may also experience when they have {problem_name}.
             Write only the names, not the descriptions.
             Use as few words as possible.
         '''
@@ -168,10 +174,13 @@ def csv_gen_herbs_for_problem(problem_row):
             line = line.strip()
             if line == '': continue
 
-            line = line.replicace('licorice root', 'licorice')
-            line = line.replicace('ginger root', 'ginger')
-            line = line.replicace('marshmallow root', 'marshmallow')
-            line = line.replicace('slippery elm bark', 'slippery elm')
+            line = line.replace('licorice root', 'licorice')
+            line = line.replace('ginger root', 'ginger')
+            line = line.replace('marshmallow root', 'marshmallow')
+            line = line.replace('slippery elm bark', 'slippery elm')
+            line = line.replace('cloves', 'clove')
+            line = line.replace('tea tree oil', 'tea tree')
+            line = line.replace('wild oregano', 'oregano')
 
             herbs_rows_filtered = util.csv_get_rows_filtered(
                 g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line
@@ -284,6 +293,8 @@ def csv_gen_tinctures_for_problem(problem_row):
             line = line.replace('marshmallow root', 'marshmallow')
             line = line.replace('slippery elm bark', 'slippery elm')
             line = line.replace('raspberry leaf', 'raspberry')
+            line = line.replace('tea tree oil', 'tea tree')
+            line = line.replace('cloves', 'clove')
 
             herbs_rows_filtered = util.csv_get_rows_filtered(
                 g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line
@@ -305,8 +316,13 @@ def csv_gen_tinctures_for_problem(problem_row):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
+
+##################################################
+# EXE
+##################################################
+
 def gen_csvs():
-    for problem_row in problems_rows[:ART_NUM]:
+    for problem_row in problems_rows[:g.ART_NUM]:
         problem_id = problem_row[problems_cols['problem_id']].strip().lower()
         problem_slug = problem_row[problems_cols['problem_slug']].strip().lower()
         problem_names = problem_row[problems_cols['problem_names']]
@@ -318,11 +334,12 @@ def gen_csvs():
 
         print(f'> {problem_row}')
 
-        # teas
         csv_gen_herbs_for_problem(problem_row)
         csv_gen_preparations_for_problem(problem_row)
-        csv_gen_teas_for_problem(problem_row)
         csv_gen_related_for_problem(problem_row)
+
+        # teas
+        csv_gen_teas_for_problem(problem_row)
 
         # tinctures
         csv_gen_tinctures_for_problem(problem_row)

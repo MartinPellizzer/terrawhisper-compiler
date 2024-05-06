@@ -1,5 +1,9 @@
 ARTICLES_NUM = 100
 
+
+ART_NUM = 3
+
+
 # BY
 AUTHOR_NAME = 'Martin Pellizzer'
 

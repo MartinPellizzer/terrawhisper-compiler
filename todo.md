@@ -30,9 +30,25 @@
 # ###################################################
 # TODO
 # ###################################################
+- fix json teas_list -> teas, teas_num -> remedy_num, tincture_num/list -> remedies
+
+- SUPPLEMENTARY UMBRELLA:
+    - What causes bad breath and how to best treat it?
+
+- SUPPLEMENTARY (TEA/TINCTURE):
+    make related ailments preparations specific
+        - ex. ailments related to x [that-teas-can-treat]
+        - pointing link to teas articles instead of general ailment article
+
+- HERBALISM/TINCTURE/SYSTEMS:
+    - gen page
+
+- HERBALISM/TINCTURE:
+    - gen page
+
+- complete supplementary content in teas and tinctures (make h3 related ailments and faq)
 - new herbs page from herbs database (create "herbs" url?)
 - fix homepage sections (fix plants and add ailments)
-- generate tincture bad breath and link it to ailment bad breath
 - put only herbal teas/tincures + ailments (and herbs when done) in sitemap for now
 
 

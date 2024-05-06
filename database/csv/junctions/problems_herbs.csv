@@ -25,7 +25,7 @@ problem_id\problem_slug\herb_id\herb_slug
 3\dry-mouth\2\licorice
 3\dry-mouth\0\ginger
 3\dry-mouth\1\turmeric
-3\dry-mouth\\cloves
+3\dry-mouth\25\clove
 3\dry-mouth\23\sage
 3\dry-mouth\17\basil
 3\dry-mouth\24\thyme
@@ -39,3 +39,23 @@ problem_id\problem_slug\herb_id\herb_slug
 3\dry-mouth\37\milk thistle
 3\dry-mouth\38\chamomile
 3\dry-mouth\39\valerian
+4\mouth-ulcers\2\licorice
+4\mouth-ulcers\34\aloe vera
+4\mouth-ulcers\38\chamomile
+4\mouth-ulcers\41\calendula
+4\mouth-ulcers\23\sage
+4\mouth-ulcers\17\basil
+4\mouth-ulcers\1\turmeric
+4\mouth-ulcers\0\ginger
+4\mouth-ulcers\44\echinacea
+4\mouth-ulcers\45\goldenseal
+4\mouth-ulcers\25\clove
+4\mouth-ulcers\14\coriander
+4\mouth-ulcers\12\fennel
+4\mouth-ulcers\4\marshmallow
+4\mouth-ulcers\28\myrrh
+4\mouth-ulcers\46\plantain
+4\mouth-ulcers\47\red sage
+4\mouth-ulcers\29\tea tree oil
+4\mouth-ulcers\18\wild oregano
+4\mouth-ulcers\9\yarrow

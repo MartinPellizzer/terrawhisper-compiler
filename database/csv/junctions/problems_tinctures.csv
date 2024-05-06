@@ -20,12 +20,24 @@ problem_id\problem_name\tincture_id\tincture_name
 3\dry-mouth\2\licorice
 3\dry-mouth\41\calendula
 3\dry-mouth\0\ginger
-3\dry-mouth\\echinacea
+3\dry-mouth\44\echinacea
 3\dry-mouth\23\sage
 3\dry-mouth\42\raspberry
 3\dry-mouth\38\chamomile
 3\dry-mouth\12\fennel
 3\dry-mouth\19\parsley
-3\dry-mouth\\marjoram
+3\dry-mouth\43\marjoram
 3\dry-mouth\24\thyme
 3\dry-mouth\22\rosemary
+4\mouth-ulcers\34\aloe vera
+4\mouth-ulcers\2\licorice
+4\mouth-ulcers\41\calendula
+4\mouth-ulcers\4\marshmallow
+4\mouth-ulcers\38\chamomile
+4\mouth-ulcers\44\echinacea
+4\mouth-ulcers\45\goldenseal
+4\mouth-ulcers\28\myrrh
+4\mouth-ulcers\23\sage
+4\mouth-ulcers\29\tea tree
+4\mouth-ulcers\25\clove
+4\mouth-ulcers\1\turmeric

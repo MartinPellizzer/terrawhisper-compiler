@@ -6,9 +6,9 @@ herb_id\herb_slug\herb_name_common\herb_name_scientific
 4\althaea-officinalis\marshmallow\Althaea officinalis 
 5\cichorium-intybus\chicory\Cichorium intybus 
 6\taraxacum-officinale\dandelion\Taraxacum officinale 
-7\cynara-cardunculusvar. scolymus \artichoke\Cynara cardunculus var. scolymus 
-8\silybum-marianummilk thistle\Silybum marianum
-9\achillea-millefoliumyarrow\Achillea millefolium
+7\cynara-cardunculus var. scolymus \artichoke\Cynara cardunculus var. scolymus 
+8\silybum-marianum\milk thistle\Silybum marianum
+9\achillea-millefolium\yarrow\Achillea millefolium
 10\scutellaria-lateriflora\skullcap\Scutellaria lateriflora 
 11\passiflora-incarnata\passionflower\Passiflora incarnata 
 12\foeniculum-vulgare\fennel\Foeniculum vulgare 
@@ -40,3 +40,9 @@ herb_id\herb_slug\herb_name_common\herb_name_scientific
 41\calendula-officinalis\calendula\Calendula officinalis
 42\rubus-idaeus\raspberry\Rubus idaeus
 43\origanum-majorana\marjoram\Origanum majorana
+44\echinacea-purpurea\echinacea\Echinacea purpurea
+45\hydrastis-canadensis\goldenseal\Hydrastis canadensis
+46\plantago-major\plantain\Plantago major
+47\salvia-miltiorrhiza\red sage\Salvia miltiorrhiza
+48\camellia-sinensis\black tea\Camellia sinensis
+49\quercus-robur\oak\Quercus robur
