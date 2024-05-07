@@ -30,10 +30,15 @@
 # ###################################################
 # TODO
 # ###################################################
-- fix json teas_list -> teas, teas_num -> remedy_num, tincture_num/list -> remedies
-
 - SUPPLEMENTARY UMBRELLA:
     - What causes bad breath and how to best treat it?
+    - How to best treat bad breath with herbal teas?
+        - What are the causes of bad breath that you can treat with herbal teas?
+        - How frequently should you drink herbal teas for bad breath?
+        - How long does it take to see results with herbal teas for bad breath?
+        - What are the possible side effects of herbal teas for bad breath?
+        - What herbs to avoid for bad breath?
+        - What other herbal preparations treat for bad breath?
 
 - SUPPLEMENTARY (TEA/TINCTURE):
     make related ailments preparations specific

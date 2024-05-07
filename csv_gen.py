@@ -39,6 +39,22 @@ problems_tinctures_cols = util.csv_get_cols(problems_tinctures_rows)
 problems_tinctures_rows = problems_tinctures_rows[1:]
 
 
+def sanitize_herbs(line):
+    line = line.replace('licorice root', 'licorice')
+    line = line.replace('ginger root', 'ginger')
+    line = line.replace('marshmallow root', 'marshmallow')
+    line = line.replace('slippery elm bark', 'slippery elm')
+    line = line.replace('cloves', 'clove')
+    line = line.replace('tea tree oil', 'tea tree')
+    line = line.replace('wild oregano', 'oregano')
+    line = line.replace('raspberry leaf', 'raspberry')
+    line = line.replace('oak bark', 'oak')
+    if line == 'hop': line = 'hops'
+    if line == 'kava': line = 'kava kava'
+
+    return line
+
+
 ##################################################
 # TEAS
 ##################################################
@@ -72,9 +88,7 @@ def csv_gen_teas_for_problem(problem_row):
             line = line.strip()
             if line == '': continue
 
-            line = line.replace('licorice root', 'licorice')
-            line = line.replace('raspberry leaf', 'raspberry')
-            line = line.replace('oak bark', 'oak')
+            line = sanitize_herbs(line)
 
             herbs_rows_filtered = util.csv_get_rows_filtered(
                 g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line
@@ -174,13 +188,7 @@ def csv_gen_herbs_for_problem(problem_row):
             line = line.strip()
             if line == '': continue
 
-            line = line.replace('licorice root', 'licorice')
-            line = line.replace('ginger root', 'ginger')
-            line = line.replace('marshmallow root', 'marshmallow')
-            line = line.replace('slippery elm bark', 'slippery elm')
-            line = line.replace('cloves', 'clove')
-            line = line.replace('tea tree oil', 'tea tree')
-            line = line.replace('wild oregano', 'oregano')
+            line = sanitize_herbs(line)
 
             herbs_rows_filtered = util.csv_get_rows_filtered(
                 g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line
@@ -289,12 +297,7 @@ def csv_gen_tinctures_for_problem(problem_row):
             line = line.strip()
             if line == '': continue
 
-            line = line.replace('licorice root', 'licorice')
-            line = line.replace('marshmallow root', 'marshmallow')
-            line = line.replace('slippery elm bark', 'slippery elm')
-            line = line.replace('raspberry leaf', 'raspberry')
-            line = line.replace('tea tree oil', 'tea tree')
-            line = line.replace('cloves', 'clove')
+            line = sanitize_herbs(line)
 
             herbs_rows_filtered = util.csv_get_rows_filtered(
                 g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line
@@ -334,15 +337,15 @@ def gen_csvs():
 
         print(f'> {problem_row}')
 
-        csv_gen_herbs_for_problem(problem_row)
-        csv_gen_preparations_for_problem(problem_row)
-        csv_gen_related_for_problem(problem_row)
+        # TODO
+        # csv_gen_system_for_problem(problem_row)
+        
+        # csv_gen_herbs_for_problem(problem_row)
+        # csv_gen_preparations_for_problem(problem_row)
+        # csv_gen_related_for_problem(problem_row)
 
-        # teas
-        csv_gen_teas_for_problem(problem_row)
-
-        # tinctures
-        csv_gen_tinctures_for_problem(problem_row)
+        # csv_gen_teas_for_problem(problem_row)
+        # csv_gen_tinctures_for_problem(problem_row)
 
 
 gen_csvs()

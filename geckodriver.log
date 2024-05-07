@@ -29852,3 +29852,33 @@ JavaScript error: https://s.pinimg.com/webapp/72586-23b80a892be3a420.mjs, line 1
 JavaScript error: https://s.pinimg.com/webapp/72586-23b80a892be3a420.mjs, line 1: Error: Got unexpected null or undefined
 Exiting due to channel error.
 Exiting due to channel error.
+1715087203602	geckodriver	INFO	Listening on 127.0.0.1:63286
+1715087206684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63287" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilel0fLCJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1715087207378	Marionette	INFO	Marionette enabled
+1715087207570	Marionette	INFO	Listening on port 63294
+WebDriver BiDi listening on ws://127.0.0.1:63287
+Read port: 63294
+1715087207896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63287/devtools/browser/ce7f4d79-326d-4f66-8ad6-fac4ac43f285
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1715087237379	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://s.pinimg.com/webapp/vendor-react-242c80bd1667c482.mjs, line 25: Script terminated by timeout at:
+364448/a2/l/<@https://s.pinimg.com/webapp/vendor-react-242c80bd1667c482.mjs:25:58135
+l@https://s.pinimg.com/webapp/vendor-react-242c80bd1667c482.mjs:25:58451
+ou@https://s.pinimg.com/webapp/vendor-react-242c80bd1667c482.mjs:25:71123
+s@https://s.pinimg.com/webapp/vendor-react-242c80bd1667c482.mjs:25:121530
+lU@https://s.pinimg.com/webapp/vendor-react-242c80bd1667c482.mjs:25:99072
+364448/lM/<@https://s.pinimg.com/webapp/vendor-react-242c80bd1667c482.mjs:25:98940
+lM@https://s.pinimg.com/webapp/vendor-react-242c80bd1667c482.mjs:25:98945
+lC@https://s.pinimg.com/webapp/vendor-react-242c80bd1667c482.mjs:25:93984
+A@https://s.pinimg.com/webapp/80007-1d63a4d031d674d0.mjs:9:1365
+D@https://s.pinimg.com/webapp/80007-1d63a4d031d674d0.mjs:9:1894
+
+1715088325821	Marionette	INFO	Stopped listening on port 63294
+Dynamically enable window occlusion 1
