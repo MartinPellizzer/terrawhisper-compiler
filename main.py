@@ -216,15 +216,126 @@ def csv_get_related_by_problem(problem_id):
     return problems_rows_filtered
 
 
+# #########################################################
+# JSONs - TODO
+# #########################################################
+
+def json_intro(json_filepath, data, prompt):
+    key = 'intro_desc'
+
+    if key not in data:
+        reply = utils_ai.gen_reply(prompt)
+
+        reply = utils_ai.reply_to_paragraphs(reply)
+
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def json_supplementary(json_filepath, data, preparation_name):
+    problem_id = data['problem_id']
+    problem_slug = data['problem_slug']
+    problem_name = data['problem_name']
+    
+    key = 'supplementary_best_treatment'
+    if key not in data:
+        prompt = f'''
+            How to best treat {problem_name} with herbal {preparation_name}?
+            Reply in a short paragraph of about 60 to 80 words.
+            Don't include consulting with a healthcare provider.
+            Don't include precautions.
+            Start the reply with the following words: The best way to treat {problem_name} with herbal {preparation_name} is .
+            Never use these words: can, may and might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        reply = utils_ai.reply_to_paragraphs(reply)
+
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+    key = 'supplementary_causes'
+    if key not in data:
+        prompt = f'''
+            What are the most common causes of {problem_name} that are treatable with herbal {preparation_name}?
+            Reply in a short paragraph of about 60 to 80 words.
+            Don't include names of herbs.
+            Don't include examples of herbs.
+            Don't include consulting with a healthcare provider.
+            Don't include precautions.
+            Start the reply with the following words: The primary causes of {problem_name} that are treatable with herbal {preparation_name} are .
+            Never use these words: can, may and might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        reply = utils_ai.reply_to_paragraphs(reply)
+
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def html_supplementary(data, preparation_name, preparation_slug, system_slug):
+    problem_id = data['problem_id']
+    problem_name = data['problem_name']
+    problem_slug = data['problem_slug']
+
+    article_html = ''
+    
+    key = 'supplementary_best_treatment'
+    if key in data:
+        article_html += f'<h2>How to best treat {problem_name} with herbal {preparation_name}?</h2>\n'
+        text = data[key]
+        text = text.replace(problem_name, f'<a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name}</a>', 1)
+
+        article_html += f'{util.text_format_1N1_html(text)}\n'
+
+    
+    key = 'supplementary_causes'
+    if key in data:
+        article_html += f'<h3>What are the most common causes of {problem_name} that are treatable with herbal {preparation_name}?</h3>\n'
+        text = data[key]
+        for problem_row in problems_rows:
+            link_problem_id = problem_row[problems_cols['problem_id']]
+            link_problem_slug = problem_row[problems_cols['problem_slug']]
+            link_problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+            
+            link_system_row = csv_get_system_by_problem(problem_id)
+            link_system_slug = link_system_row[systems_cols['system_slug']]
+
+            if link_problem_id != problem_id:
+                text = text.replace(link_problem_name, f'<a href="/herbalism/{preparation_slug}/{link_system_slug}/{link_problem_slug}.html">{link_problem_name}</a>', 1)
+
+        article_html += f'{util.text_format_1N1_html(text)}\n'
+
+    return article_html
+
 
 # #########################################################
 # ARTICLES - PROBLEMS
 # #########################################################
 
-
-
-
-def art_problems_intro(json_filepath, data):
+def json_ailments_systems_problems_intro(json_filepath, data):
     key = 'intro'
     if key not in data:
         problem_name = data['problem_name']
@@ -249,7 +360,7 @@ def art_problems_intro(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def art_problems_definition(json_filepath, data):
+def json_ailments_systems_problems_definition(json_filepath, data):
     key = 'definition'
     if key not in data:
         problem_name = data['problem_name']
@@ -270,7 +381,7 @@ def art_problems_definition(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def art_problems_causes(json_filepath, data):
+def json_ailments_systems_problems_causes(json_filepath, data):
     key = 'causes_desc'
     if key not in data:
         problem_name = data['problem_name']
@@ -338,7 +449,7 @@ def art_problems_causes(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def art_problems_herbs(json_filepath, data):
+def json_ailments_systems_problems_herbs(json_filepath, data):
     herbs_num = 10
 
     key = 'herbs_desc'
@@ -422,7 +533,7 @@ def art_problems_herbs(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def art_problems_preparations(json_filepath, data):
+def json_ailments_systems_problems_preparations(json_filepath, data):
     key = 'preparations_desc'
     if key not in data:
         problem_id = data['problem_id']
@@ -512,7 +623,7 @@ def art_problems_preparations(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def art_problems_precautions(json_filepath, data):
+def json_ailments_systems_problems_precautions(json_filepath, data):
     key = 'precautions_desc'
     if key not in data:
         problem_name = data['problem_name']
@@ -569,7 +680,7 @@ def art_problems_precautions(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
         
 
-def art_problems_other_remedies(json_filepath, data):
+def json_ailments_systems_problems_other_remedies(json_filepath, data):
     key = 'other_remedies_desc'
     if key not in data:
         problem_name = data['problem_name']
@@ -630,7 +741,7 @@ def art_problems_other_remedies(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def html_problems_other_remedies(data):
+def html_ailments_systems_problems_other_remedies(data):
     problem_name = data['problem_name']
     other_remedies_desc = data['other_remedies_desc']
 
@@ -650,12 +761,11 @@ def html_problems_other_remedies(data):
     return article_html
 
 
-def art_problems():
+def art_ailments_systems_problems():
     for problem_row in problems_rows[:g.ART_NUM]:
         problem_id = problem_row[problems_cols['problem_id']]
         problem_slug = problem_row[problems_cols['problem_slug']]
         problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
-
 
         if problem_id == '': continue
         if problem_slug == '': continue
@@ -715,14 +825,14 @@ def art_problems():
 
 
         # sections
-        art_problems_intro(json_filepath, data)
-        art_problems_definition(json_filepath, data)
-        art_problems_causes(json_filepath, data)
-        art_problems_herbs(json_filepath, data)
+        json_ailments_systems_problems_intro(json_filepath, data)
+        json_ailments_systems_problems_definition(json_filepath, data)
+        json_ailments_systems_problems_causes(json_filepath, data)
+        json_ailments_systems_problems_herbs(json_filepath, data)
 
-        art_problems_preparations(json_filepath, data)
-        art_problems_precautions(json_filepath, data)
-        art_problems_other_remedies(json_filepath, data)
+        json_ailments_systems_problems_preparations(json_filepath, data)
+        json_ailments_systems_problems_precautions(json_filepath, data)
+        json_ailments_systems_problems_other_remedies(json_filepath, data)
 
 
 
@@ -734,7 +844,7 @@ def art_problems():
         article_html = ''
         article_html += f'<h1>{title}</h1>\n'
         article_html += f'{util.text_format_1N1_html(data["intro"])}\n'
-        article_html += f'<p>This article explains in detail what is {problem_name}, how it affects your life and what are its causes. Then, it lists what medicinal herbs to use to relieve this problem and how to prepare these herbs to get the best results. Lastly, it revals what other natural remedies to use in conjunction with herbal medicine to aid with this problem.</p>\n'
+        article_html += f'<p>This article explains in detail what {problem_name} is, how it affects your life and what are its causes. Then, it lists what medicinal herbs to use to relieve this problem and how to prepare these herbs to get the best results. Lastly, it revals what other natural remedies to use in conjunction with herbal medicine to aid with this problem.</p>\n'
 
         article_html += f'<h2>What is {problem_name} and how it affects your life?</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["definition"])}\n'
@@ -781,13 +891,13 @@ def art_problems():
 
         article_html += f'<h2>What precautions to take when using herbal remedies for {problem_name}?</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["precautions_desc"])}\n'
-        article_html += f'<p>The most important precautions to take when using herbal remedits for {problem_name} are listed below.</p>\n'
+        article_html += f'<p>The most important precautions to take when using herbal remedies for {problem_name} are listed below.</p>\n'
         article_html += f'<ul>\n'
         for item in data['precautions_list']:
             article_html += f'<li>{item}</li>\n'
         article_html += f'</ul>\n'
 
-        article_html += html_problems_other_remedies(data)
+        article_html += html_ailments_systems_problems_other_remedies(data)
 
         header_html = util.header_default()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
@@ -842,7 +952,7 @@ def art_problems():
 # AILMENTS
 # #########################################################
 
-def art_ailments_intro(json_filepath, data):
+def json_ailments_intro(json_filepath, data):
     key = 'intro_desc'
     if key not in data:
         prompt = f'''
@@ -864,7 +974,7 @@ def art_ailments_intro(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def art_ailments_definition(json_filepath, data):
+def json_ailments_definition(json_filepath, data):
     key = 'definition_desc'
     if key not in data:
         prompt = f'''
@@ -886,7 +996,7 @@ def art_ailments_definition(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def art_ailments_systems(json_filepath, data):
+def json_ailments_systems(json_filepath, data):
     key = 'systems'
     if key not in data: data[key] = []
     for system_row in systems_rows:
@@ -962,10 +1072,10 @@ def art_ailments():
     util.json_write(json_filepath, data)
 
     # json art sections
-    art_ailments_intro(json_filepath, data)
-    art_ailments_definition(json_filepath, data)
-    art_ailments_systems(json_filepath, data)
-    
+    json_ailments_intro(json_filepath, data)
+    json_ailments_definition(json_filepath, data)
+    json_ailments_systems(json_filepath, data)
+
 
 
     html_filepath = 'website/ailments.html'
@@ -973,7 +1083,7 @@ def art_ailments():
     data = util.json_read(json_filepath)
 
     article_html = ''
-    
+
     article_html += f'<h1>{title}</h1>\n'
     article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
 
@@ -1038,7 +1148,7 @@ def art_ailments():
 
 
 
-def art_systems_intro(json_filepath, data):
+def json_ailments_systems_intro(json_filepath, data):
     key = 'intro_desc'
     if key not in data:
         system_name = data['system_name']
@@ -1061,7 +1171,7 @@ def art_systems_intro(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def art_systems_definition(json_filepath, data):
+def json_ailments_systems_definition(json_filepath, data):
     key = 'definition_desc'
     if key not in data:
         system_name = data['system_name']
@@ -1084,7 +1194,7 @@ def art_systems_definition(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def art_systems_problems(json_filepath, data):
+def json_ailments_systems_problems(json_filepath, data):
     key = 'problems'
     if key not in data: data[key] = []
     for problem_row in problems_rows[:g.ART_NUM]:
@@ -1095,6 +1205,9 @@ def art_systems_problems(json_filepath, data):
         if problem_id == '': continue
         if problem_slug == '': continue
         if problem_name == '': continue
+        
+        system_row = csv_get_system_by_problem(problem_id)
+        if system_row[systems_cols['system_id']] != data['system_id']: continue
 
         found = False
         for problem_obj in data[key]:
@@ -1134,7 +1247,7 @@ def art_systems_problems(json_filepath, data):
             time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def art_systems():
+def art_ailments_systems():
     for system_row in systems_rows:
         system_id = system_row[systems_cols['system_id']]
         system_slug = system_row[systems_cols['system_slug']]
@@ -1170,9 +1283,9 @@ def art_systems():
         util.json_write(json_filepath, data)
 
         # ai
-        art_systems_intro(json_filepath, data)
-        art_systems_definition(json_filepath, data)
-        art_systems_problems(json_filepath, data)
+        json_ailments_systems_intro(json_filepath, data)
+        json_ailments_systems_definition(json_filepath, data)
+        json_ailments_systems_problems(json_filepath, data)
 
        
 
@@ -1768,7 +1881,8 @@ def art_tea_systems_problems():
         # JSON
         json_tea_systems_problems_intro(json_filepath, data)
         json_tea_systems_problems_list(json_filepath, data)
-        json_tea_systems_problems_supplementary(json_filepath, data)
+        # json_tea_systems_problems_supplementary(json_filepath, data)
+        json_supplementary(json_filepath, data, 'tea')
 
         # IMG
         img_tea_systems_problems_featured(data)
@@ -1836,7 +1950,7 @@ def art_tea_systems_problems():
 
         key = 'supplementary_best_treatment'
         if key in data:
-            article_html += f'<h2>How to best treat {problem_name} with herbal teas?</h2>\n'
+            article_html += f'<h2>How to best treat {problem_name} with herbal tea?</h2>\n'
             text = data[key]
             text = text.replace(problem_name, f'<a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name}</a>', 1)
 
@@ -2391,7 +2505,7 @@ def art_tincture_systems_problems():
         if problem_id == '': continue
         if problem_slug == '': continue
         if problem_name == '': continue
-
+        
         preparations_rows_filtered = csv_get_preparations_by_problem(problem_id)
         preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows_filtered]
         if 'tinctures' not in preparations_names: continue
@@ -2433,7 +2547,8 @@ def art_tincture_systems_problems():
         # JSON
         json_tincture_systems_problems_intro(json_filepath, data)
         json_tincture_systems_problems_list(json_filepath, data)
-        json_tincture_systems_problems_supplementary(json_filepath, data)
+        # json_tincture_systems_problems_supplementary(json_filepath, data)
+        json_supplementary(json_filepath, data, 'tincture')
 
         # IMG
         img_tincture_systems_problems_featured(data)
@@ -2513,69 +2628,97 @@ def art_tincture_systems_problems():
         # try: article_html += f'{util.text_format_1N1_html(problem_definition)}\n'
         # except: print(f'MISSING INTRO: {html_filepath} >> {problem_name}')
 
-        key = 'supplementary_other_remedies'
-        if key in data:
-            article_html += f'<h2>What are other herbal remedies for {problem_name}?</h2>\n'
-            article_html += f'<p>Other herbal remedies to supplement herbal tinctures for <a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name}</a> are listed below.</p>\n'
-            article_html += f'<ul>\n'
-            for item in data[key]:
-                chunks = item.split(':')
-                chunk_1 = chunks[0]
-                chunk_2 = ':'.join(chunks[1:])
-                if chunk_1.lower().strip() == 'infusions':
-                    chunk_1 = f'<strong><a href="/herbalism/tea/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
-                elif chunk_1.lower().strip() == 'tinctures':
-                    chunk_1 = f'<strong><a href="/herbalism/tincture/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
-                else:
-                    chunk_1 = f'<strong>{chunk_1}</strong>'
-                article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
-            article_html += f'</ul>\n'
+        # key = 'supplementary_other_remedies'
+        # if key in data:
+        #     article_html += f'<h2>What are other herbal remedies for {problem_name}?</h2>\n'
+        #     article_html += f'<p>Other herbal remedies to supplement herbal tinctures for <a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name}</a> are listed below.</p>\n'
+        #     article_html += f'<ul>\n'
+        #     for item in data[key]:
+        #         chunks = item.split(':')
+        #         chunk_1 = chunks[0]
+        #         chunk_2 = ':'.join(chunks[1:])
+        #         if chunk_1.lower().strip() == 'infusions':
+        #             chunk_1 = f'<strong><a href="/herbalism/tea/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
+        #         elif chunk_1.lower().strip() == 'tinctures':
+        #             chunk_1 = f'<strong><a href="/herbalism/tincture/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
+        #         else:
+        #             chunk_1 = f'<strong>{chunk_1}</strong>'
+        #         article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
+        #     article_html += f'</ul>\n'
 
 
-        key = 'problems_related'
-        if key in data:
-            article_html += f'<h3>What ailments related to {problem_name} herbal teas helps?</h3>\n'
-            article_html += f'<p>Herbal teas helps people with many ailments related to {problem_name}, such as those listed below.</p>\n'
-            article_html += '<ul>\n'
-            for item in data[key]:
-                chunk_1 = item.split(': ')[0]
+        # key = 'problems_related'
+        # if key in data:
+        #     article_html += f'<h3>What ailments related to {problem_name} herbal teas helps?</h3>\n'
+        #     article_html += f'<p>Herbal teas helps people with many ailments related to {problem_name}, such as those listed below.</p>\n'
+        #     article_html += '<ul>\n'
+        #     for item in data[key]:
+        #         chunk_1 = item.split(': ')[0]
                 
-                problem_url = ''
+        #         problem_url = ''
 
-                problems_related_rows_filtered = util.csv_get_rows_filtered(
-                    g.CSV_PROBLEMS_RELATED_FILEPATH, problems_related_cols['related_name'], chunk_1.strip().lower()
-                )
+        #         problems_related_rows_filtered = util.csv_get_rows_filtered(
+        #             g.CSV_PROBLEMS_RELATED_FILEPATH, problems_related_cols['related_name'], chunk_1.strip().lower()
+        #         )
 
-                if problems_related_rows_filtered != []:
-                    problem_related_row = problems_related_rows_filtered[0]
-                    related_id = problem_related_row[problems_related_cols['related_id']]
-                else:
-                    related_id = ''
+        #         if problems_related_rows_filtered != []:
+        #             problem_related_row = problems_related_rows_filtered[0]
+        #             related_id = problem_related_row[problems_related_cols['related_id']]
+        #         else:
+        #             related_id = ''
 
-                if related_id != '': 
-                    problems_rows_filtered = util.csv_get_rows_filtered(
-                        g.CSV_PROBLEMS_FILEPATH, problems_cols['problem_id'], related_id
-                    )
+        #         if related_id != '': 
+        #             problems_rows_filtered = util.csv_get_rows_filtered(
+        #                 g.CSV_PROBLEMS_FILEPATH, problems_cols['problem_id'], related_id
+        #             )
                     
-                    if problems_rows_filtered != []:
-                        problem_row = problems_rows_filtered[0]
-                        problem_id = problem_row[problems_cols['problem_id']]
-                        problem_slug = problem_row[problems_cols['problem_slug']]
+        #             if problems_rows_filtered != []:
+        #                 problem_row = problems_rows_filtered[0]
+        #                 problem_id = problem_row[problems_cols['problem_id']]
+        #                 problem_slug = problem_row[problems_cols['problem_slug']]
 
-                        system_row = csv_get_system_by_problem(problem_id)
+        #                 system_row = csv_get_system_by_problem(problem_id)
 
-                        if system_row != []:
-                            system_slug = system_row[systems_cols['system_slug']]
-                            if os.path.exists(f'website/ailments/{system_slug}/{problem_slug}.html'):
-                                problem_url = f'/ailments/{system_slug}/{problem_slug}.html'
+        #                 if system_row != []:
+        #                     system_slug = system_row[systems_cols['system_slug']]
+        #                     if os.path.exists(f'website/ailments/{system_slug}/{problem_slug}.html'):
+        #                         problem_url = f'/ailments/{system_slug}/{problem_slug}.html'
 
-                chunk_2 = ': '.join(item.split(': ')[1:])
-                if problem_url != '':
-                    article_html += f'<li><strong><a href="{problem_url}">{chunk_1.capitalize()}</a></strong>: {chunk_2}</li>\n'
-                else:
-                    article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
-            article_html += '</ul>\n'
+        #         chunk_2 = ': '.join(item.split(': ')[1:])
+        #         if problem_url != '':
+        #             article_html += f'<li><strong><a href="{problem_url}">{chunk_1.capitalize()}</a></strong>: {chunk_2}</li>\n'
+        #         else:
+        #             article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
+        #     article_html += '</ul>\n'
         
+        article_html += html_supplementary(data, 'tincture', 'tincture', system_slug)
+
+        # key = 'supplementary_best_treatment'
+        # if key in data:
+        #     article_html += f'<h2>How to best treat {problem_name} with herbal tincture?</h2>\n'
+        #     text = data[key]
+        #     text = text.replace(problem_name, f'<a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name}</a>', 1)
+
+        #     article_html += f'{util.text_format_1N1_html(text)}\n'
+
+
+        # key = 'supplementary_causes'
+        # if key in data:
+        #     article_html += f'<h3>What are the most common causes of {problem_name} that are treatable with herbal tincture?</h3>\n'
+        #     text = data[key]
+        #     for problem_row in problems_rows:
+        #         link_problem_id = problem_row[problems_cols['problem_id']]
+        #         link_problem_slug = problem_row[problems_cols['problem_slug']]
+        #         link_problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+                
+        #         link_system_row = csv_get_system_by_problem(problem_id)
+        #         link_system_slug = link_system_row[systems_cols['system_slug']]
+
+        #         if link_problem_id != problem_id:
+        #             text = text.replace(link_problem_name, f'<a href="/herbalism/tincture/{link_system_slug}/{link_problem_slug}.html">{link_problem_name}</a>', 1)
+
+        #     article_html += f'{util.text_format_1N1_html(text)}\n'
+
 
         header_html = util.header_default()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
@@ -2832,23 +2975,76 @@ def page_plants(regen_csv=False):
 # JSON CLEANUP
 # #########################################################
 
-# def jsons_del_keys():
-#     json_filepaths = [
-#         f'database/json/herbalism/tea/digestive-system/bad-breath.json',
-#         f'database/json/herbalism/tea/digestive-system/dry-mouth.json',
-#         f'database/json/herbalism/tea/digestive-system/mouth-ulcers.json',
-#     ]
+def json_del_keys_herbalism_tea(key):
+    for problem_row in problems_rows[:g.ART_NUM]:
+        problem_id = problem_row[problems_cols['problem_id']]
+        problem_slug = problem_row[problems_cols['problem_slug']]
+        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
 
-#     for json_filepath in json_filepaths:
-#         data = util.json_read(json_filepath)
-#         # if 'supplementary_best_treatment' in data: del data['supplementary_best_treatment']
-#         # if 'supplementary_causes' in data: del data['supplementary_causes']
-#         # if 'supplementary_frequency' in data: del data['supplementary_frequency']
-#         # if 'supplementary_side_effects' in data: del data['supplementary_side_effects']
-#         util.json_write(json_filepath, data)
+        if problem_id == '': continue
+        if problem_slug == '': continue
+        if problem_name == '': continue
+
+        print(f'> {problem_name}')
+
+        system_row = csv_get_system_by_problem(problem_id)
+
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        print(f'  > {system_name}')
+
+        json_filepath = f'database/json/herbalism/tea/{system_slug}/{problem_slug}.json'
+
+        data = util.json_read(json_filepath)
+        if key in data: del data[key]
+        util.json_write(json_filepath, data)
 
 
-# jsons_del_keys()
+def json_del_keys_herbalism_tincture(key):
+    for problem_row in problems_rows[:g.ART_NUM]:
+        problem_id = problem_row[problems_cols['problem_id']]
+        problem_slug = problem_row[problems_cols['problem_slug']]
+        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+        if problem_id == '': continue
+        if problem_slug == '': continue
+        if problem_name == '': continue
+
+        print(f'> {problem_name}')
+
+        system_row = csv_get_system_by_problem(problem_id)
+
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        print(f'  > {system_name}')
+
+        json_filepath = f'database/json/herbalism/tincture/{system_slug}/{problem_slug}.json'
+
+        if os.path.exists(json_filepath):
+            data = util.json_read(json_filepath)
+            if key in data: del data[key]
+            util.json_write(json_filepath, data)
+        else: print(f'file not exists: {json_filepath}')
+
+
+# json_del_keys_herbalism_tea(key='supplementary_best_treatment')
+# json_del_keys_herbalism_tincture(key='supplementary_best_treatment')
+
+# json_del_keys_herbalism_tea(key='supplementary_causes')
+# json_del_keys_herbalism_tincture(key='supplementary_causes')
+
 # quit()
 
 
@@ -2864,9 +3060,9 @@ def page_plants(regen_csv=False):
 # page_about()
 # page_start_here()
 
-art_problems()
-art_systems()
-art_ailments()
+# art_ailments_systems_problems()
+# art_ailments_systems()
+# art_ailments()
 
 art_tea_systems_problems()
 art_tincture_systems_problems()
