@@ -51,6 +51,16 @@ def sanitize_herbs(line):
     line = line.replace('oak bark', 'oak')
     if line == 'hop': line = 'hops'
     if line == 'kava': line = 'kava kava'
+    if line == 'willow bark': line = 'willow'
+    if line == 'valerian root': line = 'valerian'
+    if line == 'eleuthero': line = 'siberian ginseng'
+    if line == 'milky oat seed': line = 'oat straw'
+    if line == 'milky oat tops': line = 'oat straw'
+    if line == 'milky oat': line = 'oat straw'
+    if line == 'rhodiola rosea': line = 'golden root'
+    if line == 'schisandra': line = 'magnolia vines'
+    if line == 'rhodiola': line = 'golden root'
+    if line == 'saint john\'s wort': line = 'st. john\'s wort'
 
     return line
 
@@ -239,9 +249,9 @@ def csv_gen_preparations_for_problem(problem_row):
             line = line.strip()
             if line == '': continue
             
-            if line == 'teas':
-                if 'infusions' in lines:
-                    continue
+            if line == 'teas': continue
+                # if 'infusions' in lines:
+                #     continue
 
             preparations_rows_filtered = util.csv_get_rows_filtered(
                 g.CSV_PREPARATIONS_FILEPATH, preparations_cols['preparation_name'], line
@@ -339,13 +349,14 @@ def gen_csvs():
 
         # TODO
         # csv_gen_system_for_problem(problem_row)
-        
-        # csv_gen_herbs_for_problem(problem_row)
-        # csv_gen_preparations_for_problem(problem_row)
-        # csv_gen_related_for_problem(problem_row)
 
-        # csv_gen_teas_for_problem(problem_row)
-        # csv_gen_tinctures_for_problem(problem_row)
+        # csv_gen_related_for_problem(problem_row)
+        
+        csv_gen_herbs_for_problem(problem_row)
+        csv_gen_preparations_for_problem(problem_row)
+
+        csv_gen_teas_for_problem(problem_row)
+        csv_gen_tinctures_for_problem(problem_row)
 
 
 gen_csvs()

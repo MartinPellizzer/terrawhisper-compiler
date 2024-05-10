@@ -62,7 +62,7 @@ for system_foldername in systems_foldername:
         article_filepath = f'{articles_folderpath}/{system_foldername}/{article_filename}'
         teas_articles_filepath.append(article_filepath)
 random.shuffle(teas_articles_filepath)
-teas_articles_filepath = teas_articles_filepath[:ARTICLES_NUM-3]
+teas_articles_filepath = teas_articles_filepath[:ARTICLES_NUM-5]
 
 articles_folderpath = 'database/json/herbalism/tincture'
 systems_foldername = os.listdir(articles_folderpath)
@@ -75,7 +75,7 @@ for system_foldername in systems_foldername:
         article_filepath = f'{articles_folderpath}/{system_foldername}/{article_filename}'
         tinctures_articles_filepath.append(article_filepath)
 random.shuffle(tinctures_articles_filepath)
-tinctures_articles_filepath = tinctures_articles_filepath[:3]
+tinctures_articles_filepath = tinctures_articles_filepath[:5]
 
 articles_filepath = []
 for filepath in teas_articles_filepath: articles_filepath.append(filepath)
@@ -218,12 +218,15 @@ for article_filepath in teas_articles_filepath:
     print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
     data = util.json_read(article_filepath)
 
-    remedy_num = data['remedy_num']
+    try: remedy_num = data['remedy_num']
+    except: remedy_num = data['remedies_num']
     title = data['title']
-    condition_name = data['condition_name']
+    try: condition_name = data['condition_name']
+    except: condition_name = data['problem_name']
     preparation = 'tea'
     url = data['url']
-    remedies = data['teas']
+    try: remedies = data['teas']
+    except: remedies = data['remedies_list']
     filename_out = url.replace('/', '-')
 
     remedies_descriptions = []

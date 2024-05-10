@@ -36,3 +36,33 @@ problem_id\problem_name\preparation_id\preparation_name
 227\sleep-deprivation\14\suppositories
 227\sleep-deprivation\10\oils
 227\sleep-deprivation\17\balms
+201\headache\0\infusions
+201\headache\1\decoctions
+201\headache\2\tinctures
+201\headache\18\macerations
+201\headache\19\fluid extracts
+201\headache\20\dried extracts
+201\headache\14\suppositories
+201\headache\10\capsules
+201\headache\11\ointments
+201\headache\21\essential oils
+206\anxiety\0\infusions
+206\anxiety\1\decoctions
+206\anxiety\2\tinctures
+206\anxiety\15\glycerites
+206\anxiety\10\capsules
+206\anxiety\16\tablets
+206\anxiety\21\essential oils
+206\anxiety\14\suppositories
+207\stress\0\infusions
+207\stress\1\decoctions
+207\stress\2\tinctures
+207\stress\15\glycerites
+207\stress\10\capsules
+207\stress\16\tablets
+207\stress\22\syrups
+207\stress\10\oils
+207\stress\23\salves
+207\stress\17\balms
+207\stress\24\compresses
+207\stress\25\poultices

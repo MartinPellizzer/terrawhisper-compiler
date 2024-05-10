@@ -1,11 +1,11 @@
 ARTICLES_NUM = 100
 
 
-ART_NUM = 4
+ART_NUM = 7
 
 
 # BY
-AUTHOR_NAME = 'Martin Pellizzer'
+AUTHOR_NAME = 'Leen Randell'
 
 # META
 GOOGLE_TAG = '''

@@ -1,7 +1,6 @@
 herbal tea for 
 herbal tea for weight loss
 herbal tea for constipation
-herbal tea for sleep
 herbal tea for sore throat
 herbal tea for acid reflux
 herbal tea for cough

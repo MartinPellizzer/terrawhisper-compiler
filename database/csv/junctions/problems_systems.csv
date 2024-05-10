@@ -1,5 +1,8 @@
 problem_id\problem_name\system_id\system_name
 2\bad breath\0\digestive system
 3\dry mouth\0\digestive system
-4\mouth-ulcers\0\digestive system
-227\sleep-deprivation\5\nervous system
+4\mouth ulcers\0\digestive system
+227\sleep deprivation\5\nervous system
+201\headaches\5\nervous system
+206\anxiety\5\nervous system
+207\stress\5\nervous system

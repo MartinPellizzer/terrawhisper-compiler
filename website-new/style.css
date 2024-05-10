@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 128.0rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #333;
+}
+
+img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+    gap: 1.6rem;
+}
+
+.gap-24 {
+    gap: 2.4rem;
+}
+
+.gap-32 {
+    gap: 3.2rem;
+}
+
+.gap-48 {
+    gap: 4.8rem;
+}
+
+.gap-64 {
+    gap: 6.4rem;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.decoration-none {
+    text-decoration: none;
+}
+
+.text-neutral-900 {
+    color: #171717;
+}
+
+.py-24 {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+}
+
+.mb-16 {
+    margin-bottom: 1.6rem;
+}
+
+.mb-24 {
+    margin-bottom: 2.4rem;
+}
+
+.mb-32 {
+    margin-bottom: 3.2rem;
+}
+
+.mb-48 {
+    margin-bottom: 4.8rem;
+}
+
+.mb-64 {
+    margin-bottom: 6.4em;
+}
+
+.mb-96 {
+    margin-bottom: 9.6rem;
+}
+
+.pb-16 {
+    padding-bottom: 1.6rem;
+}
+
+.pb-24 {
+    padding-bottom: 2.4rem;
+}
+
+.pb-32 {
+    padding-bottom: 3.2rem;
+}
+
+.pb-48 {
+    padding-bottom: 4.8rem;
+}
+
+.text-24 {
+    font-size: 2.4rem;
+}
+
+.text-32 {
+    font-size: 3.2rem;
+}
+
+.text-48 {
+    font-size: 4.8rem;
+}
+
+.text-64 {
+    font-size: 6.4rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.avatar-card {
+    background-color: #eeeeee;
+    padding: 2.4rem;
+    text-align: center;
+}
+
+.avatar-img {
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 9999px;
+}
+
+
+
+.button {
+    display: inline-block;
+    background-color: #171717;
+    color: white;
+    padding: 0.8rem 1.6rem;
+    text-decoration: none;
+}
