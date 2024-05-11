@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,8 +9,10 @@
 </head>
 
 <body>
-    <header class="flex container justify-between py-24">
-        <a class="decoration-none text-neutral-900" href="">TerraWhisper</a>
+    <header class="container flex justify-between items-center py-24">
+        <a href="">
+            <img class="logo" src="images/terrawhisper-logo.png" alt="">
+        </a>
         <nav class="flex gap-24">
             <a class="decoration-none text-neutral-900" href="">Herbalism</a>
             <a class="decoration-none text-neutral-900" href="">Ailments</a>
@@ -19,14 +20,22 @@
             <a class="decoration-none text-neutral-900" href="">About Us</a>
         </nav>
     </header>
-    <main class="flex container gap-48">
+    <main class="flex container gap-48 mb-96">
 
         <div class="flex-3">
-            <section class="mb-96 hero">
+            <section class="mb-96 hero flex flex-col items-center">
                 <img class="mb-16" src="images/apothecary-01.jpg" alt="">
-                <h1 class="mb-16 text-center text-48">Learn to Use Medicinal Herbs to Heal Physically,
+                <h1 class="mb-16 text-center">Learn to Use Medicinal Herbs to Heal Physically,
                     Mentally, and
                     Spiritually</h1>
+                <span class="by-line mb-16 flex gap-4">By <a class="author-anchor" href="">LEEN RANDELL</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>March 6, 2019
+                </span>
+
                 <p class="mb-16 text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam
                     explicabo
                     impedit totam! Facere
@@ -36,53 +45,172 @@
                     <a class="button" href="">Learn More</a>
                 </div>
             </section>
-            
-    <section class="articles">
-        <h2 class="mb-16 text-32">
-            Herbal Teas Articles
-        </h2>
-        <div class="grid grid-2 gap-32">
-            
-        <div>
-            <img class="mb-16" src="/images/herbal-teas-for-bad-breath-overview.jpg" alt="">
-            <h3 class="mb-16 text-24">10 Best Herbal Teas For Bad Breath</h3>
-            <p class="mb-16">The best herbal teas for bad breath are parsley, spearmint, peppermint, clove, rosemary, sage, thyme, cinnamon, ginger, and eucalyptus. These herbal t...</p>
-            <div>
-                <a class="button" href="">Learn More</a>
-            </div>
-        </div>
-    
-        <div>
-            <img class="mb-16" src="/images/herbal-teas-for-dry-mouth-overview.jpg" alt="">
-            <h3 class="mb-16 text-24">10 Best Herbal Teas For Dry Mouth</h3>
-            <p class="mb-16">The best herbal teas for dry mouth are marshmallow, slippery elm, chamomile, licorice, aloe vera, basil, fennel, sage, ginger, and rosemary. These tea...</p>
-            <div>
-                <a class="button" href="">Learn More</a>
-            </div>
-        </div>
-    
-        <div>
-            <img class="mb-16" src="/images/herbal-teas-for-mouth-ulcers-overview.jpg" alt="">
-            <h3 class="mb-16 text-24">10 Best Herbal Teas For Mouth Ulcers</h3>
-            <p class="mb-16">The best herbal teas for mouth ulcers are chamomile, calendula, echinacea, licorice, marshmallow, sage, goldenseal, myrrh, clove, and peppermint. Thes...</p>
-            <div>
-                <a class="button" href="">Learn More</a>
-            </div>
-        </div>
-    
-        <div>
-            <img class="mb-16" src="/images/herbal-teas-for-sleep-deprivation-overview.jpg" alt="">
-            <h3 class="mb-16 text-24">10 Best Herbal Teas For Sleep Deprivation</h3>
-            <p class="mb-16">The best herbal teas for sleep deprivation are valerian, chamomile, lavender, passionflower, lemon balm, hops, magnolia, St. John's wort, California p...</p>
-            <div>
-                <a class="button" href="">Learn More</a>
-            </div>
-        </div>
-    
-        </div>
-    </section>
-    
-            
+
+            <section class="articles mb-96">
+                <h2 class="mb-16 text-32">
+                    Best Herbal Teas Articles
+                </h2>
+                <div class="grid grid-2 gap-32">
+
+                    <div>
+                        <img class="mb-16 thumbnail" src="/images/herbal-teas-for-bad-breath-overview.jpg" alt="">
+                        <h3 class="mb-16 text-24">10 Best Herbal Teas For Bad Breath</h3>
+                        <span class="by-line mb-16 flex gap-4">By <a class="author-anchor" href="">LEEN RANDELL</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>March 6, 2019
+                        </span>
+                        <p class="mb-16">The best herbal teas for bad breath are parsley, spearmint, peppermint, clove,
+                            rosemary, sage, thyme, cinnamon, ginger, and eucalyptus. These herbal t...</p>
+                        <div>
+                            <a class="button" href="">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img class="mb-16 thumbnail" src="/images/herbal-teas-for-dry-mouth-overview.jpg" alt="">
+                        <h3 class="mb-16 text-24">10 Best Herbal Teas For Dry Mouth</h3>
+                        <span class="by-line mb-16 flex gap-4">By <a class="author-anchor" href="">LEEN RANDELL</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>March 6, 2019
+                        </span>
+                        <p class="mb-16">The best herbal teas for dry mouth are marshmallow, slippery elm, chamomile,
+                            licorice, aloe vera, basil, fennel, sage, ginger, and rosemary. These tea...</p>
+                        <div>
+                            <a class="button" href="">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img class="mb-16 thumbnail" src="/images/herbal-teas-for-mouth-ulcers-overview.jpg" alt="">
+                        <h3 class="mb-16 text-24">10 Best Herbal Teas For Mouth Ulcers</h3>
+                        <span class="by-line mb-16 flex gap-4">By <a class="author-anchor" href="">LEEN RANDELL</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>March 6, 2019
+                        </span>
+                        <p class="mb-16">The best herbal teas for mouth ulcers are chamomile, calendula, echinacea,
+                            licorice, marshmallow, sage, goldenseal, myrrh, clove, and peppermint. Thes...</p>
+                        <div>
+                            <a class="button" href="">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img class="mb-16 thumbnail" src="/images/herbal-teas-for-sleep-deprivation-overview.jpg"
+                            alt="">
+                        <h3 class="mb-16 text-24">10 Best Herbal Teas For Sleep Deprivation</h3>
+                        <span class="by-line mb-16 flex gap-4">By <a class="author-anchor" href="">LEEN RANDELL</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>March 6, 2019
+                        </span>
+                        <p class="mb-16">The best herbal teas for sleep deprivation are valerian, chamomile, lavender,
+                            passionflower, lemon balm, hops, magnolia, St. John's wort, California p...</p>
+                        <div>
+                            <a class="button" href="">Learn More</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+            <section class="">
+                <h2 class="mb-16 text-32">
+                    Best Herbal Tinctures Articles
+                </h2>
+                <div class="flex flex-col gap-24">
+
+                    <div class="grid grid-2 gap-24 items-center">
+                        <img class="thumbnail" src="/images/herbal-tinctures-for-bad-breath-overview.jpg" alt="">
+                        <div>
+                            <h3 class="mb-16 text-24">10 Best Herbal Tinctures For Bad Breath</h3>
+                            <span class="by-line mb-16 flex gap-4">By <a class="author-anchor" href="">LEEN RANDELL</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>March 6, 2019
+                            </span>
+                            <p class="mb-16">Herbal tinctures for bad breath are concentrated liquid extracts that use
+                                alcohol or glycerin to preserve the medicinal properties of herbs known to t...</p>
+                            <div>
+                                <a class="button" href="">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-2 gap-24 items-center">
+                        <img class="thumbnail" src="/images/herbal-tinctures-for-dry-mouth-overview.jpg" alt="">
+                        <div>
+                            <h3 class="mb-16 text-24">10 Best Herbal Tinctures For Dry Mouth</h3>
+                            <span class="by-line mb-16 flex gap-4">By <a class="author-anchor" href="">LEEN RANDELL</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>March 6, 2019
+                            </span>
+                            <p class="mb-16">Herbal tinctures for dry mouth are concentrated liquid extracts containing
+                                medicinal properties from herbs, specifically formulated to alleviate dry m...</p>
+                            <div>
+                                <a class="button" href="">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-2 gap-24 items-center">
+                        <img class="thumbnail" src="/images/herbal-tinctures-for-sleep-deprivation-overview.jpg" alt="">
+                        <div>
+                            <h3 class="mb-16 text-24">10 Best Herbal Tinctures For Sleep Deprivation</h3>
+                            <span class="by-line mb-16 flex gap-4">By <a class="author-anchor" href="">LEEN RANDELL</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>March 6, 2019
+                            </span>
+                            <p class="mb-16">Herbal tinctures for sleep deprivation are concentrated liquid extracts of
+                                herbs that promote sleep and relaxation. These tinctures improve people's d...</p>
+                            <div>
+                                <a class="button" href="">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-2 gap-24 items-center">
+                        <img class="thumbnail" src="/images/herbal-tinctures-for-headache-overview.jpg" alt="">
+                        <div>
+                            <h3 class="mb-16 text-24">10 Best Herbal Tinctures For Headaches</h3>
+                            <span class="by-line mb-16 flex gap-4">By <a class="author-anchor" href="">LEEN RANDELL</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                                </svg>March 6, 2019
+                            </span>
+                            <p class="mb-16">The best herbal tinctures for headaches are feverfew, willow, ginkgo
+                                biloba, butterbur, peppermint, lavender, skullcap, valerian, wood betony, and cha...</p>
+                            <div>
+                                <a class="button" href="">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
         </div>
 
         <div class="flex-1">
@@ -96,7 +224,7 @@
         </div>
 
     </main>
-    <footer></footer>
+    <footer class="container py-24">TerraWhisper 2024 | All Rights Reserved</footer>
 </body>
 
 </html>

@@ -31,6 +31,7 @@
 # TODO
 # ###################################################
 fix http://127.0.0.1:5500/herbalism/tincture/nervous-system/stress.html fatigue link not pointing to article
+build simulator for content testing?
 
 - SUPPLEMENTARY UMBRELLA:
     - What causes bad breath and how to best treat it?

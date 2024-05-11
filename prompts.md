@@ -13,3 +13,8 @@ beautiful cup of cinnamon tea on a wooden table surrounded by medicinal herbs an
 
 
 achillea millefolium, natural light
+
+
+
+lunar green, Minimal, Elegant Logo Design for Herbal Apothecary, Spiritual Branding, Witchy Aesthetic, terrawhisper text
+Earthy

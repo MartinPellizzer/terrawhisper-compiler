@@ -126,6 +126,7 @@ def csv_get_tinctures_by_problem(problem_id):
 
 
 
+
 def csv_get_problems_by_system(system_id):
     problems_systems_rows_filtered = util.csv_get_rows_filtered(
         g.CSV_PROBLEMS_SYSTEMS_FILEPATH, problems_systems_cols['system_id'], system_id,
@@ -535,60 +536,92 @@ def json_preparation_system_problem_supplementary(json_filepath, data):
 
 
 
-def json_supplementary(json_filepath, data, preparation_name):
-    problem_id = data['problem_id']
+# #########################################################
+# IMGs - TODO
+# #########################################################
+
+def img_preparation_systems_problems_featured(data):
+    if 'remedies_list' in data:
+        problem_slug = data['problem_slug']
+        preparation_name = data['preparation_name'].lower()
+        preparation_slug = preparation_name.replace(' ', '-')
+        obj = data['remedies_list'][0]
+        herb_name_common = obj['herb_name_common'].split(',')[0].strip()
+        herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-').replace(".", '')
+
+        image_filepath_out = f'website/images/herbal-{preparation_name}-for-{problem_slug}-overview.jpg'
+        if not os.path.exists(image_filepath_out):
+            images_folderpath = f'C:/terrawhisper-assets/images/{preparation_slug}/{herb_name_common_slug}'
+            if os.path.exists(images_folderpath):
+                images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
+                image_filepath = random.choice(images_filepaths)
+                if image_filepath != '':
+                    util.image_variate(image_filepath, image_filepath_out)
+            else:
+                print(f'IMG FOLDER MISSING: {images_folderpath}')
+    else:
+        print(f'MISSING KEY remedy_list: {preparation_slug} {problem_slug}')
+
+
+def img_preparation_systems_problems_list(data):
+    if 'remedies_list' in data:
+        problem_slug = data['problem_slug']
+        preparation_name = data['preparation_name'].lower()
+        preparation_name_singular = ''
+        if preparation_name == 'teas': preparation_name_singular = 'tea'
+        elif preparation_name == 'tinctures': preparation_name_singular = 'tincture'
+        else: print(f'MISSING VALID preparation_name: {preparation_name} {problem_slug}')
+        preparation_slug = preparation_name.replace(' ', '-')
+        preparation_slug_singular = preparation_name_singular.replace(' ', '-')
+
+        for i, obj in enumerate(data['remedies_list'][:teas_num]):
+            herb_name_common = obj['herb_name_common'].split(',')[0].strip()
+            herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-').replace(".", '')
+
+            image_filepath_out = f'website/images/{herb_name_common_slug}-{preparation_slug_singular}-for-{problem_slug}.jpg'
+            if not os.path.exists(image_filepath_out):
+                images_folderpath = f'C:/terrawhisper-assets/images/{preparation_slug}/{herb_name_common_slug}'
+                if os.path.exists(images_folderpath):
+                    images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
+                    image_filepath = random.choice(images_filepaths)
+                    if image_filepath != '':
+                        util.image_variate(image_filepath, image_filepath_out)
+                else:
+                    print(f'IMG FOLDER MISSING: {images_folderpath}')
+    else:
+        print(f'MISSING KEY remedy_list: {preparation_slug} {problem_slug}')
+
+
+
+
+
+# #########################################################
+# HTMLs - TODO
+# #########################################################
+
+def html_preparations_systems_problems_intro(html_filepath, data):
+    article_html = ''
+
+    title = data['title']
     problem_slug = data['problem_slug']
     problem_name = data['problem_name']
-    
-    key = 'supplementary_best_treatment'
-    if key not in data:
-        prompt = f'''
-            How to best treat {problem_name} with herbal {preparation_name}?
-            Reply in a short paragraph of about 60 to 80 words.
-            Don't include consulting with a healthcare provider.
-            Don't include precautions.
-            Start the reply with the following words: The best way to treat {problem_name} with herbal {preparation_name} is .
-            Never use these words: can, may and might.
-        '''
-        reply = utils_ai.gen_reply(prompt)
+    preparation_name = data['preparation_name']
+    preparation_slug = preparation_name.replace(' ', '-')
 
-        reply = utils_ai.reply_to_paragraphs(reply)
+    article_html += f'<h1>{title}</h1>\n'
 
-        print(len(reply))
-        if len(reply) == 1:
-            print('*******************************************')
-            print(reply)
-            print('*******************************************')
-            data[key] = reply[0]
-            util.json_write(json_filepath, data)
+    img_src = f'/images/herbal-{preparation_slug}-for-{problem_slug}-overview.jpg'
+    img_alt = f'herbal {preparation_name} for {problem_name} overview.jpg'
+    try: article_html += f'<p><img src="{img_src}" alt="{img_alt}"><p>\n'
+    except: print(f'MISSING TEA IMAGE: {problem_name} >> {tea_image_url}')
 
-        time.sleep(g.PROMPT_DELAY_TIME)
+    if 'intro' in data:
+        intro = data['intro']
+        article_html += f'{util.text_format_1N1_html(intro)}\n'
+    else: 
+        print(f'MISSING INTRO: {html_filepath} >> {problem_name}')
 
-    key = 'supplementary_causes'
-    if key not in data:
-        prompt = f'''
-            What are the most common causes of {problem_name} that are treatable with herbal {preparation_name}?
-            Reply in a short paragraph of about 60 to 80 words.
-            Don't include names of herbs.
-            Don't include examples of herbs.
-            Don't include consulting with a healthcare provider.
-            Don't include precautions.
-            Start the reply with the following words: The primary causes of {problem_name} that are treatable with herbal {preparation_name} are .
-            Never use these words: can, may and might.
-        '''
-        reply = utils_ai.gen_reply(prompt)
-
-        reply = utils_ai.reply_to_paragraphs(reply)
-
-        print(len(reply))
-        if len(reply) == 1:
-            print('*******************************************')
-            print(reply)
-            print('*******************************************')
-            data[key] = reply[0]
-            util.json_write(json_filepath, data)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
+    return article_html
 
 
 def html_supplementary(data, preparation_name, preparation_slug, system_slug):
@@ -1169,52 +1202,60 @@ def art_ailments_systems_problems():
         
         article_html += f'<h2>What are the main causes of {problem_name}?</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["causes_desc"])}\n'
-        article_html += f'<p>The most common causes of {problem_name} are listed below.</p>\n'
-        article_html += f'<ul>\n'
-        for item in data['causes_list']:
-            chunks = item.split(':')
-            chunk_1 = f'<strong>{chunks[0]}</strong>\n'
-            chunk_2 = ':'.join(chunks[1:])
-            article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
-        article_html += f'</ul>\n'
-        
-        article_html += f'<h2>What are the best medicinal herbs for {problem_name}?</h2>\n'
-        article_html += f'{util.text_format_1N1_html(data["herbs_desc"])}\n'
-        article_html += f'<p>The most effective medicinal herbs that help with {problem_name} are listed below.</p>\n'
-        article_html += f'<ul>\n'
-        if 'herbs_list' in data:
-            for item in data['herbs_list']:
+        if 'causes_list' in data:
+            article_html += f'<p>The most common causes of {problem_name} are listed below.</p>\n'
+            article_html += f'<ul>\n'
+            for item in data['causes_list']:
                 chunks = item.split(':')
                 chunk_1 = f'<strong>{chunks[0]}</strong>\n'
                 chunk_2 = ':'.join(chunks[1:])
                 article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
             article_html += f'</ul>\n'
+        else: print(f'MISSING cause_list >> {json_filepath}')
+        
+        article_html += f'<h2>What are the best medicinal herbs for {problem_name}?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data["herbs_desc"])}\n'
+        if 'causes_list' in data:
+            article_html += f'<p>The most effective medicinal herbs that help with {problem_name} are listed below.</p>\n'
+            article_html += f'<ul>\n'
+            if 'herbs_list' in data:
+                for item in data['herbs_list']:
+                    chunks = item.split(':')
+                    chunk_1 = f'<strong>{chunks[0]}</strong>\n'
+                    chunk_2 = ':'.join(chunks[1:])
+                    article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
+                article_html += f'</ul>\n'
+        else: print(f'MISSING causes_list >> {json_filepath}')
         
         article_html += f'<h2>What are the most effective herbal preparations for {problem_name}?</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["preparations_desc"])}\n'
-        article_html += f'<p>The most used herbal preparations that help with {problem_name} are listed below.</p>\n'
-        article_html += f'<ul>\n'
-        for item in data['preparations_list']:
-            chunks = item.split(':')
-            chunk_1 = chunks[0]
-            chunk_2 = ':'.join(chunks[1:])
-            if chunk_1.lower().strip() == 'infusions':
-                chunk_1 = f'<strong><a href="/herbalism/tea/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
-            elif chunk_1.lower().strip() == 'tinctures':
-                chunk_1 = f'<strong><a href="/herbalism/tincture/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
-            else:
-                chunk_1 = f'<strong>{chunk_1}</strong>'
-            article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
-        article_html += f'</ul>\n'
+        if 'preparations_list' in data:
+            article_html += f'<p>The most used herbal preparations that help with {problem_name} are listed below.</p>\n'
+            article_html += f'<ul>\n'
+            for item in data['preparations_list']:
+                chunks = item.split(':')
+                chunk_1 = chunks[0]
+                chunk_2 = ':'.join(chunks[1:])
+                if chunk_1.lower().strip() == 'infusions':
+                    chunk_1 = f'<strong><a href="/herbalism/tea/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
+                elif chunk_1.lower().strip() == 'tinctures':
+                    chunk_1 = f'<strong><a href="/herbalism/tincture/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
+                else:
+                    chunk_1 = f'<strong>{chunk_1}</strong>'
+                article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
+            article_html += f'</ul>\n'
+        else: print(f'MISSING preparations_list >> {json_filepath}')
 
 
         article_html += f'<h2>What precautions to take when using herbal remedies for {problem_name}?</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["precautions_desc"])}\n'
-        article_html += f'<p>The most important precautions to take when using herbal remedies for {problem_name} are listed below.</p>\n'
-        article_html += f'<ul>\n'
-        for item in data['precautions_list']:
-            article_html += f'<li>{item}</li>\n'
-        article_html += f'</ul>\n'
+        if 'precautions_list' in data:
+            article_html += f'<p>The most important precautions to take when using herbal remedies for {problem_name} are listed below.</p>\n'
+            article_html += f'<ul>\n'
+            for item in data['precautions_list']:
+                article_html += f'<li>{item}</li>\n'
+            article_html += f'</ul>\n'
+        else: print(f'MISSING precautions_list >> {json_filepath}')
 
         article_html += html_ailments_systems_problems_other_remedies(data)
 
@@ -1683,270 +1724,6 @@ def art_ailments_systems():
 # TEAS
 # #########################################################
 
-def json_tea_systems_problems_supplementary(json_filepath, data):
-    problem_id = data['problem_id']
-    problem_slug = data['problem_slug']
-    problem_name = data['problem_name']
-
-    key = 'problem_definition'
-    if key not in data:
-        prompt = f'''
-            Write 1 paragraph explaining what is {problem_name} and how it impacts people lives.
-            Start the reply with the following words: {problem_name} is .
-            Never use these words: "can", "may", and "might".
-        '''
-        reply = utils_ai.gen_reply(prompt)
-
-        reply = utils_ai.reply_to_paragraphs(reply)
-
-        print(len(reply))
-        if len(reply) == 1:
-            print('*******************************************')
-            print(reply)
-            print('*******************************************')
-            data[key] = reply[0]
-            util.json_write(json_filepath, data)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-
-    key = 'problems_related'
-    if key not in data:
-        problems_rows_filtered = csv_get_related_by_problem(problem_id)
-        
-
-        related_names = [row['related_name'] for row in problems_rows_filtered]
-        related_names_prompt = ''
-        for related_name in related_names:
-            related_names_prompt += f'- {related_name}\n'
-
-        prompt = f'''
-            Write a numbered list explaining why people with {problem_name} also experience the following problems:
-            {related_names_prompt}.
-            Write the list items using the following structure: [related problem]: [explanation].
-            Never use the following words: can, may, might.
-        '''
-        reply = utils_ai.gen_reply(prompt)
-        
-        reply = utils_ai.reply_to_list_column(reply)
-
-        if reply != []:
-            print('********************************')
-            print(reply)
-            print('********************************')
-            data[key] = reply
-            util.json_write(json_filepath, data)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-    
-    key = 'supplementary_other_remedies'
-    if key not in data:
-        problem_id = data['problem_id']
-        problem_name = data['problem_name']
-
-        preparations_rows_filtered = csv_get_preparations_by_problem(problem_id)
-        preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows_filtered]
-        preparations_names_prompt = ''
-        for i, preparation_name in enumerate(preparations_names[:10]):
-            preparations_names_prompt += f'{i+1}. {preparation_name.capitalize()}\n'
-
-        prompt = f'''
-            Here is a list of the types of herbal preparations for {problem_name}:
-            {preparations_names_prompt}
-
-            For each type of herbal preparation in the list above, explain in 1 detailed sentence how and why that preparation helps with {problem_name}.
-            Don't include names of herbs.
-            Don't include definitions for the preparations.
-            Don't explain the making process of the preparations.
-            Reply with a numbered list using the following format: [preparation name]: [description].
-            Never use the following words: can, may, might.
-        '''
-        reply = utils_ai.gen_reply(prompt)
-
-        lines = reply.split('\n')
-        lines_formatted = []
-        for line in lines:
-            line = line.strip()
-            if line == '': continue
-            line = line.replace('*', '')
-            line = line.replace('[', '')
-            line = line.replace(']', '')
-            if not line[0].isdigit(): continue
-            if '.' not in line: continue
-            if ':' not in line: continue
-            line = '.'.join(line.split('.')[1:])
-            line = line.strip()
-            if line == '': continue
-            if line.lower().startswith('infusions'): continue
-            if line.lower().startswith('teas'): continue
-            lines_formatted.append(line)
-
-        if len(lines_formatted) >= 4:
-            print('***************************************')
-            print(lines_formatted)
-            print('***************************************')
-            data[key] = lines_formatted
-            util.json_write(json_filepath, data)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-
-
-
-    key = 'supplementary_best_treatment'
-    if key not in data:
-        prompt = f'''
-            How to best treat {problem_name} with herbal tea?
-            Reply in a short paragraph of about 60 to 80 words.
-            Start the reply with the following words: The best way to treat {problem_name} with herbal teas is .
-            Never use these words: can, may and might.
-        '''
-        reply = utils_ai.gen_reply(prompt)
-
-        reply = utils_ai.reply_to_paragraphs(reply)
-
-        print(len(reply))
-        if len(reply) == 1:
-            print('*******************************************')
-            print(reply)
-            print('*******************************************')
-            data[key] = reply[0]
-            util.json_write(json_filepath, data)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-
-    key = 'supplementary_causes'
-    if key not in data:
-        prompt = f'''
-            What are the most common causes of {problem_name} that are treatable with herbal tea?
-            Reply in a short paragraph of about 60 to 80 words.
-            Don't include names of herbs.
-            Don't include examples of herbs.
-            Start the reply with the following words: The primary causes of {problem_name} that are treatable with herbal tea are .
-            Never use these words: can, may and might.
-        '''
-        reply = utils_ai.gen_reply(prompt)
-
-        reply = utils_ai.reply_to_paragraphs(reply)
-
-        print(len(reply))
-        if len(reply) == 1:
-            print('*******************************************')
-            print(reply)
-            print('*******************************************')
-            data[key] = reply[0]
-            util.json_write(json_filepath, data)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-
-    key = 'supplementary_frequency'
-    if key not in data:
-        prompt = f'''
-            How frequently should you drink herbal teas for {problem_name}? Explain why in detail.
-            Include numbers.
-            Don't include names of herbs.
-            Don't include side effects.
-            Don't include precautions.
-            Don't metions sources of informations.
-            Reply in a short paragraph of about 60 to 80 words.
-            Start the reply with the following words: For {problem_name}, you should drink herbal teas .
-            Never use these words: can, may and might.
-        '''
-        reply = utils_ai.gen_reply(prompt)
-
-        reply = utils_ai.reply_to_paragraphs(reply)
-
-        print(len(reply))
-        if len(reply) == 1:
-            print('*******************************************')
-            print(reply)
-            print('*******************************************')
-            data[key] = reply[0]
-            util.json_write(json_filepath, data)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-
-    key = 'supplementary_side_effects'
-    if key not in data:
-        prompt = f'''
-            What are the possible side effects of herbal teas for {problem_name}?
-            Reply in a short paragraph of about 60 to 80 words.
-            Start the reply with the following words: The possible side effects associated with consuming herbal teas for {problem_name} are .
-            Never use these words: can, may and might.
-        '''
-        reply = utils_ai.gen_reply(prompt)
-
-        reply = utils_ai.reply_to_paragraphs(reply)
-
-        print(len(reply))
-        if len(reply) == 1:
-            print('*******************************************')
-            print(reply)
-            print('*******************************************')
-            data[key] = reply[0]
-            util.json_write(json_filepath, data)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-
-    # What causes bad breath?
-        # and how to best treat it?
-    # How effective are herbal teas in combating bad breath?
-    # What are the best herbal teas for bad breath?
-    # Can herbal teas replace traditional methods like brushing and flossing for combating bad breath?
-        # How frequently should one drink herbal teas to see results in fighting bad breath?
-        # Are there any side effects associated with consuming herbal teas for bad breath?
-    # Can herbal teas interact with medications or other health conditions?
-    # Are there any specific herbs to avoid for individuals with certain health conditions?
-        # How long does it take to notice an improvement in bad breath after starting to drink herbal teas?
-    # Can herbal teas completely eliminate bad breath or just mask it temporarily?
-    # Are there any lifestyle changes or additional oral care practices that should be combined with drinking herbal teas for better results?
-    # Are there any particular techniques for brewing herbal teas to maximize their effectiveness against bad breath?
-    # Can children or pregnant women safely consume herbal teas for bad breath?
-    # Are there any contraindications for using herbal teas for bad breath alongside dental treatments or products?
-    # How do herbal teas for bad breath compare to commercial mouthwashes in terms of effectiveness and safety?
-    # Are there any specific brands or varieties of herbal teas known for their efficacy in combating bad breath?
-    # Can herbal teas for bad breath be used as a preventive measure, or are they only effective for treating existing bad breath?
-    # Are there any scientific studies supporting the use of herbal teas for bad breath?
-    #!!! Can herbal teas address underlying causes of bad breath, such as gum disease or digestive issues?
-    # How should herbal teas be incorporated into a daily oral hygiene routine for optimal results in combating bad breath?
-
-
-def img_tea_systems_problems_featured(data):
-    problem_slug = data['problem_slug']
-    try: tea_obj = data['remedies_list'][0]
-    except: return
-    herb_name_common = tea_obj['herb_name_common']
-    herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-')
-
-    image_filepath_out = f'website/images/herbal-teas-for-{problem_slug}-overview.jpg'
-    if not os.path.exists(image_filepath_out):
-        images_folderpath = f'C:/terrawhisper-assets/images/tea/{herb_name_common_slug}'
-        if os.path.exists(images_folderpath):
-            images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
-            image_filepath = random.choice(images_filepaths)
-            if image_filepath != '':
-                util.image_variate(image_filepath, image_filepath_out)
-        else:
-            print(f'IMG FOLDER MISSING: {images_folderpath}')
-            
-                
-def img_tea_systems_problems_list(data):
-    if 'remedies_list' not in data: return
-    problem_slug = data['problem_slug']
-    for i, tea_obj in enumerate(data['remedies_list'][:teas_num]):
-        herb_name_common = tea_obj['herb_name_common']
-        herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-')
-
-        image_filepath_out = f'website/images/{herb_name_common_slug}-tea-for-{problem_slug}.jpg'
-        if not os.path.exists(image_filepath_out):
-            images_folderpath = f'C:/terrawhisper-assets/images/tea/{herb_name_common_slug}'
-            if os.path.exists(images_folderpath):
-                images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
-                image_filepath = random.choice(images_filepaths)
-                if image_filepath != '':
-                    util.image_variate(image_filepath, image_filepath_out)
-            else:
-                print(f'IMG FOLDER MISSING: {images_folderpath}')
-
-
 def html_tea_systems_problems_intro(html_filepath, data):
     article_html = ''
 
@@ -2024,11 +1801,9 @@ def art_tea_systems_problems():
         json_preparation_system_problem_list(json_filepath, data)
         json_preparation_system_problem_supplementary(json_filepath, data)
 
-        # json_supplementary(json_filepath, data, 'tea')
-
         # IMG
-        img_tea_systems_problems_featured(data)
-        img_tea_systems_problems_list(data)
+        img_preparation_systems_problems_featured(data)
+        img_preparation_systems_problems_list(data)
 
         # HTML
         html_filepath = f'website/herbalism/tea/{system_slug}/{problem_slug}.html'
@@ -2036,8 +1811,7 @@ def art_tea_systems_problems():
         data = util.json_read(json_filepath)
 
         article_html = ''
-        article_html += html_tea_systems_problems_intro(html_filepath, data)
-
+        article_html += html_preparations_systems_problems_intro(html_filepath, data)
 
         for i, tea_obj in enumerate(data['remedies_list'][:teas_num]):
             herb_slug = tea_obj['herb_slug'].strip().lower()
@@ -2296,166 +2070,7 @@ def art_tea_systems_problems():
 
 # #########################################################
 # TINCTURES
-# #########################################################
-
-def json_tincture_systems_problems_supplementary(json_filepath, data):
-    problem_id = data['problem_id']
-    problem_slug = data['problem_slug']
-    problem_name = data['problem_name']
-
-    key = 'problem_definition'
-    if key not in data:
-        prompt = f'''
-            Write 1 paragraph explaining what is {problem_name} and how it impacts people lives.
-            Start the reply with the following words: {problem_name} is .
-            Never use these words: "can", "may", and "might".
-        '''
-        reply = utils_ai.gen_reply(prompt)
-
-        reply = utils_ai.reply_to_paragraphs(reply)
-
-        print(len(reply))
-        if len(reply) == 1:
-            print('*******************************************')
-            print(reply)
-            print('*******************************************')
-            data[key] = reply[0]
-            util.json_write(json_filepath, data)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-        
-    key = 'supplementary_other_remedies'
-    if key not in data:
-        problem_id = data['problem_id']
-        problem_name = data['problem_name']
-
-        preparations_rows_filtered = csv_get_preparations_by_problem(problem_id)
-        preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows_filtered]
-        preparations_names_prompt = ''
-        for i, preparation_name in enumerate(preparations_names[:10]):
-            preparations_names_prompt += f'{i+1}. {preparation_name.capitalize()}\n'
-
-        prompt = f'''
-            Here is a list of the types of herbal preparations for {problem_name}:
-            {preparations_names_prompt}
-
-            For each type of herbal preparation in the list above, explain in 1 detailed sentence how and why that preparation helps with {problem_name}.
-            Don't include names of herbs.
-            Don't include definitions for the preparations.
-            Don't explain the making process of the preparations.
-            Reply with a numbered list using the following format: [preparation name]: [description].
-            Never use the following words: can, may, might.
-        '''
-        reply = utils_ai.gen_reply(prompt)
-
-        lines = reply.split('\n')
-        lines_formatted = []
-        for line in lines:
-            line = line.strip()
-            if line == '': continue
-            line = line.replace('*', '')
-            line = line.replace('[', '')
-            line = line.replace(']', '')
-            if not line[0].isdigit(): continue
-            if '.' not in line: continue
-            if ':' not in line: continue
-            line = '.'.join(line.split('.')[1:])
-            line = line.strip()
-            if line == '': continue
-            if line.lower().startswith('tinctures'): continue
-            lines_formatted.append(line)
-
-        if len(lines_formatted) >= 4:
-            print('***************************************')
-            print(lines_formatted)
-            print('***************************************')
-            data[key] = lines_formatted
-            util.json_write(json_filepath, data)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-
-    key = 'problems_related'
-    if key not in data:
-        problems_rows_filtered = csv_get_related_by_problem(problem_id)
-        
-
-        related_names = [row['related_name'] for row in problems_rows_filtered]
-        related_names_prompt = ''
-        for related_name in related_names:
-            related_names_prompt += f'- {related_name}\n'
-
-        prompt = f'''
-            Write a numbered list explaining why people with {problem_name} also experience the following problems:
-            {related_names_prompt}.
-            Write the list items using the following structure: [related problem]: [explanation].
-            Never use the following words: can, may, might.
-        '''
-        reply = utils_ai.gen_reply(prompt)
-        
-        reply = utils_ai.reply_to_list_column(reply)
-
-        if reply != []:
-            print('********************************')
-            print(reply)
-            print('********************************')
-            data[key] = reply
-            util.json_write(json_filepath, data)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-    
-    # key = 'other_remedies'
-    # if key not in data:
-    #     prompt = f'''
-    #         Write 1 detailed paragraph about what are the most common and effective natural remedies for {condition_name}.
-    #         Don't include herbal teas.
-    #         Never use the following words: can, may, might.
-    #     '''
-    #     reply = utils_ai.gen_reply(prompt)
-    #     reply = utils_ai.reply_to_paragraphs(reply)
-    #     if reply != [] and len(reply) == 1:
-    #         print('********************************')
-    #         print(reply)
-    #         print('********************************')
-    #         data[key] = reply[0]
-    #         util.json_write(json_filepath, data)
-    #     time.sleep(g.PROMPT_DELAY_TIME)
-
-
-def img_tincture_systems_problems_featured(data):
-    problem_slug = data['problem_slug']
-    tincture_obj = data['remedies_list'][0]
-    herb_name_common = tincture_obj['herb_name_common']
-    herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-')
-
-    image_filepath_out = f'website/images/herbal-tinctures-for-{problem_slug}-overview.jpg'
-    if not os.path.exists(image_filepath_out):
-        images_folderpath = f'C:/terrawhisper-assets/images/tinctures/{herb_name_common_slug}'
-        if os.path.exists(images_folderpath):
-            images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
-            image_filepath = random.choice(images_filepaths)
-            if image_filepath != '':
-                util.image_variate(image_filepath, image_filepath_out)
-        else:
-            print(f'IMG FOLDER MISSING: {images_folderpath}')
-            
-           
-def img_tincture_systems_problems_list(data):
-    problem_slug = data['problem_slug']
-    for i, tincture_obj in enumerate(data['remedies_list'][:ART_ITEMS_NUM]):
-        herb_name_common = tincture_obj['herb_name_common']
-        herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-')
-
-        image_filepath_out = f'website/images/{herb_name_common_slug}-tincture-for-{problem_slug}.jpg'
-        if not os.path.exists(image_filepath_out):
-            images_folderpath = f'C:/terrawhisper-assets/images/tinctures/{herb_name_common_slug}'
-            if os.path.exists(images_folderpath):
-                images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
-                image_filepath = random.choice(images_filepaths)
-                if image_filepath != '':
-                    util.image_variate(image_filepath, image_filepath_out)
-            else:
-                print(f'IMG FOLDER MISSING: {images_folderpath}')
-
+# #########################################################  
 
 def art_tincture_systems_problems():
     preparation_slug = 'tincture'
@@ -2511,27 +2126,23 @@ def art_tincture_systems_problems():
         json_preparation_system_problem_intro(json_filepath, data)
         json_preparation_system_problem_list(json_filepath, data)
         json_preparation_system_problem_supplementary(json_filepath, data)
-        # json_supplementary(json_filepath, data, 'tincture')
 
         # IMG
-        img_tincture_systems_problems_featured(data)
-        img_tincture_systems_problems_list(data)
+        img_preparation_systems_problems_featured(data)
+        img_preparation_systems_problems_list(data)
         
         # HTML
         html_filepath = f'website/herbalism/{preparation_slug}/{system_slug}/{problem_slug}.html'
 
         data = util.json_read(json_filepath)
 
+        
+        html_filepath = f'website/herbalism/tea/{system_slug}/{problem_slug}.html'
+
+        data = util.json_read(json_filepath)
+
         article_html = ''
-        article_html += f'<h1>{title}</h1>\n'
-
-        img_src = f'/images/herbal-tinctures-for-{problem_slug}-overview.jpg'
-        img_alt = f'herbal tinctures for {problem_name} overview.jpg'
-        try: article_html += f'<p><img src="{img_src}" alt="{img_alt}"><p>\n'
-        except: print(f'MISSING TINCTURE IMAGE: {problem_name} >> featured')
-
-        try: article_html += f'{util.text_format_1N1_html(data["intro"])}\n'
-        except: print(f'MISSING INTRO: {html_filepath} >> {problem_name}')
+        article_html += html_preparations_systems_problems_intro(html_filepath, data)
 
         for i, tincture_obj in enumerate(data['remedies_list'][:ART_ITEMS_NUM]):
             herb_slug = tincture_obj['herb_slug'].strip().lower()

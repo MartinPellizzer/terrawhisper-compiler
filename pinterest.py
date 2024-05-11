@@ -223,7 +223,7 @@ for article_filepath in teas_articles_filepath:
     title = data['title']
     try: condition_name = data['condition_name']
     except: condition_name = data['problem_name']
-    preparation = 'tea'
+    preparation = 'teas'
     url = data['url']
     try: remedies = data['teas']
     except: remedies = data['remedies_list']
@@ -232,10 +232,12 @@ for article_filepath in teas_articles_filepath:
     remedies_descriptions = []
     for remedy in remedies:
         try: remedies_descriptions.append(remedy['tea_desc'])
-        except: pass
+        except:
+            try: remedies_descriptions.append(remedy['remedy_desc'])
+            except: pass
 
     # GET ALL IMAGE IN IMAGES/TEA FOLDER
-    start_folder = 'C:/terrawhisper-assets/images/tea'
+    start_folder = 'C:/terrawhisper-assets/images/teas'
     img_teas_folders = os.listdir(start_folder)
     img_teas_filepaths = []
     for folder in img_teas_folders:

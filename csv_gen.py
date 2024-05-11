@@ -61,6 +61,14 @@ def sanitize_herbs(line):
     if line == 'schisandra': line = 'magnolia vines'
     if line == 'rhodiola': line = 'golden root'
     if line == 'saint john\'s wort': line = 'st. john\'s wort'
+    if line == 'flaxseed': line = 'flax'
+    if line == 'black caraway': line = 'black seed'
+    if line == 'rehmannia': line = 'chinese foxglove'
+    if line == 'water-peony': line = 'peony'
+    if line == 'olive leaf': line = 'olive'
+    if line == 'viscum album': line = 'mistletoe'
+    if line == 'crataegus': line = 'hawthorn'
+    if line == 'fennel seed': line = 'fennel'
 
     return line
 
@@ -209,6 +217,10 @@ def csv_gen_herbs_for_problem(problem_row):
             else:
                 herb_id = ''
 
+            for item in lines:
+                if item[3] == line:
+                    continue
+
             lines.append([problem_id, problem_slug, herb_id, line])
 
         if len(lines) >= 10:
@@ -232,7 +244,7 @@ def csv_gen_preparations_for_problem(problem_row):
 
     if problems_preparations_rows == []:
         prompt = f'''
-            Write a numbered list of the 10 most effective type of herbal preparations for {problem_name}.
+            Write a numbered list of the 15 most effective type of herbal preparations for {problem_name}.
             Write only the names of the types of the preparations, not the descriptions.
             Write only the names of the types of the preparations, not the herbs names.
             Example of types of preparations can be infusions and tinctures.

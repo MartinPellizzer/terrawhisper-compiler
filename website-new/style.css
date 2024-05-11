@@ -1,3 +1,18 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Medium;
+    src: url(fonts/OpenSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(fonts/OpenSans-Bold.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +25,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -19,6 +34,13 @@ body {
     margin-right: auto;
     padding-left: 2.4rem;
     padding-right: 2.4rem;
+}
+
+h1 {
+    font-family: OpenSans-Medium, Arial, Helvetica, sans-serif;
+    font-size: 3.2rem;
+    line-height: 4.0rem;
+    color: #333;
 }
 
 p {
@@ -33,6 +55,10 @@ img {
 
 .flex {
     display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
 }
 
 .flex-1 {
@@ -57,6 +83,10 @@ img {
 
 .grid-2 {
     grid-template-columns: 1fr 1fr;
+}
+
+.gap-4 {
+    gap: 0.4rem;
 }
 
 .gap-16 {
@@ -98,6 +128,22 @@ img {
 .py-24 {
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
+}
+
+.ml-4 {
+    margin-bottom: 0.4rem;
+}
+
+.ml-8 {
+    margin-bottom: 0.8rem;
+}
+
+.ml-12 {
+    margin-bottom: 1.2rem;
+}
+
+.ml-16 {
+    margin-bottom: 1.6rem;
 }
 
 .mb-16 {
@@ -164,6 +210,14 @@ img {
     text-align: center;
 }
 
+.w-100 {
+    width: 100%;
+}
+
+.logo {
+    height: 6.4rem;
+}
+
 .avatar-card {
     background-color: #eeeeee;
     padding: 2.4rem;
@@ -185,4 +239,30 @@ img {
     color: white;
     padding: 0.8rem 1.6rem;
     text-decoration: none;
+}
+
+.by-line {
+    font-size: 1.2rem;
+    color: #aaa;
+    text-align: start;
+    letter-spacing: 0.5px;
+}
+
+.by-line svg {
+    width: 1.4rem;
+}
+
+.author-anchor {
+    color: #777;
+    font-family: OpenSans-Bold, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+
+
+
+.thumbnail {
+    /* width: 30rem; */
+    height: 32rem;
+    object-fit: cover;
 }
