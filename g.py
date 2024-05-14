@@ -1,7 +1,7 @@
 ARTICLES_NUM = 100
 
 
-ART_NUM = 9
+ART_NUM = 11
 
 
 # BY
@@ -42,3 +42,4 @@ CSV_PROBLEMS_PREPARATIONS_FILEPATH = 'database/csv/junctions/problems_preparatio
 CSV_PROBLEMS_TEAS_FILEPATH = 'database/csv/junctions/problems_teas.csv'
 CSV_PROBLEMS_TINCTURES_FILEPATH = 'database/csv/junctions/problems_tinctures.csv'
 CSV_PROBLEMS_RELATED_FILEPATH = 'database/csv/junctions/problems_related.csv'
+

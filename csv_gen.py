@@ -17,6 +17,10 @@ preparations_rows = util.csv_get_rows(g.CSV_PREPARATIONS_FILEPATH)
 preparations_cols = util.csv_get_cols(preparations_rows)
 preparations_rows = preparations_rows[1:]
 
+systems_rows = util.csv_get_rows(g.CSV_SYSTEMS_NEW_FILEPATH)
+systems_cols = util.csv_get_cols(systems_rows)
+systems_rows = systems_rows[1:]
+
 # JUNCTIONS
 problems_herbs_rows = util.csv_get_rows(g.CSV_PROBLEMS_HERBS_FILEPATH)
 problems_herbs_cols = util.csv_get_cols(problems_herbs_rows)
@@ -25,6 +29,10 @@ problems_herbs_rows = problems_herbs_rows[1:]
 problems_preparations_rows = util.csv_get_rows(g.CSV_PROBLEMS_PREPARATIONS_FILEPATH)
 problems_preparations_cols = util.csv_get_cols(problems_preparations_rows)
 problems_preparations_rows = problems_preparations_rows[1:]
+
+problems_systems_rows = util.csv_get_rows(g.CSV_PROBLEMS_SYSTEMS_FILEPATH)
+problems_systems_cols = util.csv_get_cols(problems_systems_rows)
+problems_systems_rows = problems_systems_rows[1:]
 
 problems_teas_rows = util.csv_get_rows(g.CSV_PROBLEMS_TEAS_FILEPATH)
 problems_teas_cols = util.csv_get_cols(problems_teas_rows)
@@ -69,9 +77,65 @@ def sanitize_herbs(line):
     if line == 'viscum album': line = 'mistletoe'
     if line == 'crataegus': line = 'hawthorn'
     if line == 'fennel seed': line = 'fennel'
+    if line == 'red raspberry': line = 'raspberry'
+    if line == 'burdock root': line = 'burdock'
+    if line == 'aloe': line = 'aloe vera'
+    if line == 'cascara': line = 'cascara sagrada'
+    if line == 'osha root': line = 'osha'
+    if line == 'cayenne': line = 'cayenne pepper'
 
     return line
 
+
+
+def csv_gen_system_for_problem(problem_row):
+    problem_id = problem_row[problems_cols['problem_id']]
+    problem_slug = problem_row[problems_cols['problem_slug']]
+    problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+    problems_systems_rows = csv_get_system_by_problem(problem_id)
+
+    if problems_systems_rows == []:
+        systems_names = [row[systems_cols['system_name']] for row in systems_rows]
+        systems_names_prompt = ', '.join(systems_names)
+
+        prompt = f'''
+            In which body system would you classify the following problem: {problem_name}.
+            Choose only 1 body system among the followings: {systems_names_prompt}.
+            Reply in only 1 word.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        reply = reply.lower()
+        systems_names_1_word = [
+            row[systems_cols['system_name']].lower().replace('system', '').strip()
+            for row in systems_rows
+        ]
+        system_name = ''
+        for system_name_1_word in systems_names_1_word:
+            if system_name_1_word in reply:
+                system_name = system_name_1_word
+                break
+
+        if system_name != '':
+            system_name = f'{system_name} system'
+
+            print('***************************************************')
+            print(system_name)
+            print('***************************************************')
+
+            system_id = ''
+            for system_row in systems_rows:
+                system_id_csv = system_row[systems_cols['system_id']].lower().strip()
+                system_name_csv = system_row[systems_cols['system_name']].lower().strip()
+                if system_name == system_name_csv:
+                    system_id = system_id_csv
+                    break
+
+            util.csv_add_rows(g.CSV_PROBLEMS_SYSTEMS_FILEPATH, [[problem_id, problem_name, system_id, system_name]])
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+        
 
 ##################################################
 # TEAS
@@ -233,6 +297,27 @@ def csv_gen_herbs_for_problem(problem_row):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
+def csv_get_system_by_problem(problem_id):
+    system_row = []
+
+    problems_systems_rows_filtered = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_SYSTEMS_FILEPATH, problems_systems_cols['problem_id'], problem_id,
+    )
+
+    if problems_systems_rows_filtered != []:
+        problem_system_row = problems_systems_rows_filtered[0]
+        system_id = problem_system_row[problems_systems_cols['system_id']]
+
+        systems_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_SYSTEMS_FILEPATH, systems_cols['system_id'], system_id,
+        )
+
+        if systems_rows_filtered != []:
+            system_row = systems_rows_filtered[0]
+
+    return system_row
+
+
 def csv_gen_preparations_for_problem(problem_row):
     problem_id = problem_row[problems_cols['problem_id']]
     problem_slug = problem_row[problems_cols['problem_slug']]
@@ -261,7 +346,7 @@ def csv_gen_preparations_for_problem(problem_row):
             line = line.strip()
             if line == '': continue
             
-            if line == 'teas': continue
+            if 'tea' in line: continue
                 # if 'infusions' in lines:
                 #     continue
 
@@ -360,7 +445,7 @@ def gen_csvs():
         print(f'> {problem_row}')
 
         # TODO
-        # csv_gen_system_for_problem(problem_row)
+        csv_gen_system_for_problem(problem_row)
 
         # csv_gen_related_for_problem(problem_row)
         

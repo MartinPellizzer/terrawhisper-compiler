@@ -1,13 +1,8 @@
 herbal tea for 
 herbal tea for weight loss
-herbal tea for constipation
-herbal tea for sleep
 herbal tea for sore throat
-herbal tea for acid reflux
 herbal tea for cough
-herbal tea for anxiety
 herbal tea for high blood pressure
-herbal tea for headaches
 herbal tea for bloating
 herbal tea for diarrhea
 herbal tea for inflammation
@@ -20,7 +15,6 @@ herbal tea for anemia
 herbal tea for arthritis and inflammation
 herbal tea for appetite suppressant
 herbal tea for anxiety and depression
-herbal tea for a cold
 herbal tea for abdominal pain
 herbal tea for a cough
 herbal tea for a sore throat
@@ -41,7 +35,6 @@ herbal tea for blood circulation
 herbal tea for bedtime
 herbal tea for better sleep
 herbal tea for blood flow
-herbal tea for colds
 herbal tea for cholesterol
 herbal tea for congestion
 herbal tea for cramps

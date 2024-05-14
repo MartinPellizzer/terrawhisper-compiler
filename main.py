@@ -217,12 +217,17 @@ def csv_get_related_by_problem(problem_id):
 
 
 
+
 # #########################################################
-# JSONs - TODO
+# PREPARATIONS
 # #########################################################
 
+
+
+# JSONs
+
 def json_preparation_system_problem_intro(json_filepath, data):
-    key = 'intro'
+    key = 'intro_desc'
     if key not in data:
         problem_id = data['problem_id']
         problem_slug = data['problem_slug']
@@ -236,12 +241,22 @@ def json_preparation_system_problem_intro(json_filepath, data):
         herbs_names = [row[herbs_cols['herb_name_common']] for row in herbs_rows_filtered]
         herbs_names_prompt = ', '.join(herbs_names)
 
+        # prompt = f'''
+        #     Write 1 paragraph on the best herbal {preparation_name} for {problem_name}.
+        #     Write the names of the best herbal {preparation_name} for {problem_name} that are {herbs_names_prompt}.
+        #     Explain what are the primary properties of herbal {preparation_name} that help with {problem_name}.
+        #     Explain how herbal {preparation_name} can improve the lives of people with {problem_name} and include examples.
+        #     Start the reply with the following words: The best herbal {preparation_name} for {problem_name} are .
+        #     Never use the following words: can, may, might.
+        # '''
         prompt = f'''
-            Write 1 paragraph on the best herbal {preparation_name} for {problem_name}.
-            Write the names of the best herbal {preparation_name} for {problem_name} that are {herbs_names_prompt}.
-            Explain what are the primary properties of herbal {preparation_name} that help with {problem_name}.
-            Explain how herbal {preparation_name} can improve the lives of people with {problem_name} and include examples.
-            Start the reply with the following words: The best herbal {preparation_name} for {problem_name} are .
+            Write 1 detailed paragraph on the herbal {preparation_name} for {problem_name}.
+            In the first sentence, give a detailed definition of "herbal {preparation_name} for {problem_name}", including why they help with {problem_name}.
+            Explain how herbal {preparation_name} helps with {problem_name}.
+            Include many examples of how herbal {preparation_name} for {problem_name} improves lives.
+            Don't write the names of the herbs.
+            Don't talk about other ailments.
+            Start the reply with the following words: Herbal {preparation_name} for {problem_name} are .
             Never use the following words: can, may, might.
         '''
         reply = utils_ai.gen_reply(prompt)
@@ -561,11 +576,7 @@ def json_preparation_system_problem_supplementary(json_filepath, data):
 
 
 
-
-
-# #########################################################
-# IMGs - TODO
-# #########################################################
+# IMGs
 
 def img_preparation_systems_problems_featured(data):
     if 'remedies_list' in data:
@@ -624,6 +635,9 @@ def img_preparation_systems_problems_cheatsheet(data):
     problem_slug = data['problem_slug']
     preparation_name = data['preparation_name']
     preparation_slug = preparation_name.replace(' ', '-')
+
+    image_filepath_out = f'website/images/herbal-{preparation_slug}-for-{problem_slug}-cheatsheet.jpg'
+    if os.path.exists(image_filepath_out): return
 
     img_width = 2480
     img_height = 3508
@@ -827,7 +841,7 @@ def img_preparation_systems_problems_cheatsheet(data):
         y += h
         
         
-    image_filepath_out = f'website/images/herbal-{preparation_slug}-for-{problem_slug}-cheatsheet.jpg'
+    
     img.save(image_filepath_out, quality=50) 
     print(image_filepath_out)
     # img.show()
@@ -836,13 +850,10 @@ def img_preparation_systems_problems_cheatsheet(data):
 
 
 
+# HTMLs
 
-
-# #########################################################
-# HTMLs - TODO
-# #########################################################
-
-def html_preparations_systems_problems_intro(html_filepath, data):
+def html_preparation_system_problem_intro(html_filepath, data):
+    key = 'intro_desc'
     article_html = ''
 
     title = data['title'].title()
@@ -858,8 +869,8 @@ def html_preparations_systems_problems_intro(html_filepath, data):
     try: article_html += f'<p><img src="{img_src}" alt="{img_alt}"></p>\n'
     except: print(f'MISSING TEA IMAGE: {problem_name} >> {tea_image_url}')
 
-    if 'intro' in data:
-        intro = data['intro']
+    if key in data:
+        intro = data[key]
         article_html += f'{util.text_format_1N1_html(intro)}\n'
     else: 
         print(f'MISSING INTRO: {html_filepath} >> {problem_name}')
@@ -875,13 +886,78 @@ def html_preparations_systems_problems_intro(html_filepath, data):
     return article_html
 
 
-def html_supplementary(data, preparation_name, preparation_slug, system_slug):
+# adjust it for tincures
+def html_preparation_system_problem_list(html_filepath, data):
+    article_html = ''
+    problem_slug = data['problem_slug']
+    problem_name = data['problem_name']
+    preparation_name = data['preparation_name']
+    preparation_name_singular = data['preparation_name_singular']
+    preparation_slug = data['preparation_slug']
+
+    for i, remedy_obj in enumerate(data['remedies_list'][:teas_num]):
+        herb_slug = remedy_obj['herb_slug'].strip().lower()
+        herb_name_common = remedy_obj['herb_name_common'].strip().lower()
+        herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-')
+
+        remedy_name = remedy_obj["herb_name_common"].strip().lower()
+        remedy_name_preparation = remedy_name
+        if preparation_slug == 'tea': remedy_name_preparation = f'{remedy_name_preparation} tea'.replace(' tea tea', ' tea')
+        elif preparation_slug == 'tincture': remedy_name_preparation = f'{remedy_name_preparation} tincture'
+
+        article_html += f'<h2>{i+1}. {remedy_name_preparation.capitalize()}</h2>\n'
+        try: article_html += f'<p>{util.text_format_1N1_html(remedy_obj["remedy_desc"])}</p>\n'
+        except: print(f'MISSING REMEDY DESC: {html_filepath} >> {problem_name} >> {remedy_name_preparation}')
+
+        img_src = f'/images/{herb_name_common_slug}-{preparation_slug}-for-{problem_slug}.jpg'
+        img_alt = f'{herb_name_common} {preparation_name_singular} for {problem_name}.jpg'
+        try: article_html += f'<p><img src="{img_src}" alt="{img_alt}"><p>\n'
+        except: print(f'MISSING REMEDY IMAGE: {problem_name} >> {tea_image_url}')
+            
+        try:
+            tea_constituents = remedy_obj['remedy_properties']
+            article_html += f'<p>The list below shows the primary active constituents in {remedy_name} that aid with {problem_name}.</p>\n'
+            article_html += '<ul>\n'
+            for tea_constituent in tea_constituents:
+                chunk_1 = tea_constituent.split(': ')[0]
+                chunk_2 = ': '.join(tea_constituent.split(': ')[1:])
+                article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
+            article_html += '</ul>\n'
+        except: print(f'MISSING REMEDY CONSTITUENTS: {problem_name} >> {remedy_name}')
+
+        try:
+            tea_parts = remedy_obj['remedy_parts']
+            article_html += f'<p>Right below you will find a list of the most important parts in {remedy_name} that help with {problem_name}.</p>\n'
+            article_html += '<ul>\n'
+            for tea_part in tea_parts:
+                chunk_1 = tea_part.split(': ')[0]
+                chunk_2 = ': '.join(tea_part.split(': ')[1:])
+                article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
+            article_html += '</ul>\n'
+        except: print(f'MISSING REMEDY PARTS: {problem_name} >> {remedy_name}')
+
+        try:
+            tea_recipe = remedy_obj['remedy_recipe']
+            article_html += f'<p>The following recipe gives a procedure to make a basic {remedy_name_preparation} for {problem_name}.</p>\n'
+            article_html += '<ol>\n'
+            for step in tea_recipe:
+                article_html += f'<li>{step}</li>\n'
+            article_html += '</ol>\n'
+        except: print(f'MISSING REMEDY RECIPE: {problem_name} >> {remedy_name}')
+
+    return article_html
+
+
+def html_preparation_system_problem_supplementary(html_filepath, data):
     problem_id = data['problem_id']
     problem_name = data['problem_name']
     problem_slug = data['problem_slug']
+    system_slug = data['system_slug']
+    preparation_name = data['preparation_name']
+    preparation_slug = data['preparation_slug']
 
     article_html = ''
-    
+
     key = 'supplementary_best_treatment'
     if key in data:
         article_html += f'<h2>How to best treat {problem_name} with herbal {preparation_name}?</h2>\n'
@@ -890,17 +966,16 @@ def html_supplementary(data, preparation_name, preparation_slug, system_slug):
 
         article_html += f'{util.text_format_1N1_html(text)}\n'
 
-    
-    key = 'supplementary_causes'
+        key = 'supplementary_causes'
     if key in data:
         article_html += f'<h3>What are the most common causes of {problem_name} that are treatable with herbal {preparation_name}?</h3>\n'
         text = data[key]
-        for problem_row in problems_rows:
+        for problem_row in problems_rows[:g.ART_NUM]:
             link_problem_id = problem_row[problems_cols['problem_id']]
             link_problem_slug = problem_row[problems_cols['problem_slug']]
             link_problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
             
-            link_system_row = csv_get_system_by_problem(problem_id)
+            link_system_row = csv_get_system_by_problem(link_problem_id)
             link_system_slug = link_system_row[systems_cols['system_slug']]
 
             if link_problem_id != problem_id:
@@ -910,14 +985,12 @@ def html_supplementary(data, preparation_name, preparation_slug, system_slug):
 
     return article_html
 
-
-
-
-# #########################################################
-# PREPARATIONS
-# #########################################################
+# EXE
 
 def art_tea_systems_problems():
+    preparation_name = 'teas'
+    preparation_name_singular = 'tea'
+    preparation_slug = 'tea'
     for problem_row in problems_rows[:g.ART_NUM]:
         problem_id = problem_row[problems_cols['problem_id']]
         problem_slug = problem_row[problems_cols['problem_slug']]
@@ -952,7 +1025,12 @@ def art_tea_systems_problems():
         data['problem_id'] = problem_id
         data['problem_slug'] = problem_slug
         data['problem_name'] = problem_name
-        data['preparation_name'] = 'teas'
+        data['system_id'] = system_id
+        data['system_slug'] = system_slug
+        data['system_name'] = system_name
+        data['preparation_name'] = preparation_name
+        data['preparation_name_singular'] = preparation_name_singular
+        data['preparation_slug'] = preparation_slug
 
         lastmod = util.date_now()
         if 'lastmod' not in data: data['lastmod'] = lastmod
@@ -982,151 +1060,9 @@ def art_tea_systems_problems():
         data = util.json_read(json_filepath)
 
         article_html = ''
-        article_html += html_preparations_systems_problems_intro(html_filepath, data)
-
-        for i, tea_obj in enumerate(data['remedies_list'][:teas_num]):
-            herb_slug = tea_obj['herb_slug'].strip().lower()
-            herb_name_common = tea_obj['herb_name_common'].strip().lower()
-            herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-')
-            tea_name = tea_obj["herb_name_common"].strip().lower()
-            tea_name = f'{tea_name} tea'.replace(' tea tea', ' tea')
-
-            article_html += f'<h2>{i+1}. {tea_name.capitalize()}</h2>\n'
-            try: article_html += f'<p>{util.text_format_1N1_html(tea_obj["remedy_desc"])}</p>\n'
-            except: print(f'MISSING TEA DESC: {html_filepath} >> {problem_name} >> {tea_name}')
-
-            img_src = f'/images/{herb_name_common_slug}-tea-for-{problem_slug}.jpg'
-            img_alt = f'{herb_name_common} tea for {problem_name}.jpg'
-            try: article_html += f'<p><img src="{img_src}" alt="{img_alt}"><p>\n'
-            except: print(f'MISSING TEA IMAGE: {problem_name} >> {tea_image_url}')
-                
-            try:
-                tea_constituents = tea_obj['remedy_properties']
-                # article_html += f'<h3>Constituents</h3>\n'
-                article_html += f'<p>The list below shows the primary active constituents in {tea_name} that aid with {problem_name}.</p>\n'
-                article_html += '<ul>\n'
-                for tea_constituent in tea_constituents:
-                    chunk_1 = tea_constituent.split(': ')[0]
-                    chunk_2 = ': '.join(tea_constituent.split(': ')[1:])
-                    article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
-                article_html += '</ul>\n'
-            except: print(f'MISSING TEA CONSTITUENTS: {problem_name} >> {tea_name}')
-
-            try:
-                tea_parts = tea_obj['remedy_parts']
-                # article_html += f'<h3>Parts</h3>\n'
-                article_html += f'<p>Right below you will find a list of the most important parts in {tea_name} that help with {problem_name}.</p>\n'
-                article_html += '<ul>\n'
-                for tea_part in tea_parts:
-                    chunk_1 = tea_part.split(': ')[0]
-                    chunk_2 = ': '.join(tea_part.split(': ')[1:])
-                    article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
-                article_html += '</ul>\n'
-            except: print(f'MISSING TEA PARTS: {problem_name} >> {tea_name}')
-
-            try:
-                tea_recipe = tea_obj['remedy_recipe']
-                # article_html += f'<h3>Recipe</h3>\n'
-                article_html += f'<p>The following recipe gives a procedure to make a basic {tea_name} for {problem_name}.</p>\n'
-                article_html += '<ol>\n'
-                for step in tea_recipe:
-                    article_html += f'<li>{step}</li>\n'
-                article_html += '</ol>\n'
-            except: print(f'MISSING TEA RECIPE: {problem_name} >> {tea_name}')
-
-
-        key = 'supplementary_best_treatment'
-        if key in data:
-            article_html += f'<h2>How to best treat {problem_name} with herbal tea?</h2>\n'
-            text = data[key]
-            text = text.replace(problem_name, f'<a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name}</a>', 1)
-
-            article_html += f'{util.text_format_1N1_html(text)}\n'
-
-
-        key = 'supplementary_causes'
-        if key in data:
-            article_html += f'<h3>What are the most common causes of {problem_name} that are treatable with herbal tea?</h3>\n'
-            text = data[key]
-            for problem_row in problems_rows:
-                link_problem_id = problem_row[problems_cols['problem_id']]
-                link_problem_slug = problem_row[problems_cols['problem_slug']]
-                link_problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
-                
-                link_system_row = csv_get_system_by_problem(problem_id)
-                link_system_slug = link_system_row[systems_cols['system_slug']]
-
-                if link_problem_id != problem_id:
-                    text = text.replace(link_problem_name, f'<a href="/herbalism/tea/{link_system_slug}/{link_problem_slug}.html">{link_problem_name}</a>', 1)
-
-            article_html += f'{util.text_format_1N1_html(text)}\n'
-
-
-        # key = 'supplementary_other_remedies'
-        # if key in data:
-        #     article_html += f'<h2>What are other herbal remedies for {problem_name}?</h2>\n'
-        #     article_html += f'<p>Other herbal remedies to supplement herbal teas for <a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name}</a> are listed below.</p>\n'
-        #     article_html += f'<ul>\n'
-        #     for item in data[key]:
-        #         chunks = item.split(':')
-        #         chunk_1 = chunks[0]
-        #         chunk_2 = ':'.join(chunks[1:])
-        #         if chunk_1.lower().strip() == 'infusions':
-        #             chunk_1 = f'<strong><a href="/herbalism/tea/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
-        #         elif chunk_1.lower().strip() == 'tinctures':
-        #             chunk_1 = f'<strong><a href="/herbalism/tincture/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
-        #         else:
-        #             chunk_1 = f'<strong>{chunk_1}</strong>'
-        #         article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
-        #     article_html += f'</ul>\n'
-
-
-        # key = 'problems_related'
-        # if key in data:
-        #     article_html += f'<h3>What ailments related to {problem_name} herbal teas helps?</h3>\n'
-        #     article_html += f'<p>Herbal teas helps people with many ailments related to {problem_name}, such as those listed below.</p>\n'
-        #     article_html += '<ul>\n'
-        #     for item in data[key]:
-        #         chunk_1 = item.split(': ')[0]
-                
-        #         problem_url = ''
-
-        #         problems_related_rows_filtered = util.csv_get_rows_filtered(
-        #             g.CSV_PROBLEMS_RELATED_FILEPATH, problems_related_cols['related_name'], chunk_1.strip().lower()
-        #         )
-
-        #         if problems_related_rows_filtered != []:
-        #             problem_related_row = problems_related_rows_filtered[0]
-        #             related_id = problem_related_row[problems_related_cols['related_id']]
-        #         else:
-        #             related_id = ''
-
-        #         if related_id != '': 
-        #             problems_rows_filtered = util.csv_get_rows_filtered(
-        #                 g.CSV_PROBLEMS_FILEPATH, problems_cols['problem_id'], related_id
-        #             )
-                    
-        #             if problems_rows_filtered != []:
-        #                 problem_row = problems_rows_filtered[0]
-        #                 problem_id = problem_row[problems_cols['problem_id']]
-        #                 problem_slug = problem_row[problems_cols['problem_slug']]
-
-        #                 system_row = csv_get_system_by_problem(problem_id)
-
-        #                 if system_row != []:
-        #                     system_slug = system_row[systems_cols['system_slug']]
-        #                     if os.path.exists(f'website/ailments/{system_slug}/{problem_slug}.html'):
-        #                         problem_url = f'/ailments/{system_slug}/{problem_slug}.html'
-
-        #         chunk_2 = ': '.join(item.split(': ')[1:])
-        #         if problem_url != '':
-        #             article_html += f'<li><strong><a href="{problem_url}">{chunk_1.capitalize()}</a></strong>: {chunk_2}</li>\n'
-        #         else:
-        #             article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
-        #     article_html += '</ul>\n'
-
-        # json_tea_systems_problems_supplementary
-            # add last generated content 
+        article_html += html_preparation_system_problem_intro(html_filepath, data)
+        article_html += html_preparation_system_problem_list(html_filepath, data)
+        article_html += html_preparation_system_problem_supplementary(html_filepath, data)
 
         header_html = util.header_default()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
@@ -1236,7 +1172,10 @@ def art_tea_systems_problems():
         #     util.file_write(html_filepath_out, html)
 
 
+# TODO: fast - all tea instances to tinctures, including images
 def art_tincture_systems_problems():
+    preparation_name = 'tinctures'
+    preparation_name_singular = 'tincture'
     preparation_slug = 'tincture'
     for problem_row in problems_rows[:g.ART_NUM]:
         problem_id = problem_row[problems_cols['problem_id']]
@@ -1272,7 +1211,12 @@ def art_tincture_systems_problems():
         data['problem_id'] = problem_id
         data['problem_slug'] = problem_slug
         data['problem_name'] = problem_name
-        data['preparation_name'] = 'tinctures'
+        data['system_id'] = system_id
+        data['system_slug'] = system_slug
+        data['system_name'] = system_name
+        data['preparation_name'] = preparation_name
+        data['preparation_name_singular'] = preparation_name_singular
+        data['preparation_slug'] = preparation_slug
 
         lastmod = util.date_now()
         if 'lastmod' not in data: data['lastmod'] = lastmod
@@ -1307,158 +1251,12 @@ def art_tincture_systems_problems():
         data = util.json_read(json_filepath)
 
         article_html = ''
-        article_html += html_preparations_systems_problems_intro(html_filepath, data)
-
-        for i, tincture_obj in enumerate(data['remedies_list'][:ART_ITEMS_NUM]):
-            herb_slug = tincture_obj['herb_slug'].strip().lower()
-            herb_name_common = tincture_obj['herb_name_common'].strip().lower()
-            herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-')
-            tincture_name = tincture_obj["herb_name_common"].strip().lower()
-            tincture_name = f'{tincture_name} tincture'.replace(' tincture tincture', ' tincture')
-
-            article_html += f'<h2>{i+1}. {tincture_name.capitalize()}</h2>\n'
-            try: article_html += f'<p>{util.text_format_1N1_html(tincture_obj["remedy_desc"])}</p>\n'
-            except: print(f'MISSING TINCTURE DESC: {html_filepath} >> {problem_name} >> {tincture_name}')
-            
-            img_src = f'/images/{herb_name_common_slug}-tincture-for-{problem_slug}.jpg'
-            img_alt = f'{herb_name_common} tincture for {problem_name}.jpg'
-            try: article_html += f'<p><img src="{img_src}" alt="{img_alt}"><p>\n'
-            except: print(f'MISSING TINCTURE IMAGE: {problem_name} >> {herb_name_common}')
-
-            try:
-                tincture_constituents = tincture_obj['remedy_properties']
-                article_html += f'<p>The list below shows the primary active constituents in {tincture_name} that aid with {problem_name}.</p>\n'
-                article_html += '<ul>\n'
-                for tincture_constituent in tincture_constituents:
-                    chunk_1 = tincture_constituent.split(': ')[0]
-                    chunk_2 = ': '.join(tincture_constituent.split(': ')[1:])
-                    article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
-                article_html += '</ul>\n'                
-            except: print(f'MISSING TINCTURE CONSTITUENTS: {problem_name} >> {tincture_name}')
-
-            try:
-                tincture_parts = tincture_obj['remedy_parts']
-                article_html += f'<p>Right below you will find a list of the most important parts in {tincture_name} that help with {problem_name}.</p>\n'
-                article_html += '<ul>\n'
-                for tincture_part in tincture_parts:
-                    chunk_1 = tincture_part.split(': ')[0]
-                    chunk_2 = ': '.join(tincture_part.split(': ')[1:])
-                    article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
-                article_html += '</ul>\n'
-            except: print(f'MISSING TINCTURES PARTS: {problem_name} >> {tincture_name}')
-
-            try:
-                tincture_recipe = tincture_obj['remedy_recipe']
-                article_html += f'<p>The following recipe gives a procedure to make a basic {tincture_name} for {problem_name}.</p>\n'
-                article_html += '<ol>\n'
-                for step in tincture_recipe:
-                    article_html += f'<li>{step}</li>\n'
-                article_html += '</ol>\n'
-            except: print(f'MISSING TINCTURE RECIPE: {problem_name} >> {tincture_name}')
-
-        # problem_definition = data["problem_definition"]
-        # if os.path.exists(f'website/ailments/{system_slug}/{problem_slug}.html'):
-        #     problem_definition = problem_definition.replace(
-        #         problem_name.capitalize(),
-        #         f'<a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name.capitalize()}</a>',
-        #         1
-        #     )
-        # article_html += f'<h2>What is bad breath and why is important to treat it?</h2>\n'
-        # try: article_html += f'{util.text_format_1N1_html(problem_definition)}\n'
-        # except: print(f'MISSING INTRO: {html_filepath} >> {problem_name}')
-
-        # key = 'supplementary_other_remedies'
-        # if key in data:
-        #     article_html += f'<h2>What are other herbal remedies for {problem_name}?</h2>\n'
-        #     article_html += f'<p>Other herbal remedies to supplement herbal tinctures for <a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name}</a> are listed below.</p>\n'
-        #     article_html += f'<ul>\n'
-        #     for item in data[key]:
-        #         chunks = item.split(':')
-        #         chunk_1 = chunks[0]
-        #         chunk_2 = ':'.join(chunks[1:])
-        #         if chunk_1.lower().strip() == 'infusions':
-        #             chunk_1 = f'<strong><a href="/herbalism/tea/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
-        #         elif chunk_1.lower().strip() == 'tinctures':
-        #             chunk_1 = f'<strong><a href="/herbalism/tincture/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
-        #         else:
-        #             chunk_1 = f'<strong>{chunk_1}</strong>'
-        #         article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
-        #     article_html += f'</ul>\n'
+        article_html += html_preparation_system_problem_intro(html_filepath, data)
+        article_html += html_preparation_system_problem_list(html_filepath, data)
+        article_html += html_preparation_system_problem_supplementary(html_filepath, data)
 
 
-        # key = 'problems_related'
-        # if key in data:
-        #     article_html += f'<h3>What ailments related to {problem_name} herbal teas helps?</h3>\n'
-        #     article_html += f'<p>Herbal teas helps people with many ailments related to {problem_name}, such as those listed below.</p>\n'
-        #     article_html += '<ul>\n'
-        #     for item in data[key]:
-        #         chunk_1 = item.split(': ')[0]
-                
-        #         problem_url = ''
-
-        #         problems_related_rows_filtered = util.csv_get_rows_filtered(
-        #             g.CSV_PROBLEMS_RELATED_FILEPATH, problems_related_cols['related_name'], chunk_1.strip().lower()
-        #         )
-
-        #         if problems_related_rows_filtered != []:
-        #             problem_related_row = problems_related_rows_filtered[0]
-        #             related_id = problem_related_row[problems_related_cols['related_id']]
-        #         else:
-        #             related_id = ''
-
-        #         if related_id != '': 
-        #             problems_rows_filtered = util.csv_get_rows_filtered(
-        #                 g.CSV_PROBLEMS_FILEPATH, problems_cols['problem_id'], related_id
-        #             )
-                    
-        #             if problems_rows_filtered != []:
-        #                 problem_row = problems_rows_filtered[0]
-        #                 problem_id = problem_row[problems_cols['problem_id']]
-        #                 problem_slug = problem_row[problems_cols['problem_slug']]
-
-        #                 system_row = csv_get_system_by_problem(problem_id)
-
-        #                 if system_row != []:
-        #                     system_slug = system_row[systems_cols['system_slug']]
-        #                     if os.path.exists(f'website/ailments/{system_slug}/{problem_slug}.html'):
-        #                         problem_url = f'/ailments/{system_slug}/{problem_slug}.html'
-
-        #         chunk_2 = ': '.join(item.split(': ')[1:])
-        #         if problem_url != '':
-        #             article_html += f'<li><strong><a href="{problem_url}">{chunk_1.capitalize()}</a></strong>: {chunk_2}</li>\n'
-        #         else:
-        #             article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
-        #     article_html += '</ul>\n'
         
-        article_html += html_supplementary(data, 'tincture', 'tincture', system_slug)
-
-        # key = 'supplementary_best_treatment'
-        # if key in data:
-        #     article_html += f'<h2>How to best treat {problem_name} with herbal tincture?</h2>\n'
-        #     text = data[key]
-        #     text = text.replace(problem_name, f'<a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name}</a>', 1)
-
-        #     article_html += f'{util.text_format_1N1_html(text)}\n'
-
-
-        # key = 'supplementary_causes'
-        # if key in data:
-        #     article_html += f'<h3>What are the most common causes of {problem_name} that are treatable with herbal tincture?</h3>\n'
-        #     text = data[key]
-        #     for problem_row in problems_rows:
-        #         link_problem_id = problem_row[problems_cols['problem_id']]
-        #         link_problem_slug = problem_row[problems_cols['problem_slug']]
-        #         link_problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
-                
-        #         link_system_row = csv_get_system_by_problem(problem_id)
-        #         link_system_slug = link_system_row[systems_cols['system_slug']]
-
-        #         if link_problem_id != problem_id:
-        #             text = text.replace(link_problem_name, f'<a href="/herbalism/tincture/{link_system_slug}/{link_problem_slug}.html">{link_problem_name}</a>', 1)
-
-        #     article_html += f'{util.text_format_1N1_html(text)}\n'
-
-
         header_html = util.header_default()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
         meta_html = util.article_meta(article_html, lastmod)
@@ -1591,7 +1389,7 @@ def json_ailments_systems_problems_causes(json_filepath, data):
         problem_name = data['problem_name']
 
         prompt = f'''
-            Write a numbered list of the most common causes of {problem_name}.
+            Write a numbered list of the {causes_num} most common causes of {problem_name}.
             Include a short description for each cause.
             Reply with the following format: [cause name]: [description].
             Never use the following words: can, may, might.
@@ -2840,14 +2638,17 @@ def json_del_keys_herbalism_tincture(key):
         else: print(f'file not exists: {json_filepath}')
 
 
-# json_del_keys_herbalism_tea(key='supplementary_best_treatment')
-# json_del_keys_herbalism_tincture(key='supplementary_best_treatment')
+# json_del_keys_herbalism_tea(key='intro_desc')
+# json_del_keys_herbalism_tincture(key='intro_desc')
 
 # json_del_keys_herbalism_tea(key='supplementary_causes')
 # json_del_keys_herbalism_tincture(key='supplementary_causes')
 
 # quit()
 
+# #########################################################
+# SIMULATE
+# #########################################################
 
 
 # #########################################################
@@ -2867,6 +2668,7 @@ art_ailments()
 
 art_tea_systems_problems()
 art_tincture_systems_problems()
+
 
 
 

@@ -30425,3 +30425,200 @@ JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1715522480557	geckodriver	INFO	Listening on 127.0.0.1:60371
+1715522483624	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60372" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileq9MhuY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1715522484224	Marionette	INFO	Marionette enabled
+1715522484422	Marionette	INFO	Listening on port 60379
+WebDriver BiDi listening on ws://127.0.0.1:60372
+Read port: 60379
+1715522484577	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60372/devtools/browser/8529a3a0-d43d-45e1-84ff-3c7132a2a9f1
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1715522514247	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+Exiting due to channel error.
+Exiting due to channel error.
+1715609804168	geckodriver	INFO	Listening on 127.0.0.1:60537
+1715609807208	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60538" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileTq03cc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1715609807725	Marionette	INFO	Marionette enabled
+1715609807971	Marionette	INFO	Listening on port 60545
+WebDriver BiDi listening on ws://127.0.0.1:60538
+Read port: 60545
+1715609808264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:60538/devtools/browser/1b3f24b1-32a8-4ca3-85e8-0b7fdac0395d
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1715609837731	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: https://s.pinimg.com/webapp/www/idea-ads-tool-47ea3d65ca0a63ff.mjs, line 8: Error: 3000ms timeout exceeded
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1715631904086	geckodriver	INFO	Listening on 127.0.0.1:50196
+1715631907135	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50197" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofilecz9bcI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1715631907506	Marionette	INFO	Marionette enabled
+1715631907592	Marionette	INFO	Listening on port 50204
+WebDriver BiDi listening on ws://127.0.0.1:50197
+Read port: 50204
+1715631907862	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50197/devtools/browser/d113d5e2-d5e3-48c2-b18d-1a20c219e49d
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+1715631937537	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.pinterest.com."
+JavaScript warning: https://accounts.google.com/gsi/button?size=large&shape=pill&text=continue_with&theme=outline&width=268px&logo_alignment=left&click_listener=()%3D%3E(0%2Ci.EX)(%7Bevent%3A%22start%22%2Cprovider%3A%22google%22%7D)&client_id=694505692171-31closf3bcmlt59aeulg2j81ej68j6hk.apps.googleusercontent.com&iframe_id=gsi_912596_700428&as=7plCVUuADOo%2BNYkIDTCQEQ&hl=en-US, line 99: Script terminated by timeout at:
+_.I<@/_/gsi/_/js/k=gsi.gsi.en_US.3pHqsa-DGi0.O/am=AIAUYA/d=1/rs=AF0KOtWGOZ9JDCvN0kdXGNs-7zS3rcErZQ/m=credential_button_library:99:1136
+Kd@/_/gsi/_/js/k=gsi.gsi.en_US.3pHqsa-DGi0.O/am=AIAUYA/d=1/rs=AF0KOtWGOZ9JDCvN0kdXGNs-7zS3rcErZQ/m=credential_button_library:91:41
+_.M@/_/gsi/_/js/k=gsi.gsi.en_US.3pHqsa-DGi0.O/am=AIAUYA/d=1/rs=AF0KOtWGOZ9JDCvN0kdXGNs-7zS3rcErZQ/m=credential_button_library:101:320
+Yh@/_/gsi/_/js/k=gsi.gsi.en_US.3pHqsa-DGi0.O/am=AIAUYA/d=1/rs=AF0KOtWGOZ9JDCvN0kdXGNs-7zS3rcErZQ/m=credential_button_library:196:285
+Uh@/_/gsi/_/js/k=gsi.gsi.en_US.3pHqsa-DGi0.O/am=AIAUYA/d=1/rs=AF0KOtWGOZ9JDCvN0kdXGNs-7zS3rcErZQ/m=credential_button_library:196:224
+Qh.prototype.C@/_/gsi/_/js/k=gsi.gsi.en_US.3pHqsa-DGi0.O/am=AIAUYA/d=1/rs=AF0KOtWGOZ9JDCvN0kdXGNs-7zS3rcErZQ/m=credential_button_library:193:29
+Qh/<@/_/gsi/_/js/k=gsi.gsi.en_US.3pHqsa-DGi0.O/am=AIAUYA/d=1/rs=AF0KOtWGOZ9JDCvN0kdXGNs-7zS3rcErZQ/m=credential_button_library:187:282
+
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://s.pinimg.com/webapp/www/_client-647f4d28da886dfa.mjs, line 26: Script terminated by timeout at:
+i@https://s.pinimg.com/webapp/www/_client-647f4d28da886dfa.mjs:26:198105
+705895/</<@https://s.pinimg.com/webapp/www/_client-647f4d28da886dfa.mjs:26:198500
+
+1715637096789	Marionette	INFO	Stopped listening on port 50204
+Dynamically enable window occlusion 1
