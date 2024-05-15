@@ -1,2 +1,0 @@
-
-            The study aimed to determine if both Zumba and cinnamon bark tea are effective in reducing body fat in obese women. It was conducted on 75 respondents over the course of 24 days. A paired sample t-test and an independent sample t-test were used with an alpha value of 0.05. The study found that both Zumba and cinnamon bark tea were effective in reducing body fat, but drinking cinnamon bark tea was more effective. The study recommended combining both Zumba and cinnamon bark tea for optimal results.

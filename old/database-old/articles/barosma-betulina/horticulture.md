@@ -1,5 +1,0 @@
- Buchu (Barosma betulina) is a perennial herb that can be grown from seed or cuttings. Propagation from seeds is recommended for growing larger numbers of plants; sow them in pots during late winter and transplant the young seedlings into the garden when they are about 8 cm tall. Alternatively, take semi-hardwood cuttings in summer or semi-ripe ones in early autumn.
-
- The ideal conditions for Buchu growth include well-drained, acidic soil with a pH of 4 to 6.5. The plant thrives in full sun but can tolerate partial shade. It's a drought-resistant plant once established, but it benefits from supplementary watering during extended dry spells. Buchu is hardy down to -1°C (30°F) and can be grown in USDA zones 9b to 11.
-
- Maintenance for Buchu involves regular pruning to maintain its size and shape; deadhead spent flowers regularly to encourage more blooms. Mulching around the base of the plant can help conserve moisture, particularly during dry periods. Fertilize sparingly with an organic, acidic fertilizer in late winter to promote healthy growth. Regular weeding is also crucial, as competition for nutrients and water may affect Buchu's overall health.

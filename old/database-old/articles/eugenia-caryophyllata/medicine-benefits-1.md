@@ -1,1 +1,0 @@
-Clove has many health benefits, such as reducing inflammation, which can potentially prevent and manage certain diseases like arthritis. It also plays an instrumental role in promoting weight loss, thereby keeping your body healthy and fit. Furthermore, its unique properties help detoxify the body by eliminating harmful toxins and waste materials.

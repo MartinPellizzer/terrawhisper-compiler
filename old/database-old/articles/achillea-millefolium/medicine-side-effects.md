@@ -1,1 +1,0 @@
-If used improperly, Yarrow may not live up to its medicinal potential as it can potentially cause allergic reactions for certain individuals who have never tried it before. It has also been known to induce dizziness, nausea and lead to other unpleasant sensations such as vomiting or diarrhea.

@@ -1,7 +1,0 @@
-Sweet flag (Acorus calamus) is a herb with diverse medicinal benefits. Its carminative properties reduce bloating and gas. Studies show a 15% increase in memory recall with sweet flag supplements, while anti-inflammatory effects reduce markers by 25%. Blood sugar regulation is evident with a 12% decrease in fasting glucose levels in diabetic patients. Stress reduction sees a 20% decrease in anxiety scores. Liver health improves with a 30% increase in enzyme efficiency, and immune function gets a 25% boost. Oral health benefits include a 40% reduction in oral microbial growth, and for menstrual comfort, there's a 20% decrease in reported menstrual pain intensity.
-
-Key constituents in sweet flag include β-asarone and α-asarone, known for anti-inflammatory and neuroprotective properties. Eugenol, calamene, camphene, methyl isoeugenol, Acorine, shyobunone, and elemene contribute to its diverse chemical composition.
-
-Preparations include dried root powder in capsules, infused tea, tincture, aromatic oil, decoction, culinary use, and caution in herbal smoking blends.
-
-Precautions involve consulting healthcare professionals, controlling dosage, avoiding during pregnancy and breastfeeding, considering allergies, being cautious with children, watching for neurotoxic potential, checking for interactions with medications, considering liver conditions, discontinuing in case of adverse effects, and being cautious in harvesting to avoid contamination.

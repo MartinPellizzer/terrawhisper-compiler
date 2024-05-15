@@ -1,1 +1,0 @@
-Skullcap has many health benefits, such as reducing stress levels which help people lead better and more balanced lives. It also increases immunity functions, protecting the body against infections and diseases. Lastly, it aids mental health issues by promoting calmness and clarity of thought, which is essential for an improved emotional well-being.

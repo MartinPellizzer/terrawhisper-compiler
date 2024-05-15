@@ -1,9 +1,0 @@
-The etymology of "Nettle" originates from an Anglo-Saxon word 'nettle'. This simple English language term has been a part and parcel in describing this particular plant for quite some time now, which traces back its root to around the 10th century when people were actively speaking Old English.
-
-Nettle (Urtica dioica) as it's more commonly known today is not just an ordinary botanical specimen but a subject of immense cultural value dating beyond centuries in human history, especially evident due to its mention across various literary works and folklores around the world that give insights into how people have perceived this plant.
-
-Nettle has been at the heart of many myths which over time evolved as legends associated with certain characteristics or properties attached metaphorically to it in diverse communities' lore, adding a mystical dimension not just about its appearance but also relating these attributes symbolic meanings that are unique and specific.
-
-Literature is another medium where the existence of this green botanist can be witnessed frequently like how Shakespeare has mentioned nettles as part of his garden in A Midsummer Night's Dream, showcasing their potential medicinal use too or Charles Dickens who used it metaphorically while describing a character’s state.
-
-Lastly but not least significant is the folkloristic uses associated with Nettle (Urtica dioicia). Folk wisdom suggests its usage in various daily needs - right from curing certain diseases like scurvy, treating skin conditions due to insect stings or even as food that was traditionally used for making tea and other edible preparations. Thusly provoking an appreciation beyond scientific understanding of the plant's attributes enriched by generations spanning across history giving them meaning transcending merely biological value they hold today in botanical circles

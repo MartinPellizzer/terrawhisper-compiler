@@ -1,3 +1,0 @@
-
-
-It's important to take some precautions when using Sweet flag (Acorus calamus) for medicinal purposes. Avoid excessive intake due to potential toxicity. Use caution during pregnancy and lactation due to potential effects on uterine contractions and the developing fetus. Consult a healthcare professional for proper dosage and duration. Avoid use in individuals with liver disease or seizures. Monitor for potential allergic reactions, especially in sensitive individuals. Always source Sweet flag from reliable, pesticide-free locations to minimize contamination risks. Use it for short-term periods and discontinue if adverse effects occur.

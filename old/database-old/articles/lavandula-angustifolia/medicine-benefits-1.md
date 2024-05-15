@@ -1,1 +1,0 @@
-Lavender has many health benefits, such as promoting a calm and peaceful feeling to aid in relaxation, reducing stress levels by helping one unwind after a hectic day, and improving sleep quality for better rest at night. It also boosts mental wellbeing while enhancing overall health.

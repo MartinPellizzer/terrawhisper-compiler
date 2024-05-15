@@ -1,1 +1,0 @@
-Sweet Flag has many health benefits, such as reducing inflammations caused by various diseases or infections; furthermore, it helps to promote relaxation, which is essential for our mental wellbeing; finally, this herb also improves cognitive functions and memory retention. In conclusion, these advantages make sweet flag a remarkable remedy for maintaining overall health.

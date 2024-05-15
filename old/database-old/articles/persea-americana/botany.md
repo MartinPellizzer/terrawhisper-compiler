@@ -1,9 +1,0 @@
-Avocado (Persea americana) belongs to Perseales order under Lauraceae family of Plantae Kingdom and Eukaryota Domain which include unicellular organisms, animals plants or fungi that possess a cell nucleus surrounded by the plasma membrane enclosing cytoplasm.
-
-Avocados also commonly go known as alligator pears for their similar look; though they are not related to true pear trees (Pyrus spp.). There exist various types of avocado varieties, each with different features that set them apart from the rest in taste or usage, such as Hass being black skinned and high flavoring while Fuerte has smooth skin green.
-
-Morphologically speaking, Avocados are medium-sized trees having dark glossy leaves often used for their oil content which is rich nutritive source of vitamins A through E along with minerals like magnesium calcium phosphorus potassium sodium copper zinc sulfur as they enclose a single large berry that's not just edible but even holds the seed inside.
-
-The natural habitats where Avocados grow best are either close to bodies of water or in warm temperate climates with mild winters and ample rainfall for its healthy cultivation, making it an ideal companion around many coastal areas near seasides as well tropical forest landscapes throughout South America Africa Mexico Caribbean regions etcetera.
-
-Avocado life-cycle starts from the seed germination process which leads to a young plant's growth via seeds or even sometimes using grafting techniques that involve joining two plants together for faster propagation resulting in stronger avacados with their inherent unique genetic makeup continuing on over multiple generations creating an eclectic variety of delicious and nutritious fruits enjoyed globally today.

@@ -1,1 +1,0 @@
-Garlic has many health benefits, such as helping to lower blood pressure which reduces risk of heart diseases and strokes, aiding the immune system in fighting off illnesses, and easing inflammation caused by numerous conditions. These properties make garlic an excellent natural remedy.

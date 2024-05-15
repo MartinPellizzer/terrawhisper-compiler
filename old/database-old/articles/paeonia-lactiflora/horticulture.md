@@ -1,9 +1,0 @@
-White Peony (Paeonia lactiflora), a type of flowering plant, thrives best with at least six hours daily sunlight exposure and moist but well-drained soil that should be slightly acidic between pH values ranging from about five to seven in full sun or partial shade.
-
-When preparing for the cultivation process, it's crucial you choose a proper spot beforehand considering nearby objects like trees might provide some protection against strong winds and direct sunlight while ensuring sufficient water availability via irrigation systems when necessary due its high moisture requirement during growth phase – White Peony can grow up to 120 centimeters tall if fully bloomed, including around nine branches or petals on each flower.
-
-Caring tips include maintaining consistent soil pH levels as it's important for optimal nutrient absorption; applying organic fertilizers during growing season could help boost performance due its specific preference of composted manure mixed with leafy trimmings from other plants – ensure good drainage within planting bed because they might succumb if soaked too long in wet soil.
-
-Harvest time varies, generally between late spring and early summer; White Peony has a flower head comprising numerous small flowers that last three to four weeks when picked at their prime while the leaves serve for cooking purpose – be careful not removing buds or petals before reaching peak bloom stage as it could potentially ruin this long-awaited, delicate display.
-
-Pest problems faced by White Peony include aphids, ants and mealybug infestations which can damage the plant's soft foliage; to avoid such issues try avoiding crowding of plants or use pesticide in moderate doses but only when needed for managing these unwanted guests – additionally watch out also fungal diseases like powdery mildew on bud, leaf and stem surfaces due their susceptibility.

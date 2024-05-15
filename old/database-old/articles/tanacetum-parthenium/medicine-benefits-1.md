@@ -1,1 +1,0 @@
-Feverfew has many health benefits, such as reducing pain and inflammation, promoting relaxation and better sleep quality. Furthermore, it is known to enhance the body's defense system by boosting the immune system. These properties make it an essential remedy for various ailments.

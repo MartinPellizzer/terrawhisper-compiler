@@ -1,1 +1,0 @@
-Witch Hazel has many health benefits, such as alleviating inflammation, which is a common condition caused by numerous illnesses or injuries; additionally, it provides relief from pain and soreness often experienced during these situations. Furthermore, its ability to promote wound healing makes it an effective aid for various skin conditions.

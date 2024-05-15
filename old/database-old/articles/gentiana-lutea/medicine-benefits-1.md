@@ -1,1 +1,0 @@
-Gentian has many health benefits, such as improving digestion, boosting one's immune system, and even reducing stress levels by minimizing anxiety and depression. This versatile plant is known for its various positive impacts on our well-being.

@@ -1,1 +1,0 @@
-Dandelion has many health benefits, such as boosting immunity to fight against various infections, detoxifying the liver by eliminating harmful toxins, and promoting digestion by aiding in the breakdown of food, which all contribute to overall well-being. This humble weed has immense potential for improving our health.

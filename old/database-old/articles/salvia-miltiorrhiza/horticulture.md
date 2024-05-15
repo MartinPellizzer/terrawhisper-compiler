@@ -1,7 +1,0 @@
- Dan Shen or Salvia miltitiorrhiza thrives best under full to part shade conditions, with well-draining but humus and rich soils for optimum growth in a temperature range of about (7 -24)°C throughout the year across all regions.
-
- For successful plantation begin by picking disease resistant plants or seeds from reputable nurseries to ensure healthy, vibrant life as Dan Shen is sensitive towards environmental conditions and diseases can be fatal for its growth in later stages; furthermore make sure that you choose a proper site away from strong winds with good air circulation.
-
- Once planted keep track of it's watering needs which vary based on the season, but generally require regular irrigation to maintain soil moisture during dry periods and less frequent when rainfall is plenty - yet not drowned due for insufficient drainage; also ensure proper fertilization with balanced nutrients at least twice annually especially if grown in pots.
-
- To harvest, start observing the flowers change colour into shades of red or purple and then cut them when they're still green around (5-10) centimetres long before full bloom to get tender stems with highest concentration for its medicinal properties; make sure to handle carefully as it can be easily damaged.

@@ -1,7 +1,0 @@
-The leaves of Allium sativum are simple, meaning each leaf is not divided into smaller leaflets. In terms of shape, garlic leaves are linear and lanceolate, form a basal rosette arrangement, and they grow in an upright, or erect, orientation.
-
-These leaves typically measure between 15 to 40 centimeters (5.9 to 15.7 inches) in length and 1 to 3 centimeters (0.4 to 1.2 inches) in width. They are relatively thin, ranging from 0.2 to 0.4 millimeters (0.008 to 0.016 inches), and they are typically green in color. The texture of the leaves is smooth, with a slightly waxy surface, and they are described as glabrous, which means they are hairless.
-
-When examining the overall structure of the leaf, you'll find the apex is acuminate, tapering to a sharp point. The base of the leaf is sheathing, meaning it wraps around the stem where it attaches directly. The margin of the leaf is described as entire, which implies a smooth and undivided edge. Garlic leaves exhibit parallel venation, and the lamina, or blade of the leaf, is simple.
-
-One notable feature is the prominent midrib, running along the center of the leaf. This midrib serves as a structural element in the leaf, helping to support its overall shape. The attachment of the leaf to the stem is sessile, meaning there is no distinct petiole or leaf stalk; the leaf is directly attached to the stem.

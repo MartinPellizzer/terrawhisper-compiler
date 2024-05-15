@@ -1,1 +1,0 @@
-Flaxseed has many health benefits, such as lowering one's cholesterol levels for an enhanced cardiovascular system. Additionally, it possesses anti-inflammatory properties that assist in relieving pain and reducing swelling due to inflammation. Furthermore, its high content of omega-3 fatty acids facilitates proper joint function and contributes significantly to overall health.

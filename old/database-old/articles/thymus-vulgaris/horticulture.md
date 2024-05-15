@@ -1,9 +1,0 @@
-Thyme (Thymus vulgaris), a common garden herb requiring bright sunny spots with well-drained soil, thrives at optimum growth under moderate water levels without saturation or drought conditions in full sunlight for maximum aroma and flavor development from the small leaves of this shrub.
-
-Planting Thyme is best done during its growing season that spans spring to early summer when temperatures are warm but not too hot, enabling good root establishment before winter months settle upon it; choose a location with room beneath it for spreading growth habits without blocking out surrounding plants' access sunlight while using mulch around the base can help retain moisture.
-
-Proper care includes light watering and regular weeding to remove competition from other nearby vegetation, as well pruning during early spring or late summer after flower blooming has finished helps maintain its attractive appearance with fresh leaves ready for harvest later in autumn when it's fully matured at least one year old.
-
-Harvest thyme once a majority of the plant is green and aromatic around mid-season to prevent potential bitterness that could ensue from waiting too long, gathering small amounts periodically during its growth cycle will ensure you have an ongoing supply for culinary use throughout various seasons without overharvesting.
-
-Thyme plants may encounter occasional pests like spider mites or whiteflies; organic control measures can reduce populations significantly by using insecticidal soaps, neem oil solutions and promoting a healthy plant through robust management strategies will strengthen the immune system against diseases such as leaf spot fungus.

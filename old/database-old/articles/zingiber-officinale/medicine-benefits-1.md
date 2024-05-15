@@ -1,1 +1,0 @@
-Ginger has many health benefits, such as reducing swelling caused by inflammation, aiding the process of digestion, and soothing common conditions like motion sickness and nausea. These remedies make ginger a useful tool for overall well-being.

@@ -1,9 +1,0 @@
-White Peony (Paeonia lactiflora) belongs to domain Eukaryota and is a part of Kingdom Plantae along with other flowering plants or Angiosperms found globally, including the order Paeoniales in class Magnoliopsida within family Pæoniaceae.
-
- Bokhoo, Coral Sunset, Double Delight, Festiva Maxima, Gardenia Lactiflora etc all known in the botanical world.
-
-The morphology of Paeonia lactifula is mostly distinctive by its beautiful flowers with petals numbering about six or more and a disc shaped staminal head called Carpel located at center point while some types may have different flower colors other than white, these features are shared across all variants although slightly altered in each one.
-
-White Peony (Paeonia lactiflora) has wide distribution reaching numerous continents from temperate and subtropical regions of Northern hemisphere to parts Asia including China where it’s native originates, while the variety also stretches into European countries like Italy or France along with Canada being included in its geographical range. The plant flourishes under well-drained soils enriched organic content and thrives best when exposed bright direct sunlight that enables full growth cycle for these perennial herbaceous shrubs known as White Peony (Paeonia lactiflora).
-
-With proper maintenance, the plants display its distinct characteristics of life span enduring many years or even decades. The reproductive process begins when flowers bloom and attract bees for pollination to ultimately achieve fertilization leading finally yielding seeds inside the fruit capsules (known as follicles). From these seedlings new peonies grow continuing White Peony's lifecycle throughout generations providing an abundant source of plant resources around it.

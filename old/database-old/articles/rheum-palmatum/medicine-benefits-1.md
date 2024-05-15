@@ -1,1 +1,0 @@
-Chinese Rhubarb has many health benefits, such as reducing blood pressure, relieving constipation and improving digestion. This medicinal plant is known to offer significant health advantages by regulating bodily functions and treating some common ailments effectively.

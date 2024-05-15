@@ -1,1 +1,0 @@
-Sage has many health benefits, such as relieving pain and reducing inflammations, which are both crucial for maintaining a healthy body. Additionally, it is known to boost immunity, helping the body fight off infections more effectively. These properties make sage a great medicinal herb.

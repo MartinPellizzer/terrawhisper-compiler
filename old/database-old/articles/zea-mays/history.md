@@ -1,9 +1,0 @@
- 'grain,' specifically wheat or any type; but it has evolved to encompass many types of grains, including rice in different regions around the world over time.
-
-Corn holds deep cultural significances throughout history dating back several centuries across various societies where its importance goes beyond providing nourishment for survival and sustenance during feast days or times when food supplies were scarce to serve ritualistic purposes as well, symbolizing abundance which sometimes involved sacrifices tied up in the agricultural cycle.
-
-Over different cultural belief systems around the world have myths revolving Corn's growth; these often explain why it grows so tall and is surrounded by green leaves while carrying fruits (ears). It has been associated with gods of agriculture or other deities, some related to harvest time when people relied heavily on its nutritional value in both a practical manner as well spiritually.
-
-Corn's presence can be found within literature that range across countries and timelines spanning centuries - from the Latin novel Apicureo (80AD) written by Athenaeus, to William Faulkner’s Southern US narrative 'Go Down Moses,' which is a powerful reflection on human rights depicting an unwavering struggle for freedom.
-
-The uses of Corn in folklore can be found across various cultures and regions; it has been utilized as amulets to bring prosperity, fertility or protection – tied directly onto buildings by hopeful villagers desiring a fruitiful yearly harvest based on beliefs about the magic embedded within its structure. It's also said that eating corn during certain times of crisis would lead towards resolving those issues due in part because it symbolizes nourishment and growth overcoming hardships or shortfalls at hand, thus acting like metaphorical sustenance for both body & soul alike.

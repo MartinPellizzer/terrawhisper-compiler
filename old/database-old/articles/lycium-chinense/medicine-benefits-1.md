@@ -1,1 +1,0 @@
-Goji Berry has many health benefits, such as promoting cardiovascular health by lowering cholesterol levels and improving blood circulation. Furthermore, it enhances the body's ability to fight off illnesses by boosting the immune system. Lastly, Goji Berries assist in controlling blood pressure for overall well-being.

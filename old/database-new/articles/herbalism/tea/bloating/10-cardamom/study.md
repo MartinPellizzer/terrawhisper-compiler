@@ -1,3 +1,0 @@
-According to a study published by the Nutrients Journal, cardamom (Elettaria cardamomum) has shown potential benefits in alleviating bloating associated with functional abdominal pain disorders (FAPDs). The study cites the positive effects of cardamom on stimulating gastric emptying. Cardamom's role in improving abdominal symptoms, particularly bloating, was observed in a study evaluating the effects of a herbal mixture called Daikenchuto (DKT) on adult patients with chronic constipation and bloating. The results indicated a significant decrease in abdominal bloating scores, suggesting that cardamom may be a valuable herbal option for addressing bloating in individuals with FAPDs.
-
-

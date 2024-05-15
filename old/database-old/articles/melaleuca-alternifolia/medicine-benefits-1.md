@@ -1,1 +1,0 @@
-Tea Tree has many health benefits, such as enhancing immunity functions for an overall better body defence, aids in eliminating bacteria and viruses to keep infections at bay, and effectively reduces pain and inflammation, making it an excellent remedy for various health issues.

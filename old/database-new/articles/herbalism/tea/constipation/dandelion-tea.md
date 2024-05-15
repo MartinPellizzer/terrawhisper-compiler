@@ -1,2 +1,0 @@
-
-Dandelion tea is high in fiber, which aids digestion and helps to promote a regular bowel movement. The tea also contains antioxidants that help to protect the liver and reduce inflammation, which can contribute to constipation. Additionally, dandelion tea has diuretic properties, which means it can help to increase urine production and relieve bloating and gas, which often accompanies constipation. Finally, the tea has a mild stimulating effect on the digestive system, which can help to speed up the process of elimination and prevent constipation from developing.

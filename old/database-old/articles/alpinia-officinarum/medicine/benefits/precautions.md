@@ -1,2 +1,0 @@
-
-It's important to take some precautions when using Galangal as a medicine. Always consult a healthcare professional before using it, especially if pregnant, nursing, or on medications. Use moderate amounts to prevent potential side effects like stomach upset. Avoid extended use due to potential adverse effects on the liver. Verify the quality and authenticity of the product to ensure it's pure and free from contaminants. Start with small doses to test for any allergic reactions and stop usage if any adverse symptoms arise.

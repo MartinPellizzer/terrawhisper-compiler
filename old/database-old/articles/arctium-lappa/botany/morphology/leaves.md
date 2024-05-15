@@ -1,7 +1,0 @@
-Arctium lappa leaves are relatively simple, typically displaying a broadly ovate shape. Their arrangement is alternate, meaning that the leaves are not directly opposite each other along the stem but rather positioned in a staggered pattern. These leaves have an erect orientation, angling at approximately 45 degrees from the vertical axis.
-
-In terms of size, Arctium lappa leaves typically measure 20-40 cm (7.9-15.7 inches) in length and 15-25 cm (5.9-9.8 inches) in width. They possess a thickness of about 0.2-0.3 cm (0.08-0.12 inches). Their coloration is a dark shade of green, and their texture is characterized by fine hairs, rendering them pubescent. The leaf surface is smooth or glabrous.
-
-The leaf apex tapers to a slender point, described as acuminate, while the base is cordate or heart-shaped. The leaf margin features large, sharp teeth, referred to as coarsely serrate. The venation is pinnate, with a single prominent main vein and smaller branching veins.
-
-These leaves have an undivided lamina, and a noticeable midrib runs along the center. They attach to the stem via a petiole, which measures 5-15 cm (2-5.9 inches) in length. Additionally, stipules, in a lanceolate shape, are present near the leaf base.

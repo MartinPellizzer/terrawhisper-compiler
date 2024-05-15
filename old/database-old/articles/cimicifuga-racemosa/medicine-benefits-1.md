@@ -1,1 +1,0 @@
-Black Cohosh has many health benefits, such as alleviating the distressing symptoms of menopause, enhancing gastrointestinal function, and promoting emotional wellbeing by mitigating stress and mood swings. All these effects contribute to its popularity in alternative medicine.

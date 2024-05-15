@@ -1,5 +1,0 @@
-Allium sativum, commonly known as garlic, is a versatile and widely used plant. It goes by various names in different cultures, reflecting its global popularity. In Spanish, it's referred to as "Ajo," while in German, it's "Knoblauch." In India, it's known as "Lasun," an essential ingredient in many Indian dishes.
-
-Garlic belongs to the Allium genus, a plant group that also includes onions and other related species. It's often called the "stinking rose" due to its strong, distinctive odor. Historically, garlic was sometimes called "poor man's treacle" or "rustic's treacle," highlighting its value as both a culinary and medicinal herb, often accessible to common people.
-
-Some garlic varieties, such as "Rocambole," are known for their rich, robust flavor and unique coiled scapes. The name "serpent garlic" is an intriguing historical reference, possibly connected to the coiled scapes or to old folklore and superstitions.

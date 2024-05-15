@@ -1,2 +1,0 @@
-
-            In this study, the authors investigated the potential use of chamomile tea in lowering blood sugar levels in diabetic rats. They found that the tea had a significant impact on reducing fasting and postprandial glucose levels and HbA1C levels, similar to the effects of the standard drug glibenclamide. The results suggest that chamomile tea may be a useful alternative treatment for hyperglycemia in diabetic rats, and further studies are needed to determine the exact mechanism behind its anti-diabetic properties.

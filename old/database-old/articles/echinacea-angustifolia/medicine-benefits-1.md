@@ -1,1 +1,0 @@
-Echinacea has many health benefits, such as supporting immunity, combatting flu and cold symptoms, and increasing energy levels. This herb is known for its powerful immune-boosting properties, which makes it a popular choice for people who seek natural remedies for staying healthy and well during different illnesses.

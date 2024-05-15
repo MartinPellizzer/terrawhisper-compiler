@@ -1,1 +1,0 @@
-Ashwagandha has many health benefits, such as reducing stress and anxiety levels which positively affect your emotional wellbeing. Furthermore, it enhances the quality of one's sleep, ensuring a restful night that boosts energy for the next day. Lastly, this herb strengthens immunity, protecting you from various illnesses.

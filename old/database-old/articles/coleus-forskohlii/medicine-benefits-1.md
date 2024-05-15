@@ -1,1 +1,0 @@
-Coleus has many health benefits, such as controlling high blood pressure levels which is crucial in managing cardiovascular issues. It also improves the efficiency of respiration and helps in treating asthma and other breathing problems. Lastly, it possesses anti-inflammatory properties useful in alleviating various types of body swellings and pains arising from inflammation.

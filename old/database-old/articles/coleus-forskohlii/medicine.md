@@ -1,9 +1,0 @@
-Coleus (Coleus forskohlii) has many health benefits, with significant actions related to respiratory issues, heart conditions, and weight management. It is an important herb in traditional medicine systems such as Ayurveda and Chinese Medicine, used for centuries due to its medicinal properties.
-
-Coleus contains various active constituents that contribute to these health benefits, including forskolin, which has been extensively studied for its potential role in treating asthma, high blood pressure, and obesity. Other components like polyphenols, flavonoids, terpenes, and essential oils also play a part in the herb's therapeutic effects.
-
-Different parts of Coleus plants are used for medicinal purposes, including leaves, stems, and roots. Leaves are often prepared as an infusion or decoction, while dried roots can be made into a powder and mixed with water to create a liquid extract. Coleus oil, which contains the highest concentration of forskolin, is also available in some markets.
-
-There may be some side effects associated with Coleus consumption, such as gastrointestinal distress (including diarrhea), headaches, dizziness, and low blood pressure. It's important to consider individual health conditions, consult with a healthcare professional, and monitor for any adverse reactions while using the herb.
-
-To minimize risks, it is essential to follow precautions when consuming Coleus. Avoid taking it if you are pregnant or breastfeeding due to its potential effects on the hormone system. People with existing heart conditions should also exercise caution as it might lower blood pressure further. Additionally, those with thyroid issues should consult a healthcare professional before using Coleus since it may interact with certain medications and natural therapies.

@@ -1,5 +1,0 @@
- To grow Cinnamon (Cinnamomum verum), start with a healthy nursery sapling at least 30 cm tall and carefully plant it in well-draining soil. Provide partial shade and water regularly, ensuring the roots remain moist without saturation.
-
- The ideal growing conditions for Cinnamon are temperatures between 18 to 27°C with high humidity (70 to 80%) throughout the year. It prefers a slightly acidic soil pH ranging from 5.5 to 6.5, which can be achieved by adding organic matter like compost or aged manure.
-
- Regular pruning and thinning of branches is essential for optimal growth and harvest of healthy buds. Fertilize with a balanced fertilizer once every two months during the growing season. Harvest the cinnamon sticks at the correct timing after new branches start growing in early summer to ensure maximum flavor and aroma.

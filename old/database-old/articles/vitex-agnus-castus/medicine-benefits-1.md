@@ -1,1 +1,0 @@
-Chaste Tree has many health benefits, such as promoting mental stability, regulating the menstrual cycle, and improving digestion. These advantages contribute to a healthier lifestyle for those who use it regularly.

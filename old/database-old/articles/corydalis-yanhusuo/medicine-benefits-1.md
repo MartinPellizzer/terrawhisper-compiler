@@ -1,1 +1,0 @@
-Corydalis has many health benefits, such as reducing stress and anxiety levels, improving sleep quality by ensuring sounder rest, and alleviating pain and inflammation caused due to aches or injuries. This versatile herb positively influences various aspects of one's well-being, enhancing overall health.

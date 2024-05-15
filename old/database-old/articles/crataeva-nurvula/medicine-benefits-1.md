@@ -1,1 +1,0 @@
-Varuna has many health benefits, such as supporting our eyes by enhancing their wellbeing and maintaining proper functioning; furthermore, it reduces inflammation throughout the body which helps in healing various ailments more quickly. Lastly, it also contributes to joint flexibility and mobility by keeping these components working properly without any issues.

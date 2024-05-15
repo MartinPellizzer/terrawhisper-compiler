@@ -1,1 +1,0 @@
-Saw Palmetto has many health benefits, such as reducing inflammation in various parts of the body which alleviates pain and swelling. It also supports the immune system for better overall health. Furthermore, the potent herb can boost antioxidant levels that protect cells from damage due to free radicals.

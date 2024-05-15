@@ -1,1 +1,0 @@
-Deadly Nightshade has many health benefits, such as promoting eye health by improving vision and reducing the risk of age-related macular degeneration; aiding in controlling inflammation to prevent chronic diseases; and maintaining heart rate regulation for better cardiovascular function. These medicinal properties make it an interesting alternative treatment option.

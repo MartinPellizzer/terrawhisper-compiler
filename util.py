@@ -305,6 +305,13 @@ def image_variate(filepath_in, filepath_out):
 
 
 
+def image_save_resized(filepath_in, filepath_out, width, height, quality):
+    img = Image.open(filepath_in)
+    img_resize(img, width, height)
+    img.save(filepath_out, format='JPEG', optimize=True, quality=quality)
+
+
+
 
 
 ###################################
@@ -381,18 +388,38 @@ def header_default_old():
     return html
 
 
+# def header_default():
+#     html = f'''
+#         <header class="container-lg">
+#             <a href="/">
+#                 <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+#                     <g stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+#                         <path
+#                             d="m8 18c11.9545 0 12.9173-10.17083 12.9935-15.00334.0088-.55222-.4535-.99765-1.0057-.98751-16.9878.312-16.9878 8.54765-16.9878 15.99085v4" />
+#                         <path d="m3 18s0-6 8-7" />
+#                     </g>
+#                 </svg>
+#             </a>
+#             <nav>
+#                 <input type="checkbox" class="toggle-menu">
+#                 <div class="hamburger"></div>
+#                 <ul class="menu">
+#                     <li><a href="/">Home</a></li>
+#                     <li><a href="/herbalism.html">Herbalism</a></li>
+#                     <li><a href="/ailments.html">Ailments</a></li>
+#                     <li><a href="/about.html">About</a></li>
+#                 </ul>
+#             </nav>
+#         </header>
+#     '''
+#                     # <li><a href="/plants.html">Herbs</a></li>
+#     return html
+
+
 def header_default():
     html = f'''
         <header class="container-lg">
-            <a href="/">
-                <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-                    <g stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                        <path
-                            d="m8 18c11.9545 0 12.9173-10.17083 12.9935-15.00334.0088-.55222-.4535-.99765-1.0057-.98751-16.9878.312-16.9878 8.54765-16.9878 15.99085v4" />
-                        <path d="m3 18s0-6 8-7" />
-                    </g>
-                </svg>
-            </a>
+            <a class="logo" href="/">TerraWhisper</a>
             <nav>
                 <input type="checkbox" class="toggle-menu">
                 <div class="hamburger"></div>
@@ -407,6 +434,29 @@ def header_default():
     '''
                     # <li><a href="/plants.html">Herbs</a></li>
     return html
+
+# def header_default():
+#     html = f'''
+#     <header class="header">
+#         <div class="container-lg">
+#             <div class="header-section">
+#                 <a href="">TerraWhisper</a>
+#                 <nav>
+#                     <input type="checkbox" class="toggle-menu">
+#                     <div class="hamburger"></div>
+#                     <ul class="menu">
+#                         <li><a href="/">Home</a></li>
+#                         <li><a href="/herbalism.html">Herbalism</a></li>
+#                         <li><a href="/ailments.html">Ailments</a></li>
+#                         <li><a href="/about.html">About</a></li>
+#                     </ul>
+#                 </nav>
+#             </div>
+#         </div>
+#     </header>
+#     '''
+#                     # <li><a href="/plants.html">Herbs</a></li>
+#     return html
 
 
 def header_transparent():

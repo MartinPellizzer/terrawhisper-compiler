@@ -1,9 +1,0 @@
-Coleus, with botanical name Coleus forskohlii, belongs to the domain Eukarya. Its taxonomy includes the kingdom Plantae, phylum Magnoliophyta, class Magnoliopsida, order Lamiales, family Lamiaceae, genus Coleus, and species Coleus forskohlii. The common names for this plant are Plectranthus barbatus or Hedeoma forskohlinum.
-
-Coleus plants exhibit several variants with different leaf colors, such as pink, white, green, red, yellow, or burgundy. These variations arise from various gene mutations and can be easily propagated by taking stem cuttings. The most common variant is the 'Wasabi,' which has darker colored foliage, making it a popular choice for gardeners.
-
-Coleus plants are characterized by their lush, green foliage with intricate patterns of various colors. They grow as annuals or perennials depending on climate and have a semi-succulent appearance due to their thick stems and leaves. The plant's leaves are oppositely arranged along the stem, forming an alternate leaf arrangement.
-
-Coleus forskohlii can be found in various regions across Asia, Africa, Australia, and the Pacific Islands, such as Southeast Asia, India, Sri Lanka, China, Malaysia, Indonesia, Madagascar, Southern Africa, New Zealand, and Papua New Guinea. These plants thrive best in humid tropical climates with well-drained soil and moderate to high light conditions.
-
-Coleus undergoes a typical life cycle common among flowering plants. It starts from seed germination, followed by the development of juvenile leaves (simple, opposite, or whorled), and then progresses towards forming mature foliage, small white or purple flowers in dense spike clusters (inflorescence), and finally, seeds are produced after pollination. The growth process is relatively fast, allowing for propagation via seed dispersal and stem cuttings to be successful.

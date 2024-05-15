@@ -1,1 +1,0 @@
-Pau Darco has many health benefits, such as reducing fever and chills while aiding in recovery from illnesses. It also promotes heart well-being by lowering blood pressure and preventing arterial blockage. Additionally, it enhances digestion and gut health, ensuring optimal absorption of nutrients. These properties make Pau Darco a holistic remedy for overall wellness.

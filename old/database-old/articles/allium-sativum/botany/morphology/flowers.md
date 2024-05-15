@@ -1,3 +1,0 @@
-Garlic flowers are organized in an inflorescence type known as an umbel, forming a flat-topped cluster. Each individual flower is simple in its structure, composed of six tepals, a stamen, and a pistil. The overall symmetry of these flowers is actinomorphic, meaning they are radially symmetric.
-
-These small flowers have a funnel-shaped appearance, with approximate dimensions of 5-6 mm (0.2-0.24 inches) in length and 4-5 mm (0.16-0.2 inches) in width. The color of garlic flowers typically ranges from white to pale purple.

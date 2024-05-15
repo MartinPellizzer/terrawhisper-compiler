@@ -1,9 +1,0 @@
- The growth requirements of Varuna (Crataeva nurvula) include a well-draining and rich soil with a slightly acidic to neutral pH level, ranging from 5.0 to 7.5. It thrives in areas that receive partial sunlight to full sun exposure throughout the day and a moderate amount of water during its growing season.
-
- When planting Varuna, first ensure you dig a hole twice as wide but similar depth to the root ball. Add compost or well-rotted manure to the soil for added nutrition, then place the plant in the center and backfill with soil. Gently firm the soil around it while ensuring not to damage the roots. Water immediately after planting and apply a layer of mulch to retain moisture and regulate temperature.
-
- Regular care tips include watering during dry periods, but avoid excessive saturation that can lead to root rot. Prune to maintain shape and encourage new growth. Fertilize once or twice a year using an appropriate organic fertilizer. Apply a balanced slow-release fertilizer in spring and a nitrogen-rich one in summer for optimal results.
-
- Harvesting tips involve collecting the flowers when they are fully open, which usually occurs from midsummer to early fall. Pick them before they start to wilt or show any signs of disease. Collect seedpods when they become brown and dry, typically in late summer or autumn. To harvest seeds, place these pods on a tray for a few days until the seeds are easily removed.
-
- Varuna is susceptible to various pests and diseases. Common pest attacks come from aphids, which can be dealt with using an insecticidal soap or neem oil spray. Fungal diseases like powdery mildew may occur during humid conditions; apply a fungicide for prevention and treatment. Additionally, keep an eye out for any signs of wilt or leaf spot to ensure a healthy Varuna plant.

@@ -1,2 +1,0 @@
-
-There are many preparations and uses of Celery, such as raw consumption, juicing, teas, and extracts. Raw celery, commonly eaten as sticks or added to dishes, offers dietary fiber aiding digestion. Celery juice, known for antioxidants, helps reduce inflammation and detoxify. Celery teas act as diuretics, aiding blood pressure and fluid balance. Extracts concentrate its benefits, offering potent doses of antioxidants and vitamins, supporting heart health and immunity. These preparations cater to diverse needs, promoting overall health and providing essential nutrients.

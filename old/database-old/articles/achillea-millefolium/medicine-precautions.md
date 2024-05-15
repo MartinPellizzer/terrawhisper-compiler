@@ -1,1 +1,0 @@
-Before using Yarrow for its healing purposes, learn about its functions firstly to gain awareness of its uses. Then, it's crucial to consult a medical professional to ensure its suitability according to your health condition and possible side effects. Lastly, if allergies are a concern, do check if you have any before proceeding.

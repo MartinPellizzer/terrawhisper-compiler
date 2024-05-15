@@ -1,7 +1,0 @@
-In terms of inflorescence type, Apium graveolens displays a compound umbel, where multiple flower stalks radiate from a common point, resembling an umbrella. The flowers themselves are simple in their overall complexity. Each flower is actinomorphic, or radially symmetrical, with five distinct lobes in the corolla and a short corolla tube.
-
-Flowers of Apium graveolens have a hypogynous attachment, which means the floral parts are attached beneath the ovary. Their shape is defined as umbellate, resembling an umbrella-like cluster of flowers. Each individual flower measures approximately 2-3 millimeters in both length and width.
-
-The color of Apium graveolens flowers typically ranges from white to greenish-white, and they have a smooth, glabrous texture. Notably, they lack sepals but possess five distinct, alternating petals, forming a perianth. Inside, there are five stamens and a pistil composed of two fused carpels.
-
-The ovary of the flower is inferior, positioned below the attachment point of other floral parts. The style is short, and the stigma is bifid, split into two parts. Stipules are absent, and bracts are present at the base of the umbel. Additionally, each flower is attached to a peduncle, which is the main stalk of the umbel, and a pedicel, which is the stalk of an individual flower in the umbel.

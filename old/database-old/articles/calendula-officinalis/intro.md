@@ -1,5 +1,0 @@
-Calendula, scientifically known as Calendula officinalis, is a popular herb in both culinary and medicinal applications. It is often used to treat minor wounds and skin irritations due to its anti-inflammatory properties. In addition, calendula is added to various dishes, particularly salads, for its distinct peppery taste.
-
-The horticultural aspects of Calendula officinalis are quite impressive. This plant has large, bright orange or yellow flowers that bloom throughout the year and attract pollinators such as bees and butterflies. It prefers full sun and well-drained soil, making it an ideal choice for gardeners looking to add a touch of color to their landscape.
-
-Calendula officinalis holds a significant place in botanical history. Native to the Mediterranean region, this plant has been used by humans for centuries. Ancient Greeks and Romans employed calendula as an effective healing agent while medieval Europeans utilized it in traditional medicine. Today, calendula remains popular among herbalists and homeopathic practitioners alike.

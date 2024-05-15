@@ -1,7 +1,0 @@
-Garlic comes in various varieties, each with its unique characteristics. Among the diverse garlic types, Rocambole garlic is known for its complex flavor and large cloves. Purple Stripe garlic features distinctive purple stripes on its bulb wrappers and offers a bold, robust taste. Porcelain garlic stands out with its large, white bulbs and strong, robust flavor.
-
-Artichoke garlic is aptly named due to its multiple layers of cloves, resembling an artichoke. This variety has a mild, slightly sweet flavor. Silverskin garlic, on the other hand, is often used for braiding and long-term storage, known for its pungent, hot taste. Creole garlic brings the heat with its spicy flavor and thrives in warmer climates.
-
-Turban garlic has a unique, flattened bulb shape, and its spicy flavor is popular in specific culinary traditions. Asiatic garlic is adaptable to a wide range of climates and has a milder, less pungent taste. Glazed Purple Stripe garlic, a subset of Purple Stripe garlic, showcases glossy, purple-striped bulbs with a bold flavor.
-
-Marbled Purple Stripe garlic, another subgroup of Purple Stripe garlic, offers a marbled pattern on its bulb wrappers and a strong, spicy flavor, akin to other Purple Stripe varieties. These diverse garlic types cater to a wide range of culinary preferences, from those who favor milder flavors to those who appreciate the spicier, bolder options. Each variety brings its unique twist to dishes and adds depth of flavor, making garlic a staple in kitchens worldwide.

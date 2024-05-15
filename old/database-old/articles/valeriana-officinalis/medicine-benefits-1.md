@@ -1,1 +1,0 @@
-Valerian has many health benefits, such as promoting relaxation and reducing anxiety levels which makes it perfect for coping with stress and tensions in life. It also improves the quality of one's sleep, ensuring a restful night to combat any fatigue or tiredness in waking hours. Overall, it proves vital in maintaining mental well-being.

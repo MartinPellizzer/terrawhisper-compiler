@@ -1,1 +1,0 @@
-Vervain has many health benefits, such as promoting better digestion by aiding in the absorption of nutrients from food. It also helps reduce stress and anxiety levels; giving relaxation and inner calmness. Additionally, it enhances immune system functions which further protects our body against infections.

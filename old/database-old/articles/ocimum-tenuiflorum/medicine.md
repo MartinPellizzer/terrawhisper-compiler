@@ -1,9 +1,0 @@
- Holy basil (Ocimum tenuiflorum) has many health benefits for individuals of all ages who consume it through its diverse usage as an essential oil or tea; one such benefit includes strengthening immunity to help protect from diseases like flu and cold, while also being useful in treating mental issues because a rich mixture known 'adaptogens' makes the plant uniquely helpful against stress.
-
- Its efficacy can be further attributed towards its high content of essential oils such as eugenol that offers potent anti-inflammatory and antioxidant properties, helping in reducing pain from arthritis or ache while also combating harmful free radicals causing various degenerative diseases.
-
- The leaves are most commonly used for medicinal preparations - dried leaf powder is made into capsules to be consumed internally and can help ease menstrual cramps, asthma symptoms as well improve digestive function; while the fresh or crushed basil mixed with other ingredients like honey makes an ideal expectorant that helps clear congestion from cold or chest diseases.
-
- Despite having remarkable health benefits, it's important to be cautious about over consumption - excessive dosage could result in stomach upset and irritability among adults who aren’t accustomed; pregnant women should avoid using this herb as studies are still ongoing on potential effects towards their foetuses.
-
- Lastly, consulting with a healthcare professional is recommended before starting any new treatment plan or modifying current regimen - an alternative medicine expert can better evaluate your specific needs and provide personalized advice for the best use of holy basil (Ocimum tenuiflorum) in order to ensure both optimal health benefits without experiencing potential adverse effects.

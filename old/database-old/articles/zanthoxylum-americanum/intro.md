@@ -1,7 +1,0 @@
-Prickly ash (Zanthoxylom americnum) belongs to a unique group called citrus-smelling plants due its aromatic properties similar to that in some orange trees despite not being related on paper biologically; however, it's also known for the spicy sensation one feels when biting into fruits from this species - an experience closely likened with eating something very hot and peppery.
-
-This plant is useful medicinally because of its anti-inflammatory properties that can help treat joint pains like arthritis, making it a common remedy among Native Americans; while being used as spice or food ingredient for centuries by other cultures around the world due to their distinct citrus scent.
-
-On an artistic and aesthetic level too this plant has much value - its small but pretty yellow flowers adorn trees in springtime, offering pollinators like bees a rich source of nectar which can also contribute significantly towards sustaining local biodiversity; while the red-orange colored seeds have become popular as garden accents due to their visual allure.
-
-The plant has played an important role throughout history - it was even utilized by Native Americans for trade, making this versatile and unique species valuable far beyond its mere physical properties or uses in culinary arts; hence highlighting the significance of Zanthoxylum americanum as a cultural touchstone spanning across different spheres.

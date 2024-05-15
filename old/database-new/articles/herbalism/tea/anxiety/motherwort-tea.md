@@ -1,2 +1,0 @@
-
-Motherwort tea is known for its calming properties, making it an effective remedy for anxiety. The active ingredients in motherwort, including leonurine and glycosides, work together to regulate the nervous system and reduce feelings of stress and anxiety. Additionally, motherwort has been shown to improve mood and promote relaxation, further contributing to its ability to alleviate anxiety symptoms. Drinking motherwort tea can provide a natural and gentle way to manage anxiety and promote overall well-being.

@@ -1,1 +1,0 @@
-Cinnamon has many health benefits, such as regulating blood sugar levels and helping those with diabetes. It also improves heart function by lowering blood pressure, which in turn reduces the risk of cardiovascular diseases. Furthermore, its anti-inflammatory properties aid in reducing pain and swelling caused by various ailments like arthritis and muscle injuries.

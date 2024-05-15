@@ -1,1 +1,0 @@
-If used improperly, Sweet Flag can lead to harmful health issues, affecting various bodily functions, mood changes and altering overall wellbeing. It's essential to follow proper dosage guidelines and avoid using it during pregnancy or with certain medications.

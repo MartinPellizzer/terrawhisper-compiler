@@ -1,1 +1,0 @@
-St. Johns Wort has many health benefits, such as combating depression by balancing neurotransmitters and reducing anxiety. Moreover, it possesses antibacterial properties that help fight various bacterial infections. This herb's versatility makes it a significant player in holistic medicine.

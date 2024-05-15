@@ -1,9 +1,0 @@
-burns on the skin from handling or being splashed with the chili pepper, causing discomfort and irritation to the eyes when it gets in contact with them, leading to a headache because of the strong spiciness.
-
-Another potential negative outcome of Cayenne is its effect on the digestive system, as it can upset the stomach by irritating the lining or causing indigestion when ingested in large quantities, which may also lead to heartburn or even trigger existing issues with reflux.
-
-Furthermore, consuming cayenne might have an impact on a person's cardiovascular health, as it has been known to raise blood pressure due to its high capsaicin content. This can be concerning for those with hypertension or who are susceptible to heart-related conditions. In addition to physical effects, the use of cayenne may also have psychological consequences by contributing to a spike in anxiety levels, especially when consumed too often.
-
-Lastly, cayenne's impact on our circadian rhythm can be disruptive for sleep patterns. The heat and intensity it produces could cause problems in falling asleep or maintaining restful slumber, making the person feel fatigued during the day. Moreover, the strong chili might aggravate respiratory issues, such as asthma symptoms or congestion, especially for individuals with a sensitivity to spicy food or existing health conditions.
-
-In conclusion, while cayenne can offer numerous benefits when used in moderation and properly incorporated into recipes, it is important to acknowledge and be mindful of its possible drawbacks to ensure a safe and enjoyable experience.

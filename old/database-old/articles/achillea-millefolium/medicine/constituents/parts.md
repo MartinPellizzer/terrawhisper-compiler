@@ -1,2 +1,0 @@
-
-The parts of Yarrow that have the highest concentration of medicinal constituents are its aerial parts, particularly the flowering tops and leaves. These sections contain potent compounds such as flavonoids, alkaloids, and volatile oils, contributing to yarrow's renowned anti-inflammatory, antimicrobial, and astringent properties. Additionally, the leaves boast higher concentrations of active compounds compared to the stems and roots, making them especially valuable in traditional and herbal medicine practices.

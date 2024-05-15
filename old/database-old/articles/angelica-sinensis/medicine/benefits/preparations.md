@@ -1,8 +1,0 @@
-
-There are many preparations and uses of Dong Quai, such as Dong Quai Tea, frequently employed to regulate menstrual cycles and alleviate menopausal symptoms, backed by several studies showing its efficacy. Dong Quai Tincture, a concentrated alcohol extract, aids in hormonal balance and pain relief, often used due to its convenience and quick absorption. 
-
-Dong Quai Capsules, comprising powdered root, are popular for women's health, backed by clinical trials demonstrating their effectiveness in mitigating menstrual discomfort. Dong Quai Oil, recognized for its anti-inflammatory properties, is applied topically to reduce muscle pain, with trials supporting its use in pain management. Additionally, Dong Quai Cream, infused with Dong Quai extract, is commonly used for soothing skin irritations and redness, supported by dermatological studies. 
-
-Dong Quai Powder, whether in cooking or encapsulated form, holds potential for its medicinal benefits, corroborated by traditional use and some preliminary research. Furthermore, Dong Quai Extract is utilized in herbal formulations for gynecological issues, with anecdotal evidence and traditional practices supporting its use. Dong Quai Pills, known for supporting reproductive health, have gained popularity among users, though long-term clinical studies are limited. Dong Quai Syrup, known to alleviate menstrual discomfort, is often used based on traditional knowledge and anecdotal reports. 
-
-Lastly, the application of Dong Quai Poultice externally for reducing swelling and bruises has been part of traditional practices, but scientific studies validating its efficacy remain limited.

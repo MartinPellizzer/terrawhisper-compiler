@@ -1,1 +1,0 @@
-Yarrow has many health benefits, such as reducing swelling and pain caused by inflammation, aiding in proper digestion, and helping to lower high fevers by regulating the body's temperature. All these contribute to better overall well-being for individuals who consume it.

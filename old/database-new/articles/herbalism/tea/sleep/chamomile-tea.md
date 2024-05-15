@@ -1,2 +1,0 @@
-
-Chamomile tea is a popular natural remedy for improving sleep quality. It contains the antioxidant apigenin, which binds to certain receptors in the brain that help promote relaxation and reduce anxiety. This, in turn, can make it easier to fall asleep and stay asleep longer. Additionally, chamomile tea may also help regulate the sleep-wake cycle by promoting daytime alertness and reducing nighttime restlessness. Overall, the soothing properties of chamomile tea make it an excellent choice for those looking to improve their sleep.

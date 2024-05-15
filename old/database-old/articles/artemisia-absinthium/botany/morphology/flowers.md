@@ -1,7 +1,0 @@
-Artemisia absinthium inflorescence type is racemose, meaning its flowers are arranged in a spike-like fashion at the stem tips. These flowers exhibit a simple structure, consisting of both disk florets and ray florets, which are often yellow-green with grayish undertones. 
-
-One striking feature is the flower's actinomorphic symmetry, which means they are radially symmetrical. The flower's shape is tubular, with a narrow, elongated form, measuring 1-3 mm (0.04-0.12 inches) in length and 1-2 mm (0.04-0.08 inches) in width. These small flowers lack distinct sepals but possess five petaloid ray florets, forming the perianth. They are also characterized by their glandular, smooth, and hairless texture.
-
-In terms of the floral arrangement, Artemisia absinthium typically bears solitary flowers at the stem tips, and the flowers themselves attach directly to the stem. The flowers consist of five floral parts, including the mentioned five petaloid ray florets, five stamens opposite to the petals, and a single central pistil. The pistil has an inferior ovary, located below the attachment point.
-
-Furthermore, the flower's style is bifurcated, splitting into two branches, and the stigma consists of two lobes at the tip of the style. Notably, this plant lacks stipules and bracts around its flowers. The peduncle, which supports the inflorescence, is relatively short, measuring 1-3 cm (0.4-1.2 inches), and the pedicel, which attaches individual flowers, is even shorter, at 1-2 mm (0.04-0.08 inches).

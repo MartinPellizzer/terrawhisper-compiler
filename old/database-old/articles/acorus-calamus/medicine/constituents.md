@@ -1,7 +1,0 @@
-sweet flag has many medicinal constituents, such as Calamus oil is one of its main components. It contains a compound called Safrole which helps in treating chest infections, coughs and cold symptoms. Another important part of this plant is Asarone. It relieves stomach pains, improves digestion and acts as an antispasmodic agent to relax muscles. Camphene, a compound found in sweet flag, can be used to reduce inflammation caused by conditions like arthritis or gout. Borneol is beneficial for relieving stress, promoting mental clarity, reducing anxiety and improving the sense of smell. Limonene also contributes to the medicinal qualities by stimulating metabolism, boosting immunity, eliminating harmful bacteria and fighting off infections. 
-
-        
-
-        
-
-            Dipentene is a powerful antioxidant that neutralizes free radicals which can cause cell damage. It also protects against heart diseases and other degenerative conditions. Linalool is an important phytonutrient with calming properties. It helps to relax the nervous system, ease tension and reduce anxiety levels. Myrcene is a terpene present in sweet flag, known for its anti-inflammatory effects and pain relief. Terpineol is another compound that has been shown to possess antifungal properties which help combat skin infections and other fungal issues. In summary, the health benefits of sweet flag are vast due to its numerous medicinal constituents, all contributing in unique ways towards improved overall well-being.

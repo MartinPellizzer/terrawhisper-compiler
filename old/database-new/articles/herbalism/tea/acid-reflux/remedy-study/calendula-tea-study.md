@@ -1,2 +1,0 @@
-
-            In a double-blind study conducted on 50 patients with active disease on Omeprazole therapy, the test of efficacy was based on the presence or absence of heartburn, regurgitation and dysphagia symptoms. The results showed that both control (Omeprazole) and treatment groups (calendula) had a significant reduction in symptoms compared to baseline. This suggests that calendula could be an effective adjunct therapy for acid reflux.

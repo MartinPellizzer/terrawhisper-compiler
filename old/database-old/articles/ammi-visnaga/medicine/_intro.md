@@ -1,7 +1,0 @@
-Visnaga, scientifically known as Ammi visnaga, offers a wide array of medicinal benefits, particularly its bronchodilator effects aiding asthma management by dilating airways. 
-
-Studies recommend doses between 30 to 90 milligrams of khellin (derived from Visnaga) per day for its efficacy. Additionally, it demonstrates anti-hypertensive effects, reducing high blood pressure levels with doses between 20 to 120 milligrams daily. The plant aids urinary tract health, reduces spasms, improves digestion, and displays anti-inflammatory properties. Its diuretic nature benefits detoxification and water retention, with suggested doses of 60 to 120 milligrams of khellin extract daily. Recommended dosages for menstrual regulation, heart health, and skin conditions vary between 30 to 120 milligrams daily. 
-
-Constituents like khellin and visnadin act as vasodilators, while flavonoids, coumarins, and fatty acids contribute to its health benefits. Minerals like calcium, potassium, magnesium, beta-carotene, vitamins, and other compounds add to its medicinal potential. 
-
-Preparations include infusions, tinctures, capsules, and topical applications, offering versatile means to utilize its benefits. However, precautions are vital, especially consulting a healthcare professional before use, adhering to recommended dosages, and monitoring for potential side effects or interactions.

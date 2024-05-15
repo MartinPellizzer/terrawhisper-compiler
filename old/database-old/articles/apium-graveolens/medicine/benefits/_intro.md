@@ -1,6 +1,0 @@
-
-Celery offers numerous health benefits, including reducing inflammation, lowering blood pressure, aiding digestion, supporting heart health, hydrating the body, promoting weight loss, boosting immunity, detoxifying, improving bone health, and enhancing skin health. Its anti-inflammatory properties, attributed to compounds like phenolic acids and antioxidants, help mitigate conditions like arthritis and cardiovascular issues. Celery's fiber content aids digestion and weight loss while its vitamins and antioxidants bolster immunity and promote detoxification.
-
-Celery can be consumed raw, juiced, brewed into teas, or taken as extracts to access its benefits. However, improper use or excessive consumption may lead to allergic reactions, gastrointestinal discomfort, or interactions with medications. Those with kidney issues should also be cautious due to celery's oxalate content.
-
-Precautions for medicinal use include washing celery thoroughly, consulting healthcare professionals, conducting allergy tests, moderating intake, opting for organic celery to reduce pesticide exposure, and never substituting prescribed medications without professional advice. Monitoring reactions post-consumption and maintaining a balanced intake are crucial for safe medicinal use of celery.

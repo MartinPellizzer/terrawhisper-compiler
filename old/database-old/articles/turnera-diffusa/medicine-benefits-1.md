@@ -1,1 +1,0 @@
-Damiana has many health benefits, such as reducing one's anxiety and stress levels, improving their mood by combating depression, boosting memory retention, and enhancing overall cognitive performance. These advantages come from the plant's unique blend of chemical components, making it a valuable addition to wellness routines.

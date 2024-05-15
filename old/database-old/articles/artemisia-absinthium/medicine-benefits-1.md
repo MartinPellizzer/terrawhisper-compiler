@@ -1,1 +1,0 @@
-Wormwood has many health benefits, such as promoting digestion, which makes it a good herb for stomach problems; relieving fever by reducing body temperature and easing the symptoms associated with illnesses like flu or cold; and detoxifying the liver, making sure this important organ functions properly. All these make wormwood a versatile and effective natural remedy.

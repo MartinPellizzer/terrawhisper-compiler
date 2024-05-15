@@ -1,2 +1,0 @@
-
-It's important to take some precautions when using Garlic as a medicine. Garlic may interact with certain medications, including blood-thinners and HIV medications. High doses might lead to gastrointestinal issues or allergic reactions. Avoid in large quantities before surgery due to potential bleeding risks. Individuals with bleeding disorders or scheduled surgeries should consult a healthcare provider. Topical use can cause skin irritation. Pregnant or breastfeeding women should consult a doctor before using garlic medicinally.

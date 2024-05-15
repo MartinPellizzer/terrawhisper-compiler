@@ -1,9 +1,0 @@
-Dan Shen can have some side effects if used improperly, such as delaying bleeding, which might be beneficial for someone suffering from excessive bleeding but could also lead to complications in other cases where it is necessary for blood to clot, or when a wound is left open. Increasing blood pressure can be dangerous for individuals with hypertension or heart-related problems as well. This herb may cause allergic reactions in some people depending on its use or their personal sensitivities. It's also been associated with damaging the kidneys if not taken correctly, which could lead to long-term health issues. 
-
- The immune system is essential for protecting the body against pathogens and diseases; using Dan Shen may negatively affect this system, making it weaker and more susceptible to illnesses. It has also been known to aggravate the severity of asthma symptoms, potentially exacerbating an existing condition or even triggering one in vulnerable individuals exposed to environmental factors. 
-
- Moreover, Dan Shen's influence on cardiac function can be detrimental when consumed alongside medication for heart conditions or if taken by those with a history of heart problems. Negative effects on liver function are also possible, implying that the herb might disrupt important metabolic processes within the body and affect overall health. 
-
- Raising triglyceride levels is a side effect worth noting as it can increase the risk for stroke, heart disease, and other cardiovascular problems in susceptible individuals. Insomnia is another potential issue with Dan Shen usage; some may find that this herb negatively impacts their sleep patterns or quality of rest. 
-
- In conclusion, while Dan Shen holds several positive medicinal properties, it's important to consider its potential negative effects and ensure proper guidance and care from qualified health professionals before consuming this herbal remedy.

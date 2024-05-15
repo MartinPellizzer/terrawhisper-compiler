@@ -1,9 +1,0 @@
-Clove, with botanical name Eugenia caryophyllata, belongs to the domain Eukaryota, kingdom Plantae (or Viridiplantae), phylum Magnoliophyta, class Magnoliopsida (also known as Dicotyledonae or Dicot), order Myrtales, family Myrtaceae, genus Eugenia, and species caryophyllata. It is also called Laurel Tree Leaf Bud.
-
-There are several variants of clove with slight differences in their characteristics. For instance, Indonesian and Indian cloves have a different cultivation system which leads to varying shapes and sizes. Additionally, they might differ in the amount of eugenol content within their aromatic oils.
-
-Clove trees are evergreen shrubs or small trees that can grow up to about 12 meters tall. The leaves are leathery, glossy, and dark green with a strong, distinctive smell. Cloves are the dried flower buds of these trees, which are picked when they're still unopened and green. They then turn a rust color before finally turning to brown, indicating they're ready for harvest.
-
-Clove trees grow in tropical regions, predominantly found in countries such as Indonesia, India, Brazil, Sri Lanka, Tanzania, Madagascar, Mauritius, and Mozambique. They thrive in well-drained soil with a suitable temperature range of 15 to 30 degrees Celsius, receiving regular rainfall.
-
-The life cycle of clove trees is typical for tropical plants. Seeds usually grow during the wet season, and the young plants can be cultivated in nurseries before being transplanted into the field. Cloves then form when buds are picked during a particular stage of growth and development. This harvesting process repeats annually.

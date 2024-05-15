@@ -1,2 +1,0 @@
-
-It's important to take some precautions when using Celery as a medicine. Begin by thoroughly washing celery to remove contaminants. Consult healthcare professionals, especially if pregnant, breastfeeding, or on medications. Conduct allergy tests and consume celery in moderation to avoid adverse effects. Store it properly, opt for organic celery to minimize pesticide exposure, and never substitute prescribed medications without professional advice. Monitor reactions post-consumption and maintain a balanced intake for safe medicinal use of celery.

@@ -1,9 +1,0 @@
-Eucalyptus, with botanical name Eucalyptus globulus, belongs to the domain Eukaryota, Kingdom Plantae, Phylum Magnoliophyta, Class Magnoliopsida, Order Myrtales, Family Myrtaceae, Genus Eucalyptus, and Species Eucalyptus globulus. It is commonly known as Tasmanian blue gum tree or simply eucalyptus.
-
-There are several variants of Eucalyptus globulus which possess slightly different features and appearances, such as 'Honey Glow' with its golden foliage; 'Gleaming Leaf' with darker green leaves that have a shiny appearance; and 'Cider Gum' which is characterized by its pinkish-purple buds.
-
-The eucalyptus tree has a unique morphology, with a straight trunk, often reaching heights of up to 100 feet tall (or around 30 meters). Its leaves are long, slim and glossy, with an oil-gland-dotted surface, contributing to its distinctive aroma. The flowers are usually white or cream-colored, grouped in clusters called inflorescences that resemble tiny bottles with their elongated shape.
-
-Eucalyptus globulus is indigenous to Australia and Tasmania but has been introduced into many other parts of the world, including North and South America, Africa, Asia, New Zealand and even Europe, where it can be found in various habitats like coastal areas, mountainsides and dry woodlands.
-
-The life-cycle of Eucalyptus globulus begins with germination from seeds, followed by a juvenile stage where the tree develops rapidly, reaching maturity around 10 years or older. It is then able to reproduce sexually through flowers that produce nectar, attracting pollinators such as bees and flies which will transport the pollen to other plants, thereby enabling fertilization. The eucalyptus also propagates asexually by producing root suckers that can grow into new individual trees.

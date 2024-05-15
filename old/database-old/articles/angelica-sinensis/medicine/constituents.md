@@ -1,9 +1,0 @@
-dong quai has many medicinal constituents, such as coumarin, Dodecanesain, Estrogenic compounds, Feruloyl derivatives and more. These substances provide various health benefits when consumed either via food or supplements. One essential nutrient found in dong quai is called coumarin which acts as a strong anti-inflammatory agent. This property helps reduce swelling and pain in different areas of our body, easing discomfort caused by arthritis or injuries. Another substance present in dong quai is Dodecanesain, a component that has been shown to promote the growth of new blood vessels. This ability can be beneficial for people experiencing blood circulation issues like peripheral artery disease or those recovering from a stroke or heart attack.
-
-        
-
-          Estrogenic compounds in dong quai act similarly to hormones produced by our body, particularly estrogen. These components have been used traditionally to treat menopausal symptoms such as hot flashes and mood swings. They can also help balance hormone levels during pregnancy or after childbirth. Dong quai also contains Feruloyl derivatives which are known for their antioxidant properties, helping protect cells from damage caused by free radicals. This can reduce the risk of developing chronic diseases such as heart disease and cancer.
-
-        
-
-          Essential oil found in dong quai has a calming effect on the nervous system, making it beneficial for people with anxiety or stress-related conditions. Polysaccharides present in this herb enhance digestive health by promoting good bacteria growth and facilitating nutrient absorption in our gastrointestinal tract. Lastly, Vitamin B1 found within dong quai is essential for energy production and maintaining a healthy nervous system.

@@ -1,1 +1,0 @@
-German Chamomile has many health benefits, such as promoting sleep by its relaxing properties, reducing inflammation which aids in healing, and improving digestive functions. It is truly an herb with multipurpose uses.

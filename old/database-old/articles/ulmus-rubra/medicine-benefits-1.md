@@ -1,1 +1,0 @@
-Slippery Elm has many health benefits, such as reducing blood pressure and lowering cholesterol levels, which can ultimately aid in heart health improvement. It also contributes to the body's defense mechanism by boosting the immune system. Moreover, it possesses anti-inflammatory properties that help alleviate various ailments like arthritis and digestive issues.

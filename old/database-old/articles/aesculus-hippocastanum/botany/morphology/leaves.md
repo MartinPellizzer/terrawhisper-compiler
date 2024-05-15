@@ -1,9 +1,0 @@
-Aesculus hippocastanum leaves are palmately compound, meaning that they consist of multiple leaflets originating from a single point, resembling the fingers of a hand. Each leaf consists of 5 to 7 leaflets (sometimes up to 9) and these leaflets are typically arranged in pairs opposite to each other on the leaf stem.
-
-The individual leaflets are obovate (ovate with the narrower end at the base) to elliptical in shape. They measure between 10 to 25 centimeters (4 to 10 inches) in length, 5 to 10 centimeters (2 to 4 inches) in width, and 0.3 to 0.5 cm (0.12 to 0.2 inches) in thickness. Also, the leaf petiole (the stalk connecting the leaflets to the main stem) is 15 to 20 centimeters (6 to 8 inches) in length. That said, the overall size of a fully developed leaf (including all leaflets) can span 30 to 60 centimeters (12 to 24 inches) in width.
-
-The margins of the leaflets are serrated or toothed, with approximately 15 to 25 serrations on each leaflet. These teeth are spaced about 2-5 millimeters (0.08-0.2 inches) apart, pointed, and irregular in size. In addition, these leaves have a prominent central vein or midrib running down the center of each leaflet. From the midrib, secondary veins radiate outwards towards the leaflet's margins in a pinnate pattern.
-
-The color of the upper surface of the leaflets is a deep and glossy green, while the color of the lower surface of the leaflets is paler and may have a silvery-green tint. This colors changes to a vibrant yellow or bronze in the autumn before falling off. The leaf surface is typically smooth and glabrous (lacking hairs), but there can be fine and short hairs on the veins and petioles (leaf stems), which are often reddish.
-
-These leaflets have no distinctive odor or fragrance when not crushed. When crushed, they emit a distinct and unpleasant odor. Also, they have no a discernible flavor and are not typically consumed (not for culinary use).

@@ -1,3 +1,0 @@
-
-            
-           Senna tea is a popular natural remedy for constipation due to its high fiber content and mild laxative properties. The senna plant contains compounds called saponins, which stimulate the digestive system and promote bowel movements. When consumed as a tea, these saponins bind to water in the intestines, drawing it into the colon and softening stools. This can help prevent constipation by making it easier for feces to pass through the bowels. Additionally, the fiber content of senna tea can also contribute to regularity by slowing down digestion and keeping you feeling full longer. Overall, senna tea is a gentle and effective way to alleviate constipation and promote healthy digestion.

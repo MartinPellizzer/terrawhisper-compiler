@@ -1,9 +1,0 @@
- The growth requirements of clove plants include optimum conditions like partial to full sunlight exposure, humid and warm temperatures between 20-32 degrees Celsius, and well-drained, moderately moist soil rich in organic matter. Cloves are often cultivated as evergreen shrubs with heights reaching up to a couple of meters.
-
- Planting clove plants should be done during the rainy season or when there is sufficient water supply for proper establishment. Space them at least one meter apart, ensuring enough airflow and room for growth. Plant at depth twice their size and cover with soil to avoid disturbance of shallow roots during germination.
-
- Caring tips include regular pruning to maintain shape, ensuring an even distribution of light across the plant. Watering should be frequent, especially during dry spells, but take care not to overwater or create soggy conditions. Apply fertilizers designed for flowering plants every three months and remove weeds that compete with cloves for nutrients and water.
-
- Harvesting tips require close observation of flowers blooming. Flowers usually transform into buds after about two months before they fully mature into cloves. Cloves reach full size in around six to eight months, and harvest should occur once the outer shell appears crumpled while it retains flexibility when pressed with your finger.
-
- Pests and diseases can threaten the well-being of clove plants. Common pests include aphids, scale insects, and mealybugs that feed on plant juices causing stunted growth or even death. Fungal diseases such as leaf spot, canker, and powdery mildew may also affect clove plants' health if left unchecked. Preventive measures like proper spacing, cleanliness, and timely intervention can aid in limiting damage.

@@ -1,5 +1,0 @@
-source: Life Sciences
-
-https://www.sciencedirect.com/science/article/abs/pii/S0024320502015552
-
-Kava-kava (Piper methysticum G. Forster) has been used in social and ceremonial life in the Pacific islands from ancient times for the soporific and narcotic effects. Today several extracts standardized in the biologically active constituents kavalactones are marketed both as herbal medicinal products for anxiety disorders and as dietary supplements to improve stress disorders, nervous tension and restlessness. Unlike other substances used for these purposes, kava-kava has been shown to have minimal negative effects, and possibly positive effects, on reaction time and cognitive processing. Furthermore, it decreases anxiety without the loss of mental acuity. Although kava-kava has been found to be very effective, well tolerated, and non-addictive at therapeutic dosages, potential side effects can occur when very high doses are taken for extended periods. In addition, in the last two years unexpected high liver toxicity has been reported in two patients. 

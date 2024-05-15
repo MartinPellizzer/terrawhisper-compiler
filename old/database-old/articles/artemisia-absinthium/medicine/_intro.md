@@ -1,8 +1,0 @@
-
-The medicinal properties of Wormwood (Artemisia absinthium) offer a range of health benefits backed by empirical evidence. It stimulates digestion, eases gastrointestinal issues like bloating, and effectively targets parasites, reducing infestations by up to 90%. This herb alleviates menstrual discomfort, supports liver health by stimulating bile production, and aids in fever reduction. Wormwood enhances appetite, relieves joint pain, improves cognitive function, accelerates wound healing, and manages anxiety as a mild sedative. 
-
-Its key constituents include absinthin, thujone, artemisinin, flavonoids, sesquiterpene lactones, and volatile oils, each contributing to various health aspects such as digestion, inflammation, and parasite control. 
-
-Wormwood offers diverse preparations like tea, tinctures, capsules, essential oils, poultices, and bath soaks, each with unique health benefits. However, caution is necessary due to potential side effects, including gastrointestinal disturbances, allergic reactions, seizures, insomnia, dizziness, and potential liver or kidney damage, especially with prolonged or excessive use. 
-
-Precautions include consulting healthcare professionals, adhering strictly to recommended dosages, avoiding use during pregnancy or breastfeeding, intermittent usage, monitoring for adverse reactions, checking medication interactions, being cautious with plant allergies, and avoiding use in epilepsy or liver disorders. Storing Wormwood away from children and pets is crucial due to its potential toxicity when ingested in larger amounts.

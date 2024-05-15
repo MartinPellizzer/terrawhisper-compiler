@@ -1,1 +1,0 @@
-Passionflower has many health benefits, such as diminishing bodily swelling and discomfort from inflammation, improving the body's ability to fight off infections by enhancing the immune system, and alleviating aches and pains associated with numerous illnesses or injuries. In simple words, it offers immense support for overall well-being.

@@ -1,1 +1,0 @@
-White Willow has many health benefits, such as lowering blood pressure which in turn reduces the chances of heart diseases. Moreover, it is known to have a positive impact on relieving pain and reducing inflammation. This herb also provides comfort when you're suffering from any discomfort or swelling issues.

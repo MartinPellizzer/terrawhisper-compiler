@@ -1,5 +1,0 @@
-Arctium lappa has a taproot system, characterized by a single, dominant primary root from which numerous secondary roots branch out. The branching pattern is dichotomous, creating a fibrous structure beneath the soil. These roots typically extend up to 90 cm (35 inches) in length and have a diameter ranging from 0.2 to 0.5 cm (0.08 to 0.2 inches). The presence of root hairs, fine and dense, enhances the root's ability to absorb water and nutrients from the soil.
-
-Root tips are sharp and pointed, allowing for efficient penetration into the ground. The root system exhibits a variable density, with an average of 750 to 1,500 roots per square meter (m2). Root coloration tends to be whitish to beige, and the surface texture is notably rough and wrinkled.
-
-In terms of depth, Arctium lappa's roots typically extend between 30 and 60 cm (12 to 24 inches) into the soil, aiding the plant's stability and access to resources. Unlike some other plants, Arctium lappa does not form root nodules.

@@ -1,1 +1,0 @@
-Licorice has many health benefits, such as lowering blood sugar levels which helps people with diabetes; it also aids in relieving anxiety and stress, making it great for mental wellbeing; additionally, it boosts heart health and increases cardiovascular functions, thus improving overall wellness.

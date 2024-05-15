@@ -1,1 +1,0 @@
-Senna has many health benefits, such as detoxifying and flushing out toxins from your body. This can help improve overall wellness. Furthermore, it promotes weight loss by increasing metabolism and aiding digestion. With improved gut health, one could lower cholesterol levels too. However, note that excess consumption might cause side effects. So moderation is the key.

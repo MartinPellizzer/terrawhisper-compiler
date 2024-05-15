@@ -1,3 +1,0 @@
- Wood betony tea, made from the leaves of the Stachys betonica plant, has been used for centuries as an herbal remedy to treat anxiety and other nervous disorders. The active ingredients in wood betony are believed to have calming effects on the central nervous system, reducing symptoms such as restlessness, irritability, and insomnia. Additionally, wood betony may also help reduce heart rate and blood pressure, further contributing to its anxiolytic effects.
-          Wood betony tea has been found to be effective in reducing anxiety levels in both animal and human studies.
-          

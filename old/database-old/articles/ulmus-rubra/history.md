@@ -1,9 +1,0 @@
-The etymology of "Slippery Elm" originates from Ulmus Rubra – a specific species found mainly across Canada and parts of North America known for its slipperiness when wet due to mucilage content in the inner bark that it exudes, giving rise not just to this name but also other common terms used synonymously like "Slippery Elm Bark" or simply referring only by 'Elms' while describing them.
-
-Slippers being soft padded footwear were made from its dried and powdered inner bark for their cushioning, which explains the cultural significances associated with it. Indigenous tribes in North America used this material as a form of currency or trade goods to barter due both uses (the wood itself was strong while slippery when wet making them ideal tools).
-
-Myths and legends are common concerning elm trees, especially Slipper Elms – some believe they can protect from lightning strikes because the tree's ability as a conductor of electricity keeps off potential disasters; others say that using their wood in building houses may cause sickness or harm by absorbing negative energies.
-
- A Tale" (1867), where the protagonist's father uses it to make a pair of slippers; and in modern times there is mentioning by William Kent Krueger – author who features Ulmus Rubra as an integral character within his novel 'Ordinary Grace'.
-
-Folkloristic uses often revolve around health aspects, where its inner bark served like nature's medicine to cure throat-related issues or digestive concerns (diarrhea being the most famous use due for this property), but it also extended into treating wounds and reducing fevers. It has even been noted as a general relaxant in times of stress during wars – both Native Americans used these elms, whereas colonials started experimenting with its therapeutic properties too; they considered themselves healed by nature's gifts without relying on synthetic medications yet known back then or nowadays.

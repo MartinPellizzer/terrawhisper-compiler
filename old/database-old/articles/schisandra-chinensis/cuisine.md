@@ -1,7 +1,0 @@
- Schisandra (Schisanda chinensis) is a fruit with various culinary applications that primarily revolve around using it to flavor meals or creating tasty drinks, such as tea and juice from the ripe berries known for their distinct sweet-sour taste profile combined with earthy undertones.
-
- The Schandra has quite an intriguing flavory makeup containing 8 essences which gives its unique tanginess that is neither fully tart nor sour; making it stand out among other fruits used in culinary practices as well due to this distinctively rich, almost umami flavor sensation found within the fruit's delicate flesh.
-
- There are mainly three edible parts of Schisandra berries – its skin (which can be consumed whole), seeds that have a crunchy texture and taste similar in nature compared with cherry pits or almond shell, while their inner pulp is soft yet slightly chewy which gives them versatile applicability when used as an ingredient in sweet to savory dishes.
-
- To make the most of Schisandra's culinary potential, it can be infused into desserts and candies (to maintain a unique tartness), added on salads or cooked meat/poultry items for flavor enhancement due its slightly sour-yet earthiness profile; while being particularly suited in preparing sweetened drinks like punches too given this same peculiar quality.

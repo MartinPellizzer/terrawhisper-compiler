@@ -1,1 +1,0 @@
-Galangal has many health benefits, such as reducing inflammation which aids in easing pain and discomfort. Furthermore, it assists in promoting better digestion by improving the body's capability to absorb essential nutrients effectively, whilst bolstering the immune system to fight off diseases. These properties make galangal an indispensable component of traditional medicine.

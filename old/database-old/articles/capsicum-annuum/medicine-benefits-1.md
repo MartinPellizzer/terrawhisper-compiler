@@ -1,1 +1,0 @@
-Cayenne has many health benefits, such as reducing inflammation, which can help treat a range of conditions from arthritis to asthma. Furthermore, its metabolism boosting properties aid in weight loss, while studies also reveal its potential role in preventing the spread and development of cancer cells.

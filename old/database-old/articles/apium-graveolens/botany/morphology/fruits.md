@@ -1,7 +1,0 @@
-The fruits of Apium graveolens, commonly known as celery, possess distinctive morphological characteristics. These traits provide essential information for botanists and researchers studying this plant species.
-
-Apium graveolens has fruits that are schizocarp, meaning it splits into two mericarps upon maturity. This characteristic is crucial for the dispersal of its seeds. The arrangement of celery fruits is in umbels, where multiple fruits are clustered and attached to the central point of the umbel. The fruits are held by pedicels, often occurring in pairs, measuring approximately 1-3 centimeters (0.4-1.2 inches) in length.
-
-In terms of shape, celery fruits are ovoid, typically measuring 1.5-2 centimeters (0.6-0.8 inches) in length, 1-1.5 centimeters (0.4-0.6 inches) in width, and about 1 centimeter (0.4 inches) in thickness. The color of these fruits varies, with an initial green hue when unripe, transitioning to brown or gray upon maturation. Celery fruits have a smooth texture with slight ribbing, and their surface is glabrous, which means they are hairless and lack any external fuzz or trichomes.
-
-One notable characteristic of celery fruits is the absence of distinct markings. Additionally, these fruits exhibit dehiscence, which means they split open upon reaching maturity, aiding in seed dispersal.

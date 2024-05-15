@@ -1,7 +1,0 @@
-The medicinal constituents found in sweet flag include a variety of aromatic compounds, including camphor, borneol, and asarone, all which contribute to its diverse range of uses in traditional medicine.
-
-The most commonly used parts of the plant for medicinal purposes are the roots and rhizomes. These can be prepared into various forms like powdered herb, tea, or tinctures. Infused preparations containing sweet flag are also utilized to treat a range of conditions, such as nausea, vomiting, and menstrual cramps.
-
-While using this plant offers many potential health benefits, it's important to be aware of its side effects. Some individuals may experience skin irritation after contact with the plant, particularly when handling or preparing fresh material. Overdose symptoms can include vomiting and nausea, as well as liver damage due to high levels of coumarin, a constituent present in this plant.
-
-To ensure safe use, it's crucial to follow precautions when using sweet flag (Acorus calamus) as medicine. Pregnant women and those with liver or kidney diseases are recommended not to consume the plant due to its potential toxic effects on these organs. Consulting a healthcare professional prior to incorporating this herb into your daily routine is advisable for accurate dosage and proper guidance.

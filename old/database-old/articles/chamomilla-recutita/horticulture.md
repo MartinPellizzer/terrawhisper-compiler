@@ -1,9 +1,0 @@
-German Chamomile, also known as Chamomilla recutita, is a versatile plant that can be grown easily and successfully. As an expert gardener, here are some tips to help you cultivate this unique herb in your garden.
-
-To grow German Chamomile, start with fresh seeds or plant division in well-drained soil, ideally with a pH between 5.6 and 7.2. Prepare the area by clearing it of weeds and other unwanted plants, ensuring you are ready for these to replace those pesky intruders. The ideal spacing between each plant should be around 30cm in all directions. Germination will take place within two weeks after sowing seeds or transplanting dividings, depending on the conditions.
-
-German Chamomile thrives best in full sun to partial shade and prefers temperatures ranging from 18°C to 24°C (65°F to 75°F). The plants do require regular watering to keep them hydrated but mustn't be overly saturated, as this could lead to rotting of the roots. Soil with adequate nutrients is recommended and an annual application of organic matter such as compost or manure can help promote growth and overall health.
-
-To maintain your German Chamomile plant, deadhead flowers regularly, especially during the blooming season, which runs from mid-summer to early fall. This will encourage more flowers and increase the chances of self-seeding, a desirable characteristic in this herbaceous perennial. Moreover, removing weeds around the base of your plants is crucial for their healthy growth. In late autumn or early spring, after flowering has ceased, you can cut back the dead stalks to make room for new foliage and flowers next season.
-
-As a gardener, growing German Chamomile (Chamomilla recutita) is quite enjoyable given its ease of cultivation and benefits from both an aesthetic and practical standpoint. With proper care and attention to these horticultural aspects, you are on the right track towards successful harvests of this valuable herb.

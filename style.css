@@ -90,6 +90,11 @@ body {
 /* *************************************************************** */
 /* BASIC */
 /* *************************************************************** */
+.logo {
+    color: #030712;
+    text-decoration: none;
+}
+
 h1 {
     /* font-family: comfortaa-bold, serif; */
     font-size: 4.8rem;
@@ -345,32 +350,82 @@ td {
 /* *************************************************************** */
 /* IMAGES */
 /* *************************************************************** */
-.hero-section {
+
+
+/* *************************************************************** */
+/* HOMEPAGE */
+/* *************************************************************** */
+
+.hero-content {
+    max-width: 64.0rem;
+    margin-left: auto;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+}
+
+.hero-img {
+    --opacity: 0.0;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/herbalism-natural-remedies.jpg");
-    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, var(--opacity)), rgba(0, 0, 0, var(--opacity))), url('/images/medicinal-herbs.jpg');
     background-position: center;
-}
-
-.section-hero-2 {
-    height: 100vh;
-    background-color: #e7e5e4;
-}
-
-.img-1 {
-    height: 60rem;
-    background-image: url('https://images.unsplash.com/photo-1569745358610-b01866003860?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80');
     background-size: cover;
-    background-position: center;
 }
 
-.img-2 {
-    height: 30rem;
-    background-image: url('https://images.unsplash.com/photo-1569166808816-4057e8f51703?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80');
-    background-size: cover;
-    background-position: center;
+.hero h1 {
+    font-size: 9.6rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 1.6rem;
 }
 
+.hero h1 span {
+    display: inline-block;
+    font-size: 2.0rem;
+    line-height: 3.0rem;
+}
+
+
+
+
+/* *************************************************************** */
+/* COMPONENTS */
+/* *************************************************************** */
+
+
+.header {
+    background-color: #030712;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.button-secondary {
+    display: inline-block;
+    box-shadow: 0px 0px 0px 1px #030712;
+    color: #030712;
+    padding: 0.8rem 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 
 
 
@@ -677,6 +732,22 @@ footer {
     .grid-2 {
         grid-template-columns: 1fr;
     }
+
+
+    .hero h1 {
+        font-size: 6.4rem;
+    }
+
+    .hero h1 span {
+        display: inline-block;
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+    }
+
+    .hero-img {
+        height: 40rem;
+    }
+
 
 }
 

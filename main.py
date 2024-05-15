@@ -1172,6 +1172,7 @@ def art_tea_systems_problems():
         #     util.file_write(html_filepath_out, html)
 
 
+
 # TODO: fast - all tea instances to tinctures, including images
 def art_tincture_systems_problems():
     preparation_name = 'tinctures'
@@ -2368,6 +2369,17 @@ def art_ailments_systems():
 
 def page_home():
     header = util.header_default()
+
+    image_filepath_in = 'C:/terrawhisper-assets/images/home/medicinal-herbs.jpg'
+    image_filepath_out = 'website/images/medicinal-herbs.jpg'
+
+    util.image_save_resized(
+        image_filepath_in, 
+        image_filepath_out, 
+        768,
+        768,
+        50,
+    )
     
     teas_articles_html = ''
     for condition_row in conditions_rows[:6]:
@@ -2655,12 +2667,12 @@ def json_del_keys_herbalism_tincture(key):
 # EXE
 # #########################################################
 
-# page_home()
-# page_herbalism()
-# page_top_herbs()
-# page_plants(regen_csv=False)
-# page_about()
-# page_start_here()
+page_home()
+page_herbalism()
+page_top_herbs()
+page_plants(regen_csv=False)
+page_about()
+page_start_here()
 
 art_ailments_systems_problems()
 art_ailments_systems()
@@ -2670,13 +2682,11 @@ art_tea_systems_problems()
 art_tincture_systems_problems()
 
 
-
-
 # sitemap.sitemap_all()
 # shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 
 
 
-# shutil.copy2('style.css', 'website/style.css')
-# shutil.copy2('util.css', 'website/util.css')
+shutil.copy2('style.css', 'website/style.css')
+shutil.copy2('util.css', 'website/util.css')
 # shutil.copy2('assets/images/healing-herbs.jpg', 'website/images/healing-herbs.jpg')

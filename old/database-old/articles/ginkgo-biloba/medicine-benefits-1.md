@@ -1,1 +1,0 @@
-Ginkgo has many health benefits, such as improving memory and enhancing brain function which is vital for cognitive performance. Additionally, it also helps in reducing inflammation in various body parts which can contribute to overall well-being. These properties make it an essential herb in the realm of natural medicine.
