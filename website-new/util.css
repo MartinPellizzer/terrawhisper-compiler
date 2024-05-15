@@ -12,6 +12,11 @@
     padding-bottom: 2.4rem;
 }
 
+.py-16 {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
 .py-96 {
     padding-top: 9.6rem;
     padding-bottom: 9.6rem;

@@ -83,6 +83,7 @@ def sanitize_herbs(line):
     if line == 'cascara': line = 'cascara sagrada'
     if line == 'osha root': line = 'osha'
     if line == 'cayenne': line = 'cayenne pepper'
+    if line == 'wild cherry': line = 'cherry'
 
     return line
 
@@ -188,57 +189,6 @@ def csv_gen_teas_for_problem(problem_row):
             print(lines)
             print('***************************************************')
             util.csv_add_rows(g.CSV_PROBLEMS_TEAS_FILEPATH, lines)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-
-
-def csv_gen_related_for_problem(problem_row):
-    problem_id = problem_row[problems_cols['problem_id']]
-    problem_slug = problem_row[problems_cols['problem_slug']]
-    problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
-
-    problems_related_rows = util.csv_get_rows_filtered(
-        g.CSV_PROBLEMS_RELATED_FILEPATH, problems_related_cols['problem_id'], problem_id
-    )
-
-    if problems_related_rows == []:
-        prompt = f'''
-            Write a numbered list of the most common ailments people may also experience when they have {problem_name}.
-            Write only the names, not the descriptions.
-            Use as few words as possible.
-        '''
-        reply = utils_ai.gen_reply(prompt)
-
-        lines = []
-        for line in reply.split('\n'):
-            line = line.strip().lower()
-            if line == '': continue
-            if not line[0].isdigit(): continue
-            if '.' not in line: continue
-            line = '.'.join(line.split('.')[1:])
-            line = line.strip()
-            if line == '': continue
-
-            problems_rows_filtered = []
-            for problem_row in problems_rows:
-                problem_names = problem_row[problems_cols['problem_names']].split(',')
-                for problem_name in problem_names:
-                    if problem_name.strip() == line.strip():
-                        problems_rows_filtered.append(problem_row)
-
-            if problems_rows_filtered != []:
-                problem_row = problems_rows_filtered[0]
-                related_id = problem_row[problems_cols['problem_id']]
-            else:
-                related_id = ''
-
-            lines.append([problem_id, problem_slug, related_id, line])
-
-        if len(lines) >= 10:
-            print('***************************************************')
-            print(lines)
-            print('***************************************************')
-            util.csv_add_rows(g.CSV_PROBLEMS_RELATED_FILEPATH, lines)
 
         time.sleep(g.PROMPT_DELAY_TIME)
 
@@ -446,8 +396,6 @@ def gen_csvs():
 
         # TODO
         csv_gen_system_for_problem(problem_row)
-
-        # csv_gen_related_for_problem(problem_row)
         
         csv_gen_herbs_for_problem(problem_row)
         csv_gen_preparations_for_problem(problem_row)
