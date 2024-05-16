@@ -2369,6 +2369,7 @@ def art_ailments_systems():
 
 def page_home():
     header = util.header_default()
+    header = util.header_default_dark()
 
     image_filepath_in = 'C:/terrawhisper-assets/images/home/medicinal-herbs.jpg'
     image_filepath_out = 'website/images/medicinal-herbs.jpg'

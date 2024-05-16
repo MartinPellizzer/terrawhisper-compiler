@@ -149,7 +149,7 @@ problem_id\problem_name\tincture_id\tincture_name
 78\colds\2\licorice
 78\colds\102\osha
 78\colds\103\elecampane
-78\colds\104\baptisia
+78\colds\104\wild indigo
 78\colds\65\cayenne pepper
 78\colds\23\sage
 78\colds\24\thyme
@@ -170,3 +170,17 @@ problem_id\problem_name\tincture_id\tincture_name
 59\sore-throat\41\calendula
 59\sore-throat\38\chamomile
 59\sore-throat\99\red clover
+66\cough\100\elderberry
+66\cough\2\licorice
+66\cough\4\marshmallow
+66\cough\24\thyme
+66\cough\111\coltsfoot
+66\cough\101\mullein
+66\cough\112\gumweed
+66\cough\113\yerba santa
+66\cough\10\skullcap
+66\cough\114\horehound
+66\cough\103\elecampane
+66\cough\106\hyssop
+66\cough\102\osha
+66\cough\104\wild indigo

@@ -394,27 +394,6 @@ td {
 /* *************************************************************** */
 
 
-.header {
-    background-color: #030712;
-}
-
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 1.6rem;
-    padding-bottom: 1.6rem;
-}
-
-.header a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.4rem;
-    line-height: 2.0rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
 .button-secondary {
     display: inline-block;
     box-shadow: 0px 0px 0px 1px #030712;
@@ -556,6 +535,20 @@ td {
     background-color: #171717;
 } */
 
+
+.header-dark {
+    background-color: #030712;
+}
+
+.header-dark a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 header {
     position: relative;
     display: flex;
@@ -571,6 +564,10 @@ nav {
 }
 
 nav input:checked~.menu {
+    right: 0;
+}
+
+nav input:checked~.menu-dark {
     right: 0;
 }
 
@@ -609,6 +606,34 @@ nav a:hover {
     color: var(--slate-950);
 }
 
+
+.menu-dark {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    z-index: 1;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.menu-dark li {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu-dark li a {
+    text-decoration: none;
+    /* color: white; */
+}
+
+.home .menu-dark li a {
+    color: var(--slate-950);
+}
+
+
+
+
 .hamburger {
     position: relative;
     width: 30px;
@@ -640,6 +665,35 @@ nav a:hover {
 }
 
 .hamburger,
+.toggle-menu {
+    display: none;
+}
+
+
+
+
+.hamburger-dark {
+    position: relative;
+    width: 24px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 2;
+    top: -5px;
+}
+
+.hamburger-dark:after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    right: 0;
+    background-color: #fff;
+    border-radius: 10px;
+    top: 10px;
+}
+
+.hamburger-dark,
 .toggle-menu {
     display: none;
 }
@@ -699,7 +753,21 @@ footer {
         padding-top: 65px;
     }
 
+    .menu-dark {
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background-color: #030712;
+        width: 300px;
+        height: 100%;
+        padding-top: 65px;
+    }
+
     .hamburger,
+    .hamburger-dark,
     .toggle-menu {
         display: block;
     }

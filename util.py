@@ -434,6 +434,26 @@ def header_default():
     '''
                     # <li><a href="/plants.html">Herbs</a></li>
     return html
+    
+def header_default_dark():
+    html = f'''
+        <div class="header-dark">
+            <header class="container-lg">
+                <a class="logo" href="/">TerraWhisper</a>
+                <nav>
+                    <input type="checkbox" class="toggle-menu">
+                    <div class="hamburger-dark"></div>
+                    <ul class="menu-dark">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/herbalism.html">Herbalism</a></li>
+                        <li><a href="/ailments.html">Ailments</a></li>
+                        <li><a href="/about.html">About</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    '''
+    return html
 
 # def header_default():
 #     html = f'''

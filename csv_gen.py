@@ -84,6 +84,11 @@ def sanitize_herbs(line):
     if line == 'osha root': line = 'osha'
     if line == 'cayenne': line = 'cayenne pepper'
     if line == 'wild cherry': line = 'cherry'
+    if line == 'wild cherry bark': line = 'cherry'
+    if line == 'grindelia': line = 'gumweed'
+    if line == 'aniseed': line = 'anise'
+    if line == 'cowslip': line = 'primrose'
+    if line == 'baptisia tinctoria': line = 'wild indigo'
 
     return line
 
