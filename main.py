@@ -886,7 +886,6 @@ def html_preparation_system_problem_intro(html_filepath, data):
     return article_html
 
 
-# adjust it for tincures
 def html_preparation_system_problem_list(html_filepath, data):
     article_html = ''
     problem_slug = data['problem_slug']
@@ -915,32 +914,32 @@ def html_preparation_system_problem_list(html_filepath, data):
         except: print(f'MISSING REMEDY IMAGE: {problem_name} >> {tea_image_url}')
             
         try:
-            tea_constituents = remedy_obj['remedy_properties']
+            constituents = remedy_obj['remedy_properties']
             article_html += f'<p>The list below shows the primary active constituents in {remedy_name} that aid with {problem_name}.</p>\n'
             article_html += '<ul>\n'
-            for tea_constituent in tea_constituents:
-                chunk_1 = tea_constituent.split(': ')[0]
-                chunk_2 = ': '.join(tea_constituent.split(': ')[1:])
+            for constituent in constituents:
+                chunk_1 = constituent.split(': ')[0]
+                chunk_2 = ': '.join(constituent.split(': ')[1:])
                 article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
             article_html += '</ul>\n'
         except: print(f'MISSING REMEDY CONSTITUENTS: {problem_name} >> {remedy_name}')
 
         try:
-            tea_parts = remedy_obj['remedy_parts']
+            parts = remedy_obj['remedy_parts']
             article_html += f'<p>Right below you will find a list of the most important parts in {remedy_name} that help with {problem_name}.</p>\n'
             article_html += '<ul>\n'
-            for tea_part in tea_parts:
-                chunk_1 = tea_part.split(': ')[0]
-                chunk_2 = ': '.join(tea_part.split(': ')[1:])
+            for part in parts:
+                chunk_1 = part.split(': ')[0]
+                chunk_2 = ': '.join(part.split(': ')[1:])
                 article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
             article_html += '</ul>\n'
         except: print(f'MISSING REMEDY PARTS: {problem_name} >> {remedy_name}')
 
         try:
-            tea_recipe = remedy_obj['remedy_recipe']
+            recipe = remedy_obj['remedy_recipe']
             article_html += f'<p>The following recipe gives a procedure to make a basic {remedy_name_preparation} for {problem_name}.</p>\n'
             article_html += '<ol>\n'
-            for step in tea_recipe:
+            for step in recipe:
                 article_html += f'<li>{step}</li>\n'
             article_html += '</ol>\n'
         except: print(f'MISSING REMEDY RECIPE: {problem_name} >> {remedy_name}')
@@ -985,129 +984,9 @@ def html_preparation_system_problem_supplementary(html_filepath, data):
 
     return article_html
 
-# EXE
 
-def art_tea_systems_problems():
-    preparation_name = 'teas'
-    preparation_name_singular = 'tea'
-    preparation_slug = 'tea'
-    for problem_row in problems_rows[:g.ART_NUM]:
-        problem_id = problem_row[problems_cols['problem_id']]
-        problem_slug = problem_row[problems_cols['problem_slug']]
-        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
-
-        if problem_id == '': continue
-        if problem_slug == '': continue
-        if problem_name == '': continue
-
-        preparations_rows_filtered = csv_get_preparations_by_problem(problem_id)
-        preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows_filtered]
-        if 'infusions' not in preparations_names: continue
-
-        print(f'> {problem_name}')
-
-        system_row = csv_get_system_by_problem(problem_id)
-        system_id = system_row[systems_cols['system_id']]
-        system_slug = system_row[systems_cols['system_slug']]
-        system_name = system_row[systems_cols['system_name']]
-
-        if system_id == '': continue
-        if system_slug == '': continue
-        if system_name == '': continue
-
-        print(f'  > {system_name}')
-
-        json_filepath = f'database/json/herbalism/tea/{system_slug}/{problem_slug}.json'
-
-        util.create_folder_for_filepath(json_filepath)
-        util.json_generate_if_not_exists(json_filepath)
-        data = util.json_read(json_filepath)
-        data['problem_id'] = problem_id
-        data['problem_slug'] = problem_slug
-        data['problem_name'] = problem_name
-        data['system_id'] = system_id
-        data['system_slug'] = system_slug
-        data['system_name'] = system_name
-        data['preparation_name'] = preparation_name
-        data['preparation_name_singular'] = preparation_name_singular
-        data['preparation_slug'] = preparation_slug
-
-        lastmod = util.date_now()
-        if 'lastmod' not in data: data['lastmod'] = lastmod
-        else: lastmod = data['lastmod'] 
-
-        data['url'] = f'herbalism/tea/{system_slug}/{problem_slug}'
-        
-        data['remedy_num'] = teas_num
-        title = f'{teas_num} Best herbal teas for {problem_name}'
-        data['title'] = title
-
-        util.json_write(json_filepath, data)
-
-        # JSON
-        json_preparation_system_problem_intro(json_filepath, data)
-        json_preparation_system_problem_list(json_filepath, data)
-        json_preparation_system_problem_supplementary(json_filepath, data)
-
-        # IMG
-        img_preparation_systems_problems_featured(data)
-        img_preparation_systems_problems_list(data)
-        img_preparation_systems_problems_cheatsheet(data)
-
-        # HTML
-        html_filepath = f'website/herbalism/tea/{system_slug}/{problem_slug}.html'
-
-        data = util.json_read(json_filepath)
-
-        article_html = ''
-        article_html += html_preparation_system_problem_intro(html_filepath, data)
-        article_html += html_preparation_system_problem_list(html_filepath, data)
-        article_html += html_preparation_system_problem_supplementary(html_filepath, data)
-
-        header_html = util.header_default()
-        breadcrumbs_html = util.breadcrumbs(html_filepath)
-        meta_html = util.article_meta(article_html, lastmod)
-        article_html = util.article_toc(article_html)
-
-        html = f'''
-            <!DOCTYPE html>
-            <html lang="en">
-
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{g.AUTHOR_NAME}">
-                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-                <link rel="stylesheet" href="/style.css">
-                <title>{title}</title>
-                {g.GOOGLE_TAG}
-                
-            </head>
-
-            <body>
-                {header_html}
-                {breadcrumbs_html}
-                
-                <section class="article-section">
-                    <div class="container">
-                        {meta_html}
-                        {article_html}
-                    </div>
-                </section>
-
-                <footer>
-                    <div class="container-lg">
-                        <span>© TerraWhisper.com 2024 | All Rights Reserved
-                    </div>
-                </footer>
-            </body>
-
-            </html>
-        '''
-
-        util.file_write(html_filepath, html)
-
-        # # GEN TEAS HTML TOO FOR OLD REDIRECTS
+# def _tea_redirect():
+      # # GEN TEAS HTML TOO FOR OLD REDIRECTS
         # condition_slug_old = condition_slug.split('/')[-1].strip()
         # html_filepath = f'website/herbalism/teas/{condition_slug_old}.html'
 
@@ -1172,12 +1051,22 @@ def art_tea_systems_problems():
         #     util.file_write(html_filepath_out, html)
 
 
+# EXE
 
-# TODO: fast - all tea instances to tinctures, including images
-def art_tincture_systems_problems():
-    preparation_name = 'tinctures'
-    preparation_name_singular = 'tincture'
-    preparation_slug = 'tincture'
+def art_preparation_systems_problems(preparation_slug):
+    preparation_name = ''
+    preparation_name_singular = ''
+
+    if preparation_slug == 'tea':
+        preparation_name = 'teas'
+        preparation_name_singular = 'tea'
+    elif preparation_slug == 'tincture':
+        preparation_name = 'tinctures'
+        preparation_name_singular = 'tincture'
+
+    if preparation_name == '': return
+    if preparation_name_singular == '': return
+
     for problem_row in problems_rows[:g.ART_NUM]:
         problem_id = problem_row[problems_cols['problem_id']]
         problem_slug = problem_row[problems_cols['problem_slug']]
@@ -1186,10 +1075,14 @@ def art_tincture_systems_problems():
         if problem_id == '': continue
         if problem_slug == '': continue
         if problem_name == '': continue
-        
+
         preparations_rows_filtered = csv_get_preparations_by_problem(problem_id)
         preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows_filtered]
-        if 'tinctures' not in preparations_names: continue
+
+        if preparation_slug == 'tea':
+            if 'infusions' not in preparations_names: continue
+        elif preparation_slug == 'tincture':
+            if 'tinctures' not in preparations_names: continue
 
         print(f'> {problem_name}')
 
@@ -1223,14 +1116,14 @@ def art_tincture_systems_problems():
         if 'lastmod' not in data: data['lastmod'] = lastmod
         else: lastmod = data['lastmod'] 
 
-        data['url'] = f'herbalism/tincture/{system_slug}/{problem_slug}'
+        data['url'] = f'herbalism/{preparation_slug}/{system_slug}/{problem_slug}'
 
         data['remedies_num'] = ART_ITEMS_NUM
-        title = f'{ART_ITEMS_NUM} best herbal tinctures for {problem_name}'
+        title = f'{ART_ITEMS_NUM} best herbal {preparation_name} for {problem_name}'
         data['title'] = title
 
         util.json_write(json_filepath, data)
-
+        
         # JSON
         json_preparation_system_problem_intro(json_filepath, data)
         json_preparation_system_problem_list(json_filepath, data)
@@ -1246,19 +1139,12 @@ def art_tincture_systems_problems():
 
         data = util.json_read(json_filepath)
 
-        
-        html_filepath = f'website/herbalism/{preparation_slug}/{system_slug}/{problem_slug}.html'
-
-        data = util.json_read(json_filepath)
-
         article_html = ''
         article_html += html_preparation_system_problem_intro(html_filepath, data)
         article_html += html_preparation_system_problem_list(html_filepath, data)
         article_html += html_preparation_system_problem_supplementary(html_filepath, data)
 
-
-        
-        header_html = util.header_default()
+        header_html = util.header_default_dark()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
         meta_html = util.article_meta(article_html, lastmod)
         article_html = util.article_toc(article_html)
@@ -1302,6 +1188,87 @@ def art_tincture_systems_problems():
         util.file_write(html_filepath, html)
 
 
+
+
+
+
+def json_preparation_system_problem_intro(json_filepath, data):
+    key = 'intro_desc'
+    if key not in data:
+        system_name = data['system_name']
+
+        prompt = f'''
+            Write 1 intro paragraph for an article about {system_name} ailments an herbal tinctures.
+            Start by explaining what are the impacts of the {system_name} ailments on people lives.
+            Then explain why herbal tinctures can help with the most common {system_name} ailments. 
+            Finally explain that the rest of the article will reveal the most common {system_name} ailments and what are the best herbal tinctures to get rid of those ailments.
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        reply = utils_ai.reply_to_paragraphs(reply)
+
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def art_preparation_systems(preparation_slug):
+    preparation_name = ''
+    preparation_name_singular = ''
+
+    if preparation_slug == 'tea':
+        preparation_name = 'teas'
+        preparation_name_singular = 'tea'
+    elif preparation_slug == 'tincture':
+        preparation_name = 'tinctures'
+        preparation_name_singular = 'tincture'
+
+    if preparation_name == '': return
+    if preparation_name_singular == '': return
+
+    for system_row in systems_rows:
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+        
+        json_filepath = f'database/json/herbalism/{preparation_slug}/{system_slug}.json'
+
+        util.create_folder_for_filepath(json_filepath)
+        util.json_generate_if_not_exists(json_filepath)
+        data = util.json_read(json_filepath)
+        data['system_id'] = system_id
+        data['system_slug'] = system_slug
+        data['system_name'] = system_name
+
+        data['preparation_name'] = preparation_name
+        data['preparation_name_singular'] = preparation_name_singular
+        data['preparation_slug'] = preparation_slug
+
+        lastmod = util.date_now()
+        if 'lastmod' not in data: data['lastmod'] = lastmod
+        else: lastmod = data['lastmod'] 
+
+        data['url'] = f'herbalism/{preparation_slug}/{system_slug}'
+
+        data['system_num'] = len(systems_rows)
+        title = f'{len(systems_rows)} most common {system_name} ailments to treat with herbal {preparation_name}'
+        data['title'] = title
+
+        util.json_write(json_filepath, data)
+
+        # AI
+        json_preparation_system_problem_intro(json_filepath, data)
 
 
 
@@ -2422,6 +2389,7 @@ def page_home():
 
 def page_herbalism():
     header = util.header_default()
+    header = util.header_default_dark()
 
     page_url = 'herbalism'
     article_filepath_out = f'website/{page_url}.html'
@@ -2461,6 +2429,7 @@ def page_about():
     article_filepath_out = f'website/{page_url}.html'
 
     header = util.header_default()
+    header = util.header_default_dark()
     breadcrumbs_html = util.breadcrumbs(article_filepath_out)
     content = util.file_read(f'static/about.md')
     content = markdown.markdown(content, extensions=['markdown.extensions.tables'])
@@ -2670,22 +2639,24 @@ def json_del_keys_herbalism_tincture(key):
 
 page_home()
 page_herbalism()
-page_top_herbs()
-page_plants(regen_csv=False)
+# page_top_herbs()
+# page_plants(regen_csv=False)
 page_about()
-page_start_here()
+# page_start_here()
 
-art_ailments_systems_problems()
-art_ailments_systems()
+# art_ailments_systems_problems()
+# art_ailments_systems()
 art_ailments()
 
-art_tea_systems_problems()
-art_tincture_systems_problems()
+
+art_preparation_systems_problems('tea')
+art_preparation_systems_problems('tincture')
 
 
 # sitemap.sitemap_all()
 # shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 
+art_preparation_systems('tincture')
 
 
 shutil.copy2('style.css', 'website/style.css')

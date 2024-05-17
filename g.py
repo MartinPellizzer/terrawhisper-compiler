@@ -1,7 +1,7 @@
 ARTICLES_NUM = 100
 
 
-ART_NUM = 13
+ART_NUM = 14
 
 
 # BY

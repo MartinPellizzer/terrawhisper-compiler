@@ -2396,3 +2396,260 @@ page_start_here()
 # sitemap.sitemap_all()
 # shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 
+
+
+
+
+
+
+def art_tea_systems_problems():
+    preparation_name = 'teas'
+    preparation_name_singular = 'tea'
+    preparation_slug = 'tea'
+    for problem_row in problems_rows[:g.ART_NUM]:
+        problem_id = problem_row[problems_cols['problem_id']]
+        problem_slug = problem_row[problems_cols['problem_slug']]
+        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+        if problem_id == '': continue
+        if problem_slug == '': continue
+        if problem_name == '': continue
+
+        preparations_rows_filtered = csv_get_preparations_by_problem(problem_id)
+        preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows_filtered]
+        if 'infusions' not in preparations_names: continue
+
+        print(f'> {problem_name}')
+
+        system_row = csv_get_system_by_problem(problem_id)
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        print(f'  > {system_name}')
+
+        json_filepath = f'database/json/herbalism/tea/{system_slug}/{problem_slug}.json'
+
+        util.create_folder_for_filepath(json_filepath)
+        util.json_generate_if_not_exists(json_filepath)
+        data = util.json_read(json_filepath)
+        data['problem_id'] = problem_id
+        data['problem_slug'] = problem_slug
+        data['problem_name'] = problem_name
+        data['system_id'] = system_id
+        data['system_slug'] = system_slug
+        data['system_name'] = system_name
+        data['preparation_name'] = preparation_name
+        data['preparation_name_singular'] = preparation_name_singular
+        data['preparation_slug'] = preparation_slug
+
+        lastmod = util.date_now()
+        if 'lastmod' not in data: data['lastmod'] = lastmod
+        else: lastmod = data['lastmod'] 
+
+        data['url'] = f'herbalism/tea/{system_slug}/{problem_slug}'
+        
+        data['remedy_num'] = teas_num
+        title = f'{teas_num} Best herbal teas for {problem_name}'
+        data['title'] = title
+
+        util.json_write(json_filepath, data)
+
+        # JSON
+        json_preparation_system_problem_intro(json_filepath, data)
+        json_preparation_system_problem_list(json_filepath, data)
+        json_preparation_system_problem_supplementary(json_filepath, data)
+
+        # IMG
+        img_preparation_systems_problems_featured(data)
+        img_preparation_systems_problems_list(data)
+        img_preparation_systems_problems_cheatsheet(data)
+
+        # HTML
+        html_filepath = f'website/herbalism/tea/{system_slug}/{problem_slug}.html'
+
+        data = util.json_read(json_filepath)
+
+        article_html = ''
+        article_html += html_preparation_system_problem_intro(html_filepath, data)
+        article_html += html_preparation_system_problem_list(html_filepath, data)
+        article_html += html_preparation_system_problem_supplementary(html_filepath, data)
+
+        header_html = util.header_default_dark()
+        breadcrumbs_html = util.breadcrumbs(html_filepath)
+        meta_html = util.article_meta(article_html, lastmod)
+        article_html = util.article_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta_html}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(html_filepath, html)
+
+
+def art_tincture_systems_problems():
+    preparation_name = 'tinctures'
+    preparation_name_singular = 'tincture'
+    preparation_slug = 'tincture'
+    for problem_row in problems_rows[:g.ART_NUM]:
+        problem_id = problem_row[problems_cols['problem_id']]
+        problem_slug = problem_row[problems_cols['problem_slug']]
+        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+        if problem_id == '': continue
+        if problem_slug == '': continue
+        if problem_name == '': continue
+        
+        preparations_rows_filtered = csv_get_preparations_by_problem(problem_id)
+        preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows_filtered]
+        if 'tinctures' not in preparations_names: continue
+
+        print(f'> {problem_name}')
+
+        system_row = csv_get_system_by_problem(problem_id)
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        print(f'  > {system_name}')
+
+        json_filepath = f'database/json/herbalism/{preparation_slug}/{system_slug}/{problem_slug}.json'
+
+        util.create_folder_for_filepath(json_filepath)
+        util.json_generate_if_not_exists(json_filepath)
+        data = util.json_read(json_filepath)
+        data['problem_id'] = problem_id
+        data['problem_slug'] = problem_slug
+        data['problem_name'] = problem_name
+        data['system_id'] = system_id
+        data['system_slug'] = system_slug
+        data['system_name'] = system_name
+        data['preparation_name'] = preparation_name
+        data['preparation_name_singular'] = preparation_name_singular
+        data['preparation_slug'] = preparation_slug
+
+        lastmod = util.date_now()
+        if 'lastmod' not in data: data['lastmod'] = lastmod
+        else: lastmod = data['lastmod'] 
+
+        data['url'] = f'herbalism/tincture/{system_slug}/{problem_slug}'
+
+        data['remedies_num'] = ART_ITEMS_NUM
+        title = f'{ART_ITEMS_NUM} best herbal tinctures for {problem_name}'
+        data['title'] = title
+
+        util.json_write(json_filepath, data)
+
+        # JSON
+        json_preparation_system_problem_intro(json_filepath, data)
+        json_preparation_system_problem_list(json_filepath, data)
+        json_preparation_system_problem_supplementary(json_filepath, data)
+
+        # IMG
+        img_preparation_systems_problems_featured(data)
+        img_preparation_systems_problems_list(data)
+        img_preparation_systems_problems_cheatsheet(data)
+        
+        # HTML
+        html_filepath = f'website/herbalism/{preparation_slug}/{system_slug}/{problem_slug}.html'
+
+        data = util.json_read(json_filepath)
+
+        
+        html_filepath = f'website/herbalism/{preparation_slug}/{system_slug}/{problem_slug}.html'
+
+        data = util.json_read(json_filepath)
+
+        article_html = ''
+        article_html += html_preparation_system_problem_intro(html_filepath, data)
+        article_html += html_preparation_system_problem_list(html_filepath, data)
+        article_html += html_preparation_system_problem_supplementary(html_filepath, data)
+
+
+        
+        header_html = util.header_default_dark()
+        breadcrumbs_html = util.breadcrumbs(html_filepath)
+        meta_html = util.article_meta(article_html, lastmod)
+        article_html = util.article_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta_html}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(html_filepath, html)
+
+
+# art_tea_systems_problems()
+# art_tincture_systems_problems()
