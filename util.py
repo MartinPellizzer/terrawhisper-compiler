@@ -584,7 +584,7 @@ def breadcrumbs(filepath):
     breadcrumbs = ' > '.join(breadcrumbs)
     breadcrumbs += f' > {chunks[-1].strip().replace(".html", "").replace("-", " ").title()}'
     breadcrumbs_section = f'''
-        <section class="container-lg mt-16">
+        <section class="breadcrumbs-section container-lg">
             {breadcrumbs}
         </section>
     '''

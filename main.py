@@ -1192,7 +1192,7 @@ def art_preparation_systems_problems(preparation_slug):
 
 
 
-def json_preparation_system_problem_intro(json_filepath, data):
+def json_preparation_system_intro(json_filepath, data):
     key = 'intro_desc'
     if key not in data:
         system_name = data['system_name']
@@ -1217,6 +1217,81 @@ def json_preparation_system_problem_intro(json_filepath, data):
             util.json_write(json_filepath, data)
 
         time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def json_preparation_system_problems(json_filepath, data):
+    key = 'problems'
+    if key not in data: data[key] = []
+    for problem_row in problems_rows[:g.ART_NUM]:
+        problem_id = problem_row[problems_cols['problem_id']]
+        problem_slug = problem_row[problems_cols['problem_slug']]
+        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+        if problem_id == '': continue
+        if problem_slug == '': continue
+        if problem_name == '': continue
+        
+        system_row = csv_get_system_by_problem(problem_id)
+        if system_row[systems_cols['system_id']] != data['system_id']: continue
+
+        found = False
+        for problem_obj in data[key]:
+            if problem_obj['problem_id'] == problem_id:
+                found = True
+                break
+        
+        if not found:
+            data[key].append({'problem_id': problem_id, 'problem_slug': problem_slug, 'problem_name': problem_name})
+
+    util.json_write(json_filepath, data)
+        
+    key = 'problem_desc'
+    for problem_obj in data['problems']:
+        # if key in problem_obj: del problem_obj[key]
+        if key not in problem_obj:
+            problem_id = problem_obj['problem_id']
+            problem_name = problem_obj['problem_name']
+
+            prompt = f'''
+                Write 1 paragraph about what is {problem_name}, how it affects your life, and what are the herbal tinctures for {problem_name}.
+                Start the reply with the following words: {problem_name.capitalize()} is .
+                Never use the words "can", "may", and "might".
+            '''
+            reply = utils_ai.gen_reply(prompt)
+
+            reply = utils_ai.reply_to_paragraphs(reply)
+
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                problem_obj[key] = reply[0]
+                util.json_write(json_filepath, data)
+
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+
+
+
+def html_preparation_system_intro(data):
+    title = ''
+    intro_desc = ''
+    system_name = data['system_name']
+
+    if 'title' in data: title = data['title']
+    else: print(f'MISSING TITLE: html_preparation_system_intro -- {system_name}')
+    if 'intro_desc' in data: intro_desc = data['intro_desc']
+    else: print(f'MISSING INTRO: html_preparation_system_intro -- {system_name}')
+
+    article_html = ''
+
+    article_html += f'<h1>{title}</h1>\n'
+    article_html += f'{util.text_format_1N1_html(intro_desc)}\n'
+    article_html += f'<p>This article explains in detail what are the best tinctures for the different body systems\n'
+
+    return article_html
+
 
 
 def art_preparation_systems(preparation_slug):
@@ -1267,8 +1342,77 @@ def art_preparation_systems(preparation_slug):
 
         util.json_write(json_filepath, data)
 
-        # AI
-        json_preparation_system_problem_intro(json_filepath, data)
+        # ai
+        json_preparation_system_intro(json_filepath, data)
+        json_preparation_system_problems(json_filepath, data)
+
+        # html
+        html_filepath = f'website/herbalism/tincture/{system_slug}.html'
+
+        data = util.json_read(json_filepath)
+
+        article_html = ''
+        article_html += html_preparation_system_intro(data)
+        
+        for i, problem_obj in enumerate(data['problems']):
+            problem_id = problem_obj['problem_id']
+            problem_slug = problem_obj['problem_slug']
+            problem_name = problem_obj['problem_name']
+            problem_desc = problem_obj['problem_desc']
+
+            problem_desc = problem_desc.replace(
+                problem_name.capitalize(),
+                f'<a href="/herbalism/tincture/{system_slug}/{problem_slug}.html">{problem_name.capitalize()}</a>',
+                1
+            )
+
+            article_html += f'<h2>{i+1}. {problem_name.capitalize()}</h2>\n'
+            article_html += f'{util.text_format_1N1_html(problem_desc)}\n'
+
+
+        header_html = util.header_default()
+        header_html = util.header_default_dark()
+        breadcrumbs_html = util.breadcrumbs(html_filepath)
+        meta_html = util.article_meta(article_html, lastmod)
+        article_html = util.article_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta_html}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(html_filepath, html)
 
 
 
