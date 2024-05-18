@@ -18,6 +18,7 @@ from selenium.webdriver.firefox.options import Options
 
 from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
+import g
 
 random_num = random.randint(-2, 2)
 ARTICLES_NUM = 35 - random_num
@@ -50,32 +51,107 @@ time.sleep(30)
 
 
 
-# GET RANDOM ARTICLES TO PIN
-articles_folderpath = 'database/json/herbalism/tea'
-systems_foldername = os.listdir(articles_folderpath)
-teas_articles_filepath = []
-for system_foldername in systems_foldername:
-    system_folderpath = f'{articles_folderpath}/{system_foldername}'
-    if not os.path.isdir(system_folderpath): continue
-    articles_filenames = os.listdir(system_folderpath)
-    for article_filename in articles_filenames:
-        article_filepath = f'{articles_folderpath}/{system_foldername}/{article_filename}'
-        teas_articles_filepath.append(article_filepath)
-random.shuffle(teas_articles_filepath)
-teas_articles_filepath = teas_articles_filepath[:ARTICLES_NUM-NUM_TINCTURES]
 
-articles_folderpath = 'database/json/herbalism/tincture'
-systems_foldername = os.listdir(articles_folderpath)
+
+problems_rows = util.csv_get_rows(g.CSV_PROBLEMS_FILEPATH)
+problems_cols = util.csv_get_cols(problems_rows)
+problems_rows = problems_rows[1:]
+
+systems_rows = util.csv_get_rows(g.CSV_SYSTEMS_NEW_FILEPATH)
+systems_cols = util.csv_get_cols(systems_rows)
+systems_rows = systems_rows[1:]
+
+problems_systems_rows = util.csv_get_rows(g.CSV_PROBLEMS_SYSTEMS_FILEPATH)
+problems_systems_cols = util.csv_get_cols(problems_systems_rows)
+problems_systems_rows = problems_systems_rows[1:]
+
+
+def csv_get_system_by_problem(problem_id):
+    system_row = []
+
+    problems_systems_rows_filtered = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_SYSTEMS_FILEPATH, problems_systems_cols['problem_id'], problem_id,
+    )
+
+    if problems_systems_rows_filtered != []:
+        problem_system_row = problems_systems_rows_filtered[0]
+        system_id = problem_system_row[problems_systems_cols['system_id']]
+
+        systems_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_SYSTEMS_FILEPATH, systems_cols['system_id'], system_id,
+        )
+
+        if systems_rows_filtered != []:
+            system_row = systems_rows_filtered[0]
+
+    return system_row
+
+preparations_num = 2
+pins_per_preparation = ARTICLES_NUM // preparations_num
+
+teas_articles_filepath = []
 tinctures_articles_filepath = []
-for system_foldername in systems_foldername:
-    system_folderpath = f'{articles_folderpath}/{system_foldername}'
-    if not os.path.isdir(system_folderpath): continue
-    articles_filenames = os.listdir(system_folderpath)
-    for article_filename in articles_filenames:
-        article_filepath = f'{articles_folderpath}/{system_foldername}/{article_filename}'
-        tinctures_articles_filepath.append(article_filepath)
+for problem_row in problems_rows[:g.ART_NUM]:
+    problem_id = problem_row[problems_cols['problem_id']]
+    problem_slug = problem_row[problems_cols['problem_slug']]
+    problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+    if problem_id == '': continue
+    if problem_slug == '': continue
+    if problem_name == '': continue
+    
+    # print(f'> {problem_name}')
+
+    system_row = csv_get_system_by_problem(problem_id)
+    system_id = system_row[systems_cols['system_id']]
+    system_slug = system_row[systems_cols['system_slug']]
+    system_name = system_row[systems_cols['system_name']]
+
+    if system_id == '': continue
+    if system_slug == '': continue
+    if system_name == '': continue
+
+    # print(f'  > {system_name}')
+
+    json_filepath = f'database/json/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/teas.json'
+    if os.path.exists(json_filepath): 
+        print(f'ok: {json_filepath}')
+        teas_articles_filepath.append(json_filepath)
+    else: print(f'NOT FOUND: {json_filepath}')
+   
+    json_filepath = f'database/json/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/tinctures.json'
+    if os.path.exists(json_filepath): 
+        print(f'ok: {json_filepath}')
+        tinctures_articles_filepath.append(json_filepath)
+    else: print(f'NOT FOUND: {json_filepath}')
+
+
+# GET RANDOM ARTICLES TO PIN
+# articles_folderpath = 'database/json/herbalism/tea'
+# systems_foldername = os.listdir(articles_folderpath)
+# teas_articles_filepath = []
+# for system_foldername in systems_foldername:
+#     system_folderpath = f'{articles_folderpath}/{system_foldername}'
+#     if not os.path.isdir(system_folderpath): continue
+#     articles_filenames = os.listdir(system_folderpath)
+#     for article_filename in articles_filenames:
+#         article_filepath = f'{articles_folderpath}/{system_foldername}/{article_filename}'
+#         teas_articles_filepath.append(article_filepath)
+random.shuffle(teas_articles_filepath)
+teas_articles_filepath = teas_articles_filepath[:pins_per_preparation]
+
+# articles_folderpath = 'database/json/herbalism/tincture'
+# systems_foldername = os.listdir(articles_folderpath)
+# tinctures_articles_filepath = []
+# for system_foldername in systems_foldername:
+#     system_folderpath = f'{articles_folderpath}/{system_foldername}'
+#     if not os.path.isdir(system_folderpath): continue
+#     articles_filenames = os.listdir(system_folderpath)
+#     for article_filename in articles_filenames:
+#         article_filepath = f'{articles_folderpath}/{system_foldername}/{article_filename}'
+#         tinctures_articles_filepath.append(article_filepath)
 random.shuffle(tinctures_articles_filepath)
-tinctures_articles_filepath = tinctures_articles_filepath[:NUM_TINCTURES]
+tinctures_articles_filepath = tinctures_articles_filepath[:pins_per_preparation]
 
 articles_filepath = []
 for filepath in teas_articles_filepath: articles_filepath.append(filepath)

@@ -38,7 +38,6 @@ h3 {
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
     color: #334155;
 }
 
@@ -101,7 +100,6 @@ img {
 
 .author-anchor {
     color: #777;
-    font-family: OpenSans-Bold, Arial, Helvetica, sans-serif;
     text-decoration: none;
 
 }
@@ -172,4 +170,87 @@ header a {
 .section-1 .content {
     max-width: 64.0rem;
     padding-left: 2.4rem;
+}
+
+
+
+.blog-teas {
+    --py: 9.6rem;
+    padding-top: var(--py);
+    padding-bottom: var(--py);
+}
+
+.blog-teas h2 {
+    font-size: 3.6rem;
+    line-height: 1rem;
+    margin-bottom: 4.8rem;
+}
+
+
+.blog-teas img {
+    margin-bottom: 1.6rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.blog-teas h3 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 1.6rem;
+}
+
+.blog-teas .desc {
+    margin-bottom: 1.6rem;
+}
+
+.blog-teas .author {
+    font-size: 1.4rem;
+    color: #737373;
+}
+
+.blog-teas .author span {
+    font-weight: 700;
+    color: #404040;
+}
+
+
+
+
+
+.blog-tinctures {
+    --py: 9.6rem;
+    padding-top: var(--py);
+    padding-bottom: var(--py);
+}
+
+.blog-tinctures h2 {
+    font-size: 3.6rem;
+    line-height: 1rem;
+    margin-bottom: 4.8rem;
+}
+
+.blog-tinctures img {
+    margin-bottom: 1.6rem;
+    height: 30rem;
+    object-fit: cover;
+}
+
+.blog-tinctures h3 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    margin-bottom: 1.6rem;
+}
+
+.blog-tinctures .desc {
+    margin-bottom: 1.6rem;
+}
+
+.blog-tinctures .author {
+    font-size: 1.4rem;
+    color: #737373;
+}
+
+.blog-tinctures .author span {
+    font-weight: 700;
+    color: #404040;
 }

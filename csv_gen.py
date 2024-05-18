@@ -89,6 +89,18 @@ def sanitize_herbs(line):
     if line == 'aniseed': line = 'anise'
     if line == 'cowslip': line = 'primrose'
     if line == 'baptisia tinctoria': line = 'wild indigo'
+    if line == 'blackberry root': line = 'blackberry'
+    if line == 'blackberry leaf': line = 'blackberry'
+    if line == 'blueberry leaves': line = 'blueberry'
+    if line == 'blueberry leaf': line = 'blueberry'
+    if line == 'birch leaf': line = 'birch'
+    if line == 'strawberry leaf': line = 'strawberry'
+    if line == 'bearberry leaf': line = 'bearberry'
+    if line == 'oregon grape root': line = 'oregon grape'
+    if line == 'red raspberry leaves': line = 'raspberry'
+    if line == 'capsicum': line = 'cayenne pepper'
+    if line == 'boswellia': line = 'frankincense'
+    if line == 'stinging nettle': line = 'nettle'
 
     return line
 
@@ -178,6 +190,15 @@ def csv_gen_teas_for_problem(problem_row):
 
             line = sanitize_herbs(line)
 
+            found = False
+            for line_added in lines:
+                # print(line, line_added)
+                if line == line_added[3]:
+                    found = True
+                    break
+            # print('found')
+            if found: continue
+
             herbs_rows_filtered = util.csv_get_rows_filtered(
                 g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line
             )
@@ -226,6 +247,13 @@ def csv_gen_herbs_for_problem(problem_row):
             if line == '': continue
 
             line = sanitize_herbs(line)
+
+            found = False
+            for line_added in lines:
+                if line == line_added[3]:
+                    found = True
+                    break
+            if found: continue
 
             herbs_rows_filtered = util.csv_get_rows_filtered(
                 g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line
@@ -360,6 +388,13 @@ def csv_gen_tinctures_for_problem(problem_row):
             if line == '': continue
 
             line = sanitize_herbs(line)
+            
+            found = False
+            for line_added in lines:
+                if line == line_added[3]:
+                    found = True
+                    break
+            if found: continue
 
             herbs_rows_filtered = util.csv_get_rows_filtered(
                 g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line

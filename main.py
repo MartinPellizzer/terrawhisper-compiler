@@ -355,29 +355,6 @@ def json_preparation_system_problem_list(json_filepath, data):
                 obj[key] = reply[0]
                 util.json_write(json_filepath, data)
             time.sleep(g.PROMPT_DELAY_TIME)
-            
-        # key = 'remedy_constituents'
-        # if key not in obj or obj[key] == []:
-        #     prompt = f'''
-        #         Write a numbered list of the most important medicinal constituents of {remedy_name} that help with {problem_name}.
-        #         Include 1 short sentence description for each of these medicinal constituents, explaining why that medicinal contituent is good for {problem_name}.
-        #         Include only medicinal constituents that have short names.
-        #         Don't include the name of the plant in the constituents names.
-        #         Write each list element using the following format: [constituent name]: [constituent description].
-        #         Never use the following words: can, may, might.
-        #     '''
-        #     reply = utils_ai.gen_reply(prompt)
-        #     reply = utils_ai.reply_to_list_column(reply)
-        #     reply = [line.replace('[', '').replace(']', '') for line in reply]
-        #     if reply != '' and reply != []:
-        #         print('********************************')
-        #         print(reply)
-        #         print('********************************')
-        #         obj[key] = reply
-        #         util.json_write(json_filepath, data)
-        #     time.sleep(g.PROMPT_DELAY_TIME)
-
-
 
         key = 'remedy_properties'
         if key not in obj or obj[key] == []:
@@ -396,12 +373,6 @@ def json_preparation_system_problem_list(json_filepath, data):
                 obj[key] = reply
                 util.json_write(json_filepath, data)
             time.sleep(g.PROMPT_DELAY_TIME)
-        
-        # quit()
-
-        
-
-        
 
         key = 'remedy_parts'
         if key not in obj or obj[key] == []:
@@ -897,6 +868,7 @@ def html_preparation_system_problem_list(html_filepath, data):
     preparation_name = data['preparation_name']
     preparation_name_singular = data['preparation_name_singular']
     preparation_slug = data['preparation_slug']
+    preparation_slug_singular = preparation_name_singular.replace(' ', '-')
 
     for i, remedy_obj in enumerate(data['remedies_list'][:teas_num]):
         herb_slug = remedy_obj['herb_slug'].strip().lower()
@@ -912,7 +884,7 @@ def html_preparation_system_problem_list(html_filepath, data):
         try: article_html += f'<p>{util.text_format_1N1_html(remedy_obj["remedy_desc"])}</p>\n'
         except: print(f'MISSING REMEDY DESC: {html_filepath} >> {problem_name} >> {remedy_name_preparation}')
 
-        img_src = f'/images/{herb_name_common_slug}-{preparation_slug}-for-{problem_slug}.jpg'
+        img_src = f'/images/{herb_name_common_slug}-{preparation_slug_singular}-for-{problem_slug}.jpg'
         img_alt = f'{herb_name_common} {preparation_name_singular} for {problem_name}.jpg'
         try: article_html += f'<p><img src="{img_src}" alt="{img_alt}"><p>\n'
         except: print(f'MISSING REMEDY IMAGE: {problem_name} >> {tea_image_url}')
@@ -965,7 +937,7 @@ def html_preparation_system_problem_supplementary(html_filepath, data):
     if key in data:
         article_html += f'<h2>How to best treat {problem_name} with herbal {preparation_name}?</h2>\n'
         text = data[key]
-        text = text.replace(problem_name, f'<a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name}</a>', 1)
+        text = text.replace(problem_name, f'<a href="/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}.html">{problem_name}</a>', 1)
 
         article_html += f'{util.text_format_1N1_html(text)}\n'
 
@@ -1192,7 +1164,7 @@ def html_preparation_system_problem_supplementary(html_filepath, data):
 #         util.file_write(html_filepath, html)
 
 
-def art_preparation_systems_problems(preparation_slug):
+def art_remedies_systems_problems_preparations(preparation_slug):
     preparation_name = ''
     preparation_name_singular = ''
 
@@ -1247,8 +1219,9 @@ def art_preparation_systems_problems(preparation_slug):
         data['system_id'] = system_id
         data['system_slug'] = system_slug
         data['system_name'] = system_name
-        data['preparation_name'] = preparation_name
         data['preparation_slug'] = preparation_slug
+        data['preparation_name'] = preparation_name
+        data['preparation_name_singular'] = preparation_name_singular
 
         lastmod = util.date_now()
         if 'lastmod' not in data: data['lastmod'] = lastmod
@@ -1354,7 +1327,6 @@ def art_preparation_systems_problems(preparation_slug):
 
                 <body>
                     {header_html}
-                    {breadcrumbs_html}
                     
                     <section class="article-section">
                         <div class="container">
@@ -1668,11 +1640,11 @@ def json_remedies_systems_problems_intro(json_filepath, data):
     if key not in data:
         problem_name = data['problem_name']
         prompt = f'''
-            Write 1 paragraph about the best herbal teas for {problem_name}.
+            Write 1 paragraph about the best herbs for {problem_name}.
             Include a brief definition of: {problem_name}.
             Include the negative impacts of {problem_name} in people lives. 
             Include the causes of {problem_name}. 
-            Include the medicinal herbs and they preparations for {problem_name}. 
+            Include the medicinal herbs and their preparations for {problem_name}. 
             Include the precautions when using herbs medicinally for {problem_name}. 
             Never use the following words: can, may, might.
         '''
@@ -2193,7 +2165,8 @@ def art_remedies_systems_problems():
         article_html += f'{util.text_format_1N1_html(data["definition"])}\n'
         
         article_html += f'<h2>What are the main causes of {problem_name}?</h2>\n'
-        article_html += f'{util.text_format_1N1_html(data["causes_desc"])}\n'
+        try: article_html += f'{util.text_format_1N1_html(data["causes_desc"])}\n'
+        except: pass
         if 'causes_list' in data:
             article_html += f'<p>The most common causes of {problem_name} are listed below.</p>\n'
             article_html += f'<ul>\n'
@@ -3020,24 +2993,27 @@ def json_del_keys_herbalism_tincture(key):
 # EXE
 # #########################################################
 
-# page_home()
-# page_herbalism()
+page_home()
+page_herbalism()
 # page_top_herbs()
 # page_plants(regen_csv=False)
-# page_about()
+page_about()
 # page_start_here()
 
-# art_remedies_systems_problems()
-# art_remedies_systems()
-# art_remedies()
+art_remedies_systems_problems()
+art_remedies_systems()
+art_remedies()
+
+art_remedies_systems_problems_preparations('teas')
+art_remedies_systems_problems_preparations('tinctures')
 
 
-art_preparation_systems_problems('teas')
-art_preparation_systems_problems('tinctures')
+# art_preparation_systems_problems('teas')
+# art_preparation_systems_problems('tinctures')
 
 
-# sitemap.sitemap_all()
-# shutil.copy2('sitemap.xml', 'website/sitemap.xml')
+sitemap.sitemap_all()
+shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 
 # art_preparation_systems('tincture')
 
