@@ -43,3 +43,7 @@ CSV_PROBLEMS_TEAS_FILEPATH = 'database/csv/junctions/problems_teas.csv'
 CSV_PROBLEMS_TINCTURES_FILEPATH = 'database/csv/junctions/problems_tinctures.csv'
 CSV_PROBLEMS_RELATED_FILEPATH = 'database/csv/junctions/problems_related.csv'
 
+
+CATEGORY_HERBALISM = 'herbalism'
+CATEGORY_REMEDIES = 'remedies'
+CATEGORY_HERBS = 'herbs'

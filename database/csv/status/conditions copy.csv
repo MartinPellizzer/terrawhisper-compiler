@@ -1,0 +1,399 @@
+condition_id\condition_slug\condition_slugs_prev\condition_names\system_id\system_id_main\organ\condition_synonyms\scientific_name\similar_searches\condition_classification\related_conditions\causes\condition_pinned\regen\to_process
+0\\\\\\\\\\\\\\\
+1\digestive-system/gut-health\gut-health\gut health\0\\gastrointestinal tract\\\\part\\\x\\x
+2\digestive-system/bad-breath\bad-breath\bad breath, halitosis, mouth odour\0\\mouth \\halitosis\\symptom\\\\\x
+3\digestive-system/dry-mouth\dry-mouth\dry mouth, xerostomia, cottony sensation in mouth, cotton mouth\0\\mouth\\xerostomia \\symptom\\\\\x
+4\digestive-system/mouth-ulcers\mouth-ulcers\mouth ulcers, canker sores, aphthous ulcers, sores in the mouth, mouth sores, painful mouth sores\0\\mouth\\\\symptom\\\\\x
+5\digestive-system/oral-thrush\oral-thrush\oral thrush, candidiasis\0\\mouth, throat\\candidiasis\oral thrush in babies\symptom\\\\\x
+6\digestive-system/periodontal-disease\periodontal-disease\periodontal disease, gum disease\0\\mouth\\\\condition \\\\\x
+7\digestive-system/esophagus-health\esophagus-health\esophagus health\0\\esophagus\\\\part\\\x\\x
+8\digestive-system/throat-pain\throat-pain\throat pain\0\\throat\\\\symptom\\\\\x
+9\digestive-system/heartburn\heartburn\heartburn, burning chest sensation, heartburn sensation, burning sensation\0\\esophagus\\\heartburn during pregnancy\symptom\\\\\x
+10\digestive-system/acid-reflux\acid-reflux\acid reflux\0\\esophagus\gastroesophageal reflux disease, gerd\\gerd, Esophagitis and Gastroesophageal Reflux\symptom\\\\\x
+11\digestive-system/gerd\gerd\gerd\0\\esophagus \\\\condition \\\x\\x
+12\digestive-system/digestion\digestion\digestion\0\\stomach\\\\process\\\x\\x
+13\digestive-system/indigestion\indigestion\indigestion, discomfort eating\0\\stomach \dyspepsia, Functional Dyspepsia\\\symptom\\\\\x
+14\digestive-system/stomach-pain\stomach-pain\stomach pain\0\\stomach\gastric pain\\\symptom\\\\\x
+15\digestive-system/stomach-cramps\stomach-cramps\stomach cramps\0\\stomach\\\\symptom\\\x\\x
+16\digestive-system/hyperacidity\hyperacidity\hyperacidity\0\\stomach\acidity\\\symptom\\\\\x
+17\digestive-system/gastric-problem\gastric-problem\gastric problem\0\\stomach\\\\??\\\\\x
+18\digestive-system/gastritis\gastritis\gastritis\0\\stomach\\\\symptom\\\\\x
+19\digestive-system/mucus-stomach\mucus-stomach\mucus in stomach\0\\stomach\\\\symptom\\\\\x
+20\digestive-system/peptic-ulcers\peptic-ulcers\peptic ulcers, peptic ulcer\0\\stomach, small intestine (duodenum)\\\\condition \\\\\x
+21\digestive-system/gastroenteritis\gastroenteritis\gastroenteritis\0\\stomach, intestines\\\\condition \\\\\x
+22\digestive-system/gastroparesis\gastroparesis\gastroparesis\0\\stomach \\\\condition \\\x\\x
+23\digestive-system/hiatus-hernia\hiatus-hernia\hiatus hernia\0\\stomach\\\\condition \\\\\x
+24\digestive-system/queasy-stomach\queasy-stomach\queasy stomach\0\\stomach\\\nausea? Vomit?\symptom\\\\\x
+25\digestive-system/upset-stomach\upset-stomach\upset stomach\0\\stomach\\\\symptom\\\x\\x
+26\digestive-system/nausea\nausea\nausea, nausea sensation\0\\stomach \\\nausea during pregnancy\symptom\\\\\x
+27\digestive-system/vomiting\vomiting\vomiting\0\\stomach \\\kids vomiting\symptom\\\\\x
+28\digestive-system/gas\gas\gas\0\\gastrointestinal tract \\\\symptom\\\x\\x
+29\digestive-system/gas-stomach\gas-stomach\gas in stomach\0\\stomach\gassy stomach\\\symptom\\\\\x
+30\digestive-system/bloating\bloating\bloating, bloated stomach, bloating feeling, gas bloating, fullness feeling\0\\stomach\\\\symptom\\\\\x
+31\digestive-system/overeating\overeating\overeating\0\\stomach \\\\behavior\\\\\x
+32\digestive-system/food-poisoning\food-poisoning\food poisoning\0\\stomach, intestines\\\\symptom\\\\\x
+33\digestive-system/hangover\hangover\hangover\0\\liver\\\\symptom\\\\\x
+34\digestive-system/jaundice\jaundice\jaundice\0\\liver \\\\symptom\\\\\x
+35\digestive-system/chronic-hepatitis\chronic-hepatitis\chronic hepatitis\0\\liver \\\\condition \\\\\x
+36\digestive-system/viral-hepatitis\viral-hepatitis\viral hepatitis\0\\liver \\\\condition \\\\\x
+37\digestive-system/cirrhosis\cirrhosis\cirrhosis\0\\liver \\\\condition \\\\\x
+38\digestive-system/gallstones\gallstones\gallstones\0\\gallbladder\cholelithiasis\\\condition \\\\\x
+39\digestive-system/cholecystitis\cholecystitis\cholecystitis\0\\gallbladder \\\\condition \\\\\x
+40\digestive-system/abdominal-pain\abdominal-pain\abdominal pain, painful abdomen\0\\abdomen\\\lower abdominal pain\symptom\\\\\x
+41\digestive-system/gas-pain\gas-pain\gas pain\0\\intestines \gas pain\\\symptom\\\\\x
+42\digestive-system/bowel-movement\bowel-movement\bowel movement\0\\intestines \\\\process\\\x\\x
+43\digestive-system/quick-digestion\quick-digestion\quick digestion\0\\intestines \\\\symptom\\\\\x
+44\digestive-system/inflammatory-bowel-disease\inflammatory-bowel-disease\inflammatory bowel disease\0\\intestines, large intestine\\\\group\\\\\x
+45\digestive-system/constipation\constipation\constipation\0\\colon\\\constipation during pregnancy, kids constipation\symptom\\\\\x
+46\digestive-system/diarrhea\diarrhea\diarrhea, occasional diarrhea\0\\colon\diarrhoea, loose motion, running stomach\\\symptom\\\\\x
+47\digestive-system/flatulence\flatulence\flatulence, belching gas\0\\colon\gas\\\symptom\\\\\x
+48\digestive-system/irritable-bowel-syndrome\irritable-bowel-syndrome\irritable bowel syndrome\0\\colon (large intestine)\\\\condition \\\\\x
+49\digestive-system/ulcerative-colitis\ulcerative-colitis\ulcerative colitis\0\\colon\\\\condition \\\\\x
+50\digestive-system/diverticulitis\diverticulitis\diverticulitis\0\\colon\\\\condition \\\\\x
+51\digestive-system/colon-cleanse\colon-cleanse\colon cleanse\0\\colon\\\\procedure\\\x\\x
+52\digestive-system/hemorrhoids\hemorrhoids\hemorrhoids\0\\rectum, anus\\\\symptom\\\\\x
+53\respiratory-system/hay-fever\hay-fever\hay fever\1\\nose, nasal passages, nasal cavity, sinuses, and the mucous membranes\allergic rhinitis\\\symptom\\\\\x
+54\respiratory-system/blocked-nose\blocked-nose\blocked nose\1\\nose, nasal cavity, \clogged nose, nose block, stuffy nose\\\symptom\\\\\x
+55\respiratory-system/runny-nose\runny-nose\runny nose\1\\nose, sinuses\rhinorrhea \\\symptom\\\\\x
+56\respiratory-system/post-nasal-drip\post-nasal-drip\post nasal drip\1\\nose, nasal cavity, throat\post-nasal drip \\\symptom\\\\\x
+57\respiratory-system/sinus-headache\sinus-headache\sinus headache\1\\sinuses \\\\symptom\\\\\x
+58\respiratory-system/sinusitis\sinusitis\sinusitis\1\\sinuses \sinus infection\\\condition \\\\\x
+59\respiratory-system/sore-throat\sore-throat\sore throat\1\\throat, pharynx\pharyngitis \\sore throat at home, itchy throat, itchy throat cough\symptom\\\\\x
+60\respiratory-system/dry-throat\dry-throat\dry throat\1\\Throat, pharynx, larynx \\\\symptom\\\\\x
+61\respiratory-system/snoring\snoring\snoring\1\\throat, soft palate, uvula\\\\symptom\\\\\x
+62\respiratory-system/laryngitis\laryngitis\laryngitis\1\\larynx \\\\symptom\\\\\x
+63\respiratory-system/hoarse-voice\hoarse-voice\hoarse voice\1\\larynx \\\\symptom\hoarseness\\\\x
+64\respiratory-system/lost-voice\lost-voice\lost voice\1\\larynx \\\lost voice due to cough, losing voice, no voice\symptom\\\\\x
+65\respiratory-system/tonsillitis\tonsillitis\Tonsillitis\1\\tonsils, oropharynx\\\\condition \\\\\x
+66\respiratory-system/cough\cough\cough, persistent coughing\1\\lungs, airways, trachea, bronchi, bronchiles\\\dry cough, cough at night, night cough, cough in babies, baby cough, cough for kids, kids cough, kids sore throat, non stop coughing, persistent cough\symptom\sore throat, chest congestion, blocked nose, runny nose, \colds, flu, hay fever, Bronchitis, Asthma \x\\x
+67\respiratory-system/flu\flu\flu\1\\lungs \influenza\\\condition \\\\\x
+68\respiratory-system/chest-congestion\chest-congestion\chest congestion\1\\lungs \\\\symptom\\\\\x
+69\respiratory-system/bronchitis\bronchitis\bronchitis\1\\lungs \\\\symptom\\\\\x
+70\respiratory-system/asthma\asthma\Asthma\1\\lungs \\\\condition \\\\\x
+71\respiratory-system/phlegm\phlegm\phlegm\1\\lungs, airways\\\\symptom\\\\\x
+72\respiratory-system/acute-Bronchitis\acute-Bronchitis\Acute Bronchitis\1\\lungs\\\\condition \\\\\x
+73\respiratory-system/chronic-Bronchitis\chronic-Bronchitis\Chronic Bronchitis\1\\lungs \\\\condition \\\\\x
+74\respiratory-system/pertussis\pertussis\Pertussis\1\\lungs, airways\whooping cough \\\condition \\\\\x
+75\respiratory-system/emphysema\emphysema\Emphysema\1\\lungs \\\\condition \\\\\x
+76\respiratory-system/hiccups\hiccups\hiccups\1\\diaphragm \\\\condition \\\\\x
+77\\\\\\\\\\\\\\\
+78\respiratory-system/colds\colds\the common cold\1\\respiratory tract \colds\\\symptom\\\x\\x
+79\respiratory-system/mucus\mucus\mucus in throat\1\\respiratory tract \\\\condition \\\x\\x
+80\respiratory-system/nasal-congestion\nasal-congestion\nasal congestion\1\\nose \blocked nose\\\symptom\\\x\\x
+81\cardiovascular-system/high-blood-pressure\high-blood-pressure\high blood pressure\2\\heart, blood vessels, kidneys, brain, and eyes\hypertension\\\symptom\\\\\x
+82\cardiovascular-system/low-blood-pressure\low-blood-pressure\low blood pressure\2\\heart, blood vessels \hypotension\\\symptom\\\\\x
+83\cardiovascular-system/heart-pain\heart-pain\heart pain\2\\heart\\\\symptom\\\\\x
+84\cardiovascular-system/high-cholesterol\high-cholesterol\high cholesterol\2\\liver, blood vessels, heart \\\\condition \\\\\x
+85\cardiovascular-system/jaundice\jaundice\jaundice\2\\liver\\\jaundice in newborn\condition \\\\\x
+86\cardiovascular-system/nose-bleeding\nose-bleeding\nose bleeding\2\\nose\epistaxis \\nose bleeding in child\symptom\\\\\x
+87\cardiovascular-system/palpitation\palpitation\palpitation\2\\heart\\\\symptom\\\\\x
+88\cardiovascular-system/swollen-feet\swollen-feet\swollen feet\2\\feet, blood vessels, hearth\\\\symptom\\\\\x
+89\cardiovascular-system/arteriosclerosis\arteriosclerosis\Arteriosclerosis\2\\arteries \\\\condition \\\\\x
+90\cardiovascular-system/congestive-heart-failure\congestive-heart-failure\Congestive Heart Failure\2\\heart \\\\condition \\\\\x
+91\cardiovascular-system/peripheral-arterial-occlusive-disease\peripheral-arterial-occlusive-disease\Peripheral Arterial Occlusive Disease\2\\arteries \\\\condition \\\\\x
+92\cardiovascular-system/varicose-veins\varicose-veins\Varicose Veins \2\\veins \\\\condition \\\\\x
+93\cardiovascular-system/circulation\circulation\circulation\2\\heart \\\\symptom\\\x\\x
+94\cardiovascular-system/cholesterol\cholesterol\cholesterol\2\\liver \\\\symptom\\\x\\x
+95\cardiovascular-system/heart-health\heart-health\heart health\2\\heart \\\\part\\\x\\x
+96\cardiovascular-system/hypertension\hypertension\hypertension\2\\heart \\\\condition \\\x\\x
+97\musculoskeletal-system/muscle-pain\muscle-pain\muscle pain\3\\muscle\myalgia, muscle pain, muscle soreness, body aches\\\symptom\\\\\x
+98\musculoskeletal-system/osteoporosis\osteoporosis\osteoporosis\3\\bones \\\\condition \\\\\x
+99\musculoskeletal-system/arthritis\arthritis\arthritis\3\\joints \\\arthritis in hands\condition \\\\\x
+100\musculoskeletal-system/joint-pain\joint-pain\joint pain\3\\joints \\\joint pain in knee, joint pain in hands, joint pain in foot, joint pain after viral fever\symptom\\\\\x
+101\musculoskeletal-system/joint-stiffness\joint-stiffness\joint stiffness\3\\joints \\\\symptom\\\\\x
+102\musculoskeletal-system/osteoarthritis\osteoarthritis\osteoarthritis\3\\joints \\\osteoarthritis in knees\condition \\\\\x
+103\musculoskeletal-system/rheumatoid-arthritis\rheumatoid-arthritis\rheumatoid arthritis\3\\joints \\\\condition \\\\\x
+104\musculoskeletal-system/bursitis\bursitis\bursitis\3\\joints \\\\condition \\\\\x
+105\musculoskeletal-system/tendinitis\tendinitis\tendinitis\3\\joints \\\\condition \\\\\x
+106\musculoskeletal-system/gout\gout\gout\3\\joints \\\\condition \\\\\x
+107\musculoskeletal-system/back-pain\back-pain\back pain\3\\spine, kidney\Backache \\\symptom\\\\\x
+108\musculoskeletal-system/lower-back-pain\lower-back-pain\lower back pain\3\\spine \\\\symptom\\\\\x
+109\musculoskeletal-system/stiff-neck\stiff-neck\stiff neck\3\\neck \\\\symptom\\\\\x
+110\musculoskeletal-system/neck-pain\neck-pain\neck pain\3\\neck\\\\symptom\\\\\x
+111\musculoskeletal-system/frozen-shoulder\frozen-shoulder\frozen shoulder\3\\shoulder \adhesive capsulitis\\\condition \\\\\x
+112\musculoskeletal-system/jammed-finger\jammed-finger\jammed finger\3\\hand \\\\symptom\\\\\x
+113\musculoskeletal-system/leg-cramps\leg-cramps\leg cramps\3\\leg\\\leg cramps at night\symptom\\\\\x
+114\musculoskeletal-system/leg-pain\leg-pain\leg pain\3\\leg\\\leg pain during periods\symptom\\\\\x
+115\musculoskeletal-system/restless-leg-syndrome\restless-leg-syndrome\Restless Leg Syndrome \3\\leg\rls\\\condition \\\\\x
+116\musculoskeletal-system/knee-pain\knee-pain\knee pain\3\\knee \\\knee swelling and pain\symptom\\\\\x
+117\musculoskeletal-system/knee-swelling\knee-swelling\knee swelling\3\\knee \\\\symptom\\\\\x
+118\musculoskeletal-system/foot-pain\foot-pain\foot pain\3\\foot \\\\symptom\\\\\x
+119\musculoskeletal-system/plantar-fasciitis\plantar-fasciitis\plantar fasciitis\3\\foot \\\\condition \\\\\x
+120\musculoskeletal-system/chapped-lips\chapped-lips\chapped lips\3\\lips \cracked lips\\\symptom\\\\\x
+121\\\\\\\\\\\\\\\
+122\musculoskeletal-system/jaw-pain\jaw-pain\jaw pain\3\\jaw\\\\symptom\\\\\x
+123\musculoskeletal-system/jaw-lock\jaw-lock\jaw lock\3\\jaw\\\\symptom\\\\\x
+124\musculoskeletal-system/jaw-clenching\jaw-clenching\jaw clenching\3\\jaw\bruxism \\\symptom\\\\\x
+125\integumentary-system/eye-twitching\eye-twitching\eye twitching\3\\eye \myokymia \\\symptom\\\\\x
+126\integumentary-system/bone-health\bone-health\bone health\3\\bones \\\\part\\\x\\x
+127\integumentary-system/cramps\cramps\cramps\3\\muscle\\\\symptom\\\x\\x
+128\integumentary-system/itchy-skin\itchy-skin\itchy skin, scratchy sensation\4\\skin\\\at night\problem\\\\\x
+129\integumentary-system/acne\acne\acne\4\\skin\\\\problem\\\\\x
+130\integumentary-system/bee-sting\bee-sting\bee sting\4\\skin\\\\problem\\\\\x
+131\integumentary-system/boils\boils\boils\4\\skin \\\\problem\\\\\x
+132\integumentary-system/chickenpox\chickenpox\chickenpox, chicken pox, varicella\4\\skin \\varicella\\problem\\\\\x
+133\integumentary-system/dry-skin\dry-skin\dry skin\4\\skin\\\\problem\\\\\x
+134\integumentary-system/excessive-sweating\excessive-sweating\excessive sweating\4\\skin\\\\problem\\\\\x
+135\integumentary-system/fungal-infection\fungal-infection\fungal infection\4\\skin\\\\problem\\\\\x
+136\integumentary-system/glowing-skin\glowing-skin\glowing skin\4\\skin\\\\benefit\\\\\x
+137\integumentary-system/insect-bites\insect-bites\insect bites, mosquito bites\4\\skin\\\\problem\\\\\x
+138\integumentary-system/ingrown-hair\ingrown-hair\ingrown hair\4\\skin\\\\problem\\\\\x
+139\integumentary-system/jellyfish-sting\jellyfish-sting\jellyfish sting\4\\skin\\\\problem\\\\\x
+140\\\\\\\\\\\\\\\
+141\integumentary-system/open-pores\open-pores\open pores\4\\skin\\\\problem\\\\\x
+142\integumentary-system/open-wounds\open-wounds\open wounds\4\\skin\\\\problem\\\\\x
+143\integumentary-system/pimples\pimples\pimples\4\\skin\\\\problem\\\\\x
+144\integumentary-system/pigmentation\pigmentation\pigmentation\4\\skin\\\\problem\\\\\x
+145\integumentary-system/ringworm\ringworm\ringworm\4\\skin\\\\problem\\\\\x
+146\integumentary-system/rashes\rashes\rashes\4\\skin\\\\problem\\\\\x
+147\integumentary-system/sunburn\sunburn\sunburn\4\\skin\\\\problem\\\\\x
+148\integumentary-system/eczema \eczema \eczema \4\\skin\\\\problem\\\\\x
+149\integumentary-system/psoriasis\psoriasis\psoriasis\4\\skin\\\\problem\\\\\x
+150\integumentary-system/dermatitis\dermatitis\dermatitis\4\\skin\\\\problem\\\\\x
+151\integumentary-system/nail-fungus\nail-fungus\nail fungus\4\\nails\\\\problem\\\\\x
+152\integumentary-system/dry-hair\dry-hair\dry hair\4\\hair\\\\problem\\\\\x
+153\integumentary-system/frizzy-hair\frizzy-hair\frizzy hair\4\\hair\\\\problem\\\\\x
+154\integumentary-system/grey-hair\grey-hair\grey hair\4\\hair\\\\problem\\\\\x
+155\integumentary-system/hair-fall\hair-fall\hair fall\4\\hair\\\\problem\\\\\x
+156\integumentary-system/oily-hair\oily-hair\oily hair\4\\hair\\\\problem\\\\\x
+157\integumentary-system/quick-hair-growth\quick-hair-growth\quick hair growth\4\\hair\\\\problem\\\\\x
+158\integumentary-system/dandruff\dandruff\dandruff\4\\scalp \\\\problem\\\\\x
+159\integumentary-system/dry-scalp\dry-scalp\dry scalp\4\\scalp\\\\problem\\\\\x
+160\integumentary-system/itchy-scalp\itchy-scalp\itchy scalp\4\\scalp\\\\problem\\\\\x
+161\integumentary-system/lice\lice\lice\4\\scalp \\\\problem\\\\\x
+162\integumentary-system/oily-face\oily-face\oily face\4\\face\\\\problem\\\\\x
+163\integumentary-system/dark-circles\dark-circles\dark circles\4\\eyes\\\\problem\\\\\x
+164\integumentary-system/dry-eyes\dry-eyes\dry eyes\4\\eyes\\\\problem\\\\\x
+165\integumentary-system/puffy-eyes\puffy-eyes\puffy eyes\4\\eyes\\\\problem\\\\\x
+166\integumentary-system/itchy-eyes\itchy-eyes\itchy eyes\4\\eyes\\\\problem\\\\\x
+167\integumentary-system/red-eyes\red-eyes\red eyes\4\\eyes\\\\problem\\\\\x
+168\integumentary-system/stye\stye\stye\4\\eyes\hordeolum \\\problem\\\\\x
+169\integumentary-system/eye-bags\eye-bags\eye bags\4\\eyes\\\\problem\\\\\x
+170\integumentary-system/eye-infection\eye-infection\eye infection\4\\eyes\\\\problem\\\\\x
+171\integumentary-system/eye-stye\eye-stye\eye stye\4\\eyes\hordeolum\\\problem\\\\\x
+172\integumentary-system/eye-irritation\eye-irritation\eye irritation\4\\eyes\\\\problem\\\\\x
+173\integumentary-system/eye-swelling\eye-swelling\eye swelling\4\\eyes\\\\problem\\\\\x
+174\integumentary-system/itchy-ears\itchy-ears\itchy ears\4\\ears\\\\problem\\\\\x
+175\integumentary-system/bleeding-gums\bleeding-gums\bleeding gums\4\\mouth \\\\problem\\\\\x
+176\integumentary-system/gum-pain\gum-pain\gum pain\4\\mouth \\\\problem\\\\\x
+177\integumentary-system/cold-sore\cold-sore\cold sore\4\\mouth \fever blisters \\\problem\\\\\x
+178\integumentary-system/gum-swelling\gum-swelling\gum swelling\4\\mouth\\\\problem\\\\\x
+179\integumentary-system/gum-infection\gum-infection\gum infection\4\\mouth\\\\\\\\\x
+180\\\\\\\\\\\\\\\
+181\\\\\\\\\\\\\\\
+182\integumentary-system/swollen-gums\swollen-gums\swollen gums\4\\mouth\\\\problem\\\\\x
+183\integumentary-system/athlete-foot\athlete-foot\athlete's foot\4\\feet \pedis \\\problem\\\\\x
+184\integumentary-system/cracked-heels\cracked-heels\cracked heels\4\\feet \\\\problem\\\\\x
+185\integumentary-system/foot-odor\foot-odor\foot odor\4\\feet \\\\problem\\\\\x
+186\integumentary-system/ingrown-toenail\ingrown-toenail\ingrown toenail\4\\feet \\\\problem\\\\\x
+187\integumentary-system/dry-lips\dry-lips\dry lips\4\\lips\\\\problem\\\\\x
+188\integumentary-system/dark-lips\dark-lips\dark lips\4\\lips\\\\problem\\\\\x
+189\integumentary-system/lip-fever-blister\lip-fever-blister\fever blister on lip\4\\lips\\\\problem\\\\\x
+190\integumentary-system/pink-lips\pink-lips\pink lips\4\\lips\\\\problem\\\\\x
+191\integumentary-system/toothache\toothache\toothache\4\\tooth\\\\problem\\\\\x
+192\integumentary-system/breastfeeding-nipple-pain\breastfeeding-nipple-pain \nipple pain during breastfeeding\4\\nipples\\\\problem\\\\\x
+193\integumentary-system/jock-itch\jock-itch\jock itch\4\\groin \cruris \\\problem\\\\\x
+194\integumentary-system/oily-skin\oily-skin\oily skin\4\\skin\\\\symptom\\\x\\x
+195\integumentary-system/clear-skin\clear-skin\clear skin\4\\skin\\\\benefit\\\x\\x
+196\integumentary-system/eye-health\eye-health\eye health\4\\eyes\\\\part\\\x\\x
+197\integumentary-system/eyesight\eyesight\eyesight\4\\eyes\\\\benefit\\\x\\x
+198\integumentary-system/hair-growth\hair-growth\hair growth\4\\hair\\\\procedure\\\x\\x
+199\nervous-system/neuritis\neuritis\neuritis\5\\nerves\\\\problem\\\\\x
+200\nervous-system/nerve-pain\nerve pain\nerve pain\5\\nerves\\\\problem\\\\\x
+201\nervous-system/headache\headache\headache\5\\brain \\\headache, headache due to cold weather, headache during pregnancy\symptom\\\\\x
+202\nervous-system/one-side-headache\one-side-headache\one side headache\5\\brain \\\\problem\\\\\x
+203\nervous-system/migraine\migraine\migraine\5\\brain \\\\problem\\\\\x
+204\nervous-system/insomnia\insomnia\insomnia\5\\brain \\\insomnia for elderly\problem\\\\\x
+205\nervous-system/quick-sleep\quick-sleep\quick sleep\5\\brain \\\\problem\\\\\x
+206\nervous-system/anxiety\anxiety\anxiety\5\\brain \\\\problem\\\\\x
+207\nervous-system/stress\stress\stress\5\\brain \\\\problem\\\\\x
+208\nervous-system/depression\depression\depression\5\\brain \\\\problem\\\\\x
+209\nervous-system/anorexia-nervosa\anorexia-nervosa\anorexia nervosa\5\\brain \\\\problem\\\\\x
+210\nervous-system/jet-lag\jet-lag\jet lag\5\\brain \\\\problem\\\\\x
+211\nervous-system/eye-pain\eye-pain\eye pain\5\\eyes\\\\problem\\\\\x
+212\nervous-system/eye-strain\eye-strain\eye strain\5\\eyes\\\\problem\\\\\x
+213\nervous-system/pink-eye\pink-eye\pink eye\5\\eyes\conjunctivitis\\\problem\\\\\x
+214\nervous-system/sore-eyes\sore-eyes\sore eyes\5\\eyes\\\\problem\\\\\x
+215\nervous-system/tinnitus\tinnitus\tinnitus\5\\ears\\\\problem\\\\\x
+216\nervous-system/dizziness\dizziness\dizziness\5\\ears\\\\problem\\\\\x
+217\nervous-system/ear-blockage\ear-blockage\ear blockage\5\\ears\\\\problem\\\\\x
+218\nervous-system/motion-sickness\motion-sickness\motion sickness\5\\ears\\\\problem\\\\\x
+219\nervous-system/shingles\shingles\shingles\5\\spine \herpes zoster \\\problem\\\\\x
+220\nervous-system/strep-throat\strep-throat\strep throat\5\\throat\\\\problem\\\\\x
+221\nervous-system/nausea\nausea\nausea\5\\stomach\\\\problem\\\\\x
+222\nervous-system/hands-numbness\hands-numbness\numbness in hands\5\\hands\\\\problem\\\\\x
+223\nervous-system/burning-feet\burning-feet\burning feet\5\\feet \\\\problem\\\\\x
+224\nervous-system/alertness\alertness\alertness\5\\brain \\\\benefit\\\x\\x
+225\nervous-system/brain-fog\brain-fog\brain fog\5\\brain \\\\symptom\\\x\\x
+226\nervous-system/fatigue\fatigue\fatigue\5\\brain \\\\symptom\\\x\\x
+227\nervous-system/sleep\sleep\sleep\5\\brain \\\\symptom\\\x\\x
+228\nervous-system/ear-infection\ear-infection\ear infection\5\\ears\\\\condition \\\x\\x
+229\nervous-system/earache\earache\earache, ear pain\5\\ears\\\\symptom\\\x\\x
+230\nervous-system/eye-floaters\eye-floaters\eye floaters\5\\eyes\\\\symptom\\\x\\x
+231\nervous-system/focus\focus\focus\5\\brain \\\\benefit\\\x\\x
+232\nervous-system/concentration\concentration\concentration\5\\brain \\\\benefit\\\x\\x
+233\nervous-system/grief\grief\grief\5\\brain \\\\symptom\\\x\\x
+234\immune-system/allergies\allergies\allergy\6\\body\\\\condition \\\x\\x
+235\immune-system/fever\fever\fever\6\\brain \\\\symptom\\\\\x
+236\immune-system/inflammation\inflammation\inflammation\6\\body\\\\problem\\\\\x
+237\immune-system/detox\detox\detox\6\\body\Detoxification\\\problem\\\\\x
+238\immune-system/postoperative-recovery\postoperative-recovery\postoperative recovery\6\\body\\\\problem\\\\\x
+239\immune-system/vaginitis\vaginitis\vaginitis\6\\vagina \\\\problem\\\\\x
+240\immune-system/prostatitis\prostatitis\prostatitis\6\\prostate \\\\problem\\\\\x
+241\immune-system/boils\boils\boils\6\\skin \\\\problem\\\\\x
+242\immune-system/fungal-skin-infection\fungal-skin-infection\fungal skin infection\6\\skin \\\\problem\\\\\x
+243\immune-system/cancer-prevention\cancer-prevention\preventing cancer\6\\body\\\\problem\\\\\x
+244\\\\\\\\\\\\\\\
+245\immune-system/infection\infection\infection\6\\body\\\\symptom\\\x\\x
+246\urinary-system/overactive-bladder\overactive-bladder\overactive bladder\7\\bladder \frequent urination\\\problem\\\\\x
+247\urinary-system/dysuria\dysuria\dysuria\7\\bladder \painful or difficult urination \\\problem\\\\\x
+248\urinary-system/cystitis\cystitis\cystitis\7\\bladder \\\\problem\\\\\x
+249\urinary-system/urinary-calculus\urinary-calculus\urinary calculus\7\\kidney \\\\problem\\\\\x
+250\urinary-system/hematuria\hematuria\hematuria\7\\kidneys \\\\problem\\\\\x
+251\urinary-system/edema\edema\edema\7\\kidneys \\\\problem\\\\\x
+252\urinary-system/bladder-pain\bladder-pain\bladder pain\7\\bladder \\\\symptom\\\x\\x
+253\urinary-system/dehydration\dehydration\dehydration\7\\kidneys \\\\condition \\\x\\x
+254\urinary-system/fluid-retention\fluid-retention\fluid retention\7\\kidneys \\\\symptom\\\x\\x
+255\urinary-system/hydration\hydration\hydration\7\\kidneys \\\\condition \\\x\\x
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+256\reproductive-system/breastfeeding-breast-pain\breastfeeding-breast-pain \breast pain during breastfeeding\8\\breasts\\\\problem\\\\\x
+257\\\erectile dysfunction\8\\penis \\\\\\\\\
+258\\\low sperm count\8\\testes \\\\\\\\\
+259\reproductive-system/menstrual-cramps\menstrual-cramps\menstrual cramps\8\\uterus \\\\problem\\\\\x
+260\reproductive-system/morning-sickness\morning-sickness\morning sickness\8\\stomach \\\\problem\\\\\x
+261\reproductive-system/ovulation-pain\ovulation-pain\ovulation pain\8\\ovaries \mittelschmerz\\\problem\\\\\x
+262\reproductive-system/periods-over-bleeding\periods-over-bleeding\over bleeding during periods\8\\uterus \\\\problem\\\\\x
+263\reproductive-system/period-cramps\period-cramps\period cramps\8\\uterus \dysmenorrhea \\\problem\\\\\x
+264\\\premature ejaculation\8\\penis \\\\\\\\\
+265\reproductive-system/prostate-inflammation\prostate-inflammation\prostate inflammation\8\\prostate \\\\problem\\\\\x
+266\reproductive-system/periods\periods\periods\8\\uterus \menstruation \\\problem\\\\\x
+267\reproductive-system/amenorrhea\amenorrhea\amenorrhea\8\\ovaries \absence of menstrual periods \\\problem\\\\\x
+268\reproductive-system/premenstrual-syndrome\premenstrual-syndrome\premenstrual syndrome\8\\ovaries \PMS \\\problem\\\\\x
+269\reproductive-system/menopause\menopause\menopause\8\\ovaries \\\\problem\\\\\x
+270\\\\8\\uterus \\\\\\\\\
+271\reproductive-system/uterine-fibroids\uterine-fibroids\uterine fibroids\8\\uterus \\\\problem\\\\\x
+272\reproductive-system/endometriosis\endometriosis\endometriosis\8\\uterus \\\\problem\\\\\x
+273\reproductive-system/fibrocystic-breast-disease\fibrocystic-breast-disease\fibrocystic breast disease\8\\breasts\\\\problem\\\\\x
+274\reproductive-system/benign-prostatic-hypertrophy\benign-prostatic-hypertrophy\benign prostatic hypertrophy\8\\prostate \BPH \\\problem\\\\\x
+275\reproductive-system/endometriosis-pain\endometriosis-pain\endometriosis pain\8\\uterus \\\\symptom\\\x\\x
+276\reproductive-system/fertility\fertility\fertility\8\\ovaries, testes \\\\condition \\\x\\x
+277\reproductive-system/breastfeeding\breastfeeding\breastfeeding\8\\breasts\\\\procedure\\\x\\x
+278\reproductive-system/female-libido\female-libido\female libido\8\\brain \\\\condition \\\x\\x
+279\reproductive-system/female-fertility\female-fertility\female fertility\8\\ovaries\\\\condition \\\x\\x
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+280\endocrine-system/hormonal-imbalance\hormonal-imbalance\hormonal imbalance\9\\body\\\\problem\\\\\x
+281\endocrine-system/hot-flashes\hot-flashes\hot flashes\9\\hypothalamus \\\\problem\\\\\x
+282\endocrine-system/hypothyroidism\hypothyroidism\hypothyroidism\9\\thyroid \\\\problem\\\\\x
+283\endocrine-system/hyperthyroidism\hyperthyroidism\hyperthyroidism\9\\thyroid \\\\problem\\\\\x
+284\endocrine-system/diabetes-mellitus\diabetes-mellitus\diabetes mellitus\9\\pancreas \\\\problem\\\\\x
+285\\\\9\\adrenal glands \\\\\\\\\
+286\endocrine-system/adrenal-fatigue\adrenal-fatigue\adrenal fatigue\9\\adrenal glands \\\\problem\\\\\x
+287\endocrine-system/female-hormone-balance\female-hormone-balance\female hormone balance\9\\ovaries \\\\condition \\\x\\x
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+288\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+289\other-systems/belly-fat\belly-fat\belly fat\10\\\\\\symptom\\\x\\x
+290\other-systems/weight-loss\weight-loss\weight loss\10\\\\\\benefit\\\x\\x
+291\other-systems/anti-aging\anti-aging\anti aging\10\\\\\\benefit\\\x\\x
+292\other-systems/appetite-suppression\appetite-suppression\appetite suppression\10\\\\\\benefit\\\x\\x
+293\other-systems/diet\diet\diet\10\\\\\\benefit\\\x\\x
+294\other-systems/energy-boost\energy-boost\energy boost\10\\\\\\benefit\\\x\\x
+295\other-systems/flat-tummy\flat-tummy\flat tummy\10\\\\\\benefit\\\x\\x
+296\other-systems/fasting\fasting\fasting\10\\\\\\benefit\\\x\\x
+297\other-systems/fat-loss\fat-loss\fat loss\10\\\\\\benefit\\\x\\x
+298\other-systems/good-health\good-health\good health\10\\\\\\benefit\\\x\\x
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+299\\\\\\\\\\animal\\\x\\x
+300\\\\\\\\\\animal\\\x\\x
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+301\lymphatic-system/enlarged-spleen\enlarged-spleen\enlarged spleen\13\\\\\\symptom\\\x\\x
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+\\\\\\\\\\\\\\\
+302\integumentary-system/aging\aging\aging \4\\\\\\problem\\\\\x
+303\respiratory-system/altitude-sickness\altitude-sickness\altitude sickness\1\\\\\\problem\\\\\x
+304\nervous-system/alzheimer-disease\alzheimer-disease\alzheimer’s disease\5\\\\\\problem\\\\\x
+305\cardiovascular-system/angina\angina\angina\2\\\\\\problem\\\\\x
+306\musculoskeletal-system/akylosing-spondylitis \akylosing-spondylitis \ankylosing spondylitis \3\\\\\\problem\\\\\x
+307\integumentary-system/baldness\baldness\baldness\4\\\\\\problem\\\\\x
+308\urinary-system/bladder-infection\bladder-infection\bladder infection\7\\\\\\problem\\\\\x
+309\integumentary-system/body-odor\body-odor\body odor\4\\\\\\problem\\\\\x
+310\reproductive-system/breast-enlargement\breast-enlargement\breast enlargement\8\\\\\\problem\\\\\x
+311\integumentary-system/bruises\bruises\bruises\4\\\\\\problem\\\\\x
+312\musculoskeletal-system/bunion\bunion\bunion \3\\\\\\problem\\\\\x
+313\integumentary-system/burns\burns\burns\4\\\\\\problem\\\\\x
+314\respiratory-system/wheezing\wheezing\wheezing\1\\\\\\problem\\\\\x
+315\respiratory-system/breath-shortness\breath-shortness\shortness of breath\1\\\\\\problem\\\\\x
+316\immune-system/chills\chills\chills\6\\\\\\problem\\\\\x
+317\digestive-system/appetite-loss\appetite-loss\loss of appetite\0\\\\\\problem\\\\\x
+318\digestive-system/difficulty-swallowing\difficulty-swallowing\difficulty swallowing, swallowing difficulty, difficult swallowing\0\\\\dysphagia \\problem\\\\\x
+319\integumentary-system/inflamed-gums\inflamed-gums\inflamed gums\4\\\\\\problem\\\\\x
+320\integumentary-system/white-tongue\white-tongue\white tongue\4\\\\\\problem\\\\\x
+321\integumentary-system/bad-taste\bad-taste\bad taste, persistent bad taste\4\\\\\\problem\\\\\x
+322\integumentary-system/taste-changes\taste-changes\taste changes\4\\changes in taste\\\\problem\\\\\x
+323\integumentary-system/dental-plaque\dental-plaque\dental plaque \4\\increased plaque\\\\problem\\\\\x
+324\integumentary-system/tooth-decay\tooth-decay\tooth decay\4\\\\\\problem\\\\\x
+325\respiratory-system/dry-nose\dry-nose\dry nose\1\\dry nasal passages\\\\problem\\\\\x
+326\integumentary-system/inflamed-mouth\inflamed-mouth\inflamed mouth, sore mouth, stomatitis, swollen mouth lining\4\\\\stomatitis\\problem\\\\\x
+327\musculoskeletal-system/difficulty-chewing\difficulty-chewing\difficulty chewing\3\\\\\\problem\\\\\x
+328\nervous-system/speech-difficulty\speech-difficulty\speech difficulty\5\\\\\\problem\\\\\x
+329\lymphatic-system/lymph-node-swelling\lymph-node-swelling\lymph node swelling, swollen glands\13\\\\\\problem\\\\\x
+330\integumentary-system/month-white-patches\month-white-patches\white patches in month\4\\\\\\problem\\leukoplakia \\\x
+331\integumentary-system/taste-loss\taste-loss\taste loss, loss of taste\4\\\\\\problem\\\\\x
+332\integumentary-system/mouth-reddened-corners\mouth-reddened-corners\reddened corners, angular cheilitis, cracked skin corner of mouth \4\\\\\\problem\\angular cheilitis\\\x
+333\digestive-system/difficulty-eating\difficulty-eating\difficulty eating\0\\\\\\problem\\\\\x
+334\digestive-system/painful-swallowing\painful-swallowing\painful swallowing\0\\\\\\problem\\\\\x
+335\integumentary-system/mouth-bleeding-spots\mouth-bleeding-spots\bleeding spots in mouth\4\\\\\\problem\\\\\x
+336\respiratory-system/dry-cough\dry-cough\dry cough\1\\\\\\problem\\\\\x
+337\digestive-system/throat-congestion\throat-congestion\throat congestion\0\\\\\\problem\\\\\x
+338\digestive-system/difficult-speaking\difficult-speaking\difficult speaking\0\\\\\\problem\\\\\x
+339\immune-system/feverish-feeling\feverish-feeling\feverish feeling\6\\\\\\problem\\\\\x
+340\respiratory-system/tickling-throat\tickling-throat\tickling throat\1\\\\\\problem\\\\\x
+341\respiratory-system/throat-redness\throat-redness\throat redness\1\\\\\\problem\\\\\x
+342\digestive-system/throat-irritation\throat-irritation\throat irritation\0\\\\\\problem\\\\\x
+343\digestive-system/mouth-sour-taste\mouth-sour-taste\sour taste in mouth\0\\\\\\problem\\\\\x
+344\digestive-system/mouth-bitter-taste\mouth-bitter-taste\bitter taste in mouth, bitter taste\0\\\\\\problem\\\\\x
+345\digestive-system/burping\burping\burping, burping frequently\0\\\\\\problem\\\\\x
+346\digestive-system/regurgitation\regurgitation\regurgitation\0\\\\\\problem\\\\\x
+347\digestive-system/stomach-discomfort\stomach-discomfort\stomach discomfort\0\\\\\\problem\\\\\x
+348\respiratory-system/coughing-fits\coughing-fits\coughing fits\1\\\\Paroxysmal coughing \\problem\\\\\x
+349\digestive-system/stomach-growling\stomach-growling\stomach growling\0\\\\\\problem\\\\\x
+350\digestive-system/upper-abdominal-pain\upper-abdominal-pain\upper abdominal pain\0\\\\\\problem\\\\\x
+351\digestive-system/food-intolerance\food-intolerance\food intolerance\0\\\\\\problem\\\\\x
+352\swollen-tonsils\\swollen tonsils\13\\\\\\\\\\\
+353\teeth-stains\\teeth stains\4\\\\\\\\\\\
+354\metallic-taste\\metallic taste\0\\\\\\\\\\\
+355\thick-saliva\\thick saliva\\\\\\\\\\\\
+356\fissured-tongue\\fissured tongue, grooved tongue\\\\\\\\\\\\
+357\thirst\\thirst\\\\\\\\\\\\
+358\mouth-pain\\mouth pain\\\\\\\\\\\\
+359\mouth-inflammation\\mouth inflammation\\\\\\\\\\\\
+360\mouth-swelling\\mouth swelling\\\\\\\\\\\\
+361\\\\\\\\\\\\\\\
+362\\\\\\\\\\\\\\\

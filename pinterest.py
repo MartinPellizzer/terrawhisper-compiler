@@ -102,7 +102,7 @@ for article_filepath in tinctures_articles_filepath:
     remedy_num = data['remedies_num']
     title = data['title']
     problem_name = data['problem_name']
-    preparation = 'tincture'
+    preparation = 'tinctures'
     url = data['url']
     remedies = data['remedies_list']
     filename_out = url.replace('/', '-')

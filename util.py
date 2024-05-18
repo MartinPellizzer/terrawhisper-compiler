@@ -446,7 +446,7 @@ def header_default_dark():
                     <ul class="menu-dark">
                         <li><a href="/">Home</a></li>
                         <li><a href="/herbalism.html">Herbalism</a></li>
-                        <li><a href="/ailments.html">Ailments</a></li>
+                        <li><a href="/remedies.html">Remedies</a></li>
                         <li><a href="/about.html">About</a></li>
                     </ul>
                 </nav>

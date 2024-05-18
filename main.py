@@ -10,6 +10,10 @@ import util
 import utils_ai
 import sitemap
 
+conditions_rows = util.csv_get_rows('database/csv/status/conditions.csv')
+conditions_cols = util.csv_get_cols(conditions_rows)
+conditions_rows = conditions_rows[1:]
+
 problems_rows = util.csv_get_rows(g.CSV_PROBLEMS_FILEPATH)
 problems_cols = util.csv_get_cols(problems_rows)
 problems_rows = problems_rows[1:]
@@ -1053,14 +1057,149 @@ def html_preparation_system_problem_supplementary(html_filepath, data):
 
 # EXE
 
+# def art_preparation_systems_problems(preparation_slug):
+#     preparation_name = ''
+#     preparation_name_singular = ''
+
+#     if preparation_slug == 'tea':
+#         preparation_name = 'teas'
+#         preparation_name_singular = 'tea'
+#     elif preparation_slug == 'tincture':
+#         preparation_name = 'tinctures'
+#         preparation_name_singular = 'tincture'
+
+#     if preparation_name == '': return
+#     if preparation_name_singular == '': return
+
+#     for problem_row in problems_rows[:g.ART_NUM]:
+#         problem_id = problem_row[problems_cols['problem_id']]
+#         problem_slug = problem_row[problems_cols['problem_slug']]
+#         problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+#         if problem_id == '': continue
+#         if problem_slug == '': continue
+#         if problem_name == '': continue
+
+#         preparations_rows_filtered = csv_get_preparations_by_problem(problem_id)
+#         preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows_filtered]
+
+#         if preparation_slug == 'tea':
+#             if 'infusions' not in preparations_names: continue
+#         elif preparation_slug == 'tincture':
+#             if 'tinctures' not in preparations_names: continue
+
+#         print(f'> {problem_name}')
+
+#         system_row = csv_get_system_by_problem(problem_id)
+#         system_id = system_row[systems_cols['system_id']]
+#         system_slug = system_row[systems_cols['system_slug']]
+#         system_name = system_row[systems_cols['system_name']]
+
+#         if system_id == '': continue
+#         if system_slug == '': continue
+#         if system_name == '': continue
+
+#         print(f'  > {system_name}')
+
+#         json_filepath = f'database/json/herbalism/{preparation_slug}/{system_slug}/{problem_slug}.json'
+
+#         util.create_folder_for_filepath(json_filepath)
+#         util.json_generate_if_not_exists(json_filepath)
+#         data = util.json_read(json_filepath)
+#         data['problem_id'] = problem_id
+#         data['problem_slug'] = problem_slug
+#         data['problem_name'] = problem_name
+#         data['system_id'] = system_id
+#         data['system_slug'] = system_slug
+#         data['system_name'] = system_name
+#         data['preparation_name'] = preparation_name
+#         data['preparation_name_singular'] = preparation_name_singular
+#         data['preparation_slug'] = preparation_slug
+
+#         lastmod = util.date_now()
+#         if 'lastmod' not in data: data['lastmod'] = lastmod
+#         else: lastmod = data['lastmod'] 
+
+#         data['url'] = f'herbalism/{preparation_slug}/{system_slug}/{problem_slug}'
+
+#         data['remedies_num'] = ART_ITEMS_NUM
+#         title = f'{ART_ITEMS_NUM} best herbal {preparation_name} for {problem_name}'
+#         data['title'] = title
+
+#         util.json_write(json_filepath, data)
+        
+#         # JSON
+#         json_preparation_system_problem_intro(json_filepath, data)
+#         json_preparation_system_problem_list(json_filepath, data)
+#         json_preparation_system_problem_supplementary(json_filepath, data)
+
+#         # IMG
+#         img_preparation_systems_problems_featured(data)
+#         img_preparation_systems_problems_list(data)
+#         img_preparation_systems_problems_cheatsheet(data)
+        
+#         # HTML
+#         html_filepath = f'website/herbalism/{preparation_slug}/{system_slug}/{problem_slug}.html'
+
+#         data = util.json_read(json_filepath)
+
+#         article_html = ''
+#         article_html += html_preparation_system_problem_intro(html_filepath, data)
+#         article_html += html_preparation_system_problem_list(html_filepath, data)
+#         article_html += html_preparation_system_problem_supplementary(html_filepath, data)
+
+#         header_html = util.header_default_dark()
+#         breadcrumbs_html = util.breadcrumbs(html_filepath)
+#         meta_html = util.article_meta(article_html, lastmod)
+#         article_html = util.article_toc(article_html)
+
+#         html = f'''
+#             <!DOCTYPE html>
+#             <html lang="en">
+
+#             <head>
+#                 <meta charset="UTF-8">
+#                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#                 <meta name="author" content="{g.AUTHOR_NAME}">
+#                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+#                 <link rel="stylesheet" href="/style.css">
+#                 <title>{title}</title>
+#                 {g.GOOGLE_TAG}
+                
+#             </head>
+
+#             <body>
+#                 {header_html}
+#                 {breadcrumbs_html}
+                
+#                 <section class="article-section">
+#                     <div class="container">
+#                         {meta_html}
+#                         {article_html}
+#                     </div>
+#                 </section>
+
+#                 <footer>
+#                     <div class="container-lg">
+#                         <span>© TerraWhisper.com 2024 | All Rights Reserved
+#                     </div>
+#                 </footer>
+#             </body>
+
+#             </html>
+#         '''
+
+#         util.file_write(html_filepath, html)
+
+
 def art_preparation_systems_problems(preparation_slug):
     preparation_name = ''
     preparation_name_singular = ''
 
-    if preparation_slug == 'tea':
+    if preparation_slug == 'teas':
         preparation_name = 'teas'
         preparation_name_singular = 'tea'
-    elif preparation_slug == 'tincture':
+    elif preparation_slug == 'tinctures':
         preparation_name = 'tinctures'
         preparation_name_singular = 'tincture'
 
@@ -1079,9 +1218,9 @@ def art_preparation_systems_problems(preparation_slug):
         preparations_rows_filtered = csv_get_preparations_by_problem(problem_id)
         preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows_filtered]
 
-        if preparation_slug == 'tea':
+        if preparation_slug == 'teas':
             if 'infusions' not in preparations_names: continue
-        elif preparation_slug == 'tincture':
+        elif preparation_slug == 'tinctures':
             if 'tinctures' not in preparations_names: continue
 
         print(f'> {problem_name}')
@@ -1097,7 +1236,7 @@ def art_preparation_systems_problems(preparation_slug):
 
         print(f'  > {system_name}')
 
-        json_filepath = f'database/json/herbalism/{preparation_slug}/{system_slug}/{problem_slug}.json'
+        json_filepath = f'database/json/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/{preparation_slug}.json'
 
         util.create_folder_for_filepath(json_filepath)
         util.json_generate_if_not_exists(json_filepath)
@@ -1109,14 +1248,13 @@ def art_preparation_systems_problems(preparation_slug):
         data['system_slug'] = system_slug
         data['system_name'] = system_name
         data['preparation_name'] = preparation_name
-        data['preparation_name_singular'] = preparation_name_singular
         data['preparation_slug'] = preparation_slug
 
         lastmod = util.date_now()
         if 'lastmod' not in data: data['lastmod'] = lastmod
         else: lastmod = data['lastmod'] 
 
-        data['url'] = f'herbalism/{preparation_slug}/{system_slug}/{problem_slug}'
+        data['url'] = f'{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/{preparation_slug}'
 
         data['remedies_num'] = ART_ITEMS_NUM
         title = f'{ART_ITEMS_NUM} best herbal {preparation_name} for {problem_name}'
@@ -1135,7 +1273,7 @@ def art_preparation_systems_problems(preparation_slug):
         img_preparation_systems_problems_cheatsheet(data)
         
         # HTML
-        html_filepath = f'website/herbalism/{preparation_slug}/{system_slug}/{problem_slug}.html'
+        html_filepath = f'website/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/{preparation_slug}.html'
 
         data = util.json_read(json_filepath)
 
@@ -1189,7 +1327,112 @@ def art_preparation_systems_problems(preparation_slug):
 
 
 
+        # REDIRECT
+        
+        html_filepath_from = f'website/herbalism/{preparation_name_singular}/{system_slug}/{problem_slug}.html'
+        html_filepath_to = f'{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/{preparation_slug}.html'
 
+        print(html_filepath_from)
+        if os.path.exists(html_filepath_from):
+            redirect = f'<meta http-equiv="refresh" content="0; url=https://terrawhisper.com/{html_filepath_to}">'
+
+            html = f'''
+                <!DOCTYPE html>
+                <html lang="en">
+
+                <head>
+                    <meta charset="UTF-8">
+                    {redirect}
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta name="author" content="{g.AUTHOR_NAME}">
+                    <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                    <link rel="stylesheet" href="/style.css">
+                    <title>{title}</title>
+                    {g.GOOGLE_TAG}
+                    
+                </head>
+
+                <body>
+                    {header_html}
+                    {breadcrumbs_html}
+                    
+                    <section class="article-section">
+                        <div class="container">
+                            {meta_html}
+                            {article_html}
+                        </div>
+                    </section>
+
+                    <footer>
+                        <div class="container-lg">
+                            <span>© TerraWhisper.com 2024 | All Rights Reserved
+                        </div>
+                    </footer>
+                </body>
+
+                </html>
+            '''
+
+            util.file_write(html_filepath_from, html)
+        else:
+            print('path dont exists')
+
+
+
+def json_copy_jsons():
+    for problem_row in problems_rows[:g.ART_NUM]:
+        problem_id = problem_row[problems_cols['problem_id']]
+        problem_slug = problem_row[problems_cols['problem_slug']]
+        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+        if problem_id == '': continue
+        if problem_slug == '': continue
+        if problem_name == '': continue
+
+        print(f'> {problem_name}')
+
+        system_row = csv_get_system_by_problem(problem_id)
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        print(f'  > {system_name}')
+
+        json_filepath_in = f'database/json/herbalism/tea/{system_slug}/{problem_slug}.json'
+        json_filepath_out = f'database/json/remedies/{system_slug}/{problem_slug}/teas.json'
+
+        if os.path.exists(json_filepath_in):
+            util.create_folder_for_filepath(json_filepath_out)
+            shutil.copy2(json_filepath_in, json_filepath_out)
+
+        json_filepath_in = f'database/json/herbalism/tincture/{system_slug}/{problem_slug}.json'
+        json_filepath_out = f'database/json/remedies/{system_slug}/{problem_slug}/tinctures.json'
+
+        if os.path.exists(json_filepath_in):
+            util.create_folder_for_filepath(json_filepath_out)
+            shutil.copy2(json_filepath_in, json_filepath_out)
+
+        json_filepath_in = f'website/herbalism/tea/{system_slug}/{problem_slug}.html'
+        json_filepath_out = f'website/remedies/{system_slug}/{problem_slug}/teas.html'
+
+        if os.path.exists(json_filepath_in):
+            util.create_folder_for_filepath(json_filepath_out)
+            shutil.copy2(json_filepath_in, json_filepath_out)
+
+        json_filepath_in = f'website/herbalism/tincture/{system_slug}/{problem_slug}.html'
+        json_filepath_out = f'website/remedies/{system_slug}/{problem_slug}/tinctures.html'
+
+        if os.path.exists(json_filepath_in):
+            util.create_folder_for_filepath(json_filepath_out)
+            shutil.copy2(json_filepath_in, json_filepath_out)
+
+
+# json_copy_jsons()
+# quit()
 
 
 def json_preparation_system_intro(json_filepath, data):
@@ -1420,7 +1663,7 @@ def art_preparation_systems(preparation_slug):
 # ARTICLES - PROBLEMS
 # #########################################################
 
-def json_ailments_systems_problems_intro(json_filepath, data):
+def json_remedies_systems_problems_intro(json_filepath, data):
     key = 'intro'
     if key not in data:
         problem_name = data['problem_name']
@@ -1445,7 +1688,7 @@ def json_ailments_systems_problems_intro(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def json_ailments_systems_problems_definition(json_filepath, data):
+def json_remedies_systems_problems_definition(json_filepath, data):
     key = 'definition'
     if key not in data:
         problem_name = data['problem_name']
@@ -1466,7 +1709,7 @@ def json_ailments_systems_problems_definition(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def json_ailments_systems_problems_causes(json_filepath, data):
+def json_remedies_systems_problems_causes(json_filepath, data):
     key = 'causes_desc'
     if key not in data:
         problem_name = data['problem_name']
@@ -1534,7 +1777,7 @@ def json_ailments_systems_problems_causes(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def json_ailments_systems_problems_herbs(json_filepath, data):
+def json_remedies_systems_problems_herbs(json_filepath, data):
     herbs_num = 10
 
     key = 'herbs_desc'
@@ -1618,7 +1861,7 @@ def json_ailments_systems_problems_herbs(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def json_ailments_systems_problems_preparations(json_filepath, data):
+def json_remedies_systems_problems_preparations(json_filepath, data):
     key = 'preparations_desc'
     if key not in data:
         problem_id = data['problem_id']
@@ -1708,7 +1951,7 @@ def json_ailments_systems_problems_preparations(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def json_ailments_systems_problems_precautions(json_filepath, data):
+def json_remedies_systems_problems_precautions(json_filepath, data):
     key = 'precautions_desc'
     if key not in data:
         problem_name = data['problem_name']
@@ -1765,7 +2008,7 @@ def json_ailments_systems_problems_precautions(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
         
 
-def json_ailments_systems_problems_other_remedies(json_filepath, data):
+def json_remedies_systems_problems_other_remedies(json_filepath, data):
     key = 'other_remedies_desc'
     if key not in data:
         problem_name = data['problem_name']
@@ -1826,7 +2069,7 @@ def json_ailments_systems_problems_other_remedies(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def html_ailments_systems_problems_other_remedies(data):
+def html_remedies_systems_problems_other_remedies(data):
     problem_name = data['problem_name']
     other_remedies_desc = data['other_remedies_desc']
 
@@ -1846,7 +2089,7 @@ def html_ailments_systems_problems_other_remedies(data):
     return article_html
 
 
-def html_ailments_systems_problems_intro(data):
+def html_remedies_systems_problems_intro(data):
     title = ''
     intro = ''
     problem_name = ''
@@ -1867,7 +2110,7 @@ def html_ailments_systems_problems_intro(data):
     return article_html
 
 
-def art_ailments_systems_problems():
+def art_remedies_systems_problems():
     for problem_row in problems_rows[:g.ART_NUM]:
         problem_id = problem_row[problems_cols['problem_id']]
         problem_slug = problem_row[problems_cols['problem_slug']]
@@ -1904,7 +2147,7 @@ def art_ailments_systems_problems():
 
 
         # json
-        json_filepath = f'database/json/problems/{system_slug}/{problem_slug}.json'
+        json_filepath = f'database/json/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}.json'
         print(json_filepath)
 
         util.create_folder_for_filepath(json_filepath)
@@ -1928,27 +2171,23 @@ def art_ailments_systems_problems():
 
         util.json_write(json_filepath, data)
 
-
-
         # sections
-        json_ailments_systems_problems_intro(json_filepath, data)
-        json_ailments_systems_problems_definition(json_filepath, data)
-        json_ailments_systems_problems_causes(json_filepath, data)
-        json_ailments_systems_problems_herbs(json_filepath, data)
+        json_remedies_systems_problems_intro(json_filepath, data)
+        json_remedies_systems_problems_definition(json_filepath, data)
+        json_remedies_systems_problems_causes(json_filepath, data)
+        json_remedies_systems_problems_herbs(json_filepath, data)
 
-        json_ailments_systems_problems_preparations(json_filepath, data)
-        json_ailments_systems_problems_precautions(json_filepath, data)
-        json_ailments_systems_problems_other_remedies(json_filepath, data)
-
-
+        json_remedies_systems_problems_preparations(json_filepath, data)
+        json_remedies_systems_problems_precautions(json_filepath, data)
+        json_remedies_systems_problems_other_remedies(json_filepath, data)
 
         # html
-        html_filepath = f'website/ailments/{system_slug}/{problem_slug}.html'
+        html_filepath = f'website/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}.html'
 
         data = util.json_read(json_filepath)
 
         article_html = ''
-        article_html += html_ailments_systems_problems_intro(data)
+        article_html += html_remedies_systems_problems_intro(data)
 
         article_html += f'<h2>What is {problem_name} and how it affects your life?</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["definition"])}\n'
@@ -1990,9 +2229,9 @@ def art_ailments_systems_problems():
                 chunk_1 = chunks[0]
                 chunk_2 = ':'.join(chunks[1:])
                 if chunk_1.lower().strip() == 'infusions':
-                    chunk_1 = f'<strong><a href="/herbalism/tea/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
+                    chunk_1 = f'<strong><a href="/remedies/{system_slug}/{problem_slug}/teas.html">{chunk_1}</a></strong>'
                 elif chunk_1.lower().strip() == 'tinctures':
-                    chunk_1 = f'<strong><a href="/herbalism/tincture/{system_slug}/{problem_slug}.html">{chunk_1}</a></strong>'
+                    chunk_1 = f'<strong><a href="/remedies/{system_slug}/{problem_slug}/tinctures.html">{chunk_1}</a></strong>'
                 else:
                     chunk_1 = f'<strong>{chunk_1}</strong>'
                 article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
@@ -2010,9 +2249,9 @@ def art_ailments_systems_problems():
             article_html += f'</ul>\n'
         else: print(f'MISSING precautions_list >> {json_filepath}')
 
-        article_html += html_ailments_systems_problems_other_remedies(data)
+        article_html += html_remedies_systems_problems_other_remedies(data)
 
-        header_html = util.header_default()
+        header_html = util.header_default_dark()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
         meta_html = util.article_meta(article_html, lastmod)
         article_html = util.article_toc(article_html)
@@ -2059,7 +2298,7 @@ def art_ailments_systems_problems():
 
 
 
-def json_ailments_intro(json_filepath, data):
+def json_remedies_intro(json_filepath, data):
     key = 'intro_desc'
     if key not in data:
         prompt = f'''
@@ -2081,7 +2320,7 @@ def json_ailments_intro(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def json_ailments_definition(json_filepath, data):
+def json_remedies_definition(json_filepath, data):
     key = 'definition_desc'
     if key not in data:
         prompt = f'''
@@ -2103,7 +2342,7 @@ def json_ailments_definition(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def json_ailments_systems(json_filepath, data):
+def json_remedies_systems(json_filepath, data):
     key = 'systems'
     if key not in data: data[key] = []
     for system_row in systems_rows:
@@ -2162,8 +2401,8 @@ def json_ailments_systems(json_filepath, data):
             time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def art_ailments():
-    json_filepath = f'database/json/ailments.json'
+def art_remedies():
+    json_filepath = f'database/json/{g.CATEGORY_REMEDIES}.json'
 
     util.create_folder_for_filepath(json_filepath)
     util.json_generate_if_not_exists(json_filepath)
@@ -2179,13 +2418,13 @@ def art_ailments():
     util.json_write(json_filepath, data)
 
     # json art sections
-    json_ailments_intro(json_filepath, data)
-    json_ailments_definition(json_filepath, data)
-    json_ailments_systems(json_filepath, data)
+    json_remedies_intro(json_filepath, data)
+    json_remedies_definition(json_filepath, data)
+    json_remedies_systems(json_filepath, data)
 
 
 
-    html_filepath = 'website/ailments.html'
+    html_filepath = f'website/{g.CATEGORY_REMEDIES}.html'
 
     data = util.json_read(json_filepath)
 
@@ -2208,9 +2447,9 @@ def art_ailments():
 
         problems_rows_filtered = csv_get_problems_by_system(system_id)
         if len(problems_rows_filtered) > 0:
-            article_html += f'The following link shows the <a href="/ailments/{system_slug}.html">most common ailments of the {system_name}</a> that you can alleviate with medicinal herbs.\n'
+            article_html += f'The following link shows the <a href="/{g.CATEGORY_REMEDIES}/{system_slug}.html">most common ailments of the {system_name}</a> that you can alleviate with medicinal herbs.\n'
 
-    header_html = util.header_default()
+    header_html = util.header_default_dark()
     breadcrumbs_html = util.breadcrumbs(html_filepath)
     meta_html = util.article_meta(article_html, lastmod)
     article_html = util.article_toc(article_html)
@@ -2257,7 +2496,7 @@ def art_ailments():
 
 
 
-def json_ailments_systems_intro(json_filepath, data):
+def json_remedies_systems_intro(json_filepath, data):
     key = 'intro_desc'
     if key not in data:
         system_name = data['system_name']
@@ -2280,7 +2519,7 @@ def json_ailments_systems_intro(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def json_ailments_systems_definition(json_filepath, data):
+def json_remedies_systems_definition(json_filepath, data):
     key = 'definition_desc'
     if key not in data:
         system_name = data['system_name']
@@ -2303,7 +2542,7 @@ def json_ailments_systems_definition(json_filepath, data):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def json_ailments_systems_problems(json_filepath, data):
+def json_remedies_systems_problems(json_filepath, data):
     key = 'problems'
     if key not in data: data[key] = []
     for problem_row in problems_rows[:g.ART_NUM]:
@@ -2356,7 +2595,7 @@ def json_ailments_systems_problems(json_filepath, data):
             time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def art_ailments_systems():
+def art_remedies_systems():
     for system_row in systems_rows:
         system_id = system_row[systems_cols['system_id']]
         system_slug = system_row[systems_cols['system_slug']]
@@ -2372,7 +2611,7 @@ def art_ailments_systems():
         if problems_num == 0: continue
 
         # json
-        json_filepath = f'database/json/problems/{system_slug}.json'
+        json_filepath = f'database/json/{g.CATEGORY_REMEDIES}/{system_slug}.json'
 
         util.create_folder_for_filepath(json_filepath)
         util.json_generate_if_not_exists(json_filepath)
@@ -2392,14 +2631,14 @@ def art_ailments_systems():
         util.json_write(json_filepath, data)
 
         # ai
-        json_ailments_systems_intro(json_filepath, data)
-        json_ailments_systems_definition(json_filepath, data)
-        json_ailments_systems_problems(json_filepath, data)
+        json_remedies_systems_intro(json_filepath, data)
+        json_remedies_systems_definition(json_filepath, data)
+        json_remedies_systems_problems(json_filepath, data)
 
 
 
         # html
-        html_filepath = f'website/ailments/{system_slug}.html'
+        html_filepath = f'website/{g.CATEGORY_REMEDIES}/{system_slug}.html'
 
         data = util.json_read(json_filepath)
 
@@ -2415,7 +2654,7 @@ def art_ailments_systems():
 
             problem_desc = problem_desc.replace(
                 problem_name.capitalize(),
-                f'<a href="/ailments/{system_slug}/{problem_slug}.html">{problem_name.capitalize()}</a>',
+                f'<a href="/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}.html">{problem_name.capitalize()}</a>',
                 1
             )
 
@@ -2426,7 +2665,7 @@ def art_ailments_systems():
         article_html += f'<h2>What are {system_name} ailments and how they affect your life?</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["definition_desc"])}\n'
 
-        header_html = util.header_default()
+        header_html = util.header_default_dark()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
         meta_html = util.article_meta(article_html, lastmod)
         article_html = util.article_toc(article_html)
@@ -2781,28 +3020,28 @@ def json_del_keys_herbalism_tincture(key):
 # EXE
 # #########################################################
 
-page_home()
-page_herbalism()
+# page_home()
+# page_herbalism()
 # page_top_herbs()
 # page_plants(regen_csv=False)
-page_about()
+# page_about()
 # page_start_here()
 
-# art_ailments_systems_problems()
-# art_ailments_systems()
-art_ailments()
+# art_remedies_systems_problems()
+# art_remedies_systems()
+# art_remedies()
 
 
-art_preparation_systems_problems('tea')
-art_preparation_systems_problems('tincture')
+art_preparation_systems_problems('teas')
+# art_preparation_systems_problems('tinctures')
 
 
 # sitemap.sitemap_all()
 # shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 
-art_preparation_systems('tincture')
+# art_preparation_systems('tincture')
 
 
-shutil.copy2('style.css', 'website/style.css')
-shutil.copy2('util.css', 'website/util.css')
+# shutil.copy2('style.css', 'website/style.css')
+# shutil.copy2('util.css', 'website/util.css')
 # shutil.copy2('assets/images/healing-herbs.jpg', 'website/images/healing-herbs.jpg')
