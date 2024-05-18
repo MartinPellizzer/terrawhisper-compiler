@@ -3033,7 +3033,7 @@ def json_del_keys_herbalism_tincture(key):
 
 
 art_preparation_systems_problems('teas')
-# art_preparation_systems_problems('tinctures')
+art_preparation_systems_problems('tinctures')
 
 
 # sitemap.sitemap_all()
