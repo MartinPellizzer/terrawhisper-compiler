@@ -225,10 +225,32 @@ def csv_get_related_by_problem(problem_id):
 # UTILS
 # #########################################################
 
-def ai_paragraph(key, json_filepath, data, prompt):
-    # if key in data: del data[key]
+def ai_intro(json_filepath, data):
+    key = 'intro_desc'
+    if key in data: del data[key]
     if key not in data:
-        
+        problem_id = data['problem_id']
+        problem_slug = data['problem_slug']
+        problem_name = data['problem_name']
+        preparation_name = data['preparation_name']
+
+        herbs_rows_filtered = []
+        if preparation_name == 'infusions': herbs_rows_filtered = csv_get_teas_by_problem(problem_id)[:teas_num]
+        elif preparation_name == 'tinctures': herbs_rows_filtered = csv_get_tinctures_by_problem(problem_id)[:teas_num]
+
+        herbs_names = [row[herbs_cols['herb_name_common']] for row in herbs_rows_filtered]
+        herbs_names_prompt = ', '.join(herbs_names)
+
+        prompt = f'''
+            Write 1 detailed paragraph on the herbal {preparation_name} for {problem_name}.
+            In the first sentence, give a detailed definition of "herbal {preparation_name} for {problem_name}", including why they help with {problem_name}.
+            Explain how herbal {preparation_name} helps with {problem_name}.
+            Include many examples of how herbal {preparation_name} for {problem_name} improves lives.
+            Don't write the names of the herbs.
+            Don't talk about other ailments.
+            Start the reply with the following words: Herbal {preparation_name} for {problem_name} are .
+            Never use the following words: can, may, might.
+        '''
         reply = utils_ai.gen_reply(prompt)
 
         reply = utils_ai.reply_to_paragraphs(reply)
@@ -244,16 +266,29 @@ def ai_paragraph(key, json_filepath, data, prompt):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def html_intro_desc(data):
-    html = ''
-
-    if 'intro_desc' in data:
-        html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
-    else: 
-        print(f'MISSING INTRO DESC: {data["url"]}')
-
-    return html
-
+def json_remedies_systems_problems_intro(json_filepath, data):
+    key = 'intro'
+    if key not in data:
+        problem_name = data['problem_name']
+        prompt = f'''
+            Write 1 paragraph about the best herbs for {problem_name}.
+            Include a brief definition of: {problem_name}.
+            Include the negative impacts of {problem_name} in people lives. 
+            Include the causes of {problem_name}. 
+            Include the medicinal herbs and their preparations for {problem_name}. 
+            Include the precautions when using herbs medicinally for {problem_name}. 
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        reply = utils_ai.reply_to_paragraphs(reply)
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
 
 
 
@@ -264,6 +299,46 @@ def html_intro_desc(data):
 
 
 # JSONs
+
+def json_preparation_system_problem_intro(json_filepath, data):
+    key = 'intro_desc'
+    if key not in data:
+        problem_id = data['problem_id']
+        problem_slug = data['problem_slug']
+        problem_name = data['problem_name']
+        preparation_name = data['preparation_name']
+
+        herbs_rows_filtered = []
+        if preparation_name == 'infusions': herbs_rows_filtered = csv_get_teas_by_problem(problem_id)[:teas_num]
+        elif preparation_name == 'tinctures': herbs_rows_filtered = csv_get_tinctures_by_problem(problem_id)[:teas_num]
+
+        herbs_names = [row[herbs_cols['herb_name_common']] for row in herbs_rows_filtered]
+        herbs_names_prompt = ', '.join(herbs_names)
+
+        prompt = f'''
+            Write 1 detailed paragraph on the herbal {preparation_name} for {problem_name}.
+            In the first sentence, give a detailed definition of "herbal {preparation_name} for {problem_name}", including why they help with {problem_name}.
+            Explain how herbal {preparation_name} helps with {problem_name}.
+            Include many examples of how herbal {preparation_name} for {problem_name} improves lives.
+            Don't write the names of the herbs.
+            Don't talk about other ailments.
+            Start the reply with the following words: Herbal {preparation_name} for {problem_name} are .
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        reply = utils_ai.reply_to_paragraphs(reply)
+
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
 
 def json_preparation_system_problem_list(json_filepath, data):
     problem_id = data['problem_id']
@@ -346,7 +421,7 @@ def json_preparation_system_problem_list(json_filepath, data):
         key = 'remedy_properties'
         if key not in obj or obj[key] == []:
             prompt = f'''
-                Write a numbered list of the most important medicinal properties of {remedy_name} that help with {problem_name}.
+                Write a numbered list of the most important medicinal properties of {herb_name_common} that help with {problem_name}.
                 For each medicinal property, explain in 1 short sentence why that property is important for {problem_name} and what active constituents give that property. 
                 Write each list element using the following format: [medicinal propertie]: [property description].
             '''
@@ -465,30 +540,6 @@ def json_preparation_system_problem_supplementary(json_filepath, data):
 
         time.sleep(g.PROMPT_DELAY_TIME)
 
-    key = 'supplementary_preparations'
-    # if key in data: del data[key]
-    if key not in data:
-        prompt = f'''
-            What other herbal preparations to use with herbal {preparation_name} for {problem_name}?
-            Reply in a short paragraph of about 60 to 80 words.
-            Don't include names of herbs.
-            Start the reply with the following words: Other herbal preparations to use with {preparation_name} for {problem_name} are .
-            Never use these words: can, may and might.
-        '''
-        reply = utils_ai.gen_reply(prompt)
-
-        reply = utils_ai.reply_to_paragraphs(reply)
-
-        print(len(reply))
-        if len(reply) == 1:
-            print('*******************************************')
-            print(reply)
-            print('*******************************************')
-            data[key] = reply[0]
-            util.json_write(json_filepath, data)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-
     key = 'supplementary_frequency'
     if key not in data:
         prompt = f'''
@@ -589,7 +640,6 @@ def img_preparation_systems_problems_featured(data):
 
 def img_preparation_systems_problems_list(data):
     if 'remedies_list' in data:
-        problem_name = data['problem_name']
         problem_slug = data['problem_slug']
         preparation_name = data['preparation_name'].lower()
         preparation_name_singular = ''
@@ -603,18 +653,16 @@ def img_preparation_systems_problems_list(data):
             herb_name_common = obj['herb_name_common'].split(',')[0].strip()
             herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-').replace(".", '')
 
-            image_filepath_out = f'website/images/herbal-{preparation_slug_singular}-for-{problem_slug}-{herb_name_common_slug}.jpg'
-            if os.path.exists(image_filepath_out): continue
-
-            images_folderpath = f'C:/terrawhisper-assets/images/{preparation_slug}/{herb_name_common_slug}'
-            if os.path.exists(images_folderpath):
-                images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
-                image_filepath = random.choice(images_filepaths)
-                if image_filepath != '':
-                    label = f'{herb_name_common} {preparation_name_singular}\nfor {problem_name}'
-                    util.image_label(image_filepath, image_filepath_out, label)
-            else:
-                print(f'IMG FOLDER MISSING: {images_folderpath}')
+            image_filepath_out = f'website/images/{herb_name_common_slug}-{preparation_slug_singular}-for-{problem_slug}.jpg'
+            if not os.path.exists(image_filepath_out):
+                images_folderpath = f'C:/terrawhisper-assets/images/{preparation_slug}/{herb_name_common_slug}'
+                if os.path.exists(images_folderpath):
+                    images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
+                    image_filepath = random.choice(images_filepaths)
+                    if image_filepath != '':
+                        util.image_variate(image_filepath, image_filepath_out)
+                else:
+                    print(f'IMG FOLDER MISSING: {images_folderpath}')
     else:
         print(f'MISSING KEY remedy_list: {preparation_slug} {problem_slug}')
 
@@ -632,10 +680,7 @@ def img_preparation_systems_problems_cheatsheet(data):
     img_height = 3508
     gap_width = img_width//10
 
-    c_dark = '#030712'
-    c_bg = '#f5f5f5'
-
-    img = Image.new(mode="RGB", size=(img_width, img_height), color=c_bg)
+    img = Image.new(mode="RGB", size=(img_width, img_height), color='#ece3d8')
 
     # logo = Image.open("website-new/images/terrawhisper-logo.png")
     # logo.thumbnail((256, 256), Image.Resampling.LANCZOS)
@@ -662,7 +707,7 @@ def img_preparation_systems_problems_cheatsheet(data):
     text = title.title()
     font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 72)
     _, _, text_w, text_h = font.getbbox(text)
-    draw.rectangle(((x, y), (x + text_w + px*2, y + text_h + py*2)), fill=c_dark)
+    draw.rectangle(((x, y), (x + text_w + px*2, y + text_h + py*2)), fill="#4c5e58")
     draw.text(
         (x + px, y + py), 
         text,
@@ -695,7 +740,8 @@ def img_preparation_systems_problems_cheatsheet(data):
     font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 48)
     draw.text(
         (x, img_height - 128), 
-        text, c_dark, font=font
+        text,
+        (0, 0, 0), font=font
     )
 
     y = y_start
@@ -745,12 +791,12 @@ def img_preparation_systems_problems_cheatsheet(data):
         cell_herb_h = 96
         text_margin_l = 32
         text_margin_t = 20
-        draw.rectangle(((x, y), (w, y + cell_herb_h)), fill=c_dark)
+        draw.rectangle(((x, y), (w, y + cell_herb_h)), fill="#4c5e58")
         font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 48)
         draw.text(
             (x + text_margin_l, y + text_margin_t), 
             f'{i+1}. {herb_name_common.upper()}', 
-            c_bg, font=font
+            (255, 255, 255), font=font
         )
         y += cell_herb_h
 
@@ -773,7 +819,7 @@ def img_preparation_systems_problems_cheatsheet(data):
         draw.text(
             (x + text_margin_l, y + text_margin_t), 
             'Properties', 
-            c_dark, font=font
+            '#000000', font=font
         )
         y += cell_category_h
 
@@ -781,13 +827,14 @@ def img_preparation_systems_problems_cheatsheet(data):
         font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 36)
         for item in remedy_properties:
             item = item.replace('properties', '')
-            draw.rectangle(((x, y), (w, y + h)), fill=c_bg)
+            draw.rectangle(((x, y), (w, y + h)), fill="#ece3d8")
             draw.rectangle((
                 (x + text_margin_l + 16, y + h//2 - 16), 
-                (x + text_margin_l + 32, y + h//2)), fill=c_dark)
+                (x + text_margin_l + 32, y + h//2)), fill="#000000")
             draw.text(
             (x + text_margin_l + 48, y), 
-                item, c_dark, font=font
+                item, 
+                '#000000', font=font
             )
             y += h
 
@@ -809,28 +856,31 @@ def img_preparation_systems_problems_cheatsheet(data):
 
         draw.text(
             (x + text_margin_l, y + text_margin_t), 
-            'Plant Parts', c_dark, font=font
+            'Plant Parts', 
+            '#000000', font=font
         )
         y += cell_category_h
 
         # Parts Vals
         font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 36)
         for item in remedy_parts:
-            draw.rectangle(((x, y), (w, y + h)), fill=c_bg)
+            draw.rectangle(((x, y), (w, y + h)), fill="#ece3d8")
             draw.rectangle((
                 (x + text_margin_l + 16, y + h//2 - 16), 
-                (x + text_margin_l + 32, y + h//2)), fill=c_dark)
+                (x + text_margin_l + 32, y + h//2)), fill="#000000")
             draw.text(
             (x + text_margin_l + 48, y), 
-                item, c_dark, font=font
+                item, 
+                '#000000', font=font
             )
             y += h
 
         y += h
-
-    img.thumbnail((img_width//3, img_height//3), Image.LANCZOS)
+        
+        
+    
     img.save(image_filepath_out, quality=50) 
-    print('SAVED CHEATSHEET:', image_filepath_out)
+    print(image_filepath_out)
     # img.show()
 
     # quit()
@@ -838,6 +888,40 @@ def img_preparation_systems_problems_cheatsheet(data):
 
 
 # HTMLs
+
+def html_preparation_system_problem_intro(html_filepath, data):
+    key = 'intro_desc'
+    article_html = ''
+
+    title = data['title'].title()
+    problem_slug = data['problem_slug']
+    problem_name = data['problem_name']
+    preparation_name = data['preparation_name']
+    preparation_slug = preparation_name.replace(' ', '-')
+
+    article_html += f'<h1>{title}</h1>\n'
+
+    img_src = f'/images/herbal-{preparation_slug}-for-{problem_slug}-overview.jpg'
+    img_alt = f'herbal {preparation_name} for {problem_name} overview.jpg'
+    try: article_html += f'<p><img src="{img_src}" alt="{img_alt}"></p>\n'
+    except: print(f'MISSING TEA IMAGE: {problem_name} >> {tea_image_url}')
+
+    if key in data:
+        intro = data[key]
+        article_html += f'{util.text_format_1N1_html(intro)}\n'
+    else: 
+        print(f'MISSING INTRO: {html_filepath} >> {problem_name}')
+    
+    article_html += f'<p>A summary of the 10 best herbal {preparation_name} for {problem_name} is provided in the following cheatsheet.</p>\n'
+
+    img_src = f'/images/herbal-{preparation_slug}-for-{problem_slug}-cheatsheet.jpg'
+    img_alt = f'herbal {preparation_name} for {problem_name} cheatsheet.jpg'
+    article_html += f'<p><img src="{img_src}" alt="{img_alt}"></p>\n'
+
+    article_html += f'<p>The following article describes in detail the most important teas for {problem_name}, including medicinal properties, parts of herbs to use, and recipes for preparations.</p>\n'
+
+    return article_html
+
 
 def html_preparation_system_problem_list(html_filepath, data):
     article_html = ''
@@ -862,9 +946,7 @@ def html_preparation_system_problem_list(html_filepath, data):
         try: article_html += f'<p>{util.text_format_1N1_html(remedy_obj["remedy_desc"])}</p>\n'
         except: print(f'MISSING REMEDY DESC: {html_filepath} >> {problem_name} >> {remedy_name_preparation}')
 
-        img_src = f'/images/herbal-{preparation_slug_singular}-for-{problem_slug}-{herb_name_common_slug}.jpg'
-
-        # img_src = f'/images/{herb_name_common_slug}-{preparation_slug_singular}-for-{problem_slug}.jpg'
+        img_src = f'/images/{herb_name_common_slug}-{preparation_slug_singular}-for-{problem_slug}.jpg'
         img_alt = f'{herb_name_common} {preparation_name_singular} for {problem_name}.jpg'
         try: article_html += f'<p><img src="{img_src}" alt="{img_alt}"><p>\n'
         except: print(f'MISSING REMEDY IMAGE: {problem_name} >> {tea_image_url}')
@@ -921,7 +1003,7 @@ def html_preparation_system_problem_supplementary(html_filepath, data):
 
         article_html += f'{util.text_format_1N1_html(text)}\n'
 
-    key = 'supplementary_causes'
+        key = 'supplementary_causes'
     if key in data:
         article_html += f'<h3>What are the most common causes of {problem_name} that are treatable with herbal {preparation_name}?</h3>\n'
         text = data[key]
@@ -934,29 +1016,11 @@ def html_preparation_system_problem_supplementary(html_filepath, data):
             link_system_slug = link_system_row[systems_cols['system_slug']]
 
             if link_problem_id != problem_id:
-                text = text.replace(link_problem_name, f'<a href="/{g.CATEGORY_REMEDIES}/{link_system_slug}/{link_problem_slug}.html">{link_problem_name}</a>', 1)
-
-        article_html += f'{util.text_format_1N1_html(text)}\n'
-
-    key = 'supplementary_preparations'
-    if key in data:
-        article_html += f'<h3>What other herbal preparations helps with {problem_name}?</h3>\n'
-        text = data[key]
-        # for problem_row in problems_rows[:g.ART_NUM]:
-        #     link_problem_id = problem_row[problems_cols['problem_id']]
-        #     link_problem_slug = problem_row[problems_cols['problem_slug']]
-        #     link_problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
-            
-        #     link_system_row = csv_get_system_by_problem(link_problem_id)
-        #     link_system_slug = link_system_row[systems_cols['system_slug']]
-
-        #     if link_problem_id != problem_id:
-        #         text = text.replace(link_problem_name, f'<a href="/{g.CATEGORY_REMEDIES}/{link_system_slug}/{link_problem_slug}.html">{link_problem_name}</a>', 1)
+                text = text.replace(link_problem_name, f'<a href="/herbalism/{preparation_slug}/{link_system_slug}/{link_problem_slug}.html">{link_problem_name}</a>', 1)
 
         article_html += f'{util.text_format_1N1_html(text)}\n'
 
     return article_html
-
 
 
 # EXE
@@ -1032,27 +1096,8 @@ def art_remedies_systems_problems_preparations(preparation_slug):
 
         util.json_write(json_filepath, data)
         
-        # AI
-        # herbs_rows_filtered = []
-        # if preparation_name == 'infusions': herbs_rows_filtered = csv_get_teas_by_problem(problem_id)[:teas_num]
-        # elif preparation_name == 'tinctures': herbs_rows_filtered = csv_get_tinctures_by_problem(problem_id)[:teas_num]
-
-        # herbs_names = [row[herbs_cols['herb_name_common']] for row in herbs_rows_filtered]
-        # herbs_names_prompt = ', '.join(herbs_names)
-
-        ai_paragraph('intro_desc', json_filepath, data,
-            prompt = f'''
-                Write 1 detailed paragraph on the herbal {preparation_name} for {problem_name}.
-                In the first sentence, give a detailed definition of "herbal {preparation_name} for {problem_name}", including why herbal {preparation_name} help with {problem_name}.
-                Explain how herbal {preparation_name} helps with {problem_name}.
-                Include many examples of how herbal {preparation_name} for {problem_name} improves lives.
-                Don't write the names of the herbs.
-                Don't talk about other ailments.
-                Start the reply with the following words: Herbal {preparation_name} for {problem_name} are .
-                Never use the following words: can, may, might.
-            '''
-        )
-        # json_preparation_system_problem_intro(json_filepath, data)
+        # JSON
+        json_preparation_system_problem_intro(json_filepath, data)
         json_preparation_system_problem_list(json_filepath, data)
         json_preparation_system_problem_supplementary(json_filepath, data)
 
@@ -1067,24 +1112,7 @@ def art_remedies_systems_problems_preparations(preparation_slug):
         data = util.json_read(json_filepath)
 
         article_html = ''
-
-        # intro
-        article_html += f'<h1>{title}</h1>\n'
-
-        src = f'/images/herbal-{preparation_slug}-for-{problem_slug}-overview.jpg'
-        alt = f'herbal {preparation_name} for {problem_name} overview.jpg'
-        article_html += f'<p><img src="{src}" alt="{alt}"></p>\n'
-
-        article_html += html_intro_desc(data)
-
-        article_html += f'<p>A summary of the 10 best herbal {preparation_name} for {problem_name} is provided in the following cheatsheet.</p>\n'
-        src = f'/images/herbal-{preparation_slug}-for-{problem_slug}-cheatsheet.jpg'
-        alt = f'herbal {preparation_name} for {problem_name} cheatsheet.jpg'
-        article_html += f'<p><img src="{src}" alt="{alt}"></p>\n'
-        
-        article_html += f'<p>The following article describes in detail the most important teas for {problem_name}, including medicinal properties, parts of herbs to use, and recipes for preparations.</p>\n'
-
-        # list
+        article_html += html_preparation_system_problem_intro(html_filepath, data)
         article_html += html_preparation_system_problem_list(html_filepath, data)
         article_html += html_preparation_system_problem_supplementary(html_filepath, data)
 
@@ -1241,6 +1269,33 @@ def json_copy_jsons():
 
 
 
+def json_preparation_system_intro(json_filepath, data):
+    key = 'intro_desc'
+    if key not in data:
+        system_name = data['system_name']
+
+        prompt = f'''
+            Write 1 intro paragraph for an article about {system_name} ailments an herbal tinctures.
+            Start by explaining what are the impacts of the {system_name} ailments on people lives.
+            Then explain why herbal tinctures can help with the most common {system_name} ailments. 
+            Finally explain that the rest of the article will reveal the most common {system_name} ailments and what are the best herbal tinctures to get rid of those ailments.
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        reply = utils_ai.reply_to_paragraphs(reply)
+
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
 def json_preparation_system_problems(json_filepath, data):
     key = 'problems'
     if key not in data: data[key] = []
@@ -1315,9 +1370,156 @@ def html_preparation_system_intro(data):
 
 
 
+def art_preparation_systems(preparation_slug):
+    preparation_name = ''
+    preparation_name_singular = ''
+
+    if preparation_slug == 'tea':
+        preparation_name = 'teas'
+        preparation_name_singular = 'tea'
+    elif preparation_slug == 'tincture':
+        preparation_name = 'tinctures'
+        preparation_name_singular = 'tincture'
+
+    if preparation_name == '': return
+    if preparation_name_singular == '': return
+
+    for system_row in systems_rows:
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+        
+        json_filepath = f'database/json/herbalism/{preparation_slug}/{system_slug}.json'
+
+        util.create_folder_for_filepath(json_filepath)
+        util.json_generate_if_not_exists(json_filepath)
+        data = util.json_read(json_filepath)
+        data['system_id'] = system_id
+        data['system_slug'] = system_slug
+        data['system_name'] = system_name
+
+        data['preparation_name'] = preparation_name
+        data['preparation_name_singular'] = preparation_name_singular
+        data['preparation_slug'] = preparation_slug
+
+        lastmod = util.date_now()
+        if 'lastmod' not in data: data['lastmod'] = lastmod
+        else: lastmod = data['lastmod'] 
+
+        data['url'] = f'herbalism/{preparation_slug}/{system_slug}'
+
+        data['system_num'] = len(systems_rows)
+        title = f'{len(systems_rows)} most common {system_name} ailments to treat with herbal {preparation_name}'
+        data['title'] = title
+
+        util.json_write(json_filepath, data)
+
+        # ai
+        json_preparation_system_intro(json_filepath, data)
+        json_preparation_system_problems(json_filepath, data)
+
+        # html
+        html_filepath = f'website/herbalism/tincture/{system_slug}.html'
+
+        data = util.json_read(json_filepath)
+
+        article_html = ''
+        article_html += html_preparation_system_intro(data)
+        
+        for i, problem_obj in enumerate(data['problems']):
+            problem_id = problem_obj['problem_id']
+            problem_slug = problem_obj['problem_slug']
+            problem_name = problem_obj['problem_name']
+            problem_desc = problem_obj['problem_desc']
+
+            problem_desc = problem_desc.replace(
+                problem_name.capitalize(),
+                f'<a href="/herbalism/tincture/{system_slug}/{problem_slug}.html">{problem_name.capitalize()}</a>',
+                1
+            )
+
+            article_html += f'<h2>{i+1}. {problem_name.capitalize()}</h2>\n'
+            article_html += f'{util.text_format_1N1_html(problem_desc)}\n'
+
+
+        header_html = util.header_default()
+        header_html = util.header_default_dark()
+        breadcrumbs_html = util.breadcrumbs(html_filepath)
+        meta_html = util.article_meta(article_html, lastmod)
+        article_html = util.article_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta_html}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(html_filepath, html)
+
+
+
 # #########################################################
 # ARTICLES - PROBLEMS
 # #########################################################
+
+def json_remedies_systems_problems_intro(json_filepath, data):
+    key = 'intro'
+    if key not in data:
+        problem_name = data['problem_name']
+        prompt = f'''
+            Write 1 paragraph about the best herbs for {problem_name}.
+            Include a brief definition of: {problem_name}.
+            Include the negative impacts of {problem_name} in people lives. 
+            Include the causes of {problem_name}. 
+            Include the medicinal herbs and their preparations for {problem_name}. 
+            Include the precautions when using herbs medicinally for {problem_name}. 
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        reply = utils_ai.reply_to_paragraphs(reply)
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
+
 
 def json_remedies_systems_problems_definition(json_filepath, data):
     key = 'definition'
@@ -1803,17 +2005,7 @@ def art_remedies_systems_problems():
         util.json_write(json_filepath, data)
 
         # sections
-        ai_paragraph('intro_desc', json_filepath, data,
-            prompt = f'''
-                Write 1 paragraph about the best herbs for {problem_name}.
-                Include a brief definition of: {problem_name}.
-                Include the negative impacts of {problem_name} in people lives. 
-                Include the causes of {problem_name}. 
-                Include the medicinal herbs and their preparations for {problem_name}. 
-                Include the precautions when using herbs medicinally for {problem_name}. 
-                Never use the following words: can, may, might.
-            '''
-        )
+        json_remedies_systems_problems_intro(json_filepath, data)
         json_remedies_systems_problems_definition(json_filepath, data)
         json_remedies_systems_problems_causes(json_filepath, data)
         json_remedies_systems_problems_herbs(json_filepath, data)
@@ -1940,6 +2132,27 @@ def art_remedies_systems_problems():
 
 
 
+def json_remedies_intro(json_filepath, data):
+    key = 'intro_desc'
+    if key not in data:
+        prompt = f'''
+            Write 1 intro paragraph for an article about ailments an healing herbs.
+            Start by explaining what are the impacts of ailments on people lives.
+            Then explain why healing herbs can help with the most common ailments. 
+            Finally explain that the rest of the article will reveal the most common ailments for each body system and what are the best herbs to get rid of those ailments.
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        reply = utils_ai.reply_to_paragraphs(reply)
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
+
 
 def json_remedies_definition(json_filepath, data):
     key = 'definition_desc'
@@ -2039,16 +2252,7 @@ def art_remedies():
     util.json_write(json_filepath, data)
 
     # json art sections
-    ai_paragraph('intro_desc', json_filepath, data,
-        prompt = f'''
-            Write 1 intro paragraph for an article about ailments an healing herbs.
-            Start by explaining what are the impacts of ailments on people lives.
-            Then explain why healing herbs can help with the most common ailments. 
-            Finally explain that the rest of the article will reveal the most common ailments for each body system and what are the best herbs to get rid of those ailments.
-            Never use the following words: can, may, might.
-        '''
-    )
-
+    json_remedies_intro(json_filepath, data)
     json_remedies_definition(json_filepath, data)
     json_remedies_systems(json_filepath, data)
 
@@ -2123,6 +2327,30 @@ def art_remedies():
     util.file_write(html_filepath, html)
 
 
+
+
+
+def json_remedies_systems_intro(json_filepath, data):
+    key = 'intro_desc'
+    if key not in data:
+        system_name = data['system_name']
+        prompt = f'''
+            Write 1 intro paragraph for an article about {system_name} ailments an healing herbs.
+            Start by explaining what are the impacts of the {system_name} ailments on people lives.
+            Then explain why healing herbs can help with the most common {system_name} ailments. 
+            Finally explain that the rest of the article will reveal the most common {system_name} ailments and what are the best herbs to get rid of those ailments.
+            Never use the following words: can, may, might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        reply = utils_ai.reply_to_paragraphs(reply)
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
 
 
 def json_remedies_systems_definition(json_filepath, data):
@@ -2237,15 +2465,7 @@ def art_remedies_systems():
         util.json_write(json_filepath, data)
 
         # ai
-        ai_paragraph('intro_desc', json_filepath, data,
-            prompt = f'''
-                Write 1 intro paragraph for an article about {system_name} ailments an healing herbs.
-                Start by explaining what are the impacts of the {system_name} ailments on people lives.
-                Then explain why healing herbs can help with the most common {system_name} ailments. 
-                Finally explain that the rest of the article will reveal the most common {system_name} ailments and what are the best herbs to get rid of those ailments.
-                Never use the following words: can, may, might.
-            '''
-        )
+        json_remedies_systems_intro(json_filepath, data)
         json_remedies_systems_definition(json_filepath, data)
         json_remedies_systems_problems(json_filepath, data)
 
@@ -2617,7 +2837,6 @@ def json_del_keys_herbalism_tincture(key):
         else: print(f'file not exists: {json_filepath}')
 
 
-
 # json_del_keys_herbalism_tea(key='intro_desc')
 # json_del_keys_herbalism_tincture(key='intro_desc')
 
@@ -2635,16 +2854,16 @@ def json_del_keys_herbalism_tincture(key):
 # EXE
 # #########################################################
 
-# page_home()
-# page_herbalism()
+page_home()
+page_herbalism()
 # page_top_herbs()
 # page_plants(regen_csv=False)
-# page_about()
+page_about()
 # page_start_here()
 
-# art_remedies_systems_problems()
-# art_remedies_systems()
-# art_remedies()
+art_remedies_systems_problems()
+art_remedies_systems()
+art_remedies()
 
 art_remedies_systems_problems_preparations('teas')
 art_remedies_systems_problems_preparations('tinctures')
@@ -2654,8 +2873,8 @@ art_remedies_systems_problems_preparations('tinctures')
 # art_preparation_systems_problems('tinctures')
 
 
-# sitemap.sitemap_all()
-# shutil.copy2('sitemap.xml', 'website/sitemap.xml')
+sitemap.sitemap_all()
+shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 
 # art_preparation_systems('tincture')
 

@@ -3,7 +3,7 @@ import csv
 import json
 import random
 import datetime
-from PIL import Image, ImageColor, ImageEnhance
+from PIL import Image, ImageColor, ImageEnhance, ImageDraw, ImageFont
 from nltk import tokenize
 
 import g
@@ -304,6 +304,52 @@ def image_variate(filepath_in, filepath_out):
     image.save(filepath_out, format='JPEG', optimize=True, quality=50)
 
 
+def image_label(filepath_in, filepath_out, label):
+    w, h = 1024, 1024
+    
+    image = Image.open(filepath_in)
+
+    # random_enhancer_val = random.uniform(0.9, 1.1)
+    # image_enhancer = ImageEnhance.Color(image)
+    # image = image_enhancer.enhance(random_enhancer_val)
+    # random_enhancer_val = random.uniform(0.9, 1.1)
+    # image_enhancer = ImageEnhance.Contrast(image)
+    # image = image_enhancer.enhance(random_enhancer_val)
+    # random_enhancer_val = random.uniform(0.9, 1.1)
+    # image_enhancer = ImageEnhance.Brightness(image)
+    # image = image_enhancer.enhance(random_enhancer_val)
+    # random_enhancer_val = random.uniform(0.9, 1.1)
+    # image_enhancer = ImageEnhance.Sharpness(image)
+    # image = image_enhancer.enhance(random_enhancer_val)
+
+
+    random_val_x1 = random.randint(50, 100)
+    random_val_y1 = random.randint(50, 100)
+    random_val_x2 = random.randint(50, 100)
+    random_val_y2 = random.randint(50, 100)
+    image = image.crop((random_val_x1, random_val_y1, w-random_val_x2, h-random_val_y2))
+    image = image.resize((w, h), Image.Resampling.LANCZOS)
+
+    
+
+    draw = ImageDraw.Draw(image)
+
+    c_dark = '#030712'
+    draw.rectangle(((0, h - h//6), (w, h)), fill=c_dark)
+
+    text = label.upper()
+    lines = text.split('\n')
+    font_size = 64
+    font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", font_size)
+    for i, line in enumerate(lines):
+        _, _, text_w, text_h = font.getbbox(line)
+        draw.text((w//2 - text_w//2, h - h//6 + (i*font_size) + font_size//5), line, (255, 255, 255), font=font)
+
+
+
+    image.thumbnail((768, 768), Image.Resampling.LANCZOS)
+    image.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
 
 def image_save_resized(filepath_in, filepath_out, width, height, quality):
     img = Image.open(filepath_in)
@@ -434,7 +480,8 @@ def header_default():
     '''
                     # <li><a href="/plants.html">Herbs</a></li>
     return html
-    
+
+
 def header_default_dark():
     html = f'''
         <div class="header-dark">

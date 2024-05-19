@@ -101,6 +101,10 @@ def sanitize_herbs(line):
     if line == 'capsicum': line = 'cayenne pepper'
     if line == 'boswellia': line = 'frankincense'
     if line == 'stinging nettle': line = 'nettle'
+    if line == 'elderflower': line = 'elderberry'
+    if line == 'ginkgo': line = 'ginkgo biloba'
+    if line == 'poke': line = 'pokeweed'
+    if line == 'poke root': line = 'pokeweed'
 
     return line
 

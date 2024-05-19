@@ -1,2 +1,2 @@
-- compress cheatsheet
-- herbalism_tincture page
+- images remedies_systems_problems
+- fix preparations constituents (properties) list, as descriptions talks about a different plant from hte one in the section
