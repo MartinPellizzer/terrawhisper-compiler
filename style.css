@@ -858,3 +858,14 @@ footer {
 .pt-96 {
     padding-top: 9.6rem;
 }
+
+
+
+.blog-grid h3 {
+    margin-top: 1.6rem;
+}
+
+.blog-grid h3 a {
+    color: #030712;
+    text-decoration: none;
+}

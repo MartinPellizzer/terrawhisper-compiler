@@ -1,2 +1,3 @@
+- do herbs pages using old plants pages as reference and redo old herbs pages in herbs folder 
+- make herb category page title (h1, h2)
 - images remedies_systems_problems
-- fix preparations constituents (properties) list, as descriptions talks about a different plant from hte one in the section

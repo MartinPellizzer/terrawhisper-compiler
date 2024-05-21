@@ -189,6 +189,7 @@ def csv_gen_teas_for_problem(problem_row):
             if not line[0].isdigit(): continue
             if '.' not in line: continue
             line = '.'.join(line.split('.')[1:])
+            line = line.split('(')[0]
             line = line.strip()
             if line == '': continue
 
@@ -388,6 +389,7 @@ def csv_gen_tinctures_for_problem(problem_row):
             if not line[0].isdigit(): continue
             if '.' not in line: continue
             line = '.'.join(line.split('.')[1:])
+            line = line.split('(')[0]
             line = line.strip()
             if line == '': continue
 

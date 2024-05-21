@@ -1,7 +1,8 @@
 ARTICLES_NUM = 100
 
 
-ART_NUM = 18
+ART_NUM = 20
+HERBS_ART_NUM = 2
 
 
 # BY

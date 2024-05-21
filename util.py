@@ -209,7 +209,6 @@ def lst_to_html(lst):
 # DATE
 ###################################
 
-
 def date_now():
     return str(datetime.date.today())
 
@@ -494,6 +493,7 @@ def header_default_dark():
                         <li><a href="/">Home</a></li>
                         <li><a href="/herbalism.html">Herbalism</a></li>
                         <li><a href="/remedies.html">Remedies</a></li>
+                        <li><a href="/herbs.html">Herbs</a></li>
                         <li><a href="/about.html">About</a></li>
                     </ul>
                 </nav>
