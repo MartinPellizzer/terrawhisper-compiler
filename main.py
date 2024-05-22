@@ -2331,10 +2331,10 @@ def art_remedies_systems():
 
 def herbs_pages():
     for herb_row in herbs_rows[:g.HERBS_ART_NUM]:
-        herb_id = herb_row[herbs_cols['herb_id']]
-        herb_slug = herb_row[herbs_cols['herb_slug']]
+        herb_id = herb_row[herbs_cols['herb_id']].strip()
+        herb_slug = herb_row[herbs_cols['herb_slug']].strip()
         herb_name_common = herb_row[herbs_cols['herb_name_common']].split(',')[0].strip()
-        herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']]
+        herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip()
 
         if herb_id == '': continue
         if herb_slug == '': continue
@@ -2390,8 +2390,91 @@ def herbs_pages():
 
         article_html = ''
         article_html += f'<h1>{title}</h1>\n'
-        article_html += f'<img src="{image_featured_filepath_web}" alt="">\n'
+        article_html += f'<p><img src="{image_featured_filepath_web}" alt=""></p>\n'
 
+        key = 'intro_desc' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            prompt = f'''
+                Write 1 intro paragraph in 5 sentences for an article about the {herb_name_common} herb.
+                In sentence 1, explain the health properties of {herb_name_common} and how they improve health.
+                In sentence 2, explain the main culinary uses of {herb_name_common}.
+                In sentence 3, explain the main hortocultural aspects of {herb_name_common}.
+                In sentence 4, explain the botanical properties of {herb_name_common}.
+                In sentence 5, explain the main historical references of {herb_name_common}.
+                Never use the following words: can, may, might.
+                Start the reply with the following words: {herb_name_common}, scientifically know as {herb_name_scientific}, is .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        key = 'section_medicine_ailments' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                Write 1 detailed paragraph about what common ailments {herb_name_common} ({herb_name_scientific}) helps heal.
+                Never use the following words: can, may, might.
+                Start the reply with the following words: {herb_name_common}{aka} helps healing several common ailments, such us .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        article_html += f'<h2>What ailments {herb_name_common} help heal?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        key = 'section_medicine_properties' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                Write 1 detailed paragraph about the most important medicinal properties of {herb_name_common} ({herb_name_scientific}).
+                Never use the following words: can, may, might.
+                Start the reply with the following words: {herb_name_common}{aka} has several medicinal properties, such us .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h3>What are the medicinal properties of {herb_name_common}?</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        key = 'section_medicine_ailments' 
+        key = 'section_medicine_parts' 
+        key = 'section_medicine_side_effects' 
+        key = 'section_medicine_precautions' 
+        
         header_html = util.header_default_dark()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
         meta_html = util.article_meta(article_html, lastmod)
@@ -2807,7 +2890,7 @@ def json_del_keys_herbalism_tincture(key):
 # EXE
 # #########################################################
 
-# page_home()
+page_home()
 # page_herbalism()
 # page_top_herbs()
 # page_plants(regen_csv=False)

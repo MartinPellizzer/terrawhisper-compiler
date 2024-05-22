@@ -105,6 +105,9 @@ def sanitize_herbs(line):
     if line == 'ginkgo': line = 'ginkgo biloba'
     if line == 'poke': line = 'pokeweed'
     if line == 'poke root': line = 'pokeweed'
+    if line == 'astragalus': line = 'milkvetch'
+    if line == 'baptisia': line = 'wild indigo'
+    if line == 'pleurisy root': line = 'butterfly weed'
 
     return line
 
