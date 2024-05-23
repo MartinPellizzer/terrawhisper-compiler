@@ -10,6 +10,11 @@ import util
 import utils_ai
 import sitemap
 
+
+c_dark = '#030712'
+c_bg = '#f5f5f5'
+
+
 conditions_rows = util.csv_get_rows('database/csv/status/conditions.csv')
 conditions_cols = util.csv_get_cols(conditions_rows)
 conditions_rows = conditions_rows[1:]
@@ -1134,8 +1139,19 @@ def art_remedies_systems_problems_preparations(preparation_slug):
 
 
         # REDIRECT
-        
-        html_filepath_from = f'website/herbalism/{preparation_name_singular}/{system_slug}/{problem_slug}.html'
+        conditions_olds_rows = util.csv_get_rows('database/csv/status/conditions.csv')
+        condition_old_slug_system = ''
+        for condition_old_row in conditions_olds_rows[1:]:
+            condition_old_slug = condition_old_row[1]
+            if condition_old_slug.strip() == '': continue
+            system_tmp = condition_old_slug.split('/')[0]
+            slug_tmp = condition_old_slug.split('/')[1]
+            if slug_tmp == problem_slug:
+                condition_old_slug_system = system_tmp
+                print(system_tmp)
+                print(slug_tmp)
+
+        html_filepath_from = f'website/herbalism/{preparation_name_singular}/{condition_old_slug_system}/{problem_slug}.html'
         html_filepath_to = f'{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/{preparation_slug}.html'
 
         print(html_filepath_from)
@@ -1804,6 +1820,41 @@ def art_remedies_systems_problems():
             article_html += f'<h1>{title}</h1>\n'
         else: print(f'MISSING TITLE: ailments_systems_problems -- {problem_name}')
 
+        # featured image
+        image_filepath_out = f'website/images/{problem_slug}-overview.jpg'
+        image_filepath_web = f'/images/{problem_slug}-overview.jpg'
+        # if not os.path.exists(image_filepath_out): 
+        if True: 
+            img = Image.new(mode="RGB", size=(768, 512), color=c_dark)
+            draw = ImageDraw.Draw(img)
+            text = problem_name.upper()
+            # TODO: in len of any word is longer than ??? (ex 10 chars), reduce size of font
+            font = ImageFont.truetype("assets/fonts/arial/ARIAL.TTF", 96)
+            words = text.split()
+            lines = []
+            line_curr = ''
+            for word in words:
+                _, _, line_w, _ = font.getbbox(line_curr)
+                _, _, word_w, _ = font.getbbox(word)
+                if line_w + word_w < 768:
+                    line_curr += f'{word} '
+                else:
+                    if line_curr != '':
+                        lines.append(line_curr.strip())
+                    line_curr = f'{word} '
+            lines.append(line_curr.strip())
+
+            text_height_total = 0
+            for i, line in enumerate(lines):
+                _, _, text_w, text_h = font.getbbox(line)
+                text_height_total += text_h
+
+            for i, line in enumerate(lines):
+                _, _, text_w, text_h = font.getbbox(line)
+                draw.text((768//2 - text_w//2, 512//2 - text_h//2 + (i*text_h) - text_height_total//4), line, '#ffffff', font=font)
+            img.save(image_filepath_out, quality=50) 
+            article_html += f'<p><img src="{image_filepath_web}" alt="{problem_name} overview" width="768" height="512"></p>'
+
         if 'intro' in data: 
             intro = data['intro']
             article_html += f'{util.text_format_1N1_html(intro)}\n'
@@ -2431,7 +2482,6 @@ def herbs_pages():
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-
             reply = utils_ai.reply_to_paragraphs(reply)
             print(len(reply))
             if len(reply) == 1:
@@ -2441,8 +2491,9 @@ def herbs_pages():
                 data[key] = reply[0]
                 util.json_write(json_filepath, data)
             time.sleep(g.PROMPT_DELAY_TIME)
-        article_html += f'<h2>What ailments {herb_name_common} help heal?</h2>\n'
-        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+        if data[key] != '':
+            article_html += f'<h2>What ailments {herb_name_common} help heal?</h2>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
 
         key = 'section_medicine_properties' 
         if key not in data: data[key] = ''
@@ -2456,7 +2507,6 @@ def herbs_pages():
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-
             reply = utils_ai.reply_to_paragraphs(reply)
             print(len(reply))
             if len(reply) == 1:
@@ -2470,10 +2520,80 @@ def herbs_pages():
             article_html += f'<h3>What are the medicinal properties of {herb_name_common}?</h3>\n'
             article_html += f'{util.text_format_1N1_html(data[key])}\n'
 
-        key = 'section_medicine_ailments' 
         key = 'section_medicine_parts' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                Write 1 detailed paragraph about the most important parts of {herb_name_common} ({herb_name_scientific}) used for medicinal purposes.
+                Never use the following words: can, may, might.
+                Start the reply with the following words: The most commonly used parts of {herb_name_common}{aka} for medicinal purposes are .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h3>What parts of {herb_name_common} are used for medicinal purposes?</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+        
         key = 'section_medicine_side_effects' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                Write 1 detailed paragraph about the possible side effects of improperly using {herb_name_common} ({herb_name_scientific}) for medicinal purposes.
+                Never use the following words: can, may, might.
+                Start the reply with the following words: When used improperly, {herb_name_common}{aka} increases the chances of experiencing side effects, such as .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h3>What are the side effects of {herb_name_common} when used improperly?</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
         key = 'section_medicine_precautions' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                Write 1 detailed paragraph about the most common precautions to take when using {herb_name_common} ({herb_name_scientific}) medicinally.
+                Never use the following words: can, may, might.
+                Start the reply with the following words: The precautions to take before using {herb_name_common}{aka} medicinally are .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h3>What precautions to take before using {herb_name_common} medicinally?</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
         
         header_html = util.header_default_dark()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
