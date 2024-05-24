@@ -1,3 +1,6 @@
+- do necessary pages
+- review capsules csv and start generate articles
+- images
 - do herbs pages using old plants pages as reference and redo old herbs pages in herbs folder 
 - make herb category page title (h1, h2)
 - images remedies_systems_problems

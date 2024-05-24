@@ -70,6 +70,24 @@ problems_related_rows = problems_related_rows[1:]
 teas_num = 10
 ART_ITEMS_NUM = 10
 
+# DEBUG
+
+DEBUG_REMEDY_IMG_FOLDER_MISSING = 1
+DEBUG_MISS_IMG_KEY_FEATURED = 0
+DEBUG_MISS_IMG_KEY_LST = 0
+DEBUG_MISS_REMEDY_DESC = 0
+DEBUG_MISS_REMEDY_CONSTITUENTS = 0
+DEBUG_MISS_REMEDY_PARTS = 0
+DEBUG_MISS_REMEDY_RECIPE = 0
+
+DEBUG_PROBLEM_NAME = 0
+DEBUG_PROBLEM_SYSTEM = 0
+DEBUG_PROBLEM_JSON_FILEPATH = 0
+DEBUG_PROBLEM_REDIRECT = 0
+
+DEBUG_PROBLEMS = 0
+DEBUG_PLANTS = 0
+
 
 # #########################################################
 # CSVs
@@ -263,12 +281,8 @@ def html_intro_desc(data):
 
 
 # #########################################################
-# PREPARATIONS
+# ;PREPARATIONS
 # #########################################################
-
-
-
-# JSONs
 
 def json_preparation_system_problem_list(json_filepath, data):
     problem_id = data['problem_id']
@@ -566,9 +580,6 @@ def json_preparation_system_problem_supplementary(json_filepath, data):
     # How should herbal teas be incorporated into a daily oral hygiene routine for optimal results in combating bad breath?
 
 
-
-# IMGs
-
 def img_preparation_systems_problems_featured(data):
     if 'remedies_list' in data:
         problem_slug = data['problem_slug']
@@ -587,9 +598,9 @@ def img_preparation_systems_problems_featured(data):
                 if image_filepath != '':
                     util.image_variate(image_filepath, image_filepath_out)
             else:
-                print(f'IMG FOLDER MISSING: {images_folderpath}')
+                if DEBUG_REMEDY_IMG_FOLDER_MISSING: print(f'IMG FOLDER MISSING: {images_folderpath}')
     else:
-        print(f'MISSING KEY remedy_list: {preparation_slug} {problem_slug}')
+        if DEBUG_MISS_IMG_KEY_FEATURED: print(f'MISSING KEY featured: {preparation_slug} {problem_slug}')
 
 
 def img_preparation_systems_problems_list(data):
@@ -619,9 +630,9 @@ def img_preparation_systems_problems_list(data):
                     label = f'{herb_name_common} {preparation_name_singular}\nfor {problem_name}'
                     util.image_label(image_filepath, image_filepath_out, label)
             else:
-                print(f'IMG FOLDER MISSING: {images_folderpath}')
+                if DEBUG_REMEDY_IMG_FOLDER_MISSING: print(f'IMG FOLDER MISSING: {images_folderpath}')
     else:
-        print(f'MISSING KEY remedy_list: {preparation_slug} {problem_slug}')
+        if DEBUG_MISS_IMG_KEY_LST: print(f'MISSING KEY remedy_list: {preparation_slug} {problem_slug}')
 
 
 def img_preparation_systems_problems_cheatsheet(data):
@@ -841,9 +852,6 @@ def img_preparation_systems_problems_cheatsheet(data):
     # quit()
 
 
-
-# HTMLs
-
 def html_preparation_system_problem_list(html_filepath, data):
     article_html = ''
     problem_slug = data['problem_slug']
@@ -865,14 +873,16 @@ def html_preparation_system_problem_list(html_filepath, data):
 
         article_html += f'<h2>{i+1}. {remedy_name_preparation.capitalize()}</h2>\n'
         try: article_html += f'<p>{util.text_format_1N1_html(remedy_obj["remedy_desc"])}</p>\n'
-        except: print(f'MISSING REMEDY DESC: {html_filepath} >> {problem_name} >> {remedy_name_preparation}')
+        except: 
+            if DEBUG_MISS_REMEDY_DESC: print(f'MISSING REMEDY DESC: {html_filepath} >> {problem_name} >> {remedy_name_preparation}')
 
         img_src = f'/images/herbal-{preparation_slug_singular}-for-{problem_slug}-{herb_name_common_slug}.jpg'
 
         # img_src = f'/images/{herb_name_common_slug}-{preparation_slug_singular}-for-{problem_slug}.jpg'
         img_alt = f'{herb_name_common} {preparation_name_singular} for {problem_name}.jpg'
         try: article_html += f'<p><img src="{img_src}" alt="{img_alt}"><p>\n'
-        except: print(f'MISSING REMEDY IMAGE: {problem_name} >> {tea_image_url}')
+        except: 
+           if DEBUG_MISS_REMEDY_IMG: print(f'MISSING REMEDY IMAGE: {problem_name} >> {tea_image_url}')
             
         try:
             constituents = remedy_obj['remedy_properties']
@@ -883,7 +893,8 @@ def html_preparation_system_problem_list(html_filepath, data):
                 chunk_2 = ': '.join(constituent.split(': ')[1:])
                 article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
             article_html += '</ul>\n'
-        except: print(f'MISSING REMEDY CONSTITUENTS: {problem_name} >> {remedy_name}')
+        except: 
+            if DEBUG_MISS_REMEDY_CONSTITUENTS: print(f'MISSING REMEDY CONSTITUENTS: {problem_name} >> {remedy_name}')
 
         try:
             parts = remedy_obj['remedy_parts']
@@ -894,7 +905,8 @@ def html_preparation_system_problem_list(html_filepath, data):
                 chunk_2 = ': '.join(part.split(': ')[1:])
                 article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
             article_html += '</ul>\n'
-        except: print(f'MISSING REMEDY PARTS: {problem_name} >> {remedy_name}')
+        except: 
+            if DEBUG_MISS_REMEDY_PARTS: print(f'MISSING REMEDY PARTS: {problem_name} >> {remedy_name}')
 
         try:
             recipe = remedy_obj['remedy_recipe']
@@ -903,7 +915,8 @@ def html_preparation_system_problem_list(html_filepath, data):
             for step in recipe:
                 article_html += f'<li>{step}</li>\n'
             article_html += '</ol>\n'
-        except: print(f'MISSING REMEDY RECIPE: {problem_name} >> {remedy_name}')
+        except: 
+            if DEBUG_MISS_REMEDY_RECIPE: print(f'MISSING REMEDY RECIPE: {problem_name} >> {remedy_name}')
 
     return article_html
 
@@ -976,6 +989,9 @@ def art_remedies_systems_problems_preparations(preparation_slug):
     elif preparation_slug == 'tinctures':
         preparation_name = 'tinctures'
         preparation_name_singular = 'tincture'
+    elif preparation_slug == 'capsules':
+        preparation_name = 'capsules'
+        preparation_name_singular = 'capsule'
 
     if preparation_name == '': return
     if preparation_name_singular == '': return
@@ -996,8 +1012,10 @@ def art_remedies_systems_problems_preparations(preparation_slug):
             if 'infusions' not in preparations_names: continue
         elif preparation_slug == 'tinctures':
             if 'tinctures' not in preparations_names: continue
+        elif preparation_slug == 'capsules':
+            if 'capsules' not in preparations_names: continue
 
-        print(f'> {problem_name}')
+        if DEBUG_PROBLEM_NAME: print(f'> {problem_name}')
 
         system_row = csv_get_system_by_problem(problem_id)
         system_id = system_row[systems_cols['system_id']]
@@ -1008,9 +1026,10 @@ def art_remedies_systems_problems_preparations(preparation_slug):
         if system_slug == '': continue
         if system_name == '': continue
 
-        print(f'  > {system_name}')
+        if DEBUG_PROBLEM_SYSTEM: print(f'  > {system_name}')
 
         json_filepath = f'database/json/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/{preparation_slug}.json'
+        if DEBUG_PROBLEM_JSON_FILEPATH: print(json_filepath)
 
         util.create_folder_for_filepath(json_filepath)
         util.json_generate_if_not_exists(json_filepath)
@@ -1057,7 +1076,7 @@ def art_remedies_systems_problems_preparations(preparation_slug):
                 Never use the following words: can, may, might.
             '''
         )
-        print(json_filepath)
+        
         json_preparation_system_problem_list(json_filepath, data)
         json_preparation_system_problem_supplementary(json_filepath, data)
 
@@ -1148,13 +1167,13 @@ def art_remedies_systems_problems_preparations(preparation_slug):
             slug_tmp = condition_old_slug.split('/')[1]
             if slug_tmp == problem_slug:
                 condition_old_slug_system = system_tmp
-                print(system_tmp)
-                print(slug_tmp)
+                if DEBUG_PROBLEM_REDIRECT: print(system_tmp)
+                if DEBUG_PROBLEM_REDIRECT: print(slug_tmp)
 
         html_filepath_from = f'website/herbalism/{preparation_name_singular}/{condition_old_slug_system}/{problem_slug}.html'
         html_filepath_to = f'{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/{preparation_slug}.html'
 
-        print(html_filepath_from)
+        if DEBUG_PROBLEM_REDIRECT: print(html_filepath_from)
         if os.path.exists(html_filepath_from):
             redirect = f'<meta http-equiv="refresh" content="0; url=https://terrawhisper.com/{html_filepath_to}">'
 
@@ -1196,143 +1215,14 @@ def art_remedies_systems_problems_preparations(preparation_slug):
 
             util.file_write(html_filepath_from, html)
         else:
-            print('path dont exists')
+            if DEBUG_PROBLEM_REDIRECT: print('path dont exists')
 
 
-
-
-
-
-
-def json_copy_jsons():
-    for problem_row in problems_rows[:g.ART_NUM]:
-        problem_id = problem_row[problems_cols['problem_id']]
-        problem_slug = problem_row[problems_cols['problem_slug']]
-        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
-
-        if problem_id == '': continue
-        if problem_slug == '': continue
-        if problem_name == '': continue
-
-        print(f'> {problem_name}')
-
-        system_row = csv_get_system_by_problem(problem_id)
-        system_id = system_row[systems_cols['system_id']]
-        system_slug = system_row[systems_cols['system_slug']]
-        system_name = system_row[systems_cols['system_name']]
-
-        if system_id == '': continue
-        if system_slug == '': continue
-        if system_name == '': continue
-
-        print(f'  > {system_name}')
-
-        json_filepath_in = f'database/json/herbalism/tea/{system_slug}/{problem_slug}.json'
-        json_filepath_out = f'database/json/remedies/{system_slug}/{problem_slug}/teas.json'
-
-        if os.path.exists(json_filepath_in):
-            util.create_folder_for_filepath(json_filepath_out)
-            shutil.copy2(json_filepath_in, json_filepath_out)
-
-        json_filepath_in = f'database/json/herbalism/tincture/{system_slug}/{problem_slug}.json'
-        json_filepath_out = f'database/json/remedies/{system_slug}/{problem_slug}/tinctures.json'
-
-        if os.path.exists(json_filepath_in):
-            util.create_folder_for_filepath(json_filepath_out)
-            shutil.copy2(json_filepath_in, json_filepath_out)
-
-        json_filepath_in = f'website/herbalism/tea/{system_slug}/{problem_slug}.html'
-        json_filepath_out = f'website/remedies/{system_slug}/{problem_slug}/teas.html'
-
-        if os.path.exists(json_filepath_in):
-            util.create_folder_for_filepath(json_filepath_out)
-            shutil.copy2(json_filepath_in, json_filepath_out)
-
-        json_filepath_in = f'website/herbalism/tincture/{system_slug}/{problem_slug}.html'
-        json_filepath_out = f'website/remedies/{system_slug}/{problem_slug}/tinctures.html'
-
-        if os.path.exists(json_filepath_in):
-            util.create_folder_for_filepath(json_filepath_out)
-            shutil.copy2(json_filepath_in, json_filepath_out)
-
-
-
-def json_preparation_system_problems(json_filepath, data):
-    key = 'problems'
-    if key not in data: data[key] = []
-    for problem_row in problems_rows[:g.ART_NUM]:
-        problem_id = problem_row[problems_cols['problem_id']]
-        problem_slug = problem_row[problems_cols['problem_slug']]
-        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
-
-        if problem_id == '': continue
-        if problem_slug == '': continue
-        if problem_name == '': continue
-        
-        system_row = csv_get_system_by_problem(problem_id)
-        if system_row[systems_cols['system_id']] != data['system_id']: continue
-
-        found = False
-        for problem_obj in data[key]:
-            if problem_obj['problem_id'] == problem_id:
-                found = True
-                break
-        
-        if not found:
-            data[key].append({'problem_id': problem_id, 'problem_slug': problem_slug, 'problem_name': problem_name})
-
-    util.json_write(json_filepath, data)
-        
-    key = 'problem_desc'
-    for problem_obj in data['problems']:
-        # if key in problem_obj: del problem_obj[key]
-        if key not in problem_obj:
-            problem_id = problem_obj['problem_id']
-            problem_name = problem_obj['problem_name']
-
-            prompt = f'''
-                Write 1 paragraph about what is {problem_name}, how it affects your life, and what are the herbal tinctures for {problem_name}.
-                Start the reply with the following words: {problem_name.capitalize()} is .
-                Never use the words "can", "may", and "might".
-            '''
-            reply = utils_ai.gen_reply(prompt)
-
-            reply = utils_ai.reply_to_paragraphs(reply)
-
-            print(len(reply))
-            if len(reply) == 1:
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                problem_obj[key] = reply[0]
-                util.json_write(json_filepath, data)
-
-            time.sleep(g.PROMPT_DELAY_TIME)
-
-
-
-def html_preparation_system_intro(data):
-    title = ''
-    intro_desc = ''
-    system_name = data['system_name']
-
-    if 'title' in data: title = data['title']
-    else: print(f'MISSING TITLE: html_preparation_system_intro -- {system_name}')
-    if 'intro_desc' in data: intro_desc = data['intro_desc']
-    else: print(f'MISSING INTRO: html_preparation_system_intro -- {system_name}')
-
-    article_html = ''
-
-    article_html += f'<h1>{title}</h1>\n'
-    article_html += f'{util.text_format_1N1_html(intro_desc)}\n'
-    article_html += f'<p>This article explains in detail what are the best tinctures for the different body systems\n'
-
-    return article_html
 
 
 
 # #########################################################
-# ARTICLES - PROBLEMS
+# ;REMEDIES
 # #########################################################
 
 def json_remedies_systems_problems_definition(json_filepath, data):
@@ -1662,7 +1552,7 @@ def art_remedies_systems_problems():
         if problem_slug == '': continue
         if problem_name == '': continue
 
-        print(f'>> {problem_id} - {problem_name}')
+        if DEBUG_PROBLEMS: print(f'>> {problem_id} - {problem_name}')
         
         problem_system_row = util.csv_get_rows_filtered(
             g.CSV_PROBLEMS_SYSTEMS_FILEPATH, 
@@ -1684,7 +1574,7 @@ def art_remedies_systems_problems():
         if system_slug == '': continue
         if system_name == '': continue
 
-        print(f'    {system_id} - {system_name}')
+        if DEBUG_PROBLEMS: print(f'    {system_id} - {system_name}')
 
 
 
@@ -2392,15 +2282,15 @@ def herbs_pages():
         if herb_name_common == '': continue
         if herb_name_scientific == '': continue
 
-        print(herb_id)
-        print(herb_slug)
-        print(herb_name_common)
-        print(herb_name_scientific)
+        if DEBUG_PLANTS: print(herb_id)
+        if DEBUG_PLANTS: print(herb_slug)
+        if DEBUG_PLANTS: print(herb_name_common)
+        if DEBUG_PLANTS: print(herb_name_scientific)
 
         url = f'herbs/{herb_slug}'
         json_filepath = f'database/json/{url}.json'
         html_filepath = f'website/{url}.html'
-        print(html_filepath)
+        if DEBUG_PLANTS: print(html_filepath)
 
         # json
         util.create_folder_for_filepath(json_filepath)
@@ -2595,6 +2485,162 @@ def herbs_pages():
             article_html += f'<h3>What precautions to take before using {herb_name_common} medicinally?</h3>\n'
             article_html += f'{util.text_format_1N1_html(data[key])}\n'
         
+        
+        key = 'section_horticulture' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                Write 1 detailed paragraph about what are the horticultural conditions of {herb_name_common} ({herb_name_scientific}).
+                Never use the following words: can, may, might.
+                Start the reply with the following words: {herb_name_common}{aka} .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h2>What are the horticulture conditions of {herb_name_common}?</h2>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        key = 'section_horticulture_growth' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                Write 1 detailed paragraph about what are the growth requirements of {herb_name_common} ({herb_name_scientific}).
+                Never use the following words: can, may, might.
+                Start the reply with the following words: {herb_name_common}{aka} .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h3>What are the growth requirements of {herb_name_common}?</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        key = 'section_horticulture_planting' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                Write 1 detailed paragraph about what are the planting tips of {herb_name_common} ({herb_name_scientific}).
+                Never use the following words: can, may, might.
+                Start the reply with the following words: {herb_name_common}{aka} .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h3>What are the planting tips of {herb_name_common}?</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        key = 'section_horticulture_caring' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                Write 1 detailed paragraph about what are the caring tips of {herb_name_common} ({herb_name_scientific}).
+                Never use the following words: can, may, might.
+                Start the reply with the following words: {herb_name_common}{aka} .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h3>What are the planting tips of {herb_name_common}?</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        header_html = util.header_default_dark()
+        breadcrumbs_html = util.breadcrumbs(html_filepath)
+        meta_html = util.article_meta(article_html, lastmod)
+        article_html = util.article_toc(article_html)
+
+        key = 'section_horticulture_harvesting' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                Write 1 detailed paragraph about what are the harvesting tips of {herb_name_common} ({herb_name_scientific}).
+                Never use the following words: can, may, might.
+                Start the reply with the following words: {herb_name_common}{aka} .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h3>What are the harvesting tips of {herb_name_common}?</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        key = 'section_horticulture_persts_diseases' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                Write 1 detailed paragraph about what are the pest and diseases of {herb_name_common} ({herb_name_scientific}).
+                Never use the following words: can, may, might.
+                Start the reply with the following words: {herb_name_common}{aka} .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h3>What are the pest and diseases tips of {herb_name_common}?</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
         header_html = util.header_default_dark()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
         meta_html = util.article_meta(article_html, lastmod)
@@ -2702,8 +2748,9 @@ def herbs_pages():
     util.file_write(html_filepath, html)
 
 
+
 # #########################################################
-# PAGES
+# ;PAGES
 # #########################################################
 
 def page_home():
@@ -3023,6 +3070,7 @@ art_remedies()
 
 art_remedies_systems_problems_preparations('teas')
 art_remedies_systems_problems_preparations('tinctures')
+art_remedies_systems_problems_preparations('capsules')
 
 herbs_pages()
 

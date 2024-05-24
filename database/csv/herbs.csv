@@ -69,7 +69,7 @@ herb_id\herb_slug\herb_name_common\herb_name_scientific
 70\crocus-sativus\saffron\Crocus sativus
 71\turnera-diffusa\damiana\Turnera diffusa
 72\rhodiola-rosea\golden root\Rhodiola rosea
-73\eleutherococcus-senticosus\Siberian ginseng\Eleutherococcus senticosus
+73\eleutherococcus-senticosus\siberian ginseng\Eleutherococcus senticosus
 74\viscum-album\mistletoe\Viscum album
 75\ceonurus-cardiaca\motherwort\Leonurus cardiaca
 76\ocimum-tenuiflorum\holy basil\Ocimum tenuiflorum
@@ -145,3 +145,5 @@ herb_id\herb_slug\herb_name_common\herb_name_scientific
 146\viburnum-prunifolium\black haw\Viburnum prunifolium
 147\angelica-sinensis\dong quai\Angelica sinensis
 148\mitchella-repens\partridgeberry\Mitchella repens
+149\centaurium-erythraea\centaury\Centaurium erythraea
+150\angelica-archangelica\angelica\Angelica archangelica

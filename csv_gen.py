@@ -46,6 +46,10 @@ problems_tinctures_rows = util.csv_get_rows(g.CSV_PROBLEMS_TINCTURES_FILEPATH)
 problems_tinctures_cols = util.csv_get_cols(problems_tinctures_rows)
 problems_tinctures_rows = problems_tinctures_rows[1:]
 
+problems_capsules_rows = util.csv_get_rows(g.CSV_PROBLEMS_CAPSULES_FILEPATH)
+problems_capsules_cols = util.csv_get_cols(problems_capsules_rows)
+problems_capsules_rows = problems_capsules_rows[1:]
+
 
 def sanitize_herbs(line):
     line = line.replace('licorice root', 'licorice')
@@ -108,6 +112,7 @@ def sanitize_herbs(line):
     if line == 'astragalus': line = 'milkvetch'
     if line == 'baptisia': line = 'wild indigo'
     if line == 'pleurisy root': line = 'butterfly weed'
+    if line == 'angelica root': line = 'angelica'
 
     return line
 
@@ -426,12 +431,77 @@ def csv_gen_tinctures_for_problem(problem_row):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
+def csv_gen_capsules_for_problem(problem_row):
+    problem_id = problem_row[problems_cols['problem_id']]
+    problem_slug = problem_row[problems_cols['problem_slug']]
+    problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+    problems_capsules_rows = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_CAPSULES_FILEPATH, problems_capsules_cols['problem_id'], problem_id
+    )
+
+    if problems_capsules_rows == []:
+        items_num = 15
+        prompt = f'''
+            Write a numbered list of the {items_num} best herbal capsules for {problem_name}.
+            Order the herbs in the list by effectiveness in treating {problem_name}.
+            Write only the names of the herbs, not the descriptions.
+            Include only 1 herb name for each list item, without mentioning the herb part.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip().lower()
+            if line == '': continue
+            if not line[0].isdigit(): continue
+            if '.' not in line: continue
+            line = '.'.join(line.split('.')[1:])
+            line = line.split('(')[0]
+            line = line.strip()
+            if line == '': continue
+
+            line = sanitize_herbs(line)
+            
+            found = False
+            for line_added in lines:
+                if line == line_added[3]:
+                    found = True
+                    break
+            if found: continue
+
+            herbs_rows_filtered = util.csv_get_rows_filtered(
+                g.CSV_HERBS_FILEPATH, herbs_cols['herb_name_common'], line
+            )
+            if herbs_rows_filtered != []:
+                herb_row = herbs_rows_filtered[0]
+                herb_id = herb_row[herbs_cols['herb_id']]
+            else:
+                herb_id = ''
+
+            lines.append([problem_id, problem_slug, herb_id, line])
+
+        if len(lines) >= 10:
+            print('***************************************************')
+            print(lines)
+            print('***************************************************')
+            util.csv_add_rows(g.CSV_PROBLEMS_CAPSULES_FILEPATH, lines)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
 
 ##################################################
 # EXE
 ##################################################
 
-def gen_csvs():
+def gen_csvs(problems_num=0):
+    if problems_num < 0: return
+    
+    problems_num_selected = 0
+    if problems_num != 0: problems_num_selected = problems_num
+    else: problems_num_selected = g.ART_NUM
+
     for problem_row in problems_rows[:g.ART_NUM]:
         problem_id = problem_row[problems_cols['problem_id']].strip().lower()
         problem_slug = problem_row[problems_cols['problem_slug']].strip().lower()
@@ -452,6 +522,7 @@ def gen_csvs():
 
         csv_gen_teas_for_problem(problem_row)
         csv_gen_tinctures_for_problem(problem_row)
+        csv_gen_capsules_for_problem(problem_row)
 
 
-gen_csvs()
+gen_csvs(1)

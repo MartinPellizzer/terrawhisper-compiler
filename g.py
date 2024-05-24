@@ -1,8 +1,8 @@
 ARTICLES_NUM = 100
 
 
-ART_NUM = 22
-HERBS_ART_NUM = 2
+ART_NUM = 23
+HERBS_ART_NUM = 3
 
 
 # BY
@@ -42,6 +42,7 @@ CSV_PROBLEMS_SYSTEMS_FILEPATH = 'database/csv/junctions/problems_systems.csv'
 CSV_PROBLEMS_PREPARATIONS_FILEPATH = 'database/csv/junctions/problems_preparations.csv'
 CSV_PROBLEMS_TEAS_FILEPATH = 'database/csv/junctions/problems_teas.csv'
 CSV_PROBLEMS_TINCTURES_FILEPATH = 'database/csv/junctions/problems_tinctures.csv'
+CSV_PROBLEMS_CAPSULES_FILEPATH = 'database/csv/junctions/problems_capsules.csv'
 CSV_PROBLEMS_RELATED_FILEPATH = 'database/csv/junctions/problems_related.csv'
 
 
