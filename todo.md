@@ -1,5 +1,5 @@
 - do necessary pages
-- review capsules csv and start generate articles
+- new pin design
 - images
 - do herbs pages using old plants pages as reference and redo old herbs pages in herbs folder 
 - make herb category page title (h1, h2)

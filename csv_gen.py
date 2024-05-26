@@ -113,6 +113,14 @@ def sanitize_herbs(line):
     if line == 'baptisia': line = 'wild indigo'
     if line == 'pleurisy root': line = 'butterfly weed'
     if line == 'angelica root': line = 'angelica'
+    if line == 'linden flower': line = 'linden'
+    if line == 'linden flower': line = 'linden'
+    if line == 'celery seed': line = 'celery'
+    if line == 'cascara sagrada': line = 'cascara'
+    if line == 'artemisia': line = 'mugwort'
+    if line == 'ivy leaf': line = 'ivy'
+    if line == 'usnea': line = 'beard lichens'
+    if line == 'plantain leaf': line = 'plantain'
 
     return line
 

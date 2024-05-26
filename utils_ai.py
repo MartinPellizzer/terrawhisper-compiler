@@ -39,7 +39,7 @@ def gen_reply_api(prompt):
                 "content": prompt,
             }
         ],
-        temperature=1,
+        temperature=0.5,
     )
 
     reply = completion.choices[0].message.content
@@ -101,12 +101,20 @@ def reply_to_paragraphs(reply):
     for line in reply.split('\n'):
         line = line.strip()
         if line == '': continue
-        if ':' in line: 
-            tmp_line = line.split(':')[1]
-            if tmp_line.strip() == '': continue
+        if ':' in line: continue
+        # if ':' in line: 
+        #     tmp_line = line.split(':')[1]
+        #     if tmp_line.strip() == '': continue
         if len(line.strip().split(' ')) <= 16: continue
         reply_formatted.append(line)
     return reply_formatted
+
+def reply_to_paragraph(reply):
+    reply = reply.strip()
+    if '\n' in reply: return [reply, 'too many paragraphs']
+    if ':' in reply: return [reply, 'found : in text']
+    if reply[-1] != '.': return [reply, 'text not ending with .']
+    return [reply, '']
     
 
 def reply_to_list_column(reply):
@@ -114,10 +122,11 @@ def reply_to_list_column(reply):
     for line in reply.split('\n'):
         line = line.strip()
         if line == '': continue
-        if not line[0].isdigit(): continue
+        if not line[0].isdigit(): return [reply, 'list item don\'t start with number']
+        if line[-1] != '.': return [reply, 'missing ending .']
         
         line = '.'.join(line.split('.')[1:]).strip()
-        if line == '': continue
+        if line == '': return [reply, 'missing text after number']
 
         # if len(line.split(' ')) < 10: continue
 
@@ -125,7 +134,7 @@ def reply_to_list_column(reply):
         line = line.replace('[', '')
         line = line.replace(']', '')
 
-        if ':' not in line: continue
+        if ':' not in line: return [reply, 'missing :']
         line_chunks = line.split(':')
         chunk_1 = line_chunks[0].split('(')[0].strip()
         chunk_2 = line_chunks[1].strip()
@@ -133,7 +142,7 @@ def reply_to_list_column(reply):
 
         reply_formatted.append(line)
 
-    return reply_formatted
+    return [reply_formatted, '']
 
 
     
@@ -153,3 +162,23 @@ def reply_to_list(reply):
         reply_formatted.append(line)
 
     return reply_formatted
+
+    
+
+def reply_to_list_01(reply):
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+
+        if not line[0].isdigit(): return [reply, 'list item don\'t start with number']
+        if line[-1] != '.': return [reply, 'missing ending .']
+        
+        line = '. '.join(line.split('. ')[1:]).strip()
+        if line == '': [reply, 'missing text after number']
+
+        # if len(line.split(' ')) < 10: continue
+
+        reply_formatted.append(line)
+
+    return [reply_formatted, '']
