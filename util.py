@@ -350,9 +350,30 @@ def image_label(filepath_in, filepath_out, label):
     image.save(filepath_out, format='JPEG', optimize=True, quality=50)
 
 
+def image_label_01(filepath, label):
+    image = Image.open(filepath)
+    w, h = image.size
+
+    draw = ImageDraw.Draw(image)
+
+    c_dark = '#030712'
+    rect_h = 80
+    draw.rectangle(((0, h - rect_h), (w, h)), fill=c_dark)
+
+    text = label.upper()
+    lines = text.split('\n')
+    font_size = w//16
+    font = ImageFont.truetype("assets/fonts/arial/ARIAL.ttf", font_size)
+    for line in lines:
+        _, _, text_w, text_h = font.getbbox(line)
+        draw.text((w//2 - text_w//2, h - rect_h//2 - font_size//2 - font_size//16), line, (255, 255, 255), font=font)
+
+    image.save(filepath, format='JPEG')
+
+
 def image_save_resized(filepath_in, filepath_out, width, height, quality):
     img = Image.open(filepath_in)
-    img_resize(img, width, height)
+    img = img_resize(img, width, height)
     img.save(filepath_out, format='JPEG', optimize=True, quality=quality)
 
 

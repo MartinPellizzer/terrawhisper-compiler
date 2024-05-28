@@ -1,3 +1,8 @@
+- pinterest featured pins
+- problems from pinterest search
+- remedies_page as category
+- do 1 minimalist dark design image
+- notion startup?
 - do necessary pages
 - new pin design
 - images

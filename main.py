@@ -14,6 +14,7 @@ import sitemap
 c_dark = '#030712'
 c_bg = '#f5f5f5'
 
+if not os.path.exists('website/images'): os.makedirs('website/images')
 
 conditions_rows = util.csv_get_rows('database/csv/status/conditions.csv')
 conditions_cols = util.csv_get_cols(conditions_rows)
@@ -2190,204 +2191,6 @@ def art_remedies():
 
 
 
-# def json_remedies_systems_definition(json_filepath, data):
-#     key = 'definition_desc'
-#     if key not in data:
-#         system_name = data['system_name']
-#         prompt = f'''
-#             Write 1 paragraph explaining what are {system_name} ailments.
-#             Include a detailed definition of "{system_name} ailments".
-#             Include an explanation on how {system_name} ailments can affect your life.
-#             Include examples of {system_name} ailments.
-            
-#         '''
-#         reply = utils_ai.gen_reply(prompt)
-#         reply = utils_ai.reply_to_paragraphs(reply)
-#         print(len(reply))
-#         if len(reply) == 1:
-#             print('*******************************************')
-#             print(reply)
-#             print('*******************************************')
-#             data[key] = reply[0]
-#             util.json_write(json_filepath, data)
-#         time.sleep(g.PROMPT_DELAY_TIME)
-
-
-# def json_remedies_systems_problems(json_filepath, data):
-#     key = 'problems'
-#     if key not in data: data[key] = []
-#     for problem_row in problems_rows[:g.ART_NUM]:
-#         problem_id = problem_row[problems_cols['problem_id']]
-#         problem_slug = problem_row[problems_cols['problem_slug']]
-#         problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
-
-#         if problem_id == '': continue
-#         if problem_slug == '': continue
-#         if problem_name == '': continue
-        
-#         system_row = csv_get_system_by_problem(problem_id)
-#         if system_row[systems_cols['system_id']] != data['system_id']: continue
-
-#         found = False
-#         for problem_obj in data[key]:
-#             if problem_obj['problem_id'] == problem_id:
-#                 found = True
-#                 break
-        
-#         if not found:
-#             data[key].append({'problem_id': problem_id, 'problem_slug': problem_slug, 'problem_name': problem_name})
-
-#     util.json_write(json_filepath, data)
-        
-#     key = 'problem_desc'
-#     for problem_obj in data['problems']:
-#         # if key in problem_obj: del problem_obj[key]
-#         if key not in problem_obj:
-#             problem_id = problem_obj['problem_id']
-#             problem_name = problem_obj['problem_name']
-
-#             prompt = f'''
-#                 Write 1 paragraph about what is {problem_name}, how it affects your life, and what are the medicinal herbs for {problem_name}.
-#                 Start the reply with the following words: {problem_name.capitalize()} is .
-#                 Never use the words "can", "may", and "might".
-#             '''
-#             reply = utils_ai.gen_reply(prompt)
-
-#             reply = utils_ai.reply_to_paragraphs(reply)
-
-#             print(len(reply))
-#             if len(reply) == 1:
-#                 print('*******************************************')
-#                 print(reply)
-#                 print('*******************************************')
-#                 problem_obj[key] = reply[0]
-#                 util.json_write(json_filepath, data)
-
-#             time.sleep(g.PROMPT_DELAY_TIME)
-
-
-# def art_remedies_systems():
-#     for system_row in systems_rows:
-#         system_id = system_row[systems_cols['system_id']]
-#         system_slug = system_row[systems_cols['system_slug']]
-#         system_name = system_row[systems_cols['system_name']]
-
-#         if system_id == '': continue
-#         if system_slug == '': continue
-#         if system_name == '': continue
-
-#         problems_rows_filtered = csv_get_problems_by_system(system_id)
-#         problems_num = len(problems_rows_filtered)
-
-#         if problems_num == 0: continue
-
-#         # json
-#         json_filepath = f'database/json/{g.CATEGORY_REMEDIES}/{system_slug}.json'
-
-#         util.create_folder_for_filepath(json_filepath)
-#         util.json_generate_if_not_exists(json_filepath)
-#         data = util.json_read(json_filepath)
-
-#         data['system_id'] = system_id
-#         data['system_slug'] = system_slug
-#         data['system_name'] = system_name
-
-#         lastmod = util.date_now()
-#         if 'lastmod' not in data: data['lastmod'] = lastmod
-#         else: lastmod = data['lastmod'] 
-
-#         title = f'{problems_num} Most common {system_name} ailments and how to treat them with herbal medicine'
-#         data['title'] = title
-
-#         util.json_write(json_filepath, data)
-
-#         # ai
-#         ai_paragraph('intro_desc', json_filepath, data,
-#             prompt = f'''
-#                 Write 1 intro paragraph for an article about {system_name} ailments an healing herbs.
-#                 Start by explaining what are the impacts of the {system_name} ailments on people lives.
-#                 Then explain why healing herbs can help with the most common {system_name} ailments. 
-#                 Finally explain that the rest of the article will reveal the most common {system_name} ailments and what are the best herbs to get rid of those ailments.
-                
-#             '''
-#         )
-#         json_remedies_systems_definition(json_filepath, data)
-#         json_remedies_systems_problems(json_filepath, data)
-
-
-
-#         # html
-#         html_filepath = f'website/{g.CATEGORY_REMEDIES}/{system_slug}.html'
-
-#         data = util.json_read(json_filepath)
-
-#         article_html = ''
-#         article_html += f'<h1>{title}</h1>\n'
-#         article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
-
-#         for i, problem_obj in enumerate(data['problems']):
-#             problem_id = problem_obj['problem_id']
-#             problem_slug = problem_obj['problem_slug']
-#             problem_name = problem_obj['problem_name']
-#             problem_desc = problem_obj['problem_desc']
-
-#             problem_desc = problem_desc.replace(
-#                 problem_name.capitalize(),
-#                 f'<a href="/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}.html">{problem_name.capitalize()}</a>',
-#                 1
-#             )
-
-#             article_html += f'<h2>{i+1}. {problem_name.capitalize()}</h2>\n'
-#             article_html += f'{util.text_format_1N1_html(problem_desc)}\n'
-
-
-#         article_html += f'<h2>What are {system_name} ailments and how they affect your life?</h2>\n'
-#         article_html += f'{util.text_format_1N1_html(data["definition_desc"])}\n'
-
-#         header_html = util.header_default_dark()
-#         breadcrumbs_html = util.breadcrumbs(html_filepath)
-#         meta_html = util.article_meta(article_html, lastmod)
-#         article_html = util.article_toc(article_html)
-
-#         html = f'''
-#             <!DOCTYPE html>
-#             <html lang="en">
-
-#             <head>
-#                 <meta charset="UTF-8">
-#                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-#                 <meta name="author" content="{g.AUTHOR_NAME}">
-#                 <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-#                 <link rel="stylesheet" href="/style.css">
-#                 <title>{title}</title>
-#                 {g.GOOGLE_TAG}
-                
-#             </head>
-
-#             <body>
-#                 {header_html}
-#                 {breadcrumbs_html}
-                
-#                 <section class="article-section">
-#                     <div class="container">
-#                         {meta_html}
-#                         {article_html}
-#                     </div>
-#                 </section>
-
-#                 <footer>
-#                     <div class="container-lg">
-#                         <span>© TerraWhisper.com 2024 | All Rights Reserved
-#                     </div>
-#                 </footer>
-#             </body>
-
-#             </html>
-#         '''
-
-#         util.file_write(html_filepath, html)
-
-
 
 # #########################################################
 # ;HERBS
@@ -2440,12 +2243,16 @@ def herbs_pages():
         if os.path.exists(images_folderpath):
             images_filenames = os.listdir(images_folderpath)
 
-            image_featured_filename = random.choice(images_filenames)
+            # image_featured_filename = random.choice(images_filenames)
+            image_featured_filename = images_filenames[0]
             image_featured_filepath_in = f'{images_folderpath}/{image_featured_filename}'
             image_featured_filepath_out = f'website/images/{herb_slug}-overview.jpg'
             image_featured_filepath_web = f'/images/{herb_slug}-overview.jpg'
 
-            if not os.path.exists(image_featured_filepath_out):
+            label = herb_slug
+
+            # if not os.path.exists(image_featured_filepath_out):
+            if os.path.exists(image_featured_filepath_out):
                 util.image_save_resized(image_featured_filepath_in, image_featured_filepath_out, 768, 512, 50)
             # util.image_save_resized(image_featured_filepath_in, image_featured_filepath_out, 768, 512, 50)
 
@@ -2755,6 +2562,131 @@ def herbs_pages():
             article_html += f'<h3>What are the pest and diseases tips of {herb_name_common}?</h3>\n'
             article_html += f'{util.text_format_1N1_html(data[key])}\n'
 
+        key = 'section_botany' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                Write 1 detailed paragraph about what are the botanical characteristics of {herb_name_common} ({herb_name_scientific}).
+                
+                Start the reply with the following words: {herb_name_common}{aka} .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h2>What are the botanical characteristics of {herb_name_common}?</h2>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        key = 'section_botany_taxonomy' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                Write 1 short paragraph of 60 to 80 words about the taxonomical classification of {herb_name_common} ({herb_name_scientific}).
+                Include kingdom, phylum, class, order, family, genus and species.
+                Write only about the taxonomy. Don't include characteristics or distribution of the plant.
+                Start the reply with the following words: {herb_name_common}{aka} belongs to .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h3>What is the taxonomy of {herb_name_common}?</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        key = 'section_botany_variants' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                What are the variants of {herb_name_common} ({herb_name_scientific})?
+                Reply in a short paragraph.
+                Start the reply with the following words: {herb_name_common}{aka} has variants, such as .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h3>What are the variants of {herb_name_common}?</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        key = 'section_botany_distribution' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                What is the geographic distribution of {herb_name_common} ({herb_name_scientific})?
+                Reply in a short paragraph.
+                Start the reply with the following words: {herb_name_common}{aka} .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h3>What is the geographic distribution of {herb_name_common}?</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        key = 'section_botany_life_cycle' 
+        if key not in data: data[key] = ''
+        # if key in data: data[key] = ''
+        if data[key] == '':
+            aka = f', also known as {herb_name_scientific},'
+            prompt = f'''
+                What is the life-cycle of {herb_name_common} ({herb_name_scientific})?
+                Reply in a short paragraph.
+                Start the reply with the following words: {herb_name_common}{aka} .
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.replace(aka, '')
+            reply = utils_ai.reply_to_paragraphs(reply)
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                data[key] = reply[0]
+                util.json_write(json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+        if data[key] != '':
+            article_html += f'<h3>What is the life cycle of {herb_name_common}?</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
 
         header_html = util.header_default_dark()
         breadcrumbs_html = util.breadcrumbs(html_filepath)
@@ -2803,16 +2735,40 @@ def herbs_pages():
     herbs_cards_html = ''
     for herb_row in herbs_rows[:g.HERBS_ART_NUM]:
         herb_slug = herb_row[herbs_cols['herb_slug']]
+        herb_name_common = herb_row[herbs_cols['herb_name_common']].split(',')[0].strip()
    
         url = f'herbs/{herb_slug}'
+        json_filepath = f'database/json/{url}.json'
         data = util.json_read(json_filepath)
         title = data['title']
         image_featured_filepath_web = f'/images/{herb_slug}-overview.jpg'
 
+        
+        # img
+        images_folderpath = f'C:/terrawhisper-assets/images/herbs/{herb_slug}'
+        if os.path.exists(images_folderpath):
+            images_filenames = os.listdir(images_folderpath)
+
+            image_featured_filename = images_filenames[0]
+            image_featured_filepath_in = f'{images_folderpath}/{image_featured_filename}'
+            image_featured_filepath_out = f'website/images/{herb_slug}-overview-thumbnail.jpg'
+            image_featured_filepath_web = f'/images/{herb_slug}-overview-thumbnail.jpg'
+
+            label = herb_name_common
+
+            # if not os.path.exists(image_featured_filepath_out):
+            if os.path.exists(image_featured_filepath_out):
+                util.image_save_resized(image_featured_filepath_in, image_featured_filepath_out, 768, 512, 50)
+                util.image_label_01(image_featured_filepath_out, label)
+
+
+
         herbs_cards_html += f'''
             <div>
-                <img src="{image_featured_filepath_web}" alt="">
-                <h3><a href="/herbs/{herb_slug}.html">{title}</a></h3>
+                <a href="/herbs/{herb_slug}.html">
+                    <img src="{image_featured_filepath_web}" alt="">
+                    <h3>{title}</h3>
+                </a>
             </div>
         '''
 
@@ -2843,7 +2799,7 @@ def herbs_pages():
             {breadcrumbs_html}
             
             <section class="blog-grid">
-                <div class="container">
+                <div class="container-lg">
                     <div class="grid grid-3 gap-24">
                         {article_html}
                     </div>
@@ -2999,6 +2955,44 @@ def page_home():
             </div>
         '''
         i += 1
+        
+    articles_herbs_html = ''
+    i = 0
+    for herb_row in herbs_rows[:g.HERBS_ART_NUM]:
+        if i >= 6: break
+
+        herb_id = herb_row[herbs_cols['herb_id']]
+        herb_slug = herb_row[herbs_cols['herb_slug']]
+        herb_name_common = herb_row[herbs_cols['herb_name_common']].split(',')[0].strip().lower()
+        herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip()
+
+        if herb_id == '': continue
+        if herb_slug == '': continue
+        if herb_name_common == '': continue
+        if herb_name_scientific == '': continue
+
+        json_filepath = f'database/json/herbs/{herb_slug}.json'
+        if not os.path.exists(json_filepath): continue
+
+        data = util.json_read(json_filepath)
+
+        intro_desc_clip = ' '.join(data['intro_desc'].split(' ')[:20]).strip() + '...'
+        year, month, day = data['lastmod'].split('-')
+        lastmod = f'{month}/{day}/{year}'
+
+        src = f'/images/{herb_slug}-overview.jpg'
+        alt = f'{herb_name_scientific} overview'
+        articles_herbs_html += f'''
+            <div>
+                <a href="/herbs/{herb_slug}.html">
+                    <img src="{src}" alt="{alt}">
+                    <h3>What to know before using {herb_name_common} medicinally</h3>
+                </a>
+                <p class="desc">{intro_desc_clip}</p>
+                <p class="author">By <span>Leen Randell</span> - {lastmod}</p>
+            </div>
+        '''
+        i += 1
 
         
                     
@@ -3013,6 +3007,7 @@ def page_home():
     template = template.replace('[teas_articles]', teas_articles_html)
     template = template.replace('[articles_teas]', articles_teas_html)
     template = template.replace('[articles_tinctures]', articles_tinctures_html)
+    template = template.replace('[articles_herbs]', articles_herbs_html)
 
     util.file_write(f'website/{slug}.html', template)
 
@@ -3255,6 +3250,55 @@ def page_remedies_systems():
         util.file_write(article_filepath_out, template)
 
 
+def page_remedies():
+    category_title = f'<h1>Herbal Remedies Organized By Body Systems</h1>'
+    category_intro = ''
+
+    content_html = ''
+    for system_row in systems_rows:
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        src = f''
+        alt = f''
+        json_filepath = f'database/json/remedies/{system_slug}.json'
+        data = util.json_read(json_filepath)
+        intro_desc_clip = data['intro_desc'][:100]
+        content_html += f'''
+            <a href="/remedies/{system_slug}.html">
+                <div>
+                    <img src="{src}" alt="{alt}">
+                    <h2>Herbal Remedies for the {system_name.title()}</h2>
+                    <p>{intro_desc_clip}...</p>
+                </div>
+            </a>
+        '''
+    
+    page_url = f'remedies'
+    article_filepath_out = f'website/{page_url}.html'
+
+    header = util.header_default_dark()
+    breadcrumbs_html = util.breadcrumbs(article_filepath_out)
+    
+    template = util.file_read('templates/category.html')
+
+    template = template.replace('[title]', category_title)
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+    template = template.replace('[author_name]', g.AUTHOR_NAME)
+    template = template.replace('[header]', header)
+    template = template.replace('[breadcrumbs]', breadcrumbs_html)
+    template = template.replace('[category_title]', category_title)
+    template = template.replace('[category_intro]', category_intro)
+    template = template.replace('[content]', content_html)
+
+    util.file_write(article_filepath_out, template)
+
+
 
 
 
@@ -3344,18 +3388,17 @@ def json_del_keys_herbalism_tincture(key):
 # EXE
 # #########################################################
 
-# page_home()
-# page_privacy_policy()
-# page_herbalism()
+page_home()
+page_privacy_policy()
+page_herbalism()
 # page_top_herbs()
 # page_plants(regen_csv=False)
 # page_about()
-# page_start_here()
 
-# page_remedies_systems()
+page_remedies_systems()
+page_remedies()
 
-# art_remedies_systems_problems()
-# art_remedies_systems()
+art_remedies_systems_problems()
 # art_remedies()
 
 
@@ -3363,7 +3406,7 @@ art_remedies_systems_problems_preparations('teas')
 art_remedies_systems_problems_preparations('tinctures')
 art_remedies_systems_problems_preparations('capsules')
 
-# herbs_pages()
+herbs_pages()
 
 
 # sitemap.sitemap_all()
@@ -3372,4 +3415,4 @@ art_remedies_systems_problems_preparations('capsules')
 
 shutil.copy2('style.css', 'website/style.css')
 shutil.copy2('util.css', 'website/util.css')
-# shutil.copy2('assets/images/healing-herbs.jpg', 'website/images/healing-herbs.jpg')
+shutil.copy2('assets/images/healing-herbs.jpg', 'website/images/healing-herbs.jpg')

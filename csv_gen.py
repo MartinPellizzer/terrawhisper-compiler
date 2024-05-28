@@ -121,6 +121,7 @@ def sanitize_herbs(line):
     if line == 'ivy leaf': line = 'ivy'
     if line == 'usnea': line = 'beard lichens'
     if line == 'plantain leaf': line = 'plantain'
+    if line == 'chamomile flower': line = 'chamomile'
 
     return line
 
