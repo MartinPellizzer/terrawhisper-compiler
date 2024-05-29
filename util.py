@@ -512,7 +512,6 @@ def header_default_dark():
                     <div class="hamburger-dark"></div>
                     <ul class="menu-dark">
                         <li><a href="/">Home</a></li>
-                        <li><a href="/herbalism.html">Herbalism</a></li>
                         <li><a href="/remedies.html">Remedies</a></li>
                         <li><a href="/herbs.html">Herbs</a></li>
                         <li><a href="/about.html">About</a></li>
@@ -522,6 +521,7 @@ def header_default_dark():
         </div>
     '''
     return html
+                        # <li><a href="/herbalism.html">Herbalism</a></li>
 
 # def header_default():
 #     html = f'''

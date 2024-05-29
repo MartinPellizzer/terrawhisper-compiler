@@ -599,7 +599,7 @@ def img_preparation_systems_problems_cheatsheet(data):
 
         if 'remedy_properties' not in remedy_obj: continue
         if 'remedy_parts' not in remedy_obj: continue
-        
+
         remedy_properties = [item.split(':')[0] for item in remedy_obj['remedy_properties']]
         remedy_parts = [item.split(':')[0] for item in remedy_obj['remedy_parts']]
 
@@ -2087,8 +2087,8 @@ def herbs_pages():
 
             label = herb_slug
 
-            # if not os.path.exists(image_featured_filepath_out):
-            if os.path.exists(image_featured_filepath_out):
+            if not os.path.exists(image_featured_filepath_out):
+            # if os.path.exists(image_featured_filepath_out):
                 util.image_save_resized(image_featured_filepath_in, image_featured_filepath_out, 768, 512, 50)
             # util.image_save_resized(image_featured_filepath_in, image_featured_filepath_out, 768, 512, 50)
 
@@ -2592,8 +2592,8 @@ def herbs_pages():
 
             label = herb_name_common
 
-            # if not os.path.exists(image_featured_filepath_out):
-            if os.path.exists(image_featured_filepath_out):
+            if not os.path.exists(image_featured_filepath_out):
+            # if os.path.exists(image_featured_filepath_out):
                 util.image_save_resized(image_featured_filepath_in, image_featured_filepath_out, 768, 512, 50)
                 util.image_label_01(image_featured_filepath_out, label)
 
