@@ -1,11 +1,5 @@
-- pinterest featured pins
-- problems from pinterest search
-- remedies_page as category
-- do 1 minimalist dark design image
-- notion startup?
 - do necessary pages
+- generate preparation pages only if listed in remedies_systems_problems
+- problems from pinterest search
 - new pin design
-- images
 - do herbs pages using old plants pages as reference and redo old herbs pages in herbs folder 
-- make herb category page title (h1, h2)
-- images remedies_systems_problems

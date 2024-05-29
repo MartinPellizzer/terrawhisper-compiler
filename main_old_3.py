@@ -3086,3 +3086,190 @@ shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 #         '''
 
 #         util.file_write(html_filepath, html)
+
+
+
+
+def json_remedies_definition(json_filepath, data):
+    key = 'definition_desc'
+    if key not in data:
+        prompt = f'''
+            Write 1 paragraph explaining what are ailments.
+            Include a detailed definition of the word "ailments".
+            Include an explanation on how ailments can affect your life.
+            Include examples.
+            
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        reply = utils_ai.reply_to_paragraphs(reply)
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def json_remedies_systems(json_filepath, data):
+    key = 'systems'
+    if key not in data: data[key] = []
+    for system_row in systems_rows:
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        found = False
+        for system_obj in data[key]:
+            if system_obj['system_id'] == system_id:
+                found = True
+                break
+        
+        if not found:
+            data[key].append({'system_id': system_id, 'system_slug': system_slug, 'system_name': system_name})
+
+    util.json_write(json_filepath, data)
+
+    key = 'system_desc'
+    for system_obj in data['systems']:
+        if key not in system_obj:
+            system_id = system_obj['system_id']
+            system_name = system_obj['system_name']
+
+            problems_rows_filtered = csv_get_problems_by_system(system_id)
+            if len(problems_rows_filtered) > 0:
+                problems_names = [row[problems_cols['problem_names']].split(',')[0].strip() for row in problems_rows_filtered]
+                problems_names_prompt = ', '.join(problems_names)
+                problems_names_prompt = f'Include the following common ailments: {problems_names_prompt}'
+            else:
+                problems_names_prompt = ''
+
+            prompt = f'''
+                Write 1 paragraph about the most common ailments of the {system_name} and how they affect your life.
+                {problems_names_prompt}.
+                Include what herbs and herbal remedies to use to help the {system_name}.
+                Start the reply with the following words: The most common ailments of the {system_name} are .
+                
+            '''
+            reply = utils_ai.gen_reply(prompt)
+
+            reply = utils_ai.reply_to_paragraphs(reply)
+
+            print(len(reply))
+            if len(reply) == 1:
+                print('*******************************************')
+                print(reply)
+                print('*******************************************')
+                system_obj[key] = reply[0]
+                util.json_write(json_filepath, data)
+
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def art_remedies():
+    json_filepath = f'database/json/{g.CATEGORY_REMEDIES}.json'
+
+    util.create_folder_for_filepath(json_filepath)
+    util.json_generate_if_not_exists(json_filepath)
+    data = util.json_read(json_filepath)
+
+    lastmod = util.date_now()
+    if 'lastmod' not in data: data['lastmod'] = lastmod
+    else: lastmod = data['lastmod'] 
+
+    title = f'What are the most common ailments and how to cure them with medicinal herbs'
+    data['title'] = title
+
+    util.json_write(json_filepath, data)
+
+    # json art sections
+    ai_paragraph('intro_desc', json_filepath, data,
+        prompt = f'''
+            Write 1 intro paragraph for an article about ailments an healing herbs.
+            Start by explaining what are the impacts of ailments on people lives.
+            Then explain why healing herbs can help with the most common ailments. 
+            Finally explain that the rest of the article will reveal the most common ailments for each body system and what are the best herbs to get rid of those ailments.
+            
+        '''
+    )
+
+    json_remedies_definition(json_filepath, data)
+    json_remedies_systems(json_filepath, data)
+
+
+
+    html_filepath = f'website/{g.CATEGORY_REMEDIES}.html'
+
+    data = util.json_read(json_filepath)
+
+    article_html = ''
+
+    article_html += f'<h1>{title}</h1>\n'
+    article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
+
+    article_html += f'<h2>What are ailments and how they affect your life?</h2>\n'
+    article_html += f'{util.text_format_1N1_html(data["definition_desc"])}\n'
+
+    for system_obj in data['systems']:
+        system_id = system_obj['system_id']
+        system_slug = system_obj['system_slug']
+        system_name = system_obj['system_name']
+        system_desc = system_obj['system_desc']
+
+        article_html += f'<h2>{system_name.capitalize()} ailments</h2>\n'
+        article_html += f'{util.text_format_1N1_html(system_desc)}\n'
+
+        problems_rows_filtered = csv_get_problems_by_system(system_id)
+        if len(problems_rows_filtered) > 0:
+            article_html += f'The following link shows the <a href="/{g.CATEGORY_REMEDIES}/{system_slug}.html">most common ailments of the {system_name}</a> that you can alleviate with medicinal herbs.\n'
+
+    header_html = util.header_default_dark()
+    breadcrumbs_html = util.breadcrumbs(html_filepath)
+    meta_html = util.article_meta(article_html, lastmod)
+    article_html = util.article_toc(article_html)
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="{g.AUTHOR_NAME}">
+            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+            <link rel="stylesheet" href="/util.css">
+            <link rel="stylesheet" href="/style.css">
+            <title>{title}</title>
+            {g.GOOGLE_TAG}
+        </head>
+
+        <body>
+            {header_html}
+            {breadcrumbs_html}
+            
+            <section class="article-section">
+                <div class="container">
+                    {meta_html}
+                    {article_html}
+                </div>
+            </section>
+
+            <footer>
+                <div class="container-lg">
+                    <span>© TerraWhisper.com 2024 | All Rights Reserved
+                </div>
+            </footer>
+        </body>
+
+        </html>
+    '''
+
+    util.file_write(html_filepath, html)
+
+
+

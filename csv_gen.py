@@ -107,6 +107,7 @@ def sanitize_herbs(line):
     if line == 'stinging nettle': line = 'nettle'
     if line == 'elderflower': line = 'elderberry'
     if line == 'ginkgo': line = 'ginkgo biloba'
+    if line == 'gingko biloba': line = 'ginkgo biloba'
     if line == 'poke': line = 'pokeweed'
     if line == 'poke root': line = 'pokeweed'
     if line == 'astragalus': line = 'milkvetch'
@@ -122,6 +123,12 @@ def sanitize_herbs(line):
     if line == 'usnea': line = 'beard lichens'
     if line == 'plantain leaf': line = 'plantain'
     if line == 'chamomile flower': line = 'chamomile'
+    if line == 'chia seeds': line = 'chia'
+    if line == 'chia seed': line = 'chia'
+    if line == 'rosehips': line = 'rosehip'
+    if line == 'chicory root': line = 'chicory'
+    if line == 'dandelion root': line = 'dandelion'
+    if line == 'nettle leaf': line = 'nettle'
 
     return line
 
