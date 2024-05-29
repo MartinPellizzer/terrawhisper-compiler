@@ -1,3 +1,4 @@
+- redo remedies category pages from scratch, generate text of desc with AI and complete jsons
 - do necessary pages
 - generate preparation pages only if listed in remedies_systems_problems
 - problems from pinterest search

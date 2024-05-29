@@ -78,7 +78,7 @@ ART_ITEMS_NUM = 10
 
 # DEBUG
 
-DEBUG_REMEDY_IMG_FOLDER_MISSING = 1
+DEBUG_REMEDY_IMG_FOLDER_MISSING = 0
 DEBUG_MISS_IMG_KEY_FEATURED = 0
 DEBUG_MISS_IMG_KEY_LST = 0
 DEBUG_MISS_REMEDY_DESC = 0
@@ -480,37 +480,6 @@ def img_preparation_systems_problems_featured(data):
         if DEBUG_MISS_IMG_KEY_FEATURED: print(f'MISSING KEY featured: {preparation_slug} {problem_slug}')
 
 
-# def img_preparation_systems_problems_list(data):
-#     if 'remedies_list' in data:
-#         problem_name = data['problem_name']
-#         problem_slug = data['problem_slug']
-#         preparation_name = data['preparation_name'].lower()
-#         preparation_name_singular = ''
-#         if preparation_name == 'teas': preparation_name_singular = 'tea'
-#         elif preparation_name == 'tinctures': preparation_name_singular = 'tincture'
-#         else: print(f'MISSING VALID preparation_name: {preparation_name} {problem_slug}')
-#         preparation_slug = preparation_name.replace(' ', '-')
-#         preparation_slug_singular = preparation_name_singular.replace(' ', '-')
-
-#         for i, obj in enumerate(data['remedies_list'][:teas_num]):
-#             herb_name_common = obj['herb_name_common'].split(',')[0].strip()
-#             herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-').replace(".", '')
-
-#             image_filepath_out = f'website/images/herbal-{preparation_slug_singular}-for-{problem_slug}-{herb_name_common_slug}.jpg'
-#             if os.path.exists(image_filepath_out): continue
-
-#             images_folderpath = f'C:/terrawhisper-assets/images/{preparation_slug}/{herb_name_common_slug}'
-#             if os.path.exists(images_folderpath):
-#                 images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
-#                 image_filepath = random.choice(images_filepaths)
-#                 if image_filepath != '':
-#                     label = f'{herb_name_common} {preparation_name_singular}\nfor {problem_name}'
-#                     util.image_label(image_filepath, image_filepath_out, label)
-#             else:
-#                 if DEBUG_REMEDY_IMG_FOLDER_MISSING: print(f'IMG FOLDER MISSING: {images_folderpath}')
-#     else:
-#         if DEBUG_MISS_IMG_KEY_LST: print(f'MISSING KEY remedy_list: {preparation_slug} {problem_slug}')
-
 
 def img_preparation_systems_problems_cheatsheet(data):
     title = data['title']
@@ -731,75 +700,6 @@ def img_preparation_systems_problems_cheatsheet(data):
     # img.show()
 
     # quit()
-
-
-# def html_preparation_system_problem_list(html_filepath, data):
-#     article_html = ''
-#     problem_slug = data['problem_slug']
-#     problem_name = data['problem_name']
-#     preparation_name = data['preparation_name']
-#     preparation_name_singular = data['preparation_name_singular']
-#     preparation_slug = data['preparation_slug']
-#     preparation_slug_singular = preparation_name_singular.replace(' ', '-')
-
-#     for i, remedy_obj in enumerate(data['remedies_list'][:teas_num]):
-#         herb_slug = remedy_obj['herb_slug'].strip().lower()
-#         herb_name_common = remedy_obj['herb_name_common'].strip().lower()
-#         herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-')
-
-#         remedy_name = remedy_obj["herb_name_common"].strip().lower()
-#         remedy_name_preparation = remedy_name
-#         if preparation_slug == 'tea': remedy_name_preparation = f'{remedy_name_preparation} tea'.replace(' tea tea', ' tea')
-#         else: remedy_name_preparation = f'{remedy_name_preparation} {preparation_slug_singular}'
-
-#         article_html += f'<h2>{i+1}. {remedy_name_preparation.capitalize()}</h2>\n'
-#         try: article_html += f'<p>{util.text_format_1N1_html(remedy_obj["remedy_desc"])}</p>\n'
-#         except: 
-#             if DEBUG_MISS_REMEDY_DESC: print(f'MISSING REMEDY DESC: {html_filepath} >> {problem_name} >> {remedy_name_preparation}')
-
-#         img_src = f'/images/herbal-{preparation_slug_singular}-for-{problem_slug}.jpg'
-
-#         # img_src = f'/images/{herb_name_common_slug}-{preparation_slug_singular}-for-{problem_slug}.jpg'
-#         img_alt = f'{herb_name_common} {preparation_name_singular} for {problem_name}'
-#         try: article_html += f'<p><img src="{img_src}" alt="{img_alt}"><p>\n'
-#         except: 
-#            if DEBUG_MISS_REMEDY_IMG: print(f'MISSING REMEDY IMAGE: {problem_name} >> {tea_image_url}')
-            
-#         try:
-#             constituents = remedy_obj['remedy_properties']
-#             article_html += f'<p>The list below shows the primary active constituents in {remedy_name} that aid with {problem_name}.</p>\n'
-#             article_html += '<ul>\n'
-#             for constituent in constituents:
-#                 chunk_1 = constituent.split(': ')[0]
-#                 chunk_2 = ': '.join(constituent.split(': ')[1:])
-#                 article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
-#             article_html += '</ul>\n'
-#         except: 
-#             if DEBUG_MISS_REMEDY_CONSTITUENTS: print(f'MISSING REMEDY CONSTITUENTS: {problem_name} >> {remedy_name}')
-
-#         try:
-#             parts = remedy_obj['remedy_parts']
-#             article_html += f'<p>Right below you will find a list of the most important parts of {remedy_name} that help with {problem_name}.</p>\n'
-#             article_html += '<ul>\n'
-#             for part in parts:
-#                 chunk_1 = part.split(': ')[0]
-#                 chunk_2 = ': '.join(part.split(': ')[1:])
-#                 article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
-#             article_html += '</ul>\n'
-#         except: 
-#             if DEBUG_MISS_REMEDY_PARTS: print(f'MISSING REMEDY PARTS: {problem_name} >> {remedy_name}')
-
-#         try:
-#             recipe = remedy_obj['remedy_recipe']
-#             article_html += f'<p>The following recipe gives a procedure to make a basic {remedy_name_preparation} for {problem_name}.</p>\n'
-#             article_html += '<ol>\n'
-#             for step in recipe:
-#                 article_html += f'<li>{step}</li>\n'
-#             article_html += '</ol>\n'
-#         except: 
-#             if DEBUG_MISS_REMEDY_RECIPE: print(f'MISSING REMEDY RECIPE: {problem_name} >> {remedy_name}')
-
-#     return article_html
 
 
 def html_preparation_system_problem_supplementary(html_filepath, data):
@@ -1370,10 +1270,6 @@ def json_remedies_systems_problems_definition(json_filepath, data):
             data[key] = reply[0]
             util.json_write(json_filepath, data)
         time.sleep(g.PROMPT_DELAY_TIME)
-
-
-def json_remedies_systems_problems_causes(json_filepath, data):
-    pass
 
 
 def json_remedies_systems_problems_preparations(json_filepath, data):
@@ -3044,7 +2940,24 @@ def page_remedies_systems():
 
         if problems_num == 0: continue
 
-        category_title = f'<h1>{system_name.title()} Ailments To Heal With Herbal Remedies</h1>'
+        json_filepath = f'database/json/remedies/{system_slug}.json'
+
+        util.create_folder_for_filepath(json_filepath)
+        util.json_generate_if_not_exists(json_filepath)
+        data = util.json_read(json_filepath)
+
+        data['url'] = system_slug
+
+        lastmod = util.date_now()
+        if 'lastmod' not in data: data['lastmod'] = lastmod
+        else: lastmod = data['lastmod'] 
+
+        title = f'{system_name.title()} Ailments To Heal With Herbal Remedies'
+        data['title'] = title
+
+        util.json_write(json_filepath, data)
+
+        category_title = f'<h1>{title}</h1>'
         category_intro = f'<p></p>'
 
         content_html = ''
@@ -3100,7 +3013,7 @@ def page_remedies():
         system_id = system_row[systems_cols['system_id']]
         system_slug = system_row[systems_cols['system_slug']]
         system_name = system_row[systems_cols['system_name']]
-
+        
         if system_id == '': continue
         if system_slug == '': continue
         if system_name == '': continue
@@ -3138,9 +3051,12 @@ def page_remedies():
                 img.save(image_filepath_out, quality=50) 
 
             data = util.json_read(json_filepath)
-            intro_desc_clip = data['intro_desc'][:100]
-
-            intro_desc_clip = ' '.join(data['intro_desc'].split(' ')[:16]).strip() + '...'
+            if 'intro_desc' in data:
+                intro_desc_clip = data['intro_desc'][:100]
+                intro_desc_clip = ' '.join(data['intro_desc'].split(' ')[:16]).strip() + '...'
+            else: 
+                intro_desc_clip = ''
+                
             content_html += f'''
                 <a href="/remedies/{system_slug}.html">
                     <div>
