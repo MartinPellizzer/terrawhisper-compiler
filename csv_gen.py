@@ -129,6 +129,8 @@ def sanitize_herbs(line):
     if line == 'chicory root': line = 'chicory'
     if line == 'dandelion root': line = 'dandelion'
     if line == 'nettle leaf': line = 'nettle'
+    if line == 'uva ursi': line = 'bearberry'
+    if line == 'cornsilk': line = 'corn silk'
 
     return line
 
@@ -188,9 +190,28 @@ def csv_gen_system_for_problem(problem_row):
 ##################################################
 
 def csv_gen_teas_for_problem(problem_row):
+    preparation_name = 'teas'
+
     problem_id = problem_row[problems_cols['problem_id']]
     problem_slug = problem_row[problems_cols['problem_slug']]
     problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+    problems_preparations_rows = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_PREPARATIONS_FILEPATH, problems_preparations_cols['problem_id'], problem_id
+    )
+    problems_preparations_names = [
+        row[problems_preparations_cols['preparation_name']] for row in problems_preparations_rows
+    ]
+    found = False
+    for problem_preparation_name in problems_preparations_names:
+        if preparation_name == problem_preparation_name:
+            found = True
+            break
+    if not found: 
+        print('not found')
+        return
+    else:
+        print('found')
 
     problems_teas_rows = util.csv_get_rows_filtered(
         g.CSV_PROBLEMS_TEAS_FILEPATH, problems_teas_cols['problem_id'], problem_id
@@ -389,9 +410,28 @@ def csv_gen_preparations_for_problem(problem_row):
 ##################################################
 
 def csv_gen_tinctures_for_problem(problem_row):
+    preparation_name = 'tinctures'
+
     problem_id = problem_row[problems_cols['problem_id']]
     problem_slug = problem_row[problems_cols['problem_slug']]
     problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+    
+    problems_preparations_rows = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_PREPARATIONS_FILEPATH, problems_preparations_cols['problem_id'], problem_id
+    )
+    problems_preparations_names = [
+        row[problems_preparations_cols['preparation_name']] for row in problems_preparations_rows
+    ]
+    found = False
+    for problem_preparation_name in problems_preparations_names:
+        if preparation_name == problem_preparation_name:
+            found = True
+            break
+    if not found: 
+        print('not found')
+        return
+    else:
+        print('found')
 
     problems_tinctures_rows = util.csv_get_rows_filtered(
         g.CSV_PROBLEMS_TINCTURES_FILEPATH, problems_tinctures_cols['problem_id'], problem_id
@@ -448,9 +488,28 @@ def csv_gen_tinctures_for_problem(problem_row):
 
 
 def csv_gen_capsules_for_problem(problem_row):
+    preparation_name = 'capsules'
+
     problem_id = problem_row[problems_cols['problem_id']]
     problem_slug = problem_row[problems_cols['problem_slug']]
     problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+    
+    problems_preparations_rows = util.csv_get_rows_filtered(
+        g.CSV_PROBLEMS_PREPARATIONS_FILEPATH, problems_preparations_cols['problem_id'], problem_id
+    )
+    problems_preparations_names = [
+        row[problems_preparations_cols['preparation_name']] for row in problems_preparations_rows
+    ]
+    found = False
+    for problem_preparation_name in problems_preparations_names:
+        if preparation_name == problem_preparation_name:
+            found = True
+            break
+    if not found: 
+        print('not found')
+        return
+    else:
+        print('found')
 
     problems_capsules_rows = util.csv_get_rows_filtered(
         g.CSV_PROBLEMS_CAPSULES_FILEPATH, problems_capsules_cols['problem_id'], problem_id
