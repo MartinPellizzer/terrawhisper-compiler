@@ -721,7 +721,18 @@ nav input:checked~.menu {
 /* ************************************************************ */
 
 footer {
+    margin-top: 9.6rem;
     padding: 1.6rem 0;
+    background-color: #030712;
+}
+
+footer span {
+    color: #fafafa;
+}
+
+footer a {
+    color: #fafafa;
+    text-decoration: none;
 }
 
 
@@ -939,4 +950,14 @@ footer {
 .blog-grid .author span {
     font-weight: 700;
     color: #404040;
+}
+
+.cookie-box {
+    background-color: #030712;
+}
+
+.cookie-box.hide {
+    opacity: 0;
+    visibility: hidden;
+    background-color: #fafafa;
 }

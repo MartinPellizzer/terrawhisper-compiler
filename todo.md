@@ -1,6 +1,5 @@
 - redo remedies category pages from scratch, generate text of desc with AI and complete jsons
 - do necessary pages
-- generate preparation pages only if listed in remedies_systems_problems
 - problems from pinterest search
 - new pin design
 - do herbs pages using old plants pages as reference and redo old herbs pages in herbs folder 

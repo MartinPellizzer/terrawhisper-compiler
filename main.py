@@ -91,7 +91,7 @@ DEBUG_PROBLEM_SYSTEM = 0
 DEBUG_PROBLEM_JSON_FILEPATH = 0
 DEBUG_PROBLEM_REDIRECT = 0
 
-DEBUG_PROBLEMS = 1
+DEBUG_PROBLEMS = 0
 DEBUG_PLANTS = 0
 
 
@@ -265,42 +265,6 @@ def csv_get_related_by_problem(problem_id):
             
     return problems_rows_filtered
 
-
-
-
-
-# #########################################################
-# UTILS
-# #########################################################
-
-def ai_paragraph(key, json_filepath, data, prompt):
-    # if key in data: del data[key]
-    if key not in data:
-        
-        reply = utils_ai.gen_reply(prompt)
-
-        reply = utils_ai.reply_to_paragraphs(reply)
-
-        print(len(reply))
-        if len(reply) == 1:
-            print('*******************************************')
-            print(reply)
-            print('*******************************************')
-            data[key] = reply[0]
-            util.json_write(json_filepath, data)
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-
-
-def html_intro_desc(data):
-    html = ''
-
-    if 'intro_desc' in data:
-        html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
-    else: 
-        print(f'MISSING INTRO DESC: {data["url"]}')
-
-    return html
 
 
 
@@ -1050,7 +1014,11 @@ def art_remedies_systems_problems_preparations(preparation_slug):
         alt = f'herbal {preparation_name} for {problem_name} overview.jpg'
         article_html += f'<p><img src="{src}" alt="{alt}"></p>\n'
 
-        article_html += html_intro_desc(data)
+        if 'intro_desc' in data:
+            article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
+        else: 
+            print(f'MISSING INTRO DESC: {data["url"]}')
+
 
         article_html += f'<p>A summary of the 10 best herbal {preparation_name} for {problem_name} is provided in the following cheatsheet.</p>\n'
         src = f'/images/herbal-{preparation_slug}-for-{problem_slug}-cheatsheet.jpg'
@@ -1330,49 +1298,51 @@ def remedies_systems_problems():
                 img.save(image_filepath_out, quality=50) 
             article_html += f'<p><img src="{image_filepath_web}" alt="{problem_name} overview"></p>'
 
-        key = 'intro_desc'
-        if key not in data:
-            prompt = f'''
-                Write 1 paragraph about the best herbs for {problem_name}.
-                Include a brief definition of: {problem_name}.
-                Include the negative impacts of {problem_name} in people lives. 
-                Include the causes of {problem_name}. 
-                Include the medicinal herbs and their preparations for {problem_name}. 
-                Include the precautions when using herbs medicinally for {problem_name}. 
-                
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = utils_ai.reply_to_paragraphs(reply)
-            if len(reply) == 1:
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if key in data:
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-            article_html += f'<p>This article explains in detail what {problem_name} is, how it affects your life and what are its causes. Then, it lists what medicinal herbs to use to relieve this problem and how to prepare these herbs to get the best results. Lastly, it revals what other natural remedies to use in conjunction with herbal medicine to aid with this problem.</p>\n'
+        if 'intro':
+            key = 'intro_desc'
+            if key not in data:
+                prompt = f'''
+                    Write 1 paragraph about the best herbs for {problem_name}.
+                    Include a brief definition of: {problem_name}.
+                    Include the negative impacts of {problem_name} in people lives. 
+                    Include the causes of {problem_name}. 
+                    Include the medicinal herbs and their preparations for {problem_name}. 
+                    Include the precautions when using herbs medicinally for {problem_name}. 
+                    
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                reply = utils_ai.reply_to_paragraphs(reply)
+                if len(reply) == 1:
+                    print('*******************************************')
+                    print(reply)
+                    print('*******************************************')
+                    data[key] = reply[0]
+                    util.json_write(json_filepath, data)
+                time.sleep(g.PROMPT_DELAY_TIME)
+            if key in data:
+                article_html += f'{util.text_format_1N1_html(data[key])}\n'
+                article_html += f'<p>This article explains in detail what {problem_name} is, how it affects your life and what are its causes. Then, it lists what medicinal herbs to use to relieve this problem and how to prepare these herbs to get the best results. Lastly, it revals what other natural remedies to use in conjunction with herbal medicine to aid with this problem.</p>\n'
 
-        key = 'definition'
-        if key not in data:
-            prompt = f'''
-                Write 1 paragraph explaining what is {problem_name} and include many examples on how it affects negatively your life.
-                Don't mention the casuses of {problem_name}.
-                
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = utils_ai.reply_to_paragraphs(reply)
-            if len(reply) == 1:
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if key in data:
-            article_html += f'<h2>What is {problem_name} and how it affects your life?</h2>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+        if 'definition':
+            key = 'definition'
+            if key not in data:
+                prompt = f'''
+                    Write 1 paragraph explaining what is {problem_name} and include many examples on how it affects negatively your life.
+                    Don't mention the casuses of {problem_name}.
+                    
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                reply = utils_ai.reply_to_paragraphs(reply)
+                if len(reply) == 1:
+                    print('*******************************************')
+                    print(reply)
+                    print('*******************************************')
+                    data[key] = reply[0]
+                    util.json_write(json_filepath, data)
+                time.sleep(g.PROMPT_DELAY_TIME)
+            if key in data:
+                article_html += f'<h2>What is {problem_name} and how it affects your life?</h2>\n'
+                article_html += f'{util.text_format_1N1_html(data[key])}\n'
         
         if 'causes':
             key = 'causes_desc'
@@ -1592,6 +1562,18 @@ def remedies_systems_problems():
             if key in data:
                 article_html += f'<h2>What are the most effective herbal preparations for {problem_name}?</h2>\n'
                 article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+
+            # img
+            key = 'preparations_list'
+            if key in data:
+                image_filepath_out = f'website/images/{problem_slug}-preparations.jpg'
+                image_filepath_web = f'/images/{problem_slug}-preparations.jpg'
+                # if not os.path.exists(image_filepath_out): 
+                if True: 
+                    util_image.image_template_preparations(image_filepath_out, data)
+                article_html += f'<p><img src="{image_filepath_web}" alt="{problem_name} herbs"></p>'
+            
 
             key = 'preparations_list'
             if key not in data:
@@ -2611,7 +2593,7 @@ def herbs_pages():
 
 
 # #########################################################
-# ;PAGES
+# ;GENERAL
 # #########################################################
 
 def page_home():
@@ -2803,20 +2785,44 @@ def page_home():
 
 
 def page_privacy_policy():
-
     slug = 'privacy-policy'
+    filepath_in = f'templates/{slug}.html'
     filepath_out = f'website/{slug}.html'
 
     breadcrumbs_html = util.breadcrumbs(filepath_out)
     header = util.header_default_dark()
+    footer = util.footer()
 
-    template = util.file_read(filepath_out)
+    template = util.file_read(filepath_in)
 
     template = template.replace('[title]', 'TerraWhisper Privacy Policy')
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
     template = template.replace('[author_name]', g.AUTHOR_NAME)
     template = template.replace('[header]', header)
     template = template.replace('[breadcrumbs]', breadcrumbs_html)
+    template = template.replace('[footer]', footer)
+
+    util.file_write(filepath_out, template)
+
+
+
+def page_cookie_policy():
+    slug = 'cookie-policy'
+    filepath_in = f'templates/{slug}.html'
+    filepath_out = f'website/{slug}.html'
+
+    breadcrumbs_html = util.breadcrumbs(filepath_out)
+    header = util.header_default_dark()
+    footer = util.footer()
+
+    template = util.file_read(filepath_in)
+
+    template = template.replace('[title]', 'TerraWhisper Cookie Policy')
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+    template = template.replace('[author_name]', g.AUTHOR_NAME)
+    template = template.replace('[header]', header)
+    template = template.replace('[breadcrumbs]', breadcrumbs_html)
+    template = template.replace('[footer]', footer)
 
     util.file_write(filepath_out, template)
 
@@ -3068,6 +3074,7 @@ def json_del_keys_herbalism_tincture(key):
 
 page_home()
 page_privacy_policy()
+page_cookie_policy()
 page_herbalism()
 # page_top_herbs()
 # page_plants(regen_csv=False)
@@ -3078,13 +3085,13 @@ if 'remedies':
     remedies_systems()
     remedies()
 
-if 'preparations':
-    art_remedies_systems_problems_preparations('teas')
-    art_remedies_systems_problems_preparations('tinctures')
-    art_remedies_systems_problems_preparations('capsules')
+# if 'preparations':
+#     art_remedies_systems_problems_preparations('teas')
+#     art_remedies_systems_problems_preparations('tinctures')
+#     art_remedies_systems_problems_preparations('capsules')
 
-if 'herbs':
-    herbs_pages()
+# if 'herbs':
+#     herbs_pages()
 
 
 # sitemap.sitemap_all()

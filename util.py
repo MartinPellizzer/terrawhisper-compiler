@@ -659,4 +659,16 @@ def breadcrumbs(filepath):
     return breadcrumbs_section
 
 
-
+def footer():
+    html = f'''
+        <footer>
+            <div class="container-lg flex justify-between items-center">
+                <span>© TerraWhisper.com 2024 | All Rights Reserved</span>
+                <div class="flex gap-24">
+                    <a href="/privacy-policy.html">Privacy Policy</a>
+                    <a href="/cookie-policy.html">Cookie Policy</a>
+                </div>
+            </div>
+        </footer>
+    '''
+    return html
