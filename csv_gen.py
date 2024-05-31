@@ -131,6 +131,8 @@ def sanitize_herbs(line):
     if line == 'nettle leaf': line = 'nettle'
     if line == 'uva ursi': line = 'bearberry'
     if line == 'cornsilk': line = 'corn silk'
+    if line == 'artichoke leaf': line = 'artichoke'
+    if line == 'hawthorn berry': line = 'hawthorn'
 
     return line
 
@@ -190,7 +192,7 @@ def csv_gen_system_for_problem(problem_row):
 ##################################################
 
 def csv_gen_teas_for_problem(problem_row):
-    preparation_name = 'teas'
+    preparation_name = 'infusions'
 
     problem_id = problem_row[problems_cols['problem_id']]
     problem_slug = problem_row[problems_cols['problem_slug']]

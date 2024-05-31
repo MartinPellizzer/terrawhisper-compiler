@@ -1,3 +1,10 @@
+- generate herbs_medicine and herbs_medicine_benefits articles for each herb
+- metadata for articles fix layout
+- homepage grid mobile
+- more conditions
+- more herbs
+- pubmed api or scrape
+    - include one study in the intro of every preparations_article
 - redo remedies category pages from scratch, generate text of desc with AI and complete jsons
 - do necessary pages
 - problems from pinterest search

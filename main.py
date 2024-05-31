@@ -1759,6 +1759,7 @@ def remedies_systems_problems():
         breadcrumbs_html = util.breadcrumbs(html_filepath)
         meta_html = util.article_meta(article_html, lastmod)
         article_html = util.article_toc(article_html)
+        footer_html = util.footer()
 
         html = f'''
             <!DOCTYPE html>
@@ -1786,11 +1787,7 @@ def remedies_systems_problems():
                     </div>
                 </section>
 
-                <footer>
-                    <div class="container-lg">
-                        <span>© TerraWhisper.com 2024 | All Rights Reserved
-                    </div>
-                </footer>
+                {footer_html}
             </body>
 
             </html>
@@ -3085,13 +3082,13 @@ if 'remedies':
     remedies_systems()
     remedies()
 
-# if 'preparations':
-#     art_remedies_systems_problems_preparations('teas')
-#     art_remedies_systems_problems_preparations('tinctures')
-#     art_remedies_systems_problems_preparations('capsules')
+if 'preparations':
+    art_remedies_systems_problems_preparations('teas')
+    art_remedies_systems_problems_preparations('tinctures')
+    art_remedies_systems_problems_preparations('capsules')
 
-# if 'herbs':
-#     herbs_pages()
+if 'herbs':
+    herbs_pages()
 
 
 # sitemap.sitemap_all()
