@@ -444,7 +444,6 @@ def img_preparation_systems_problems_featured(data):
         if DEBUG_MISS_IMG_KEY_FEATURED: print(f'MISSING KEY featured: {preparation_slug} {problem_slug}')
 
 
-
 def img_preparation_systems_problems_cheatsheet(data):
     title = data['title']
     problem_slug = data['problem_slug']
@@ -2800,7 +2799,6 @@ def page_privacy_policy():
     template = template.replace('[footer]', footer)
 
     util.file_write(filepath_out, template)
-
 
 
 def page_cookie_policy():
