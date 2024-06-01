@@ -1,4 +1,3 @@
-- generate herbs_medicine and herbs_medicine_benefits articles for each herb
 - metadata for articles fix layout
 - homepage grid mobile
 - more conditions

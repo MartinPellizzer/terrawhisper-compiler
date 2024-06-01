@@ -1,7 +1,7 @@
 ARTICLES_NUM = 100
 
 
-ART_NUM = 29
+ART_NUM = 30
 HERBS_ART_NUM = 5
 
 
@@ -31,10 +31,11 @@ CSV_TEAS_FILEPATH = 'database/csv/herbalism/teas_conditions.csv'
 CSV_PROBLEMS_FILEPATH = 'database/csv/problems.csv'
 CSV_SYSTEMS_NEW_FILEPATH = 'database/csv/systems.csv'
 
-
 CSV_HERBS_FILEPATH = 'database/csv/herbs.csv'
 CSV_PREPARATIONS_FILEPATH = 'database/csv/preparations.csv'
 
+CSV_TREFLE_FILEPATH = 'database/tables/plants/trefle.csv'
+CSV_HERBS_AUTO_FILEPATH = 'database/csv/herbs_auto.csv'
 
 # JUNCTIONS
 CSV_PROBLEMS_HERBS_FILEPATH = 'database/csv/junctions/problems_herbs.csv'
@@ -44,6 +45,9 @@ CSV_PROBLEMS_TEAS_FILEPATH = 'database/csv/junctions/problems_teas.csv'
 CSV_PROBLEMS_TINCTURES_FILEPATH = 'database/csv/junctions/problems_tinctures.csv'
 CSV_PROBLEMS_CAPSULES_FILEPATH = 'database/csv/junctions/problems_capsules.csv'
 CSV_PROBLEMS_RELATED_FILEPATH = 'database/csv/junctions/problems_related.csv'
+
+CSV_HERBS_BENEFITS_FILEPATH = 'database/csv/junctions/herbs_benefits.csv'
+CSV_PROBLEMS_HERBS_AUTO_FILEPATH = 'database/csv/junctions/problems_herbs_auto.csv'
 
 
 CATEGORY_HERBALISM = 'herbalism'
