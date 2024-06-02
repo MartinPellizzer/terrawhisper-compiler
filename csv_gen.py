@@ -29,6 +29,10 @@ herbs_auto_rows = util.csv_get_rows(g.CSV_HERBS_AUTO_FILEPATH)
 herbs_auto_cols = util.csv_get_cols(herbs_auto_rows)
 herbs_auto_rows = herbs_auto_rows[1:]
 
+status_rows = util.csv_get_rows(g.CSV_STATUS_FILEPATH)
+status_cols = util.csv_get_cols(status_rows)
+status_rows = status_rows[1:]
+
 
 # JUNCTIONS
 problems_herbs_rows = util.csv_get_rows(g.CSV_PROBLEMS_HERBS_FILEPATH)
@@ -63,9 +67,22 @@ herbs_benefits_rows = util.csv_get_rows(g.CSV_HERBS_BENEFITS_FILEPATH)
 herbs_benefits_cols = util.csv_get_cols(herbs_benefits_rows)
 herbs_benefits_rows = herbs_benefits_rows[1:]
 
+herbs_names_common_rows = util.csv_get_rows(g.CSV_HERBS_NAMES_COMMON_FILEPATH)
+herbs_names_common_cols = util.csv_get_cols(herbs_names_common_rows)
+herbs_names_common_rows = herbs_names_common_rows[1:]
+
 problems_herbs_auto_rows = util.csv_get_rows(g.CSV_PROBLEMS_HERBS_AUTO_FILEPATH)
 problems_herbs_auto_cols = util.csv_get_cols(problems_herbs_auto_rows)
 problems_herbs_auto_rows = problems_herbs_auto_rows[1:]
+
+
+status_systems_rows = util.csv_get_rows(g.CSV_STATUS_SYSTEMS_FILEPATH)
+status_systems_cols = util.csv_get_cols(status_systems_rows)
+status_systems_rows = status_systems_rows[1:]
+
+status_herbs_rows = util.csv_get_rows(g.CSV_STATUS_HERBS_FILEPATH)
+status_herbs_cols = util.csv_get_cols(status_herbs_rows)
+status_herbs_rows = status_herbs_rows[1:]
 
 
 def sanitize_herbs(line):
@@ -608,39 +625,10 @@ def csv_gen_capsules_for_problem(problem_row):
 
 
 
+
 ##################################################
-# EXE
+# NEW
 ##################################################
-
-def gen_csvs(problems_num=0):
-    # if problems_num < 0: return
-    
-    # problems_num_selected = 0
-    # if problems_num != 0: problems_num_selected = problems_num
-    # else: problems_num_selected = g.ART_NUM
-
-    for problem_row in problems_rows[:g.ART_NUM]:
-        problem_id = problem_row[problems_cols['problem_id']].strip().lower()
-        problem_slug = problem_row[problems_cols['problem_slug']].strip().lower()
-        problem_names = problem_row[problems_cols['problem_names']]
-        problem_name = problem_names.split(',')[0].strip().lower()
-
-        if problem_id == '': continue
-        if problem_slug == '': continue
-        if problem_name == '': continue
-
-        print(f'> {problem_row}')
-
-        # TODO
-        csv_gen_system_for_problem(problem_row)
-        
-        csv_gen_herbs_for_problem(problem_row)
-        csv_gen_preparations_for_problem(problem_row)
-
-        csv_gen_teas_for_problem(problem_row)
-        csv_gen_tinctures_for_problem(problem_row)
-        csv_gen_capsules_for_problem(problem_row)
-
 
 def gen_herbs_medicine_benefits(herb_num=0):
     if herb_num < 0: return
@@ -724,34 +712,34 @@ def problems_herbs_auto():
             '''
             reply = utils_ai.gen_reply(prompt)
 
-#             reply = f'''
-# 1. mentha x piperita
-# 1. melissa officinalis
-# 1. salvia officinalis
-# 1. thymus vulgaris
-# 1. origanum vulgare
-# 1. rosmarinus officinalis
-# 1. cinnamomum verum
-# 1. eucalyptus globulus
-# 1. foeniculum vulgare
-# 1. mentha spicata
-# 1. mentha pulegium
-# 1. thymus serpyllum
-# 1. origanum majorana
-# 1. satureja montana
-# 1. satureja hortensis
-# 1. coriandrum sativum
-# 1. anethum graveolens
-# 1. levisticum officinale
-# 1. myrica gale
-# 1. achillea millefolium
-# 1. tanacetum vulgare
-# 1. artemisia absinthium
-# 1. matricaria chamomilla
-# 1. hyssopus officinalis
-# 1. verbena officinalis
-# 1. centaurium erythraea
-# '''
+    #             reply = f'''
+    # 1. mentha x piperita
+    # 1. melissa officinalis
+    # 1. salvia officinalis
+    # 1. thymus vulgaris
+    # 1. origanum vulgare
+    # 1. rosmarinus officinalis
+    # 1. cinnamomum verum
+    # 1. eucalyptus globulus
+    # 1. foeniculum vulgare
+    # 1. mentha spicata
+    # 1. mentha pulegium
+    # 1. thymus serpyllum
+    # 1. origanum majorana
+    # 1. satureja montana
+    # 1. satureja hortensis
+    # 1. coriandrum sativum
+    # 1. anethum graveolens
+    # 1. levisticum officinale
+    # 1. myrica gale
+    # 1. achillea millefolium
+    # 1. tanacetum vulgare
+    # 1. artemisia absinthium
+    # 1. matricaria chamomilla
+    # 1. hyssopus officinalis
+    # 1. verbena officinalis
+    # 1. centaurium erythraea
+    # '''
 
             lines = []
             for line in reply.split('\n'):
@@ -818,11 +806,258 @@ def problems_herbs_auto():
 
             # quit()
             time.sleep(g.PROMPT_DELAY_TIME)
-            
+
+
+def status_herbs():
+    for status_row in status_rows:
+        status_exe = status_row[status_cols['status_id']].strip().lower()
+        status_id = status_row[status_cols['status_id']].strip().lower()
+        status_slug = status_row[status_cols['status_slug']].strip().lower()
+        status_name = status_row[status_cols['status_names']].split(',')[0].strip().lower()
+
+        if status_exe == '': continue
+        if status_id == '': continue
+        if status_slug == '': continue
+        if status_name == '': continue
+
+        print(f'> {status_row}')
+
+        status_herbs_rows = []
+        status_herbs_rows = util.csv_get_rows_filtered(
+            g.CSV_STATUS_HERBS_FILEPATH, status_herbs_cols['status_id'], status_id
+        )
+
+        if status_herbs_rows == []:
+            prompt = f'''
+                Write a numbered list of the 30 best scientific name (botanical latin binomial) of medicinal herbs for {status_name}.
+                Write only the scientific names of hte plants, not the descriptions.
+                Don't write the common name.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip().lower()
+                if line == '': continue
+                if not line[0].isdigit(): continue
+                if '.' not in line: continue
+                line = '.'.join(line.split('.')[1:])
+                # line = line.split('(')[0]
+                # line = line.replace('*', '')
+                line = line.strip()
+                if line == '': continue
+
+                line = herb_sanitize(line)
+
+                # check if line "in" trefle csv
+                trefle_found = False
+                for trefle_row in trefle_rows:
+                    trefle_slug = trefle_row[trefle_cols['herb_slug']]
+                    trefle_name_scientific = trefle_row[trefle_cols['herb_name_scientific']]
+                    trefle_words = trefle_slug.split('-')
+                    found = True
+                    for word in trefle_words:
+                        if word not in line:
+                            found = False
+                            break
+                    if found:
+                    # if trefle_words[0] in line and trefle_words[1] in line:
+                        print(trefle_slug, '>>', line)
+                        trefle_found = True
+                        break
+                
+                # check if not duplicate elements in same reply
+                if trefle_found: 
+                    old_line_found = False
+                    for line_old in lines:
+                        if line_old[2] == trefle_slug:
+                            old_line_found = True
+                    if not old_line_found:
+                        # check if herb is in database and has id, if not create
+                        herbs_auto_rows_filtered = util.csv_get_rows_filtered(
+                            g.CSV_HERBS_AUTO_FILEPATH, herbs_auto_cols['herb_slug'], trefle_slug
+                        )
+                        herb_auto_id = 0
+                        if herbs_auto_rows_filtered != []:
+                            herb_auto_row = herbs_auto_rows_filtered[0]
+                            herb_auto_id = herb_auto_row[herbs_auto_cols['herb_id']]
+                        else:
+                            herb_auto_id = herbs_auto_id_next()
+                            util.csv_add_rows(
+                                g.CSV_HERBS_AUTO_FILEPATH, 
+                                [[herb_auto_id, trefle_slug, trefle_name_scientific]]
+                            )
+                        lines.append([status_id, status_slug, herb_auto_id, trefle_slug])
+                else:
+                    util.file_append('LOG_PRBLEMS_HERBS_AUTO.txt', f'{line}\n')
+
+            if len(lines) >= 10:
+                # pass
+                print('***************************************************')
+                print(lines)
+                print('***************************************************')
+                util.csv_add_rows(g.CSV_STATUS_HERBS_FILEPATH, lines)
+
+            # quit()
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def herbs_names_common():
+    for herb_row in herbs_auto_rows:
+        herb_id = herb_row[herbs_auto_cols['herb_id']].strip()
+        herb_slug = herb_row[herbs_auto_cols['herb_slug']].strip()
+        herb_name_scientific = herb_row[herbs_auto_cols['herb_name_scientific']].strip()
+
+        if herb_id == '': continue
+        if herb_slug == '': continue
+        if herb_name_scientific == '': continue
+
+        print(f'> {herb_row}')
+
+        herbs_names_common_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_HERBS_NAMES_COMMON_FILEPATH, herbs_names_common_cols['herb_id'], herb_id
+        )
+
+        if herbs_names_common_rows_filtered == []:
+            prompt = f'''
+                Write a numbered list of the most common names of {herb_name_scientific}.
+                Write only the names, not the descriptions.
+                Write as few words as possible.
+                Don't write scientific names.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip().lower()
+                if line == '': continue
+                if ':' in line: continue
+                if not line[0].isdigit(): continue
+                if '.' not in line: continue
+                line = '.'.join(line.split('.')[1:])
+                line = line.split('(')[0]
+                line = line.replace('.', '')
+                line = line.strip()
+                if line == '': continue
+                lines.append([herb_id, herb_slug, line])
+
+            if len(lines) >= 1:
+                print('***************************************************')
+                print(lines)
+                print('***************************************************')
+                util.csv_add_rows(g.CSV_HERBS_NAMES_COMMON_FILEPATH, lines)
+
+            time.sleep(g.PROMPT_DELAY_TIME)
+        
+
+
+
+def get_system_by_status(status_id):
+    system_row = []
+
+    status_systems_rows_filtered = util.csv_get_rows_filtered(
+        g.CSV_STATUS_SYSTEMS_FILEPATH, status_systems_cols['status_id'], status_id,
+    )
+
+    if status_systems_rows_filtered != []:
+        status_system_row = status_systems_rows_filtered[0]
+        system_id = status_system_row[status_systems_cols['system_id']]
+
+        systems_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_SYSTEMS_FILEPATH, systems_cols['system_id'], system_id,
+        )
+
+        if systems_rows_filtered != []:
+            system_row = systems_rows_filtered[0]
+
+    return system_row
+
+
+
+def gen_system_for_status(status_row):
+    status_id = status_row[status_cols['status_id']]
+    status_slug = status_row[status_cols['status_slug']]
+    status_name = status_row[status_cols['status_names']].split(',')[0].strip()
+
+    status_systems_rows = get_system_by_status(status_id)
+
+    if status_systems_rows == []:
+        systems_names = [row[systems_cols['system_name']] for row in systems_rows]
+        systems_names_prompt = ', '.join(systems_names)
+
+        prompt = f'''
+            In which body system would you classify the following problem: {status_name}.
+            Choose only 1 body system among the followings: {systems_names_prompt}.
+            Reply in only 1 word.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        reply = reply.lower()
+        systems_names_1_word = [
+            row[systems_cols['system_name']].lower().replace('system', '').strip()
+            for row in systems_rows
+        ]
+        system_name = ''
+        for system_name_1_word in systems_names_1_word:
+            if system_name_1_word in reply:
+                system_name = system_name_1_word
+                break
+
+        if system_name != '':
+            system_name = f'{system_name} system'
+
+            print('***************************************************')
+            print(system_name)
+            print('***************************************************')
+
+            system_id = ''
+            for system_row in systems_rows:
+                system_id_csv = system_row[systems_cols['system_id']].lower().strip()
+                system_name_csv = system_row[systems_cols['system_name']].lower().strip()
+                if system_name == system_name_csv:
+                    system_id = system_id_csv
+                    break
+
+            util.csv_add_rows(
+                g.CSV_STATUS_SYSTEMS_FILEPATH, 
+                [[status_id, status_name, system_id, system_name]]
+            )
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+
+##################################################
+# EXE
+##################################################
+def gen_csvs():
+    for status_row in status_rows:
+        status_exe = status_row[status_cols['status_exe']].strip().lower()
+        status_id = status_row[status_cols['status_id']].strip().lower()
+        status_slug = status_row[status_cols['status_slug']].strip().lower()
+        status_name = status_row[status_cols['status_names']].split(',')[0].strip().lower()
+
+        if status_exe == '': continue
+        if status_id == '': continue
+        if status_slug == '': continue
+        if status_name == '': continue
+
+        print(f'> {status_row}')
+
+        # TODO
+        # csv_gen_system_for_problem(problem_row)
+        gen_system_for_status(status_row)
+        
+        # csv_gen_herbs_for_problem(problem_row)
+        # csv_gen_preparations_for_problem(problem_row)
+
+        # csv_gen_teas_for_problem(problem_row)
+        # csv_gen_tinctures_for_problem(problem_row)
+        # csv_gen_capsules_for_problem(problem_row)
+
 
 
 # gen_csvs()
 
-# gen_herbs_medicine_benefits()
-
-problems_herbs_auto()
+# status_herbs()
+herbs_names_common()

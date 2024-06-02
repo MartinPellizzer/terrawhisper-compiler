@@ -1,0 +1,43 @@
+status_id\status_name\system_id\system_name
+8\throat pain\0\digestive system
+9\heartburn\0\digestive system
+10\acid reflux\0\digestive system
+11\gerd\0\digestive system
+13\indigestion\0\digestive system
+14\stomach pain\0\digestive system
+15\stomach cramps\0\digestive system
+16\hyperacidity\0\digestive system
+18\gastritis\0\digestive system
+19\mucus stomach\0\digestive system
+20\peptic ulcers\0\digestive system
+21\gastroenteritis\0\digestive system
+22\gastroparesis\0\digestive system
+23\hiatus hernia\0\digestive system
+24\queasy stomach\0\digestive system
+25\upset stomach\0\digestive system
+27\vomiting\0\digestive system
+29\gas in stomach\0\digestive system
+30\bloating\0\digestive system
+31\overeating\0\digestive system
+34\jaundice\0\digestive system
+35\chronic hepatitis\0\digestive system
+36\viral hepatitis\0\digestive system
+37\cirrhosis\0\digestive system
+38\gallstones\0\digestive system
+39\cholecystitis\0\digestive system
+40\abdominal pain\0\digestive system
+44\inflammatory bowel disease\0\digestive system
+45\constipation\0\digestive system
+46\diarrhea\0\digestive system
+47\flatulence\0\digestive system
+48\irritable bowel syndrome\0\digestive system
+49\ulcerative colitis\0\digestive system
+50\diverticulitis\0\digestive system
+52\hemorrhoids\0\digestive system
+2\bad breath\4\integumentary system
+4\mouth ulcers\4\integumentary system
+5\oral thrust\4\integumentary system
+6\periodontal disease\4\integumentary system
+3\dry mouth\5\nervous system
+26\nausea\5\nervous system
+33\hangover\5\nervous system

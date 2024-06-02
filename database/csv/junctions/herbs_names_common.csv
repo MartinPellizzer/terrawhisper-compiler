@@ -1,0 +1,4128 @@
+herb_id\herb_slug\herb_name_common
+1\mentha-x-piperita\peppermint
+1\mentha-x-piperita\mentha piperita
+1\mentha-x-piperita\black peppermint
+1\mentha-x-piperita\brandy mint
+1\mentha-x-piperita\curled mint
+1\mentha-x-piperita\lamb mint
+1\mentha-x-piperita\balm mint
+1\mentha-x-piperita\round leaf mint
+1\mentha-x-piperita\wakerobin mint
+1\mentha-x-piperita\white peppermint
+2\melissa-officinalis\lemon balm
+2\melissa-officinalis\melissa
+2\melissa-officinalis\common balm
+2\melissa-officinalis\balm mint
+2\melissa-officinalis\garden balm
+2\melissa-officinalis\sweet balm
+2\melissa-officinalis\honey balm
+2\melissa-officinalis\cure-all
+2\melissa-officinalis\bee balm
+2\melissa-officinalis\erva-cidreira
+3\thymus-vulgaris\thyme
+3\thymus-vulgaris\garden thyme
+3\thymus-vulgaris\common thyme
+3\thymus-vulgaris\english thyme
+3\thymus-vulgaris\french thyme
+3\thymus-vulgaris\wild thyme
+3\thymus-vulgaris\creeping thyme
+3\thymus-vulgaris\mother of thyme
+3\thymus-vulgaris\woolly thyme
+3\thymus-vulgaris\lemon thyme
+3\thymus-vulgaris\silver thyme
+4\salvia-officinalis\sage
+4\salvia-officinalis\common sage
+4\salvia-officinalis\garden sage
+4\salvia-officinalis\culinary sage
+4\salvia-officinalis\dalmatian sage
+4\salvia-officinalis\true sage
+4\salvia-officinalis\broadleaf sage
+4\salvia-officinalis\narrowleaf sage
+4\salvia-officinalis\kitchen sage
+4\salvia-officinalis\spanish sage
+4\salvia-officinalis\golden sage
+5\origanum-vulgare\oregano
+5\origanum-vulgare\wild marjoram
+5\origanum-vulgare\european oregano
+5\origanum-vulgare\common oregano
+5\origanum-vulgare\greek oregano
+5\origanum-vulgare\origanum heracleoticum
+5\origanum-vulgare\italian oregano
+5\origanum-vulgare\origanum onites
+5\origanum-vulgare\pot marjoram
+6\cinnamomum-verum\cinnamon
+6\cinnamomum-verum\ceylon cinnamon
+6\cinnamomum-verum\true cinnamon
+6\cinnamomum-verum\sri lanka cinnamon
+6\cinnamomum-verum\indian cinnamon
+6\cinnamomum-verum\cinnamomum zeylanicum
+6\cinnamomum-verum\cinnamon verum
+6\cinnamomum-verum\sweet cinnamon
+6\cinnamomum-verum\cinnamon tamala
+6\cinnamomum-verum\padang cassia
+7\eucalyptus-globulus\tasmanian blue gum
+7\eucalyptus-globulus\southern blue gum
+7\eucalyptus-globulus\blue gum
+7\eucalyptus-globulus\victorian blue gum
+7\eucalyptus-globulus\flooded gum
+7\eucalyptus-globulus\swamp gum
+7\eucalyptus-globulus\mountain gum
+7\eucalyptus-globulus\tall eucalyptus
+7\eucalyptus-globulus\stringy gum
+7\eucalyptus-globulus\white gum
+8\myrica-gale\bog myrtle
+8\myrica-gale\sweet gale
+8\myrica-gale\myrtle
+8\myrica-gale\dutch myrtle
+8\myrica-gale\sweetheath
+8\myrica-gale\winterberry
+8\myrica-gale\bayberry
+8\myrica-gale\bog rosemary
+8\myrica-gale\heath myrtle
+8\myrica-gale\gale myrtle
+9\azadirachta-indica\neem
+9\azadirachta-indica\indian lilac
+9\azadirachta-indica\nimtree
+9\azadirachta-indica\margosa tree
+9\azadirachta-indica\azadirachta
+9\azadirachta-indica\nim
+9\azadirachta-indica\vepa
+9\azadirachta-indica\bevu
+9\azadirachta-indica\limba
+9\azadirachta-indica\karanjir
+9\azadirachta-indica\kemuning
+9\azadirachta-indica\dogon yaro
+9\azadirachta-indica\mwarobaini
+9\azadirachta-indica\ngai
+9\azadirachta-indica\arishtha
+9\azadirachta-indica\praneem
+9\azadirachta-indica\jeevanjeeva
+9\azadirachta-indica\nimba
+9\azadirachta-indica\vruksha
+9\azadirachta-indica\aayur
+10\mentha-spicata\spearmint
+10\mentha-spicata\garden mint
+10\mentha-spicata\common mint
+10\mentha-spicata\green mint
+10\mentha-spicata\mackerel mint
+10\mentha-spicata\our lady's mint
+10\mentha-spicata\sage of bethlehem
+10\mentha-spicata\menthe verte
+10\mentha-spicata\spansk kortlöv
+11\cymbopogon-citratus\lemongrass
+11\cymbopogon-citratus\citronella grass
+11\cymbopogon-citratus\fever grass
+11\cymbopogon-citratus\oil grass
+11\cymbopogon-citratus\silky heads
+11\cymbopogon-citratus\west indian lemongrass
+12\syzygium-aromaticum\clove
+12\syzygium-aromaticum\clove bud
+12\syzygium-aromaticum\clove flower
+12\syzygium-aromaticum\clove stem
+12\syzygium-aromaticum\clove leaf
+12\syzygium-aromaticum\clove tree
+12\syzygium-aromaticum\dagad phool
+12\syzygium-aromaticum\lavang
+12\syzygium-aromaticum\syzygium aromaticum
+13\foeniculum-vulgare\fennel
+13\foeniculum-vulgare\sweet fennel
+13\foeniculum-vulgare\common fennel
+13\foeniculum-vulgare\florence fennel
+13\foeniculum-vulgare\finocchio
+13\foeniculum-vulgare\bitter fennel
+13\foeniculum-vulgare\bronze fennel
+13\foeniculum-vulgare\green fennel
+13\foeniculum-vulgare\wild fennel
+13\foeniculum-vulgare\sweethout fennel
+14\allium-sativum\garlic
+14\allium-sativum\bulb garlic
+14\allium-sativum\clove garlic
+14\allium-sativum\elephant garlic
+14\allium-sativum\great-headed garlic
+14\allium-sativum\rose garlic
+14\allium-sativum\silverskin garlic
+14\allium-sativum\artichoke garlic
+14\allium-sativum\creole garlic
+14\allium-sativum\turban garlic
+15\zingiber-officinale\ginger
+15\zingiber-officinale\ginger root
+15\zingiber-officinale\ground ginger
+15\zingiber-officinale\fresh ginger
+15\zingiber-officinale\dried ginger
+15\zingiber-officinale\ginger powder
+15\zingiber-officinale\stem ginger
+15\zingiber-officinale\young ginger
+15\zingiber-officinale\prime ginger
+15\zingiber-officinale\old ginger
+16\pimpinella-anisum\anise
+16\pimpinella-anisum\aniseed
+16\pimpinella-anisum\aniseed herb
+16\pimpinella-anisum\aniseed plant
+16\pimpinella-anisum\sweet cumin
+16\pimpinella-anisum\sweet fennel
+16\pimpinella-anisum\aniseed star
+16\pimpinella-anisum\chinese star anise
+16\pimpinella-anisum\illicium verum
+16\pimpinella-anisum\implantation anise
+16\pimpinella-anisum\false anise
+16\pimpinella-anisum\japanese star anise
+16\pimpinella-anisum\shikimi
+16\pimpinella-anisum\anisi fructus
+16\pimpinella-anisum\anisi stellati fructus
+16\pimpinella-anisum\anisi vulgaris fructus
+16\pimpinella-anisum\anisi aetheroleum
+16\pimpinella-anisum\anisi fructus aetheroleum
+16\pimpinella-anisum\anisi stellati fructus aetheroleum
+16\pimpinella-anisum\anisi vulgaris fructus aetheroleum
+17\trachyspermum-ammi\ajwain
+17\trachyspermum-ammi\carom seeds
+17\trachyspermum-ammi\bishop's weed
+17\trachyspermum-ammi\omum seeds
+17\trachyspermum-ammi\bishopsweed
+17\trachyspermum-ammi\carom
+17\trachyspermum-ammi\thymol seeds
+17\trachyspermum-ammi\trachyspermum copticum
+17\trachyspermum-ammi\ethiopian cumin
+17\trachyspermum-ammi\kamun
+17\trachyspermum-ammi\ajowan caraway
+17\trachyspermum-ammi\persian cumin
+17\trachyspermum-ammi\ziri
+17\trachyspermum-ammi\yavan
+17\trachyspermum-ammi\love in a mist
+17\trachyspermum-ammi\wild celery
+17\trachyspermum-ammi\radhuni
+17\trachyspermum-ammi\ugragandha
+17\trachyspermum-ammi\ajmoda
+17\trachyspermum-ammi\known by many other local names in different regions and languages
+18\laurus-nobilis\bay leaf
+18\laurus-nobilis\sweet bay
+18\laurus-nobilis\bay tree
+18\laurus-nobilis\grecian laurel
+18\laurus-nobilis\laurel tree
+18\laurus-nobilis\true laurel
+18\laurus-nobilis\sacred laurel
+18\laurus-nobilis\laurus nobilis
+19\juglans-regia\persian walnut
+19\juglans-regia\english walnut
+19\juglans-regia\carpathian walnut
+19\juglans-regia\california walnut
+19\juglans-regia\madeira walnut
+19\juglans-regia\european walnut
+19\juglans-regia\french walnut
+19\juglans-regia\circassian walnut
+19\juglans-regia\burgundy walnut
+19\juglans-regia\german walnut
+20\rosmarinus-officinalis\rosemary
+20\rosmarinus-officinalis\common rosemary
+20\rosmarinus-officinalis\garden rosemary
+20\rosmarinus-officinalis\compact rosemary
+20\rosmarinus-officinalis\creeping rosemary
+20\rosmarinus-officinalis\prostrate rosemary
+20\rosmarinus-officinalis\tuscan blue rosemary
+20\rosmarinus-officinalis\miss jessopp's upright rosemary
+20\rosmarinus-officinalis\salem rosemary
+20\rosmarinus-officinalis\arp rosemary
+20\rosmarinus-officinalis\graham blue rosemary
+20\rosmarinus-officinalis\huntington carpet rosemary
+20\rosmarinus-officinalis\spicy globe rosemary
+20\rosmarinus-officinalis\blue boy rosemary
+20\rosmarinus-officinalis\madalene hill rosemary
+20\rosmarinus-officinalis\lockwood de forest rosemary
+20\rosmarinus-officinalis\portland state rosemary
+20\rosmarinus-officinalis\ken taylor rosemary
+20\rosmarinus-officinalis\tuscan blue
+20\rosmarinus-officinalis\albus rosemary
+21\sassafras-albidum\sassafras
+21\sassafras-albidum\white sassafras
+21\sassafras-albidum\silky sassafras
+21\sassafras-albidum\red sassafras
+21\sassafras-albidum\mitten tree
+21\sassafras-albidum\saloop tree
+21\sassafras-albidum\ague tree
+22\artemisia-absinthium\wormwood
+22\artemisia-absinthium\absinthium
+22\artemisia-absinthium\common wormwood
+22\artemisia-absinthium\green ginger
+22\artemisia-absinthium\old woman
+22\artemisia-absinthium\madderwort
+22\artemisia-absinthium\sailor's tobacco
+22\artemisia-absinthium\wilde als
+22\artemisia-absinthium\absinthe herb
+22\artemisia-absinthium\pontic wormwood
+23\hyssopus-officinalis\hyssop
+23\hyssopus-officinalis\common hyssop
+23\hyssopus-officinalis\herb of grace
+23\hyssopus-officinalis\israeli hyssop
+23\hyssopus-officinalis\biblical hyssop
+24\prunus-serotina\black cherry
+24\prunus-serotina\wild cherry
+24\prunus-serotina\rum cherry
+24\prunus-serotina\mountain black cherry
+24\prunus-serotina\tennessee cherry
+24\prunus-serotina\virginia cherry
+24\prunus-serotina\fruiting cherry
+24\prunus-serotina\bird cherry
+24\prunus-serotina\carolina cherry
+24\prunus-serotina\black fruit cherry
+25\filipendula-ulmaria\meadowsweet
+25\filipendula-ulmaria\queen of the meadow
+25\filipendula-ulmaria\bridewort
+25\filipendula-ulmaria\meadow queen
+25\filipendula-ulmaria\lady of the meadow
+25\filipendula-ulmaria\dolloff plant
+25\filipendula-ulmaria\filpendula ulmaria
+25\filipendula-ulmaria\meadow sweet
+25\filipendula-ulmaria\spirea ulmaria
+25\filipendula-ulmaria\european meadowsweet
+26\achillea-millefolium\yarrow
+26\achillea-millefolium\common yarrow
+26\achillea-millefolium\milfoil
+26\achillea-millefolium\nosebleed
+26\achillea-millefolium\old man's pepper
+26\achillea-millefolium\soldier's woundwort
+26\achillea-millefolium\thousand-leaf
+26\achillea-millefolium\carpenter's weed
+26\achillea-millefolium\sanguinary
+26\achillea-millefolium\devil's nettle
+26\achillea-millefolium\bloodwort
+26\achillea-millefolium\staunchweed
+26\achillea-millefolium\field hops
+26\achillea-millefolium\gordaldo
+26\achillea-millefolium\hardock
+26\achillea-millefolium\herbe militaris
+26\achillea-millefolium\thousand-seal
+26\achillea-millefolium\millefolium
+26\achillea-millefolium\noble yarrow
+26\achillea-millefolium\staunchgrass
+27\tilia-platyphyllos\large-leaved lime
+27\tilia-platyphyllos\large-leaved linden
+27\tilia-platyphyllos\european lime
+27\tilia-platyphyllos\broad-leaved lime
+27\tilia-platyphyllos\silver lime
+27\tilia-platyphyllos\linden tree
+27\tilia-platyphyllos\lime tree
+27\tilia-platyphyllos\basswood
+28\betula-pendula\silver birch
+28\betula-pendula\european white birch
+28\betula-pendula\weeping birch
+28\betula-pendula\warty birch
+28\betula-pendula\pendula birch
+29\quercus-robur\english oak
+29\quercus-robur\european oak
+29\quercus-robur\pedunculate oak
+29\quercus-robur\common oak
+29\quercus-robur\durmast oak
+30\aloe-vera\aloe vera
+30\aloe-vera\aloe barbadensis
+30\aloe-vera\aloe vulgaris
+30\aloe-vera\chinese aloe
+30\aloe-vera\indian aloe
+30\aloe-vera\true aloe
+30\aloe-vera\medicine plant
+30\aloe-vera\burn aloe
+30\aloe-vera\miracle aloe
+30\aloe-vera\cavaliere's aloe
+31\althaea-officinalis\marshmallow
+31\althaea-officinalis\althaea
+31\althaea-officinalis\mallows
+31\althaea-officinalis\mortification root
+31\althaea-officinalis\sweet weed
+31\althaea-officinalis\cheeses
+31\althaea-officinalis\wymote
+31\althaea-officinalis\mallow
+31\althaea-officinalis\schloss tea
+31\althaea-officinalis\ayamaru gentian
+31\althaea-officinalis\hock herb
+31\althaea-officinalis\mallards
+31\althaea-officinalis\mauls
+31\althaea-officinalis\slippery elm
+31\althaea-officinalis\yallow
+32\baptisia-tinctoria\wild indigo
+32\baptisia-tinctoria\baptisia
+32\baptisia-tinctoria\blue indigo
+32\baptisia-tinctoria\false indigo
+32\baptisia-tinctoria\rattlebush
+32\baptisia-tinctoria\horsefly weed
+32\baptisia-tinctoria\prairie blazing star
+32\baptisia-tinctoria\wild white indigo
+32\baptisia-tinctoria\yellow wild indigo
+32\baptisia-tinctoria\dyer's indigo
+32\baptisia-tinctoria\rattlepod
+32\baptisia-tinctoria\tall indigo
+32\baptisia-tinctoria\bastard indigo
+32\baptisia-tinctoria\s false indigo
+32\baptisia-tinctoria\indigo weed
+33\borago-officinalis\borage
+33\borago-officinalis\starflower
+33\borago-officinalis\burrage
+33\borago-officinalis\bugloss
+33\borago-officinalis\bee bread
+33\borago-officinalis\ox's tongue
+33\borago-officinalis\tailwort
+33\borago-officinalis\langdebeef
+33\borago-officinalis\garden borage
+33\borago-officinalis\common borage
+34\centella-asiatica\gotu kola
+34\centella-asiatica\asiatic pennywort
+34\centella-asiatica\indian pennywort
+34\centella-asiatica\hydrocotyle
+34\centella-asiatica\brahmi
+34\centella-asiatica\luei gong gen
+34\centella-asiatica\tsubo-yodo
+34\centella-asiatica\unji
+34\centella-asiatica\chi shao
+34\centella-asiatica\jalbrahmi
+34\centella-asiatica\thankuni
+34\centella-asiatica\bemgsing
+34\centella-asiatica\kodavan
+34\centella-asiatica\thusanu
+34\centella-asiatica\nilavarasi
+34\centella-asiatica\pegaga
+34\centella-asiatica\bacopa monnieri
+35\chamaemelum-nobile\roman chamomile
+35\chamaemelum-nobile\english chamomile
+35\chamaemelum-nobile\garden chamomile
+35\chamaemelum-nobile\ground apple
+35\chamaemelum-nobile\low chamomile
+35\chamaemelum-nobile\true chamomile
+35\chamaemelum-nobile\hen and chickens
+35\chamaemelum-nobile\lawn chamomile
+35\chamaemelum-nobile\low blue chamomile
+35\chamaemelum-nobile\wild chamomile
+36\echinacea-angustifolia\narrow-leaved coneflower
+36\echinacea-angustifolia\black samson
+36\echinacea-angustifolia\black-eyed susan
+36\echinacea-angustifolia\hedgehog coneflower
+36\echinacea-angustifolia\kansas snakeroot
+36\echinacea-angustifolia\narrow-leaf purple coneflower
+36\echinacea-angustifolia\pale-leaf purple coneflower
+36\echinacea-angustifolia\red sunflower
+36\echinacea-angustifolia\slim-leaf coneflower
+36\echinacea-angustifolia\small-flowered purple coneflower
+37\echinacea-purpurea\eastern purple coneflower
+37\echinacea-purpurea\purple coneflower
+37\echinacea-purpurea\echinacea purpurea
+37\echinacea-purpurea\eastern coneflower
+37\echinacea-purpurea\hedgehog coneflower
+37\echinacea-purpurea\kansas coneflower
+37\echinacea-purpurea\snake root
+37\echinacea-purpurea\blacksamson
+37\echinacea-purpurea\combflower
+37\echinacea-purpurea\scurvy root
+38\eleutherococcus-senticosus\siberian ginseng
+38\eleutherococcus-senticosus\eleuthero
+38\eleutherococcus-senticosus\ciwujia
+38\eleutherococcus-senticosus\devil's bush
+38\eleutherococcus-senticosus\touch-me-not
+38\eleutherococcus-senticosus\poison ivy of siberia
+38\eleutherococcus-senticosus\wild pepper
+38\eleutherococcus-senticosus\prickly eleutherococcus
+38\eleutherococcus-senticosus\acanthopanax senticosus
+39\glycyrrhiza-glabra\licorice
+39\glycyrrhiza-glabra\liquorice
+39\glycyrrhiza-glabra\spanish licorice
+39\glycyrrhiza-glabra\sweet licorice
+39\glycyrrhiza-glabra\chinese licorice
+39\glycyrrhiza-glabra\russian licorice
+39\glycyrrhiza-glabra\black licorice
+39\glycyrrhiza-glabra\greek licorice
+39\glycyrrhiza-glabra\italian licorice
+39\glycyrrhiza-glabra\mexican licorice
+40\hydrastis-canadensis\goldenseal
+40\hydrastis-canadensis\orange root
+40\hydrastis-canadensis\yellow root
+40\hydrastis-canadensis\yellow puccoon
+40\hydrastis-canadensis\indian turmeric
+40\hydrastis-canadensis\eye root
+40\hydrastis-canadensis\jaundice root
+40\hydrastis-canadensis\warrior root
+41\lavandula-angustifolia\english lavender
+41\lavandula-angustifolia\true lavender
+41\lavandula-angustifolia\narrow-leaved lavender
+41\lavandula-angustifolia\garden lavender
+41\lavandula-angustifolia\lady lavender
+41\lavandula-angustifolia\butterfly lavender
+41\lavandula-angustifolia\spike lavender
+41\lavandula-angustifolia\elf lavender
+41\lavandula-angustifolia\dutch lavender
+42\ocimum-basilicum\sweet basil
+42\ocimum-basilicum\genovese basil
+42\ocimum-basilicum\italian basil
+42\ocimum-basilicum\thai basil
+42\ocimum-basilicum\lemon basil
+42\ocimum-basilicum\lime basil
+42\ocimum-basilicum\holy basil
+42\ocimum-basilicum\cinnamon basil
+42\ocimum-basilicum\dark opal basil
+42\ocimum-basilicum\purple ruffles basil
+43\plantago-major\plantain
+43\plantago-major\broad-leaved plantain
+43\plantago-major\white man's foot
+43\plantago-major\englishman's foot
+43\plantago-major\cankerwort
+43\plantago-major\snakeweed
+43\plantago-major\greater plantain
+43\plantago-major\waybread
+43\plantago-major\dooryard plantain
+43\plantago-major\ripple grass
+44\punica-granatum\pomegranate
+44\punica-granatum\granada
+44\punica-granatum\anar
+44\punica-granatum\punica
+44\punica-granatum\roma
+44\punica-granatum\wonderful
+44\punica-granatum\azerbaijani
+44\punica-granatum\hicaz
+44\punica-granatum\paradise
+44\punica-granatum\chinese apple
+45\rheum-palmatum\turkish rhubarb
+45\rheum-palmatum\chinese rhubarb
+45\rheum-palmatum\rheum palmatum
+45\rheum-palmatum\ornamental rhubarb
+45\rheum-palmatum\emodin rhubarb
+45\rheum-palmatum\radix et rhizoma rhei
+45\rheum-palmatum\dà huáng
+45\rheum-palmatum\da huang
+45\rheum-palmatum\palmate rhubarb
+45\rheum-palmatum\rheum palmatum l
+46\sambucus-nigra\elderberry
+46\sambucus-nigra\european elder
+46\sambucus-nigra\black elder
+46\sambucus-nigra\european black elderberry
+46\sambucus-nigra\common elder
+46\sambucus-nigra\black elderberry shrub
+46\sambucus-nigra\european elderberry tree
+47\silybum-marianum\milk thistle
+47\silybum-marianum\mary's thistle
+47\silybum-marianum\saint mary's thistle
+47\silybum-marianum\mediterranean milk thistle
+47\silybum-marianum\variegated thistle
+47\silybum-marianum\scotch thistle
+47\silybum-marianum\blessed thistle
+47\silybum-marianum\lady's thistle
+47\silybum-marianum\silver thistle
+47\silybum-marianum\mariana thistle
+48\taraxacum-officinale\dandelion
+48\taraxacum-officinale\blowball
+48\taraxacum-officinale\lion's tooth
+48\taraxacum-officinale\priest's crown
+48\taraxacum-officinale\wet-a-bed
+48\taraxacum-officinale\puffball
+48\taraxacum-officinale\clockflower
+48\taraxacum-officinale\telltime
+48\taraxacum-officinale\swine's snout
+48\taraxacum-officinale\cankerwort
+48\taraxacum-officinale\milk gowan
+48\taraxacum-officinale\pissabed
+48\taraxacum-officinale\doonhead
+48\taraxacum-officinale\fairy clock
+48\taraxacum-officinale\monk's head
+48\taraxacum-officinale\pixie's cap
+48\taraxacum-officinale\irish daisy
+48\taraxacum-officinale\white endive
+48\taraxacum-officinale\wild endive
+48\taraxacum-officinale\yellow gowan
+49\trigonella-foenum-graecum\fenugreek
+49\trigonella-foenum-graecum\greek hay
+49\trigonella-foenum-graecum\methi
+49\trigonella-foenum-graecum\trigonella
+49\trigonella-foenum-graecum\fenugreek seeds
+49\trigonella-foenum-graecum\greek clover
+49\trigonella-foenum-graecum\bird's foot
+49\trigonella-foenum-graecum\sengal fenugreek
+49\trigonella-foenum-graecum\alhova
+49\trigonella-foenum-graecum\greek hay seed
+50\ulmus-x-hollandica\dutch elm
+50\ulmus-x-hollandica\english elm
+50\ulmus-x-hollandica\smooth-leaved elm
+50\ulmus-x-hollandica\european elm
+50\ulmus-x-hollandica\fluttering elm
+50\ulmus-x-hollandica\english open-flowered elm
+50\ulmus-x-hollandica\huntingdon elm
+50\ulmus-x-hollandica\wych elm
+50\ulmus-x-hollandica\italian elm
+50\ulmus-x-hollandica\suka elm
+50\ulmus-x-hollandica\white elm
+50\ulmus-x-hollandica\french elm
+50\ulmus-x-hollandica\winged elm
+50\ulmus-x-hollandica\exeter elm
+50\ulmus-x-hollandica\windsor elm
+51\verbascum-thapsus\great mullein
+51\verbascum-thapsus\common mullein
+51\verbascum-thapsus\aaron's rod
+51\verbascum-thapsus\velvet dock
+51\verbascum-thapsus\flannel leaf
+51\verbascum-thapsus\candlewick plant
+51\verbascum-thapsus\hag's taper
+51\verbascum-thapsus\woolly mullein
+51\verbascum-thapsus\feltwort
+51\verbascum-thapsus\shepherd's staff
+52\calendula-officinalis\pot marigold
+52\calendula-officinalis\english marigold
+52\calendula-officinalis\garden marigold
+52\calendula-officinalis\scottish marigold
+52\calendula-officinalis\ruddles
+52\calendula-officinalis\mary gowles
+52\calendula-officinalis\mary's gold
+52\calendula-officinalis\holligold
+52\calendula-officinalis\goldes
+52\calendula-officinalis\summer's bride
+53\camellia-sinensis\white tea
+53\camellia-sinensis\green tea
+53\camellia-sinensis\yellow tea
+53\camellia-sinensis\oolong tea
+53\camellia-sinensis\black tea
+53\camellia-sinensis\dark tea
+54\matricaria-chamomilla\german chamomile
+54\matricaria-chamomilla\hungarian chamomile
+54\matricaria-chamomilla\wild chamomile
+54\matricaria-chamomilla\blue chamomile
+54\matricaria-chamomilla\roman chamomile
+55\cichorium-intybus\chicory
+55\cichorium-intybus\common chicory
+55\cichorium-intybus\succory
+55\cichorium-intybus\wild succory
+55\cichorium-intybus\blue sailors
+55\cichorium-intybus\blue dandelion
+55\cichorium-intybus\coffeeweed
+55\cichorium-intybus\hendibeh
+55\cichorium-intybus\italian dandelion
+55\cichorium-intybus\ragged sailors
+56\hamamelis-virginiana\witch hazel
+56\hamamelis-virginiana\snapping hazel
+56\hamamelis-virginiana\spotted alder
+56\hamamelis-virginiana\american hazel
+56\hamamelis-virginiana\winterbloom
+56\hamamelis-virginiana\tobacco wood
+56\hamamelis-virginiana\striped alder
+57\hypericum-perforatum\st john's wort
+57\hypericum-perforatum\klamath weed
+57\hypericum-perforatum\tipton weed
+57\hypericum-perforatum\chase-devil
+57\hypericum-perforatum\rosin rose
+57\hypericum-perforatum\goatweed
+57\hypericum-perforatum\john's wort
+57\hypericum-perforatum\amber
+57\hypericum-perforatum\touch-and-heal
+57\hypericum-perforatum\hypericum
+57\hypericum-perforatum\tutsan
+57\hypericum-perforatum\common st john's wort
+58\olea-europaea\european olive
+58\olea-europaea\olive tree
+58\olea-europaea\common olive
+58\olea-europaea\wild olive
+58\olea-europaea\oleaster
+59\rhodiola-rosea\rhodiola
+59\rhodiola-rosea\rose root
+59\rhodiola-rosea\golden root
+59\rhodiola-rosea\aaron's rod
+59\rhodiola-rosea\king's crown
+59\rhodiola-rosea\orpin rose
+59\rhodiola-rosea\rosewort
+59\rhodiola-rosea\arctic root
+59\rhodiola-rosea\lignum rhodium
+59\rhodiola-rosea\snowden gold
+59\rhodiola-rosea\roseroot
+59\rhodiola-rosea\fingerroot
+59\rhodiola-rosea\gerardia
+59\rhodiola-rosea\hirculus
+59\rhodiola-rosea\radix rhodiolae
+59\rhodiola-rosea\rodia riza
+59\rhodiola-rosea\rhodiola sacra
+59\rhodiola-rosea\rhodiola quadrangularis
+59\rhodiola-rosea\rhodiola crenulata
+59\rhodiola-rosea\rhodiola rosea
+60\rhus-coriaria\sumac
+60\rhus-coriaria\sumach
+60\rhus-coriaria\sicilian sumach
+60\rhus-coriaria\rhus aromatica
+60\rhus-coriaria\staghorn sumac
+60\rhus-coriaria\tanner's sumac
+60\rhus-coriaria\fragrant sumac
+60\rhus-coriaria\indian sumac
+60\rhus-coriaria\sierra sumac
+60\rhus-coriaria\skunkbush sumac
+61\symphytum-officinale\comfrey
+61\symphytum-officinale\common comfrey
+61\symphytum-officinale\consound
+61\symphytum-officinale\knitbone
+61\symphytum-officinale\slippery root
+61\symphytum-officinale\blackwort
+61\symphytum-officinale\bruisewort
+61\symphytum-officinale\gum plant
+61\symphytum-officinale\healing herb
+61\symphytum-officinale\salsify
+62\tanacetum-parthenium\feverfew
+62\tanacetum-parthenium\bachelor's button
+62\tanacetum-parthenium\featherfew
+62\tanacetum-parthenium\midsummer daisy
+62\tanacetum-parthenium\wild chamomile
+62\tanacetum-parthenium\narrow-leaved featherfew
+62\tanacetum-parthenium\scented featherfew
+62\tanacetum-parthenium\medieval physic
+62\tanacetum-parthenium\matricaria discoidea
+62\tanacetum-parthenium\parthenium integrifolium
+63\vaccinium-myrtillus\bilberry
+63\vaccinium-myrtillus\european blueberry
+63\vaccinium-myrtillus\huckleberry
+63\vaccinium-myrtillus\whortleberry
+63\vaccinium-myrtillus\airelle
+63\vaccinium-myrtillus\blaeberry
+63\vaccinium-myrtillus\wortleberry
+63\vaccinium-myrtillus\fraughan
+63\vaccinium-myrtillus\whinberry
+63\vaccinium-myrtillus\hurtleberry
+64\valeriana-officinalis\valerian
+64\valeriana-officinalis\common valerian
+64\valeriana-officinalis\garden valerian
+64\valeriana-officinalis\all-heal
+64\valeriana-officinalis\amantilla
+64\valeriana-officinalis\setwall
+65\passiflora-incarnata\maypop
+65\passiflora-incarnata\passionflower
+65\passiflora-incarnata\passion vine
+65\passiflora-incarnata\wild passionflower
+65\passiflora-incarnata\purple passionflower
+66\scutellaria-lateriflora\skullcap
+66\scutellaria-lateriflora\blue pillow
+66\scutellaria-lateriflora\hoodwort
+66\scutellaria-lateriflora\mad-dog herb
+66\scutellaria-lateriflora\quaker bonnet
+66\scutellaria-lateriflora\quaker ladies
+66\scutellaria-lateriflora\virgin's balm
+67\humulus-lupulus\humulus lupulus
+67\humulus-lupulus\common hop
+67\humulus-lupulus\hop
+67\humulus-lupulus\brewer's hop
+67\humulus-lupulus\european hop
+67\humulus-lupulus\beer hop
+67\humulus-lupulus\wild hop
+67\humulus-lupulus\green hop
+67\humulus-lupulus\golding hop
+67\humulus-lupulus\fuggle hop
+68\nepeta-cataria\catnip
+68\nepeta-cataria\catmint
+68\nepeta-cataria\catswort
+68\nepeta-cataria\nepeta cataria
+68\nepeta-cataria\field balm
+68\nepeta-cataria\cat's-play
+68\nepeta-cataria\cat's-wort
+68\nepeta-cataria\cat's nettle
+68\nepeta-cataria\catsfoot
+68\nepeta-cataria\kattmynta
+68\nepeta-cataria\nepetaledes
+68\nepeta-cataria\herba catti
+68\nepeta-cataria\népéta
+68\nepeta-cataria\nepetakraut
+68\nepeta-cataria\nepeta arvensis
+69\ziziphus-jujuba\jujube
+69\ziziphus-jujuba\chinese date
+69\ziziphus-jujuba\red date
+69\ziziphus-jujuba\korean date
+69\ziziphus-jujuba\indian date
+69\ziziphus-jujuba\dázi
+69\ziziphus-jujuba\suan zao ren
+69\ziziphus-jujuba\tsao-ko
+69\ziziphus-jujuba\loquat
+69\ziziphus-jujuba\ber
+69\ziziphus-jujuba\sidr
+69\ziziphus-jujuba\nabkh
+69\ziziphus-jujuba\anab
+69\ziziphus-jujuba\ziziphus fruit
+69\ziziphus-jujuba\chinese red date
+69\ziziphus-jujuba\chinese jujube
+69\ziziphus-jujuba\korean jujube
+69\ziziphus-jujuba\indian jujube
+69\ziziphus-jujuba\dates plum
+69\ziziphus-jujuba\ber fruit
+69\ziziphus-jujuba\sidr fruit
+69\ziziphus-jujuba\nabkh fruit
+69\ziziphus-jujuba\anab fruit
+69\ziziphus-jujuba\jujube date
+69\ziziphus-jujuba\jujube fruit
+69\ziziphus-jujuba\jujube berry
+69\ziziphus-jujuba\jujube nut
+69\ziziphus-jujuba\jujube seed
+69\ziziphus-jujuba\jujube plant
+69\ziziphus-jujuba\jujube tree
+70\eschscholzia-californica\california poppy
+70\eschscholzia-californica\golden poppy
+70\eschscholzia-californica\california sunlight
+70\eschscholzia-californica\cup of gold
+70\eschscholzia-californica\orange poppy
+70\eschscholzia-californica\california field poppy
+70\eschscholzia-californica\tiger poppy
+70\eschscholzia-californica\flame flower
+70\eschscholzia-californica\la poppy
+70\eschscholzia-californica\western poppy
+71\astragalus-al-hamedensis\hamed's milkvetch
+71\astragalus-al-hamedensis\hamed's locoweed
+71\astragalus-al-hamedensis\desert astragalus
+71\astragalus-al-hamedensis\hamed's astragalus
+71\astragalus-al-hamedensis\middle eastern milkvetch
+71\astragalus-al-hamedensis\hamed's loco weed
+71\astragalus-al-hamedensis\astragalus of hama
+71\astragalus-al-hamedensis\hama's astragalus
+71\astragalus-al-hamedensis\hamed's rattlepod
+71\astragalus-al-hamedensis\hamed's rattlebox
+71\astragalus-al-hamedensis\hama's milkvetch
+71\astragalus-al-hamedensis\hama's locoweed
+71\astragalus-al-hamedensis\hamed's loco weed
+71\astragalus-al-hamedensis\hama's rattlepod
+71\astragalus-al-hamedensis\hama's rattlebox
+72\withania-somnifera\ashwagandha
+72\withania-somnifera\indian ginseng
+72\withania-somnifera\winter cherry
+72\withania-somnifera\poison gooseberry
+72\withania-somnifera\samm al ferakh
+73\panax-ginseng\korean ginseng
+73\panax-ginseng\asian ginseng
+73\panax-ginseng\chinese ginseng
+73\panax-ginseng\red ginseng
+73\panax-ginseng\white ginseng
+73\panax-ginseng\fresh ginseng
+73\panax-ginseng\wild ginseng
+73\panax-ginseng\cultivated ginseng
+73\panax-ginseng\processed ginseng
+73\panax-ginseng\steamed ginseng
+74\ginkgo-biloba\maidenhair tree
+74\ginkgo-biloba\ginkgo
+74\ginkgo-biloba\fossil tree
+74\ginkgo-biloba\silver apricot
+74\ginkgo-biloba\duck foot tree
+74\ginkgo-biloba\japanese temple tree
+74\ginkgo-biloba\adiantum tree
+74\ginkgo-biloba\baiguo
+74\ginkgo-biloba\bai guo ye
+74\ginkgo-biloba\yinhsing
+74\ginkgo-biloba\kew tree
+74\ginkgo-biloba\gocho
+74\ginkgo-biloba\ichou
+74\ginkgo-biloba\sarni
+74\ginkgo-biloba\pankhira
+74\ginkgo-biloba\icho
+74\ginkgo-biloba\kew ginkgo
+74\ginkgo-biloba\ginnan
+74\ginkgo-biloba\katsura
+74\ginkgo-biloba\siberapfel
+75\calea-ternifolia\mexican dream herb
+75\calea-ternifolia\wild dreamer
+75\calea-ternifolia\midnight calea
+75\calea-ternifolia\emerson's dream daisy
+75\calea-ternifolia\shaman's dream herb
+75\calea-ternifolia\dream tracker
+75\calea-ternifolia\dreamweed
+75\calea-ternifolia\thung yiak
+75\calea-ternifolia\upatro
+75\calea-ternifolia\gataka
+75\calea-ternifolia\mosquito weed
+75\calea-ternifolia\tree mint
+75\calea-ternifolia\hierba de los sueños
+75\calea-ternifolia\bitter calea
+75\calea-ternifolia\calea zacatechichi
+76\withania-coagulans\ashwagandha
+76\withania-coagulans\indian ginseng
+76\withania-coagulans\winter cherry
+76\withania-coagulans\withania somnifera
+76\withania-coagulans\ajagandha
+76\withania-coagulans\amangura
+76\withania-coagulans\clustered wintercherry
+76\withania-coagulans\dunal
+76\withania-coagulans\samm al ferakh
+76\withania-coagulans\solanaceae
+77\glycyrrhiza-uralensis\chinese licorice
+77\glycyrrhiza-uralensis\gancao
+77\glycyrrhiza-uralensis\licorice root
+77\glycyrrhiza-uralensis\sweet root
+77\glycyrrhiza-uralensis\russian licorice
+77\glycyrrhiza-uralensis\ural licorice
+77\glycyrrhiza-uralensis\chinese liquorice
+77\glycyrrhiza-uralensis\radix glycyrrhizae
+77\glycyrrhiza-uralensis\liquorice root
+77\glycyrrhiza-uralensis\gan cao
+78\actaea-racemosa\black cohosh
+78\actaea-racemosa\black snakeroot
+78\actaea-racemosa\bugbane
+78\actaea-racemosa\rattletop
+78\actaea-racemosa\rattleweed
+78\actaea-racemosa\fairy candle
+78\actaea-racemosa\richweed
+78\actaea-racemosa\squawroot
+78\actaea-racemosa\cohosh bugbane
+78\actaea-racemosa\macrotys
+79\acorus-calamus\sweet flag
+79\acorus-calamus\calamus
+79\acorus-calamus\sweet sedge
+79\acorus-calamus\beewort
+79\acorus-calamus\gladdon
+79\acorus-calamus\myrtle flag
+79\acorus-calamus\flag root
+79\acorus-calamus\sweet cane
+79\acorus-calamus\calamus root
+79\acorus-calamus\bach
+79\acorus-calamus\sweet grass
+79\acorus-calamus\rat's root
+79\acorus-calamus\flagroot
+79\acorus-calamus\muskrat root
+79\acorus-calamus\sweet rush
+79\acorus-calamus\flag myrtle
+79\acorus-calamus\broad leaf cana
+79\acorus-calamus\sweet cicely
+79\acorus-calamus\sweet myrtle
+79\acorus-calamus\calamus aromaticus
+80\apium-graveolens\celery
+80\apium-graveolens\chinese celery
+80\apium-graveolens\cutting celery
+80\apium-graveolens\leaf celery
+80\apium-graveolens\celeriac
+81\cannabis-sativa\cannabis
+81\cannabis-sativa\marijuana
+81\cannabis-sativa\weed
+81\cannabis-sativa\pot
+81\cannabis-sativa\ganja
+81\cannabis-sativa\bud
+81\cannabis-sativa\herb
+81\cannabis-sativa\chronic
+81\cannabis-sativa\dope
+81\cannabis-sativa\hashish
+81\cannabis-sativa\reefer
+81\cannabis-sativa\hemp
+81\cannabis-sativa\sinsemilla
+81\cannabis-sativa\mary jane
+81\cannabis-sativa\texas tea
+81\cannabis-sativa\aunt mary
+81\cannabis-sativa\blunt
+81\cannabis-sativa\joint
+81\cannabis-sativa\roach
+81\cannabis-sativa\spliff
+82\capsicum-annuum\bell pepper
+82\capsicum-annuum\jalapeno
+82\capsicum-annuum\cayenne
+82\capsicum-annuum\serrano
+82\capsicum-annuum\anaheim
+82\capsicum-annuum\paprika
+82\capsicum-annuum\chipotle
+82\capsicum-annuum\poblano
+82\capsicum-annuum\scotch bonnet
+82\capsicum-annuum\thai chili
+82\capsicum-annuum\habanero
+82\capsicum-annuum\banana pepper
+82\capsicum-annuum\hungarian wax
+82\capsicum-annuum\datil
+82\capsicum-annuum\rocoto
+82\capsicum-annuum\aji amarillo
+82\capsicum-annuum\fresno
+82\capsicum-annuum\malagueta
+82\capsicum-annuum\guntur sannam
+82\capsicum-annuum\kashmiri
+83\corydalis-yanhusuo\yanhusuo
+83\corydalis-yanhusuo\corydalis yanhusuo
+83\corydalis-yanhusuo\yuanhua suo
+83\corydalis-yanhusuo\yan hu suo
+83\corydalis-yanhusuo\hsuan shan chieh
+83\corydalis-yanhusuo\yan hu suo wan
+83\corydalis-yanhusuo\xuan shan zi
+83\corydalis-yanhusuo\xuan hu suo
+83\corydalis-yanhusuo\yan hu suo san
+83\corydalis-yanhusuo\hsuan hu suo
+83\corydalis-yanhusuo\yan hu suo tang
+83\corydalis-yanhusuo\yan hu suo jiao nang
+83\corydalis-yanhusuo\yan hu suo fen
+83\corydalis-yanhusuo\yan hu suo san pian
+83\corydalis-yanhusuo\yan hu suo tang zhi ke
+83\corydalis-yanhusuo\yan hu suo wan gao
+83\corydalis-yanhusuo\yan hu suo zhi ke
+83\corydalis-yanhusuo\hu suo jiu
+83\corydalis-yanhusuo\yan hu suo san jiao nang
+83\corydalis-yanhusuo\yan hu suo san jiao wan
+84\petasites-hybridus\butterbur
+84\petasites-hybridus\bog rhubarb
+84\petasites-hybridus\langde
+84\petasites-hybridus\flapwort
+84\petasites-hybridus\bog violet
+84\petasites-hybridus\capdase
+84\petasites-hybridus\umbrella leaf
+84\petasites-hybridus\sweet coltsfoot
+84\petasites-hybridus\wild rhubarb
+84\petasites-hybridus\petasite
+84\petasites-hybridus\coltsfoot pig-nut
+84\petasites-hybridus\devil's hat
+84\petasites-hybridus\bob's head
+84\petasites-hybridus\tall butterbur
+84\petasites-hybridus\baneberry butterbur
+85\ruta-graveolens\rue
+85\ruta-graveolens\common rue
+85\ruta-graveolens\herb-of-grace
+85\ruta-graveolens\garden rue
+85\ruta-graveolens\mother-of-thyme
+85\ruta-graveolens\stinking rue
+85\ruta-graveolens\bitter rue
+85\ruta-graveolens\herb-of-repentance
+85\ruta-graveolens\spanish rue
+85\ruta-graveolens\five-leaves-in-a-hand
+86\salix-alba\white willow
+86\salix-alba\european willow
+86\salix-alba\bay willow
+86\salix-alba\silver willow
+86\salix-alba\crack willow
+86\salix-alba\purple osier
+86\salix-alba\brittany willow
+86\salix-alba\saule blanc
+86\salix-alba\weide
+86\salix-alba\salix alba caerulea
+87\verbena-officinalis\verbena
+87\verbena-officinalis\vervain
+87\verbena-officinalis\simpler's joy
+87\verbena-officinalis\pigeonweed
+87\verbena-officinalis\wild hyssop
+87\verbena-officinalis\blue vervain
+87\verbena-officinalis\herb of the cross
+87\verbena-officinalis\ironweed
+87\verbena-officinalis\templar's vervain
+87\verbena-officinalis\enchanter's plant
+88\vicia-faba\fava bean
+88\vicia-faba\broad bean
+88\vicia-faba\field bean
+88\vicia-faba\bell bean
+88\vicia-faba\horse bean
+88\vicia-faba\windsor bean
+88\vicia-faba\tic bean
+88\vicia-faba\pigeon bean
+88\vicia-faba\english bean
+88\vicia-faba\scottish bean
+89\vinca-minor\myrtle
+89\vinca-minor\dwarf periwinkle
+89\vinca-minor\lesser periwinkle
+89\vinca-minor\common periwinkle
+89\vinca-minor\vinca
+89\vinca-minor\flowering myrtle
+89\vinca-minor\creeping myrtle
+89\vinca-minor\mazus
+89\vinca-minor\trailing vinca
+89\vinca-minor\dwarf mazus
+90\bacopa-monnieri\brahmi
+90\bacopa-monnieri\water hyssop
+90\bacopa-monnieri\herb of grace
+90\bacopa-monnieri\indian pennywort
+90\bacopa-monnieri\lysimachia monnieri
+90\bacopa-monnieri\jalabrahmi
+90\bacopa-monnieri\thyme-leaved gratiola
+90\bacopa-monnieri\moniera cernua
+90\bacopa-monnieri\bacopa monnieri 'compacta'
+90\bacopa-monnieri\moneywort
+91\vitex-agnus-castus\chasteberry
+91\vitex-agnus-castus\monk's pepper
+91\vitex-agnus-castus\vitex
+91\vitex-agnus-castus\abraham's balm
+91\vitex-agnus-castus\agnus-castus
+91\vitex-agnus-castus\chaste tree
+91\vitex-agnus-castus\linden vine
+91\vitex-agnus-castus\clito tree
+91\vitex-agnus-castus\sexberry
+91\vitex-agnus-castus\heavenly tree
+92\turnera-diffusa\damiana
+92\turnera-diffusa\mexican damiana
+92\turnera-diffusa\old woman's broom
+92\turnera-diffusa\mexican holy herb
+92\turnera-diffusa\turnera diffusa willd ex schult
+93\curcuma-longa\turmeric
+93\curcuma-longa\yellow ginger
+93\curcuma-longa\indian saffron
+93\curcuma-longa\haridra
+93\curcuma-longa\haldi
+93\curcuma-longa\jiang huang
+93\curcuma-longa\curcuma
+93\curcuma-longa\ukon
+93\curcuma-longa\nisha
+93\curcuma-longa\pian jiang huang
+94\elettaria-cardamomum\cardamom
+94\elettaria-cardamomum\malabar cardamom
+94\elettaria-cardamomum\true cardamom
+94\elettaria-cardamomum\indian cardamom
+94\elettaria-cardamomum\green cardamom
+94\elettaria-cardamomum\cardamomum elattaria
+94\elettaria-cardamomum\bastard cardamom
+94\elettaria-cardamomum\cardamomum malabaricum
+94\elettaria-cardamomum\hill cardamom
+94\elettaria-cardamomum\capstan cardamom
+95\piper-nigrum\black pepper
+95\piper-nigrum\common pepper
+95\piper-nigrum\peppercorn
+95\piper-nigrum\black peppercorn
+95\piper-nigrum\indian long pepper
+95\piper-nigrum\pipli
+96\schisandra-chinensis\schisandra berry
+96\schisandra-chinensis\five-flavor fruit
+96\schisandra-chinensis\wu wei zi
+96\schisandra-chinensis\magnolia vine
+96\schisandra-chinensis\northern schisandra
+96\schisandra-chinensis\chinese magnolia vine
+96\schisandra-chinensis\schisandra chinensis
+97\rehmannia-glutinosa\chinese foxglove
+97\rehmannia-glutinosa\chinese goldthread
+97\rehmannia-glutinosa\cat's claw
+97\rehmannia-glutinosa\di huang
+97\rehmannia-glutinosa\rehmannia root
+97\rehmannia-glutinosa\yin yam
+97\rehmannia-glutinosa\yuan zhi
+97\rehmannia-glutinosa\shen di huang
+97\rehmannia-glutinosa\shu di huang
+97\rehmannia-glutinosa\prepared rehmannia root
+98\avena-sativa\oats
+98\avena-sativa\common oat
+98\avena-sativa\white oat
+98\avena-sativa\groats
+98\avena-sativa\oatmeal
+98\avena-sativa\oat flour
+98\avena-sativa\oat bran
+98\avena-sativa\scottish oats
+98\avena-sativa\rolled oats
+98\avena-sativa\steel-cut oats
+98\avena-sativa\instant oats
+98\avena-sativa\quick oats
+99\leonurus-cardiaca\motherwort
+99\leonurus-cardiaca\lion's tail
+99\leonurus-cardiaca\heart's ease
+99\leonurus-cardiaca\throwwort
+99\leonurus-cardiaca\lady's thimble
+99\leonurus-cardiaca\st anthony's herb
+99\leonurus-cardiaca\st mary's herb
+99\leonurus-cardiaca\donkey's ears
+99\leonurus-cardiaca\yerba de la pastora
+99\leonurus-cardiaca\herba leonuri
+100\petroselinum-crispum\parsley
+100\petroselinum-crispum\curly parsley
+100\petroselinum-crispum\italian parsley
+100\petroselinum-crispum\hamburg parsley
+100\petroselinum-crispum\french parsley
+101\piper-methysticum\kava
+101\piper-methysticum\awa
+101\piper-methysticum\yaqona
+101\piper-methysticum\'awa
+101\piper-methysticum\sakau
+101\piper-methysticum\'awa pililo
+101\piper-methysticum\malokota
+101\piper-methysticum\rourua
+101\piper-methysticum\intoxicating pepper
+101\piper-methysticum\gea
+101\piper-methysticum\tonga
+101\piper-methysticum\grog
+101\piper-methysticum\kava-kava
+101\piper-methysticum\sierra leone kava
+101\piper-methysticum\island grog
+101\piper-methysticum\kava pepper
+101\piper-methysticum\kava root
+101\piper-methysticum\kava shrub
+101\piper-methysticum\kava tea
+101\piper-methysticum\kava wine
+102\rumex-crispus\yellow dock
+102\rumex-crispus\curly dock
+102\rumex-crispus\garden patience
+102\rumex-crispus\narrow dock
+102\rumex-crispus\rumex crispus
+102\rumex-crispus\curled dock
+102\rumex-crispus\sour dock
+102\rumex-crispus\curly yellow dock
+102\rumex-crispus\patience dock
+102\rumex-crispus\yellow docklite
+103\tilia-cordata\littleleaf linden
+103\tilia-cordata\smallleaf lime
+103\tilia-cordata\small-leaved linden
+103\tilia-cordata\european linden
+103\tilia-cordata\tilia parvifolia
+103\tilia-cordata\tilia europaea
+104\crataegus-x-bornmuelleri\thornless cockspur hawthorn
+104\crataegus-x-bornmuelleri\washington hawthorn
+104\crataegus-x-bornmuelleri\red knobby hawthorn
+104\crataegus-x-bornmuelleri\hybrid hawthorn
+104\crataegus-x-bornmuelleri\bornmueller hawthorn
+104\crataegus-x-bornmuelleri\dwarf washington hawthorn
+104\crataegus-x-bornmuelleri\redhaven hawthorn
+104\crataegus-x-bornmuelleri\compact cockspur hawthorn
+104\crataegus-x-bornmuelleri\dwarf washington red hawthorn
+104\crataegus-x-bornmuelleri\red dwarf hawthorn
+105\viscum-album\european mistletoe
+105\viscum-album\common mistletoe
+105\viscum-album\viscum album
+105\viscum-album\mistletoe
+105\viscum-album\greater mistletoe
+105\viscum-album\birdlime
+105\viscum-album\all-heal
+105\viscum-album\golden bough
+105\viscum-album\devil's fuge
+105\viscum-album\iscador
+105\viscum-album\european viscum
+105\viscum-album\love herb
+105\viscum-album\thunderbesom
+105\viscum-album\woody mistletoe
+105\viscum-album\mistel
+106\cinchona-officinalis\peruvian bark
+106\cinchona-officinalis\jesuit's bark
+106\cinchona-officinalis\quinquina
+106\cinchona-officinalis\fever tree
+106\cinchona-officinalis\red bark
+106\cinchona-officinalis\china bark
+106\cinchona-officinalis\cardinal's bark
+107\digitalis-purpurea\foxglove
+107\digitalis-purpurea\common foxglove
+107\digitalis-purpurea\purple foxglove
+107\digitalis-purpurea\lady's glove
+107\digitalis-purpurea\fairy bells
+107\digitalis-purpurea\witch's gloves
+107\digitalis-purpurea\dead men's bells
+107\digitalis-purpurea\bloody fingers
+107\digitalis-purpurea\gloves of our lady
+107\digitalis-purpurea\virgin's glove
+108\equisetum-arvense\horsetail
+108\equisetum-arvense\field horsetail
+108\equisetum-arvense\common horsetail
+108\equisetum-arvense\shavegrass
+108\equisetum-arvense\puzzlegrass
+108\equisetum-arvense\dutch rushes
+108\equisetum-arvense\snake grass
+108\equisetum-arvense\bottlebrush
+108\equisetum-arvense\candock
+108\equisetum-arvense\scouring rush
+109\urtica-dioica\stinging nettle
+109\urtica-dioica\nettle
+109\urtica-dioica\common nettle
+109\urtica-dioica\greater nettle
+109\urtica-dioica\european nettle
+110\arctostaphylos-uva-ursi\kinnikinnick
+110\arctostaphylos-uva-ursi\bearberry
+110\arctostaphylos-uva-ursi\sandberry
+110\arctostaphylos-uva-ursi\mountain-box
+110\arctostaphylos-uva-ursi\hogberry
+110\arctostaphylos-uva-ursi\pinemat manzanita
+110\arctostaphylos-uva-ursi\redberry
+110\arctostaphylos-uva-ursi\upland cranberry
+110\arctostaphylos-uva-ursi\beargrape
+110\arctostaphylos-uva-ursi\mealberry
+110\arctostaphylos-uva-ursi\foxberry
+110\arctostaphylos-uva-ursi\rockberry
+110\arctostaphylos-uva-ursi\sparkleberry
+110\arctostaphylos-uva-ursi\trailing mazanita
+110\arctostaphylos-uva-ursi\wintergreen
+111\cornus-mas\cornelian cherry
+111\cornus-mas\european cornel
+111\cornus-mas\dogwood
+111\cornus-mas\red dogwood
+111\cornus-mas\cornel tree
+111\cornus-mas\flowering dogwood
+111\cornus-mas\cornelian cherry dogwood
+111\cornus-mas\european cornelian cherry
+111\cornus-mas\wild cornell
+111\cornus-mas\cornelian cherry tree
+112\artemisia-dracunculus\tarragon
+112\artemisia-dracunculus\french tarragon
+112\artemisia-dracunculus\estragon
+112\artemisia-dracunculus\dragon wormwood
+112\artemisia-dracunculus\mexican tarragon
+112\artemisia-dracunculus\spanish tarragon
+112\artemisia-dracunculus\russian tarragon
+113\berberis-vulgaris\common barberry
+113\berberis-vulgaris\european barberry
+113\berberis-vulgaris\jaundice berry
+113\berberis-vulgaris\sourberry
+113\berberis-vulgaris\piprage
+113\berberis-vulgaris\berberis
+113\berberis-vulgaris\daruhaldi
+113\berberis-vulgaris\taheebo
+113\berberis-vulgaris\tree turmeric
+114\carum-carvi\caraway
+114\carum-carvi\persian cumin
+114\carum-carvi\shirazi cumin
+114\carum-carvi\meridian fennel
+114\carum-carvi\black cumin
+114\carum-carvi\nigella sativa
+114\carum-carvi\roman cumin
+114\carum-carvi\wild cumin
+114\carum-carvi\komijn
+114\carum-carvi\karawypeffer
+114\carum-carvi\kummel
+114\carum-carvi\aniseed
+114\carum-carvi\carvi
+114\carum-carvi\karamani
+114\carum-carvi\zeera
+114\carum-carvi\jintan putih
+114\carum-carvi\shahi jeera
+114\carum-carvi\kalignan
+114\carum-carvi\karamani jiraka
+114\carum-carvi\kalignan satva
+114\carum-carvi\karuabah
+114\carum-carvi\karaunda
+114\carum-carvi\karishak
+114\carum-carvi\karishame
+114\carum-carvi\karishanga
+114\carum-carvi\karishim
+114\carum-carvi\karishin
+114\carum-carvi\karishoma
+114\carum-carvi\karishung
+114\carum-carvi\karisim
+114\carum-carvi\karisoma
+114\carum-carvi\karisung
+114\carum-carvi\karitha
+114\carum-carvi\karitham
+114\carum-carvi\karithathu
+114\carum-carvi\karithikai
+114\carum-carvi\karithamullu
+114\carum-carvi\karithangai
+114\carum-carvi\karithakam
+114\carum-carvi\karithakku
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+114\carum-carvi\karitham
+115\citrus-limon\eureka
+115\citrus-limon\lisbon
+115\citrus-limon\meyer
+115\citrus-limon\bearss
+115\citrus-limon\fino
+115\citrus-limon\genoa
+115\citrus-limon\interdonato
+115\citrus-limon\monachello
+115\citrus-limon\ponderosa
+115\citrus-limon\sorrento
+115\citrus-limon\yuzu
+115\citrus-limon\sudachi
+115\citrus-limon\kaffir lime
+115\citrus-limon\rangpur lime
+115\citrus-limon\australian finger lime
+116\coptis-chinensis\coptis chinensis
+116\coptis-chinensis\chinese goldthread
+116\coptis-chinensis\huang lian
+116\coptis-chinensis\golden thread
+116\coptis-chinensis\yellow root
+116\coptis-chinensis\ceylon goldthread
+116\coptis-chinensis\chinese coptis
+116\coptis-chinensis\oriental goldthread
+116\coptis-chinensis\radix coptidis
+116\coptis-chinensis\huang bo
+117\marrubium-vulgare\horehound
+117\marrubium-vulgare\white horehound
+117\marrubium-vulgare\common horehound
+117\marrubium-vulgare\bull horehound
+117\marrubium-vulgare\eye of the star
+117\marrubium-vulgare\hoarhound
+117\marrubium-vulgare\marrubium
+117\marrubium-vulgare\black horehound
+117\marrubium-vulgare\seed-of-st peter
+117\marrubium-vulgare\slough horehound
+118\rubus-idaeus\european red raspberry
+118\rubus-idaeus\american red raspberry
+118\rubus-idaeus\rubus strigosus
+118\rubus-idaeus\rubus occidentalis
+118\rubus-idaeus\rubus leucodermis
+118\rubus-idaeus\rubus parviflorus
+118\rubus-idaeus\rubus arnericensis
+118\rubus-idaeus\rubus chamaemorus
+118\rubus-idaeus\rubus stellatus
+118\rubus-idaeus\rubus hayata-koidzumi
+119\plantago-ovata\psyllium husk
+119\plantago-ovata\plantain seed
+119\plantago-ovata\ispaghula
+119\plantago-ovata\isabgol
+119\plantago-ovata\blond plantain
+119\plantago-ovata\spanish psyllium
+119\plantago-ovata\desert indianwheat
+119\plantago-ovata\sand plantain
+119\plantago-ovata\black psyllium
+119\plantago-ovata\french psyllium
+120\senna-alexandrina\senna
+120\senna-alexandrina\alexandrian senna
+120\senna-alexandrina\egyptian senna
+120\senna-alexandrina\cassia acutifolia
+120\senna-alexandrina\cassia senna
+120\senna-alexandrina\fever senna
+120\senna-alexandrina\khartoum senna
+120\senna-alexandrina\tinnevelly senna
+120\senna-alexandrina\wild senna
+120\senna-alexandrina\american senna
+121\rhamnus-purshiana-var-annonifolia\cascara buckthorn
+121\rhamnus-purshiana-var-annonifolia\chittem bark
+121\rhamnus-purshiana-var-annonifolia\bearberry
+121\rhamnus-purshiana-var-annonifolia\cascara sagrada
+121\rhamnus-purshiana-var-annonifolia\persian berry
+121\rhamnus-purshiana-var-annonifolia\rhamnus purshiana var annonifolia
+121\rhamnus-purshiana-var-annonifolia\sacred bark
+121\rhamnus-purshiana-var-annonifolia\california buckthorn
+121\rhamnus-purshiana-var-annonifolia\yellow bark
+121\rhamnus-purshiana-var-annonifolia\dogwood bark
+122\frangula-alnus\alder buckthorn
+122\frangula-alnus\european buckthorn
+122\frangula-alnus\frangula
+122\frangula-alnus\glossy buckthorn
+122\frangula-alnus\black alder
+122\frangula-alnus\hart's thorn
+122\frangula-alnus\bath alder
+122\frangula-alnus\common alder-buckthorn
+122\frangula-alnus\european alder-buckthorn
+122\frangula-alnus\gloomy alder
+122\frangula-alnus\hart's horn
+122\frangula-alnus\thorn buckthorn
+122\frangula-alnus\black dogwood
+122\frangula-alnus\purging buckthorn
+122\frangula-alnus\glossy buckthorn
+123\andrographis-paniculata\andrographis
+123\andrographis-paniculata\creat
+123\andrographis-paniculata\green chireta
+123\andrographis-paniculata\kalmegh
+123\andrographis-paniculata\king of bitters
+123\andrographis-paniculata\maha tulsi
+123\andrographis-paniculata\nila chandan
+123\andrographis-paniculata\sintong
+123\andrographis-paniculata\fah talai jone
+123\andrographis-paniculata\hin tho
+124\angelica-archangelica\garden angelica
+124\angelica-archangelica\wild celery
+124\angelica-archangelica\norwegian angelica
+124\angelica-archangelica\archangel
+124\angelica-archangelica\holy ghost
+124\angelica-archangelica\masterwort
+124\angelica-archangelica\wild parsnip
+124\angelica-archangelica\blessed herb
+124\angelica-archangelica\american angelica
+124\angelica-archangelica\dong quai
+125\artemisia-annua\sweet wormwood
+125\artemisia-annua\annual wormwood
+125\artemisia-annua\sweet sagewort
+125\artemisia-annua\qing hao
+125\artemisia-annua\sweet annie
+125\artemisia-annua\annual mugwort
+125\artemisia-annua\chinese wormwood
+126\ephedra-sinica\ma huang
+126\ephedra-sinica\chinese ephedra
+126\ephedra-sinica\ephedra herb
+126\ephedra-sinica\joint-pine
+126\ephedra-sinica\mormon tea
+126\ephedra-sinica\yellow horseherb
+126\ephedra-sinica\popotillo
+126\ephedra-sinica\teamster's tea
+126\ephedra-sinica\squaw tea
+126\ephedra-sinica\desert tea
+127\hedera-helix\english ivy
+127\hedera-helix\common ivy
+127\hedera-helix\european ivy
+127\hedera-helix\branching ivy
+127\hedera-helix\glacier ivy
+127\hedera-helix\needlepoint ivy
+127\hedera-helix\irish ivy
+127\hedera-helix\california ivy
+127\hedera-helix\sweetheart ivy
+127\hedera-helix\hedera helix
+128\pelargonium-sidoides\african geranium
+128\pelargonium-sidoides\south african geranium
+128\pelargonium-sidoides\umckaloabo
+128\pelargonium-sidoides\cape pelargonium
+128\pelargonium-sidoides\hoodia gordonii
+129\phytolacca-americana\pokeweed
+129\phytolacca-americana\pokeberry
+129\phytolacca-americana\inkberry
+129\phytolacca-americana\american pokeweed
+129\phytolacca-americana\red ink plant
+129\phytolacca-americana\cancer root
+129\phytolacca-americana\scoke
+129\phytolacca-americana\pigeonberry
+129\phytolacca-americana\garget
+129\phytolacca-americana\polk salad
+130\prunella-vulgaris\self-heal
+130\prunella-vulgaris\heal-all
+130\prunella-vulgaris\carpenter's herb
+130\prunella-vulgaris\woundwort
+130\prunella-vulgaris\blue curls
+130\prunella-vulgaris\hook-heal
+130\prunella-vulgaris\heart-of-the-earth
+130\prunella-vulgaris\sicklewort
+130\prunella-vulgaris\doctor-in-the-hedge
+130\prunella-vulgaris\lady's-physic
+131\tussilago-farfara\coltsfoot
+131\tussilago-farfara\farfara
+131\tussilago-farfara\tussilago
+131\tussilago-farfara\horsehoof
+131\tussilago-farfara\ass's foot
+131\tussilago-farfara\bull's foot
+131\tussilago-farfara\fieldhove
+131\tussilago-farfara\foal's foot
+131\tussilago-farfara\butterbur
+131\tussilago-farfara\sponge flower
+132\viola-odorata\sweet violet
+132\viola-odorata\english violet
+132\viola-odorata\garden violet
+132\viola-odorata\florist's violet
+132\viola-odorata\wood violet
+132\viola-odorata\running violet
+132\viola-odorata\common violet
+132\viola-odorata\modest violet
+132\viola-odorata\purple violet
+132\viola-odorata\blue violet
+133\centaurium-erythraea\common centaury
+133\centaurium-erythraea\red centaury
+133\centaurium-erythraea\european centaury
+133\centaurium-erythraea\starthistle
+133\centaurium-erythraea\spotwort
+133\centaurium-erythraea\feverwort
+133\centaurium-erythraea\christ's ladder
+133\centaurium-erythraea\bitter centaury
+133\centaurium-erythraea\hundred leaves
+133\centaurium-erythraea\woundwort
+134\stachys-officinalis\betony
+134\stachys-officinalis\wood betony
+134\stachys-officinalis\bishop's wort
+134\stachys-officinalis\heal-all
+134\stachys-officinalis\purple betony
+134\stachys-officinalis\lousewort
+134\stachys-officinalis\crow's foot
+134\stachys-officinalis\tame lambs ears
+134\stachys-officinalis\stachys officinalis 'hummelo'
+134\stachys-officinalis\stachys officinalis 'alba'
+135\agrimonia-eupatoria\common agrimony
+135\agrimonia-eupatoria\church steeples
+135\agrimonia-eupatoria\cockeburr
+135\agrimonia-eupatoria\stickwort
+135\agrimonia-eupatoria\burr marigold
+135\agrimonia-eupatoria\fairy's fingers
+135\agrimonia-eupatoria\philanthropos's wormwood
+135\agrimonia-eupatoria\lye weed
+135\agrimonia-eupatoria\ackerkraut
+135\agrimonia-eupatoria\herbe de st guillaume
+135\agrimonia-eupatoria\garclive
+135\agrimonia-eupatoria\acrimony
+135\agrimonia-eupatoria\gravel root
+135\agrimonia-eupatoria\liverwort
+135\agrimonia-eupatoria\sticklewort
+136\inula-helenium\elecampane
+136\inula-helenium\horseheal
+136\inula-helenium\velvet dock
+136\inula-helenium\scabwort
+136\inula-helenium\elfwort
+136\inula-helenium\yellow starwort
+136\inula-helenium\horse elder
+136\inula-helenium\wild sunflower
+136\inula-helenium\marchalan
+136\inula-helenium\inula flower
+137\solidago-virgaurea\european goldenrod
+137\solidago-virgaurea\woundwort
+137\solidago-virgaurea\blue mountain tea
+137\solidago-virgaurea\aaron's rod
+137\solidago-virgaurea\verge d'or
+137\solidago-virgaurea\goldrute
+137\solidago-virgaurea\solidage
+137\solidago-virgaurea\vératre faux-arnica
+137\solidago-virgaurea\barba de oro
+137\solidago-virgaurea\giunchina
+138\asclepias-tuberosa\butterfly weed
+138\asclepias-tuberosa\pleurisy root
+138\asclepias-tuberosa\orange milkweed
+138\asclepias-tuberosa\chiggerflower
+138\asclepias-tuberosa\canada root
+138\asclepias-tuberosa\windroot
+138\asclepias-tuberosa\tuber root
+138\asclepias-tuberosa\indian paintbrush
+138\asclepias-tuberosa\butterfly milkweed
+138\asclepias-tuberosa\orange asclepias
+139\bryonia-alba\bryonia
+139\bryonia-alba\white bryony
+139\bryonia-alba\english mandrake
+139\bryonia-alba\wild hops
+139\bryonia-alba\wild cucumber
+140\malva-sylvestris\high mallow
+140\malva-sylvestris\common mallow
+140\malva-sylvestris\blue mallow
+140\malva-sylvestris\cheeseplant
+140\malva-sylvestris\tall mallow
+140\malva-sylvestris\wild mallow
+140\malva-sylvestris\malva neglecta
+140\malva-sylvestris\malva vacca
+140\malva-sylvestris\malva alcea
+140\malva-sylvestris\malva moschata
+141\monarda-didyma\bee balm
+141\monarda-didyma\bergamot
+141\monarda-didyma\oswego tea
+141\monarda-didyma\horsemint
+141\monarda-didyma\scarlet monarda
+141\monarda-didyma\crimson beebalm
+141\monarda-didyma\red bergamot
+141\monarda-didyma\wild bergamot
+141\monarda-didyma\monarda
+141\monarda-didyma\indian plume
+142\primula-veris\cowslip
+142\primula-veris\key of heaven
+142\primula-veris\fairy cups
+142\primula-veris\paigle
+142\primula-veris\palship
+142\primula-veris\palsy grass
+142\primula-veris\herb peter
+142\primula-veris\arthritis weed
+142\primula-veris\staggerweed
+142\primula-veris\soldiers' buttons
+143\pulsatilla-pratensis\pasque flower
+143\pulsatilla-pratensis\wind flower
+143\pulsatilla-pratensis\meadow anemone
+143\pulsatilla-pratensis\european pasque flower
+143\pulsatilla-pratensis\prairie smoke
+143\pulsatilla-pratensis\eastern pasque flower
+143\pulsatilla-pratensis\three-notched pasque flower
+143\pulsatilla-pratensis\spring pasque flower
+143\pulsatilla-pratensis\western pasque flower
+143\pulsatilla-pratensis\european pasque flower
+144\artemisia-vulgaris\mugwort
+144\artemisia-vulgaris\blackwort
+144\artemisia-vulgaris\felonherb
+144\artemisia-vulgaris\chrysanthemum weed
+144\artemisia-vulgaris\st john's plant
+144\artemisia-vulgaris\sailor's tobacco
+144\artemisia-vulgaris\river wormwood
+144\artemisia-vulgaris\wild wormwood
+144\artemisia-vulgaris\old uncle henry
+144\artemisia-vulgaris\dog's herb
+144\artemisia-vulgaris\naughty man's plant
+144\artemisia-vulgaris\old man's plant
+144\artemisia-vulgaris\traveler's plant
+144\artemisia-vulgaris\purge plant
+144\artemisia-vulgaris\wild marjoram
+145\coriandrum-sativum\cilantro
+145\coriandrum-sativum\coriander leaf
+145\coriandrum-sativum\chinese parsley
+145\coriandrum-sativum\dhania
+145\coriandrum-sativum\mexican parsley
+145\coriandrum-sativum\arabic parsley
+146\peumus-boldus\boldo
+146\peumus-boldus\boldea
+146\peumus-boldus\bolduc
+146\peumus-boldus\boldu
+146\peumus-boldus\boldu italian
+146\peumus-boldus\boldu criollo
+146\peumus-boldus\boldu del campo
+146\peumus-boldus\boldu silvestre
+146\peumus-boldus\boldu chileno
+146\peumus-boldus\boldu mapuche
+146\peumus-boldus\boldu andino
+146\peumus-boldus\boldu patagónico
+146\peumus-boldus\boldu serrano
+146\peumus-boldus\boldu de la cordillera
+146\peumus-boldus\boldu de los andes
+147\rosa-canina\dog rose
+147\rosa-canina\briar rose
+147\rosa-canina\european rose
+147\rosa-canina\dog's-bane rose
+147\rosa-canina\wild rose
+147\rosa-canina\sweetbriar rose
+147\rosa-canina\eglantine
+147\rosa-canina\rosehip
+147\rosa-canina\hop briar
+147\rosa-canina\witch's briar
+148\crocus-sativus\saffron
+148\crocus-sativus\za'fran
+148\crocus-sativus\azafrán
+148\crocus-sativus\kesar
+148\crocus-sativus\kancol
+148\crocus-sativus\safran
+148\crocus-sativus\aftel
+148\crocus-sativus\crocus
+148\crocus-sativus\safranbolu
+148\crocus-sativus\džodža
+148\crocus-sativus\azafrão
+148\crocus-sativus\karkuma
+148\crocus-sativus\kumkuma
+148\crocus-sativus\ayamurasaki
+148\crocus-sativus\safran de l'isle
+148\crocus-sativus\zafferano
+148\crocus-sativus\crocus sativus
+148\crocus-sativus\safran vânăt
+148\crocus-sativus\safran pistil
+148\crocus-sativus\red gold
+149\myristica-fragrans\nutmeg
+149\myristica-fragrans\mace
+150\nelumbo-nucifera\sacred lotus
+150\nelumbo-nucifera\indian lotus
+150\nelumbo-nucifera\asian lotus
+150\nelumbo-nucifera\sacred water lily
+151\papaver-somniferum\opium poppy
+151\papaver-somniferum\corn poppy
+151\papaver-somniferum\garden poppy
+151\papaver-somniferum\somniferum poppy
+151\papaver-somniferum\breadseed poppy
+151\papaver-somniferum\field poppy
+151\papaver-somniferum\persian poppy
+151\papaver-somniferum\turkish poppy
+151\papaver-somniferum\shiraz poppy
+151\papaver-somniferum\elephant's head poppy
+152\terminalia-chebula\haritaki
+152\terminalia-chebula\harad
+152\terminalia-chebula\pathya
+152\terminalia-chebula\abhaya
+152\terminalia-chebula\kadukkai
+152\terminalia-chebula\kadali
+152\terminalia-chebula\hilikka
+152\terminalia-chebula\vibheetaki
+152\terminalia-chebula\crataeva religiosa
+152\terminalia-chebula\cedrelas toona
+152\terminalia-chebula\terminalia citrina
+152\terminalia-chebula\emblica officinalis
+152\terminalia-chebula\chebulic myrobalan
+152\terminalia-chebula\black myrobalan
+152\terminalia-chebula\indian walnut
+152\terminalia-chebula\bastard myrobalan
+152\terminalia-chebula\chebulic fruit
+152\terminalia-chebula\harada
+152\terminalia-chebula\harade
+152\terminalia-chebula\hingota
+152\terminalia-chebula\haritaki-fruit
+152\terminalia-chebula\harade pfaff
+152\terminalia-chebula\harade powder
+152\terminalia-chebula\haritaki powder
+152\terminalia-chebula\haritaki fruit
+152\terminalia-chebula\haritaki churna
+152\terminalia-chebula\haritaki rasa
+152\terminalia-chebula\haritaki guggulu
+152\terminalia-chebula\haritaki kwath
+152\terminalia-chebula\haritaki avaleha
+152\terminalia-chebula\haritaki lehyam
+152\terminalia-chebula\haritaki arishtam
+152\terminalia-chebula\haritaki oil
+152\terminalia-chebula\haritaki capsule
+152\terminalia-chebula\haritaki tablet
+152\terminalia-chebula\haritaki syrup
+152\terminalia-chebula\haritaki tea
+152\terminalia-chebula\haritaki juice
+152\terminalia-chebula\haritaki wine
+152\terminalia-chebula\haritaki vinegar
+152\terminalia-chebula\haritaki pickle
+152\terminalia-chebula\haritaki chutney
+152\terminalia-chebula\haritaki podi
+152\terminalia-chebula\haritaki rasam
+152\terminalia-chebula\haritaki sambar
+152\terminalia-chebula\haritaki dosa
+152\terminalia-chebula\haritaki vada
+152\terminalia-chebula\haritaki payasam
+152\terminalia-chebula\haritaki kheer
+152\terminalia-chebula\haritaki laddu
+152\terminalia-chebula\haritaki halwa
+152\terminalia-chebula\haritaki murabba
+152\terminalia-chebula\haritaki pappadam
+152\terminalia-chebula\haritaki appalam
+152\terminalia-chebula\haritaki thokku
+152\terminalia-chebula\haritaki achar
+152\terminalia-chebula\haritaki pachadi
+152\terminalia-chebula\haritaki salsa
+152\terminalia-chebula\haritaki ketchup
+152\terminalia-chebula\haritaki chili sauce
+152\terminalia-chebula\haritaki teriyaki sauce
+152\terminalia-chebula\haritaki soy sauce
+152\terminalia-chebula\haritaki fish sauce
+152\terminalia-chebula\haritaki oyster sauce
+152\terminalia-chebula\haritaki hoisin sauce
+152\terminalia-chebula\haritaki worcestershire sauce
+152\terminalia-chebula\haritaki bbq sauce
+152\terminalia-chebula\haritaki steak sauce
+152\terminalia-chebula\haritaki brown sauce
+152\terminalia-chebula\haritaki hp sauce
+152\terminalia-chebula\haritaki a1 sauce
+152\terminalia-chebula\haritaki hp steak sauce
+152\terminalia-chebula\haritaki a1 steak sauce
+152\terminalia-chebula\haritaki demi-glace
+152\terminalia-chebula\haritaki gravy
+152\terminalia-chebula\haritaki reduction
+152\terminalia-chebula\haritaki au jus
+152\terminalia-chebula\haritaki consommé
+152\terminalia-chebula\haritaki stock
+152\terminalia-chebula\haritaki broth
+152\terminalia-chebula\haritaki soup
+152\terminalia-chebula\haritaki stew
+152\terminalia-chebula\haritaki curry
+152\terminalia-chebula\haritaki tagine
+152\terminalia-chebula\haritaki goulash
+152\terminalia-chebula\haritaki braise
+152\terminalia-chebula\haritaki fricassee
+152\terminalia-chebula\haritaki ragout
+152\terminalia-chebula\haritaki chasseur
+152\terminalia-chebula\haritaki bourguignon
+152\terminalia-chebula\haritaki cassoulet
+152\terminalia-chebula\haritaki daube
+152\terminalia-chebula\haritaki navarin
+152\terminalia-chebula\haritaki matelote
+152\terminalia-chebula\haritaki blanquette
+152\terminalia-chebula\haritaki mousseline
+152\terminalia-chebula\haritaki ballottine
+152\terminalia-chebula\haritaki pâté
+152\terminalia-chebula\haritaki galantine
+152\terminalia-chebula\haritaki terrine
+153\arctium-lappa\burdock
+153\arctium-lappa\bur dob
+153\arctium-lappa\lappa
+153\arctium-lappa\great bur
+153\arctium-lappa\happy major
+153\arctium-lappa\clotbur
+153\arctium-lappa\fox's clote
+153\arctium-lappa\love leaves
+153\arctium-lappa\cockle bur
+153\arctium-lappa\person's weed
+154\boswellia-serrata\indian frankincense
+154\boswellia-serrata\salai guggal
+154\boswellia-serrata\salai
+154\boswellia-serrata\indian olibanum
+154\boswellia-serrata\boswellia serrata extract
+155\harpagophytum-procumbens\devil's claw
+155\harpagophytum-procumbens\grapple plant
+155\harpagophytum-procumbens\wood spider
+155\harpagophytum-procumbens\saddlepod
+155\harpagophytum-procumbens\uncaria
+156\polygonum-aviculare\common knotweed
+156\polygonum-aviculare\procumbent knotweed
+156\polygonum-aviculare\ground-creeping knotweed
+156\polygonum-aviculare\matgrass
+156\polygonum-aviculare\black bindweed
+156\polygonum-aviculare\redshank
+156\polygonum-aviculare\doorweed
+156\polygonum-aviculare\hedge bindweed
+156\polygonum-aviculare\creeping jenny
+156\polygonum-aviculare\pale smartweed
+156\polygonum-aviculare\field bindweed
+156\polygonum-aviculare\lamb's-quarters
+156\polygonum-aviculare\goosegrass
+156\polygonum-aviculare\nipplewort
+156\polygonum-aviculare\cornbind
+156\polygonum-aviculare\bastard fleabane
+156\polygonum-aviculare\cleavers
+156\polygonum-aviculare\scrub grass
+156\polygonum-aviculare\small-flowered touch-me-not
+156\polygonum-aviculare\yellow smartweed
+157\ribes-nigrum\blackcurrant
+157\ribes-nigrum\cassis
+157\ribes-nigrum\ribes
+157\ribes-nigrum\european blackcurrant
+157\ribes-nigrum\black currant
+157\ribes-nigrum\quinte
+157\ribes-nigrum\tchesnok
+157\ribes-nigrum\ligonberry
+157\ribes-nigrum\swamp currant
+157\ribes-nigrum\european black currant
+157\ribes-nigrum\garden currant
+157\ribes-nigrum\budded currant
+157\ribes-nigrum\crowberry
+157\ribes-nigrum\schwarze johannisbeere
+157\ribes-nigrum\fjällsyra
+158\uncaria-tomentosa\cat's claw
+158\uncaria-tomentosa\una de gato
+158\uncaria-tomentosa\saventaro
+158\uncaria-tomentosa\garabato
+158\uncaria-tomentosa\espina de cristo
+158\uncaria-tomentosa\samento
+158\uncaria-tomentosa\huayll willka
+158\uncaria-tomentosa\tomentosa
+158\uncaria-tomentosa\life force
+158\uncaria-tomentosa\dragon's claw
+159\melaleuca-alternifolia\narrow-leaved paperbark
+159\melaleuca-alternifolia\tea tree
+159\melaleuca-alternifolia\snow-in-summer
+159\melaleuca-alternifolia\punk tree
+159\melaleuca-alternifolia\ti tree
+160\pelargonium-graveolens\garden geranium
+160\pelargonium-graveolens\lemon geranium
+160\pelargonium-graveolens\rose-scented geranium
+160\pelargonium-graveolens\pelargonium graveolens
+160\pelargonium-graveolens\old-fashioned geranium
+160\pelargonium-graveolens\citronella geranium
+160\pelargonium-graveolens\sweet-scented geranium
+160\pelargonium-graveolens\mosquito geranium
+160\pelargonium-graveolens\attar of roses geranium
+160\pelargonium-graveolens\balcony geranium
+161\dioscorea-villosa\wild yam
+161\dioscorea-villosa\colic root
+161\dioscorea-villosa\rheumatism root
+161\dioscorea-villosa\devil's bones
+161\dioscorea-villosa\yuma
+161\dioscorea-villosa\china root
+161\dioscorea-villosa\american yam
+161\dioscorea-villosa\phossy
+161\dioscorea-villosa\northeast yam
+161\dioscorea-villosa\alligator yam
+162\mimosa-pudica\sensitive plant
+162\mimosa-pudica\touch-me-not
+162\mimosa-pudica\shy plant
+162\mimosa-pudica\humble plant
+162\mimosa-pudica\sleeper plant
+162\mimosa-pudica\tickle me plant
+162\mimosa-pudica\action plant
+162\mimosa-pudica\bashful plant
+162\mimosa-pudica\living plant
+162\mimosa-pudica\pharaoh's thumb
+163\atropa-bella-donna\belladonna
+163\atropa-bella-donna\deadly nightshade
+163\atropa-bella-donna\death cherries
+163\atropa-bella-donna\devil's berries
+163\atropa-bella-donna\dwale
+163\atropa-bella-donna\divale
+163\atropa-bella-donna\great morel
+163\atropa-bella-donna\naughty man's cherries
+163\atropa-bella-donna\devil's herb
+163\atropa-bella-donna\beautiful death
+163\atropa-bella-donna\atropa
+163\atropa-bella-donna\nightshade
+163\atropa-bella-donna\inkberry
+163\atropa-bella-donna\blacberry
+163\atropa-bella-donna\dumblade
+163\atropa-bella-donna\dwaleweed
+163\atropa-bella-donna\death's herb
+163\atropa-bella-donna\devil's apple
+163\atropa-bella-donna\witches' berries
+163\atropa-bella-donna\gladwyn
+164\bellis-perennis\daisy
+164\bellis-perennis\common daisy
+164\bellis-perennis\lawn daisy
+164\bellis-perennis\english daisy
+164\bellis-perennis\bellis perennis
+165\cola-nitida\karite nut
+165\cola-nitida\shea nut
+165\cola-nitida\vitellaria nut
+165\cola-nitida\african butter tree nut
+165\cola-nitida\tallow wood nut
+166\commiphora-myrrha\myrrh
+166\commiphora-myrrha\common myrrh
+166\commiphora-myrrha\arabian myrrh
+166\commiphora-myrrha\guggal
+166\commiphora-myrrha\guggul
+166\commiphora-myrrha\indian myrrh
+166\commiphora-myrrha\dhedhela
+166\commiphora-myrrha\bdellium
+166\commiphora-myrrha\balsamodendron myrrha
+166\commiphora-myrrha\commiphora molmol
+166\commiphora-myrrha\commiphora opobalsamum
+166\commiphora-myrrha\commiphora erythraea
+166\commiphora-myrrha\commiphora kataf
+166\commiphora-myrrha\commiphora mukul
+166\commiphora-myrrha\commiphora quadrangularis
+166\commiphora-myrrha\commiphora wightii
+166\commiphora-myrrha\damm al-akhwan
+166\commiphora-myrrha\mirra
+166\commiphora-myrrha\mo yao
+166\commiphora-myrrha\yemen myrrh
+167\juniperus-communis\common juniper
+167\juniperus-communis\juniper
+167\juniperus-communis\shrubby juniper
+167\juniperus-communis\ground juniper
+167\juniperus-communis\dwarf juniper
+167\juniperus-communis\creeping juniper
+167\juniperus-communis\mountain juniper
+167\juniperus-communis\siberian juniper
+167\juniperus-communis\arctic juniper
+167\juniperus-communis\european juniper
+168\levisticum-officinale\lovage
+168\levisticum-officinale\maggi plant
+168\levisticum-officinale\sea parsley
+168\levisticum-officinale\italian parsley
+168\levisticum-officinale\garden lovage
+168\levisticum-officinale\wild celery
+168\levisticum-officinale\israeli celery
+168\levisticum-officinale\old english pot marjoram
+168\levisticum-officinale\hmein el-din
+168\levisticum-officinale\soumak
+168\levisticum-officinale\serpentaria
+168\levisticum-officinale\kuanti
+168\levisticum-officinale\leuste
+168\levisticum-officinale\ligustico
+168\levisticum-officinale\lushentsi
+168\levisticum-officinale\lovage root
+168\levisticum-officinale\russian parsley
+168\levisticum-officinale\mountain lovage
+168\levisticum-officinale\alvaca
+168\levisticum-officinale\alvacas
+169\origanum-majorana\marjoram
+169\origanum-majorana\sweet marjoram
+169\origanum-majorana\knotted marjoram
+169\origanum-majorana\pot marjoram
+169\origanum-majorana\garden marjoram
+170\eupatorium-perfoliatum\boneset
+170\eupatorium-perfoliatum\thoroughwort
+170\eupatorium-perfoliatum\agueweed
+170\eupatorium-perfoliatum\feverwort
+170\eupatorium-perfoliatum\sweating plant
+170\eupatorium-perfoliatum\teaselwort
+170\eupatorium-perfoliatum\indian sage
+170\eupatorium-perfoliatum\snake root
+170\eupatorium-perfoliatum\veined eupatorium
+170\eupatorium-perfoliatum\wild hysop
+171\juglans-nigra\black walnut
+171\juglans-nigra\eastern black walnut
+171\juglans-nigra\american walnut
+171\juglans-nigra\juglans nigra
+172\lindera-benzoin\northern spicebush
+172\lindera-benzoin\benzoin shrub
+172\lindera-benzoin\spicebush
+172\lindera-benzoin\lindera benzoin
+172\lindera-benzoin\wild allspice
+172\lindera-benzoin\appalachian tea
+172\lindera-benzoin\fever bush
+172\lindera-benzoin\coriaria
+172\lindera-benzoin\stinking shrub
+172\lindera-benzoin\oleum ligni benzoini
+173\mahonia-aquifolium\oregon grape
+173\mahonia-aquifolium\mahonia
+173\mahonia-aquifolium\holly-leaved barberry
+173\mahonia-aquifolium\berberis aquifolium
+173\mahonia-aquifolium\tall oregon grape
+173\mahonia-aquifolium\mountain grape
+173\mahonia-aquifolium\cascade grape
+173\mahonia-aquifolium\dwarf oregon grape
+173\mahonia-aquifolium\holly mahonia
+173\mahonia-aquifolium\sourberry
+174\rheum-officinale\chinese rhubarb
+174\rheum-officinale\rheum palmatum
+174\rheum-officinale\turkish rhubarb
+174\rheum-officinale\indian rhubarb
+174\rheum-officinale\russian rhubarb
+174\rheum-officinale\da huang
+174\rheum-officinale\emodin rhubarb
+174\rheum-officinale\sennoside rhubarb
+174\rheum-officinale\rheum tanguticum
+174\rheum-officinale\himalayan rhubarb
+175\caulophyllum-thalictroides\blue cohosh
+175\caulophyllum-thalictroides\squaw root
+175\caulophyllum-thalictroides\papoose root
+175\caulophyllum-thalictroides\yellow root
+175\caulophyllum-thalictroides\caulophyllum
+176\mitchella-repens\partridgeberry
+176\mitchella-repens\squaw vine
+176\mitchella-repens\twinberry
+176\mitchella-repens\running fox
+176\mitchella-repens\checkerberry
+176\mitchella-repens\deerberry
+176\mitchella-repens\one-berry
+176\mitchella-repens\loveberry
+176\mitchella-repens\running strawberry
+176\mitchella-repens\snakeberry
+176\mitchella-repens\twinflower
+176\mitchella-repens\two-eyed berry
+176\mitchella-repens\redberry
+177\paeonia-officinalis\common peony
+177\paeonia-officinalis\european peony
+177\paeonia-officinalis\garden peony
+177\paeonia-officinalis\official peony
+177\paeonia-officinalis\medicinal peony
+178\pedicularis-canadensis\wood betony
+178\pedicularis-canadensis\canadian lousewort
+178\pedicularis-canadensis\canadian wood betony
+178\pedicularis-canadensis\pedicularis
+178\pedicularis-canadensis\lousewort
+179\sanguinaria-canadensis\bloodroot
+179\sanguinaria-canadensis\redroot
+179\sanguinaria-canadensis\pauson
+179\sanguinaria-canadensis\tetterwort
+179\sanguinaria-canadensis\sweet slumber
+179\sanguinaria-canadensis\red pucoon
+179\sanguinaria-canadensis\turmeric root
+179\sanguinaria-canadensis\indian paint
+179\sanguinaria-canadensis\coon root
+179\sanguinaria-canadensis\snakebite
+180\thuja-occidentalis\eastern arborvitae
+180\thuja-occidentalis\american arborvitae
+180\thuja-occidentalis\northern white-cedar
+180\thuja-occidentalis\eastern white-cedar
+180\thuja-occidentalis\swamp cedar
+180\thuja-occidentalis\yellow cedar
+180\thuja-occidentalis\white cedar
+180\thuja-occidentalis\thuja
+180\thuja-occidentalis\tree of life
+180\thuja-occidentalis\bald cypress
+181\tilia-europaea\common lime
+181\tilia-europaea\linden
+181\tilia-europaea\lime tree
+181\tilia-europaea\small-leaved lime
+181\tilia-europaea\european lime
+181\tilia-europaea\tilia vulgaris
+181\tilia-europaea\littleleaf lime
+181\tilia-europaea\silver lime
+181\tilia-europaea\white lime
+181\tilia-europaea\bastard lime
+182\trifolium-pratense\red clover
+182\trifolium-pratense\purple clover
+182\trifolium-pratense\wild clover
+182\trifolium-pratense\meadow clover
+182\trifolium-pratense\cow clover
+182\trifolium-pratense\bee clover
+182\trifolium-pratense\zigzag clover
+182\trifolium-pratense\trifolium pratense
+183\aesculus-hippocastanum\horse chestnut
+183\aesculus-hippocastanum\conker tree
+183\aesculus-hippocastanum\buckeye
+183\aesculus-hippocastanum\spanish chestnut
+183\aesculus-hippocastanum\european chestnut
+184\ruscus-aculeatus\butcher's broom
+184\ruscus-aculeatus\knee holly
+184\ruscus-aculeatus\pettigree
+184\ruscus-aculeatus\sweet broom
+184\ruscus-aculeatus\box holly
+184\ruscus-aculeatus\jew's myrtle
+184\ruscus-aculeatus\dwarf pepper
+184\ruscus-aculeatus\irish holly
+184\ruscus-aculeatus\petty spurge
+184\ruscus-aculeatus\pettigrue
+184\ruscus-aculeatus\rough holly
+184\ruscus-aculeatus\sticklewort
+184\ruscus-aculeatus\cat's tail
+185\lobelia-inflata\indian tobacco
+185\lobelia-inflata\pukeweed
+185\lobelia-inflata\vomitwort
+185\lobelia-inflata\asthma weed
+185\lobelia-inflata\gagroot
+185\lobelia-inflata\emetic weed
+185\lobelia-inflata\wild tobacco
+185\lobelia-inflata\lobelia
+186\marrubium-peregrinum\horehound
+186\marrubium-peregrinum\white horehound
+186\marrubium-peregrinum\marrubium
+186\marrubium-peregrinum\common horehound
+186\marrubium-peregrinum\european horehound
+187\satureja-montana\winter savory
+187\satureja-montana\mountain savory
+187\satureja-montana\white savory
+187\satureja-montana\summer savory alternative
+187\satureja-montana\spanish savory
+187\satureja-montana\savory herb
+187\satureja-montana\creeping savory
+187\satureja-montana\garden savory
+187\satureja-montana\field savory
+187\satureja-montana\italian savory
+188\capsicum-frutescens\tabasco
+188\capsicum-frutescens\bird's eye
+188\capsicum-frutescens\pequin
+188\capsicum-frutescens\malagueta
+188\capsicum-frutescens\african birdseye
+188\capsicum-frutescens\jamaican hot
+188\capsicum-frutescens\kochii
+188\capsicum-frutescens\cayenneta
+188\capsicum-frutescens\thai
+188\capsicum-frutescens\siling labuyo
+188\capsicum-frutescens\malawian kambuzi
+188\capsicum-frutescens\peri peri
+188\capsicum-frutescens\surinam
+188\capsicum-frutescens\timbi
+188\capsicum-frutescens\tepin
+188\capsicum-frutescens\japanese togarashi
+188\capsicum-frutescens\chinese 5 color
+188\capsicum-frutescens\malata
+188\capsicum-frutescens\aji
+188\capsicum-frutescens\chiltepin
+189\colchicum-autumnale\autumn crocus
+189\colchicum-autumnale\meadow saffron
+189\colchicum-autumnale\naked ladies
+189\colchicum-autumnale\naked boys
+189\colchicum-autumnale\common colchicum
+189\colchicum-autumnale\autumn flower
+189\colchicum-autumnale\meadow saffron crocus
+189\colchicum-autumnale\naked lady crocus
+189\colchicum-autumnale\autumn crocus lily
+189\colchicum-autumnale\colchicum flower
+190\datura-stramonium\jimsonweed
+190\datura-stramonium\devil's snare
+190\datura-stramonium\hell's bells
+190\datura-stramonium\thorn apple
+190\datura-stramonium\datura
+190\datura-stramonium\moonflowers
+190\datura-stramonium\devil's trumpet
+190\datura-stramonium\mad apple
+190\datura-stramonium\pumpkin flower
+190\datura-stramonium\stinkweed
+191\euphrasia-officinalis\eyebright
+191\euphrasia-officinalis\european eyebright
+191\euphrasia-officinalis\common eyebright
+191\euphrasia-officinalis\euphrasia
+191\euphrasia-officinalis\red eyebright
+191\euphrasia-officinalis\hill eyebright
+191\euphrasia-officinalis\field eyebright
+191\euphrasia-officinalis\heath eyebright
+191\euphrasia-officinalis\moor eyebright
+191\euphrasia-officinalis\pasture eyebright
+192\justicia-adhatoda\malabar nut
+192\justicia-adhatoda\adhatoda vasica
+192\justicia-adhatoda\vasaka
+192\justicia-adhatoda\nilgiri
+192\justicia-adhatoda\east indian snakeroot
+192\justicia-adhatoda\bhatakata
+192\justicia-adhatoda\stinking roger
+192\justicia-adhatoda\adosa
+192\justicia-adhatoda\kodampuli
+192\justicia-adhatoda\vasa
+193\coleus-forskohlii\forskohlii
+193\coleus-forskohlii\plectranthus barbatus
+193\coleus-forskohlii\indian coleus
+193\coleus-forskohlii\makandi
+193\coleus-forskohlii\hl-362
+193\coleus-forskohlii\nandina
+193\coleus-forskohlii\coleus forskohlii briq
+193\coleus-forskohlii\coleus barbatus
+193\coleus-forskohlii\coleus aromaticus
+193\coleus-forskohlii\coleus indicus
+194\elaeagnus-angustifolia\russian olive
+194\elaeagnus-angustifolia\silverberry
+194\elaeagnus-angustifolia\oleaster
+194\elaeagnus-angustifolia\wild olive
+194\elaeagnus-angustifolia\elaeagnus
+195\hibiscus-sabdariffa\roselle
+195\hibiscus-sabdariffa\hibiscus tea
+195\hibiscus-sabdariffa\jamaica flower
+195\hibiscus-sabdariffa\red sorrel
+195\hibiscus-sabdariffa\florida cranberry
+195\hibiscus-sabdariffa\indian sorrel
+195\hibiscus-sabdariffa\rosella
+195\hibiscus-sabdariffa\karkade
+195\hibiscus-sabdariffa\bissap
+195\hibiscus-sabdariffa\gongura
+195\hibiscus-sabdariffa\lagundi
+195\hibiscus-sabdariffa\vinagreira
+195\hibiscus-sabdariffa\mbudzudzu
+195\hibiscus-sabdariffa\luoshen tea
+195\hibiscus-sabdariffa\shrub tea
+195\hibiscus-sabdariffa\zobo
+195\hibiscus-sabdariffa\chai kujira
+195\hibiscus-sabdariffa\jonkheer's tea
+195\hibiscus-sabdariffa\groote botterbloem
+195\hibiscus-sabdariffa\patwa sorrel
+196\illicium-verum\star anise
+196\illicium-verum\chinese anise
+196\illicium-verum\badian
+196\illicium-verum\illicium verum
+196\illicium-verum\anisi stellati fructus
+196\illicium-verum\chinese star anise
+196\illicium-verum\imperial star anise
+196\illicium-verum\winter anise
+196\illicium-verum\sea anise
+196\illicium-verum\star aniseed
+197\jatropha-curcas\jatropha
+197\jatropha-curcas\physic nut
+197\jatropha-curcas\barbados nut
+197\jatropha-curcas\purging nut
+197\jatropha-curcas\toxic nut
+197\jatropha-curcas\curcas nut
+197\jatropha-curcas\jatropha curcas
+197\jatropha-curcas\purge nut
+197\jatropha-curcas\nausea nut
+197\jatropha-curcas\vomit nut
+198\larix-occidentalis\western larch
+198\larix-occidentalis\tamarack
+198\larix-occidentalis\larix occidentalis
+198\larix-occidentalis\mountain larix
+198\larix-occidentalis\alpine larix
+198\larix-occidentalis\western tamarack
+198\larix-occidentalis\mountain tamarack
+198\larix-occidentalis\american larch
+198\larix-occidentalis\balsam larch
+198\larix-occidentalis\mountain larch-tree
+199\phyllanthus-niruri\stonebreaker
+199\phyllanthus-niruri\gale of the wind
+199\phyllanthus-niruri\seed-under-leaf
+199\phyllanthus-niruri\childpicker
+199\phyllanthus-niruri\leafflower
+199\phyllanthus-niruri\niruri
+199\phyllanthus-niruri\chanca piedra
+199\phyllanthus-niruri\quebra pedra
+199\phyllanthus-niruri\dukong-singis
+199\phyllanthus-niruri\phyllanthus niruri
+200\rubia-cordifolia\indian madder
+200\rubia-cordifolia\common madder
+200\rubia-cordifolia\wild madder
+200\rubia-cordifolia\turkish madder
+200\rubia-cordifolia\rumex madder
+200\rubia-cordifolia\rubia tinctorum
+201\cornus-officinalis\korean dogwood
+201\cornus-officinalis\cornelian cherry
+201\cornus-officinalis\japanese cornelian cherry
+201\cornus-officinalis\chinese dogwood
+201\cornus-officinalis\japanese dogwood
+201\cornus-officinalis\flowering dogwood
+201\cornus-officinalis\cornus officinalis
+202\crateva-magna\cluster rope
+202\crateva-magna\kapok bush
+202\crateva-magna\geranium krin-krin
+202\crateva-magna\white bark
+202\crateva-magna\elephant apple
+202\crateva-magna\aratiles
+202\crateva-magna\sunberry
+202\crateva-magna\monkey apple
+202\crateva-magna\bastard cotton
+202\crateva-magna\indian trumpet flower
+202\crateva-magna\kapok tree
+202\crateva-magna\cabbage bark
+202\crateva-magna\ceylon kapok
+202\crateva-magna\java kapok
+202\crateva-magna\madras rope
+202\crateva-magna\philippine kapok
+202\crateva-magna\rubber myrobalan
+202\crateva-magna\velvet leaf
+202\crateva-magna\wild kapok
+202\crateva-magna\yellow myrobalan
+203\erythroxylum-x-peyritschii\coca bush
+203\erythroxylum-x-peyritschii\bolivian coca
+203\erythroxylum-x-peyritschii\peruvian coca
+203\erythroxylum-x-peyritschii\erythroxylum coca var ipadu
+203\erythroxylum-x-peyritschii\amazonian coca
+203\erythroxylum-x-peyritschii\erythroxylum coca var coca
+204\hydrangea-arborescens\annabelle
+204\hydrangea-arborescens\incrediball
+204\hydrangea-arborescens\invincibelle spirit
+204\hydrangea-arborescens\the bride
+204\hydrangea-arborescens\snowball
+204\hydrangea-arborescens\hydrangea bush
+204\hydrangea-arborescens\smooth hydrangea
+204\hydrangea-arborescens\wild hydrangea
+204\hydrangea-arborescens\sevenbark
+204\hydrangea-arborescens\h arborescens
+205\lindera-aggregata\northern spicebush
+205\lindera-aggregata\lindera benzoin
+205\lindera-aggregata\spicebush
+205\lindera-aggregata\appalachian tea
+205\lindera-aggregata\wild allspice
+205\lindera-aggregata\coltsfoot bush
+205\lindera-aggregata\stinking shrub
+205\lindera-aggregata\ash-flowered spicebush
+205\lindera-aggregata\eastern spicebush
+205\lindera-aggregata\feverbush
+206\lycopodium-clavatum\running cedar
+206\lycopodium-clavatum\ground pine
+206\lycopodium-clavatum\stag's horn moss
+206\lycopodium-clavatum\vegetable sulfur
+206\lycopodium-clavatum\wolf's claw
+206\lycopodium-clavatum\fir clubmoss
+206\lycopodium-clavatum\common clubmoss
+206\lycopodium-clavatum\lycopodium powder
+206\lycopodium-clavatum\running pine
+206\lycopodium-clavatum\wolf's claw lycopodium
+207\myrica-cerifera\wax myrtle
+207\myrica-cerifera\bayberry
+207\myrica-cerifera\candleberry
+207\myrica-cerifera\southern bayberry
+207\myrica-cerifera\wax myrtle tree
+207\myrica-cerifera\myrica cerifera
+207\myrica-cerifera\tallow shrub
+207\myrica-cerifera\wax bush
+207\myrica-cerifera\myrtle waxberry
+207\myrica-cerifera\southern waxmyrtle
+208\ononis-spinosa\spiny restharrow
+208\ononis-spinosa\broom restharrow
+208\ononis-spinosa\baton rouge
+208\ononis-spinosa\french lilac
+208\ononis-spinosa\british isles rest harrow
+208\ononis-spinosa\toothed restharrow
+208\ononis-spinosa\spiny restharrow
+208\ononis-spinosa\ononis
+208\ononis-spinosa\spiny broom restharrow
+208\ononis-spinosa\european rest harrow
+209\paeonia-lactiflora\sarah bernhardt
+209\paeonia-lactiflora\festiva maxima
+209\paeonia-lactiflora\hermione
+209\paeonia-lactiflora\duchesse de nemours
+209\paeonia-lactiflora\kansas
+209\paeonia-lactiflora\etched salmon
+209\paeonia-lactiflora\bowl of beauty
+209\paeonia-lactiflora\sarah bernhardt light pink
+209\paeonia-lactiflora\angel cheeks
+209\paeonia-lactiflora\cora stubbs
+209\paeonia-lactiflora\jacob wilhelms
+209\paeonia-lactiflora\red charm
+209\paeonia-lactiflora\command performance
+209\paeonia-lactiflora\alpha
+209\paeonia-lactiflora\reine elisabeth
+209\paeonia-lactiflora\peggy clarke
+209\paeonia-lactiflora\helen harrison
+209\paeonia-lactiflora\deborah
+209\paeonia-lactiflora\sarah bernhardt dark pink
+209\paeonia-lactiflora\duc de rohan
+209\paeonia-lactiflora\marie lemoine
+209\paeonia-lactiflora\paul manning
+209\paeonia-lactiflora\garden treasure
+209\paeonia-lactiflora\edulis superba
+209\paeonia-lactiflora\avalanche
+210\prunus-persica\peach
+210\prunus-persica\nectarine
+210\prunus-persica\peento
+210\prunus-persica\donut peach
+210\prunus-persica\saturn peach
+210\prunus-persica\chinese cling
+210\prunus-persica\babygold
+210\prunus-persica\frost
+210\prunus-persica\indian blood cling
+210\prunus-persica\o'henry
+210\prunus-persica\redhaven
+210\prunus-persica\suncrest
+210\prunus-persica\flavorcrest
+210\prunus-persica\jersey queen
+210\prunus-persica\contender
+210\prunus-persica\tango
+210\prunus-persica\goldprince
+210\prunus-persica\coralstar
+210\prunus-persica\risingstar
+210\prunus-persica\gala
+210\prunus-persica\topaz
+210\prunus-persica\blushingstar
+210\prunus-persica\sensation
+210\prunus-persica\loring
+210\prunus-persica\stuart
+211\sanguisorba-officinalis\great burnet
+211\sanguisorba-officinalis\salad burnet
+211\sanguisorba-officinalis\woundwort
+211\sanguisorba-officinalis\sanguisorba
+211\sanguisorba-officinalis\di yoteng
+211\sanguisorba-officinalis\bloodwort
+211\sanguisorba-officinalis\purple burnet
+211\sanguisorba-officinalis\garden burnet
+211\sanguisorba-officinalis\high burnet
+211\sanguisorba-officinalis\longwort
+212\stellaria-media\chickweed
+212\stellaria-media\common chickweed
+212\stellaria-media\starwort
+212\stellaria-media\stitchwort
+212\stellaria-media\adder's mouth
+212\stellaria-media\satin flower
+212\stellaria-media\tongue grass
+212\stellaria-media\mouse-ear
+212\stellaria-media\winter weed
+212\stellaria-media\craches
+212\stellaria-media\starweed
+212\stellaria-media\maruns
+212\stellaria-media\passerina
+212\stellaria-media\maruno
+212\stellaria-media\ground myrtle
+213\zanthoxylum-americanum\eastern prickly ash
+213\zanthoxylum-americanum\yellow wood
+213\zanthoxylum-americanum\toothache tree
+213\zanthoxylum-americanum\nannyberry
+213\zanthoxylum-americanum\sweet pepperbush
+213\zanthoxylum-americanum\red zanthoxylum
+213\zanthoxylum-americanum\northern prickly-ash
+213\zanthoxylum-americanum\american zanthoxylum
+213\zanthoxylum-americanum\prickly yellow ash
+213\zanthoxylum-americanum\southern prickly-ash
+214\tribulus-terrestris\goat's head
+214\tribulus-terrestris\puncture vine
+214\tribulus-terrestris\cat's head
+214\tribulus-terrestris\bullhead
+214\tribulus-terrestris\burra gokharu
+214\tribulus-terrestris\yellow vine
+214\tribulus-terrestris\bindii
+214\tribulus-terrestris\caltrop
+214\tribulus-terrestris\devil's thorn
+214\tribulus-terrestris\devil's weed
+215\crataegus-monogyna\common hawthorn
+215\crataegus-monogyna\english hawthorn
+215\crataegus-monogyna\maytree
+215\crataegus-monogyna\quickthorn
+215\crataegus-monogyna\oneseed hawthorn
+215\crataegus-monogyna\single-seed hawthorn
+215\crataegus-monogyna\whitehorn
+215\crataegus-monogyna\woodland hawthorn
+216\taraxacum-x-mesohalobium\sea blite
+216\taraxacum-x-mesohalobium\sea dandelion
+216\taraxacum-x-mesohalobium\false dandelion
+216\taraxacum-x-mesohalobium\dandelion taraxacum
+216\taraxacum-x-mesohalobium\mesohalobium dandelion
+216\taraxacum-x-mesohalobium\saltmarsh dandelion
+216\taraxacum-x-mesohalobium\brackish dandelion
+216\taraxacum-x-mesohalobium\coastal dandelion
+216\taraxacum-x-mesohalobium\halophytic dandelion
+216\taraxacum-x-mesohalobium\mesohaline dandelion
+217\linum-usitatissimum\flax
+217\linum-usitatissimum\linseed
+217\linum-usitatissimum\common flax
+217\linum-usitatissimum\linseed oil
+217\linum-usitatissimum\flaxseed
+217\linum-usitatissimum\linen fiber
+217\linum-usitatissimum\linen seed
+217\linum-usitatissimum\alsike
+217\linum-usitatissimum\winterlien
+217\linum-usitatissimum\oil flax
+218\ulmus-rubra\slippery elm
+218\ulmus-rubra\red elm
+218\ulmus-rubra\gray elm
+218\ulmus-rubra\soft elm
+218\ulmus-rubra\moose elm
+218\ulmus-rubra\florida elm
+218\ulmus-rubra\texas elm
+218\ulmus-rubra\arizona elm
+218\ulmus-rubra\new york elm
+218\ulmus-rubra\southern elm
+219\nigella-sativa\black cumin
+219\nigella-sativa\black seed
+219\nigella-sativa\nigella seed
+219\nigella-sativa\kalonji
+219\nigella-sativa\charnuska
+219\nigella-sativa\fennel flower
+219\nigella-sativa\roman coriander
+219\nigella-sativa\black caraway
+219\nigella-sativa\onion seed
+219\nigella-sativa\bible seed
+220\iris-versicolor\blue flag
+220\iris-versicolor\harlequin blueflag
+220\iris-versicolor\large blue flag
+220\iris-versicolor\northern blue flag
+220\iris-versicolor\poison flag
+220\iris-versicolor\sailor's flag
+220\iris-versicolor\water flag
+220\iris-versicolor\western blue flag
+220\iris-versicolor\white blueflag
+220\iris-versicolor\yellow flag
+221\ocimum-tenuiflorum\holy basil
+221\ocimum-tenuiflorum\tulsi
+221\ocimum-tenuiflorum\sacred basil
+221\ocimum-tenuiflorum\indian basil
+221\ocimum-tenuiflorum\hot basil
+221\ocimum-tenuiflorum\thai basil
+221\ocimum-tenuiflorum\african basil
+221\ocimum-tenuiflorum\wild basil
+221\ocimum-tenuiflorum\st joseph's wort
+221\ocimum-tenuiflorum\kemangi
+221\ocimum-tenuiflorum\lemon basil
+221\ocimum-tenuiflorum\clove basil
+221\ocimum-tenuiflorum\camphor basil
+221\ocimum-tenuiflorum\licorice basil
+221\ocimum-tenuiflorum\purple ruffles basil
+222\thymus-serpyllum\creeping thyme
+222\thymus-serpyllum\wild thyme
+222\thymus-serpyllum\mother of thyme
+222\thymus-serpyllum\serpyllum
+222\thymus-serpyllum\breckland thyme
+222\thymus-serpyllum\wild thyme-leaved speedwell
+222\thymus-serpyllum\thymus praecox
+222\thymus-serpyllum\thyme-leaved speedwell
+222\thymus-serpyllum\serpyllum vulgare
+222\thymus-serpyllum\creeping speedwell
+223\mentha-pulegium\pennyroyal
+223\mentha-pulegium\pudding grass
+223\mentha-pulegium\pulegium
+223\mentha-pulegium\mosquito plant
+223\mentha-pulegium\lurk-in-the-ditch
+223\mentha-pulegium\squaw mint
+223\mentha-pulegium\mock pennyroyal
+223\mentha-pulegium\run-by-the-ground
+223\mentha-pulegium\piliolerial
+223\mentha-pulegium\fleet weed
+224\cinnamomum-cassia\chinese cinnamon
+224\cinnamomum-cassia\cassia cinnamon
+224\cinnamomum-cassia\vietnamese cinnamon
+224\cinnamomum-cassia\saigon cinnamon
+224\cinnamomum-cassia\indonesian cinnamon
+224\cinnamomum-cassia\korintje cinnamon
+224\cinnamomum-cassia\padang cassia
+224\cinnamomum-cassia\dalchini
+224\cinnamomum-cassia\cassia bark
+224\cinnamomum-cassia\false cinnamon
+225\citrus-aurantifolia\key lime
+225\citrus-aurantifolia\mexican lime
+225\citrus-aurantifolia\west indian lime
+225\citrus-aurantifolia\bahama lime
+225\citrus-aurantifolia\omani lime
+225\citrus-aurantifolia\persian lime
+226\allium-cepa\onion
+226\allium-cepa\brown onion
+226\allium-cepa\yellow onion
+226\allium-cepa\white onion
+226\allium-cepa\red onion
+226\allium-cepa\shallot
+226\allium-cepa\leek
+226\allium-cepa\chives
+226\allium-cepa\garlic
+226\allium-cepa\scallion
+226\allium-cepa\spring onion
+227\potentilla-anserina\silverweed
+227\potentilla-anserina\goosegrass
+227\potentilla-anserina\creeping jenny
+227\potentilla-anserina\silver cinquefoil
+227\potentilla-anserina\meadow cinquefoil
+227\potentilla-anserina\woolly cinquefoil
+227\potentilla-anserina\european silverweed
+227\potentilla-anserina\silverweed cinquefoil
+227\potentilla-anserina\creeping silverweed
+227\potentilla-anserina\silver cinquefoil grass
+227\potentilla-anserina\goosegrass cinquefoil
+227\potentilla-anserina\woolly cinquefoil grass
+227\potentilla-anserina\creeping jenny cinquefoil
+227\potentilla-anserina\meadow grass
+227\potentilla-anserina\silverweed meadow grass
+228\cuminum-cyminum\cumin
+228\cuminum-cyminum\cumin seeds
+228\cuminum-cyminum\jeera
+228\cuminum-cyminum\comino
+228\cuminum-cyminum\kreuzkümmel
+228\cuminum-cyminum\romain
+228\cuminum-cyminum\cumino
+228\cuminum-cyminum\zireh siah
+228\cuminum-cyminum\jintan putih
+228\cuminum-cyminum\kamoun
+229\ceanothus-americanus\new jersey tea
+229\ceanothus-americanus\red root
+229\ceanothus-americanus\ceanothus americanus
+229\ceanothus-americanus\wild snowbrush
+229\ceanothus-americanus\wild lilac
+229\ceanothus-americanus\mountain lilac
+229\ceanothus-americanus\jersey tea
+229\ceanothus-americanus\spikenard
+229\ceanothus-americanus\american snowbrush
+229\ceanothus-americanus\wild indigo
+230\chionanthus-virginicus\fringetree
+230\chionanthus-virginicus\grancy graybeard
+230\chionanthus-virginicus\old man's beard
+230\chionanthus-virginicus\snowball tree
+230\chionanthus-virginicus\white fringetree
+231\kalanchoe-pinnata\air plant
+231\kalanchoe-pinnata\mother of thousands
+231\kalanchoe-pinnata\pennywort
+231\kalanchoe-pinnata\life plant
+231\kalanchoe-pinnata\chandelier plant
+231\kalanchoe-pinnata\bryophyllum daigremontianum
+231\kalanchoe-pinnata\kalanchoe daigremontiana
+231\kalanchoe-pinnata\devil's backbone
+231\kalanchoe-pinnata\mexican hat plant
+231\kalanchoe-pinnata\cathedral bells
+232\teucrium-scorodonia\wall germander
+232\teucrium-scorodonia\woodland germander
+232\teucrium-scorodonia\golden germander
+232\teucrium-scorodonia\wild thyme
+232\teucrium-scorodonia\bloody mary
+232\teucrium-scorodonia\scottish broom
+232\teucrium-scorodonia\sheep's germander
+232\teucrium-scorodonia\cat thyme
+232\teucrium-scorodonia\stinking john
+232\teucrium-scorodonia\stinking jenny
+233\rumex-acetosa\sorrel
+233\rumex-acetosa\garden sorrel
+233\rumex-acetosa\common sorrel
+233\rumex-acetosa\french sorrel
+233\rumex-acetosa\red-veined sorrel
+234\citrullus-lanatus\watermelon
+234\citrullus-lanatus\sugar melon
+234\citrullus-lanatus\citrullus lanatus
+234\citrullus-lanatus\tsamma melon
+234\citrullus-lanatus\kalahari melon
+235\betonica-officinalis\wood betony
+235\betonica-officinalis\common betony
+235\betonica-officinalis\betony
+235\betonica-officinalis\bishop's wort
+235\betonica-officinalis\lousewort
+235\betonica-officinalis\heal-all
+235\betonica-officinalis\purple betony
+235\betonica-officinalis\stachys officinalis
+235\betonica-officinalis\bettina
+235\betonica-officinalis\stachys betonica
+236\gentiana-lutea\yellow gentian
+236\gentiana-lutea\bitterwort
+236\gentiana-lutea\great yellow gentian
+236\gentiana-lutea\european gentian
+236\gentiana-lutea\qing dai
+236\gentiana-lutea\long dan cao
+236\gentiana-lutea\bitter root
+236\gentiana-lutea\yellow gentian root
+236\gentiana-lutea\bitterwort root
+236\gentiana-lutea\radix gentianae luteae
+237\pulmonaria-officinalis\lungwort
+237\pulmonaria-officinalis\spotted lungwort
+237\pulmonaria-officinalis\jerusalem cowslip
+237\pulmonaria-officinalis\bethlehem sage
+237\pulmonaria-officinalis\soldiers and sailors
+237\pulmonaria-officinalis\blue rennet
+237\pulmonaria-officinalis\crow's foot
+237\pulmonaria-officinalis\dog's foot
+237\pulmonaria-officinalis\jerusalem sage
+237\pulmonaria-officinalis\spotted dog
+237\pulmonaria-officinalis\variegated lungwort
+237\pulmonaria-officinalis\waterwort
+238\carthamus-tinctorius\safflower
+238\carthamus-tinctorius\american saffron
+238\carthamus-tinctorius\bastard saffron
+238\carthamus-tinctorius\dyer's saffron
+238\carthamus-tinctorius\false saffron
+238\carthamus-tinctorius\thistle saffron
+238\carthamus-tinctorius\kusumba
+238\carthamus-tinctorius\zaffer
+238\carthamus-tinctorius\gora
+238\carthamus-tinctorius\kumkum
+238\carthamus-tinctorius\lal chini
+238\carthamus-tinctorius\kusum
+238\carthamus-tinctorius\kusumba afza
+238\carthamus-tinctorius\kusum seed
+238\carthamus-tinctorius\kusum flower
+238\carthamus-tinctorius\honghua
+238\carthamus-tinctorius\honghua flower
+238\carthamus-tinctorius\honghua seed
+238\carthamus-tinctorius\honghua oil
+238\carthamus-tinctorius\honghua extract
+239\paullinia-cupana\guarana
+239\paullinia-cupana\brazilian cocoa
+239\paullinia-cupana\zoom
+239\paullinia-cupana\paullinia
+239\paullinia-cupana\guarana seed
+239\paullinia-cupana\guarana paste
+239\paullinia-cupana\guarana drink
+239\paullinia-cupana\guarana supplement
+239\paullinia-cupana\guarana gum
+239\paullinia-cupana\guarana berry
+240\asparagus-racemosus\shatavari
+240\asparagus-racemosus\satavar
+240\asparagus-racemosus\asparagus root
+240\asparagus-racemosus\indian asparagus
+240\asparagus-racemosus\wild asparagus
+240\asparagus-racemosus\tian men dong
+240\asparagus-racemosus\satavari ki jad
+240\asparagus-racemosus\shatamull
+240\asparagus-racemosus\shatavari ghana
+240\asparagus-racemosus\shatavari powder
+241\plantago-lanceolata\narrowleaf plantain
+241\plantago-lanceolata\english plantain
+241\plantago-lanceolata\ribwort
+241\plantago-lanceolata\lamb's-tongue
+241\plantago-lanceolata\buckhorn plantain
+241\plantago-lanceolata\ribgrass
+241\plantago-lanceolata\soldier's herb
+241\plantago-lanceolata\snakeweed
+241\plantago-lanceolata\wayside plantain
+241\plantago-lanceolata\blackseed plantain
+242\fragaria-vesca\woodland strawberry
+242\fragaria-vesca\alpine strawberry
+242\fragaria-vesca\european strawberry
+242\fragaria-vesca\fraises des bois
+242\fragaria-vesca\wild strawberry
+242\fragaria-vesca\carpet strawberry
+242\fragaria-vesca\creeping strawberry
+242\fragaria-vesca\common strawberry
+242\fragaria-vesca\wildwood strawberry
+242\fragaria-vesca\mountain strawberry
+243\agathosma-betulina\buchu
+243\agathosma-betulina\diosma betulina
+243\agathosma-betulina\round-leaf buchu
+243\agathosma-betulina\short buchu
+243\agathosma-betulina\agathosma crenulata
+243\agathosma-betulina\bookoo
+243\agathosma-betulina\bucco
+243\agathosma-betulina\buika
+243\agathosma-betulina\buku
+243\agathosma-betulina\high buchu
+243\agathosma-betulina\oval-leaf buchu
+243\agathosma-betulina\round-leaf high buchu
+243\agathosma-betulina\stinking buchu
+243\agathosma-betulina\agathosma betulina ssp betulina
+243\agathosma-betulina\agathosma betulina ssp nana
+243\agathosma-betulina\agathosma betulina var latifolia
+243\agathosma-betulina\agathosma betulina var betulina
+243\agathosma-betulina\agathosma betulina var minor
+243\agathosma-betulina\agathosma betulina var procera
+243\agathosma-betulina\agathosma betulina var glauca
+244\hyoscyamus-niger\henbane
+244\hyoscyamus-niger\stinking nightshade
+244\hyoscyamus-niger\fetid nightshade
+244\hyoscyamus-niger\devil's eye
+244\hyoscyamus-niger\poor man's opium
+244\hyoscyamus-niger\hogbean
+244\hyoscyamus-niger\jupiter's bean
+244\hyoscyamus-niger\symphonica
+244\hyoscyamus-niger\hyoscyamus
+244\hyoscyamus-niger\black henbane
+245\ilex-paraguariensis\yerba mate
+245\ilex-paraguariensis\paraguay tea
+245\ilex-paraguariensis\brazilian tea
+245\ilex-paraguariensis\jesuit's tea
+245\ilex-paraguariensis\chimarrão
+245\ilex-paraguariensis\tereré
+245\ilex-paraguariensis\cocúa
+245\ilex-paraguariensis\mate
+246\picrorhiza-kurroa\katuki
+246\picrorhiza-kurroa\kutki
+246\picrorhiza-kurroa\picrorhiza
+246\picrorhiza-kurroa\indian gentian
+246\picrorhiza-kurroa\hoodia kurroa
+246\picrorhiza-kurroa\kurchi
+246\picrorhiza-kurroa\katuka
+246\picrorhiza-kurroa\punarnava
+246\picrorhiza-kurroa\yakshahba
+246\picrorhiza-kurroa\swertia kurroa
+246\picrorhiza-kurroa\swertiamarin
+246\picrorhiza-kurroa\sweroside
+246\picrorhiza-kurroa\picroside i
+246\picrorhiza-kurroa\picroside ii
+246\picrorhiza-kurroa\apocynin
+246\picrorhiza-kurroa\kurocohanol a
+246\picrorhiza-kurroa\kurocohanol b
+246\picrorhiza-kurroa\diterpene glycosides
+246\picrorhiza-kurroa\iridoid glycosides
+246\picrorhiza-kurroa\flavonoids
+247\boerhavia-diffusa\punarnava
+247\boerhavia-diffusa\hogweed
+247\boerhavia-diffusa\redspider
+247\boerhavia-diffusa\indian chickweed
+247\boerhavia-diffusa\climbing hedge
+247\boerhavia-diffusa\spreading hogweed
+247\boerhavia-diffusa\wild spinach
+247\boerhavia-diffusa\red hogweed
+247\boerhavia-diffusa\indian turmeric
+247\boerhavia-diffusa\cancer root
+248\terminalia-arjuna\arjuna
+248\terminalia-arjuna\arjuna tree
+248\terminalia-arjuna\arjuna myrobalan
+248\terminalia-arjuna\koha
+248\terminalia-arjuna\yakshamrita
+248\terminalia-arjuna\dhavala
+248\terminalia-arjuna\rauwolfia
+248\terminalia-arjuna\nelaberi
+248\terminalia-arjuna\indravelli
+248\terminalia-arjuna\korcha
+248\terminalia-arjuna\sadada
+248\terminalia-arjuna\neeramarathi
+248\terminalia-arjuna\vadavagai
+248\terminalia-arjuna\vella
+248\terminalia-arjuna\arugunu
+248\terminalia-arjuna\jaundice bark
+248\terminalia-arjuna\vellaga
+248\terminalia-arjuna\peddamalle
+248\terminalia-arjuna\vadagam
+248\terminalia-arjuna\kumbuk
+248\terminalia-arjuna\marudha maram
+248\terminalia-arjuna\arugunu tree
+248\terminalia-arjuna\vadagam tree
+248\terminalia-arjuna\peddamalle tree
+248\terminalia-arjuna\kumbuk tree
+249\fumaria-officinalis\common fumitory
+249\fumaria-officinalis\fumitory
+249\fumaria-officinalis\earth smoke
+249\fumaria-officinalis\smokeweed
+249\fumaria-officinalis\fumewort
+249\fumaria-officinalis\beggar's lice
+249\fumaria-officinalis\wax dolls
+249\fumaria-officinalis\dyers' weed
+249\fumaria-officinalis\st john's flower
+249\fumaria-officinalis\fumitory herb
+250\swertia-chirata\chirayata
+250\swertia-chirata\chirata
+250\swertia-chirata\indian gentian
+250\swertia-chirata\hardai
+250\swertia-chirata\kirata tora
+250\swertia-chirata\kutki
+250\swertia-chirata\swertia
+250\swertia-chirata\yavani
+250\swertia-chirata\yastimadhu
+250\swertia-chirata\yashti madhu
+250\swertia-chirata\yashti-madhu
+250\swertia-chirata\yashti maryadha
+250\swertia-chirata\yashti-madya
+250\swertia-chirata\yashti madyaka
+250\swertia-chirata\yashti-madyaka-sura
+250\swertia-chirata\yashti-madyaka-suraka
+250\swertia-chirata\yashti-madyaka-suras
+250\swertia-chirata\yashtimadhuka
+250\swertia-chirata\yashti-madyaka-sura-kshara
+250\swertia-chirata\yashti-madyaka-sura-ksharam
+250\swertia-chirata\yashti-madyaka-sura-ksharas
+250\swertia-chirata\yashti-madyaka-sura-ksharams
+250\swertia-chirata\yashti-madyaka-sura-ksharasya
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misram
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misrams
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misramah
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha-samyogah
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha-samyogas
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha-samyogah
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha-samyogas
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha-samyogah
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha-samyogas
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha-samyogah
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha-samyogas
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha-samyogah
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha-samyogas
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha-samyogah
+250\swertia-chirata\yashti-madyaka-sura-ksharasya-misraha-samyogas
+251\geranium-nepalense\himalayan geranium
+251\geranium-nepalense\nepal geranium
+251\geranium-nepalense\rock geranium
+251\geranium-nepalense\nutmeg geranium
+251\geranium-nepalense\wild geranium
+251\geranium-nepalense\mountain geranium
+251\geranium-nepalense\bigroot geranium
+251\geranium-nepalense\spotted geranium
+251\geranium-nepalense\hardy geranium
+251\geranium-nepalense\cranesbill geranium
+252\solanum-nigrum\garden huckleberry
+252\solanum-nigrum\black nightshade
+252\solanum-nigrum\european black nightshade
+252\solanum-nigrum\petty morel
+252\solanum-nigrum\duscle
+252\solanum-nigrum\glossy nightshade
+252\solanum-nigrum\ink nightshade
+252\solanum-nigrum\dumpling rugosa
+252\solanum-nigrum\wonderberry
+252\solanum-nigrum\sunberry
+253\aquilegia-formosa\western columbine
+253\aquilegia-formosa\red columbine
+253\aquilegia-formosa\crimson columbine
+253\aquilegia-formosa\colorado columbine
+253\aquilegia-formosa\granny's bonnet
+253\aquilegia-formosa\glowing embers
+253\aquilegia-formosa\fringed columbine
+253\aquilegia-formosa\rocky mountain columbine
+253\aquilegia-formosa\wild columbine
+253\aquilegia-formosa\scarlet columbine
+254\lycium-barbarum\goji berry
+254\lycium-barbarum\wolfberry
+254\lycium-barbarum\chinese boxthorn
+254\lycium-barbarum\chinese wolfberry
+254\lycium-barbarum\matrimony vine
+254\lycium-barbarum\duke of argyll's tea tree
+254\lycium-barbarum\bocksdorn
+254\lycium-barbarum\barbary matrimony vine
+254\lycium-barbarum\desert-thorn
+254\lycium-barbarum\kukoshi
+254\lycium-barbarum\gou qi zi
+255\scutellaria-baicalensis\baical skullcap
+255\scutellaria-baicalensis\chinese skullcap
+255\scutellaria-baicalensis\huang qin
+255\scutellaria-baicalensis\baikal skullcap
+255\scutellaria-baicalensis\scullcap root
+255\scutellaria-baicalensis\root of chinese skullcap
+255\scutellaria-baicalensis\scutellaria radix
+255\scutellaria-baicalensis\baicalin
+255\scutellaria-baicalensis\radix scutellariae
+255\scutellaria-baicalensis\huangqin
+256\tinospora-cordifolia\giloy
+256\tinospora-cordifolia\guduchi
+256\tinospora-cordifolia\heart-leaved moonseed
+256\tinospora-cordifolia\indian tinospora
+256\tinospora-cordifolia\tinospora cordifolia
+256\tinospora-cordifolia\amrita
+256\tinospora-cordifolia\gulvel
+256\tinospora-cordifolia\queednough bark
+256\tinospora-cordifolia\tinospora
+256\tinospora-cordifolia\heartleaf moonseed
+256\tinospora-cordifolia\shankhpushpi
+256\tinospora-cordifolia\vatsanabha
+256\tinospora-cordifolia\climbing menispermum
+256\tinospora-cordifolia\gulancha
+256\tinospora-cordifolia\amritavalli
+256\tinospora-cordifolia\chinnodu
+256\tinospora-cordifolia\chinnor
+256\tinospora-cordifolia\seegapalli
+256\tinospora-cordifolia\veldt grape
+256\tinospora-cordifolia\wild tea
+257\bupleurum-chinense\chinese thorowax root
+257\bupleurum-chinense\bupleurum root
+257\bupleurum-chinense\chai hu
+257\bupleurum-chinense\hare's ear root
+257\bupleurum-chinense\saiko
+257\bupleurum-chinense\radix bupleuri
+257\bupleurum-chinense\chinese goldthread
+257\bupleurum-chinense\bupleuri radix
+257\bupleurum-chinense\thorowax root
+257\bupleurum-chinense\hsaio kuan
+258\houttuynia-cordata\fish mint
+258\houttuynia-cordata\chameleon plant
+258\houttuynia-cordata\heartleaf
+258\houttuynia-cordata\dokudami
+258\houttuynia-cordata\bishop's weed
+258\houttuynia-cordata\lizard tail
+258\houttuynia-cordata\fish wort
+258\houttuynia-cordata\chinese lizard tail
+258\houttuynia-cordata\slippery herb
+258\houttuynia-cordata\japanese houttuynia
+258\houttuynia-cordata\yan hu suo
+258\houttuynia-cordata\poor man's ginseng
+258\houttuynia-cordata\foliage plant
+258\houttuynia-cordata\ground cover
+258\houttuynia-cordata\water celery
+258\houttuynia-cordata\swamp lily
+258\houttuynia-cordata\rainbow plant
+258\houttuynia-cordata\yellow root
+258\houttuynia-cordata\wild pepper
+258\houttuynia-cordata\broadleaf
+259\geranium-wilfordii\cranesbill
+259\geranium-wilfordii\herb robert
+259\geranium-wilfordii\storksbill
+259\geranium-wilfordii\wild geranium
+259\geranium-wilfordii\robert geranium
+259\geranium-wilfordii\bloody cranesbill
+259\geranium-wilfordii\fox's clote
+259\geranium-wilfordii\robin geranium
+259\geranium-wilfordii\stinking bob
+259\geranium-wilfordii\red robin
+260\lonicera-japonica\japanese honeysuckle
+260\lonicera-japonica\golden bell
+260\lonicera-japonica\chinese honeysuckle
+260\lonicera-japonica\japanese honeysuckle vine
+260\lonicera-japonica\hall's honeysuckle
+260\lonicera-japonica\sweet breath-of-spring
+260\lonicera-japonica\japanese woodbine
+260\lonicera-japonica\lonicera japonica thunb
+260\lonicera-japonica\caprifoliaceae
+260\lonicera-japonica\tartarian honeysuckle
+261\forsythia-suspensa\weeping forsythia
+261\forsythia-suspensa\golden bell
+261\forsythia-suspensa\easter tree
+261\forsythia-suspensa\goldenbells
+261\forsythia-suspensa\weeping golden bell
+261\forsythia-suspensa\chinese forsythia
+261\forsythia-suspensa\retusa forsythia
+261\forsythia-suspensa\dropping bell
+261\forsythia-suspensa\weeping dropping bell
+261\forsythia-suspensa\reticulata forsythia
+261\forsythia-suspensa\synfyllum forsythia
+261\forsythia-suspensa\spectabilis forsythia
+262\salvia-miltiorrhiza\danshen
+262\salvia-miltiorrhiza\tanshen
+262\salvia-miltiorrhiza\red sage
+262\salvia-miltiorrhiza\chinese sage
+262\salvia-miltiorrhiza\tan shen
+262\salvia-miltiorrhiza\patchouliwort
+262\salvia-miltiorrhiza\salvia miltiorrhiza root
+262\salvia-miltiorrhiza\red salvias
+262\salvia-miltiorrhiza\chinese salvia
+262\salvia-miltiorrhiza\danshen root
+263\artemisia-capillaris\mugwort
+263\artemisia-capillaris\japanese mugwort
+263\artemisia-capillaris\artemisia vulgaris
+263\artemisia-capillaris\sailor's tobacco
+263\artemisia-capillaris\wild wormwood
+263\artemisia-capillaris\asian mugwort
+263\artemisia-capillaris\korean mugwort
+263\artemisia-capillaris\common wormwood
+263\artemisia-capillaris\broadleaf mugwort
+263\artemisia-capillaris\velvetleaf mugwort
+264\chelidonium-majus\greater celandine
+264\chelidonium-majus\tetterwort
+264\chelidonium-majus\swallowwort
+264\chelidonium-majus\nipplewort
+264\chelidonium-majus\celandine poppy
+264\chelidonium-majus\felonwort
+264\chelidonium-majus\ragwort
+264\chelidonium-majus\shepherd's key
+264\chelidonium-majus\swiss chamomile
+264\chelidonium-majus\yellow wax
+265\podophyllum-peltatum\mayapple
+265\podophyllum-peltatum\american mandrake
+265\podophyllum-peltatum\wild lemon
+265\podophyllum-peltatum\hog apple
+265\podophyllum-peltatum\duck's foot
+265\podophyllum-peltatum\ground lemon
+265\podophyllum-peltatum\raccoon berry
+265\podophyllum-peltatum\wild mandrake
+265\podophyllum-peltatum\umbrella plant
+265\podophyllum-peltatum\indian apple
+265\podophyllum-peltatum\feverwort
+265\podophyllum-peltatum\devil's apple
+265\podophyllum-peltatum\wild persimmon
+265\podophyllum-peltatum\umbrella leaf
+265\podophyllum-peltatum\ripeberry
+266\platanus-occidentalis\american sycamore
+266\platanus-occidentalis\buttonball tree
+266\platanus-occidentalis\buttonwood
+266\platanus-occidentalis\plane tree
+266\platanus-occidentalis\water beech
+266\platanus-occidentalis\western plane
+266\platanus-occidentalis\white sycamore
+266\platanus-occidentalis\american plane
+266\platanus-occidentalis\occidental plane
+267\oenothera-biennis\evening primrose
+267\oenothera-biennis\common evening primrose
+267\oenothera-biennis\german ragwort
+267\oenothera-biennis\king's cureall
+267\oenothera-biennis\sun drop
+267\oenothera-biennis\fever plant
+267\oenothera-biennis\scabish
+267\oenothera-biennis\night willow herb
+268\asarum-canadense\wild ginger
+268\asarum-canadense\canadian snakeroot
+268\asarum-canadense\asarabaca
+268\asarum-canadense\asarum
+268\asarum-canadense\coltsfoot root
+268\asarum-canadense\canada snakeroot
+268\asarum-canadense\indian ginger
+268\asarum-canadense\asarabacca
+268\asarum-canadense\asarabacca root
+268\asarum-canadense\snake root
+268\asarum-canadense\asarum canadense
+268\asarum-canadense\wild snakeroot
+268\asarum-canadense\asarum
+268\asarum-canadense\asarum europaeum
+268\asarum-canadense\asarabacca herb
+268\asarum-canadense\asarum officinale
+268\asarum-canadense\asarum sieboldii
+268\asarum-canadense\asarum virginicum
+268\asarum-canadense\canada wild ginger
+268\asarum-canadense\european wild ginger
+269\cicuta-maculata\spotted water hemlock
+269\cicuta-maculata\cowbane
+269\cicuta-maculata\spotted parsley
+269\cicuta-maculata\poison parsley
+269\cicuta-maculata\musquash root
+269\cicuta-maculata\kidney bean weed
+269\cicuta-maculata\maculata water hemlock
+270\agastache-nepetoides\purple giant hyssop
+270\agastache-nepetoides\hummingbird mint
+270\agastache-nepetoides\lavender hyssop
+270\agastache-nepetoides\fragrant giant hyssop
+270\agastache-nepetoides\blue giant hyssop
+270\agastache-nepetoides\anise hyssop
+270\agastache-nepetoides\licorice mint
+270\agastache-nepetoides\agastache foeniculum
+271\aletris-farinosa\stargrass
+271\aletris-farinosa\unicorn root
+271\aletris-farinosa\blazing star
+271\aletris-farinosa\colic root
+271\aletris-farinosa\wild spikenard
+271\aletris-farinosa\cammock
+271\aletris-farinosa\crow's foot
+272\cephalanthus-occidentalis\buttonbush
+272\cephalanthus-occidentalis\common buttonbush
+272\cephalanthus-occidentalis\swamp elder
+272\cephalanthus-occidentalis\river elder
+272\cephalanthus-occidentalis\buttonwillow
+272\cephalanthus-occidentalis\buttonwood
+272\cephalanthus-occidentalis\honeybell
+272\cephalanthus-occidentalis\globe flower
+272\cephalanthus-occidentalis\white balltree
+272\cephalanthus-occidentalis\spanglebush
+272\cephalanthus-occidentalis\sugarbush
+272\cephalanthus-occidentalis\possumwood
+272\cephalanthus-occidentalis\button tree
+272\cephalanthus-occidentalis\button shrub
+273\elaeagnus-umbellata\autumn olive
+273\elaeagnus-umbellata\silverberry
+273\elaeagnus-umbellata\elaeagnus
+273\elaeagnus-umbellata\oleaster
+273\elaeagnus-umbellata\russian olive
+273\elaeagnus-umbellata\wild olive
+273\elaeagnus-umbellata\umbellate elaeagnus
+273\elaeagnus-umbellata\japanese silverberry
+273\elaeagnus-umbellata\silverberry elaeagnus
+273\elaeagnus-umbellata\autumn olive elaeagnus
+274\viburnum-opulus\guelder-rose
+274\viburnum-opulus\european cranberrybush
+274\viburnum-opulus\snowball tree
+274\viburnum-opulus\water elder
+274\viburnum-opulus\cramp bark
+274\viburnum-opulus\highbush cranberry
+274\viburnum-opulus\european viburnum
+274\viburnum-opulus\rose elder
+274\viburnum-opulus\pimbina
+274\viburnum-opulus\sheepberry
+275\arnica-montana\arnica flower
+275\arnica-montana\mountain daisy
+275\arnica-montana\leopard's bane
+275\arnica-montana\wolf's bane
+275\arnica-montana\woundwort
+275\arnica-montana\mountain arnica
+275\arnica-montana\sneezewort
+275\arnica-montana\mountain snuff
+275\arnica-montana\barnabe's balm
+275\arnica-montana\bergdotterblume
+275\arnica-montana\tabac des vosges
+275\arnica-montana\enana de los prados
+275\arnica-montana\arnica de montanha
+275\arnica-montana\järnek
+275\arnica-montana\alpine arnica
+276\collinsonia-canadensis\stoneroot
+276\collinsonia-canadensis\horsebalm
+276\collinsonia-canadensis\richweed
+276\collinsonia-canadensis\canadian fleabane
+276\collinsonia-canadensis\yellow fleabane
+276\collinsonia-canadensis\canada snakeroot
+276\collinsonia-canadensis\yellow snakeroot
+276\collinsonia-canadensis\stoneroot
+276\collinsonia-canadensis\horse gentian
+276\collinsonia-canadensis\marsh fleabane
+277\vitis-vinifera\cabernet sauvignon
+277\vitis-vinifera\merlot
+277\vitis-vinifera\chardonnay
+277\vitis-vinifera\pinot noir
+277\vitis-vinifera\sauvignon blanc
+277\vitis-vinifera\syrah
+277\vitis-vinifera\grenache
+277\vitis-vinifera\tempranillo
+277\vitis-vinifera\riesling
+277\vitis-vinifera\viognier
+278\zea-mays\corn
+278\zea-mays\maize
+278\zea-mays\indian corn
+278\zea-mays\sweet corn
+278\zea-mays\popcorn
+278\zea-mays\dent corn
+278\zea-mays\flint corn
+278\zea-mays\flour corn
+278\zea-mays\pod corn
+279\aloe-ferox\cape aloe
+279\aloe-ferox\bitter aloe
+279\aloe-ferox\tap aloe
+279\aloe-ferox\red aloe
+279\aloe-ferox\coast aloe
+279\aloe-ferox\ferox aloe
+279\aloe-ferox\cape lancewood
+279\aloe-ferox\aloe ferox var natalensis
+279\aloe-ferox\aloe ferox mill
+279\aloe-ferox\aloe ferox l
+280\verbena-hastata\blue vervain
+280\verbena-hastata\simpler's joy
+280\verbena-hastata\swamp verbena
+280\verbena-hastata\wild hyssop
+280\verbena-hastata\american vervain
+280\verbena-hastata\herb vervain
+280\verbena-hastata\pipeplant
+280\verbena-hastata\upland verbena
+280\verbena-hastata\wild verbena
+280\verbena-hastata\ironweed
+281\rhamnus-cathartica\common buckthorn
+281\rhamnus-cathartica\european buckthorn
+281\rhamnus-cathartica\purging buckthorn
+281\rhamnus-cathartica\glossy buckthorn
+281\rhamnus-cathartica\hart's thorn
+281\rhamnus-cathartica\waythorn
+281\rhamnus-cathartica\black dogwood
+281\rhamnus-cathartica\rhamnus frangula
