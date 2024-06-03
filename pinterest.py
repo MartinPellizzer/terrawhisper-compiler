@@ -22,7 +22,7 @@ import g
 
 random_num = random.randint(-2, 2)
 ARTICLES_NUM = 35 - random_num
-WAIT_SECONDS = 400
+WAIT_SECONDS = 600
 NUM_TINCTURES = 8
 
 options = Options()
@@ -112,14 +112,15 @@ for problem_row in problems_rows[:g.ART_NUM]:
     if system_name == '': continue
 
     # print(f'  > {system_name}')
+    category = 'remedies_old'
 
-    json_filepath = f'database/json/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/teas.json'
+    json_filepath = f'database/json/{category}/{system_slug}/{problem_slug}/teas.json'
     if os.path.exists(json_filepath): 
         print(f'ok: {json_filepath}')
         teas_articles_filepath.append(json_filepath)
     else: print(f'NOT FOUND: {json_filepath}')
    
-    json_filepath = f'database/json/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/tinctures.json'
+    json_filepath = f'database/json/{category}/{system_slug}/{problem_slug}/tinctures.json'
     if os.path.exists(json_filepath): 
         print(f'ok: {json_filepath}')
         tinctures_articles_filepath.append(json_filepath)

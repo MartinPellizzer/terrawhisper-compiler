@@ -41,3 +41,23 @@ status_id\status_name\system_id\system_name
 3\dry mouth\5\nervous system
 26\nausea\5\nervous system
 33\hangover\5\nervous system
+227\sleep deprivation\5\nervous system
+201\headaches\5\nervous system
+206\anxiety\5\nervous system
+207\stress\5\nervous system
+81\high blood pressure\2\cardiovascular system
+78\colds\1\respiratory system
+59\sore throat\1\respiratory system
+66\cough\1\respiratory system
+236\inflammation\6\immune system
+234\allergies\6\immune system
+129\acne\4\integumentary system
+67\flu\6\immune system
+127\cramps\3\musculoskeletal system
+68\chest congestion\1\respiratory system
+60\dry throat\1\respiratory system
+70\asthma\1\respiratory system
+253\dehydration\7\urinary system
+252\bladder pain\7\urinary system
+84\high cholesterol\9\endocrine system
+216\dizziness\5\nervous system

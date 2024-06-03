@@ -1,3 +1,5 @@
+- simulator for herbalism_tea redirect to duplicate pages with no redirect
+    - check if tea pages has redirect in meta tag and if that redirect point to existing page
 - metadata for articles fix layout
 - homepage grid mobile
 - more conditions
