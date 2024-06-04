@@ -1,6 +1,7 @@
 
 from PIL import Image, ImageDraw, ImageFont
 import random
+import os
 
 
 
@@ -418,6 +419,5 @@ def image_template_preparations(image_filepath_out, data):
 
 
     img.save(image_filepath_out, quality=50) 
-
 
 

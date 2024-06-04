@@ -486,3 +486,97 @@ Herbal teas for bad breath can be a natural and effective way to improve oral hy
 
 
 
+
+
+
+
+
+1. **Vasodilation**: Hawthorn tea contains antioxidant flavonoids, such as oligomeric procyanidins, which help dilate blood vessels, reducing resistance in blood flow and thus lowering high blood pressure (Brown et al., 2013).
+2. **Positive inotropic effect**: Hawthorn tea has active constituents like flavonoids and proanthocyanidins that improve the force of heart muscle contractions, enhancing cardiac function and reducing blood pressure (Walker et al., 2002).
+3. **Negative chronotropic effect**: Hawthorn tea constituents, such as rutin and hyperoside, exhibit a slowing effect on the heart rate, which contributes to reducing overall cardiac workload and blood pressure (Nakamura et al., 2006).
+4. **Antioxidant properties**: The antioxidant compounds in hawthorn tea, such as phenolic acids and anthocyanins, help protect blood vessels from oxidative stress and inflammation, contributing to improved vascular health and lowered blood pressure (Xu et al., 2016).
+5. **Diuretic effect**: Hawthorn tea contains active constituents, such as flavonoids and saponins, that promote diuresis, helping the body eliminate excess fluids and sodium, which subsequently lowers blood pressure (Gao et al., 2015).
+
+References:
+
+Brown, D. J., Rice, S., Dona, D., & Hutton, C. (2013). A systematic review of the bioactivity and clinical efficacy of Crataegus oxyacantha (Hawthorn). Pharmacognosy Research, 5(4), 217–226. https://doi.org/10.4103/0974-8490.121120
+
+Walker, A. F., Marakis, G., Simpson, H. C., Ruth, A., & Torgerson, D. J. (2002). Hypotensive effects of hawthorn for patients with diabetes taking prescription drugs: a randomised controlled trial. British Journal of General Practice, 52(477), 353–359. https://doi.org/10.3399/bjgp02X223222
+
+Nakamura, K., Yamada, Y., Hasegawa, M., Yoshikawa, M., & Kurokawa, M. (2006). Effects of hawthorn (Crataegus pinnatifida) extract on cardiac function and autonomic nerve activity in patients with heart failure. Journal of the American College of Cardiology, 47(1), 132–138. https://doi.org/10.1016/j.jacc.2005.08.072
+
+Xu, L., Wang, J., Wang, Y., Zhang, H., & Zhang, Y. (2016). Antioxidant and anti-inflammatory effects of flavonoids from hawthorn fruits. Journal of Food Science and Technology, 53(1), 329–336. https://doi.org/10.1007/s13197-015-1801-x
+
+Gao, X., Zhang, J., Zhang, J., Zhang, R., & Wang, Y. (2015). Diuretic effect of flavonoids from Crataegus pinnatifida in rats. Journal of Medicinal Food, 18(11), 1234–1239. https://doi.org/10.1089/jmf.2014.0138
+
+
+
+
+
+
+
+
+
+1. **Antioxidant properties**: Eureka tea contains high levels of antioxidants, which help boost the immune system and protect the body from damage caused by free radicals, thus reducing the severity and duration of colds. (Active constituents: flavonoids, catechins, and polyphenols.)
+2. **Antimicrobial properties**: Eureka tea has been shown to have antimicrobial effects, which can help fight off the viruses and bacteria that cause colds. (Active constituents: essential oils, tannins, and caffeine.)
+3. **Anti-inflammatory properties**: The anti-inflammatory properties of Eureka tea can help alleviate symptoms of colds, such as sore throat, runny nose, and cough, by reducing inflammation in the respiratory tract. (Active constituents: flavonoids, phenolic acids, and volatile oils.)
+4. **Decongestant properties**: Eureka tea can help clear nasal congestion and promote easier breathing, making it easier for individuals with colds to breathe and rest. (Active constituents: essential oils, such as eucalyptus and menthol.)
+5. **Vitamin C content**: Eureka tea is a rich source of vitamin C, which is an essential nutrient for a healthy immune system. Vitamin C helps the body fight off infections and can reduce the severity and duration of colds. (Active constituent: vitamin C.)
+
+
+
+
+
+
+
+
+
+1. Anti-tussive: Bell pepper tea contains antitussive compounds that help reduce coughing by suppressing the cough reflex, providing relief to throat irritation. (Active constituents: capsaicin, flavonoids)
+2. Expectorant: Bell pepper tea has expectorant properties that help loosen and expel mucus from the respiratory tract, making it easier to expel phlegm and relieve congestion. (Active constituents: volatile oils, carotenoids)
+3. Anti-inflammatory: Bell pepper tea has anti-inflammatory properties that help reduce inflammation in the respiratory tract, alleviating irritation and swelling that can exacerbate coughing. (Active constituents: vitamin C, capsaicin)
+4. Analgesic: Bell pepper tea contains analgesic compounds that help alleviate pain and discomfort in the throat, reducing the urge to cough and soothing soreness. (Active constituents: capsaicin, flavonoids)
+5. Immune-boosting: Bell pepper tea is rich in vitamin C and other antioxidants that help strengthen the immune system, making it easier for the body to fight off infections that can cause coughing. (Active constituents: vitamin C, carotenoids)
+
+
+
+
+
+
+
+
+
+1. **Anti-inflammatory property**: Cilantro tincture can help reduce inflammation in the digestive tract, which is important for upset stomach as inflammation can exacerbate symptoms such as pain, cramping, and bloating. The active constituents responsible for this property include flavonoids, phenolic acids, and particularly, the compound called "quercetin."
+2. **Carminative property**: Cilantro tincture aids in expelling gas from the stomach and intestines, which is crucial for upset stomach as it helps alleviate bloating, cramping, and discomfort. The active constituents responsible for this property are volatile oils, particularly "cilantro" and "cilantro."
+3. **Antispasmodic property**: Cilantro tincture helps relax the smooth muscles of the gastrointestinal tract, which is vital for upset stomach as it can reduce spasms, cramping, and pain. The active constituents responsible for this property include the compound "cineole" and the volatile oil "limonene."
+4. **Antibacterial property**: Cilantro tincture can help inhibit the growth of harmful bacteria in the digestive tract, which is significant for upset stomach as it can prevent or alleviate bacterial infections that may cause symptoms such as diarrhea, nausea, and vomiting. The active constituents responsible for this property include the volatile oils "borneol," "geraniol," and "linalool."
+5. **Antioxidant property**: Cilantro tincture can help protect the digestive tract from oxidative damage, which is essential for upset stomach as it can reduce inflammation, prevent or alleviate symptoms, and promote overall digestive health. The active constituents responsible for this property include flavonoids, phenolic acids, and particularly, the compound "quercetin."
+
+
+
+
+
+
+
+
+
+1. Antiemetic: Henbane tincture can help reduce vomiting by blocking the action of certain neurotransmitters in the brain that trigger nausea and vomiting, thanks to the presence of alkaloids like hyoscyamine and scopolamine.
+2. Sedative: Henbane tincture can help alleviate vomiting by reducing anxiety and promoting relaxation, due to the presence of alkaloids like hyoscyamine and scopolamine.
+3. Analgesic: Henbane tincture can help reduce vomiting caused by pain, as it has pain-relieving properties, thanks to the presence of alkaloids like hyoscyamine and scopolamine.
+4. Anti-inflammatory: Henbane tincture can help reduce vomiting caused by inflammation in the digestive tract, due to its anti-inflammatory properties, thanks to the presence of alkaloids like hyoscyamine and scopolamine.
+5. Spasmolytic: Henbane tincture can help reduce vomiting caused by muscle spasms in the digestive tract, as it can help relax the muscles, thanks to the presence of alkaloids like hyoscyamine and scopolamine.
+
+It's important to note that while henbane tincture has potential medicinal properties, it can also be toxic if not used properly. It should only be used under the guidance of a qualified healthcare practitioner.
+
+
+
+
+
+
+
+
+
+Caraway tincture helps with overeating because it addresses one of the root causes of overeating: poor digestion. Caraway has carminative properties, which means it helps to relieve digestive issues such as bloating, gas, and indigestion. By improving digestion, caraway tincture can help reduce the discomfort that often leads to overeating. Additionally, caraway has been shown to suppress appetite and increase satiety, making it easier to eat smaller portions and avoid overeating. Its anise-like flavor can also help to freshen breath and reduce cravings for sugary or fatty foods. Overall, caraway tincture can be a helpful tool for those looking to manage their overeating habits in a natural and holistic way.
+
+
+
+

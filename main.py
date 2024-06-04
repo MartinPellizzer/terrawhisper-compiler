@@ -107,6 +107,14 @@ status_preparations_teas_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_TEAS
 status_preparations_teas_cols = util.csv_get_cols(status_preparations_teas_rows)
 status_preparations_teas_rows = status_preparations_teas_rows[1:]
 
+status_preparations_tinctures_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_TINCTURES_FILEPATH)
+status_preparations_tinctures_cols = util.csv_get_cols(status_preparations_tinctures_rows)
+status_preparations_tinctures_rows = status_preparations_tinctures_rows[1:]
+
+status_preparations_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_FILEPATH)
+status_preparations_cols = util.csv_get_cols(status_preparations_rows)
+status_preparations_rows = status_preparations_rows[1:]
+
 
 
 teas_num = 10
@@ -206,6 +214,10 @@ def get_herbs_names_common_by_status(status_id, preparation_slug):
     if preparation_slug == 'teas':
         status_remedies_rows_filtered = util.csv_get_rows_filtered(
             g.CSV_STATUS_PREPARATIONS_TEAS_FILEPATH, status_preparations_teas_cols['status_id'], status_id,
+        )
+    elif preparation_slug == 'tinctures':
+        status_remedies_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_STATUS_PREPARATIONS_TINCTURES_FILEPATH, status_preparations_tinctures_cols['status_id'], status_id,
         )
 
     # get first column of common names table
@@ -366,6 +378,26 @@ def csv_get_preparations_by_problem(problem_id):
     return preparations_rows_filtered
 
 
+def get_preparations_by_status(status_id):
+    status_preparations_rows_filtered = util.csv_get_rows_filtered(
+        g.CSV_STATUS_PREPARATIONS_FILEPATH, status_preparations_cols['status_id'], status_id,
+    )
+
+    status_preparations_ids = [
+        row[status_preparations_cols['preparation_id']] 
+        for row in status_preparations_rows_filtered
+        if row[status_preparations_cols['status_id']] == status_id
+    ]
+
+    preparations_rows_filtered = []
+    for preparation_row in preparations_rows:
+        herb_id = preparation_row[preparations_cols['preparation_id']]
+        if herb_id in status_preparations_ids:
+            preparations_rows_filtered.append(preparation_row)
+            
+    return preparations_rows_filtered
+
+
 def csv_get_related_by_problem(problem_id):
     problems_related_rows_filtered = util.csv_get_rows_filtered(
         g.CSV_PROBLEMS_RELATED_FILEPATH, problems_related_cols['problem_id'], problem_id,
@@ -402,6 +434,232 @@ def csv_get_herb_common_name_by_id(herb_id):
     return herb_name_common
 
 
+
+
+
+# #########################################################
+# ;IMAGES
+# #########################################################
+
+def img_preparations_cheatsheet(data):
+    title = data['title']
+    status_slug = data['status_slug']
+    preparation_name = data['preparation_name']
+    preparation_slug = preparation_name.replace(' ', '-')
+
+    image_filepath_out = f'website/images/herbal-{preparation_slug}-for-{status_slug}-cheatsheet.jpg'
+    if os.path.exists(image_filepath_out): return
+
+    img_width = 2480
+    img_height = 3508
+    gap_width = img_width//10
+
+    c_dark = '#030712'
+    c_bg = '#f5f5f5'
+
+    img = Image.new(mode="RGB", size=(img_width, img_height), color=c_bg)
+
+    # logo = Image.open("website-new/images/terrawhisper-logo.png")
+    # logo.thumbnail((256, 256), Image.Resampling.LANCZOS)
+    # img.paste(logo, (gap_width, 80), logo)
+
+    draw = ImageDraw.Draw(img)
+
+    # draw.line((img_width//3 + gap_width//3, 0, img_width//3 + gap_width//3, img_height), fill=(255, 0, 255), width=3)
+    # draw.line((img_width - img_width//3 - gap_width//3, 0, img_width - img_width//3 - gap_width//3, img_height), fill=(255, 0, 255), width=3)
+
+    # draw.line((gap_width, 0, gap_width, img_height), fill=(255, 0, 255), width=3)
+    # draw.line((img_width - gap_width, 0, img_width - gap_width, img_height), fill=(255, 0, 255), width=3)
+
+
+    x = gap_width
+    y = 80
+    w = img_width//3 + gap_width//3 - 32
+    h = 64
+    col_curr = 0
+
+    # TITLE
+    px = 64
+    py = 64
+    text = title.title()
+    font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 72)
+    _, _, text_w, text_h = font.getbbox(text)
+    draw.rectangle(((x, y), (x + text_w + px*2, y + text_h + py*2)), fill=c_dark)
+    draw.text(
+        (x + px, y + py), 
+        text,
+        (255, 255, 255), font=font
+    )
+    by_line_x = x + text_w + px*2 + 64
+    rect_h = text_h + py*2
+    y_start = y + text_h + py*2 + 80
+    
+    # text = 'by Leen Randell'
+    # font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 48)
+    # _, _, text_w, text_h = font.getbbox(text)
+    # draw.text(
+    #     (by_line_x, y + rect_h//2 - text_h//2 - 32), 
+    #     text,
+    #     (0, 0, 0), font=font
+    # )
+
+    # text = 'terrawhisper.com'
+    # font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 48)
+    # _, _, text_w, text_h = font.getbbox(text)
+    # draw.text(
+    #     (by_line_x, y + rect_h//2 - text_h//2 + 32), 
+    #     text,
+    #     (0, 0, 0), font=font
+    # )
+
+    
+    text = 'by Leen Randell -- TerraWhisper.com'
+    font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 48)
+    draw.text(
+        (x, img_height - 128), 
+        text, c_dark, font=font
+    )
+
+    y = y_start
+
+    remedies_list = data['remedies_list']
+    for i, remedy_obj in enumerate(remedies_list[:10]):
+        herb_name_common = remedy_obj['herb_name_common']
+
+        if 'remedy_properties' not in remedy_obj: continue
+        if 'remedy_parts' not in remedy_obj: continue
+
+        remedy_properties = [item.split(':')[0] for item in remedy_obj['remedy_properties']]
+        remedy_parts = [item.split(':')[0] for item in remedy_obj['remedy_parts']]
+
+        random.shuffle(remedy_properties)
+        random.shuffle(remedy_parts)
+
+        remedy_properties = remedy_properties[:3]
+        remedy_parts = remedy_parts[:3]
+
+
+        # Calc Needed Height
+        y_tmp = y
+
+        y_tmp += h
+        y_tmp += h
+        for item in remedy_properties: y_tmp += h
+        y_tmp += h
+        for item in remedy_parts: y_tmp += h
+        
+        if y_tmp >= img_height:
+            col_curr += 1
+            if col_curr == 1:
+                x = img_width//3 + gap_width//3 + 16
+                y = y_start
+                w = img_width - img_width//3 - gap_width//3 - 16
+                h = 64
+            if col_curr == 2:
+                x = img_width - img_width//3 - gap_width//3 + 32
+                y = y_start
+                w = img_width - gap_width
+                h = 64
+            if col_curr == 3:
+                print('ERROR: Not enough space to draw all remedies')
+                break
+
+
+
+
+        # Herb
+        cell_herb_h = 96
+        text_margin_l = 32
+        text_margin_t = 20
+        draw.rectangle(((x, y), (w, y + cell_herb_h)), fill=c_dark)
+        font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 48)
+        draw.text(
+            (x + text_margin_l, y + text_margin_t), 
+            f'{i+1}. {herb_name_common.upper()}', 
+            c_bg, font=font
+        )
+        y += cell_herb_h
+
+        # Properties Head
+        cell_category_h = 96
+        text_margin_t = 16
+        # draw.rectangle(((x, y), (w, y + cell_category_h)))
+        # draw.rectangle(((x, y), (w, y + cell_category_h)), fill="#adbfb9")
+        font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 48)
+
+        text_x, text_y, text_w, text_h = font.getbbox("Properties")
+        draw.rectangle(
+            (
+                (x + text_margin_l + text_w + 32, y + cell_category_h//2), 
+                (w, y + cell_category_h//2 + 4)
+            ), 
+            fill="#737373"
+        )
+
+        draw.text(
+            (x + text_margin_l, y + text_margin_t), 
+            'Properties', 
+            c_dark, font=font
+        )
+        y += cell_category_h
+
+        # Properties Vals
+        font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 36)
+        for item in remedy_properties:
+            item = item.replace('properties', '')
+            draw.rectangle(((x, y), (w, y + h)), fill=c_bg)
+            draw.rectangle((
+                (x + text_margin_l + 16, y + h//2 - 16), 
+                (x + text_margin_l + 32, y + h//2)), fill=c_dark)
+            draw.text(
+            (x + text_margin_l + 48, y), 
+                item, c_dark, font=font
+            )
+            y += h
+
+        # Parts Head
+        cell_category_h = 96
+        text_margin_t = 16
+        # draw.rectangle(((x, y), (w, y + cell_category_h)))
+        # draw.rectangle(((x, y), (w, y + cell_category_h)), fill="#adbfb9")
+        font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 48)
+
+        text_x, text_y, text_w, text_h = font.getbbox("Plant Parts")
+        draw.rectangle(
+            (
+                (x + text_margin_l + text_w + 32, y + cell_category_h//2), 
+                (w, y + cell_category_h//2 + 4)
+            ), 
+            fill="#737373"
+        )
+
+        draw.text(
+            (x + text_margin_l, y + text_margin_t), 
+            'Plant Parts', c_dark, font=font
+        )
+        y += cell_category_h
+
+        # Parts Vals
+        font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 36)
+        for item in remedy_parts:
+            draw.rectangle(((x, y), (w, y + h)), fill=c_bg)
+            draw.rectangle((
+                (x + text_margin_l + 16, y + h//2 - 16), 
+                (x + text_margin_l + 32, y + h//2)), fill=c_dark)
+            draw.text(
+            (x + text_margin_l + 48, y), 
+                item, c_dark, font=font
+            )
+            y += h
+
+        y += h
+
+    img.thumbnail((img_width//3, img_height//3), Image.LANCZOS)
+    img.save(image_filepath_out, quality=50) 
+    print('SAVED CHEATSHEET:', image_filepath_out)
+    # img.show()
+
+    # quit()
 
 # #########################################################
 # ;PREPARATIONS
@@ -1435,11 +1693,172 @@ def gen_preparations(preparation_slug):
             if key in data:
                 article_html += f'{util.text_format_1N1_html(data[key])}\n'
                 
-            if 'intro_cheatsheet':
-                article_html += f'<p>A summary of the 10 best herbal {preparation_name} for {status_name} is provided in the following cheatsheet.</p>\n'
-                src = f'/images/herbal-{preparation_slug}-for-{status_slug}-cheatsheet.jpg'
-                alt = f'herbal {preparation_name} for {status_name} cheatsheet.jpg'
-                article_html += f'<p><img src="{src}" alt="{alt}"></p>\n'
+            # if 'intro_cheatsheet':
+            #     image_filepath_out = f'website/images/herbal-{preparation_slug}-for-{status_slug}-cheatsheet.jpg'
+            #     if not os.path.exists(image_filepath_out):
+            #     # if True:
+            #         img_width = 2480
+            #         img_height = 3508
+            #         gap_width = img_width//10
+            #         x = gap_width
+            #         y = 80
+            #         w = img_width//3 + gap_width//3 - 32
+            #         h = 64
+            #         col_curr = 0
+            #         c_dark = '#030712'
+            #         c_bg = '#f5f5f5'
+
+            #         img = Image.new(mode="RGB", size=(img_width, img_height), color=c_bg)
+            #         draw = ImageDraw.Draw(img)
+
+            #         # TITLE
+            #         px = 64
+            #         py = 64
+            #         text = title.title()
+            #         font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 72)
+            #         _, _, text_w, text_h = font.getbbox(text)
+            #         draw.rectangle(((x, y), (x + text_w + px*2, y + text_h + py*2)), fill=c_dark)
+            #         draw.text(
+            #             (x + px, y + py), 
+            #             text,
+            #             (255, 255, 255), font=font
+            #         )
+            #         by_line_x = x + text_w + px*2 + 64
+            #         rect_h = text_h + py*2
+            #         y_start = y + text_h + py*2 + 80
+                    
+            #         # FOOTER
+            #         text = 'by Leen Randell -- TerraWhisper.com'
+            #         font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 48)
+            #         draw.text(
+            #             (x, img_height - 128), 
+            #             text, c_dark, font=font
+            #         )
+            #         y = y_start
+
+            #         # remedies
+            #         remedies_list = data['remedies_list']
+            #         for i, remedy_obj in enumerate(remedies_list[:10]):
+            #             herb_name_common = remedy_obj['herb_name_common']
+            #             if 'remedy_properties' not in remedy_obj: continue
+            #             if 'remedy_parts' not in remedy_obj: continue
+            #             remedy_properties = [item.split(':')[0] for item in remedy_obj['remedy_properties']]
+            #             remedy_parts = [item.split(':')[0] for item in remedy_obj['remedy_parts']]
+            #             random.shuffle(remedy_properties)
+            #             random.shuffle(remedy_parts)
+            #             remedy_properties = remedy_properties[:3]
+            #             remedy_parts = remedy_parts[:3]
+
+            #             # Calc Needed Height
+            #             y_tmp = y
+            #             y_tmp += h
+            #             y_tmp += h
+            #             for item in remedy_properties: y_tmp += h
+            #             y_tmp += h
+            #             for item in remedy_parts: y_tmp += h
+                        
+            #             if y_tmp >= img_height:
+            #                 col_curr += 1
+            #                 if col_curr == 1:
+            #                     x = img_width//3 + gap_width//3 + 16
+            #                     y = y_start
+            #                     w = img_width - img_width//3 - gap_width//3 - 16
+            #                     h = 64
+            #                 if col_curr == 2:
+            #                     x = img_width - img_width//3 - gap_width//3 + 32
+            #                     y = y_start
+            #                     w = img_width - gap_width
+            #                     h = 64
+            #                 if col_curr == 3:
+            #                     print('ERROR: Not enough space to draw all remedies')
+            #                     break
+
+            #             # Herb
+            #             cell_herb_h = 96
+            #             text_margin_l = 32
+            #             text_margin_t = 20
+            #             draw.rectangle(((x, y), (w, y + cell_herb_h)), fill=c_dark)
+            #             font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 48)
+            #             draw.text(
+            #                 (x + text_margin_l, y + text_margin_t), 
+            #                 f'{i+1}. {herb_name_common.upper()}', 
+            #                 c_bg, font=font
+            #             )
+            #             y += cell_herb_h
+
+            #             # Properties Head
+            #             cell_category_h = 96
+            #             text_margin_t = 16
+            #             font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 48)
+            #             text_x, text_y, text_w, text_h = font.getbbox("Properties")
+            #             draw.rectangle(
+            #                 (
+            #                     (x + text_margin_l + text_w + 32, y + cell_category_h//2), 
+            #                     (w, y + cell_category_h//2 + 4)
+            #                 ), 
+            #                 fill="#737373"
+            #             )
+            #             draw.text(
+            #                 (x + text_margin_l, y + text_margin_t), 
+            #                 'Properties', 
+            #                 c_dark, font=font
+            #             )
+            #             y += cell_category_h
+
+            #             # Properties Vals
+            #             font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 36)
+            #             for item in remedy_properties:
+            #                 item = item.replace('properties', '')
+            #                 draw.rectangle(((x, y), (w, y + h)), fill=c_bg)
+            #                 draw.rectangle((
+            #                     (x + text_margin_l + 16, y + h//2 - 16), 
+            #                     (x + text_margin_l + 32, y + h//2)), fill=c_dark)
+            #                 draw.text(
+            #                 (x + text_margin_l + 48, y), 
+            #                     item, c_dark, font=font
+            #                 )
+            #                 y += h
+
+            #             # Parts Head
+            #             cell_category_h = 96
+            #             text_margin_t = 16
+            #             font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 48)
+            #             text_x, text_y, text_w, text_h = font.getbbox("Plant Parts")
+            #             draw.rectangle(
+            #                 (
+            #                     (x + text_margin_l + text_w + 32, y + cell_category_h//2), 
+            #                     (w, y + cell_category_h//2 + 4)
+            #                 ), 
+            #                 fill="#737373"
+            #             )
+            #             draw.text(
+            #                 (x + text_margin_l, y + text_margin_t), 
+            #                 'Plant Parts', c_dark, font=font
+            #             )
+            #             y += cell_category_h
+
+            #             # Parts Vals
+            #             font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 36)
+            #             for item in remedy_parts:
+            #                 draw.rectangle(((x, y), (w, y + h)), fill=c_bg)
+            #                 draw.rectangle((
+            #                     (x + text_margin_l + 16, y + h//2 - 16), 
+            #                     (x + text_margin_l + 32, y + h//2)), fill=c_dark)
+            #                 draw.text(
+            #                 (x + text_margin_l + 48, y), 
+            #                     item, c_dark, font=font
+            #                 )
+            #                 y += h
+            #             y += h
+
+            #         img.thumbnail((img_width//3, img_height//3), Image.LANCZOS)
+            #         img.save(image_filepath_out, quality=50) 
+            #         print('SAVED CHEATSHEET:', image_filepath_out)
+            #     if os.path.exists(image_filepath_out):
+            #         article_html += f'<p>A summary of the 10 best herbal {preparation_name} for {status_name} is provided in the following cheatsheet.</p>\n'
+            #         src = f'/images/herbal-{preparation_slug}-for-{status_slug}-cheatsheet.jpg'
+            #         alt = f'herbal {preparation_name} for {status_name} cheatsheet.jpg'
+            #         article_html += f'<p><img src="{src}" alt="{alt}"></p>\n'
                 
             if 'intro_transition':
                 article_html += f'<p>The following article describes in detail the most important {preparation_name} for {status_name}, including medicinal properties, parts of herbs to use, and recipes for preparations.</p>\n'
@@ -1477,6 +1896,7 @@ def gen_preparations(preparation_slug):
                 remedy_name_scientific = obj["herb_name_common"].strip().lower()
 
                 if preparation_name == 'teas': remedy_name = f'{remedy_name} tea'.replace(' tea tea', ' tea')
+                elif preparation_name == 'tinctures': remedy_name = f'{remedy_name} tincture'
                 else: remedy_name = f'{remedy_name} {preparation_name_singular}'
 
                 if 'remedy_desc':
@@ -1578,6 +1998,11 @@ def gen_preparations(preparation_slug):
         '''
 
         util.file_write(html_filepath, html)
+
+        # quit()
+
+
+
 
 
 # #########################################################
@@ -4132,6 +4557,114 @@ def remedies_systems_problems_new():
                     article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
                 article_html += f'</ul>\n'
 
+        if 'preparations':
+            preparations_rows_filtered = get_preparations_by_status(status_id)
+            preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows_filtered]
+                
+            key = 'preparations_desc'
+            # if key in data: del data[key]
+            if key not in data:
+                preparations_names_prompt = ', '.join(preparations_names[:5])
+                prompt = f'''
+                    Write 1 paragraph about the what are the best types of herbal preparations for {status_name}.
+                    Include the following types of herbal preparations: {preparations_names_prompt}.
+                    Explain why each preparation helps with {status_name}.
+                    Don't include names of herbs.
+                    Don't include definitions for the preparations.
+                    Don't include how to make the preparations.
+                    Start the reply with the following words: The most effective herbal preparations for {status_name} are .
+                    
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                lines = reply.split('\n')
+                lines_formatted = []
+                for line in lines:
+                    line = line.strip()
+                    if line == '': continue
+                    if line[0].isdigit(): continue
+                    if ':' in line: continue
+                    lines_formatted.append(line)
+                if len(lines_formatted) == 1:
+                    print('***************************************')
+                    print(lines_formatted[0])
+                    print('***************************************')
+                    data[key] = lines_formatted[0]
+                    util.json_write(json_filepath, data)
+                time.sleep(g.PROMPT_DELAY_TIME)
+            if key in data:
+                article_html += f'<h2>What are the most effective herbal preparations for {status_name}?</h2>\n'
+                article_html += f'{util.text_format_1N1_html(data[key])}\n'
+                
+            # img
+            key = 'causes_list'
+            if key in data:
+                image_filepath_out = f'website/images/{problem_slug}-causes.jpg'
+                image_filepath_web = f'/images/{problem_slug}-causes.jpg'
+                if not os.path.exists(image_filepath_out): 
+                # if True: 
+                    util_image.image_template_causes(image_filepath_out, data)
+                article_html += f'<p><img src="{image_filepath_web}" alt="{problem_name} causes"></p>'
+
+            key = 'preparations_list'
+            if key not in data:
+                preparations_names_prompt = ''
+                for i, preparation_name in enumerate(preparations_names[:10]):
+                    preparations_names_prompt += f'{i+1}. {preparation_name.capitalize()}\n'
+                prompt = f'''
+                    Here is a list of the types of herbal preparations for {status_name}:
+                    {preparations_names_prompt}
+                    For each type of herbal preparation in the list above, explain in 1 detailed sentence how and why that preparation helps with {status_name}.
+                    Don't include names of herbs.
+                    Don't include definitions for the preparations.
+                    Don't explain the making process of the preparations.
+                    Reply with a numbered list using the following format: [preparation name]: [description].
+                    
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                lines = reply.split('\n')
+                lines_formatted = []
+                for line in lines:
+                    line = line.strip()
+                    if line == '': continue
+                    line = line.replace('*', '')
+                    line = line.replace('[', '')
+                    line = line.replace(']', '')
+                    if not line[0].isdigit(): continue
+                    if '.' not in line: continue
+                    if ':' not in line: continue
+                    line = '.'.join(line.split('.')[1:])
+                    line = line.strip()
+                    if line == '': continue
+                    lines_formatted.append(line)
+                if len(lines_formatted) >= 4:
+                    print('***************************************')
+                    print(lines_formatted)
+                    print('***************************************')
+                    data[key] = lines_formatted
+                    util.json_write(json_filepath, data)
+                time.sleep(g.PROMPT_DELAY_TIME)
+            if key in data:
+                article_html += f'<p>The most used herbal preparations that help with {status_name} are listed below.</p>\n'
+                article_html += f'<ul>\n'
+                for item in data['preparations_list']:
+                    chunks = item.split(':')
+                    chunk_1 = chunks[0]
+                    chunk_2 = ':'.join(chunks[1:])
+                    # TODO: link only if href page exist
+                    if chunk_1.lower().strip() == 'teas':
+                        chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/teas.html">{chunk_1}</a></strong>'
+                    elif chunk_1.lower().strip() == 'tinctures':
+                        chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/tinctures.html">{chunk_1}</a></strong>'
+                    # elif chunk_1.lower().strip() == 'capsules':
+                    #     chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/capsules.html">{chunk_1}</a></strong>'
+                    else:
+                        chunk_1 = f'<strong>{chunk_1}</strong>'
+                    article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
+                article_html += f'</ul>\n'
+
+
+
+
         # html
         html_filepath = f'website/{g.CATEGORY_REMEDIES}/{system_slug}/{status_slug}.html'
 
@@ -4256,111 +4789,7 @@ def remedies_systems_problems_new():
                 article_html += f'</ul>\n'
 
 
-        if 'preparations':
-            key = 'preparations_desc'
-            if key not in data:
-                preparations_rows_filtered = csv_get_preparations_by_problem(problem_id)
-                preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows_filtered]
-                preparations_names_prompt = ', '.join(preparations_names[:5])
-                prompt = f'''
-                    Write 1 paragraph about the what are the best types of herbal preparations for {problem_name}.
-                    Include the following types of herbal preparations: {preparations_names_prompt}.
-                    Explain why each preparation helps with {problem_name}.
-                    Don't include names of herbs.
-                    Don't include definitions for the preparations.
-                    Don't include how to make the preparations.
-                    Start the reply with the following words: The most effective herbal preparations for {problem_name} are .
-                    
-                '''
-                reply = utils_ai.gen_reply(prompt)
-                lines = reply.split('\n')
-                lines_formatted = []
-                for line in lines:
-                    line = line.strip()
-                    if line == '': continue
-                    if line[0].isdigit(): continue
-                    if ':' in line: continue
-                    lines_formatted.append(line)
-                if len(lines_formatted) == 1:
-                    print('***************************************')
-                    print(lines_formatted[0])
-                    print('***************************************')
-                    data[key] = lines_formatted[0]
-                    util.json_write(json_filepath, data)
-                time.sleep(g.PROMPT_DELAY_TIME)
-            if key in data:
-                article_html += f'<h2>What are the most effective herbal preparations for {problem_name}?</h2>\n'
-                article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-
-            # img
-            key = 'preparations_list'
-            if key in data:
-                image_filepath_out = f'website/images/{problem_slug}-preparations.jpg'
-                image_filepath_web = f'/images/{problem_slug}-preparations.jpg'
-                # if not os.path.exists(image_filepath_out): 
-                if True: 
-                    util_image.image_template_preparations(image_filepath_out, data)
-                article_html += f'<p><img src="{image_filepath_web}" alt="{problem_name} herbs"></p>'
             
-
-            key = 'preparations_list'
-            if key not in data:
-                preparations_rows_filtered = csv_get_preparations_by_problem(problem_id)
-                preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows_filtered]
-                preparations_names_prompt = ''
-                for i, preparation_name in enumerate(preparations_names[:10]):
-                    preparations_names_prompt += f'{i+1}. {preparation_name.capitalize()}\n'
-                prompt = f'''
-                    Here is a list of the types of herbal preparations for {problem_name}:
-                    {preparations_names_prompt}
-                    For each type of herbal preparation in the list above, explain in 1 detailed sentence how and why that preparation helps with {problem_name}.
-                    Don't include names of herbs.
-                    Don't include definitions for the preparations.
-                    Don't explain the making process of the preparations.
-                    Reply with a numbered list using the following format: [preparation name]: [description].
-                    
-                '''
-                reply = utils_ai.gen_reply(prompt)
-                lines = reply.split('\n')
-                lines_formatted = []
-                for line in lines:
-                    line = line.strip()
-                    if line == '': continue
-                    line = line.replace('*', '')
-                    line = line.replace('[', '')
-                    line = line.replace(']', '')
-                    if not line[0].isdigit(): continue
-                    if '.' not in line: continue
-                    if ':' not in line: continue
-                    line = '.'.join(line.split('.')[1:])
-                    line = line.strip()
-                    if line == '': continue
-                    lines_formatted.append(line)
-                if len(lines_formatted) >= 4:
-                    print('***************************************')
-                    print(lines_formatted)
-                    print('***************************************')
-                    data[key] = lines_formatted
-                    util.json_write(json_filepath, data)
-                time.sleep(g.PROMPT_DELAY_TIME)
-            if key in data:
-                article_html += f'<p>The most used herbal preparations that help with {problem_name} are listed below.</p>\n'
-                article_html += f'<ul>\n'
-                for item in data['preparations_list']:
-                    chunks = item.split(':')
-                    chunk_1 = chunks[0]
-                    chunk_2 = ':'.join(chunks[1:])
-                    if chunk_1.lower().strip() == 'infusions':
-                        chunk_1 = f'<strong><a href="/remedies/{system_slug}/{problem_slug}/teas.html">{chunk_1}</a></strong>'
-                    elif chunk_1.lower().strip() == 'tinctures':
-                        chunk_1 = f'<strong><a href="/remedies/{system_slug}/{problem_slug}/tinctures.html">{chunk_1}</a></strong>'
-                    elif chunk_1.lower().strip() == 'capsules':
-                        chunk_1 = f'<strong><a href="/remedies/{system_slug}/{problem_slug}/capsules.html">{chunk_1}</a></strong>'
-                    else:
-                        chunk_1 = f'<strong>{chunk_1}</strong>'
-                    article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
-                article_html += f'</ul>\n'
 
         if 'precautions':
             key = 'precautions_desc'
@@ -4480,8 +4909,6 @@ def remedies_systems_problems_new():
                     chunk_2 = ':'.join(chunks[1:])
                     article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
                 article_html += f'</ul>\n'
-
-        
 
 
 def remedies_systems_new():
@@ -4661,14 +5088,15 @@ def remedies():
 #     remedies_systems()
 #     remedies()
 
-# if not 'remedies':
-#     remedies_systems_problems_new()
-#     remedies_systems_new()
-#     remedies()
+if not 'remedies':
+    remedies_systems_problems_new()
+    remedies_systems_new()
+    remedies()
 
 
 if 'preparations':
     gen_preparations('teas')
+    gen_preparations('tinctures')
 
 # if 'preparations':
 #     remedies_systems_problems_preparations('teas')

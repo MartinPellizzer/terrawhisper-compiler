@@ -57,6 +57,8 @@ CSV_PROBLEMS_HERBS_AUTO_FILEPATH = 'database/csv/junctions/problems_herbs_auto.c
 CSV_STATUS_SYSTEMS_FILEPATH = 'database/csv/junctions/status_systems.csv'
 CSV_STATUS_HERBS_FILEPATH = 'database/csv/junctions/status_herbs.csv'
 CSV_STATUS_PREPARATIONS_TEAS_FILEPATH = 'database/csv/junctions/status_preparations_teas.csv'
+CSV_STATUS_PREPARATIONS_TINCTURES_FILEPATH = 'database/csv/junctions/status_preparations_tinctures.csv'
+CSV_STATUS_PREPARATIONS_FILEPATH = 'database/csv/junctions/status_preparations.csv'
 
 
 CATEGORY_HERBALISM = 'herbalism'
