@@ -111,6 +111,10 @@ status_preparations_tinctures_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS
 status_preparations_tinctures_cols = util.csv_get_cols(status_preparations_tinctures_rows)
 status_preparations_tinctures_rows = status_preparations_tinctures_rows[1:]
 
+status_preparations_capsules_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_CAPSULES_FILEPATH)
+status_preparations_capsules_cols = util.csv_get_cols(status_preparations_capsules_rows)
+status_preparations_capsules_rows = status_preparations_capsules_rows[1:]
+
 status_preparations_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_FILEPATH)
 status_preparations_cols = util.csv_get_cols(status_preparations_rows)
 status_preparations_rows = status_preparations_rows[1:]
@@ -218,6 +222,10 @@ def get_herbs_names_common_by_status(status_id, preparation_slug):
     elif preparation_slug == 'tinctures':
         status_remedies_rows_filtered = util.csv_get_rows_filtered(
             g.CSV_STATUS_PREPARATIONS_TINCTURES_FILEPATH, status_preparations_tinctures_cols['status_id'], status_id,
+        )
+    elif preparation_slug == 'capsules':
+        status_remedies_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_STATUS_PREPARATIONS_CAPSULES_FILEPATH, status_preparations_capsules_cols['status_id'], status_id,
         )
 
     # get first column of common names table
@@ -660,6 +668,10 @@ def img_preparations_cheatsheet(data):
     # img.show()
 
     # quit()
+
+
+
+
 
 # #########################################################
 # ;PREPARATIONS
@@ -1897,6 +1909,7 @@ def gen_preparations(preparation_slug):
 
                 if preparation_name == 'teas': remedy_name = f'{remedy_name} tea'.replace(' tea tea', ' tea')
                 elif preparation_name == 'tinctures': remedy_name = f'{remedy_name} tincture'
+                elif preparation_name == 'capsules': remedy_name = f'{remedy_name} capsule'
                 else: remedy_name = f'{remedy_name} {preparation_name_singular}'
 
                 if 'remedy_desc':
@@ -3892,18 +3905,18 @@ def page_home():
 
     articles_teas_html = ''
     i = 0
-    for problem_row in problems_rows[:g.ART_NUM]:
+    for status_row in status_rows:
         if i >= 6: break
 
-        problem_id = problem_row[problems_cols['problem_id']]
-        problem_slug = problem_row[problems_cols['problem_slug']]
-        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip().lower()
+        status_id = status_row[status_cols['status_id']]
+        status_slug = status_row[status_cols['status_slug']]
+        status_name = status_row[status_cols['status_names']].split(',')[0].strip().lower()
 
-        if problem_id == '': continue
-        if problem_slug == '': continue
-        if problem_name == '': continue
+        if status_id == '': continue
+        if status_slug == '': continue
+        if status_name == '': continue
 
-        system_row = csv_get_system_by_problem(problem_id)
+        system_row = get_system_by_status(status_id)
 
         system_id = system_row[systems_cols['system_id']]
         system_slug = system_row[systems_cols['system_slug']]
@@ -3913,7 +3926,7 @@ def page_home():
         if system_slug == '': continue
         if system_name == '': continue
 
-        json_filepath = f'database/json/remedies/{system_slug}/{problem_slug}/teas.json'
+        json_filepath = f'database/json/remedies/{system_slug}/{status_slug}/teas.json'
         if not os.path.exists(json_filepath): continue
 
         data = util.json_read(json_filepath)
@@ -3922,13 +3935,13 @@ def page_home():
         year, month, day = data['lastmod'].split('-')
         lastmod = f'{month}/{day}/{year}'
 
-        src = f'/images/herbal-teas-for-{problem_slug}-overview.jpg'
-        alt = f'herbal teas for {problem_slug}'
+        src = f'/images/herbal-teas-for-{status_slug}-overview.jpg'
+        alt = f'herbal teas for {status_slug}'
         articles_teas_html += f'''
             <div>
-                <a href="/remedies/{system_slug}/{problem_slug}/tinctures.html">
+                <a href="/remedies/{system_slug}/{status_slug}/teas.html">
                     <img src="{src}" alt="{alt}">
-                    <h3>10 Best Herbal Teas For {problem_name.title()}</h3>
+                    <h3>10 Best Herbal Teas For {status_name.title()}</h3>
                 </a>
                 <p class="desc">{intro_desc_clip}</p>
                 <p class="author">By <span>Leen Randell</span> - {lastmod}</p>
@@ -3939,18 +3952,18 @@ def page_home():
 
     articles_tinctures_html = ''
     i = 0
-    for problem_row in problems_rows[:g.ART_NUM]:
+    for status_row in status_rows:
         if i >= 6: break
 
-        problem_id = problem_row[problems_cols['problem_id']]
-        problem_slug = problem_row[problems_cols['problem_slug']]
-        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip().lower()
+        status_id = status_row[status_cols['status_id']]
+        status_slug = status_row[status_cols['status_slug']]
+        status_name = status_row[status_cols['status_names']].split(',')[0].strip().lower()
 
-        if problem_id == '': continue
-        if problem_slug == '': continue
-        if problem_name == '': continue
+        if status_id == '': continue
+        if status_slug == '': continue
+        if status_name == '': continue
 
-        system_row = csv_get_system_by_problem(problem_id)
+        system_row = get_system_by_status(status_id)
 
         system_id = system_row[systems_cols['system_id']]
         system_slug = system_row[systems_cols['system_slug']]
@@ -3960,7 +3973,7 @@ def page_home():
         if system_slug == '': continue
         if system_name == '': continue
 
-        json_filepath = f'database/json/remedies/{system_slug}/{problem_slug}/tinctures.json'
+        json_filepath = f'database/json/remedies/{system_slug}/{status_slug}/tinctures.json'
         if not os.path.exists(json_filepath): continue
 
         data = util.json_read(json_filepath)
@@ -3969,13 +3982,13 @@ def page_home():
         year, month, day = data['lastmod'].split('-')
         lastmod = f'{month}/{day}/{year}'
 
-        src = f'/images/herbal-tinctures-for-{problem_slug}-overview.jpg'
-        alt = f'herbal tinctures for {problem_slug}'
+        src = f'/images/herbal-tinctures-for-{status_slug}-overview.jpg'
+        alt = f'herbal tinctures for {status_slug}'
         articles_tinctures_html += f'''
             <div>
-                <a href="/remedies/{system_slug}/{problem_slug}/tinctures.html">
+                <a href="/remedies/{system_slug}/{status_slug}/tinctures.html">
                     <img src="{src}" alt="{alt}">
-                    <h3>10 Best Herbal Tinctures For {problem_name.title()}</h3>
+                    <h3>10 Best Herbal Tinctures For {status_name.title()}</h3>
                 </a>
                 <p class="desc">{intro_desc_clip}</p>
                 <p class="author">By <span>Leen Randell</span> - {lastmod}</p>
@@ -5075,7 +5088,7 @@ def remedies():
 # EXE
 # #########################################################
 
-# page_home()
+page_home()
 # page_privacy_policy()
 # page_cookie_policy()
 # page_herbalism()
@@ -5097,6 +5110,7 @@ if not 'remedies':
 if 'preparations':
     gen_preparations('teas')
     gen_preparations('tinctures')
+    gen_preparations('capsules')
 
 # if 'preparations':
 #     remedies_systems_problems_preparations('teas')

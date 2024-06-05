@@ -580,3 +580,43 @@ Caraway tincture helps with overeating because it addresses one of the root caus
 
 
 
+
+
+
+
+
+1. Anti-secretory: Roselle capsules contain compounds that inhibit the production of stomach acid, reducing hyperacidity. (Active constituents: Anthocyanins, tannins)
+2. Anti-inflammatory: The anti-inflammatory properties of roselle capsules help alleviate inflammation in the stomach lining caused by hyperacidity. (Active constituents: Anthocyanins, flavonoids)
+3. Mucoprotective: Roselle capsules protect the gastric mucosa from damage by hyperacidity, promoting healing. (Active constituents: Tannins, pectin)
+4. Antioxidant: The antioxidant properties of roselle capsules help protect the stomach lining from oxidative stress caused by hyperacidity. (Active constituents: Anthocyanins, flavonoids)
+5. Prokinetic: Roselle capsules promote gastric motility, helping to prevent stasis of stomach contents and reducing the risk of hyperacidity. (Active constituents: Althothecin, flavonoids)
+
+
+
+
+
+
+
+
+
+Herbal capsules for upset stomach are dietary supplements that contain a variety of natural herbs, which can help alleviate symptoms of digestive discomfort such as nausea, bloating, and stomach cramps. These capsules typically include a blend of herbs known for their soothing and anti-inflammatory properties, such as ginger, peppermint, chamomile, and fennel. For example, ginger has been shown to help reduce inflammation and calm an upset stomach, while peppermint oil can help relax the gastrointestinal muscles and reduce spasms.
+
+By taking herbal capsules for upset stomach, individuals can experience relief from their symptoms and improve their overall quality of life. For instance, those who suffer from motion sickness or indigestion after eating can take these capsules as a preventative measure, allowing them to enjoy activities such as travel or social events without worry. Additionally, people with chronic digestive issues, such as irritable bowel syndrome (IBS), may find that regular use of herbal capsules can help manage their symptoms and improve their daily functioning.
+
+
+
+
+
+
+
+
+
+Herbal capsules for constipation are dietary supplements that contain a combination of natural herbs and plant extracts, designed to promote regular bowel movements and alleviate constipation. These capsules typically include ingredients such as senna, psyllium, and cascara sagrada, which work by stimulating the digestive system and increasing intestinal motility. By doing so, they can help soften stools, making them easier to pass and reducing the discomfort associated with constipation.
+
+For instance, senna is a natural laxative that can help stimulate the colon, while psyllium is a type of fiber that can add bulk to stools and promote regularity. Cascara sagrada, on the other hand, is a powerful herb that can help tone and strengthen the intestinal muscles, making it easier to pass stools.
+
+By using herbal capsules for constipation, individuals can experience improved bowel movements, reduced bloating and discomfort, and an overall improvement in their quality of life. With regular use, these capsules can help regulate the digestive system, leading to a healthier and more balanced gut.
+
+
+
+
