@@ -421,3 +421,104 @@ def image_template_preparations(image_filepath_out, data):
     img.save(image_filepath_out, quality=50) 
 
 
+
+
+def template_remedy(obj):
+    img_w, img_h = 768, 512
+    y = 0
+
+    img = Image.new(mode="RGB", size=(img_w, img_h), color=c_dark)
+    draw = ImageDraw.Draw(img)
+
+    herb_name_common = obj['herb_name_common']
+    text = f'{herb_name_common} tea'.upper()
+    font_size = 48
+    font = ImageFont.truetype("assets/fonts/arial/ARIALBD.TTF", font_size)
+    _, _, text_w, text_h = font.getbbox(text)
+    x = img_w//2 - text_w//2
+    y += 50
+    draw.text((x, y), text, c_holy, font=font)
+
+    herb_name_scientific = obj['herb_name_scientific']
+    text = f'({herb_name_scientific})'
+    font_size = 20
+    font = ImageFont.truetype("assets/fonts/arial/ARIALI.TTF", font_size)
+    _, _, text_w, text_h = font.getbbox(text)
+    x = img_w//2 - text_w//2
+    y += 60
+    draw.text((x, y), text, c_holy, font=font)
+
+
+    y += 100
+    if 'table':
+
+        # v line
+        x_1 = img_w//2
+        y_1 = y
+        x_2 = img_w//2
+        y_2 = img_h - 130
+        draw.line((x_1, y_1, x_2, y_2), fill=c_holy, width=1)
+
+        if 'table_headers':
+            header_font_size = 20
+            header_gap_x = 20
+
+            # header "properties"
+            text = f'Properties'.upper()
+            font = ImageFont.truetype("assets/fonts/arial/ARIAL.TTF", header_font_size)
+            _, _, text_w, text_h = font.getbbox(text)
+            x = img_w//2 - text_w - header_gap_x
+            draw.text((x, y), text, c_holy, font=font)
+
+            # header "parts"
+            text = f'Plant Parts'.upper()
+            font = ImageFont.truetype("assets/fonts/arial/ARIAL.TTF", header_font_size)
+            _, _, text_w, text_h = font.getbbox(text)
+            x = img_w//2 + header_gap_x
+            draw.text((x, y), text, c_holy, font=font)
+        
+        # h line
+        y += 30
+        h_line_lenght = 400
+        x_1 = img_w//2 - h_line_lenght//2
+        y_1 = y
+        x_2 = img_w//2 + h_line_lenght//2
+        y_2 = y
+        draw.line((x_1, y_1, x_2, y_2), fill=c_holy, width=1)
+
+        if 'table_data':
+            y += 10
+            font_size = 14
+            line_h = 1.4
+
+            font = ImageFont.truetype("assets/fonts/arial/ARIAL.TTF", font_size)
+
+            # properties
+            lines = [item.split(':')[0] for item in obj['remedy_properties']]
+            for i, line in enumerate(lines):
+                _, _, text_w, _ = font.getbbox(line)
+                x_1 = img_w//2 - text_w - header_gap_x
+                y_1 = y + font_size*line_h*i
+                draw.text((x_1, y_1), line, c_holy, font=font)
+
+            # parts
+            lines = [item.split(':')[0] for item in obj['remedy_parts']]
+            for i, line in enumerate(lines):
+                _, _, text_w, _ = font.getbbox(line)
+                x_1 = img_w//2 + header_gap_x
+                y_1 = y + font_size*line_h*i
+                draw.text((x_1, y_1), line, c_holy, font=font)
+
+    
+        text = f'TerraWhisper'.upper()
+        font = ImageFont.truetype("assets/fonts/arial/ARIAL.TTF", 12)
+        _, _, text_w, text_h = font.getbbox(text)
+        x_1 = img_w//2 +  - text_w//2
+        y_1 = img_h - 50
+        draw.text((x_1, y_1), text, c_holy, font=font)
+
+
+
+
+
+    img.show()

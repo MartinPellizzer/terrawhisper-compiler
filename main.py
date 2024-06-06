@@ -825,29 +825,6 @@ def json_preparation_system_problem_supplementary(json_filepath, data):
     # How should herbal teas be incorporated into a daily oral hygiene routine for optimal results in combating bad breath?
 
 
-def img_preparation_systems_problems_featured(data):
-    if 'remedies_list' in data:
-        problem_slug = data['problem_slug']
-        preparation_name = data['preparation_name'].lower()
-        preparation_slug = preparation_name.replace(' ', '-')
-        obj = data['remedies_list'][0]
-        herb_name_common = obj['herb_name_common'].split(',')[0].strip()
-        herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-').replace(".", '')
-
-        image_filepath_out = f'website/images/herbal-{preparation_slug}-for-{problem_slug}-overview.jpg'
-        if not os.path.exists(image_filepath_out):
-            images_folderpath = f'C:/terrawhisper-assets/images/{preparation_slug}/{herb_name_common_slug}'
-            if os.path.exists(images_folderpath):
-                images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
-                image_filepath = random.choice(images_filepaths)
-                if image_filepath != '':
-                    util.image_variate(image_filepath, image_filepath_out)
-            else:
-                if DEBUG_REMEDY_IMG_FOLDER_MISSING: print(f'IMG FOLDER MISSING: {images_folderpath}')
-    else:
-        if DEBUG_MISS_IMG_KEY_FEATURED: print(f'MISSING KEY featured: {preparation_slug} {problem_slug}')
-
-
 def img_preparation_systems_problems_cheatsheet(data):
     title = data['title']
     problem_slug = data['problem_slug']
@@ -1349,7 +1326,6 @@ def remedies_systems_problems_preparations(preparation_slug):
                         Never repeat the same part twice and never include similar parts.
                         Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {problem_name}.
                         Write each list element using the following format: [part name]: [part description].
-                        
                     '''     
                     reply = utils_ai.gen_reply(prompt)
                     reply, error = utils_ai.reply_to_list_column(reply)
@@ -1921,13 +1897,13 @@ def gen_preparations(preparation_slug):
             util.json_write(json_filepath, data)
 
             for i, obj in enumerate(data[key][:teas_num]):
-                remedy_name = obj["herb_name_common"].strip().lower()
+                remedy_name_common = obj["herb_name_common"].strip().lower()
                 remedy_name_scientific = obj["herb_name_common"].strip().lower()
 
-                if preparation_name == 'teas': remedy_name = f'{remedy_name} tea'.replace(' tea tea', ' tea')
-                elif preparation_name == 'tinctures': remedy_name = f'{remedy_name} tincture'
-                elif preparation_name == 'capsules': remedy_name = f'{remedy_name} capsule'
-                else: remedy_name = f'{remedy_name} {preparation_name_singular}'
+                if preparation_name == 'teas': remedy_name_common = f'{remedy_name_common} tea'.replace(' tea tea', ' tea')
+                elif preparation_name == 'tinctures': remedy_name_common = f'{remedy_name_common} tincture'
+                elif preparation_name == 'capsules': remedy_name_common = f'{remedy_name_common} capsule'
+                else: remedy_name_common = f'{remedy_name_common} {preparation_name_singular}'
 
                 if 'remedy_desc':
                     key = 'remedy_desc'
@@ -1951,7 +1927,7 @@ def gen_preparations(preparation_slug):
                             util.file_append('LOG.md', f'\n\n\n\n\n{reply}\n\n\n\n\n')
                         time.sleep(g.PROMPT_DELAY_TIME)               
                     if key in obj:
-                        article_html += f'<h2>{i+1}. {remedy_name.capitalize()}</h2>\n'
+                        article_html += f'<h2>{i+1}. {remedy_name_common.capitalize()}</h2>\n'
                         article_html += f'<p>{util.text_format_1N1_html(obj[key])}</p>\n'
 
                         
@@ -1960,7 +1936,7 @@ def gen_preparations(preparation_slug):
                     # if key in obj: del obj[key]
                     if key not in obj:
                         prompt = f'''
-                            Write a numbered list of the 5 most important medicinal properties of {remedy_name} that help with {status_name}.
+                            Write a numbered list of the 5 most important medicinal properties of {remedy_name_common} that help with {status_name}.
                             For each medicinal property, explain in 1 short sentence why that property is important for {status_name} and what active constituents give that property. 
                             Write each list element using the following format: [medicinal propertie]: [property description].
                         '''
@@ -1978,13 +1954,58 @@ def gen_preparations(preparation_slug):
                         time.sleep(g.PROMPT_DELAY_TIME)
                     if key in obj:
                         constituents = obj[key]
-                        article_html += f'<p>The list below shows the primary active constituents in {herb_name_common} that aid with {status_name}.</p>\n'
+                        article_html += f'<p>The list below shows the primary active constituents in {remedy_name_common} that aid with {status_name}.</p>\n'
                         article_html += '<ul>\n'
                         for constituent in constituents:
                             chunk_1 = constituent.split(': ')[0]
                             chunk_2 = ': '.join(constituent.split(': ')[1:])
                             article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
                         article_html += '</ul>\n'
+
+
+                if 'remedy_parts':
+                    key = 'remedy_parts'
+                    # if key in obj: del obj[key]
+                    if key not in obj or obj[key] == []:
+                        prompt = f'''
+                            Write a numbered list of the most used parts of the {remedy_name_common} plant that are used to make medicinal tea for {status_name}.
+                            Reply by only selecting parts from the following list:
+                            - Roots
+                            - Rhyzomes
+                            - Stems
+                            - Leaves
+                            - Flowers
+                            - Seeds
+                            - Buds
+                            - Bark
+                            Never include aerial parts.
+                            Never repeat the same part twice and never include similar parts.
+                            Never include parts that are not used.
+                            Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {status_name}.
+                            Write each list element using the following format: [part name]: [part description].
+                        '''     
+                        reply = utils_ai.gen_reply(prompt)
+                        reply, error = utils_ai.reply_herbs_parts_to_list(reply)
+                        if error == '':
+                            print('********************************')
+                            print(reply)
+                            print('********************************')
+                            obj[key] = reply
+                            util.json_write(json_filepath, data)
+                        else:
+                            print(f'ERROR: {error}')
+                            util.file_append('LOG.md', f'\n\n\n\n\n{reply}\n\n\n\n\n')
+                        time.sleep(g.PROMPT_DELAY_TIME)
+                    if key in obj:
+                        items = obj[key]
+                        article_html += f'<p>The list below shows the primary parts of {remedy_name_common} used to make {preparation_name} for {status_name}.</p>\n'
+                        article_html += '<ul>\n'
+                        for item in items:
+                            chunk_1 = item.split(': ')[0]
+                            chunk_2 = ': '.join(item.split(': ')[1:])
+                            article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
+                        article_html += '</ul>\n'
+
 
 
         html_filepath = f'website/{g.CATEGORY_REMEDIES}/{system_slug}/{status_slug}/{preparation_slug}.html'
@@ -2033,6 +2054,49 @@ def gen_preparations(preparation_slug):
 
 
 
+def demo_gen_preparations_image(preparation_slug):
+    preparation_name = preparation_slug.replace('-', ' ').strip()
+
+    for status_row in status_rows:
+        status_exe = status_row[status_cols['status_exe']]
+        status_id = status_row[status_cols['status_id']]
+        status_slug = status_row[status_cols['status_slug']]
+        status_name = status_row[status_cols['status_names']].split(',')[0].strip()
+
+        if status_exe == '': continue
+        if status_id == '': continue
+        if status_slug == '': continue
+        if status_name == '': continue
+
+        if DEBUG_STATUS: print(f'> {status_name}')
+
+        system_row = get_system_by_status(status_id)
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        if DEBUG_STATUS: print(f'  > {system_name}')
+
+        json_filepath = f'database/json/{g.CATEGORY_REMEDIES}/{system_slug}/{status_slug}/{preparation_slug}.json'
+        if DEBUG_STATUS_JSON_FILEPATH: print(json_filepath)
+
+        util.create_folder_for_filepath(json_filepath)
+        util.json_generate_if_not_exists(json_filepath)
+        data = util.json_read(json_filepath)
+
+        # img
+        key = 'remedies_list'
+        if key in data:
+            util_image.template_remedy(data[key][0])
+        print('done')
+
+        quit()
+        
+    
 
 
 # #########################################################
@@ -5124,10 +5188,13 @@ if not 'remedies':
     remedies()
 
 
-if 'preparations':
+if not 'preparations':
     gen_preparations('teas')
     gen_preparations('tinctures')
     gen_preparations('capsules')
+
+if 'preparations':
+    demo_gen_preparations_image('teas')
 
 # if 'preparations':
 #     remedies_systems_problems_preparations('teas')

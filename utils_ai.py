@@ -145,6 +145,37 @@ def reply_to_list_column(reply):
     return [reply_formatted, '']
 
 
+
+def reply_herbs_parts_to_list(reply):
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if not line[0].isdigit(): return [reply, 'list item don\'t start with number']
+        if line[-1] != '.': return [reply, 'missing ending .']
+        
+        line = '.'.join(line.split('.')[1:]).strip()
+        if line == '': return [reply, 'missing text after number']
+
+        # if len(line.split(' ')) < 10: continue
+
+        line = line.replace('*', '')
+        line = line.replace('[', '')
+        line = line.replace(']', '')
+
+
+        if ':' not in line: return [reply, 'missing :']
+        line_chunks = line.split(':')
+        chunk_1 = line_chunks[0].split('(')[0].strip()
+        if 'aerial' in chunk_1: continue
+        chunk_2 = line_chunks[1].strip()
+        line = f'{chunk_1}: {chunk_2}'
+
+        reply_formatted.append(line)
+
+    return [reply_formatted, '']
+
+
     
 
 def reply_to_list(reply):

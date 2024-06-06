@@ -660,3 +660,329 @@ The active constituents in marshmallow capsules that give these medicinal proper
 
 
 
+
+
+
+
+
+1. Leaves: The leaves of gotu kola are commonly used to make medicinal tea for heartburn due to their anti-inflammatory and digestive properties.
+2. Stems: The stems of gotu kola contain compounds that can help reduce inflammation in the digestive tract, making them useful for treating heartburn.
+3. Rhyzomes: Gotu kola rhyzomes have been shown to improve digestion and reduce stomach acid, making them a popular choice for heartburn relief.
+4. Flowers: The flowers of gotu kola contain antioxidants that can help protect the digestive system from damage, reducing the severity of heartburn symptoms.
+
+Note: The use of gotu kola for medicinal purposes, including heartburn, should be discussed with a healthcare provider before use.
+
+
+
+
+
+
+
+
+
+1. Leaves: Contain high levels of berberine, an alkaloid known to have beneficial effects on liver health and function.
+2. Bark: Rich in berbamine, another alkaloid that has been shown to improve liver enzyme levels in cases of chronic hepatitis.
+3. Roots: Contain high concentrations of both berberine and berbamine, making them a potent addition to medicinal tea for chronic hepatitis.
+
+Note: It is important to consult with a healthcare provider before starting any new herbal remedy, as barberry tea can interact with certain medications and may not be suitable for everyone.
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of coptis chinensis are commonly used in medicinal tea for diarrhea due to their high alkaloid content, which has been shown to have anti-diarrheal effects.
+2. Rhizomes: The rhizomes of this plant are rich in berberine, a compound known for its ability to help control gut motility and alleviate diarrhea.
+3. Flowers: Although not as commonly used as the roots and rhizomes, the flowers of coptis chinensis contain flavonoids and other compounds that may help reduce inflammation in the gut and alleviate diarrhea.
+4. Seeds: The seeds of coptis chinensis contain various bioactive compounds, including alkaloids and saponins, which have been shown to have anti-diarrheal effects.
+
+Note: Aerial parts, such as stems, leaves, and buds, are not typically used in medicinal teas for diarrhea made from coptis chinensis.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of the aloe vera plant contain a gel-like substance that has anti-inflammatory properties, making it useful for soothing the inflammation associated with ulcerative colitis.
+2. Stems: The stems of the aloe vera plant contain a juice that has been shown to have anti-inflammatory and wound-healing effects, which can help to reduce symptoms of ulcerative colitis.
+3. Seeds: The seeds of the aloe vera plant contain a oil that has been shown to have anti-inflammatory effects, which can help to reduce symptoms of ulcerative colitis.
+4. Rhizomes: The rhizomes of the aloe vera plant contain a gel-like substance that has been shown to have anti-inflammatory properties, making it useful for soothing the inflammation associated with ulcerative colitis.
+
+Note: Aloe vera tea is made from the leaves of the aloe vera plant. The other parts of the plant, such as the roots, flowers, and bark, are not typically used to make medicinal tea for ulcerative colitis.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of lemon balm tea plant have calming properties that can help reduce anxiety and promote sleep.
+2. Flowers: The flowers of lemon balm tea plant contain volatile oils that have a sedative effect, making it useful for treating sleep deprivation.
+3. Stems: The stems of lemon balm tea plant contain rosmarinic acid, which has been shown to have a sleep-promoting effect.
+
+Note: Rhyzomes, roots, seeds, buds, and bark are not typically used in making medicinal tea for sleep deprivation with lemon balm tea plant.
+
+
+
+
+
+
+
+
+
+1. Flowers: Contain high levels of hypericin and hyperforin, which have been suggested to help reduce the frequency and severity of headaches.
+2. Leaves: Also contain hypericin and hyperforin, and may have anti-inflammatory and analgesic properties, which can help alleviate headache symptoms.
+3. Stems: Contain similar medicinal compounds as the flowers and leaves, and may help support the effectiveness of the tea in treating headaches.
+
+Note: Aerial parts, such as stems, should not be included in the list, as per your instructions.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of the garlic tea plant are rich in antioxidants and have been shown to help lower blood pressure.
+2. Bulbs: The bulbs, or "cloves," of the garlic tea plant are commonly used in medicinal teas for high blood pressure due to their ability to relax blood vessels and improve blood flow.
+3. Stems: The stems of the garlic tea plant, also known as "scapes," contain allicin, a compound that has been shown to have a positive effect on blood pressure.
+4. Flowers: The flowers of the garlic tea plant are rich in vitamins and minerals, and have been used traditionally to help regulate blood pressure.
+
+Note: Garlic tea plant is not a common term, I am assuming you are referring to Garlic plant (Allium sativum) which is commonly used in tea for high blood pressure.
+
+
+
+
+
+
+
+
+
+1. Flowers: German chamomile tea made from its daisy-like flowers is well-known for its anti-inflammatory properties, mainly due to the presence of the flavonoid, apigenin.
+2. Leaves: The leaves of German chamomile contain volatile oils, including alpha-bisabolol oxide A and bisabolol, which have been found to exhibit anti-inflammatory effects.
+
+Note: Aerial parts are not included as they typically refer to the above-ground parts of a plant, which may include stems, leaves, and flowers. In this case, we've selected flowers and leaves to avoid repetition.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail tea made from rhizomes is a natural diuretic that can help reduce bladder discomfort.
+2. Stems: Horsetail stems contain silica, which can help strengthen connective tissues and alleviate bladder pain.
+3. Leaves: Horsetail leaves have anti-inflammatory properties that can soothe irritated bladder tissues.
+
+Note: Aerial parts, such as flowers, seeds, buds, and bark, are not typically used in horsetail tea for bladder pain.
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of the licorice tea plant contain compounds that help lower cholesterol levels by increasing bile production and reducing cholesterol absorption in the gut.
+2. Seeds: The seeds of the licorice tea plant are rich in flavonoids, which have been shown to help reduce LDL (bad) cholesterol levels and increase HDL (good) cholesterol levels.
+3. Leaves: The leaves of the licorice tea plant contain glycyrrhizin, a compound that has been shown to help lower cholesterol levels by reducing cholesterol synthesis in the liver.
+
+Note: It is important to consult with a healthcare provider before using licorice tea or any other herbal remedy for high cholesterol, as it can interact with certain medications and may have side effects.
+
+
+
+
+
+
+
+
+
+1. Leaves: Rich in menthol and menthone, the leaves help to freshen breath and have antimicrobial properties.
+2. Flowers: Contain high amounts of essential oils, which can help to eliminate bad breath caused by bacteria.
+3. Seeds: Packed with antioxidants and have anti-inflammatory properties, making them useful for improving oral health.
+4. Stems: Can help to soothe digestive issues, which can contribute to bad breath.
+
+Please note that while all these parts can be used to make medicinal tea, it's important to consult with a healthcare professional before using any herbal remedies.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of gotu kola are commonly used to make medicinal tea for oral thrush due to their anti-inflammatory and antifungal properties.
+2. Stems: The stems of gotu kola contain compounds that have been shown to have antimicrobial and antiviral properties, making them useful for treating oral thrush.
+3. Rhizomes: Gotu kola rhizomes are rich in triterpenoid saponins, which have been shown to have immunomodulatory and anti-inflammatory effects, making them useful for treating oral thrush.
+
+Note: Aerial parts, such as the flowers and seeds, are not typically used in the preparation of medicinal teas for oral thrush.
+
+
+
+
+
+
+
+
+
+1. Flowers: Rich in antioxidants and anti-inflammatory properties, making them effective in soothing throat pain.
+2. Leaves: Contain mucilage, which helps to coat and protect the throat, providing relief from pain and irritation.
+3. Aerial parts (excluding stems and bark): Used to create a soothing infusion that helps reduce inflammation and alleviate throat pain.
+
+Note: Aerial parts refer to the above-ground parts of the plant, excluding stems and bark. In this context, aerial parts of the cowslip tincture plant typically include leaves, flowers, and buds. These parts are often used together to make medicinal tea for throat pain due to their combined soothing and anti-inflammatory effects.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of the aloe vera plant contain a gel-like substance that is rich in compounds with anti-inflammatory and wound-healing properties, making it useful for soothing irritation and promoting healing in the digestive tract caused by peptic ulcers.
+2. Stems: The stems of the aloe vera plant contain a bitter sap that has been shown to have anti-ulcer effects, making it useful for treating peptic ulcers.
+3. Seeds: The seeds of the aloe vera plant contain high levels of antioxidants that can help protect the digestive tract from damage caused by free radicals and inflammation, making it useful for preventing and treating peptic ulcers.
+
+Note: Aloe vera tincture is usually made from the leaves of the plant, and it's important to note that the use of aloe vera for medicinal purposes should be under the guidance of a healthcare professional. Also, it's important to use decolorized and defatted aloe vera to avoid any potential side effects.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of the coca plant are used to make medicinal tea for vomiting due to their ability to alleviate digestive issues.
+2. Bark: The bark of the coca plant is used in medicinal tea for vomiting because of its anti-inflammatory and pain-relieving properties.
+3. Stems: The stems of the coca plant are used in medicinal tea for vomiting as they contain alkaloids that help regulate the digestive system.
+
+Note: Aerial parts refer to the above-ground parts of a plant, including leaves, stems, and flowers.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: The rhizomes of turmeric contain curcumin, which is known to have anti-inflammatory and antioxidant properties that can help improve liver function and reduce jaundice symptoms.
+2. Leaves: The leaves of turmeric contain several beneficial compounds, including curcumin and other curcuminoids, which have been shown to have hepatoprotective effects, making them useful for treating jaundice.
+3. Roots: The roots of turmeric are rich in curcumin and other compounds that have anti-inflammatory and antioxidant properties, which can help protect the liver and reduce the symptoms of jaundice.
+
+Note: It's important to consult with a healthcare professional before starting any new treatment or therapy.
+
+
+
+
+
+
+
+
+
+1. Roots: Contain the highest concentration of andrographolides, the active compounds with potential anti-jaundice properties.
+2. Leaves: Rich in anti-inflammatory and antioxidant properties, helping to support liver function in jaundice treatment.
+3. Stems: Contain andrographolides, which may help improve bile secretion and reduce jaundice symptoms.
+
+Note: Aerial parts, such as flowers, seeds, buds, and bark, are not typically used in making medicinal tea for jaundice with andrographis tincture.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of the aloe vera plant contain a gel-like substance that is a natural laxative and can help relieve constipation.
+2. Seeds: The seeds of the aloe vera plant are sometimes used to make a laxative tea due to their high fiber content.
+3. Stems: The stems of the aloe vera plant contain latex, a sticky yellow substance that can be used as a laxative to treat constipation.
+
+Note: It's important to note that while aloe vera is a natural remedy, it can have side effects and interact with certain medications. It's always best to consult with a healthcare provider before starting any new treatment.
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of Coptis chinensis are commonly used to make medicinal tea for diarrhea due to their high alkaloid content, which has been shown to have anti-diarrheal effects.
+2. Rhizomes: The rhizomes of this plant are rich in berberine, a compound known for its ability to help control intestinal spasms and reduce the frequency of diarrhea.
+3. Flowers: Although not as potent as the roots or rhizomes, the flowers of Coptis chinensis contain beneficial compounds that can help alleviate diarrhea symptoms.
+
+Note: Stems, leaves, seeds, buds, and bark are not typically used to make medicinal tea for diarrhea with Coptis chinensis.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of gotu kola are used to make medicinal tea for ulcerative colitis due to their anti-inflammatory properties, which can help reduce inflammation in the digestive tract.
+2. Rhizomes: Gotu kola rhizomes are used in tea for ulcerative colitis because they contain triterpenoid saponins, which have been shown to have wound-healing effects and may help repair damaged intestinal tissue.
+3. Stems: The stems of gotu kola contain asiaticoside, which has been shown to have anti-ulcerative effects, making it useful for treating ulcerative colitis.
+
+Note: Aerial parts, such as the above-ground stems and leaves, are often used interchangeably and can be used to make medicinal tea for ulcerative colitis. However, for the purposes of this question, I have only included the leaves and stems (as rhizomes) as separate parts.
+
+
+
+
+
+
+
+
+
+1. Flowers: Contain high levels of hypericin and hyperforin, which have anti-inflammatory properties beneficial for treating ulcerative colitis.
+2. Leaves: Rich in tannins and flavonoids, helping reduce inflammation and soothe irritated intestinal tissue.
+3. Stems: Contain active compounds, such as hypericin and hyperforin, that help regulate the immune response and reduce inflammation.
+
+Note: St. John's Wort roots, rhizomes, seeds, buds, and bark are not typically used in making medicinal tea for ulcerative colitis.
+
+
+
+
+
+
+
+
+
+1. Flowers: Rich in anti-inflammatory compounds, St. John's Wort flowers help soothe and reduce hemorrhoid-related inflammation.
+2. Leaves: High in tannins, St. John's Wort leaves aid in constricting and healing irritated tissue caused by hemorrhoids.
+3. Aerial parts (excluding stems): Containing hypericin and hyperforin, St. John's Wort aerial parts (consisting of leaves, buds, and sometimes small amounts of stems) provide pain relief and promote wound healing for hemorrhoids.
+
+Please note that the aerial parts mentioned above exclude stems, as they are not typically used in making medicinal tea for hemorrhoids.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of lemon balm are rich in rosmarinic acid, which has been shown to have anti-inflammatory and analgesic properties, making it effective for treating headaches.
+2. Flowers: The flowers of lemon balm contain flavonoids and essential oils that have relaxing and calming effects, which can help alleviate tension headaches.
+3. Stems: The stems of lemon balm contain tannins and bitters, which can help reduce inflammation and improve digestion, both of which can contribute to headache relief.
+
+Note: Aerial parts are not included in this list as they are not a specific part of the plant.
+
+
+
+

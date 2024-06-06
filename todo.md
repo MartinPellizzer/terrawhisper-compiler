@@ -1,6 +1,9 @@
 - !!! simulator for herbalism_tea redirect to duplicate pages with no redirect
     - check if tea pages has redirect in meta tag and if that redirect point to existing page
 
+- clean (delete) htmls in remedies>>preparations if path (system and status) not it csv status
+- create temp images (black minimalist infographics) for preparation list
+
 - metadata for articles fix layout
 - homepage grid mobile
 - more conditions
