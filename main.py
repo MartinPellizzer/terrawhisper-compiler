@@ -127,7 +127,7 @@ ART_ITEMS_NUM = 10
 
 # DEBUG
 
-DEBUG_REMEDY_IMG_FOLDER_MISSING = 0
+DEBUG_REMEDY_IMG_FOLDER_MISSING = 1
 DEBUG_MISS_IMG_KEY_FEATURED = 0
 DEBUG_MISS_IMG_KEY_LST = 0
 DEBUG_MISS_REMEDY_DESC = 0
@@ -1677,9 +1677,26 @@ def gen_preparations(preparation_slug):
             article_html += f'<h1>{title}</h1>\n'
 
         if 'featured_img':
-            src = f'/images/herbal-{preparation_slug}-for-{status_slug}-overview.jpg'
-            alt = f'herbal {preparation_name} for {status_name} overview.jpg'
-            article_html += f'<p><img src="{src}" alt="{alt}"></p>\n'
+            if 'remedies_list' in data:
+                obj = data['remedies_list'][0]
+                herb_slug = obj['herb_slug'].split(',')[0].strip()
+
+                image_filepath_out = f'website/images/herbal-{preparation_slug}-for-{status_slug}-overview.jpg'
+                if not os.path.exists(image_filepath_out):
+                    images_folderpath = f'C:/terrawhisper-assets/images/{preparation_slug}/{herb_slug}'
+                    if os.path.exists(images_folderpath):
+                        images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
+                        image_filepath = random.choice(images_filepaths)
+                        if image_filepath != '':
+                            util.image_variate(image_filepath, image_filepath_out)
+                    else:
+                        if DEBUG_REMEDY_IMG_FOLDER_MISSING: print(f'IMG FOLDER MISSING: {images_folderpath}')
+                if os.path.exists(image_filepath_out):
+                    src = f'/images/herbal-{preparation_slug}-for-{status_slug}-overview.jpg'
+                    alt = f'herbal {preparation_name} for {status_name} overview'
+                    article_html += f'<p><img src="{src}" alt="{alt}"></p>\n'
+            else:
+                if DEBUG_MISS_IMG_KEY_FEATURED: print(f'MISSING KEY "featured": {preparation_slug} {status_slug}')
 
         if 'intro':
             key = 'intro_desc'
