@@ -22,7 +22,7 @@ import g
 
 random_num = random.randint(-2, 2)
 ARTICLES_NUM = 35 - random_num
-WAIT_SECONDS = 300
+WAIT_SECONDS = 600
 NUM_TINCTURES = 8
 
 options = Options()

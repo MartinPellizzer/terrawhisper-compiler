@@ -36,8 +36,8 @@ def image_template_causes(image_filepath_out, data):
     img = Image.new(mode="RGB", size=(img_w, img_h), color=c_dark)
     draw = ImageDraw.Draw(img)
     
-    problem_name = data['problem_name']
-    text = f'{problem_name.upper()} CAUSES'
+    status_name = data['status_name']
+    text = f'{status_name.upper()} CAUSES'
     font_size = 20
     font = ImageFont.truetype("assets/fonts/arial/ARIALBD.TTF", font_size)
     _, _, text_w, text_h = font.getbbox(text)
@@ -229,7 +229,6 @@ def image_template_herbs(image_filepath_out, data):
     img.save(image_filepath_out, quality=50) 
 
 
-
 def image_template_preparations(image_filepath_out, data):
     img_w, img_h = 768, 512
     px = 48
@@ -238,8 +237,8 @@ def image_template_preparations(image_filepath_out, data):
     img = Image.new(mode="RGB", size=(img_w, img_h), color=c_dark)
     draw = ImageDraw.Draw(img)
   
-    problem_name = data['problem_name']
-    text = f'HERBAL PREPARATIONS FOR {problem_name.upper()}'
+    status_name = data['status_name']
+    text = f'HERBAL PREPARATIONS FOR {status_name.upper()}'
     font_size = 20
     font = ImageFont.truetype("assets/fonts/arial/ARIALBD.TTF", font_size)
     _, _, text_w, text_h = font.getbbox(text)
@@ -423,21 +422,40 @@ def image_template_preparations(image_filepath_out, data):
 
 
 
-def template_remedy(obj):
+def template_remedy(image_filepath_out, obj, preparation_name):
     img_w, img_h = 768, 512
+    img_padding_x = 80
     y = 0
 
     img = Image.new(mode="RGB", size=(img_w, img_h), color=c_dark)
     draw = ImageDraw.Draw(img)
 
     herb_name_common = obj['herb_name_common']
-    text = f'{herb_name_common} tea'.upper()
+    text = f'{herb_name_common} {preparation_name}'.upper()
+    # text = f'Eastern purple coneflower tea'.upper()
     font_size = 48
     font = ImageFont.truetype("assets/fonts/arial/ARIALBD.TTF", font_size)
-    _, _, text_w, text_h = font.getbbox(text)
-    x = img_w//2 - text_w//2
+
+    words = text.split(' ')
+    lines = []
+    line_curr = ''
+    for word in words:
+        _, _, line_w, _ = font.getbbox(line_curr)
+        _, _, word_w, _ = font.getbbox(word)
+        if line_w + word_w < img_w - img_padding_x:
+            line_curr += f'{word} '
+        else:
+            lines.append(line_curr)
+            line_curr = f'{word} '
+    if line_curr != '':
+        lines.append(line_curr)
+
     y += 50
-    draw.text((x, y), text, c_holy, font=font)
+    for i, line in enumerate(lines):
+        _, _, line_w, _ = font.getbbox(line)
+        x = img_w//2 - line_w//2
+        y += font_size*i*1.0
+        draw.text((x, y), line, c_holy, font=font)
 
     herb_name_scientific = obj['herb_name_scientific']
     text = f'({herb_name_scientific})'
@@ -519,6 +537,6 @@ def template_remedy(obj):
 
 
 
-
-
-    img.show()
+    img.save(image_filepath_out, quality=50)
+    # img.show()
+    # quit()

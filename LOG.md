@@ -986,3 +986,159 @@ Note: Aerial parts are not included in this list as they are not a specific part
 
 
 
+
+
+
+
+
+1. Leaves: The leaves of the common barberry tea plant are rich in berberine, a compound known to have liver-protecting properties, making it useful for managing chronic hepatitis.
+2. Bark: The bark of the plant contains alkaloids that have been shown to have beneficial effects on liver health, making it a suitable addition to medicinal teas for chronic hepatitis.
+3. Rhyzomes: The rhyzomes of the common barberry tea plant contain various bioactive compounds, including berberine, that have been shown to have hepatoprotective effects, making them useful for managing chronic liver diseases.
+
+Note: Aerial parts, such as stems, flowers, seeds, buds, and other above-ground plant parts, are not typically used in making medicinal teas for chronic hepatitis.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of the aloe vera plant contain a gel-like substance that has been shown to have anti-inflammatory and wound-healing properties, making it useful for soothing and healing the mucosal lining of the stomach in cases of peptic ulcers.
+2. Stems: The stems of the aloe vera plant contain a bitter sap that has been used traditionally to treat digestive complaints, including peptic ulcers, due to its ability to stimulate digestive juices and protect the stomach lining.
+3. Roots: While not as commonly used as the leaves or stems, the roots of the aloe vera plant contain compounds that have been shown to have anti-inflammatory and antibacterial properties, making them a potential addition to medicinal teas for peptic ulcers.
+
+Note: It's important to note that while aloe vera has been used traditionally to treat a variety of ailments, including peptic ulcers, more research is needed to fully understand its efficacy and safety. Always consult with a healthcare provider before starting any new treatment regimen.
+
+
+
+
+
+
+
+
+
+1. Flowers: Contain high levels of hypericin and hyperforin, which have anti-inflammatory properties.
+2. Leaves: Rich in flavonoids and tannins, which have been shown to reduce inflammation.
+3. Buds: High in essential oils, which have anti-inflammatory and pain-relieving effects.
+4. Stems: Contain phenolic compounds, which have been found to have anti-inflammatory effects.
+
+Note: The aerial parts of St. John's Wort, including the stems, leaves, and flowers, are typically used to make medicinal tea for inflammation. The roots, rhizomes, seeds, buds, and bark are not commonly used for this purpose.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: The underground stem of horsetail contains high levels of silica and antioxidants, making it effective in reducing inflammation and histamine production, thus alleviating allergy symptoms.
+2. Leaves: The leaves of horsetail are rich in flavonoids and other compounds that have natural antihistamine properties, helping to soothe allergic reactions.
+3. Stems: The stems of horsetail contain a variety of beneficial compounds, including saponins and tannins, which can help reduce inflammation and irritation associated with allergies.
+
+Note: Aerial parts are not included as they are not typically used in medicinal teas for allergies.
+
+
+
+
+
+
+
+
+
+1. Flowers: Rich in mucilage, cowslip flowers help soothe irritated mucous membranes and reduce chest congestion.
+2. Leaves: Containing saponins, cowslip leaves can help loosen phlegm and ease expectoration.
+3. Aerial parts: Occasionally used, aerial parts of cowslip may have mild anti-inflammatory properties, which can help alleviate chest congestion.
+
+Please note that while aerial parts may be used occasionally, the primary medicinal value comes from the flowers and leaves. Additionally, it's essential to consult a healthcare professional before using any herbal remedies.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: These are underground stem systems that are often used in medicinal teas for gas in the stomach due to their ability to help with digestion and reduce inflammation.
+2. Leaves: The leaves of the lemongrass plant are often used in teas for gas in the stomach because they contain citral, a compound that has been shown to have anti-inflammatory and antimicrobial properties.
+3. Seeds: Lemongrass seeds contain essential oils that have been used in traditional medicine to help with digestion and reduce bloating and gas.
+
+Note: Aerial parts refer to the above-ground parts of a plant, such as the stems and leaves. I have only included underground and seed parts in this list, as per your instructions.
+
+
+
+
+
+
+
+
+
+1. Seeds: The seeds of the milk thistle plant are the most commonly used part for making medicinal tea for hangovers. They contain a flavonoid called silymarin, which is believed to help protect the liver and aid in detoxification.
+2. Leaves: The leaves of the milk thistle plant are also used in medicinal teas for hangovers. They are a good source of antioxidants, which can help to reduce inflammation and support liver function.
+3. Flowers: The flowers of the milk thistle plant are occasionally used in medicinal teas for hangovers. They contain high levels of antioxidants and may help to support liver function and detoxification.
+
+Note: It's important to consult with a healthcare provider before using milk thistle or any other herbal remedy for a hangover or any other health condition.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of gotu kola are used to make medicinal tea for ulcerative colitis due to their anti-inflammatory and wound-healing properties.
+2. Rhizomes: Gotu kola rhizomes are rich in triterpenoid saponins, which have been shown to have a protective effect on the gastrointestinal tract, making them useful for treating ulcerative colitis.
+3. Stems: The stems of gotu kola contain asiaticoside, which has been shown to have anti-ulcerative properties, making them a valuable addition to medicinal tea for ulcerative colitis.
+4. Flowers: Gotu kola flowers contain flavonoids, which have antioxidant and anti-inflammatory properties, making them useful for reducing inflammation in the colon.
+
+Note: The use of gotu kola for medicinal purposes should be done under the guidance of a healthcare professional, as it can interact with certain medications and have side effects. Additionally, it is important to use high-quality, properly identified and sourced gotu kola for medicinal purposes.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: The underground stem of the horsetail plant contains the highest concentration of nutrients and antioxidants, making it ideal for treating acne.
+2. Leaves: The leaves of the horsetail plant are rich in silica, which can help to reduce inflammation and promote healing of acne lesions.
+3. Stems: The stems of the horsetail plant contain high levels of flavonoids, which have anti-inflammatory and antioxidant properties that can help to reduce the redness and swelling associated with acne.
+
+Note: The other parts of the horsetail plant, such as the roots, flowers, seeds, buds, and bark, are not typically used to make medicinal tea for acne.
+
+
+
+
+
+
+
+
+
+1. Flowers: Contain high levels of hypericin and hyperforin, which have been shown to help lower LDL (bad) cholesterol levels.
+2. Leaves: Rich in antioxidants and hypericin, which may help reduce cholesterol absorption and increase HDL (good) cholesterol.
+3. Stems: Contain beneficial compounds that may contribute to the overall cholesterol-lowering effect of St. John's wort tea.
+
+Note: Aerial parts should not be included in the list, as they are not used in making medicinal tea for high cholesterol.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of gotu kola are used to make medicinal tea for ulcerative colitis due to their anti-inflammatory and wound-healing properties.
+2. Stems: The stems of gotu kola contain compounds that can help reduce inflammation in the digestive tract, making them useful for treating ulcerative colitis.
+3. Rhizomes: Gotu kola rhizomes are rich in antioxidants that can help protect the digestive tract from damage caused by ulcerative colitis.
+
+Note: Aerial parts refer to the above-ground parts of the plant, such as the stems, leaves, and flowers. They are not included in this list as only specific parts of the gotu kola plant are used to make medicinal tea for ulcerative colitis.
+
+
+
+

@@ -1675,6 +1675,7 @@ def gen_preparations(preparation_slug):
                 if DEBUG_MISS_IMG_KEY_FEATURED: print(f'MISSING KEY "featured": {preparation_slug} {status_slug}')
 
         if 'intro':
+
             key = 'intro_desc'
             if key not in data:
                 prompt = f'''
@@ -1931,6 +1932,18 @@ def gen_preparations(preparation_slug):
                         article_html += f'<p>{util.text_format_1N1_html(obj[key])}</p>\n'
 
                         
+                # img
+                if 'remedy_image':
+                    if 'remedy_properties' in obj and 'remedy_parts' in obj:
+                        image_filepath_out = f'website/images/herbal-{preparation_name}-for-{status_slug}-{remedy_name_common}.jpg'
+                        image_filepath_web = f'/images/herbal-{preparation_name}-for-{status_slug}-{remedy_name_common}.jpg'
+                        if not os.path.exists(image_filepath_out): 
+                        # if True: 
+                            util_image.template_remedy(image_filepath_out, obj, preparation_name)
+                            # util_image.image_template_herbs(image_filepath_out, data)
+                        article_html += f'<p><img src="{image_filepath_web}" alt="{status_slug} herbs"></p>'
+                    
+
                 if 'remedy_properties':
                     key = 'remedy_properties'
                     # if key in obj: del obj[key]
@@ -2007,6 +2020,37 @@ def gen_preparations(preparation_slug):
                         article_html += '</ul>\n'
 
 
+                if 'remedy_recipe':
+                    key = 'remedy_recipe'
+                    # if key in obj: del obj[key]
+                    if key not in obj or obj[key] == []:
+                        prompt = f'''
+                            Write a 5-step procedure in list format to make herbal {remedy_name_common} for {status_name}.
+                            Include ingredients dosages and preparations times.
+                            Write only 1 sentence for each step.
+                            Start each step in the list with an action verb.
+                            Don't include optional steps.
+                            
+                        '''  
+                        reply = utils_ai.gen_reply(prompt)
+                        reply, error = utils_ai.reply_to_list_01(reply)
+                        if error == '' and len(reply) == 5:
+                            print('********************************')
+                            print(reply)
+                            print('********************************')
+                            obj[key] = reply
+                            util.json_write(json_filepath, data)
+                        else:
+                            print(f'ERROR: {error}')
+                            util.file_append('LOG.md', f'\n\n\n\n\n{reply}\n\n\n\n\n')
+                        time.sleep(g.PROMPT_DELAY_TIME)
+                    if key in obj:
+                        recipe = obj[key]
+                        article_html += f'<p>The following recipe gives a procedure to make a basic {remedy_name_common} for {status_name}.</p>\n'
+                        article_html += '<ol>\n'
+                        for step in recipe:
+                            article_html += f'<li>{step}</li>\n'
+                        article_html += '</ol>\n'
 
         html_filepath = f'website/{g.CATEGORY_REMEDIES}/{system_slug}/{status_slug}/{preparation_slug}.html'
 
@@ -2054,7 +2098,7 @@ def gen_preparations(preparation_slug):
 
 
 
-def demo_gen_preparations_image(preparation_slug):
+def demo_gen_preparations_image(image_filepath_out, preparation_slug):
     preparation_name = preparation_slug.replace('-', ' ').strip()
 
     for status_row in status_rows:
@@ -4546,6 +4590,85 @@ def remedies_systems_problems_new():
                 article_html += f'<h2>What is {status_name} and how it affects your life?</h2>\n'
                 article_html += f'{util.text_format_1N1_html(data[key])}\n'
 
+        if 'causes':
+            key = 'causes_desc'
+            if key not in data:
+                prompt = f'''
+                    Write 1 paragraph explaining what are the main causes of {status_name}.
+                    Start the reply with the following words: The main causes of {status_name} are .
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                lines = reply.split('\n')
+                lines_formatted = []
+                for line in lines:
+                    line = line.strip()
+                    if line == '': continue
+                    if line[0].isdigit(): continue
+                    if ':' in line: continue
+                    lines_formatted.append(line)
+                if len(lines_formatted) == 1:
+                    print('***************************************')
+                    print(lines_formatted[0])
+                    print('***************************************')
+                    data[key] = lines_formatted[0]
+                    util.json_write(json_filepath, data)
+                time.sleep(g.PROMPT_DELAY_TIME)
+            if key in data:
+                article_html += f'<h2>What are the main causes of {status_name}?</h2>\n'
+                article_html += f'{util.text_format_1N1_html(data["causes_desc"])}\n'
+
+            # img
+            key = 'causes_list'
+            if key in data:
+                image_filepath_out = f'website/images/{status_slug}-causes.jpg'
+                image_filepath_web = f'/images/{status_slug}-causes.jpg'
+                if not os.path.exists(image_filepath_out): 
+                # if True: 
+                    util_image.image_template_causes(image_filepath_out, data)
+                article_html += f'<p><img src="{image_filepath_web}" alt="{status_name} causes"></p>'
+
+            key = 'causes_list'
+            if key not in data:
+                causes_num = 10
+                prompt = f'''
+                    Write a numbered list of the {causes_num} most common causes of {status_name}.
+                    Include a short description for each cause.
+                    Reply with the following format: [cause name]: [description]. 
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                lines = reply.split('\n')
+                lines_formatted = []
+                for line in lines:
+                    line = line.strip()
+                    if line == '': continue
+                    line = line.replace('*', '')
+                    line = line.replace('[', '')
+                    line = line.replace(']', '')
+                    if 'http' in line: continue
+                    if not line[0].isdigit(): continue
+                    if '.' not in line: continue
+                    if ':' not in line: continue
+                    line = '.'.join(line.split('.')[1:])
+                    line = line.strip()
+                    if line == '': continue
+                    lines_formatted.append(line)
+                if len(lines_formatted) == causes_num:
+                    print('***************************************')
+                    print(lines_formatted)
+                    print('***************************************')
+                    data[key] = lines_formatted
+                    util.json_write(json_filepath, data)
+                time.sleep(g.PROMPT_DELAY_TIME)
+            if key in data:
+                article_html += f'<p>The most common causes of {status_name} are listed below.</p>\n'
+                article_html += f'<ul>\n'
+                for item in data['causes_list']:
+                    chunks = item.split(':')
+                    chunk_1 = f'<strong>{chunks[0]}</strong>\n'
+                    chunk_2 = ':'.join(chunks[1:])
+                    article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
+                article_html += f'</ul>\n'
+
         if 'herbs':
             herbs_rows_filtered = csv_get_herbs_auto_by_status(status_id)
 
@@ -4690,14 +4813,14 @@ def remedies_systems_problems_new():
                 article_html += f'{util.text_format_1N1_html(data[key])}\n'
                 
             # img
-            key = 'causes_list'
+            key = 'preparations_list'
             if key in data:
-                image_filepath_out = f'website/images/{problem_slug}-causes.jpg'
-                image_filepath_web = f'/images/{problem_slug}-causes.jpg'
+                image_filepath_out = f'website/images/{status_slug}-preparations.jpg'
+                image_filepath_web = f'/images/{status_slug}-preparations.jpg'
                 if not os.path.exists(image_filepath_out): 
                 # if True: 
-                    util_image.image_template_causes(image_filepath_out, data)
-                article_html += f'<p><img src="{image_filepath_web}" alt="{problem_name} causes"></p>'
+                    util_image.image_template_preparations(image_filepath_out, data)
+                article_html += f'<p><img src="{image_filepath_web}" alt="{status_name} herbs"></p>'
 
             key = 'preparations_list'
             if key not in data:
@@ -4749,13 +4872,70 @@ def remedies_systems_problems_new():
                         chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/teas.html">{chunk_1}</a></strong>'
                     elif chunk_1.lower().strip() == 'tinctures':
                         chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/tinctures.html">{chunk_1}</a></strong>'
-                    # elif chunk_1.lower().strip() == 'capsules':
-                    #     chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/capsules.html">{chunk_1}</a></strong>'
+                    elif chunk_1.lower().strip() == 'capsules':
+                        chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/capsules.html">{chunk_1}</a></strong>'
                     else:
                         chunk_1 = f'<strong>{chunk_1}</strong>'
                     article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
                 article_html += f'</ul>\n'
 
+        if 'precautions':
+            key = 'precautions_desc'
+            if key not in data:
+                prompt = f'''
+                    Write 1 paragraph about the precautions to take when using herbal remedies for {status_name}.
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                reply = utils_ai.reply_to_paragraphs(reply)
+                print(len(reply))
+                if len(reply) == 1:
+                    print('*******************************************')
+                    print(reply)
+                    print('*******************************************')
+                    data[key] = reply[0]
+                    util.json_write(json_filepath, data)
+                time.sleep(g.PROMPT_DELAY_TIME)
+            if key in data:
+                article_html += f'<h2>What precautions to take when using herbal remedies for {status_name}?</h2>\n'
+                article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+            key = 'precautions_list'
+            if key not in data:
+                prompt = f'''
+                    Write a numbered list of precautions to take when using herbal remedies for {status_name}.
+                    Start each precaution with an action verb.
+                    Don't use the character ":".
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                lines = reply.split('\n')
+                lines_formatted = []
+                for line in lines:
+                    line = line.strip()
+                    if line == '': continue
+                    line = line.replace('*', '')
+                    line = line.replace('[', '')
+                    line = line.replace(']', '')
+                    if not line[0].isdigit(): continue
+                    if '.' not in line: continue
+                    if ':' in line: continue
+                    line = '.'.join(line.split('.')[1:])
+                    line = line.strip()
+                    if line == '': continue
+                    lines_formatted.append(line)
+                print(len(lines_formatted))
+                if len(lines_formatted) >= 4:
+                    print('***************************************')
+                    print(lines_formatted)
+                    print('***************************************')
+                    data[key] = lines_formatted
+                    util.json_write(json_filepath, data)
+                time.sleep(g.PROMPT_DELAY_TIME)
+            if key in data:
+                article_html += f'<p>The most important precautions to take when using herbal remedies for {status_name} are listed below.</p>\n'
+                article_html += f'<ul>\n'
+                for item in data['precautions_list']:
+                    article_html += f'<li>{item}</li>\n'
+                article_html += f'</ul>\n'
 
 
 
@@ -4804,144 +4984,7 @@ def remedies_systems_problems_new():
 
         continue
 
-        if 'causes':
-            key = 'causes_desc'
-            if key not in data:
-                prompt = f'''
-                    Write 1 paragraph explaining what are the main causes of {problem_name}.
-                    Start the reply with the following words: The main causes of {problem_name} are .
-                '''
-                reply = utils_ai.gen_reply(prompt)
-                lines = reply.split('\n')
-                lines_formatted = []
-                for line in lines:
-                    line = line.strip()
-                    if line == '': continue
-                    if line[0].isdigit(): continue
-                    if ':' in line: continue
-                    lines_formatted.append(line)
-                if len(lines_formatted) == 1:
-                    print('***************************************')
-                    print(lines_formatted[0])
-                    print('***************************************')
-                    data[key] = lines_formatted[0]
-                    util.json_write(json_filepath, data)
-                time.sleep(g.PROMPT_DELAY_TIME)
-            if key in data:
-                article_html += f'<h2>What are the main causes of {problem_name}?</h2>\n'
-                article_html += f'{util.text_format_1N1_html(data["causes_desc"])}\n'
-
-            # img
-            key = 'causes_list'
-            if key in data:
-                image_filepath_out = f'website/images/{problem_slug}-causes.jpg'
-                image_filepath_web = f'/images/{problem_slug}-causes.jpg'
-                if not os.path.exists(image_filepath_out): 
-                # if True: 
-                    util_image.image_template_causes(image_filepath_out, data)
-                article_html += f'<p><img src="{image_filepath_web}" alt="{problem_name} causes"></p>'
-
-            key = 'causes_list'
-            if key not in data:
-                causes_num = 10
-                prompt = f'''
-                    Write a numbered list of the {causes_num} most common causes of {problem_name}.
-                    Include a short description for each cause.
-                    Reply with the following format: [cause name]: [description]. 
-                '''
-                reply = utils_ai.gen_reply(prompt)
-                lines = reply.split('\n')
-                lines_formatted = []
-                for line in lines:
-                    line = line.strip()
-                    if line == '': continue
-                    line = line.replace('*', '')
-                    line = line.replace('[', '')
-                    line = line.replace(']', '')
-                    if not line[0].isdigit(): continue
-                    if '.' not in line: continue
-                    if ':' not in line: continue
-                    line = '.'.join(line.split('.')[1:])
-                    line = line.strip()
-                    if line == '': continue
-                    lines_formatted.append(line)
-                if len(lines_formatted) == causes_num:
-                    print('***************************************')
-                    print(lines_formatted)
-                    print('***************************************')
-                    data[key] = lines_formatted
-                    util.json_write(json_filepath, data)
-                time.sleep(g.PROMPT_DELAY_TIME)
-            if key in data:
-                article_html += f'<p>The most common causes of {problem_name} are listed below.</p>\n'
-                article_html += f'<ul>\n'
-                for item in data['causes_list']:
-                    chunks = item.split(':')
-                    chunk_1 = f'<strong>{chunks[0]}</strong>\n'
-                    chunk_2 = ':'.join(chunks[1:])
-                    article_html += f'<li>{chunk_1}: {chunk_2}</li>\n'
-                article_html += f'</ul>\n'
-
-
-            
-
-        if 'precautions':
-            key = 'precautions_desc'
-            if key not in data:
-                prompt = f'''
-                    Write 1 paragraph about the precautions to take when using herbal remedies for {problem_name}.
-                '''
-                reply = utils_ai.gen_reply(prompt)
-                reply = utils_ai.reply_to_paragraphs(reply)
-                print(len(reply))
-                if len(reply) == 1:
-                    print('*******************************************')
-                    print(reply)
-                    print('*******************************************')
-                    data[key] = reply[0]
-                    util.json_write(json_filepath, data)
-                time.sleep(g.PROMPT_DELAY_TIME)
-            if key in data:
-                article_html += f'<h2>What precautions to take when using herbal remedies for {problem_name}?</h2>\n'
-                article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-            key = 'precautions_list'
-            if key not in data:
-                prompt = f'''
-                    Write a numbered list of precautions to take when using herbal remedies for {problem_name}.
-                    Start each precaution with an action verb.
-                    Don't use the character ":".
-                '''
-                reply = utils_ai.gen_reply(prompt)
-                lines = reply.split('\n')
-                lines_formatted = []
-                for line in lines:
-                    line = line.strip()
-                    if line == '': continue
-                    line = line.replace('*', '')
-                    line = line.replace('[', '')
-                    line = line.replace(']', '')
-                    if not line[0].isdigit(): continue
-                    if '.' not in line: continue
-                    if ':' in line: continue
-                    line = '.'.join(line.split('.')[1:])
-                    line = line.strip()
-                    if line == '': continue
-                    lines_formatted.append(line)
-                print(len(lines_formatted))
-                if len(lines_formatted) >= 4:
-                    print('***************************************')
-                    print(lines_formatted)
-                    print('***************************************')
-                    data[key] = lines_formatted
-                    util.json_write(json_filepath, data)
-                time.sleep(g.PROMPT_DELAY_TIME)
-            if key in data:
-                article_html += f'<p>The most important precautions to take when using herbal remedies for {problem_name} are listed below.</p>\n'
-                article_html += f'<ul>\n'
-                for item in data['precautions_list']:
-                    article_html += f'<li>{item}</li>\n'
-                article_html += f'</ul>\n'
+        
         
         if 'other_remedies':
             key = 'other_remedies_desc'
@@ -5182,19 +5225,17 @@ page_home()
 #     remedies_systems()
 #     remedies()
 
-if not 'remedies':
+if 'remedies':
     remedies_systems_problems_new()
     remedies_systems_new()
     remedies()
 
 
-if not 'preparations':
+if 'preparations':
     gen_preparations('teas')
     gen_preparations('tinctures')
     gen_preparations('capsules')
 
-if 'preparations':
-    demo_gen_preparations_image('teas')
 
 # if 'preparations':
 #     remedies_systems_problems_preparations('teas')
