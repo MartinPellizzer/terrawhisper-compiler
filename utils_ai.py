@@ -3,7 +3,9 @@ from ctransformers import AutoModelForCausalLM
 import time
 
 
-with open('C:/api/groq.txt', 'r', encoding='utf-8') as f:
+filepath_windows = 'C:/api/groq.txt'
+filepath_linux = '/home/leen/Documents/creds/groq_api.txt'
+with open(filepath_linux, 'r', encoding='utf-8') as f:
     api = f.read()
 
 
@@ -12,20 +14,20 @@ client = Groq(
 )
 
 
-MODELS = [
-    'C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.1.Q8_0.gguf',
-    'C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.2.Q8_0.gguf',
-    'C:\\Users\\admin\\Desktop\\models\\neural-chat-7b-v3-3.Q8_0.gguf',
-    'C:\\Users\\admin\\.cache\\lm-studio\\models\\TheBloke\\Starling-LM-7B-alpha-GGUF\\starling-lm-7b-alpha.Q8_0.gguf',
-]
-MODEL = MODELS[1]
+# MODELS = [
+#     'C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.1.Q8_0.gguf',
+#     'C:\\Users\\admin\\Desktop\\models\\mistral-7b-instruct-v0.2.Q8_0.gguf',
+#     'C:\\Users\\admin\\Desktop\\models\\neural-chat-7b-v3-3.Q8_0.gguf',
+#     'C:\\Users\\admin\\.cache\\lm-studio\\models\\TheBloke\\Starling-LM-7B-alpha-GGUF\\starling-lm-7b-alpha.Q8_0.gguf',
+# ]
+# MODEL = MODELS[1]
 
-llm = AutoModelForCausalLM.from_pretrained(
-    MODEL,
-    model_type="mistral", 
-    context_length=2048, 
-    max_new_tokens=2048,
-    )
+# llm = AutoModelForCausalLM.from_pretrained(
+#     MODEL,
+#     model_type="mistral", 
+#     context_length=2048, 
+#     max_new_tokens=2048,
+#     )
 
 
 def gen_reply_api(prompt):

@@ -11,6 +11,8 @@ import utils_ai
 import util_image
 import sitemap
 
+images_folder = 'C:/terrawhisper-assets/images/'
+
 
 c_dark = '#030712'
 c_bg = '#f5f5f5'
@@ -3993,16 +3995,16 @@ def page_home():
     header = util.header_default()
     header = util.header_default_dark()
 
-    image_filepath_in = 'C:/terrawhisper-assets/images/home/medicinal-herbs.jpg'
-    image_filepath_out = 'website/images/medicinal-herbs.jpg'
+    # image_filepath_in = 'C:/terrawhisper-assets/images/home/medicinal-herbs.jpg'
+    # image_filepath_out = 'website/images/medicinal-herbs.jpg'
 
-    util.image_save_resized(
-        image_filepath_in, 
-        image_filepath_out, 
-        768,
-        768,
-        50,
-    )
+    # util.image_save_resized(
+    #     image_filepath_in, 
+    #     image_filepath_out, 
+    #     768,
+    #     768,
+    #     50,
+    # )
     
     teas_articles_html = ''
     for condition_row in conditions_rows[:6]:
