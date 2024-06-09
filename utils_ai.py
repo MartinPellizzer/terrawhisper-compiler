@@ -5,7 +5,7 @@ import time
 
 filepath_windows = 'C:/api/groq.txt'
 filepath_linux = '/home/leen/Documents/creds/groq_api.txt'
-with open(filepath_linux, 'r', encoding='utf-8') as f:
+with open(filepath_windows, 'r', encoding='utf-8') as f:
     api = f.read()
 
 
@@ -200,12 +200,17 @@ def reply_to_list(reply):
 
 def reply_to_list_01(reply):
     reply_formatted = []
+    error = ''
     for line in reply.split('\n'):
         line = line.strip()
         if line == '': continue
 
-        if not line[0].isdigit(): return [reply, 'list item don\'t start with number']
-        if line[-1] != '.': return [reply, 'missing ending .']
+        if not line[0].isdigit(): 
+            error = 'list item don\'t start with number'
+            continue
+        if line[-1] != '.': 
+            error = 'missing ending .'
+            continue
         
         line = '. '.join(line.split('. ')[1:]).strip()
         if line == '': [reply, 'missing text after number']
@@ -214,4 +219,4 @@ def reply_to_list_01(reply):
 
         reply_formatted.append(line)
 
-    return [reply_formatted, '']
+    return [reply_formatted, error]

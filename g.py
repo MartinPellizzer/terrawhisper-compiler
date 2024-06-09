@@ -65,3 +65,8 @@ CSV_STATUS_PREPARATIONS_FILEPATH = 'database/csv/junctions/status_preparations.c
 CATEGORY_HERBALISM = 'herbalism'
 CATEGORY_REMEDIES = 'remedies'
 CATEGORY_HERBS = 'herbs'
+
+
+
+
+PINTEREST_TMP_IMAGE_FOLDERPATH = 'social_media/pinterest'

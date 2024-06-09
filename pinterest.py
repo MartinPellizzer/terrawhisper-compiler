@@ -163,8 +163,8 @@ for article_filepath in articles_filepath:
     i += 1
     print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
 
-for filename in os.listdir('social-media/pinterest'):
-    os.remove(f'social-media/pinterest/{filename}')
+for filename in os.listdir(g.PINTEREST_TMP_IMAGE_FOLDERPATH):
+    os.remove(f'{g.PINTEREST_TMP_IMAGE_FOLDERPATH}/{filename}')
     
 
 

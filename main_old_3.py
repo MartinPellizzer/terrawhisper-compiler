@@ -3376,3 +3376,717 @@ def art_remedies():
 #             if DEBUG_MISS_REMEDY_RECIPE: print(f'MISSING REMEDY RECIPE: {problem_name} >> {remedy_name}')
 
 #     return article_html
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def remedies_systems_problems_preparations(preparation_slug):
+    preparation_name = ''
+    preparation_name_singular = ''
+
+    if preparation_slug == 'teas':
+        preparation_name = 'teas'
+        preparation_name_singular = 'tea'
+    elif preparation_slug == 'tinctures':
+        preparation_name = 'tinctures'
+        preparation_name_singular = 'tincture'
+    elif preparation_slug == 'capsules':
+        preparation_name = 'capsules'
+        preparation_name_singular = 'capsule'
+    preparation_slug_singular = preparation_name_singular.replace(' ', '-')
+
+    if preparation_name == '': return
+    if preparation_name_singular == '': return
+
+    for problem_row in problems_rows[:g.ART_NUM]:
+        problem_id = problem_row[problems_cols['problem_id']]
+        problem_slug = problem_row[problems_cols['problem_slug']]
+        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+        if problem_id == '': continue
+        if problem_slug == '': continue
+        if problem_name == '': continue
+
+        preparations_rows_filtered = csv_get_preparations_by_problem(problem_id)
+        preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows_filtered]
+
+        if preparation_slug == 'teas':
+            if 'infusions' not in preparations_names: continue
+        elif preparation_slug == 'tinctures':
+            if 'tinctures' not in preparations_names: continue
+        elif preparation_slug == 'capsules':
+            if 'capsules' not in preparations_names: continue
+
+        if DEBUG_PROBLEM_NAME: print(f'> {problem_name}')
+
+        system_row = csv_get_system_by_problem(problem_id)
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        if DEBUG_PROBLEM_SYSTEM: print(f'  > {system_name}')
+
+        json_filepath = f'database/json/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/{preparation_slug}.json'
+        if DEBUG_PROBLEM_JSON_FILEPATH: print(json_filepath)
+
+        util.create_folder_for_filepath(json_filepath)
+        util.json_generate_if_not_exists(json_filepath)
+        data = util.json_read(json_filepath)
+        data['problem_id'] = problem_id
+        data['problem_slug'] = problem_slug
+        data['problem_name'] = problem_name
+        data['system_id'] = system_id
+        data['system_slug'] = system_slug
+        data['system_name'] = system_name
+        data['preparation_slug'] = preparation_slug
+        data['preparation_name'] = preparation_name
+        data['preparation_slug_singular'] = preparation_slug_singular
+        data['preparation_name_singular'] = preparation_name_singular
+
+        lastmod = util.date_now()
+        if 'lastmod' not in data: data['lastmod'] = lastmod
+        else: lastmod = data['lastmod'] 
+
+        data['url'] = f'{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/{preparation_slug}'
+
+        data['remedies_num'] = ART_ITEMS_NUM
+        title = f'{ART_ITEMS_NUM} best herbal {preparation_name} for {problem_name}'
+        data['title'] = title
+
+        util.json_write(json_filepath, data)
+        
+        
+        article_html = ''
+
+        if 'title':
+            article_html += f'<h1>{title}</h1>\n'
+
+        if 'featured_img':
+            src = f'/images/herbal-{preparation_slug}-for-{problem_slug}-overview.jpg'
+            alt = f'herbal {preparation_name} for {problem_name} overview.jpg'
+            article_html += f'<p><img src="{src}" alt="{alt}"></p>\n'
+
+        if 'intro':
+            key = 'intro_desc'
+            if key not in data:
+                prompt = f'''
+                    Write 1 detailed paragraph on the herbal {preparation_name} for {problem_name}.
+                    In the first sentence, give a detailed definition of "herbal {preparation_name} for {problem_name}", including why herbal {preparation_name} help with {problem_name}.
+                    Explain how herbal {preparation_name} helps with {problem_name}.
+                    Include many examples of how herbal {preparation_name} for {problem_name} improves lives.
+                    Don't write the names of the herbs.
+                    Don't talk about other ailments.
+                    Start the reply with the following words: Herbal {preparation_name} for {problem_name} are .
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                reply, error = utils_ai.reply_to_paragraph(reply)
+                if error == '':
+                    print('*******************************************')
+                    print(reply)
+                    print('*******************************************')
+                    data[key] = reply
+                    util.json_write(json_filepath, data)
+                else:
+                    print(f'ERROR: {error}')
+                    util.file_append('LOG.md', f'\n\n\n\n\n{reply}\n\n\n\n\n')
+                time.sleep(g.PROMPT_DELAY_TIME)
+            if key in data:
+                article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
+                
+            if 'intro_cheatsheet':
+                article_html += f'<p>A summary of the 10 best herbal {preparation_name} for {problem_name} is provided in the following cheatsheet.</p>\n'
+                src = f'/images/herbal-{preparation_slug}-for-{problem_slug}-cheatsheet.jpg'
+                alt = f'herbal {preparation_name} for {problem_name} cheatsheet.jpg'
+                article_html += f'<p><img src="{src}" alt="{alt}"></p>\n'
+                
+            if 'intro_transition':
+                article_html += f'<p>The following article describes in detail the most important {preparation_name} for {problem_name}, including medicinal properties, parts of herbs to use, and recipes for preparations.</p>\n'
+
+
+        if 'remedy_list':
+            key = 'remedies_list'
+            if key not in data: data[key] = []
+            if preparation_name == 'teas': herbs_rows_filtered = csv_get_teas_by_problem(problem_id)
+            if preparation_name == 'tinctures': herbs_rows_filtered = csv_get_tinctures_by_problem(problem_id)
+            if preparation_name == 'capsules': herbs_rows_filtered = csv_get_capsules_by_problem(problem_id)
+            for herb_row in herbs_rows_filtered:
+                herb_id = herb_row[herbs_cols['herb_id']].strip()
+                herb_slug = herb_row[herbs_cols['herb_slug']].strip()
+                herb_name_common = herb_row[herbs_cols['herb_name_common']].split(',')[0].strip()
+                herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip()
+                if herb_id == '': continue
+                if herb_slug == '': continue
+                if herb_name_common == '': continue
+                if herb_name_scientific == '': continue
+                found = False
+                for obj in data[key]:
+                    if obj['herb_id'] == herb_id: 
+                        found = True
+                        break
+                if not found:
+                    data[key].append({
+                        'herb_id': herb_id,
+                        'herb_slug': herb_slug,
+                        'herb_name_common': herb_name_common,
+                        'herb_name_scientific': herb_name_scientific,
+                    })
+            util.json_write(json_filepath, data)
+
+            for obj in data[key][:teas_num]:
+                remedy_name = obj["herb_name_common"].strip().lower()
+                remedy_name_scientific = obj["herb_name_common"].strip().lower()
+                if preparation_name == 'teas': remedy_name = f'{remedy_name} tea'.replace(' tea tea', ' tea')
+                else: remedy_name = f'{remedy_name} {preparation_name_singular}'
+
+                key = 'remedy_desc'
+                # if key in obj: del obj[key]
+                if key not in obj or obj[key] == []:
+                    prompt = f'''
+                        Write 1 paragraph in about 60 to 80 words on why herbal {remedy_name} helps with {problem_name}.
+                        Don't write about side effects and precautions.
+                        Start the reply with the following words: {remedy_name.capitalize()} helps with {problem_name} because .
+                    '''
+                    reply = utils_ai.gen_reply(prompt)
+                    reply, error = utils_ai.reply_to_paragraph(reply)
+                    if error == '':
+                        print('********************************')
+                        print(reply)
+                        print('********************************')
+                        obj[key] = reply
+                        util.json_write(json_filepath, data)
+                    else:
+                        print(f'ERROR: {error}')
+                        util.file_append('LOG.md', f'\n\n\n\n\n{reply}\n\n\n\n\n')
+                    time.sleep(g.PROMPT_DELAY_TIME)
+
+                key = 'remedy_properties'
+                # if key in obj: del obj[key]
+                if key not in obj or obj[key] == []:
+                    prompt = f'''
+                        Write a numbered list of the 5 most important medicinal properties of {remedy_name} that help with {problem_name}.
+                        For each medicinal property, explain in 1 short sentence why that property is important for {problem_name} and what active constituents give that property. 
+                        Write each list element using the following format: [medicinal propertie]: [property description].
+                    '''
+                    reply = utils_ai.gen_reply(prompt)
+                    reply, error = utils_ai.reply_to_list_column(reply)
+                    if error == '':
+                        print('********************************')
+                        print(reply)
+                        print('********************************')
+                        obj[key] = reply
+                        util.json_write(json_filepath, data)
+                    else:
+                        print(f'ERROR: {error}')
+                        util.file_append('LOG.md', f'\n\n\n\n\n{reply}\n\n\n\n\n')
+                    time.sleep(g.PROMPT_DELAY_TIME)
+
+                key = 'remedy_parts'
+                # if key in obj: del obj[key]
+                if key not in obj or obj[key] == []:
+                    prompt = f'''
+                        Write a numbered list of the most used parts of the {remedy_name} plant that are used to make medicinal tea for {problem_name}.
+                        Reply by only selecting parts from the following list:
+                        - Roots
+                        - Rhyzomes
+                        - Stems
+                        - Leaves
+                        - Flowers
+                        - Seeds
+                        - Buds
+                        - Bark
+                        Never include aerial parts.
+                        Never repeat the same part twice and never include similar parts.
+                        Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {problem_name}.
+                        Write each list element using the following format: [part name]: [part description].
+                    '''     
+                    reply = utils_ai.gen_reply(prompt)
+                    reply, error = utils_ai.reply_to_list_column(reply)
+                    if error == '':
+                        print('********************************')
+                        print(reply)
+                        print('********************************')
+                        obj[key] = reply
+                        util.json_write(json_filepath, data)
+                    else:
+                        print(f'ERROR: {error}')
+                        util.file_append('LOG.md', f'\n\n\n\n\n{reply}\n\n\n\n\n')
+                    time.sleep(g.PROMPT_DELAY_TIME)
+
+                key = 'remedy_recipe'
+                # if key in obj: del obj[key]
+                if key not in obj or obj[key] == []:
+                    prompt = f'''
+                        Write a 5-step procedure in list format to make herbal {remedy_name} for {problem_name}.
+                        Include ingredients dosages and preparations times.
+                        Write only 1 sentence for each step.
+                        Start each step in the list with an action verb.
+                        Don't include optional steps.
+                        
+                    '''  
+                    reply = utils_ai.gen_reply(prompt)
+                    reply, error = utils_ai.reply_to_list_01(reply)
+                    if error == '' and len(reply) == 5:
+                        print('********************************')
+                        print(reply)
+                        print('********************************')
+                        obj[key] = reply
+                        util.json_write(json_filepath, data)
+                    else:
+                        print(f'ERROR: {error}')
+                        util.file_append('LOG.md', f'\n\n\n\n\n{reply}\n\n\n\n\n')
+                    time.sleep(g.PROMPT_DELAY_TIME)
+
+        
+        json_preparation_system_problem_supplementary(json_filepath, data)
+
+        # IMG
+        # img_preparation_systems_problems_featured(data)
+        
+        # if 'remedies_list' in data:
+        #     problem_name = data['problem_name']
+        #     problem_slug = data['problem_slug']
+        #     preparation_name = data['preparation_name'].lower()
+        #     preparation_name_singular = ''
+        #     if preparation_name == 'teas': preparation_name_singular = 'tea'
+        #     elif preparation_name == 'tinctures': preparation_name_singular = 'tincture'
+        #     else: print(f'MISSING VALID preparation_name: {preparation_name} {problem_slug}')
+        #     preparation_slug = preparation_name.replace(' ', '-')
+        #     preparation_slug_singular = preparation_name_singular.replace(' ', '-')
+
+        #     for i, obj in enumerate(data['remedies_list'][:teas_num]):
+        #         herb_name_common = obj['herb_name_common'].split(',')[0].strip()
+        #         herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-').replace(".", '')
+
+        #         image_filepath_out = f'website/images/herbal-{preparation_slug_singular}-for-{problem_slug}-{herb_name_common_slug}.jpg'
+        #         if os.path.exists(image_filepath_out): continue
+
+        #         images_folderpath = f'C:/terrawhisper-assets/images/{preparation_slug}/{herb_name_common_slug}'
+        #         if os.path.exists(images_folderpath):
+        #             images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
+        #             image_filepath = random.choice(images_filepaths)
+        #             if image_filepath != '':
+        #                 label = f'{herb_name_common} {preparation_name_singular}\nfor {problem_name}'
+        #                 util.image_label(image_filepath, image_filepath_out, label)
+        #         else:
+        #             if DEBUG_REMEDY_IMG_FOLDER_MISSING: print(f'IMG FOLDER MISSING: {images_folderpath}')
+        # else:
+        #     if DEBUG_MISS_IMG_KEY_LST: print(f'MISSING KEY remedy_list: {preparation_slug} {problem_slug}')
+
+
+        img_preparation_systems_problems_cheatsheet(data)
+        
+        # HTML
+        html_filepath = f'website/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/{preparation_slug}.html'
+
+        data = util.json_read(json_filepath)
+
+
+
+        # list
+        for i, remedy_obj in enumerate(data['remedies_list'][:teas_num]):
+            herb_name_common = remedy_obj['herb_name_common']
+            herb_name_common_slug = herb_name_common.replace(' ', '-').replace("'", '-').replace('.', '')
+            herb_slug = remedy_obj['herb_slug']
+            remedy_name_preparation = herb_name_common
+
+            if preparation_slug == 'tea': remedy_name_preparation = f'{remedy_name_preparation} tea'.replace(' tea tea', ' tea')
+            else: remedy_name_preparation = f'{remedy_name_preparation} {preparation_slug_singular}'
+
+            article_html += f'<h2>{i+1}. {remedy_name_preparation.capitalize()}</h2>\n'
+            try: article_html += f'<p>{util.text_format_1N1_html(remedy_obj["remedy_desc"])}</p>\n'
+            except: 
+                if DEBUG_MISS_REMEDY_DESC: print(f'MISSING REMEDY DESC: {html_filepath} >> {problem_name} >> {remedy_name_preparation}')
+
+            # image gen
+            image_filepath_src = f'website/images/herbal-{preparation_slug_singular}-for-{problem_slug}-{herb_slug}.jpg'
+            image_filepath_web = f'/images/herbal-{preparation_slug_singular}-for-{problem_slug}-{herb_slug}.jpg'
+            if not os.path.exists(image_filepath_src): 
+                images_folderpath = f'C:/terrawhisper-assets/images/{preparation_slug}/{herb_name_common_slug}'
+                if os.path.exists(images_folderpath):
+                    images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
+                    image_filepath = random.choice(images_filepaths)
+                    if image_filepath != '':
+                        label = f'{herb_name_common} {preparation_name_singular}\nfor {problem_name}'
+                        util.image_label(image_filepath, image_filepath_src, label)
+                        print(image_filepath, '>>', image_filepath_src)
+                else:
+                    if DEBUG_REMEDY_IMG_FOLDER_MISSING: print(f'IMG FOLDER MISSING: {images_folderpath}')
+
+            # img html
+            img_alt = f'{herb_name_common} {preparation_name_singular} for {problem_name}'
+            try: article_html += f'<p><img src="{image_filepath_web}" alt="{img_alt}"><p>\n'
+            except: 
+                if DEBUG_MISS_REMEDY_IMG: print(f'MISSING REMEDY IMAGE: {problem_name} >> {tea_image_url}')
+
+            # html - remedy_properties 
+            key = 'remedy_properties'
+            if key in remedy_obj:
+                constituents = remedy_obj[key]
+                article_html += f'<p>The list below shows the primary active constituents in {herb_name_common} that aid with {problem_name}.</p>\n'
+                article_html += '<ul>\n'
+                for constituent in constituents:
+                    chunk_1 = constituent.split(': ')[0]
+                    chunk_2 = ': '.join(constituent.split(': ')[1:])
+                    article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
+                article_html += '</ul>\n'
+            else: 
+                if DEBUG_MISS_REMEDY_CONSTITUENTS: print(f'MISSING REMEDY CONSTITUENTS: {problem_name} >> {herb_name_common}')
+
+            key = 'remedy_parts'
+            if key in remedy_obj:
+                parts = remedy_obj[key]
+                article_html += f'<p>Right below you will find a list of the most important parts of {herb_name_common} that help with {problem_name}.</p>\n'
+                article_html += '<ul>\n'
+                for part in parts:
+                    chunk_1 = part.split(': ')[0]
+                    chunk_2 = ': '.join(part.split(': ')[1:])
+                    article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
+                article_html += '</ul>\n'
+            else: 
+                if DEBUG_MISS_REMEDY_PARTS: print(f'MISSING REMEDY PARTS: {problem_name} >> {herb_name_common}')
+
+            key = 'remedy_recipe'
+            if key in remedy_obj:
+                recipe = remedy_obj[key]
+                article_html += f'<p>The following recipe gives a procedure to make a basic {remedy_name_preparation} for {problem_name}.</p>\n'
+                article_html += '<ol>\n'
+                for step in recipe:
+                    article_html += f'<li>{step}</li>\n'
+                article_html += '</ol>\n'
+            else: 
+                if DEBUG_MISS_REMEDY_RECIPE: print(f'MISSING REMEDY RECIPE: {problem_name} >> {herb_name_common}')
+
+                    
+
+        # article_html += html_preparation_system_problem_list(html_filepath, data)
+        article_html += html_preparation_system_problem_supplementary(html_filepath, data)
+
+        header_html = util.header_default_dark()
+        breadcrumbs_html = util.breadcrumbs(html_filepath)
+        meta_html = util.article_meta(article_html, lastmod)
+        article_html = util.article_toc(article_html)
+
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+                
+            </head>
+
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                
+                <section class="article-section">
+                    <div class="container">
+                        {meta_html}
+                        {article_html}
+                    </div>
+                </section>
+
+                <footer>
+                    <div class="container-lg">
+                        <span>© TerraWhisper.com 2024 | All Rights Reserved
+                    </div>
+                </footer>
+            </body>
+
+            </html>
+        '''
+
+        util.file_write(html_filepath, html)
+
+
+
+        # REDIRECT
+        conditions_olds_rows = util.csv_get_rows('database/csv/status/conditions.csv')
+        condition_old_slug_system = ''
+        for condition_old_row in conditions_olds_rows[1:]:
+            condition_old_slug = condition_old_row[1]
+            if condition_old_slug.strip() == '': continue
+            system_tmp = condition_old_slug.split('/')[0]
+            slug_tmp = condition_old_slug.split('/')[1]
+            if slug_tmp == problem_slug:
+                condition_old_slug_system = system_tmp
+                if DEBUG_PROBLEM_REDIRECT: print(system_tmp)
+                if DEBUG_PROBLEM_REDIRECT: print(slug_tmp)
+
+        html_filepath_from = f'website/herbalism/{preparation_name_singular}/{condition_old_slug_system}/{problem_slug}.html'
+        html_filepath_to = f'{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}/{preparation_slug}.html'
+
+        if DEBUG_PROBLEM_REDIRECT: print(html_filepath_from)
+        if os.path.exists(html_filepath_from):
+            redirect = f'<meta http-equiv="refresh" content="0; url=https://terrawhisper.com/{html_filepath_to}">'
+
+            html = f'''
+                <!DOCTYPE html>
+                <html lang="en">
+
+                <head>
+                    <meta charset="UTF-8">
+                    {redirect}
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta name="author" content="{g.AUTHOR_NAME}">
+                    <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                    <link rel="stylesheet" href="/style.css">
+                    <title>{title}</title>
+                    {g.GOOGLE_TAG}
+                    
+                </head>
+
+                <body>
+                    {header_html}
+                    
+                    <section class="article-section">
+                        <div class="container">
+                            {meta_html}
+                            {article_html}
+                        </div>
+                    </section>
+
+                    <footer>
+                        <div class="container-lg">
+                            <span>© TerraWhisper.com 2024 | All Rights Reserved
+                        </div>
+                    </footer>
+                </body>
+
+                </html>
+            '''
+
+            util.file_write(html_filepath_from, html)
+        else:
+            if DEBUG_PROBLEM_REDIRECT: print('path dont exists')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def json_preparation_system_problem_supplementary(json_filepath, data):
+    problem_id = data['problem_id']
+    problem_slug = data['problem_slug']
+    problem_name = data['problem_name']
+    preparation_name = data['preparation_name']
+
+
+    key = 'supplementary_causes'
+    if key not in data:
+        prompt = f'''
+            What are the most common causes of {problem_name} that are treatable with herbal {preparation_name}?
+            Reply in a short paragraph of about 60 to 80 words.
+            Don't include names of herbs.
+            Don't include examples of herbs.
+            Start the reply with the following words: The primary causes of {problem_name} that are treatable with herbal {preparation_name} are .
+            Never use these words: can, may and might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        reply = utils_ai.reply_to_paragraphs(reply)
+
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+    key = 'supplementary_preparations'
+    # if key in data: del data[key]
+    if key not in data:
+        prompt = f'''
+            What other herbal preparations to use with herbal {preparation_name} for {problem_name}?
+            Reply in a short paragraph of about 60 to 80 words.
+            Don't include names of herbs.
+            Start the reply with the following words: Other herbal preparations to use with {preparation_name} for {problem_name} are .
+            Never use these words: can, may and might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        reply = utils_ai.reply_to_paragraphs(reply)
+
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+    key = 'supplementary_frequency'
+    if key not in data:
+        prompt = f'''
+            How frequently should you take herbal {preparation_name} for {problem_name}? Explain why in detail.
+            Include numbers.
+            Don't include names of herbs.
+            Don't include side effects.
+            Don't include precautions.
+            Don't metions sources of informations.
+            Reply in a short paragraph of about 60 to 80 words.
+            Start the reply with the following words: For {problem_name}, you should take herbal {preparation_name} .
+            Never use these words: can, may and might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        reply = utils_ai.reply_to_paragraphs(reply)
+
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+    key = 'supplementary_side_effects'
+    if key not in data:
+        prompt = f'''
+            What are the possible side effects of herbal {preparation_name} for {problem_name}?
+            Reply in a short paragraph of about 60 to 80 words.
+            Start the reply with the following words: The possible side effects associated with consuming herbal {preparation_name} for {problem_name} are .
+            Never use these words: can, may and might.
+        '''
+        reply = utils_ai.gen_reply(prompt)
+
+        reply = utils_ai.reply_to_paragraphs(reply)
+
+        print(len(reply))
+        if len(reply) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+    # What causes bad breath?
+        # and how to best treat it?
+    # How effective are herbal teas in combating bad breath?
+    # What are the best herbal teas for bad breath?
+    # Can herbal teas replace traditional methods like brushing and flossing for combating bad breath?
+        # How frequently should one drink herbal teas to see results in fighting bad breath?
+        # Are there any side effects associated with consuming herbal teas for bad breath?
+    # Can herbal teas interact with medications or other health conditions?
+    # Are there any specific herbs to avoid for individuals with certain health conditions?
+        # How long does it take to notice an improvement in bad breath after starting to drink herbal teas?
+    # Can herbal teas completely eliminate bad breath or just mask it temporarily?
+    # Are there any lifestyle changes or additional oral care practices that should be combined with drinking herbal teas for better results?
+    # Are there any particular techniques for brewing herbal teas to maximize their effectiveness against bad breath?
+    # Can children or pregnant women safely consume herbal teas for bad breath?
+    # Are there any contraindications for using herbal teas for bad breath alongside dental treatments or products?
+    # How do herbal teas for bad breath compare to commercial mouthwashes in terms of effectiveness and safety?
+    # Are there any specific brands or varieties of herbal teas known for their efficacy in combating bad breath?
+    # Can herbal teas for bad breath be used as a preventive measure, or are they only effective for treating existing bad breath?
+    # Are there any scientific studies supporting the use of herbal teas for bad breath?
+    #!!! Can herbal teas address underlying causes of bad breath, such as gum disease or digestive issues?
+    # How should herbal teas be incorporated into a daily oral hygiene routine for optimal results in combating bad breath?
+
+
+def html_preparation_system_problem_supplementary(html_filepath, data):
+    problem_id = data['problem_id']
+    problem_name = data['problem_name']
+    problem_slug = data['problem_slug']
+    system_slug = data['system_slug']
+    preparation_name = data['preparation_name']
+    preparation_slug = data['preparation_slug']
+
+    article_html = ''
+
+    key = 'supplementary_best_treatment'
+    if key in data:
+        article_html += f'<h2>How to best treat {problem_name} with herbal {preparation_name}?</h2>\n'
+        text = data[key]
+        text = text.replace(problem_name, f'<a href="/{g.CATEGORY_REMEDIES}/{system_slug}/{problem_slug}.html">{problem_name}</a>', 1)
+
+        article_html += f'{util.text_format_1N1_html(text)}\n'
+
+    key = 'supplementary_causes'
+    if key in data:
+        article_html += f'<h3>What are the most common causes of {problem_name} that are treatable with herbal {preparation_name}?</h3>\n'
+        text = data[key]
+        for problem_row in problems_rows[:g.ART_NUM]:
+            link_problem_id = problem_row[problems_cols['problem_id']]
+            link_problem_slug = problem_row[problems_cols['problem_slug']]
+            link_problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+            
+            link_system_row = csv_get_system_by_problem(link_problem_id)
+            link_system_slug = link_system_row[systems_cols['system_slug']]
+
+            if link_problem_id != problem_id:
+                text = text.replace(link_problem_name, f'<a href="/{g.CATEGORY_REMEDIES}/{link_system_slug}/{link_problem_slug}.html">{link_problem_name}</a>', 1)
+
+        article_html += f'{util.text_format_1N1_html(text)}\n'
+
+    key = 'supplementary_preparations'
+    if key in data:
+        article_html += f'<h3>What other herbal preparations helps with {problem_name}?</h3>\n'
+        text = data[key]
+        # for problem_row in problems_rows[:g.ART_NUM]:
+        #     link_problem_id = problem_row[problems_cols['problem_id']]
+        #     link_problem_slug = problem_row[problems_cols['problem_slug']]
+        #     link_problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+            
+        #     link_system_row = csv_get_system_by_problem(link_problem_id)
+        #     link_system_slug = link_system_row[systems_cols['system_slug']]
+
+        #     if link_problem_id != problem_id:
+        #         text = text.replace(link_problem_name, f'<a href="/{g.CATEGORY_REMEDIES}/{link_system_slug}/{link_problem_slug}.html">{link_problem_name}</a>', 1)
+
+        article_html += f'{util.text_format_1N1_html(text)}\n'
+
+    return article_html

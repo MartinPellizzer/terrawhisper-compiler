@@ -420,6 +420,168 @@ def image_template_preparations(image_filepath_out, data):
     img.save(image_filepath_out, quality=50) 
 
 
+def cheatsheet(image_filepath_out, data):
+    title = data['title']
+    
+    
+    img_width = 2480
+    img_height = 3508
+    gap_width = img_width//10
+    x = gap_width
+    y = 80
+    w = img_width//3 + gap_width//3 - 32
+    h = 64
+    col_curr = 0
+    c_dark = '#030712'
+    c_bg = '#f5f5f5'
+
+    img = Image.new(mode="RGB", size=(img_width, img_height), color=c_bg)
+    draw = ImageDraw.Draw(img)
+
+    # TITLE
+    px = 64
+    py = 64
+    text = title.title()
+    font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 72)
+    _, _, text_w, text_h = font.getbbox(text)
+    draw.rectangle(((x, y), (x + text_w + px*2, y + text_h + py*2)), fill=c_dark)
+    draw.text(
+        (x + px, y + py), 
+        text,
+        (255, 255, 255), font=font
+    )
+    by_line_x = x + text_w + px*2 + 64
+    rect_h = text_h + py*2
+    y_start = y + text_h + py*2 + 80
+    
+    # FOOTER
+    text = 'by Leen Randell -- TerraWhisper.com'
+    font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 48)
+    draw.text(
+        (x, img_height - 128), 
+        text, c_dark, font=font
+    )
+    y = y_start
+
+    # remedies
+    remedies_list = data['remedies_list']
+    for i, remedy_obj in enumerate(remedies_list[:10]):
+        herb_name_common = remedy_obj['herb_name_common']
+        if 'remedy_properties' not in remedy_obj: continue
+        if 'remedy_parts' not in remedy_obj: continue
+        remedy_properties = [item.split(':')[0] for item in remedy_obj['remedy_properties']]
+        remedy_parts = [item.split(':')[0] for item in remedy_obj['remedy_parts']]
+        random.shuffle(remedy_properties)
+        random.shuffle(remedy_parts)
+        remedy_properties = remedy_properties[:3]
+        remedy_parts = remedy_parts[:3]
+
+        # Calc Needed Height
+        y_tmp = y
+        y_tmp += h
+        y_tmp += h
+        for item in remedy_properties: y_tmp += h
+        y_tmp += h
+        for item in remedy_parts: y_tmp += h
+        
+        if y_tmp >= img_height:
+            col_curr += 1
+            if col_curr == 1:
+                x = img_width//3 + gap_width//3 + 16
+                y = y_start
+                w = img_width - img_width//3 - gap_width//3 - 16
+                h = 64
+            if col_curr == 2:
+                x = img_width - img_width//3 - gap_width//3 + 32
+                y = y_start
+                w = img_width - gap_width
+                h = 64
+            if col_curr == 3:
+                print('ERROR: Not enough space to draw all remedies')
+                break
+
+        # Herb
+        cell_herb_h = 96
+        text_margin_l = 32
+        text_margin_t = 20
+        draw.rectangle(((x, y), (w, y + cell_herb_h)), fill=c_dark)
+        font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 48)
+        draw.text(
+            (x + text_margin_l, y + text_margin_t), 
+            f'{i+1}. {herb_name_common.upper()}', 
+            c_bg, font=font
+        )
+        y += cell_herb_h
+
+        # Properties Head
+        cell_category_h = 96
+        text_margin_t = 16
+        font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 48)
+        text_x, text_y, text_w, text_h = font.getbbox("Properties")
+        draw.rectangle(
+            (
+                (x + text_margin_l + text_w + 32, y + cell_category_h//2), 
+                (w, y + cell_category_h//2 + 4)
+            ), 
+            fill="#737373"
+        )
+        draw.text(
+            (x + text_margin_l, y + text_margin_t), 
+            'Properties', 
+            c_dark, font=font
+        )
+        y += cell_category_h
+
+        # Properties Vals
+        font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 36)
+        for item in remedy_properties:
+            item = item.replace('properties', '')
+            draw.rectangle(((x, y), (w, y + h)), fill=c_bg)
+            draw.rectangle((
+                (x + text_margin_l + 16, y + h//2 - 16), 
+                (x + text_margin_l + 32, y + h//2)), fill=c_dark)
+            draw.text(
+            (x + text_margin_l + 48, y), 
+                item, c_dark, font=font
+            )
+            y += h
+
+        # Parts Head
+        cell_category_h = 96
+        text_margin_t = 16
+        font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 48)
+        text_x, text_y, text_w, text_h = font.getbbox("Plant Parts")
+        draw.rectangle(
+            (
+                (x + text_margin_l + text_w + 32, y + cell_category_h//2), 
+                (w, y + cell_category_h//2 + 4)
+            ), 
+            fill="#737373"
+        )
+        draw.text(
+            (x + text_margin_l, y + text_margin_t), 
+            'Plant Parts', c_dark, font=font
+        )
+        y += cell_category_h
+
+        # Parts Vals
+        font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 36)
+        for item in remedy_parts:
+            draw.rectangle(((x, y), (w, y + h)), fill=c_bg)
+            draw.rectangle((
+                (x + text_margin_l + 16, y + h//2 - 16), 
+                (x + text_margin_l + 32, y + h//2)), fill=c_dark)
+            draw.text(
+            (x + text_margin_l + 48, y), 
+                item, c_dark, font=font
+            )
+            y += h
+        y += h
+
+    img.thumbnail((img_width//3, img_height//3), Image.LANCZOS)
+    img.save(image_filepath_out, quality=50) 
+    print('SAVED CHEATSHEET:', image_filepath_out)
+
 
 
 def template_remedy(image_filepath_out, obj, preparation_name):

@@ -1,13 +1,13 @@
 from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
 
+import g
+
 C_LUNAR_GREEN = '#324030'
 C_OFF_WHITE = '#F5F5F5'
 C_OIL = '#271C13'
 C_SWIRL = '#D8D1CB'
 C_BLACK = '#000000'
-
-pinterest_content_path = f'social-media/pinterest'
 
 
 ###########################################################################
@@ -15,7 +15,7 @@ pinterest_content_path = f'social-media/pinterest'
 ###########################################################################
 
 def pin_save(img, filename):
-    img_filepath = f'{pinterest_content_path}/{filename}.jpg'
+    img_filepath = f'{g.PINTEREST_TMP_IMAGE_FOLDERPATH}/{filename}.jpg'
     img.save(
         img_filepath,
         format='JPEG',
