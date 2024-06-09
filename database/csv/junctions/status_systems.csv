@@ -61,3 +61,23 @@ status_id\status_name\system_id\system_name
 252\bladder pain\7\urinary system
 84\high cholesterol\9\endocrine system
 216\dizziness\5\nervous system
+53\hay fever\1\respiratory system
+54\blocked nose\1\respiratory system
+55\runny nose\1\respiratory system
+56\post nasal drip\1\respiratory system
+57\sinus headache\5\nervous system
+58\sinusitis\1\respiratory system
+61\snoring\1\respiratory system
+62\laryngitis\1\respiratory system
+63\hoarse voice\1\respiratory system
+64\lost voice\5\nervous system
+65\tonsillitis\6\immune system
+69\bronchitis\1\respiratory system
+71\phlegm\1\respiratory system
+72\acute bronchitis\1\respiratory system
+73\chronic bronchitis\1\respiratory system
+74\pertussis\1\respiratory system
+75\emphysema\1\respiratory system
+76\hiccups\5\nervous system
+79\mucus in throat\1\respiratory system
+80\nasal congestion\1\respiratory system

@@ -61,12 +61,8 @@ CSV_STATUS_PREPARATIONS_TINCTURES_FILEPATH = 'database/csv/junctions/status_prep
 CSV_STATUS_PREPARATIONS_CAPSULES_FILEPATH = 'database/csv/junctions/status_preparations_capsules.csv'
 CSV_STATUS_PREPARATIONS_FILEPATH = 'database/csv/junctions/status_preparations.csv'
 
-
 CATEGORY_HERBALISM = 'herbalism'
 CATEGORY_REMEDIES = 'remedies'
 CATEGORY_HERBS = 'herbs'
-
-
-
 
 PINTEREST_TMP_IMAGE_FOLDERPATH = 'social_media/pinterest'

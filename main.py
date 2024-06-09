@@ -9,6 +9,7 @@ import g
 import util
 import utils_ai
 import util_image
+import util_data
 import sitemap
 
 images_folder = 'C:/terrawhisper-assets/images/'
@@ -117,9 +118,6 @@ status_preparations_capsules_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_
 status_preparations_capsules_cols = util.csv_get_cols(status_preparations_capsules_rows)
 status_preparations_capsules_rows = status_preparations_capsules_rows[1:]
 
-status_preparations_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_FILEPATH)
-status_preparations_cols = util.csv_get_cols(status_preparations_rows)
-status_preparations_rows = status_preparations_rows[1:]
 
 
 
@@ -129,7 +127,7 @@ ART_ITEMS_NUM = 10
 
 # DEBUG
 
-DEBUG_REMEDY_IMG_FOLDER_MISSING = 1
+DEBUG_REMEDY_IMG_FOLDER_MISSING = 0
 DEBUG_MISS_IMG_KEY_FEATURED = 0
 DEBUG_MISS_IMG_KEY_LST = 0
 DEBUG_MISS_REMEDY_DESC = 0
@@ -383,14 +381,14 @@ def csv_get_preparations_by_problem(problem_id):
 
 
 def get_preparations_by_status(status_id):
-    status_preparations_rows_filtered = util.csv_get_rows_filtered(
-        g.CSV_STATUS_PREPARATIONS_FILEPATH, status_preparations_cols['status_id'], status_id,
+    util_data.j_status_preparations_rows_filtered = util.csv_get_rows_filtered(
+        g.CSV_STATUS_PREPARATIONS_FILEPATH, util_data.j_status_preparations_cols['status_id'], status_id,
     )
 
     status_preparations_ids = [
-        row[status_preparations_cols['preparation_id']] 
-        for row in status_preparations_rows_filtered
-        if row[status_preparations_cols['status_id']] == status_id
+        row[util_data.j_status_preparations_cols['preparation_id']] 
+        for row in util_data.j_status_preparations_rows_filtered
+        if row[util_data.j_status_preparations_cols['status_id']] == status_id
     ]
 
     preparations_rows_filtered = []
@@ -441,229 +439,6 @@ def csv_get_herb_common_name_by_id(herb_id):
 
 
 
-# #########################################################
-# ;IMAGES
-# #########################################################
-
-def img_preparations_cheatsheet(data):
-    title = data['title']
-    status_slug = data['status_slug']
-    preparation_name = data['preparation_name']
-    preparation_slug = preparation_name.replace(' ', '-')
-
-    image_filepath_out = f'website/images/herbal-{preparation_slug}-for-{status_slug}-cheatsheet.jpg'
-    if os.path.exists(image_filepath_out): return
-
-    img_width = 2480
-    img_height = 3508
-    gap_width = img_width//10
-
-    c_dark = '#030712'
-    c_bg = '#f5f5f5'
-
-    img = Image.new(mode="RGB", size=(img_width, img_height), color=c_bg)
-
-    # logo = Image.open("website-new/images/terrawhisper-logo.png")
-    # logo.thumbnail((256, 256), Image.Resampling.LANCZOS)
-    # img.paste(logo, (gap_width, 80), logo)
-
-    draw = ImageDraw.Draw(img)
-
-    # draw.line((img_width//3 + gap_width//3, 0, img_width//3 + gap_width//3, img_height), fill=(255, 0, 255), width=3)
-    # draw.line((img_width - img_width//3 - gap_width//3, 0, img_width - img_width//3 - gap_width//3, img_height), fill=(255, 0, 255), width=3)
-
-    # draw.line((gap_width, 0, gap_width, img_height), fill=(255, 0, 255), width=3)
-    # draw.line((img_width - gap_width, 0, img_width - gap_width, img_height), fill=(255, 0, 255), width=3)
-
-
-    x = gap_width
-    y = 80
-    w = img_width//3 + gap_width//3 - 32
-    h = 64
-    col_curr = 0
-
-    # TITLE
-    px = 64
-    py = 64
-    text = title.title()
-    font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 72)
-    _, _, text_w, text_h = font.getbbox(text)
-    draw.rectangle(((x, y), (x + text_w + px*2, y + text_h + py*2)), fill=c_dark)
-    draw.text(
-        (x + px, y + py), 
-        text,
-        (255, 255, 255), font=font
-    )
-    by_line_x = x + text_w + px*2 + 64
-    rect_h = text_h + py*2
-    y_start = y + text_h + py*2 + 80
-    
-    # text = 'by Leen Randell'
-    # font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 48)
-    # _, _, text_w, text_h = font.getbbox(text)
-    # draw.text(
-    #     (by_line_x, y + rect_h//2 - text_h//2 - 32), 
-    #     text,
-    #     (0, 0, 0), font=font
-    # )
-
-    # text = 'terrawhisper.com'
-    # font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 48)
-    # _, _, text_w, text_h = font.getbbox(text)
-    # draw.text(
-    #     (by_line_x, y + rect_h//2 - text_h//2 + 32), 
-    #     text,
-    #     (0, 0, 0), font=font
-    # )
-
-    
-    text = 'by Leen Randell -- TerraWhisper.com'
-    font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 48)
-    draw.text(
-        (x, img_height - 128), 
-        text, c_dark, font=font
-    )
-
-    y = y_start
-
-    remedies_list = data['remedies_list']
-    for i, remedy_obj in enumerate(remedies_list[:10]):
-        herb_name_common = remedy_obj['herb_name_common']
-
-        if 'remedy_properties' not in remedy_obj: continue
-        if 'remedy_parts' not in remedy_obj: continue
-
-        remedy_properties = [item.split(':')[0] for item in remedy_obj['remedy_properties']]
-        remedy_parts = [item.split(':')[0] for item in remedy_obj['remedy_parts']]
-
-        random.shuffle(remedy_properties)
-        random.shuffle(remedy_parts)
-
-        remedy_properties = remedy_properties[:3]
-        remedy_parts = remedy_parts[:3]
-
-
-        # Calc Needed Height
-        y_tmp = y
-
-        y_tmp += h
-        y_tmp += h
-        for item in remedy_properties: y_tmp += h
-        y_tmp += h
-        for item in remedy_parts: y_tmp += h
-        
-        if y_tmp >= img_height:
-            col_curr += 1
-            if col_curr == 1:
-                x = img_width//3 + gap_width//3 + 16
-                y = y_start
-                w = img_width - img_width//3 - gap_width//3 - 16
-                h = 64
-            if col_curr == 2:
-                x = img_width - img_width//3 - gap_width//3 + 32
-                y = y_start
-                w = img_width - gap_width
-                h = 64
-            if col_curr == 3:
-                print('ERROR: Not enough space to draw all remedies')
-                break
-
-
-
-
-        # Herb
-        cell_herb_h = 96
-        text_margin_l = 32
-        text_margin_t = 20
-        draw.rectangle(((x, y), (w, y + cell_herb_h)), fill=c_dark)
-        font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 48)
-        draw.text(
-            (x + text_margin_l, y + text_margin_t), 
-            f'{i+1}. {herb_name_common.upper()}', 
-            c_bg, font=font
-        )
-        y += cell_herb_h
-
-        # Properties Head
-        cell_category_h = 96
-        text_margin_t = 16
-        # draw.rectangle(((x, y), (w, y + cell_category_h)))
-        # draw.rectangle(((x, y), (w, y + cell_category_h)), fill="#adbfb9")
-        font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 48)
-
-        text_x, text_y, text_w, text_h = font.getbbox("Properties")
-        draw.rectangle(
-            (
-                (x + text_margin_l + text_w + 32, y + cell_category_h//2), 
-                (w, y + cell_category_h//2 + 4)
-            ), 
-            fill="#737373"
-        )
-
-        draw.text(
-            (x + text_margin_l, y + text_margin_t), 
-            'Properties', 
-            c_dark, font=font
-        )
-        y += cell_category_h
-
-        # Properties Vals
-        font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 36)
-        for item in remedy_properties:
-            item = item.replace('properties', '')
-            draw.rectangle(((x, y), (w, y + h)), fill=c_bg)
-            draw.rectangle((
-                (x + text_margin_l + 16, y + h//2 - 16), 
-                (x + text_margin_l + 32, y + h//2)), fill=c_dark)
-            draw.text(
-            (x + text_margin_l + 48, y), 
-                item, c_dark, font=font
-            )
-            y += h
-
-        # Parts Head
-        cell_category_h = 96
-        text_margin_t = 16
-        # draw.rectangle(((x, y), (w, y + cell_category_h)))
-        # draw.rectangle(((x, y), (w, y + cell_category_h)), fill="#adbfb9")
-        font = ImageFont.truetype("assets/fonts/Lato/Lato-Bold.ttf", 48)
-
-        text_x, text_y, text_w, text_h = font.getbbox("Plant Parts")
-        draw.rectangle(
-            (
-                (x + text_margin_l + text_w + 32, y + cell_category_h//2), 
-                (w, y + cell_category_h//2 + 4)
-            ), 
-            fill="#737373"
-        )
-
-        draw.text(
-            (x + text_margin_l, y + text_margin_t), 
-            'Plant Parts', c_dark, font=font
-        )
-        y += cell_category_h
-
-        # Parts Vals
-        font = ImageFont.truetype("assets/fonts/Lato/Lato-Regular.ttf", 36)
-        for item in remedy_parts:
-            draw.rectangle(((x, y), (w, y + h)), fill=c_bg)
-            draw.rectangle((
-                (x + text_margin_l + 16, y + h//2 - 16), 
-                (x + text_margin_l + 32, y + h//2)), fill=c_dark)
-            draw.text(
-            (x + text_margin_l + 48, y), 
-                item, c_dark, font=font
-            )
-            y += h
-
-        y += h
-
-    img.thumbnail((img_width//3, img_height//3), Image.LANCZOS)
-    img.save(image_filepath_out, quality=50) 
-    print('SAVED CHEATSHEET:', image_filepath_out)
-    # img.show()
-
-    # quit()
 
 
 
@@ -974,29 +749,85 @@ def gen_preparations(preparation_slug):
                             article_html += f'<li>{step}</li>\n'
                         article_html += '</ol>\n'
 
-        # if 'supplementary_best_treatment':
-        #     key = 'supplementary_best_treatment'
-        #     if key not in data:
-        #         prompt = f'''
-        #             How to best treat {status_name} with herbal {preparation_name}?
-        #             Reply in a short paragraph of about 60 to 80 words.
-        #             Start the reply with the following words: The best way to treat {status_name} with herbal {preparation_name} is .
-        #             Never use these words: can, may and might.
-        #         '''
-        #         reply = utils_ai.gen_reply(prompt)
-        #         reply = utils_ai.reply_to_paragraphs(reply)
-        #         print(len(reply))
-        #         if len(reply) == 1:
-        #             print('*******************************************')
-        #             print(reply)
-        #             print('*******************************************')
-        #             data[key] = reply[0]
-        #             util.json_write(json_filepath, data)
-        #         time.sleep(g.PROMPT_DELAY_TIME)
-        #     if key in data:
-        #         article_html += f'<h2>How to best treat {status_name} with herbal {preparation_name}?</h2>\n'
-        #         text = text.replace(problem_name, f'<a href="/{g.CATEGORY_REMEDIES}/{system_slug}/{status_name}.html">{status_name}</a>', 1)
-        #         article_html += f'{util.text_format_1N1_html(text)}\n'
+        if 'supplementary_best_treatment':
+            key = 'supplementary_best_treatment'
+            if key not in data:
+                prompt = f'''
+                    How to best treat {status_name} with herbal {preparation_name}?
+                    Reply in a short paragraph of about 60 to 80 words.
+                    Start the reply with the following words: The best way to treat {status_name} with herbal {preparation_name} is .
+                    Never use these words: can, may and might.
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                reply = utils_ai.reply_to_paragraphs(reply)
+                print(len(reply))
+                if len(reply) == 1:
+                    print('*******************************************')
+                    print(reply)
+                    print('*******************************************')
+                    data[key] = reply[0]
+                    util.json_write(json_filepath, data)
+                time.sleep(g.PROMPT_DELAY_TIME)
+            if key in data:
+                article_html += f'<h2>How to best treat {status_name} with herbal {preparation_name}?</h2>\n'
+                text = data[key].replace(status_name, f'<a href="/{g.CATEGORY_REMEDIES}/{system_slug}/{status_slug}.html">{status_name}</a>', 1)
+                article_html += f'{util.text_format_1N1_html(text)}\n'
+                
+        if 'supplementary_causes':
+            key = 'supplementary_causes'
+            if key not in data:
+                prompt = f'''
+                    What ailments similar to {status_name} are treated with herbal {preparation_name}?
+                    Reply in a short paragraph of about 60 to 80 words.
+                    Start the reply with the following words: Ailments similar to {status_name} that are treated with herbal {preparation_name} are .
+                '''
+                reply = utils_ai.gen_reply(prompt)
+                reply = utils_ai.reply_to_paragraphs(reply)
+                print(len(reply))
+                if len(reply) == 1:
+                    print('*******************************************')
+                    print(reply)
+                    print('*******************************************')
+                    data[key] = reply[0]
+                    util.json_write(json_filepath, data)
+                time.sleep(g.PROMPT_DELAY_TIME)
+            if key in data:
+                text = data[key]
+                article_html += f'<h2>What ailments similar to {status_name} are treated with herbal {preparation_name}?</h2>\n'
+                
+                i = 0
+                for tmp_status_row in status_rows:
+                    tmp_status_exe = tmp_status_row[status_cols['status_exe']]
+                    tmp_status_id = tmp_status_row[status_cols['status_id']]
+                    tmp_status_slug = tmp_status_row[status_cols['status_slug']]
+                    tmp_status_name = tmp_status_row[status_cols['status_names']].split(',')[0].strip()
+
+                    if tmp_status_id == status_id: continue
+
+                    if tmp_status_exe == '': continue
+                    if tmp_status_id == '': continue
+                    if tmp_status_slug == '': continue
+                    if tmp_status_name == '': continue
+
+                    tmp_system_row = get_system_by_status(tmp_status_id)
+
+                    tmp_system_id = tmp_system_row[systems_cols['system_id']]
+                    tmp_system_slug = tmp_system_row[systems_cols['system_slug']]
+                    tmp_system_name = tmp_system_row[systems_cols['system_name']]
+
+                    if tmp_system_id == '': continue
+                    if tmp_system_slug == '': continue
+                    if tmp_system_name == '': continue
+
+                    html_filepath = f'website/{g.CATEGORY_REMEDIES}/{tmp_system_slug}/{tmp_status_slug}/{preparation_slug}.html'
+                    
+                    if os.path.exists(html_filepath):
+                        if i >= 3: break
+                        if tmp_status_name in text:
+                            text = text.replace(tmp_status_name, f'<a href="/{g.CATEGORY_REMEDIES}/{tmp_system_slug}/{tmp_status_slug}/{preparation_slug}.html">{tmp_status_name}</a>', 1)
+                            i += 1
+
+                article_html += f'{util.text_format_1N1_html(text)}\n'
 
         html_filepath = f'website/{g.CATEGORY_REMEDIES}/{system_slug}/{status_slug}/{preparation_slug}.html'
 
@@ -1039,51 +870,6 @@ def gen_preparations(preparation_slug):
         '''
 
         util.file_write(html_filepath, html)
-
-
-def demo_gen_preparations_image(image_filepath_out, preparation_slug):
-    preparation_name = preparation_slug.replace('-', ' ').strip()
-
-    for status_row in status_rows:
-        status_exe = status_row[status_cols['status_exe']]
-        status_id = status_row[status_cols['status_id']]
-        status_slug = status_row[status_cols['status_slug']]
-        status_name = status_row[status_cols['status_names']].split(',')[0].strip()
-
-        if status_exe == '': continue
-        if status_id == '': continue
-        if status_slug == '': continue
-        if status_name == '': continue
-
-        if DEBUG_STATUS: print(f'> {status_name}')
-
-        system_row = get_system_by_status(status_id)
-        system_id = system_row[systems_cols['system_id']]
-        system_slug = system_row[systems_cols['system_slug']]
-        system_name = system_row[systems_cols['system_name']]
-
-        if system_id == '': continue
-        if system_slug == '': continue
-        if system_name == '': continue
-
-        if DEBUG_STATUS: print(f'  > {system_name}')
-
-        json_filepath = f'database/json/{g.CATEGORY_REMEDIES}/{system_slug}/{status_slug}/{preparation_slug}.json'
-        if DEBUG_STATUS_JSON_FILEPATH: print(json_filepath)
-
-        util.create_folder_for_filepath(json_filepath)
-        util.json_generate_if_not_exists(json_filepath)
-        data = util.json_read(json_filepath)
-
-        # img
-        key = 'remedies_list'
-        if key in data:
-            util_image.template_remedy(data[key][0])
-        print('done')
-
-        quit()
-        
-    
 
 
 # #########################################################
@@ -2928,6 +2714,8 @@ def herbs_pages():
 
 
 
+
+
 # #########################################################
 # ;GENERAL
 # #########################################################
@@ -4156,28 +3944,22 @@ def remedies():
 # #########################################################
 
 page_home()
-# page_privacy_policy()
-# page_cookie_policy()
-# page_herbalism()
+page_privacy_policy()
+page_cookie_policy()
+page_herbalism()
 # page_top_herbs()
 # page_plants(regen_csv=False)
 # page_about()
-
-# if 'remedies':
-#     remedies_systems_problems()
-#     remedies_systems()
-#     remedies()
 
 if 'remedies':
     remedies_systems_problems_new()
     remedies_systems_new()
     remedies()
 
-
 if 'preparations':
     gen_preparations('teas')
-    gen_preparations('tinctures')
-    gen_preparations('capsules')
+    # gen_preparations('tinctures')
+    # gen_preparations('capsules')
 
 
 # if 'preparations':
