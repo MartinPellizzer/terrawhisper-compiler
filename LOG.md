@@ -2288,3 +2288,45 @@ Note: It is important to consult with a healthcare professional before taking wh
 
 
 
+
+
+
+
+
+1. Leaves: Thyme leaves are rich in antispasmodic compounds and essential oils, helping to soothe irritated throats and alleviate hoarseness.
+2. Flowers: Thyme flowers contain flavonoids that have anti-inflammatory properties, making them useful for reducing inflammation in the throat and relieving a hoarse voice.
+3. Stems: Thyme stems contain therapeutic compounds, and when included in tea, can help reduce throat inflammation and soothe a hoarse voice.
+
+Confidence: 95%
+
+
+
+
+
+
+
+
+
+1. Demulcent: Marshmallow tea is rich in mucilage, which forms a soothing film over the mucous membranes of the respiratory tract, reducing irritation and inflammation, important for bronchitis as it helps alleviate coughs and soothe irritated airways. (Active constituents: polysaccharides, including arabinoxylan and glucuronoxylan)
+2. Expectorant: The tea stimulates the expulsion of mucus from the lungs, making it easier to breathe and reducing congestion, crucial for bronchitis as it helps clear obstructions in the airways. (Active constituents: flavonoids, such as luteolin and quercetin)
+3. Anti-inflammatory: Marshmallow tea has been shown to reduce inflammation in the respiratory tract, which is important for bronchitis as it helps decrease swelling in the airways and alleviate symptoms such as coughing and shortness of breath. (Active constituents: triterpene saponins, such as althaea officinalis)
+4. Antitussive: The tea can help suppress coughs by calming the cough reflex, which is beneficial for bronchitis as it provides relief from constant, persistent coughing. (Active constituents: phenolic acids, such as chlorogenic acid and caffeic acid)
+5. Antimicrobial: Marshmallow tea has been found to have antimicrobial properties, which can help protect the respiratory tract from infection and prevent the progression of bronchitis. (Active constituents: tannins, such as gallic acid and ellagic acid)
+
+
+
+
+
+
+
+
+
+1. Demulcent: Marshmallow tea is rich in mucilage, which forms a soothing film over the mucous membranes of the respiratory tract, reducing irritation and inflammation, important for bronchitis as it helps alleviate coughing and sore throat. (Active constituents: polysaccharides, including arabinogalactans and glucuronoxylans)
+2. Expectorant: The tea stimulates the removal of mucus from the airways, making it easier to expel sputum, crucial for bronchitis as it helps clear airways and reduce congestion. (Active constituents: flavonoids, such as luteolin and quercetin)
+3. Anti-inflammatory: Marshmallow tea has been shown to reduce inflammation in the respiratory tract, which is important for bronchitis as it helps alleviate symptoms like coughing and chest pain. (Active constituents: triterpene saponins, such as althea officialis saponin)
+4. Antitussive: The tea can help suppress coughing, providing relief for bronchitis patients, as it contains constituents that soothe the respiratory system. (Active constituents: tannins, pectins, and volatile oils)
+5. Antimicrobial: Marshmallow tea has some antimicrobial properties, which may help protect the respiratory tract from infections, important for bronchitis as it could potentially reduce the severity or duration of the illness. (Active constituents: phenolic acids, such as chlorogenic acid and caffeic acid)
+
+
+
+

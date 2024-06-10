@@ -555,7 +555,8 @@ def gen_preparations(preparation_slug):
                 image_filepath_out = f'website/images/herbal-{preparation_slug}-for-{status_slug}-cheatsheet.jpg'
                 if not os.path.exists(image_filepath_out):
                 # if True:
-                    util_image.cheatsheet(image_filepath_out, data)
+                    try: util_image.cheatsheet(image_filepath_out, data)
+                    except: pass
                 if os.path.exists(image_filepath_out):
                     article_html += f'<p>A summary of the 10 best herbal {preparation_name} for {status_name} is provided in the following cheatsheet.</p>\n'
                     src = f'/images/herbal-{preparation_slug}-for-{status_slug}-cheatsheet.jpg'
@@ -607,9 +608,9 @@ def gen_preparations(preparation_slug):
                     # if key in obj: del obj[key]
                     if key not in obj:
                         prompt = f'''
-                            Write 1 paragraph in about 60 to 80 words on why herbal {remedy_name} helps with {status_name}.
+                            Write 1 paragraph in about 60 to 80 words on why herbal {remedy_name_common} helps with {status_name}.
                             Don't write about side effects and precautions.
-                            Start the reply with the following words: {remedy_name.capitalize()} helps with {status_name} because .
+                            Start the reply with the following words: {remedy_name_common.capitalize()} helps with {status_name} because .
                         '''
                         reply = utils_ai.gen_reply(prompt)
                         reply, error = utils_ai.reply_to_paragraph(reply)
@@ -635,7 +636,8 @@ def gen_preparations(preparation_slug):
                         image_filepath_web = f'/images/herbal-{preparation_name}-for-{status_slug}-{remedy_name_common}.jpg'
                         if not os.path.exists(image_filepath_out): 
                         # if True: 
-                            util_image.template_remedy(image_filepath_out, obj, preparation_name)
+                            try: util_image.template_remedy(image_filepath_out, obj, preparation_name)
+                            except: pass
                             # util_image.image_template_herbs(image_filepath_out, data)
                         article_html += f'<p><img src="{image_filepath_web}" alt="{status_slug} herbs"></p>'
 
@@ -647,7 +649,7 @@ def gen_preparations(preparation_slug):
                         prompt = f'''
                             Write a numbered list of the 5 most important medicinal properties of {remedy_name_common} that help with {status_name}.
                             For each medicinal property, explain in 1 short sentence why that property is important for {status_name} and what active constituents give that property. 
-                            Write each list element using the following format: [medicinal propertie]: [property description].
+                            Write each list element using the following format: [medicinal property]: [property description].
                         '''
                         reply = utils_ai.gen_reply(prompt)
                         reply, error = utils_ai.reply_to_list_column(reply)
@@ -1035,7 +1037,8 @@ def remedies_systems_problems():
                 image_filepath_web = f'/images/{problem_slug}-causes.jpg'
                 if not os.path.exists(image_filepath_out): 
                 # if True: 
-                    util_image.image_template_causes(image_filepath_out, data)
+                    try: util_image.image_template_causes(image_filepath_out, data)
+                    except: pass
                 article_html += f'<p><img src="{image_filepath_web}" alt="{problem_name} causes"></p>'
 
             key = 'causes_list'
@@ -1117,7 +1120,8 @@ def remedies_systems_problems():
                 image_filepath_web = f'/images/{problem_slug}-herbs.jpg'
                 if not os.path.exists(image_filepath_out): 
                 # if True: 
-                    util_image.image_template_herbs(image_filepath_out, data)
+                    try: util_image.image_template_herbs(image_filepath_out, data)
+                    except: pass
                 article_html += f'<p><img src="{image_filepath_web}" alt="{problem_name} herbs"></p>'
             
             key = 'herbs_list'
@@ -1228,7 +1232,8 @@ def remedies_systems_problems():
                 image_filepath_web = f'/images/{problem_slug}-preparations.jpg'
                 if not os.path.exists(image_filepath_out): 
                 # if True: 
-                    util_image.image_template_preparations(image_filepath_out, data)
+                    try: util_image.image_template_preparations(image_filepath_out, data)
+                    except: pass
                 article_html += f'<p><img src="{image_filepath_web}" alt="{problem_name} herbs"></p>'
             
 
@@ -3355,7 +3360,8 @@ def remedies_systems_problems_new():
                 image_filepath_web = f'/images/{status_slug}-causes.jpg'
                 if not os.path.exists(image_filepath_out): 
                 # if True: 
-                    util_image.image_template_causes(image_filepath_out, data)
+                    try: util_image.image_template_causes(image_filepath_out, data)
+                    except: pass
                 article_html += f'<p><img src="{image_filepath_web}" alt="{status_name} causes"></p>'
 
             key = 'causes_list'
@@ -3445,7 +3451,8 @@ def remedies_systems_problems_new():
                 image_filepath_web = f'/images/{status_slug}-herbs.jpg'
                 if not os.path.exists(image_filepath_out): 
                 # if True: 
-                    util_image.image_template_herbs(image_filepath_out, data)
+                    try: util_image.image_template_herbs(image_filepath_out, data)
+                    except: pass
                 article_html += f'<p><img src="{image_filepath_web}" alt="{status_slug} herbs"></p>'
             
             key = 'herbs_list'
@@ -3550,7 +3557,8 @@ def remedies_systems_problems_new():
                 image_filepath_web = f'/images/{status_slug}-preparations.jpg'
                 if not os.path.exists(image_filepath_out): 
                 # if True: 
-                    util_image.image_template_preparations(image_filepath_out, data)
+                    try: util_image.image_template_preparations(image_filepath_out, data)
+                    except: pass
                 article_html += f'<p><img src="{image_filepath_web}" alt="{status_name} herbs"></p>'
 
             key = 'preparations_list'
@@ -3951,14 +3959,14 @@ page_herbalism()
 # page_plants(regen_csv=False)
 # page_about()
 
-if 'remedies':
-    remedies_systems_problems_new()
-    remedies_systems_new()
-    remedies()
+# if 'remedies':
+#     remedies_systems_problems_new()
+#     remedies_systems_new()
+#     remedies()
 
 if 'preparations':
     gen_preparations('teas')
-    # gen_preparations('tinctures')
+    gen_preparations('tinctures')
     # gen_preparations('capsules')
 
 
