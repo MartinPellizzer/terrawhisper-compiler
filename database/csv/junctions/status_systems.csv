@@ -81,3 +81,13 @@ status_id\status_name\system_id\system_name
 76\hiccups\5\nervous system
 79\mucus in throat\1\respiratory system
 80\nasal congestion\1\respiratory system
+82\low blood pressure\2\cardiovascular system
+83\heart pain\2\cardiovascular system
+86\nose bleeding\4\integumentary system
+87\palpitation\2\cardiovascular system
+88\swollen feet\13\lymphatic system
+89\arteriosclerosis\2\cardiovascular system
+90\congestive heart failure\2\cardiovascular system
+91\peripheral arterial occlusive disease\2\cardiovascular system
+92\varicose veins\2\cardiovascular system
+96\hypertension\2\cardiovascular system
