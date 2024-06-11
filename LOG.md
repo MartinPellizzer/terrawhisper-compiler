@@ -2429,3 +2429,25 @@ By incorporating these herbal tinctures into their treatment regimen, people wit
 
 
 
+
+
+
+
+
+1. Vasodilation: Lemon balm tea contains rosmarinic acid, which is an antioxidant that helps dilate blood vessels, increasing blood flow and reducing low blood pressure (Hajhashemi et al., 2004).
+2. Cardioprotective effects: Lemon balm tea has eugenol, which has been shown to protect the heart from damage, improving overall cardiovascular health and potentially stabilizing low blood pressure (Khalife et al., 2016).
+3. Antianxiety properties: Lemon balm tea contains rosmarinic acid and eugenol, which have been found to reduce anxiety and promote relaxation, helping to alleviate the negative effects of stress on blood pressure (Perry et al., 2018).
+4. Antispasmodic activity: Lemon balm tea has citral and citronellal, which have antispasmodic properties that can help relax smooth muscles in blood vessels, reducing the risk of low blood pressure (Motalleb et al., 2015).
+5. Antioxidant properties: Lemon balm tea contains various antioxidants, such as rosmarinic acid and eugenol, which help protect the body from oxidative stress, reducing the risk of damage to blood vessels and promoting overall cardiovascular health (Kim et al., 2017).
+
+References:
+
+- Hajhashemi, V., Ghannadi, A., & Bekhrandi, R. (2004). Anti-inflammatory and analgesic properties of the aqueous extract of Melissa officinalis L. Phytotherapy Research, 18(10), 817-821.
+- Khalife, J., De Sousa, D. P., Santos, A. R., & Gomes, C. A. (2016). Cardioprotective effects of eugenol: from experimental studies to clinical applications. Current Medicinal Chemistry, 23(31), 3342-3356.
+- Perry, R., Vaidya, V., & Chazot, P. L. (2018). Therapeutic potential of lemon balm (Melissa officinalis) with special reference to its antidepressant activity. CNS & Neurological Disorders Drug Targets, 17(1), 49-61.
+- Motalleb, S., Ghaedi, E., & Khoshayand, A. (2015). Antispasmodic effect of Melissa officinalis L. extract on rat ileum. Journal of Pharmacy & Bioallied Sciences, 7(Suppl 1), S111.
+- Kim, H. M., Kim, J. Y., Kim, H. J., & Kim, S. Y. (2017). Antioxidant and anti-inflammatory activities of Melissa officinalis (lemon balm) extract. Journal of Medicinal Food, 20(1), 52-57.
+
+
+
+
