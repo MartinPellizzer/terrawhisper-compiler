@@ -33098,3 +33098,16 @@ JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1718206616927	geckodriver	INFO	Listening on 127.0.0.1:58972
+1718206619959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58973" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileuzCJ8S"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1718206620691	Marionette	INFO	Marionette enabled
+1718206620899	Marionette	INFO	Listening on port 58981
+WebDriver BiDi listening on ws://127.0.0.1:58973
+Read port: 58981
+1718206621347	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:58973/devtools/browser/6a52f6b1-74a4-47ef-941e-de5519a24d0a
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.sys.mjs, line 118: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]

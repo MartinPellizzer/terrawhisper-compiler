@@ -517,10 +517,9 @@ def gen_herbs_medicine_benefits(herb_num=0):
 
 
 def gen_herbs_names_common():
-    
-    problems_herbs_auto_rows = util.csv_get_rows(g.CSV_PROBLEMS_HERBS_AUTO_FILEPATH)
-    problems_herbs_auto_cols = util.csv_get_cols(problems_herbs_auto_rows)
-    problems_herbs_auto_rows = problems_herbs_auto_rows[1:]
+    herbs_auto_rows = util.csv_get_rows(g.CSV_HERBS_AUTO_FILEPATH)
+    herbs_auto_cols = util.csv_get_cols(herbs_auto_rows)
+    herbs_auto_rows = herbs_auto_rows[1:]
 
     for herb_row in herbs_auto_rows:
         herb_id = herb_row[herbs_auto_cols['herb_id']].strip()

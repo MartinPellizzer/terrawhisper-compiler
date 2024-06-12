@@ -91,3 +91,30 @@ status_id\status_name\system_id\system_name
 91\peripheral arterial occlusive disease\2\cardiovascular system
 92\varicose veins\2\cardiovascular system
 96\hypertension\2\cardiovascular system
+97\muscle pain\3\musculoskeletal system
+98\osteoporosis\3\musculoskeletal system
+99\arthritis\3\musculoskeletal system
+100\joint pain\3\musculoskeletal system
+101\joint stiffness\3\musculoskeletal system
+102\osteoarthritis\3\musculoskeletal system
+103\rheumatoid arthritis\3\musculoskeletal system
+104\bursitis\3\musculoskeletal system
+105\tendinitis\3\musculoskeletal system
+106\gout\3\musculoskeletal system
+107\back pain\3\musculoskeletal system
+108\lower back pain\3\musculoskeletal system
+109\stiff neck\3\musculoskeletal system
+110\neck pain\3\musculoskeletal system
+111\frozen shoulder\3\musculoskeletal system
+112\jammed finger\3\musculoskeletal system
+113\leg cramps\3\musculoskeletal system
+114\leg pain\3\musculoskeletal system
+115\restless leg syndrome\5\nervous system
+116\knee pain\3\musculoskeletal system
+117\knee swelling\3\musculoskeletal system
+118\foot pain\3\musculoskeletal system
+119\plantar fasciitis\3\musculoskeletal system
+120\chapped lips\4\integumentary system
+122\jaw pain\3\musculoskeletal system
+123\jaw lock\3\musculoskeletal system
+124\jaw clenching\3\musculoskeletal system
