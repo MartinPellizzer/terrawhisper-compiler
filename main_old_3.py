@@ -4090,3 +4090,84 @@ def html_preparation_system_problem_supplementary(html_filepath, data):
         article_html += f'{util.text_format_1N1_html(text)}\n'
 
     return article_html
+
+
+
+
+
+# #########################################################
+# JSON CLEANUP
+# #########################################################
+
+def json_del_keys_herbalism_tea(key):
+    for problem_row in problems_rows[:g.ART_NUM]:
+        problem_id = problem_row[problems_cols['problem_id']]
+        problem_slug = problem_row[problems_cols['problem_slug']]
+        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+        if problem_id == '': continue
+        if problem_slug == '': continue
+        if problem_name == '': continue
+
+        print(f'> {problem_name}')
+
+        system_row = csv_get_system_by_problem(problem_id)
+
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        print(f'  > {system_name}')
+
+        json_filepath = f'database/json/herbalism/tea/{system_slug}/{problem_slug}.json'
+
+        data = util.json_read(json_filepath)
+        if key in data: del data[key]
+        util.json_write(json_filepath, data)
+
+
+def json_del_keys_herbalism_tincture(key):
+    for problem_row in problems_rows[:g.ART_NUM]:
+        problem_id = problem_row[problems_cols['problem_id']]
+        problem_slug = problem_row[problems_cols['problem_slug']]
+        problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+        if problem_id == '': continue
+        if problem_slug == '': continue
+        if problem_name == '': continue
+
+        print(f'> {problem_name}')
+
+        system_row = csv_get_system_by_problem(problem_id)
+
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        print(f'  > {system_name}')
+
+        json_filepath = f'database/json/herbalism/tincture/{system_slug}/{problem_slug}.json'
+
+        if os.path.exists(json_filepath):
+            data = util.json_read(json_filepath)
+            if key in data: del data[key]
+            util.json_write(json_filepath, data)
+        else: print(f'file not exists: {json_filepath}')
+
+
+
+# json_del_keys_herbalism_tea(key='intro_desc')
+# json_del_keys_herbalism_tincture(key='intro_desc')
+
+# json_del_keys_herbalism_tea(key='supplementary_causes')
+# json_del_keys_herbalism_tincture(key='supplementary_causes')
+
+# quit()

@@ -460,25 +460,22 @@ def remedies_systems_status_preparations(preparation_slug):
 # ;HERBS
 ##################################################
 
-def gen_herbs_medicine_benefits(herb_num=0):
-    if herb_num < 0: return
-    
-    herb_num_selected = 0
-    if herb_num != 0: herb_num_selected = herb_num
-    else: herb_num_selected = g.HERBS_ART_NUM
-
-    for herb_row in herbs_rows[:herb_num_selected]:
-        herb_id = herb_row[herbs_cols['herb_id']].strip().lower()
-        herb_slug = herb_row[herbs_cols['herb_slug']].strip().lower()
-        herb_name_common = herb_row[herbs_cols['herb_name_common']].split(',')[0].strip().lower()
-        herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip().lower()
+def gen_herbs_medicine_benefits():
+    for herb_row in herbs_auto_rows:
+        herb_id = herb_row[herbs_auto_cols['herb_id']].strip().lower()
+        herb_slug = herb_row[herbs_auto_cols['herb_slug']].strip().lower()
+        herb_name_scientific = herb_row[herbs_auto_cols['herb_name_scientific']].strip().lower()
 
         if herb_id == '': continue
         if herb_slug == '': continue
-        if herb_name_common == '': continue
         if herb_name_scientific == '': continue
 
         print(f'> {herb_row}')
+
+        herbs_names_common_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_HERBS_NAMES_COMMON_FILEPATH, herbs_names_common_cols['herb_id'], herb_id
+        )
+        herb_name_common = herbs_names_common_rows_filtered[0][herbs_names_common_cols['herb_name_common']]
 
         herbs_benefits_rows = util.csv_get_rows_filtered(
             g.CSV_HERBS_BENEFITS_FILEPATH, herbs_benefits_cols['herb_id'], herb_id
@@ -486,10 +483,12 @@ def gen_herbs_medicine_benefits(herb_num=0):
 
         if herbs_benefits_rows == []:
             prompt = f'''
-                Write a numbered list of the 15 best health benefits of {herb_name_common} ({herb_name_scientific}).
+                Write a numbered list of the 15 best health benefits of the herb {herb_name_common} ({herb_name_scientific}).
                 Write only the names of the benefits, not the descriptions.
                 Write as few words as possible.
                 Start each list item with an action verb.
+                Include only proven factual benefits.
+                Don't include the following words: can, may, might.
             '''
             reply = utils_ai.gen_reply(prompt)
 
@@ -504,8 +503,9 @@ def gen_herbs_medicine_benefits(herb_num=0):
                 line = line.split('(')[0]
                 line = line.replace('.', '')
                 line = line.strip()
+                if line.split(' ')[0][-1] != 's': continue
                 if line == '': continue
-                lines.append([herb_id, herb_name_common, line])
+                lines.append([herb_id, herb_name_scientific, line])
 
             if len(lines) >= 10:
                 print('***************************************************')
@@ -721,10 +721,12 @@ def gen_csvs():
 
 
 
-gen_csvs()
+# gen_csvs()
 
-remedies_systems_status_preparations('teas')
-remedies_systems_status_preparations('tinctures')
-remedies_systems_status_preparations('capsules')
+# remedies_systems_status_preparations('teas')
+# remedies_systems_status_preparations('tinctures')
+# remedies_systems_status_preparations('capsules')
 
-gen_herbs_names_common()
+# gen_herbs_names_common()
+
+gen_herbs_medicine_benefits()
