@@ -462,6 +462,11 @@ def remedies_systems_status_preparations(preparation_slug):
 
 def gen_herbs_medicine_benefits():
     for herb_row in herbs_auto_rows:
+        herbs_benefits_rows = util.csv_get_rows(g.CSV_HERBS_BENEFITS_FILEPATH)
+        herbs_benefits_cols = util.csv_get_cols(herbs_benefits_rows)
+        herbs_benefits_headers = herbs_benefits_rows[0]
+        herbs_benefits_rows = herbs_benefits_rows[1:]
+
         herb_id = herb_row[herbs_auto_cols['herb_id']].strip().lower()
         herb_slug = herb_row[herbs_auto_cols['herb_slug']].strip().lower()
         herb_name_scientific = herb_row[herbs_auto_cols['herb_name_scientific']].strip().lower()
@@ -470,23 +475,53 @@ def gen_herbs_medicine_benefits():
         if herb_slug == '': continue
         if herb_name_scientific == '': continue
 
-        print(f'> {herb_row}')
+        # print(f'> {herb_row}')
 
         herbs_names_common_rows_filtered = util.csv_get_rows_filtered(
             g.CSV_HERBS_NAMES_COMMON_FILEPATH, herbs_names_common_cols['herb_id'], herb_id
         )
         herb_name_common = herbs_names_common_rows_filtered[0][herbs_names_common_cols['herb_name_common']]
 
-        herbs_benefits_rows = util.csv_get_rows_filtered(
+        herbs_benefits_rows_filtered = util.csv_get_rows_filtered(
             g.CSV_HERBS_BENEFITS_FILEPATH, herbs_benefits_cols['herb_id'], herb_id
         )
 
-        if herbs_benefits_rows == []:
+        # exists?
+        if herbs_benefits_rows_filtered != []:
+            # to remove?
+            to_remove = False
+            for herb_benefit_row in herbs_benefits_rows_filtered:
+                benefit_name = herb_benefit_row[herbs_benefits_cols['benefit_name']]
+                if len(benefit_name.split(' ')) > 5:
+                    to_remove = True
+                    break
+
+            if to_remove:
+                herbs_benefits_rows_to_keep = [herbs_benefits_headers]
+                herbs_benefits_rows_to_remove = []
+
+                for herb_benefit_row in herbs_benefits_rows:
+                    herb_id_to_filter = herb_benefit_row[herbs_benefits_cols['herb_id']]
+                    if herb_id_to_filter == herb_id:
+                        herbs_benefits_rows_to_remove.append(herb_benefit_row)
+                    else:
+                        herbs_benefits_rows_to_keep.append(herb_benefit_row)
+
+                util.csv_set_rows(g.CSV_HERBS_BENEFITS_FILEPATH, herbs_benefits_rows_to_keep)
+
+
+
+        herbs_benefits_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_HERBS_BENEFITS_FILEPATH, herbs_benefits_cols['herb_id'], herb_id
+        )
+
+        if herbs_benefits_rows_filtered == []:
             prompt = f'''
                 Write a numbered list of the 15 best health benefits of the herb {herb_name_common} ({herb_name_scientific}).
                 Write only the names of the benefits, not the descriptions.
                 Write as few words as possible.
-                Start each list item with an action verb.
+                Write each benefit in less than 5 words.
+                Start each list item with a third person singular action verb.
                 Include only proven factual benefits.
                 Don't include the following words: can, may, might.
             '''
@@ -496,15 +531,18 @@ def gen_herbs_medicine_benefits():
             for line in reply.split('\n'):
                 line = line.strip().lower()
                 if line == '': continue
-                if ':' in line: continue
                 if not line[0].isdigit(): continue
+                if '-' in line: continue
                 if '.' not in line: continue
                 line = '.'.join(line.split('.')[1:])
+                if ':' in line: line = line.split(':')[0]
+                if line == '': continue
                 line = line.split('(')[0]
                 line = line.replace('.', '')
                 line = line.strip()
                 if line.split(' ')[0][-1] != 's': continue
                 if line == '': continue
+                if len(line.split(' ')) > 5: continue
                 lines.append([herb_id, herb_name_scientific, line])
 
             if len(lines) >= 10:
