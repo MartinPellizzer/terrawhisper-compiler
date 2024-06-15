@@ -2,12 +2,17 @@
 from PIL import Image, ImageDraw, ImageFont
 import random
 import os
-
+import data_csv
+import util
+import g
 
 
 c_dark = '#030712'
 c_holy = '#f5f5f5'
 c_bg = '#f5f5f5'
+
+
+
 
 def text_to_lines(text, font, line_width_max):
     lines = []
@@ -585,6 +590,7 @@ def cheatsheet(image_filepath_out, data):
 
 
 def template_remedy(image_filepath_out, obj, preparation_name):
+
     img_w, img_h = 768, 512
     img_padding_x = 80
     y = 0
@@ -702,3 +708,56 @@ def template_remedy(image_filepath_out, obj, preparation_name):
     img.save(image_filepath_out, quality=50)
     # img.show()
     # quit()
+
+
+
+
+
+
+
+
+
+
+
+
+def template_herb(filepath_out, data):
+    img_w, img_h = 768, 512
+    p_x = 48
+    stroke_w = 1
+    font_size = img_w//12
+    img = Image.new(mode="RGB", size=(img_w, img_h), color=c_dark)
+    draw = ImageDraw.Draw(img)
+
+    herb_id = data['herb_id']
+    herb_name_scientific = data['herb_name_scientific']
+
+    herbs_names_common_rows, herbs_names_common_cols = data_csv.herbs_names_common()
+    herb_name_common = ''
+    for herb_name_common_row in herbs_names_common_rows:
+        _id = herb_name_common_row[herbs_names_common_cols['herb_id']]
+        _name_common = herb_name_common_row[herbs_names_common_cols['herb_name_common']]
+        if _id == herb_id:
+            herb_name_common = _name_common
+            break
+
+    gap_y = 10
+
+    text = herb_name_scientific
+    font_size = 48
+    font = ImageFont.truetype("assets/fonts/arial/ARIALBD.TTF", font_size)
+    _, _, text_w, text_h = font.getbbox(text)
+    draw.text(
+        (img_w//2 - text_w//2, img_h//2 - text_h - gap_y//2), 
+        text, c_holy, font=font)
+
+    text = herb_name_common
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial/ARIALI.TTF", font_size)
+    _, _, text_w, text_h = font.getbbox(text)
+    draw.text(
+        (img_w//2 - text_w//2, img_h//2 + gap_y//2), 
+        f'({text})', c_holy, font=font)
+
+    img.save(filepath_out, quality=50) 
+    # img.show()
+

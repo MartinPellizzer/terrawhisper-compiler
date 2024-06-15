@@ -52,6 +52,7 @@ preparations_rows = preparations_rows[1:]
 
 status_rows, status_cols = data_csv.status()
 herbs_auto_rows, herbs_auto_cols = data_csv.herbs_auto()
+herbs_names_common_rows, herbs_names_common_cols = data_csv.herbs_names_common()
 
 
 
@@ -103,10 +104,6 @@ problems_herbs_auto_rows = problems_herbs_auto_rows[1:]
 status_herbs_rows = util.csv_get_rows(g.CSV_STATUS_HERBS_FILEPATH)
 status_herbs_cols = util.csv_get_cols(status_herbs_rows)
 status_herbs_rows = status_herbs_rows[1:]
-
-herbs_names_common_rows = util.csv_get_rows(g.CSV_HERBS_NAMES_COMMON_FILEPATH)
-herbs_names_common_cols = util.csv_get_cols(herbs_names_common_rows)
-herbs_names_common_rows = herbs_names_common_rows[1:]
 
 
 
@@ -1710,9 +1707,8 @@ def art_herb(herb_row):
                 Start the reply with the following words: {herb_name_common}, scientifically know as {herb_name_scientific}, is .
             '''
             reply = utils_ai.gen_reply(prompt)
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -1734,9 +1730,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -1759,9 +1754,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -1784,9 +1778,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -1809,9 +1802,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -1834,9 +1826,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -1859,9 +1850,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -1884,9 +1874,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -1909,9 +1898,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -1934,9 +1922,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -1959,9 +1946,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -1984,9 +1970,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -2010,9 +1995,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -2036,9 +2020,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -2061,9 +2044,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -2086,9 +2068,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -2111,9 +2092,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -2136,9 +2116,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -2160,9 +2139,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -2184,9 +2162,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -2208,9 +2185,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -2232,9 +2208,8 @@ def art_herb(herb_row):
             '''
             reply = utils_ai.gen_reply(prompt)
             reply = reply.replace(aka, '')
-            reply = utils_ai.reply_to_paragraphs(reply)
-            print(len(reply))
-            if len(reply) == 1:
+            reply, error = utils_ai.reply_to_paragraph(reply)
+            if error == '':
                 print('*******************************************')
                 print(reply)
                 print('*******************************************')
@@ -2287,6 +2262,33 @@ def art_herb(herb_row):
     '''
 
     util.file_write(html_filepath, html)
+
+
+    if 'redirect':
+        old_plant_filepath = html_filepath.replace('/herbs/', '/plants/')
+        web_plant_filepath = html_filepath.replace('website/', '')
+
+        if not os.path.exists(old_plant_filepath):
+            util.create_folder_for_filepath(old_plant_filepath)
+            html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta http-equiv="refresh" content="0; url=https://terrawhisper.com/{web_plant_filepath}">
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="Leen Randell">
+                <link rel="stylesheet" href="/style.css">
+                <title>Content Permanently Moved (Redirected)</title>
+            </head>
+
+            <body>
+            </body>
+
+            </html>
+            '''
+            util.file_write(old_plant_filepath, html)
 
 
 def art_herb_medicine(herb_row):
@@ -2498,6 +2500,33 @@ def art_herb_medicine(herb_row):
 
     util.file_write(html_filepath, html)
 
+    
+    if 'redirect':
+        old_plant_filepath = html_filepath.replace('/herbs/', '/plants/')
+        web_plant_filepath = html_filepath.replace('website/', '')
+
+        if not os.path.exists(old_plant_filepath):
+            util.create_folder_for_filepath(old_plant_filepath)
+            html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta http-equiv="refresh" content="0; url=https://terrawhisper.com/{web_plant_filepath}">
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="Leen Randell">
+                <link rel="stylesheet" href="/style.css">
+                <title>Content Permanently Moved (Redirected)</title>
+            </head>
+
+            <body>
+            </body>
+
+            </html>
+            '''
+            util.file_write(old_plant_filepath, html)
+
 
 def art_herb_medicine_benefits(herb_row):
     herb_id = herb_row[herbs_auto_cols['herb_id']].strip()
@@ -2634,6 +2663,33 @@ def art_herb_medicine_benefits(herb_row):
     '''
 
     util.file_write(html_filepath, html)
+
+    
+    if 'redirect':
+        old_plant_filepath = html_filepath.replace('/herbs/', '/plants/')
+        web_plant_filepath = html_filepath.replace('website/', '')
+
+        if not os.path.exists(old_plant_filepath):
+            util.create_folder_for_filepath(old_plant_filepath)
+            html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta http-equiv="refresh" content="0; url=https://terrawhisper.com/{web_plant_filepath}">
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="Leen Randell">
+                <link rel="stylesheet" href="/style.css">
+                <title>Content Permanently Moved (Redirected)</title>
+            </head>
+
+            <body>
+            </body>
+
+            </html>
+            '''
+            util.file_write(old_plant_filepath, html)
         
 
 def art_herb_category():
@@ -2650,25 +2706,30 @@ def art_herb_category():
 
         data = util.json_read(json_filepath)
         title = data['title']
-        image_featured_filepath_web = f'/images/{herb_slug}-overview.jpg'
+        # image_featured_filepath_web = f'/images/{herb_slug}-overview.jpg'
 
         
         # img
         images_folderpath = f'C:/terrawhisper-assets/images/herbs/{herb_slug}'
+        image_featured_filepath_out = f'website/images/{herb_slug}-overview-thumbnail.jpg'
+        image_featured_filepath_web = f'/images/{herb_slug}-overview-thumbnail.jpg'
         if os.path.exists(images_folderpath):
-            images_filenames = os.listdir(images_folderpath)
+            util_image.template_herb(image_featured_filepath_out, data)
 
-            image_featured_filename = images_filenames[0]
-            image_featured_filepath_in = f'{images_folderpath}/{image_featured_filename}'
-            image_featured_filepath_out = f'website/images/{herb_slug}-overview-thumbnail.jpg'
-            image_featured_filepath_web = f'/images/{herb_slug}-overview-thumbnail.jpg'
+        # if os.path.exists(images_folderpath):
+        #     images_filenames = os.listdir(images_folderpath)
 
-            label = herb_name_common
+        #     image_featured_filename = images_filenames[0]
+        #     image_featured_filepath_in = f'{images_folderpath}/{image_featured_filename}'
+        #     image_featured_filepath_out = f'website/images/{herb_slug}-overview-thumbnail.jpg'
+        #     image_featured_filepath_web = f'/images/{herb_slug}-overview-thumbnail.jpg'
 
-            if not os.path.exists(image_featured_filepath_out):
-            # if os.path.exists(image_featured_filepath_out):
-                util.image_save_resized(image_featured_filepath_in, image_featured_filepath_out, 768, 512, 50)
-                util.image_label_01(image_featured_filepath_out, label)
+        #     label = herb_name_common
+
+        #     if not os.path.exists(image_featured_filepath_out):
+        #     # if os.path.exists(image_featured_filepath_out):
+        #         util.image_save_resized(image_featured_filepath_in, image_featured_filepath_out, 768, 512, 50)
+        #         util.image_label_01(image_featured_filepath_out, label)
 
         herbs_cards_html += f'''
             <div>
@@ -2727,12 +2788,15 @@ def art_herb_category():
 
 
 def herbs_main():
-    for herb_row in herbs_auto_rows:
-        art_herb(herb_row)
-        art_herb_medicine(herb_row)
-        art_herb_medicine_benefits(herb_row)
+    art_herb_category()
+    # quit()
+    
+    # for herb_row in herbs_auto_rows:
+    #     art_herb(herb_row)
+    #     art_herb_medicine(herb_row)
+    #     art_herb_medicine_benefits(herb_row)
 
-        art_herb_category()
+        
 
 
 

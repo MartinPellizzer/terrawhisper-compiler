@@ -16,3 +16,11 @@ def herbs_auto():
     herbs_auto_rows = herbs_auto_rows[1:]
 
     return herbs_auto_rows, herbs_auto_cols
+
+
+def herbs_names_common():
+    rows = util.csv_get_rows(g.CSV_HERBS_NAMES_COMMON_FILEPATH)
+    cols = util.csv_get_cols(rows)
+    rows = rows[1:]
+
+    return rows, cols
