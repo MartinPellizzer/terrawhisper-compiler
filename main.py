@@ -2693,59 +2693,30 @@ def art_herb_medicine_benefits(herb_row):
         
 
 def art_herb_category():
-    herbs_cards_html = ''
+    html_list = ''
     for herb_row in herbs_auto_rows:
         herb_id = herb_row[herbs_auto_cols['herb_id']].strip()
         herb_slug = herb_row[herbs_auto_cols['herb_slug']]
-        herb_name_common = csv_get_herb_common_name_by_id(herb_id)
+        herb_name_scientific = herb_row[herbs_auto_cols['herb_name_scientific']]
    
         url = f'herbs/{herb_slug}'
         json_filepath = f'database/json/{url}.json'
 
         if not os.path.exists(json_filepath): continue
 
-        data = util.json_read(json_filepath)
-        title = data['title']
-        # image_featured_filepath_web = f'/images/{herb_slug}-overview.jpg'
-
-        
-        # img
-        images_folderpath = f'C:/terrawhisper-assets/images/herbs/{herb_slug}'
-        image_featured_filepath_out = f'website/images/{herb_slug}-overview-thumbnail.jpg'
-        image_featured_filepath_web = f'/images/{herb_slug}-overview-thumbnail.jpg'
-        if os.path.exists(images_folderpath):
-            util_image.template_herb(image_featured_filepath_out, data)
-
-        # if os.path.exists(images_folderpath):
-        #     images_filenames = os.listdir(images_folderpath)
-
-        #     image_featured_filename = images_filenames[0]
-        #     image_featured_filepath_in = f'{images_folderpath}/{image_featured_filename}'
-        #     image_featured_filepath_out = f'website/images/{herb_slug}-overview-thumbnail.jpg'
-        #     image_featured_filepath_web = f'/images/{herb_slug}-overview-thumbnail.jpg'
-
-        #     label = herb_name_common
-
-        #     if not os.path.exists(image_featured_filepath_out):
-        #     # if os.path.exists(image_featured_filepath_out):
-        #         util.image_save_resized(image_featured_filepath_in, image_featured_filepath_out, 768, 512, 50)
-        #         util.image_label_01(image_featured_filepath_out, label)
-
-        herbs_cards_html += f'''
+        html_list += f'''
             <div>
-                <a href="/herbs/{herb_slug}.html">
-                    <img src="{image_featured_filepath_web}" alt="">
-                    <h3>{title}</h3>
-                </a>
+                <a href="/herbs/{herb_slug}.html">{herb_name_scientific}</a>
             </div>
         '''
-
-    article_html = herbs_cards_html
 
     html_filepath = f'website/herbs.html'
 
     header_html = util.header_default_dark()
     breadcrumbs_html = util.breadcrumbs(html_filepath)
+
+    html_title = f'List Of The Most Used Medicinal Herbs For Better Health'
+    html_intro = f'The following list shows the best medicinal herbs to improve health and to heal ailments. Click on any of the following herbs to discover its medicinal aspects and much more. We decided to list the scientific names instead of the common ones to eliminiate ambiguity.'
 
     html = f'''
         <!DOCTYPE html>
@@ -2757,7 +2728,7 @@ def art_herb_category():
             <meta name="author" content="{g.AUTHOR_NAME}">
             <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
             <link rel="stylesheet" href="/style.css">
-            <title>{title}</title>
+            <title>{html_title}</title>
             {g.GOOGLE_TAG}
             
         </head>
@@ -2765,11 +2736,19 @@ def art_herb_category():
         <body>
             {header_html}
             {breadcrumbs_html}
+
+            <section>
+                <div class="container-md">
+                    <h2 class="text-center">{html_title}</h2>
+                    <p class="text-center">{html_intro}</p>
+                </div>
+            </section>
+
             
             <section class="blog-grid">
                 <div class="container-lg">
-                    <div class="grid grid-3 gap-24">
-                        {article_html}
+                    <div class="grid grid-4 gap-24">
+                        {html_list}
                     </div>
                 </div>
             </section>
@@ -2789,7 +2768,6 @@ def art_herb_category():
 
 def herbs_main():
     art_herb_category()
-    # quit()
     
     # for herb_row in herbs_auto_rows:
     #     art_herb(herb_row)
@@ -3953,10 +3931,10 @@ def remedies():
 # EXE
 # #########################################################
 
-page_home()
-page_privacy_policy()
-page_cookie_policy()
-page_herbalism()
+# page_home()
+# page_privacy_policy()
+# page_cookie_policy()
+# page_herbalism()
 # page_top_herbs()
 # page_plants(regen_csv=False)
 # page_about()
