@@ -870,6 +870,9 @@ def gen_preparations(preparation_slug):
         util.file_write(html_filepath, html)
 
 
+
+
+
 # #########################################################
 # ;REMEDIES
 # #########################################################
@@ -1662,25 +1665,7 @@ def art_herb(herb_row):
     title = f'What to know about {herb_name_common} before using it medicinally'
     data['title'] = title
     util.json_write(json_filepath, data)
-
-    # img
-    images_folderpath = f'C:/terrawhisper-assets/images/herbs/{herb_slug}'
-    image_featured_filepath_web = f'/images/{herb_slug}-overview.jpg'
-    if os.path.exists(images_folderpath):
-        images_filenames = os.listdir(images_folderpath)
-
-        # image_featured_filename = random.choice(images_filenames)
-        image_featured_filename = images_filenames[0]
-        image_featured_filepath_in = f'{images_folderpath}/{image_featured_filename}'
-        image_featured_filepath_out = f'website/images/{herb_slug}-overview.jpg'
-
-        label = herb_slug
-
-        if not os.path.exists(image_featured_filepath_out):
-        # if os.path.exists(image_featured_filepath_out):
-            util.image_save_resized(image_featured_filepath_in, image_featured_filepath_out, 768, 512, 50)
-        # util.image_save_resized(image_featured_filepath_in, image_featured_filepath_out, 768, 512, 50)
-
+        
     # html
     data = util.json_read(json_filepath)
 
@@ -1690,6 +1675,11 @@ def art_herb(herb_row):
         article_html += f'<h1>{title}</h1>\n'
     
     if 'image_featured':
+        image_featured_filepath_out = f'website/images/{herb_slug}-overview.jpg'
+        image_featured_filepath_web = f'/images/{herb_slug}-overview.jpg'
+        if not os.path.exists(image_featured_filepath_out):
+        # if True:
+            util_image.template_herb(image_featured_filepath_out, data)
         article_html += f'<p><img src="{image_featured_filepath_web}" alt=""></p>\n'
 
     if 'intro':
@@ -2769,10 +2759,12 @@ def art_herb_category():
 def herbs_main():
     art_herb_category()
     
-    # for herb_row in herbs_auto_rows:
-    #     art_herb(herb_row)
-    #     art_herb_medicine(herb_row)
-    #     art_herb_medicine_benefits(herb_row)
+    for herb_row in herbs_auto_rows:
+        art_herb(herb_row)
+        art_herb_medicine(herb_row)
+        art_herb_medicine_benefits(herb_row)
+
+        quit()
 
         
 
@@ -2786,17 +2778,6 @@ def page_home():
     header = util.header_default()
     header = util.header_default_dark()
 
-    # image_filepath_in = 'C:/terrawhisper-assets/images/home/medicinal-herbs.jpg'
-    # image_filepath_out = 'website/images/medicinal-herbs.jpg'
-
-    # util.image_save_resized(
-    #     image_filepath_in, 
-    #     image_filepath_out, 
-    #     768,
-    #     768,
-    #     50,
-    # )
-    
     teas_articles_html = ''
     for condition_row in conditions_rows[:6]:
         condition_name = condition_row[conditions_cols['condition_names']].split(',')[0].strip().lower()
@@ -3931,7 +3912,7 @@ def remedies():
 # EXE
 # #########################################################
 
-# page_home()
+page_home()
 # page_privacy_policy()
 # page_cookie_policy()
 # page_herbalism()
@@ -3944,10 +3925,10 @@ def remedies():
 #     remedies_systems_new()
 #     remedies()
 
-# if 'preparations':
-#     gen_preparations('teas')
-#     gen_preparations('tinctures')
-    # gen_preparations('capsules')
+if 'preparations':
+    gen_preparations('teas')
+    gen_preparations('tinctures')
+    gen_preparations('capsules')
 
 
 # if 'preparations':
@@ -3961,8 +3942,16 @@ herbs_main()
 # sitemap.sitemap_all()
 # shutil.copy2('sitemap.xml', 'website/sitemap.xml')
 
+filepath_in = 'assets/images/hero-salvia-2.jpg'
+filepath_out = 'website/images/hero-salvia-2.jpg'
+img = Image.open(filepath_in)
+img = util_image.img_resize(img, 768, 768)
+img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+
 
 shutil.copy2('style.css', 'website/style.css')
 shutil.copy2('util.css', 'website/util.css')
-shutil.copy2('assets/images/healing-herbs.jpg', 'website/images/healing-herbs.jpg')
-shutil.copy2('pinterest-3e4f1.html', 'website/pinterest-3e4f1.html')
+# shutil.copy2('assets/images/healing-herbs.jpg', 'website/images/healing-herbs.jpg')
+shutil.copy2('assets/images/hero-salvia.jpg', 'website/images/hero-salvia.jpg')
+# shutil.copy2('assets/images/hero-salvia-2.jpg', 'website/images/hero-salvia-2.jpg')
+# shutil.copy2('pinterest-3e4f1.html', 'website/pinterest-3e4f1.html')

@@ -368,7 +368,7 @@ td {
 .hero-img {
     --opacity: 0.0;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, var(--opacity)), rgba(0, 0, 0, var(--opacity))), url('/images/medicinal-herbs.jpg');
+    background: linear-gradient(rgba(0, 0, 0, var(--opacity)), rgba(0, 0, 0, var(--opacity))), url('/images/hero-salvia-2.jpg');
     background-position: center;
     background-size: cover;
 }
