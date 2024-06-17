@@ -786,4 +786,43 @@ def template_herb(filepath_out, data):
 
     img.save(filepath_out, quality=50) 
     # img.show()
+    
+
+
+def template_preparation(filepath_out, data):
+    img_w, img_h = 768, 512
+    p_x = 48
+    stroke_w = 1
+    font_size = img_w//12
+    img = Image.new(mode="RGB", size=(img_w, img_h), color=c_dark)
+    draw = ImageDraw.Draw(img)
+
+    preparation_name = data['preparation_name']
+    status_name = data['status_name']
+    print(preparation_name, status_name)
+
+    gap_y = 10
+
+        
+    text = status_name.title()
+    font_size = 48
+    font = ImageFont.truetype("assets/fonts/arial/ARIALBD.TTF", font_size)
+    _, _, text_w, text_h = font.getbbox(text)
+    draw.text(
+        (img_w//2 - text_w//2, img_h//2 - text_h - gap_y//2), 
+        text, c_holy, font=font)
+
+    text = f'best herbal {preparation_name}'
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial/ARIALi.TTF", font_size)
+    _, _, text_w, text_h = font.getbbox(text)
+    draw.text(
+        (img_w//2 - text_w//2, img_h//2 + gap_y//2), 
+        text, c_holy, font=font)
+
+
+    img.save(filepath_out, quality=50) 
+    # img.show()
+
+    # quit()
 

@@ -1,4 +1,6 @@
-- simulate i outbound links in content of articles
+- fix anchor text on supplementary section of preparations (singolar -> plural)
+- redo cheatsheet graphics
+- redo author section on articles
 
 - !!! simulator for herbalism_tea redirect to duplicate pages with no redirect
     - check if tea pages has redirect in meta tag and if that redirect point to existing page

@@ -506,27 +506,40 @@ def gen_preparations(preparation_slug):
         if 'title':
             article_html += f'<h1>{title}</h1>\n'
 
+        # if 'featured_img':
+        #     if 'remedies_list' in data:
+        #         obj = data['remedies_list'][0]
+        #         herb_slug = obj['herb_slug'].split(',')[0].strip()
+
+        #         image_filepath_out = f'website/images/herbal-{preparation_slug}-for-{status_slug}-overview.jpg'
+        #         if not os.path.exists(image_filepath_out):
+        #             images_folderpath = f'C:/terrawhisper-assets/images/{preparation_slug}-new/{herb_slug}'
+        #             if os.path.exists(images_folderpath):
+        #                 images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
+        #                 image_filepath = random.choice(images_filepaths)
+        #                 if image_filepath != '':
+        #                     util.image_variate(image_filepath, image_filepath_out)
+        #             else:
+        #                 if DEBUG_REMEDY_IMG_FOLDER_MISSING: print(f'IMG FOLDER MISSING: {images_folderpath}')
+        #         if os.path.exists(image_filepath_out):
+        #             src = f'/images/herbal-{preparation_slug}-for-{status_slug}-overview.jpg'
+        #             alt = f'herbal {preparation_name} for {status_name} overview'
+        #             article_html += f'<p><img src="{src}" alt="{alt}"></p>\n'
+        #     else:
+        #         if DEBUG_MISS_IMG_KEY_FEATURED: print(f'MISSING KEY "featured": {preparation_slug} {status_slug}')
+
         if 'featured_img':
             if 'remedies_list' in data:
-                obj = data['remedies_list'][0]
-                herb_slug = obj['herb_slug'].split(',')[0].strip()
+                filepath_out = f'website/images/herbal-{preparation_slug}-for-{status_slug}-overview.jpg'
 
-                image_filepath_out = f'website/images/herbal-{preparation_slug}-for-{status_slug}-overview.jpg'
-                if not os.path.exists(image_filepath_out):
-                    images_folderpath = f'C:/terrawhisper-assets/images/{preparation_slug}-new/{herb_slug}'
-                    if os.path.exists(images_folderpath):
-                        images_filepaths = [f'{images_folderpath}/{filename}' for filename in os.listdir(images_folderpath)] 
-                        image_filepath = random.choice(images_filepaths)
-                        if image_filepath != '':
-                            util.image_variate(image_filepath, image_filepath_out)
-                    else:
-                        if DEBUG_REMEDY_IMG_FOLDER_MISSING: print(f'IMG FOLDER MISSING: {images_folderpath}')
-                if os.path.exists(image_filepath_out):
+                if not os.path.exists(filepath_out):
+                # if True:
+                    util_image.template_preparation(filepath_out, data)
+
+                if os.path.exists(filepath_out):
                     src = f'/images/herbal-{preparation_slug}-for-{status_slug}-overview.jpg'
                     alt = f'herbal {preparation_name} for {status_name} overview'
                     article_html += f'<p><img src="{src}" alt="{alt}"></p>\n'
-            else:
-                if DEBUG_MISS_IMG_KEY_FEATURED: print(f'MISSING KEY "featured": {preparation_slug} {status_slug}')
 
         if 'intro':
             key = 'intro_desc'
@@ -3936,7 +3949,7 @@ if 'preparations':
 #     remedies_systems_problems_preparations('tinctures')
 #     remedies_systems_problems_preparations('capsules')
 
-herbs_main()
+# herbs_main()
 
 
 # sitemap.sitemap_all()
@@ -3944,14 +3957,15 @@ herbs_main()
 
 filepath_in = 'assets/images/hero-salvia-2.jpg'
 filepath_out = 'website/images/hero-salvia-2.jpg'
-img = Image.open(filepath_in)
-img = util_image.img_resize(img, 768, 768)
-img.save(filepath_out, format='JPEG', optimize=True, quality=50)
+if not os.path.exists(filepath_out):
+    img = Image.open(filepath_in)
+    img = util_image.img_resize(img, 768, 768)
+    img.save(filepath_out, format='JPEG', optimize=True, quality=50)
 
 
 shutil.copy2('style.css', 'website/style.css')
 shutil.copy2('util.css', 'website/util.css')
 # shutil.copy2('assets/images/healing-herbs.jpg', 'website/images/healing-herbs.jpg')
-shutil.copy2('assets/images/hero-salvia.jpg', 'website/images/hero-salvia.jpg')
+# shutil.copy2('assets/images/hero-salvia.jpg', 'website/images/hero-salvia.jpg')
 # shutil.copy2('assets/images/hero-salvia-2.jpg', 'website/images/hero-salvia-2.jpg')
 # shutil.copy2('pinterest-3e4f1.html', 'website/pinterest-3e4f1.html')

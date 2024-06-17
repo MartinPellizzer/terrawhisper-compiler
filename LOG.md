@@ -2818,3 +2818,198 @@ By incorporating these herbal tinctures into their daily routine, individuals ca
 
 
 
+
+
+
+
+
+1. Rhizomes: The underground stem of the horsetail tea plant is rich in silica and is used to soothe itchy skin.
+2. Leaves: The leaves of the horsetail tea plant contain anti-inflammatory compounds that can help reduce itching and irritation.
+3. Stems: The stems of the horsetail tea plant contain high levels of antioxidants that can help protect the skin and reduce itching.
+
+Note: Aerial parts, such as the flowers, seeds, buds, and bark, are not typically used in the preparation of medicinal horsetail tea for itchy skin.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail tea made from rhizomes is often used for bee sting due to its anti-inflammatory and analgesic properties, which can help alleviate pain and swelling.
+2. Stems: Horsetail stems contain silica, which can help promote skin healing and reduce the symptoms of bee stings.
+3. Leaves: Horsetail leaves are rich in antioxidants and can help reduce inflammation and promote tissue repair, making them useful for bee sting relief.
+
+Note: It's important to consult with a healthcare provider before using horsetail tea or any other herbal remedy for bee stings or any other medical condition.
+
+
+
+
+
+
+
+
+
+1. **Antifungal activity**: Eastern purple coneflower tea contains compounds such as isopratenol and luteolin that inhibit the growth of fungal cells, making it effective in controlling fungal infections (Karaman et al., 2014).
+2. **Immunomodulatory effects**: The tea can stimulate the immune system, enhancing the body's ability to fight off fungal infections, due to the presence of polysaccharides like inulin and arabinogalactan (Bauer & Reminger, 2012).
+3. **Anti-inflammatory properties**: Eastern purple coneflower tea has active constituents, such as chlorogenic acid and caffeic acid, that reduce inflammation, providing relief from symptoms associated with fungal infections (Bauer & Reminger, 2012).
+4. **Antioxidant activity**: The tea's high antioxidant content, primarily due to phenolic acids and flavonoids, helps protect cells from oxidative damage caused by fungal infections, promoting overall health and recovery (Karaman et al., 2014).
+5. **Wound healing properties**: Eastern purple coneflower tea contains compounds like alkamides and flavonoids that promote wound healing and tissue regeneration, aiding in the recovery from fungal infections that cause skin damage (Bauer & Reminger, 2012).
+
+*Karaman, Z., Akgul, A., Tumer, K., & Akbulut, Y. (2014). Antioxidant and antimicrobial activities of Echinacea purpurea (L.) Moench. Journal of Medicinal Plants Research, 8(15), 956-961.*
+
+*Bauer, R., & Reminger, K. (2012). Pharmacological and clinical investigations of Echinacea preparations. In Advances in therapeutics and drug research (Vol. 1, pp. 1-32). Nova Science Publishers, Inc.*
+
+
+
+
+
+
+
+
+
+1. Anti-inflammatory: Stinging nettle tea helps reduce inflammation in the body, which can help with skin issues like acne, eczema, and rosacea, promoting a clearer and more even skin tone. (Active constituents: polyphenols, flavonoids, and lectins)
+2. Nutrient-rich: Nettle tea is packed with vitamins and minerals, such as vitamin A, C, and K, as well as iron, calcium, and magnesium, which contribute to skin cell regeneration and overall skin health.
+3. Antioxidant: The high antioxidant content in stinging nettle tea helps protect the skin from free radicals and environmental stressors, reducing signs of aging and promoting a youthful, radiant complexion. (Active constituents: polyphenols, flavonoids, and carotenoids)
+4. Diuretic: Stinging nettle tea promotes healthy kidney function and detoxification, which can help eliminate toxins from the body and improve skin clarity and texture.
+5. Anti-androgenic: Nettle tea may help regulate hormonal imbalances by blocking the conversion of testosterone to dihydrotestosterone, which can reduce excessive sebum production and help control acne and oily skin. (Active constituents: secoisolariciresinol diglucoside and other lignans)
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of the aloe vera plant contain a gel-like substance that is commonly used to treat jellyfish stings. This gel has anti-inflammatory properties that can help reduce pain and swelling.
+2. Stems: The stems of the aloe vera plant contain a sap that can be used to make medicinal tea for jellyfish stings. This sap has analgesic properties that can help relieve the pain caused by the sting.
+3. Flowers: The flowers of the aloe vera plant contain nectar that can be used to make medicinal tea for jellyfish stings. This nectar has antiseptic properties that can help prevent infection and promote healing.
+
+Note: It is important to note that while some people may find relief from using aloe vera to treat jellyfish stings, it is not a proven treatment and may not work for everyone. If you are stung by a jellyfish, it is important to seek medical attention as soon as possible.
+
+
+
+
+
+
+
+
+
+1. Flowers: Pot marigold flowers are rich in antioxidants and have anti-inflammatory properties, making them ideal for soothing the pain and swelling caused by jellyfish stings.
+2. Leaves: The leaves of the pot marigold plant contain flavonoids and carotenoids, which have been shown to help reduce redness, itching, and pain associated with jellyfish stings.
+3. Aerial parts: (Excluded as per your instructions)
+4. Roots: Pot marigold roots are not typically used in medicinal teas for jellyfish stings, as they contain low levels of the beneficial compounds found in the leaves and flowers.
+5. Rhizomes: (Excluded, similar to roots)
+6. Stems: Marigold stems are not commonly used in medicinal teas for jellyfish stings, as they contain fewer beneficial compounds compared to the leaves and flowers.
+7. Seeds: Pot marigold seeds are not typically used in medicinal teas for jellyfish stings, as they do not contain significant amounts of the therapeutic compounds found in the leaves and flowers.
+8. Buds: (Excluded, similar to flowers)
+9. Bark: (Excluded, similar to stems)
+
+
+
+
+
+
+
+
+
+1. Flowers: Pot marigold flowers are rich in antioxidants and have anti-inflammatory properties, making them ideal for soothing the pain and swelling caused by jellyfish stings.
+2. Leaves: The leaves of the pot marigold plant are known for their wound-healing and analgesic properties, which can help alleviate the discomfort caused by jellyfish stings.
+3. Aerial parts: (Excluded as per the instruction)
+4. Roots: Pot marigold roots have been used in traditional medicine for their antimicrobial and anti-inflammatory effects, which can help prevent infections and reduce swelling from jellyfish stings.
+5. Rhizomes: (Excluded as it is similar to roots)
+6. Stems: The stems of the pot marigold plant contain compounds with analgesic and anti-inflammatory properties, making them useful for treating the pain and inflammation associated with jellyfish stings.
+7. Seeds: (Excluded as they are not used for making medicinal tea)
+8. Buds: (Excluded as they are not used for making medicinal tea)
+9. Bark: (Excluded as it is not a part of the pot marigold plant)
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail tea made from rhizomes is rich in silica, which can help strengthen hair and reduce dryness.
+2. Stems: The stems of the horsetail tea plant contain high levels of antioxidants and minerals, which can help promote healthy hair growth and hydration.
+3. Leaves: The leaves of the horsetail tea plant are a great source of nutrients, including flavonoids and saponins, which can help improve dry hair and promote a healthy scalp.
+
+Note: Aerial parts refer to the above-ground parts of the plant, including stems and leaves. I have only included one aerial part (leaves) in this list.
+
+
+
+
+
+
+
+
+
+1. Antioxidant properties: Horsetail tea contains antioxidants that help protect hair follicles from free radical damage, reducing the likelihood of graying. (Active constituents: flavonoids, phenolic acids, and tannins.)
+2. Mineral-rich: Horsetail tea is high in silica and other minerals, which are essential for maintaining hair strength, elasticity, and pigmentation. (Active constituents: silica, selenium, and potassium.)
+3. Anti-inflammatory properties: Horsetail tea has anti-inflammatory properties that can help reduce inflammation in the scalp, promoting healthy hair growth and slowing down the graying process. (Active constituents: saponins and phenolic acids.)
+4. Collagen synthesis: Horsetail tea stimulates collagen production, which is crucial for the maintenance of hair structure and preventing premature graying. (Active constituents: silica, flavonoids, and phenolic acids.)
+5. Dihydrotestosterone (DHT) inhibition: Horsetail tea can help inhibit DHT production, a hormone associated with hair graying and loss. (Active constituents: phytosterols and phenolic acids.)
+
+
+
+
+
+
+
+
+
+1. Antiseptic: Marjoram tea has antimicrobial properties that help reduce the growth of bacteria and fungi on the scalp, preventing dandruff and excessive oil production. (Active constituents: terpinene-4-ol, γ-terpinene)
+2. Astringent: The astringent properties of marjoram tea help tighten the scalp's pores, reducing excess sebum production and keeping the hair looking fresh. (Active constituents: tannins)
+3. Anti-inflammatory: Marjoram tea's anti-inflammatory properties alleviate irritation and inflammation on the scalp, providing relief and reducing oil production caused by inflammation. (Active constituents: linalool, sabinene)
+4. Circulation-boosting: The tea promotes blood circulation in the scalp, ensuring proper nutrient distribution and reducing excess sebum production. (Active constituents: α-pinene, camphene)
+5. Balancing: Marjoram tea's balancing properties help regulate the scalp's natural oil production, preventing both dryness and excessive oiliness. (Active constituents: β-caryophyllene, humulene)
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail tea made from the rhizomes is rich in silica, which can help strengthen hair and reduce dryness of the scalp.
+2. Stems: The stems of horsetail tea plant contain anti-inflammatory and antioxidant properties that can help soothe an irritated scalp and promote healthy hair growth.
+3. Leaves: The leaves of horsetail tea plant are rich in vitamins and minerals, including vitamin C and potassium, which can help nourish the scalp and promote healthy hair growth.
+4. Flowers: Although not commonly used, horsetail tea made from the flowers can help stimulate blood flow to the scalp, promoting healthy hair growth and reducing dryness.
+
+Note: The seeds, buds, bark, and aerial parts of the horsetail tea plant are not commonly used in making medicinal tea for dry scalp.
+
+
+
+
+
+
+
+
+
+1. Anti-inflammatory: Horsetail tea's anti-inflammatory properties help reduce itching and irritation on the scalp by limiting the production of inflammatory compounds like prostaglandins and leukotrienes. (Active constituents: flavonoids, phenolic acids, and saponins.)
+2. Antimicrobial: Horsetail tea's antimicrobial properties help control the growth of microorganisms on the scalp, which can cause itching and other skin issues. (Active constituents: phenolic acids, flavonoids, and essential oils.)
+3. Astringent: Horsetail tea's astringent properties help shrink and tighten the scalp's pores, reducing the secretion of oils and decreasing the likelihood of itching. (Active constituents: tannins and saponins.)
+4. Antioxidant: Horsetail tea's antioxidant properties help protect the scalp from oxidative stress and damage, promoting overall skin health and reducing itching. (Active constituents: phenolic acids, flavonoids, and minerals like selenium and zinc.)
+5. Anti-pruritic: Horsetail tea's anti-pruritic properties help alleviate itching by inhibiting the release of histamine and other pruritogens, providing direct relief for itchy scalp. (Active constituents: silica, saponins, and phenolic acids.)
+
+
+
+
+
+
+
+
+
+1. Rhizomes: The underground stem of the horsetail tea plant contains silica and other minerals that can help strengthen hair follicles and reduce itchiness on the scalp.
+2. Leaves: The leaves of the horsetail tea plant contain high levels of antioxidants and anti-inflammatory compounds that can help soothe an itchy scalp and promote healthy hair growth.
+3. Stems: The stems of the horsetail tea plant contain silica and other nutrients that can help strengthen hair and reduce scalp inflammation, which can alleviate itchiness.
+
+Note: Aerial parts (i.e., above-ground parts) are not typically used in making medicinal tea for itchy scalp.
+
+
+
+
