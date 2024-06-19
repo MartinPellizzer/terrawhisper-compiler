@@ -113,6 +113,7 @@ def reply_to_paragraphs(reply):
 
 def reply_to_paragraph(reply):
     reply = reply.strip()
+    if reply == '': return [reply, 'empty paragraph']
     if '\n' in reply: return [reply, 'too many paragraphs']
     if ':' in reply: return [reply, 'found : in text']
     if reply[-1] != '.': return [reply, 'text not ending with .']

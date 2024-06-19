@@ -3191,3 +3191,166 @@ By incorporating these herbal tinctures into skincare routines, individuals can 
 
 
 
+
+
+
+
+
+1. Leaves: The leaves of gotu kola are used to make medicinal tea for jellyfish sting due to their anti-inflammatory and wound-healing properties.
+2. Rhyzomes: Gotu kola rhyzomes are rich in triterpenoid saponins, which have been shown to have anti-inflammatory and analgesic effects, making them useful for treating jellyfish stings.
+3. Stems: The stems of gotu kola contain asiaticoside, madecassoside, and other compounds that have been shown to have wound-healing and anti-inflammatory effects, making them useful for treating jellyfish stings.
+
+Note: Gotu kola roots are not typically used to make medicinal tea for jellyfish sting.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of the comfrey plant are commonly used to make medicinal tea for sunburn due to their high content of allantoin, a substance known for its skin-soothing and anti-inflammatory properties.
+2. Flowers: Comfrey flowers are rich in antioxidants and have been used in teas to help reduce skin damage caused by sunburn, while also promoting skin repair and regeneration.
+3. Roots: While not as commonly used as leaves or flowers, comfrey roots contain rosmarinic acid, which has been shown to help alleviate sunburn-related inflammation and pain.
+
+Confidence: 85%
+
+
+
+
+
+
+
+
+
+1. Flowers: Contain high levels of hypericin and hyperforin, which have anti-inflammatory properties beneficial for treating dermatitis.
+2. Leaves: Rich in tannins and flavonoids, helping reduce skin irritation and inflammation in dermatitis.
+3. Aerial parts (not mentioned in the options, but important to mention): Often used interchangeably with leaves and have similar medicinal benefits for dermatitis treatment.
+4. Stems: Contain active compounds, although less potent than flowers and leaves, still contribute to the anti-inflammatory effects of the tea.
+
+Note: Roots, rhizomes, seeds, buds, and bark are not typically used in making St. John's Wort teas for dermatitis due to their lower concentration of active compounds or unsuitable preparation methods.
+
+
+
+
+
+
+
+
+
+1. Anti-inflammatory: Horsetail tincture's anti-inflammatory properties can help reduce scalp inflammation, promoting a healthy environment for hair growth and reducing dryness. (Active constituents: flavonoids, saponins, and tannins.)
+2. Nutrient-rich: Horsetail tincture contains essential minerals like silica, which helps strengthen hair, improve elasticity, and reduce brittleness, contributing to healthier, more moisturized hair. (Active constituent: silica.)
+3. Antioxidant: Horsetail tincture's antioxidant properties help protect hair follicles from oxidative stress, promoting hair growth and reducing dryness caused by environmental factors. (Active constituents: flavonoids, phenolic acids, and phenolic esters.)
+4. Collagen synthesis: Horsetail tincture supports collagen synthesis, which helps maintain the structural integrity of hair, reducing breakage and dryness. (Active constituent: silica.)
+5. Diuretic: Horsetail tincture's diuretic properties help eliminate excess fluids and toxins from the body, promoting healthy circulation and nutrient delivery to the scalp, reducing dryness and promoting hair growth. (Active constituents: saponins and flavonoids.)
+
+
+
+
+
+
+
+
+
+1. **Anti-oxidant properties**: Cinnamon tincture's high antioxidant content helps protect hair follicles from oxidative stress, reducing graying caused by free radical damage. (Active constituents: polyphenols, phenolic acids, and flavonoids)
+2. **Anti-inflammatory properties**: Its anti-inflammatory effects help maintain a healthy scalp, promoting hair growth and reducing graying caused by inflammation. (Active constituents: cinnamaldehyde, eugenol, and linalool)
+3. **Blood circulation improvement**: Cinnamon tincture enhances blood flow to the scalp, delivering essential nutrients to hair follicles, promoting hair growth and slowing down the graying process. (Active constituents: cinnamaldehyde and procyanidins)
+4. **Melanin synthesis stimulation**: Cinnamon tincture can stimulate melanin production, the pigment responsible for hair color, helping to slow down and potentially reverse graying. (Active constituents: cinnamaldehyde and procyanidins)
+5. **Hormonal balance**: Cinnamon tincture helps regulate hormonal imbalances that can contribute to premature graying. (Active constituents: cinnamaldehyde and methylhydroxychalcone polymer)
+
+
+
+
+
+
+
+
+
+1. Rhizomes: The rhizomes of the horsetail plant are rich in silica and other minerals, which can help to strengthen hair and potentially reduce graying.
+2. Stems: The stems of horsetail contain high levels of silicic acid, which can help to promote hair growth and prevent hair loss, including graying.
+3. Leaves: The leaves of horsetail are a rich source of antioxidants, which can help to protect the hair follicles from damage and prevent graying.
+
+Note: It's important to note that while horsetail is commonly used in herbal medicine, there is limited scientific evidence to support its effectiveness for treating gray hair. Always consult with a healthcare provider before starting any new supplement regimen.
+
+
+
+
+
+
+
+
+
+1. Anti-oxidant: Licorice tincture contains antioxidants that help protect hair follicles from free radical damage, which can contribute to premature graying.
+2. Anti-inflammatory: Its anti-inflammatory properties can help reduce inflammation in the scalp, promoting healthy hair growth and preventing graying caused by inflammation.
+3. Melanin production stimulation: Licorice tincture can stimulate melanin production, the pigment responsible for hair color, helping to maintain hair color and prevent graying.
+4. Cortisol reduction: Licorice tincture can help reduce cortisol levels, a stress hormone that can contribute to premature graying.
+5. Blood circulation improvement: The tincture can improve blood circulation in the scalp, delivering essential nutrients and oxygen to hair follicles, promoting healthy hair growth and preventing graying.
+
+Active constituents responsible for these properties include glycyrrhizin, flavonoids, and coumarins.
+
+
+
+
+
+
+
+
+
+['Chop 2 cups of fresh rosemary leaves and stems, place them in a clean glass jar, then pour 1 cup of vodka or rum over the herbs until they are completely submerged.', 'Seal the jar tightly and store it in a cool, dark place for 2-3 weeks, shaking it gently every few days.', 'After 2-3 weeks, strain the liquid through a cheesecloth or a fine-mesh strainer into a clean glass jar or bottle, squeezing out as much liquid as possible from the herbs.']
+
+
+
+
+
+
+
+
+
+[]
+
+
+
+
+
+
+
+
+
+1. Flowers: The arnica flower contains various chemical compounds that are believed to help reduce inflammation and improve circulation, making it ideal for treating puffy eyes.
+2. Leaves: Arnica leaves have anti-inflammatory properties that can help soothe irritated skin around the eyes and reduce puffiness.
+3. Rhyzomes: The rhyzomes of the arnica plant contain compounds that can stimulate circulation and reduce inflammation, making them useful for treating puffy eyes.
+
+Note: Aerial parts, such as stems and seeds, are not typically used in medicinal teas for puffy eyes.
+
+
+
+
+
+
+
+
+
+1. Rhyzomes: Horsetail rhyzomes contain anti-inflammatory compounds that can help soothe itchy eyes.
+2. Leaves: Horsetail leaves are rich in tannins and flavonoids, which have astringent properties that can help relieve itchiness in eyes.
+3. Stems: Horsetail stems contain silica, which can help reduce inflammation and itching in the eyes.
+
+Note: Aerial parts, such as the above-ground stems and leaves, are often used interchangeably with the terms "stems" and "leaves" in herbal medicine. However, for the purpose of this question, I have only included "stems" and "leaves" to avoid repetition. Additionally, roots, flowers, seeds, buds, and bark are not typically used in horsetail tea for itchy eyes.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail's rhizomes contain high levels of silica, which can help reduce inflammation and promote healing in the eyes.
+2. Leaves: The leaves of horsetail have antimicrobial properties, making them useful for treating eye infections.
+3. Stems: Horsetail stems contain anti-inflammatory compounds, which can help soothe irritated eyes.
+
+Note: It's important to consult with a healthcare professional before using horsetail or any other herbal remedy to treat an eye infection.
+
+
+
+
