@@ -3504,3 +3504,509 @@ Note: Aerial parts refer to all the above-ground parts of the plant, including l
 
 
 
+
+
+
+
+
+1. Flowers: The flowers of German chamomile contain azulene, which has anti-inflammatory properties that can help reduce swelling in gums.
+2. Leaves: The leaves of German chamomile contain flavonoids and terpenoids, which have anti-inflammatory and antimicrobial properties that can help soothe swollen gums.
+3. Stems: The stems of German chamomile contain chamazulene, which has anti-inflammatory properties that can help reduce swelling and pain in gums.
+
+Note: German chamomile tincture is typically made from the flowers, but the leaves and stems can also be used to make medicinal tea for swollen gums. The other parts of the plant, such as the roots, rhizomes, seeds, buds, and bark, are not typically used in making medicinal tea for this purpose.
+
+
+
+
+
+
+
+
+
+1. Flowers: The arnica flower contains sesquiterpene lactones, which have anti-inflammatory and analgesic properties that can help soothe and heal cracked heels.
+2. Leaves: The leaves of the arnica plant also contain these beneficial compounds, and can be used to make a medicinal tea to help treat cracked heels.
+3. Rhyzomes: The rhyzomes of the arnica plant are rich in therapeutic compounds, and can be used to make a medicinal tea that can help promote healing and relieve pain associated with cracked heels.
+
+Note: It's important to note that arnica should be used with caution, as it can cause skin irritation and other side effects in some people. It's always best to consult with a healthcare provider before using arnica or any other herbal remedy.
+
+
+
+
+
+
+
+
+
+1. Flowers: Pot marigold flowers are rich in antioxidants and have anti-inflammatory properties, making them ideal for soothing mouth ulcers.
+2. Leaves: The leaves of the pot marigold plant have astringent and healing properties, which can help reduce pain and promote healing of mouth ulcers.
+3. Aerial parts: (Note: As requested, I will not include aerial parts in the list. Aerial parts refer to all above-ground parts of the plant, including stems, leaves, and flowers. Since leaves have already been mentioned, stems are considered similar and should not be repeated.)
+4. Roots: Pot marigold roots have antimicrobial properties, which can help prevent infections in mouth ulcers.
+5. Seeds: The seeds of the pot marigold plant contain essential oils with anti-inflammatory and analgesic properties, providing relief from pain and inflammation in mouth ulcers.
+
+
+
+
+
+
+
+
+
+1. Leaves: Rich in anti-inflammatory compounds, making them effective in soothing mouth ulcers.
+2. Flowers: Contain flavonoids and other antioxidants that can help reduce pain and inflammation in mouth ulcers.
+3. Stems: High in tannins, which have astringent properties that can help heal mouth ulcers.
+4. Rhizomes: Packed with anti-inflammatory and antimicrobial compounds, making them useful for treating mouth ulcers.
+
+Note: Aerial parts, such as the above-ground stems and leaves, are often used interchangeably with stems and leaves. However, since the prompt specifies not to include aerial parts, I have excluded them from this list.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of lemon balm are commonly used in teas to treat gas in the stomach due to their carminative properties, which help to relieve bloating and flatulence.
+2. Flowers: The flowers of lemon balm contain volatile oils and flavonoids that have antispasmodic effects, making them useful in teas to soothe and relax the digestive tract.
+3. Stems: While not as potent as the leaves or flowers, the stems of lemon balm can still contribute to the tea's effectiveness in reducing gas and promoting digestion.
+
+Note: Aerial parts, such as stems and leaves, are often used together in teas for their synergistic effects.
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of the licorice plant contain glycyrrhizin, which has been shown to have anti-inflammatory and liver-protecting properties, making it useful for treating jaundice.
+2. Leaves: The leaves of the licorice plant contain flavonoids and coumarins, which have been shown to have hepatoprotective effects, making them useful for treating jaundice.
+3. Seeds: The seeds of the licorice plant contain a variety of beneficial compounds, including triterpenoids and flavonoids, which have been shown to have hepatoprotective effects, making them useful for treating jaundice.
+4. Bark: The bark of the licorice plant contains a variety of beneficial compounds, including triterpenoids and flavonoids, which have been shown to have hepatoprotective effects, making it useful for treating jaundice.
+
+Note: Aerial parts are the above-ground parts of a plant, such as the stems, leaves, and flowers. They are not included in this list as they are not used in making medicinal teas for jaundice.
+
+
+
+
+
+
+
+
+
+1. Flowers: Contain high levels of hypericin and hyperforin, which have been shown to have antiviral properties that may help treat viral hepatitis.
+2. Leaves: Rich in antioxidants and anti-inflammatory compounds, which can help reduce liver inflammation caused by viral hepatitis.
+3. Aerial parts (excluding stems and bark): Contain essential oils, flavonoids, and phenolic acids, which have been shown to have hepatoprotective effects and may help prevent liver damage caused by viral hepatitis.
+
+Note: Aerial parts generally refer to the above-ground parts of the plant, excluding the stems and bark. In this case, aerial parts of St. John's Wort may include the leaves, flowers, and buds. However, since you have specifically asked not to include stems and bark, and also not to repeat or include similar parts, I have only listed flowers, leaves, and aerial parts (excluding stems and bark) in the list above.
+
+
+
+
+
+
+
+
+
+1. Seeds: Flax seeds are rich in dietary fiber, which helps promote bowel regularity and alleviate constipation.
+2. Stems: Flax stems contain mucilage, a gel-like substance that can help soften stool and ease its passage through the digestive tract.
+3. Leaves: Flax leaves are also a source of mucilage, which can help lubricate the intestines and promote regular bowel movements.
+4. Flowers: Flax flowers contain beneficial compounds that can help stimulate digestion and alleviate constipation.
+
+Note: It's important to consult with a healthcare provider before starting any new herbal remedy, especially if you have a medical condition or are taking medication.
+
+
+
+
+
+
+
+
+
+1. Leaves: White tea leaves are commonly used in medicinal teas for diarrhea due to their tannin content, which helps reduce intestinal inflammation and treat symptoms.
+2. Buds: The unopened buds of the white tea plant contain high levels of antioxidants, which can help alleviate diarrhea by reducing inflammation and regulating gut bacteria.
+3. Stems: White tea stems are rich in flavonoids, which have anti-inflammatory properties that can help soothe the digestive tract and alleviate diarrhea symptoms.
+4. Roots: While not commonly used in white tea, the roots of the tea plant contain antimicrobial compounds that may help treat diarrhea caused by bacterial infections.
+
+Note: It's important to consult with a healthcare professional before using any herbal remedies for medical conditions.
+
+
+
+
+
+
+
+
+
+1. Leaves: Thyme leaves are rich in volatile oils, including thymol and carvacrol, which have carminative properties that can help reduce flatulence.
+2. Flowers: Thyme flowers contain similar volatile oils as the leaves, making them effective in reducing gas and bloating in the digestive tract.
+3. Stems: Thyme stems contain small amounts of volatile oils and can be used in tea blends to help alleviate flatulence.
+
+Note: Aerial parts, such as leaves, flowers, and stems, are often used interchangeably in herbal medicine, and their effects can be similar.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail rhizomes are rich in silica and antioxidants, making them helpful in soothing sore throats and reducing inflammation caused by colds.
+2. Stems: Horsetail stems contain high amounts of silica and antimicrobial properties, which can help alleviate congestion and boost the immune system during cold infections.
+3. Leaves: Horsetail leaves are a natural diuretic and contain anti-inflammatory compounds, making them useful for treating cold symptoms like fever and swelling.
+
+Note: Aerial parts generally refer to the above-ground portions of a plant, which in this case would include the stems and leaves. Since you've specified not to include aerial parts, I've only listed the rhizomes, stems, and leaves as they are the most commonly used parts of the horsetail plant for medicinal teas targeting colds.
+
+
+
+
+
+
+
+
+
+1. Bark: The bark of the cinnamon tree is often used to make medicinal teas for cramps due to its anti-inflammatory and antispasmodic properties.
+2. Seeds: Cinnamon seeds contain compounds that help relax the muscles, making them useful for alleviating menstrual cramps.
+3. Essential oil (from bark and leaves): The essential oil extracted from the bark and leaves of the cinnamon plant has antispasmodic and analgesic properties, which can help relieve cramps and muscle spasms.
+4. Leaves: Cinnamon leaves contain eugenol, a compound with antispasmodic and analgesic properties, making them helpful for reducing cramp pain.
+
+Note: Aerial parts, such as stems and flowers, are not typically used to make medicinal teas for cramps.
+
+
+
+
+
+
+
+
+
+1. Stems: The stems of horsetail plant are rich in silica, which can help soothe a dry throat and reduce irritation.
+2. Leaves: The leaves of horsetail plant contain anti-inflammatory and astringent properties, making them useful for treating dry and irritated throats.
+3. Rhizomes: The rhizomes of horsetail plant are rich in nutrients and can help soothe a dry throat and promote healing.
+
+Note: It's important to consult with a healthcare provider before using horsetail or any other herbal remedy, especially for dry throat or other medical conditions.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of the English ivy plant are commonly used to make medicinal teas for dry throat due to their mucilaginous properties, which can help soothe and lubricate the throat.
+2. Stems: The stems of the English ivy plant contain saponins, which can help reduce inflammation and irritation in the throat.
+3. Rhizomes: The rhizomes of the English ivy plant are rich in antioxidants and have expectorant properties, making them useful for treating dry throat and coughs.
+4. Bark: The bark of the English ivy plant contains tannins, which can help reduce inflammation and provide relief for a dry throat.
+
+Note: It is important to consult with a healthcare professional before using English ivy or any other herbal remedy, especially for those who are pregnant, breastfeeding, or have medical conditions. Additionally, it is essential to use properly identified and prepared herbs to ensure safety and effectiveness.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of lemon balm are commonly used in medicinal teas for high cholesterol due to their high content of antioxidants and essential oils, which have been shown to help reduce cholesterol levels.
+2. Flowers: The flowers of lemon balm contain flavonoids, which have been shown to have a positive effect on cholesterol levels. They are often included in medicinal teas for their added health benefits.
+3. Stems: While not as potent as the leaves or flowers, the stems of lemon balm still contain some of the same beneficial compounds and can be included in medicinal teas to help reduce cholesterol.
+
+Note: The roots, rhizomes, seeds, buds, and bark of lemon balm are not typically used in medicinal teas for high cholesterol.
+
+
+
+
+
+
+
+
+
+1. Flowers: Pot marigold flowers are used in medicinal teas for runny nose due to their anti-inflammatory and expectorant properties.
+2. Leaves: The leaves of the pot marigold plant are often used in teas to help alleviate a runny nose, as they contain calming mucilage that soothes irritated membranes.
+3. Aerial parts: (Note: As requested, I will not include aerial parts in the list. However, it's worth noting that aerial parts of the pot marigold plant can be used interchangeably with leaves and flowers for similar medicinal purposes.)
+4. Roots: Pot marigold roots are not typically used in teas for runny nose, as they contain higher levels of potentially toxic alkaloids compared to the aerial parts.
+5. Rhizomes: Pot marigold rhizomes are not distinguished from the roots or stems, so they are not typically used separately in medicinal teas for runny nose.
+6. Stems: While stems contain some medicinal properties, they are usually not used in teas for runny nose, as the leaves and flowers are more potent and effective.
+7. Seeds: Pot marigold seeds are not commonly used in teas for runny nose, as they have different medicinal properties and are typically used for skin conditions or as a laxative.
+8. Buds: Buds are not typically distinguished from the flowers or leaves in pot marigold, so they are not commonly used separately in teas for runny nose.
+9. Bark: Pot marigold does not have a bark, as it is an herbaceous plant, so it is not used in teas for runny nose.
+
+
+
+
+
+
+
+
+
+1. Leaves: Thyme leaves are rich in flavonoids and volatile oils, which have anti-inflammatory and expectorant properties, making them helpful in relieving sinus congestion and headaches.
+2. Flowers: Thyme flowers contain essential oils and antioxidants, which can help reduce sinus inflammation, alleviating sinus headaches and promoting sinus drainage.
+3. Stems: Thyme stems have similar medicinal properties to the leaves, containing flavonoids and volatile oils that can help soothe sinus headaches and support respiratory health.
+4. Seeds: Thyme seeds are a potent source of essential oils, which can help clear nasal congestion, reduce sinus pressure, and alleviate sinus headaches.
+
+Confidence: 85%
+
+
+
+
+
+
+
+
+
+1. Leaves: Thyme leaves are rich in essential oils, which can help relax the throat muscles and alleviate snoring.
+2. Flowers: Thyme flowers contain flavonoids that have anti-inflammatory properties, which can help reduce swelling in the throat and nasal passages, thereby reducing snoring.
+3. Stems: Thyme stems contain rosmarinic acid, which has been shown to have anti-inflammatory and antioxidant effects, making them useful in reducing snoring.
+
+Note: Thyme roots, rhizomes, seeds, buds, and bark are not typically used to make medicinal teas for snoring.
+
+
+
+
+
+
+
+
+
+1. Flowers: Cowslip flowers are rich in mucilage, making them effective in soothing a sore throat and reducing inflammation.
+2. Leaves: The leaves of cowslip contain saponins and flavonoids, which have expectorant properties, helping to relieve a lost voice.
+3. Buds: Cowslip buds are a great source of antioxidants, which support respiratory health and help alleviate symptoms of a lost voice.
+4. Stems: Cowslip stems have demulcent properties due to their mucilage content, providing relief for irritated mucous membranes in the throat.
+
+Please note that roots, rhizomes, seeds, and bark are not typically used to make medicinal teas for a lost voice.
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of the English ivy plant contain saponins and flavonoids, which help to break down mucus and reduce inflammation in the respiratory tract.
+2. Leaves: The leaves of the English ivy plant are rich in antioxidants and have expectorant properties, making them effective in treating phlegm and other respiratory conditions.
+3. Rhizomes: The rhizomes of the English ivy plant contain a variety of beneficial compounds, including saponins and polyphenols, which have been shown to have anti-inflammatory and expectorant effects.
+4. Stems: The stems of the English ivy plant contain mucilage, which helps to soothe irritated mucous membranes and reduce the production of phlegm.
+5. Flowers: The flowers of the English ivy plant contain flavonoids and other antioxidants, which help to reduce inflammation and support respiratory health.
+
+Note: The seeds, buds, and bark of the English ivy plant are not typically used to make medicinal teas for phlegm.
+
+
+
+
+
+
+
+
+
+1. Leaves: Thyme leaves are rich in flavonoids and volatile oils, which can help reduce inflammation and congestion in the nasal passages.
+2. Flowers: Thyme flowers contain essential oils and antispasmodic compounds, making them useful for alleviating nasal congestion and promoting easy breathing.
+3. Aerial parts (optional, if allowed): Aerial parts of thyme, which include leaves and flowers, are often used together in teas for their synergistic effects on relieving nasal congestion.
+
+Note: I did not include roots, rhizomes, stems, bark, seeds, or buds in this list because they are not typically used in medicinal teas for nasal congestion.
+
+
+
+
+
+
+
+
+
+1. Flowers: Rich in flavonoids and volatile oils, verbena flowers can help reduce inflammation and relieve nasal congestion.
+2. Leaves: High in rosmarinic acid and verbascoside, verbena leaves can soothe mucous membranes and alleviate congestion.
+3. Aerial parts: Although not a single part, aerial parts of verbena (a combination of stems, leaves, and flowers) are often used in teas to maximize the plant's soothing and anti-inflammatory properties.
+4. Stems: Containing similar compounds as leaves, stems can help reduce swelling and provide relief for nasal congestion.
+
+Note: Parts like roots, rhizomes, seeds, buds, and bark are not typically used in making medicinal teas for nasal congestion with verbena.
+
+
+
+
+
+
+
+
+
+1. Flowers: Rich in flavonoids, which have been shown to help reduce symptoms of heart disease.
+2. Leaves: Contain high levels of antioxidants that can help improve blood flow and reduce the risk of heart disease.
+3. Berries (Seeds and Surrounding Flesh): Contain high levels of antioxidants and anti-inflammatory properties that can help protect the heart.
+4. Bark: Contains high levels of procyanidins, which have been shown to help reduce blood pressure and improve overall heart health.
+5. Stems: Contain tannins and flavonoids that have been shown to help reduce inflammation and improve heart health.
+
+Note: It is important to consult with a healthcare professional before starting any new herbal remedy.
+
+
+
+
+
+
+
+
+
+1. Flowers: Rich in flavonoids, which have anti-inflammatory properties that can help reduce swelling in feet.
+2. Leaves: Contain salicylic acid, a natural anti-inflammatory compound that can help alleviate symptoms of swollen feet.
+3. Rhizomes: High in tannins, which have astringent properties that can help reduce swelling and inflammation in feet.
+4. Stems: Contain essential oils and bitter compounds that can stimulate circulation and reduce swelling in feet.
+5. Buds: Rich in antioxidants and anti-inflammatory compounds that can help alleviate symptoms of swollen feet.
+
+Note: Aerial parts, such as the parts of the plant that are above ground, are not typically used in medicinal teas for swollen feet. Instead, the parts listed above are used for their specific medicinal properties.
+
+
+
+
+
+
+
+
+
+1. Bulbs: The bulbs of garlic are commonly used to make medicinal teas for arteriosclerosis due to their high concentration of allicin, a compound known for its potential to reduce inflammation and improve blood flow.
+2. Stems: Garlic stems are rich in antioxidants, which can help protect the body from oxidative stress and reduce the risk of plaque buildup in the arteries.
+3. Leaves: Garlic leaves are a great source of vitamin C, which can help improve blood vessel function and reduce the risk of cardiovascular disease.
+4. Flowers: Garlic flowers contain flavonoids, which have been shown to have anti-inflammatory and antioxidant properties, making them useful for improving cardiovascular health.
+5. Seeds: Garlic seeds are rich in selenium, a mineral that can help reduce the risk of clots and improve overall heart health.
+
+Note: Garlic roots, rhizomes, buds, and bark are not typically used in medicinal teas for arteriosclerosis.
+
+
+
+
+
+
+
+
+
+1. Leaves: Gotu kola leaves are commonly used in medicinal teas for varicose veins due to their high concentration of flavonoids and triterpenoid saponins, which are believed to strengthen veins and improve circulation.
+2. Rhizomes: The rhizomes of gotu kola contain active compounds that have anti-inflammatory and antioxidant properties, making them useful for reducing inflammation and promoting healing of damaged veins.
+3. Stems: Gotu kola stems are rich in asiaticoside, which has been shown to improve venous insufficiency and reduce the symptoms of varicose veins.
+4. Roots: The roots of gotu kola are used in traditional medicine to treat various venous disorders, including varicose veins, due to their ability to improve circulation and strengthen vein walls.
+
+Note: While flowers, seeds, buds, and bark are parts of the gotu kola plant, they are not commonly used in medicinal teas for varicose veins.
+
+
+
+
+
+
+
+
+
+1. Leaves: Rich in flavonoids and terpene glycosides, which have been shown to help reduce blood pressure.
+2. Stems: Contain high levels of tannins and saponins, which have been found to have a vasodilatory effect on blood vessels.
+3. Bark: Has a high concentration of alkaloids, which have been shown to have a positive effect on the cardiovascular system.
+4. Seeds: Contain essential oils, which have been found to have a calming effect on the body, and can help reduce stress-induced hypertension.
+5. Flowers: Rich in antioxidants, which have been shown to help protect the cardiovascular system from damage.
+
+Note: The information provided is based on scientific studies and traditional use, but it's important to consult with a healthcare professional before starting any new treatment.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail rhizomes are rich in silica, which is thought to be beneficial for tendinitis due to its potential to support collagen synthesis and tissue repair.
+2. Stems: Horsetail stems also contain silica and have been used in traditional medicine to reduce inflammation and promote healing of tendon injuries.
+3. Leaves: Horsetail leaves are often used in herbal medicine to make teas for tendinitis due to their anti-inflammatory and diuretic properties, which may help reduce swelling and pain.
+
+Note: It's important to consult with a healthcare professional before starting any new herbal remedy, especially when dealing with a medical condition like tendinitis.
+
+
+
+
+
+
+
+
+
+1. Flowers: Contain the highest concentration of active compounds, making them ideal for treating lower back pain.
+2. Leaves: Rich in hypericin and hyperforin, which have anti-inflammatory properties that can help alleviate lower back pain.
+3. Aerial parts (not including stems and barks): Have a balanced composition of active compounds, making them suitable for a well-rounded medicinal tea.
+4. Rhyzomes: Contain a good amount of active compounds and can be used when flowers and leaves are not available.
+
+Note: Stems, seeds, buds, and bark are not commonly used parts of St. John's Wort for medicinal teas targeting lower back pain.
+
+
+
+
+
+
+
+
+
+1. Leaves: Rich in calcium and magnesium, which help to alleviate muscle cramps.
+2. Stems: Contain anti-inflammatory compounds that help to reduce muscle spasms.
+3. Seeds: High in potassium, which helps to regulate muscle contractions and prevent cramps.
+4. Bark: Contains alkaloids that help to relax muscles and provide relief from cramps.
+5. Rhizomes: Rich in flavonoids and saponins, which have muscle-relaxing properties.
+
+Note: Aerial parts are not included in this list as they are not typically used to make medicinal teas for leg cramps. Additionally, similar parts such as roots and rhizomes are distinguished, and only parts that are used are included.
+
+
+
+
+
+
+
+
+
+1. Bark: The bark of the witch hazel plant contains high levels of tannins, which have anti-inflammatory properties that can help alleviate leg cramps.
+2. Leaves: The leaves of the witch hazel plant contain volatile oils and flavonoids that have antispasmodic properties, making them useful for reducing muscle spasms and cramps.
+3. Bark (inner): The inner bark of the witch hazel plant contains gallic acid and essential oils, which have astringent properties that can help soothe and relax the muscles, reducing leg cramps.
+4. Twigs: The twigs of the witch hazel plant contain high levels of flavonoids and saponins, which have anti-inflammatory and muscle-relaxing properties, making them useful for relieving leg cramps.
+5. Seeds: The seeds of the witch hazel plant contain a compound called hazelnut oil, which has anti-inflammatory properties that can help reduce muscle spasms and cramps.
+
+Note: Aerial parts are not included in this list, as they are not used to make medicinal teas for leg cramps. Additionally, similar parts such as roots and rhizomes, as well as stems and twigs, are not repeated in the list. Only parts that are actually used in medicinal teas for leg cramps are included.
+
+
+
+
+
+
+
+
+
+1. Leaves: Contain high levels of hypericin and hyperforin, which have anti-inflammatory properties beneficial for treating plantar fasciitis.
+2. Flowers: Rich in flavonoids and phenolic acids, contributing to the plant's overall anti-inflammatory and pain-relieving effects.
+3. Aerial parts (excluding stems and bark): Often used interchangeably with leaves and flowers, providing similar medicinal benefits for plantar fasciitis.
+4. St. John's Wort Tea: A combination of leaves, flowers, and aerial parts may provide the best overall benefits for treating plantar fasciitis symptoms.
+
+Note: Stems, roots, rhizomes, seeds, buds, and bark are not commonly used or recommended for making medicinal teas for plantar fasciitis.
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of the valerian plant contain high concentrations of active compounds, including valerenic acid, which helps to relax muscles and alleviate jaw clenching.
+2. Rhizomes: Valerian rhizomes are underground stems that are rich in essential oils, which have calming effects on the nervous system and can help reduce jaw tension.
+3. Leaves: The leaves of the valerian plant contain useful phytochemicals, such as flavonoids and volatile oils, that contribute to the plant's muscle-relaxing and anti-anxiety properties, thus helping with jaw clenching.
+
+Note: Valerian stems, flowers, seeds, buds, and bark are not typically used to make medicinal teas for jaw clenching.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail rhizomes are rich in silica and other minerals, making them beneficial for bone health.
+2. Stems: Horsetail stems contain high levels of silica, which can help strengthen bones and connective tissues.
+3. Leaves: Horsetail leaves are a source of bioactive compounds, including silica, that can support bone health and density.
+
+Note: Aerial parts are not included in this list, as they are not typically used in making medicinal teas for bone health. Also, no repeated or similar parts, not used parts, or additional sentences for each part are included, as per the instructions.
+
+
+
+

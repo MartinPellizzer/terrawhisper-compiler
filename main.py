@@ -448,6 +448,47 @@ def csv_get_herb_common_name_by_id(herb_id):
 # ;PREPARATIONS
 # #########################################################
 
+def del_preparations_remedy_parts(preparation_slug):
+    preparation_name = preparation_slug.replace('-', ' ').strip()
+
+    for status_row in status_rows:
+        status_exe = status_row[status_cols['status_exe']]
+        status_id = status_row[status_cols['status_id']]
+        status_slug = status_row[status_cols['status_slug']]
+        status_name = status_row[status_cols['status_names']].split(',')[0].strip()
+
+        if status_exe == '': continue
+        if status_id == '': continue
+        if status_slug == '': continue
+        if status_name == '': continue
+
+        if DEBUG_STATUS: print(f'> {status_name}')
+
+        system_row = get_system_by_status(status_id)
+
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        if DEBUG_STATUS: print(f'  > {system_name}')
+
+        json_filepath = f'database/json/{g.CATEGORY_REMEDIES}/{system_slug}/{status_slug}/{preparation_slug}.json'
+        if DEBUG_STATUS_JSON_FILEPATH: print(json_filepath)
+
+        if not os.path.exists(json_filepath):
+            continue
+
+        data = util.json_read(json_filepath)
+        for remedy_obj in data['remedies_list']:
+            if 'remedy_parts' in remedy_obj:
+                del remedy_obj['remedy_parts']
+        util.json_write(json_filepath, data)
+
+
 def gen_preparations(preparation_slug):
     preparation_name = preparation_slug.replace('-', ' ').strip()
 
@@ -609,13 +650,13 @@ def gen_preparations(preparation_slug):
             util.json_write(json_filepath, data)
 
             for i, obj in enumerate(data[key][:teas_num]):
-                remedy_name_common = obj["herb_name_common"].strip().lower()
+                herb_name_common = obj["herb_name_common"].strip().lower()
                 remedy_name_scientific = obj["herb_name_common"].strip().lower()
 
-                if preparation_name == 'teas': remedy_name_common = f'{remedy_name_common} tea'.replace(' tea tea', ' tea')
-                elif preparation_name == 'tinctures': remedy_name_common = f'{remedy_name_common} tincture'
-                elif preparation_name == 'capsules': remedy_name_common = f'{remedy_name_common} capsule'
-                else: remedy_name_common = f'{remedy_name_common} {preparation_name_singular}'
+                if preparation_name == 'teas': remedy_name_common = f'{herb_name_common} tea'.replace(' tea tea', ' tea')
+                elif preparation_name == 'tinctures': remedy_name_common = f'{herb_name_common} tincture'
+                elif preparation_name == 'capsules': remedy_name_common = f'{herb_name_common} capsule'
+                else: remedy_name_common = f'{herb_name_common} {preparation_name_singular}'
 
                 if 'remedy_desc':
                     key = 'remedy_desc'
@@ -689,7 +730,7 @@ def gen_preparations(preparation_slug):
                     # if key in obj: del obj[key]
                     if key not in obj or obj[key] == []:
                         prompt = f'''
-                            Write a numbered list of the most used parts of the {remedy_name_common} plant that are used to make medicinal tea for {status_name}.
+                            Write a numbered list of the most used parts of the {herb_name_common} plant that are used to make medicinal {preparation_name} for {status_name}.
                             Reply by only selecting parts from the following list:
                             - Roots
                             - Rhyzomes
@@ -702,7 +743,7 @@ def gen_preparations(preparation_slug):
                             Never include aerial parts.
                             Never repeat the same part twice and never include similar parts.
                             Never include parts that are not used.
-                            Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal tea for {status_name}.
+                            Include 1 short sentence description for each of these part, explaining why that part is good for making medicinal {preparation_name} for {status_name}.
                             Write each list element using the following format: [part name]: [part description].
                         '''     
                         reply = utils_ai.gen_reply(prompt)
@@ -3937,6 +3978,12 @@ page_home()
 #     remedies_systems_problems_new()
 #     remedies_systems_new()
 #     remedies()
+
+# del_preparations_field('teas')
+# del_preparations_field('tinctures')
+# del_preparations_field('capsules')
+
+# quit()
 
 if 'preparations':
     gen_preparations('teas')
