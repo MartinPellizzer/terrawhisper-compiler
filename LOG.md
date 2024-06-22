@@ -4010,3 +4010,432 @@ Note: Aerial parts are not included in this list, as they are not typically used
 
 
 
+
+
+
+
+
+1. Leaves: The leaves of lemon balm are commonly used in medicinal teas for gas in the stomach due to their carminative properties, which help to relieve bloating and flatulence.
+2. Flowers: The flowers of lemon balm contain volatile oils and flavonoids that have antispasmodic effects, making them useful for soothing digestive discomfort and reducing gas.
+3. Stems: While not as potent as the leaves or flowers, the stems of lemon balm can still contribute to the tea's effectiveness in relieving gas and promoting digestion.
+
+Note: Aerial parts, such as stems and leaves, are often used together in teas, as they contain various beneficial compounds that work synergistically to alleviate digestive issues.
+
+
+
+
+
+
+
+
+
+1. Flowers: Pot marigold flowers are rich in antiviral and anti-inflammatory properties, making them ideal for soothing skin irritations and reducing chickenpox symptoms.
+2. Leaves: The leaves of the pot marigold plant have antimicrobial and anti-inflammatory properties, which can help alleviate itching and promote healing in chickenpox.
+3. Aerial parts: (Note: As requested, I will not include aerial parts in the list. However, it's important to note that aerial parts of the pot marigold plant, such as stems and leaves, can be used interchangeably and are often used together to make medicinal teas for chickenpox due to their combined beneficial properties.)
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of sweet basil are commonly used in medicinal teas for sunburn due to their high content of antioxidants and anti-inflammatory properties, which can help soothe and heal sunburned skin.
+2. Flowers: The flowers of sweet basil contain essential oils that have been shown to have skin-protecting properties, making them a valuable addition to medicinal teas for sunburn.
+3. Seeds: The seeds of sweet basil are rich in antioxidants and have been used in traditional medicine to treat a variety of skin conditions, including sunburn.
+
+Note: Aerial parts are not included in this list as they are not typically used to make medicinal teas for sunburn.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail rhizomes are rich in silica, which can help to kill lice by dehydrating their exoskeleton.
+2. Stems: Horsetail stems contain anti-inflammatory and antimicrobial properties that can help to soothe itchy scalp and prevent infections caused by lice.
+3. Leaves: Horsetail leaves are rich in minerals and vitamins that can help to nourish the hair and scalp, promoting healthy hair growth and reducing lice infestations.
+4. Seeds: Horsetail seeds contain saponins, which can help to remove lice and nits from the hair by acting as a natural detergent.
+
+Note: It's important to note that while horsetail has been traditionally used for medicinal purposes, its effectiveness for treating lice has not been scientifically proven. Always consult with a healthcare professional before using any natural remedies for medical conditions.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Lemongrass rhizomes are commonly used to make medicinal teas for athlete's foot due to their antifungal and antimicrobial properties, which can help to combat the fungal infection causing the condition.
+2. Leaves: The leaves of lemongrass contain essential oils and other compounds that have been shown to have antifungal and anti-inflammatory effects, making them useful for treating the symptoms of athlete's foot.
+3. Stems: Lemongrass stems are rich in citral, a compound that has been shown to have antifungal and antimicrobial properties, making them a valuable addition to medicinal teas for athlete's foot.
+
+Note: While flowers, seeds, buds, roots, and bark may have medicinal properties, they are not typically used to make medicinal teas for athlete's foot.
+
+
+
+
+
+
+
+
+
+1. Leaves: Thyme leaves contain essential oils and antiseptic compounds that can help to dry out and heal cracked skin.
+2. Flowers: Thyme flowers have antimicrobial properties that can help to prevent infection in cracked heels.
+3. Stems: Thyme stems contain flavonoids that have anti-inflammatory properties, which can help to reduce redness and swelling in cracked heels.
+
+Note: Thyme is a commonly used herb in traditional medicine, and its leaves and flowers are the most commonly used parts for making medicinal teas. However, it's important to note that there is limited scientific evidence to support the use of thyme for treating cracked heels, and it's always best to consult with a healthcare provider before using any herbal remedies.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of sweet basil are rich in antioxidants, which can help to lighten the appearance of dark lips.
+2. Flowers: The flowers of sweet basil contain essential oils that can help to improve circulation and promote healthy lip color.
+3. Seeds: The seeds of sweet basil are a good source of vitamin E, which can help to nourish and protect the lips.
+
+Note: Aerial parts, such as stems and rhizomes, are not typically used in medicinal teas for dark lips.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of lemon balm are commonly used in teas for oily skin due to their antioxidant and anti-inflammatory properties, which can help soothe and calm irritated skin.
+2. Flowers: The flowers of lemon balm contain flavonoids and essential oils that can help regulate sebum production, making them a great addition to teas for managing oily skin.
+3. Stems: While not as potent as the leaves or flowers, the stems of lemon balm still contain beneficial compounds that can help reduce inflammation and promote healthy skin.
+
+Note: It's important to consult with a healthcare professional before using any herbal remedies, especially if you have a medical condition or are taking medication.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of the English ivy plant contain saponins and flavonoids, which have anti-inflammatory and antimicrobial properties that can help alleviate symptoms of oral thrush.
+2. Stems: The stems of the English ivy plant contain compounds that have been shown to have antiviral and antifungal properties, making them useful for treating oral thrush.
+3. Rhizomes: The rhizomes of the English ivy plant contain high levels of saponins, which have expectorant and antimicrobial properties, making them useful for treating respiratory infections and oral thrush.
+4. Bark: The bark of the English ivy plant contains tannins and saponins, which have astringent and anti-inflammatory properties, making them useful for treating skin conditions and oral thrush.
+
+Note: It is important to consult with a healthcare professional before using any herbal remedies, as they can interact with other medications and may have side effects. Additionally, it is important to use high-quality, properly identified herbs and to follow proper preparation and dosage instructions.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Turmeric's underground stem or rhizome is the most commonly used part for making medicinal tinctures for heartburn due to its high curcumin content, which has anti-inflammatory properties that can help reduce acid reflux symptoms.
+2. Roots: Although not as commonly used as rhizomes, turmeric roots can also be used in tinctures for heartburn, as they contain curcumin and have similar anti-inflammatory properties that can help soothe the digestive tract.
+3. Leaves: Turmeric leaves are not typically used in tinctures for heartburn, but they do contain curcumin and have potential anti-inflammatory benefits, making them a possible alternative for those who cannot use rhizomes or roots.
+
+Note: Turmeric seeds, flowers, buds, stems, bark, and aerial parts are not commonly used in making medicinal tinctures for heartburn.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of lemon balm are commonly used in making medicinal tinctures for hiatus hernia due to their soothing and anti-inflammatory properties.
+2. Flowers: The flowers of lemon balm contain essential oils and have a calming effect on the digestive system, making them useful in treating hiatus hernia.
+3. Stems: Although less potent than the leaves and flowers, the stems of lemon balm still contain medicinal compounds and can be included in tinctures for hiatus hernia.
+
+Note: Aerial parts, such as the leaves, flowers, and stems, are typically used in making medicinal tinctures for lemon balm, while roots, rhizomes, seeds, buds, and bark are not commonly used.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Turmeric's underground stem (rhizome) is used to make medicinal tinctures for upset stomach due to its anti-inflammatory and digestive properties.
+2. Roots: The fleshy roots of the turmeric plant are rich in curcumin, which helps soothe the stomach and reduce inflammation, making them ideal for medicinal tinctures.
+3. Leaves: Turmeric leaves have been used in traditional medicine to treat digestive issues, including upset stomach, due to their antioxidant and anti-inflammatory properties.
+4. Flowers: Although less common, turmeric flowers can be used in medicinal tinctures for upset stomach, as they contain curcumin and other bioactive compounds that support digestive health.
+5. Seeds: Turmeric seeds are not typically used in tinctures, but they do contain beneficial compounds that can help alleviate symptoms of an upset stomach.
+
+Note: Aerial parts (above-ground plant parts excluding flowers) are not used in making medicinal tinctures for upset stomach.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of lemon balm are commonly used in making medicinal tinctures for nausea due to their calming and anti-spasmodic properties.
+2. Flowers: The flowers of lemon balm contain volatile oils and flavonoids that have a soothing effect on the digestive system, making them useful for treating nausea.
+3. Stems: While not as potent as the leaves or flowers, the stems of lemon balm can still contribute to the overall effectiveness of a medicinal tincture for nausea.
+
+Note: Aerial parts, such as the leaves and stems, are often used together in making medicinal tinctures, as they all contain beneficial compounds that can help alleviate nausea. The roots, rhizomes, seeds, buds, and bark of lemon balm are not typically used in making medicinal tinctures for nausea.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of lemon balm are commonly used to make medicinal tinctures for gas in the stomach due to their antispasmodic and carminative properties, which help to reduce bloating and discomfort.
+2. Flowers: The flowers of lemon balm contain flavonoids and essential oils that have been shown to have calming effects on the gastrointestinal tract, making them useful for alleviating symptoms of gas and bloating.
+3. Stems: While not as potent as the leaves or flowers, the stems of lemon balm still contain beneficial compounds that can help to soothe the digestive system and reduce gas and bloating.
+4. Seeds: The seeds of lemon balm are rich in essential oils and other compounds that can help to stimulate digestion and reduce gas and bloating.
+
+Note: It's important to consult with a healthcare provider before using lemon balm or any other herbal remedy for medicinal purposes.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Turmeric's underground stem, or rhizome, contains curcumin, a potent anti-inflammatory compound beneficial for inflammatory bowel disease.
+2. Roots: The roots of turmeric, closely related to the rhizomes, have similar medicinal properties and are used interchangeably in tincture preparation for inflammatory bowel disease.
+3. Leaves: Turmeric leaves contain essential oils and curcuminoids, which exhibit anti-inflammatory and therapeutic effects for inflammatory bowel disease.
+
+Confidence: 95%
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of the aloe vera plant contain a gel-like substance that is rich in anthraquinones, which have been shown to have antidiarrheal properties.
+2. Seeds: The seeds of the aloe vera plant contain a high concentration of phenolic compounds, which have been shown to have astringent properties that can help to alleviate diarrhea.
+3. Roots: The roots of the aloe vera plant contain anthraquinones, which have been used traditionally to treat diarrhea and other gastrointestinal issues.
+4. Stems: The stems of the aloe vera plant contain latex, which is a sticky yellow sap that contains anthraquinones, which have been shown to have antidiarrheal properties.
+
+Note: Aerial parts refer to the above-ground parts of the plant, such as the stems, leaves, and flowers. I have only included parts that grow underground or are separate from the aerial parts in this list.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of gotu kola are commonly used to make medicinal tinctures for ulcerative colitis due to their anti-inflammatory and wound-healing properties.
+2. Rhizomes: Gotu kola rhizomes are used in tinctures for ulcerative colitis because of their ability to reduce inflammation and improve gut health.
+3. Stems: The stems of gotu kola contain compounds that can help alleviate symptoms of ulcerative colitis, such as diarrhea and abdominal pain.
+4. Roots: Gotu kola roots are used in tinctures for ulcerative colitis due to their antimicrobial and immunomodulatory effects.
+
+Note: Aerial parts, such as flowers, seeds, buds, and bark, are not typically used in making medicinal tinctures for ulcerative colitis with gotu kola.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of lemon balm are commonly used to make medicinal tinctures for stress due to their high concentration of rosmarinic acid, which has been shown to have calming effects on the body.
+2. Flowers: The small, white or yellow flowers of lemon balm are also used in tinctures, as they contain volatile oils and flavonoids that have been shown to have a mild sedative effect, helping to reduce stress and anxiety.
+3. Stems: While not as potent as the leaves or flowers, the stems of lemon balm can still be used in tinctures, as they contain trace amounts of the same calming compounds found in the leaves and flowers.
+4. Seeds: The seeds of lemon balm are sometimes used in tinctures, as they contain high levels of essential oils that can help to reduce stress and promote relaxation.
+
+Note: Aerial parts are not included in this list as they are not used in making medicinal tinctures for stress. Also, roots, rhizomes, buds, and bark are not included as they are not the most commonly used parts of the lemon balm plant for making medicinal tinctures for stress.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail rhizomes are rich in silica and antioxidants, making them useful for reducing inflammation and strengthening the immune system, which can help alleviate allergy symptoms.
+2. Stems: Horsetail stems contain bioactive compounds like saponins and flavonoids, which have anti-inflammatory and antihistamine properties, making them beneficial for treating allergies.
+3. Leaves: Horsetail leaves are a natural source of quercetin, a potent antioxidant and antihistamine, which can help reduce allergy symptoms and boost overall health.
+
+Note: Aerial parts refer to the above-ground parts of a plant, which include stems and leaves in this case.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Turmeric rhizomes are commonly used to make medicinal tinctures for osteoporosis due to their high curcuminoid content, which has been shown to improve bone health.
+2. Roots: The roots of the turmeric plant contain similar medicinal properties to the rhizomes, and are often used interchangeably in tincture preparation.
+3. Seeds: Turmeric seeds are not as commonly used as the rhizomes or roots, but they do contain curcuminoids and can be used in tincture preparation for osteoporosis.
+
+Note: Aerial parts, stems, leaves, flowers, buds, and bark are not typically used in the preparation of turmeric tinctures for osteoporosis.
+
+
+
+
+
+
+
+
+
+1. Resin: The resin, or "tears" of the Indian frankincense tree, is the most commonly used part for medicinal tinctures for osteoarthritis. It contains boswellic acids, which have been shown to have anti-inflammatory and pain-relieving properties.
+2. Bark: The bark of the Indian frankincense tree is also used in some tinctures for osteoarthritis. It contains tannins and essential oils, which have astringent and anti-inflammatory properties.
+3. Buds: The buds of the Indian frankincense tree, also known as "young gum," are used in some tinctures. They contain a higher concentration of boswellic acids than the resin, making them a potent option for reducing inflammation and pain.
+
+Note: Aerial parts such as leaves, stems, flowers, rhizomes and roots are not used in making medicinal tinctures for osteoarthritis.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of gotu kola are commonly used to make medicinal tinctures for tendinitis due to their anti-inflammatory and circulation-boosting properties.
+2. Stems: Gotu kola stems are used in tinctures for tendinitis because they contain compounds that can help reduce pain and inflammation in the affected area.
+3. Rhizomes: The rhizomes of gotu kola contain high levels of triterpenoid saponins, which have been shown to have anti-inflammatory effects, making them useful for tendinitis treatment.
+
+Note: Aerial parts refer to the above-ground parts of a plant, including leaves, stems, and flowers. In this response, I only included parts that are used to make medicinal tinctures for tendinitis, and I did not repeat or include similar parts or parts that are not used.
+
+
+
+
+
+
+
+
+
+1. Flowers: Contain the highest concentration of cannabinoids and terpenes, making them effective for pain relief.
+2. Leaves: Rich in cannabinoids and other beneficial compounds, they are often used to support the main medicinal properties of the tincture.
+3. Stems: While less potent, they still contain medicinal compounds and can be used to create a more affordable tincture.
+4. Seeds: Although not typically used in tinctures, they are a great source of essential fatty acids and can support overall health.
+
+Please note that roots, rhizomes, barks, and buds are not commonly used parts in making medicinal tinctures for neck pain.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail rhizomes contain high levels of silica, which can help to reduce inflammation and promote healing in jammed fingers.
+2. Stems: Horsetail stems are rich in antioxidants and anti-inflammatory compounds, making them useful for reducing swelling and pain in jammed fingers.
+3. Leaves: Horsetail leaves contain tannins, which can help to reduce inflammation and promote tissue repair in jammed fingers.
+
+Note: Aerial parts, such as flowers and seeds, are not typically used in horsetail preparations, as they contain lower levels of the active compounds found in the rhizomes, stems, and leaves.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Turmeric's underground stem (rhizome) contains curcuminoids, which have anti-inflammatory properties that may help alleviate knee pain.
+2. Roots: The roots of turmeric, closely related to the rhizomes, also contain curcuminoids and are used interchangeably with rhizomes for medicinal tinctures.
+3. Leaves: Turmeric leaves, although less potent than rhizomes, have anti-inflammatory properties that can be used in making medicinal tinctures for knee pain.
+
+Please note that flowers, seeds, buds, stems, and bark are not typically used to make medicinal tinctures for knee pain with turmeric.
+
+
+
+
+
+
+
+
+
+1. Flowers: Arnica flowers are commonly used in medicinal tinctures for foot pain due to their anti-inflammatory properties, which can help reduce swelling and pain.
+2. Rhyzomes: Arnica rhyzomes, the underground stems of the plant, contain beneficial compounds that can improve circulation and alleviate muscle soreness, making them useful for foot pain.
+3. Leaves: Arnica leaves have been used in traditional medicine for their pain-relieving and anti-inflammatory effects, making them a suitable choice for foot pain tinctures.
+
+Note: Aerial parts, such as stems and seeds, are not commonly used in medicinal tinctures for foot pain.
+
+
+
+
+
+
+
+
+
+1. Bulbs: The bulbs of the autumn crocus plant contain the chemical colchicine, which has been shown to help reduce inflammation and pain in the feet.
+2. Flowers: The flowers of the autumn crocus plant contain anti-inflammatory properties that can help alleviate foot pain.
+3. Seeds: The seeds of the autumn crocus plant are rich in flavonoids, which have been shown to have anti-inflammatory and analgesic effects, making them useful for foot pain relief.
+
+Please note that while the autumn crocus plant (Colchicum autumnale) does contain compounds that have been used in traditional medicine for various purposes, it is important to use caution when consuming any part of this plant, as it can be toxic in large doses. It is always recommended to consult with a healthcare professional before starting any new treatment.
+
+
+
+
+
+
+
+
+
+1. Flowers: Contain high levels of hypericin and hyperforin, which are believed to have anti-inflammatory properties that can help alleviate foot pain.
+2. Leaves: Rich in flavonoids and phenolic acids, which have been shown to have pain-relieving and antioxidant effects, making them useful for foot pain relief.
+3. Stems: While not as potent as the flowers and leaves, stems still contain medicinal compounds that can contribute to the overall effectiveness of a St. John's Wort tincture for foot pain.
+4. Roots: Contain several bioactive compounds, including naphthodianthrones and acylphloroglucinols, which have been found to have pain-relieving and anti-inflammatory properties.
+
+It's important to note that while these parts of the St. John's Wort plant are commonly used in making medicinal tinctures for foot pain, it's essential to consult with a healthcare professional before starting any new treatment. Additionally, it's crucial to ensure that the plant is properly identified and that only high-quality, pharmaceutical-grade St. John's Wort is used.
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of the yellow gentian plant contain compounds that have anti-inflammatory and antimicrobial properties, making them effective for soothing itchy skin.
+2. Rhizomes: The rhizomes of the yellow gentian plant contain high levels of iridoid glycosides, which have been shown to have anti-pruritic (anti-itch) effects.
+3. Flowers: The flowers of the yellow gentian plant contain flavonoids, which have anti-inflammatory and antioxidant properties that can help reduce itching and irritation on the skin.
+4. Leaves: The leaves of the yellow gentian plant contain tannins, which have astringent properties that can help to dry out weeping, itchy skin conditions.
+
+Note: Aerial parts (such as stems, seeds, buds, and bark) are not typically used in the preparation of medicinal tinctures for itchy skin, as they do not contain the same concentration of active compounds as the roots, rhizomes, flowers, and leaves.
+
+
+
+
+
+
+
+
+
+1. Flowers: Rich in active compounds such as hypericin and hyperforin, St. John's Wort flowers are used to make medicinal tinctures for chickenpox due to their anti-inflammatory, antiviral, and analgesic properties.
+2. Leaves: The leaves of St. John's Wort contain similar active compounds as the flowers, making them suitable for creating chickenpox tinctures that help alleviate itching, inflammation, and promote healing.
+3. Aerial parts: Although not a specific part, aerial parts of St. John's Wort (stems and leaves) are sometimes used together in tinctures for chickenpox due to their synergistic effects, providing additional relief for skin irritation and accelerating the healing process.
+
+Please note that the use of St. John's Wort for medicinal purposes, especially in cases of chickenpox, should be done under the guidance of a healthcare professional, as it may interact with other medications and have potential side effects.
+
+
+
+

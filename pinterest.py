@@ -18,7 +18,9 @@ from selenium.webdriver.firefox.options import Options
 
 from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 import random
+
 import g
+import data_csv
 
 random_num = random.randint(-2, 2)
 ARTICLES_NUM = 35 - random_num
@@ -32,10 +34,6 @@ driver.maximize_window()
 
 driver.get("https://www.pinterest.com/login/")
 time.sleep(10)
-
-# driver = webdriver.Firefox()
-# driver.get("https://www.pinterest.com/login/")
-# time.sleep(5) 
 
 e = driver.find_element(By.XPATH, '//input[@id="email"]')
 e.send_keys('leenrandell@gmail.com') 
@@ -53,29 +51,29 @@ time.sleep(30)
 
 
 
-problems_rows = util.csv_get_rows(g.CSV_PROBLEMS_FILEPATH)
-problems_cols = util.csv_get_cols(problems_rows)
-problems_rows = problems_rows[1:]
+status_rows, status_cols = data_csv.status()
 
 systems_rows = util.csv_get_rows(g.CSV_SYSTEMS_NEW_FILEPATH)
 systems_cols = util.csv_get_cols(systems_rows)
 systems_rows = systems_rows[1:]
 
-problems_systems_rows = util.csv_get_rows(g.CSV_PROBLEMS_SYSTEMS_FILEPATH)
-problems_systems_cols = util.csv_get_cols(problems_systems_rows)
-problems_systems_rows = problems_systems_rows[1:]
+status_systems_rows = util.csv_get_rows(g.CSV_STATUS_SYSTEMS_FILEPATH)
+status_systems_cols = util.csv_get_cols(status_systems_rows)
+status_systems_rows = status_systems_rows[1:]
 
 
-def csv_get_system_by_problem(problem_id):
+
+
+def get_system_by_status(status_id):
     system_row = []
 
-    problems_systems_rows_filtered = util.csv_get_rows_filtered(
-        g.CSV_PROBLEMS_SYSTEMS_FILEPATH, problems_systems_cols['problem_id'], problem_id,
+    status_systems_rows_filtered = util.csv_get_rows_filtered(
+        g.CSV_STATUS_SYSTEMS_FILEPATH, status_systems_cols['status_id'], status_id,
     )
 
-    if problems_systems_rows_filtered != []:
-        problem_system_row = problems_systems_rows_filtered[0]
-        system_id = problem_system_row[problems_systems_cols['system_id']]
+    if status_systems_rows_filtered != []:
+        status_system_row = status_systems_rows_filtered[0]
+        system_id = status_system_row[status_systems_cols['system_id']]
 
         systems_rows_filtered = util.csv_get_rows_filtered(
             g.CSV_SYSTEMS_FILEPATH, systems_cols['system_id'], system_id,
@@ -86,45 +84,126 @@ def csv_get_system_by_problem(problem_id):
 
     return system_row
 
-preparations_num = 2
-pins_per_preparation = ARTICLES_NUM // preparations_num
 
 teas_articles_filepath = []
 tinctures_articles_filepath = []
-for problem_row in problems_rows[:g.ART_NUM]:
-    problem_id = problem_row[problems_cols['problem_id']]
-    problem_slug = problem_row[problems_cols['problem_slug']]
-    problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+for status_row in status_rows:
+        status_exe = status_row[status_cols['status_exe']]
+        status_id = status_row[status_cols['status_id']]
+        status_slug = status_row[status_cols['status_slug']]
+        status_name = status_row[status_cols['status_names']].split(',')[0].strip()
 
-    if problem_id == '': continue
-    if problem_slug == '': continue
-    if problem_name == '': continue
+        if status_exe == '': continue
+        if status_id == '': continue
+        if status_slug == '': continue
+        if status_name == '': continue
+
+        print(f'>> {status_id} - {status_name}')
+
+        system_row = get_system_by_status(status_id)
+
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+
+        print(f'    {system_id} - {system_name}')
+
+        
+        json_filepath = f'database/json/remedies/{system_slug}/{status_slug}/teas.json'
+        if os.path.exists(json_filepath): 
+            print(f'ok: {json_filepath}')
+            teas_articles_filepath.append(json_filepath)
+        else: print(f'NOT FOUND: {json_filepath}')
+        
+        json_filepath = f'database/json/remedies/{system_slug}/{status_slug}/tinctures.json'
+        if os.path.exists(json_filepath): 
+            print(f'ok: {json_filepath}')
+            tinctures_articles_filepath.append(json_filepath)
+        else: print(f'NOT FOUND: {json_filepath}')
+
+
+
+# problems_rows = util.csv_get_rows(g.CSV_PROBLEMS_FILEPATH)
+# problems_cols = util.csv_get_cols(problems_rows)
+# problems_rows = problems_rows[1:]
+
+# systems_rows = util.csv_get_rows(g.CSV_SYSTEMS_NEW_FILEPATH)
+# systems_cols = util.csv_get_cols(systems_rows)
+# systems_rows = systems_rows[1:]
+
+# problems_systems_rows = util.csv_get_rows(g.CSV_PROBLEMS_SYSTEMS_FILEPATH)
+# problems_systems_cols = util.csv_get_cols(problems_systems_rows)
+# problems_systems_rows = problems_systems_rows[1:]
+
+
+# def csv_get_system_by_problem(problem_id):
+#     system_row = []
+
+#     problems_systems_rows_filtered = util.csv_get_rows_filtered(
+#         g.CSV_PROBLEMS_SYSTEMS_FILEPATH, problems_systems_cols['problem_id'], problem_id,
+#     )
+
+#     if problems_systems_rows_filtered != []:
+#         problem_system_row = problems_systems_rows_filtered[0]
+#         system_id = problem_system_row[problems_systems_cols['system_id']]
+
+#         systems_rows_filtered = util.csv_get_rows_filtered(
+#             g.CSV_SYSTEMS_FILEPATH, systems_cols['system_id'], system_id,
+#         )
+
+#         if systems_rows_filtered != []:
+#             system_row = systems_rows_filtered[0]
+
+#     return system_row
+
+preparations_num = 2
+pins_per_preparation = ARTICLES_NUM // preparations_num
+
+# teas_articles_filepath = []
+# tinctures_articles_filepath = []
+# for problem_row in problems_rows[:g.ART_NUM]:
+#     problem_id = problem_row[problems_cols['problem_id']]
+#     problem_slug = problem_row[problems_cols['problem_slug']]
+#     problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
+
+#     if problem_id == '': continue
+#     if problem_slug == '': continue
+#     if problem_name == '': continue
     
-    # print(f'> {problem_name}')
+#     # print(f'> {problem_name}')
 
-    system_row = csv_get_system_by_problem(problem_id)
-    system_id = system_row[systems_cols['system_id']]
-    system_slug = system_row[systems_cols['system_slug']]
-    system_name = system_row[systems_cols['system_name']]
+#     system_row = csv_get_system_by_problem(problem_id)
+#     system_id = system_row[systems_cols['system_id']]
+#     system_slug = system_row[systems_cols['system_slug']]
+#     system_name = system_row[systems_cols['system_name']]
 
-    if system_id == '': continue
-    if system_slug == '': continue
-    if system_name == '': continue
+#     if system_id == '': continue
+#     if system_slug == '': continue
+#     if system_name == '': continue
 
-    # print(f'  > {system_name}')
-    category = 'remedies_old'
+#     # print(f'  > {system_name}')
+#     category = 'remedies_old'
 
-    json_filepath = f'database/json/{category}/{system_slug}/{problem_slug}/teas.json'
-    if os.path.exists(json_filepath): 
-        print(f'ok: {json_filepath}')
-        teas_articles_filepath.append(json_filepath)
-    else: print(f'NOT FOUND: {json_filepath}')
+#     json_filepath = f'database/json/{category}/{system_slug}/{problem_slug}/teas.json'
+#     if os.path.exists(json_filepath): 
+#         print(f'ok: {json_filepath}')
+#         teas_articles_filepath.append(json_filepath)
+#     else: print(f'NOT FOUND: {json_filepath}')
    
-    json_filepath = f'database/json/{category}/{system_slug}/{problem_slug}/tinctures.json'
-    if os.path.exists(json_filepath): 
-        print(f'ok: {json_filepath}')
-        tinctures_articles_filepath.append(json_filepath)
-    else: print(f'NOT FOUND: {json_filepath}')
+#     json_filepath = f'database/json/{category}/{system_slug}/{problem_slug}/tinctures.json'
+#     if os.path.exists(json_filepath): 
+#         print(f'ok: {json_filepath}')
+#         tinctures_articles_filepath.append(json_filepath)
+#     else: print(f'NOT FOUND: {json_filepath}')
+
+
+
+
+
 
 
 # GET RANDOM ARTICLES TO PIN
@@ -178,7 +257,7 @@ for article_filepath in tinctures_articles_filepath:
 
     remedy_num = data['remedies_num']
     title = data['title']
-    problem_name = data['problem_name']
+    problem_name = data['status_name']
     preparation = 'tinctures'
     url = data['url']
     remedies = data['remedies_list']
@@ -204,7 +283,14 @@ for article_filepath in tinctures_articles_filepath:
     line_1 = f'best herbal tinctures for'.title()
     line_2 = f'{problem_name}'.title()
     line_list = [line_1, line_2]
-    img_filepath = pinterest_util.gen_img_template(
+    # img_filepath = pinterest_util.gen_img_template(
+    #     line_list,
+    #     images,
+    #     filename_out,
+    #     remedy_num,
+    # )
+
+    img_filepath = pinterest_util.gen_img_template_0001(
         line_list,
         images,
         filename_out,
@@ -299,7 +385,7 @@ for article_filepath in teas_articles_filepath:
     except: remedy_num = data['remedies_num']
     title = data['title']
     try: condition_name = data['condition_name']
-    except: condition_name = data['problem_name']
+    except: condition_name = data['status_name']
     preparation = 'teas'
     url = data['url']
     try: remedies = data['teas']
@@ -328,7 +414,13 @@ for article_filepath in teas_articles_filepath:
     line_1 = f'best herbal teas for'.title()
     line_2 = f'{condition_name}'.title()
     line_list = [line_1, line_2]
-    img_filepath = pinterest_util.gen_img_template(
+    # img_filepath = pinterest_util.gen_img_template(
+    #     line_list,
+    #     images,
+    #     filename_out,
+    #     remedy_num,
+    # )
+    img_filepath = pinterest_util.gen_img_template_0001(
         line_list,
         images,
         filename_out,
