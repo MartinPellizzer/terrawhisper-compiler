@@ -4439,3 +4439,467 @@ Please note that the use of St. John's Wort for medicinal purposes, especially i
 
 
 
+
+
+
+
+
+1. Leaves: The leaves of lemon balm are commonly used in medicinal teas for gas in the stomach due to their carminative properties, which help to relieve bloating and flatulence.
+2. Flowers: The flowers of lemon balm contain volatile oils and flavonoids that have antispasmodic effects, making them useful for reducing intestinal cramping and gas.
+3. Stems: While not as potent as the leaves or flowers, the stems of lemon balm can still contribute to the tea's effectiveness in alleviating gas and discomfort in the stomach.
+
+Note: Aerial parts, such as stems and leaves, are often used together in herbal teas, as they contain many of the beneficial compounds that contribute to the tea's medicinal properties.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: The underground stem of the horsetail plant contains phenolic acids and flavonoids, which have insecticidal properties that can help to control lice.
+2. Leaves: The leaves of the horsetail plant contain silica, which can help to dry out and kill lice, making it an effective natural treatment for head lice.
+3. Stems: The stems of the horsetail plant contain thiaminase, an enzyme that can help to eliminate lice by breaking down the vitamin B1 in the lice's system.
+
+Note: It's important to consult with a healthcare provider before using horsetail tea or any other herbal remedy to treat lice, as it may not be effective for all types of lice and could cause side effects in some people.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of the aloe vera plant contain a gel-like substance that is rich in anthraquinones, which have been shown to have antidiarrheal properties.
+2. Seeds: The seeds of the aloe vera plant contain a bitter substance called aloin, which has been used traditionally to treat diarrhea by slowing down the movement of the gut.
+3. Roots: The roots of the aloe vera plant contain anthraquinones, which have been shown to have antidiarrheal properties.
+
+Note: Aerial parts are the above-ground parts of a plant, such as stems, leaves, and flowers. I did not include them in the list as they are not typically used to make medicinal tinctures for diarrhea with aloe vera.
+
+
+
+
+
+
+
+
+
+1. Flowers: Contain high levels of cannabinoids and terpenes, which can help reduce inflammation and relieve neck pain.
+2. Leaves: Rich in cannabinoids and other beneficial compounds, they can be used to create a full-spectrum tincture that provides an entourage effect for enhanced pain relief.
+3. Stems: While less potent than flowers and leaves, stems still contain cannabinoids and other compounds that can contribute to the overall effectiveness of a tincture for neck pain.
+4. Seeds: Although not typically used in tinctures, hemp seeds are a great source of essential fatty acids and other nutrients that can support overall health and well-being.
+
+Note: Aerial parts refer to any part of the plant that is above ground, including stems, leaves, and flowers. Since you asked not to include aerial parts, I have only listed individual components of aerial parts (stems, leaves, and flowers) once and have not included roots, rhizomes, bark, or buds as they are not commonly used in medicinal tinctures for neck pain.
+
+
+
+
+
+
+
+
+
+1. Flowers: Pot marigold flowers are rich in flavonoids and essential oils, making them ideal for treating open pores due to their anti-inflammatory and astringent properties.
+2. Leaves: The leaves of the pot marigold plant contain tannins and carotenoids, which are beneficial for tightening pores and reducing excess oil production.
+3. Stems: Although less potent than the flowers and leaves, pot marigold stems still contain beneficial compounds that can help improve the appearance of open pores.
+4. Seeds: Pot marigold seeds are a great source of antioxidants and essential fatty acids, which can help soothe inflamed pores and promote healthy skin.
+
+Please note that roots, rhizomes, buds, bark, and aerial parts are not commonly used or recommended parts for making medicinal tinctures for open pores.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail rhizomes contain silica and other minerals that can help strengthen connective tissue and tighten pores.
+2. Stems: The hollow, jointed stems of horsetail contain bioactive compounds that can help reduce the appearance of enlarged pores.
+3. Leaves: Horsetail leaves are rich in antioxidants that can help protect the skin from damage and improve the overall appearance of pores.
+
+Note: Aerial parts refer to the above-ground parts of the plant, including stems and leaves. I have only included these parts in the list since they are the most commonly used parts of the horsetail plant for making medicinal tinctures for open pores.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of gotu kola are the most commonly used part of the plant for making medicinal tinctures for open wounds. They are rich in triterpenoid compounds, which have been shown to promote wound healing and tissue regeneration.
+2. Stems: The stems of gotu kola contain similar triterpenoid compounds as the leaves, making them a suitable alternative for making medicinal tinctures for open wounds.
+3. Rhizomes: The rhizomes of gotu kola contain high levels of asiaticoside, a triterpenoid saponin that has been shown to have wound healing and anti-inflammatory properties.
+
+Note: Aerial parts, such as flowers and seeds, are not commonly used in making medicinal tinctures for open wounds with gotu kola.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail rhizomes contain high levels of silica, which can help to reduce inflammation and promote healing in rashes.
+2. Stems: Horsetail stems contain anti-inflammatory and astringent properties, making them useful for soothing and healing rashes.
+3. Leaves: Horsetail leaves are rich in antioxidants, which can help to protect the skin from damage and promote healing in rashes.
+
+Note: Aerial parts, such as the leaves and stems, are often used interchangeably in herbal medicine, as they contain similar medicinal properties. However, for the purposes of this list, I have distinguished between the two. Also, flowers, seeds, buds, and bark are not commonly used parts of the horsetail plant in making medicinal tinctures for rashes.
+
+
+
+
+
+
+
+
+
+1. Flowers: Contain high levels of hypericin and hyperforin, compounds believed to have anti-inflammatory and antioxidant properties, which may help soothe sunburned skin.
+2. Leaves: Rich in tannins and flavonoids, which have astringent and anti-inflammatory effects, making them useful for treating sunburned skin.
+3. Buds: Contain high concentrations of active compounds, which can help reduce redness, inflammation, and pain associated with sunburn.
+4. Stems: Contain beneficial compounds, including essential oils, that may help soothe and heal sunburned skin.
+
+Note: Aerial parts like stems and leaves are sometimes used together in tinctures to maximize the therapeutic benefits of St. John's wort for sunburn.
+
+
+
+
+
+
+
+
+
+1. Flowers: The flowers of German chamomile are rich in flavonoids and essential oils, which have anti-inflammatory and anti-itch properties, making them ideal for treating eczema.
+2. Leaves: The leaves contain similar compounds to the flowers, but in smaller quantities, they can still contribute to the overall soothing effect of the tincture.
+3. Seeds: The seeds of German chamomile contain a high concentration of essential oils, which have been shown to have a positive effect on skin conditions such as eczema.
+
+Please note that roots, rhizomes, stems, buds, bark and aerial parts are not typically used in the preparation of medicinal tinctures for eczema.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail rhizomes contain silica and other minerals that can help to strengthen skin and nails, making it useful for managing psoriasis symptoms.
+2. Stems: Horsetail stems are rich in antioxidants and anti-inflammatory compounds that can help to reduce redness, itching, and irritation associated with psoriasis.
+3. Leaves: Horsetail leaves contain flavonoids and phenolic acids that have been shown to have anti-psoriatic properties, making them a valuable addition to medicinal tinctures for psoriasis.
+
+Note: Aerial parts are not included as they are not commonly used in medicinal tinctures for psoriasis. Also, similar parts such as roots and rhizomes are not repeated. Finally, only parts that are used in medicinal tinctures for psoriasis are included in the list.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail rhizomes contain silica and other minerals that can help to strengthen hair and reduce dryness of the scalp.
+2. Stems: The stems of horsetail plant have a high silica content, which can help to improve the health and appearance of hair, reducing dryness and flakiness.
+3. Leaves: Horsetail leaves contain flavonoids and phenolic acids that have anti-inflammatory and antioxidant properties, which can help to soothe a dry and itchy scalp.
+4. Seeds: Horsetail seeds are rich in essential fatty acids, which can help to moisturize the scalp and reduce dryness.
+
+Note: Aerial parts refer to the above-ground parts of a plant, including the stems, leaves, flowers, and seeds.
+
+
+
+
+
+
+
+
+
+1. Leaves: The soft, velvety leaves of great mullein are often used to make tinctures for itchy ears due to their anti-inflammatory and analgesic properties.
+2. Flowers: The bright yellow flowers of great mullein are infused in oil to make ear drops, as they have antimicrobial and anti-inflammatory effects that can help alleviate ear itchiness.
+3. Seeds: The seeds of great mullein contain mucilage, which can be used to soothe irritated ears and reduce itching.
+
+Note: Aerial parts, such as stems and buds, are not typically used in medicinal tinctures for itchy ears. Additionally, roots, rhizomes, and bark are not commonly used parts of the great mullein plant for this purpose.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of lemon balm are commonly used in making medicinal tinctures for cold sores due to their antiviral properties, which can help reduce the severity and duration of cold sore outbreaks.
+2. Flowers: The flowers of lemon balm contain flavonoids and phenolic acids, which have anti-inflammatory and antiviral properties, making them useful for soothing and healing cold sores.
+3. Stems: While not as potent as the leaves or flowers, the stems of lemon balm still contain beneficial compounds that can help support the healing process of cold sores.
+
+Note: Aerial parts are not included in this list as they are not a specific part of the plant. Also, roots, rhizomes, seeds, buds, and bark are not used in making medicinal tinctures for cold sores with lemon balm.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of lemon balm are commonly used in making medicinal tinctures for fever blisters on the lip due to their antiviral properties, which can help to reduce the severity and duration of cold sores.
+2. Flowers: The flowers of lemon balm contain flavonoids and phenolic acids, which have anti-inflammatory and antiviral properties, making them useful for treating fever blisters on the lip.
+3. Stems: While not as potent as the leaves or flowers, the stems of lemon balm still contain beneficial compounds that can help to soothe and heal fever blisters on the lip.
+
+Note: It's important to use high-quality, organic lemon balm when making medicinal tinctures, and to follow proper preparation and dosage instructions to ensure safety and effectiveness.
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of English ivy are often used in medicinal capsules for dry mouth due to their mucilaginous properties, which can help to lubricate and moisturize the mouth.
+2. Roots: The roots of English ivy contain saponins, which can stimulate the production of saliva, thereby alleviating dry mouth symptoms.
+3. Stems: The stems of English ivy contain tannins, which can have astringent properties and help to soothe dry, irritated mouth tissues.
+4. Bark: The bark of English ivy contains flavonoids, which have anti-inflammatory properties and can help to reduce inflammation in the mouth and throat.
+
+Note: It is important to consult with a healthcare provider before taking any herbal supplements, as they can interact with other medications and have potential side effects. Additionally, it is essential to ensure that the English ivy plant is properly identified and harvested from a clean, uncontaminated source.
+
+
+
+
+
+
+
+
+
+1. Roots: Contain berberine, which helps balance stomach acid levels.
+2. Bark: Has alkaloids that can reduce stomach acid and inflammation.
+3. Seeds: Rich in berberine and other alkaloids, helping to regulate gastric acid secretion.
+4. Leaves: Contain berbamine, which can help protect the stomach lining and reduce acidity.
+
+Note: Please consult with a healthcare professional before starting any new supplements or treatments.
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of the licorice plant contain glycyrrhizin, which can help soothe stomach inflammation and reduce mucus production.
+2. Seeds: Licorice seeds have been used in traditional medicine to treat stomach ulcers and reduce mucus secretion.
+3. Bark: The bark of the licorice plant contains compounds that can help relieve symptoms of heartburn and acid reflux, which can be caused by excess mucus in the stomach.
+
+Note: Always consult with a healthcare provider before starting any new supplement regimen, especially if you have any pre-existing medical conditions or are taking any medications.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Turmeric's underground stem (rhizome) is used for making medicinal capsules for overeating due to its active compound curcumin, which can help suppress appetite and aid in weight management.
+2. Roots: Although not a separate part in turmeric, the roots of the rhizome are rich in curcumin and other bioactive compounds, making them a valuable addition to medicinal capsules for managing overeating and weight-related issues.
+3. Leaves: Turmeric leaves have been used in traditional medicine for their anti-inflammatory properties, which can potentially help control overeating by reducing inflammation in the body.
+
+Note: Turmeric flowers, seeds, buds, stems, bark, and aerial parts are not commonly used in making medicinal capsules for overeating.
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of the licorice plant contain glycyrrhizin, which can help suppress appetite and reduce excessive hunger.
+2. Seeds: Licorice seeds are used in traditional medicine to treat stomach ailments, including overeating, due to their carminative and soothing properties.
+3. Bark: The bark of the licorice plant has been used in herbal medicine to help regulate digestion and reduce inflammation in the gastrointestinal tract.
+
+Confidence: 85%
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of the licorice plant contain glycyrrhizin, which has been shown to have anti-inflammatory and liver protective properties, making it useful for treating jaundice.
+2. Leaves: The leaves of the licorice plant contain flavonoids and coumarins, which have been shown to have hepatoprotective effects, making them useful for treating jaundice.
+3. Seeds: The seeds of the licorice plant contain a high concentration of glycyrrhizin, which has been shown to have a choleretic effect, increasing the flow of bile from the liver, making it useful for treating jaundice.
+4. Rhizomes: The rhizomes of the licorice plant contain a variety of compounds with anti-inflammatory and liver protective effects, making them useful for treating jaundice.
+5. Bark: The bark of the licorice plant contains a variety of compounds with anti-inflammatory and liver protective effects, making it useful for treating jaundice.
+
+Note: The use of licorice for medicinal purposes should be done under the guidance of a healthcare professional as it can have side effects such as high blood pressure, low potassium levels and water retention if used in large amounts or for long periods of time.
+
+
+
+
+
+
+
+
+
+1. Seeds: The seeds of the licorice plant contain compounds that can help stimulate the production of bile, which can help break down gallstones.
+2. Roots: The roots of the licorice plant contain glycyrrhizin, a compound that has been shown to have anti-inflammatory effects, which can help reduce pain and swelling associated with gallstones.
+3. Bark: The bark of the licorice plant contains flavonoids, which have been shown to help dissolve cholesterol-based gallstones.
+
+Note: It's important to consult with a healthcare provider before starting any new supplement regimen, especially if you have a medical condition like gallstones. Licorice supplements can have side effects and interact with certain medications, so it's important to use them under the guidance of a healthcare professional.
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of the Oregon grape plant contain berberine, which has been shown to have anti-inflammatory properties that may help reduce inflammation in the digestive tract associated with ulcerative colitis.
+2. Rhizomes: The rhizomes of the Oregon grape plant also contain berberine and have been used in traditional medicine to treat gastrointestinal issues, including ulcerative colitis.
+3. Bark: The bark of the Oregon grape plant contains alkaloids that have been shown to have antibacterial and anti-inflammatory properties, which may help alleviate symptoms of ulcerative colitis.
+4. Leaves: The leaves of the Oregon grape plant contain tannins, which have astringent properties that may help reduce inflammation and irritation in the digestive tract.
+
+Note: It is important to consult with a healthcare provider before starting any new supplement regimen, especially for conditions like ulcerative colitis.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail rhizomes are rich in antioxidants, making them useful for reducing inflammation in diverticulitis.
+2. Stems: Horsetail stems contain silica, which can help strengthen connective tissues and promote gut health.
+3. Leaves: Horsetail leaves have diuretic properties, aiding in the removal of toxins from the body and reducing inflammation.
+
+Note: Diverticulitis treatment should be supervised by a healthcare professional. Always consult with a healthcare provider before starting any new supplement regimen.
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of the Oregon grape plant contain berberine, which has been found to have antibacterial and anti-inflammatory properties, making it useful for treating diverticulitis.
+2. Rhizomes: The rhizomes of the Oregon grape plant are rich in alkaloids, which have been shown to have a positive effect on gastrointestinal health, making it a good option for medicinal capsules for diverticulitis.
+3. Bark: The bark of the Oregon grape plant contains tannins, which have astringent properties that can help reduce inflammation and pain in the digestive tract.
+4. Leaves: The leaves of the Oregon grape plant contain flavonoids, which have antioxidant properties that can help protect the digestive tract and reduce inflammation.
+5. Berries: The berries of the Oregon grape plant are rich in anthocyanins, which have anti-inflammatory properties and can help reduce inflammation in the digestive tract.
+
+Note: It is important to consult with a healthcare professional before starting any new medicinal treatment, including those made with Oregon grape plant parts.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Horsetail rhizomes are rich in silica and antioxidants, making them useful for promoting tissue repair and reducing inflammation in hemorrhoids.
+2. Stems: Horsetail stems contain anti-inflammatory compounds that can help alleviate pain and swelling in hemorrhoids.
+3. Leaves: Horsetail leaves have astringent properties, which can help constrict blood vessels and reduce bleeding in hemorrhoids.
+
+Note: Aerial parts, such as flowers, seeds, buds, and bark, are not typically used in making medicinal capsules for hemorrhoids.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Turmeric's underground stem (rhizome) contains curcuminoids, which have been shown to have potent anti-inflammatory properties.
+2. Roots: The roots of the turmeric plant, closely related to the rhizomes, also contain curcuminoids, making them a valuable component in medicinal capsules for inflammation.
+3. Leaves: Turmeric leaves contain essential oils and curcumin, which have been found to have anti-inflammatory and antioxidant properties, often used in traditional medicine.
+
+Note: Aerial parts, stems, flowers, seeds, buds, and bark are not typically used in medicinal capsules for inflammation made from the turmeric plant.
+
+
+
+
+
+
+
+
+
+1. Seeds: Contain high levels of polyphenols, which have anti-inflammatory properties.
+2. Bark: Rich in tannins, shown to reduce inflammation and provide pain relief.
+3. Leaves: Have anti-inflammatory and antioxidant properties, used in traditional medicine for treating inflammation.
+4. Buds: High in resveratrol, a powerful antioxidant and anti-inflammatory compound.
+5. Stems: Contain flavonoids that exhibit anti-inflammatory and antioxidant effects.
+
+Note: Cabernet sauvignon is a type of grape, and while its various parts have been used in traditional medicine, there is limited scientific evidence supporting their efficacy in treating inflammation. Always consult a healthcare professional before starting any new treatment.
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of the licorice plant contain glycyrrhizin, which has been shown to have anti-inflammatory effects, making it useful for alleviating menstrual cramps.
+2. Seeds: Licorice seeds are used in traditional medicine to regulate menstruation and relieve symptoms such as cramps.
+3. Stems: The stems of the licorice plant contain isoflavones, which can help reduce spasms and alleviate cramping.
+4. Leaves: Licorice leaves are used in herbal medicine for their anti-spasmodic properties, making them useful for treating cramps.
+
+Note: It's important to consult with a healthcare provider before starting any new supplement regimen, as licorice can have side effects and interact with certain medications.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Turmeric rhizomes are commonly used to make medicinal capsules for asthma due to their anti-inflammatory properties, which can help reduce airway inflammation and ease breathing.
+2. Leaves: Turmeric leaves have been used in traditional medicine for asthma treatment, as they contain curcumin, which has been shown to have anti-asthmatic effects.
+3. Seeds: Turmeric seeds are sometimes used in medicinal capsules for asthma because they contain a compound called curcumin, which has anti-inflammatory and antioxidant properties that may help alleviate asthma symptoms.
+
+Note: While all parts of the turmeric plant have potential health benefits, the parts listed above are the most commonly used in medicinal capsules for asthma.
+
+
+
+
+
+
+
+
+
+1. Flowers: Elderberry flowers are rich in antioxidants and have anti-inflammatory properties, making them useful for soothing inflamed tonsils.
+2. Berries: Elderberries are a good source of vitamins A, C, and bioflavonoids, which can help boost the immune system and reduce inflammation, making them beneficial for treating tonsillitis.
+3. Bark: The bark of the elderberry tree contains tannins, which have astringent properties that can help reduce swelling and inflammation in the throat.
+4. Leaves: Elderberry leaves have been used traditionally for their anti-inflammatory and antiviral properties, making them a potential remedy for tonsillitis.
+5. Stems: Although not as commonly used as other parts of the plant, elderberry stems do contain some bioactive compounds that may contribute to the plant's overall medicinal properties.
+
+Note: It's important to consult with a healthcare provider before taking any herbal remedies, especially if you have a medical condition or are taking other medications. Additionally, it's important to use only properly prepared elderberry products, as some parts of the plant can be toxic if not prepared correctly.
+
+
+
+
+
+
+
+
+
+1. Roots: The roots of the licorice plant contain glycyrrhizin, which has anti-inflammatory and expectorant properties, making it effective in soothing coughs and reducing inflammation in the respiratory tract associated with pertussis.
+2. Seeds: Licorice seeds are used in traditional medicine for their demulcent and expectorant properties, which can help alleviate symptoms of pertussis by soothing irritated membranes and promoting the expulsion of mucus.
+3. Bark: The bark of the licorice plant contains various compounds, including glycyrrhizic acid, which has been shown to have antiviral and anti-inflammatory effects, making it useful in the treatment of pertussis.
+
+Please note that while these parts of the licorice plant have been used in traditional medicine, it is essential to consult with a healthcare professional before starting any new treatment or using licorice for medicinal purposes. Overuse or improper use of licorice can lead to serious side effects.
+
+
+
+
