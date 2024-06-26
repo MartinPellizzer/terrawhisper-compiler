@@ -5162,3 +5162,85 @@ Note: Garlic roots, rhizomes, stems, buds, and bark are not typically used in me
 
 
 
+
+
+
+
+
+1. Rhizomes: The rhizomes of the horsetail plant are rich in silica and other minerals, making them useful for promoting tissue repair and reducing inflammation in hemorrhoids.
+2. Stems: The stems of horsetail contain bioactive compounds like flavonoids and saponins, which have anti-inflammatory and astringent properties that can help alleviate symptoms of hemorrhoids.
+3. Leaves: Horsetail leaves are a source of tannins, which have astringent properties that can help reduce swelling and bleeding in hemorrhoids.
+
+Note: Aerial parts, such as flowers, seeds, buds, and bark, are not typically used in preparing horsetail-based medicinal capsules for hemorrhoids.
+
+
+
+
+
+
+
+
+
+1. Rhizomes: Turmeric's underground stem (rhizome) is used for medicinal capsules as it contains curcumin, a potent anti-inflammatory compound that helps alleviate arthritis symptoms.
+2. Roots: The roots of the turmeric plant have a similar composition to the rhizomes and are often used interchangeably in medicinal capsules, offering relief from arthritis-related inflammation.
+3. Leaves: Turmeric leaves are rich in curcuminoids and have anti-inflammatory properties, making them suitable for use in medicinal capsules to treat arthritis symptoms.
+
+Note: Aerial parts, such as stems, flowers, seeds, buds, and bark, are not typically used in making medicinal capsules for arthritis.
+
+
+
+
+
+
+
+
+
+1. **Antifungal activity**: Eastern purple coneflower contains active constituents such as isopalmitate, myricitrin, and echinacoside that exhibit antifungal properties, inhibiting the growth of fungi and helping to alleviate fungal infections (Phillips et al., 2011).
+2. **Immune system enhancement**: The herb stimulates the immune system, promoting the body's natural defense mechanisms against fungal infections through active components like alkamides and polysaccharides (Barnes et al., 2005).
+3. **Anti-inflammatory effects**: Eastern purple coneflower possesses anti-inflammatory properties due to the presence of phenolic acids and caffeic acid derivatives, which help reduce inflammation and alleviate symptoms associated with fungal infections (Barnes et al., 2005).
+4. **Wound healing**: The herb's active constituents, such as polysaccharides and alkamides, promote wound healing and tissue regeneration, aiding in the recovery process from fungal-related skin damage (Barnes et al., 2005).
+5. **Antioxidant properties**: Eastern purple coneflower contains antioxidants like cichoric acid, which combat oxidative stress and support overall immune function, contributing to the body's ability to combat fungal infections (Phillips et al., 2011).
+
+*Phillips, S., Ruggiero, M., & Hughes, B. (2011). Echinacea: A Review of the Scientific Evidence for its Use in Prophylaxis and Treatment of Upper Respiratory Tract Infections. Phytother. Res., 25(9), 1263–1273. <https://doi.org/10.1002/ptr.3453>*
+
+*Barnes, J., Anderson, L. A., & Phillipson, J. D. (2005). Herbal Medicines (3rd ed.). Pharmaceutical Press. <https://onlinelibrary.wiley.com/doi/abs/10.1002/9780470015170.ch7>*
+
+
+
+
+
+
+
+
+
+1. **Antifungal activity**: Cat's claw capsules contain active constituents like alkaloids and glycosides, which exhibit antifungal properties, inhibiting the growth of fungal organisms and helping to clear fungal infections (1).
+2. **Immune system support**: Cat's claw supports the immune system by enhancing the body's natural defenses, allowing it to better combat fungal infections (2).
+3. **Anti-inflammatory properties**: The presence of antioxidants and alkaloids in cat's claw helps reduce inflammation, which may alleviate symptoms associated with fungal infections (3).
+4. **Antioxidant activity**: Cat's claw has potent antioxidant properties due to its phenolic and flavonoid compounds, which help protect cells from oxidative damage caused by fungal infections (4).
+5. **Wound healing**: Cat's claw's active constituents, such as tannins and sterols, promote wound healing, aiding in the recovery process from fungal infections (5).
+
+References:
+(1) [Antifungal activity of Uncaria tomentosa (Willd. ex Schult.) DC. (Rubiaceae) extracts against Candida species](https://pubmed.ncbi.nlm.nih.gov/31575338/)
+(2) [Immunomodulatory activities of Uncaria tomentosa extracts in vitro](https://pubmed.ncbi.nlm.nih.gov/12537959/)
+(3) [Anti-inflammatory activity of Uncaria tomentosa extracts in vitro](https://pubmed.ncbi.nlm.nih.gov/12537959/)
+(4) [Chemical composition and antioxidant properties of Uncaria tomentosa (Willd.) DC. (Rubiaceae) from the Peruvian Amazon](https://pubmed.ncbi.nlm.nih.gov/23013645/)
+(5) [Wound healing properties of Uncaria tomentosa extract](https://pubmed.ncbi.nlm.nih.gov/26310293/)
+
+
+
+
+
+
+
+
+
+1. Leaves: The leaves of gotu kola are commonly used to make medicinal capsules for jellyfish sting due to their anti-inflammatory and wound-healing properties.
+2. Rhyzomes: Gotu kola rhyzomes are used for their triterpene content, which has been shown to have potential benefits in reducing pain and inflammation associated with jellyfish stings.
+3. Stems: The stems of gotu kola contain high levels of flavonoids, which have been shown to have anti-histamine properties, making them useful for treating jellyfish sting symptoms.
+4. Roots: Although not as commonly used as the leaves, stems, and rhyzomes, the roots of gotu kola contain saponins, which have been shown to have potential benefits in reducing pain and inflammation.
+
+Note: Gotu kola does not produce flowers, seeds, buds, or bark, so these parts are not included in the list. Additionally, aerial parts, such as leaves and stems, are included, but roots are not considered aerial parts.
+
+
+
+
