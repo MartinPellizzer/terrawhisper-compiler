@@ -814,7 +814,7 @@ def template_preparation(filepath_out, data):
 
     text = f'best herbal {preparation_name}'
     font_size = 24
-    font = ImageFont.truetype("assets/fonts/arial/ARIALi.TTF", font_size)
+    font = ImageFont.truetype("assets/fonts/arial/ARIALI.TTF", font_size)
     _, _, text_w, text_h = font.getbbox(text)
     draw.text(
         (img_w//2 - text_w//2, img_h//2 + gap_y//2), 

@@ -1,17 +1,25 @@
-from groq import Groq
-from ctransformers import AutoModelForCausalLM
+# from groq import Groq
+# from ctransformers import AutoModelForCausalLM
 import time
 
+from llama_cpp import Llama
 
-filepath_windows = 'C:/api/groq.txt'
-filepath_linux = '/home/leen/Documents/creds/groq_api.txt'
-with open(filepath_windows, 'r', encoding='utf-8') as f:
-    api = f.read()
-
-
-client = Groq(
-    api_key=api,
+llm = Llama(
+    model_path='/home/ubuntu/llm/Meta-Llama-3-8B-Instruct.Q8_0.gguf',
+    n_gpu_layers=-1,
+    n_ctx = 2048,
 )
+
+
+# filepath_windows = 'C:/api/groq.txt'
+# filepath_linux = '/home/leen/Documents/creds/groq_api.txt'
+# with open(filepath_windows, 'r', encoding='utf-8') as f:
+#     api = f.read()
+
+
+# client = Groq(
+#     api_key=api,
+# )
 
 
 # MODELS = [
@@ -76,19 +84,40 @@ def gen_reply_local(prompt):
     return reply
 
 
-def gen_reply(prompt):
+def gen_reply_local_gpu(prompt):
+    stream = llm.create_chat_completion(
+        messages = [{
+            'role': 'user',
+            'content': prompt,
+        }],
+        stream = True,
+        temperature = 1.0,
+    )
+    
     reply = ''
-    try: reply = gen_reply_api(prompt)
-    except: 
-        print(
-            '''
-            ********************************************************************
-            ERROR API: WAITING FOR SOME MINUTES... THEN RETRY...
-            ********************************************************************
-            '''
-        )
-        time.sleep(600)
+    for chunk in stream:
+        if 'content' in chunk['choices'][0]['delta'].keys():
+            token = chunk['choices'][0]['delta']['content']
+            reply += token
+            print(token, end='', flush=True)
+
+    return reply
+
+
+def gen_reply(prompt):
+    # reply = ''
+    # try: reply = gen_reply_api(prompt)
+    # except: 
+        # print(
+            # '''
+            # ********************************************************************
+            # ERROR API: WAITING FOR SOME MINUTES... THEN RETRY...
+            # ********************************************************************
+            # '''
+        # )
+        # time.sleep(600)
     # reply = gen_reply_local(prompt)
+    reply = gen_reply_local_gpu(prompt)
 
     return reply
 
