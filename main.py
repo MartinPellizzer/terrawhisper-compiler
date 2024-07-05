@@ -1729,34 +1729,598 @@ def remedies():
 # ;HERBS
 # #########################################################
 
+def gen_herb__intro(json_filepath, data, article_html):
+    title = data['title']
+    herb_name_common = data['herb_name_common']
+    herb_name_scientific = data['herb_name_scientific']
+    article_html += f'<h1>{title}</h1>\n'
+    '''
+    image_featured_filepath_out = f'website/images/{herb_slug}-overview.jpg'
+    image_featured_filepath_web = f'/images/{herb_slug}-overview.jpg'
+    if not os.path.exists(image_featured_filepath_out):
+    # if True:
+        util_image.template_herb(image_featured_filepath_out, data)
+    article_html += f'<p><img src="{image_featured_filepath_web}" alt=""></p>\n'
+    '''
+    key = 'intro_desc' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 intro paragraph in 5 sentences for an article about the {herb_name_common} herb.
+            Follow the STRUCTURE and the GUIDELINES below.
+            ## STRUCTURE
+            In sentence 1, explain the health properties of {herb_name_common} and how they improve health.
+            In sentence 2, explain the main culinary uses of {herb_name_common}.
+            In sentence 3, explain the main hortocultural aspects of {herb_name_common}.
+            In sentence 4, explain the botanical properties of {herb_name_common}.
+            In sentence 5, explain the main historical references of {herb_name_common}.
+            ## GUIDELINES
+            Include only the paragraph in the reply, no additional info.
+            Start the reply with the following words: {herb_name_common}, scientifically know as {herb_name_scientific}, is .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    return article_html
+
+def gen_herb__medicine(json_filepath, data, article_html):
+    herb_name_scientific = data['herb_name_scientific']
+    key = 'section_medicine_ailments' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about what common ailments {herb_name_scientific} helps heal.
+            Start the reply with the following words: {herb_name_scientific} helps healing several common ailments, such as .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What ailments {herb_name_scientific} help heal?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_medicine_properties' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about the most important medicinal properties of {herb_name_scientific}.
+            Start the reply with the following words: {herb_name_scientific} has several medicinal properties, such us .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h3>What are the medicinal properties of {herb_name_scientific}?</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_medicine_parts' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about the most important parts of {herb_name_scientific} used for medicinal purposes.
+            Start the reply with the following words: The most commonly used parts of {herb_name_scientific} for medicinal purposes are .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h3>What parts of {herb_name_scientific} are used for medicinal purposes?</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_medicine_side_effects' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about the possible side effects of improperly using {herb_name_scientific} for medicinal purposes.
+            Start the reply with the following words: When used improperly, {herb_name_scientific} increases the chances of experiencing side effects, such as .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h3>What are the side effects of {herb_name_scientific} when used improperly?</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_medicine_precautions' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about the most common precautions to take when using {herb_name_scientific} medicinally.
+            Start the reply with the following words: The precautions to take before using {herb_name_scientific} medicinally are .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h3>What precautions to take before using {herb_name_scientific} medicinally?</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    return article_html
+
+def gen_herb__horticulture(json_filepath, data, article_html):
+    herb_name_scientific = data['herb_name_scientific']
+    key = 'section_horticulture' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about what are the horticultural conditions of {herb_name_scientific}.
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the horticulture conditions of {herb_name_scientific}?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_horticulture_growth' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about what are the growth requirements of {herb_name_scientific}.
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h3>What are the growth requirements of {herb_name_scientific}?</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_horticulture_planting' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about what are the planting tips of {herb_name_scientific}.
+            
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h3>What are the planting tips of {herb_name_scientific}?</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_horticulture_caring' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about what are the caring tips of {herb_name_scientific}.
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h3>What are the planting tips of {herb_name_scientific}?</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_horticulture_harvesting' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about what are the harvesting tips of {herb_name_scientific}.
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h3>What are the harvesting tips of {herb_name_scientific}?</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_horticulture_pests_diseases' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about what are the pest and diseases of {herb_name_scientific}.
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h3>What are the pest and diseases tips of {herb_name_scientific}?</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    return article_html
+
+def gen_herb__botany(json_filepath, data, article_html):
+    herb_name_scientific = data['herb_name_scientific']
+    key = 'section_botany' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about what are the botanical characteristics of {herb_name_scientific}.
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the botanical characteristics of {herb_name_scientific}?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_botany_taxonomy' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 short paragraph of 60 to 80 words about the taxonomical classification of {herb_name_scientific}.
+            Include kingdom, phylum, class, order, family, genus and species.
+            Write only about the taxonomy. Don't include characteristics or distribution of the plant.
+            Start the reply with the following words: {herb_name_scientific} belongs to .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h3>What is the taxonomy of {herb_name_scientific}?</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_botany_variants' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            What are the variants of {herb_name_scientific}?
+            Reply in a short paragraph.
+            Start the reply with the following words: {herb_name_scientific} has variants, such as .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h3>What are the variants of {herb_name_scientific}?</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_botany_distribution' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            What is the geographic distribution of {herb_name_scientific}?
+            Reply in a short paragraph.
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h3>What is the geographic distribution of {herb_name_scientific}?</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_botany_life_cycle' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            What is the life-cycle of {herb_name_scientific}?
+            Reply in a short paragraph.
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h3>What is the life cycle of {herb_name_scientific}?</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    return article_html
+
+def gen_herb__historical(json_filepath, data, article_html):
+    herb_name_scientific = data['herb_name_scientific']
+    key = 'section_history' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 paragraph of 60 to 80 words about what are the historical uses of {herb_name_scientific}.
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the historical uses of {herb_name_scientific}?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_history_mythology' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 paragraph of 60 to 80 words about what are the mythological references of {herb_name_scientific}.
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the mythological referencec of {herb_name_scientific}?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_history_simbology' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 paragraph of 60 to 80 words about what are the symbolic meanings of {herb_name_scientific}.
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the symbolic meanings of {herb_name_scientific}?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_history_literature' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 paragraph of 60 to 80 words about what are the historical texts of {herb_name_scientific}.
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the historical texts of {herb_name_scientific}?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    key = 'section_history_artifacts' 
+    if key not in data: data[key] = ''
+    # if key in data: data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 paragraph of 60 to 80 words about what are the historical artifacts of {herb_name_scientific}.
+            Start the reply with the following words: {herb_name_scientific} .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            print('*******************************************')
+            print(reply)
+            print('*******************************************')
+            data[key] = reply[0]
+            util.json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the historical artifacts of {herb_name_scientific}?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    return article_html
+
+
 def art_herb(herb_row):
     herb_id = herb_row[herbs_auto_cols['herb_id']].strip()
     herb_slug = herb_row[herbs_auto_cols['herb_slug']].strip()
     herb_name_scientific = herb_row[herbs_auto_cols['herb_name_scientific']].strip()
     herb_name_common = csv_get_herb_common_name_by_id(herb_id)
-
     if herb_id == '': return
     if herb_slug == '': return
     if herb_name_common == '': return
     if herb_name_scientific == '': return
-
-    if DEBUG_PLANTS: print(herb_id)
-    if DEBUG_PLANTS: print(herb_slug)
-    if DEBUG_PLANTS: print(herb_name_common)
-    if DEBUG_PLANTS: print(herb_name_scientific)
-
-
+    if DEBUG_PLANTS: print(herb_id, herb_slug, herb_name_scientific, herb_name_common)
     url = f'herbs/{herb_slug}'
     json_filepath = f'database/json/{url}.json'
     html_filepath = f'website/{url}.html'
-
+    if DEBUG_PLANTS: print(json_filepath)
     if DEBUG_PLANTS: print(html_filepath)
-
-    # json
     util.create_folder_for_filepath(json_filepath)
     util.json_generate_if_not_exists(json_filepath)
     data = util.json_read(json_filepath)
-
     data['herb_id'] = herb_id
     data['herb_slug'] = herb_slug
     data['herb_name_common'] = herb_name_common
@@ -1770,548 +2334,13 @@ def art_herb(herb_row):
     util.json_write(json_filepath, data)
         
     # html
-    data = util.json_read(json_filepath)
-
     article_html = ''
+    article_html = gen_herb__intro(json_filepath, data, article_html)
+    article_html = gen_herb__medicine(json_filepath, data, article_html)
+    article_html = gen_herb__horticulture(json_filepath, data, article_html)
+    article_html = gen_herb__botany(json_filepath, data, article_html)
+    article_html = gen_herb__historical(json_filepath, data, article_html)
 
-    if 'title':
-        article_html += f'<h1>{title}</h1>\n'
-    
-    if 'image_featured':
-        image_featured_filepath_out = f'website/images/{herb_slug}-overview.jpg'
-        image_featured_filepath_web = f'/images/{herb_slug}-overview.jpg'
-        if not os.path.exists(image_featured_filepath_out):
-        # if True:
-            util_image.template_herb(image_featured_filepath_out, data)
-        article_html += f'<p><img src="{image_featured_filepath_web}" alt=""></p>\n'
-
-    if 'intro':
-        key = 'intro_desc' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            prompt = f'''
-                Write 1 intro paragraph in 5 sentences for an article about the {herb_name_common} herb.
-                In sentence 1, explain the health properties of {herb_name_common} and how they improve health.
-                In sentence 2, explain the main culinary uses of {herb_name_common}.
-                In sentence 3, explain the main hortocultural aspects of {herb_name_common}.
-                In sentence 4, explain the botanical properties of {herb_name_common}.
-                In sentence 5, explain the main historical references of {herb_name_common}.
-                Start the reply with the following words: {herb_name_common}, scientifically know as {herb_name_scientific}, is .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-    if 'medicine':
-        key = 'section_medicine_ailments' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 detailed paragraph about what common ailments {herb_name_common} ({herb_name_scientific}) helps heal.
-                Start the reply with the following words: {herb_name_common}{aka} helps healing several common ailments, such us .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h2>What ailments {herb_name_common} help heal?</h2>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_medicine_properties' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 detailed paragraph about the most important medicinal properties of {herb_name_common} ({herb_name_scientific}).
-                
-                Start the reply with the following words: {herb_name_common}{aka} has several medicinal properties, such us .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h3>What are the medicinal properties of {herb_name_common}?</h3>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_medicine_parts' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 detailed paragraph about the most important parts of {herb_name_common} ({herb_name_scientific}) used for medicinal purposes.
-                
-                Start the reply with the following words: The most commonly used parts of {herb_name_common}{aka} for medicinal purposes are .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h3>What parts of {herb_name_common} are used for medicinal purposes?</h3>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-        
-        key = 'section_medicine_side_effects' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 detailed paragraph about the possible side effects of improperly using {herb_name_common} ({herb_name_scientific}) for medicinal purposes.
-                
-                Start the reply with the following words: When used improperly, {herb_name_common}{aka} increases the chances of experiencing side effects, such as .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h3>What are the side effects of {herb_name_common} when used improperly?</h3>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_medicine_precautions' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 detailed paragraph about the most common precautions to take when using {herb_name_common} ({herb_name_scientific}) medicinally.
-                
-                Start the reply with the following words: The precautions to take before using {herb_name_common}{aka} medicinally are .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h3>What precautions to take before using {herb_name_common} medicinally?</h3>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-    
-    if 'horticulture':
-        key = 'section_horticulture' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 detailed paragraph about what are the horticultural conditions of {herb_name_common} ({herb_name_scientific}).
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h2>What are the horticulture conditions of {herb_name_common}?</h2>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_horticulture_growth' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 detailed paragraph about what are the growth requirements of {herb_name_common} ({herb_name_scientific}).
-                
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h3>What are the growth requirements of {herb_name_common}?</h3>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_horticulture_planting' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 detailed paragraph about what are the planting tips of {herb_name_common} ({herb_name_scientific}).
-                
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h3>What are the planting tips of {herb_name_common}?</h3>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_horticulture_caring' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 detailed paragraph about what are the caring tips of {herb_name_common} ({herb_name_scientific}).
-                
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h3>What are the planting tips of {herb_name_common}?</h3>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_horticulture_harvesting' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 detailed paragraph about what are the harvesting tips of {herb_name_common} ({herb_name_scientific}).
-                
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h3>What are the harvesting tips of {herb_name_common}?</h3>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_horticulture_pests_diseases' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 detailed paragraph about what are the pest and diseases of {herb_name_common} ({herb_name_scientific}).
-                
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h3>What are the pest and diseases tips of {herb_name_common}?</h3>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-    if 'botany':
-        key = 'section_botany' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 detailed paragraph about what are the botanical characteristics of {herb_name_common} ({herb_name_scientific}).
-                
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h2>What are the botanical characteristics of {herb_name_common}?</h2>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_botany_taxonomy' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 short paragraph of 60 to 80 words about the taxonomical classification of {herb_name_common} ({herb_name_scientific}).
-                Include kingdom, phylum, class, order, family, genus and species.
-                Write only about the taxonomy. Don't include characteristics or distribution of the plant.
-                Start the reply with the following words: {herb_name_common}{aka} belongs to .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h3>What is the taxonomy of {herb_name_common}?</h3>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_botany_variants' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                What are the variants of {herb_name_common} ({herb_name_scientific})?
-                Reply in a short paragraph.
-                Start the reply with the following words: {herb_name_common}{aka} has variants, such as .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h3>What are the variants of {herb_name_common}?</h3>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_botany_distribution' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                What is the geographic distribution of {herb_name_common} ({herb_name_scientific})?
-                Reply in a short paragraph.
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h3>What is the geographic distribution of {herb_name_common}?</h3>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_botany_life_cycle' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                What is the life-cycle of {herb_name_common} ({herb_name_scientific})?
-                Reply in a short paragraph.
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h3>What is the life cycle of {herb_name_common}?</h3>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-    if 'historical':
-        key = 'section_history' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 paragraph of 60 to 80 words about what are the historical uses of {herb_name_common} ({herb_name_scientific}).
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h2>What are the historical uses of {herb_name_common}?</h2>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_history_mythology' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 paragraph of 60 to 80 words about what are the mythological references of {herb_name_common} ({herb_name_scientific}).
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h2>What are the mythological referencec of {herb_name_common}?</h2>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_history_simbology' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 paragraph of 60 to 80 words about what are the symbolic meanings of {herb_name_common} ({herb_name_scientific}).
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h2>What are the symbolic meanings of {herb_name_common}?</h2>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_history_literature' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 paragraph of 60 to 80 words about what are the historical texts of {herb_name_common} ({herb_name_scientific}).
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h2>What are the historical texts of {herb_name_common}?</h2>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
-
-        key = 'section_history_artifacts' 
-        if key not in data: data[key] = ''
-        # if key in data: data[key] = ''
-        if data[key] == '':
-            aka = f', also known as {herb_name_scientific},'
-            prompt = f'''
-                Write 1 paragraph of 60 to 80 words about what are the historical artifacts of {herb_name_common} ({herb_name_scientific}).
-                Start the reply with the following words: {herb_name_common}{aka} .
-            '''
-            reply = utils_ai.gen_reply(prompt)
-            reply = reply.replace(aka, '')
-            reply, error = utils_ai.reply_to_paragraph(reply)
-            if error == '':
-                print('*******************************************')
-                print(reply)
-                print('*******************************************')
-                data[key] = reply[0]
-                util.json_write(json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-        if data[key] != '':
-            article_html += f'<h2>What are the historical artifacts of {herb_name_common}?</h2>\n'
-            article_html += f'{util.text_format_1N1_html(data[key])}\n'
 
     header_html = util.header_default_dark()
     breadcrumbs_html = util.breadcrumbs(html_filepath)
@@ -2862,12 +2891,12 @@ def art_herb_category():
 def herbs_main():
     art_herb_category()
     
-    for herb_row in herbs_auto_rows:
+    for herb_row in herbs_auto_rows[:10]:
         art_herb(herb_row)
-        art_herb_medicine(herb_row)
-        art_herb_medicine_benefits(herb_row)
+        # art_herb_medicine(herb_row)
+        # art_herb_medicine_benefits(herb_row)
 
-        quit()
+        # quit()
 
         
 
@@ -4428,14 +4457,13 @@ def main():
     # art_systems()
     # art_remedies()
 
-    if 'preparations':
-        # art_preparations('teas')
-        # art_preparations('tinctures')
-        art_preparations('decoctions')
-        # art_preparations('capsules')
+    # art_preparations('teas')
+    # art_preparations('tinctures')
+    # art_preparations('decoctions')
+    # art_preparations('capsules')
 
 
-    # herbs_main()
+    herbs_main()
 
 
     # sitemap.sitemap_all()
