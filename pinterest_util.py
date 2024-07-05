@@ -82,6 +82,7 @@ def gen_text_num(img, line_list, num):
 ###########################################################################
 
 def gen_img_template(line_list, img_list, out_filename, num=0,):
+    print('#####################################################')
     img_w, img_h = 1000, 1500
     img = Image.new(mode="RGB", size=(img_w, img_h), color='#e7e5e4')
     
@@ -131,7 +132,7 @@ def gen_img_template(line_list, img_list, out_filename, num=0,):
 
     if num != 0: gen_text_num(img, line_list, num)
     else: gen_text(img, line_list)
-
+    
     img_filepath = pin_save(img, out_filename)
     return img_filepath
     
