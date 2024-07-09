@@ -2355,3 +2355,516 @@ status_id\status_name\preparation_id\preparation_name
 164\dry eyes\22\syrups
 164\dry eyes\10\capsules
 164\dry eyes\16\tablets
+199\neuritis\0\teas
+199\neuritis\1\decoctions
+199\neuritis\2\tinctures
+199\neuritis\23\salves
+199\neuritis\11\ointments
+199\neuritis\17\balms
+199\neuritis\13\creams
+199\neuritis\25\poultices
+199\neuritis\10\capsules
+199\neuritis\16\tablets
+199\neuritis\8\lozenges
+199\neuritis\22\syrups
+199\neuritis\31\elixirs
+199\neuritis\15\glycerites
+199\neuritis\14\suppositories
+200\nerve pain\0\teas
+200\nerve pain\2\tinctures
+200\nerve pain\1\decoctions
+200\nerve pain\10\capsules
+200\nerve pain\23\salves
+200\nerve pain\13\creams
+200\nerve pain\9\gels
+200\nerve pain\11\ointments
+200\nerve pain\17\balms
+200\nerve pain\28\lotions
+200\nerve pain\14\suppositories
+200\nerve pain\31\elixirs
+200\nerve pain\22\syrups
+202\one side headache\0\teas
+202\one side headache\2\tinctures
+202\one side headache\1\decoctions
+202\one side headache\22\syrups
+202\one side headache\31\elixirs
+202\one side headache\23\salves
+202\one side headache\13\creams
+202\one side headache\9\gels
+202\one side headache\11\ointments
+202\one side headache\12\pastes
+202\one side headache\25\poultices
+202\one side headache\24\compresses
+202\one side headache\30\baths
+202\one side headache\10\capsules
+202\one side headache\16\tablets
+202\one side headache\14\suppositories
+203\migraine\0\teas
+203\migraine\1\decoctions
+203\migraine\2\tinctures
+203\migraine\23\salves
+203\migraine\13\creams
+203\migraine\37\oils
+203\migraine\10\capsules
+203\migraine\16\tablets
+203\migraine\26\powders
+203\migraine\22\syrups
+203\migraine\31\elixirs
+203\migraine\9\gels
+203\migraine\28\lotions
+203\migraine\24\compresses
+203\migraine\14\suppositories
+204\insomnia\0\teas
+204\insomnia\1\decoctions
+204\insomnia\2\tinctures
+204\insomnia\10\capsules
+204\insomnia\16\tablets
+204\insomnia\22\syrups
+204\insomnia\31\elixirs
+204\insomnia\23\salves
+204\insomnia\11\ointments
+204\insomnia\13\creams
+204\insomnia\9\gels
+208\depression\0\teas
+208\depression\2\tinctures
+208\depression\1\decoctions
+208\depression\23\salves
+208\depression\37\oils
+208\depression\31\elixirs
+208\depression\22\syrups
+208\depression\10\capsules
+208\depression\16\tablets
+208\depression\14\suppositories
+208\depression\25\poultices
+208\depression\24\compresses
+208\depression\28\lotions
+208\depression\13\creams
+208\depression\9\gels
+209\anorexia nervosa\0\teas
+209\anorexia nervosa\1\decoctions
+209\anorexia nervosa\2\tinctures
+209\anorexia nervosa\10\capsules
+209\anorexia nervosa\16\tablets
+209\anorexia nervosa\22\syrups
+209\anorexia nervosa\31\elixirs
+209\anorexia nervosa\23\salves
+209\anorexia nervosa\11\ointments
+209\anorexia nervosa\13\creams
+209\anorexia nervosa\28\lotions
+209\anorexia nervosa\17\balms
+209\anorexia nervosa\9\gels
+209\anorexia nervosa\25\poultices
+210\jet lag\0\teas
+210\jet lag\1\decoctions
+210\jet lag\2\tinctures
+210\jet lag\10\capsules
+210\jet lag\16\tablets
+210\jet lag\37\oils
+210\jet lag\23\salves
+210\jet lag\13\creams
+210\jet lag\25\poultices
+210\jet lag\24\compresses
+210\jet lag\7\gargles
+210\jet lag\14\suppositories
+211\eye pain\0\teas
+211\eye pain\1\decoctions
+211\eye pain\2\tinctures
+211\eye pain\23\salves
+211\eye pain\11\ointments
+211\eye pain\13\creams
+211\eye pain\9\gels
+211\eye pain\31\elixirs
+211\eye pain\22\syrups
+211\eye pain\25\poultices
+211\eye pain\24\compresses
+211\eye pain\10\capsules
+211\eye pain\16\tablets
+212\eye strain\0\teas
+212\eye strain\1\decoctions
+212\eye strain\2\tinctures
+212\eye strain\23\salves
+212\eye strain\11\ointments
+212\eye strain\13\creams
+212\eye strain\25\poultices
+212\eye strain\9\gels
+212\eye strain\22\syrups
+212\eye strain\10\capsules
+212\eye strain\16\tablets
+212\eye strain\14\suppositories
+212\eye strain\24\compresses
+212\eye strain\28\lotions
+213\pink eye\23\salves
+213\pink eye\11\ointments
+213\pink eye\2\tinctures
+213\pink eye\0\teas
+213\pink eye\1\decoctions
+213\pink eye\13\creams
+213\pink eye\9\gels
+213\pink eye\25\poultices
+213\pink eye\24\compresses
+213\pink eye\5\sprays
+213\pink eye\17\balms
+213\pink eye\27\liniments
+213\pink eye\22\syrups
+213\pink eye\31\elixirs
+213\pink eye\10\capsules
+215\tinnitus\0\teas
+215\tinnitus\2\tinctures
+215\tinnitus\1\decoctions
+215\tinnitus\22\syrups
+215\tinnitus\10\capsules
+215\tinnitus\26\powders
+215\tinnitus\11\ointments
+215\tinnitus\13\creams
+215\tinnitus\23\salves
+215\tinnitus\27\liniments
+215\tinnitus\25\poultices
+215\tinnitus\24\compresses
+215\tinnitus\9\gels
+215\tinnitus\18\macerations
+217\ear blockage\0\teas
+217\ear blockage\1\decoctions
+217\ear blockage\2\tinctures
+217\ear blockage\23\salves
+217\ear blockage\11\ointments
+217\ear blockage\25\poultices
+217\ear blockage\9\gels
+217\ear blockage\13\creams
+217\ear blockage\17\balms
+217\ear blockage\31\elixirs
+217\ear blockage\22\syrups
+218\motion sickness\0\teas
+218\motion sickness\2\tinctures
+218\motion sickness\10\capsules
+218\motion sickness\16\tablets
+218\motion sickness\14\suppositories
+218\motion sickness\11\ointments
+218\motion sickness\23\salves
+218\motion sickness\27\liniments
+218\motion sickness\13\creams
+218\motion sickness\9\gels
+218\motion sickness\31\elixirs
+218\motion sickness\22\syrups
+218\motion sickness\1\decoctions
+218\motion sickness\25\poultices
+219\shingles\0\teas
+219\shingles\1\decoctions
+219\shingles\2\tinctures
+219\shingles\23\salves
+219\shingles\11\ointments
+219\shingles\13\creams
+219\shingles\25\poultices
+219\shingles\24\compresses
+219\shingles\10\capsules
+219\shingles\31\elixirs
+219\shingles\22\syrups
+219\shingles\9\gels
+219\shingles\28\lotions
+219\shingles\18\macerations
+220\strep throat\0\teas
+220\strep throat\1\decoctions
+220\strep throat\2\tinctures
+220\strep throat\23\salves
+220\strep throat\22\syrups
+220\strep throat\10\capsules
+220\strep throat\16\tablets
+220\strep throat\26\powders
+220\strep throat\18\macerations
+220\strep throat\31\elixirs
+221\nausea\0\teas
+221\nausea\1\decoctions
+221\nausea\2\tinctures
+221\nausea\31\elixirs
+221\nausea\22\syrups
+221\nausea\10\capsules
+221\nausea\16\tablets
+221\nausea\26\powders
+221\nausea\37\oils
+221\nausea\23\salves
+221\nausea\13\creams
+221\nausea\11\ointments
+221\nausea\15\glycerites
+222\numbness in hands\0\teas
+222\numbness in hands\1\decoctions
+222\numbness in hands\2\tinctures
+222\numbness in hands\23\salves
+222\numbness in hands\37\oils
+222\numbness in hands\13\creams
+222\numbness in hands\9\gels
+222\numbness in hands\25\poultices
+222\numbness in hands\24\compresses
+222\numbness in hands\10\capsules
+222\numbness in hands\16\tablets
+222\numbness in hands\22\syrups
+222\numbness in hands\31\elixirs
+222\numbness in hands\27\liniments
+223\burning feet\0\teas
+223\burning feet\10\capsules
+223\burning feet\1\decoctions
+223\burning feet\2\tinctures
+223\burning feet\23\salves
+223\burning feet\37\oils
+223\burning feet\13\creams
+223\burning feet\17\balms
+223\burning feet\25\poultices
+223\burning feet\24\compresses
+223\burning feet\22\syrups
+223\burning feet\9\gels
+223\burning feet\28\lotions
+225\brain fog\0\teas
+225\brain fog\2\tinctures
+225\brain fog\1\decoctions
+225\brain fog\10\capsules
+225\brain fog\16\tablets
+225\brain fog\37\oils
+225\brain fog\23\salves
+225\brain fog\13\creams
+225\brain fog\22\syrups
+225\brain fog\31\elixirs
+225\brain fog\18\macerations
+226\fatigue\0\teas
+226\fatigue\2\tinctures
+226\fatigue\1\decoctions
+226\fatigue\22\syrups
+226\fatigue\23\salves
+226\fatigue\10\capsules
+226\fatigue\16\tablets
+226\fatigue\26\powders
+226\fatigue\18\macerations
+226\fatigue\15\glycerites
+226\fatigue\19\fluid extracts
+226\fatigue\14\suppositories
+228\ear infection\0\teas
+228\ear infection\1\decoctions
+228\ear infection\2\tinctures
+228\ear infection\23\salves
+228\ear infection\11\ointments
+228\ear infection\13\creams
+228\ear infection\25\poultices
+228\ear infection\24\compresses
+228\ear infection\10\capsules
+228\ear infection\16\tablets
+228\ear infection\22\syrups
+228\ear infection\31\elixirs
+229\earache\0\teas
+229\earache\1\decoctions
+229\earache\2\tinctures
+229\earache\23\salves
+229\earache\11\ointments
+229\earache\25\poultices
+229\earache\10\capsules
+229\earache\16\tablets
+229\earache\22\syrups
+229\earache\31\elixirs
+229\earache\9\gels
+229\earache\13\creams
+229\earache\27\liniments
+230\eye floaters\0\teas
+230\eye floaters\1\decoctions
+230\eye floaters\2\tinctures
+230\eye floaters\23\salves
+230\eye floaters\25\poultices
+230\eye floaters\11\ointments
+230\eye floaters\9\gels
+230\eye floaters\13\creams
+230\eye floaters\10\capsules
+230\eye floaters\16\tablets
+230\eye floaters\26\powders
+230\eye floaters\31\elixirs
+230\eye floaters\22\syrups
+230\eye floaters\36\hydrosols
+233\grief\0\teas
+233\grief\1\decoctions
+233\grief\2\tinctures
+233\grief\10\capsules
+233\grief\23\salves
+233\grief\17\balms
+233\grief\13\creams
+233\grief\11\ointments
+233\grief\31\elixirs
+233\grief\22\syrups
+233\grief\14\suppositories
+214\sore eyes\0\teas
+214\sore eyes\2\tinctures
+214\sore eyes\1\decoctions
+214\sore eyes\23\salves
+214\sore eyes\11\ointments
+214\sore eyes\9\gels
+214\sore eyes\13\creams
+214\sore eyes\25\poultices
+214\sore eyes\24\compresses
+214\sore eyes\10\capsules
+214\sore eyes\16\tablets
+214\sore eyes\22\syrups
+235\fever\0\teas
+235\fever\1\decoctions
+235\fever\2\tinctures
+235\fever\23\salves
+235\fever\25\poultices
+235\fever\10\capsules
+235\fever\16\tablets
+235\fever\31\elixirs
+235\fever\22\syrups
+235\fever\8\lozenges
+235\fever\15\glycerites
+238\postoperative recovery\0\teas
+238\postoperative recovery\1\decoctions
+238\postoperative recovery\2\tinctures
+238\postoperative recovery\10\capsules
+238\postoperative recovery\16\tablets
+238\postoperative recovery\25\poultices
+238\postoperative recovery\24\compresses
+238\postoperative recovery\23\salves
+238\postoperative recovery\17\balms
+238\postoperative recovery\11\ointments
+238\postoperative recovery\13\creams
+238\postoperative recovery\9\gels
+238\postoperative recovery\14\suppositories
+238\postoperative recovery\22\syrups
+238\postoperative recovery\31\elixirs
+239\vaginitis\0\teas
+239\vaginitis\1\decoctions
+239\vaginitis\2\tinctures
+239\vaginitis\10\capsules
+239\vaginitis\11\ointments
+239\vaginitis\23\salves
+239\vaginitis\13\creams
+239\vaginitis\14\suppositories
+239\vaginitis\25\poultices
+239\vaginitis\24\compresses
+239\vaginitis\9\gels
+239\vaginitis\17\balms
+239\vaginitis\28\lotions
+240\prostatitis\0\teas
+240\prostatitis\1\decoctions
+240\prostatitis\2\tinctures
+240\prostatitis\10\capsules
+240\prostatitis\16\tablets
+240\prostatitis\14\suppositories
+240\prostatitis\23\salves
+240\prostatitis\13\creams
+240\prostatitis\11\ointments
+240\prostatitis\25\poultices
+240\prostatitis\24\compresses
+240\prostatitis\15\glycerites
+240\prostatitis\22\syrups
+240\prostatitis\31\elixirs
+240\prostatitis\18\macerations
+242\fungal skin infection\0\teas
+242\fungal skin infection\1\decoctions
+242\fungal skin infection\2\tinctures
+242\fungal skin infection\23\salves
+242\fungal skin infection\11\ointments
+242\fungal skin infection\13\creams
+242\fungal skin infection\9\gels
+242\fungal skin infection\25\poultices
+242\fungal skin infection\10\capsules
+242\fungal skin infection\16\tablets
+242\fungal skin infection\22\syrups
+242\fungal skin infection\31\elixirs
+245\infection\0\teas
+245\infection\1\decoctions
+245\infection\2\tinctures
+245\infection\23\salves
+245\infection\11\ointments
+245\infection\13\creams
+245\infection\9\gels
+245\infection\25\poultices
+245\infection\24\compresses
+245\infection\10\capsules
+245\infection\16\tablets
+245\infection\31\elixirs
+245\infection\22\syrups
+245\infection\14\suppositories
+246\overactive bladder\0\teas
+246\overactive bladder\1\decoctions
+246\overactive bladder\2\tinctures
+246\overactive bladder\10\capsules
+246\overactive bladder\16\tablets
+246\overactive bladder\26\powders
+246\overactive bladder\22\syrups
+246\overactive bladder\23\salves
+246\overactive bladder\13\creams
+246\overactive bladder\11\ointments
+246\overactive bladder\9\gels
+246\overactive bladder\31\elixirs
+247\dysuria\0\teas
+247\dysuria\1\decoctions
+247\dysuria\2\tinctures
+247\dysuria\23\salves
+247\dysuria\11\ointments
+247\dysuria\22\syrups
+247\dysuria\7\gargles
+247\dysuria\3\mouthwashes
+247\dysuria\25\poultices
+247\dysuria\24\compresses
+247\dysuria\14\suppositories
+247\dysuria\13\creams
+247\dysuria\28\lotions
+247\dysuria\10\capsules
+247\dysuria\16\tablets
+247\dysuria\33\electuaries
+248\cystitis\0\teas
+248\cystitis\1\decoctions
+248\cystitis\2\tinctures
+248\cystitis\23\salves
+248\cystitis\13\creams
+248\cystitis\11\ointments
+248\cystitis\22\syrups
+248\cystitis\31\elixirs
+248\cystitis\10\capsules
+248\cystitis\16\tablets
+248\cystitis\26\powders
+248\cystitis\8\lozenges
+248\cystitis\14\suppositories
+248\cystitis\9\gels
+249\urinary calculus\0\teas
+249\urinary calculus\1\decoctions
+249\urinary calculus\2\tinctures
+249\urinary calculus\22\syrups
+249\urinary calculus\23\salves
+249\urinary calculus\11\ointments
+249\urinary calculus\13\creams
+249\urinary calculus\26\powders
+249\urinary calculus\10\capsules
+249\urinary calculus\16\tablets
+249\urinary calculus\31\elixirs
+250\hematuria\0\teas
+250\hematuria\1\decoctions
+250\hematuria\2\tinctures
+250\hematuria\22\syrups
+250\hematuria\10\capsules
+250\hematuria\16\tablets
+250\hematuria\23\salves
+250\hematuria\37\oils
+250\hematuria\13\creams
+250\hematuria\9\gels
+250\hematuria\25\poultices
+250\hematuria\24\compresses
+251\edema\0\teas
+251\edema\1\decoctions
+251\edema\2\tinctures
+251\edema\25\poultices
+251\edema\24\compresses
+251\edema\10\capsules
+251\edema\16\tablets
+251\edema\14\suppositories
+251\edema\23\salves
+251\edema\11\ointments
+251\edema\13\creams
+251\edema\28\lotions
+251\edema\22\syrups
+251\edema\15\glycerites
+254\fluid retention\0\teas
+254\fluid retention\1\decoctions
+254\fluid retention\2\tinctures
+254\fluid retention\10\capsules
+254\fluid retention\16\tablets
+254\fluid retention\31\elixirs
+254\fluid retention\22\syrups
+254\fluid retention\23\salves
+254\fluid retention\24\compresses
+254\fluid retention\13\creams
+254\fluid retention\11\ointments
+254\fluid retention\27\liniments
+254\fluid retention\25\poultices

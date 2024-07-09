@@ -58,6 +58,10 @@ status_preparations_decoctions_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATION
 status_preparations_decoctions_cols = util.csv_get_cols(status_preparations_decoctions_rows)
 status_preparations_decoctions_rows = status_preparations_decoctions_rows[1:]
 
+status_preparations_essential_oils_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_ESSENTIAL_OILS_FILEPATH)
+status_preparations_essential_oils_cols = util.csv_get_cols(status_preparations_essential_oils_rows)
+status_preparations_essential_oils_rows = status_preparations_essential_oils_rows[1:]
+
 status_preparations_capsules_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_CAPSULES_FILEPATH)
 status_preparations_capsules_cols = util.csv_get_cols(status_preparations_capsules_rows)
 status_preparations_capsules_rows = status_preparations_capsules_rows[1:]
@@ -108,7 +112,6 @@ def gen_preparations(preparation_slug):
         if status_id == '': continue
         if status_slug == '': continue
         if status_name == '': continue
-        print(f'> {status_row}')
         prompts = [
             f'''
                 Write a numbered list of the 20 best herbal {preparation_name} for {status_name}.
@@ -138,6 +141,11 @@ def gen_preparations(preparation_slug):
                 preparations_rows = util.csv_get_rows_filtered(
                     filepath, status_preparations_decoctions_cols['status_id'], status_id
                 )
+            elif preparation_slug == 'essential-oils':
+                filepath = g.CSV_STATUS_PREPARATIONS_ESSENTIAL_OILS_FILEPATH
+                preparations_rows = util.csv_get_rows_filtered(
+                    filepath, status_preparations_essential_oils_cols['status_id'], status_id
+                )
             elif preparation_slug == 'capsules':
                 filepath = g.CSV_STATUS_PREPARATIONS_CAPSULES_FILEPATH
                 preparations_rows = util.csv_get_rows_filtered(
@@ -147,6 +155,7 @@ def gen_preparations(preparation_slug):
                 print('preparation not managed')
                 quit()
             if preparations_rows == []:
+                print(f'> {status_row}')
                 print(prompts[0])
                 reply = utils_ai.gen_reply(prompt)
                 lines = []
@@ -224,11 +233,11 @@ def gen_status__herbs():
         if status_id == '': continue
         if status_slug == '': continue
         if status_name == '': continue
-        print(f'> {status_row}')
         status_herbs_rows_filtered = util.csv_get_rows_filtered(
             g.CSV_STATUS_HERBS_FILEPATH, status_herbs_cols['status_id'], status_id,
         )
         if status_herbs_rows_filtered == []:
+            print(f'> {status_row}')
             prompts = [
                 f'''
                     Write a numbered list of the 20 best herbs for {status_name}.
@@ -303,59 +312,6 @@ def gen_status__herbs():
     
         
         
-
-
-
-# def csv_gen_preparations_for_problem(problem_row):
-#     problem_id = problem_row[problems_cols['problem_id']]
-#     problem_slug = problem_row[problems_cols['problem_slug']]
-#     problem_name = problem_row[problems_cols['problem_names']].split(',')[0].strip()
-
-#     problems_preparations_rows = util.csv_get_rows_filtered(
-#         g.CSV_PROBLEMS_PREPARATIONS_FILEPATH, problems_preparations_cols['problem_id'], problem_id
-#     )
-
-#     if problems_preparations_rows == []:
-#         prompt = f'''
-#             Write a numbered list of the 15 most effective type of herbal preparations for {problem_name}.
-#             Write only the names of the types of the preparations, not the descriptions.
-#             Write only the names of the types of the preparations, not the herbs names.
-#             Example of types of preparations can be infusions and tinctures.
-#         '''
-#         reply = utils_ai.gen_reply(prompt)
-
-#         lines = []
-#         for line in reply.split('\n'):
-#             line = line.strip().lower()
-#             if line == '': continue
-#             if not line[0].isdigit(): continue
-#             if '.' not in line: continue
-#             line = '.'.join(line.split('.')[1:])
-#             line = line.strip()
-#             if line == '': continue
-            
-#             if 'tea' in line: continue
-#                 # if 'infusions' in lines:
-#                 #     continue
-
-#             preparations_rows_filtered = util.csv_get_rows_filtered(
-#                 g.CSV_PREPARATIONS_FILEPATH, preparations_cols['preparation_name'], line
-#             )
-#             if preparations_rows_filtered != []:
-#                 preparation_row = preparations_rows_filtered[0]
-#                 preparation_id = preparation_row[preparations_cols['preparation_id']]
-#             else:
-#                 preparation_id = ''
-
-#             lines.append([problem_id, problem_slug, preparation_id, line])
-
-#         if len(lines) >= 10:
-#             print('***************************************************')
-#             print(lines)
-#             print('***************************************************')
-#             util.csv_add_rows(g.CSV_PROBLEMS_PREPARATIONS_FILEPATH, lines)
-
-#         time.sleep(g.PROMPT_DELAY_TIME)
 
 
 
@@ -469,11 +425,11 @@ def gen_herbs_names_common():
         if herb_id == '': continue
         if herb_slug == '': continue
         if herb_name_scientific == '': continue
-        print(f'> {herb_row}')
         herbs_names_common_rows_filtered = util.csv_get_rows_filtered(
             g.CSV_HERBS_NAMES_COMMON_FILEPATH, herbs_names_common_cols['herb_id'], herb_id
         )
         if herbs_names_common_rows_filtered == []:
+            print(f'> {herb_row}')
             prompt = f'''
                 Write a numbered list of the common names of the herb: {herb_name_scientific}.
                 Follow the GUIDELINES below.
@@ -528,57 +484,53 @@ def get_system_by_status(status_id):
     return system_row
 
 
-def gen_system_for_status(status_row):
-    status_id = status_row[status_cols['status_id']]
-    status_slug = status_row[status_cols['status_slug']]
-    status_name = status_row[status_cols['status_names']].split(',')[0].strip()
-
-    status_systems_rows = get_system_by_status(status_id)
-
-    if status_systems_rows == []:
-        systems_names = [row[systems_cols['system_name']] for row in systems_rows]
-        systems_names_prompt = ', '.join(systems_names)
-
-        prompt = f'''
-            In which body system would you classify the following problem: {status_name}.
-            Choose only 1 body system among the followings: {systems_names_prompt}.
-            Reply in only 1 word.
-        '''
-        reply = utils_ai.gen_reply(prompt)
-
-        reply = reply.lower()
-        systems_names_1_word = [
-            row[systems_cols['system_name']].lower().replace('system', '').strip()
-            for row in systems_rows
-        ]
-        system_name = ''
-        for system_name_1_word in systems_names_1_word:
-            if system_name_1_word in reply:
-                system_name = system_name_1_word
-                break
-
-        if system_name != '':
-            system_name = f'{system_name} system'
-
-            print('***************************************************')
-            print(system_name)
-            print('***************************************************')
-
-            system_id = ''
-            for system_row in systems_rows:
-                system_id_csv = system_row[systems_cols['system_id']].lower().strip()
-                system_name_csv = system_row[systems_cols['system_name']].lower().strip()
-                if system_name == system_name_csv:
-                    system_id = system_id_csv
+def gen_system_for_status():
+    for status_row in status_rows:
+        status_exe = status_row[status_cols['status_exe']].strip().lower()
+        status_id = status_row[status_cols['status_id']].strip().lower()
+        status_slug = status_row[status_cols['status_slug']].strip().lower()
+        status_name = status_row[status_cols['status_names']].split(',')[0].strip().lower()
+        if status_exe == '': continue
+        if status_id == '': continue
+        if status_slug == '': continue
+        if status_name == '': continue
+        status_systems_rows = get_system_by_status(status_id)
+        if status_systems_rows == []:
+            print(f'> {status_row}')
+            systems_names = [row[systems_cols['system_name']] for row in systems_rows]
+            systems_names_prompt = ', '.join(systems_names)
+            prompt = f'''
+                In which body system would you classify the following problem: {status_name}.
+                Choose only 1 body system among the followings: {systems_names_prompt}.
+                Reply in only 1 word.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            reply = reply.lower()
+            systems_names_1_word = [
+                row[systems_cols['system_name']].lower().replace('system', '').strip()
+                for row in systems_rows
+            ]
+            system_name = ''
+            for system_name_1_word in systems_names_1_word:
+                if system_name_1_word in reply:
+                    system_name = system_name_1_word
                     break
-
-            util.csv_add_rows(
-                g.CSV_STATUS_SYSTEMS_FILEPATH, 
-                [[status_id, status_name, system_id, system_name]]
-            )
-
-        time.sleep(g.PROMPT_DELAY_TIME)
-
+            if system_name != '':
+                system_name = f'{system_name} system'
+                print('***************************************************')
+                print(system_name)
+                print('***************************************************')
+                system_id = ''
+                for system_row in systems_rows:
+                    system_id_csv = system_row[systems_cols['system_id']].lower().strip()
+                    system_name_csv = system_row[systems_cols['system_name']].lower().strip()
+                    if system_name == system_name_csv:
+                        system_id = system_id_csv
+                        break
+                util.csv_add_rows(
+                    g.CSV_STATUS_SYSTEMS_FILEPATH, 
+                    [[status_id, status_name, system_id, system_name]]
+                )
 
 def gen_status__preparations():
     for status_row in status_rows:
@@ -590,11 +542,11 @@ def gen_status__preparations():
         if status_id == '': continue
         if status_slug == '': continue
         if status_name == '': continue
-        print(f'> {status_row}')
         rows_filtered = util.csv_get_rows_filtered(
             g.CSV_STATUS_PREPARATIONS_FILEPATH, status_preparations_cols['status_id'], status_id
         )
         if rows_filtered == []:
+            print(f'> {status_row}')
             prompt = f'''
                 Write a numbered list of the 20 most effective type of herbal preparations for {status_name}.
                 ## GUIDELINES
@@ -631,28 +583,50 @@ def gen_status__preparations():
 
 
 
+def redirect_old_plants():
+    plants_primary_rows = util.csv_get_rows('database/tables/plants.csv')
+    plants_secondary_rows = util.csv_get_rows('database/tables/plants-secondary.csv')
+    plants_rows = []
+    for plant_row in plants_primary_rows:
+        plants_rows.append(plant_row)
+    for plant_row in plants_secondary_rows:
+        plants_rows.append(plant_row)
+    for plant_row in plants_rows[1:]:
+        plant_name_scientific = plant_row[0].capitalize()      
+        plant_slug = plant_name_scientific.strip().lower().replace(' ', '-')
+        '''
+        found = False
+        for trefle_row in trefle_rows:
+            trefle_name_scientific = trefle_row[trefle_cols['herb_name_scientific']]
+            if plant_name_scientific.lower().strip() == trefle_name_scientific.lower().strip():
+                found = True
+        '''
+        found = False
+        for herb_auto_row in herbs_auto_rows:
+            herb_name_scientific = herb_auto_row[herbs_auto_cols['herb_name_scientific']]
+            if plant_name_scientific.lower().strip() == herb_name_scientific.lower().strip():
+                found = True
+                print(herb_auto_row)
+                break
+        if found:
+            print(f'- {plant_name_scientific}')
+        else:
+            herb_auto_id = herbs_auto_id_next()
+            util.csv_add_rows(
+                g.CSV_HERBS_AUTO_FILEPATH, 
+                [[herb_auto_id, plant_slug, plant_name_scientific]]
+            )
+            print(f'X {plant_name_scientific}')
+
 
 
 ##################################################
 # EXE
 ##################################################
 
-def gen_csvs():
-    for status_row in status_rows:
-        status_exe = status_row[status_cols['status_exe']].strip().lower()
-        status_id = status_row[status_cols['status_id']].strip().lower()
-        status_slug = status_row[status_cols['status_slug']].strip().lower()
-        status_name = status_row[status_cols['status_names']].split(',')[0].strip().lower()
+# redirect_old_plants() ## TODO: did one time, don't do it again
 
-        if status_exe == '': continue
-        if status_id == '': continue
-        if status_slug == '': continue
-        if status_name == '': continue
-
-        print(f'> {status_row}')
-
-        gen_system_for_status(status_row)
-
+gen_system_for_status()
 
 gen_status__herbs()
 gen_status__preparations()
@@ -663,6 +637,7 @@ gen_status__preparations()
 gen_preparations('teas')
 gen_preparations('decoctions')
 gen_preparations('tinctures')
+gen_preparations(preparation_slug='essential-oils')
 gen_preparations('capsules')
 
 gen_herbs_names_common()

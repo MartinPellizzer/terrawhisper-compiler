@@ -181,3 +181,42 @@ status_id\status_name\system_id\system_name
 192\nipple pain during breastfeeding\8\reproductive system
 193\jock itch\4\integumentary system
 194\oily skin\4\integumentary system
+199\neuritis\5\nervous system
+200\nerve pain\5\nervous system
+202\one side headache\5\nervous system
+203\migraine\5\nervous system
+204\insomnia\5\nervous system
+208\depression\5\nervous system
+209\anorexia nervosa\9\endocrine system
+210\jet lag\5\nervous system
+211\eye pain\5\nervous system
+212\eye strain\5\nervous system
+213\pink eye\6\immune system
+214\sore eyes\5\nervous system
+215\tinnitus\5\nervous system
+217\ear blockage\1\respiratory system
+218\motion sickness\5\nervous system
+219\shingles\4\integumentary system
+220\strep throat\6\immune system
+221\nausea\0\digestive system
+222\numbness in hands\5\nervous system
+223\burning feet\4\integumentary system
+225\brain fog\5\nervous system
+226\fatigue\5\nervous system
+228\ear infection\5\nervous system
+229\earache\5\nervous system
+230\eye floaters\5\nervous system
+233\grief\5\nervous system
+235\fever\6\immune system
+238\postoperative recovery\5\nervous system
+239\vaginitis\8\reproductive system
+240\prostatitis\7\urinary system
+242\fungal skin infection\4\integumentary system
+245\infection\6\immune system
+246\overactive bladder\7\urinary system
+247\dysuria\7\urinary system
+248\cystitis\7\urinary system
+249\urinary calculus\7\urinary system
+250\hematuria\7\urinary system
+251\edema\13\lymphatic system
+254\fluid retention\7\urinary system

@@ -190,7 +190,8 @@ def text_format_1N1_html(text):
         paragraphs.append('. '.join(lines[1:-1]))
     paragraphs.append(lines[-1])
     for paragraph in paragraphs:
-        text_formatted += f'<p>{paragraph}.</p>' + '\n'
+        if paragraph.strip() != '':
+            text_formatted += f'<p>{paragraph}.</p>' + '\n'
     text_formatted = text_formatted.replace('..', '.')
     return text_formatted
 

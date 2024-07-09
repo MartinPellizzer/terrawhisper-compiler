@@ -16,6 +16,7 @@ import data_csv
 
 
 images_folder = 'C:/terrawhisper-assets/images/'
+vault_folderpath = '/home/ubuntu/vault'
 
 
 c_dark = '#030712'
@@ -80,6 +81,14 @@ status_preparations_teas_rows = status_preparations_teas_rows[1:]
 status_preparations_tinctures_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_TINCTURES_FILEPATH)
 status_preparations_tinctures_cols = util.csv_get_cols(status_preparations_tinctures_rows)
 status_preparations_tinctures_rows = status_preparations_tinctures_rows[1:]
+
+status_preparations_decoctions_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_DECOCTIONS_FILEPATH)
+status_preparations_decoctions_cols = util.csv_get_cols(status_preparations_decoctions_rows)
+status_preparations_decoctions_rows = status_preparations_decoctions_rows[1:]
+
+status_preparations_essential_oils_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_ESSENTIAL_OILS_FILEPATH)
+status_preparations_essential_oils_cols = util.csv_get_cols(status_preparations_essential_oils_rows)
+status_preparations_essential_oils_rows = status_preparations_essential_oils_rows[1:]
 
 status_preparations_capsules_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_CAPSULES_FILEPATH)
 status_preparations_capsules_cols = util.csv_get_cols(status_preparations_capsules_rows)
@@ -190,7 +199,11 @@ def get_herbs_names_common_by_status(status_id, preparation_slug):
         )
     elif preparation_slug == 'decoctions':
         status_remedies_rows_filtered = util.csv_get_rows_filtered(
-            g.CSV_STATUS_PREPARATIONS_TINCTURES_FILEPATH, status_preparations_tinctures_cols['status_id'], status_id,
+            g.CSV_STATUS_PREPARATIONS_DECOCTIONS_FILEPATH, status_preparations_decoctions_cols['status_id'], status_id,
+        )
+    elif preparation_slug == 'essential-oils':
+        status_remedies_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_STATUS_PREPARATIONS_ESSENTIAL_OILS_FILEPATH, status_preparations_essential_oils_cols['status_id'], status_id,
         )
     elif preparation_slug == 'capsules':
         status_remedies_rows_filtered = util.csv_get_rows_filtered(
@@ -885,6 +898,7 @@ def art_preparations(preparation_slug):
             # if key in data: del data[key]
             if key not in data: data[key] = []
             herbs_rows_filtered = get_herbs_names_common_by_status(status_id, preparation_slug)
+            print(herbs_rows_filtered)
             for herb_row in herbs_rows_filtered:
                 herb_id = herb_row[herbs_cols['herb_id']].strip()
                 herb_slug = herb_row[herbs_cols['herb_slug']].strip()
@@ -911,16 +925,33 @@ def art_preparations(preparation_slug):
             for i, obj in enumerate(data[key][:teas_num]):
                 # print(f'### {status_index}')
                 herb_name_common = obj["herb_name_common"].strip().lower()
-                remedy_name_scientific = obj["herb_name_common"].strip().lower()
+                herb_slug = obj["herb_slug"].strip().lower()
                 if preparation_name == 'teas': 
                     remedy_name_common = f'{herb_name_common} tea'.replace(' tea tea', ' tea')
                 elif preparation_name == 'tinctures': remedy_name_common = f'{herb_name_common} tincture'
                 elif preparation_name == 'decoctions': remedy_name_common = f'{herb_name_common} decoction'
+                elif preparation_name == 'essential oils': remedy_name_common = f'{herb_name_common} essential oil'
                 elif preparation_name == 'capsules': remedy_name_common = f'{herb_name_common} capsule'
                 else: remedy_name_common = f'{herb_name_common} {preparation_name_singular}'
 
                 article_html = gen_preparation__remedy_desc(json_filepath, data, obj, article_html, i)
 
+                # img
+                images_folderpath_in = f'{vault_folderpath}/images/{preparation_slug}/{herb_slug}'
+                if os.path.exists(images_folderpath_in):
+                    images_folderpath_out = f'website/images'
+                    image_slug = f'herbal-{preparation_slug}-for-{status_slug}-{herb_slug}'
+                    image_alt = f'herbal {preparation_name} for {status_name} {herb_name_scientific}'.lower()
+                    image_filepath_out = f'{images_folderpath_out}/{image_slug}.jpg'
+                    image_filepath_web = f'/images/{image_slug}.jpg'
+                    if not os.path.exists(image_filepath_out):
+                            random_image_filename = random.choice(os.listdir(images_folderpath_in))
+                            img = Image.open(f'{images_folderpath_in}/{random_image_filename}')
+                            img = util.img_resize(img, w=768, h=768)
+                            img.save(image_filepath_out, optimize=True, qulity=70)
+                            article_html += f'<p><img src="{image_filepath_web}" alt="{image_alt} herbs"></p>'
+                    
+                '''
                 if not 'remedy_image':
                     if 'remedy_properties' in obj and 'remedy_parts' in obj:
                         image_filepath_out = f'website/images/herbal-{preparation_name}-for-{status_slug}-{remedy_name_common}.jpg'
@@ -931,6 +962,7 @@ def art_preparations(preparation_slug):
                             except: pass
                             # util_image.image_template_herbs(image_filepath_out, data)
                         article_html += f'<p><img src="{image_filepath_web}" alt="{status_slug} herbs"></p>'
+                '''
 
                 article_html = gen_preparation_remedy_properties(json_filepath, data, obj, article_html)
                 article_html = gen_preparation_remedy_parts(json_filepath, data, obj, remedy_name_common, article_html)
@@ -1390,6 +1422,10 @@ def remedies_systems_problems():
                         chunk_1 = f'<strong><a href="/remedies/{system_slug}/{problem_slug}/teas.html">{chunk_1}</a></strong>'
                     elif chunk_1.lower().strip() == 'tinctures':
                         chunk_1 = f'<strong><a href="/remedies/{system_slug}/{problem_slug}/tinctures.html">{chunk_1}</a></strong>'
+                    elif chunk_1.lower().strip() == 'decoctions':
+                        chunk_1 = f'<strong><a href="/remedies/{system_slug}/{problem_slug}/decoctions.html">{chunk_1}</a></strong>'
+                    elif chunk_1.lower().strip() == 'essential oils':
+                        chunk_1 = f'<strong><a href="/remedies/{system_slug}/{problem_slug}/essential-oils.html">{chunk_1}</a></strong>'
                     elif chunk_1.lower().strip() == 'capsules':
                         chunk_1 = f'<strong><a href="/remedies/{system_slug}/{problem_slug}/capsules.html">{chunk_1}</a></strong>'
                     else:
@@ -2339,7 +2375,7 @@ def art_herb(herb_row):
     lastmod = util.date_now()
     if 'lastmod' not in data: data['lastmod'] = lastmod
     else: lastmod = data['lastmod'] 
-    title = f'What to know about {herb_name_common} before using it medicinally'
+    title = f'What to know about {herb_name_scientific} ({herb_name_common}) before using it medicinally'
     data['title'] = title
     util.json_write(json_filepath, data)
     article_html = ''
@@ -2403,6 +2439,44 @@ def art_herb(herb_row):
             </html>
             '''
             util.file_write(old_plant_filepath, html)
+
+def gen_herb_medicine__intro(json_filepath, data, article_html):
+    title = data['title']
+    herb_name_common = data['herb_name_common']
+    herb_name_scientific = data['herb_name_scientific']
+    key = 'intro'
+    if key not in data:
+        aka = f', also known as {herb_name_common},'
+        prompt = f'''
+            Write 1 paragraph of 60 to 80 words about the medicinal aspects of {herb_name_scientific} ({herb_name_common}).
+            Follow the GUIDELINES below.
+            ## GUIDELINES
+            In sentence 1, write about the benefits of this herb.
+            In sentence 2, write about the medicinal constituents of this herb.
+            In sentence 3, write about the medicinal preparations of this herb.
+            In sentence 4, write about the possible side effects of this herb.
+            In sentence 4, write about the precautions to take when using this herb.
+            Start the reply with the following words: {herb_name_scientific}{aka} has health benefits such as .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        reply = reply.replace(aka, '')
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            reply = lines[0]
+            print('********************************')
+            print(reply)
+            print('********************************')
+            data[key] = reply
+            util.json_write(json_filepath, data)
+    if key in data:
+        article_html += f'<h1>{title.title()}</h1>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    return article_html
 
 def gen_herb_medicine__benefits(json_filepath, data, article_html):
     herb_name_common = data['herb_name_common']
@@ -2584,14 +2658,12 @@ def art_herb_medicine(herb_row):
     data['title'] = title
     util.json_write(json_filepath, data)
     article_html = ''
-    # TODO: missing intro paragraph
-    if 'title':
-        article_html += f'<h1>{title}</h1>\n'
-    article_html += gen_herb_medicine__benefits(json_filepath, data, article_html)
-    article_html += gen_herb_medicine__constituents(json_filepath, data, article_html)
-    article_html += gen_herb_medicine__preparations(json_filepath, data, article_html)
-    article_html += gen_herb_medicine__side_effects(json_filepath, data, article_html)
-    article_html += gen_herb_medicine__precautions(json_filepath, data, article_html)
+    article_html = gen_herb_medicine__intro(json_filepath, data, article_html)
+    article_html = gen_herb_medicine__benefits(json_filepath, data, article_html)
+    article_html = gen_herb_medicine__constituents(json_filepath, data, article_html)
+    article_html = gen_herb_medicine__preparations(json_filepath, data, article_html)
+    article_html = gen_herb_medicine__side_effects(json_filepath, data, article_html)
+    article_html = gen_herb_medicine__precautions(json_filepath, data, article_html)
     header_html = util.header_default_dark()
     breadcrumbs_html = util.breadcrumbs(html_filepath)
     meta_html = util.article_meta(article_html, lastmod)
@@ -2645,27 +2717,92 @@ def art_herb_medicine(herb_row):
             '''
             util.file_write(old_plant_filepath, html)
 
+
+def gen_herb_medicine_benefits__intro(json_filepath, data, article_html):
+    title = data['title']
+    herb_name_common = data['herb_name_common']
+    herb_name_scientific = data['herb_name_scientific']
+    key = 'intro'
+    if key not in data:
+        aka = f', also known as {herb_name_common},'
+        prompt = f'''
+            Write 1 paragraph of 60 to 80 words about the medicinal benefits of {herb_name_scientific} ({herb_name_common}).
+            Follow the GUIDELINES below.
+            ## GUIDELINES
+            Include the benefits of this plant.
+            Include what are the medicinal properties this plant has that give these benefits.
+            Include examples on how this benefits can improve people lives.
+            Start the reply with the following words: {herb_name_scientific}{aka} has health benefits such as .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        reply = reply.replace(aka, '')
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            reply = lines[0]
+            print('********************************')
+            print(reply)
+            print('********************************')
+            data[key] = reply
+            util.json_write(json_filepath, data)
+    if key in data:
+        article_html += f'<h1>{title.title()}</h1>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+    return article_html
+
+def gen_herb_medicine_benefits__benefit_desc(json_filepath, data, obj, article_html, i):
+    herb_name_common = data['herb_name_common']
+    herb_name_scientific = data['herb_name_scientific']
+    benefit_name = obj['benefit_name']
+    key = 'benefit_desc'
+    # if key in obj: del obj[key]
+    if key not in obj:
+        aka = f', also known as {herb_name_common},'
+        prompt = f'''
+            Write 1 paragraph of 60 to 80 words on why {herb_name_scientific} ({herb_name_common}) {benefit_name}.
+            Start the reply with the following words: {herb_name_scientific}{aka} {benefit_name} because .
+        '''
+        reply = utils_ai.gen_reply(prompt)
+        reply = reply.replace(aka, '')
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            reply = lines[0]
+            print('********************************')
+            print(reply)
+            print('********************************')
+            obj[key] = reply
+            util.json_write(json_filepath, data)
+    if key in obj:
+        article_html += f'<h2>{i+1}. {benefit_name.capitalize()}</h2>\n'
+        article_html += f'<p>{util.text_format_1N1_html(obj[key])}</p>\n'
+    return article_html
+
 def art_herb_medicine_benefits(herb_row):
     herb_id = herb_row[herbs_auto_cols['herb_id']].strip()
     herb_slug = herb_row[herbs_auto_cols['herb_slug']].strip()
     herb_name_scientific = herb_row[herbs_auto_cols['herb_name_scientific']].strip()
     herb_name_common = csv_get_herb_common_name_by_id(herb_id)
-
     if herb_id == '': return
     if herb_slug == '': return
     if herb_name_common == '': return
     if herb_name_scientific == '': return
-
     if DEBUG_PLANTS_MEDICINE_BENEFITS: print(herb_id)
     if DEBUG_PLANTS_MEDICINE_BENEFITS: print(herb_slug)
     if DEBUG_PLANTS_MEDICINE_BENEFITS: print(herb_name_common)
     if DEBUG_PLANTS_MEDICINE_BENEFITS: print(herb_name_scientific)
-
     url = f'herbs/{herb_slug}/medicine/benefits'
     json_filepath = f'database/json/{url}.json'
     html_filepath = f'website/{url}.html'
     if DEBUG_PLANTS_MEDICINE_BENEFITS: print(html_filepath)
-
     util.create_folder_for_filepath(json_filepath)
     util.json_generate_if_not_exists(json_filepath)
     data = util.json_read(json_filepath)
@@ -2677,18 +2814,15 @@ def art_herb_medicine_benefits(herb_row):
     lastmod = util.date_now()
     if 'lastmod' not in data: data['lastmod'] = lastmod
     else: lastmod = data['lastmod'] 
-    title = f'10 health benefits of {herb_name_common}'
+    title = f'10 health benefits of {herb_name_scientific} ({herb_name_common})'
     data['title'] = title
     util.json_write(json_filepath, data)
-
     article_html = ''
-
-    if 'title':
-        article_html += f'<h1>{title.title()}</h1>\n'
+    article_html = gen_herb_medicine_benefits__intro(json_filepath, data, article_html)
 
     if 'benefits':
         key = 'benefits_list'
-        # if key in data: data[key] = [] # TODO: remove
+        # if key in data: data[key] = []
         if key not in data: data[key] = []
         herbs_benefits_rows_filtered = util.csv_get_rows_filtered(
             g.CSV_HERBS_BENEFITS_FILEPATH, herbs_benefits_cols['herb_id'], herb_id
@@ -2716,30 +2850,8 @@ def art_herb_medicine_benefits(herb_row):
             obj_herb_name_scientific = obj["herb_name_scientific"].strip()
             obj_benefit_name = obj["benefit_name"].strip()
 
-            key = 'benefit_desc'
-            # if key in obj: del obj[key]
-            if key not in obj:
-                aka = f', also known as {herb_name_scientific},'
-                prompt = f'''
-                    Write 1 paragraph of 60 to 80 words on why {obj_herb_name_common} ({obj_herb_name_scientific}) {obj_benefit_name}.
-                    Start the reply with the following words: {obj_herb_name_common}{aka} {obj_benefit_name} because .
-                '''
-                reply = utils_ai.gen_reply(prompt)
-                reply = reply.replace(aka, '')
-                reply, error = utils_ai.reply_to_paragraph(reply)
-                if error == '':
-                    print('********************************')
-                    print(reply)
-                    print('********************************')
-                    obj[key] = reply
-                    util.json_write(json_filepath, data)
-                else:
-                    print(f'ERROR: {error}')
-                    util.file_append('LOG.md', f'\n\n\n\n\n{reply}\n\n\n\n\n')
-                time.sleep(g.PROMPT_DELAY_TIME)
-            if key in obj:
-                article_html += f'<h2>{i+1}. {obj_benefit_name.capitalize()}</h2>\n'
-                article_html += f'<p>{util.text_format_1N1_html(obj[key])}</p>\n'
+            article_html = gen_herb_medicine_benefits__benefit_desc(json_filepath, data, obj, article_html, i)
+
 
     header_html = util.header_default_dark()
     breadcrumbs_html = util.breadcrumbs(html_filepath)
@@ -2884,10 +2996,17 @@ def art_herb_category():
 
 
 def main_herbs():
-    for herb_row in herbs_auto_rows[:100]:
-        # art_herb(herb_row)
+    for i, herb_row in enumerate(herbs_auto_rows):
+        print()
+        print('***********************')
+        print('***********************')
+        print(f'{i}/{len(herbs_auto_rows)} - {herb_row}')
+        print('***********************')
+        print('***********************')
+        print()
+        art_herb(herb_row)
         art_herb_medicine(herb_row)
-        # art_herb_medicine_benefits(herb_row)
+        art_herb_medicine_benefits(herb_row)
 
         # quit()
 
@@ -3536,6 +3655,10 @@ def gen_status__preparations(json_filepath, data, article_html):
                 chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/teas.html">{chunk_1}</a></strong>'
             elif chunk_1.lower().strip() == 'tinctures':
                 chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/tinctures.html">{chunk_1}</a></strong>'
+            elif chunk_1.lower().strip() == 'decoctions':
+                chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/decoctions.html">{chunk_1}</a></strong>'
+            elif chunk_1.lower().strip() == 'essential oils':
+                chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/essential-oils.html">{chunk_1}</a></strong>'
             elif chunk_1.lower().strip() == 'capsules':
                 chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/capsules.html">{chunk_1}</a></strong>'
             else:
@@ -4133,6 +4256,10 @@ def remedies_systems_problems_new():
                         chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/teas.html">{chunk_1}</a></strong>'
                     elif chunk_1.lower().strip() == 'tinctures':
                         chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/tinctures.html">{chunk_1}</a></strong>'
+                    elif chunk_1.lower().strip() == 'decoctions':
+                        chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/decoctions.html">{chunk_1}</a></strong>'
+                    elif chunk_1.lower().strip() == 'essential oils':
+                        chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/essential-oils.html">{chunk_1}</a></strong>'
                     elif chunk_1.lower().strip() == 'capsules':
                         chunk_1 = f'<strong><a href="/remedies/{system_slug}/{status_slug}/capsules.html">{chunk_1}</a></strong>'
                     else:
@@ -4452,10 +4579,11 @@ def main():
     # art_systems()
     # art_remedies()
 
-    # art_preparations('teas')
-    # art_preparations('tinctures')
-    # art_preparations('decoctions')
-    # art_preparations('capsules')
+    art_preparations('teas')
+    art_preparations('tinctures')
+    art_preparations('decoctions')
+    art_preparations('essential-oils')
+    art_preparations('capsules')
 
 
     main_herbs()

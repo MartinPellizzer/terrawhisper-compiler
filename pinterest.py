@@ -288,18 +288,154 @@ def gen_img_template(line_list, img_list, out_filename, num=0,):
     text_h = font.getbbox(text)[3]
     draw.text((img_w//2 - text_w//2, img_h//2 - 80), text, '#000000', font=font)
 
+    text = line_list[1]
     font_size = 96
+    if len(text) < 20: 
+        font_size = 96
+        text_y = img_h//2 - 30
+    elif len(text) < 30: 
+        font_size = 64
+        text_y = img_h//2 - 20
+    elif len(text) < 40: 
+        font_size = 48
+        text_y = img_h//2 - 10
+    else: 
+        font_size = 32
+        text_y = img_h//2 - 0 
     font_family, font_weight = 'Lato', 'Bold'
     font_path = f"assets/fonts/{font_family}/{font_family}-{font_weight}.ttf"
     font = ImageFont.truetype(font_path, font_size)
-    text = line_list[1]
     text_w = font.getbbox(text)[2]
     text_h = font.getbbox(text)[3]
-    draw.text((img_w//2 - text_w//2, img_h//2 - 30), text, '#000000', font=font)
+    draw.text((img_w//2 - text_w//2, text_y), text, '#000000', font=font)
     
     img_filepath = pin_save(img, out_filename)
     return img_filepath
     
+    
+# START PINNING TICTURES
+i = 0
+for article_filepath in tinctures_articles_filepath:
+    i += 1
+    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
+    data = util.json_read(article_filepath)
+
+    remedy_num = data['remedies_num']
+    title = data['title']
+    problem_name = data['status_name']
+    preparation = 'tinctures'
+    url = data['url']
+    remedies = data['remedies_list']
+    filename_out = url.replace('/', '-')
+
+    remedies_descriptions = []
+    for remedy in remedies:
+        try: remedies_descriptions.append(remedy['tincture_desc'])
+        except: pass
+
+    # GET ALL IMAGE IN IMAGES/TEA FOLDER
+    images_folder = f'{start_folder}/tinctures'
+    img_teas_folders = os.listdir(images_folder)
+    img_teas_filepaths = []
+    for folder in img_teas_folders:
+        img_filepaths = os.listdir(f'{images_folder}/{folder}')
+        for img_filepath in img_filepaths:
+            img_teas_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
+
+    # GENERATE PIN WITH RANDOM IMAGES
+    random.shuffle(img_teas_filepaths)
+    images = img_teas_filepaths
+    line_1 = f'best herbal tinctures for'.title()
+    line_2 = f'{problem_name}'.title()
+    line_list = [line_1, line_2]
+    img_filepath = gen_img_template(
+        line_list,
+        images,
+        filename_out,
+        remedy_num,
+    )
+
+    '''
+    img_filepath = pinterest_util.gen_img_template_0001(
+        line_list,
+        images,
+        filename_out,
+        remedy_num,
+    )
+    '''
+
+    # GET RANDOM DESCRIPTION
+    if remedies_descriptions:
+        random.shuffle(remedies_descriptions)
+        description = remedies_descriptions[0][:490] + '...'
+    else:
+        description = ''
+
+    # LOG
+    print(article_filepath)
+    print(remedy_num)
+    print(title)
+    print(problem_name)
+    print(preparation)
+    print(url)
+    print(filename_out)
+    print(description)
+    print(images[:4])
+    print()
+
+    url = f'https://terrawhisper.com/{url}.html'
+    title = f'{title.title()}'
+    # title = f'{remedy_num} {title.title()}'
+    board_name = 'Herbal Tinctures'
+
+    driver.get("https://www.pinterest.com/pin-creation-tool/")
+    time.sleep(10)
+
+    e = driver.find_element(By.XPATH, '//input[@id="storyboard-upload-input"]')
+    # img_filepath_formatted = img_filepath.replace("/", "\\")
+    img_filepath_formatted = img_filepath
+    e.send_keys(f'{proj_filepath_abs}/{img_filepath_formatted}') 
+    time.sleep(10)
+
+    e = driver.find_element(By.XPATH, '//input[@id="storyboard-selector-title"]')
+    e.send_keys(title)
+    time.sleep(5) 
+
+    e = driver.find_element(By.XPATH, "//div[@class='notranslate public-DraftEditor-content']")
+    for c in description:
+        e.send_keys(c)
+    time.sleep(5)
+
+    e = driver.find_element(By.XPATH, '//input[@id="WebsiteField"]')
+    e.send_keys(url) 
+    time.sleep(5)
+
+    e = driver.find_element(By.XPATH, '//button[@data-test-id="board-dropdown-select-button"]')
+    e.click()
+    time.sleep(5)
+
+    e = driver.find_element(By.XPATH, '//input[@id="pickerSearchField"]')
+    e.send_keys(board_name) 
+    time.sleep(5)
+
+    e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-{board_name}"]')
+    e.click()
+    time.sleep(5)
+
+    e = driver.find_element(By.XPATH, '//div[@data-test-id="storyboard-creation-nav-done"]/..')
+    e.click()
+
+    time.sleep(60)
+
+    # driver.get("https://www.google.com/")
+
+    # break
+
+    
+    random_time_to_wait = random.randint(-60, 60)
+    time_to_wait = WAIT_SECONDS + random_time_to_wait
+    time.sleep(time_to_wait)
+
 
 # START PINNING TEAS
 i = 0
@@ -429,127 +565,6 @@ for article_filepath in teas_articles_filepath:
     time_to_wait = WAIT_SECONDS + random_time_to_wait
     time.sleep(time_to_wait)
 
-
-    
-# START PINNING TICTURES
-i = 0
-for article_filepath in tinctures_articles_filepath:
-    i += 1
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
-    data = util.json_read(article_filepath)
-
-    remedy_num = data['remedies_num']
-    title = data['title']
-    problem_name = data['status_name']
-    preparation = 'tinctures'
-    url = data['url']
-    remedies = data['remedies_list']
-    filename_out = url.replace('/', '-')
-
-    remedies_descriptions = []
-    for remedy in remedies:
-        try: remedies_descriptions.append(remedy['tincture_desc'])
-        except: pass
-
-    # GET ALL IMAGE IN IMAGES/TEA FOLDER
-    images_folder = f'{start_folder}/tinctures'
-    img_teas_folders = os.listdir(images_folder)
-    img_teas_filepaths = []
-    for folder in img_teas_folders:
-        img_filepaths = os.listdir(f'{images_folder}/{folder}')
-        for img_filepath in img_filepaths:
-            img_teas_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
-
-    # GENERATE PIN WITH RANDOM IMAGES
-    random.shuffle(img_teas_filepaths)
-    images = img_teas_filepaths
-    line_1 = f'best herbal tinctures for'.title()
-    line_2 = f'{problem_name}'.title()
-    line_list = [line_1, line_2]
-    # img_filepath = pinterest_util.gen_img_template(
-    #     line_list,
-    #     images,
-    #     filename_out,
-    #     remedy_num,
-    # )
-
-    img_filepath = pinterest_util.gen_img_template_0001(
-        line_list,
-        images,
-        filename_out,
-        remedy_num,
-    )
-
-    # GET RANDOM DESCRIPTION
-    if remedies_descriptions:
-        random.shuffle(remedies_descriptions)
-        description = remedies_descriptions[0][:490] + '...'
-    else:
-        description = ''
-
-    # LOG
-    print(article_filepath)
-    print(remedy_num)
-    print(title)
-    print(problem_name)
-    print(preparation)
-    print(url)
-    print(filename_out)
-    print(description)
-    print(images[:4])
-    print()
-
-    url = f'https://terrawhisper.com/{url}.html'
-    title = f'{title.title()}'
-    # title = f'{remedy_num} {title.title()}'
-    board_name = 'Herbal Tinctures'
-
-    driver.get("https://www.pinterest.com/pin-creation-tool/")
-    time.sleep(10)
-
-    e = driver.find_element(By.XPATH, '//input[@id="storyboard-upload-input"]')
-    img_filepath_formatted = img_filepath.replace("/", "\\")
-    e.send_keys(f'C:\\terrawhisper-compiler\\{img_filepath_formatted}') 
-    time.sleep(10)
-
-    e = driver.find_element(By.XPATH, '//input[@id="storyboard-selector-title"]')
-    e.send_keys(title)
-    time.sleep(5) 
-
-    e = driver.find_element(By.XPATH, "//div[@class='notranslate public-DraftEditor-content']")
-    for c in description:
-        e.send_keys(c)
-    time.sleep(5)
-
-    e = driver.find_element(By.XPATH, '//input[@id="WebsiteField"]')
-    e.send_keys(url) 
-    time.sleep(5)
-
-    e = driver.find_element(By.XPATH, '//button[@data-test-id="board-dropdown-select-button"]')
-    e.click()
-    time.sleep(5)
-
-    e = driver.find_element(By.XPATH, '//input[@id="pickerSearchField"]')
-    e.send_keys(board_name) 
-    time.sleep(5)
-
-    e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-{board_name}"]')
-    e.click()
-    time.sleep(5)
-
-    e = driver.find_element(By.XPATH, '//div[@data-test-id="storyboard-creation-nav-done"]/..')
-    e.click()
-
-    time.sleep(60)
-
-    # driver.get("https://www.google.com/")
-
-    # break
-
-    
-    random_time_to_wait = random.randint(-60, 60)
-    time_to_wait = WAIT_SECONDS + random_time_to_wait
-    time.sleep(time_to_wait)
 
 
 
