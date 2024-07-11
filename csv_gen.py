@@ -20,9 +20,9 @@ trefle_rows = util.csv_get_rows(g.CSV_TREFLE_FILEPATH)
 trefle_cols = util.csv_get_cols(trefle_rows)
 trefle_rows = trefle_rows[1:]
 
-herbs_auto_rows = util.csv_get_rows(g.CSV_HERBS_AUTO_FILEPATH)
-herbs_auto_cols = util.csv_get_cols(herbs_auto_rows)
-herbs_auto_rows = herbs_auto_rows[1:]
+herbs_rows = util.csv_get_rows(g.CSV_HERBS_AUTO_FILEPATH)
+herbs_cols = util.csv_get_cols(herbs_rows)
+herbs_rows = herbs_rows[1:]
 
 status_rows = util.csv_get_rows(g.CSV_STATUS_FILEPATH)
 status_cols = util.csv_get_cols(status_rows)
@@ -82,14 +82,14 @@ def herb_sanitize(line):
     return line
 
 
-def herbs_auto_id_next():
-    herbs_auto_rows = util.csv_get_rows(g.CSV_HERBS_AUTO_FILEPATH)
-    herbs_auto_cols = util.csv_get_cols(herbs_auto_rows)
-    herbs_auto_rows = herbs_auto_rows[1:]
+def herbs_id_next():
+    herbs_rows = util.csv_get_rows(g.CSV_HERBS_AUTO_FILEPATH)
+    herbs_cols = util.csv_get_cols(herbs_rows)
+    herbs_rows = herbs_rows[1:]
 
     id_last = 0
-    for herb_auto_row in herbs_auto_rows:
-        _id = herb_auto_row[herbs_auto_cols['herb_id']]
+    for herb_row in herbs_rows:
+        _id = herb_row[herbs_cols['herb_id']]
         if id_last < int(_id):
             id_last = int(_id)
     id_next = id_last + 1
@@ -191,20 +191,20 @@ def gen_preparations(preparation_slug):
                                 old_line_found = True
                         # check if herb is in database and has id, if not create
                         if not old_line_found:
-                            herbs_auto_rows_filtered = util.csv_get_rows_filtered(
-                                g.CSV_HERBS_AUTO_FILEPATH, herbs_auto_cols['herb_slug'], trefle_slug
+                            herbs_rows_filtered = util.csv_get_rows_filtered(
+                                g.CSV_HERBS_AUTO_FILEPATH, herbs_cols['herb_slug'], trefle_slug
                             )
-                            herb_auto_id = 0
-                            if herbs_auto_rows_filtered != []:
-                                herb_auto_row = herbs_auto_rows_filtered[0]
-                                herb_auto_id = herb_auto_row[herbs_auto_cols['herb_id']]
+                            herb_id = 0
+                            if herbs_rows_filtered != []:
+                                herb_row = herbs_rows_filtered[0]
+                                herb_id = herb_row[herbs_cols['herb_id']]
                             else:
-                                herb_auto_id = herbs_auto_id_next()
+                                herb_id = herbs_id_next()
                                 util.csv_add_rows(
                                     g.CSV_HERBS_AUTO_FILEPATH, 
-                                    [[herb_auto_id, trefle_slug, trefle_name_scientific]]
+                                    [[herb_id, trefle_slug, trefle_name_scientific]]
                                 )
-                            lines.append([status_id, status_slug, herb_auto_id, trefle_slug])
+                            lines.append([status_id, status_slug, herb_id, trefle_slug])
                     else:
                         util.file_append('LOG_CSV_STATUS_PREPARATIONS_TEAS_FILEPATH.txt', f'{line}\n')
                 if len(lines) >= 10:
@@ -286,20 +286,20 @@ def gen_status__herbs():
                             old_line_found = True
                     # check if herb is in database and has id, if not create
                     if not old_line_found:
-                        herbs_auto_rows_filtered = util.csv_get_rows_filtered(
-                            g.CSV_HERBS_AUTO_FILEPATH, herbs_auto_cols['herb_slug'], trefle_slug
+                        herbs_rows_filtered = util.csv_get_rows_filtered(
+                            g.CSV_HERBS_AUTO_FILEPATH, herbs_cols['herb_slug'], trefle_slug
                         )
-                        herb_auto_id = 0
-                        if herbs_auto_rows_filtered != []:
-                            herb_auto_row = herbs_auto_rows_filtered[0]
-                            herb_auto_id = herb_auto_row[herbs_auto_cols['herb_id']]
+                        herb_id = 0
+                        if herbs_rows_filtered != []:
+                            herb_row = herbs_rows_filtered[0]
+                            herb_id = herb_row[herbs_cols['herb_id']]
                         else:
-                            herb_auto_id = herbs_auto_id_next()
+                            herb_id = herbs_id_next()
                             util.csv_add_rows(
                                 g.CSV_HERBS_AUTO_FILEPATH, 
-                                [[herb_auto_id, trefle_slug, trefle_name_scientific]]
+                                [[herb_id, trefle_slug, trefle_name_scientific]]
                             )
-                        lines.append([status_id, status_slug, herb_auto_id, trefle_slug])
+                        lines.append([status_id, status_slug, herb_id, trefle_slug])
                 else:
                     util.file_append('LOG_CSV_STATUS__HERBS.txt', f'{line}\n')
             if len(lines) >= 10:
@@ -321,15 +321,15 @@ def gen_status__herbs():
 ##################################################
 
 def gen_herbs_medicine_benefits():
-    for herb_row in herbs_auto_rows:
+    for herb_row in herbs_rows:
         herbs_benefits_rows = util.csv_get_rows(g.CSV_HERBS_BENEFITS_FILEPATH)
         herbs_benefits_cols = util.csv_get_cols(herbs_benefits_rows)
         herbs_benefits_headers = herbs_benefits_rows[0]
         herbs_benefits_rows = herbs_benefits_rows[1:]
 
-        herb_id = herb_row[herbs_auto_cols['herb_id']].strip().lower()
-        herb_slug = herb_row[herbs_auto_cols['herb_slug']].strip().lower()
-        herb_name_scientific = herb_row[herbs_auto_cols['herb_name_scientific']].strip().lower()
+        herb_id = herb_row[herbs_cols['herb_id']].strip().lower()
+        herb_slug = herb_row[herbs_cols['herb_slug']].strip().lower()
+        herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip().lower()
 
         if herb_id == '': continue
         if herb_slug == '': continue
@@ -415,13 +415,13 @@ def gen_herbs_medicine_benefits():
 
 
 def gen_herbs_names_common():
-    herbs_auto_rows = util.csv_get_rows(g.CSV_HERBS_AUTO_FILEPATH)
-    herbs_auto_cols = util.csv_get_cols(herbs_auto_rows)
-    herbs_auto_rows = herbs_auto_rows[1:]
-    for herb_row in herbs_auto_rows:
-        herb_id = herb_row[herbs_auto_cols['herb_id']].strip()
-        herb_slug = herb_row[herbs_auto_cols['herb_slug']].strip()
-        herb_name_scientific = herb_row[herbs_auto_cols['herb_name_scientific']].strip()
+    herbs_rows = util.csv_get_rows(g.CSV_HERBS_AUTO_FILEPATH)
+    herbs_cols = util.csv_get_cols(herbs_rows)
+    herbs_rows = herbs_rows[1:]
+    for herb_row in herbs_rows:
+        herb_id = herb_row[herbs_cols['herb_id']].strip()
+        herb_slug = herb_row[herbs_cols['herb_slug']].strip()
+        herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip()
         if herb_id == '': continue
         if herb_slug == '': continue
         if herb_name_scientific == '': continue
@@ -504,6 +504,7 @@ def gen_system_for_status():
                 Choose only 1 body system among the followings: {systems_names_prompt}.
                 Reply in only 1 word.
             '''
+            print(prompt)
             reply = utils_ai.gen_reply(prompt)
             reply = reply.lower()
             systems_names_1_word = [
@@ -602,19 +603,19 @@ def redirect_old_plants():
                 found = True
         '''
         found = False
-        for herb_auto_row in herbs_auto_rows:
-            herb_name_scientific = herb_auto_row[herbs_auto_cols['herb_name_scientific']]
+        for herb_row in herbs_rows:
+            herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']]
             if plant_name_scientific.lower().strip() == herb_name_scientific.lower().strip():
                 found = True
-                print(herb_auto_row)
+                print(herb_row)
                 break
         if found:
             print(f'- {plant_name_scientific}')
         else:
-            herb_auto_id = herbs_auto_id_next()
+            herb_id = herbs_id_next()
             util.csv_add_rows(
                 g.CSV_HERBS_AUTO_FILEPATH, 
-                [[herb_auto_id, plant_slug, plant_name_scientific]]
+                [[herb_id, plant_slug, plant_name_scientific]]
             )
             print(f'X {plant_name_scientific}')
 

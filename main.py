@@ -24,81 +24,24 @@ c_bg = '#f5f5f5'
 
 if not os.path.exists('website/images'): os.makedirs('website/images')
 
-conditions_rows = util.csv_get_rows('database/csv/status/conditions.csv')
-conditions_cols = util.csv_get_cols(conditions_rows)
-conditions_rows = conditions_rows[1:]
-
-conditions_rows = util.csv_get_rows(g.CSV_CONDITIONS_FILEPATH)
-conditions_cols = util.csv_get_cols(conditions_rows)
-conditions_rows = conditions_rows[1:]
-
-systems_rows = util.csv_get_rows(g.CSV_SYSTEMS_NEW_FILEPATH)
-systems_cols = util.csv_get_cols(systems_rows)
-systems_rows = systems_rows[1:]
-
-herbs_rows = util.csv_get_rows(g.CSV_HERBS_FILEPATH)
-herbs_cols = util.csv_get_cols(herbs_rows)
-herbs_rows = herbs_rows[1:]
-
-preparations_rows = util.csv_get_rows(g.CSV_PREPARATIONS_FILEPATH)
-preparations_cols = util.csv_get_cols(preparations_rows)
-preparations_rows = preparations_rows[1:]
-
-
-
-
-
+# CSV MAIN
 status_rows, status_cols = data_csv.status()
-herbs_auto_rows, herbs_auto_cols = data_csv.herbs_auto()
+systems_rows, systems_cols = data_csv.systems()
+preparations_rows, preparations_cols = data_csv.preparations()
+
+herbs_rows, herbs_cols = data_csv.herbs()
 herbs_names_common_rows, herbs_names_common_cols = data_csv.herbs_names_common()
 
+# CSV JUNCTIONS
 
-
-
-
-# JUNCTIONS
-
-herbs_benefits_rows = util.csv_get_rows(g.CSV_HERBS_BENEFITS_FILEPATH)
-herbs_benefits_cols = util.csv_get_cols(herbs_benefits_rows)
-herbs_benefits_rows = herbs_benefits_rows[1:]
-
-
-
-status_systems_rows = util.csv_get_rows(g.CSV_STATUS_SYSTEMS_FILEPATH)
-status_systems_cols = util.csv_get_cols(status_systems_rows)
-status_systems_rows = status_systems_rows[1:]
-
-status_herbs_rows = util.csv_get_rows(g.CSV_STATUS_HERBS_FILEPATH)
-status_herbs_cols = util.csv_get_cols(status_herbs_rows)
-status_herbs_rows = status_herbs_rows[1:]
-
-
-
-status_preparations_teas_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_TEAS_FILEPATH)
-status_preparations_teas_cols = util.csv_get_cols(status_preparations_teas_rows)
-status_preparations_teas_rows = status_preparations_teas_rows[1:]
-
-status_preparations_tinctures_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_TINCTURES_FILEPATH)
-status_preparations_tinctures_cols = util.csv_get_cols(status_preparations_tinctures_rows)
-status_preparations_tinctures_rows = status_preparations_tinctures_rows[1:]
-
-status_preparations_decoctions_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_DECOCTIONS_FILEPATH)
-status_preparations_decoctions_cols = util.csv_get_cols(status_preparations_decoctions_rows)
-status_preparations_decoctions_rows = status_preparations_decoctions_rows[1:]
-
-status_preparations_essential_oils_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_ESSENTIAL_OILS_FILEPATH)
-status_preparations_essential_oils_cols = util.csv_get_cols(status_preparations_essential_oils_rows)
-status_preparations_essential_oils_rows = status_preparations_essential_oils_rows[1:]
-
-status_preparations_capsules_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_CAPSULES_FILEPATH)
-status_preparations_capsules_cols = util.csv_get_cols(status_preparations_capsules_rows)
-status_preparations_capsules_rows = status_preparations_capsules_rows[1:]
-
-
-
-teas_num = 10
-ART_ITEMS_NUM = 10
-
+herbs_benefits_rows, herbs_benefits_cols = data_csv.herbs_benefits()
+status_systems_rows, status_systems_cols = data_csv.status_systems()
+status_herbs_rows, status_herbs_cols = data_csv.status_herbs()
+status_preparations_teas_rows, status_preparations_teas_cols = data_csv.status_preparations_teas()
+status_preparations_tinctures_rows, status_preparations_tinctures_cols = data_csv.status_preparations_tinctures()
+status_preparations_decoctions_rows, status_preparations_decoctions_cols = data_csv.status_preparations_decoctions()
+status_preparations_essential_oils_rows, status_preparations_essential_oils_cols = data_csv.status_preparations_essential_oils()
+status_preparations_capsules_rows, status_preparations_capsules_cols = data_csv.status_preparations_capsules()
 
 # DEBUG
 
@@ -110,217 +53,18 @@ DEBUG_MISS_REMEDY_CONSTITUENTS = 0
 DEBUG_MISS_REMEDY_PARTS = 0
 DEBUG_MISS_REMEDY_RECIPE = 0
 
-DEBUG_PROBLEM_NAME = 0
-DEBUG_PROBLEM_SYSTEM = 0
-DEBUG_PROBLEM_JSON_FILEPATH = 0
-DEBUG_PROBLEM_REDIRECT = 0
-
 DEBUG_PROBLEMS = 0
 DEBUG_PLANTS = 0
 DEBUG_PLANTS_MEDICINE_BENEFITS = 0
 
 DEBUG_STATUS = 1
+DEBUG_PREPARATION = 1
 DEBUG_STATUS_JSON_FILEPATH = 0
 
 
 # #########################################################
 # CSVs
 # #########################################################
-
-def csv_get_herbs_by_problem(problem_id):
-    problems_herbs_rows_filtered = util.csv_get_rows_filtered(
-        g.CSV_PROBLEMS_HERBS_FILEPATH, problems_herbs_cols['problem_id'], problem_id,
-    )
-
-    problems_herbs_ids = [
-        row[problems_herbs_cols['herb_id']] 
-        for row in problems_herbs_rows_filtered
-        if row[problems_herbs_cols['problem_id']] == problem_id
-    ]
-
-    herbs_rows_filtered = []
-    for herb_row in herbs_rows:
-        herb_id = herb_row[herbs_cols['herb_id']]
-        if herb_id in problems_herbs_ids:
-            herbs_rows_filtered.append(herb_row)
-            
-    return herbs_rows_filtered
-
-
-def csv_get_herbs_auto_by_status(status_id):
-    status_herbs_rows_filtered = util.csv_get_rows_filtered(
-        g.CSV_STATUS_HERBS_FILEPATH, status_herbs_cols['status_id'], status_id,
-    )
-
-    status_herbs_ids = [
-        row[status_herbs_cols['herb_id']] 
-        for row in status_herbs_rows_filtered
-        if row[status_herbs_cols['status_id']] == status_id
-    ]
-
-    herbs_auto_rows_filtered = []
-    for herb_auto_row in herbs_auto_rows:
-        herb_auto_id = herb_auto_row[herbs_auto_cols['herb_id']]
-        if herb_auto_id in status_herbs_ids:
-            herbs_auto_rows_filtered.append(herb_auto_row)
-            
-    return herbs_auto_rows_filtered
-
-
-def csv_get_teas_by_problem(problem_id):
-    problems_teas_rows_filtered = util.csv_get_rows_filtered(
-        g.CSV_PROBLEMS_TEAS_FILEPATH, problems_teas_cols['problem_id'], problem_id,
-    )
-
-    herbs_rows_filtered = []
-    for problem_tea_row in problems_teas_rows_filtered:
-        jun_tea_id = problem_tea_row[problems_teas_cols['tea_id']]
-
-        for herb_row in herbs_rows:
-            herb_id = herb_row[herbs_cols['herb_id']]
-
-            if herb_id == jun_tea_id:
-                herbs_rows_filtered.append(herb_row)
-
-            
-    return herbs_rows_filtered
-
-
-def get_herbs_names_common_by_status(status_id, preparation_slug):
-    # get rows of specific preparation for status
-    status_remedies_rows_filtered = []
-    if preparation_slug == 'teas':
-        status_remedies_rows_filtered = util.csv_get_rows_filtered(
-            g.CSV_STATUS_PREPARATIONS_TEAS_FILEPATH, status_preparations_teas_cols['status_id'], status_id,
-        )
-    elif preparation_slug == 'tinctures':
-        status_remedies_rows_filtered = util.csv_get_rows_filtered(
-            g.CSV_STATUS_PREPARATIONS_TINCTURES_FILEPATH, status_preparations_tinctures_cols['status_id'], status_id,
-        )
-    elif preparation_slug == 'decoctions':
-        status_remedies_rows_filtered = util.csv_get_rows_filtered(
-            g.CSV_STATUS_PREPARATIONS_DECOCTIONS_FILEPATH, status_preparations_decoctions_cols['status_id'], status_id,
-        )
-    elif preparation_slug == 'essential-oils':
-        status_remedies_rows_filtered = util.csv_get_rows_filtered(
-            g.CSV_STATUS_PREPARATIONS_ESSENTIAL_OILS_FILEPATH, status_preparations_essential_oils_cols['status_id'], status_id,
-        )
-    elif preparation_slug == 'capsules':
-        status_remedies_rows_filtered = util.csv_get_rows_filtered(
-            g.CSV_STATUS_PREPARATIONS_CAPSULES_FILEPATH, status_preparations_capsules_cols['status_id'], status_id,
-        )
-
-    # get first column of common names table
-    remedies_rows_filtered = []
-    for status_remedy_row in status_remedies_rows_filtered:
-        jun_remedy_id = status_remedy_row[status_preparations_teas_cols['remedy_id']]
-        for herb_row in herbs_names_common_rows:
-            herb_id = herb_row[herbs_cols['herb_id']]
-            if herb_id == jun_remedy_id:
-                remedies_rows_filtered.append(herb_row)
-                break
-
-    return remedies_rows_filtered
-    
-
-def csv_get_tinctures_by_problem(problem_id):
-    problems_tinctures_rows_filtered = util.csv_get_rows_filtered(
-        g.CSV_PROBLEMS_TINCTURES_FILEPATH, problems_tinctures_cols['problem_id'], problem_id,
-    )
-
-    herbs_rows_filtered = []
-    for problem_tincture_row in problems_tinctures_rows_filtered:
-        jun_tincture_id = problem_tincture_row[problems_tinctures_cols['tincture_id']]
-
-        for herb_row in herbs_rows:
-            herb_id = herb_row[herbs_cols['herb_id']]
-
-            if herb_id == jun_tincture_id:
-                herbs_rows_filtered.append(herb_row)
-
-            
-    return herbs_rows_filtered
-
-
-def csv_get_capsules_by_problem(problem_id):
-    remedies_rows_filtered = util.csv_get_rows_filtered(
-        g.CSV_PROBLEMS_CAPSULES_FILEPATH, problems_capsules_cols['problem_id'], problem_id,
-    )
-
-    herbs_rows_filtered = []
-    for remedy_row in remedies_rows_filtered:
-        jun_remedy_id = remedy_row[problems_capsules_cols['capsule_id']]
-
-        for herb_row in herbs_rows:
-            herb_id = herb_row[herbs_cols['herb_id']]
-
-            if herb_id == jun_remedy_id:
-                herbs_rows_filtered.append(herb_row)
-
-            
-    return herbs_rows_filtered
-
-
-def csv_get_problems_by_system(system_id):
-    problems_systems_rows_filtered = util.csv_get_rows_filtered(
-        g.CSV_PROBLEMS_SYSTEMS_FILEPATH, problems_systems_cols['system_id'], system_id,
-    )
-
-    junction_problems_ids = [
-        row[problems_systems_cols['problem_id']] 
-        for row in problems_systems_rows_filtered
-        if row[problems_systems_cols['system_id']] == system_id
-    ]
-
-    problems_rows_filtered = []
-    for problem_row in problems_rows:
-        problem_id = problem_row[problems_cols['problem_id']]
-        if problem_id in junction_problems_ids:
-            problems_rows_filtered.append(problem_row)
-        
-    return problems_rows_filtered
-
-
-def csv_get_status_by_system(system_id):
-    status_systems_rows_filtered = util.csv_get_rows_filtered(
-        g.CSV_STATUS_SYSTEMS_FILEPATH, status_systems_cols['system_id'], system_id,
-    )
-
-    junction_status_ids = [
-        row[status_systems_cols['status_id']] 
-        for row in status_systems_rows_filtered
-        if row[status_systems_cols['system_id']] == system_id
-    ]
-
-    status_rows_filtered = []
-    for status_row in status_rows:
-        status_id = status_row[status_cols['status_id']]
-        if status_id in junction_status_ids:
-            status_rows_filtered.append(status_row)
-        
-    return status_rows_filtered
-
-
-def csv_get_system_by_problem(problem_id):
-    system_row = []
-
-    problems_systems_rows_filtered = util.csv_get_rows_filtered(
-        g.CSV_PROBLEMS_SYSTEMS_FILEPATH, problems_systems_cols['problem_id'], problem_id,
-    )
-
-    if problems_systems_rows_filtered != []:
-        problem_system_row = problems_systems_rows_filtered[0]
-        system_id = problem_system_row[problems_systems_cols['system_id']]
-
-        systems_rows_filtered = util.csv_get_rows_filtered(
-            g.CSV_SYSTEMS_FILEPATH, systems_cols['system_id'], system_id,
-        )
-
-        if systems_rows_filtered != []:
-            system_row = systems_rows_filtered[0]
-
-    return system_row
-
 
 def get_system_by_status(status_id):
     system_row = []
@@ -342,27 +86,6 @@ def get_system_by_status(status_id):
 
     return system_row
 
-
-def csv_get_preparations_by_problem(problem_id):
-    problems_preparations_rows_filtered = util.csv_get_rows_filtered(
-        g.CSV_PROBLEMS_PREPARATIONS_FILEPATH, problems_preparations_cols['problem_id'], problem_id,
-    )
-
-    problems_preparations_ids = [
-        row[problems_preparations_cols['preparation_id']] 
-        for row in problems_preparations_rows_filtered
-        if row[problems_preparations_cols['problem_id']] == problem_id
-    ]
-
-    preparations_rows_filtered = []
-    for herb_row in preparations_rows:
-        herb_id = herb_row[preparations_cols['preparation_id']]
-        if herb_id in problems_preparations_ids:
-            preparations_rows_filtered.append(herb_row)
-            
-    return preparations_rows_filtered
-
-
 def get_preparations_by_status(status_id):
     util_data.j_status_preparations_rows_filtered = util.csv_get_rows_filtered(
         g.CSV_STATUS_PREPARATIONS_FILEPATH, util_data.j_status_preparations_cols['status_id'], status_id,
@@ -382,32 +105,6 @@ def get_preparations_by_status(status_id):
             
     return preparations_rows_filtered
 
-
-def csv_get_related_by_problem(problem_id):
-    problems_related_rows_filtered = util.csv_get_rows_filtered(
-        g.CSV_PROBLEMS_RELATED_FILEPATH, problems_related_cols['problem_id'], problem_id,
-    )
-
-    problems_rows_filtered = []
-    for problem_related_row in problems_related_rows_filtered:
-        jun_related_id = problem_related_row[problems_related_cols['related_id']]
-        jun_related_name = problem_related_row[problems_related_cols['related_name']]
-        for problem_row in problems_rows:
-            problem_id = problem_row[problems_cols['problem_id']]
-            problem_slug = problem_row[problems_cols['problem_slug']]
-            problem_names = problem_row[problems_cols['problem_names']]
-            if jun_related_id == problem_id:
-                problems_rows_filtered.append({
-                    'problem_id': problem_id, 
-                    'problem_slug': problem_slug, 
-                    'problem_names': problem_names, 
-                    'related_name': jun_related_name, 
-                })
-                break
-            
-    return problems_rows_filtered
-
-
 def csv_get_herb_common_name_by_id(herb_id):
     herb_name_common = ''
     for herb_name_common_row in herbs_names_common_rows:
@@ -417,13 +114,6 @@ def csv_get_herb_common_name_by_id(herb_id):
             herb_name_common = _name_common
             break
     return herb_name_common
-
-
-
-
-
-
-
 
 
 
@@ -886,8 +576,8 @@ def art_preparations(preparation_slug):
         if 'lastmod' not in data: data['lastmod'] = lastmod
         else: lastmod = data['lastmod'] 
         data['url'] = f'{g.CATEGORY_REMEDIES}/{system_slug}/{status_slug}/{preparation_slug}'
-        data['remedies_num'] = ART_ITEMS_NUM
-        title = f'{ART_ITEMS_NUM} best herbal {preparation_name} for {status_name}'
+        data['remedies_num'] = 10
+        title = f'{10} best herbal {preparation_name} for {status_name}'
         data['title'] = title
         util.json_write(json_filepath, data)
         
@@ -897,16 +587,14 @@ def art_preparations(preparation_slug):
             key = 'remedies_list'
             # if key in data: del data[key]
             if key not in data: data[key] = []
-            herbs_rows_filtered = get_herbs_names_common_by_status(status_id, preparation_slug)
+            herbs_rows_filtered = util_data.get_herbs_names_common_by_status(status_id, preparation_slug)
             print(herbs_rows_filtered)
             for herb_row in herbs_rows_filtered:
                 herb_id = herb_row[herbs_cols['herb_id']].strip()
                 herb_slug = herb_row[herbs_cols['herb_slug']].strip()
-                herb_name_common = herb_row[herbs_cols['herb_name_common']].split(',')[0].strip()
                 herb_name_scientific = herb_slug.replace('-', ' ').capitalize()
                 if herb_id == '': continue
                 if herb_slug == '': continue
-                if herb_name_common == '': continue
                 if herb_name_scientific == '': continue
                 found = False
                 for obj in data[key]:
@@ -922,7 +610,7 @@ def art_preparations(preparation_slug):
                     })
             util.json_write(json_filepath, data)
 
-            for i, obj in enumerate(data[key][:teas_num]):
+            for i, obj in enumerate(data[key][:10]):
                 # print(f'### {status_index}')
                 herb_name_common = obj["herb_name_common"].strip().lower()
                 herb_slug = obj["herb_slug"].strip().lower()
@@ -2350,9 +2038,9 @@ def gen_herb__historical(json_filepath, data, article_html):
     return article_html
 
 def art_herb(herb_row):
-    herb_id = herb_row[herbs_auto_cols['herb_id']].strip()
-    herb_slug = herb_row[herbs_auto_cols['herb_slug']].strip()
-    herb_name_scientific = herb_row[herbs_auto_cols['herb_name_scientific']].strip()
+    herb_id = herb_row[herbs_cols['herb_id']].strip()
+    herb_slug = herb_row[herbs_cols['herb_slug']].strip()
+    herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip()
     herb_name_common = csv_get_herb_common_name_by_id(herb_id)
     if herb_id == '': return
     if herb_slug == '': return
@@ -2630,9 +2318,9 @@ def gen_herb_medicine__precautions(json_filepath, data, article_html):
 
 
 def art_herb_medicine(herb_row):
-    herb_id = herb_row[herbs_auto_cols['herb_id']].strip()
-    herb_slug = herb_row[herbs_auto_cols['herb_slug']].strip()
-    herb_name_scientific = herb_row[herbs_auto_cols['herb_name_scientific']].strip()
+    herb_id = herb_row[herbs_cols['herb_id']].strip()
+    herb_slug = herb_row[herbs_cols['herb_slug']].strip()
+    herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip()
     herb_name_common = csv_get_herb_common_name_by_id(herb_id)
     if herb_id == '': return
     if herb_slug == '': return
@@ -2787,9 +2475,9 @@ def gen_herb_medicine_benefits__benefit_desc(json_filepath, data, obj, article_h
     return article_html
 
 def art_herb_medicine_benefits(herb_row):
-    herb_id = herb_row[herbs_auto_cols['herb_id']].strip()
-    herb_slug = herb_row[herbs_auto_cols['herb_slug']].strip()
-    herb_name_scientific = herb_row[herbs_auto_cols['herb_name_scientific']].strip()
+    herb_id = herb_row[herbs_cols['herb_id']].strip()
+    herb_slug = herb_row[herbs_cols['herb_slug']].strip()
+    herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip()
     herb_name_common = csv_get_herb_common_name_by_id(herb_id)
     if herb_id == '': return
     if herb_slug == '': return
@@ -2845,7 +2533,7 @@ def art_herb_medicine_benefits(herb_row):
                 })
         util.json_write(json_filepath, data)
         
-        for i, obj in enumerate(data[key][:ART_ITEMS_NUM]):
+        for i, obj in enumerate(data[key][:10]):
             obj_herb_name_common = obj["herb_name_common"].strip()
             obj_herb_name_scientific = obj["herb_name_scientific"].strip()
             obj_benefit_name = obj["benefit_name"].strip()
@@ -2923,10 +2611,10 @@ def art_herb_medicine_benefits(herb_row):
 
 def art_herb_category():
     html_list = ''
-    for herb_row in herbs_auto_rows:
-        herb_id = herb_row[herbs_auto_cols['herb_id']].strip()
-        herb_slug = herb_row[herbs_auto_cols['herb_slug']]
-        herb_name_scientific = herb_row[herbs_auto_cols['herb_name_scientific']]
+    for herb_row in herbs_rows:
+        herb_id = herb_row[herbs_cols['herb_id']].strip()
+        herb_slug = herb_row[herbs_cols['herb_slug']]
+        herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']]
    
         url = f'herbs/{herb_slug}'
         json_filepath = f'database/json/{url}.json'
@@ -2996,11 +2684,11 @@ def art_herb_category():
 
 
 def main_herbs():
-    for i, herb_row in enumerate(herbs_auto_rows):
+    for i, herb_row in enumerate(herbs_rows):
         print()
         print('***********************')
         print('***********************')
-        print(f'{i}/{len(herbs_auto_rows)} - {herb_row}')
+        print(f'{i}/{len(herbs_rows)} - {herb_row}')
         print('***********************')
         print('***********************')
         print()
@@ -3023,25 +2711,6 @@ def main_herbs():
 def page_home():
     header = util.header_default()
     header = util.header_default_dark()
-    teas_articles_html = ''
-    for condition_row in conditions_rows[:6]:
-        condition_name = condition_row[conditions_cols['condition_names']].split(',')[0].strip().lower()
-        condition_slug = condition_row[conditions_cols['condition_slugs_prev']].split(',')[0].strip().lower()
-        if condition_name == '': continue
-        condition_system_id = condition_row[conditions_cols['system_id']].split(',')[0].strip().lower()
-        condition_system_slug = util.csv_get_rows_filtered(g.CSV_SYSTEMS_FILEPATH, systems_cols['system_id'], condition_system_id)[0][systems_cols['system_slug']]
-        imagepath = f'/images/herbal-tea-for-{condition_slug}-overview.jpg'
-        teas_articles_html += f'''
-            <a href="/herbalism/tea/{condition_system_slug}/{condition_slug}.html">
-                <div class="card">
-                    <img class="card-image"
-                        src="{imagepath}" alt=""
-                        width="400" height="300">
-                    <h3 class="px-16 mt-16">10 Best Herbal Teas For {condition_name.title()}</h3>
-                    <p class="px-16 mt-16">Boosts the immune system and fights infections.</p>
-                </div>
-            </a>
-        '''
     articles_teas_html = ''
     i = 0
     for status_row in status_rows:
@@ -3118,14 +2787,13 @@ def page_home():
     articles_herbs_html = ''
     i = 0
     for herb_row in herbs_rows[:g.HERBS_ART_NUM]:
+        print(herb_row)
         if i >= 6: break
         herb_id = herb_row[herbs_cols['herb_id']]
         herb_slug = herb_row[herbs_cols['herb_slug']]
-        herb_name_common = herb_row[herbs_cols['herb_name_common']].split(',')[0].strip().lower()
         herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip()
         if herb_id == '': continue
         if herb_slug == '': continue
-        if herb_name_common == '': continue
         if herb_name_scientific == '': continue
         json_filepath = f'database/json/herbs/{herb_slug}.json'
         if not os.path.exists(json_filepath): continue
@@ -3139,7 +2807,7 @@ def page_home():
             <div>
                 <a href="/herbs/{herb_slug}.html">
                     <img src="{src}" alt="{alt}">
-                    <h3>What to know before using {herb_name_common} medicinally</h3>
+                    <h3>What to know before using {herb_name_scientific} medicinally</h3>
                 </a>
                 <p class="desc">{intro_desc_clip}</p>
                 <p class="author">By <span>Leen Randell</span> - {lastmod}</p>
@@ -3152,7 +2820,6 @@ def page_home():
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
     template = template.replace('[author_name]', g.AUTHOR_NAME)
     template = template.replace('[header]', header)
-    template = template.replace('[teas_articles]', teas_articles_html)
     template = template.replace('[articles_teas]', articles_teas_html)
     template = template.replace('[articles_tinctures]', articles_tinctures_html)
     template = template.replace('[articles_herbs]', articles_herbs_html)
@@ -3456,10 +3123,10 @@ def gen_status__herbs(json_filepath, data, article_html):
     status_id = data['status_id']
     status_name = data['status_name']
     # get common names
-    herbs_rows_filtered = csv_get_herbs_auto_by_status(status_id)
+    herbs_rows_filtered = util_data.get_herbs_by_status(status_id)
     herbs_names_common_list = []
     for herb_row_filtered in herbs_rows_filtered:
-        herb_id = herb_row_filtered[herbs_auto_cols['herb_id']]
+        herb_id = herb_row_filtered[herbs_cols['herb_id']]
         herb_name_common = csv_get_herb_common_name_by_id(herb_id)
         herbs_names_common_list.append(herb_name_common)
     if key not in data:
@@ -4107,12 +3774,12 @@ def remedies_systems_problems_new():
                 article_html += f'</ul>\n'
 
         if 'herbs':
-            herbs_rows_filtered = csv_get_herbs_auto_by_status(status_id)
+            herbs_rows_filtered = util_data.get_herbs_by_status(status_id)
 
             # get common names
             herbs_names_common_list = []
             for herb_row_filtered in herbs_rows_filtered:
-                herb_id = herb_row_filtered[herbs_auto_cols['herb_id']]
+                herb_id = herb_row_filtered[herbs_cols['herb_id']]
                 herb_name_common = csv_get_herb_common_name_by_id(herb_id)
                 herbs_names_common_list.append(herb_name_common)
 
@@ -4443,7 +4110,7 @@ def art_systems():
         if system_id == '': continue
         if system_slug == '': continue
         if system_name == '': continue
-        status_rows_filtered = csv_get_status_by_system(system_id)
+        status_rows_filtered = util_data.get_status_by_system(system_id)
         status_num = len(status_rows_filtered)
         if status_num == 0: continue
         json_filepath = f'database/json/remedies/{system_slug}.json'
@@ -4567,7 +4234,7 @@ def art_remedies():
 # #########################################################
 
 def main():
-    # page_home()
+    page_home()
     # page_privacy_policy()
     # page_cookie_policy()
     # page_herbalism()
@@ -4575,16 +4242,17 @@ def main():
     # page_plants(regen_csv=False)
     # page_about()
 
-    # art_status()
-    # art_systems()
-    # art_remedies()
+    art_status()
+    art_systems()
+    art_remedies()
 
     art_preparations('teas')
+    '''
     art_preparations('tinctures')
     art_preparations('decoctions')
     art_preparations('essential-oils')
     art_preparations('capsules')
-
+    '''
 
     main_herbs()
 

@@ -213,20 +213,91 @@ x\228\ear-infection\ear infection\ailment
 x\229\earache\earache\ailment
 x\230\eye-floaters\eye floaters\ailment
 x\233\grief\grief\ailment
-x\234\allergies\allergy\
-x\235\fever\fever\
-x\236\inflammation\inflammation\
-x\238\postoperative-recovery\postoperative recovery\
-x\239\vaginitis\vaginitis\
-x\240\prostatitis\prostatitis\
-x\242\fungal-skin-infection\fungal skin infection\
-x\245\infection\infection\
-x\246\overactive-bladder\overactive bladder\
-x\247\dysuria\dysuria\
-x\248\cystitis\cystitis\
-x\249\urinary-calculus\urinary calculus\
-x\250\hematuria\hematuria\
-x\251\edema\edema\
-x\252\bladder-pain\bladder pain\
-x\253\dehydration\dehydration\
-x\254\fluid-retention\fluid retention\
+x\234\allergies\allergy\ailment
+x\235\fever\fever\ailment
+x\236\inflammation\inflammation\ailment
+x\238\postoperative-recovery\postoperative recovery\ailment
+x\239\vaginitis\vaginitis\ailment
+x\240\prostatitis\prostatitis\ailment
+x\242\fungal-skin-infection\fungal skin infection\ailment
+x\245\infection\infection\ailment
+x\246\overactive-bladder\overactive bladder\ailment
+x\247\dysuria\dysuria\ailment
+x\248\cystitis\cystitis\ailment
+x\249\urinary-calculus\urinary calculus\ailment
+x\250\hematuria\hematuria\ailment
+x\251\edema\edema\ailment
+x\252\bladder-pain\bladder pain\ailment
+x\253\dehydration\dehydration\ailment
+x\254\fluid-retention\fluid retention\ailment
+x\256\breastfeeding-breast-pain\breastfeeding breast pain\ailment
+x\257\erectile-disfunction\erectile dysfunction\ailment
+x\258\low-sperm-count\low sperm count\ailment
+x\259\menstrual-cramps\menstrual cramps\ailment
+x\260\morning-sickness\morning sickness\ailment
+x\261\ovulation-pain\ovulation pain\ailment
+x\262\periods-over-bleeding\over bleeding during periods\ailment
+x\263\period-cramps\period cramps\ailment
+x\264\premature-ejaculation\premature ejaculation\ailment
+x\265\prostate-inflammation\prostate inflammation\ailment
+x\267\amenorrhea\amenorrhea\ailment
+x\268\premenstrual-syndrome\premenstrual syndrome\ailment
+x\269\menopause\menopause\ailment
+x\271\uterine-fibroids\uterine fibroids\ailment
+x\272\endometriosis\endometriosis\ailment
+x\273\fibrocystic-breast-disease\fibrocystic breast disease\ailment
+x\274\benign-prostatic-hypertrophy\benign prostatic hypertrophy\ailment
+x\275\endometriosis-pain\endometriosis pain\ailment
+x\280\hormonal-imbalance\hormonal imbalance\ailment
+x\281\hot-flashes\hot flashes\ailment
+x\282\hypothyroidism\hypothyroidism\ailment
+x\283\hyperthyroidism\hyperthyroidism\ailment
+x\286\adrenal-fatigue\adrenal fatigue\ailment
+x\301\enlarged-spleen\enlarged spleen\ailment
+x\302\aging\aging\ailment
+x\303\altitude-sickness\altitude sickness\ailment
+x\304\alzheimer-disease\alzheimer’s disease\ailment
+x\305\angina\angina\ailment
+x\306\akylosing-spondylitis\ankylosing spondylitis\ailment
+x\307\baldness\baldness\ailment
+x\308\bladder-infection\bladder infection\ailment
+x\309\body-odor\body odor\ailment
+x\311\bruises\bruises\ailment
+x\312\bunion\bunion\ailment
+x\313\burns\burns\ailment
+x\314\wheezing\wheezing\ailment
+x\315\breath-shortness\shortness of breath\ailment
+x\316\chills\chills\ailment
+x\317\appetite-loss\loss of appetite\ailment
+x\318\difficulty-swallowing\difficulty swallowing\ailment
+x\319\inflamed-gums\inflamed gums\ailment
+x\320\white-tongue\white tongue\ailment
+x\321\bad-taste\bad taste\ailment
+x\322\taste-changes\taste changes\ailment
+x\323\dental-plaque\dental plaque\ailment
+x\324\tooth-decay\tooth decay\ailment
+x\325\dry-nose\dry nose\ailment
+x\326\inflamed-mouth\inflamed mouth\ailment
+x\327\difficulty-chewing\difficulty chewing\ailment
+x\328\speech-difficulty\speech difficulty\ailment
+x\329\lymph-node-swelling\lymph node swelling\ailment
+x\330\month-white-patches\white patches in month\ailment
+x\331\taste-loss\taste loss\ailment
+x\332\mouth-reddened-corners\reddened corners in mouth\ailment
+x\333\difficulty-eating\difficulty eating\ailment
+x\334\painful-swallowing\painful swallowing\ailment
+x\335\mouth-bleeding-spots\bleeding spots in mouth\ailment
+x\336\dry-cough\dry cough\ailment
+x\337\throat-congestion\throat congestion\ailment
+x\338\difficult-speaking\difficult speaking\ailment
+x\339\feverish-feeling\feverish feeling\ailment
+x\340\tickling-throat\tickling throat\ailment
+x\341\throat-redness\throat redness\ailment
+x\342\throat-irritation\throat irritation\ailment
+x\343\mouth-sour-taste\sour taste in mouth\ailment
+x\344\mouth-bitter-taste\bitter taste in mouth\ailment
+x\345\burping\burping\ailment
+x\347\stomach-discomfort\stomach discomfort\ailment
+x\348\coughing-fits\coughing fits\ailment
+x\349\stomach-growling\stomach growling\ailment
+x\350\upper-abdominal-pain\upper abdominal pain\ailment

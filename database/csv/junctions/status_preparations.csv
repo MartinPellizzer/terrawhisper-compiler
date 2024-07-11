@@ -2868,3 +2868,933 @@ status_id\status_name\preparation_id\preparation_name
 254\fluid retention\11\ointments
 254\fluid retention\27\liniments
 254\fluid retention\25\poultices
+256\breastfeeding breast pain\0\teas
+256\breastfeeding breast pain\1\decoctions
+256\breastfeeding breast pain\2\tinctures
+256\breastfeeding breast pain\22\syrups
+256\breastfeeding breast pain\23\salves
+256\breastfeeding breast pain\13\creams
+256\breastfeeding breast pain\28\lotions
+256\breastfeeding breast pain\11\ointments
+256\breastfeeding breast pain\17\balms
+256\breastfeeding breast pain\10\capsules
+256\breastfeeding breast pain\16\tablets
+256\breastfeeding breast pain\14\suppositories
+256\breastfeeding breast pain\24\compresses
+256\breastfeeding breast pain\25\poultices
+257\erectile dysfunction\10\capsules
+257\erectile dysfunction\16\tablets
+257\erectile dysfunction\0\teas
+257\erectile dysfunction\2\tinctures
+257\erectile dysfunction\1\decoctions
+257\erectile dysfunction\22\syrups
+257\erectile dysfunction\9\gels
+257\erectile dysfunction\13\creams
+257\erectile dysfunction\11\ointments
+257\erectile dysfunction\23\salves
+257\erectile dysfunction\31\elixirs
+258\low sperm count\0\teas
+258\low sperm count\1\decoctions
+258\low sperm count\2\tinctures
+258\low sperm count\10\capsules
+258\low sperm count\26\powders
+258\low sperm count\23\salves
+258\low sperm count\11\ointments
+258\low sperm count\13\creams
+258\low sperm count\9\gels
+258\low sperm count\17\balms
+258\low sperm count\28\lotions
+258\low sperm count\22\syrups
+258\low sperm count\31\elixirs
+258\low sperm count\14\suppositories
+259\menstrual cramps\0\teas
+259\menstrual cramps\1\decoctions
+259\menstrual cramps\2\tinctures
+259\menstrual cramps\10\capsules
+259\menstrual cramps\16\tablets
+259\menstrual cramps\14\suppositories
+259\menstrual cramps\23\salves
+259\menstrual cramps\11\ointments
+259\menstrual cramps\13\creams
+259\menstrual cramps\17\balms
+259\menstrual cramps\25\poultices
+259\menstrual cramps\24\compresses
+259\menstrual cramps\22\syrups
+260\morning sickness\0\teas
+260\morning sickness\1\decoctions
+260\morning sickness\2\tinctures
+260\morning sickness\22\syrups
+260\morning sickness\23\salves
+260\morning sickness\17\balms
+260\morning sickness\10\capsules
+260\morning sickness\16\tablets
+260\morning sickness\31\elixirs
+260\morning sickness\25\poultices
+260\morning sickness\24\compresses
+260\morning sickness\14\suppositories
+260\morning sickness\15\glycerites
+261\ovulation pain\0\teas
+261\ovulation pain\1\decoctions
+261\ovulation pain\2\tinctures
+261\ovulation pain\23\salves
+261\ovulation pain\11\ointments
+261\ovulation pain\13\creams
+261\ovulation pain\28\lotions
+261\ovulation pain\25\poultices
+261\ovulation pain\24\compresses
+261\ovulation pain\10\capsules
+261\ovulation pain\16\tablets
+261\ovulation pain\22\syrups
+261\ovulation pain\9\gels
+261\ovulation pain\31\elixirs
+262\over bleeding during periods\0\teas
+262\over bleeding during periods\1\decoctions
+262\over bleeding during periods\2\tinctures
+262\over bleeding during periods\23\salves
+262\over bleeding during periods\17\balms
+262\over bleeding during periods\11\ointments
+262\over bleeding during periods\13\creams
+262\over bleeding during periods\14\suppositories
+262\over bleeding during periods\10\capsules
+262\over bleeding during periods\16\tablets
+262\over bleeding during periods\25\poultices
+262\over bleeding during periods\24\compresses
+262\over bleeding during periods\22\syrups
+263\period cramps\0\teas
+263\period cramps\1\decoctions
+263\period cramps\2\tinctures
+263\period cramps\23\salves
+263\period cramps\17\balms
+263\period cramps\10\capsules
+263\period cramps\16\tablets
+263\period cramps\11\ointments
+263\period cramps\13\creams
+263\period cramps\9\gels
+263\period cramps\25\poultices
+263\period cramps\24\compresses
+263\period cramps\22\syrups
+263\period cramps\31\elixirs
+263\period cramps\14\suppositories
+264\premature ejaculation\0\teas
+264\premature ejaculation\10\capsules
+264\premature ejaculation\2\tinctures
+264\premature ejaculation\1\decoctions
+264\premature ejaculation\23\salves
+264\premature ejaculation\17\balms
+264\premature ejaculation\9\gels
+264\premature ejaculation\11\ointments
+264\premature ejaculation\13\creams
+264\premature ejaculation\31\elixirs
+264\premature ejaculation\22\syrups
+264\premature ejaculation\30\baths
+264\premature ejaculation\14\suppositories
+265\prostate inflammation\0\teas
+265\prostate inflammation\1\decoctions
+265\prostate inflammation\2\tinctures
+265\prostate inflammation\10\capsules
+265\prostate inflammation\16\tablets
+265\prostate inflammation\26\powders
+265\prostate inflammation\31\elixirs
+265\prostate inflammation\22\syrups
+265\prostate inflammation\23\salves
+265\prostate inflammation\11\ointments
+265\prostate inflammation\13\creams
+265\prostate inflammation\28\lotions
+265\prostate inflammation\17\balms
+267\amenorrhea\0\teas
+267\amenorrhea\1\decoctions
+267\amenorrhea\2\tinctures
+267\amenorrhea\10\capsules
+267\amenorrhea\26\powders
+267\amenorrhea\22\syrups
+267\amenorrhea\31\elixirs
+267\amenorrhea\23\salves
+267\amenorrhea\11\ointments
+267\amenorrhea\13\creams
+267\amenorrhea\17\balms
+267\amenorrhea\9\gels
+268\premenstrual syndrome\0\teas
+268\premenstrual syndrome\2\tinctures
+268\premenstrual syndrome\10\capsules
+268\premenstrual syndrome\16\tablets
+268\premenstrual syndrome\1\decoctions
+268\premenstrual syndrome\23\salves
+268\premenstrual syndrome\11\ointments
+268\premenstrual syndrome\13\creams
+268\premenstrual syndrome\28\lotions
+268\premenstrual syndrome\22\syrups
+268\premenstrual syndrome\31\elixirs
+268\premenstrual syndrome\8\lozenges
+268\premenstrual syndrome\25\poultices
+268\premenstrual syndrome\24\compresses
+268\premenstrual syndrome\14\suppositories
+269\menopause\0\teas
+269\menopause\1\decoctions
+269\menopause\2\tinctures
+269\menopause\10\capsules
+269\menopause\16\tablets
+269\menopause\26\powders
+269\menopause\31\elixirs
+269\menopause\22\syrups
+269\menopause\13\creams
+269\menopause\11\ointments
+269\menopause\23\salves
+271\uterine fibroids\0\teas
+271\uterine fibroids\1\decoctions
+271\uterine fibroids\2\tinctures
+271\uterine fibroids\10\capsules
+271\uterine fibroids\16\tablets
+271\uterine fibroids\22\syrups
+271\uterine fibroids\31\elixirs
+271\uterine fibroids\25\poultices
+271\uterine fibroids\24\compresses
+271\uterine fibroids\23\salves
+271\uterine fibroids\9\gels
+271\uterine fibroids\37\oils
+271\uterine fibroids\13\creams
+271\uterine fibroids\17\balms
+271\uterine fibroids\27\liniments
+271\uterine fibroids\14\suppositories
+272\endometriosis\0\teas
+272\endometriosis\1\decoctions
+272\endometriosis\2\tinctures
+272\endometriosis\10\capsules
+272\endometriosis\26\powders
+272\endometriosis\23\salves
+272\endometriosis\17\balms
+272\endometriosis\37\oils
+272\endometriosis\13\creams
+272\endometriosis\9\gels
+272\endometriosis\14\suppositories
+272\endometriosis\22\syrups
+272\endometriosis\31\elixirs
+274\benign prostatic hypertrophy\0\teas
+274\benign prostatic hypertrophy\1\decoctions
+274\benign prostatic hypertrophy\2\tinctures
+274\benign prostatic hypertrophy\10\capsules
+274\benign prostatic hypertrophy\16\tablets
+274\benign prostatic hypertrophy\25\poultices
+274\benign prostatic hypertrophy\24\compresses
+274\benign prostatic hypertrophy\23\salves
+274\benign prostatic hypertrophy\11\ointments
+274\benign prostatic hypertrophy\13\creams
+274\benign prostatic hypertrophy\9\gels
+274\benign prostatic hypertrophy\28\lotions
+274\benign prostatic hypertrophy\14\suppositories
+274\benign prostatic hypertrophy\31\elixirs
+274\benign prostatic hypertrophy\22\syrups
+275\endometriosis pain\0\teas
+275\endometriosis pain\1\decoctions
+275\endometriosis pain\2\tinctures
+275\endometriosis pain\10\capsules
+275\endometriosis pain\14\suppositories
+275\endometriosis pain\23\salves
+275\endometriosis pain\11\ointments
+275\endometriosis pain\13\creams
+275\endometriosis pain\9\gels
+275\endometriosis pain\25\poultices
+275\endometriosis pain\24\compresses
+275\endometriosis pain\22\syrups
+275\endometriosis pain\31\elixirs
+280\hormonal imbalance\0\teas
+280\hormonal imbalance\1\decoctions
+280\hormonal imbalance\2\tinctures
+280\hormonal imbalance\22\syrups
+280\hormonal imbalance\23\salves
+280\hormonal imbalance\10\capsules
+280\hormonal imbalance\16\tablets
+280\hormonal imbalance\13\creams
+280\hormonal imbalance\11\ointments
+280\hormonal imbalance\25\poultices
+280\hormonal imbalance\30\baths
+280\hormonal imbalance\24\compresses
+281\hot flashes\0\teas
+281\hot flashes\2\tinctures
+281\hot flashes\1\decoctions
+281\hot flashes\23\salves
+281\hot flashes\17\balms
+281\hot flashes\13\creams
+281\hot flashes\28\lotions
+281\hot flashes\10\capsules
+281\hot flashes\16\tablets
+281\hot flashes\26\powders
+281\hot flashes\22\syrups
+281\hot flashes\31\elixirs
+281\hot flashes\15\glycerites
+282\hypothyroidism\0\teas
+282\hypothyroidism\1\decoctions
+282\hypothyroidism\2\tinctures
+282\hypothyroidism\10\capsules
+282\hypothyroidism\16\tablets
+282\hypothyroidism\11\ointments
+282\hypothyroidism\23\salves
+282\hypothyroidism\13\creams
+282\hypothyroidism\31\elixirs
+282\hypothyroidism\22\syrups
+282\hypothyroidism\26\powders
+282\hypothyroidism\18\macerations
+283\hyperthyroidism\0\teas
+283\hyperthyroidism\1\decoctions
+283\hyperthyroidism\2\tinctures
+283\hyperthyroidism\10\capsules
+283\hyperthyroidism\16\tablets
+283\hyperthyroidism\26\powders
+283\hyperthyroidism\23\salves
+283\hyperthyroidism\11\ointments
+283\hyperthyroidism\13\creams
+283\hyperthyroidism\31\elixirs
+283\hyperthyroidism\22\syrups
+283\hyperthyroidism\15\glycerites
+286\adrenal fatigue\0\teas
+286\adrenal fatigue\2\tinctures
+286\adrenal fatigue\1\decoctions
+286\adrenal fatigue\10\capsules
+286\adrenal fatigue\16\tablets
+286\adrenal fatigue\22\syrups
+286\adrenal fatigue\31\elixirs
+286\adrenal fatigue\23\salves
+286\adrenal fatigue\11\ointments
+286\adrenal fatigue\13\creams
+286\adrenal fatigue\25\poultices
+286\adrenal fatigue\24\compresses
+273\fibrocystic breast disease\0\teas
+273\fibrocystic breast disease\1\decoctions
+273\fibrocystic breast disease\2\tinctures
+273\fibrocystic breast disease\10\capsules
+273\fibrocystic breast disease\16\tablets
+273\fibrocystic breast disease\25\poultices
+273\fibrocystic breast disease\23\salves
+273\fibrocystic breast disease\13\creams
+273\fibrocystic breast disease\11\ointments
+273\fibrocystic breast disease\14\suppositories
+273\fibrocystic breast disease\22\syrups
+301\enlarged spleen\0\teas
+301\enlarged spleen\1\decoctions
+301\enlarged spleen\2\tinctures
+301\enlarged spleen\22\syrups
+301\enlarged spleen\23\salves
+301\enlarged spleen\11\ointments
+301\enlarged spleen\13\creams
+301\enlarged spleen\10\capsules
+301\enlarged spleen\16\tablets
+301\enlarged spleen\26\powders
+301\enlarged spleen\14\suppositories
+302\aging\0\teas
+302\aging\1\decoctions
+302\aging\2\tinctures
+302\aging\23\salves
+302\aging\11\ointments
+302\aging\13\creams
+302\aging\10\capsules
+302\aging\16\tablets
+302\aging\25\poultices
+302\aging\24\compresses
+302\aging\9\gels
+302\aging\17\balms
+302\aging\22\syrups
+302\aging\14\suppositories
+303\altitude sickness\0\teas
+303\altitude sickness\1\decoctions
+303\altitude sickness\2\tinctures
+303\altitude sickness\10\capsules
+303\altitude sickness\16\tablets
+303\altitude sickness\11\ointments
+303\altitude sickness\23\salves
+303\altitude sickness\13\creams
+303\altitude sickness\15\glycerites
+303\altitude sickness\22\syrups
+304\alzheimer’s disease\0\teas
+304\alzheimer’s disease\10\capsules
+304\alzheimer’s disease\2\tinctures
+304\alzheimer’s disease\1\decoctions
+304\alzheimer’s disease\37\oils
+304\alzheimer’s disease\23\salves
+304\alzheimer’s disease\13\creams
+304\alzheimer’s disease\25\poultices
+304\alzheimer’s disease\22\syrups
+304\alzheimer’s disease\31\elixirs
+304\alzheimer’s disease\17\balms
+304\alzheimer’s disease\27\liniments
+304\alzheimer’s disease\24\compresses
+305\angina\0\teas
+305\angina\1\decoctions
+305\angina\2\tinctures
+305\angina\10\capsules
+305\angina\16\tablets
+305\angina\26\powders
+305\angina\11\ointments
+305\angina\23\salves
+305\angina\13\creams
+305\angina\14\suppositories
+305\angina\8\lozenges
+305\angina\22\syrups
+305\angina\31\elixirs
+306\ankylosing spondylitis\0\teas
+306\ankylosing spondylitis\1\decoctions
+306\ankylosing spondylitis\2\tinctures
+306\ankylosing spondylitis\10\capsules
+306\ankylosing spondylitis\16\tablets
+306\ankylosing spondylitis\22\syrups
+306\ankylosing spondylitis\31\elixirs
+306\ankylosing spondylitis\11\ointments
+306\ankylosing spondylitis\23\salves
+306\ankylosing spondylitis\13\creams
+306\ankylosing spondylitis\25\poultices
+306\ankylosing spondylitis\24\compresses
+306\ankylosing spondylitis\30\baths
+307\baldness\0\teas
+307\baldness\2\tinctures
+307\baldness\1\decoctions
+307\baldness\23\salves
+307\baldness\11\ointments
+307\baldness\13\creams
+307\baldness\9\gels
+307\baldness\28\lotions
+307\baldness\10\capsules
+307\baldness\16\tablets
+307\baldness\21\essential oils
+307\baldness\22\syrups
+307\baldness\25\poultices
+307\baldness\24\compresses
+308\bladder infection\0\teas
+308\bladder infection\1\decoctions
+308\bladder infection\2\tinctures
+308\bladder infection\23\salves
+308\bladder infection\25\poultices
+308\bladder infection\22\syrups
+308\bladder infection\10\capsules
+308\bladder infection\16\tablets
+308\bladder infection\14\suppositories
+308\bladder infection\13\creams
+308\bladder infection\11\ointments
+308\bladder infection\27\liniments
+308\bladder infection\15\glycerites
+309\body odor\0\teas
+309\body odor\1\decoctions
+309\body odor\2\tinctures
+309\body odor\23\salves
+309\body odor\17\balms
+309\body odor\13\creams
+309\body odor\25\poultices
+309\body odor\24\compresses
+309\body odor\10\capsules
+309\body odor\16\tablets
+309\body odor\26\powders
+309\body odor\22\syrups
+311\bruises\0\teas
+311\bruises\1\decoctions
+311\bruises\2\tinctures
+311\bruises\23\salves
+311\bruises\37\oils
+311\bruises\17\balms
+311\bruises\13\creams
+311\bruises\9\gels
+311\bruises\25\poultices
+311\bruises\24\compresses
+311\bruises\10\capsules
+311\bruises\16\tablets
+311\bruises\31\elixirs
+311\bruises\22\syrups
+311\bruises\28\lotions
+312\bunion\0\teas
+312\bunion\2\tinctures
+312\bunion\1\decoctions
+312\bunion\23\salves
+312\bunion\11\ointments
+312\bunion\13\creams
+312\bunion\9\gels
+312\bunion\25\poultices
+312\bunion\24\compresses
+312\bunion\10\capsules
+312\bunion\16\tablets
+312\bunion\31\elixirs
+312\bunion\22\syrups
+312\bunion\27\liniments
+313\burns\0\teas
+313\burns\1\decoctions
+313\burns\23\salves
+313\burns\11\ointments
+313\burns\13\creams
+313\burns\9\gels
+313\burns\2\tinctures
+313\burns\25\poultices
+313\burns\24\compresses
+313\burns\27\liniments
+314\wheezing\0\teas
+314\wheezing\1\decoctions
+314\wheezing\2\tinctures
+314\wheezing\22\syrups
+314\wheezing\11\ointments
+314\wheezing\23\salves
+314\wheezing\10\capsules
+314\wheezing\16\tablets
+314\wheezing\28\lotions
+314\wheezing\13\creams
+314\wheezing\9\gels
+314\wheezing\25\poultices
+314\wheezing\24\compresses
+315\shortness of breath\0\teas
+315\shortness of breath\1\decoctions
+315\shortness of breath\2\tinctures
+315\shortness of breath\10\capsules
+315\shortness of breath\16\tablets
+315\shortness of breath\22\syrups
+315\shortness of breath\23\salves
+315\shortness of breath\11\ointments
+315\shortness of breath\17\balms
+315\shortness of breath\13\creams
+315\shortness of breath\31\elixirs
+315\shortness of breath\33\electuaries
+316\chills\0\teas
+316\chills\1\decoctions
+316\chills\2\tinctures
+316\chills\22\syrups
+316\chills\23\salves
+316\chills\25\poultices
+316\chills\24\compresses
+316\chills\30\baths
+316\chills\10\capsules
+316\chills\16\tablets
+316\chills\9\gels
+316\chills\13\creams
+316\chills\11\ointments
+316\chills\17\balms
+316\chills\27\liniments
+317\loss of appetite\0\teas
+317\loss of appetite\1\decoctions
+317\loss of appetite\2\tinctures
+317\loss of appetite\10\capsules
+317\loss of appetite\16\tablets
+317\loss of appetite\22\syrups
+317\loss of appetite\31\elixirs
+317\loss of appetite\23\salves
+317\loss of appetite\11\ointments
+317\loss of appetite\13\creams
+317\loss of appetite\9\gels
+317\loss of appetite\26\powders
+317\loss of appetite\8\lozenges
+317\loss of appetite\14\suppositories
+318\difficulty swallowing\0\teas
+318\difficulty swallowing\1\decoctions
+318\difficulty swallowing\2\tinctures
+318\difficulty swallowing\22\syrups
+318\difficulty swallowing\15\glycerites
+318\difficulty swallowing\11\ointments
+318\difficulty swallowing\23\salves
+318\difficulty swallowing\13\creams
+318\difficulty swallowing\17\balms
+318\difficulty swallowing\28\lotions
+318\difficulty swallowing\31\elixirs
+318\difficulty swallowing\10\capsules
+318\difficulty swallowing\16\tablets
+318\difficulty swallowing\14\suppositories
+319\inflamed gums\0\teas
+319\inflamed gums\1\decoctions
+319\inflamed gums\2\tinctures
+319\inflamed gums\23\salves
+319\inflamed gums\37\oils
+319\inflamed gums\22\syrups
+319\inflamed gums\9\gels
+319\inflamed gums\13\creams
+319\inflamed gums\10\capsules
+319\inflamed gums\16\tablets
+319\inflamed gums\25\poultices
+319\inflamed gums\24\compresses
+319\inflamed gums\31\elixirs
+319\inflamed gums\11\ointments
+320\white tongue\0\teas
+320\white tongue\1\decoctions
+320\white tongue\2\tinctures
+320\white tongue\23\salves
+320\white tongue\11\ointments
+320\white tongue\13\creams
+320\white tongue\25\poultices
+320\white tongue\10\capsules
+320\white tongue\16\tablets
+320\white tongue\8\lozenges
+320\white tongue\9\gels
+320\white tongue\17\balms
+320\white tongue\22\syrups
+320\white tongue\31\elixirs
+320\white tongue\36\hydrosols
+320\white tongue\33\electuaries
+321\bad taste\0\teas
+321\bad taste\1\decoctions
+321\bad taste\2\tinctures
+321\bad taste\23\salves
+321\bad taste\7\gargles
+321\bad taste\3\mouthwashes
+321\bad taste\22\syrups
+321\bad taste\31\elixirs
+321\bad taste\10\capsules
+321\bad taste\16\tablets
+321\bad taste\14\suppositories
+322\taste changes\0\teas
+322\taste changes\1\decoctions
+322\taste changes\2\tinctures
+322\taste changes\23\salves
+322\taste changes\37\oils
+322\taste changes\10\capsules
+322\taste changes\16\tablets
+322\taste changes\25\poultices
+322\taste changes\7\gargles
+322\taste changes\3\mouthwashes
+322\taste changes\14\suppositories
+322\taste changes\13\creams
+322\taste changes\28\lotions
+323\dental plaque\0\teas
+323\dental plaque\1\decoctions
+323\dental plaque\2\tinctures
+323\dental plaque\26\powders
+323\dental plaque\10\capsules
+323\dental plaque\16\tablets
+323\dental plaque\9\gels
+323\dental plaque\37\oils
+323\dental plaque\13\creams
+323\dental plaque\23\salves
+323\dental plaque\12\pastes
+323\dental plaque\22\syrups
+323\dental plaque\31\elixirs
+324\tooth decay\0\teas
+324\tooth decay\1\decoctions
+324\tooth decay\2\tinctures
+324\tooth decay\23\salves
+324\tooth decay\9\gels
+324\tooth decay\11\ointments
+324\tooth decay\13\creams
+324\tooth decay\22\syrups
+324\tooth decay\10\capsules
+324\tooth decay\16\tablets
+324\tooth decay\26\powders
+325\dry nose\0\teas
+325\dry nose\1\decoctions
+325\dry nose\2\tinctures
+325\dry nose\11\ointments
+325\dry nose\23\salves
+325\dry nose\13\creams
+325\dry nose\17\balms
+325\dry nose\25\poultices
+325\dry nose\9\gels
+325\dry nose\22\syrups
+325\dry nose\21\essential oils
+326\inflamed mouth\0\teas
+326\inflamed mouth\1\decoctions
+326\inflamed mouth\2\tinctures
+326\inflamed mouth\10\capsules
+326\inflamed mouth\23\salves
+326\inflamed mouth\11\ointments
+326\inflamed mouth\13\creams
+326\inflamed mouth\9\gels
+326\inflamed mouth\22\syrups
+326\inflamed mouth\31\elixirs
+326\inflamed mouth\26\powders
+326\inflamed mouth\18\macerations
+327\difficulty chewing\0\teas
+327\difficulty chewing\1\decoctions
+327\difficulty chewing\2\tinctures
+327\difficulty chewing\23\salves
+327\difficulty chewing\11\ointments
+327\difficulty chewing\13\creams
+327\difficulty chewing\9\gels
+327\difficulty chewing\10\capsules
+327\difficulty chewing\16\tablets
+327\difficulty chewing\31\elixirs
+327\difficulty chewing\22\syrups
+327\difficulty chewing\27\liniments
+328\speech difficulty\0\teas
+328\speech difficulty\1\decoctions
+328\speech difficulty\2\tinctures
+328\speech difficulty\10\capsules
+328\speech difficulty\16\tablets
+328\speech difficulty\22\syrups
+328\speech difficulty\23\salves
+328\speech difficulty\13\creams
+328\speech difficulty\11\ointments
+328\speech difficulty\25\poultices
+328\speech difficulty\12\pastes
+328\speech difficulty\8\lozenges
+328\speech difficulty\5\sprays
+329\lymph node swelling\0\teas
+329\lymph node swelling\1\decoctions
+329\lymph node swelling\2\tinctures
+329\lymph node swelling\22\syrups
+329\lymph node swelling\10\capsules
+329\lymph node swelling\26\powders
+329\lymph node swelling\11\ointments
+329\lymph node swelling\23\salves
+329\lymph node swelling\17\balms
+329\lymph node swelling\9\gels
+329\lymph node swelling\13\creams
+329\lymph node swelling\25\poultices
+329\lymph node swelling\24\compresses
+329\lymph node swelling\14\suppositories
+330\white patches in month\0\teas
+330\white patches in month\1\decoctions
+330\white patches in month\2\tinctures
+330\white patches in month\23\salves
+330\white patches in month\37\oils
+330\white patches in month\17\balms
+330\white patches in month\9\gels
+330\white patches in month\13\creams
+330\white patches in month\28\lotions
+330\white patches in month\25\poultices
+330\white patches in month\24\compresses
+330\white patches in month\10\capsules
+330\white patches in month\16\tablets
+330\white patches in month\22\syrups
+331\taste loss\0\teas
+331\taste loss\1\decoctions
+331\taste loss\2\tinctures
+331\taste loss\22\syrups
+331\taste loss\31\elixirs
+331\taste loss\23\salves
+331\taste loss\37\oils
+331\taste loss\15\glycerites
+331\taste loss\10\capsules
+331\taste loss\16\tablets
+331\taste loss\26\powders
+332\reddened corners in mouth\0\teas
+332\reddened corners in mouth\1\decoctions
+332\reddened corners in mouth\2\tinctures
+332\reddened corners in mouth\25\poultices
+332\reddened corners in mouth\23\salves
+332\reddened corners in mouth\11\ointments
+332\reddened corners in mouth\13\creams
+332\reddened corners in mouth\28\lotions
+332\reddened corners in mouth\31\elixirs
+332\reddened corners in mouth\22\syrups
+332\reddened corners in mouth\10\capsules
+332\reddened corners in mouth\16\tablets
+332\reddened corners in mouth\15\glycerites
+333\difficulty eating\0\teas
+333\difficulty eating\1\decoctions
+333\difficulty eating\2\tinctures
+333\difficulty eating\22\syrups
+333\difficulty eating\31\elixirs
+333\difficulty eating\23\salves
+333\difficulty eating\9\gels
+333\difficulty eating\13\creams
+333\difficulty eating\37\oils
+333\difficulty eating\17\balms
+333\difficulty eating\10\capsules
+333\difficulty eating\24\compresses
+333\difficulty eating\25\poultices
+334\painful swallowing\0\teas
+334\painful swallowing\1\decoctions
+334\painful swallowing\2\tinctures
+334\painful swallowing\22\syrups
+334\painful swallowing\23\salves
+334\painful swallowing\11\ointments
+334\painful swallowing\25\poultices
+334\painful swallowing\10\capsules
+334\painful swallowing\16\tablets
+334\painful swallowing\14\suppositories
+334\painful swallowing\13\creams
+334\painful swallowing\9\gels
+334\painful swallowing\27\liniments
+334\painful swallowing\24\compresses
+334\painful swallowing\30\baths
+335\bleeding spots in mouth\0\teas
+335\bleeding spots in mouth\1\decoctions
+335\bleeding spots in mouth\2\tinctures
+335\bleeding spots in mouth\23\salves
+335\bleeding spots in mouth\11\ointments
+335\bleeding spots in mouth\13\creams
+335\bleeding spots in mouth\9\gels
+335\bleeding spots in mouth\25\poultices
+335\bleeding spots in mouth\10\capsules
+335\bleeding spots in mouth\16\tablets
+335\bleeding spots in mouth\31\elixirs
+335\bleeding spots in mouth\22\syrups
+335\bleeding spots in mouth\24\compresses
+335\bleeding spots in mouth\14\suppositories
+336\dry cough\0\teas
+336\dry cough\1\decoctions
+336\dry cough\2\tinctures
+336\dry cough\22\syrups
+336\dry cough\31\elixirs
+336\dry cough\23\salves
+336\dry cough\9\gels
+336\dry cough\10\capsules
+336\dry cough\16\tablets
+336\dry cough\25\poultices
+336\dry cough\24\compresses
+337\throat congestion\0\teas
+337\throat congestion\2\tinctures
+337\throat congestion\1\decoctions
+337\throat congestion\22\syrups
+337\throat congestion\31\elixirs
+337\throat congestion\23\salves
+337\throat congestion\7\gargles
+337\throat congestion\8\lozenges
+337\throat congestion\25\poultices
+337\throat congestion\24\compresses
+337\throat congestion\10\capsules
+337\throat congestion\16\tablets
+337\throat congestion\11\ointments
+338\difficult speaking\0\teas
+338\difficult speaking\1\decoctions
+338\difficult speaking\2\tinctures
+338\difficult speaking\31\elixirs
+338\difficult speaking\22\syrups
+338\difficult speaking\23\salves
+338\difficult speaking\25\poultices
+338\difficult speaking\10\capsules
+338\difficult speaking\16\tablets
+338\difficult speaking\11\ointments
+338\difficult speaking\13\creams
+338\difficult speaking\9\gels
+338\difficult speaking\14\suppositories
+339\feverish feeling\0\teas
+339\feverish feeling\1\decoctions
+339\feverish feeling\2\tinctures
+339\feverish feeling\23\salves
+339\feverish feeling\25\poultices
+339\feverish feeling\37\oils
+339\feverish feeling\13\creams
+339\feverish feeling\10\capsules
+339\feverish feeling\16\tablets
+339\feverish feeling\22\syrups
+339\feverish feeling\33\electuaries
+339\feverish feeling\18\macerations
+340\tickling throat\0\teas
+340\tickling throat\1\decoctions
+340\tickling throat\2\tinctures
+340\tickling throat\22\syrups
+340\tickling throat\23\salves
+340\tickling throat\25\poultices
+340\tickling throat\10\capsules
+340\tickling throat\16\tablets
+340\tickling throat\9\gels
+340\tickling throat\13\creams
+340\tickling throat\11\ointments
+340\tickling throat\27\liniments
+340\tickling throat\31\elixirs
+341\throat redness\0\teas
+341\throat redness\1\decoctions
+341\throat redness\2\tinctures
+341\throat redness\31\elixirs
+341\throat redness\22\syrups
+341\throat redness\23\salves
+341\throat redness\7\gargles
+341\throat redness\3\mouthwashes
+341\throat redness\25\poultices
+341\throat redness\24\compresses
+342\throat irritation\0\teas
+342\throat irritation\1\decoctions
+342\throat irritation\2\tinctures
+342\throat irritation\22\syrups
+342\throat irritation\23\salves
+342\throat irritation\9\gels
+342\throat irritation\37\oils
+342\throat irritation\13\creams
+342\throat irritation\28\lotions
+342\throat irritation\10\capsules
+342\throat irritation\16\tablets
+342\throat irritation\31\elixirs
+342\throat irritation\18\macerations
+345\burping\0\teas
+345\burping\1\decoctions
+345\burping\2\tinctures
+345\burping\22\syrups
+345\burping\23\salves
+345\burping\13\creams
+345\burping\11\ointments
+345\burping\27\liniments
+345\burping\25\poultices
+345\burping\24\compresses
+345\burping\10\capsules
+345\burping\16\tablets
+345\burping\8\lozenges
+345\burping\31\elixirs
+347\stomach discomfort\0\teas
+347\stomach discomfort\1\decoctions
+347\stomach discomfort\2\tinctures
+347\stomach discomfort\10\capsules
+347\stomach discomfort\16\tablets
+347\stomach discomfort\23\salves
+347\stomach discomfort\9\gels
+347\stomach discomfort\11\ointments
+347\stomach discomfort\14\suppositories
+347\stomach discomfort\22\syrups
+347\stomach discomfort\31\elixirs
+347\stomach discomfort\25\poultices
+347\stomach discomfort\24\compresses
+348\coughing fits\0\teas
+348\coughing fits\1\decoctions
+348\coughing fits\2\tinctures
+348\coughing fits\22\syrups
+348\coughing fits\33\electuaries
+348\coughing fits\7\gargles
+348\coughing fits\3\mouthwashes
+348\coughing fits\23\salves
+348\coughing fits\11\ointments
+348\coughing fits\25\poultices
+348\coughing fits\24\compresses
+348\coughing fits\10\capsules
+348\coughing fits\16\tablets
+349\stomach growling\0\teas
+349\stomach growling\2\tinctures
+349\stomach growling\1\decoctions
+349\stomach growling\23\salves
+349\stomach growling\13\creams
+349\stomach growling\10\capsules
+349\stomach growling\16\tablets
+349\stomach growling\31\elixirs
+349\stomach growling\22\syrups
+349\stomach growling\8\lozenges
+349\stomach growling\33\electuaries
+350\upper abdominal pain\0\teas
+350\upper abdominal pain\1\decoctions
+350\upper abdominal pain\2\tinctures
+350\upper abdominal pain\10\capsules
+350\upper abdominal pain\16\tablets
+350\upper abdominal pain\23\salves
+350\upper abdominal pain\37\oils
+350\upper abdominal pain\13\creams
+350\upper abdominal pain\17\balms
+350\upper abdominal pain\25\poultices
+350\upper abdominal pain\24\compresses
+350\upper abdominal pain\14\suppositories
+343\sour taste in mouth\0\teas
+343\sour taste in mouth\1\decoctions
+343\sour taste in mouth\2\tinctures
+343\sour taste in mouth\23\salves
+343\sour taste in mouth\11\ointments
+343\sour taste in mouth\13\creams
+343\sour taste in mouth\28\lotions
+343\sour taste in mouth\25\poultices
+343\sour taste in mouth\7\gargles
+343\sour taste in mouth\3\mouthwashes
+343\sour taste in mouth\22\syrups
+343\sour taste in mouth\31\elixirs
+344\bitter taste in mouth\0\teas
+344\bitter taste in mouth\1\decoctions
+344\bitter taste in mouth\2\tinctures
+344\bitter taste in mouth\10\capsules
+344\bitter taste in mouth\16\tablets
+344\bitter taste in mouth\22\syrups
+344\bitter taste in mouth\23\salves
+344\bitter taste in mouth\11\ointments
+344\bitter taste in mouth\13\creams
+344\bitter taste in mouth\9\gels
+344\bitter taste in mouth\14\suppositories
+344\bitter taste in mouth\8\lozenges
+344\bitter taste in mouth\3\mouthwashes
+344\bitter taste in mouth\7\gargles
+344\bitter taste in mouth\25\poultices
+346\regurgitation\0\teas
+346\regurgitation\1\decoctions
+346\regurgitation\2\tinctures
+346\regurgitation\22\syrups
+346\regurgitation\31\elixirs
+346\regurgitation\23\salves
+346\regurgitation\10\capsules
+346\regurgitation\16\tablets
+346\regurgitation\37\oils
+346\regurgitation\13\creams
+346\regurgitation\9\gels
+346\regurgitation\28\lotions
+346\regurgitation\25\poultices
+346\regurgitation\24\compresses
+346\regurgitation\18\macerations

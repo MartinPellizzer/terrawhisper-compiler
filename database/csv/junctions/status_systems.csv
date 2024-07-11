@@ -220,3 +220,74 @@ status_id\status_name\system_id\system_name
 250\hematuria\7\urinary system
 251\edema\13\lymphatic system
 254\fluid retention\7\urinary system
+256\breastfeeding breast pain\8\reproductive system
+257\erectile dysfunction\8\reproductive system
+258\low sperm count\8\reproductive system
+259\menstrual cramps\8\reproductive system
+260\morning sickness\0\digestive system
+261\ovulation pain\8\reproductive system
+262\over bleeding during periods\8\reproductive system
+263\period cramps\8\reproductive system
+264\premature ejaculation\8\reproductive system
+265\prostate inflammation\7\urinary system
+267\amenorrhea\8\reproductive system
+268\premenstrual syndrome\8\reproductive system
+269\menopause\8\reproductive system
+271\uterine fibroids\8\reproductive system
+272\endometriosis\8\reproductive system
+273\fibrocystic breast disease\8\reproductive system
+274\benign prostatic hypertrophy\7\urinary system
+275\endometriosis pain\8\reproductive system
+280\hormonal imbalance\9\endocrine system
+281\hot flashes\9\endocrine system
+282\hypothyroidism\9\endocrine system
+283\hyperthyroidism\9\endocrine system
+286\adrenal fatigue\9\endocrine system
+301\enlarged spleen\6\immune system
+302\aging\9\endocrine system
+303\altitude sickness\1\respiratory system
+304\alzheimer’s disease\5\nervous system
+305\angina\2\cardiovascular system
+306\ankylosing spondylitis\3\musculoskeletal system
+307\baldness\4\integumentary system
+308\bladder infection\7\urinary system
+309\body odor\4\integumentary system
+311\bruises\4\integumentary system
+312\bunion\3\musculoskeletal system
+313\burns\4\integumentary system
+314\wheezing\1\respiratory system
+315\shortness of breath\1\respiratory system
+316\chills\5\nervous system
+317\loss of appetite\0\digestive system
+318\difficulty swallowing\0\digestive system
+319\inflamed gums\6\immune system
+320\white tongue\4\integumentary system
+321\bad taste\5\nervous system
+322\taste changes\5\nervous system
+324\tooth decay\4\integumentary system
+325\dry nose\1\respiratory system
+327\difficulty chewing\3\musculoskeletal system
+328\speech difficulty\5\nervous system
+329\lymph node swelling\13\lymphatic system
+330\white patches in month\4\integumentary system
+331\taste loss\5\nervous system
+332\reddened corners in mouth\4\integumentary system
+333\difficulty eating\0\digestive system
+334\painful swallowing\0\digestive system
+336\dry cough\1\respiratory system
+337\throat congestion\1\respiratory system
+338\difficult speaking\5\nervous system
+339\feverish feeling\6\immune system
+340\tickling throat\1\respiratory system
+341\throat redness\1\respiratory system
+342\throat irritation\1\respiratory system
+343\sour taste in mouth\0\digestive system
+344\bitter taste in mouth\0\digestive system
+345\burping\0\digestive system
+347\stomach discomfort\0\digestive system
+348\coughing fits\1\respiratory system
+349\stomach growling\0\digestive system
+350\upper abdominal pain\0\digestive system
+323\dental plaque\4\integumentary system
+326\inflamed mouth\4\integumentary system
+335\bleeding spots in mouth\4\integumentary system
