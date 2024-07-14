@@ -50,6 +50,12 @@ def status_herbs():
     rows = rows[1:]
     return rows, cols
 
+def status_preparations():
+    rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_FILEPATH)
+    cols = util.csv_get_cols(rows)
+    rows = rows[1:]
+    return rows, cols
+
 def status_preparations_teas():
     rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_TEAS_FILEPATH)
     cols = util.csv_get_cols(rows)

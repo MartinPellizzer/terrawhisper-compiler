@@ -1,30 +1,28 @@
 import os
-import random
 import requests
 import base64
 
 import g
 import util
+import data_csv
 
 vault_folderpath = '/home/ubuntu/vault'
-preparation_name = 'essential oil'
+preparation_name = 'tea'
 # images_teas_folderpath = f'{vault_folderpath}/images/teas'
 images_folderpath_out = f'{vault_folderpath}/images/{preparation_name}s'
 
-herbs_rows = util.csv_get_rows(g.CSV_HERBS_AUTO_FILEPATH)
-herbs_cols = util.csv_get_cols(herbs_rows)
-herbs_rows = herbs_rows[1:]
+herbs_rows, herbs_cols = data_csv.herbs()
 
 i = -1
-for herb_row in herbs_rows[:100]:
+for herb_row in herbs_rows[464:]:
     i += 1
     herb_slug = herb_row[herbs_cols['herb_slug']]
     herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']]
-    prompt = f'bottle of of {herb_name_scientific} {preparation_name} on a wooden table surrounded by medicinal herbs'
+    prompt = f'{herb_name_scientific} {preparation_name} on a wooden table surrounded by medicinal herbs'
     # prompt = f'bottle of {herb_name_scientific} {preparation_name} on a wooden table surrounded by medicinal herbs'
     prompt += f', style gothic, cinematic, high resolution, portrait, macro photography'
 
-    for j in range(100):
+    for j in range(10):
         print(f'{herb_name_scientific} {i}/{len(herbs_rows)} - iter: {j}/100')
         payload = {
             "prompt": prompt,
@@ -45,10 +43,16 @@ for herb_row in herbs_rows[:100]:
         if not os.path.exists(f'{images_folderpath_out}'): os.makedirs(f'{images_folderpath_out}')
         if not os.path.exists(f'{export_folder}'): os.makedirs(f'/{export_folder}')
 
-        export_filepath = f'{export_folder}/{j}.png'
+        images_filenames = os.listdir(export_folder)
+        id_max = 0
+        for image_filename in images_filenames:
+            if id_max < int(image_filename.split('.')[0]):
+                id_max = int(image_filename.split('.')[0])
+        id_next = id_max + 1
+
+        export_filepath = f'{export_folder}/{id_next}.png'
         with open(export_filepath, 'wb') as f:
             f.write(base64.b64decode(r['images'][0]))
 
-    
     print(herb_row)
 

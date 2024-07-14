@@ -5,6 +5,8 @@ import util
 import data_csv
 
 status_rows, status_cols = data_csv.status()
+systems_rows, systems_cols = data_csv.systems()
+preparations_rows, preparations_cols = data_csv.preparations()
 herbs_rows, herbs_cols = data_csv.herbs()
 herbs_names_common_rows, herbs_names_common_cols = data_csv.herbs_names_common()
 
@@ -53,7 +55,7 @@ def get_herbs_by_status(status_id):
             herbs_rows_filtered.append(herb_row)
     return herbs_rows_filtered
 
-def get_herbs_names_common_by_status(status_id, preparation_slug):
+def get_remedies_by_status(status_id, preparation_slug):
     # get rows of specific preparation for status
     status_remedies_rows_filtered = []
     if preparation_slug == 'teas':
@@ -101,4 +103,45 @@ def get_status_by_system(system_id):
         if status_id in junction_status_ids:
             status_rows_filtered.append(status_row)
     return status_rows_filtered
+
+def get_system_by_status(status_id):
+    system_row = []
+    status_systems_rows_filtered = util.csv_get_rows_filtered(
+        g.CSV_STATUS_SYSTEMS_FILEPATH, status_systems_cols['status_id'], status_id,
+    )
+    if status_systems_rows_filtered != []:
+        status_system_row = status_systems_rows_filtered[0]
+        system_id = status_system_row[status_systems_cols['system_id']]
+        systems_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_SYSTEMS_FILEPATH, systems_cols['system_id'], system_id,
+        )
+        if systems_rows_filtered != []:
+            system_row = systems_rows_filtered[0]
+    return system_row
+
+def get_preparations_by_status(status_id):
+    j_status_preparations_rows_filtered = util.csv_get_rows_filtered(
+        g.CSV_STATUS_PREPARATIONS_FILEPATH, j_status_preparations_cols['status_id'], status_id,
+    )
+    status_preparations_ids = [
+        row[j_status_preparations_cols['preparation_id']] 
+        for row in j_status_preparations_rows_filtered
+        if row[j_status_preparations_cols['status_id']] == status_id
+    ]
+    preparations_rows_filtered = []
+    for preparation_row in preparations_rows:
+        herb_id = preparation_row[preparations_cols['preparation_id']]
+        if herb_id in status_preparations_ids:
+            preparations_rows_filtered.append(preparation_row)
+    return preparations_rows_filtered
+
+def get_herb_common_name_by_id(herb_id):
+    herb_name_common = ''
+    for herb_name_common_row in herbs_names_common_rows:
+        _id = herb_name_common_row[herbs_names_common_cols['herb_id']]
+        _name_common = herb_name_common_row[herbs_names_common_cols['herb_name_common']]
+        if _id == herb_id:
+            herb_name_common = _name_common
+            break
+    return herb_name_common
 

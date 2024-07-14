@@ -1,3 +1,5 @@
+import random
+
 import g
 import util
 import data_csv
@@ -11,8 +13,6 @@ systems_rows = systems_rows[1:]
 
 
 # TABLES JUNCTIONS
-problems_systems_rows = util.csv_get_rows(g.CSV_PROBLEMS_SYSTEMS_FILEPATH)
-
 status_systems_rows = util.csv_get_rows(g.CSV_STATUS_SYSTEMS_FILEPATH)
 status_systems_cols = util.csv_get_cols(status_systems_rows)
 status_systems_rows = status_systems_rows[1:]
@@ -278,4 +278,118 @@ def test_preparations_recipe(preparation_slug, purge):
 # test_preparations('teas')
 # test_preparations_descriptions('teas', purge=False)
 # test_preparations_properties('teas')
-test_preparations_recipe('teas', purge=False)
+# test_preparations_recipe('teas', purge=False)
+
+#######################
+# ;preparations
+#######################
+
+def test_preparation__intro(preparation_slug):
+    VIEW_RANDOM_SAMPLE = False
+    VIEW_RANDOM_SAMPLE_NUM = 3
+    random_samples = []
+    intro_desc_missing = 0
+    intro_desc_words_max = 0
+    intro_desc_words_min = 9999
+    intro_desc_words_sum = 0
+    intro_desc_words_avg = 0
+    for status_row in status_rows:
+        status_exe = status_row[status_cols['status_exe']]
+        status_id = status_row[status_cols['status_id']]
+        status_slug = status_row[status_cols['status_slug']]
+        status_name = status_row[status_cols['status_names']].split(',')[0].strip()
+        if status_exe == '': continue
+        if status_id == '': continue
+        if status_slug == '': continue
+        if status_name == '': continue
+        system_row = get_system_by_status(status_id)
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+        json_filepath = f'database/json/remedies/{system_slug}/{status_slug}/{preparation_slug}.json'
+        data = util.json_read(json_filepath)
+        if 'intro_desc' in data:
+            intro_desc = data['intro_desc']
+            random_samples.append(intro_desc)
+            words = intro_desc.split(' ')
+            if intro_desc_words_max < len(words): intro_desc_words_max = len(words)
+            if intro_desc_words_min > len(words): intro_desc_words_min = len(words)
+            intro_desc_words_sum += len(words)
+        else:
+            intro_desc_missing += 1
+    intro_desc_words_avg = intro_desc_words_sum // len(status_rows)
+    print(f'intro_desc_missing: {intro_desc_missing}')
+    print(f'intro_desc_words_max: {intro_desc_words_max}')
+    print(f'intro_desc_words_min: {intro_desc_words_min}')
+    print(f'intro_desc_words_sum: {intro_desc_words_sum}')
+    print(f'intro_desc_words_avg: {intro_desc_words_avg}')
+    if VIEW_RANDOM_SAMPLE:
+        random.shuffle(random_samples) 
+        random_samples = random_samples[:VIEW_RANDOM_SAMPLE_NUM]
+        for item in random_samples:
+            print(f'\n{item}\n')
+    print()
+
+def test_preparation__remedy_desc(preparation_slug):
+    VIEW_RANDOM_SAMPLE = True
+    VIEW_RANDOM_SAMPLE_NUM = 3
+    random_samples = []
+    missing = 0
+    words_max = 0
+    words_min = 9999
+    words_sum = 0
+    words_avg = 0
+    for status_row in status_rows:
+        status_exe = status_row[status_cols['status_exe']]
+        status_id = status_row[status_cols['status_id']]
+        status_slug = status_row[status_cols['status_slug']]
+        status_name = status_row[status_cols['status_names']].split(',')[0].strip()
+        if status_exe == '': continue
+        if status_id == '': continue
+        if status_slug == '': continue
+        if status_name == '': continue
+        system_row = get_system_by_status(status_id)
+        system_id = system_row[systems_cols['system_id']]
+        system_slug = system_row[systems_cols['system_slug']]
+        system_name = system_row[systems_cols['system_name']]
+        if system_id == '': continue
+        if system_slug == '': continue
+        if system_name == '': continue
+        json_filepath = f'database/json/remedies/{system_slug}/{status_slug}/{preparation_slug}.json'
+        data = util.json_read(json_filepath)
+        if 'remedies_list' in data:
+            remedies_list = data['remedies_list']
+            for obj in remedies_list:
+                if 'remedy_desc' in obj:
+                    remedy_desc = obj['remedy_desc']
+                    random_samples.append(remedy_desc)
+                    words = remedy_desc.split(' ')
+                    if words_max < len(words): words_max = len(words)
+                    if words_min > len(words): words_min = len(words)
+                    words_sum += len(words)
+                else:
+                    missing += 1
+    words_avg = words_sum // (len(status_rows) * 10)
+    print(f'remedy_desc_missing: {missing}')
+    print(f'remedy_desc_words_max: {words_max}')
+    print(f'remedy_desc_words_min: {words_min}')
+    print(f'remedy_desc_words_sum: {words_sum}')
+    print(f'remedy_desc_words_avg: {words_avg}')
+    if VIEW_RANDOM_SAMPLE:
+        random.shuffle(random_samples) 
+        random_samples = random_samples[:VIEW_RANDOM_SAMPLE_NUM]
+        for item in random_samples:
+            print(f'\n{item}\n')
+    print()
+
+'''
+test_preparation__intro('teas')
+test_preparation__intro('tinctures')
+test_preparation__intro('decoctions')
+test_preparation__intro('essential-oils')
+test_preparation__intro('capsules')
+'''
+test_preparation__remedy_desc('teas')
