@@ -9,12 +9,12 @@ import data_csv
 vault_folderpath = '/home/ubuntu/vault'
 preparation_name = 'tea'
 # images_teas_folderpath = f'{vault_folderpath}/images/teas'
-images_folderpath_out = f'{vault_folderpath}/images/{preparation_name}s'
+images_folderpath_out = f'{vault_folderpath}/images/2x3/{preparation_name}s'
 
 herbs_rows, herbs_cols = data_csv.herbs()
 
 i = -1
-for herb_row in herbs_rows[464:]:
+for herb_row in herbs_rows:
     i += 1
     herb_slug = herb_row[herbs_cols['herb_slug']]
     herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']]
@@ -26,10 +26,10 @@ for herb_row in herbs_rows[464:]:
         print(f'{herb_name_scientific} {i}/{len(herbs_rows)} - iter: {j}/100')
         payload = {
             "prompt": prompt,
-            "width": 1024,
-            "height": 1024,
+            "width": 832,
+            "height": 1216,
             "steps": 30,
-            "cfg_scale": 7,
+            "cfg_scale": 6,
             "denoising_strength": 0.7,
             "sampler_name": "DPM++ 2M",
             "scheduler": "Karras",

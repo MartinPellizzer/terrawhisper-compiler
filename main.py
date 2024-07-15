@@ -2772,7 +2772,7 @@ def art_remedies():
 # #########################################################
 
 def main():
-    # page_home()
+    page_home()
     # page_privacy_policy()
     # page_cookie_policy()
     # page_herbalism()
@@ -2780,11 +2780,9 @@ def main():
     # page_plants(regen_csv=False)
     # page_about()
 
-    '''
     art_status()
     art_systems()
     art_remedies()
-    '''
 
     art_preparations('teas')
     art_preparations('tinctures')
@@ -2792,9 +2790,7 @@ def main():
     art_preparations('essential-oils')
     art_preparations('capsules')
 
-    '''
     main_herbs()
-    '''
 
 
     # sitemap.sitemap_all()
