@@ -17,6 +17,7 @@ status_preparations_tinctures_rows, status_preparations_tinctures_cols = data_cs
 status_preparations_decoctions_rows, status_preparations_decoctions_cols = data_csv.status_preparations_decoctions()
 status_preparations_essential_oils_rows, status_preparations_essential_oils_cols = data_csv.status_preparations_essential_oils()
 status_preparations_capsules_rows, status_preparations_capsules_cols = data_csv.status_preparations_capsules()
+status_preparations_creams_rows, status_preparations_creams_cols = data_csv.status_preparations_creams()
 
 def csv_get_rows(filepath, delimiter='\\'):
     rows = []
@@ -77,6 +78,10 @@ def get_remedies_by_status(status_id, preparation_slug):
     elif preparation_slug == 'capsules':
         status_remedies_rows_filtered = util.csv_get_rows_filtered(
             g.CSV_STATUS_PREPARATIONS_CAPSULES_FILEPATH, status_preparations_capsules_cols['status_id'], status_id,
+        )
+    elif preparation_slug == 'creams':
+        status_remedies_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_STATUS_PREPARATIONS_CREAMS_FILEPATH, status_preparations_creams_cols['status_id'], status_id,
         )
     remedies_rows_filtered = []
     for status_remedy_row in status_remedies_rows_filtered:

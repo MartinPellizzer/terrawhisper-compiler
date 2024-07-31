@@ -3,14 +3,14 @@ import time
 import g
 import util
 import utils_ai
+import data_csv
 
-herbs_rows = util.csv_get_rows(g.CSV_HERBS_FILEPATH)
-herbs_cols = util.csv_get_cols(herbs_rows)
-herbs_rows = herbs_rows[1:]
+model = 'Mistral-Nemo-Instruct-2407.Q8_0.gguf'
+# model = 'Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf'
+model = 'Meta-Llama-3.1-8B-Instruct-Q8_0.gguf'
 
-preparations_rows = util.csv_get_rows(g.CSV_PREPARATIONS_FILEPATH)
-preparations_cols = util.csv_get_cols(preparations_rows)
-preparations_rows = preparations_rows[1:]
+hebs_rows, herbs_cols = data_csv.herbs()
+preparations_rows, preparations_cols = data_csv.preparations()
 
 systems_rows = util.csv_get_rows(g.CSV_SYSTEMS_NEW_FILEPATH)
 systems_cols = util.csv_get_cols(systems_rows)
@@ -20,7 +20,7 @@ trefle_rows = util.csv_get_rows(g.CSV_TREFLE_FILEPATH)
 trefle_cols = util.csv_get_cols(trefle_rows)
 trefle_rows = trefle_rows[1:]
 
-herbs_rows = util.csv_get_rows(g.CSV_HERBS_AUTO_FILEPATH)
+herbs_rows = util.csv_get_rows(g.CSV_HERBS_FILEPATH)
 herbs_cols = util.csv_get_cols(herbs_rows)
 herbs_rows = herbs_rows[1:]
 
@@ -62,6 +62,10 @@ status_preparations_essential_oils_rows = util.csv_get_rows(g.CSV_STATUS_PREPARA
 status_preparations_essential_oils_cols = util.csv_get_cols(status_preparations_essential_oils_rows)
 status_preparations_essential_oils_rows = status_preparations_essential_oils_rows[1:]
 
+status_preparations_creams_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_CREAMS_FILEPATH)
+status_preparations_creams_cols = util.csv_get_cols(status_preparations_creams_rows)
+status_preparations_creams_rows = status_preparations_creams_rows[1:]
+
 status_preparations_capsules_rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_CAPSULES_FILEPATH)
 status_preparations_capsules_cols = util.csv_get_cols(status_preparations_capsules_rows)
 status_preparations_capsules_rows = status_preparations_capsules_rows[1:]
@@ -83,7 +87,7 @@ def herb_sanitize(line):
 
 
 def herbs_id_next():
-    herbs_rows = util.csv_get_rows(g.CSV_HERBS_AUTO_FILEPATH)
+    herbs_rows = util.csv_get_rows(g.CSV_HERBS_FILEPATH)
     herbs_cols = util.csv_get_cols(herbs_rows)
     herbs_rows = herbs_rows[1:]
 
@@ -98,7 +102,7 @@ def herbs_id_next():
 
 
 ##################################################################################
-# ;PREPARATIONS
+# ;preparations
 ##################################################################################
 
 def gen_preparations(preparation_slug):
@@ -114,7 +118,7 @@ def gen_preparations(preparation_slug):
         if status_name == '': continue
         prompts = [
             f'''
-                Write a numbered list of the 20 best herbal {preparation_name} for {status_name}.
+                Write a numbered list of the 20 best herbal {preparation_name} that help heal the following issue: {status_name}.
                 Follow the GUIDELINES below.
                 ## GUIDELINES
                 List only the herbs that are the most common, used, safe, and legal.
@@ -150,6 +154,11 @@ def gen_preparations(preparation_slug):
                 filepath = g.CSV_STATUS_PREPARATIONS_CAPSULES_FILEPATH
                 preparations_rows = util.csv_get_rows_filtered(
                     filepath, status_preparations_capsules_cols['status_id'], status_id
+                )
+            elif preparation_slug == 'creams':
+                filepath = g.CSV_STATUS_PREPARATIONS_CREAMS_FILEPATH
+                preparations_rows = util.csv_get_rows_filtered(
+                    filepath, status_preparations_creams_cols['status_id'], status_id
                 )
             else:
                 print('preparation not managed')
@@ -192,7 +201,7 @@ def gen_preparations(preparation_slug):
                         # check if herb is in database and has id, if not create
                         if not old_line_found:
                             herbs_rows_filtered = util.csv_get_rows_filtered(
-                                g.CSV_HERBS_AUTO_FILEPATH, herbs_cols['herb_slug'], trefle_slug
+                                g.CSV_HERBS_FILEPATH, herbs_cols['herb_slug'], trefle_slug
                             )
                             herb_id = 0
                             if herbs_rows_filtered != []:
@@ -201,7 +210,7 @@ def gen_preparations(preparation_slug):
                             else:
                                 herb_id = herbs_id_next()
                                 util.csv_add_rows(
-                                    g.CSV_HERBS_AUTO_FILEPATH, 
+                                    g.CSV_HERBS_FILEPATH, 
                                     [[herb_id, trefle_slug, trefle_name_scientific]]
                                 )
                             lines.append([status_id, status_slug, herb_id, trefle_slug])
@@ -213,12 +222,8 @@ def gen_preparations(preparation_slug):
                     print('***************************************************')
                     util.csv_add_rows(filepath, lines)
 
-
-
-
-
 ##################################################
-# ;STATUS
+# ;status
 ##################################################
 
 def gen_status__herbs():
@@ -240,7 +245,7 @@ def gen_status__herbs():
             print(f'> {status_row}')
             prompts = [
                 f'''
-                    Write a numbered list of the 20 best herbs for {status_name}.
+                    Write a numbered list of the 20 best herbs that help heal the following ailment: {status_name}.
                     GUIDELINES
                     List only the most common, used, safe, and legal herbs.
                     Don't list potentially poisonous herbs.
@@ -287,7 +292,7 @@ def gen_status__herbs():
                     # check if herb is in database and has id, if not create
                     if not old_line_found:
                         herbs_rows_filtered = util.csv_get_rows_filtered(
-                            g.CSV_HERBS_AUTO_FILEPATH, herbs_cols['herb_slug'], trefle_slug
+                            g.CSV_HERBS_FILEPATH, herbs_cols['herb_slug'], trefle_slug
                         )
                         herb_id = 0
                         if herbs_rows_filtered != []:
@@ -296,7 +301,7 @@ def gen_status__herbs():
                         else:
                             herb_id = herbs_id_next()
                             util.csv_add_rows(
-                                g.CSV_HERBS_AUTO_FILEPATH, 
+                                g.CSV_HERBS_FILEPATH, 
                                 [[herb_id, trefle_slug, trefle_name_scientific]]
                             )
                         lines.append([status_id, status_slug, herb_id, trefle_slug])
@@ -308,17 +313,15 @@ def gen_status__herbs():
                 print('***************************************************')
                 util.csv_add_rows(g.CSV_STATUS_HERBS_FILEPATH, lines)
 
-
-    
-        
-        
-
-
-
-
 ##################################################
-# ;HERBS
+# ;herbs
 ##################################################
+
+def csv_herbs_preparations():
+    rows = util.csv_get_rows(g.CSV_HERBS_PREPARATIONS_FILEPATH)
+    cols = util.csv_get_cols(rows)
+    rows = rows[1:]
+    return rows, cols
 
 def gen_herbs_medicine_benefits():
     for herb_row in herbs_rows:
@@ -326,26 +329,20 @@ def gen_herbs_medicine_benefits():
         herbs_benefits_cols = util.csv_get_cols(herbs_benefits_rows)
         herbs_benefits_headers = herbs_benefits_rows[0]
         herbs_benefits_rows = herbs_benefits_rows[1:]
-
         herb_id = herb_row[herbs_cols['herb_id']].strip().lower()
         herb_slug = herb_row[herbs_cols['herb_slug']].strip().lower()
         herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip().lower()
-
         if herb_id == '': continue
         if herb_slug == '': continue
         if herb_name_scientific == '': continue
-
         # print(f'> {herb_row}')
-
         herbs_names_common_rows_filtered = util.csv_get_rows_filtered(
             g.CSV_HERBS_NAMES_COMMON_FILEPATH, herbs_names_common_cols['herb_id'], herb_id
         )
         herb_name_common = herbs_names_common_rows_filtered[0][herbs_names_common_cols['herb_name_common']]
-
         herbs_benefits_rows_filtered = util.csv_get_rows_filtered(
             g.CSV_HERBS_BENEFITS_FILEPATH, herbs_benefits_cols['herb_id'], herb_id
         )
-
         # exists?
         if herbs_benefits_rows_filtered != []:
             # to remove?
@@ -355,29 +352,22 @@ def gen_herbs_medicine_benefits():
                 if len(benefit_name.split(' ')) > 5:
                     to_remove = True
                     break
-
             if to_remove:
                 herbs_benefits_rows_to_keep = [herbs_benefits_headers]
                 herbs_benefits_rows_to_remove = []
-
                 for herb_benefit_row in herbs_benefits_rows:
                     herb_id_to_filter = herb_benefit_row[herbs_benefits_cols['herb_id']]
                     if herb_id_to_filter == herb_id:
                         herbs_benefits_rows_to_remove.append(herb_benefit_row)
                     else:
                         herbs_benefits_rows_to_keep.append(herb_benefit_row)
-
                 util.csv_set_rows(g.CSV_HERBS_BENEFITS_FILEPATH, herbs_benefits_rows_to_keep)
-
-
-
         herbs_benefits_rows_filtered = util.csv_get_rows_filtered(
             g.CSV_HERBS_BENEFITS_FILEPATH, herbs_benefits_cols['herb_id'], herb_id
         )
-
         if herbs_benefits_rows_filtered == []:
             prompt = f'''
-                Write a numbered list of the 15 best health benefits of the herb {herb_name_common} ({herb_name_scientific}).
+                Write a numbered list of the 15 best health benefits of the herb {herb_name_scientific} ({herb_name_common}).
                 Write only the names of the benefits, not the descriptions.
                 Write as few words as possible.
                 Write each benefit in less than 5 words.
@@ -386,7 +376,6 @@ def gen_herbs_medicine_benefits():
                 Don't include the following words: can, may, might.
             '''
             reply = utils_ai.gen_reply(prompt)
-
             lines = []
             for line in reply.split('\n'):
                 line = line.strip().lower()
@@ -404,18 +393,212 @@ def gen_herbs_medicine_benefits():
                 if line == '': continue
                 if len(line.split(' ')) > 5: continue
                 lines.append([herb_id, herb_name_scientific, line])
-
             if len(lines) >= 10:
                 print('***************************************************')
                 print(lines)
                 print('***************************************************')
                 util.csv_add_rows(g.CSV_HERBS_BENEFITS_FILEPATH, lines)
-
             time.sleep(g.PROMPT_DELAY_TIME)
 
+def gen_herbs_medicine_constituents():
+    for herb_index, herb_row in enumerate(herbs_rows):
+        herb_id = herb_row[herbs_cols['herb_id']].strip().lower()
+        herb_slug = herb_row[herbs_cols['herb_slug']].strip().lower()
+        herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip().lower()
+        if herb_id == '': continue
+        if herb_slug == '': continue
+        if herb_name_scientific == '': continue
+        print(f'>> {herb_index}/{len(herbs_rows)}: {herb_row}')
+        herbs_constituents_rows, herbs_constituents_cols = data_csv.herbs_constituents()
+        herb_constituents_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_HERBS_CONSTITUENTS_FILEPATH, herbs_constituents_cols['herb_id'], herb_id
+        )
+        if herb_constituents_rows_filtered == []:
+            prompt = f'''
+                # MEDICINAL CONSTITUENT
+                Write a numbered list of the 15 most important medicinal constituents of the herb {herb_name_scientific}.
+                Follow the GUIDELINES below.
+                ## GUIDELINES
+                - Write the names of the constituents and explain in a extremely short sentence what each constituent does
+                - Each list item must follow this structure: "[name]: [description]"
+                - Write as few words as possible
+                - Order the constituents by the most important
+                - Don't include the name of the herb in the constituent
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip().lower()
+                if line == '': continue
+                if not line[0].isdigit(): continue
+                if ':' not in line: continue
+                if '.' not in line: continue
+                line = '.'.join(line.split('.')[1:])
+                line = line.split(':')[0]
+                if line == '': continue
+                line = line.strip()
+                if len(line.split(' ')) > 3: continue
+                lines.append([herb_id, herb_name_scientific, line])
+            if len(lines) >= 10:
+                print('***************************************************')
+                print(lines)
+                print('***************************************************')
+                util.csv_add_rows(g.CSV_HERBS_CONSTITUENTS_FILEPATH, lines)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+def gen_herbs_medicine_preparations():
+    for herb_index, herb_row in enumerate(herbs_rows):
+        herb_id = herb_row[herbs_cols['herb_id']].strip().lower()
+        herb_slug = herb_row[herbs_cols['herb_slug']].strip().lower()
+        herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip().lower()
+        if herb_id == '': continue
+        if herb_slug == '': continue
+        if herb_name_scientific == '': continue
+        print(f'>> {herb_index}/{len(herbs_rows)}: {herb_row}')
+        herbs_preparations_rows, herbs_preparations_cols = csv_herbs_preparations()
+        herb_preparations_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_HERBS_PREPARATIONS_FILEPATH, herbs_preparations_cols['herb_id'], herb_id
+        )
+        if herb_preparations_rows_filtered == []:
+            prompt = f'''
+                # MEDICINAL PREPARATIONS
+                Write a numbered list of the 15 best medicinal preparations of the herb {herb_name_scientific}.
+                Follow the GUIDELINES below.
+                ## GUIDELINES
+                - Write only the names of the preparations using the plural form
+                - Write as few words as possible.
+                - Examples of medicinal preparations are: teas, tinctures, decoctions, etc...
+                - Don't include the name of the herb in the preparation
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip().lower()
+                if line == '': continue
+                if 'infusions' in line: continue
+                if '-' in line: continue
+                if ':' in line: continue
+                if not line[0].isdigit(): continue
+                if '.' not in line: continue
+                line = '.'.join(line.split('.')[1:])
+                if line == '': continue
+                line = line.strip()
+                if len(line.split(' ')) > 3: continue
+                preparations_names = [row[preparations_cols['preparation_name']] for row in preparations_rows]
+                found = False
+                for preparation_name in preparations_names:
+                    if preparation_name.lower().strip() == line.lower().strip():
+                        found = True
+                if found:
+                    lines.append([herb_id, herb_name_scientific, line])
+            if len(lines) >= 10:
+                print('***************************************************')
+                print(lines)
+                print('***************************************************')
+                util.csv_add_rows(g.CSV_HERBS_PREPARATIONS_FILEPATH, lines)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+def gen_herbs_medicine_side_effects():
+    for herb_index, herb_row in enumerate(herbs_rows):
+        herb_id = herb_row[herbs_cols['herb_id']].strip().lower()
+        herb_slug = herb_row[herbs_cols['herb_slug']].strip().lower()
+        herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip().lower()
+        if herb_id == '': continue
+        if herb_slug == '': continue
+        if herb_name_scientific == '': continue
+        print(f'>> {herb_index}/{len(herbs_rows)}: {herb_row}')
+        herbs_side_effects_rows, herbs_side_effects_cols = data_csv.herbs_side_effects()
+        herb_side_effects_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_HERBS_SIDE_EFFECTS_FILEPATH, herbs_side_effects_cols['herb_id'], herb_id
+        )
+        if herb_side_effects_rows_filtered == []:
+            prompt = f'''
+                Write a numbered list of 15 possible side effects of the herb {herb_name_scientific} if used improperly.
+                Follow the GUIDELINES below.
+                ## GUIDELINES
+                Write only the names of the side effects.
+                Write as few words as possible.
+                Write each side effect in less than 5 words.
+                Start each list item with a third person singular action verb.
+                Include only proven factual side effects.
+                Don't include the following words: can, may, might.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip().lower()
+                if line == '': continue
+                if not line[0].isdigit(): continue
+                if '-' in line: continue
+                if '.' not in line: continue
+                line = '.'.join(line.split('.')[1:])
+                if ':' in line: line = line.split(':')[0]
+                if line == '': continue
+                line = line.split('(')[0]
+                line = line.replace('.', '')
+                line = line.strip()
+                if line.split(' ')[0][-1] != 's': continue
+                if line == '': continue
+                if len(line.split(' ')) > 5: continue
+                lines.append([herb_id, herb_name_scientific, line])
+            if len(lines) >= 10:
+                print('***************************************************')
+                print(lines)
+                print('***************************************************')
+                util.csv_add_rows(g.CSV_HERBS_SIDE_EFFECTS_FILEPATH, lines)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+def gen_herbs_medicine_precautions():
+    for herb_index, herb_row in enumerate(herbs_rows):
+        herb_id = herb_row[herbs_cols['herb_id']].strip().lower()
+        herb_slug = herb_row[herbs_cols['herb_slug']].strip().lower()
+        herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']].strip().lower()
+        if herb_id == '': continue
+        if herb_slug == '': continue
+        if herb_name_scientific == '': continue
+        print(f'>> {herb_index}/{len(herbs_rows)}: {herb_row}')
+        herbs_precautions_rows, herbs_precautions_cols = data_csv.herbs_precautions()
+        herb_precautions_rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_HERBS_PRECAUTIONS_FILEPATH, herbs_precautions_cols['herb_id'], herb_id
+        )
+        if herb_precautions_rows_filtered == []:
+            prompt = f'''
+                Write a numbered list of 15 most important precautions to take when using the herb {herb_name_scientific} medicinally.
+                Follow the GUIDELINES below.
+                ## GUIDELINES
+                Write only the names of the precautions.
+                Write as few words as possible.
+                Write each precaution in less than 5 words.
+                Start each list item with a second person singular action verb.
+                Include only proven factual precautions.
+                Don't include the following words: can, may, might.
+            '''
+            reply = utils_ai.gen_reply(prompt)
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip().lower()
+                if line == '': continue
+                if not line[0].isdigit(): continue
+                if '-' in line: continue
+                if '.' not in line: continue
+                line = '.'.join(line.split('.')[1:])
+                if ':' in line: line = line.split(':')[0]
+                if line == '': continue
+                line = line.split('(')[0]
+                line = line.replace('.', '')
+                line = line.strip()
+                if line == '': continue
+                if len(line.split(' ')) > 5: continue
+                lines.append([herb_id, herb_name_scientific, line])
+            if len(lines) >= 10:
+                print('***************************************************')
+                print(lines)
+                print('***************************************************')
+                util.csv_add_rows(g.CSV_HERBS_PRECAUTIONS_FILEPATH, lines)
+            time.sleep(g.PROMPT_DELAY_TIME)
 
 def gen_herbs_names_common():
-    herbs_rows = util.csv_get_rows(g.CSV_HERBS_AUTO_FILEPATH)
+    herbs_rows = util.csv_get_rows(g.CSV_HERBS_FILEPATH)
     herbs_cols = util.csv_get_cols(herbs_rows)
     herbs_rows = herbs_rows[1:]
     for herb_row in herbs_rows:
@@ -425,15 +608,14 @@ def gen_herbs_names_common():
         if herb_id == '': continue
         if herb_slug == '': continue
         if herb_name_scientific == '': continue
+        print(herb_row)
         herbs_names_common_rows_filtered = util.csv_get_rows_filtered(
             g.CSV_HERBS_NAMES_COMMON_FILEPATH, herbs_names_common_cols['herb_id'], herb_id
         )
         if herbs_names_common_rows_filtered == []:
-            print(f'> {herb_row}')
             prompt = f'''
                 Write a numbered list of the common names of the herb: {herb_name_scientific}.
                 Follow the GUIDELINES below.
-
                 GUIDELINES
                 Write only the names, not the descriptions.
                 Write only the most used common names.
@@ -549,7 +731,7 @@ def gen_status__preparations():
         if rows_filtered == []:
             print(f'> {status_row}')
             prompt = f'''
-                Write a numbered list of the 20 most effective type of herbal preparations for {status_name}.
+                Write a numbered list of the 20 most effective type of herbal preparations that help heal {status_name}.
                 ## GUIDELINES
                 Write only the names of the types of the preparations, not the descriptions, not the herbs names.
                 Write the names of the types of the preparations in plural.
@@ -614,33 +796,95 @@ def redirect_old_plants():
         else:
             herb_id = herbs_id_next()
             util.csv_add_rows(
-                g.CSV_HERBS_AUTO_FILEPATH, 
+                g.CSV_HERBS_FILEPATH, 
                 [[herb_id, plant_slug, plant_name_scientific]]
             )
             print(f'X {plant_name_scientific}')
 
 
+def gen_status__related():
+    for status_row in status_rows:
+        status_exe = status_row[status_cols['status_exe']].strip().lower()
+        status_id = status_row[status_cols['status_id']].strip().lower()
+        status_slug = status_row[status_cols['status_slug']].strip().lower()
+        status_name = status_row[status_cols['status_names']].split(',')[0].strip().lower()
+        if status_exe == '': continue
+        if status_id == '': continue
+        if status_slug == '': continue
+        if status_name == '': continue
+        prompt = f'''
+            What other health problems, conditions, and ailments people who have {status_name} usually also experience?
+            GUIDELINES:
+            Reply in numbered list format.
+            Write only the list items.
+            Write as few words as possible.
+        '''
+        reply = utils_ai.gen_reply(prompt, model)
+        break
+
+
+def gen_status__organs():
+    for status_row in status_rows:
+        status_exe = status_row[status_cols['status_exe']].strip().lower()
+        status_id = status_row[status_cols['status_id']].strip().lower()
+        status_slug = status_row[status_cols['status_slug']].strip().lower()
+        status_name = status_row[status_cols['status_names']].split(',')[0].strip().lower()
+        if status_exe == '': continue
+        if status_id == '': continue
+        if status_slug == '': continue
+        if status_name == '': continue
+        status_organs_rows, status_organs_cols = data_csv.status_organs()
+        rows_filtered = util.csv_get_rows_filtered(
+            g.CSV_STATUS_ORGANS_FILEPATH, status_organs_cols['status_id'], status_id
+        )
+        if rows_filtered != []: continue
+        prompt = f'''
+            Write the body part that is most affected by the following ailment: {status_name}.
+            Examples of body parts are: mouth, hearth, brain, leg, hand, etc...            
+            Reply only with the body part
+        '''
+        print(prompt)
+        reply = utils_ai.gen_reply(prompt, model).strip()
+        reply = reply.lower()
+        util.csv_add_rows(
+            g.CSV_STATUS_ORGANS_FILEPATH, 
+            [[status_id, status_name, -1, reply]]
+        )
+        
+        
 
 ##################################################
 # EXE
 ##################################################
 
-# redirect_old_plants() ## TODO: did one time, don't do it again
 
+# status
 gen_system_for_status()
-
 gen_status__herbs()
 gen_status__preparations()
-# quit()
 
-# gen_csvs()
-
+# preparations
 gen_preparations('teas')
 gen_preparations('decoctions')
 gen_preparations('tinctures')
-gen_preparations(preparation_slug='essential-oils')
+gen_preparations('essential-oils')
 gen_preparations('capsules')
+gen_preparations('creams')
 
+quit()
+
+# herbs
 gen_herbs_names_common()
+gen_herbs_medicine_benefits()
+gen_herbs_medicine_preparations()
+gen_herbs_medicine_constituents()
+gen_herbs_medicine_side_effects()
+gen_herbs_medicine_precautions()
 
-# gen_herbs_medicine_benefits()
+gen_status__related()
+gen_status__organs()
+
+
+
+
+

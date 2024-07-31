@@ -2,7 +2,7 @@ status_exe\status_id\status_slug\status_names\status_type
 x\2\bad-breath\bad breath\ailment
 x\3\dry-mouth\dry mouth\ailment
 x\4\mouth-ulcers\mouth ulcers\ailment
-x\5\oral-thrush\oral thrust\ailment
+x\5\oral-thrush\oral thrush\ailment
 x\6\periodontal-disease\periodontal disease\ailment
 x\8\throat-pain\throat pain\ailment
 x\9\heartburn\heartburn\ailment
@@ -54,7 +54,6 @@ x\234\allergies\allergies\ailment
 x\129\acne\acne\ailment
 x\67\flu\flu\ailment
 x\127\cramps\cramps\ailment
-x\13\indigestion\indigestion\ailment
 x\68\chest-congestion\chest congestion\ailment
 x\60\dry-throat\dry throat\ailment
 x\70\asthma\asthma\ailment
@@ -121,9 +120,7 @@ x\123\jaw-lock\jaw lock\ailment
 x\124\jaw-clenching\jaw clenching\ailment
 x\125\eye-twitching\eye twitching\ailment
 x\126\bone-health\bone health\ailment
-x\127\cramps\cramps\ailment
 x\128\itchy-skin\itchy skin\ailment
-x\129\acne\acne\ailment
 x\130\bee-sting\bee sting\ailment
 x\131\boils\boils\ailment
 x\132\chickenpox\chickenpox\ailment
@@ -163,7 +160,6 @@ x\167\red-eyes\red eyes\ailment
 x\168\stye\stye\ailment
 x\169\eye-bags\eye bags\ailment
 x\170\eye-infection\eye infection\ailment
-x\171\eye-stye\eye stye\ailment
 x\172\eye-irritation\eye irritation\ailment
 x\173\eye-swelling\eye swelling\ailment
 x\174\itchy-ears\itchy ears\ailment
@@ -186,12 +182,9 @@ x\193\jock-itch\jock itch\ailment
 x\194\oily-skin\oily skin\ailment
 x\199\neuritis\neuritis\ ailment
 x\200\nerve-pain\nerve pain\ailment
-x\201\headache\headache\ailment
 x\202\one-side-headache\one side headache\ailment
 x\203\migraine\migraine\ailment
 x\204\insomnia\insomnia\ailment
-x\206\anxiety\anxiety\ailment
-x\207\stress\stress\ailment
 x\208\depression\depression\ailment
 x\210\jet-lag\jet lag\ailment
 x\211\eye-pain\eye pain\ailment
@@ -199,7 +192,6 @@ x\212\eye-strain\eye strain\ailment
 x\213\pink-eye\pink eye\ailment
 x\214\sore-eyes\sore eyes\ailment
 x\215\tinnitus\tinnitus\ailment
-x\216\dizziness\dizziness\ailment
 x\217\ear-blockage\ear blockage\ailment
 x\218\motion-sickness\motion sickness\ailment
 x\219\shingles\shingles\ailment
@@ -213,9 +205,7 @@ x\228\ear-infection\ear infection\ailment
 x\229\earache\earache\ailment
 x\230\eye-floaters\eye floaters\ailment
 x\233\grief\grief\ailment
-x\234\allergies\allergy\ailment
 x\235\fever\fever\ailment
-x\236\inflammation\inflammation\ailment
 x\238\postoperative-recovery\postoperative recovery\ailment
 x\239\vaginitis\vaginitis\ailment
 x\240\prostatitis\prostatitis\ailment
@@ -227,8 +217,6 @@ x\248\cystitis\cystitis\ailment
 x\249\urinary-calculus\urinary calculus\ailment
 x\250\hematuria\hematuria\ailment
 x\251\edema\edema\ailment
-x\252\bladder-pain\bladder pain\ailment
-x\253\dehydration\dehydration\ailment
 x\254\fluid-retention\fluid retention\ailment
 x\256\breastfeeding-breast-pain\breastfeeding breast pain\ailment
 x\257\erectile-disfunction\erectile dysfunction\ailment
@@ -301,3 +289,4 @@ x\347\stomach-discomfort\stomach discomfort\ailment
 x\348\coughing-fits\coughing fits\ailment
 x\349\stomach-growling\stomach growling\ailment
 x\350\upper-abdominal-pain\upper abdominal pain\ailment
+x\351\cavities\cavties\ailment

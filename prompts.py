@@ -1,430 +1,70 @@
-#######################################################################################
-# ENTITY
-#######################################################################################
 
-entity_intro = [
+def herb__intro(herb_name_scientific, herb_name_common):
+    return f'''
+        Write 1 intro paragraph in 4 sentences for an article about the {herb_name_scientific} herb.
+        Follow the STRUCTURE and the GUIDELINES below.
+        ## STRUCTURE
+        In sentence 1, explain the health properties of this herb and how they improve health.
+        In sentence 2, explain the main hortocultural aspects of this herb.
+        In sentence 3, explain the botanical properties of this herb.
+        In sentence 4, explain the main historical references of this herb.
+        ## GUIDELINES
+        Include only the paragraph in the reply, no additional info.
+        Start the reply with the following words: {herb_name_scientific}, commonly know as {herb_name_common}, is .
     '''
-        Write a 5-sentence paragraph about of [latin_name].
-        Include the medicinal properties of [latin_name], the horticultural conditions of [latin_name], and the botanical characteristics of [latin_name].
-        Don't include lists.
-        Don't add empty lines between sentences.
-    ''',
-    '''
-        Write 1 paragraph in 5 sentences about of [latin_name].
-        Include the medicinal properties of [latin_name], the horticultural conditions of [latin_name], and the botanical characteristics of [latin_name].
-        Don't include lists.
-        Don't add empty lines between sentences.
-    ''',
-] 
 
+def herb__medicine(herb_name_scientific, herb_name_common, aka):
+    return f'''
+        Write 5 paragraph of the medicinal aspects of {herb_name_scientific} ({herb_name_common}).
+        Follow the GUIDELINES below.
+        ## GUIDELINES
+        - in paragraph 1, write about the medicinal uses and benefits of this plant.
+        - in paragraph 2, write about the active constituents of this plant that gives its medicinal properties.
+        - in paragraph 3, write about the parts of the plants that are most used for medicinal purposes.
+        - in paragraph 4, write about the possible side effects of this plant when used improperly.
+        - in paragraph 5, write about the most common precautions to take when using this plant medicinally.
+        - all paragraphs must contains only facts and not opinions or speculations.
+        - each paragraph should be about 40 words long.
+        - pack as much info as possible in as few words as possible.
+        - start the reply with the following words: {herb_name_scientific}{aka} helps with .
+    '''
 
+def herb__horticulture(herb_name_scientific, herb_name_common, aka):
+    return f'''
+        Write 4 paragraph of the horticulture aspects of {herb_name_scientific} ({herb_name_common}).
+        Follow the GUIDELINES below.
+        ## GUIDELINES
+        - in paragraph 1, write about the growth requirements this plant.
+        - in paragraph 2, write about the planting tips of this plant.
+        - in paragraph 3, write about the harvesting tips of this plant.
+        - in paragraph 4, write about the pests and diseases that most commonly affect of this plant.
+        - all paragraphs must contains only facts and not opinions or speculations.
+        - each paragraph should be about 40 words long.
+        - pack as much info as possible in as few words as possible.
+        - don't repeate the same piece of information or facts multiple times.
+        - start the reply with the following words: {herb_name_scientific}{aka} grow .
+    '''
 
-# entity_medicine = [
-#     '''
-#         Write 5 paragraphs about the medicinal aspects of [latin_name].
-#         In paragraph 1, write about the benefits of [latin_name].
-#         In paragraph 2, write about the constituents of [latin_name].
-#         In paragraph 3, write about the preparations of [latin_name].
-#         In paragraph 4, write about the side effects of [latin_name].
-#         In paragraph 5, write about the precautions of [latin_name].
-#     ''',
-# ]
-# entity_medicine = [
-#     '''
-#         Write a 5-sentence paragraph about the medicinal uses of [latin_name].
-#         In sentence 1, write about the benefits of [latin_name].
-#         In sentence 2, write about the constituents of [latin_name].
-#         In sentence 3, write about the preparations of [latin_name].
-#         In sentence 4, write about the side effects of [latin_name].
-#         In sentence 5, write about the precautions of [latin_name].
-#         Start with the following words: [latin_name][aka] has several medicinal uses, such as .
-#     ''',
-#     '''
-#         Write 1 paragraph in 5 sentences about the medicinal uses of [latin_name].
-#         In sentence 1, write about the benefits of [latin_name].
-#         In sentence 2, write about the constituents of [latin_name].
-#         In sentence 3, write about the preparations of [latin_name].
-#         In sentence 4, write about the side effects of [latin_name].
-#         In sentence 5, write about the precautions of [latin_name].
-#         Start with the following words: [latin_name][aka] has several medicinal uses, such as .
-#     ''',
-# ]
-
-entity_medicine_intro = [
-    '''
-        Write a 5-sentence paragraph about the medicinal uses of [latin_name].
-        Include the health benefits of [latin_name].
-        Include the active constituents of [latin_name].
-        Include the medicinal preparations of [latin_name].
-        Include the possible side effects of [latin_name].
-        Include the precautions of [latin_name].
-        Start with the following words: [latin_name][aka] is used to .
-    ''',
-]
-entity_medicine_paragraphs = [
-    '''
-        Write 5 paragraphs in 400 words about the medicinal uses of [latin_name].
-        In paragraph 1, write about the health benefits of [latin_name].
-        In paragraph 2, write about the medicinal constituents of [latin_name].
-        In paragraph 3, write about the medicinal preparations of [latin_name].
-        In paragraph 4, write about the possible side effects of [latin_name].
-        In paragraph 5, write about the precautions of [latin_name].
-        Start with the following words: [latin_name][aka] has several medicinal uses, such as .
-    ''',
-    '''
-        Write 5 paragraphs in 400 words about the medicinal uses of [latin_name].
-        In paragraph 1, write about the health benefits of [latin_name].
-        In paragraph 2, write about the medicinal constituents of [latin_name].
-        In paragraph 3, write about the medicinal preparations of [latin_name].
-        In paragraph 4, write about the possible side effects of [latin_name].
-        In paragraph 5, write about the precautions of [latin_name].
-        Don't add conclusions.
-        Start with the following words: [latin_name][aka] has several medicinal uses, such as .
-    ''',
-    '''
-        Write 5 paragraphs in 400 words about the medicinal uses of [latin_name].
-        In paragraph 1, write about the health benefits of [latin_name].
-        In paragraph 2, write about the medicinal constituents of [latin_name].
-        In paragraph 3, write about the medicinal preparations of [latin_name].
-        In paragraph 4, write about the possible side effects of [latin_name].
-        In paragraph 5, write about the precautions of [latin_name].
-        Don't add conclusions. Don't add introductions.
-        Start with the following words: [latin_name][aka] has several medicinal uses, such as .
-    ''',
-]
-entity_benefits = [
-    '''
-        Write a detailed 5-sentence paragraph about the health benefits of [latin_name].
-        Don't use lists. Don't mention the active constituents of [latin_name].
-        Start with the following words: [latin_name], [aka] has many health benefits, such as .
-    ''',
-]
-entity_constituents = [
-    '''
-        Write a detailed 5-sentence paragraph about the primary medicinal consituents of [latin_name].
-        Don't use lists.
-        Start with the following words: [latin_name][aka] has many active constituents, such as .
-    ''',
-]
-entity_preparations = [
-    '''
-        Write a detailed 5-sentence paragraph about the primary medicinal preparations of [latin_name].
-        Include the uses of these medicinal preparations and what parts of the plant are used to make these preparations.
-        Don't include health benefits.
-        Don't include constituents.
-        Don't include side effects.
-        Don't include precautions.
-        Don't use lists.
-        Start with the following words: [latin_name][aka] has many medicinal preparations, such as .
-    ''',
-]
-entity_side_effects = [
-    '''
-        Write a detailed 5-sentence paragraph about the possible side effects of [latin_name] when used medicinally.
-        Don't include health benefits.
-        Don't include constituents.
-        Don't include precautions.
-        Don't use lists.
-        Start with the following words: [latin_name][aka] can have some side effects if used improperly, such as .
-    ''',
-]
-entity_precautions = [
-    '''
-        Write a detailed 5-sentence paragraph about the precautions and best practices when using [latin_name] for medicinal purposes.
-        Don't include side effects.
-        Don't use lists.
-        Start with the following words: You should take some precautions when using [latin_name][aka] for medicinal purposes, such as .
-    ''',
-    '''
-        Write 1 paragraph in 5 sentences about the precautions and best practices when using [latin_name] for medicinal purposes.
-        Don't include side effects.
-        Don't use lists.
-        Start with the following words: You should take some precautions when using [latin_name][aka] for medicinal purposes, such as .
-    ''',
-]
+herb_medicine__intro = f'''
+    Write 1 paragraph of 60 to 80 words about the medicinal aspects of [herb_name_scientific] ([herb_name_common]).
+    Follow the GUIDELINES below.
+    ## GUIDELINES
+    In sentence 1, write about the benefits of this herb.
+    In sentence 2, write about the medicinal constituents of this herb.
+    In sentence 3, write about the medicinal preparations of this herb.
+    In sentence 4, write about the possible side effects of this herb.
+    In sentence 5, write about the precautions to take when using this herb.
+    Start the reply with the following words: [herb_name_scientific][aka] has health benefits such as .
+'''
 
 
-
-entity_horticulture_intro = [
+def herb_medicine_benefits__intro(herb_name_scientific, herb_name_common, aka):
+    return f'''
+        Write 1 paragraph of 60-80 words about the medicinal benefits of {herb_name_scientific} ({herb_name_common}).
+        Follow the GUIDELINES below.
+        ## GUIDELINES
+        Include the benefits of this plant.
+        Include what are the medicinal properties this plant has that give these benefits.
+        Include examples on how this benefits can improve people lives.
+        Start the reply with the following words: {herb_name_scientific}{aka} has health benefits such as .
     '''
-        Write a 5-sentence paragraph about the horticultural aspects of [latin_name].
-        Include the growth requirements of [latin_name].
-        Include the planting tips of [latin_name].
-        Include the caring tips of [latin_name].
-        Include the harvesting tips of [latin_name].
-        Include the pests and diseases of [latin_name].
-        Start with the following words: [latin_name][aka] needs .
-    ''',
-    '''
-        Write 1 paragraph in 5 sentences about the horticultural aspects of [latin_name].
-        Include the growth requirements of [latin_name].
-        Include the planting tips of [latin_name].
-        Include the caring tips of [latin_name].
-        Include the harvesting tips of [latin_name].
-        Include the pests and diseases of [latin_name].
-        Start with the following words: [latin_name][aka] needs .
-    ''',
-]
-entity_horticulture_paragraphs = [
-    '''
-        Write 5 paragraphs in 400 words about the horticultural aspects of [latin_name].
-        In paragraph 1, write about the growth requirements of [latin_name].
-        In paragraph 2, write about the planting tips of [latin_name].
-        In paragraph 3, write about the caring tips of [latin_name].
-        In paragraph 4, write about the harvesting tips of [latin_name].
-        In paragraph 5, write about the pests and diseases of [latin_name].
-        Don't include morphological characteristics.
-        Start with the following words: [latin_name][aka] has specific growth requirements, like .
-    ''',
-    '''
-        Write 5 paragraphs about the horticultural aspects of [latin_name].
-        In paragraph 1, write about the growth requirements of [latin_name].
-        In paragraph 2, write about the planting tips of [latin_name].
-        In paragraph 3, write about the caring tips of [latin_name].
-        In paragraph 4, write about the harvesting tips of [latin_name].
-        In paragraph 5, write about the pests of [latin_name].
-        Don't include morphological characteristics.
-        Start with the following words: [latin_name][aka] has specific growth requirements, like .
-    ''',
-    '''
-        Write 5 paragraphs in 400 words about the horticultural aspects of [latin_name].
-        In paragraph 1, write about the growth requirements of [latin_name].
-        In paragraph 2, write about the planting tips of [latin_name].
-        In paragraph 3, write about the caring tips of [latin_name].
-        In paragraph 4, write about the harvesting tips of [latin_name].
-        In paragraph 5, write about the pests and diseases of [latin_name].
-        Don't add conclusions.
-        Don't include morphological characteristics.
-        Start with the following words: [latin_name][aka] has specific growth requirements, like .
-    ''',
-    '''
-        Write 5 paragraphs in 400 words about the horticultural aspects of [latin_name].
-        In paragraph 1, write about the growth requirements of [latin_name].
-        In paragraph 2, write about the planting tips of [latin_name].
-        In paragraph 3, write about the caring tips of [latin_name].
-        In paragraph 4, write about the harvesting tips of [latin_name].
-        In paragraph 5, write about the pests and diseases of [latin_name].
-        Don't add conclusions. Don't add introductions.
-        Don't include morphological characteristics.
-        Start with the following words: [latin_name][aka] has specific growth requirements, like .
-    ''',
-]
-
-
-
-entity_botany_intro = [
-    '''
-        Write a 5-sentence paragraph about the botanical aspects of [latin_name].
-        Include the taxonomy of [latin_name], where the genus is [genus] and the family is [family].
-        Include the morphology of [latin_name].
-        Include the variants names and differences of [latin_name].
-        Include the geographic distribution and natural habitats of [latin_name].
-        Include the life-cycle of [latin_name].
-        Start with the following words: [latin_name][aka] belongs to the .
-    ''',
-    '''
-        Write 1 paragraph in 5 sentences about the botanical aspects of [latin_name].
-        Include the taxonomy of [latin_name], where the genus is [genus] and the family is [family].
-        Include the morphology of [latin_name].
-        Include the variants names and differences of [latin_name].
-        Include the geographic distribution and natural habitats of [latin_name].
-        Include the life-cycle of [latin_name].
-        Start with the following words: [latin_name][aka] belongs to the .
-    ''',
-    '''
-        Write 1 paragraph in 5 sentences about the botanical aspects of [latin_name].
-        Include the taxonomy of [latin_name], where the genus is [genus] and the family is [family].
-        Include the morphology of [latin_name].
-        Include the variants names and differences of [latin_name].
-        Include the geographic distribution and natural habitats of [latin_name].
-        Include the life-cycle of [latin_name].
-        Don't include intros or conclusions.
-        Start with the following words: [latin_name][aka] belongs to the .
-    ''',
-]
-entity_botany_paragraphs = [
-    '''
-        Write 5 paragraphs in 400 words about the botanical aspects of [latin_name].
-        In paragraph 1, write about the taxonomy of [latin_name], including the genus [genus] and the family [family].
-        In paragraph 2, write about the morphology of [latin_name].
-        In paragraph 3, write about the variants names and differences of [latin_name].
-        In paragraph 4, write about the geographic distribution and natural habitats of [latin_name].
-        In paragraph 5, write about the life-cycle of [latin_name].
-        Start with the following words: [latin_name][aka] is .
-    ''',
-    '''
-        Write 5 paragraphs in 400 words about the botanical aspects of [latin_name].
-        In paragraph 1, write about the taxonomy of [latin_name], including the genus [genus] and the family [family].
-        In paragraph 2, write about the morphology of [latin_name].
-        In paragraph 3, write about the variants names and differences of [latin_name].
-        In paragraph 4, write about the geographic distribution and natural habitats of [latin_name].
-        In paragraph 5, write about the life-cycle of [latin_name].
-        Don't add conclusions.
-        Start with the following words: [latin_name][aka] is .
-    ''',
-    '''
-        Write 5 paragraphs in 400 words about the botanical aspects of [latin_name].
-        In paragraph 1, write about the taxonomy of [latin_name], including the genus [genus] and the family [family].
-        In paragraph 2, write about the morphology of [latin_name].
-        In paragraph 3, write about the variants names and differences of [latin_name].
-        In paragraph 4, write about the geographic distribution and natural habitats of [latin_name].
-        In paragraph 5, write about the life-cycle of [latin_name].
-        Don't add conclusions. Don't add introductions.
-        Start with the following words: [latin_name][aka] is .
-    ''',
-]
-
-
-
-entity_history_intro = [
-    '''
-        Write a 5-sentence paragraph about the historical aspects of [latin_name].
-        Include the historical medicinal uses of [latin_name].
-        Include the mythology of [latin_name].
-        Include the ancient rituals of [latin_name].
-        Include the literature of [latin_name].
-        Include the symbolism of [latin_name].
-        Start with the following words: [latin_name][aka] has been used historically for as a medicine for .
-    ''',
-    '''
-        Write a 5-sentence paragraph about the historical aspects of [latin_name].
-        Include 1 sentence about the historical medicinal uses of [latin_name].
-        Include 1 sentence about the mythology of [latin_name].
-        Include 1 sentence about the ancient rituals of [latin_name].
-        Include 1 sentence about the literature of [latin_name].
-        Include 1 sentence about the symbolism of [latin_name].
-        Start with the following words: [latin_name][aka] has been used historically for as a medicine for .
-    ''',
-    '''
-        Write 1 paragraph in 5 sentences about the historical aspects of [latin_name].
-        Include the historical medicinal uses of [latin_name].
-        Include the mythology of [latin_name].
-        Include the ancient rituals of [latin_name].
-        Include the literature of [latin_name].
-        Include the symbolism of [latin_name].
-        Start with the following words: [latin_name][aka] has been used historically for as a medicine for .
-    ''',
-]
-entity_history_paragraphs = [
-    '''
-        Write 5 paragraphs in 400 words about the historical aspects of [latin_name].
-        In paragraph 1, write about the historical medicinal uses of [latin_name].
-        In paragraph 2, write about the mythology of [latin_name].
-        In paragraph 4, write about the ancient rituals of [latin_name].
-        In paragraph 5, write about the literature of [latin_name].
-        In paragraph 3, write about the symbolism of [latin_name].
-        Start with the following words: [latin_name][aka] has several historical medicinal uses, such as .
-    ''',
-    '''
-        Write 5 detailed paragraphs words about the historical aspects of [latin_name].
-        In paragraph 1, write about the historical medicinal uses of [latin_name].
-        In paragraph 2, write about the mythology of [latin_name].
-        In paragraph 4, write about the ancient rituals of [latin_name].
-        In paragraph 5, write about the literature of [latin_name].
-        In paragraph 3, write about the symbolism of [latin_name].
-        Don't add conclusions.
-        Start with the following words: [latin_name][aka] has several historical medicinal uses, such as .
-    ''',
-    '''
-        Write 400 words in 5 paragraphs about the historical aspects of [latin_name].
-        In paragraph 1, write about the historical medicinal uses of [latin_name].
-        In paragraph 2, write about the mythology of [latin_name].
-        In paragraph 4, write about the ancient rituals of [latin_name].
-        In paragraph 5, write about the literature of [latin_name].
-        In paragraph 3, write about the symbolism of [latin_name].
-        Don't add conclusions. Don't add introductions.
-        Start with the following words: [latin_name][aka] has several historical medicinal uses, such as .
-    ''',
-]
-
-
-
-entity_taxonomy = [
-    '''
-        Give me a ordered list with the Linnaean Taxonomy of [latin_name]. Include:
-        1. Kingdom
-        2. Phylum
-        3. Class
-        4. Order
-        5. Family
-        6. Genus
-        7. Species
-    ''',
-    '''
-        Give me the Linnaean Taxonomy of [latin_name] in ordered list. Include:
-        1. Kingdom
-        2. Phylum
-        3. Class
-        4. Order
-        5. Family
-        6. Genus
-        7. Species
-    ''',
-]
-
-#######################################################################################
-# ENTITY >> MEDICINE
-#######################################################################################
-
-# entity_medicine_intro = [
-#     '''
-#         Write a 5-sentence paragraph about the medicinal aspects of [latin_name].
-#         In sentence 1, write the benefits of [latin_name].
-#         In sentence 2, write the constituents of [latin_name].
-#         In sentence 3, write the preparations of [latin_name].
-#         In sentence 4, write the side effects of [latin_name].
-#         In sentence 5, write the precautions of [latin_name].
-#     ''',
-# ]
-
-
-#######################################################################################
-# ENTITY >> MEDICINE >> SIDE EFFECTS
-#######################################################################################
-
-# side_effects_intro = [
-#     '''
-#         Write a 5-sentence paragraph about the medicinal aspects of [latin_name].
-#         In sentence 1, write the benefits of [latin_name].
-#         In sentence 2, write the constituents of [latin_name].
-#         In sentence 3, write the preparations of [latin_name].
-#         In sentence 4, write the side effects of [latin_name].
-#         In sentence 5, write the precautions of [latin_name].
-#     ''',
-# ]
-
-
-
-#######################################################################################
-# TREFLE
-#######################################################################################
-
-
-
-
-
-
-#######################################################################################
-# TEAS
-#######################################################################################
-
-tea_intro = [
-    '''
-        Write a 5-sentence paragraph about herbal teas for medicinal purposes.
-        Include the definition of herbal teas.
-        Include the medicinal properties of herbal teas.
-        Include examples of what are some of the most used herbal teas.
-        Include examples of the most common health conditions you can heal with herbal teas.
-        Include a simple general procedure to make effective herbal teas.
-        Reply in as few words as possible.
-        Start with the following words: Herbal teas are .
-    ''',
-]
-
-tea_definition = [
-    '''
-        Write 1 paragraph about herbal teas (tisanes) for medicinal purposes.
-        Include a detailed definition of herbal teas.
-        Include a description of the medicinal properties of herbal teas. 
-    ''',
-]

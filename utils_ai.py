@@ -4,12 +4,15 @@ import time
 
 from llama_cpp import Llama
 
-llm = Llama(
-    model_path='/home/ubuntu/llm/Meta-Llama-3-8B-Instruct.Q8_0.gguf',
-    n_gpu_layers=-1,
-    n_ctx = 2048,
-)
 
+llm = None
+llm_loaded = False
+
+vault = '/home/ubuntu/vault'
+llms_folderpath = f'{vault}/llms'
+
+model_path='/home/ubuntu/vault/llms/Meta-Llama-3-8B-Instruct.Q8_0.gguf'
+model_path='/home/ubuntu/vault/llms/Meta-Llama-3-8B-Instruct.Q4_0.gguf'
 
 # filepath_windows = 'C:/api/groq.txt'
 # filepath_linux = '/home/leen/Documents/creds/groq_api.txt'
@@ -84,7 +87,21 @@ def gen_reply_local(prompt):
     return reply
 
 
-def gen_reply_local_gpu(prompt):
+def gen_reply_local_gpu(prompt, model=None):
+    global llm
+    global llm_loaded
+    global model_path
+    if model:
+        model_path = f'{llms_folderpath}/{model}'
+    print(model_path)
+    if llm_loaded == False:
+        llm = Llama(
+            model_path=model_path,
+            n_gpu_layers=-1,
+            n_ctx = 8192,
+        )
+        llm_loaded = True
+
     stream = llm.create_chat_completion(
         messages = [{
             'role': 'user',
@@ -104,7 +121,7 @@ def gen_reply_local_gpu(prompt):
     return reply
 
 
-def gen_reply(prompt):
+def gen_reply(prompt, model=None):
     # reply = ''
     # try: reply = gen_reply_api(prompt)
     # except: 
@@ -117,7 +134,7 @@ def gen_reply(prompt):
         # )
         # time.sleep(600)
     # reply = gen_reply_local(prompt)
-    reply = gen_reply_local_gpu(prompt)
+    reply = gen_reply_local_gpu(prompt, model)
 
     return reply
 

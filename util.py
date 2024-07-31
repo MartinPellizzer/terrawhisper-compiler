@@ -405,21 +405,28 @@ def article_meta(content, lastmod):
     day = lastmod.split('-')[2]
 
     reading_time = str(len(content.split(' ')) // 200) + ' minutes'
+    if False:
+        html = f'''
+            <div class="flex items-center justify-between mb-8">
+                <div class="flex items-center gap-16">
+                    <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
+                </div>
+                <span>{reading_time}</span>
+            </div>
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-16">
+                    <p>Last updated: {month} {day}, {year}</p>
+                </div>
+                <span></span>
+            </div>
+        '''
+                # <p>Last updated: Feb 14, 2018</p>
     html = f'''
         <div class="flex items-center justify-between mb-8">
-            <div class="flex items-center gap-16">
-                <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
-            </div>
-            <span>{reading_time}</span>
-        </div>
-        <div class="flex items-center justify-between">
-            <div class="flex items-center gap-16">
-                <p>Last updated: {month} {day}, {year}</p>
-            </div>
-            <span></span>
+            <p>By <a class="uppercase text-black no-underline font-bold" rel="author" href="">{g.AUTHOR_NAME}</a></p>
+            <p>Updated: {month} {day}, {year}</p>
         </div>
     '''
-                # <p>Last updated: Feb 14, 2018</p>
     return html
 
     

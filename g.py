@@ -40,24 +40,25 @@ CSV_HERBS_AUTO_FILEPATH = 'database/csv/herbs_auto.csv'
 CSV_STATUS_FILEPATH = 'database/csv/status.csv'
 
 # JUNCTIONS
-CSV_PROBLEMS_HERBS_FILEPATH = 'database/csv/junctions/problems_herbs.csv'
-CSV_PROBLEMS_SYSTEMS_FILEPATH = 'database/csv/junctions/problems_systems.csv'
-CSV_PROBLEMS_PREPARATIONS_FILEPATH = 'database/csv/junctions/problems_preparations.csv'
-CSV_PROBLEMS_RELATED_FILEPATH = 'database/csv/junctions/problems_related.csv'
-
-CSV_HERBS_BENEFITS_FILEPATH = 'database/csv/junctions/herbs_benefits.csv'
 CSV_HERBS_NAMES_COMMON_FILEPATH = 'database/csv/junctions/herbs_names_common.csv'
+CSV_HERBS_BENEFITS_FILEPATH = 'database/csv/junctions/herbs_benefits.csv'
+CSV_HERBS_PREPARATIONS_FILEPATH = 'database/csv/junctions/herbs_preparations.csv'
+CSV_HERBS_CONSTITUENTS_FILEPATH = 'database/csv/junctions/herbs_constituents.csv'
+CSV_HERBS_SIDE_EFFECTS_FILEPATH = 'database/csv/junctions/herbs_side_effects.csv'
+CSV_HERBS_PRECAUTIONS_FILEPATH = 'database/csv/junctions/herbs_precautions.csv'
 
 CSV_PROBLEMS_HERBS_AUTO_FILEPATH = 'database/csv/junctions/problems_herbs_auto.csv'
 
 
 CSV_STATUS_SYSTEMS_FILEPATH = 'database/csv/junctions/status_systems.csv'
+CSV_STATUS_ORGANS_FILEPATH = 'database/csv/junctions/status_organs.csv'
 CSV_STATUS_HERBS_FILEPATH = 'database/csv/junctions/status_herbs.csv'
 CSV_STATUS_PREPARATIONS_TEAS_FILEPATH = 'database/csv/junctions/status_preparations_teas.csv'
 CSV_STATUS_PREPARATIONS_TINCTURES_FILEPATH = 'database/csv/junctions/status_preparations_tinctures.csv'
 CSV_STATUS_PREPARATIONS_DECOCTIONS_FILEPATH = 'database/csv/junctions/status_preparations_decoctions.csv'
 CSV_STATUS_PREPARATIONS_ESSENTIAL_OILS_FILEPATH = 'database/csv/junctions/status_preparations_essential_oils.csv'
 CSV_STATUS_PREPARATIONS_CAPSULES_FILEPATH = 'database/csv/junctions/status_preparations_capsules.csv'
+CSV_STATUS_PREPARATIONS_CREAMS_FILEPATH = 'database/csv/junctions/status_preparations_creams.csv'
 CSV_STATUS_PREPARATIONS_FILEPATH = 'database/csv/junctions/status_preparations.csv'
 
 CATEGORY_HERBALISM = 'herbalism'

@@ -44,6 +44,12 @@ def status_systems():
     status_rows = status_rows[1:]
     return status_rows, status_cols
 
+def status_organs():
+    status_rows = util.csv_get_rows(g.CSV_STATUS_ORGANS_FILEPATH)
+    status_cols = util.csv_get_cols(status_rows)
+    status_rows = status_rows[1:]
+    return status_rows, status_cols
+
 def status_herbs():
     rows = util.csv_get_rows(g.CSV_STATUS_HERBS_FILEPATH)
     cols = util.csv_get_cols(rows)
@@ -86,6 +92,12 @@ def status_preparations_capsules():
     rows = rows[1:]
     return rows, cols
 
+def status_preparations_creams():
+    rows = util.csv_get_rows(g.CSV_STATUS_PREPARATIONS_CREAMS_FILEPATH)
+    cols = util.csv_get_cols(rows)
+    rows = rows[1:]
+    return rows, cols
+
 def herbs_names_common():
     rows = util.csv_get_rows(g.CSV_HERBS_NAMES_COMMON_FILEPATH)
     cols = util.csv_get_cols(rows)
@@ -94,6 +106,30 @@ def herbs_names_common():
 
 def herbs_benefits():
     rows = util.csv_get_rows(g.CSV_HERBS_BENEFITS_FILEPATH)
+    cols = util.csv_get_cols(rows)
+    rows = rows[1:]
+    return rows, cols
+
+def herbs_preparations():
+    rows = util.csv_get_rows(g.CSV_HERBS_PREPARATIONS_FILEPATH)
+    cols = util.csv_get_cols(rows)
+    rows = rows[1:]
+    return rows, cols
+
+def herbs_constituents():
+    rows = util.csv_get_rows(g.CSV_HERBS_CONSTITUENTS_FILEPATH)
+    cols = util.csv_get_cols(rows)
+    rows = rows[1:]
+    return rows, cols
+
+def herbs_side_effects():
+    rows = util.csv_get_rows(g.CSV_HERBS_SIDE_EFFECTS_FILEPATH)
+    cols = util.csv_get_cols(rows)
+    rows = rows[1:]
+    return rows, cols
+
+def herbs_precautions():
+    rows = util.csv_get_rows(g.CSV_HERBS_PRECAUTIONS_FILEPATH)
     cols = util.csv_get_cols(rows)
     rows = rows[1:]
     return rows, cols
