@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Martin Pellizzer">
+    <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042" />
+    <link rel="stylesheet" href="/util.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Herbalism & Natural Healing</title>
+    <meta name="p:domain_verify" content="3e4f104338992c9b89413fbc66222de4" />
+
+</head>
+
+<body>
+    [header]
+
+    <main>
+        <section class="hero">
+            <div class="grid grid-2 items-center">
+                <div class="hero-content">
+                    <h1>Scientific Herbalism.<br><span>Learn the art and science of using medicinal herbs to
+                            heal more than 300 physical, mental, and spiritual ailments.</span></h1>
+                    <a class="button-secondary" href="">Browse Ailments</a>
+                </div>
+                <div class="hero-img">
+                </div>
+            </div>
+        </section>
+        </p>
+
+        <section class="blog-grid">
+            <div class="container-lg">
+                <h2>Best Herbal Teas</h2>
+                <p>Discover the healing power of nature's infusions.</p>
+                <div class="grid grid-3 gap-24 mb-48">
+                    [articles_teas]
+                </div>
+            </div>
+        </section>
+
+        <section class="blog-grid">
+            <div class="container-lg">
+                <h2>Best Herbal Tinctures</h2>
+                <p>Discover the healing power of nature's tinctures.</p>
+                <div class="grid grid-3 gap-24 mb-48">
+                    [articles_tinctures]
+                </div>
+            </div>
+        </section>
+
+        <section class="blog-grid">
+            <div class="container-lg">
+                <h2>Best Herbal Tinctures</h2>
+                <p>Discover the healing power of nature's tinctures.</p>
+                <div class="grid grid-3 gap-24 mb-48">
+                    [articles_herbs]
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-lg">
+            <span>© TerraWhisper.com 2024 | All Rights Reserved
+        </div>
+    </footer>
+
+    <div class="cookie-box">
+        <button>I understand</button>
+    </div>
+
+    <script>
+        const cookie_box = document.querySelector(".cookie-box"),
+            accept_btn = cookie_box.querySelector(".cookie-box button")
+
+        accept_btn.onclick = () => {
+            document.cookie = "CookieBy=TerraWhisper; max-age=" + 60 / 60 * 24 * 30 * 12 // year long cookie
+            if (document.cookie) {
+                cookie_box.classList.add("hide")
+                document.getElementsByTagName("head")[0].innerHTML += `
+                <!-- Google tag (gtag.js) -->
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-9086LN3SRR"><\/script>
+                <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-9086LN3SRR');
+                <\/script>
+                `;
+            } else {
+                alert('cookie cant be set')
+            }
+        }
+        let check_cookie = document.cookie.indexOf("CookieBy=TerraWhisper")
+        if (check_cookie != -1) {
+            cookie_box.classList.add("hide")
+            document.getElementsByTagName("head")[0].innerHTML += `
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-9086LN3SRR"><\/script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-9086LN3SRR');
+            <\/script>
+            `;
+        } else {
+            cookie_box.classList.remove("hide")
+        }
+    </script>
+</body>
+
+</html>

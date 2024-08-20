@@ -1,0 +1,119 @@
+/* *************************************************************** */
+/* SPACING */
+/* *************************************************************** */
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mb-8 {
+    margin-bottom: 0.8rem;
+}
+
+.mb-16 {
+    margin-bottom: 1.6rem;
+}
+
+
+.mt-16 {
+    margin-top: 1.6rem;
+}
+
+.mt-48 {
+    margin-top: 4.8rem;
+}
+
+.mt-64 {
+    margin-top: 6.4rem;
+}
+
+.mt-96 {
+    margin-top: 9.6rem;
+}
+
+.mb-16 {
+    margin-bottom: 1.6rem;
+}
+
+.mb-32 {
+    margin-bottom: 3.2rem;
+}
+
+.mb-48 {
+    margin-bottom: 4.8rem;
+}
+
+.mb-96 {
+    margin-bottom: 9.6rem;
+}
+
+.my-96 {
+    margin-top: 9.6rem;
+    margin-bottom: 9.6rem;
+}
+
+.my-64 {
+    margin-top: 6.4rem;
+    margin-bottom: 6.4rem;
+}
+
+.my-32 {
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.py-16 {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+
+.pt-48 {
+    padding-top: 4.8rem;
+}
+
+
+.py-96 {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+
+.py-48 {
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+}
+
+
+.px-16 {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
+
+.rounded-xl {
+    border-radius: 13px;
+}
+
+.h-10 {
+    height: 40rem;
+}
+
+
+
+.bg-neutral-100 {
+    background-color: #f5f5f5;
+}

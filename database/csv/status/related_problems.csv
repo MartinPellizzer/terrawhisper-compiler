@@ -1,0 +1,111 @@
+condition_id\condition_name\condition_slug\related_problem_id\related_problem_name\related_problem_slug
+66\cough\cough\59\sore throat\sore-throat
+66\cough\cough\54\stuffy nose\blocked-nose
+66\cough\cough\55\runny nose\runny-nose
+66\cough\cough\245\shortness of breath\breath-shortness
+66\cough\cough\201\headache\headache
+66\cough\cough\226\fatigue\fatigue
+66\cough\cough\97\muscle aches\muscle-pain
+66\cough\cough\235\fever\fever
+66\cough\cough\246\chills\chills
+66\cough\cough\63\hoarseness\hoarse-voice
+66\cough\cough\244\wheezing\wheezing
+2\bad breath\bad-breath\321\bad taste\bad-taste
+2\bad breath\bad-breath\3\dry mouth\dry-mouth
+2\bad breath\bad-breath\320\white tongue\white-tongue
+2\bad breath\bad-breath\182\swollen gums\swollen-gums
+2\bad breath\bad-breath\319\inflamed gums\inflamed-gums
+2\bad breath\bad-breath\56\post-nasal drip\post-nasal-drip
+2\bad breath\bad-breath\66\persistent cough\cough
+2\bad breath\bad-breath\59\sore throat\sore-throat
+2\bad breath\bad-breath\\gastroesophageal reflux disease (gerd)\acid-reflux
+3\dry mouth\dry-mouth\2\bad breath\bad-breath
+3\dry mouth\dry-mouth\318\difficulty swallowing\difficulty-swallowing
+3\dry mouth\dry-mouth\60\dry throat\dry-throat
+3\dry mouth\dry-mouth\120\cracked lips\
+3\dry mouth\dry-mouth\4\sores in the mouth\
+3\dry mouth\dry-mouth\322\changes in taste\
+3\dry mouth\dry-mouth\323\increased plaque\
+3\dry mouth\dry-mouth\324\tooth decay\
+3\dry mouth\dry-mouth\6\gum disease\periodontal-disease
+3\dry mouth\dry-mouth\63\hoarseness\
+3\dry mouth\dry-mouth\325\dry nasal passages\
+4\mouth ulcers\mouth-ulcers\4\painful mouth sores\
+4\mouth ulcers\mouth-ulcers\326\swollen mouth lining\
+4\mouth ulcers\mouth-ulcers\327\difficulty chewing\
+4\mouth ulcers\mouth-ulcers\318\difficulty swallowing\difficulty-swallowing
+4\mouth ulcers\mouth-ulcers\328\speech difficulty\
+4\mouth ulcers\mouth-ulcers\321\persistent bad taste\
+4\mouth ulcers\mouth-ulcers\317\loss of appetite\appetite-loss
+4\mouth ulcers\mouth-ulcers\235\fever\
+4\mouth ulcers\mouth-ulcers\329\lymph node swelling\
+5\oral thrush\oral-thrush\330\white patches in month\
+5\oral thrush\oral-thrush\326\sore mouth\inflamed-mouth
+5\oral thrush\oral-thrush\3\cottony sensation in month\
+5\oral thrush\oral-thrush\331\loss of taste\
+5\oral thrush\oral-thrush\332\reddened corners in month\
+5\oral thrush\oral-thrush\333\difficulty eating\
+5\oral thrush\oral-thrush\334\painful swallowing\
+5\oral thrush\oral-thrush\2\bad breath\bad-breath
+5\oral thrush\oral-thrush\335\bleeding spots in mouth\
+8\throat pain\digestive-system/throat-pain\334\painful swallowing\digestive-system/painful-swallowing
+8\throat pain\digestive-system/throat-pain\59\sore throat\respiratory-system/sore-throat
+8\throat pain\digestive-system/throat-pain\63\hoarse voice\respiratory-system/hoarse-voice
+8\throat pain\digestive-system/throat-pain\128\scratchy sensation\integumentary-system/itchy-skin
+8\throat pain\digestive-system/throat-pain\336\dry cough\respiratory-system/dry-cough
+8\throat pain\digestive-system/throat-pain\329\swollen glands\lymphatic-system/lymph-node-swelling
+8\throat pain\digestive-system/throat-pain\337\throat congestion\digestive-system/throat-congestion
+8\throat pain\digestive-system/throat-pain\338\difficult speaking\digestive-system/difficult-speaking
+8\throat pain\digestive-system/throat-pain\339\feverish feeling\immune-system/feverish-feeling
+8\throat pain\digestive-system/throat-pain\340\tickling throat\respiratory-system/tickling-throat
+8\throat pain\digestive-system/throat-pain\229\ear pain\nervous-system/earache
+8\throat pain\digestive-system/throat-pain\2\bad breath\digestive-system/bad-breath
+8\throat pain\digestive-system/throat-pain\341\throat redness\respiratory-system/throat-redness
+8\throat pain\digestive-system/throat-pain\318\swallowing difficulty\digestive-system/difficulty-swallowing
+8\throat pain\digestive-system/throat-pain\342\throat irritation\digestive-system/throat-irritation
+9\heartburn\digestive-system/heartburn\343\sour taste in mouth\digestive-system/mouth-sour-taste
+9\heartburn\digestive-system/heartburn\318\difficulty swallowing\digestive-system/difficulty-swallowing
+9\heartburn\digestive-system/heartburn\66\persistent coughing\respiratory-system/cough
+9\heartburn\digestive-system/heartburn\30\digestive-system/bloating\digestive-system/bloating
+9\heartburn\digestive-system/heartburn\344\bitter taste in mouth\digestive-system/mouth-bitter-taste
+9\heartburn\digestive-system/heartburn\26\nausea\digestive-system/nausea
+9\heartburn\digestive-system/heartburn\27\vomiting\digestive-system/vomiting
+9\heartburn\digestive-system/heartburn\345\burping\digestive-system/burping
+9\heartburn\digestive-system/heartburn\76\hiccups\respiratory-system/hiccups
+10\acid reflux\digestive-system/acid-reflux\9\heartburn sensation\digestive-system/heartburn
+10\acid reflux\digestive-system/acid-reflux\346\regurgitation\digestive-system/regurgitation
+10\acid reflux\digestive-system/acid-reflux\347\stomach discomfort\digestive-system/stomach-discomfort
+10\acid reflux\digestive-system/acid-reflux\30\bloating feeling\digestive-system/bloating
+10\acid reflux\digestive-system/acid-reflux\345\burping frequently\digestive-system/burping
+10\acid reflux\digestive-system/acid-reflux\26\nausea sensation\digestive-system/nausea
+10\acid reflux\digestive-system/acid-reflux\59\sore throat\respiratory-system/sore-throat
+10\acid reflux\digestive-system/acid-reflux\348\coughing fits\respiratory-system/coughing-fits
+10\acid reflux\digestive-system/acid-reflux\318\difficult swallowing\digestive-system/difficulty-swallowing
+10\acid reflux\digestive-system/acid-reflux\344\bitter taste\digestive-system/mouth-bitter-taste
+13\indigestion\digestive-system/indigestion\40\painful abdomen\digestive-system/abdominal-pain
+13\indigestion\digestive-system/indigestion\30\gas bloating\digestive-system/bloating
+13\indigestion\digestive-system/indigestion\10\acid reflux\digestive-system/acid-reflux
+13\indigestion\digestive-system/indigestion\9\burning sensation\digestive-system/heartburn
+13\indigestion\digestive-system/indigestion\26\nausea\digestive-system/nausea
+13\indigestion\digestive-system/indigestion\27\vomiting\digestive-system/vomiting
+13\indigestion\digestive-system/indigestion\349\stomach growling\digestive-system/stomach-growling
+13\indigestion\digestive-system/indigestion\47\belching gas\digestive-system/flatulence
+13\indigestion\digestive-system/indigestion\30\fullness feeling\digestive-system/bloating
+13\indigestion\digestive-system/indigestion\317\loss of appetite\digestive-system/appetite-loss
+13\indigestion\digestive-system/indigestion\46\occasional diarrhea\digestive-system/diarrhea
+13\indigestion\digestive-system/indigestion\350\upper abdominal pain\digestive-system/upper-abdominal-pain
+14\stomach pain\digestive-system/stomach-pain\127\cramps\integumentary-system/cramps
+14\stomach pain\digestive-system/stomach-pain\26\nausea\digestive-system/nausea
+14\stomach pain\digestive-system/stomach-pain\27\vomiting\digestive-system/vomiting
+14\stomach pain\digestive-system/stomach-pain\30\bloating\digestive-system/bloating
+14\stomach pain\digestive-system/stomach-pain\46\diarrhea\digestive-system/diarrhea
+14\stomach pain\digestive-system/stomach-pain\45\constipation\digestive-system/constipation
+14\stomach pain\digestive-system/stomach-pain\9\heartburn\digestive-system/heartburn
+14\stomach pain\digestive-system/stomach-pain\28\gas\digestive-system/gas
+14\stomach pain\digestive-system/stomach-pain\10\acid reflux\digestive-system/acid-reflux
+14\stomach pain\digestive-system/stomach-pain\317\loss of appetite\digestive-system/appetite-loss
+14\stomach pain\digestive-system/stomach-pain\290\weight loss\other-systems/weight-loss
+14\stomach pain\digestive-system/stomach-pain\226\fatigue\nervous-system/fatigue
+14\stomach pain\digestive-system/stomach-pain\11\gerd\digestive-system/gerd
+14\stomach pain\digestive-system/stomach-pain\20\peptic ulcer\digestive-system/peptic-ulcers
+14\stomach pain\digestive-system/stomach-pain\351\food intolerance\digestive-system/food-intolerance

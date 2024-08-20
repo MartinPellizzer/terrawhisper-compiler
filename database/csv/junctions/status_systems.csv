@@ -1,0 +1,294 @@
+status_id\status_name\system_id\system_name
+8\throat pain\0\digestive system
+9\heartburn\0\digestive system
+10\acid reflux\0\digestive system
+11\gerd\0\digestive system
+13\indigestion\0\digestive system
+14\stomach pain\0\digestive system
+15\stomach cramps\0\digestive system
+16\hyperacidity\0\digestive system
+18\gastritis\0\digestive system
+19\mucus stomach\0\digestive system
+20\peptic ulcers\0\digestive system
+21\gastroenteritis\0\digestive system
+22\gastroparesis\0\digestive system
+23\hiatus hernia\0\digestive system
+24\queasy stomach\0\digestive system
+25\upset stomach\0\digestive system
+27\vomiting\0\digestive system
+29\gas in stomach\0\digestive system
+30\bloating\0\digestive system
+31\overeating\0\digestive system
+34\jaundice\0\digestive system
+35\chronic hepatitis\0\digestive system
+36\viral hepatitis\0\digestive system
+37\cirrhosis\0\digestive system
+38\gallstones\0\digestive system
+39\cholecystitis\0\digestive system
+40\abdominal pain\0\digestive system
+44\inflammatory bowel disease\0\digestive system
+45\constipation\0\digestive system
+46\diarrhea\0\digestive system
+47\flatulence\0\digestive system
+48\irritable bowel syndrome\0\digestive system
+49\ulcerative colitis\0\digestive system
+50\diverticulitis\0\digestive system
+52\hemorrhoids\0\digestive system
+2\bad breath\4\integumentary system
+4\mouth ulcers\4\integumentary system
+5\oral thrust\4\integumentary system
+6\periodontal disease\4\integumentary system
+3\dry mouth\5\nervous system
+26\nausea\5\nervous system
+33\hangover\5\nervous system
+227\sleep deprivation\5\nervous system
+201\headaches\5\nervous system
+206\anxiety\5\nervous system
+207\stress\5\nervous system
+81\high blood pressure\2\cardiovascular system
+78\colds\1\respiratory system
+59\sore throat\1\respiratory system
+66\cough\1\respiratory system
+236\inflammation\6\immune system
+234\allergies\6\immune system
+129\acne\4\integumentary system
+67\flu\6\immune system
+127\cramps\3\musculoskeletal system
+68\chest congestion\1\respiratory system
+60\dry throat\1\respiratory system
+70\asthma\1\respiratory system
+253\dehydration\7\urinary system
+252\bladder pain\7\urinary system
+84\high cholesterol\9\endocrine system
+216\dizziness\5\nervous system
+53\hay fever\1\respiratory system
+54\blocked nose\1\respiratory system
+55\runny nose\1\respiratory system
+56\post nasal drip\1\respiratory system
+57\sinus headache\5\nervous system
+58\sinusitis\1\respiratory system
+61\snoring\1\respiratory system
+62\laryngitis\1\respiratory system
+63\hoarse voice\1\respiratory system
+64\lost voice\5\nervous system
+65\tonsillitis\6\immune system
+69\bronchitis\1\respiratory system
+71\phlegm\1\respiratory system
+72\acute bronchitis\1\respiratory system
+73\chronic bronchitis\1\respiratory system
+74\pertussis\1\respiratory system
+75\emphysema\1\respiratory system
+76\hiccups\5\nervous system
+79\mucus in throat\1\respiratory system
+80\nasal congestion\1\respiratory system
+82\low blood pressure\2\cardiovascular system
+83\heart pain\2\cardiovascular system
+86\nose bleeding\4\integumentary system
+87\palpitation\2\cardiovascular system
+88\swollen feet\13\lymphatic system
+89\arteriosclerosis\2\cardiovascular system
+90\congestive heart failure\2\cardiovascular system
+91\peripheral arterial occlusive disease\2\cardiovascular system
+92\varicose veins\2\cardiovascular system
+96\hypertension\2\cardiovascular system
+97\muscle pain\3\musculoskeletal system
+98\osteoporosis\3\musculoskeletal system
+99\arthritis\3\musculoskeletal system
+100\joint pain\3\musculoskeletal system
+101\joint stiffness\3\musculoskeletal system
+102\osteoarthritis\3\musculoskeletal system
+103\rheumatoid arthritis\3\musculoskeletal system
+104\bursitis\3\musculoskeletal system
+105\tendinitis\3\musculoskeletal system
+106\gout\3\musculoskeletal system
+107\back pain\3\musculoskeletal system
+108\lower back pain\3\musculoskeletal system
+109\stiff neck\3\musculoskeletal system
+110\neck pain\3\musculoskeletal system
+111\frozen shoulder\3\musculoskeletal system
+112\jammed finger\3\musculoskeletal system
+113\leg cramps\3\musculoskeletal system
+114\leg pain\3\musculoskeletal system
+115\restless leg syndrome\5\nervous system
+116\knee pain\3\musculoskeletal system
+117\knee swelling\3\musculoskeletal system
+118\foot pain\3\musculoskeletal system
+119\plantar fasciitis\3\musculoskeletal system
+120\chapped lips\4\integumentary system
+122\jaw pain\3\musculoskeletal system
+123\jaw lock\3\musculoskeletal system
+124\jaw clenching\3\musculoskeletal system
+125\eye twitching\5\nervous system
+126\bone health\3\musculoskeletal system
+128\itchy skin\4\integumentary system
+130\bee sting\4\integumentary system
+131\boils\4\integumentary system
+132\chickenpox\4\integumentary system
+133\dry skin\4\integumentary system
+134\excessive sweating\4\integumentary system
+135\fungal infection\1\respiratory system
+136\glowing skin\4\integumentary system
+137\insect bites\4\integumentary system
+138\ingrown hair\4\integumentary system
+139\jellyfish sting\4\integumentary system
+141\open pores\4\integumentary system
+142\open wounds\4\integumentary system
+143\pimples\4\integumentary system
+144\hyperpigmentation\4\integumentary system
+145\ringworm\4\integumentary system
+146\rashes\4\integumentary system
+147\sunburn\4\integumentary system
+148\eczema\4\integumentary system
+149\psoriasis\4\integumentary system
+150\dermatitis\4\integumentary system
+151\nail fungus\4\integumentary system
+152\dry hair\4\integumentary system
+153\frizzy hair\4\integumentary system
+154\grey hair\4\integumentary system
+155\hair fall\4\integumentary system
+156\oily hair\4\integumentary system
+158\dandruff\4\integumentary system
+159\dry scalp\4\integumentary system
+160\itchy scalp\4\integumentary system
+161\lice\4\integumentary system
+162\oily face\4\integumentary system
+163\dark circles\4\integumentary system
+164\dry eyes\4\integumentary system
+165\puffy eyes\4\integumentary system
+166\itchy eyes\4\integumentary system
+167\red eyes\4\integumentary system
+168\stye\4\integumentary system
+169\eye bags\4\integumentary system
+170\eye infection\4\integumentary system
+171\eye stye\4\integumentary system
+172\eye irritation\4\integumentary system
+173\eye swelling\4\integumentary system
+174\itchy ears\4\integumentary system
+175\bleeding gums\4\integumentary system
+176\gum pain\4\integumentary system
+177\cold sore\4\integumentary system
+178\gum swelling\4\integumentary system
+179\gum infection\2\cardiovascular system
+182\swollen gums\4\integumentary system
+183\athlete's foot\4\integumentary system
+184\cracked heels\4\integumentary system
+185\foot odor\4\integumentary system
+186\ingrown toenail\4\integumentary system
+187\dry lips\4\integumentary system
+188\dark lips\4\integumentary system
+189\fever blister on lip\4\integumentary system
+191\toothache\4\integumentary system
+192\nipple pain during breastfeeding\8\reproductive system
+193\jock itch\4\integumentary system
+194\oily skin\4\integumentary system
+199\neuritis\5\nervous system
+200\nerve pain\5\nervous system
+202\one side headache\5\nervous system
+203\migraine\5\nervous system
+204\insomnia\5\nervous system
+208\depression\5\nervous system
+209\anorexia nervosa\9\endocrine system
+210\jet lag\5\nervous system
+211\eye pain\5\nervous system
+212\eye strain\5\nervous system
+213\pink eye\6\immune system
+214\sore eyes\5\nervous system
+215\tinnitus\5\nervous system
+217\ear blockage\1\respiratory system
+218\motion sickness\5\nervous system
+219\shingles\4\integumentary system
+220\strep throat\6\immune system
+221\nausea\0\digestive system
+222\numbness in hands\5\nervous system
+223\burning feet\4\integumentary system
+225\brain fog\5\nervous system
+226\fatigue\5\nervous system
+228\ear infection\5\nervous system
+229\earache\5\nervous system
+230\eye floaters\5\nervous system
+233\grief\5\nervous system
+235\fever\6\immune system
+238\postoperative recovery\5\nervous system
+239\vaginitis\8\reproductive system
+240\prostatitis\7\urinary system
+242\fungal skin infection\4\integumentary system
+245\infection\6\immune system
+246\overactive bladder\7\urinary system
+247\dysuria\7\urinary system
+248\cystitis\7\urinary system
+249\urinary calculus\7\urinary system
+250\hematuria\7\urinary system
+251\edema\13\lymphatic system
+254\fluid retention\7\urinary system
+256\breastfeeding breast pain\8\reproductive system
+257\erectile dysfunction\8\reproductive system
+258\low sperm count\8\reproductive system
+259\menstrual cramps\8\reproductive system
+260\morning sickness\0\digestive system
+261\ovulation pain\8\reproductive system
+262\over bleeding during periods\8\reproductive system
+263\period cramps\8\reproductive system
+264\premature ejaculation\8\reproductive system
+265\prostate inflammation\7\urinary system
+267\amenorrhea\8\reproductive system
+268\premenstrual syndrome\8\reproductive system
+269\menopause\8\reproductive system
+271\uterine fibroids\8\reproductive system
+272\endometriosis\8\reproductive system
+273\fibrocystic breast disease\8\reproductive system
+274\benign prostatic hypertrophy\7\urinary system
+275\endometriosis pain\8\reproductive system
+280\hormonal imbalance\9\endocrine system
+281\hot flashes\9\endocrine system
+282\hypothyroidism\9\endocrine system
+283\hyperthyroidism\9\endocrine system
+286\adrenal fatigue\9\endocrine system
+301\enlarged spleen\6\immune system
+302\aging\9\endocrine system
+303\altitude sickness\1\respiratory system
+304\alzheimer’s disease\5\nervous system
+305\angina\2\cardiovascular system
+306\ankylosing spondylitis\3\musculoskeletal system
+307\baldness\4\integumentary system
+308\bladder infection\7\urinary system
+309\body odor\4\integumentary system
+311\bruises\4\integumentary system
+312\bunion\3\musculoskeletal system
+313\burns\4\integumentary system
+314\wheezing\1\respiratory system
+315\shortness of breath\1\respiratory system
+316\chills\5\nervous system
+317\loss of appetite\0\digestive system
+318\difficulty swallowing\0\digestive system
+319\inflamed gums\6\immune system
+320\white tongue\4\integumentary system
+321\bad taste\5\nervous system
+322\taste changes\5\nervous system
+324\tooth decay\4\integumentary system
+325\dry nose\1\respiratory system
+327\difficulty chewing\3\musculoskeletal system
+328\speech difficulty\5\nervous system
+329\lymph node swelling\13\lymphatic system
+330\white patches in month\4\integumentary system
+331\taste loss\5\nervous system
+332\reddened corners in mouth\4\integumentary system
+333\difficulty eating\0\digestive system
+334\painful swallowing\0\digestive system
+336\dry cough\1\respiratory system
+337\throat congestion\1\respiratory system
+338\difficult speaking\5\nervous system
+339\feverish feeling\6\immune system
+340\tickling throat\1\respiratory system
+341\throat redness\1\respiratory system
+342\throat irritation\1\respiratory system
+343\sour taste in mouth\0\digestive system
+344\bitter taste in mouth\0\digestive system
+345\burping\0\digestive system
+347\stomach discomfort\0\digestive system
+348\coughing fits\1\respiratory system
+349\stomach growling\0\digestive system
+350\upper abdominal pain\0\digestive system
+323\dental plaque\4\integumentary system
+326\inflamed mouth\4\integumentary system
+335\bleeding spots in mouth\4\integumentary system
+351\caivties\0\digestive system
