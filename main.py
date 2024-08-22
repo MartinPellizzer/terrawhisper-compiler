@@ -486,51 +486,61 @@ def art_preparations_new(preparation_slug):
 
         ## intro_study
         key = 'intro_study'
-        if False:
-            if key not in data or data[key] == []:
-                QUERY = 'medicinal-plants'
-                DB_PATH = f'chroma-db'
-                DB_COLLECTION_NAME = QUERY
-                device = 'cuda'
-                sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(
-                    model_name='all-mpnet-base-v2', 
-                    device=device,
-                )
-                chroma_client = chromadb.PersistentClient(path=DB_PATH)
-                collection = chroma_client.get_or_create_collection(name=DB_COLLECTION_NAME, embedding_function=sentence_transformer_ef)
-                query = f'herbal {preparation_name} for {status_name}'
-                n_results = 5
-                results = collection.query(query_texts=[query], n_results=n_results)
-                documents = results['documents'][0]
-                metadatas = results['metadatas'][0]
-                if len(documents) == n_results and len(metadatas) == n_results:
-                    abstracts = []
-                    for i, document in enumerate(documents):
-                        document_formatted = f'PARAGRAPH {i+1}: {document}'
-                        abstracts.append(document_formatted)
-                    prompt = prompts.preparation__intro_study__select(n_results, preparation_name, status_name, abstracts)
+        if key not in data or data[key] == []:
+            sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(
+                model_name='all-mpnet-base-v2', 
+                device='cuda',
+            )
+            chroma_client = chromadb.PersistentClient(path=f'{vault_folderpath}/terrawhisper/chroma-db')
+            collection = chroma_client.get_or_create_collection(name='medicinal-plants', embedding_function=sentence_transformer_ef)
+            query = f'herbal {preparation_name} for {status_name}'
+            prompt = f'''
+                Write an example abstract for a scientific study about {query}.
+                Include an introduction, the methods, the results, the discussions, and the conclusion.
+                Pack as many info, data points, numbers, and statistics in as few words as possible.
+                Reply in a paragraph.
+                Don't include lists.
+            '''
+            reply = llm_reply(prompt, model)
+            n_results = 5
+            results = collection.query(query_texts=[query], n_results=n_results)
+            documents = results['documents'][0]
+            metadatas = results['metadatas'][0]
+            if len(documents) == n_results and len(metadatas) == n_results:
+                abstracts = []
+                for i, document in enumerate(documents):
+                    document_formatted = f'PARAGRAPH {i+1}: {document}'
+                    abstracts.append(document_formatted)
+                prompt = f'''
+                    From the {n_results} paragraphs below, pick the one that best proves that herbal {preparation_name} are good for {status_name}, and that includes the most amount of data, information, details, results and numbers to prove it.
+                    Only select a study that explicitly mention {preparation_name} and {status_name}.
+                    Reply with only the number of the paragraph you select, don't explain why you selected it.
+                    If you don't find a good candidate, reply with "0".
+                    Below are the {n_results} paragraphs.
+                    {abstracts}
+                '''
+                reply = llm_reply(prompt, model)
+                paragraph_num = 0
+                for line in reply.split('\n'):
+                    line = line.strip()
+                    if line == '': continue
+                    if line[0].isdigit():
+                        if line[0] == 0:
+                            break
+                        else:
+                            try: paragraph_num = int(line.split(' ')[0])
+                            except: pass
+                            break
+                if paragraph_num != 0:
+                    document = documents[paragraph_num-1]
+                    metadata = metadatas[paragraph_num-1]
+                    prompt = prompts.preparation__intro_study__generate(preparation_name, status_name, document, metadata['journal_title'])
                     reply = llm_reply(prompt, model)
-                    paragraph_num = 0
-                    for line in reply.split('\n'):
-                        line = line.strip()
-                        if line == '': continue
-                        if line[0].isdigit():
-                            if line[0] == 0:
-                                break
-                            else:
-                                try: paragraph_num = int(line.split(' ')[0])
-                                except: pass
-                                break
-                    if paragraph_num != 0:
-                        document = documents[paragraph_num-1]
-                        metadata = metadatas[paragraph_num-1]
-                        prompt = prompts.preparation__intro_study__generate(preparation_name, status_name, document, metadata['journal_title'])
-                        reply = llm_reply(prompt, model)
-                        reply = reply_to_paragraph(reply)
-                        if reply != '':
-                            if 'can\'t do that' not in reply: 
-                                data[key] = reply
-                                json_write(json_filepath, data)
+                    reply = reply_to_paragraph(reply)
+                    if reply != '':
+                        if 'can\'t do that' not in reply: 
+                            data[key] = reply
+                            json_write(json_filepath, data)
         if key in data:
             article_html += f'<p>{data[key]}</p>\n'
 
@@ -672,7 +682,7 @@ def art_preparations_new(preparation_slug):
                 article_html += '</ol>\n'
 
         key = 'supplementary_best_treatment'
-        if key not in data:
+        if key not in data or data[key] == '':
             prompt = prompts.preparation__supplementary_best_treatment(status_name, preparation_name)
             reply = llm_reply(prompt, model)
             reply = reply_to_paragraph(reply)
@@ -684,60 +694,49 @@ def art_preparations_new(preparation_slug):
             text = data[key].replace(status_name, f'<a href="/{g.CATEGORY_REMEDIES}/{system_slug}/{status_slug}.html">{status_name}</a>', 1)
             article_html += f'{util.text_format_1N1_html(text)}\n'
 
+        key = 'supplementary_causes'
+        if key not in data or data[key] == '':
+            prompt = f'''
+                What ailments similar to {status_name} are treated with herbal {preparation_name}?
+                Reply in a short paragraph of about 60 to 80 words.
+                Start the reply with the following words: Ailments similar to {status_name} that are treated with herbal {preparation_name} are .
+            '''
+            reply = llm_reply(prompt, model)
+            reply = reply_to_paragraph(reply)
+            if reply != '':
+                data[key] = reply
+                json_write(json_filepath, data)
+        if key in data and data[key] != '':
+            text = data[key]
+            article_html += f'<h2>What ailments similar to {status_name} are treated with herbal {preparation_name}?</h2>\n'
+            i = 0
+            for tmp_status in status_list:
+                tmp_status_exe = status['status_exe']
+                tmp_status_id = status['status_id']
+                tmp_status_slug = status['status_slug']
+                tmp_status_name = status['status_names'].split(',')[0].strip()
+                tmp_status_system = [obj for obj in status_system_list if obj['status_id'] == tmp_status_id][0]
+                tmp_system = [obj for obj in system_list if obj['system_id'] == tmp_status_system['system_id']][0]
+
+                tmp_system_id = tmp_system['system_id']
+                tmp_system_slug = tmp_system['system_slug']
+                tmp_system_name = tmp_system['system_name']
+                html_filepath = f'website/{g.CATEGORY_REMEDIES}/{tmp_system_slug}/{tmp_status_slug}/{preparation_slug}.html'
+                if os.path.exists(html_filepath):
+                    if i >= 3: break
+                    if tmp_status_name in text:
+                        text = text.replace(tmp_status_name, f'<a href="/{g.CATEGORY_REMEDIES}/{tmp_system_slug}/{tmp_status_slug}/{preparation_slug}.html">{tmp_status_name}</a>', 1)
+                        i += 1
+            article_html += f'{util.text_format_1N1_html(text)}\n'
+
         ## html
         breadcrumbs = util.breadcrumbs(html_filepath)
         meta = components.meta(article_html, data["lastmod"])
         article = components.table_of_contents(article_html)
         html = templates.article(title, header_html, breadcrumbs, meta, article, footer_html)
         file_write(html_filepath, html)
-        quit()
 
 def gen_preparation__supplementary(json_filepath, data, article_html):
-    key = 'supplementary_causes'
-    if key not in data:
-        prompt = f'''
-            What ailments similar to {status_name} are treated with herbal {preparation_name}?
-            Reply in a short paragraph of about 60 to 80 words.
-            Start the reply with the following words: Ailments similar to {status_name} that are treated with herbal {preparation_name} are .
-        '''
-        reply = utils_ai.gen_reply(prompt, model)
-        reply = utils_ai.reply_to_paragraphs(reply)
-        print(len(reply))
-        if len(reply) == 1:
-            print('*******************************************')
-            print(reply)
-            print('*******************************************')
-            data[key] = reply[0]
-            util.json_write(json_filepath, data)
-        time.sleep(g.PROMPT_DELAY_TIME)
-    if key in data:
-        text = data[key]
-        article_html += f'<h2>What ailments similar to {status_name} are treated with herbal {preparation_name}?</h2>\n'
-        i = 0
-        for tmp_status_row in status_rows:
-            tmp_status_exe = tmp_status_row[status_cols['status_exe']]
-            tmp_status_id = tmp_status_row[status_cols['status_id']]
-            tmp_status_slug = tmp_status_row[status_cols['status_slug']]
-            tmp_status_name = tmp_status_row[status_cols['status_names']].split(',')[0].strip()
-            if tmp_status_id == status_id: continue
-            if tmp_status_exe == '': continue
-            if tmp_status_id == '': continue
-            if tmp_status_slug == '': continue
-            if tmp_status_name == '': continue
-            tmp_system_row = util_data.get_system_by_status(tmp_status_id)
-            tmp_system_id = tmp_system_row[systems_cols['system_id']]
-            tmp_system_slug = tmp_system_row[systems_cols['system_slug']]
-            tmp_system_name = tmp_system_row[systems_cols['system_name']]
-            if tmp_system_id == '': continue
-            if tmp_system_slug == '': continue
-            if tmp_system_name == '': continue
-            html_filepath = f'website/{g.CATEGORY_REMEDIES}/{tmp_system_slug}/{tmp_status_slug}/{preparation_slug}.html'
-            if os.path.exists(html_filepath):
-                if i >= 3: break
-                if tmp_status_name in text:
-                    text = text.replace(tmp_status_name, f'<a href="/{g.CATEGORY_REMEDIES}/{tmp_system_slug}/{tmp_status_slug}/{preparation_slug}.html">{tmp_status_name}</a>', 1)
-                    i += 1
-        article_html += f'{util.text_format_1N1_html(text)}\n'
     return article_html
 
 def del_preparations__remedy_parts(preparation_slug):
@@ -1624,34 +1623,42 @@ def art_remedies():
     util.file_write(article_filepath_out, html)
 
 def art_systems():
-    for system_row in systems_rows:
-        print(system_row)
-        system_id = system_row[systems_cols['system_id']]
-        system_slug = system_row[systems_cols['system_slug']]
-        system_name = system_row[systems_cols['system_name']]
-        if system_id == '': continue
-        if system_slug == '': continue
-        if system_name == '': continue
-        status_rows_filtered = util_data.get_status_by_system(system_id)
-        status_num = len(status_rows_filtered)
-        if status_num == 0: continue
-        group_articles = {}
-        for status_row in status_rows_filtered:
-            status_id = status_row[status_cols['status_id']]
-            status_slug = status_row[status_cols['status_slug']]
-            status_name = status_row[status_cols['status_names']]
-            for status_organ_row in status_organs_rows:
-                if status_organ_row == []: continue
-                j_status_id = status_organ_row[status_organs_cols['status_id']]
-                j_status_name = status_organ_row[status_organs_cols['status_name']]
-                j_organ_id = status_organ_row[status_organs_cols['organ_id']]
-                j_organ_name = status_organ_row[status_organs_cols['organ_name']].strip().lower()
-                if j_status_id == status_id:
-                    if j_organ_name in group_articles:
-                        group_articles[j_organ_name].append(status_row)
-                    else:
-                        group_articles[j_organ_name] = [status_row]
-                    break
+
+    status_list = csv_read_rows_to_json(g.CSV_STATUS_FILEPATH)
+    system_list = csv_read_rows_to_json(g.CSV_SYSTEMS_FILEPATH)
+    status_system_list = csv_read_rows_to_json(g.CSV_STATUS_SYSTEMS_FILEPATH)
+
+    data_merged = []
+    for status in status_list:
+        status_id = status["status_id"]
+        status_slug = status["status_slug"]
+        status_name = status["status_names"].split(',')[0].strip()
+        body_part = status["body_part"]
+        status_system = [obj for obj in status_system_list if obj['status_id'] == status_id][0]
+        system = [obj for obj in system_list if obj['system_id'] == status_system['system_id']][0]
+        system_id = system['system_id']
+        system_slug = system['system_slug']
+        system_name = system['system_name']
+        data_merged.append({
+            'status_id': status_id,
+            'status_slug': status_slug, 
+            'status_name': status_name, 
+            'system_id': system_id, 
+            'system_slug': system_slug, 
+            'system_name': system_name, 
+            'body_part': body_part,
+        })
+
+    for system in system_list:
+        system_id = system['system_id']
+        system_slug = system['system_slug']
+        system_name = system['system_name']
+        body_parts = []
+        for obj in data_merged:
+            if system_id == obj['system_id']:
+                if obj['body_part'] not in body_parts:
+                    body_parts.append(obj['body_part'])
+        
         json_filepath = f'database/json/remedies/{system_slug}.json'
         util.create_folder_for_filepath(json_filepath)
         util.json_generate_if_not_exists(json_filepath)
@@ -1663,6 +1670,7 @@ def art_systems():
         title = f'{system_name.title()} Ailments To Heal With Herbal Remedies'
         data['title'] = title
         util.json_write(json_filepath, data)
+
         category_title = f'<h1>{title}</h1>'
         category_intro = f'<p></p>'
         content_html = ''
@@ -1671,14 +1679,22 @@ def art_systems():
                 {category_title}
                 {category_intro}
         '''
-        for key, lst in group_articles.items():
-            content_html += f'<h2 class="mb-32">{key.title()}</h2>'
-            # content_html += f'<hr class="mb-32 text-neutral-200">'
-            content_html += f'<div class="grid grid-4 gap-24">'
-            for status_row in lst:
-                status_id = status_row[status_cols['status_id']]
-                status_slug = status_row[status_cols['status_slug']]
-                status_name = status_row[status_cols['status_names']]
+        for body_part in body_parts:
+            content_html += f'''
+                <div class="border-0 border-b-4 border-black border-solid mb-32 mt-64">
+                    <h2 class="text-24 bg-black text-white pt-8 pb-4 px-16 inline-block">{body_part.title()}</h2>
+                </div>
+            '''
+            content_html += f'<div class="grid grid-4 gap-32">'
+            status_rows = []
+            for obj in data_merged:
+                if system_id == obj['system_id']:
+                    if body_part == obj['body_part']:
+                        status_rows.append([obj['status_id'], obj['status_slug'], obj['status_name']])
+            for status_row in status_rows:
+                status_id = status_row[0]
+                status_slug = status_row[1]
+                status_name = status_row[2]
                 herbs_slugs_filtered = []
                 for status_herb_row in status_herbs_rows:
                     j_status_id = status_herb_row[status_herbs_cols['status_id']]
@@ -1688,20 +1704,15 @@ def art_systems():
                 herb_slug_filtered = herbs_slugs_filtered[0]
                 src = f'/images/herbs/{herb_slug_filtered}.jpg'
                 alt = f'herbal remedies for {status_name}'
-                json_filepath = f'database/json/remedies/{system_slug}/{status_slug}.json'
-                data = json_read(json_filepath)
-                intro_desc_clip = ' '.join(data['intro_desc'].split(' ')[:16]).strip() + '...'
                 content_html += f'''
-                    <a class="text-black no-underline" href="/remedies/{system_slug}/{status_slug}.html">
-                        <div>
-                            <img src="{src}" alt="{alt}">
-                            <h3>{status_name.title()}: Causes, Herbal Remedies, and More</h3>
-                            <p>{intro_desc_clip}</p>
-                        </div>
+                    <a href="/remedies/{system_slug}/{status_slug}.html" class="no-underline flex flex-col gap-16 mb-32">
+                        <img src="{src}" alt="{alt}">
+                        <h3 class="text-24 text-black">{status_name.title()}</h3>
                     </a>
                 '''
             content_html += f'</div>'
-        content_html += f'</section>'
+        content_html += '</section>'
+
         title = f'{system_name.title()} Ailments to Heal With Herbal Remedies'
         page_url = f'remedies/{system_slug}'
         article_filepath_out = f'website/{page_url}.html'
@@ -1738,7 +1749,8 @@ def art_systems():
         template = template.replace('[breadcrumbs]', breadcrumbs_html)
         template = template.replace('[content]', content_html)
         '''
-        util.file_write(article_filepath_out, html)
+        file_write(article_filepath_out, html)
+
 
 def art_status():
     for status_row in status_rows:
@@ -2023,12 +2035,11 @@ def main():
     shutil.copy2('style.css', 'website/style.css')
 
 
+    art_systems()
+    quit()
     page_home()
     main_preparations()
-
-    quit()
     art_remedies()
-    art_systems()
     art_status()
 
     main_herbs()
