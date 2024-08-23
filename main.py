@@ -1623,22 +1623,27 @@ def art_remedies():
     util.file_write(article_filepath_out, html)
 
 def art_systems():
-
     status_list = csv_read_rows_to_json(g.CSV_STATUS_FILEPATH)
     system_list = csv_read_rows_to_json(g.CSV_SYSTEMS_FILEPATH)
+    body_part_list = csv_read_rows_to_json(g.CSV_BODY_PARTS_FILEPATH)
     status_system_list = csv_read_rows_to_json(g.CSV_STATUS_SYSTEMS_FILEPATH)
+    status_body_part_list = csv_read_rows_to_json(g.CSV_STATUS_PARTS_FILEPATH)
 
     data_merged = []
     for status in status_list:
         status_id = status["status_id"]
         status_slug = status["status_slug"]
         status_name = status["status_names"].split(',')[0].strip()
-        body_part = status["body_part"]
         status_system = [obj for obj in status_system_list if obj['status_id'] == status_id][0]
         system = [obj for obj in system_list if obj['system_id'] == status_system['system_id']][0]
         system_id = system['system_id']
         system_slug = system['system_slug']
         system_name = system['system_name']
+        status_body_part = [obj for obj in status_body_part_list if obj['status_id'] == status_id][0]
+        body_part = [obj for obj in body_part_list if obj['body_part_id'] == status_body_part['body_part_id']][0]
+        body_part_id = body_part['body_part_id']
+        body_part_slug = body_part['body_part_slug']
+        body_part_name = body_part['body_part_name']
         data_merged.append({
             'status_id': status_id,
             'status_slug': status_slug, 
@@ -1646,7 +1651,9 @@ def art_systems():
             'system_id': system_id, 
             'system_slug': system_slug, 
             'system_name': system_name, 
-            'body_part': body_part,
+            'body_part_id': body_part_id,
+            'body_part_slug': body_part_slug,
+            'body_part_name': body_part_name,
         })
 
     for system in system_list:
@@ -1656,8 +1663,8 @@ def art_systems():
         body_parts = []
         for obj in data_merged:
             if system_id == obj['system_id']:
-                if obj['body_part'] not in body_parts:
-                    body_parts.append(obj['body_part'])
+                if obj['body_part_name'] not in body_parts:
+                    body_parts.append(obj['body_part_name'])
         
         json_filepath = f'database/json/remedies/{system_slug}.json'
         util.create_folder_for_filepath(json_filepath)
@@ -1689,7 +1696,7 @@ def art_systems():
             status_rows = []
             for obj in data_merged:
                 if system_id == obj['system_id']:
-                    if body_part == obj['body_part']:
+                    if body_part == obj['body_part_name']:
                         status_rows.append([obj['status_id'], obj['status_slug'], obj['status_name']])
             for status_row in status_rows:
                 status_id = status_row[0]

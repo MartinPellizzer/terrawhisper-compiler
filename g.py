@@ -38,6 +38,7 @@ CSV_TREFLE_FILEPATH = 'database/tables/plants/trefle.csv'
 CSV_HERBS_AUTO_FILEPATH = 'database/csv/herbs_auto.csv'
 
 CSV_STATUS_FILEPATH = 'database/csv/status.csv'
+CSV_BODY_PARTS_FILEPATH = 'database/csv/body_parts.csv'
 
 # JUNCTIONS
 CSV_HERBS_NAMES_COMMON_FILEPATH = 'database/csv/junctions/herbs_names_common.csv'
@@ -51,6 +52,7 @@ CSV_PROBLEMS_HERBS_AUTO_FILEPATH = 'database/csv/junctions/problems_herbs_auto.c
 
 
 CSV_STATUS_SYSTEMS_FILEPATH = 'database/csv/junctions/status_systems.csv'
+CSV_STATUS_PARTS_FILEPATH = 'database/csv/junctions/status_parts.csv'
 CSV_STATUS_ORGANS_FILEPATH = 'database/csv/junctions/status_organs.csv'
 CSV_STATUS_HERBS_FILEPATH = 'database/csv/junctions/status_herbs.csv'
 CSV_STATUS_PREPARATIONS_TEAS_FILEPATH = 'database/csv/junctions/status_preparations_teas.csv'

@@ -1,13 +1,21 @@
 import time
+import json
 
 import g
 import util
 import utils_ai
 import data_csv
 
-model = 'Mistral-Nemo-Instruct-2407.Q8_0.gguf'
+from oliark import csv_read_rows_to_json
+from oliark_llm import llm_reply
+
+vault_folderpath = '/home/ubuntu/vault'
+
+model = f'{vault_folderpath}/llms/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf'
+
+# model = 'Mistral-Nemo-Instruct-2407.Q8_0.gguf'
 # model = 'Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf'
-model = 'Meta-Llama-3.1-8B-Instruct-Q8_0.gguf'
+# model = 'Meta-Llama-3.1-8B-Instruct-Q8_0.gguf'
 
 hebs_rows, herbs_cols = data_csv.herbs()
 preparations_rows, preparations_cols = data_csv.preparations()
@@ -852,11 +860,62 @@ def gen_status__organs():
         )
         
         
+def gen_status__body_parts():
+    status_list = csv_read_rows_to_json(g.CSV_STATUS_FILEPATH)
+    body_part_list = csv_read_rows_to_json(g.CSV_BODY_PARTS_FILEPATH)
+    j_status_part_list = csv_read_rows_to_json(g.CSV_STATUS_PARTS_FILEPATH)
+
+    ### get only new statuses
+    status_list_filtered = []
+    for status in status_list:
+        found = False
+        for j_status_part in j_status_part_list:
+            status_id = status['status_id']
+            j_status_id = j_status_part['status_id']
+            if status_id == j_status_id:
+                found = True
+                break
+        if not found:
+            status_list_filtered.append(status)
+
+    print(len(status_list_filtered))
+    body_parts_names = [obj["body_part_name"] for obj in body_part_list]
+    body_parts_names = '- ' + '\n- '.join(body_parts_names)
+    for status in status_list_filtered:
+        status_exe = status['status_exe']
+        status_id = status['status_id']
+        status_slug = status['status_slug']
+        status_name = status['status_names'].split(',')[0].strip()
+
+        prompt = f'''
+            Write the name of the body part that is most related by the following ailment: {status_name}.
+            Choose only one of the PARTS listed below.
+            Also, reply using the following json format: {{"ailment_name": [name of ailment], "body_part_name": [name of body part]}}
+            Example of reply is: {{"ailment_name": "indigestion", "body_part_name": "stomach"}}
+            Here is the list of PARTS you must choose from:
+            {body_parts_names}
+        '''
+        reply = llm_reply(prompt, model)
+        try: reply_data = json.loads(reply)
+        except: continue
+        body_part_name = reply_data['body_part_name']
+
+        try: body_part_obj = [row for row in body_part_list if row['body_part_name'] == body_part_name][0]
+        except: continue
+
+        util.csv_add_rows(
+            g.CSV_STATUS_PARTS_FILEPATH, 
+            [[status_id, status_name, body_part_obj['body_part_id'], body_part_name]]
+        )
+
 
 ##################################################
 # EXE
 ##################################################
 
+gen_status__body_parts()
+
+quit()
 
 # status
 gen_system_for_status()
@@ -871,7 +930,6 @@ gen_preparations('essential-oils')
 gen_preparations('capsules')
 gen_preparations('creams')
 
-quit()
 
 # herbs
 gen_herbs_names_common()
