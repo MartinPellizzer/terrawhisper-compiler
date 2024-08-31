@@ -10,7 +10,7 @@ import data_csv
 
 def gen_images():
     vault = '/home/ubuntu/vault'
-    category_name = 'capsule'
+    category_name = 'syrup'
     category_slug = category_name.replace(' ', '-')
     category_folderpath = f'{vault}/terrawhisper/images/{category_slug}s/2x3'
     try: os.makedirs(f'{category_folderpath}')

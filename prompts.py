@@ -107,55 +107,6 @@ def preparation__supplementary_best_treatment(status_name, preparation_name):
 # ;status
 ###################################################################################################
 
-def status__intro(status_name):
-    return f'''
-        Write 1 short paragraph of about 60 to 80 words on the best herbs for {status_name}.
-        Include a brief definition of: {status_name}.
-        Also, explain negative health impacts, causes, medicinal herbs and precautions.
-        Reply in paragraph format, not in list format.
-    '''
-
-def status__definition(status_name):
-    return f'''
-        Write 1 paragraph explaining what is {status_name}.
-        Also include many examples on how it affects negatively your life.
-        Don't mention the casuses of {status_name}.
-    '''
-
-def status__causes(status_name):
-    return f'''
-        Write 1 paragraph explaining what are the main causes of {status_name}.
-        Start the reply with the following words: The main causes of {status_name} are .
-    '''
-
-def status__herbs(status_name, herbs_names_common_prompt):
-    return f'''
-        Write 1 paragraph of about 60 to 80 words on what medicinal herbs helps with {status_name} and why.
-        Include some of the following herbs: {herbs_names_common_prompt}.
-        Start the reply with the following words: The best medicinal herbs for {status_name} are .
-    '''
-
-def status__herbs_list(status_name, herbs_names_common_prompt):
-    return f'''
-        Write a numbered list explaining why the HERBS below are good for {status_name}.
-        Follow the GUIDELINES below.
-        ## GUIDELINES
-        Reply with only the numbered list, no additional content or notes.
-        Use the following structure for each item in the list: "herb_name: explanation".
-        ## HERBS
-        {herbs_names_common_prompt}
-    '''
-
-def status__preparations(status_name, preparations_names_prompt):
-    return f'''
-        Write 1 paragraph about what are the best types of herbal preparations for {status_name}.
-        Include the following types of herbal preparations: {preparations_names_prompt}.
-        Explain why each preparation helps with {status_name}.
-        Don't include names of herbs.
-        Don't include definitions for the preparations.
-        Don't include how to make the preparations.
-        Start the reply with the following words: The most effective herbal preparations for {status_name} are .
-    '''
 
 def status__preparations_list(status_name, preparations_names_prompt):
     return f'''

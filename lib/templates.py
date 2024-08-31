@@ -90,7 +90,7 @@ def homepage_articles(preparation_slug):
 
 def homepage():
     section_articles = homepage_articles('teas')
-
+    opacity = 0.0
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
@@ -106,14 +106,16 @@ def homepage():
         <body>
             {components.header()}
             <main>
-                <section class="h-80v" style="background-image: url(/images-static/medicinal-plants.jpg); background-position: center; background-size: cover;">
-                    <div class="container-xl h-full">
-                        <div class="flex items-center h-full">
-                            <div class="homepage-hero-card">
+                <section class="h-80v">
+                    <div class="flex h-full items-center bg-emerald-900">
+                        <div class="flex-1">
+                            <div class="container-xl-half">
                                 <h1 class="homepage-hero-card-title">Use Medicinal Herbs to Heal Naturally</h1>
-                                <p>Learn to leverage the power of healing plants to cure more than 300 physical, mental and spiritual health problems.</p>
-                                <a href="/remedies.html" class="button">Discover Remedies</a>
+                                <p class="text-white mb-24">Learn to leverage the power of healing plants to relieve more than 300 physical, mental and spiritual health problems.</p>
+                                <a href="/remedies.html" class="button-white">Discover Remedies</a>
                             </div>
+                        </div>
+                        <div class="flex-1 h-full" style="background-image: linear-gradient(rgba(0, 0, 0, {opacity}), rgba(0, 0, 0, {opacity})), url(/images-static/hero.jpg); background-position: center; background-size: cover;">
                         </div>
                     </div>
                 </section>
@@ -121,11 +123,11 @@ def homepage():
                     <h2 class="homepage-what-title">TerraWhisper is a science-based, daily updated, online herbal remedies encyclopedia</h2>
                     <div class="homepage-what-cards">
                         <div class="homepage-what-card">
-                            <img class="mb-24" src="/images-static/herbal-remedies.jpg" alt="">
+                            <img class="mb-24" src="/images-static/herbal-remedies.png" alt="">
                             <a href="/remedies.html" class="button">Browse Remedies</a>
                         </div>
                         <div class="homepage-what-card">
-                            <img class="mb-24" src="/images-static/healing-herbs.jpg" alt="">
+                            <img class="mb-24" src="/images-static/healing-herbs.png" alt="">
                             <a href="/herbs.html" class="button">Browse Herbs</a>
                         </div>
                     </div>

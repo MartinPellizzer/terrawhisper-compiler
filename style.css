@@ -1,3 +1,8 @@
+@font-face {
+    font-family: lato-regular;
+    src: url("./assets/fonts/Lato/Lato-Regular.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +15,7 @@ html {
 
 body {
     font-size: 1.8rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: lato-regular, Arial, Helvetica, sans-serif;
 }
 
 /* ************************************************************ */
@@ -48,6 +53,30 @@ body {
     max-width: 76.8rem;
     padding-left: 2.4rem;
     padding-right: 2.4rem;
+}
+
+.container-xl-half {
+    max-width: 64.0rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.bg-emerald-700 {
+    background-color: #047857;
+}
+
+.bg-emerald-800 {
+    background-color: #065f56;
+}
+
+.bg-emerald-900 {
+    background-color: #064e3b;
+}
+
+.bg-emerald-950 {
+    background-color: #022c22;
 }
 
 /* *************************************************************** */
@@ -537,6 +566,16 @@ td {
     text-decoration: none;
 }
 
+.button-white {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 1.2rem 2.4rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: white;
+    text-decoration: none;
+}
+
 .homepage-hero-content {
     display: grid;
     align-items: center;
@@ -553,8 +592,8 @@ td {
     font-size: 7.2rem;
     line-height: 1;
     font-weight: 400;
-    color: black;
-    margin-bottom: 1.6rem;
+    color: white;
+    margin-right: 4.8rem;
 }
 
 @media (max-width: 768px) {
@@ -664,6 +703,11 @@ td {
 .pt-8 {
     padding-top: 0.8rem;
 }
+
+.pt-16 {
+    padding-top: 1.6rem;
+}
+
 
 .pb-0 {
     padding-bottom: 0;
