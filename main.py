@@ -1586,11 +1586,10 @@ def art_remedies():
                 <section class="container-xl">
                     <h1 class="mt-64 text-center">{title}</h1>
                     <div class="container-md text-center">
-                        <p>This page lists the main systems of the body. <u>Select the body system</u> which your ailment is categorized to find out the best herbal remedies for it.
+                        <p>This page lists the main systems of the body. <u>Select the body system in which your ailment is categorized</u>, to find out the best herbal remedies for it.
                         For example, if you want to find relief for your cough, click the respiratory system. Or, if you want to stop your headache, choose the nervous system.
-                        Once you click a body system, you get redirected to a page that lists all the ailments associated to that body system grouped by body part (organ). Then select your ailment and discover what herbal remedies are good for that issue.
-                        
-                        If you don't know in which body system is classified your ailment, browse around. It's your best option.
+                        Once you click a body system, you get redirected to a page that lists all the ailments associated to that body system.
+                        If you don't know in which body system is classified your ailment, just browse around until you find it. It's your best option.
                         </p>
                     </div>
                     <div class="grid grid-3 gap-64 my-96">

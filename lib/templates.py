@@ -88,6 +88,49 @@ def homepage_articles(preparation_slug):
     '''
     return html
 
+def homepage_section_benefits():
+    url = '/images-static/benefits.png'
+    opacity = 0.0
+    html = f'''
+        <section class="h-80v">
+            <div class="h-full" style="background-image: linear-gradient(rgba(0, 0, 0, {opacity}), rgba(0, 0, 0, {opacity})), url({url}); background-position: center; background-size: cover;">
+            </div>
+        </section>
+    '''
+    return html
+
+def homepage_section_benefits_2():
+    url = '/images-static/benefits.png'
+    bg_color_fuchsia_700 = '#a21caf'
+    bg_color_purple_100 = '#f3e8ff'
+    bg_color_purple_200 = '#e9d5ff'
+    bg_color_purple_700 = '#7e22ce'
+    bg_color_stone_100 = '#f5f5f4'
+    bg_color = bg_color_stone_100
+    text_color = 'black'
+    opacity = 0.0
+    html = f'''
+        <section class="h-80v">
+            <div class="flex h-full items-center" style="background-color: {bg_color};">
+                <div class="flex-1 h-full" style="background-image: linear-gradient(rgba(0, 0, 0, {opacity}), rgba(0, 0, 0, {opacity})), url({url}); background-position: center; background-size: cover;">
+                </div>
+                <div class="flex-1">
+                    <div class="container-xl-half ml-0 ml-48 mr-auto">
+                        <h2 class="text-64 font-lato-regular text-black">Benefits of using herbal remedies</h2>
+                        <p class="mb-48 text-black">Herbs are a natural, effective, and eco-friendly solution to find relief from common ailments and improve you quality of life.</p>
+                        <h3 class="text-black text-20 font-lato-bold mb-8">1. Natural and non-toxic</h3>
+                        <p class="mb-24">Unlike synthetic pharmaceuticals, herbal remedies are derived directly from plants, which have been used for centuries in traditional medicine and contain bioactive compounds in their natural form, making them less likely to cause adverse reactions or interract with medications.</p>
+                        <h3 class="text-black text-20 font-lato-bold mb-8">2. Effective for common ailments</h3>
+                        <p class="mb-24">Unlike synthetic pharmaceuticals, herbal remedies are derived directly from plants, which have been used for centuries in traditional medicine and contain bioactive compounds in their natural form, making them less likely to cause adverse reactions or interract with medications.</p>
+                        <h3 class="text-black text-20 font-lato-bold mb-8">3. Sustainable and environmentally friendly</h3>
+                        <p class="mb-24">Unlike synthetic pharmaceuticals, herbal remedies are derived directly from plants, which have been used for centuries in traditional medicine and contain bioactive compounds in their natural form, making them less likely to cause adverse reactions or interract with medications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+    return html
+
 def homepage():
     section_articles = homepage_articles('teas')
     opacity = 0.0
@@ -132,6 +175,7 @@ def homepage():
                         </div>
                     </div>
                 </section>
+                {homepage_section_benefits_2()}
                 {section_articles}
             </main>
             <div class="mt-64"></div>

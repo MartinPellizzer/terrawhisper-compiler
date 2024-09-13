@@ -3,6 +3,21 @@
     src: url("./assets/fonts/Lato/Lato-Regular.ttf");
 }
 
+@font-face {
+    font-family: lato-bold;
+    src: url("./assets/fonts/Lato/Lato-Bold.ttf");
+}
+
+.font-lato-regular {
+    font-family: lato-regular;
+    font-weight: 400;
+}
+
+.font-lato-bold {
+    font-family: lato-bold;
+    font-weight: 700;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -280,6 +295,7 @@ td {
 
 .text-64 {
     font-size: 6.4rem;
+    line-height: 1;
 }
 
 .text-96 {
@@ -334,6 +350,10 @@ td {
 
 .text-neutral-200 {
     color: #e5e5e5;
+}
+
+.mb-8 {
+    margin-bottom: 0.8rem;
 }
 
 .mb-16 {
@@ -603,7 +623,8 @@ td {
 }
 
 .homepage-what {
-    padding-top: 6.4rem;
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
     max-width: 99.6rem;
     margin-left: auto;
     margin-right: auto;
@@ -614,6 +635,7 @@ td {
     font-size: 3.6rem;
     line-height: 4.0rem;
     font-weight: 700;
+    padding-top: 0;
     padding-left: 2.4rem;
     padding-right: 2.4rem;
     margin-bottom: 2.4rem;
@@ -721,3 +743,18 @@ td {
     padding-bottom: 0.8rem;
 }
 
+.mr-auto {
+    margin-right: auto;
+}
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.ml-48 {
+    margin-left: 4.8rem;
+}
+
+.pl-32 {
+    padding-left: 3.2rem;
+}
