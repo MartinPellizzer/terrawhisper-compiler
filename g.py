@@ -67,4 +67,5 @@ CATEGORY_HERBALISM = 'herbalism'
 CATEGORY_REMEDIES = 'remedies'
 CATEGORY_HERBS = 'herbs'
 
-PINTEREST_TMP_IMAGE_FOLDERPATH = 'social_media/pinterest'
+PINTEREST_TMP_IMAGE_FOLDERPATH = 'pinterest/tmp'
+PINTEREST_PINS_IMAGE_FOLDERPATH = 'pinterest/pins'

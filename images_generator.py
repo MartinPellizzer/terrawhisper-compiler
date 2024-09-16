@@ -8,9 +8,13 @@ import g
 import util
 import data_csv
 
+import torch
+from diffusers import DiffusionPipeline, StableDiffusionXLPipeline
+from diffusers import DPMSolverMultistepScheduler
+
 def gen_images():
     vault = '/home/ubuntu/vault'
-    category_name = 'syrup'
+    category_name = 'tea'
     category_slug = category_name.replace(' ', '-')
     category_folderpath = f'{vault}/terrawhisper/images/{category_slug}s/2x3'
     try: os.makedirs(f'{category_folderpath}')
@@ -38,17 +42,30 @@ def gen_images():
     print(starting_herb_index)
     print(images_num_min)
 
+    ## gen images
+    checkpoint_filepath = '/home/ubuntu/vault/stable-diffusion/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors'
+    pipe = StableDiffusionXLPipeline.from_single_file(
+        checkpoint_filepath, 
+        torch_dtype=torch.float16, 
+        use_safetensors=True, 
+        variant="fp16"
+    ).to('cuda')
+    pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config, use_karras_sigmas=True, algorithm_type='sde-dpmsolver++')
     i = -1
     for herb_row in herbs_rows[starting_herb_index:]:
         i += 1
         herb_slug = herb_row[herbs_cols['herb_slug']]
         herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']]
-        prompt = f'{herb_name_scientific} herbal {category_name}, on a wooden table, surrounded by medicinal herbs'
-        prompt += f', high resolution, cinematic, macro photography'
+        prompt = f'{herb_name_scientific} herbal {category_name} on a wooden table surrounded by medicinal herbs'
+        prompt += f', indoor, natural light, sunlight, depth of field, bokeh, detailed textures, high resolution, cinematic'
         print(prompt)
 
         for j in range(10):
             print(f'{herb_name_scientific} {i}/{len(herbs_rows)} - iter: {j}/100')
+            tmp_filepath = f'{vault}/terrawhisper/images/tmp/tmp.png'
+            image = pipe(prompt=prompt, num_inference_steps=25).images[0]
+            image.save(tmp_filepath)
+            '''
             payload = {
                 "prompt": prompt,
                 "width": 832,
@@ -65,9 +82,9 @@ def gen_images():
             r = response.json()
 
             ## save raw image (tmp)
-            tmp_filepath = f'{vault}/terrawhisper/images/tmp/tmp.png'
             with open(tmp_filepath, 'wb') as f:
                 f.write(base64.b64decode(r['images'][0]))
+            '''
 
             ## compress image
             herb_folderpath = f'{category_folderpath}/{herb_slug}'

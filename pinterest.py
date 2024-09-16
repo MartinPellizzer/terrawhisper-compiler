@@ -14,24 +14,38 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.options import Options
 from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 
+import torch
+from diffusers import DiffusionPipeline, StableDiffusionXLPipeline
+from diffusers import DPMSolverMultistepScheduler
+
 import g
 import data_csv
 import util
 import util_data
 
-start_folder = '/home/ubuntu/vault/images'
-proj_filepath_abs = '/home/ubuntu/proj/terrawhisper-compiler'
+vault = '/home/ubuntu/vault'
+vault_tmp = '/home/ubuntu/vault-tmp'
+
+proj_filepath_abs = '/home/ubuntu/proj/tw/terrawhisper-compiler'
 
 random_num = random.randint(-2, 2)
 ARTICLES_NUM = 35 - random_num
 WAIT_SECONDS = 500
 NUM_TINCTURES = 8
 
+checkpoint_filepath = f'{vault}/stable-diffusion/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors'
+pipe = StableDiffusionXLPipeline.from_single_file(
+    checkpoint_filepath, 
+    torch_dtype=torch.float16, 
+    use_safetensors=True, 
+    variant="fp16"
+).to('cuda')
+pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
+
 # options = Options()
 # options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
 # driver = webdriver.Firefox(executable_path=r'C:\drivers\geckodriver.exe', options=options)
 
-'''
 driver = webdriver.Firefox()
 driver.get('https://www.google.com')
 driver.maximize_window()
@@ -46,7 +60,6 @@ time.sleep(10)
 e = driver.find_element(By.XPATH, '//div[text()="Log in"]')
 e.click()
 time.sleep(30)
-'''
 
 preparations_rows = util.csv_get_rows(g.CSV_PREPARATIONS_FILEPATH)
 preparations_cols = util.csv_get_cols(preparations_rows)
@@ -149,18 +162,16 @@ for status_row in status_rows:
         else: print(f'NOT FOUND: {json_filepath}')
     else: print(f'NOT PREPARATION OF STATUS: {json_filepath}')
     json_filepath = f'database/json/remedies/{system_slug}/{status_slug}/creams.json'
-    '''
     if 'creams' in preparations_names:
         if os.path.exists(json_filepath): 
             print(f'ok: {json_filepath}')
             creams_articles_filepath.append(json_filepath)
         else: print(f'NOT FOUND: {json_filepath}')
     else: print(f'NOT PREPARATION OF STATUS: {json_filepath}')
-    '''
 
 
 
-preparations_num = 3
+preparations_num = 4
 pins_per_preparation = ARTICLES_NUM // preparations_num
 
 random.shuffle(teas_articles_filepath)
@@ -189,12 +200,15 @@ for article_filepath in articles_filepath:
 for filename in os.listdir(g.PINTEREST_TMP_IMAGE_FOLDERPATH):
     os.remove(f'{g.PINTEREST_TMP_IMAGE_FOLDERPATH}/{filename}')
     
+for filename in os.listdir(g.PINTEREST_PINS_IMAGE_FOLDERPATH):
+    os.remove(f'{g.PINTEREST_PINS_IMAGE_FOLDERPATH}/{filename}')
+    
 ###########################################################################
 # UTILS
 ###########################################################################
 
 def pin_save(img, filename):
-    img_filepath = f'{g.PINTEREST_TMP_IMAGE_FOLDERPATH}/{filename}.jpg'
+    img_filepath = f'{g.PINTEREST_PINS_IMAGE_FOLDERPATH}/{filename}.jpg'
     img.save(
         img_filepath,
         format='JPEG',
@@ -245,6 +259,7 @@ def gen_text_num(img, line_list, num):
 ###########################################################################
 # TEMPLATES
 ###########################################################################
+
 def template_plain(images_file_paths, export_file_name):
     pin_w = 1000
     pin_h = 1500
@@ -252,7 +267,7 @@ def template_plain(images_file_paths, export_file_name):
     img = util.img_resize(img, pin_w, pin_h)
     export_file_path = pin_save(img, export_file_name)
     return export_file_path
-    
+
 def template_mosaic(images_file_paths, export_file_name):
     pin_w = 1000
     pin_h = 1500
@@ -270,6 +285,105 @@ def template_mosaic(images_file_paths, export_file_name):
     img.paste(img_0001, (int(pin_w*0.66) + gap, 0))
     img.paste(img_0002, (-int(pin_w*0.32), int(pin_h*0.5) + gap))
     img.paste(img_0003, (int(pin_w*0.34) + gap, int(pin_h*0.5) + gap))
+    export_file_path = pin_save(img, export_file_name)
+    return export_file_path
+
+def template_mosaic_inverted(images_file_paths, export_file_name):
+    pin_w = 1000
+    pin_h = 1500
+    img = Image.new(mode="RGB", size=(pin_w, pin_h), color='#ffffff')
+    gap = 8
+    img_0000 = Image.open(images_file_paths[0])
+    img_0001 = Image.open(images_file_paths[1])
+    img_0002 = Image.open(images_file_paths[2])
+    img_0003 = Image.open(images_file_paths[3])
+    img_0000 = util.img_resize(img_0000, int(pin_w*0.66), int(pin_h*0.5))
+    img_0001 = util.img_resize(img_0001, int(pin_w*0.66), int(pin_h*0.5))
+    img_0002 = util.img_resize(img_0002, int(pin_w*0.66), int(pin_h*0.5))
+    img_0003 = util.img_resize(img_0003, int(pin_w*0.66), int(pin_h*0.5))
+    img.paste(img_0000, (-int(pin_w*0.32), 0))
+    img.paste(img_0001, (int(pin_w*0.34) + gap, 0))
+    img.paste(img_0002, (0, int(pin_h*0.5) + gap))
+    img.paste(img_0003, (int(pin_w*0.66) + gap, int(pin_h*0.5) + gap))
+    export_file_path = pin_save(img, export_file_name)
+    return export_file_path
+
+def template_text(data, images_file_paths, export_file_name):
+    pin_w = 1000
+    pin_h = 1500
+    img = Image.new(mode="RGB", size=(pin_w, pin_h), color='#ffffff')
+    draw = ImageDraw.Draw(img)
+    gap = 8
+    rect_h = 320
+    img_0000 = Image.open(images_file_paths[0])
+    img_0001 = Image.open(images_file_paths[1])
+    img_0002 = Image.open(images_file_paths[2])
+    img_0003 = Image.open(images_file_paths[3])
+    img_0000 = util.img_resize(img_0000, int(pin_w*1), int(pin_h*0.5))
+    img_0001 = util.img_resize(img_0001, int(pin_w*1), int(pin_h*0.5))
+    img.paste(img_0000, (0, 0))
+    img.paste(img_0001, (0, int(pin_h*0.5) + gap))
+    random_theme = random.randint(0, 2)
+    if random_theme == 0:
+        text_color = '#ffffff'
+        bg_color = '#000000'    
+    elif random_theme == 1:
+        text_color = '#ffffff'
+        bg_color = '#a21caf'    
+    else:
+        text_color = '#000000'    
+        bg_color = '#ffffff'
+    # rect
+    draw.rectangle(((0, pin_h//2 - rect_h//2), (pin_w, pin_h//2 + rect_h//2)), fill=bg_color)
+    # line
+    # draw.line((0, pin_h//2, pin_w, pin_h//2), fill='#ff00ff')
+    # data
+    status_name = data['status_name']
+    text = f'{status_name}'.upper()
+    words = text.split(' ')
+    lines = []
+    if len(words) > 2:
+        lines.append(' '.join(words[:2]))
+        lines.append(' '.join(words[2:]))
+    else:
+        lines.append(' '.join(words))
+    len_lines_max = 0
+    for line in lines:
+        if len_lines_max < len(line): len_lines_max = len(line)
+    font_size = 64
+    font_step_size = 12
+    font_start_size = 48
+    if len_lines_max < 8: font_size = font_start_size + font_step_size*6
+    elif len_lines_max < 12: font_size = font_start_size + font_step_size*5
+    elif len_lines_max < 16: font_size = font_start_size + font_step_size*4
+    elif len_lines_max < 20: font_size = font_start_size + font_step_size*3
+    elif len_lines_max < 24: font_size = font_start_size + font_step_size*2
+    elif len_lines_max < 28: font_size = font_start_size + font_step_size*1
+    else: font_size = font_start_size + font_step_size*0
+    if len(lines) > 1: ml_off_y = int(font_size*0.66)
+    else: ml_off_y = 0
+    
+    # text
+    remedies_num = data['remedies_num']
+    preparation_name = data['preparation_name']
+    text = f'{remedies_num} best herbal {preparation_name} for'.title()
+    preparations_font_size = 48
+    offset_y = int(preparations_font_size*0.2)
+    line_spacing = int(preparations_font_size*0.75)
+    font_family, font_weight = 'Lato', 'Bold'
+    font_path = f"assets/fonts/{font_family}/{font_family}-{font_weight}.ttf"
+    font = ImageFont.truetype(font_path, preparations_font_size)
+    _, _, text_w, text_h = font.getbbox(text)
+    draw.text((pin_w//2 - text_w//2, pin_h//2 - text_h//2 - offset_y - line_spacing- ml_off_y), text, text_color, font=font)
+    # text status
+    font_family, font_weight = 'Lato', 'Bold'
+    font_path = f"assets/fonts/{font_family}/{font_family}-{font_weight}.ttf"
+    font = ImageFont.truetype(font_path, font_size)
+    _, _, text_w, text_h = font.getbbox(lines[0])
+    draw.text((pin_w//2 - text_w//2, pin_h//2 - text_h//2 - offset_y + line_spacing - ml_off_y), lines[0], text_color, font=font)
+    if len(lines) > 1:
+        _, _, text_w, text_h = font.getbbox(lines[1])
+        draw.text((pin_w//2 - text_w//2, pin_h//2 - text_h//2 - offset_y + line_spacing + text_h - ml_off_y), lines[1], text_color, font=font)
     export_file_path = pin_save(img, export_file_name)
     return export_file_path
 
@@ -341,8 +455,8 @@ def gen_img_template(line_list, img_list, out_filename, num=0,):
     font = ImageFont.truetype(font_path, font_size)
     text = line_list[0]
     text_w = font.getbbox(text)[2]
-    text_h = font.getbbox(text)[3]
-    draw.text((img_w//2 - text_w//2, img_h//2 - 80), text, '#000000', font=font)
+    text_h = font.getbbox(text)[3] 
+    draw.text((img_w//2 - text_w//2, img_h//2 - 80), text, '#000000', font=font) 
     text = line_list[1]
     font_size = 96
     if len(text) < 20: 
@@ -366,308 +480,9 @@ def gen_img_template(line_list, img_list, out_filename, num=0,):
     img_filepath = pin_save(img, out_filename)
     return img_filepath
 
- 
-    
-# START PINNING TEAS
-i = 0
-for article_filepath in teas_articles_filepath:
-    i += 1
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
-    data = util.json_read(article_filepath)
-    try: remedy_num = data['remedy_num']
-    except: remedy_num = data['remedies_num']
-    title = data['title']
-    status_name = data['status_name']
-    preparation = 'teas'
-    url = data['url']
-    try: remedies = data['teas']
-    except: remedies = data['remedies_list']
-    filename_out = url.replace('/', '-')
 
-    remedies_descriptions = []
-    for remedy in remedies:
-        try: remedies_descriptions.append(remedy['tea_desc'])
-        except:
-            try: remedies_descriptions.append(remedy['remedy_desc'])
-            except: pass
-
-    rand_template = random.randint(0, 2)
-    if rand_template == 0:
-        # GET ALL IMAGE IN IMAGES/TEA FOLDER
-        images_folder = f'{start_folder}/teas'
-        img_teas_folders = os.listdir(images_folder)
-        img_teas_filepaths = []
-        for folder in img_teas_folders:
-            img_filepaths = os.listdir(f'{images_folder}/{folder}')
-            for img_filepath in img_filepaths:
-                img_teas_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
-
-        # GENERATE PIN WITH RANDOM IMAGES
-        random.shuffle(img_teas_filepaths)
-        images = img_teas_filepaths
-        line_1 = f'best herbal teas for'.title()
-        line_2 = f'{status_name}'.title()
-        line_list = [line_1, line_2]
-
-        img_filepath = gen_img_template(
-            line_list,
-            images,
-            filename_out,
-            remedy_num,
-        )
-    elif rand_template == 1:
-        # GET ALL IMAGE IN IMAGES/TEA FOLDER
-        images_folder = f'{start_folder}/2x3/teas'
-        img_teas_folders = os.listdir(images_folder)
-        img_teas_filepaths = []
-        for folder in img_teas_folders:
-            img_filepaths = os.listdir(f'{images_folder}/{folder}')
-            for img_filepath in img_filepaths:
-                img_teas_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
-
-        # GENERATE PIN WITH RANDOM IMAGES
-        random.shuffle(img_teas_filepaths)
-        images = img_teas_filepaths
-        line_1 = f'best herbal teas for'.title()
-        line_2 = f'{status_name}'.title()
-        line_list = [line_1, line_2]
-        
-        img_filepath = template_plain(
-            images,
-            filename_out,
-        )
-    else:
-        # GET ALL IMAGE IN IMAGES/TEA FOLDER
-        images_folder = f'{start_folder}/2x3/teas'
-        img_teas_folders = os.listdir(images_folder)
-        img_teas_filepaths = []
-        for folder in img_teas_folders:
-            img_filepaths = os.listdir(f'{images_folder}/{folder}')
-            for img_filepath in img_filepaths:
-                img_teas_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
-
-        # GENERATE PIN WITH RANDOM IMAGES
-        random.shuffle(img_teas_filepaths)
-        images = img_teas_filepaths
-        line_1 = f'best herbal teas for'.title()
-        line_2 = f'{status_name}'.title()
-        line_list = [line_1, line_2]
-        
-        img_filepath = template_mosaic(
-            images, 
-            filename_out
-        )
-    
-    # GET RANDOM DESCRIPTION
-    if remedies_descriptions:
-        random.shuffle(remedies_descriptions)
-        description = remedies_descriptions[0][:490] + '...'
-    else:
-        description = ''
-
-    # LOG
-    print(article_filepath)
-    print(remedy_num)
-    print(title)
-    print(status_name)
-    print(preparation)
-    print(url)
-    print(filename_out)
-    print(description)
-    print(images[:4])
-    print()
-
-    url = f'https://terrawhisper.com/{url}.html'
-    title = f'{title.title()}'
-    # title = f'{remedy_num} {title.title()}'
-    board_name = 'Herbal Teas'
-    driver.get("https://www.pinterest.com/pin-creation-tool/")
-    time.sleep(10)
-    e = driver.find_element(By.XPATH, '//input[@id="storyboard-upload-input"]')
-    # img_filepath_formatted = img_filepath.replace("/", "\\")
-    img_filepath_formatted = img_filepath
-    e.send_keys(f'{proj_filepath_abs}/{img_filepath_formatted}') 
-    time.sleep(10)
-    e = driver.find_element(By.XPATH, '//input[@id="storyboard-selector-title"]')
-    e.send_keys(title)
-    time.sleep(5) 
-    e = driver.find_element(By.XPATH, "//div[@class='notranslate public-DraftEditor-content']")
-    for c in description:
-        e.send_keys(c)
-    time.sleep(5)
-    e = driver.find_element(By.XPATH, '//input[@id="WebsiteField"]')
-    e.send_keys(url) 
-    time.sleep(5)
-    e = driver.find_element(By.XPATH, '//button[@data-test-id="board-dropdown-select-button"]')
-    e.click()
-    time.sleep(5)
-    e = driver.find_element(By.XPATH, '//input[@id="pickerSearchField"]')
-    e.send_keys(board_name) 
-    time.sleep(5)
-    e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-{board_name}"]')
-    e.click()
-    time.sleep(5)
-    e = driver.find_element(By.XPATH, '//div[@data-test-id="storyboard-creation-nav-done"]/..')
-    e.click()
-    time.sleep(60)
-    # driver.get("https://www.google.com/")
-    # break
-    random_time_to_wait = random.randint(-60, 60)
-    time_to_wait = WAIT_SECONDS + random_time_to_wait
-    time.sleep(time_to_wait)
-
-
-# START PINNING TICTURES
-i = 0
-for article_filepath in tinctures_articles_filepath:
-    i += 1
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
-    data = util.json_read(article_filepath)
-    remedy_num = data['remedies_num']
-    title = data['title']
-    status_name = data['status_name']
-    preparation = 'tinctures'
-    url = data['url']
-    remedies = data['remedies_list']
-    filename_out = url.replace('/', '-')
-
-    remedies_descriptions = []
-    for remedy in remedies:
-        try: remedies_descriptions.append(remedy['remedy_desc'])
-        except: pass
-
-    
-    rand_template = random.randint(0, 2)
-    if rand_template == 0:
-        # GET ALL IMAGE IN IMAGES/TEA FOLDER
-        images_folder = f'{start_folder}/tinctures'
-        img_tinctures_folders = os.listdir(images_folder)
-        img_tinctures_filepaths = []
-        for folder in img_tinctures_folders:
-            img_filepaths = os.listdir(f'{images_folder}/{folder}')
-            for img_filepath in img_filepaths:
-                img_tinctures_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
-
-        # GENERATE PIN WITH RANDOM IMAGES
-        random.shuffle(img_tinctures_filepaths)
-        images = img_tinctures_filepaths
-        line_1 = f'best herbal tinctures for'.title()
-        line_2 = f'{status_name}'.title()
-        line_list = [line_1, line_2]
-
-        img_filepath = gen_img_template(
-            line_list,
-            images,
-            filename_out,
-            remedy_num,
-        )
-    elif rand_template == 1:
-        # GET ALL IMAGE IN IMAGES/TEA FOLDER
-        images_folder = f'{start_folder}/2x3/tinctures'
-        img_tinctures_folders = os.listdir(images_folder)
-        img_tinctures_filepaths = []
-        for folder in img_tinctures_folders:
-            img_filepaths = os.listdir(f'{images_folder}/{folder}')
-            for img_filepath in img_filepaths:
-                img_tinctures_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
-
-        # GENERATE PIN WITH RANDOM IMAGES
-        random.shuffle(img_tinctures_filepaths)
-        images = img_tinctures_filepaths
-        line_1 = f'best herbal tinctures for'.title()
-        line_2 = f'{status_name}'.title()
-        line_list = [line_1, line_2]
-        
-        img_filepath = template_plain(
-            images,
-            filename_out,
-        )
-    else:
-        # GET ALL IMAGE IN IMAGES/TEA FOLDER
-        images_folder = f'{start_folder}/2x3/tinctures'
-        img_tinctures_folders = os.listdir(images_folder)
-        img_tinctures_filepaths = []
-        for folder in img_tinctures_folders:
-            img_filepaths = os.listdir(f'{images_folder}/{folder}')
-            for img_filepath in img_filepaths:
-                img_tinctures_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
-
-        # GENERATE PIN WITH RANDOM IMAGES
-        random.shuffle(img_tinctures_filepaths)
-        images = img_tinctures_filepaths
-        line_1 = f'best herbal tinctures for'.title()
-        line_2 = f'{status_name}'.title()
-        line_list = [line_1, line_2]
-        
-        img_filepath = template_mosaic(
-            images, 
-            filename_out
-        )
-
-    # GET RANDOM DESCRIPTION
-    if remedies_descriptions:
-        random.shuffle(remedies_descriptions)
-        description = remedies_descriptions[0][:490] + '...'
-    else:
-        description = ''
-
-    # LOG
-    print(article_filepath)
-    print(remedy_num)
-    print(title)
-    print(status_name)
-    print(preparation)
-    print(url)
-    print(filename_out)
-    print(description)
-    print(images[:4])
-    print()
-
-    url = f'https://terrawhisper.com/{url}.html'
-    title = f'{title.title()}'
-    # title = f'{remedy_num} {title.title()}'
-    board_name = 'Herbal Tinctures'
-    driver.get("https://www.pinterest.com/pin-creation-tool/")
-    time.sleep(10)
-    e = driver.find_element(By.XPATH, '//input[@id="storyboard-upload-input"]')
-    # img_filepath_formatted = img_filepath.replace("/", "\\")
-    img_filepath_formatted = img_filepath
-    e.send_keys(f'{proj_filepath_abs}/{img_filepath_formatted}') 
-    time.sleep(10)
-    e = driver.find_element(By.XPATH, '//input[@id="storyboard-selector-title"]')
-    e.send_keys(title)
-    time.sleep(5) 
-    e = driver.find_element(By.XPATH, "//div[@class='notranslate public-DraftEditor-content']")
-    for c in description:
-        e.send_keys(c)
-    time.sleep(5)
-    e = driver.find_element(By.XPATH, '//input[@id="WebsiteField"]')
-    e.send_keys(url) 
-    time.sleep(5)
-    e = driver.find_element(By.XPATH, '//button[@data-test-id="board-dropdown-select-button"]')
-    e.click()
-    time.sleep(5)
-    e = driver.find_element(By.XPATH, '//input[@id="pickerSearchField"]')
-    e.send_keys(board_name) 
-    time.sleep(5)
-    e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-{board_name}"]')
-    e.click()
-    time.sleep(5)
-    e = driver.find_element(By.XPATH, '//div[@data-test-id="storyboard-creation-nav-done"]/..')
-    e.click()
-    time.sleep(60)
-    # driver.get("https://www.google.com/")
-    # break
-    random_time_to_wait = random.randint(-60, 60)
-    time_to_wait = WAIT_SECONDS + random_time_to_wait
-    time.sleep(time_to_wait)
-
-
-# PIN ESSENTIAL OILS
-i = 0
-for article_filepath in essential_oils_articles_filepath:
-    i += 1
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
+def pin_gen_backup(article_filepath, preparation_slug):
+    preparation_name = preparation_slug.replace('-', ' ')
     data = util.json_read(article_filepath)
     remedy_num = data['remedies_num']
     title = data['title']
@@ -676,153 +491,38 @@ for article_filepath in essential_oils_articles_filepath:
     remedies = data['remedies_list']
     filename_out = url.replace('/', '-')
 
-    remedies_descriptions = []
-    for remedy in remedies:
-        try: remedies_descriptions.append(remedy['remedy_desc'])
-        except: pass
-    
+    # get image
+    print(f'{vault}/terrawhisper/images/{preparation_slug}/2x3')
+    images_folder = f'{vault}/terrawhisper/images/{preparation_slug}/2x3'
+    img_creams_folders = os.listdir(images_folder)
+    img_creams_filepaths = []
+    for folder in img_creams_folders:
+        img_filepaths = os.listdir(f'{images_folder}/{folder}')
+        for img_filepath in img_filepaths:
+            img_creams_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
+
+    # gen pins
+    random.shuffle(img_creams_filepaths)
+    images = img_creams_filepaths
+    line_1 = f'best herbal {preparation_name} for'.title()
+    line_2 = f'{status_name}'.title()
+    line_list = [line_1, line_2]
+
     rand_template = random.randint(0, 2)
-    rand_template = 0
+    # rand_template = 2
     if rand_template == 0:
-        # GET ALL IMAGE IN IMAGES/TEA FOLDER
-        images_folder = f'{start_folder}/essential-oils'
-        img_essential_oils_folders = os.listdir(images_folder)
-        img_essential_oils_filepaths = []
-        for folder in img_essential_oils_folders:
-            img_filepaths = os.listdir(f'{images_folder}/{folder}')
-            for img_filepath in img_filepaths:
-                img_essential_oils_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
-
-        # GENERATE PIN WITH RANDOM IMAGES
-        random.shuffle(img_essential_oils_filepaths)
-        images = img_essential_oils_filepaths
-        line_1 = f'best herbal essential oils for'.title()
-        line_2 = f'{status_name}'.title()
-        line_list = [line_1, line_2]
-
-        img_filepath = gen_img_template(
-            line_list,
-            images,
-            filename_out,
-            remedy_num,
-        )
+        img_filepath = template_plain(images, filename_out)
     elif rand_template == 1:
-        # GET ALL IMAGE IN IMAGES/TEA FOLDER
-        images_folder = f'{start_folder}/2x3/essential-oils'
-        img_essential_oils_folders = os.listdir(images_folder)
-        img_essential_oils_filepaths = []
-        for folder in img_essential_oils_folders:
-            img_filepaths = os.listdir(f'{images_folder}/{folder}')
-            for img_filepath in img_filepaths:
-                img_essential_oils_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
-
-        # GENERATE PIN WITH RANDOM IMAGES
-        random.shuffle(img_essential_oils_filepaths)
-        images = img_essential_oils_filepaths
-        line_1 = f'best herbal essential oils for'.title()
-        line_2 = f'{status_name}'.title()
-        line_list = [line_1, line_2]
-        
-        img_filepath = template_plain(
-            images,
-            filename_out,
-        )
+        if random.randint(0, 1) == 0:
+            img_filepath = template_mosaic(images, filename_out)
+        else:
+            img_filepath = template_mosaic_inverted(images, filename_out)
     else:
-        # GET ALL IMAGE IN IMAGES/TEA FOLDER
-        images_folder = f'{start_folder}/2x3/essential-oils'
-        img_essential_oils_folders = os.listdir(images_folder)
-        img_essential_oils_filepaths = []
-        for folder in img_essential_oils_folders:
-            img_filepaths = os.listdir(f'{images_folder}/{folder}')
-            for img_filepath in img_filepaths:
-                img_essential_oils_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
+        img_filepath = template_text(data, images, filename_out)
 
-        # GENERATE PIN WITH RANDOM IMAGES
-        random.shuffle(img_essential_oils_filepaths)
-        images = img_essential_oils_filepaths
-        line_1 = f'best herbal essential oils for'.title()
-        line_2 = f'{status_name}'.title()
-        line_list = [line_1, line_2]
-        
-        img_filepath = template_mosaic(
-            images, 
-            filename_out
-        )
 
-    # GET RANDOM DESCRIPTION
-    if remedies_descriptions:
-        random.shuffle(remedies_descriptions)
-        description = remedies_descriptions[0][:490] + '...'
-    else:
-        description = ''
-
-    # LOG
-    print(article_filepath)
-    print(remedy_num)
-    print(title)
-    print(status_name)
-    print(url)
-    print(filename_out)
-    print(description)
-    print(images[:4])
-    print()
-
-    url = f'https://terrawhisper.com/{url}.html'
-    title = f'{title.title()}'
-    # title = f'{remedy_num} {title.title()}'
-    board_name = 'Herbal Essential Oils'
-
-    driver.get("https://www.pinterest.com/pin-creation-tool/")
-    time.sleep(10)
-
-    e = driver.find_element(By.XPATH, '//input[@id="storyboard-upload-input"]')
-    # img_filepath_formatted = img_filepath.replace("/", "\\")
-    img_filepath_formatted = img_filepath
-    e.send_keys(f'{proj_filepath_abs}/{img_filepath_formatted}') 
-    time.sleep(10)
-
-    e = driver.find_element(By.XPATH, '//input[@id="storyboard-selector-title"]')
-    e.send_keys(title)
-    time.sleep(5) 
-
-    e = driver.find_element(By.XPATH, "//div[@class='notranslate public-DraftEditor-content']")
-    for c in description:
-        e.send_keys(c)
-    time.sleep(5)
-
-    e = driver.find_element(By.XPATH, '//input[@id="WebsiteField"]')
-    e.send_keys(url) 
-    time.sleep(5)
-
-    e = driver.find_element(By.XPATH, '//button[@data-test-id="board-dropdown-select-button"]')
-    e.click()
-    time.sleep(5)
-
-    e = driver.find_element(By.XPATH, '//input[@id="pickerSearchField"]')
-    e.send_keys(board_name) 
-    time.sleep(5)
-
-    e = driver.find_element(By.XPATH, f'//div[@data-test-id="board-row-{board_name}"]')
-    e.click()
-    time.sleep(5)
-
-    e = driver.find_element(By.XPATH, '//div[@data-test-id="storyboard-creation-nav-done"]/..')
-    e.click()
-
-    time.sleep(60)
-
-    random_time_to_wait = random.randint(-60, 60)
-    time_to_wait = WAIT_SECONDS + random_time_to_wait
-    time.sleep(time_to_wait)
-    
-    
-    
-   
-# PIN CREAMS
-i = 0
-for article_filepath in creams_articles_filepath:
-    i += 1
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
+def pin_gen(article_filepath, preparation_slug):
+    preparation_name = preparation_slug.replace('-', ' ')
     data = util.json_read(article_filepath)
     remedy_num = data['remedies_num']
     title = data['title']
@@ -831,80 +531,68 @@ for article_filepath in creams_articles_filepath:
     remedies = data['remedies_list']
     filename_out = url.replace('/', '-')
 
+    images = []
+    for i in range(4):
+        if preparation_name[-1] == 's': preparation_name_singular = preparation_name[:-1]
+        else: preparation_name_singular = preparation_name
+        prompt = f'''
+            herbal {preparation_name} on a wooden table indoor surrounded with achillea millefolium, 
+            vibrant colors, 
+            depth of field, bokeh, 
+            detailed textures, high resolution, cinematic
+        '''
+        print(prompt)
+        image = pipe(prompt=prompt, num_inference_steps=30).images[0]
+        image.save(f'pinterest/tmp/img-{i}.jpg')
+        images.append(f'pinterest/tmp/img-{i}.jpg')
+
+    # gen pins
+    line_1 = f'best herbal {preparation_name} for'.title()
+    line_2 = f'{status_name}'.title()
+    line_list = [line_1, line_2]
+
+    rand_template = random.randint(0, 2)
+    # rand_template = 2
+    if rand_template == 0:
+        img_filepath = template_plain(images, filename_out)
+    elif rand_template == 1:
+        if random.randint(0, 1) == 0:
+            img_filepath = template_mosaic(images, filename_out)
+        else:
+            img_filepath = template_mosaic_inverted(images, filename_out)
+    else:
+        img_filepath = template_text(data, images, filename_out)
+
+def pin_post(article_filepath, preparation_slug):
+    data = util.json_read(article_filepath)
+    preparation_name = preparation_slug.replace('-', ' ')
+    remedy_num = data['remedies_num']
+    title = data['title'].title()
+    status_name = data['status_name']
+    url = data["url"]
+    image_slug = url.replace('/', '-')
+    img_filepath = f'{g.PINTEREST_PINS_IMAGE_FOLDERPATH}/{image_slug}.jpg'
+    remedies = data['remedies_list']
     remedies_descriptions = []
     for remedy in remedies:
-        try: remedies_descriptions.append(remedy['remedy_desc'])
-        except: pass
-
-    rand_template = random.randint(1, 2)
-    if rand_template == 1:
-        # GET ALL IMAGE IN IMAGES/TEA FOLDER
-        images_folder = f'{start_folder}/2x3/creams'
-        img_creams_folders = os.listdir(images_folder)
-        img_creams_filepaths = []
-        for folder in img_creams_folders:
-            img_filepaths = os.listdir(f'{images_folder}/{folder}')
-            for img_filepath in img_filepaths:
-                img_creams_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
-
-        # GENERATE PIN WITH RANDOM IMAGES
-        random.shuffle(img_creams_filepaths)
-        images = img_creams_filepaths
-        line_1 = f'best herbal creams for'.title()
-        line_2 = f'{status_name}'.title()
-        line_list = [line_1, line_2]
-        
-        img_filepath = template_plain(
-            images,
-            filename_out,
-        )
-    else:
-        # GET ALL IMAGE IN IMAGES/TEA FOLDER
-        images_folder = f'{start_folder}/2x3/creams'
-        img_creams_folders = os.listdir(images_folder)
-        img_creams_filepaths = []
-        for folder in img_creams_folders:
-            img_filepaths = os.listdir(f'{images_folder}/{folder}')
-            for img_filepath in img_filepaths:
-                img_creams_filepaths.append(f'{images_folder}/{folder}/{img_filepath}')
-
-        # GENERATE PIN WITH RANDOM IMAGES
-        random.shuffle(img_creams_filepaths)
-        images = img_creams_filepaths
-        line_1 = f'best herbal creams for'.title()
-        line_2 = f'{status_name}'.title()
-        line_list = [line_1, line_2]
-        
-        img_filepath = template_mosaic(
-            images, 
-            filename_out
-        )
-
-    # GET RANDOM DESCRIPTION
+        remedies_descriptions.append(remedy['remedy_desc'])
     if remedies_descriptions:
         random.shuffle(remedies_descriptions)
         description = remedies_descriptions[0][:490] + '...'
     else:
         description = ''
-
+    board_name = f'herbal {preparation_name}'.title()
+    url = f'https://terrawhisper.com/{data["url"]}.html'
     # LOG
-    print(article_filepath)
-    print(remedy_num)
-    print(title)
-    print(url)
-    print(filename_out)
-    print(description)
-    print(images[:4])
-    print()
-
-    url = f'https://terrawhisper.com/{url}.html'
-    title = f'{title.title()}'
-    # title = f'{remedy_num} {title.title()}'
-    board_name = 'Herbal Creams'
+    print('ARTICLE_FILEPATH: ' + article_filepath)
+    print('REMEDY_NUM: ' + str(remedy_num))
+    print('TITLE: ' + title)
+    print('URL: ' + url)
+    print('IMG_FILEPATH: ' + img_filepath)
+    print('DESCRIPTION: ' + description)
     driver.get("https://www.pinterest.com/pin-creation-tool/")
     time.sleep(10)
     e = driver.find_element(By.XPATH, '//input[@id="storyboard-upload-input"]')
-    # img_filepath_formatted = img_filepath.replace("/", "\\")
     img_filepath_formatted = img_filepath
     e.send_keys(f'{proj_filepath_abs}/{img_filepath_formatted}') 
     time.sleep(10)
@@ -933,5 +621,44 @@ for article_filepath in creams_articles_filepath:
     random_time_to_wait = random.randint(-60, 60)
     time_to_wait = WAIT_SECONDS + random_time_to_wait
     time.sleep(time_to_wait)
-    
-    
+
+# PINS TEAS
+for i, article_filepath in enumerate(teas_articles_filepath):
+    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
+    pin_gen(article_filepath, 'teas')
+
+# PINS TINCTURES
+for i, article_filepath in enumerate(tinctures_articles_filepath):
+    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
+    pin_gen(article_filepath, 'tinctures')
+
+# PINS ESSENTIAL OILS
+for i, article_filepath in enumerate(essential_oils_articles_filepath):
+    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
+    pin_gen(article_filepath, 'essential-oils')
+
+# PINS CREAMS
+for i, article_filepath in enumerate(creams_articles_filepath):
+    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
+    pin_gen(article_filepath, 'creams')
+
+# POST TEAS
+for i, article_filepath in enumerate(teas_articles_filepath):
+    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
+    pin_post(article_filepath, 'teas')
+
+# POST TINCTURES
+for i, article_filepath in enumerate(tinctures_articles_filepath):
+    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
+    pin_post(article_filepath, 'tinctures')
+
+# POST ESSENTIAL OILS
+for i, article_filepath in enumerate(essential_oils_articles_filepath):
+    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
+    pin_post(article_filepath, 'essential-oils')
+
+# POST CREAMS
+for i, article_filepath in enumerate(creams_articles_filepath):
+    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
+    pin_post(article_filepath, 'creams')
+
