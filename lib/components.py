@@ -7,6 +7,8 @@ def header():
             <nav class="flex gap-16">
                 <a class="text-black no-underline" href="/remedies.html">Remedies</a>
                 <a class="text-black no-underline" href="/herbs.html">Herbs</a>
+                <a class="text-black no-underline" href="/about-us.html">About</a>
+                <a class="text-black no-underline" href="/contacts.html">Contacts</a>
             </nav>
         </header>
     '''
@@ -14,13 +16,11 @@ def header():
 
 def footer():
     html = f'''
-        <footer>
-            <div class="container-lg flex justify-between items-center">
-                <span>© TerraWhisper.com 2024 | All Rights Reserved</span>
-                <div class="flex gap-24">
-                    <a href="/privacy-policy.html">Privacy Policy</a>
-                    <a href="/cookie-policy.html">Cookie Policy</a>
-                </div>
+        <footer class="footer">
+            <span>© TerraWhisper.com 2024 | All Rights Reserved</span>
+            <div class="flex gap-24">
+                <a href="/privacy-policy.html">Privacy Policy</a>
+                <a href="/cookie-policy.html">Cookie Policy</a>
             </div>
         </footer>
     '''

@@ -21,6 +21,35 @@ GOOGLE_TAG = '''
     </script>
 '''
 
+COOKIE_CONSENT = '''
+    <div class="cookie-box">
+        <p class="title">Cookies Consent</p>
+        <p class="info">This website uses cookies to serve you the best content. To be compliant with GDPR and privacy laws, we require you to understand and accept that we are using cookies. 
+        <div class="actions">
+            <button class="item">Accept all</button>
+            <a href="/cookie-policy.html">Read Our Cookie Policy</a></p>
+        </div>
+    </div>
+    <script>
+            const cookieBox = document.querySelector(".cookie-box"),
+            acceptBtn = cookieBox.querySelector("button");
+            acceptBtn.onclick = ()=>{
+              //setting cookie for 1 month, after one month it'll be expired automatically
+              document.cookie = "CookieBy=TerraWhisper; max-age="+60*60*24*30*12;
+              if(document.cookie){ //if cookie is set
+                cookieBox.classList.add("hide"); //hide cookie box
+              }else{ //if cookie not set then alert an error
+                alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+              }
+            }
+            let checkCookie = document.cookie.indexOf("CookieBy=TerraWhisper"); //checking our cookie
+            //if cookie is set then hide the cookie box else show it
+            checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+    </script>
+'''
+
+with open('assets/scripts/google-adsense.txt') as f: GOOGLE_ADSENSE_TAG = f.read()
+
 PROMPT_DELAY_TIME = 0
 
 CSV_SYSTEMS_FILEPATH = 'database/csv/status/systems.csv'

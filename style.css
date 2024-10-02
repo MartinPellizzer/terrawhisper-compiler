@@ -263,6 +263,18 @@ td {
     text-align: center;
 }
 
+.h-600 {
+    height: 60rem;
+}
+
+.h-800 {
+    height: 80rem;
+}
+
+.h-1000 {
+    height: 100rem;
+}
+
 .h-80p {
     height: 80%;
 }
@@ -384,8 +396,24 @@ td {
     margin-top: 0;
 }
 
+.mt-8 {
+    margin-top: 0.8rem;
+}
+
+.mt-16 {
+    margin-top: 1.6rem;
+}
+
+.mt-48 {
+    margin-top: 4.8rem;
+}
+
 .mt-64 {
     margin-top: 6.4rem;
+}
+
+.mt-96 {
+    margin-top: 9.6rem;
 }
 
 .my-16 {
@@ -512,16 +540,52 @@ td {
     }
 }
 
+/* -------------------------------------------------- */
+/* ;cookies */
+/* -------------------------------------------------- */
 .cookie-box {
-    background-color: #030712;
+    color: #ffffff;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    padding: 3.2rem;
+    max-width: 76.8rem;
 }
 
 .cookie-box.hide {
     opacity: 0;
     visibility: hidden;
-    background-color: #fafafa;
 }
 
+.cookie-box .title {
+    font-size: 3.2rem;
+}
+
+.cookie-box button {
+    padding: 0.8rem 2.4rem;
+    font-size: 1.8rem;
+}
+
+.cookie-box a {
+    display: inline-block;
+    color: #ffffff;
+}
+
+.cookie-box .actions {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+@media (max-width: 768px) {
+    .cookie-box {
+        text-align: center;
+    }
+
+    .cookie-box .actions {
+        flex-direction: column;
+    }
+}
 
 .bg-white {
     background: white;
@@ -576,6 +640,24 @@ td {
     margin-bottom: 3.2rem;
 }
 
+.footer {
+    max-width: 128.0rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
 .button {
     display: inline-block;
     border: 1px solid black;
@@ -596,19 +678,28 @@ td {
     text-decoration: none;
 }
 
-.homepage-hero-content {
-    display: grid;
-    align-items: center;
+/* --------------------------------- */
+.homepage-hero-section {
+}
+
+.homepage-hero-layout {
     height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #14532d;
 }
 
-.homepage-hero-card {
-    max-width: 76.8rem;
-    background: white;
-    padding: 3.2rem;
+.homepage-hero-content-container {
+    max-width: 64.0rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+    margin-right: 0;
+    margin-left: auto;
 }
 
-.homepage-hero-card-title {
+.homepage-hero-title {
     font-size: 7.2rem;
     line-height: 1;
     font-weight: 400;
@@ -616,12 +707,12 @@ td {
     margin-right: 4.8rem;
 }
 
-@media (max-width: 768px) {
-    .homepage-hero-card-title {
-        font-size: 4.8rem;
-    }
+.homepage-hero-image {
+    height: 80rem;
+    object-fit: contain;
 }
 
+/* --------------------------------- */
 .homepage-what {
     padding-top: 9.6rem;
     padding-bottom: 9.6rem;
@@ -641,10 +732,157 @@ td {
     margin-bottom: 2.4rem;
 }
 
+/* --------------------------------- */
+.homepage-benefits-layout {
+    display: flex;
+    align-items: center;
+    background-color: #14532d;
+}
+
+.homepage-benefits-image {
+    height: 80rem;
+    object-fit: contain;
+}
+
+.homepage-benefits-content-container {
+    max-width: 64.0rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+    margin-right: auto;
+    margin-left: 0;
+    color: white;
+}
+
+.homepage-benefits-title {
+    font-size: 6.4rem;
+    line-height: 1;
+    font-weight: 400;
+    margin-right: 4.8rem;
+}
+
+/* --------------------------------- */
+.homepage-encyclopedia-intro-layout {
+    display: flex;
+    align-items: center;
+}
+
+/* --------------------------------- */
+.homepage-encyclopedia-benefits-layout {
+    max-width: 128.0rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.homepage-encyclopedia-benefits-item {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+/* --------------------------------- */
+.homepage-encyclopedia-features-layout {
+    max-width: 128.0rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.homepage-encyclopedia-features-items {
+    display: flex;
+    gap: 3.2rem;
+}
+
+/* --------------------------------- */
 @media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+
+    /* --------------------------------- */
+    .homepage-hero-layout {
+        flex-direction: column;
+    }
+
+    .homepage-hero-image {
+        height: 0;
+    }
+
+    .homepage-hero-title {
+        font-size: 6.4rem;
+        margin-right: 0;
+    }
+
+    .homepage-hero-content-container {
+        text-align: center;
+    }
+
+    /* --------------------------------- */
     .homepage-what-title {
         font-size: 2.4rem;
         line-height: 3.2rem;
+    }
+
+    /* --------------------------------- */
+    .homepage-benefits-layout {
+        flex-direction: column;
+    }
+
+    .homepage-benefits-content-container {
+        text-align: center;
+    }
+
+    .homepage-benefits-image {
+        height: 0;
+    }
+
+    .homepage-benefits-title {
+        margin-right: 0;
+    }
+
+    /* --------------------------------- */
+    .homepage-encyclopedia-intro-layout {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* --------------------------------- */
+    .homepage-encyclopedia-features-layout {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .homepage-encyclopedia-features-items {
+        flex-direction: column;
+    }
+
+    /* --------------------------------- */
+    .homepage-encyclopedia-benefits-layout {
+       text-align: center;
+    }
+
+    .homepage-encyclopedia-benefits-item {
+        flex-direction: column;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
     }
 }
 
@@ -741,6 +979,10 @@ td {
 
 .pb-8 {
     padding-bottom: 0.8rem;
+}
+
+.pb-96 {
+    padding-bottom: 9.6rem;
 }
 
 .mr-auto {

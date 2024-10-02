@@ -234,7 +234,7 @@ def gen_preparations(preparation_slug):
 # ;status
 ##################################################
 
-def gen_status__herbs():
+def gen_status__herbs_old():
     i = 0
     for status_row in status_rows:
         if i >= 1: break
@@ -320,6 +320,9 @@ def gen_status__herbs():
                 print(lines)
                 print('***************************************************')
                 util.csv_add_rows(g.CSV_STATUS_HERBS_FILEPATH, lines)
+
+def gen_status__herbs():
+    pass
 
 ##################################################
 # ;herbs
@@ -913,14 +916,14 @@ def gen_status__body_parts():
 # EXE
 ##################################################
 
-gen_status__body_parts()
 
+gen_status__herbs()
 quit()
 
 # status
 gen_system_for_status()
-gen_status__herbs()
 gen_status__preparations()
+gen_status__body_parts()
 
 # preparations
 gen_preparations('teas')

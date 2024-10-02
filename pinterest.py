@@ -23,6 +23,8 @@ import data_csv
 import util
 import util_data
 
+from oliark_io import json_write, json_read
+
 vault = '/home/ubuntu/vault'
 vault_tmp = '/home/ubuntu/vault-tmp'
 
@@ -32,15 +34,6 @@ random_num = random.randint(-2, 2)
 ARTICLES_NUM = 35 - random_num
 WAIT_SECONDS = 500
 NUM_TINCTURES = 8
-
-checkpoint_filepath = f'{vault}/stable-diffusion/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors'
-pipe = StableDiffusionXLPipeline.from_single_file(
-    checkpoint_filepath, 
-    torch_dtype=torch.float16, 
-    use_safetensors=True, 
-    variant="fp16"
-).to('cuda')
-pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
 
 # options = Options()
 # options.binary_location = r'C:\Program Files\Mozilla Firefox\firefox.exe'
@@ -192,23 +185,13 @@ for filepath in tinctures_articles_filepath: articles_filepath.append(filepath)
 for filepath in essential_oils_articles_filepath: articles_filepath.append(filepath)
 for filepath in creams_articles_filepath: articles_filepath.append(filepath)
 
-i = 0
-for article_filepath in articles_filepath:
-    i += 1
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
-
-for filename in os.listdir(g.PINTEREST_TMP_IMAGE_FOLDERPATH):
-    os.remove(f'{g.PINTEREST_TMP_IMAGE_FOLDERPATH}/{filename}')
-    
-for filename in os.listdir(g.PINTEREST_PINS_IMAGE_FOLDERPATH):
-    os.remove(f'{g.PINTEREST_PINS_IMAGE_FOLDERPATH}/{filename}')
     
 ###########################################################################
 # UTILS
 ###########################################################################
 
 def pin_save(img, filename):
-    img_filepath = f'{g.PINTEREST_PINS_IMAGE_FOLDERPATH}/{filename}.jpg'
+    img_filepath = f'pinterest/images/{filename}.jpg'
     img.save(
         img_filepath,
         format='JPEG',
@@ -308,7 +291,7 @@ def template_mosaic_inverted(images_file_paths, export_file_name):
     export_file_path = pin_save(img, export_file_name)
     return export_file_path
 
-def template_text(data, images_file_paths, export_file_name):
+def template_text_backup(data, images_file_paths, export_file_name):
     pin_w = 1000
     pin_h = 1500
     img = Image.new(mode="RGB", size=(pin_w, pin_h), color='#ffffff')
@@ -386,6 +369,117 @@ def template_text(data, images_file_paths, export_file_name):
         draw.text((pin_w//2 - text_w//2, pin_h//2 - text_h//2 - offset_y + line_spacing + text_h - ml_off_y), lines[1], text_color, font=font)
     export_file_path = pin_save(img, export_file_name)
     return export_file_path
+
+def template_text(data, images_file_paths, export_file_name):
+    pin_w = 1000
+    pin_h = 1500
+    img = Image.new(mode="RGB", size=(pin_w, pin_h), color='#ffffff')
+    draw = ImageDraw.Draw(img)
+    gap = 8
+    rect_h = 320
+    img_0000 = Image.open(images_file_paths[0])
+    img_0001 = Image.open(images_file_paths[1])
+    img_0002 = Image.open(images_file_paths[2])
+    img_0003 = Image.open(images_file_paths[3])
+    img_0000 = util.img_resize(img_0000, int(pin_w*1), int(pin_h*0.5))
+    img_0001 = util.img_resize(img_0001, int(pin_w*1), int(pin_h*0.5))
+    img.paste(img_0000, (0, 0))
+    img.paste(img_0001, (0, int(pin_h*0.5) + gap))
+    random_theme = random.randint(0, 2)
+    if random_theme == 0:
+        text_color = '#ffffff'
+        bg_color = '#000000'    
+    elif random_theme == 1:
+        text_color = '#ffffff'
+        bg_color = '#a21caf'    
+    else:
+        text_color = '#000000'    
+        bg_color = '#ffffff'
+
+    # rect
+    draw.rectangle(((0, pin_h//2 - rect_h//2), (pin_w, pin_h//2 + rect_h//2)), fill=bg_color)
+
+    # circle
+    circle_size = 300
+    x1 = pin_w//2 - circle_size//2
+    y1 = pin_h//2 - 160 - circle_size//2
+    x2 = pin_w//2 + circle_size//2
+    y2 = pin_h//2 - 160 + circle_size//2
+    draw.ellipse((x1, y1, x2, y2), fill=bg_color)
+
+    # draw.rectangle(((0, pin_h//2 - rect_h//2), (pin_w, pin_h//2 + rect_h//2)), fill=bg_color)
+    
+    ## text split
+    status_name = data['status_name']
+    text = f'{status_name}'.upper()
+    #text = 'Breastfeeding pain'.upper()
+    #text = 'Breastfeeding'.upper()
+    font_size = 96
+    font_family, font_weight = 'Lato', 'Bold'
+    font_path = f"assets/fonts/{font_family}/{font_family}-{font_weight}.ttf"
+    font = ImageFont.truetype(font_path, font_size)
+    _, _, text_w, text_h = font.getbbox(text)
+
+    if text_w > pin_w - 80:
+        font_size = 80
+        font = ImageFont.truetype(font_path, font_size)
+        words = text.split(' ')
+        words_per_line = len(words)//2
+        line_1 = ' '.join(words[:words_per_line])
+        line_2 = ' '.join(words[words_per_line:])
+        _, _, text_w, text_h = font.getbbox(line_1)
+        draw.text((pin_w//2 - text_w//2, pin_h//2 - text_h//2), line_1, text_color, font=font)
+        _, _, text_w, text_h = font.getbbox(line_2)
+        draw.text((pin_w//2 - text_w//2, pin_h//2 - text_h//2 + text_h), line_2, text_color, font=font)
+
+        remedies_num = data['remedies_num']
+        preparation_name = data['preparation_name']
+        text = f'best herbal {preparation_name} for'.title()
+        font_size = 48
+        font_family, font_weight = 'Lato', 'Regular'
+        font_path = f"assets/fonts/{font_family}/{font_family}-{font_weight}.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        _, _, text_w, text_h = font.getbbox(text)
+        draw.text((pin_w//2 - text_w//2, pin_h//2 - text_h//2 - text_h*1.5), text, text_color, font=font)
+
+        text = '10'
+        font_size = 160
+        font_family, font_weight = 'Lato', 'Regular'
+        font_path = f"assets/fonts/{font_family}/{font_family}-{font_weight}.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        _, _, text_w, text_h = font.getbbox(text)
+        x1 = pin_w//2 - text_w//2
+        y1 = pin_h//2 - text_h//2 - 210
+        draw.text((x1, y1), text, text_color, font=font)
+    else:
+        draw.text((pin_w//2 - text_w//2, pin_h//2 - text_h//2 + 16), text, text_color, font=font)
+
+        remedies_num = data['remedies_num']
+        preparation_name = data['preparation_name']
+        text = f'best herbal {preparation_name} for'.title()
+        font_size = 48
+        font_family, font_weight = 'Lato', 'Regular'
+        font_path = f"assets/fonts/{font_family}/{font_family}-{font_weight}.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        _, _, text_w, text_h = font.getbbox(text)
+        draw.text((pin_w//2 - text_w//2, pin_h//2 - text_h//2 - text_h*1.2), text, text_color, font=font)
+
+        text = '10'
+        font_size = 160
+        font_family, font_weight = 'Lato', 'Regular'
+        font_path = f"assets/fonts/{font_family}/{font_family}-{font_weight}.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        _, _, text_w, text_h = font.getbbox(text)
+        x1 = pin_w//2 - text_w//2
+        y1 = pin_h//2 - text_h//2 - 210
+        draw.text((x1, y1), text, text_color, font=font)
+
+    # text
+
+    export_file_path = pin_save(img, export_file_name)
+    return export_file_path
+
+
 
 def gen_img_template(line_list, img_list, out_filename, num=0,):
     img_w, img_h = 1000, 1500
@@ -521,57 +615,16 @@ def pin_gen_backup(article_filepath, preparation_slug):
         img_filepath = template_text(data, images, filename_out)
 
 
-def pin_gen(article_filepath, preparation_slug):
+def pin_gen(article_filepath, article_i, preparation_slug):
     preparation_name = preparation_slug.replace('-', ' ')
     data = util.json_read(article_filepath)
     remedy_num = data['remedies_num']
     title = data['title']
     status_name = data['status_name']
-    url = data['url']
-    remedies = data['remedies_list']
-    filename_out = url.replace('/', '-')
-
-    images = []
-    for i in range(4):
-        if preparation_name[-1] == 's': preparation_name_singular = preparation_name[:-1]
-        else: preparation_name_singular = preparation_name
-        prompt = f'''
-            herbal {preparation_name} on a wooden table indoor surrounded with achillea millefolium, 
-            vibrant colors, 
-            depth of field, bokeh, 
-            detailed textures, high resolution, cinematic
-        '''
-        print(prompt)
-        image = pipe(prompt=prompt, num_inference_steps=30).images[0]
-        image.save(f'pinterest/tmp/img-{i}.jpg')
-        images.append(f'pinterest/tmp/img-{i}.jpg')
-
-    # gen pins
-    line_1 = f'best herbal {preparation_name} for'.title()
-    line_2 = f'{status_name}'.title()
-    line_list = [line_1, line_2]
-
-    rand_template = random.randint(0, 2)
-    # rand_template = 2
-    if rand_template == 0:
-        img_filepath = template_plain(images, filename_out)
-    elif rand_template == 1:
-        if random.randint(0, 1) == 0:
-            img_filepath = template_mosaic(images, filename_out)
-        else:
-            img_filepath = template_mosaic_inverted(images, filename_out)
-    else:
-        img_filepath = template_text(data, images, filename_out)
-
-def pin_post(article_filepath, preparation_slug):
-    data = util.json_read(article_filepath)
-    preparation_name = preparation_slug.replace('-', ' ')
-    remedy_num = data['remedies_num']
-    title = data['title'].title()
-    status_name = data['status_name']
+    # url = f'https://terrawhisper.com/{data["url"]}.html'
     url = data["url"]
-    image_slug = url.replace('/', '-')
-    img_filepath = f'{g.PINTEREST_PINS_IMAGE_FOLDERPATH}/{image_slug}.jpg'
+    img_slug = url.replace('/', '-')
+    filename_out = url.replace('/', '-')
     remedies = data['remedies_list']
     remedies_descriptions = []
     for remedy in remedies:
@@ -582,14 +635,69 @@ def pin_post(article_filepath, preparation_slug):
     else:
         description = ''
     board_name = f'herbal {preparation_name}'.title()
+
+    images = []
+    for i in range(4):
+        if preparation_name[-1] == 's': preparation_name_singular = preparation_name[:-1]
+        else: preparation_name_singular = preparation_name
+        if 1: 
+            prompt = f'''
+                herbal {preparation_name} on a wooden table indoor surrounded with achillea millefolium, 
+                vibrant colors, 
+                depth of field, bokeh, 
+                detailed textures, high resolution, cinematic
+            '''
+            print(prompt)
+            image = pipe(prompt=prompt, num_inference_steps=30).images[0]
+            image.save(f'pinterest/tmp/img-{i}.jpg')
+        images.append(f'pinterest/tmp/img-{i}.jpg')
+
+    # gen pins
+    '''
+    rand_template = random.randint(0, 2)
+    if rand_template == 0:
+        img_filepath = template_plain(images, filename_out)
+    elif rand_template == 1:
+        if random.randint(0, 1) == 0:
+            img_filepath = template_mosaic(images, filename_out)
+        else:
+            img_filepath = template_mosaic_inverted(images, filename_out)
+    else:
+        img_filepath = template_text(data, images, filename_out)
+    '''
+    img_filepath = template_text(data, images, filename_out)
+
+    obj = {
+        'title': title,
+        'status_name': status_name,
+        'preparation_slug': preparation_slug,
+        'url': url,
+        'description': description,
+        'img_filepath': img_filepath,
+        'board_name': board_name
+    }
+    json_write(f'{g.PINTEREST_PINS_IMAGE_FOLDERPATH}/{article_i}.json', obj)
+       
+
+def pin_post(article_filepath):
+    data = json_read(article_filepath)
+    preparation_slug = data['preparation_slug']
+    preparation_name = preparation_slug.replace('-', ' ')
+    title = data['title'].title()
+    status_name = data['status_name']
+    url = data["url"]
+    image_slug = data['url'].replace('/', '-')
+    img_filepath = f'pinterest/images/{image_slug}.jpg'
+    description = data['description']
+    board_name = data['board_name']
     url = f'https://terrawhisper.com/{data["url"]}.html'
     # LOG
     print('ARTICLE_FILEPATH: ' + article_filepath)
-    print('REMEDY_NUM: ' + str(remedy_num))
     print('TITLE: ' + title)
     print('URL: ' + url)
     print('IMG_FILEPATH: ' + img_filepath)
     print('DESCRIPTION: ' + description)
+    quit()
     driver.get("https://www.pinterest.com/pin-creation-tool/")
     time.sleep(10)
     e = driver.find_element(By.XPATH, '//input[@id="storyboard-upload-input"]')
@@ -622,43 +730,20 @@ def pin_post(article_filepath, preparation_slug):
     time_to_wait = WAIT_SECONDS + random_time_to_wait
     time.sleep(time_to_wait)
 
-# PINS TEAS
-for i, article_filepath in enumerate(teas_articles_filepath):
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
-    pin_gen(article_filepath, 'teas')
 
-# PINS TINCTURES
-for i, article_filepath in enumerate(tinctures_articles_filepath):
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
-    pin_gen(article_filepath, 'tinctures')
 
-# PINS ESSENTIAL OILS
-for i, article_filepath in enumerate(essential_oils_articles_filepath):
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
-    pin_gen(article_filepath, 'essential-oils')
-
-# PINS CREAMS
-for i, article_filepath in enumerate(creams_articles_filepath):
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
-    pin_gen(article_filepath, 'creams')
-
-# POST TEAS
-for i, article_filepath in enumerate(teas_articles_filepath):
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
-    pin_post(article_filepath, 'teas')
-
-# POST TINCTURES
-for i, article_filepath in enumerate(tinctures_articles_filepath):
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
-    pin_post(article_filepath, 'tinctures')
-
-# POST ESSENTIAL OILS
-for i, article_filepath in enumerate(essential_oils_articles_filepath):
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
-    pin_post(article_filepath, 'essential-oils')
-
-# POST CREAMS
-for i, article_filepath in enumerate(creams_articles_filepath):
-    print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
-    pin_post(article_filepath, 'creams')
+jsons_filenames = os.listdir(f'pinterest/pins')
+for i in range(len(jsons_filenames)): 
+    found = False
+    article_filename = ''
+    for _json_filename in jsons_filenames:
+        json_n = int(_json_filename.split('.')[0])
+        if json_n == i:
+            found = True
+            article_filename = _json_filename
+            break
+    if found and article_filename != '':
+        article_filepath = f'pinterest/pins/{article_filename}'
+        print(f'{i}/{len(articles_filepath)} >> {article_filepath}')
+        pin_post(article_filepath)
 
