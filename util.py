@@ -178,10 +178,12 @@ def text_format_131_html(text):
 def text_format_1N1_html(text):
     text_formatted = ''
     lines = tokenize.sent_tokenize(text)
-    # lines = text.split('. ')
     lines_num = len(lines[1:-1])
     paragraphs = []
-    paragraphs.append(lines[0])
+    if lines_num > 0: 
+        paragraphs.append(lines[0])
+    else:
+        return ''
     if lines_num > 3: 
         paragraphs.append('. '.join(lines[1:lines_num//2+1]))
         paragraphs.append('. '.join(lines[lines_num//2+1:-1]))
