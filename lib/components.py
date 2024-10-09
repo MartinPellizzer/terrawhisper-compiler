@@ -1,9 +1,21 @@
 import g
 
 def header():
+    if 0:
+        html = f'''
+            <header class="header">
+                <a class="text-black no-underline" href="/">TerraWhisper</a>
+                <nav class="flex gap-16">
+                    <a class="text-black no-underline" href="/remedies.html">Remedies</a>
+                    <a class="text-black no-underline" href="/herbs.html">Herbs</a>
+                    <a class="text-black no-underline" href="/about-us.html">About</a>
+                    <a class="text-black no-underline" href="/contacts.html">Contacts</a>
+                </nav>
+            </header>
+        '''
     html = f'''
         <header class="header">
-            <a class="text-black no-underline" href="/">TerraWhisper</a>
+            <a class="" href="/"><img height="128" src="/images-static/terrawhisper-logo.jpg" alt="logo of terrawhisper"></a>
             <nav class="flex gap-16">
                 <a class="text-black no-underline" href="/remedies.html">Remedies</a>
                 <a class="text-black no-underline" href="/herbs.html">Herbs</a>

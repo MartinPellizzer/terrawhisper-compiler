@@ -63,6 +63,7 @@ pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
 
 plants_wcvp = csv_read_rows_to_json(f'{vault_tmp}/terrawhisper/wcvp_taxon.csv', delimiter = '|')
 
+ailments = csv_read_rows_to_json('systems-organs-ailments.csv', debug=True)
 
 # CSV MAIN
 status_rows, status_cols = data_csv.status()
@@ -410,16 +411,15 @@ def get_system_by_status(status_id):
 
 def main_preparations():
     art_preparations_new('teas')
+    return
     art_preparations_new('decoctions')
     art_preparations_new('tinctures')
     art_preparations_new('essential-oils')
     art_preparations_new('capsules')
     art_preparations_new('creams')
-    quit()
-
 
 def art_preparations_new(preparation_slug):
-    ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
+    preparation_name = preparation_slug.replace('-', ' ')
 
     for ailment_i, ailment in enumerate(ailments):
         print(f'\n>> {ailment_i}/{len(ailments)} - preparation: {preparation_name}')
@@ -545,17 +545,19 @@ def art_preparations_new(preparation_slug):
         article_html += f'<h1 class="article-h1">{title.title()}</h1>\n'
 
         ## featured image
+        image_style = 'realistic'
         remedy_slug = data['remedies'][0]['plant_name_scientific'].replace(' ',  '-').lower().strip()
         src = f'/images/preparations/herbal-{preparation_slug}-for-{ailment_slug}-overview.jpg'
         alt = f'herbal {preparation_slug} for {ailment_slug} overview'
         filepath_out = f'website/images/preparations/herbal-{preparation_slug}-for-{ailment_slug}-overview.jpg'
-        filepath_in = f'{vault_folderpath}/terrawhisper/images/watercolor/{preparation_slug}/1x1/{remedy_slug}.jpg'
-        if not os.path.exists(filepath_out):
-        # if True:
+        filepath_in = f'{vault_folderpath}/terrawhisper/images/{image_style}/{preparation_slug}/1x1/{remedy_slug}.jpg'
+        # if not os.path.exists(filepath_out):
+        if True:
             if os.path.exists(filepath_in):
                 image = Image.open(filepath_in)
                 image = img_resize(image)
                 draw = ImageDraw.Draw(image)
+                '''
                 font_size = 36
                 font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
                 font = ImageFont.truetype(font_path, font_size)
@@ -569,6 +571,7 @@ def art_preparations_new(preparation_slug):
                 text = ailment_name.title().upper()
                 _, _, text_w, text_h = font.getbbox(text)
                 draw.text((768//2 - text_w//2, 768-font_size*1.2-10), text, '#ffffff', font=font)
+                '''
                 image.save(filepath_out)
         if os.path.exists(filepath_out):
             article_html += f'<p><img src="{src}" alt="{alt}"></p>\n'
@@ -643,6 +646,190 @@ def art_preparations_new(preparation_slug):
                 article_html += f'<h2>{i+1}. {plant_name_scientific.capitalize()}</h2>\n'
                 article_html += f'{util.text_format_1N1_html(obj[key])}\n'
 
+            ## image
+            if 1:
+                image_style = 'realistic'
+                preparation_name_singular = preparation_name
+                if preparation_name_singular[-1] == 's': preparation_name_singular = preparation_name_singular[:-1]
+                remedy_slug = plant_slug
+                src = f'/images/preparations/{plant_slug}-herbal-{preparation_slug}.jpg'
+                alt = f'{plant_name_scientific} herbal {preparation_slug} for {ailment_slug}'.lower()
+                filepath_out = f'website/images/preparations/{plant_slug}-herbal-{preparation_slug}.jpg'
+                filepath_in = f'{vault_folderpath}/terrawhisper/images/{image_style}/{preparation_slug}/1x1/{remedy_slug}.jpg'
+                # if not os.path.exists(filepath_out):
+                if True:
+                    if os.path.exists(filepath_in):
+                        image = Image.open(filepath_in)
+                        image = img_resize(image)
+                        draw = ImageDraw.Draw(image)
+                        '''
+                        font_size = 36
+                        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+                        font = ImageFont.truetype(font_path, font_size)
+                        rect_h = 120
+                        text = f'{plant_name_scientific}'.upper()
+                        _, _, text_w, text_h = font.getbbox(text)
+                        draw.rectangle(((0, 768 - rect_h), (768, 768)), '#000000')
+                        draw.text((768//2 - text_w//2, 768-font_size*2*1.2-10), text, '#ffffff', font=font)
+                        text = f'Herbal {preparation_name_singular}'.upper()
+                        _, _, text_w, text_h = font.getbbox(text)
+                        draw.text((768//2 - text_w//2, 768-font_size*1.2-10), text, '#ffffff', font=font)
+                        '''
+                        image.save(filepath_out)
+                if os.path.exists(filepath_out):
+                    article_html += f'<p><img src="{src}" alt="{alt}"></p>\n'
+
+            ## properties
+            ## TODO: get the constituents like you get the remedies (ask llm multiple times with confidence score)
+            key = 'remedy_constituents'
+            if key not in obj: obj[key] = ''
+            # obj[key] = ''
+            if obj[key] == '':
+                prompt = f'''
+                    Write a numbered list of the 2-3 most important medicinal constituents of herbal {plant_name_scientific} {preparation_name} that help with {ailment_name}.
+                    Examples of medicinal constituents are: terpenes, phenolics, alkaloids, etc.
+                    Don't include name of preparations used to get the constituents.
+                    For each element in the list, describe in a short sentence why it help with {ailment_name}.
+                    Write each element in the list using the following format: [name_of_constituent]: [description].
+                '''
+                reply = llm_reply(prompt)
+                reply_formatted = ''
+                lines = []
+                for line in reply.split('\n'):
+                    line = line.strip()
+                    if line == '': continue
+                    if not line[0].isdigit(): continue
+                    if '.' not in line: continue
+                    if ':' not in line: continue
+                    line = '. '.join(line.split('. ')[1:])
+                    line = line.replace('*', '')
+                    line = line.strip()
+                    lines.append(line)
+                if lines != []:
+                    print('*******************************************')
+                    print(lines)
+                    print('*******************************************')
+                    obj[key] = lines
+                    json_write(json_filepath, data)
+            if key in obj:
+                article_html += f'<p class="text-24 text-black font-bold">Medicinal Constituents</p>\n'
+                article_html += f'<p>The list below shows the primary medicinal constituents in {plant_name_scientific} {preparation_name} that help with {ailment_name}.</p>\n'
+                article_html += '<ul>\n'
+                for item in obj[key]:
+                    chunk_1 = item.split(': ')[0].split('(')[0].strip()
+                    chunk_2 = ': '.join(item.split(': ')[1:])
+                    article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
+                article_html += '</ul>\n'
+
+            ## parts
+            ## TODO: get the parts like you get the remedies (ask llm multiple times with confidence score)
+            key = 'remedy_parts'
+            if key not in obj: obj[key] = ''
+            # obj[key] = ''
+            if obj[key] == '':
+                prompt = f'''
+                    Write a numbered list of the 2-3 most used parts of {plant_name_scientific} that are used to make {preparation_name} for {ailment_name} and explain in 1 brief sentence why.
+                    Pick only parts from the following list:
+                    - Roots
+                    - Rhyzomes
+                    - Stems
+                    - Leaves
+                    - Flowers
+                    - Seeds
+                    - Buds
+                    - Barks
+                    - Fruits
+                    Write only 1 part per list item.
+                    Write each element in the list using the following format: [part name]: [description].
+                '''     
+                reply = llm_reply(prompt)
+                lines = []
+                for line in reply.split('\n'):
+                    line = line.strip()
+                    if line == '': continue
+                    if not line[0].isdigit(): continue
+                    if '.' not in line: continue
+                    if ':' not in line: continue
+                    line = '. '.join(line.split('. ')[1:])
+                    line = line.replace('*', '')
+                    line = line.replace('[', '')
+                    line = line.replace(']', '')
+                    line_name = line.split(':')[0].strip().lower()
+                    parts = ['roots', 'rhyzomes', 'stems', 'leaves', 'flowers', 'seeds', 'buds', 'barks', 'fruits']
+                    found = False
+                    for part in parts:
+                        if part in line_name:
+                            found = True
+                            break
+                    if not found: continue
+                    line = line.strip()
+                    lines.append(line)
+                if lines != []:
+                    obj[key] = lines
+                    json_write(json_filepath, data)
+            if key in obj:
+                items = obj[key]
+                article_html += f'<p class="text-24 text-black font-bold">Parts Used</p>\n'
+                article_html += f'<p>The list below shows the primary parts of {plant_name_scientific} used to make {preparation_name} for {ailment_name}.</p>\n'
+                article_html += '<ul>\n'
+                for item in items:
+                    chunk_1 = item.split(': ')[0]
+                    chunk_2 = ': '.join(item.split(': ')[1:])
+                    article_html += f'<li><strong>{chunk_1.capitalize()}</strong>: {chunk_2}</li>\n'
+                article_html += '</ul>\n'
+
+            ## recipe
+            if 0:
+                key = 'remedy_recipe'
+                if key not in obj: obj[key] = ''
+                # obj[key] = ''
+                if obj[key] == '':
+                    prompt = f'''
+                        Write a 5-step recipe on how to make herbal {plant_name_scientific} {preparation_name}.
+                        Reply with a numbered list.
+                        Don't include the character ":".
+                        Write only 1 sentence for each step.
+                        Each sentence must be 10 to 20 words long.
+                        Start each step in the list with an action verb.
+                        Include ingredients dosages and preparations times for each step when applicable.
+                        Don't name other plants in the list items.
+                        Don't include optional steps.
+                    '''
+                    reply = llm_reply(prompt)
+                    lines = reply.split('\n')
+                    lines_filtered = []
+                    valid_output = True
+                    for line in lines:
+                        line = line.strip()
+                        if line == '': continue
+                        if 'cannot' in line: 
+                            valid_output = False
+                            break
+                        if not line[0].isdigit(): continue
+                        if '.' not in line: continue
+                        line = '. '.join(line.split('. ')[1:])
+                        line = line.replace('*', '')
+                        line = line.strip()
+                        if line == '': continue
+                        if len(line.split(' ')) < 7: continue
+                        if not line.endswith('.'): line += '.'
+                        line = line.capitalize()
+                        lines_filtered.append(line)
+                    if len(lines_filtered) == 5 and valid_output:
+                        print('********************************')
+                        print(lines_filtered)
+                        print('********************************')
+                        obj[key] = lines_filtered
+                        json_write(json_filepath, data)
+                if key in obj:
+                    recipe = obj[key]
+                    article_html += f'<p class="text-24 text-black font-bold">Quick Recipe</p>\n'
+                    article_html += f'<p>The following recipe gives a procedure to make a basic {plant_name_scientific} for {ailment_name}.</p>\n'
+                    article_html += '<ol>\n'
+                    for step in recipe:
+                        article_html += f'<li>{step}</li>\n'
+                    article_html += '</ol>\n'
+
         ## html
         breadcrumbs = util.breadcrumbs(html_filepath)
         meta = components.meta(article_html, data["lastmod"])
@@ -652,7 +839,6 @@ def art_preparations_new(preparation_slug):
 
     return
 
-    preparation_name = preparation_slug.replace('-', ' ')
 
     status_list = csv_read_rows_to_json(g.CSV_STATUS_FILEPATH)
     system_list = csv_read_rows_to_json(g.CSV_SYSTEMS_FILEPATH)
@@ -1107,6 +1293,33 @@ def del_preparations__remedies_recipes(preparation_slug):
 # #########################################################
 # ;herbs
 # #########################################################
+def main_herbs_popular():
+    _herbs = []
+    for ailment_i, ailment in enumerate(ailments):
+        system_slug = ailment['system_slug']
+        ailment_slug = ailment['ailment_slug']
+        url = f'remedies/{system_slug}-system/{ailment_slug}'
+        json_filepath = f'database/json/{url}.json'
+        data = json_read(json_filepath, create=True)
+        for obj in data['herbs']:
+            found = False
+            for herb in _herbs:
+                if obj['plant_name_scientific'] == herb['plant_name_scientific']:
+                    herb['confidence_score'] += obj['confidence_score']
+                    found = True
+                    break
+            if not found:
+                _herbs.append(obj)
+    _herbs = sorted(_herbs, key=lambda x: x['confidence_score'], reverse=True)
+    for i, herb in enumerate(_herbs):
+        print()
+        print('***********************')
+        print('***********************')
+        print(f'{i}/{len(_herbs)} - {herb}')
+        print('***********************')
+        print('***********************')
+        print()
+        art_herb_popular(herb)
 
 def main_herbs():
     herbs = csv_read_rows_to_json(g.CSV_HERBS_FILEPATH)
@@ -1126,6 +1339,47 @@ def main_herbs():
         art_herb_medicine_side_effects(herb)
         art_herb_medicine_precautions(herb)
     
+def art_herb_popular(herb):
+    herb_name_scientific = herb['plant_name_scientific']
+    herb_slug = herb_name_scientific.lower().strip().replace(' ', '-')
+    url = f'herbs/{herb_slug}'
+    json_filepath = f'database/json/{url}.json'
+    html_filepath = f'website/{url}.html'
+    title = f'What to know about {herb_name_scientific} before using it medicinally'
+    data = json_read(json_filepath, create=True)
+    data['herb_slug'] = herb_slug
+    data['herb_name_scientific'] = herb_name_scientific
+    data['url'] = url
+    if 'lastmod' not in data: data['lastmod'] = today()
+    data['title'] = title
+    json_write(json_filepath, data)
+    article_html = ''
+    article_html += f'<h1>{title}</h1>\n'
+
+    key = 'intro_desc'
+    prompt = f'''
+        Write 1 intro paragraph in 4 sentences for an article about the {herb_name_scientific} herb.
+        Follow the STRUCTURE and the GUIDELINES below.
+        ## STRUCTURE
+        In sentence 1, explain the health properties of this herb and how they improve health.
+        In sentence 2, explain the main hortocultural aspects of this herb.
+        In sentence 3, explain the botanical properties of this herb.
+        In sentence 4, explain the main historical references of this herb.
+        ## GUIDELINES
+        Include only the paragraph in the reply, no additional info.
+        Start the reply with the following words: {herb_name_scientific} is .
+    '''
+    ai_paragraph(json_filepath, data, key, prompt)
+    if data[key] != '':
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+        article_html += f'<p>This article explains the medicinal, horticultural, botanical, and historical aspects of {herb_name_scientific}.</p>\n'
+
+    breadcrumbs = util.breadcrumbs(html_filepath)
+    meta = components.meta(article_html, data["lastmod"])
+    article = components.table_of_contents(article_html)
+    html = templates.article(title, header_html, breadcrumbs, meta, article, footer_html)
+    file_write(html_filepath, html)
+
 def art_herb(herb):
     herb_id = herb['herb_id']
     herb_slug = herb['herb_slug']
@@ -1706,7 +1960,215 @@ def gen_herb_medicine_precautions__precaution_desc(json_filepath, data, obj, art
     return article_html
 
 def page_herbs_new():
+    # page_herbs_main()
+    page_herbs_popular()
+    page_herbs_all()
+
+def page_herbs_main():
+    herbs_popular = []
+    for ailment_i, ailment in enumerate(ailments):
+        system_slug = ailment['system_slug']
+        ailment_slug = ailment['ailment_slug']
+        url = f'remedies/{system_slug}-system/{ailment_slug}'
+        json_filepath = f'database/json/{url}.json'
+        data = json_read(json_filepath, create=True)
+        for obj in data['herbs']:
+            found = False
+            for herb_popular in herbs_popular:
+                if obj['plant_name_scientific'] == herb_popular['plant_name_scientific']:
+                    herb_popular['confidence_score'] += obj['confidence_score']
+                    found = True
+                    break
+            if not found:
+                herbs_popular.append(obj)
+    herbs_popular = sorted(herbs_popular, key=lambda x: x['confidence_score'], reverse=True)[:10]
+
+    cards_html = ''
+    for herb in herbs_popular:
+        herb_name_scientific = herb['plant_name_scientific']
+        herb_slug = herb_name_scientific.lower().strip().replace(' ', '-')
+        src = f'/images/herbs/{herb_slug}.jpg'
+        alt = f'{herb_name_scientific}'.lower()
+        filepath_in = f'{vault_folderpath}/terrawhisper/images/realistic/herbs/1x1/{herb_slug}.jpg'
+        filepath_out = f'website/images/herbs/{herb_slug}.jpg'
+        # if not os.path.exists(filepath_out):
+        if True:
+            if os.path.exists(filepath_in):
+                image = Image.open(filepath_in)
+                image = img_resize(image)
+                image.save(filepath_out)
+        card_html = f'''
+            <div>
+                <img class="mb-16" src="{src}" alt="{alt}">
+                <a class="inline-block mb-48" href="/herbs/{herb_slug}.html">{herb_name_scientific.capitalize()}</a>
+            </div>
+        '''
+        cards_html += card_html
+
+    html_filepath = f'website/herbs.html'
+    breadcrumbs_html = util.breadcrumbs(html_filepath)
+    html_title = f'List Of The Most Used Medicinal Herbs For Better Health'
+    html_intro = f'The following list shows the best medicinal herbs to improve health and to heal ailments. Click on any of the following herbs to discover its medicinal aspects and much more. We decided to list the scientific names instead of the common ones to eliminiate ambiguity.'
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="{g.AUTHOR_NAME}">
+            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+            <link rel="stylesheet" href="/style.css">
+            <title>{html_title}</title>
+            {g.GOOGLE_TAG}
+        </head>
+        <body>
+            {header_html}
+            {breadcrumbs_html}
+            <section class="mb-32">
+                <div class="container-md">
+                    <h2 class="text-center">{html_title}</h2>
+                    <p class="text-center">{html_intro}</p>
+                </div>
+            </section>
+            <section class="blog-grid pb-48">
+                <div class="container-lg">
+                    <div class="grid grid-4 gap-24">
+                        {cards_html}
+                    </div>
+                </div>
+            </section>
+            {footer_html}
+        </body>
+        </html>
+    '''
+    util.file_write(html_filepath, html)
+
+def page_herbs_popular():
+    herbs = []
+    for ailment_i, ailment in enumerate(ailments):
+        system_slug = ailment['system_slug']
+        ailment_slug = ailment['ailment_slug']
+        url = f'remedies/{system_slug}-system/{ailment_slug}'
+        json_filepath = f'database/json/{url}.json'
+        data = json_read(json_filepath, create=True)
+        for obj in data['herbs']:
+            found = False
+            for herb in herbs:
+                if obj['plant_name_scientific'] == herb['plant_name_scientific']:
+                    herb['confidence_score'] += obj['confidence_score']
+                    found = True
+                    break
+            if not found:
+                herbs.append(obj)
+    herbs = sorted(herbs, key=lambda x: x['confidence_score'], reverse=True)
+    herbs_x_page = 8
+    herbs_n = 100
+    herbs_llst = [herbs[x:x+herbs_x_page] for x in range(0, len(herbs[:herbs_n]), herbs_x_page)]
+    for herbs in herbs_llst:
+        print(herbs)
+    print(len(herbs_llst))
+    page_i = 1
+    for herbs in herbs_llst:
+        print(herbs)
+        links = []
+        for herb in herbs:
+            herb_name_scientific = herb['plant_name_scientific']
+            herb_slug = herb_name_scientific.lower().strip().replace(' ', '-')
+            links.append(f'<a href="/herbs/{herb_slug}.html">{herb_name_scientific.capitalize()}</a>')
+        links = ''.join(links)
+
+        cards_html = ''
+        for herb in herbs:
+            herb_name_scientific = herb['plant_name_scientific']
+            herb_slug = herb_name_scientific.lower().strip().replace(' ', '-')
+            src = f'/images/herbs/{herb_slug}.jpg'
+            alt = f'{herb_name_scientific}'.lower()
+            filepath_in = f'{vault_folderpath}/terrawhisper/images/realistic/herbs/1x1/{herb_slug}.jpg'
+            filepath_out = f'website/images/herbs/{herb_slug}.jpg'
+            # if not os.path.exists(filepath_out):
+            if True:
+                if os.path.exists(filepath_in):
+                    image = Image.open(filepath_in)
+                    image = img_resize(image)
+                    '''
+                    draw = ImageDraw.Draw(image)
+                    font_size = 36
+                    font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+                    font = ImageFont.truetype(font_path, font_size)
+                    rect_h = 120
+                    text = f'{herb_name_scientific}'.upper()
+                    _, _, text_w, text_h = font.getbbox(text)
+                    draw.rectangle(((0, 768 - rect_h), (768, 768)), '#000000')
+                    draw.text((768//2 - text_w//2, 768-font_size*2*1.2-10), text, '#ffffff', font=font)
+                    text = f'Herbal {preparation_name_singular}'.upper()
+                    _, _, text_w, text_h = font.getbbox(text)
+                    draw.text((768//2 - text_w//2, 768-font_size*1.2-10), text, '#ffffff', font=font)
+                    '''
+                    image.save(filepath_out)
+            card_html = f'''
+                <div>
+                    <img class="mb-16" src="{src}" alt="{alt}">
+                    <a class="inline-block mb-48" href="/herbs/{herb_slug}.html">{herb_name_scientific.capitalize()}</a>
+                </div>
+            '''
+            cards_html += card_html
+
+        pagination_html = ''
+        pagination_html += f'<a href="/herbs/popular/page-{page_i-1}.html">&lt;</a>'
+        for j in range(len(herbs_llst)):
+            pagination_html += f'''
+                <a href="/herbs/popular/page-{j+1}.html">{j+1}</a>
+            '''
+        pagination_html += f'<a href="/herbs/popular/page-{page_i+1}.html">&gt;</a>'
+        # html_filepath = f'website/herbs/page/{page_i}.html'
+        # os.remove(html_filepath)
+        html_filepath = f'website/herbs/popular/page-{page_i}.html'
+        breadcrumbs_html = util.breadcrumbs(html_filepath)
+        html_title = f'List Of The Most Used Medicinal Herbs For Better Health'
+        html_intro = f'The following list shows the best medicinal herbs to improve health and to heal ailments. Click on any of the following herbs to discover its medicinal aspects and much more. We decided to list the scientific names instead of the common ones to eliminiate ambiguity.'
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="author" content="{g.AUTHOR_NAME}">
+                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                <link rel="stylesheet" href="/style.css">
+                <title>{html_title}</title>
+                {g.GOOGLE_TAG}
+            </head>
+            <body>
+                {header_html}
+                {breadcrumbs_html}
+                <section class="mb-32">
+                    <div class="container-md">
+                        <h2 class="text-center">{html_title}</h2>
+                        <p class="text-center">{html_intro}</p>
+                    </div>
+                </section>
+                <section class="blog-grid pb-48">
+                    <div class="container-lg">
+                        <div class="grid grid-4 gap-24">
+                            {cards_html}
+                        </div>
+                    </div>
+                </section>
+                <section class="pb-96">
+                    <div class="container-xl text-center">
+                        {pagination_html}
+                    </div>
+                </section>
+                {footer_html}
+            </body>
+            </html>
+        '''
+        util.file_write(html_filepath, html)
+        page_i += 1
+
+def page_herbs_all():
     herbs = csv_read_rows_to_json(g.CSV_HERBS_FILEPATH)
+
     page_i = 0
     herb_i = 0
     herb_num_x_page = 30
@@ -1727,111 +2189,162 @@ def page_herbs_new():
     page_i = 1
     for page in pages:
         print(page)
-        links = ''.join([f'<a href="/herbs/{item[0]}.html">{item[1].capitalize()}</a>' for item in page])
-        # html_filepath = f'website/herbs?page={page_i}'
+        cards_html = ''
+        for herb in page:
+            herb_slug = herb[0]
+            herb_name_scientific = herb[1]
+            src = f'/images/herbs/{herb_slug}.jpg'
+            alt = f'{herb_name_scientific}'.lower()
+            filepath_in = f'{vault_folderpath}/terrawhisper/images/realistic/herbs/1x1/{herb_slug}.jpg'
+            filepath_out = f'website/images/herbs/{herb_slug}.jpg'
+            # if not os.path.exists(filepath_out):
+            if True:
+                if os.path.exists(filepath_in):
+                    image = Image.open(filepath_in)
+                    image = img_resize(image)
+                    '''
+                    draw = ImageDraw.Draw(image)
+                    font_size = 36
+                    font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+                    font = ImageFont.truetype(font_path, font_size)
+                    rect_h = 120
+                    text = f'{herb_name_scientific}'.upper()
+                    _, _, text_w, text_h = font.getbbox(text)
+                    draw.rectangle(((0, 768 - rect_h), (768, 768)), '#000000')
+                    draw.text((768//2 - text_w//2, 768-font_size*2*1.2-10), text, '#ffffff', font=font)
+                    text = f'Herbal {preparation_name_singular}'.upper()
+                    _, _, text_w, text_h = font.getbbox(text)
+                    draw.text((768//2 - text_w//2, 768-font_size*1.2-10), text, '#ffffff', font=font)
+                    '''
+                    image.save(filepath_out)
+            card_html = f'''
+                <div>
+                    <img class="mb-16" src="{src}" alt="{alt}">
+                    <a class="inline-block mb-48" href="/herbs/{herb_slug}.html">{herb_name_scientific.capitalize()}</a>
+                </div>
+            '''
+            cards_html += card_html
+
+        pagination_html = ''
+        print(page_i)
+        if page_i == 1:
+            pagination_html += f'<a class="inline-block no-underline text-black" href="#">&lt;</a>'
+        elif page_i == 2:
+            pagination_html += f'<a class="inline-block no-underline text-black" href="/herbs/all.html">&lt;</a>'
+        else:
+            pagination_html += f'<a class="inline-block no-underline text-black" href="/herbs/all/page-{page_i-1}.html">&lt;</a>'
+        for j in range(len(pages)):
+            if j + 1 == page_i:
+                pagination_html += f'''
+                    <a class="inline-block no-underline bg-black text-white px-8 py-4" href="#">{j+1}</a>
+                '''
+            elif j + 1 == 1:
+                pagination_html += f'''
+                    <a class="inline-block no-underline text-black" href="/herbs/all.html">{j+1}</a>
+                '''
+            else:
+                pagination_html += f'''
+                    <a class="inline-block no-underline text-black" href="/herbs/all/page-{j+1}.html">{j+1}</a>
+                '''
+        if page_i == len(pages):
+            pagination_html += f'<a class="inline-block no-underline text-black" href="#">&gt;</a>'
+        else:
+            pagination_html += f'<a class="inline-block no-underline text-black" href="/herbs/all/page-{page_i+1}.html">&gt;</a>'
+
+        # html_filepath = f'website/herbs/page/{page_i}.html'
         # os.remove(html_filepath)
-        html_filepath = f'website/herbs/page/{page_i}.html'
-        breadcrumbs_html = util.breadcrumbs(html_filepath)
         html_title = f'List Of The Most Used Medicinal Herbs For Better Health'
         html_intro = f'The following list shows the best medicinal herbs to improve health and to heal ailments. Click on any of the following herbs to discover its medicinal aspects and much more. We decided to list the scientific names instead of the common ones to eliminiate ambiguity.'
-        html = f'''
-            <!DOCTYPE html>
-            <html lang="en">
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="author" content="{g.AUTHOR_NAME}">
-                <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-                <link rel="stylesheet" href="/style.css">
-                <title>{html_title}</title>
-                {g.GOOGLE_TAG}
-                
-            </head>
-            <body>
-                {header_html}
-                {breadcrumbs_html}
-                <section>
-                    <div class="container-md">
-                        <h2 class="text-center">{html_title}</h2>
-                        <p class="text-center">{html_intro}</p>
-                    </div>
-                </section>
-                <section class="blog-grid">
-                    <div class="container-lg">
-                        <div class="grid grid-4 gap-24">
-                            {links}
+
+        ## category page (page 1 - canonical)
+        if page_i == 1:
+            html_filepath = f'website/herbs/all.html'
+            breadcrumbs_html = util.breadcrumbs(html_filepath)
+            html = f'''
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta name="author" content="{g.AUTHOR_NAME}">
+                    <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                    <link rel="stylesheet" href="/style.css">
+                    <title>{html_title}</title>
+                    {g.GOOGLE_TAG}
+
+                </head>
+                <body>
+                    {header_html}
+                    {breadcrumbs_html}
+                    <section>
+                        <div class="container-md">
+                            <h2 class="text-center">{html_title}</h2>
+                            <p class="text-center">{html_intro}</p>
                         </div>
-                    </div>
-                </section>
-                <footer>
-                    <div class="container-lg">
-                        <span>© TerraWhisper.com 2024 | All Rights Reserved
-                    </div>
-                </footer>
-            </body>
-            </html>
-        '''
-        util.file_write(html_filepath, html)
+                    </section>
+                    <section class="blog-grid pb-48">
+                        <div class="container-lg">
+                            <div class="grid grid-4 gap-24">
+                                {cards_html}
+                            </div>
+                        </div>
+                    </section>
+                    <section class="pb-96">
+                        <div class="container-xl text-center flex justify-center items-center gap-8">
+                            {pagination_html}
+                        </div>
+                    </section>
+                    {footer_html}
+                </body>
+                </html>
+            '''
+            util.file_write(html_filepath, html)
+
+        else:
+            html_filepath = f'website/herbs/all/page-{page_i}.html'
+            breadcrumbs_html = util.breadcrumbs(html_filepath)
+            html = f'''
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta name="author" content="{g.AUTHOR_NAME}">
+                    <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+                    <link rel="stylesheet" href="/style.css">
+                    <title>{html_title}</title>
+                    {g.GOOGLE_TAG}
+                    
+                </head>
+                <body>
+                    {header_html}
+                    {breadcrumbs_html}
+                    <section>
+                        <div class="container-md">
+                            <h2 class="text-center">{html_title}</h2>
+                            <p class="text-center">{html_intro}</p>
+                        </div>
+                    </section>
+                    <section class="blog-grid pb-48">
+                        <div class="container-lg">
+                            <div class="grid grid-4 gap-24">
+                                {cards_html}
+                            </div>
+                        </div>
+                    </section>
+                    <section class="pb-96">
+                        <div class="container-xl text-center flex justify-center items-center gap-8">
+                            {pagination_html}
+                        </div>
+                    </section>
+                    {footer_html}
+                </body>
+                </html>
+            '''
+            util.file_write(html_filepath, html)
+
         page_i += 1
 
-    quit()
-
-    html_list = ''
-    for herb_row in herbs_rows:
-        herb_id = herb_row[herbs_cols['herb_id']].strip()
-        herb_slug = herb_row[herbs_cols['herb_slug']]
-        herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']]
-   
-        url = f'herbs/{herb_slug}'
-        json_filepath = f'database/json/{url}.json'
-        if not os.path.exists(json_filepath): continue
-        html_list += f'''
-            <div>
-                <a href="/herbs/{herb_slug}.html">{herb_name_scientific}</a>
-            </div>
-        '''
-    html_filepath = f'website/herbs.html'
-    breadcrumbs_html = util.breadcrumbs(html_filepath)
-    html_title = f'List Of The Most Used Medicinal Herbs For Better Health'
-    html_intro = f'The following list shows the best medicinal herbs to improve health and to heal ailments. Click on any of the following herbs to discover its medicinal aspects and much more. We decided to list the scientific names instead of the common ones to eliminiate ambiguity.'
-    html = f'''
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta name="author" content="{g.AUTHOR_NAME}">
-            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
-            <link rel="stylesheet" href="/style.css">
-            <title>{html_title}</title>
-            {g.GOOGLE_TAG}
-            
-        </head>
-        <body>
-            {header_html}
-            {breadcrumbs_html}
-            <section>
-                <div class="container-md">
-                    <h2 class="text-center">{html_title}</h2>
-                    <p class="text-center">{html_intro}</p>
-                </div>
-            </section>
-            <section class="blog-grid">
-                <div class="container-lg">
-                    <div class="grid grid-4 gap-24">
-                        {html_list}
-                    </div>
-                </div>
-            </section>
-            <footer>
-                <div class="container-lg">
-                    <span>© TerraWhisper.com 2024 | All Rights Reserved
-                </div>
-            </footer>
-        </body>
-        </html>
-    '''
-    util.file_write(html_filepath, html)
 
 def page_herbs():
     html_list = ''
@@ -2204,8 +2717,6 @@ def page_systems_old():
 
 
 def page_systems():
-    ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
-
     system_list = [
         'integumentary',
         'nervous',
@@ -2317,8 +2828,7 @@ def page_systems():
 
 
 def articles_ailments():
-    ailment_list = csv_read_rows_to_json('systems-organs-ailments.csv')
-    for ailment_i, ailment in enumerate(ailment_list):
+    for ailment_i, ailment in enumerate(ailments):
         print(ailment)
 
         system_slug = ailment['system_slug']
@@ -2461,7 +2971,7 @@ def articles_ailments():
         if data[key] == []:
             output_plants = []
             for i in range(20):
-                print(f'{ailment_i}/{len(ailment_list)}: {ailment}')
+                print(f'{ailment_i}/{len(ailments)}: {ailment}')
                 prompt = f'''
                     Write a numbered list of most common medicinal plants used for {ailment_name}.
                     Also, give a confidence score in number format from 1 to 10 for each plant representing how much you believe that medicinal plant is effective for the ailment.
@@ -2726,12 +3236,11 @@ def articles_ailments():
         if data[key] == []:
             data_output = []
             for i in range(20):
-                print(f'{ailment_i}/{len(ailment_list)}: {ailment}')
+                print(f'{ailment_i}/{len(ailments)}: {ailment}')
                 prompt = f'''
                     Write a numbered list of the 10 most common herbal preparation used for {ailment_name}.
                     Also, give a confidence score in number format from 1 to 10 for each preparation representing how much you believe that herbal preparation is effective for the ailment.
                     For reference, examples of types of herbal preparations are: tea, decoction, tincture, creams, capsules, etc. 
-                    Don't include infusion, as it's the same of tea for me.
                     Don't include herbs names in the praparations, just write the type of the preparation.
                     Write the names of the preparations using as few words as possible.
                     Don't write fluff, only proven facts.
@@ -2753,7 +3262,9 @@ def articles_ailments():
                     for item in json_data:
                         try: name = item['preparation_name']
                         except: continue
-                        try: score = item['confidence_score']
+                        try: 
+                            score = item['confidence_score']
+                            int(score)
                         except: continue
                         preparations.append({"name": name, "score": score})
                     for obj in preparations:
@@ -2823,8 +3334,8 @@ def articles_ailments():
         key = 'preparations_image'
         image_filepath = f'website/images/ailments/{ailment_slug}-herbal-preparations.jpg'
         names = [obj['name'] for obj in data['preparations']]
-        if not os.path.exists(image_filepath):
-        # if True:
+        # if not os.path.exists(image_filepath):
+        if True:
             images = []
             for i in range(10):
                 prompt = f'''
@@ -2849,8 +3360,8 @@ def articles_ailments():
             image.paste(images[9], (500, 1200))
             image.save(image_filepath)
         image_filepath_new = f'website/images/ailments/{ailment_slug}-herbal-preparations-new.jpg'
-        if os.path.exists(image_filepath):
-        # if True:
+        # if os.path.exists(image_filepath):
+        if True:
             image = Image.open(image_filepath)
             draw = ImageDraw.Draw(image)
             px = 32
@@ -3062,14 +3573,17 @@ def main():
     shutil.copy2('sitemap.xml', 'website/sitemap.xml')
     shutil.copy2('style.css', 'website/style.css')
 
-    page_herbs_new()
-    quit()
-    main_preparations()
-    main_herbs()
-    page_systems()
-    articles_ailments()
-
     page_home()
+    quit()
+    articles_ailments()
+    main_preparations()
+
+    main_herbs_popular()
+    main_herbs()
+    page_herbs_new()
+
+    page_systems()
+
     page_about()
     page_contact()
 

@@ -1,8 +1,10 @@
 import g
 from lib import components
 
-from oliark import csv_read_rows_to_json
-from oliark import json_read
+from oliark_io import csv_read_rows_to_json
+from oliark_io import json_read
+
+ailments = csv_read_rows_to_json('systems-organs-ailments.csv', debug=True)
 
 def article(title, header, breadcrumbs, meta, article, footer):
     html = f'''
@@ -303,6 +305,386 @@ def homepage():
         </section>
     '''
 
+    section_hero = f'''
+        <section class="h-60v flex items-center" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images-static/medicinal-plants-botanical-garden.jpg); background-size: cover; background-position: center;">
+            <div class="container-xl">
+                <div class="flex">
+                    <div class="flex-2">
+                        <h2 class="text-white pt-0 text-80 weight-400">Learn Herbalism and Improve Your Health</h2>
+                        <p class="text-white text-24">Leverage the power of medicinal plants and herbal remedies to relieve the most common physical, mental and spiritual ailments.</p>
+                    </div>
+                    <div class="flex-1">
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
+    herbs_popular = []
+    for ailment_i, ailment in enumerate(ailments):
+        system_slug = ailment['system_slug']
+        ailment_slug = ailment['ailment_slug']
+        url = f'remedies/{system_slug}-system/{ailment_slug}'
+        json_filepath = f'database/json/{url}.json'
+        data = json_read(json_filepath)
+        for obj in data['herbs']:
+            found = False
+            for herb_popular in herbs_popular:
+                if obj['plant_name_scientific'] == herb_popular['plant_name_scientific']:
+                    herb_popular['confidence_score'] += obj['confidence_score']
+                    found = True
+                    break
+            if not found:
+                plant_slug = obj['plant_name_scientific'].lower().strip().replace(' ', '-')
+                _data = json_read(f'database/json/herbs/{plant_slug}.json')
+                title = _data['title']
+                intro = _data['intro_desc']
+                herbs_popular.append({
+                    'plant_name_scientific': obj['plant_name_scientific'],
+                    'plant_slug': plant_slug,
+                    'confidence_score': obj['confidence_score'],
+                    'title': title,
+                })
+    herbs_popular = sorted(herbs_popular, key=lambda x: x['confidence_score'], reverse=True)[:10]
+    print(herbs_popular)
+
+    section_popular = f'''
+        <section class="py-96">
+            <div class="container-xl flex gap-32">
+                <div class="flex-4">
+                    <a class="inline-block no-underline text-black" href="/herbs/{herbs_popular[0]['plant_slug']}.html">
+                        <img class="object-cover mb-24" height="540" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
+                        <p class="home-art-cat">Herbs</p>
+                        <h2 class="pt-0">{herbs_popular[0]['title']}</h2>
+                        <p>In the dynamic world of business and entrepreneurship, success is not just about having a great idea or a solid business plan. It requires a combination of factors, including setting goals,...</p>
+                    </a>
+                </div>
+                <div class="flex-3 flex flex-col gap-16">
+                    <p class="text-24 font-bold upper">Recommended</p>
+                    <a class="inline-block no-underline text-black" href="/herbs/{herbs_popular[1]['plant_slug']}.html">
+                        <div class="flex items-center gap-16">
+                            <div class="flex-1">
+                                <img height="100" class="object-cover" src="/images/herbs/{herbs_popular[1]['plant_slug']}.jpg" alt="">
+                            </div>
+                            <div class="flex-2">
+                                <p class="home-art-cat">Herbs</p>
+                                <h2 class="pt-0 text-18">{herbs_popular[1]['title']}</h2>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="inline-block no-underline text-black" href="/herbs/{herbs_popular[2]['plant_slug']}.html">
+                        <div class="flex items-center gap-16">
+                            <div class="flex-1">
+                                <img height="100" class="object-cover" src="/images/herbs/{herbs_popular[2]['plant_slug']}.jpg" alt="">
+                            </div>
+                            <div class="flex-2">
+                                <p class="home-art-cat">Herbs</p>
+                                <h2 class="pt-0 text-18">{herbs_popular[2]['title']}</h2>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="inline-block no-underline text-black" href="/herbs/{herbs_popular[3]['plant_slug']}.html">
+                        <div class="flex items-center gap-16">
+                            <div class="flex-1">
+                                <img height="100" class="object-cover" src="/images/herbs/{herbs_popular[3]['plant_slug']}.jpg" alt="">
+                            </div>
+                            <div class="flex-2">
+                                <p class="home-art-cat">Herbs</p>
+                                <h2 class="pt-0 text-18">{herbs_popular[3]['title']}</h2>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="inline-block no-underline text-black" href="/herbs/{herbs_popular[4]['plant_slug']}.html">
+                        <div class="flex items-center gap-16">
+                            <div class="flex-1">
+                                <img height="100" class="object-cover" src="/images/herbs/{herbs_popular[4]['plant_slug']}.jpg" alt="">
+                            </div>
+                            <div class="flex-2">
+                                <p class="home-art-cat">Herbs</p>
+                                <h2 class="pt-0 text-18">{herbs_popular[4]['title']}</h2>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="inline-block no-underline text-black" href="/herbs/{herbs_popular[5]['plant_slug']}.html">
+                        <div class="flex items-center gap-16">
+                            <div class="flex-1">
+                                <img height="100" class="object-cover" src="/images/herbs/{herbs_popular[5]['plant_slug']}.jpg" alt="">
+                            </div>
+                            <div class="flex-2">
+                                <p class="home-art-cat">Herbs</p>
+                                <h2 class="pt-0 text-18">{herbs_popular[5]['title']}</h2>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="inline-block no-underline text-black" href="/herbs/{herbs_popular[6]['plant_slug']}.html">
+                        <div class="flex items-center gap-16">
+                            <div class="flex-1">
+                                <img height="100" class="object-cover" src="/images/herbs/{herbs_popular[6]['plant_slug']}.jpg" alt="">
+                            </div>
+                            <div class="flex-2">
+                                <p class="home-art-cat">Herbs</p>
+                                <h2 class="pt-0 text-18">{herbs_popular[6]['title']}</h2>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    '''
+
+    '''
+    url = f'remedies/{system_slug}-system/sore-throat'
+    json_filepath = f'database/json/{url}.json'
+    data = json_read(json_filepath)
+    '''
+    popular_ailments_for_teas = [
+            ['respiratory system', 'sore throat'],
+            ['nervous system', 'headache'],
+
+            ['reproductive system', 'menstrual cramps'],
+            ['immune system', 'inflammation'],
+            ['digestive system', 'constipation'],
+            ['digestive system', 'acid reflux'],
+            ['nervous system', 'anxiety'],
+            ['nervous system', 'sleep deprivation'],
+            ['cardiovascular system', 'high blood pressure'],
+            ['respiratory system', 'colds'],
+            ['respiratory system', 'cough'],
+            ['immune system', 'fever'],
+    ]
+    popular_teas = []
+    for ailment_row in popular_ailments_for_teas:
+        system_name = ailment_row[0]
+        system_slug = system_name.lower().strip().replace(' ', '-')
+        ailment_name = ailment_row[1]
+        ailment_slug = ailment_name.lower().strip().replace(' ', '-')
+
+        data = json_read(f'database/json/remedies/{system_slug}/{ailment_slug}/teas.json')
+        title = data['title']
+        intro_desc = ' '.join(data['intro_desc'].split(' ')[:24]) + '...'
+
+        popular_teas.append({
+            'ailment_name': ailment_name,
+            'ailment_slug': ailment_name.lower().strip().replace(' ', '-'),
+            'system': system_name.title(),
+            'title': title.title(),
+            'link_url': f'/remedies/{system_slug}/{ailment_slug}/teas.html',
+            'image_url': f'/images/preparations/herbal-teas-for-{ailment_slug}-overview.jpg',
+            'intro_desc': intro_desc,
+        })
+    
+    section_teas = f'''
+        <section class="pb-96">
+            <div class="container-xl">
+                <h2 class="pt-0 pb-32 text-56">Teas</h2>
+                <div class="flex gap-48">
+                    <div class="flex-4 flex gap-16">
+                        <div class="flex-1">
+                            <a class="no-underline text-black" href="{popular_teas[0]['link_url']}">
+                                <img class="object-cover mb-24" height="400" src="{popular_teas[0]['image_url']}" alt="">
+                                <p class="home-art-cat">{popular_teas[0]['system']}</p>
+                                <h2 class="pt-0 text-24">{popular_teas[0]['title']}</h2>
+                                <p class="home-paragraph-secondary">{popular_teas[0]['intro_desc']}</p>
+                            </a>
+                        </div>
+                        <div class="flex-1">
+                            <a class="no-underline text-black" href="{popular_teas[1]['link_url']}">
+                                <img class="object-cover mb-24" height="400" src="{popular_teas[1]['image_url']}" alt="">
+                                <p class="home-art-cat">{popular_teas[1]['system']}</p>
+                                <h2 class="pt-0 text-24">{popular_teas[1]['title']}</h2>
+                                <p class="home-paragraph-secondary">{popular_teas[1]['intro_desc']}</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-3">
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="{popular_teas[2]['link_url']}">
+                                    <p class="home-art-cat">{popular_teas[2]['system']}</p>
+                                    <h2 class="pt-0 text-18">{popular_teas[2]['title']}</h2>
+                                </a>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="{popular_teas[3]['link_url']}">
+                                    <p class="home-art-cat">{popular_teas[3]['system']}</p>
+                                    <h2 class="pt-0 text-18">{popular_teas[3]['title']}</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="{popular_teas[4]['link_url']}">
+                                    <p class="home-art-cat">{popular_teas[4]['system']}</p>
+                                    <h2 class="pt-0 text-18">{popular_teas[4]['title']}</h2>
+                                </a>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="{popular_teas[5]['link_url']}">
+                                    <p class="home-art-cat">{popular_teas[5]['system']}</p>
+                                    <h2 class="pt-0 text-18">{popular_teas[5]['title']}</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="{popular_teas[6]['link_url']}">
+                                    <p class="home-art-cat">{popular_teas[6]['system']}</p>
+                                    <h2 class="pt-0 text-18">{popular_teas[6]['title']}</h2>
+                                </a>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="{popular_teas[7]['link_url']}">
+                                    <p class="home-art-cat">{popular_teas[7]['system']}</p>
+                                    <h2 class="pt-0 text-18">{popular_teas[7]['title']}</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="{popular_teas[8]['link_url']}">
+                                    <p class="home-art-cat">{popular_teas[8]['system']}</p>
+                                    <h2 class="pt-0 text-18">{popular_teas[8]['title']}</h2>
+                                </a>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="{popular_teas[9]['link_url']}">
+                                    <p class="home-art-cat">{popular_teas[9]['system']}</p>
+                                    <h2 class="pt-0 text-18">{popular_teas[9]['title']}</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="{popular_teas[10]['link_url']}">
+                                    <p class="home-art-cat">{popular_teas[10]['system']}</p>
+                                    <h2 class="pt-0 text-18">{popular_teas[10]['title']}</h2>
+                                </a>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="{popular_teas[11]['link_url']}">
+                                    <p class="home-art-cat">{popular_teas[11]['system']}</p>
+                                    <h2 class="pt-0 text-18">{popular_teas[11]['title']}</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div>
+        </section>
+    '''
+
+    section_tinctures = f'''
+        <section class="pb-96">
+            <div class="container-xl">
+                <h2 class="pt-0 pb-32 text-56">Tinctures</h2>
+                <div class="flex gap-48">
+                    <div class="flex-1">
+                        <img class="object-cover mb-24" height="400" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
+                        <p class="home-art-cat">Tinctures</p>
+                        <h2 class="pt-0 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
+                        <p class="home-paragraph-secondary">In the dynamic world of business and entrepreneurship, success is not just about having a great idea or a solid business plan. It requires a combination of factors, including setting goals,...</p>
+                    </div>
+                    <div class="flex-1">
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <img class="object-cover mb-24" height="200" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
+                                <p class="home-art-cat">Tinctures</p>
+                                <h2 class="pt-0 text-18 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
+                                <p class="home-paragraph-secondary">In the dynamic world of business and entrepreneurship, success is not just about having a great idea or a solid business plan. It requires a combination of factors, including setting goals,...</p>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <img class="object-cover mb-24" height="200" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
+                                <p class="home-art-cat">Tinctures</p>
+                                <h2 class="pt-0 text-18 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
+                                <p class="home-paragraph-secondary">In the dynamic world of business and entrepreneurship, success is not just about having a great idea or a solid business plan. It requires a combination of factors, including setting goals,...</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <p class="home-art-cat">Teas</p>
+                                <h2 class="pt-0 text-18 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <p class="home-art-cat">Teas</p>
+                                <h2 class="pt-0 text-18 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
+                            </div>
+                        </div>
+                        <div class="flex gap-16">
+                            <div class="flex-1">
+                                <p class="home-art-cat">Teas</p>
+                                <h2 class="pt-0 text-18 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
+                            </div>
+                            <div class="flex-1">
+                                <p class="home-art-cat">Teas</p>
+                                <h2 class="pt-0 text-18 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
+    section_creams = f'''
+        <section class="pb-96">
+            <div class="container-xl">
+                <h2 class="pt-0 pb-32 text-56">Creams</h2>
+                <div class="flex gap-48">
+                    <div class="flex-1">
+                        <div class="flex gap-16">
+                            <div class="flex-1">
+                                <img class="object-cover mb-24" height="400" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
+                                <p class="home-art-cat">Creams</p>
+                                <h2 class="pt-0 text-24">Advances in predicting and measuring atmospheric conditions</h2>
+                                <p class="home-paragraph-secondary">In the dynamic world of business and entrepreneurship, success is not just about having a great idea or a solid business plan. It requires a combination of factors, including setting goals,...</p>
+                            </div>
+                            <div class="flex-1">
+                                <img class="object-cover mb-24" height="400" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
+                                <p class="home-art-cat">Creams</p>
+                                <h2 class="pt-0 text-24">Advances in predicting and measuring atmospheric conditions</h2>
+                                <p class="home-paragraph-secondary">In the dynamic world of business and entrepreneurship, success is not just about having a great idea or a solid business plan. It requires a combination of factors, including setting goals,...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="flex gap-48">
+                            <div class="flex-1">
+                                <img class="object-cover mb-24" height="200" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
+                                <p class="home-art-cat">Creams</p>
+                                <h2 class="pt-0 text-18">Advances in predicting and measuring atmospheric conditions</h2>
+                                <img class="object-cover mb-24" height="200" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
+                                <p class="home-art-cat">Creams</p>
+                                <h2 class="pt-0 text-18">Advances in predicting and measuring atmospheric conditions</h2>
+                            </div>
+                            <div class="flex-1">
+                                <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                    <p class="home-art-cat">Creams</p>
+                                    <h2 class="pt-0 text-18 pb-16">Advances in predicting and measuring atmospheric conditions</h2>
+                                </div>
+                                <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                    <p class="home-art-cat">Creams</p>
+                                    <h2 class="pt-0 text-18 pb-16">Advances in predicting and measuring atmospheric conditions</h2>
+                                </div>
+                                <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                    <p class="home-art-cat">Creams</p>
+                                    <h2 class="pt-0 text-18 pb-16">Advances in predicting and measuring atmospheric conditions</h2>
+                                </div>
+                                <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                    <p class="home-art-cat">Creams</p>
+                                    <h2 class="pt-0 text-18 pb-16">Advances in predicting and measuring atmospheric conditions</h2>
+                                </div>
+                                <div class="flex-1">
+                                    <p class="home-art-cat">Creams</p>
+                                    <h2 class="pt-0 text-18 pb-16">Advances in predicting and measuring atmospheric conditions</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
@@ -319,13 +701,11 @@ def homepage():
         <body>
             {components.header()}
             <main>
-                {homepage_section_hero_html}
-                {homepage_section_definition()}
-                {homepage_section_benefits_html}
-                {homepage_section_encyclopedia_intro_html}
-                {homepage_section_encyclopedia_features_html}
-                {homepage_section_encyclopedia_benefits_html}
-                {homepage_section_articles_html}
+                {section_hero}
+                {section_popular}
+                {section_teas}
+                {section_tinctures}
+                {section_creams}
             </main>
             <div class="mt-64"></div>
             {components.footer()}

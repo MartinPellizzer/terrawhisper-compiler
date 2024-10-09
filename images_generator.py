@@ -12,7 +12,24 @@ import torch
 from diffusers import DiffusionPipeline, StableDiffusionXLPipeline
 from diffusers import DPMSolverMultistepScheduler
 
+from oliark_io import csv_read_rows_to_json
+from oliark_io import json_read, json_write
+
+ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
+
 vault = '/home/ubuntu/vault'
+
+checkpoint_filepath = '/home/ubuntu/vault/stable-diffusion/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors'
+pipe = StableDiffusionXLPipeline.from_single_file(
+    checkpoint_filepath, 
+    torch_dtype=torch.float16, 
+    use_safetensors=True, 
+    variant="fp16"
+).to('cuda')
+pipe.scheduler = DPMSolverMultistepScheduler.from_config(
+    pipe.scheduler.config, 
+    use_karras_sigmas=True, 
+)
 
 def gen_images_backup():
     vault = '/home/ubuntu/vault'
@@ -45,21 +62,6 @@ def gen_images_backup():
     print(images_num_min)
 
     ## gen images
-    checkpoint_filepath = '/home/ubuntu/vault/stable-diffusion/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors'
-
-    pipe = StableDiffusionXLPipeline.from_single_file(
-        checkpoint_filepath, 
-        torch_dtype=torch.float16, 
-        use_safetensors=True, 
-        variant="fp16"
-    ).to('cuda')
-
-    pipe.scheduler = DPMSolverMultistepScheduler.from_config(
-        pipe.scheduler.config, 
-        use_karras_sigmas=True, 
-    )
-    # algorithm_type='sde-dpmsolver++'
-
     i = -1
     for herb_row in herbs_rows[starting_herb_index:]:
         i += 1
@@ -122,19 +124,6 @@ def gen_images():
     herbs_rows, herbs_cols = data_csv.herbs()
 
     ## gen images
-    checkpoint_filepath = '/home/ubuntu/vault/stable-diffusion/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors'
-    pipe = StableDiffusionXLPipeline.from_single_file(
-        checkpoint_filepath, 
-        torch_dtype=torch.float16, 
-        use_safetensors=True, 
-        variant="fp16"
-    ).to('cuda')
-    pipe.scheduler = DPMSolverMultistepScheduler.from_config(
-        pipe.scheduler.config, 
-        use_karras_sigmas=True, 
-    )
-    # algorithm_type='sde-dpmsolver++'
-
     for herb_i, herb_row in enumerate(herbs_rows):
         herb_slug = herb_row[herbs_cols['herb_slug']]
         herb_name_scientific = herb_row[herbs_cols['herb_name_scientific']]
@@ -190,7 +179,313 @@ def gen_images():
         ).images[0]
         image.save(filepath_out, optimize=True, quality=50)
 
-gen_images()
+def gen_images_new():
+    image_style = 'watercolor'
+    image_ratio = '1x1'
+    category_name = 'cream'
+    category_slug = category_name.replace(' ', '-')
+
+    if image_style == 'watercolor':
+        category_folderpath = f'{vault}/terrawhisper/images/{image_style}/{category_slug}s/{image_ratio}'
+        try: os.makedirs(f'{category_folderpath}')
+        except: pass
+    else:
+        category_folderpath = f'{vault}/terrawhisper/images/{category_slug}s/(image_ratio)'
+        try: os.makedirs(f'{category_folderpath}')
+        except: pass
+
+    herbs_rows, herbs_cols = data_csv.herbs()
+
+    ## gen images
+    ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
+
+    for ailment_i, ailment in enumerate(ailments):
+        print(f'\n>> {ailment_i}/{len(ailments)} - preparation: {category_name}s')
+        print(f'    >> {ailment}\n')
+        system_slug = ailment['system_slug']
+        organ_slug = ailment['organ_slug']
+        ailment_slug = ailment['ailment_slug']
+        ailment_name = ailment['ailment_name']
+
+        url = f'remedies/{system_slug}-system/{ailment_slug}/{category_slug}s'
+        json_filepath = f'database/json/{url}.json'
+        html_filepath = f'website/{url}.html'
+        data = json_read(json_filepath, create=True)
+
+        for herb_i, obj in enumerate(data['remedies'][:]):
+            herb_name_scientific = obj['plant_name_scientific']
+            herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
+
+            print(f'{herb_name_scientific} {herb_i}/{len(herbs_rows)}')
+            filepath_out = f'{category_folderpath}/{herb_slug}.jpg'
+            if os.path.exists(filepath_out): continue
+            subject_name = category_name
+            if 0: pass
+            elif category_name == 'tea':
+                subject_prompt = 'close-up of a cup of herbal tea'
+            elif category_name == 'decoction':
+                subject_prompt = 'close-up of a pot of herbal decoction'
+            elif category_name == 'tincture':
+                subject_prompt = 'close-up of a bottle of herbal tincture'
+            elif category_name == 'essential oil':
+                subject_prompt = 'close-up of a bottle of herbal essential oil'
+            elif category_name == 'capsule':
+                subject_prompt = 'close-up of a bottle of herbal capsules'
+            elif category_name == 'cream':
+                subject_prompt = 'close-up of a small container with herbal cream'
+            elif category_name == 'salve': 
+                subject_prompt = 'close-up of a small container with herbal salve'
+            else: 
+                print('category_name not valid')
+                quit()
+
+            if image_style == 'watercolor':
+                prompt = f'''
+                    {subject_prompt}, 
+                    on a wooden table, surrounded by {herb_name_scientific},
+                    watercolor illustration,
+                    depth of field,
+                    detailed textures, high resolution, cinematic
+                '''
+            else:
+                prompt = f'''
+                    {subject_prompt}, 
+                    on a wooden table, surrounded by {herb_name_scientific} and other herbs,
+                    natural lighting,
+                    depth of field, bokeh, 
+                    high resolution, cinematic
+                '''
+            print(prompt)
+            if image_ratio == '1x1':
+                image_size = [1024, 1024]
+            else: 
+                image_size = [832, 1216]
+            image = pipe(
+                prompt=prompt, 
+                num_inference_steps=30,
+                width=image_size[0], 
+                height=image_size[1], 
+            ).images[0]
+            image.save(filepath_out, optimize=True, quality=50)
+
+
+def herbs_gen():
+    image_ratio = '1x1'
+    category_folderpath = f'{vault}/terrawhisper/images/watercolor/herbs/{image_ratio}'
+    
+    herbs = []
+    for ailment_i, ailment in enumerate(ailments):
+        system_slug = ailment['system_slug']
+        ailment_slug = ailment['ailment_slug']
+
+        url = f'remedies/{system_slug}-system/{ailment_slug}'
+        json_filepath = f'database/json/{url}.json'
+        data = json_read(json_filepath, create=True)
+        for obj in data['herbs']:
+            herb_name_scientific = obj['plant_name_scientific']
+            if herb_name_scientific not in herbs:
+                herbs.append(herb_name_scientific)
+
+    ## gen images
+    for herb_i, herb_name_scientific in enumerate(herbs[:]):
+        herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
+
+        print(f'{herb_name_scientific} {herb_i}/{len(herbs)}')
+        filepath_out = f'{category_folderpath}/{herb_slug}.jpg'
+        try: os.makedirs(f'{category_folderpath}')
+        except: pass
+        if os.path.exists(filepath_out): continue
+
+        prompt = f'''
+            {herb_name_scientific}, 
+            watercolor,
+            botanical medicinal illustration,
+            beige background,
+            high resolution
+        '''
+        print(prompt)
+        if image_ratio == '1x1':
+            image_size = [1024, 1024]
+        image = pipe(
+            prompt=prompt, 
+            num_inference_steps=30,
+            width=image_size[0], 
+            height=image_size[1], 
+        ).images[0]
+        image.save(filepath_out, optimize=True, quality=50)
+
+def herbs_old_gen():
+    herbs_rows, herbs_cols = data_csv.herbs()
+    print(herbs_rows)
+    print(herbs_cols)
+
+    herbs = []
+    image_ratio = '1x1'
+    category_folderpath = f'{vault}/terrawhisper/images/watercolor/herbs/{image_ratio}'
+    
+    herbs = [herb[herbs_cols['herb_name_scientific']] for herb in herbs_rows]
+
+    ## gen images
+    for herb_i, herb_name_scientific in enumerate(herbs[:]):
+        herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
+
+        print(f'{herb_name_scientific} {herb_i}/{len(herbs)}')
+        filepath_out = f'{category_folderpath}/{herb_slug}.jpg'
+        try: os.makedirs(f'{category_folderpath}')
+        except: pass
+        # if os.path.exists(filepath_out): continue
+
+        prompt = f'''
+            {herb_name_scientific}, 
+            watercolor,
+            botanical medicinal illustration,
+            beige background,
+            high resolution
+        '''
+        print(prompt)
+        if image_ratio == '1x1':
+            image_size = [1024, 1024]
+        image = pipe(
+            prompt=prompt, 
+            num_inference_steps=30,
+            width=image_size[0], 
+            height=image_size[1], 
+        ).images[0]
+        image.save(filepath_out, optimize=True, quality=50)
+
+def herbs_realistic():
+    herbs_rows, herbs_cols = data_csv.herbs()
+    print(herbs_rows)
+    print(herbs_cols)
+
+    herbs = []
+    image_ratio = '1x1'
+    category_folderpath = f'{vault}/terrawhisper/images/realistic/herbs/{image_ratio}'
+    
+    herbs = [herb[herbs_cols['herb_name_scientific']] for herb in herbs_rows]
+
+    ## gen images
+    for herb_i, herb_name_scientific in enumerate(herbs[:]):
+        herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
+
+        print(f'{herb_name_scientific} {herb_i}/{len(herbs)}')
+        filepath_out = f'{category_folderpath}/{herb_slug}.jpg'
+        try: os.makedirs(f'{category_folderpath}')
+        except: pass
+        # if os.path.exists(filepath_out): continue
+
+        prompt = f'''
+            {herb_name_scientific} plant, 
+            nature,
+            depth of field, 
+            detailed texture, high resolution, cinematic
+        '''
+        print(prompt)
+        if image_ratio == '1x1':
+            image_size = [1024, 1024]
+        image = pipe(
+            prompt=prompt, 
+            num_inference_steps=30,
+            width=image_size[0], 
+            height=image_size[1], 
+        ).images[0]
+        image.save(filepath_out, optimize=True, quality=50)
+
+def popular_herbs_realistic():
+    image_ratio = '1x1'
+    category_folderpath = f'{vault}/terrawhisper/images/realistic/herbs/{image_ratio}'
+    
+    herbs = []
+    for ailment_i, ailment in enumerate(ailments):
+        system_slug = ailment['system_slug']
+        ailment_slug = ailment['ailment_slug']
+
+        url = f'remedies/{system_slug}-system/{ailment_slug}'
+        json_filepath = f'database/json/{url}.json'
+        data = json_read(json_filepath, create=True)
+        for obj in data['herbs']:
+            herb_name_scientific = obj['plant_name_scientific']
+            if herb_name_scientific not in herbs:
+                herbs.append(herb_name_scientific)
+
+    ## gen images
+    for herb_i, herb_name_scientific in enumerate(herbs[:]):
+        herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
+        print(f'{herb_name_scientific} {herb_i}/{len(herbs)}')
+        filepath_out = f'{category_folderpath}/{herb_slug}.jpg'
+        try: os.makedirs(f'{category_folderpath}')
+        except: pass
+        if os.path.exists(filepath_out): continue
+        prompt = f'''
+            {herb_name_scientific} plant, 
+            nature,
+            depth of field, 
+            detailed texture, high resolution, cinematic
+        '''
+        print(prompt)
+        if image_ratio == '1x1':
+            image_size = [1024, 1024]
+        image = pipe(
+            prompt=prompt, 
+            num_inference_steps=30,
+            width=image_size[0], 
+            height=image_size[1], 
+        ).images[0]
+        image.save(filepath_out, optimize=True, quality=50)
+
+def preparations_realistic():
+    preparation_name = 'tea'
+    preparation_slug = preparation_name.replace(' ', '-') + 's'
+    preparation_name_plural = preparation_name + 's'
+
+    image_ratio = '1x1'
+    category_folderpath = f'{vault}/terrawhisper/images/realistic/{preparation_slug}/{image_ratio}'
+    
+    herbs = []
+    for ailment_i, ailment in enumerate(ailments):
+        system_slug = ailment['system_slug']
+        ailment_slug = ailment['ailment_slug']
+        url = f'remedies/{system_slug}-system/{ailment_slug}'
+        json_filepath = f'database/json/{url}.json'
+        data = json_read(json_filepath, create=True)
+        for obj in data['herbs']:
+            herb_name_scientific = obj['plant_name_scientific']
+            if herb_name_scientific not in herbs:
+                herbs.append(herb_name_scientific)
+
+    ## gen images
+    for herb_i, herb_name_scientific in enumerate(herbs[:]):
+        herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
+        print(f'{herb_name_scientific} {herb_i}/{len(herbs)}')
+        filepath_out = f'{category_folderpath}/{herb_slug}.jpg'
+        try: os.makedirs(f'{category_folderpath}')
+        except: pass
+        if os.path.exists(filepath_out): continue
+        prompt = f'''
+            close up of a cup of {herb_name_scientific} herbal tea, 
+            on a wooden table, surrounded by medicinal herbs, 
+            depth of field, bokeh, 
+            detailed texture, high resolution, cinematic
+        '''
+        print(prompt)
+        if image_ratio == '1x1':
+            image_size = [1024, 1024]
+        image = pipe(
+            prompt=prompt, 
+            num_inference_steps=30,
+            width=image_size[0], 
+            height=image_size[1], 
+        ).images[0]
+        image.save(filepath_out, optimize=True, quality=50)
+
+# gen_images_new()
+# herbs_gen()
+# herbs_old_gen()
+
+# herbs_realistic()
+# popular_herbs_realistic()
+
+preparations_realistic()
 
 '''
 payload = {
