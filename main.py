@@ -5,6 +5,7 @@ import shutil
 import random
 import datetime
 from PIL import Image, ImageDraw, ImageFont
+from nltk import tokenize
 
 import g
 import util
@@ -139,6 +140,28 @@ def redirect(html_filepath, source, target):
         </html>
         '''
         util.file_write(old_plant_filepath, html)
+
+
+def get_popular_herbs_from_ailment():
+    _herbs = []
+    for ailment_i, ailment in enumerate(ailments):
+        system_slug = ailment['system_slug']
+        ailment_slug = ailment['ailment_slug']
+        url = f'remedies/{system_slug}-system/{ailment_slug}'
+        json_filepath = f'database/json/{url}.json'
+        data = json_read(json_filepath, create=True)
+        for obj in data['herbs']:
+            found = False
+            for herb in _herbs:
+                if obj['plant_name_scientific'] == herb['plant_name_scientific']:
+                    herb['confidence_score'] += obj['confidence_score']
+                    found = True
+                    break
+            if not found:
+                _herbs.append(obj)
+    _herbs = sorted(_herbs, key=lambda x: x['confidence_score'], reverse=True)
+    return herbs
+
 
 # #########################################################
 # ;ai
@@ -411,9 +434,8 @@ def get_system_by_status(status_id):
 
 def main_preparations():
     art_preparations_new('teas')
-    return
-    art_preparations_new('decoctions')
     art_preparations_new('tinctures')
+    art_preparations_new('decoctions')
     art_preparations_new('essential-oils')
     art_preparations_new('capsules')
     art_preparations_new('creams')
@@ -1311,23 +1333,23 @@ def main_herbs_popular():
             if not found:
                 _herbs.append(obj)
     _herbs = sorted(_herbs, key=lambda x: x['confidence_score'], reverse=True)
-    for i, herb in enumerate(_herbs):
+    for herb_i, herb in enumerate(_herbs):
         print()
         print('***********************')
         print('***********************')
-        print(f'{i}/{len(_herbs)} - {herb}')
+        print(f'{herb_i}/{len(_herbs)} - {herb}')
         print('***********************')
         print('***********************')
         print()
-        art_herb_popular(herb)
+        art_herb_popular(herb, herb_i, _herbs)
 
 def main_herbs():
     herbs = csv_read_rows_to_json(g.CSV_HERBS_FILEPATH)
-    for i, herb in enumerate(herbs):
+    for herb_i, herb in enumerate(herbs):
         print()
         print('***********************')
         print('***********************')
-        print(f'{i}/{len(herbs)} - {herb}')
+        print(f'{herb_i}/{len(herbs)} - {herb}')
         print('***********************')
         print('***********************')
         print()
@@ -1338,8 +1360,8 @@ def main_herbs():
         art_herb_medicine_preparations(herb)
         art_herb_medicine_side_effects(herb)
         art_herb_medicine_precautions(herb)
-    
-def art_herb_popular(herb):
+
+def art_herb_popular(herb, herb_i, herbs):
     herb_name_scientific = herb['plant_name_scientific']
     herb_slug = herb_name_scientific.lower().strip().replace(' ', '-')
     url = f'herbs/{herb_slug}'
@@ -1356,29 +1378,1775 @@ def art_herb_popular(herb):
     article_html = ''
     article_html += f'<h1>{title}</h1>\n'
 
+    ## ----------------------------------------------------------------------------------------------
+    ## database generation for validation
+    ## to remove when done
+    ## ------------------------------------------------------------------------------------
+    _json_filepath = 'database/plant-parts-filtered.json'
+    parts = json_read(_json_filepath, create=True)
+    if 0:
+        prompt = f'''
+            Write a list of the most important parts of the plant {herb_name_scientific} that are used for medicinal purposes.
+            Choose only from these parts: roots, stems, leaves, flowers, fruits, and seeds.
+            Don't include constituents, like: flavonoids, tannins, oils, etc.
+            Write only the names of the parts, don't add descriptions.
+            Don't include the name of the plant, only write the names of the parts.
+            Write as few words as possible.
+            Don't write fluff, only proven facts.
+            Don't allucinate.
+            Reply in JSON format using the following structure:
+            [
+                {{"part_name": "<insert name of part 1 here>"}},
+                {{"part_name": "<insert name of part 2 here>"}},
+                {{"part_name": "<insert name of part 3 here>"}}
+            ]
+            Reply only with the JSON, don't add additional content.
+        '''
+        reply = llm_reply(prompt).strip().lower()
+        try: _parts = json.loads(reply)
+        except: _parts = ''
+        if _parts != '':
+            for _part in _parts:
+                found = False
+                for part in parts:
+                    if _part['part_name'] in part['part_name']:
+                        found = True
+                        break
+                if not found:
+                    parts.append({'part_name': _part['part_name']})
+        json_write(_json_filepath, parts)
+        return
+
+
     key = 'intro_desc'
-    prompt = f'''
-        Write 1 intro paragraph in 4 sentences for an article about the {herb_name_scientific} herb.
-        Follow the STRUCTURE and the GUIDELINES below.
-        ## STRUCTURE
-        In sentence 1, explain the health properties of this herb and how they improve health.
-        In sentence 2, explain the main hortocultural aspects of this herb.
-        In sentence 3, explain the botanical properties of this herb.
-        In sentence 4, explain the main historical references of this herb.
-        ## GUIDELINES
-        Include only the paragraph in the reply, no additional info.
-        Start the reply with the following words: {herb_name_scientific} is .
-    '''
-    ai_paragraph(json_filepath, data, key, prompt)
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 intro paragraph in 4 sentences for an article about the {herb_name_scientific} herb.
+            Follow the STRUCTURE and the GUIDELINES below.
+            ## STRUCTURE
+            In sentence 1, explain the health properties of this herb and how they improve health.
+            In sentence 2, explain the main hortocultural aspects of this herb.
+            In sentence 3, explain the botanical properties of this herb.
+            In sentence 4, explain the main historical references of this herb.
+            ## GUIDELINES
+            Include only the paragraph in the reply, no additional info.
+            Start the reply with the following words: {herb_name_scientific} is .
+        '''
+        ai_paragraph(json_filepath, data, key, prompt)
     if data[key] != '':
         article_html += f'{util.text_format_1N1_html(data[key])}\n'
         article_html += f'<p>This article explains the medicinal, horticultural, botanical, and historical aspects of {herb_name_scientific}.</p>\n'
+
+    ## uses ----------------------------------------------------------------------------------------------
+    key = 'uses_traditional_chinese_medicine'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        outputs = []
+        for i in range(20):
+            print(f'{i}/20 - {herb_i}/{len(herbs)}: {herb}')
+            prompt = f'''
+                Write a list of the most common uses of the plant {herb_name_scientific} in traditional chinese medicine.
+                By "uses" I mean health conditions (common ailments).
+                Also, give a confidence score in number format from 1 to 10 for each condition representing how much {herb_name_scientific} is used in traditional chinese medicine.
+                Write only 1 ailment for each list item.
+                Write only the names of the conditions, don't add descriptions.
+                Write the as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the structure in the following example:
+                [
+                    {{"condition_name": "<insert name of condition 1 here>", "confidence_score": "10"}},
+                    {{"condition_name": "<insert name of condition 2 here>", "confidence_score": "5"}},
+                    {{"condition_name": "<insert name of condition 3 here>", "confidence_score": "7"}}
+                ]
+                Reply only with the JSON, don't add additional content.
+            '''
+            reply = llm_reply(prompt).strip()
+            json_data = {}
+            try: json_data = json.loads(reply)
+            except: pass 
+            if json_data != {}:
+                names = []
+                for item in json_data:
+                    try: name = item['condition_name']
+                    except: continue
+                    try: score = item['confidence_score']
+                    except: continue
+                    print(name)
+                    ## TODO: check if constituent is valid here (find database of conditions?)
+                    names.append({"name": name, "score": score})
+                for obj in names:
+                    name = obj['name'].lower().strip()
+                    score = obj['score']
+                    found = False
+                    for output in outputs:
+                        print(output)
+                        print(name, '->', output['condition_name'])
+                        if name in output['condition_name']: 
+                            output['condition_mentions'] += 1
+                            output['condition_score'] += int(score)
+                            found = True
+                            break
+                    if not found:
+                        outputs.append({
+                            'condition_name': name, 
+                            'condition_mentions': 1, 
+                            'condition_score': int(score), 
+                        })
+            outputs_final = []
+            for output in outputs:
+                outputs_final.append({
+                    'condition_name': output['condition_name'],
+                    'condition_score': int(output['condition_mentions']) * int(output['condition_score']),
+                })
+            outputs_final = sorted(outputs_final, key=lambda x: x['condition_score'], reverse=True)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            for output in outputs_final:
+                print(output)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            data[key] = outputs_final[:10]
+            json_write(json_filepath, data)
+
+    key = 'uses_ayurvedic_medicine'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        outputs = []
+        for i in range(20):
+            print(f'{i}/20 - {herb_i}/{len(herbs)}: {herb}')
+            prompt = f'''
+                Write a list of the most common uses of the plant {herb_name_scientific} in ayurvedic medicine.
+                By "uses" I mean health conditions (common ailments).
+                Also, give a confidence score in number format from 1 to 10 for each condition representing how much {herb_name_scientific} is used in ayurvedic medicine.
+                Write only 1 ailment for each list item.
+                Write only the names of the conditions, don't add descriptions.
+                Write the as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the structure in the following example:
+                [
+                    {{"condition_name": "<insert name of condition 1 here>", "confidence_score": "10"}},
+                    {{"condition_name": "<insert name of condition 2 here>", "confidence_score": "5"}},
+                    {{"condition_name": "<insert name of condition 3 here>", "confidence_score": "7"}}
+                ]
+                Reply only with the JSON, don't add additional content.
+            '''
+            reply = llm_reply(prompt).strip()
+            json_data = {}
+            try: json_data = json.loads(reply)
+            except: pass 
+            if json_data != {}:
+                names = []
+                for item in json_data:
+                    try: name = item['condition_name']
+                    except: continue
+                    try: score = item['confidence_score']
+                    except: continue
+                    print(name)
+                    ## TODO: check if constituent is valid here (find database of conditions?)
+                    names.append({"name": name, "score": score})
+                for obj in names:
+                    name = obj['name'].lower().strip()
+                    score = obj['score']
+                    found = False
+                    for output in outputs:
+                        print(output)
+                        print(name, '->', output['condition_name'])
+                        if name in output['condition_name']: 
+                            output['condition_mentions'] += 1
+                            output['condition_score'] += int(score)
+                            found = True
+                            break
+                    if not found:
+                        outputs.append({
+                            'condition_name': name, 
+                            'condition_mentions': 1, 
+                            'condition_score': int(score), 
+                        })
+            outputs_final = []
+            for output in outputs:
+                outputs_final.append({
+                    'condition_name': output['condition_name'],
+                    'condition_score': int(output['condition_mentions']) * int(output['condition_score']),
+                })
+            outputs_final = sorted(outputs_final, key=lambda x: x['condition_score'], reverse=True)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            for output in outputs_final:
+                print(output)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            data[key] = outputs_final[:10]
+            json_write(json_filepath, data)
+
+    key = 'uses_unani_medicine'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        outputs = []
+        for i in range(20):
+            print(f'{i}/20 - {herb_i}/{len(herbs)}: {herb}')
+            prompt = f'''
+                Write a list of the most common uses of the plant {herb_name_scientific} in unani medicine.
+                By "uses" I mean health conditions (common ailments).
+                Also, give a confidence score in number format from 1 to 10 for each condition representing how much {herb_name_scientific} is used in unani medicine.
+                Write only 1 ailment for each list item.
+                Write only the names of the conditions, don't add descriptions.
+                Write the as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the structure in the following example:
+                [
+                    {{"condition_name": "<insert name of condition 1 here>", "confidence_score": "10"}},
+                    {{"condition_name": "<insert name of condition 2 here>", "confidence_score": "5"}},
+                    {{"condition_name": "<insert name of condition 3 here>", "confidence_score": "7"}}
+                ]
+                Reply only with the JSON, don't add additional content.
+            '''
+            reply = llm_reply(prompt).strip()
+            json_data = {}
+            try: json_data = json.loads(reply)
+            except: pass 
+            if json_data != {}:
+                names = []
+                for item in json_data:
+                    try: name = item['condition_name']
+                    except: continue
+                    try: score = item['confidence_score']
+                    except: continue
+                    print(name)
+                    ## TODO: check if constituent is valid here (find database of conditions?)
+                    names.append({"name": name, "score": score})
+                for obj in names:
+                    name = obj['name'].lower().strip()
+                    score = obj['score']
+                    found = False
+                    for output in outputs:
+                        print(output)
+                        print(name, '->', output['condition_name'])
+                        if name in output['condition_name']: 
+                            output['condition_mentions'] += 1
+                            output['condition_score'] += int(score)
+                            found = True
+                            break
+                    if not found:
+                        outputs.append({
+                            'condition_name': name, 
+                            'condition_mentions': 1, 
+                            'condition_score': int(score), 
+                        })
+            outputs_final = []
+            for output in outputs:
+                outputs_final.append({
+                    'condition_name': output['condition_name'],
+                    'condition_score': int(output['condition_mentions']) * int(output['condition_score']),
+                })
+            outputs_final = sorted(outputs_final, key=lambda x: x['condition_score'], reverse=True)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            for output in outputs_final:
+                print(output)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            data[key] = outputs_final[:10]
+            json_write(json_filepath, data)
+
+    key = 'uses_homeopathic_medicine'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        outputs = []
+        for i in range(20):
+            print(f'{i}/20 - {herb_i}/{len(herbs)}: {herb}')
+            prompt = f'''
+                Write a list of the most common uses of the plant {herb_name_scientific} in homeopathic medicine.
+                By "uses" I mean health conditions (common ailments).
+                Also, give a confidence score in number format from 1 to 10 for each condition representing how much {herb_name_scientific} is used in homeopathic medicine.
+                Write only 1 ailment for each list item.
+                Write only the names of the conditions, don't add descriptions.
+                Write the as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the structure in the following example:
+                [
+                    {{"condition_name": "<insert name of condition 1 here>", "confidence_score": "10"}},
+                    {{"condition_name": "<insert name of condition 2 here>", "confidence_score": "5"}},
+                    {{"condition_name": "<insert name of condition 3 here>", "confidence_score": "7"}}
+                ]
+                Reply only with the JSON, don't add additional content.
+            '''
+            reply = llm_reply(prompt).strip()
+            json_data = {}
+            try: json_data = json.loads(reply)
+            except: pass 
+            if json_data != {}:
+                names = []
+                for item in json_data:
+                    try: name = item['condition_name']
+                    except: continue
+                    try: score = item['confidence_score']
+                    except: continue
+                    print(name)
+                    ## TODO: check if constituent is valid here (find database of conditions?)
+                    names.append({"name": name, "score": score})
+                for obj in names:
+                    name = obj['name'].lower().strip()
+                    score = obj['score']
+                    found = False
+                    for output in outputs:
+                        print(output)
+                        print(name, '->', output['condition_name'])
+                        if name in output['condition_name']: 
+                            output['condition_mentions'] += 1
+                            output['condition_score'] += int(score)
+                            found = True
+                            break
+                    if not found:
+                        outputs.append({
+                            'condition_name': name, 
+                            'condition_mentions': 1, 
+                            'condition_score': int(score), 
+                        })
+            outputs_final = []
+            for output in outputs:
+                outputs_final.append({
+                    'condition_name': output['condition_name'],
+                    'condition_score': int(output['condition_mentions']) * int(output['condition_score']),
+                })
+            outputs_final = sorted(outputs_final, key=lambda x: x['condition_score'], reverse=True)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            for output in outputs_final:
+                print(output)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            data[key] = outputs_final[:10]
+            json_write(json_filepath, data)
+
+    key = 'uses_modern_western_medicine'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        outputs = []
+        for i in range(20):
+            print(f'{i}/20 - {herb_i}/{len(herbs)}: {herb}')
+            prompt = f'''
+                Write a list of the most common uses of the plant {herb_name_scientific} in modern western medicine.
+                By "uses" I mean health conditions (common ailments).
+                Also, give a confidence score in number format from 1 to 10 for each condition representing how much {herb_name_scientific} is used in modern western medicine.
+                Write only 1 ailment for each list item.
+                Write only the names of the conditions, don't add descriptions.
+                Write the as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the structure in the following example:
+                [
+                    {{"condition_name": "<insert name of condition 1 here>", "confidence_score": "10"}},
+                    {{"condition_name": "<insert name of condition 2 here>", "confidence_score": "5"}},
+                    {{"condition_name": "<insert name of condition 3 here>", "confidence_score": "7"}}
+                ]
+                Reply only with the JSON, don't add additional content.
+            '''
+            reply = llm_reply(prompt).strip()
+            json_data = {}
+            try: json_data = json.loads(reply)
+            except: pass 
+            if json_data != {}:
+                names = []
+                for item in json_data:
+                    try: name = item['condition_name']
+                    except: continue
+                    try: score = item['confidence_score']
+                    except: continue
+                    print(name)
+                    ## TODO: check if constituent is valid here (find database of conditions?)
+                    names.append({"name": name, "score": score})
+                for obj in names:
+                    name = obj['name'].lower().strip()
+                    score = obj['score']
+                    found = False
+                    for output in outputs:
+                        print(output)
+                        print(name, '->', output['condition_name'])
+                        if name in output['condition_name']: 
+                            output['condition_mentions'] += 1
+                            output['condition_score'] += int(score)
+                            found = True
+                            break
+                    if not found:
+                        outputs.append({
+                            'condition_name': name, 
+                            'condition_mentions': 1, 
+                            'condition_score': int(score), 
+                        })
+            outputs_final = []
+            for output in outputs:
+                outputs_final.append({
+                    'condition_name': output['condition_name'],
+                    'condition_score': int(output['condition_mentions']) * int(output['condition_score']),
+                })
+            outputs_final = sorted(outputs_final, key=lambda x: x['condition_score'], reverse=True)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            for output in outputs_final:
+                print(output)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            data[key] = outputs_final[:10]
+            json_write(json_filepath, data)
+
+    article_html += f'<h2>What are the main medicinal uses of {herb_name_scientific}?</h2>\n'
+
+    conditions_best = []
+    for obj in data['uses_modern_western_medicine']:
+        found = False
+        for _obj in conditions_best:
+            if _obj['condition_name'] in obj['condition_name']:
+                _obj['condition_score'] += obj['condition_score']
+                found = True
+                break
+        if not found:
+            conditions_best.append(obj)
+    for obj in data['uses_traditional_chinese_medicine']:
+        found = False
+        for _obj in conditions_best:
+            if _obj['condition_name'] in obj['condition_name']:
+                _obj['condition_score'] += obj['condition_score']
+                found = True
+                break
+        if not found:
+            conditions_best.append(obj)
+    for obj in data['uses_ayurvedic_medicine']:
+        found = False
+        for _obj in conditions_best:
+            if _obj['condition_name'] in obj['condition_name']:
+                _obj['condition_score'] += obj['condition_score']
+                found = True
+                break
+        if not found:
+            conditions_best.append(obj)
+    for obj in data['uses_unani_medicine']:
+        found = False
+        for _obj in conditions_best:
+            if _obj['condition_name'] in obj['condition_name']:
+                _obj['condition_score'] += obj['condition_score']
+                found = True
+                break
+        if not found:
+            conditions_best.append(obj)
+    for obj in data['uses_homeopathic_medicine']:
+        found = False
+        for _obj in conditions_best:
+            if _obj['condition_name'] in obj['condition_name']:
+                _obj['condition_score'] += obj['condition_score']
+                found = True
+                break
+        if not found:
+            conditions_best.append(obj)
+    
+    conditions_best = sorted(conditions_best, key=lambda x: x['condition_score'], reverse=True)
+    conditions_best = [x['condition_name'] for x in conditions_best[:10]]
+
+    key = 'uses_description'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        names = [condition.lower().strip() for condition in conditions_best]
+        names_prompt = ', '.join(names)
+        prompt = f'''
+            Write 1 detailed paragraph about what are the most common uses of the plant {herb_name_scientific} for health conditions, and explain what constituents this plant has that are responsible for the relief of those conditions.
+            For "uses" I mean which health conditions this plant heal.
+            In specific, discuss the following conditions in this exact order: {names_prompt}.
+            Only mention a condition once throughout the paragraph, don't name the same condition multiple times.
+            Pack as much information in as few words as possible.
+            Don't write fluff, only proven data.
+            Don't include words that communicate the feeling that the data you provide is not proven, like "can", "may", "might" and "is believed to". 
+            Don't allucinate.
+            Write the paragraph in 5 sentences.
+            Write only the paragraph, don't add additional info.
+            Don't add references or citations.
+            Start with the following words: The main medicinal uses of {herb_name_scientific} are .
+            Don't include all the conditions in the first sentence, but distribute them homogeneously throughout the paragraph.
+            Don't include a conclusory statement with words like overall, in summary, or in conclusion. 
+        '''
+        print(prompt)
+        reply = llm_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            data[key] = lines[0]
+            json_write(json_filepath, data)
+        else:
+            print('########################################')
+            print(lines)
+            print('########################################')
+    if data[key] != '':
+        paragraph = data[key]
+        article_html += f'{util.text_format_1N1_html(paragraph)}\n'
+
+    article_html += f'<p>The following tables gives an overview of what are the most common health conditions that are treated with {herb_name_scientific} in each of the major medicinal systems.</p>\n'
+    article_html += f'<table>\n'
+    article_html += f'<tr>\n'
+    article_html += f'<th>Medicinal System</th>\n'
+    article_html += f'<th>Conditions Treated</th>\n'
+    article_html += f'</tr>\n'
+    if 'uses_modern_western_medicine':
+        ailments = ', '.join([obj['condition_name'].title() for obj in data['uses_modern_western_medicine']])
+        article_html += f'<tr>\n'
+        article_html += f'<td>Modern Western Medicine</td>\n'
+        article_html += f'<td>{ailments}</td>\n'
+        article_html += f'</tr>\n'
+    if 'uses_traditional_chinese_medicine':
+        ailments = ', '.join([obj['condition_name'].title() for obj in data['uses_traditional_chinese_medicine']])
+        article_html += f'<tr>\n'
+        article_html += f'<td>Traditional Chinese Medicine</td>\n'
+        article_html += f'<td>{ailments}</td>\n'
+        article_html += f'</tr>\n'
+    if 'uses_ayurvedic_medicine':
+        ailments = ', '.join([obj['condition_name'].title() for obj in data['uses_ayurvedic_medicine']])
+        article_html += f'<tr>\n'
+        article_html += f'<td>Ayurvedic Medicine</td>\n'
+        article_html += f'<td>{ailments}</td>\n'
+        article_html += f'</tr>\n'
+    if 'uses_unani_medicine':
+        ailments = ', '.join([obj['condition_name'].title() for obj in data['uses_unani_medicine']])
+        article_html += f'<tr>\n'
+        article_html += f'<td>Unani Medicine</td>\n'
+        article_html += f'<td>{ailments}</td>\n'
+        article_html += f'</tr>\n'
+    if 'uses_homeopathic_medicine':
+        ailments = ', '.join([obj['condition_name'].title() for obj in data['uses_homeopathic_medicine']])
+        article_html += f'<tr>\n'
+        article_html += f'<td>Homeopathic Medicine</td>\n'
+        article_html += f'<td>{ailments}</td>\n'
+        article_html += f'</tr>\n'
+    article_html += f'</table>\n'
+
+    article_html += f'<p>The list below summarize the primary health conditions where {herb_name_scientific} is being used as a treatment across different medicinal systems around the world.</p>\n'
+    article_html += f'<ul>\n'
+    for condition in conditions_best:
+        article_html += f'<li>{condition.capitalize()}</li>\n'
+    article_html += f'</ul>\n'
+
+    medicinal_systems = [
+        'modern western medicine',
+        'traditional chinese medicine',
+        'ayurvedic medicine',
+        'unani medicine',
+        'homeopathic medicine',
+    ]
+    for medicinal_system in medicinal_systems:
+        medicinal_system_underscore = medicinal_system.replace(' ', '_')
+        key = f'uses_{medicinal_system_underscore}_description'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            names = [obj['condition_name'] for obj in data[f'uses_{medicinal_system_underscore}']]
+            prompt = f'''
+                Write 1 detailed paragraph about what are the most common health condition that are treated with the plant {herb_name_scientific} in {medicinal_system}.
+                Include the following conditions in this exact order: {names}.
+                Only mention a condition once throughout the paragraph, don't mention the same condition multiple times.
+                Pack as much information in as few words as possible.
+                Don't write fluff, only proven data.
+                Don't allucinate.
+                Write the paragraph in 5 sentences.
+                Write only the paragraph, don't add additional info.
+                Don't add references or citations.
+                Start with the following words: In {medicinal_system}, {herb_name_scientific} is used to .
+                Don't include all the conditions in the first sentence, but distribute them homogeneously throughout the paragraph.
+                Don't include a conclusory statement with words like overall, in summary, or in conclusion. 
+            '''
+            print(prompt)
+            reply = llm_reply(prompt)
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip()
+                if line == '': continue
+                if ':' in line: continue
+                lines.append(line)
+            if len(lines) == 1:
+                data[key] = lines[0]
+                json_write(json_filepath, data)
+        if data[key] != '':
+            article_html += f'<h3>{medicinal_system.title()}</h3>\n'
+            paragraph = data[key]
+            article_html += f'{util.text_format_1N1_html(paragraph)}\n'
+
+    ## benefits ----------------------------------------------------------------------------------------------
+    key = 'benefits'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write a list of the 10 most important health benefits of the plant {herb_name_scientific}.
+            Write only 1 benefit for each list item.
+            Write only the names of the benefits, don't add descriptions.
+            Include an action verb in each benefit name.
+            Make each benefit name at least 2-word long.
+            Write the as few words as possible.
+            Don't write fluff, only proven facts.
+            Don't allucinate.
+            Reply in JSON format using the following structure:
+            [
+                {{"benefit_name": "<insert name of benefit 1 here>"}},
+                {{"benefit_name": "<insert name of benefit 2 here>"}},
+                {{"benefit_name": "<insert name of benefit 3 here>"}}
+            ]
+            Reply only with the JSON, don't add additional content.
+        '''
+        reply = llm_reply(prompt).strip()
+        _data = json.loads(reply)
+        if _data != '':
+            data[key] = _data[:10]
+            json_write(json_filepath, data)
+
+    ## systems
+    _systems = [
+        'circulatory',
+        'digestive',
+        'endocrine',
+        'integumentary',
+        'lymphatic',
+        'musculoskeletal',
+        'nervous',
+        'reproductive',
+        'respiratory',
+        'urinary',
+    ]
+    for system_name in _systems:
+        key = f'benefits_{system_name}_system'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            prompt = f'''
+                Write a list of the 10 most important health benefits of the plant {herb_name_scientific} for the {system_name} system.
+                Write only 1 benefit for each list item.
+                Write only the names of the benefits, don't add descriptions.
+                Include an action verb in each benefit name.
+                Make each benefit name at least 2-word long.
+                Write the as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the following structure:
+                [
+                    {{"benefit_name": "<insert name of benefit 1 here>"}},
+                    {{"benefit_name": "<insert name of benefit 2 here>"}},
+                    {{"benefit_name": "<insert name of benefit 3 here>"}}
+                ]
+                Reply only with the JSON, don't add additional content.
+            '''
+            reply = llm_reply(prompt).strip()
+            _data = json.loads(reply)
+            if _data != '':
+                data[key] = _data[:10]
+                json_write(json_filepath, data)
+    article_html += f'<h2>What are the primary health benefits of {herb_name_scientific}?</h2>\n'
+
+    key = 'benefits_description'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        names = [obj['benefit_name'].lower().strip() for obj in data['benefits']]
+        names_prompt = ', '.join(names)
+        prompt = f'''
+            Write 1 detailed paragraph about what are the health benefits of the plant {herb_name_scientific}, and explain what medicinal properties this plant has that are responsible for the health benefits.
+            Discuss the following health benefits in this exact order: {names}.
+            Only mention a benefit once throughout the paragraph, don't name the same benefit multiple times.
+            The main subject of each sentence is the discussed health benefit.
+            Pack as much information in as few words as possible.
+            Don't write fluff, only proven data.
+            Don't include words that communicate the feeling that the data you provide is not proven, like "can", "may", "might" and "is believed to". 
+            Don't allucinate.
+            Write the paragraph in 5 sentences.
+            Write only the paragraph, don't add additional info.
+            Don't add references or citations.
+            Start with the following words: {herb_name_scientific} {names[0]} .
+            Don't include all the benefits in the first sentence, but distribute them homogeneously throughout the paragraph.
+            Don't include a conclusory statement with words like overall, in summary, or in conclusion. 
+        '''
+        print(prompt)
+        reply = llm_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            data[key] = lines[0]
+            json_write(json_filepath, data)
+        else:
+            print('########################################')
+            print(lines)
+            print('########################################')
+    if data[key] != '':
+        paragraph = data[key]
+        article_html += f'{util.text_format_1N1_html(paragraph)}\n'
+
+    article_html += f'<table>\n'
+    article_html += f'<tr>\n'
+    article_html += f'<th>Body System</th>\n'
+    article_html += f'<th>Benefits</th>\n'
+    article_html += f'</tr>\n'
+    for system_name in _systems:
+        benefits = ', '.join([obj['benefit_name'].title() for obj in data[f'benefits_{system_name}_system']])
+        article_html += f'<tr>\n'
+        article_html += f'<td>{system_name.title()} System</td>\n'
+        article_html += f'<td>{benefits}</td>\n'
+        article_html += f'</tr>\n'
+    article_html += f'</table>\n'
+
+    for system_name in _systems:
+        key = f'benefits_{system_name}_system_description'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            names = [obj['benefit_name'].lower().strip() for obj in data[f'benefits_{system_name}_system']]
+            names_prompt = ', '.join(names)
+            prompt = f'''
+                Write 1 detailed paragraph about what are the health benefits of the plant {herb_name_scientific} for the {system_name} system, and explain what medicinal properties this plant has that are responsible for the health benefits.
+                Discuss the following health benefits in this exact order: {names}.
+                Examples of medicinal properties are like: antimicrobial, antioxidant, anti-inflammatory, etc.
+                Only mention a benefit once throughout the paragraph, don't name the same benefit multiple times.
+                The main subject of each sentence is the discussed health benefit.
+                Pack as much information in as few words as possible.
+                Don't write fluff, only proven data.
+                Don't include words that communicate the feeling that the data you provide is not proven, like "can", "may", "might" and "is believed to". 
+                Don't allucinate.
+                Write the paragraph in 5 sentences.
+                Write only the paragraph, don't add additional info.
+                Don't add references or citations.
+                Start with the following words: {herb_name_scientific} {names[0]} .
+                Don't include all the benefits in the first sentence, but distribute them homogeneously throughout the paragraph.
+                Don't include a conclusory statement with words like overall, in summary, or in conclusion. 
+            '''
+            print(prompt)
+            reply = llm_reply(prompt)
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip()
+                if line == '': continue
+                if ':' in line: continue
+                lines.append(line)
+            if len(lines) == 1:
+                data[key] = lines[0]
+                json_write(json_filepath, data)
+            else:
+                print('########################################')
+                print(lines)
+                print('########################################')
+        if data[key] != '':
+            paragraph = data[key]
+            article_html += f'<h3>{system_name.title()} System</h3>\n'
+            article_html += f'{util.text_format_1N1_html(paragraph)}\n'
+
+        key = f'benefits_{system_name}_system_ailments'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            prompt = f'''
+                Write a list of the most common uses of the plant {herb_name_scientific} for the {system_name} system.
+                By "uses" I mean health conditions (common ailments).
+                Also, give a confidence score in number format from 1 to 10 for each condition representing how much you are sure {herb_name_scientific} can help treating that condition.
+                Write only 1 ailment for each list item.
+                Write only the names of the conditions, don't add descriptions.
+                Write the as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the structure in the following example:
+                [
+                    {{"condition_name": "<insert name of condition 1 here>", "confidence_score": "10"}},
+                    {{"condition_name": "<insert name of condition 2 here>", "confidence_score": "5"}},
+                    {{"condition_name": "<insert name of condition 3 here>", "confidence_score": "7"}}
+                ]
+                Reply only with the JSON, don't add additional content.
+            '''
+            print(prompt)
+            reply = llm_reply(prompt).strip()
+            json_data = {}
+            try: json_data = json.loads(reply)
+            except: pass 
+            if json_data != {}:
+                names = []
+                for item in json_data:
+                    try: name = item['condition_name']
+                    except: continue
+                    try: score = item['confidence_score']
+                    except: continue
+                    print(name)
+                    names.append({"condition_name": name, "condition_score": score})
+                print(names)
+                data[key] = names[:10]
+                json_write(json_filepath, data)
+        if data[key] != '':
+            article_html += f'<p>The most common health conditions of the {system_name} that {herb_name_scientific} helps relieve or prevent are listed below.</p>\n'
+            article_html += f'<ul>\n'
+            for obj in data[key]:
+                article_html += f'<li>{obj["condition_name"].capitalize()}</li>\n'
+            article_html += f'</ul>\n'
+
+    ## ------------------------------------------------------------------------------------
+    key = 'properties'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write a list of the most important medicinal properties of the plant {herb_name_scientific}.
+            Examples of properties are: antimicrobial, antioxidant, anti-inflammatory, analgesic, pain relief, etc.
+            Write only the names of the properties, don't add descriptions.
+            Write as few words as possible.
+            Don't write fluff, only proven facts.
+            Don't allucinate.
+            Reply in JSON format using the following structure:
+            [
+                {{"property_name": "<insert name of property 1 here>"}},
+                {{"property_name": "<insert name of property 2 here>"}},
+                {{"property_name": "<insert name of property 3 here>"}}
+            ]
+            Reply only with the JSON, don't add additional content.
+        '''
+        reply = llm_reply(prompt).strip().lower()
+        _data = json.loads(reply)
+        if _data != '':
+            data[key] = _data[:10]
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the therapeutic properties of {herb_name_scientific}?</h2>\n'
+
+    key = 'properties_desc'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        names = [obj['property_name'].lower().strip() for obj in data['properties']]
+        names_prompt = ', '.join(names[:10])
+        prompt = f'''
+            Write 1 detailed paragraph about what are the medicinal properties of the plant {herb_name_scientific}, and explain what are the bioactive compounds of this plant that are responsible for the medicinal properties.
+            Discuss the following medicinal properties in this exact order: {names}.
+            Examples of bioactive compounds are like: flavonoids, saponins, volatile oils, etc.
+            The main subjects of the sentences are the medicinal properties, not the bioactive compounds.
+            Only mention a medicinal property once throughout the paragraph, don't name the same medicinal property multiple times.
+            Pack as much information in as few words as possible.
+            Don't write fluff, only proven data.
+            Don't allucinate.
+            Write the paragraph in 5 sentences.
+            Write only the paragraph, don't add additional info.
+            Don't add references or citations.
+            Start with the following words: The medicinal properties of {herb_name_scientific} are .
+            Don't include all the properties in the first sentence, but distribute them homogeneously throughout the paragraph.
+            Don't include a conclusory statement with words like overall, in summary, or in conclusion. 
+        '''
+        print(prompt)
+        reply = llm_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            data[key] = lines[0]
+            json_write(json_filepath, data)
+        else:
+            print('########################################')
+            print(lines)
+            print('########################################')
+    if data[key] != '':
+        paragraph = data[key]
+        article_html += f'{util.text_format_1N1_html(paragraph)}\n'
+
+    key = 'properties_list'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        names = [obj['property_name'] for obj in data['properties']]
+        names_prompt = ', '.join(names)
+        items_prompt = []
+        for name in names:
+            items_prompt.append(f'{{"property_name": "{name}", "description": "describe this property of {herb_name_scientific}."}}') 
+        items_prompt = ', \n'.join(items_prompt)
+        prompt = f'''
+            Write a description for each of the following medicinal property of the plant {herb_name_scientific}.
+            Write the descriptions in full, complete and detailed sentences.
+            Don't write fluff, only proven facts.
+            Don't allucinate.
+            Reply in JSON format using the following structure:
+            [
+                {items_prompt}
+            ]
+            Only reply with the JSON, don't add additional info.
+        '''
+        print(prompt)
+        reply = llm_reply(prompt).strip()
+        try: _data = json.loads(reply)
+        except: _data = {}
+        if _data != {}:
+            error = False
+            for obj in _data:
+                if 'property_name' not in obj or 'description' not in obj:
+                    error = True
+                    break
+            if not error:
+                data[key] = _data
+                json_write(json_filepath, data)
+    if data[key] != []:
+        article_html += f'<ul>\n'
+        for obj in data[key]:
+            name = obj["property_name"].title()
+            description = obj["description"]
+            article_html += f'<li><strong>{name}:</strong> {obj["description"]}</li>\n'
+        article_html += f'</ul>\n'
+
+    ## ------------------------------------------------------------------------------------
+    key = 'constituents'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        outputs = []
+        for i in range(20):
+            print(f'{i}/20 - {herb_i}/{len(herbs)}: {herb}')
+            prompt = f'''
+                Write a list of the medicinal constituents of the plant {herb_name_scientific}.
+                Also, give a confidence score in number format from 1 to 10 for each medicinal constituent representing how much you are sure that medicinal constituent is contained in the plant {herb_name_scientific}.
+                Examples of medicinal constituents are: flavonoids, phenolic acids, saponins, etc.
+                Write only the names of the constituents, don't add descriptions.
+                Write the names of the constituents using as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the structure in the following example:
+                [
+                    {{"constituent_name": "<insert name of constituent 1 here>", "confidence_score": "10"}},
+                    {{"constituent_name": "<insert name of constituent 2 here>", "confidence_score": "5"}},
+                    {{"constituent_name": "<insert name of constituent 3 here>", "confidence_score": "7"}}
+                ]
+                Reply only with the JSON, don't add additional info.
+            '''
+            reply = llm_reply(prompt).strip()
+            json_data = {}
+            try: json_data = json.loads(reply)
+            except: pass 
+            if json_data != {}:
+                names = []
+                for item in json_data:
+                    try: name = item['constituent_name']
+                    except: continue
+                    try: score = item['confidence_score']
+                    except: continue
+                    print(name)
+                    ## TODO: check if constituent is valid here (find database of constituents?)
+                    names.append({"name": name, "score": score})
+                for obj in names:
+                    name = obj['name']
+                    score = obj['score']
+                    found = False
+                    for output in outputs:
+                        print(output)
+                        print(name, '->', output['constituent_name'])
+                        if name in output['constituent_name']: 
+                            output['constituent_mentions'] += 1
+                            output['constituent_score'] += int(score)
+                            found = True
+                            break
+                    if not found:
+                        outputs.append({
+                            'constituent_name': name, 
+                            'constituent_mentions': 1, 
+                            'constituent_score': int(score), 
+                        })
+            outputs_final = []
+            for output in outputs:
+                outputs_final.append({
+                    'constituent_name': output['constituent_name'],
+                    'constituent_score': int(output['constituent_mentions']) * int(output['constituent_score']),
+                })
+            outputs_final = sorted(outputs_final, key=lambda x: x['constituent_score'], reverse=True)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            for output in outputs_final:
+                print(output)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            data[key] = outputs_final[:10]
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the bioactive compounds of {herb_name_scientific}?</h2>\n'
+
+    key = 'constituents_desc'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        names = [obj['constituent_name'].lower().strip() for obj in data['constituents']]
+        names_prompt = ', '.join(names[:5])
+        prompt = f'''
+            Write 1 detailed paragraph about what are the medicinal constituents of {herb_name_scientific} and explain why.
+            Include the following constituents: {names_prompt}.
+            Pack as much information in as few words as possible.
+            Don't write fluff, only proven data.
+            Don't allucinate.
+            Don't write the character ";".
+            Write the paragraph in 5 sentences.
+            Start the reply with the following words: The main medicinal constituents of {herb_name_scientific} are .
+        '''
+        print(prompt)
+        reply = llm_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            data[key] = lines[0]
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+    key = 'description'
+    for obj_i, obj in enumerate(data['constituents']):
+        if key not in obj: obj[key] = ''
+        # obj[key] = ''
+        if obj[key] == '':
+            constituent_name = obj['constituent_name']
+            prompt = f'''
+                Write a short 1-sentence description of following medicinal constituent of the plant {herb_name_scientific}: {constituent_name}.
+                In the description include the name of the constituent and state its properties without explaining why they give their health benefits.
+                Don't mention anything about the validity of the information or if its effected are recognized or documented.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the following structure:
+                {{
+                    "constituent_name": "{constituent_name}", 
+                    "description": "<write the description here>"
+                }}
+                Only reply with the JSON, don't add additional info.
+            '''
+            reply = llm_reply(prompt).strip()
+            try: _data = json.loads(reply)
+            except: _data = {}
+            if _data != {}:
+                if 'constituent_name' in _data and 'description' in _data:
+                    obj[key] = _data['description']
+                    json_write(json_filepath, data)
+    if data['constituents'] != '':
+        article_html += f'<p>In the list below you find the most important medicinal constituents of {herb_name_scientific} for general health and a short description of their properties.</p>\n'
+        article_html += f'<ul>\n'
+        for obj in data['constituents']:
+            if obj['description'] != '': 
+                name = obj["constituent_name"]
+                description = obj["description"]
+                article_html += f'<li><strong>{name}:</strong> {obj["description"]}</li>\n'
+        article_html += f'</ul>\n'
+
+    key = 'concentration'
+    for obj_i, obj in enumerate(data['constituents']):
+        if key not in obj: obj[key] = ''
+        # obj[key] = ''
+        if obj[key] == '':
+            constituent_name = obj['constituent_name']
+            prompt = f'''
+                Write the estimate concentration for the following medicinal constituent of the plant {herb_name_scientific}: {constituent_name}.
+                Write the concentration by choosing only from the following words: "high", "medium", "low".
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the following structure:
+                {{
+                    "constituent_name": "{constituent_name}", 
+                    "concentration": "estimate the concentration by writing only high, medium, or low"
+                }}
+                Only reply with the JSON, don't add additional info.
+            '''
+            reply = llm_reply(prompt).strip()
+            try: _data = json.loads(reply)
+            except: _data = {}
+            if _data != {}:
+                if 'constituent_name' in _data and 'concentration' in _data:
+                    obj[key] = _data['concentration']
+                    json_write(json_filepath, data)
+
+    key = 'properties'
+    for obj_i, obj in enumerate(data['constituents']):
+        if key not in obj: obj[key] = ''
+        # obj[key] = ''
+        if obj[key] == '':
+            constituent_name = obj['constituent_name']
+            prompt = f'''
+                Write a list of properies for the following medicinal constituent of the plant {herb_name_scientific}: {constituent_name}.
+                Examples of properties are: antimicrobial, antioxidant, anti-inflammatory, analgesic, pain relief, etc.
+                Write only the names of the properties, don't add additional info.
+                Write as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the following structure:
+                {{
+                    "constituent_name": "{constituent_name}", 
+                    "properties": "[property 1, property 2, property 3, etc.]"
+                }}
+                Only reply with the JSON, don't add additional info.
+            '''
+            reply = llm_reply(prompt).strip()
+            try: _data = json.loads(reply)
+            except: _data = {}
+            if _data != {}:
+                if 'constituent_name' in _data and 'properties' in _data:
+                    obj[key] = _data['properties']
+                    json_write(json_filepath, data)
+
+    if data['constituents'] != '':
+        article_html += f'<p>The table below estimates the relative concentrations of the main medicinal constituents contained in {herb_name_scientific} and lists the most relevant medicinal properties of each constituent based on the corresponding concentration.</p>\n'
+        article_html += f'<table>\n'
+        article_html += f'<tr>\n'
+        article_html += f'<th>Constituent</th>\n'
+        article_html += f'<th>Concentration</th>\n'
+        article_html += f'<th>Properties</th>\n'
+        article_html += f'</tr>\n'
+        for obj in data['constituents']:
+            if obj['constituent_name'] != '' and obj['concentration'] != '' and obj['properties'] != '': 
+                name = obj["constituent_name"]
+                concentration = obj["concentration"].upper()
+                properties = ', '.join([x.capitalize() for x in obj["properties"]])
+                article_html += f'<tr>\n'
+                article_html += f'<td>{name}</td>\n'
+                article_html += f'<td>{concentration}</td>\n'
+                article_html += f'<td>{properties}</td>\n'
+                article_html += f'</tr>\n'
+        article_html += f'</table>\n'
+
+    ## ------------------------------------------------------------------------------------
+    key = 'parts'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        valid_parts = [
+            'roots',
+            'rhizomes',
+            'stems',
+            'leaves',
+            'flowers',
+            'fruits',
+            'seeds',
+        ]
+        valid_parts_prompt = ', '.join(valid_parts)
+        outputs = []
+        tries_num = 20
+        for i in range(tries_num):
+            print(f'{i}/{tries_num} - {herb_i}/{len(herbs)}: {herb}')
+            prompt = f'''
+                Write a list of the most important parts of the plant {herb_name_scientific} that are used for medicinal purposes.
+                For each part, give the following scores:
+                - a presence score, in number format from 1 to 10 representing how much you believe {herb_name_scientific} has this part.
+                - a health score, in number format from 1 to 10 representing how much you believe {herb_name_scientific} this part is good for health when used medicinally.
+                - a usage score, in number format from 1 to 10 representing how common is to use this part of {herb_name_scientific} as a medicinal ingredient compared to other parts of the same plant.
+                - a power score, in number format from 1 to 10 representing how strong is the effect of this part of {herb_name_scientific} as a medicinal ingredient compared to other parts of the same plant.
+                Choose only from these parts: {valid_parts_prompt}.
+                Always write the names of the parts in plural form, for example: Write leaves, not leaf.
+                Write only the names of the parts, don't add descriptions.
+                Don't include the name of the plant, only write the parts.
+                Write the as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the structure in the following example:
+                [
+                    {{"part_name": "<insert name of part 1 here>", "presence_score": 10, "health_score": "9", "usage_score": 8, "power_score: 9"}},
+                    {{"part_name": "<insert name of part 2 here>", "presence_score": 5, "health_score": "4", "usage_score": 2, "power_score: 6"}},
+                    {{"part_name": "<insert name of part 3 here>", "presence_score": 7, "health_score": "6", "usage_score": 8, "power_score: 5"}}
+                ]
+                Reply only with the JSON, don't add additional content.
+            '''
+            reply = llm_reply(prompt).strip()
+            json_data = {}
+            try: json_data = json.loads(reply)
+            except: pass 
+            if json_data != {}:
+                parts = []
+                for item in json_data:
+                    try: part_name = item['part_name'].lower().strip()
+                    except: continue
+                    try: presence_score = item['presence_score']
+                    except: continue
+                    try: health_score = item['health_score']
+                    except: continue
+                    try: usage_score = item['usage_score']
+                    except: continue
+                    try: power_score = item['power_score']
+                    except: continue
+                    if part_name in valid_parts:
+                        parts.append({
+                            "part_name": part_name, 
+                            "presence_score": presence_score, 
+                            "health_score": health_score, 
+                            "usage_score": usage_score, 
+                            "power_score": power_score,
+                        })
+                for obj in parts:
+                    part_name = obj['part_name'].lower().strip()
+                    presence_score = obj['presence_score']
+                    health_score = obj['health_score']
+                    usage_score = obj['usage_score']
+                    power_score = obj['power_score']
+                    found = False
+                    for output in outputs:
+                        print(output)
+                        print(part_name, '->', output['part_name'])
+                        if part_name in output['part_name']: 
+                            output['part_mentions'] += 1
+                            output['presence_score'] += int(presence_score)
+                            output['health_score'] += int(health_score)
+                            output['usage_score'] += int(usage_score)
+                            output['power_score'] += int(power_score)
+                            found = True
+                            break
+                    if not found:
+                        outputs.append({
+                            'part_name': part_name, 
+                            'part_mentions': 1, 
+                            'presence_score': int(presence_score), 
+                            'health_score': int(health_score), 
+                            'usage_score': int(usage_score), 
+                            'power_score': int(power_score), 
+                        })
+            outputs_final = []
+            for output in outputs:
+                part_mentions = output['part_mentions']
+                avg_presence_score = output['presence_score']/tries_num
+                avg_health_score = output['health_score']/tries_num
+                avg_usage_score = output['usage_score']/tries_num
+                avg_power_score = output['power_score']/tries_num
+                part_total_score = ((avg_presence_score + avg_health_score + avg_usage_score + avg_power_score)/4) * part_mentions/tries_num
+                outputs_final.append({
+                    'part_name': output['part_name'],
+                    'part_mentions': part_mentions, 
+                    'presence_score': round(avg_presence_score, 2),
+                    'health_score': round(avg_health_score, 2),
+                    'usage_score': round(avg_usage_score, 2),
+                    'power_score': round(avg_power_score, 2),
+                    'part_total_score': round(part_total_score, 2),
+                })
+            print(outputs_final)
+            outputs_final = sorted(outputs_final, key=lambda x: x['part_total_score'], reverse=True)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            for output in outputs_final:
+                print(output)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            data[key] = outputs_final[:10]
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the most used parts of {herb_name_scientific} for medicinal purposes?</h2>\n'
+
+    key = 'parts_desc'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        names = [obj['part_name'].lower().strip() for obj in data['parts'] if obj['part_total_score'] >= 6]
+        names_prompt = ', '.join(names[:10])
+        prompt = f'''
+            Write 1 detailed paragraph about what are the parts of the plant {herb_name_scientific} that are used medicinally.
+            In specific, discuss the following parts: {names}.
+            Only discuss the parts listed above, don't write about other parts.
+            Explain what are the primary bioactive compounds of each part.
+            Examples of bioactive compounds are like: flavonoids, saponins, volatile oils, etc.
+            Explain what are the primary medicinal properties of each part.
+            Examples of medicinal properties are like: anti-inflammatory, antioxidant, analgesic, etc.
+            Pack as much information in as few words as possible.
+            Don't write fluff, only proven data.
+            Don't allucinate.
+            Write the paragraph in 5 sentences.
+            Write only the paragraph, don't add additional info.
+            Don't add references or citations.
+            Start with the following words: The most used parts of {herb_name_scientific} for medicinal purposes are {names}.
+            Don't include a conclusory statement with words like overall, in summary, or in conclusion. 
+        '''
+        print(prompt)
+        reply = llm_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            data[key] = lines[0]
+            json_write(json_filepath, data)
+        else:
+            print('########################################')
+            print(lines)
+            print('########################################')
+    if data[key] != '':
+        paragraph = data[key]
+        article_html += f'{util.text_format_1N1_html(paragraph)}\n'
+
+    key = 'parts_list'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        names = [obj['part_name'] for obj in data['parts'] if obj['part_total_score'] >= 6]
+        names_prompt = ', '.join(names)
+        items_prompt = []
+        for name in names:
+            items_prompt.append(f'{{"part_name": "{name}", "description": "<write the description here starting with the words: The {name} of this plant "}}') 
+        items_prompt = ', \n'.join(items_prompt)
+        prompt = f'''
+            Write a 1-sentence detailed description for each of the following parts of the plant {herb_name_scientific}: {names_prompt}.
+            In each description, explain what are the major bioactive compouns of that part, what are the main medicinal properties, and what are the primary health benefits.
+            Don't explain what this part is, don't give a definition for the part, don't explaing how this part is made.
+            Explain only what are the medicinal properties of the plant and what are their major bioactive compounds.
+            Never include the name of the plant in the description.
+            Write the descriptions in full, complete and detailed sentences.
+            Pack as much information in as few words as possible.
+            Don't write fluff, only proven facts.
+            Don't allucinate.
+            Reply in JSON format using the following structure:
+            [
+                {items_prompt}
+            ]
+            Only reply with the JSON, don't add additional info.
+        '''
+        print(prompt)
+        reply = llm_reply(prompt).strip()
+        try: _data = json.loads(reply)
+        except: _data = {}
+        if _data != {}:
+            error = False
+            for obj in _data:
+                if 'part_name' not in obj or 'description' not in obj:
+                    error = True
+                    break
+            if not error:
+                data[key] = _data
+                json_write(json_filepath, data)
+    if data[key] != []:
+        article_html += f'<p>The most used parts of {herb_name_scientific} are listed below, along with their major bioactive compounds, medicinal properties, and health benefits.</p>\n'
+        article_html += f'<ul>\n'
+        for obj in data[key]:
+            name = obj["part_name"].title()
+            description = obj["description"]
+            article_html += f'<li><strong>{name}:</strong> {obj["description"]}</li>\n'
+        article_html += f'</ul>\n'
+
+    key = 'constituents'
+    for obj_i, obj in enumerate(data['parts']):
+        if key not in obj: obj[key] = ''
+        # obj[key] = ''
+        if obj[key] == '':
+            part_name = obj['part_name']
+            prompt = f'''
+                Write a list of the major medicinal constituents found in the following part of the plant {herb_name_scientific}: {name}.
+                Examples of medicinal constituents are like: flavonoids, saponins, volatile oils, etc.
+                Write only the names of the constituents, don't add additional info.
+                Write as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the following structure:
+                {{
+                    "part_name": "{part_name}", 
+                    "constituents": "[constituent 1, constituent 2, constituent 3, etc.]"
+                }}
+                Only reply with the JSON, don't add additional info.
+            '''
+            reply = llm_reply(prompt).strip()
+            try: _data = json.loads(reply)
+            except: _data = {}
+            if _data != {}:
+                if 'part_name' in _data and 'constituents' in _data:
+                    obj[key] = _data['constituents']
+                    json_write(json_filepath, data)
+
+    if data['parts'] != '':
+        article_html += f'<p>The table below gives a more complete list of the medicinal constituents for each of the most used parts of {herb_name_scientific}.</p>\n'
+        article_html += f'<table>\n'
+        article_html += f'<tr>\n'
+        article_html += f'<th>Part</th>\n'
+        article_html += f'<th>Constituents</th>\n'
+        '''
+        article_html += f'<th>Mentions</th>\n'
+        article_html += f'<th>Presence</th>\n'
+        article_html += f'<th>Health</th>\n'
+        article_html += f'<th>Usage</th>\n'
+        article_html += f'<th>Power</th>\n'
+        article_html += f'<th>Total</th>\n'
+        '''
+        article_html += f'</tr>\n'
+        for obj in data['parts']:
+            if obj['part_name'] != '' and obj['constituents'] != '':
+                name = obj["part_name"].title()
+                constituents = ', '.join([x.capitalize() for x in obj["constituents"]])
+                part_mentions = obj["part_mentions"]
+                presence_score = obj["presence_score"]
+                health_score = obj["health_score"]
+                usage_score = obj["usage_score"]
+                power_score = obj["power_score"]
+                part_total_score = obj["part_total_score"]
+                if part_total_score >= 6:
+                    article_html += f'<tr>\n'
+                    article_html += f'<td>{name}</td>\n'
+                    article_html += f'<td>{constituents}</td>\n'
+                    '''
+                    article_html += f'<td>{part_mentions}</td>\n'
+                    article_html += f'<td>{presence_score}</td>\n'
+                    article_html += f'<td>{health_score}</td>\n'
+                    article_html += f'<td>{usage_score}</td>\n'
+                    article_html += f'<td>{power_score}</td>\n'
+                    article_html += f'<td>{part_total_score}</td>\n'
+                    '''
+                    article_html += f'</tr>\n'
+        article_html += f'</table>\n'
+
+    ## ------------------------------------------------------------------------------------
+    key = 'preparations'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write a list of the most used medicinal preparation of the plant {herb_name_scientific}.
+            Examples of medicinal preparations are: teas, tinctures, salves, etc.
+            Write only the names of the preparations, don't add descriptions.
+            Don't include the name of the plant, only write the names of the preparations.
+            Write as few words as possible.
+            Don't write fluff, only proven facts.
+            Don't allucinate.
+            Reply in JSON format using the following structure:
+            [
+                {{"preparation_name": "<insert name of preparation 1 here>"}},
+                {{"preparation_name": "<insert name of preparation 2 here>"}},
+                {{"preparation_name": "<insert name of preparation 3 here>"}}
+            ]
+            Reply only with the JSON, don't add additional content.
+        '''
+        reply = llm_reply(prompt).strip().lower()
+        _data = json.loads(reply)
+        if _data != '':
+            data[key] = _data[:10]
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the most used herbal preparations of {herb_name_scientific}?</h2>\n'
+
+    key = 'preparation_desc'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        names = [obj['preparation_name'].lower().strip() for obj in data['preparations']]
+        names_prompt = ', '.join(names[:10])
+        prompt = f'''
+            Write 1 detailed paragraph about what are the medicinal preparations of the plant {herb_name_scientific}, and explain for what they are used for.
+            Discuss the following preparations in this exact order: {names}.
+            The main subjects of the sentences are the preparations.
+            Only mention a preparation once throughout the paragraph, don't name the same preparation multiple times.
+            Pack as much information in as few words as possible.
+            Don't write fluff, only proven data.
+            Don't allucinate.
+            Write the paragraph in 5 sentences.
+            Write only the paragraph, don't add additional info.
+            Don't add references or citations.
+            Start with the following words: The most used herbal preparation of {herb_name_scientific} for medicinal purposes are .
+            Don't include all the preparations in the first sentence, but distribute them homogeneously throughout the paragraph.
+            Don't include a conclusory statement with words like overall, in summary, or in conclusion. 
+        '''
+        print(prompt)
+        reply = llm_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            data[key] = lines[0]
+            json_write(json_filepath, data)
+        else:
+            print('########################################')
+            print(lines)
+            print('########################################')
+    if data[key] != '':
+        paragraph = data[key]
+        article_html += f'{util.text_format_1N1_html(paragraph)}\n'
+
+    key = 'description'
+    for obj_i, obj in enumerate(data['preparations']):
+        if key not in obj: obj[key] = ''
+        # obj[key] = ''
+        if obj[key] == '':
+            preparation_name = obj['preparation_name']
+            prompt = f'''
+                Write a 1-sentence detailed description for the following medicinal preparation the plant {herb_name_scientific}: {preparation_name}.
+                In the description explain what are the most common medicinal uses of the praparation.
+                Write as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Don't include words that communicate the feeling that the data you provide is not proven, like "can", "may", "might" and "is believed to". 
+                Don't include how the medicinal preparation is made, extracted or from which part of the plant it comes from.
+                Reply in JSON format using the following structure:
+                {{
+                    "preparation_name": "{preparation_name}", 
+                    "description": "<write the 1-sentence description here>"
+                }}
+                Only reply with the JSON, don't add additional info.
+                Start the description with these words: "{herb_name_scientific} {preparation_name} ".
+            '''
+            reply = llm_reply(prompt).strip()
+            try: _data = json.loads(reply)
+            except: _data = {}
+            if _data != {}:
+                if 'preparation_name' in _data and 'description' in _data:
+                    obj[key] = _data['description']
+                    json_write(json_filepath, data)
+    if data['preparations'] != '':
+        article_html += f'<p>###.</p>\n'
+        article_html += f'<ul>\n'
+        for obj in data['preparations']:
+            if obj['preparation_name'] != '' and obj['description'] != '':
+                preparation_name = obj["preparation_name"].title()
+                description = obj["description"]
+                article_html += f'<li><strong>{preparation_name}:</strong> {obj["description"]}</li>\n'
+        article_html += f'</ul>\n'
+
+    for obj_i, obj in enumerate(data['preparations']):
+        key = 'parts'
+        if key not in obj: obj[key] = ''
+        # obj[key] = ''
+        if obj[key] == '':
+            preparation_name = obj['preparation_name']
+            prompt = f'''
+                Write a list of the most used parts of the plant {herb_name_scientific} used to make the following medicinal preparation: {preparation_name}.
+                Examples of parts are: leaves, flowers, seeds, etc.
+                Try to write more than 1 part if possible.
+                Order the parts from the most used to the least.
+                Write only the names of the parts, don't add additional info.
+                Write as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the following structure:
+                {{
+                    "preparation_name": "{preparation_name}", 
+                    "parts": "[part 1, part 2, part 3, etc.]"
+                }}
+                Only reply with the JSON, don't add additional info.
+            '''
+            reply = llm_reply(prompt).strip()
+            try: _data = json.loads(reply)
+            except: _data = {}
+            if _data != {}:
+                if 'preparation_name' in _data and 'parts' in _data:
+                    obj[key] = _data['parts']
+                    json_write(json_filepath, data)
+
+    if data['preparations'] != '':
+        article_html += f'<p>###.</p>\n'
+        article_html += f'<table>\n'
+        article_html += f'<tr>\n'
+        article_html += f'<th>Preparation</th>\n'
+        article_html += f'<th>Parts</th>\n'
+        article_html += f'</tr>\n'
+        for obj in data['preparations']:
+            if obj['preparation_name'] != '' and obj['parts'] != '':
+                preparation_name = obj["preparation_name"]
+                parts = ', '.join([x.capitalize() for x in obj["parts"]])
+                article_html += f'<tr>\n'
+                article_html += f'<td>{preparation_name}</td>\n'
+                article_html += f'<td>{parts}</td>\n'
+                article_html += f'</tr>\n'
+        article_html += f'</table>\n'
+
+    ## ------------------------------------------------------------------------------------
+    ## TODO: remove action verb?
+    key = 'side_effects'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write a list of the possible side effects of impropertly using the plant {herb_name_scientific} medicinally.
+            Write only the names of the side effects, don't add descriptions.
+            Start each list item with a third-person singular actionable verb.
+            Don't write fluff, only proven data.
+            Don't allucinate.
+            Reply in JSON format using the following structure:
+            [
+                {{"side_effect_name": "<insert name of side_effect 1 here>"}},
+                {{"side_effect_name": "<insert name of side_effect 2 here>"}},
+                {{"side_effect_name": "<insert name of side_effect 3 here>"}}
+            ]
+            Reply only with the JSON, don't add additional content.
+        '''
+        reply = llm_reply(prompt).strip()
+        _data = json.loads(reply)
+        if _data != '':
+            data[key] = _data[:10]
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the possible side effects of {herb_name_scientific} if used improperly?</h2>\n'
+
+    key = 'side_effects_overview'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        names = [obj['side_effect_name'].lower().strip() for obj in data['side_effects']]
+        names_prompt = ', '.join(names[:10])
+        prompt = f'''
+            Write 1 detailed paragraph about what are the possible side effects of using improperly the plant {herb_name_scientific}.
+            Discuss the following side effects in this exact order: {names}.
+            The main subjects of the sentences are the side effects.
+            Only mention a side effect once throughout the paragraph, don't name the same side effect multiple times.
+            Pack as much information in as few words as possible.
+            Don't write fluff, only proven data.
+            Don't allucinate.
+            Write the paragraph in 5 sentences.
+            Write only the paragraph, don't add additional info.
+            Don't add references or citations.
+            Start with the following words: The possible side effects of improperly using {herb_name_scientific} are  .
+            Don't include all the side effects in the first sentence, but distribute them homogeneously throughout the paragraph.
+            Don't include a conclusory statement with words like overall, in summary, or in conclusion. 
+        '''
+        print(prompt)
+        reply = llm_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            data[key] = lines[0]
+            json_write(json_filepath, data)
+        else:
+            print('########################################')
+            print(lines)
+            print('########################################')
+    if data[key] != '':
+        paragraph = data[key]
+        article_html += f'{util.text_format_1N1_html(paragraph)}\n'
+
+    for obj_i, obj in enumerate(data['side_effects']):
+        key = 'side_effect_description'
+        if key not in obj: obj[key] = ''
+        # obj[key] = ''
+        if obj[key] == '':
+            side_effect_name = obj['side_effect_name']
+            prompt = f'''
+                Write a 1-sentence detailed description for the following side effect of the plant {herb_name_scientific}: {side_effect_name}.
+                Write as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Don't include words that communicate the feeling that the data you provide is not proven, like "can", "may", "might" and "is believed to". 
+                Reply in JSON format using the following structure:
+                {{
+                    "side_effect_name": "{side_effect_name}", 
+                    "description": "<write the 1-sentence description here>"
+                }}
+                Only reply with the JSON, don't add additional info.
+            '''
+            reply = llm_reply(prompt).strip()
+            try: _data = json.loads(reply)
+            except: _data = {}
+            if _data != {}:
+                if 'side_effect_name' in _data and 'description' in _data:
+                    obj[key] = _data['description']
+                    json_write(json_filepath, data)
+    if data['side_effects'] != '':
+        article_html += f'<p>###.</p>\n'
+        article_html += f'<ul>\n'
+        for obj in data['side_effects']:
+            if obj['side_effect_name'] != '' and obj['side_effect_description'] != '':
+                name = obj["side_effect_name"].title()
+                description = obj["side_effect_description"]
+                article_html += f'<li><strong>{name}:</strong> {description}</li>\n'
+        article_html += f'</ul>\n'
+
+    ## ------------------------------------------------------------------------------------
+    key = 'precautions'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write a list of the precautions to take before using the plant {herb_name_scientific} medicinally.
+            Write only the names of the precautions, don't add descriptions.
+            Start each list item with a third-person singular actionable verb.
+            Write as few words as possible.
+            Don't write fluff, only proven data.
+            Don't allucinate.
+            Reply in JSON format using the following structure:
+            [
+                {{"precaution_name": "<insert name of precaution 1 here>"}},
+                {{"precaution_name": "<insert name of precaution 2 here>"}},
+                {{"precaution_name": "<insert name of precaution 3 here>"}}
+            ]
+            Reply only with the JSON, don't add additional content.
+        '''
+        reply = llm_reply(prompt).strip()
+        _data = json.loads(reply)
+        if _data != '':
+            data[key] = _data[:10]
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the precautions to take before using {herb_name_scientific} medicinally?</h2>\n'
+
+    key = 'precautions_overview'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        names = [obj['precaution_name'].lower().strip() for obj in data['precautions']]
+        names_prompt = ', '.join(names[:10])
+        prompt = f'''
+            Write 1 detailed paragraph about what are the precautions to take before using the plant {herb_name_scientific} medicinally.
+            Discuss the following precautions in this exact order: {names}.
+            The main subjects of the sentences are the precautions.
+            Only mention a precaution once throughout the paragraph, don't name the same precaution multiple times.
+            Pack as much information in as few words as possible.
+            Don't write fluff, only proven data.
+            Don't allucinate.
+            Write the paragraph in 5 sentences.
+            Write only the paragraph, don't add additional info.
+            Don't add references or citations.
+            Start with the following words: The precautions to take before using {herb_name_scientific} medicinally are  .
+            Don't include all the precautions in the first sentence, but distribute them homogeneously throughout the paragraph.
+            Don't include a conclusory statement with words like overall, in summary, or in conclusion. 
+        '''
+        print(prompt)
+        reply = llm_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            data[key] = lines[0]
+            json_write(json_filepath, data)
+        else:
+            print('########################################')
+            print(lines)
+            print('########################################')
+    if data[key] != '':
+        paragraph = data[key]
+        article_html += f'{util.text_format_1N1_html(paragraph)}\n'
 
     breadcrumbs = util.breadcrumbs(html_filepath)
     meta = components.meta(article_html, data["lastmod"])
     article = components.table_of_contents(article_html)
     html = templates.article(title, header_html, breadcrumbs, meta, article, footer_html)
     file_write(html_filepath, html)
+    quit()
 
 def art_herb(herb):
     herb_id = herb['herb_id']
@@ -3194,16 +4962,16 @@ def articles_ailments():
                 Don't allucinate.
                 Reply in the following JSON format: 
                 [
-                    {{"plant_name": "{{names[0]}}", "description": "describe why this plant helps with {ailment_name}."}}, 
-                    {{"plant_name": "{{names[1]}}", "description": "describe why this plant helps with {ailment_name}."}}, 
-                    {{"plant_name": "{{names[2]}}", "description": "describe why this plant helps with {ailment_name}."}}, 
-                    {{"plant_name": "{{names[3]}}", "description": "describe why this plant helps with {ailment_name}."}}, 
-                    {{"plant_name": "{{names[4]}}", "description": "describe why this plant helps with {ailment_name}."}}, 
-                    {{"plant_name": "{{names[5]}}", "description": "describe why this plant helps with {ailment_name}."}}, 
-                    {{"plant_name": "{{names[6]}}", "description": "describe why this plant helps with {ailment_name}."}}, 
-                    {{"plant_name": "{{names[7]}}", "description": "describe why this plant helps with {ailment_name}."}}, 
-                    {{"plant_name": "{{names[8]}}", "description": "describe why this plant helps with {ailment_name}."}}, 
-                    {{"plant_name": "{{names[9]}}", "description": "describe why this plant helps with {ailment_name}."}} 
+                    {{"plant_name": "{names[0]}", "description": "describe why this plant helps with {ailment_name}."}}, 
+                    {{"plant_name": "{names[1]}", "description": "describe why this plant helps with {ailment_name}."}}, 
+                    {{"plant_name": "{names[2]}", "description": "describe why this plant helps with {ailment_name}."}}, 
+                    {{"plant_name": "{names[3]}", "description": "describe why this plant helps with {ailment_name}."}}, 
+                    {{"plant_name": "{names[4]}", "description": "describe why this plant helps with {ailment_name}."}}, 
+                    {{"plant_name": "{names[5]}", "description": "describe why this plant helps with {ailment_name}."}}, 
+                    {{"plant_name": "{names[6]}", "description": "describe why this plant helps with {ailment_name}."}}, 
+                    {{"plant_name": "{names[7]}", "description": "describe why this plant helps with {ailment_name}."}}, 
+                    {{"plant_name": "{names[8]}", "description": "describe why this plant helps with {ailment_name}."}}, 
+                    {{"plant_name": "{names[9]}", "description": "describe why this plant helps with {ailment_name}."}} 
                 ]
                 Use the plants scientific names in the descriptions.
                 Only reply with the JSON, don't add additional info.
@@ -3439,16 +5207,16 @@ def articles_ailments():
                 Don't allucinate.
                 Reply in the following JSON format: 
                 [
-                    {{"preparation_name": "{{names[0]}}", "description": "describe why this preparation helps with {ailment_name}."}}, 
-                    {{"preparation_name": "{{names[1]}}", "description": "describe why this preparation helps with {ailment_name}."}}, 
-                    {{"preparation_name": "{{names[2]}}", "description": "describe why this preparation helps with {ailment_name}."}}, 
-                    {{"preparation_name": "{{names[3]}}", "description": "describe why this preparation helps with {ailment_name}."}}, 
-                    {{"preparation_name": "{{names[4]}}", "description": "describe why this preparation helps with {ailment_name}."}}, 
-                    {{"preparation_name": "{{names[5]}}", "description": "describe why this preparation helps with {ailment_name}."}}, 
-                    {{"preparation_name": "{{names[6]}}", "description": "describe why this preparation helps with {ailment_name}."}}, 
-                    {{"preparation_name": "{{names[7]}}", "description": "describe why this preparation helps with {ailment_name}."}}, 
-                    {{"preparation_name": "{{names[8]}}", "description": "describe why this preparation helps with {ailment_name}."}}, 
-                    {{"preparation_name": "{{names[9]}}", "description": "describe why this preparation helps with {ailment_name}."}} 
+                    {{"preparation_name": "{names[0]}", "description": "describe why this preparation helps with {ailment_name}."}}, 
+                    {{"preparation_name": "{names[1]}", "description": "describe why this preparation helps with {ailment_name}."}}, 
+                    {{"preparation_name": "{names[2]}", "description": "describe why this preparation helps with {ailment_name}."}}, 
+                    {{"preparation_name": "{names[3]}", "description": "describe why this preparation helps with {ailment_name}."}}, 
+                    {{"preparation_name": "{names[4]}", "description": "describe why this preparation helps with {ailment_name}."}}, 
+                    {{"preparation_name": "{names[5]}", "description": "describe why this preparation helps with {ailment_name}."}}, 
+                    {{"preparation_name": "{names[6]}", "description": "describe why this preparation helps with {ailment_name}."}}, 
+                    {{"preparation_name": "{names[7]}", "description": "describe why this preparation helps with {ailment_name}."}}, 
+                    {{"preparation_name": "{names[8]}", "description": "describe why this preparation helps with {ailment_name}."}}, 
+                    {{"preparation_name": "{names[9]}", "description": "describe why this preparation helps with {ailment_name}."}} 
                 ]
                 Use the plants scientific names in the descriptions.
                 Only reply with the JSON, don't add additional info.
@@ -3500,7 +5268,7 @@ def gen_status__precautions(json_filepath, data, article_html):
             print('*******************************************')
             print(reply)
             print('*******************************************')
-            data[key] = reply[0]
+            data[key] = reply[0] 
             util.json_write(json_filepath, data)
         time.sleep(g.PROMPT_DELAY_TIME)
     if key in data:
@@ -3573,12 +5341,12 @@ def main():
     shutil.copy2('sitemap.xml', 'website/sitemap.xml')
     shutil.copy2('style.css', 'website/style.css')
 
-    page_home()
-    quit()
-    articles_ailments()
-    main_preparations()
-
     main_herbs_popular()
+    quit()
+    page_home()
+    main_preparations()
+    articles_ailments()
+
     main_herbs()
     page_herbs_new()
 

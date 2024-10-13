@@ -434,7 +434,7 @@ def popular_herbs_realistic():
         image.save(filepath_out, optimize=True, quality=50)
 
 def preparations_realistic():
-    preparation_name = 'tea'
+    preparation_name = 'tincture'
     preparation_slug = preparation_name.replace(' ', '-') + 's'
     preparation_name_plural = preparation_name + 's'
 
@@ -462,16 +462,20 @@ def preparations_realistic():
         except: pass
         if os.path.exists(filepath_out): continue
         prompt = f'''
-            close up of a cup of {herb_name_scientific} herbal tea, 
+            close up of a bottle of {herb_name_scientific} herbal tincture, 
             on a wooden table, surrounded by medicinal herbs, 
             depth of field, bokeh, 
             detailed texture, high resolution, cinematic
+        '''
+        negative_prompt = f'''
+            text, label, drawing, watermark
         '''
         print(prompt)
         if image_ratio == '1x1':
             image_size = [1024, 1024]
         image = pipe(
             prompt=prompt, 
+            negative_prompt=negative_prompt, 
             num_inference_steps=30,
             width=image_size[0], 
             height=image_size[1], 

@@ -573,50 +573,94 @@ def homepage():
         </section>
     '''
 
+    popular_ailments_for_tinctures = [
+            ['nervous system', 'sleep deprivation'],
+            ['nervous system', 'anxiety'],
+            ['immune system', 'allergies'],
+            ['immune system', 'inflammation'],
+            ['nervous system', 'headache'],
+            ['cardiovascular system', 'high blood pressure'],
+            ['musculoskeletal system', 'back pain'],
+    ]
+    popular_tinctures = []
+    for ailment_row in popular_ailments_for_tinctures:
+        system_name = ailment_row[0]
+        system_slug = system_name.lower().strip().replace(' ', '-')
+        ailment_name = ailment_row[1]
+        ailment_slug = ailment_name.lower().strip().replace(' ', '-')
+
+        data = json_read(f'database/json/remedies/{system_slug}/{ailment_slug}/tinctures.json')
+        title = data['title']
+        intro_desc = ' '.join(data['intro_desc'].split(' ')[:24]) + '...'
+
+        popular_tinctures.append({
+            'ailment_name': ailment_name,
+            'ailment_slug': ailment_name.lower().strip().replace(' ', '-'),
+            'system': system_name.title(),
+            'title': title.title(),
+            'link_url': f'/remedies/{system_slug}/{ailment_slug}/tinctures.html',
+            'image_url': f'/images/preparations/herbal-tinctures-for-{ailment_slug}-overview.jpg',
+            'intro_desc': intro_desc,
+        })
+    
     section_tinctures = f'''
         <section class="pb-96">
             <div class="container-xl">
                 <h2 class="pt-0 pb-32 text-56">Tinctures</h2>
                 <div class="flex gap-48">
                     <div class="flex-1">
-                        <img class="object-cover mb-24" height="400" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
-                        <p class="home-art-cat">Tinctures</p>
-                        <h2 class="pt-0 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
-                        <p class="home-paragraph-secondary">In the dynamic world of business and entrepreneurship, success is not just about having a great idea or a solid business plan. It requires a combination of factors, including setting goals,...</p>
+                        <a class="no-underline text-black" href="{popular_tinctures[0]['link_url']}">
+                            <img class="object-cover mb-24" height="400" src="{popular_tinctures[0]['image_url']}" alt="">
+                            <p class="home-art-cat">{popular_tinctures[0]['system']}</p>
+                            <h2 class="pt-0 pb-8">{popular_tinctures[0]['title']}</h2>
+                            <p class="home-paragraph-secondary">{popular_tinctures[0]['intro_desc']}</p>
+                        </a>
                     </div>
                     <div class="flex-1">
                         <div class="flex gap-16">
                             <div class="flex-1 border-0 border-b border-solid border-black mb-16">
-                                <img class="object-cover mb-24" height="200" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
-                                <p class="home-art-cat">Tinctures</p>
-                                <h2 class="pt-0 text-18 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
-                                <p class="home-paragraph-secondary">In the dynamic world of business and entrepreneurship, success is not just about having a great idea or a solid business plan. It requires a combination of factors, including setting goals,...</p>
+                                <a class="no-underline text-black" href="{popular_tinctures[1]['link_url']}">
+                                    <img class="object-cover mb-24" height="200" src="{popular_tinctures[1]['image_url']}" alt="">
+                                    <p class="home-art-cat">{popular_tinctures[1]['system']}</p>
+                                    <h2 class="pt-0 text-18 pb-8">{popular_tinctures[1]['title']}</h2>
+                                    <p class="home-paragraph-secondary">{popular_tinctures[1]['intro_desc']}</p>
+                                </a>
                             </div>
                             <div class="flex-1 border-0 border-b border-solid border-black mb-16">
-                                <img class="object-cover mb-24" height="200" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
-                                <p class="home-art-cat">Tinctures</p>
-                                <h2 class="pt-0 text-18 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
-                                <p class="home-paragraph-secondary">In the dynamic world of business and entrepreneurship, success is not just about having a great idea or a solid business plan. It requires a combination of factors, including setting goals,...</p>
+                                <a class="no-underline text-black" href="{popular_tinctures[2]['link_url']}">
+                                    <img class="object-cover mb-24" height="200" src="{popular_tinctures[2]['image_url']}" alt="">
+                                    <p class="home-art-cat">{popular_tinctures[2]['system']}</p>
+                                    <h2 class="pt-0 text-18 pb-8">{popular_tinctures[2]['title']}</h2>
+                                    <p class="home-paragraph-secondary">{popular_tinctures[2]['intro_desc']}</p>
+                                </a>
                             </div>
                         </div>
                         <div class="flex gap-16">
                             <div class="flex-1 border-0 border-b border-solid border-black mb-16">
-                                <p class="home-art-cat">Teas</p>
-                                <h2 class="pt-0 text-18 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
+                                <a class="no-underline text-black" href="{popular_tinctures[3]['link_url']}">
+                                    <p class="home-art-cat">{popular_tinctures[3]['system']}</p>
+                                    <h2 class="pt-0 text-18 pb-8">{popular_tinctures[3]['title']}</h2>
+                                </a>
                             </div>
                             <div class="flex-1 border-0 border-b border-solid border-black mb-16">
-                                <p class="home-art-cat">Teas</p>
-                                <h2 class="pt-0 text-18 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
+                                <a class="no-underline text-black" href="{popular_tinctures[4]['link_url']}">
+                                    <p class="home-art-cat">{popular_tinctures[4]['system']}</p>
+                                    <h2 class="pt-0 text-18 pb-8">{popular_tinctures[4]['title']}</h2>
+                                </a>
                             </div>
                         </div>
                         <div class="flex gap-16">
                             <div class="flex-1">
-                                <p class="home-art-cat">Teas</p>
-                                <h2 class="pt-0 text-18 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
+                                <a class="no-underline text-black" href="{popular_tinctures[5]['link_url']}">
+                                    <p class="home-art-cat">{popular_tinctures[5]['system']}</p>
+                                    <h2 class="pt-0 text-18 pb-8">{popular_tinctures[5]['title']}</h2>
+                                </a>
                             </div>
                             <div class="flex-1">
-                                <p class="home-art-cat">Teas</p>
-                                <h2 class="pt-0 text-18 pb-8">Advances in predicting and measuring atmospheric conditions</h2>
+                                <a class="no-underline text-black" href="{popular_tinctures[6]['link_url']}">
+                                    <p class="home-art-cat">{popular_tinctures[6]['system']}</p>
+                                    <h2 class="pt-0 text-18 pb-8">{popular_tinctures[6]['title']}</h2>
+                                </a>
                             </div>
                         </div>
                     </div>
