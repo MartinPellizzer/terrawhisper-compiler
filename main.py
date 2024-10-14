@@ -1417,6 +1417,40 @@ def art_herb_popular(herb, herb_i, herbs):
         json_write(_json_filepath, parts)
         return
 
+    if 0:
+        _json_filepath = 'database/preparations-test.json'
+        preparations = json_read(_json_filepath)
+        prompt = f'''
+            Write a list of the most important medicinal preparations of the plant {herb_name_scientific}.
+            Example of medicinal preparations are: teas, tincures, decoctions, salves, essential oils, creams, etc.
+            Write only the names of the preparations, don't add descriptions.
+            Don't include the name of the plants, only write the names of the preparations.
+            Write as few words as possible.
+            Don't write fluff, only proven facts.
+            Don't allucinate.
+            Reply in JSON format using the following structure:
+            [
+                {{"preparation_name": "<insert name of preparation 1 here>"}},
+                {{"preparation_name": "<insert name of preparation 2 here>"}},
+                {{"preparation_name": "<insert name of preparation 3 here>"}}
+            ]
+            Reply only with the JSON, don't add additional content.
+        '''
+        reply = llm_reply(prompt).strip().lower()
+        try: _preparations = json.loads(reply)
+        except: _preparations = ''
+        if _preparations != '':
+            for _preparation in _preparations:
+                found = False
+                for preparation in preparations:
+                    if _preparation['preparation_name'] in preparation['preparation_name']:
+                        found = True
+                        break
+                if not found:
+                    preparations.append({'preparation_name': _preparation['preparation_name']})
+        json_write(_json_filepath, preparations)
+        return
+
 
     key = 'intro_desc'
     if key not in data: data[key] = ''
@@ -2815,40 +2849,333 @@ def art_herb_popular(herb, herb_i, herbs):
         article_html += f'</table>\n'
 
     ## ------------------------------------------------------------------------------------
+    ## ;preparations
+    score_min = 5
+    valid_preparations = json_read('database/preparations.json')
+    valid_preparations = [x['preparation_name'].split(',')[0].strip().lower() for x in valid_preparations]
+
     key = 'preparations'
     if key not in data: data[key] = ''
     # data[key] = ''
     if data[key] == '':
-        prompt = f'''
-            Write a list of the most used medicinal preparation of the plant {herb_name_scientific}.
-            Examples of medicinal preparations are: teas, tinctures, salves, etc.
-            Write only the names of the preparations, don't add descriptions.
-            Don't include the name of the plant, only write the names of the preparations.
-            Write as few words as possible.
-            Don't write fluff, only proven facts.
-            Don't allucinate.
-            Reply in JSON format using the following structure:
-            [
-                {{"preparation_name": "<insert name of preparation 1 here>"}},
-                {{"preparation_name": "<insert name of preparation 2 here>"}},
-                {{"preparation_name": "<insert name of preparation 3 here>"}}
-            ]
-            Reply only with the JSON, don't add additional content.
-        '''
-        reply = llm_reply(prompt).strip().lower()
-        _data = json.loads(reply)
-        if _data != '':
-            data[key] = _data[:10]
+        outputs = []
+        tries_num = 20
+        for i in range(tries_num):
+            print(f'{i}/{tries_num} - {herb_i}/{len(herbs)}: {herb}')
+            random.shuffle(valid_preparations)
+            valid_preparations_prompt = ', '.join(valid_preparations[:3])
+            prompt = f'''
+                Write a list of the most effective herbal preparations of the plant {herb_name_scientific} for medicinal purposes.
+                For each preparation, give the following scores:
+                - a difficulty score, in number format from 1 to 10 representing how much you believe that preparation {herb_name_scientific} is difficult to make.
+                - a health score, in number format from 1 to 10 representing how much you believe that preparation with {herb_name_scientific} is good for health when used medicinally.
+                - a usage score, in number format from 1 to 10 representing how common is to use that preparation with {herb_name_scientific} for medicinal purposes compared to other preparations made with the same plant.
+                - a power score, in number format from 1 to 10 representing how strong is the effect of that preparation with {herb_name_scientific} for medicinal purposes compared to other preparations made with the same plant.
+                Always write the names of the preparations in singular form.
+                Write only the names of the preparations, don't add descriptions.
+                Don't include the name of the plant, only write the names of the preparations.
+                Write the as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the structure in the following example:
+                [
+                    {{"preparation_name": "<insert name of preparation 1 here>", "difficulty_score": 10, "health_score": "9", "usage_score": 8, "power_score: 9"}},
+                    {{"preparation_name": "<insert name of preparation 2 here>", "difficulty_score": 5, "health_score": "4", "usage_score": 2, "power_score: 6"}},
+                    {{"preparation_name": "<insert name of preparation 3 here>", "difficulty_score": 7, "health_score": "6", "usage_score": 8, "power_score: 5"}}
+                ]
+                Reply only with the JSON, don't add additional content.
+            '''
+            reply = llm_reply(prompt).strip()
+            json_data = {}
+            try: json_data = json.loads(reply)
+            except: pass 
+            if json_data != {}:
+                preparations = []
+                for item in json_data:
+                    try: preparation_name = item['preparation_name'].lower().strip()
+                    except: continue
+                    try: difficulty_score = item['difficulty_score']
+                    except: continue
+                    try: health_score = item['health_score']
+                    except: continue
+                    try: usage_score = item['usage_score']
+                    except: continue
+                    try: power_score = item['power_score']
+                    except: continue
+                    if preparation_name in valid_preparations:
+                        preparations.append({
+                            "preparation_name": preparation_name, 
+                            "difficulty_score": difficulty_score, 
+                            "health_score": health_score, 
+                            "usage_score": usage_score, 
+                            "power_score": power_score,
+                        })
+                for obj in preparations:
+                    preparation_name = obj['preparation_name'].lower().strip()
+                    difficulty_score = obj['difficulty_score']
+                    health_score = obj['health_score']
+                    usage_score = obj['usage_score']
+                    power_score = obj['power_score']
+                    found = False
+                    for output in outputs:
+                        print(output)
+                        print(preparation_name, '->', output['preparation_name'])
+                        if preparation_name in output['preparation_name']: 
+                            output['preparation_mentions'] += 1
+                            output['difficulty_score'] += int(difficulty_score)
+                            output['health_score'] += int(health_score)
+                            output['usage_score'] += int(usage_score)
+                            output['power_score'] += int(power_score)
+                            found = True
+                            break
+                    if not found:
+                        outputs.append({
+                            'preparation_name': preparation_name, 
+                            'preparation_mentions': 1, 
+                            'difficulty_score': int(difficulty_score), 
+                            'health_score': int(health_score), 
+                            'usage_score': int(usage_score), 
+                            'power_score': int(power_score), 
+                        })
+            outputs_final = []
+            for output in outputs:
+                preparation_mentions = output['preparation_mentions']
+                preparation_total_score = ((output['difficulty_score']/tries_num + output['health_score']/tries_num + output['usage_score']/tries_num + output['power_score']/tries_num) / 3)
+                avg_difficulty_score = output['difficulty_score']/preparation_mentions
+                avg_health_score = output['health_score']/preparation_mentions
+                avg_usage_score = output['usage_score']/preparation_mentions
+                avg_power_score = output['power_score']/preparation_mentions
+                outputs_final.append({
+                    'preparation_name': output['preparation_name'],
+                    'preparation_mentions': preparation_mentions, 
+                    'difficulty_score': round(avg_difficulty_score, 2),
+                    'health_score': round(avg_health_score, 2),
+                    'usage_score': round(avg_usage_score, 2),
+                    'power_score': round(avg_power_score, 2),
+                    'preparation_total_score': round(preparation_total_score, 2),
+                })
+            print(outputs_final)
+            outputs_final = sorted(outputs_final, key=lambda x: x['preparation_total_score'], reverse=True)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            for output in outputs_final:
+                print(output)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            data[key] = outputs_final[:]
             json_write(json_filepath, data)
     if data[key] != '':
-        article_html += f'<h2>What are the most used herbal preparations of {herb_name_scientific}?</h2>\n'
+        article_html += f'<h2>Preparations?</h2>\n'
+        # article_html += f'<p>{data[key]}</p>\n'
+
+    ## ;preparations conditions -------------------------------------------------------------------
+    for obj in data['preparations']:
+        if obj['preparation_total_score'] < score_min: continue 
+        key = 'conditions'
+        if key not in obj: obj[key] = ''
+        # obj[key] = ''
+        if obj[key] == '':
+            preparation_name = obj['preparation_name']
+            outputs = []
+            tries_num = 20
+            for i in range(tries_num):
+                print(f'{i}/{tries_num} - {herb_i}/{len(herbs)}: {herb}')
+                prompt = f'''
+                    Write a list of the most common ailments that are treated with {herb_name_scientific} herbal {preparation_name}.
+                    Also, give a confidence score in number format from 1 to 10 for each ailment representing how much you believe {herb_name_scientific} herbal {preparation_name} is widely adopted for that specific ailment.
+                    Write only 1 ailment for each list item.
+                    Never use the word "and".
+                    Write only the names of the ailment, don't add descriptions.
+                    Write the as few words as possible.
+                    Don't write fluff, only proven facts.
+                    Don't allucinate.
+                    Reply in JSON format using the structure in the following example:
+                    [
+                        {{"ailment_name": "<insert name of ailment 1 here>", "confidence_score": "10"}},
+                        {{"ailment_name": "<insert name of ailment 2 here>", "confidence_score": "5"}},
+                        {{"ailment_name": "<insert name of ailment 3 here>", "confidence_score": "7"}}
+                    ]
+                    Reply only with the JSON, don't add additional content.
+                '''
+                reply = llm_reply(prompt).strip()
+                json_data = {}
+                try: json_data = json.loads(reply)
+                except: pass 
+                if json_data != {}:
+                    names = []
+                    for item in json_data:
+                        try: name = item['ailment_name']
+                        except: continue
+                        try: confidence_score = item['confidence_score']
+                        except: continue
+                        # print(name)
+                        ## TODO: check if item is valid here (find database of conditions?)
+                        names.append({"name": name, "confidence_score": confidence_score})
+                    for _obj in names:
+                        name = _obj['name'].lower().strip()
+                        confidence_score = _obj['confidence_score']
+                        found = False
+                        for output in outputs:
+                            # print(output)
+                            # print(name, '->', output['ailment_name'])
+                            if name in output['ailment_name']: 
+                                output['ailment_mentions'] += 1
+                                output['confidence_score'] += int(confidence_score)
+                                found = True
+                                break
+                        if not found:
+                            outputs.append({
+                                'ailment_name': name, 
+                                'ailment_mentions': 1, 
+                                'confidence_score': int(confidence_score), 
+                            })
+            outputs_final = []
+            for output in outputs:
+                outputs_final.append({
+                    'ailment_name': output['ailment_name'],
+                    'confidence_score': int(output['ailment_mentions']) * int(output['confidence_score']),
+                })
+            outputs_final = sorted(outputs_final, key=lambda x: x['confidence_score'], reverse=True)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            for output in outputs_final:
+                print(output)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            obj[key] = outputs_final[:10]
+            json_write(json_filepath, data)
+
+    ## ;preparations difficulty_score -------------------------------------------------------------------
+    for obj in data['preparations']:
+        if obj['preparation_total_score'] < score_min: continue 
+        key = 'difficulty_score'
+        if key not in obj: obj[key] = ''
+        # obj[key] = ''
+        if obj[key] == '':
+            preparation_name = obj['preparation_name']
+            tries_num = 100
+            score = 0
+            for i in range(tries_num):
+                print(f'{i}/{tries_num} - {herb_i}/{len(herbs)}: {herb}')
+                prompt = f'''
+                    Give me a score in number format from 1 to 10 representing how hard it is to make {herb_name_scientific} herbal {preparation_name} compared to all other herbal preparations of the same plant.
+                    For reference, score 1 means it's easy to make, while score 10 means it's hard to make.
+                    Write the as few words as possible.
+                    Don't write fluff, only proven facts.
+                    Don't allucinate.
+                    Reply in JSON format using the structure in the following example:
+                    {{
+                        "difficulty_score": 10
+                    }}
+                    Reply only with the JSON, don't add additional content.
+                '''
+                reply = llm_reply(prompt).strip()
+                try: _data = json.loads(reply)
+                except: _data = {}
+                if _data != {}:
+                    try: _score = _data['difficulty_score']
+                    except: continue
+                    score += int(_score)
+            score /= tries_num
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            print(score)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            obj[key] = score
+            json_write(json_filepath, data)
+
+    ## ;preparations power_score -------------------------------------------------------------------
+    for obj in data['preparations']:
+        if obj['preparation_total_score'] < score_min: continue 
+        key = 'power_score'
+        if key not in obj: obj[key] = ''
+        # obj[key] = ''
+        if obj[key] == '':
+            preparation_name = obj['preparation_name']
+            tries_num = 100
+            score = 0
+            for i in range(tries_num):
+                print(f'{i}/{tries_num} - {herb_i}/{len(herbs)}: {herb}')
+                prompt = f'''
+                    Give me a score in number format from 1 to 10 representing how strong (effective) is {herb_name_scientific} herbal {preparation_name} for medicinal purposes.
+                    Write the as few words as possible.
+                    Don't write fluff, only proven facts.
+                    Don't allucinate.
+                    Reply in JSON format using the structure in the following example:
+                    {{
+                        "power_score": 10
+                    }}
+                    Reply only with the JSON, don't add additional content.
+                '''
+                reply = llm_reply(prompt).strip()
+                try: _data = json.loads(reply)
+                except: _data = {}
+                if _data != {}:
+                    try: _score = _data['power_score']
+                    except: continue
+                    score += int(_score)
+            score /= tries_num
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            print(score)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            obj[key] = score
+            json_write(json_filepath, data)
+
+    if data['preparations'] != '':
+        article_html += f'<h2>Preparations?</h2>\n'
+        article_html += f'<p>{data["preparations"]}</p>\n'
+
+    '''
+    if data['preparations'] != '':
+        article_html += f'<table>\n'
+        article_html += f'<tr>\n'
+        article_html += f'<th>Preparations</th>\n'
+        article_html += f'<th>Mentions</th>\n'
+        article_html += f'<th>Difficulty</th>\n'
+        article_html += f'<th>Health</th>\n'
+        article_html += f'<th>Usage</th>\n'
+        article_html += f'<th>Power</th>\n'
+        article_html += f'<th>Total</th>\n'
+        article_html += f'</tr>\n'
+        for obj in data['preparations']:
+            if obj['preparation_name'] != '':
+                name = obj["preparation_name"].title()
+                preparation_mentions = obj["preparation_mentions"]
+                difficulty_score = obj["difficulty_score"]
+                health_score = obj["health_score"]
+                usage_score = obj["usage_score"]
+                power_score = obj["power_score"]
+                preparation_total_score = obj["preparation_total_score"]
+                if preparation_total_score >= score_min:
+                    article_html += f'<tr>\n'
+                    article_html += f'<td>{name}</td>\n'
+                    article_html += f'<td>{preparation_mentions}</td>\n'
+                    article_html += f'<td>{difficulty_score}</td>\n'
+                    article_html += f'<td>{health_score}</td>\n'
+                    article_html += f'<td>{usage_score}</td>\n'
+                    article_html += f'<td>{power_score}</td>\n'
+                    article_html += f'<td>{preparation_total_score}</td>\n'
+                    article_html += f'</tr>\n'
+        article_html += f'</table>\n'
+    '''
 
     key = 'preparation_desc'
     if key not in data: data[key] = ''
     # data[key] = ''
     if data[key] == '':
-        names = [obj['preparation_name'].lower().strip() for obj in data['preparations']]
-        names_prompt = ', '.join(names[:10])
+        names = [obj['preparation_name'].lower().strip() for obj in data['preparations'] if obj['preparation_total_score'] >= score_min]
+        names_prompt = ', '.join(names[:])
         prompt = f'''
             Write 1 detailed paragraph about what are the medicinal preparations of the plant {herb_name_scientific}, and explain for what they are used for.
             Discuss the following preparations in this exact order: {names}.
@@ -2883,91 +3210,222 @@ def art_herb_popular(herb, herb_i, herbs):
         paragraph = data[key]
         article_html += f'{util.text_format_1N1_html(paragraph)}\n'
 
-    key = 'description'
     for obj_i, obj in enumerate(data['preparations']):
-        if key not in obj: obj[key] = ''
-        # obj[key] = ''
-        if obj[key] == '':
-            preparation_name = obj['preparation_name']
-            prompt = f'''
-                Write a 1-sentence detailed description for the following medicinal preparation the plant {herb_name_scientific}: {preparation_name}.
-                In the description explain what are the most common medicinal uses of the praparation.
-                Write as few words as possible.
-                Don't write fluff, only proven facts.
-                Don't allucinate.
-                Don't include words that communicate the feeling that the data you provide is not proven, like "can", "may", "might" and "is believed to". 
-                Don't include how the medicinal preparation is made, extracted or from which part of the plant it comes from.
-                Reply in JSON format using the following structure:
-                {{
-                    "preparation_name": "{preparation_name}", 
-                    "description": "<write the 1-sentence description here>"
-                }}
-                Only reply with the JSON, don't add additional info.
-                Start the description with these words: "{herb_name_scientific} {preparation_name} ".
-            '''
-            reply = llm_reply(prompt).strip()
-            try: _data = json.loads(reply)
-            except: _data = {}
-            if _data != {}:
-                if 'preparation_name' in _data and 'description' in _data:
-                    obj[key] = _data['description']
-                    json_write(json_filepath, data)
+        if obj['preparation_total_score'] >= score_min:
+            key = 'description'
+            if key not in obj: obj[key] = ''
+            # obj[key] = ''
+            if obj[key] == '':
+                preparation_name = obj['preparation_name']
+                prompt = f'''
+                    Write a 1-sentence detailed description for the following medicinal preparation the plant {herb_name_scientific}: {preparation_name}.
+                    In the description explain what are the most common medicinal uses of the praparation.
+                    Write as few words as possible.
+                    Don't write fluff, only proven facts.
+                    Don't allucinate.
+                    Don't include words that communicate the feeling that the data you provide is not proven, like "can", "may", "might" and "is believed to". 
+                    Don't include how the medicinal preparation is made, extracted or from which part of the plant it comes from.
+                    Don't include the name of the plant.
+                    Reply in JSON format using the following structure:
+                    {{
+                        "preparation_name": "{preparation_name}", 
+                        "description": "<write the 1-sentence description here>"
+                    }}
+                    Only reply with the JSON, don't add additional info.
+                    Start the description with these words: "{preparation_name.capitalize()} made from this plant ".
+                '''
+                reply = llm_reply(prompt).strip()
+                try: _data = json.loads(reply)
+                except: _data = {}
+                if _data != {}:
+                    if 'preparation_name' in _data and 'description' in _data:
+                        obj[key] = _data['description']
+                        json_write(json_filepath, data)
     if data['preparations'] != '':
-        article_html += f'<p>###.</p>\n'
+        article_html += f'<p>The following list gives an overview of the most used and effective medicinal preparation of {herb_name_scientific}, and for each preparation briefly describes its main uses.</p>\n'
         article_html += f'<ul>\n'
         for obj in data['preparations']:
+            if obj['preparation_total_score'] < score_min: continue
             if obj['preparation_name'] != '' and obj['description'] != '':
                 preparation_name = obj["preparation_name"].title()
                 description = obj["description"]
-                article_html += f'<li><strong>{preparation_name}:</strong> {obj["description"]}</li>\n'
+                preparation_total_score = obj["preparation_total_score"]
+                if obj['preparation_total_score'] >= score_min:
+                    article_html += f'<li><strong>{preparation_name}:</strong> {obj["description"]}</li>\n'
         article_html += f'</ul>\n'
 
     for obj_i, obj in enumerate(data['preparations']):
-        key = 'parts'
-        if key not in obj: obj[key] = ''
-        # obj[key] = ''
-        if obj[key] == '':
-            preparation_name = obj['preparation_name']
-            prompt = f'''
-                Write a list of the most used parts of the plant {herb_name_scientific} used to make the following medicinal preparation: {preparation_name}.
-                Examples of parts are: leaves, flowers, seeds, etc.
-                Try to write more than 1 part if possible.
-                Order the parts from the most used to the least.
-                Write only the names of the parts, don't add additional info.
-                Write as few words as possible.
-                Don't write fluff, only proven facts.
-                Don't allucinate.
-                Reply in JSON format using the following structure:
-                {{
-                    "preparation_name": "{preparation_name}", 
-                    "parts": "[part 1, part 2, part 3, etc.]"
-                }}
-                Only reply with the JSON, don't add additional info.
-            '''
-            reply = llm_reply(prompt).strip()
-            try: _data = json.loads(reply)
-            except: _data = {}
-            if _data != {}:
-                if 'preparation_name' in _data and 'parts' in _data:
-                    obj[key] = _data['parts']
-                    json_write(json_filepath, data)
+        parts_names = [x['part_name'].lower().strip() for x in data['parts'] if x['part_total_score'] >= score_min]
+        parts_names_prompt = ', '.join(parts_names)
+        if obj['preparation_total_score'] >= score_min:
+            key = 'parts'
+            if key not in obj: obj[key] = ''
+            # obj[key] = ''
+            if obj[key] == '':
+                preparation_name = obj['preparation_name']
+                prompt = f'''
+                    Write a list of the most used parts of the plant {herb_name_scientific} used to make the following medicinal preparation: {preparation_name}.
+                    Only choose from the following parts: {parts_names_prompt}.
+                    Choose any number of parts, but only from the one listed above.
+                    Order the parts from the most used to the least.
+                    Write only the names of the parts, don't add additional info.
+                    Write as few words as possible.
+                    Don't write fluff, only proven facts.
+                    Don't allucinate.
+                    Reply in JSON format using the following structure:
+                    {{
+                        "preparation_name": "{preparation_name}", 
+                        "parts": "[part 1, part 2, part 3, etc.]"
+                    }}
+                    Only reply with the JSON, don't add additional info.
+                '''
+                reply = llm_reply(prompt).strip()
+                try: _data = json.loads(reply)
+                except: _data = {}
+                if _data != {}:
+                    if 'preparation_name' in _data and 'parts' in _data:
+                        obj[key] = _data['parts']
+                        json_write(json_filepath, data)
 
     if data['preparations'] != '':
-        article_html += f'<p>###.</p>\n'
+        article_html += f'<p>The following table shows what are the main parts of {herb_name_scientific} used to make each medicinal preparation.</p>\n'
         article_html += f'<table>\n'
         article_html += f'<tr>\n'
         article_html += f'<th>Preparation</th>\n'
         article_html += f'<th>Parts</th>\n'
         article_html += f'</tr>\n'
         for obj in data['preparations']:
+            if obj['preparation_total_score'] < score_min: continue
             if obj['preparation_name'] != '' and obj['parts'] != '':
-                preparation_name = obj["preparation_name"]
+                preparation_name = obj["preparation_name"].capitalize()
                 parts = ', '.join([x.capitalize() for x in obj["parts"]])
                 article_html += f'<tr>\n'
                 article_html += f'<td>{preparation_name}</td>\n'
                 article_html += f'<td>{parts}</td>\n'
                 article_html += f'</tr>\n'
         article_html += f'</table>\n'
+
+    ## TODO:
+    ## do h3 content for preparations
+    ## include uses, difficulty of preparation, adoption, power, recipe (ingredients form "parts")
+    for obj_i, obj in enumerate(data['preparations']):
+        preparation_total_score = obj['preparation_total_score']
+        if obj['preparation_total_score'] < score_min: continue 
+        preparation_name = obj['preparation_name']
+        conditions_names = [x['ailment_name'] for x in obj['conditions']]
+        conditions_names_prompt = ', '.join(conditions_names)
+        parts_names = [x for x in obj['parts']]
+        parts_names_prompt = ', '.join(parts_names)
+        difficulty_score = obj['difficulty_score']
+        if difficulty_score < 4: difficulty_score_str = 'easy'
+        elif difficulty_score < 7: difficulty_score_str = 'moderately difficult'
+        elif difficulty_score < 10: difficulty_score_str = 'hard'
+        power_score = obj['power_score']
+        if power_score < 4: power_score_str = 'weak'
+        elif power_score < 7: power_score_str = 'moderate'
+        elif power_score < 10: power_score_str = 'strong'
+        usage_score = obj['usage_score']
+        if usage_score < 4: usage_score_str = 'uncommon'
+        elif usage_score < 7: usage_score_str = 'common'
+        elif usage_score < 10: usage_score_str = 'very common'
+        key = 'overview'
+        if key not in obj: obj[key] = ''
+        obj[key] = ''
+        if obj[key] == '':
+            prompt = f'''
+                Write a detailed paragraph for an article about {herb_name_scientific} herbal {preparation_name} including the following DATA and using GUIDELINES, and STURUCTURE.
+                <DATA>
+                the most common health conditions treated with this preparation are: {conditions_names_prompt}.
+                the most common parts used to make this preparation are: {parts_names_prompt}.
+                the level difficulty in making this preparation is: {difficulty_score_str}.
+                the effectiveness of this preparation is: {power_score_str}.
+                the adoption of this preparation is: {usage_score_str}.
+                </DATA>
+                <GUIDELINES>
+                Write as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Don't include words that communicate the feeling that the data you provide is not proven, like "can", "may", "might" and "is believed to". 
+                Don't add new empty lines between sentences. Reply with 1 paragraph.
+                </GUIDELINES>
+                <STURCTURE>
+                Include what health condition are treated with this preparation.
+                Include how difficult is making this preparation.
+                Include what are the main part used to make this preparation.
+                Include how strong is the effect of this preparation.
+                Include how common is to use this preparation.
+                Start the reply with the following words: {herb_name_scientific} {preparation_name} is used to treat {conditions_names[0]}.
+                </STURCTURE>
+            '''
+            prompt = f'''
+                Write a detailed paragraph for an article about {herb_name_scientific} herbal {preparation_name} and using the following GUIDELINES, and STURUCTURE.
+                <GUIDELINES>
+                Write as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Don't include words that communicate the feeling that the data you provide is not proven, like "can", "may", "might" and "is believed to". 
+                Don't add new empty lines between sentences. Reply with 1 paragraph.
+                Use a conversational style of writing.
+                Start the reply with the following words: {herb_name_scientific} {preparation_name} .
+                </GUIDELINES>
+                <STURCTURE>
+                Discuss that this preparation is used to treat {conditions_names_prompt}.
+                Discuss that this preparation is {usage_score_str} used.
+                Discuss that this preparation has a {usage_score_str} effect.
+                Discuss that this preparation is made with {parts_names_prompt}.
+                Discuss that this preparation is {difficulty_score_str} to make.
+                </STURCTURE>
+            '''
+            print(prompt)
+            reply = llm_reply(prompt).strip()
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip()
+                if line == '': continue
+                if ':' in line: continue
+                lines.append(line)
+            if len(lines) == 1:
+                obj[key] = lines[0]
+                json_write(json_filepath, data)
+            else:
+                print('########################################')
+                print(lines)
+                print('########################################')
+
+    for obj in [obj for obj in data['preparations'] if obj['preparation_total_score'] >= score_min]:
+        key = 'recipe'
+        if key not in obj: obj[key] = ''
+        # obj[key] = ''
+        if obj[key] == '':
+            preparation_name = obj['preparation_name']
+            prompt = f'''
+                Write a 5-step recipe on how to make {herb_name_scientific} herbal {preparation_name}.
+                Write each step of the recipe in one short complete sentence.
+                Reply in JSON format using the following structure:
+                {{
+                    "recipe": ["step 1", "step 2", "step 3", "step 4", "step 5"]
+                }}
+                Only reply with the JSON, don't add additional info.
+            '''
+            reply = llm_reply(prompt).strip()
+            try: _data = json.loads(reply)
+            except: _data = {}
+            if _data != {}:
+                if 'recipe' in _data:
+                    obj[key] = _data['recipe']
+                    json_write(json_filepath, data)
+
+    for obj in [obj for obj in data['preparations'] if obj['preparation_total_score'] >= score_min]:
+        article_html += f'<h3>{obj["preparation_name"].title()}</h3>\n'
+        key = 'overview'
+        if obj[key] != '':
+            article_html += f'{util.text_format_1N1_html(obj[key])}\n'
+        key = 'recipe'
+        if obj[key] != '':
+            article_html += f'<ul>\n'
+            for step in obj[key]:
+                article_html += f'<li>{step}</li>\n'
+            article_html += f'</ul>\n'
 
     ## ------------------------------------------------------------------------------------
     ## TODO: remove action verb?

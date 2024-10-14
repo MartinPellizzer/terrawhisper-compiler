@@ -1,6 +1,5 @@
 [
     {"part_name": "rhizomes"}, 
-    {"part_name": "stolons"}, 
     {"part_name": "roots"}, 
     {"part_name": "stems"}, 
     {"part_name": "leaves"}, 
@@ -11,7 +10,6 @@
     {"part_name": "seeds"}, 
     {"part_name": "bark"}, 
     {"part_name": "flowers"}, 
-    {"part_name": "tubers"}, 
     {"part_name": "oleoresin"}, 
     {"part_name": "flavonoids"}, 
     {"part_name": "tannins"}, 
