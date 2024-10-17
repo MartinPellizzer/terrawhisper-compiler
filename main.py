@@ -51,7 +51,6 @@ with open('assets/scripts/google-adsense.txt') as f: google_adsense_tag = f.read
 
 if not os.path.exists('website/images'): os.makedirs('website/images')
 
-'''
 checkpoint_filepath = f'{vault}/stable-diffusion/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors'
 pipe = StableDiffusionXLPipeline.from_single_file(
     checkpoint_filepath, 
@@ -60,7 +59,6 @@ pipe = StableDiffusionXLPipeline.from_single_file(
     variant="fp16"
 ).to('cuda')
 pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
-'''
 
 plants_wcvp = csv_read_rows_to_json(f'{vault_tmp}/terrawhisper/wcvp_taxon.csv', delimiter = '|')
 
@@ -1451,6 +1449,38 @@ def art_herb_popular(herb, herb_i, herbs):
         json_write(_json_filepath, preparations)
         return
 
+    key = 'intro_image'
+    if key not in data: data[key] = ''
+    folder = f'{vault}/terrawhisper/images/herbs/intro'
+    out_1 = f'{vault}/terrawhisper/images/herbs/intro/{herb_slug}-plant.jpg'
+    out_2 = f'website/images/herbs/{herb_slug}-plant.jpg'
+    src = f'/images/herbs/{herb_slug}-plant.jpg'
+    alt = f'{herb_name_scientific} plant'
+    # if os.path.exists(folder): os.remove(out_1)
+    if not os.path.exists(folder): os.makedirs(folder)
+    if not os.path.exists(out_1):
+        prompt = f'''
+            {herb_name_scientific}, 
+            natural light,
+            outdoor,
+            high resolution, cinematic
+        '''
+        negative_prompt = f'''
+            text, logo, drawing, watermark, logo 
+        '''
+        print(prompt)
+        image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+        image = img_resize(image, w=768, h=768)
+        image.save(out_1)
+        shutil.copy2(out_1, out_2)
+        data[key] = src
+        json_write(json_filepath, data)
+    if data[key] == '':
+        if os.path.exists(out_2):
+            data[key] = src
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<img class="mb-16" src="{src}" alt="{alt}">\n'
 
     key = 'intro_desc'
     if key not in data: data[key] = ''
@@ -1937,6 +1967,124 @@ def art_herb_popular(herb, herb_i, herbs):
         paragraph = data[key]
         article_html += f'{util.text_format_1N1_html(paragraph)}\n'
 
+    key = 'uses_image'
+    if key not in data: data[key] = ''
+    folder = f'{vault}/terrawhisper/images/herbs/uses'
+    out_1 = f'{vault}/terrawhisper/images/herbs/uses/{herb_slug}-uses.jpg'
+    out_2 = f'website/images/herbs/{herb_slug}-uses.jpg'
+    src = f'/images/herbs/{herb_slug}-uses.jpg'
+    alt = f'uses of {herb_name_scientific}'
+    if not os.path.exists(folder): os.makedirs(folder)
+    # if os.path.exists(out_1): os.remove(out_1)
+    if not os.path.exists(out_1):
+        prompt = f'''
+            {herb_name_scientific}, 
+            botanical illustration,
+            minimalist, 
+            beige background,
+            high resolution
+        '''
+        negative_prompt = f'''
+        '''
+        print(prompt)
+        image_plant = pipe(prompt=prompt, negative_prompt=negative_prompt, width=832, height=1216, num_inference_steps=30, guidance_scale=7.0).images[0]
+        image_plant.save(out_1)
+        image = Image.new('RGB', (1216, 1216), (0, 0, 0))
+        image.paste(image_plant, (1216-832, 0))
+        # text ---
+        text_area_w = 1216-832
+        x_curr = 40
+        py = 48
+        y_start = py
+        draw = ImageDraw.Draw(image)
+        font_size = 36
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        text = f'{herb_name_scientific}'.upper()
+        lines = text.split(' ') 
+        y_curr = y_start
+        for line_i, line in enumerate(lines):
+            y_curr += font_size*line_i*1.2
+            draw.text((x_curr, y_curr), line, '#ffffff', font=font)
+        y_curr += font_size*1.2
+        font_size = 24
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        text = f'(medicinal uses)'.lower()
+        _, _, text_w, text_h = font.getbbox(text)
+        draw.text((x_curr, y_curr), text, '#ffffff', font=font)
+        font_size = 24
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        y_start = y_curr+font_size*1.2*2 + 48
+        for condition_i, condition in enumerate(conditions_best):
+            text = f'{condition}'.capitalize()
+            _, _, text_w, text_h = font.getbbox(text)
+            y_curr = y_start + condition_i*font_size*2
+            draw.text((x_curr, y_curr), f'{condition_i+1}. {text}', '#ffffff', font=font)
+        image_logo = Image.open('website/images-static/terrawhisper-logo-black.jpg')
+        logo_w, logo_h = image_logo.size
+        image_logo = img_resize(image_logo, w=int(logo_w*0.3), h=int(logo_h*0.3))
+        logo_w, logo_h = image_logo.size
+        image.paste(image_logo, (int(x_curr), int(1216-logo_h - py)))
+        image = img_resize(image, w=768, h=768)
+        # ---
+        image.save(out_1)
+        shutil.copy2(out_1, out_2)
+        data[key] = src
+        json_write(json_filepath, data)
+    if data[key] == '':
+        if os.path.exists(out_2):
+            data[key] = src
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<p>The following illustration summarizes the medicinal uses of {herb_name_scientific}.</p>\n'
+        article_html += f'<img class="mb-16" src="{src}" alt="{alt}">\n'
+
+    key = 'uses_list'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        names = [name for name in conditions_best]
+        names_prompt = ', '.join(names)
+        items_prompt = []
+        for name in names:
+            items_prompt.append(f'{{"condition_name": "{name}", "description": "describe why {herb_name_scientific} is used for this condition."}}') 
+        items_prompt = ', \n'.join(items_prompt)
+        prompt = f'''
+            Write a description for each of the following health conditions on why the plant {herb_name_scientific} is used for that condition.
+            Write the descriptions in full, complete and detailed sentences.
+            Don't write fluff, only proven facts.
+            Don't allucinate.
+            DOn't include the name of the plant.
+            Reply in JSON format using the following structure:
+            [
+                {items_prompt}
+            ]
+            Only reply with the JSON, don't add additional info.
+        '''
+        print(prompt)
+        reply = llm_reply(prompt).strip()
+        try: _data = json.loads(reply)
+        except: _data = {}
+        if _data != {}:
+            error = False
+            for obj in _data:
+                if 'condition_name' not in obj or 'description' not in obj:
+                    error = True
+                    break
+            if not error:
+                data[key] = _data
+                json_write(json_filepath, data)
+    if data[key] != []:
+        article_html += f'<p>The following list provides more details on why {herb_name_scientific} is used to alleviate the conditions mentioned above.</p>\n'
+        article_html += f'<ul>\n'
+        for obj in data[key]:
+            name = obj["condition_name"].title()
+            description = obj["description"]
+            article_html += f'<li><strong>{name}:</strong> {obj["description"]}</li>\n'
+        article_html += f'</ul>\n'
+
     article_html += f'<p>The following tables gives an overview of what are the most common health conditions that are treated with {herb_name_scientific} in each of the major medicinal systems.</p>\n'
     article_html += f'<table>\n'
     article_html += f'<tr>\n'
@@ -1974,12 +2122,6 @@ def art_herb_popular(herb, herb_i, herbs):
         article_html += f'<td>{ailments}</td>\n'
         article_html += f'</tr>\n'
     article_html += f'</table>\n'
-
-    article_html += f'<p>The list below summarize the primary health conditions where {herb_name_scientific} is being used as a treatment across different medicinal systems around the world.</p>\n'
-    article_html += f'<ul>\n'
-    for condition in conditions_best:
-        article_html += f'<li>{condition.capitalize()}</li>\n'
-    article_html += f'</ul>\n'
 
     medicinal_systems = [
         'modern western medicine',
@@ -2034,7 +2176,8 @@ def art_herb_popular(herb, herb_i, herbs):
             Write a list of the 10 most important health benefits of the plant {herb_name_scientific}.
             Write only 1 benefit for each list item.
             Write only the names of the benefits, don't add descriptions.
-            Include an action verb in each benefit name.
+            Start each list item with a third-person singular action verb.
+            End each list item with the rest of the benefit.
             Make each benefit name at least 2-word long.
             Write the as few words as possible.
             Don't write fluff, only proven facts.
@@ -2053,46 +2196,6 @@ def art_herb_popular(herb, herb_i, herbs):
             data[key] = _data[:10]
             json_write(json_filepath, data)
 
-    ## systems
-    _systems = [
-        'circulatory',
-        'digestive',
-        'endocrine',
-        'integumentary',
-        'lymphatic',
-        'musculoskeletal',
-        'nervous',
-        'reproductive',
-        'respiratory',
-        'urinary',
-    ]
-    for system_name in _systems:
-        key = f'benefits_{system_name}_system'
-        if key not in data: data[key] = ''
-        # data[key] = ''
-        if data[key] == '':
-            prompt = f'''
-                Write a list of the 10 most important health benefits of the plant {herb_name_scientific} for the {system_name} system.
-                Write only 1 benefit for each list item.
-                Write only the names of the benefits, don't add descriptions.
-                Include an action verb in each benefit name.
-                Make each benefit name at least 2-word long.
-                Write the as few words as possible.
-                Don't write fluff, only proven facts.
-                Don't allucinate.
-                Reply in JSON format using the following structure:
-                [
-                    {{"benefit_name": "<insert name of benefit 1 here>"}},
-                    {{"benefit_name": "<insert name of benefit 2 here>"}},
-                    {{"benefit_name": "<insert name of benefit 3 here>"}}
-                ]
-                Reply only with the JSON, don't add additional content.
-            '''
-            reply = llm_reply(prompt).strip()
-            _data = json.loads(reply)
-            if _data != '':
-                data[key] = _data[:10]
-                json_write(json_filepath, data)
     article_html += f'<h2>What are the primary health benefits of {herb_name_scientific}?</h2>\n'
 
     key = 'benefits_description'
@@ -2136,10 +2239,180 @@ def art_herb_popular(herb, herb_i, herbs):
         paragraph = data[key]
         article_html += f'{util.text_format_1N1_html(paragraph)}\n'
 
+    key = 'benefits_image'
+    if key not in data: data[key] = ''
+    folder = f'{vault}/terrawhisper/images/herbs/benefits'
+    out_1 = f'{vault}/terrawhisper/images/herbs/benefits/{herb_slug}-benefits.jpg'
+    out_2 = f'website/images/herbs/{herb_slug}-benefits.jpg'
+    src = f'/images/herbs/{herb_slug}-benefits.jpg'
+    alt = f'benefits of {herb_name_scientific}'
+    if not os.path.exists(folder): os.makedirs(folder)
+    # if os.path.exists(out_1): os.remove(out_1)
+    if not os.path.exists(out_1):
+        prompt = f'''
+            {herb_name_scientific}, 
+            watercolor illustration,
+            minimalist, 
+            dark background,
+            high resolution
+        '''
+        negative_prompt = f'''
+            text
+        '''
+        print(prompt)
+        image_plant = pipe(prompt=prompt, negative_prompt=negative_prompt, width=832, height=1216, num_inference_steps=30, guidance_scale=7.0).images[0]
+        image_plant.save(out_1)
+        image = Image.new('RGBA', (1216, 1216), '#f5f5f5')
+        # text ---
+        text_max_w = 0
+        py = 48
+        px = 36
+        x_curr = px
+        y_start = py
+        draw = ImageDraw.Draw(image)
+        font_size = 36
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        text = f'{herb_name_scientific}'.upper()
+        lines = text.split(' ') 
+        y_curr = y_start
+        for line_i, line in enumerate(lines):
+            _, _, text_w, text_h = font.getbbox(line)
+            if text_max_w < text_w: text_max_w = text_w
+            y_curr += font_size*line_i*1.2
+            draw.text((x_curr, y_curr), line, '#000000', font=font)
+        y_curr += font_size*1.2
+        font_size = 24
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        text = f'(health benefits)'.lower()
+        _, _, text_w, text_h = font.getbbox(text)
+        if text_max_w < text_w: text_max_w = text_w
+        draw.text((x_curr, y_curr), text, '#000000', font=font)
+        font_size = 24
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        y_start = y_curr+font_size*1.2*2 + 48
+        for _i, benefit_name in enumerate([x['benefit_name'] for x in data['benefits']]):
+            text = f'{_i+1}. {benefit_name.capitalize()}'
+            _, _, text_w, text_h = font.getbbox(text)
+            if text_max_w < text_w: text_max_w = text_w
+            y_curr = y_start + _i*font_size*2
+            draw.text((x_curr, y_curr), text, '#000000', font=font)
+        image_logo = Image.open('website/images-static/terrawhisper-logo-white.png')
+        logo_w, logo_h = image_logo.size
+        image_logo = img_resize(image_logo, w=int(logo_w*0.3), h=int(logo_h*0.3))
+        logo_w, logo_h = image_logo.size
+        image.paste(image_logo, (int(x_curr), int(1216-logo_h - py)), image_logo)
+        # plant ---
+        text_area_w = text_max_w+px*2
+        image_plant = img_resize(image_plant, w=1216-text_area_w, h=1216)
+        image.paste(image_plant, (text_area_w, 0))
+        # gen ---
+        image = img_resize(image, w=768, h=768)
+        image = image.convert('RGB')
+        image.save(out_1)
+        shutil.copy2(out_1, out_2)
+        data[key] = src
+        json_write(json_filepath, data)
+    if data[key] == '':
+        if os.path.exists(out_2):
+            data[key] = src
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<p>The following illustration summarizes the health benefits of {herb_name_scientific}.</p>\n'
+        article_html += f'<img class="mb-16" src="{src}" alt="{alt}">\n'
+
+    key = 'benefits_list'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        names = [obj['benefit_name'].lower().strip() for obj in data['benefits']]
+        names_prompt = ', '.join(names)
+        items_prompt = []
+        for name in names:
+            items_prompt.append(f'{{"benefit_name": "{name}", "description": "describe what is this benefit of {herb_name_scientific} and why this plant has this benefit."}}') 
+        items_prompt = ', \n'.join(items_prompt)
+        prompt = f'''
+            Write a description for each of the following health benefits on what is this benefit of {herb_name_scientific} and why this plant has it.
+            Write the descriptions in full, complete and detailed sentences.
+            Don't write fluff, only proven facts.
+            Don't allucinate.
+            Don't include the name of the plant.
+            Reply in JSON format using the following structure:
+            [
+                {items_prompt}
+            ]
+            Only reply with the JSON, don't add additional info.
+        '''
+        print(prompt)
+        reply = llm_reply(prompt).strip()
+        try: _data = json.loads(reply)
+        except: _data = {}
+        if _data != {}:
+            error = False
+            for obj in _data:
+                if 'benefit_name' not in obj or 'description' not in obj:
+                    error = True
+                    break
+            if not error:
+                data[key] = _data
+                json_write(json_filepath, data)
+    if data[key] != []:
+        article_html += f'<p>The following list summarizes the most widely recognized health benefits of {herb_name_scientific}, and briefly explains why this plant have them.</p>\n'
+        article_html += f'<ul>\n'
+        for obj in data[key]:
+            name = obj["benefit_name"].title()
+            description = obj["description"]
+            article_html += f'<li><strong>{name}:</strong> {obj["description"]}</li>\n'
+        article_html += f'</ul>\n'
+
+    ## systems
+    _systems = [
+        'circulatory',
+        'digestive',
+        'endocrine',
+        'integumentary',
+        'lymphatic',
+        'musculoskeletal',
+        'nervous',
+        'reproductive',
+        'respiratory',
+        'urinary',
+    ]
+    for system_name in _systems:
+        key = f'benefits_{system_name}_system'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            prompt = f'''
+                Write a list of the 10 most important health benefits of the plant {herb_name_scientific} for the {system_name} system.
+                Write only 1 benefit for each list item.
+                Write only the names of the benefits, don't add descriptions.
+                Include an action verb in each benefit name.
+                Make each benefit name at least 2-word long.
+                Write the as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the following structure:
+                [
+                    {{"benefit_name": "<insert name of benefit 1 here>"}},
+                    {{"benefit_name": "<insert name of benefit 2 here>"}},
+                    {{"benefit_name": "<insert name of benefit 3 here>"}}
+                ]
+                Reply only with the JSON, don't add additional content.
+            '''
+            reply = llm_reply(prompt).strip()
+            _data = json.loads(reply)
+            if _data != '':
+                data[key] = _data[:10]
+                json_write(json_filepath, data)
+
+    article_html += f'<p>The following table groups the primary health benefits of {herb_name_scientific} for each body system.</p>\n'
     article_html += f'<table>\n'
     article_html += f'<tr>\n'
     article_html += f'<th>Body System</th>\n'
-    article_html += f'<th>Benefits</th>\n'
+    article_html += f'<th>Health Benefits</th>\n'
     article_html += f'</tr>\n'
     for system_name in _systems:
         benefits = ', '.join([obj['benefit_name'].title() for obj in data[f'benefits_{system_name}_system']])
@@ -2232,7 +2505,7 @@ def art_herb_popular(herb, herb_i, herbs):
                 data[key] = names[:10]
                 json_write(json_filepath, data)
         if data[key] != '':
-            article_html += f'<p>The most common health conditions of the {system_name} that {herb_name_scientific} helps relieve or prevent are listed below.</p>\n'
+            article_html += f'<p>The medicinal benefits of {herb_name_scientific} on the {system_name} system help relieving the health conditions listed below.</p>\n'
             article_html += f'<ul>\n'
             for obj in data[key]:
                 article_html += f'<li>{obj["condition_name"].capitalize()}</li>\n'
@@ -2306,6 +2579,90 @@ def art_herb_popular(herb, herb_i, herbs):
     if data[key] != '':
         paragraph = data[key]
         article_html += f'{util.text_format_1N1_html(paragraph)}\n'
+
+    key = 'properties_image'
+    if key not in data: data[key] = ''
+    folder = f'{vault}/terrawhisper/images/herbs/properties'
+    out_1 = f'{vault}/terrawhisper/images/herbs/properties/{herb_slug}-properties.jpg'
+    out_2 = f'website/images/herbs/{herb_slug}-properties.jpg'
+    src = f'/images/herbs/{herb_slug}-properties.jpg'
+    alt = f'properties of {herb_name_scientific}'
+    if not os.path.exists(folder): os.makedirs(folder)
+    # if os.path.exists(out_1): os.remove(out_1)
+    if not os.path.exists(out_1):
+        prompt = f'''
+            {herb_name_scientific}, 
+            blueprint drawing,
+            minimalist, 
+            blue background,
+            high resolution
+        '''
+        negative_prompt = f'''
+            text
+        '''
+        print(prompt)
+        image_plant = pipe(prompt=prompt, negative_prompt=negative_prompt, width=832, height=1216, num_inference_steps=30, guidance_scale=7.0).images[0]
+        image_plant.save(out_1)
+        image = Image.new('RGBA', (1216, 1216), '#000000')
+        # text ---
+        text_max_w = 0
+        py = 48
+        px = 36
+        x_curr = px
+        y_start = py
+        draw = ImageDraw.Draw(image)
+        font_size = 36
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        text = f'{herb_name_scientific}'.upper()
+        lines = text.split(' ') 
+        y_curr = y_start
+        for line_i, line in enumerate(lines):
+            _, _, text_w, text_h = font.getbbox(line)
+            if text_max_w < text_w: text_max_w = text_w
+            y_curr += font_size*line_i*1.2
+            draw.text((x_curr, y_curr), line, '#ffffff', font=font)
+        y_curr += font_size*1.2
+        font_size = 24
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        text = f'(therapeutic properties)'.lower()
+        _, _, text_w, text_h = font.getbbox(text)
+        if text_max_w < text_w: text_max_w = text_w
+        draw.text((x_curr, y_curr), text, '#ffffff', font=font)
+        font_size = 24
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        y_start = y_curr+font_size*1.2*2 + 48
+        for _i, benefit_name in enumerate([x['property_name'] for x in data['properties']]):
+            text = f'{_i+1}. {benefit_name.capitalize()}'
+            _, _, text_w, text_h = font.getbbox(text)
+            if text_max_w < text_w: text_max_w = text_w
+            y_curr = y_start + _i*font_size*2
+            draw.text((x_curr, y_curr), text, '#ffffff', font=font)
+        image_logo = Image.open('website/images-static/terrawhisper-logo-black.jpg')
+        logo_w, logo_h = image_logo.size
+        image_logo = img_resize(image_logo, w=int(logo_w*0.3), h=int(logo_h*0.3))
+        logo_w, logo_h = image_logo.size
+        image.paste(image_logo, (int(x_curr), int(1216-logo_h - py)))
+        # plant ---
+        text_area_w = text_max_w+px*2
+        image_plant = img_resize(image_plant, w=1216-text_area_w, h=1216)
+        image.paste(image_plant, (text_area_w, 0))
+        # gen ---
+        image = img_resize(image, w=768, h=768)
+        image = image.convert('RGB')
+        image.save(out_1)
+        shutil.copy2(out_1, out_2)
+        data[key] = src
+        json_write(json_filepath, data)
+    if data[key] == '':
+        if os.path.exists(out_2):
+            data[key] = src
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<p>The following illustration summarizes the therapeutic properties of {herb_name_scientific}.</p>\n'
+        article_html += f'<img class="mb-16" src="{src}" alt="{alt}">\n'
 
     key = 'properties_list'
     if key not in data: data[key] = ''
@@ -2454,6 +2811,89 @@ def art_herb_popular(herb, herb_i, herbs):
             json_write(json_filepath, data)
     if data[key] != '':
         article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+    key = 'constituents_image'
+    if key not in data: data[key] = ''
+    folder = f'{vault}/terrawhisper/images/herbs/constituents'
+    out_1 = f'{vault}/terrawhisper/images/herbs/constituents/{herb_slug}-constituents.jpg'
+    out_2 = f'website/images/herbs/{herb_slug}-constituents.jpg'
+    src = f'/images/herbs/{herb_slug}-constituents.jpg'
+    alt = f'constituents of {herb_name_scientific}'
+    if not os.path.exists(folder): os.makedirs(folder)
+    # if os.path.exists(out_1): os.remove(out_1)
+    if not os.path.exists(out_1):
+        prompt = f'''
+            {herb_name_scientific}, 
+            natural ligthing, 
+            outdoor,
+            high resolution, cinematic
+        '''
+        negative_prompt = f'''
+            text
+        '''
+        print(prompt)
+        image_plant = pipe(prompt=prompt, negative_prompt=negative_prompt, width=832, height=1216, num_inference_steps=30, guidance_scale=7.0).images[0]
+        image_plant.save(out_1)
+        image = Image.new('RGBA', (1216, 1216), '#f5f5f5')
+        # text ---
+        text_max_w = 0
+        py = 48
+        px = 36
+        x_curr = px
+        y_start = py
+        draw = ImageDraw.Draw(image)
+        font_size = 36
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        text = f'{herb_name_scientific}'.upper()
+        lines = text.split(' ') 
+        y_curr = y_start
+        for line_i, line in enumerate(lines):
+            _, _, text_w, text_h = font.getbbox(line)
+            if text_max_w < text_w: text_max_w = text_w
+            y_curr += font_size*line_i*1.2
+            draw.text((x_curr, y_curr), line, '#000000', font=font)
+        y_curr += font_size*1.2
+        font_size = 24
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        text = f'(bioactive constituents)'.lower()
+        _, _, text_w, text_h = font.getbbox(text)
+        if text_max_w < text_w: text_max_w = text_w
+        draw.text((x_curr, y_curr), text, '#000000', font=font)
+        font_size = 24
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        y_start = y_curr+font_size*1.2*2 + 48
+        for _i, benefit_name in enumerate([x['constituent_name'] for x in data['constituents']]):
+            text = f'{_i+1}. {benefit_name.capitalize()}'
+            _, _, text_w, text_h = font.getbbox(text)
+            if text_max_w < text_w: text_max_w = text_w
+            y_curr = y_start + _i*font_size*2
+            draw.text((x_curr, y_curr), text, '#000000', font=font)
+        image_logo = Image.open('website/images-static/terrawhisper-logo-white.png')
+        logo_w, logo_h = image_logo.size
+        image_logo = img_resize(image_logo, w=int(logo_w*0.3), h=int(logo_h*0.3))
+        logo_w, logo_h = image_logo.size
+        image.paste(image_logo, (int(x_curr), int(1216-logo_h - py)), image_logo)
+        # plant ---
+        text_area_w = text_max_w+px*2
+        image_plant = img_resize(image_plant, w=1216-text_area_w, h=1216)
+        image.paste(image_plant, (text_area_w, 0))
+        # gen ---
+        image = img_resize(image, w=768, h=768)
+        image = image.convert('RGB')
+        image.save(out_1)
+        shutil.copy2(out_1, out_2)
+        data[key] = src
+        json_write(json_filepath, data)
+    if data[key] == '':
+        if os.path.exists(out_2):
+            data[key] = src
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<p>The following illustration summarizes the bioactive constituents of {herb_name_scientific}.</p>\n'
+        article_html += f'<img class="mb-16" src="{src}" alt="{alt}">\n'
 
     key = 'description'
     for obj_i, obj in enumerate(data['constituents']):
@@ -2966,11 +3406,8 @@ def art_herb_popular(herb, herb_i, herbs):
             print('***********************')
             data[key] = outputs_final[:]
             json_write(json_filepath, data)
-    if data[key] != '':
-        article_html += f'<h2>Preparations?</h2>\n'
-        # article_html += f'<p>{data[key]}</p>\n'
 
-    ## ;preparations conditions -------------------------------------------------------------------
+    ## ;preparations conditions
     for obj in data['preparations']:
         if obj['preparation_total_score'] < score_min: continue 
         key = 'conditions'
@@ -3049,7 +3486,7 @@ def art_herb_popular(herb, herb_i, herbs):
             obj[key] = outputs_final[:10]
             json_write(json_filepath, data)
 
-    ## ;preparations difficulty_score -------------------------------------------------------------------
+    ## ;preparations difficulty_score
     for obj in data['preparations']:
         if obj['preparation_total_score'] < score_min: continue 
         key = 'difficulty_score'
@@ -3091,7 +3528,7 @@ def art_herb_popular(herb, herb_i, herbs):
             obj[key] = score
             json_write(json_filepath, data)
 
-    ## ;preparations power_score -------------------------------------------------------------------
+    ## ;preparations power_score
     for obj in data['preparations']:
         if obj['preparation_total_score'] < score_min: continue 
         key = 'power_score'
@@ -3133,8 +3570,8 @@ def art_herb_popular(herb, herb_i, herbs):
             json_write(json_filepath, data)
 
     if data['preparations'] != '':
-        article_html += f'<h2>Preparations?</h2>\n'
-        article_html += f'<p>{data["preparations"]}</p>\n'
+        article_html += f'<h2>What are the medicinal preparations of {herb_name_scientific}?</h2>\n'
+        # article_html += f'<p>{data["preparations"]}</p>\n'
 
     '''
     if data['preparations'] != '':
@@ -3330,7 +3767,7 @@ def art_herb_popular(herb, herb_i, herbs):
         elif usage_score < 10: usage_score_str = 'very common'
         key = 'overview'
         if key not in obj: obj[key] = ''
-        obj[key] = ''
+        # obj[key] = ''
         if obj[key] == '':
             prompt = f'''
                 Write a detailed paragraph for an article about {herb_name_scientific} herbal {preparation_name} including the following DATA and using GUIDELINES, and STURUCTURE.
@@ -3398,34 +3835,103 @@ def art_herb_popular(herb, herb_i, herbs):
         # obj[key] = ''
         if obj[key] == '':
             preparation_name = obj['preparation_name']
-            prompt = f'''
-                Write a 5-step recipe on how to make {herb_name_scientific} herbal {preparation_name}.
-                Write each step of the recipe in one short complete sentence.
-                Reply in JSON format using the following structure:
-                {{
-                    "recipe": ["step 1", "step 2", "step 3", "step 4", "step 5"]
-                }}
-                Only reply with the JSON, don't add additional info.
-            '''
-            reply = llm_reply(prompt).strip()
-            try: _data = json.loads(reply)
-            except: _data = {}
-            if _data != {}:
-                if 'recipe' in _data:
-                    obj[key] = _data['recipe']
-                    json_write(json_filepath, data)
+            parts_names = [x for x in obj['parts']]
+            parts_names_prompt = ', '.join(parts_names)
+            running = True
+            while(running):
+                prompt = f'''
+                    Write a 5-step recipe on how to make {herb_name_scientific} herbal {preparation_name}.
+                    <GUIDELINES>
+                    Write each step of the recipe in one short complete sentence.
+                    Include these ingredients: {parts_names_prompt}.
+                    Include dosage.
+                    </GUIDELINES>
+                    Reply in JSON format using the following structure:
+                    {{
+                        "recipe": ["step 1", "step 2", "step 3", "step 4", "step 5"]
+                    }}
+                    Only reply with the JSON, don't add additional info.
+                '''
+                print(prompt)
+                reply = llm_reply(prompt).strip()
+                try: _recipe_json = json.loads(reply)
+                except: _recipe_json = {}
+                if _recipe_json == {}: continue
+                if 'recipe' not in _recipe_json: continue
+                steps_prompt = '\n '.join(_recipe_json['recipe'])
+                prompt = f'''
+                    Here's a list of STEPS for a recipe to make {herb_name_scientific} {preparation_name}. Tell me if the steps are congruent and don't contraddict each others, and explain me why.
+                    Reply only with "yes" or "no" when telling me the congruency.
+                    <STEPS>
+                    {steps_prompt}
+                    </STEPS>
+                    Reply in JSON format using the following structure:
+                    {{
+                        "is_congruent": <insert yes or no here>, 
+                        "explanation": <explain why>
+                    }},
+                    Only reply with the JSON, don't add additional info.
+                '''
+                print(prompt)
+                reply = llm_reply(prompt).strip()
+                try: _data = json.loads(reply)
+                except: _data = {}
+                if _data == {}: continue
+                if 'is_congruent' in _data:
+                    if _data['is_congruent'].lower().strip() == 'yes':
+                        running = False
+            obj[key] = _recipe_json['recipe']
+            json_write(json_filepath, data)
 
     for obj in [obj for obj in data['preparations'] if obj['preparation_total_score'] >= score_min]:
-        article_html += f'<h3>{obj["preparation_name"].title()}</h3>\n'
+        preparation_name = obj['preparation_name']
+        preparation_slug = preparation_name.lower().strip().replace(' ', '-')
+        article_html += f'<h3>{preparation_name.title()}</h3>\n'
         key = 'overview'
         if obj[key] != '':
             article_html += f'{util.text_format_1N1_html(obj[key])}\n'
         key = 'recipe'
         if obj[key] != '':
-            article_html += f'<ul>\n'
+            article_html += f'<p>Below is a 5-step quick procedure to make effective medicinal {herb_name_scientific} {preparation_name}.</p>\n'
+            article_html += f'<ol>\n'
             for step in obj[key]:
                 article_html += f'<li>{step}</li>\n'
-            article_html += f'</ul>\n'
+            article_html += f'</ol>\n'
+        key = 'image'
+        if key not in obj: obj[key] = ''
+        folder = f'{vault}/terrawhisper/images/herbs/preparations/{preparation_slug}'
+        out_1 = f'{vault}/terrawhisper/images/herbs/preparations/{preparation_slug}/{herb_slug}-{preparation_slug}.jpg'
+        out_2 = f'website/images/herbs/{herb_slug}-{preparation_slug}.jpg'
+        src = f'/images/herbs/{herb_slug}-{preparation_slug}.jpg'
+        alt = f'{preparation_name} made with {herb_name_scientific}'
+        # if not os.path.exists(folder): os.remove(out_1)
+        if not os.path.exists(folder): os.makedirs(folder)
+        if not os.path.exists(out_1):
+            prompt = f'''
+                {herb_name_scientific} herbal {preparation_name}s, 
+                on a wooden table, surrounded by herbs,
+                soft light, diffused light, natural light, soft focus, 
+                close-up, 
+                perspective three-quarter view,
+                depth of field, bokeh, 
+                high resolution, cinematic
+            '''
+            negative_prompt = f'''
+                text, logo, drawing, watermark, logo 
+            '''
+            print(prompt)
+            image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+            image = img_resize(image, w=768, h=768)
+            image.save(out_1)
+            shutil.copy2(out_1, out_2)
+            obj[key] = src
+            json_write(json_filepath, data)
+        if obj[key] == '':
+            if os.path.exists(out_2):
+                obj[key] = src
+                json_write(json_filepath, data)
+        if obj[key] != '':
+            article_html += f'<img src="{src}" alt="{alt}">\n'
 
     ## ------------------------------------------------------------------------------------
     ## TODO: remove action verb?
