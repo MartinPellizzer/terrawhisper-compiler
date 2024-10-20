@@ -12,7 +12,7 @@ import util
 import utils_ai
 import util_image
 import util_data
-import sitemap
+# import sitemap
 
 import prompts
 
@@ -36,6 +36,8 @@ from diffusers import DiffusionPipeline, StableDiffusionXLPipeline
 from diffusers import DPMSolverMultistepScheduler
 from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 
+proj_name = 'terrawhisper'
+
 images_folder = 'C:/terrawhisper-assets/images/'
 vault_folderpath = '/home/ubuntu/vault'
 vault = '/home/ubuntu/vault'
@@ -43,6 +45,9 @@ vault_tmp = '/home/ubuntu/vault-tmp'
 
 model = f'{vault_folderpath}/llms/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf'
 # model = f'{vault_folderpath}/llms/Meta-Llama-3.1-8B-Instruct-Q8_0.gguf'
+model_validator_filepath = f'llms/Llama-3-Partonus-Lynx-8B-Instruct-Q4_K_M.gguf'
+
+db_path = f'{vault}/{proj_name}/database/{proj_name}'
 
 header_html = components.header()
 footer_html = components.footer()
@@ -51,6 +56,7 @@ with open('assets/scripts/google-adsense.txt') as f: google_adsense_tag = f.read
 
 if not os.path.exists('website/images'): os.makedirs('website/images')
 
+'''
 checkpoint_filepath = f'{vault}/stable-diffusion/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors'
 pipe = StableDiffusionXLPipeline.from_single_file(
     checkpoint_filepath, 
@@ -59,6 +65,13 @@ pipe = StableDiffusionXLPipeline.from_single_file(
     variant="fp16"
 ).to('cuda')
 pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
+'''
+
+sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(
+    model_name='all-mpnet-base-v2', 
+    device='cuda',
+)
+chroma_client = chromadb.PersistentClient(path=db_path)
 
 plants_wcvp = csv_read_rows_to_json(f'{vault_tmp}/terrawhisper/wcvp_taxon.csv', delimiter = '|')
 
@@ -106,6 +119,81 @@ DEBUG_STATUS_JSON_FILEPATH = 0
 
 # CONST
 PREPARATIONS_NUM = 10
+
+def llm_validate(question, context, answer):
+    prompt = f'''
+    Given the following QUESTION, DOCUMENT and ANSWER you must analyze the provided answer and determine whether it is faithful to the contents of the DOCUMENT. The ANSWER must not offer new information beyond the context provided in the DOCUMENT. The ANSWER also must not contradict information provided in the DOCUMENT. Output your final verdict by strictly following this format: "PASS" if the answer is faithful to the DOCUMENT and "FAIL" if the answer is not faithful to the DOCUMENT. Show your reasoning.
+
+    --
+    QUESTION (THIS DOES NOT COUNT AS BACKGROUND INFORMATION):
+    {question}
+
+    --
+    DOCUMENT:
+    {context}
+
+    --
+    ANSWER:
+    {answer}
+
+    --
+
+    Your output should be in JSON FORMAT with the keys "REASONING" and "SCORE":
+    {{"REASONING": <your reasoning as bullet points>, "SCORE": <your final score>}}
+    '''
+    reply = llm_reply(prompt, model_validator_filepath, max_tokens=256)
+    return reply
+
+
+def llm_validate(question, context, answer):
+    prompt = f'''
+    Given the following QUESTION, DOCUMENT and ANSWER you must analyze the provided answer and determine whether it is faithful to the contents of the DOCUMENT. The ANSWER must not offer new information beyond the context provided in the DOCUMENT. The ANSWER also must not contradict information provided in the DOCUMENT. Output your final verdict by strictly following this format: "PASS" if the answer is faithful to the DOCUMENT and "FAIL" if the answer is not faithful to the DOCUMENT. Show your reasoning.
+
+    --
+    QUESTION (THIS DOES NOT COUNT AS BACKGROUND INFORMATION):
+    {question}
+
+    --
+    DOCUMENT:
+    {context}
+
+    --
+    ANSWER:
+    {answer}
+
+    --
+
+    Your output should be in JSON FORMAT with the keys "REASONING" and "SCORE":
+    {{"REASONING": <your reasoning as bullet points>, "SCORE": <your final score>}}
+    '''
+    reply = llm_reply(prompt, model_validator_filepath, max_tokens=256)
+    return reply
+
+
+def llm_validate(question, context, answer):
+    prompt = f'''
+    Given the following QUESTION, DOCUMENT and ANSWER you must analyze the provided answer and determine whether it is faithful to the contents of the DOCUMENT. The ANSWER must not offer new information beyond the context provided in the DOCUMENT. The ANSWER also must not contradict information provided in the DOCUMENT. Output your final verdict by strictly following this format: "PASS" if the answer is faithful to the DOCUMENT and "FAIL" if the answer is not faithful to the DOCUMENT. Show your reasoning.
+
+    --
+    QUESTION (THIS DOES NOT COUNT AS BACKGROUND INFORMATION):
+    {question}
+
+    --
+    DOCUMENT:
+    {context}
+
+    --
+    ANSWER:
+    {answer}
+
+    --
+
+    Your output should be in JSON FORMAT with the keys "REASONING" and "SCORE":
+    {{"REASONING": <your reasoning as bullet points>, "SCORE": <your final score>}}
+    '''
+    reply = llm_reply(prompt, model_validator_filepath, max_tokens=256)
+    return reply
+
 
 def today():
     today = datetime.datetime.now()
@@ -1366,6 +1454,10 @@ def art_herb_popular(herb, herb_i, herbs):
     json_filepath = f'database/json/{url}.json'
     html_filepath = f'website/{url}.html'
     title = f'What to know about {herb_name_scientific} before using it medicinally'
+    '''
+    if os.path.exists(json_filepath): os.remove(json_filepath)
+    return 
+    '''
     data = json_read(json_filepath, create=True)
     data['herb_slug'] = herb_slug
     data['herb_name_scientific'] = herb_name_scientific
@@ -1449,6 +1541,81 @@ def art_herb_popular(herb, herb_i, herbs):
         json_write(_json_filepath, preparations)
         return
 
+    ## ----------------------------------------------------------------------------------------------
+    ## data generation
+    ## ------------------------------------------------------------------------------------
+    key = 'common_names'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        outputs = []
+        for i in range(20):
+            print(f'{i}/20 - {herb_i}/{len(herbs)}: {herb}')
+            prompt = f'''
+                Write a list of the common names of the plant {herb_name_scientific}.
+                Write only 1 name for each list item.
+                Write only the names, don't add descriptions.
+                Write the as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in JSON format using the structure in the following example:
+                [
+                    {{"common_name": "<insert name of name 1 here>", "confidence_score": "10"}},
+                    {{"common_name": "<insert name of name 2 here>", "confidence_score": "5"}},
+                    {{"common_name": "<insert name of name 3 here>", "confidence_score": "7"}}
+                ]
+                Reply only with the JSON, don't add additional content.
+            '''
+            reply = llm_reply(prompt).strip()
+            json_data = {}
+            try: json_data = json.loads(reply)
+            except: pass 
+            if json_data != {}:
+                names = []
+                for item in json_data:
+                    try: name = item['common_name']
+                    except: continue
+                    try: score = item['confidence_score']
+                    except: continue
+                    print(name)
+                    ## TODO: check if constituent is valid here (find database of conditions?)
+                    names.append({"name": name, "score": score})
+                for obj in names:
+                    name = obj['name'].lower().strip()
+                    score = obj['score']
+                    found = False
+                    for output in outputs:
+                        print(output)
+                        print(name, '->', output['common_name'])
+                        if name in output['common_name']: 
+                            output['mentions'] += 1
+                            output['score'] += int(score)
+                            found = True
+                            break
+                    if not found:
+                        outputs.append({
+                            'common_name': name, 
+                            'mentions': 1, 
+                            'score': int(score), 
+                        })
+            outputs_final = []
+            for output in outputs:
+                outputs_final.append({
+                    'common_name': output['common_name'],
+                    'score': int(output['mentions']) * int(output['score']),
+                })
+            outputs_final = sorted(outputs_final, key=lambda x: x['score'], reverse=True)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            for output in outputs_final:
+                print(output)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            data[key] = outputs_final[:10]
+            json_write(json_filepath, data)
+
     key = 'intro_image'
     if key not in data: data[key] = ''
     folder = f'{vault}/terrawhisper/images/herbs/intro'
@@ -1456,8 +1623,8 @@ def art_herb_popular(herb, herb_i, herbs):
     out_2 = f'website/images/herbs/{herb_slug}-plant.jpg'
     src = f'/images/herbs/{herb_slug}-plant.jpg'
     alt = f'{herb_name_scientific} plant'
-    # if os.path.exists(folder): os.remove(out_1)
     if not os.path.exists(folder): os.makedirs(folder)
+    # if os.path.exists(folder): os.remove(out_1)
     if not os.path.exists(out_1):
         prompt = f'''
             {herb_name_scientific}, 
@@ -1487,21 +1654,74 @@ def art_herb_popular(herb, herb_i, herbs):
     # data[key] = ''
     if data[key] == '':
         prompt = f'''
-            Write 1 intro paragraph in 4 sentences for an article about the {herb_name_scientific} herb.
-            Follow the STRUCTURE and the GUIDELINES below.
-            ## STRUCTURE
-            In sentence 1, explain the health properties of this herb and how they improve health.
-            In sentence 2, explain the main hortocultural aspects of this herb.
-            In sentence 3, explain the botanical properties of this herb.
-            In sentence 4, explain the main historical references of this herb.
-            ## GUIDELINES
-            Include only the paragraph in the reply, no additional info.
-            Start the reply with the following words: {herb_name_scientific} is .
+            Write a 5-sentence short itroductive paragraph for an article about the {herb_name_scientific} herb.
+            Include what main medicinal uses this herb has, in terms of health conditions it helps.
+            Include what main health benefits this herb has.
+            Include what main therapeutic properties this herb has.
+            Include what main bioactive compounds this herb has.
+            Include what main herbal preparation people make with this herb.
+            Start with the following words: {herb_name_scientific.capitalize()}, commonly known as {data['common_names'][0]['common_name']}, .
+            Write the as few words as possible.
+            Don't write fluff, only proven facts.
+            Don't allucinate.
         '''
-        ai_paragraph(json_filepath, data, key, prompt)
+        reply = llm_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            data[key] = lines[0]
+            json_write(json_filepath, data)
     if data[key] != '':
         article_html += f'{util.text_format_1N1_html(data[key])}\n'
-        article_html += f'<p>This article explains the medicinal, horticultural, botanical, and historical aspects of {herb_name_scientific}.</p>\n'
+
+    key = 'intro_study'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        collection_name = 'medicinal-plants'
+        query = 'health benefits of zingiber officinale'
+        collection = chroma_client.get_or_create_collection(name=collection_name, embedding_function=sentence_transformer_ef)
+        results = collection.query(query_texts=[query], n_results=10)
+        documents = results['documents'][0]
+        metadatas = results['metadatas'][0]
+        abstracts = []
+        for i, document in enumerate(documents):
+            abstracts.append([documents[i], metadatas[i]])
+        prompt = f'''
+            Does the TEXT below talk about the health benefits of zingiber officinale? 
+            Reply only with "yes" or "no".
+            TEXT:
+            {abstracts[0][0]}
+        '''
+        print(prompt)
+        reply = llm_reply(prompt)
+        if 'yes' in reply.lower():
+            prompt = f'''
+                Write a 3-sentence short paragraph explaining the health benefits of Zingiber officinale using the data from the STUDY below:
+                STUDY:
+                {abstracts[0][0]}
+                Study source = {abstracts[0][1]['journal_title']}
+                GUIDELINES:
+                Start the reply with the following words: For example, according to a study published by {abstracts[0][1]['journal_title']}, .
+            '''
+            print(prompt)
+            reply = llm_reply(prompt)
+            question = f'''Write a 3-sentence short paragraph explaining the health benefits of Zingiber officinale using the data from the STUDY below.'''
+            reply_validated = llm_validate(question, abstracts[0][0], reply)
+            try: _json_data = json.loads(reply_validated)
+            except: _json_data = {} 
+            if _json_data != {}:
+                if _json_data['SCORE'] == 'PASS' or _json_data['SCORE'] == 'SUCCESS':
+                    data[key] = reply.strip()
+                    json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<p>{data[key]}</p>\n'
+
+    article_html += f'<p>This article explains in detail what are the medicinal uses of {herb_name_scientific}, its health benefits, therapeutic properties, bioactive compounds, used parts, and herbal preparation. But also warns you about the potential side effects of this plant and what precautions to take before using it for medicinal purposes.</p>\n'
 
     ## uses ----------------------------------------------------------------------------------------------
     key = 'uses_traditional_chinese_medicine'
@@ -1989,12 +2209,12 @@ def art_herb_popular(herb, herb_i, herbs):
         print(prompt)
         image_plant = pipe(prompt=prompt, negative_prompt=negative_prompt, width=832, height=1216, num_inference_steps=30, guidance_scale=7.0).images[0]
         image_plant.save(out_1)
-        image = Image.new('RGB', (1216, 1216), (0, 0, 0))
-        image.paste(image_plant, (1216-832, 0))
+        image = Image.new('RGBA', (1216, 1216), '#000000')
         # text ---
-        text_area_w = 1216-832
-        x_curr = 40
+        text_max_w = 0
         py = 48
+        px = 36
+        x_curr = px
         y_start = py
         draw = ImageDraw.Draw(image)
         font_size = 36
@@ -2004,6 +2224,8 @@ def art_herb_popular(herb, herb_i, herbs):
         lines = text.split(' ') 
         y_curr = y_start
         for line_i, line in enumerate(lines):
+            _, _, text_w, text_h = font.getbbox(line)
+            if text_max_w < text_w: text_max_w = text_w
             y_curr += font_size*line_i*1.2
             draw.text((x_curr, y_curr), line, '#ffffff', font=font)
         y_curr += font_size*1.2
@@ -2012,23 +2234,30 @@ def art_herb_popular(herb, herb_i, herbs):
         font = ImageFont.truetype(font_path, font_size)
         text = f'(medicinal uses)'.lower()
         _, _, text_w, text_h = font.getbbox(text)
+        if text_max_w < text_w: text_max_w = text_w
         draw.text((x_curr, y_curr), text, '#ffffff', font=font)
         font_size = 24
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
         font = ImageFont.truetype(font_path, font_size)
         y_start = y_curr+font_size*1.2*2 + 48
-        for condition_i, condition in enumerate(conditions_best):
-            text = f'{condition}'.capitalize()
+        for _i, name in enumerate(conditions_best):
+            text = f'{_i+1}. {name.capitalize()}'
             _, _, text_w, text_h = font.getbbox(text)
-            y_curr = y_start + condition_i*font_size*2
-            draw.text((x_curr, y_curr), f'{condition_i+1}. {text}', '#ffffff', font=font)
+            if text_max_w < text_w: text_max_w = text_w
+            y_curr = y_start + _i*font_size*2
+            draw.text((x_curr, y_curr), text, '#ffffff', font=font)
         image_logo = Image.open('website/images-static/terrawhisper-logo-black.jpg')
         logo_w, logo_h = image_logo.size
         image_logo = img_resize(image_logo, w=int(logo_w*0.3), h=int(logo_h*0.3))
         logo_w, logo_h = image_logo.size
         image.paste(image_logo, (int(x_curr), int(1216-logo_h - py)))
+        # plant ---
+        text_area_w = text_max_w+px*2
+        image_plant = img_resize(image_plant, w=1216-text_area_w, h=1216)
+        image.paste(image_plant, (text_area_w, 0))
+        # gen ---
         image = img_resize(image, w=768, h=768)
-        # ---
+        image = image.convert('RGB')
         image.save(out_1)
         shutil.copy2(out_1, out_2)
         data[key] = src
@@ -2038,7 +2267,7 @@ def art_herb_popular(herb, herb_i, herbs):
             data[key] = src
             json_write(json_filepath, data)
     if data[key] != '':
-        article_html += f'<p>The following illustration summarizes the medicinal uses of {herb_name_scientific}.</p>\n'
+        article_html += f'<p>The following illustration summarizes the main medicinal uses of {herb_name_scientific}.</p>\n'
         article_html += f'<img class="mb-16" src="{src}" alt="{alt}">\n'
 
     key = 'uses_list'
@@ -2085,7 +2314,7 @@ def art_herb_popular(herb, herb_i, herbs):
             article_html += f'<li><strong>{name}:</strong> {obj["description"]}</li>\n'
         article_html += f'</ul>\n'
 
-    article_html += f'<p>The following tables gives an overview of what are the most common health conditions that are treated with {herb_name_scientific} in each of the major medicinal systems.</p>\n'
+    article_html += f'<p>The following table gives an overview of what are the most common health conditions that are treated with {herb_name_scientific} in each of the major medicinal systems.</p>\n'
     article_html += f'<table>\n'
     article_html += f'<tr>\n'
     article_html += f'<th>Medicinal System</th>\n'
@@ -2192,8 +2421,12 @@ def art_herb_popular(herb, herb_i, herbs):
         '''
         reply = llm_reply(prompt).strip()
         _data = json.loads(reply)
+        _benefits = []
+        for _obj in _data:
+            if 'benefit_name' in _obj:
+                _benefits.append({'benefit_name': _obj['benefit_name']})
         if _data != '':
-            data[key] = _data[:10]
+            data[key] = _benefits[:10]
             json_write(json_filepath, data)
 
     article_html += f'<h2>What are the primary health benefits of {herb_name_scientific}?</h2>\n'
@@ -2320,7 +2553,7 @@ def art_herb_popular(herb, herb_i, herbs):
             data[key] = src
             json_write(json_filepath, data)
     if data[key] != '':
-        article_html += f'<p>The following illustration summarizes the health benefits of {herb_name_scientific}.</p>\n'
+        article_html += f'<p>The following list explains why {herb_name_scientific} gives the health benefits introduced above.</p>\n'
         article_html += f'<img class="mb-16" src="{src}" alt="{alt}">\n'
 
     key = 'benefits_list'
@@ -2715,7 +2948,7 @@ def art_herb_popular(herb, herb_i, herbs):
         for i in range(20):
             print(f'{i}/20 - {herb_i}/{len(herbs)}: {herb}')
             prompt = f'''
-                Write a list of the medicinal constituents of the plant {herb_name_scientific}.
+                Write a list of the 10 best medicinal constituents of the plant {herb_name_scientific}.
                 Also, give a confidence score in number format from 1 to 10 for each medicinal constituent representing how much you are sure that medicinal constituent is contained in the plant {herb_name_scientific}.
                 Examples of medicinal constituents are: flavonoids, phenolic acids, saponins, etc.
                 Write only the names of the constituents, don't add descriptions.
@@ -3171,6 +3404,89 @@ def art_herb_popular(herb, herb_i, herbs):
     if data[key] != '':
         paragraph = data[key]
         article_html += f'{util.text_format_1N1_html(paragraph)}\n'
+
+    key = 'parts_image'
+    if key not in data: data[key] = ''
+    folder = f'{vault}/terrawhisper/images/herbs/parts'
+    out_1 = f'{vault}/terrawhisper/images/herbs/parts/{herb_slug}-parts.jpg'
+    out_2 = f'website/images/herbs/{herb_slug}-parts.jpg'
+    src = f'/images/herbs/{herb_slug}-parts.jpg'
+    alt = f'parts of {herb_name_scientific}'
+    if not os.path.exists(folder): os.makedirs(folder)
+    # if os.path.exists(out_1): os.remove(out_1)
+    if not os.path.exists(out_1):
+        prompt = f'''
+            {herb_name_scientific}, 
+            painting, art nouveau, 
+            high resolution
+        '''
+        negative_prompt = f'''
+            text
+        '''
+        print(prompt)
+        image_plant = pipe(prompt=prompt, negative_prompt=negative_prompt, width=832, height=1216, num_inference_steps=30, guidance_scale=7.0).images[0]
+        image_plant.save(out_1)
+        image = Image.new('RGBA', (1216, 1216), '#000000')
+        # text ---
+        text_max_w = 0
+        py = 48
+        px = 36
+        x_curr = px
+        y_start = py
+        draw = ImageDraw.Draw(image)
+        font_size = 36
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        text = f'{herb_name_scientific}'.upper()
+        lines = text.split(' ') 
+        y_curr = y_start
+        for line_i, line in enumerate(lines):
+            _, _, text_w, text_h = font.getbbox(line)
+            if text_max_w < text_w: text_max_w = text_w
+            y_curr += font_size*line_i*1.2
+            draw.text((x_curr, y_curr), line, '#ffffff', font=font)
+        y_curr += font_size*1.2
+        font_size = 24
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        text = f'(medicinal parts)'.lower()
+        _, _, text_w, text_h = font.getbbox(text)
+        if text_max_w < text_w: text_max_w = text_w
+        draw.text((x_curr, y_curr), text, '#ffffff', font=font)
+        font_size = 24
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        y_start = y_curr+font_size*1.2*2 + 48
+        names = [obj['part_name'].lower().strip() for obj in data['parts'] if obj['part_total_score'] >= 6]
+        for _i, name in enumerate(names):
+            text = f'{_i+1}. {name.capitalize()}'
+            _, _, text_w, text_h = font.getbbox(text)
+            if text_max_w < text_w: text_max_w = text_w
+            y_curr = y_start + _i*font_size*2
+            draw.text((x_curr, y_curr), text, '#ffffff', font=font)
+        image_logo = Image.open('website/images-static/terrawhisper-logo-black.jpg')
+        logo_w, logo_h = image_logo.size
+        image_logo = img_resize(image_logo, w=int(logo_w*0.3), h=int(logo_h*0.3))
+        logo_w, logo_h = image_logo.size
+        image.paste(image_logo, (int(x_curr), int(1216-logo_h - py)))
+        # plant ---
+        text_area_w = text_max_w+px*2
+        image_plant = img_resize(image_plant, w=1216-text_area_w, h=1216)
+        image.paste(image_plant, (text_area_w, 0))
+        # gen ---
+        image = img_resize(image, w=768, h=768)
+        image = image.convert('RGB')
+        image.save(out_1)
+        shutil.copy2(out_1, out_2)
+        data[key] = src
+        json_write(json_filepath, data)
+    if data[key] == '':
+        if os.path.exists(out_2):
+            data[key] = src
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<p>The following illustration summarizes the medicinal parts of {herb_name_scientific}.</p>\n'
+        article_html += f'<img class="mb-16" src="{src}" alt="{alt}">\n'
 
     key = 'parts_list'
     if key not in data: data[key] = ''
@@ -3691,6 +4007,47 @@ def art_herb_popular(herb, herb_i, herbs):
                     article_html += f'<li><strong>{preparation_name}:</strong> {obj["description"]}</li>\n'
         article_html += f'</ul>\n'
 
+    if 0:
+        key = 'preparation_image'
+        if key not in obj: obj[key] = ''
+        folder = f'{vault}/terrawhisper/images/herbs/preparations/intro'
+        out_1 = f'{vault}/terrawhisper/images/herbs/preparations/intro/{herb_slug}-preparations.jpg'
+        out_2 = f'website/images/herbs/{herb_slug}-preparations.jpg'
+        src = f'/images/herbs/{herb_slug}-preparations.jpg'
+        alt = f'preparations made with {herb_name_scientific}'
+        if not os.path.exists(folder): os.makedirs(folder)
+        if not os.path.exists(folder): os.remove(out_1)
+        if not os.path.exists(out_1):
+            obj['preparation_total_score'] >= score_min
+            preparations_names = [f"{obj['preparation_name']}s" for obj in data['preparations'] if obj['preparation_total_score'] >= score_min]
+            preparations_names_prompt = ', '.join(preparations_names)
+            prompt = f'''
+                {herb_name_scientific} herbal {preparations_names_prompt}, 
+                on a wooden table, surrounded by herbs,
+                soft light, diffused light, natural light, soft focus, 
+                close-up, 
+                perspective three-quarter view,
+                depth of field, bokeh, 
+                high resolution, cinematic
+            '''
+            negative_prompt = f'''
+                text, logo, drawing, watermark, logo 
+            '''
+            print(prompt)
+            image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+            image = img_resize(image, w=768, h=768)
+            image.save(out_1)
+            shutil.copy2(out_1, out_2)
+            obj[key] = src
+            json_write(json_filepath, data)
+        if obj[key] == '':
+            if os.path.exists(out_2):
+                obj[key] = src
+                json_write(json_filepath, data)
+        if obj[key] != '':
+            article_html += f'<p>Below you find an image of the herbal preparations of {herb_name_scientific}.</p>\n'
+            article_html += f'<img class="mb-16" src="{src}" alt="{alt}">\n'
+
     for obj_i, obj in enumerate(data['preparations']):
         parts_names = [x['part_name'].lower().strip() for x in data['parts'] if x['part_total_score'] >= score_min]
         parts_names_prompt = ', '.join(parts_names)
@@ -3837,8 +4194,12 @@ def art_herb_popular(herb, herb_i, herbs):
             preparation_name = obj['preparation_name']
             parts_names = [x for x in obj['parts']]
             parts_names_prompt = ', '.join(parts_names)
+            _recipe_json = {}
             running = True
+            _i = 0
             while(running):
+                _i += 1
+                if _i > 10: break
                 prompt = f'''
                     Write a 5-step recipe on how to make {herb_name_scientific} herbal {preparation_name}.
                     <GUIDELINES>
@@ -3854,6 +4215,7 @@ def art_herb_popular(herb, herb_i, herbs):
                 '''
                 print(prompt)
                 reply = llm_reply(prompt).strip()
+                if "I can't" in reply or 'I cannot' in reply: break
                 try: _recipe_json = json.loads(reply)
                 except: _recipe_json = {}
                 if _recipe_json == {}: continue
@@ -3880,8 +4242,9 @@ def art_herb_popular(herb, herb_i, herbs):
                 if 'is_congruent' in _data:
                     if _data['is_congruent'].lower().strip() == 'yes':
                         running = False
-            obj[key] = _recipe_json['recipe']
-            json_write(json_filepath, data)
+            if _recipe_json != {}:
+                obj[key] = _recipe_json['recipe']
+                json_write(json_filepath, data)
 
     for obj in [obj for obj in data['preparations'] if obj['preparation_total_score'] >= score_min]:
         preparation_name = obj['preparation_name']
@@ -3890,13 +4253,6 @@ def art_herb_popular(herb, herb_i, herbs):
         key = 'overview'
         if obj[key] != '':
             article_html += f'{util.text_format_1N1_html(obj[key])}\n'
-        key = 'recipe'
-        if obj[key] != '':
-            article_html += f'<p>Below is a 5-step quick procedure to make effective medicinal {herb_name_scientific} {preparation_name}.</p>\n'
-            article_html += f'<ol>\n'
-            for step in obj[key]:
-                article_html += f'<li>{step}</li>\n'
-            article_html += f'</ol>\n'
         key = 'image'
         if key not in obj: obj[key] = ''
         folder = f'{vault}/terrawhisper/images/herbs/preparations/{preparation_slug}'
@@ -3904,8 +4260,8 @@ def art_herb_popular(herb, herb_i, herbs):
         out_2 = f'website/images/herbs/{herb_slug}-{preparation_slug}.jpg'
         src = f'/images/herbs/{herb_slug}-{preparation_slug}.jpg'
         alt = f'{preparation_name} made with {herb_name_scientific}'
-        # if not os.path.exists(folder): os.remove(out_1)
         if not os.path.exists(folder): os.makedirs(folder)
+        # if not os.path.exists(folder): os.remove(out_1)
         if not os.path.exists(out_1):
             prompt = f'''
                 {herb_name_scientific} herbal {preparation_name}s, 
@@ -3931,7 +4287,15 @@ def art_herb_popular(herb, herb_i, herbs):
                 obj[key] = src
                 json_write(json_filepath, data)
         if obj[key] != '':
-            article_html += f'<img src="{src}" alt="{alt}">\n'
+            article_html += f'<p>Below you find an image of {herb_name_scientific} {preparation_name}.</p>\n'
+            article_html += f'<img class="mb-16" src="{src}" alt="{alt}">\n'
+        key = 'recipe'
+        if obj[key] != '':
+            article_html += f'<p>Below is a 5-step quick procedure to make effective medicinal {herb_name_scientific} {preparation_name}.</p>\n'
+            article_html += f'<ol>\n'
+            for step in obj[key]:
+                article_html += f'<li>{step}</li>\n'
+            article_html += f'</ol>\n'
 
     ## ------------------------------------------------------------------------------------
     ## TODO: remove action verb?
@@ -3954,7 +4318,8 @@ def art_herb_popular(herb, herb_i, herbs):
             Reply only with the JSON, don't add additional content.
         '''
         reply = llm_reply(prompt).strip()
-        _data = json.loads(reply)
+        try: _data = json.loads(reply)
+        except: _data = ''
         if _data != '':
             data[key] = _data[:10]
             json_write(json_filepath, data)
@@ -4028,7 +4393,7 @@ def art_herb_popular(herb, herb_i, herbs):
                     obj[key] = _data['description']
                     json_write(json_filepath, data)
     if data['side_effects'] != '':
-        article_html += f'<p>###.</p>\n'
+        article_html += f'<p>The most common side effects {herb_name_scientific} gives people when used improperly are listed below, along with a brief explanation.</p>'
         article_html += f'<ul>\n'
         for obj in data['side_effects']:
             if obj['side_effect_name'] != '' and obj['side_effect_description'] != '':
@@ -4105,12 +4470,205 @@ def art_herb_popular(herb, herb_i, herbs):
         paragraph = data[key]
         article_html += f'{util.text_format_1N1_html(paragraph)}\n'
 
+    for obj_i, obj in enumerate(data['precautions']):
+        key = 'precaution_description'
+        if key not in obj: obj[key] = ''
+        # obj[key] = ''
+        if obj[key] == '':
+            precaution_name = obj['precaution_name']
+            prompt = f'''
+                Write a 1-sentence detailed description for the following precaution of the plant {herb_name_scientific}: {precaution_name}.
+                Write as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Don't include words that communicate the feeling that the data you provide is not proven, like "can", "may", "might" and "is believed to". 
+                Reply in JSON format using the following structure:
+                {{
+                    "precaution_name": "{precaution_name}", 
+                    "description": "<write the 1-sentence description here>"
+                }}
+                Only reply with the JSON, don't add additional info.
+            '''
+            reply = llm_reply(prompt).strip()
+            try: _data = json.loads(reply)
+            except: _data = {}
+            if _data != {}:
+                if 'precaution_name' in _data and 'description' in _data:
+                    obj[key] = _data['description']
+                    json_write(json_filepath, data)
+    if data['precautions'] != '':
+        article_html += f'<p>The most important precautions you must take before using {herb_name_scientific} for medicinal purposes are listed below, along with a brief explanation.</p>'
+        article_html += f'<ul>\n'
+        for obj in data['precautions']:
+            if obj['precaution_name'] != '' and obj['precaution_description'] != '':
+                name = obj["precaution_name"].title()
+                description = obj["precaution_description"]
+                article_html += f'<li><strong>{name}:</strong> {description}</li>\n'
+        article_html += f'</ul>\n'
+
+    key = 'studies'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        collection_name = 'medicinal-plants'
+        query = 'health benefits of zingiber officinale'
+        collection = chroma_client.get_or_create_collection(name=collection_name, embedding_function=sentence_transformer_ef)
+        results = collection.query(query_texts=[query], n_results=10)
+        documents = results['documents'][0]
+        metadatas = results['metadatas'][0]
+        abstracts = []
+        for i, document in enumerate(documents):
+            abstracts.append([documents[i], metadatas[i]])
+        valid_studies = []
+        for abstract_i, abstract in enumerate(abstracts[:10]):
+            if abstract_i == 0: continue
+            if len(valid_studies) >= 3: break
+            prompt = f'''
+                Does the TEXT below talk about the health benefits of {herb_name_scientific}? 
+                Reply only with "yes" or "no".
+                TEXT:
+                {abstract[0]}
+            '''
+            print(prompt)
+            reply = llm_reply(prompt)
+            if 'yes' in reply.lower():
+                prompt = f'''
+                    Write a 3-sentence short paragraph explaining the health benefits of {herb_name_scientific} using the data from the STUDY below:
+                    STUDY:
+                    {abstract[0]}
+                    Study source = {abstract[1]['journal_title']}
+                    GUIDELINES:
+                    Start the reply with the following words: According to a study published by the "{abstract[1]['journal_title']}", .
+                '''
+                print(prompt)
+                reply = llm_reply(prompt)
+                question = f'''Write a 3-sentence short paragraph explaining the health benefits of {herb_name_scientific} using the data from the STUDY below.'''
+                reply_validated = llm_validate(question, abstract[0], reply)
+                try: _json_data = json.loads(reply_validated)
+                except: _json_data = {} 
+                if _json_data != {}:
+                    if _json_data['SCORE'] == 'PASS' or _json_data['SCORE'] == 'SUCCESS':
+                        if reply.strip().startswith('According to a '):
+                            valid_studies.append(reply.strip())
+        data[key] = valid_studies
+        json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>Are there scientific studies that validate the medicinal usefulness of {herb_name_scientific}?</h2>\n'
+        article_html += f'<p>Yes, there are numerous studies that prove the efficacy of {herb_name_scientific} as a medicine, like the ones discussed below.</p>\n'
+        for obj_i, obj in enumerate(data[key]):
+            if obj_i == 1: obj = obj.replace('According to a ', 'In another ')
+            if obj_i == 2: obj = obj.replace('According to a ', 'In a third study ')
+            article_html += f'<p>{obj}</p>\n'
+
+    ## ------------------------------------------------------------------------------------
+    ## ;identification
+    ## ------------------------------------------------------------------------------------
+    key = 'identification'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about the plant {herb_name_scientific}.
+            Include the botanical characteristics of this plant.
+            Include the geographical distribution of this plant.
+            Don't mention the medicinal aspects of this plant.
+            Don't include the common name of this plant.
+            Pack as much information in as few words as possible.
+            Don't write fluff, only proven data.
+            Don't allucinate.
+            Write the paragraph in 5 sentences.
+            Write only the paragraph, don't add additional info.
+            Start with the following words: {herb_name_scientific} is .
+        '''
+        print(prompt)
+        reply = llm_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            data[key] = lines[0]
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>How to properly identify and recognize {herb_name_scientific} before using it medicinally?</h2>\n'
+        article_html += f'''<p>Before using {herb_name_scientific} medicinally, it's crucial you identify it correctly, and not mistaking it for another plant.</p>\n'''
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+    ## ------------------------------------------------------------------------------------
+    ## ;cultivation
+    ## ------------------------------------------------------------------------------------
+    key = 'cultivation'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about the cultivation aspects of the plant {herb_name_scientific}.
+            Include the growth habits of this plant.
+            Include the growth requirements of this plant.
+            Include some growth tips for this plant.
+            Don't include the morphological characteristics of this plant.
+            Pack as much information in as few words as possible.
+            Don't write fluff, only proven data.
+            Don't allucinate.
+            Write the paragraph in 5 sentences.
+            Write only the paragraph, don't add additional info.
+            Start with the following words: {herb_name_scientific} is .
+        '''
+        print(prompt)
+        reply = llm_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            data[key] = lines[0]
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the cultivation requirements of {herb_name_scientific}?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+    ## ------------------------------------------------------------------------------------
+    ## ;history
+    ## ------------------------------------------------------------------------------------
+    key = 'history'
+    if key not in data: data[key] = ''
+    # data[key] = ''
+    if data[key] == '':
+        prompt = f'''
+            Write 1 detailed paragraph about the historical uses of the plant {herb_name_scientific} as a medicine.
+            Pack as much information in as few words as possible.
+            Don't write fluff, only proven data.
+            Don't allucinate.
+            Write the paragraph in 5 sentences.
+            Write only the paragraph, don't add additional info.
+            Start with the following words: {herb_name_scientific} is .
+        '''
+        print(prompt)
+        reply = llm_reply(prompt)
+        lines = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            lines.append(line)
+        if len(lines) == 1:
+            data[key] = lines[0]
+            json_write(json_filepath, data)
+    if data[key] != '':
+        article_html += f'<h2>What are the historical uses of {herb_name_scientific} for medicinal purposes?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+
     breadcrumbs = util.breadcrumbs(html_filepath)
     meta = components.meta(article_html, data["lastmod"])
     article = components.table_of_contents(article_html)
     html = templates.article(title, header_html, breadcrumbs, meta, article, footer_html)
     file_write(html_filepath, html)
-    quit()
+    # quit()
 
 def art_herb(herb):
     herb_id = herb['herb_id']
@@ -6301,13 +6859,13 @@ def page_contact():
 
 
 def main():
-    sitemap.sitemap_all()
+    # sitemap.sitemap_all()
     shutil.copy2('sitemap.xml', 'website/sitemap.xml')
     shutil.copy2('style.css', 'website/style.css')
 
-    main_herbs_popular()
-    quit()
     page_home()
+    quit()
+    main_herbs_popular()
     main_preparations()
     articles_ailments()
 

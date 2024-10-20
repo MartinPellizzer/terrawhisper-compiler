@@ -125,6 +125,7 @@ def meta(content, lastmod):
         html = f'''
             <div class="flex items-center justify-between mb-8">
                 <div class="flex items-center gap-16">
+                    <img src="/images-static/leen-randell.jpg" alt="profile picture of leen randell">
                     <address class="author">By <a rel="author" href="/about.html">{g.AUTHOR_NAME}</a></address>
                 </div>
                 <span>{reading_time}</span>
@@ -137,9 +138,12 @@ def meta(content, lastmod):
             </div>
         '''
     html = f'''
-        <div class="flex items-center justify-between mb-8">
-            <p>By <a class="uppercase text-black no-underline font-bold" rel="author" href="">{g.AUTHOR_NAME}</a></p>
-            <p>Updated: {month} {day}, {year}</p>
+        <div class="flex items-center justify-between mb-16">
+            <div class="flex items-center gap-8">
+                <img class="profile-pic-meta" width=64 height=64 src="/images-static/leen-randell.jpg" alt="profile picture of leen randell">
+                <p class="mb-0">By <a class="uppercase text-black no-underline font-bold" rel="author" href="">{g.AUTHOR_NAME}</a></p>
+            </div>
+            <p class="mb-0">Updated: {month} {day}, {year}</p>
         </div>
     '''
     return html

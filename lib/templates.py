@@ -1,3 +1,4 @@
+import os
 import g
 from lib import components
 
@@ -336,16 +337,20 @@ def homepage():
                     break
             if not found:
                 plant_slug = obj['plant_name_scientific'].lower().strip().replace(' ', '-')
-                _data = json_read(f'database/json/herbs/{plant_slug}.json')
-                title = _data['title']
-                intro = _data['intro_desc']
-                herbs_popular.append({
-                    'plant_name_scientific': obj['plant_name_scientific'],
-                    'plant_slug': plant_slug,
-                    'confidence_score': obj['confidence_score'],
-                    'title': title,
-                })
-    herbs_popular = sorted(herbs_popular, key=lambda x: x['confidence_score'], reverse=True)[:10]
+                plant_json_filepath = f'database/json/herbs/{plant_slug}.json'
+                if os.path.exists(plant_json_filepath):
+                    _data = json_read(plant_json_filepath)
+                    title = _data['title']
+                    if 'intro_desc' in _data: description = ' '.join(_data['intro_desc'].split(' ')[:24])
+                    else: description = ''
+                    herbs_popular.append({
+                        'plant_name_scientific': obj['plant_name_scientific'],
+                        'plant_slug': plant_slug,
+                        'confidence_score': obj['confidence_score'],
+                        'title': title,
+                        'description': description,
+                    })
+    herbs_popular = sorted(herbs_popular, key=lambda x: x['confidence_score'], reverse=True)
     print(herbs_popular)
 
     section_popular = f'''
@@ -729,6 +734,165 @@ def homepage():
         </section>
     '''
 
+    section_digestive_system = f'''
+        <section class="pb-96">
+            <div class="container-xl">
+                <h2 class="pt-0 pb-32 text-48">Top Herbs for Digestive System</h2>
+                <div class="flex gap-48">
+                    <div class="flex-4 flex gap-16">
+                        <div class="flex-1">
+                            <a class="no-underline text-black" href="/herbs/{herbs_popular[7]['plant_slug']}.html">
+                                <img class="object-cover mb-24" height="400" src="/images/herbs/{herbs_popular[7]['plant_slug']}.jpg" alt="">
+                                <p class="home-art-cat">herbs</p>
+                                <h2 class="pt-0 text-24">{herbs_popular[7]['plant_name_scientific']}</h2>
+                                <p class="home-paragraph-secondary">{herbs_popular[7]['description']}</p>
+                            </a>
+                        </div>
+                        <div class="flex-1">
+                            <a class="no-underline text-black" href="/herbs/{herbs_popular[8]['plant_slug']}.html">
+                                <img class="object-cover mb-24" height="400" src="/images/herbs/{herbs_popular[8]['plant_slug']}.jpg" alt="">
+                                <p class="home-art-cat">herbs</p>
+                                <h2 class="pt-0 text-24">{herbs_popular[8]['plant_name_scientific']}</h2>
+                                <p class="home-paragraph-secondary">{herbs_popular[8]['description']}</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-3">
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[9]['plant_slug']}.html">
+                                    <p class="home-art-cat">herbs</p>
+                                    <h2 class="pt-0 text-18">{herbs_popular[9]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[10]['plant_slug']}.html">
+                                    <p class="home-art-cat">herbs</p>
+                                    <h2 class="pt-0 text-18">{herbs_popular[10]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[11]['plant_slug']}.html">
+                                    <p class="home-art-cat">herbs</p>
+                                    <h2 class="pt-0 text-18">{herbs_popular[11]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[12]['plant_slug']}.html">
+                                    <p class="home-art-cat">herbs</p>
+                                    <h2 class="pt-0 text-18">{herbs_popular[12]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[13]['plant_slug']}.html">
+                                    <p class="home-art-cat">herbs</p>
+                                    <h2 class="pt-0 text-18">{herbs_popular[13]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[14]['plant_slug']}.html">
+                                    <p class="home-art-cat">herbs</p>
+                                    <h2 class="pt-0 text-18">{herbs_popular[14]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[15]['plant_slug']}.html">
+                                    <p class="home-art-cat">herbs</p>
+                                    <h2 class="pt-0 text-18">{herbs_popular[15]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[16]['plant_slug']}.html">
+                                    <p class="home-art-cat">herbs</p>
+                                    <h2 class="pt-0 text-18">{herbs_popular[16]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[17]['plant_slug']}.html">
+                                    <p class="home-art-cat">herbs</p>
+                                    <h2 class="pt-0 text-18">{herbs_popular[17]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[18]['plant_slug']}.html">
+                                    <p class="home-art-cat">herbs</p>
+                                    <h2 class="pt-0 text-18">{herbs_popular[18]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div>
+        </section>
+    '''
+
+    section_musculoskeletal_system = f'''
+        <section class="pb-96">
+            <div class="container-xl">
+                <h2 class="pt-0 pb-32 text-48">Top Herbs for Musculoskeletal Sysstem</h2>
+                <div class="flex gap-48">
+                    <div class="flex-1">
+                        <a class="no-underline text-black" href="/herbs/{herbs_popular[19]['plant_slug']}.html">
+                            <img class="object-cover mb-24" height="400" src="/images/herbs/{herbs_popular[19]['plant_slug']}.jpg" alt="">
+                            <h2 class="pt-0 text-24">{herbs_popular[19]['plant_name_scientific']}</h2>
+                            <p class="home-paragraph-secondary">{herbs_popular[19]['description']}</p>
+                        </a>
+                    </div>
+                    <div class="flex-1">
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[20]['plant_slug']}.html">
+                                    <img class="object-cover mb-24" height="200" src="/images/herbs/{herbs_popular[20]['plant_slug']}.jpg" alt="">
+                                    <h2 class="pt-0 text-24">{herbs_popular[20]['plant_name_scientific']}</h2>
+                                    <p class="home-paragraph-secondary">{herbs_popular[20]['description']}</p>
+                                </a>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[21]['plant_slug']}.html">
+                                    <img class="object-cover mb-24" height="200" src="/images/herbs/{herbs_popular[21]['plant_slug']}.jpg" alt="">
+                                    <h2 class="pt-0 text-24">{herbs_popular[21]['plant_name_scientific']}</h2>
+                                    <p class="home-paragraph-secondary">{herbs_popular[21]['description']}</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex gap-16">
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[22]['plant_slug']}.html">
+                                    <h2 class="pt-0 text-18">{herbs_popular[22]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                            <div class="flex-1 border-0 border-b border-solid border-black mb-16">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[23]['plant_slug']}.html">
+                                    <h2 class="pt-0 text-18">{herbs_popular[23]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex gap-16">
+                            <div class="flex-1">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[24]['plant_slug']}.html">
+                                    <h2 class="pt-0 text-18">{herbs_popular[24]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                            <div class="flex-1">
+                                <a class="no-underline text-black" href="/herbs/{herbs_popular[25]['plant_slug']}.html">
+                                    <h2 class="pt-0 text-18">{herbs_popular[25]['plant_name_scientific']}</h2>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
@@ -749,6 +913,35 @@ def homepage():
                 {section_popular}
                 {section_teas}
                 {section_tinctures}
+                {section_creams}
+            </main>
+            <div class="mt-64"></div>
+            {components.footer()}
+            {g.COOKIE_CONSENT} 
+        </body>
+        </html>
+    '''
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="{g.AUTHOR_NAME}">
+            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+            <link rel="stylesheet" href="/style.css">
+            <title>Use Medicinal Herbs to Heal Naturally</title>
+            {g.GOOGLE_TAG}
+            {g.GOOGLE_ADSENSE_TAG}
+        </head>
+        <body>
+            {components.header()}
+            <main>
+                {section_hero}
+                {section_popular}
+                {section_digestive_system}
+                {section_musculoskeletal_system}
                 {section_creams}
             </main>
             <div class="mt-64"></div>

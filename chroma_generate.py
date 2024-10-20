@@ -8,9 +8,36 @@ from oliark_llm import llm_reply
 vault = '/home/ubuntu/vault'
 llms_path = f'{vault}/llms'
 model = f'{llms_path}/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf'
+model_validator_filepath = f'{llms_path}/Llama-3-Partonus-Lynx-8B-Instruct-Q4_K_M.gguf'
 
 proj_name = 'terrawhisper'
 db_path = f'{vault}/{proj_name}/database/{proj_name}'
+
+
+def llm_validate(question, context, answer):
+    prompt = f'''
+    Given the following QUESTION, DOCUMENT and ANSWER you must analyze the provided answer and determine whether it is faithful to the contents of the DOCUMENT. The ANSWER must not offer new information beyond the context provided in the DOCUMENT. The ANSWER also must not contradict information provided in the DOCUMENT. Output your final verdict by strictly following this format: "PASS" if the answer is faithful to the DOCUMENT and "FAIL" if the answer is not faithful to the DOCUMENT. Show your reasoning.
+
+    --
+    QUESTION (THIS DOES NOT COUNT AS BACKGROUND INFORMATION):
+    {question}
+
+    --
+    DOCUMENT:
+    {context}
+
+    --
+    ANSWER:
+    {answer}
+
+    --
+
+    Your output should be in JSON FORMAT with the keys "REASONING" and "SCORE":
+    {{"REASONING": <your reasoning as bullet points>, "SCORE": <your final score>}}
+    '''
+    reply = llm_reply(prompt, model_validator_filepath, max_tokens=256)
+    return reply
+
 
 device = 'cuda'
 sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(
@@ -20,8 +47,13 @@ sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFuncti
 
 chroma_client = chromadb.PersistentClient(path=db_path)
 
+'''
 collection_name = sys.argv[1]
 query = sys.argv[2]
+'''
+
+collection_name = 'medicinal-plants'
+query = 'health benefits of zingiber officinale'
 
 print('***********************')
 print(query)
@@ -36,10 +68,57 @@ metadatas = results['metadatas'][0]
 abstracts = []
 for i, document in enumerate(documents):
     # document_formatted = f'PARAGRAPH {i+1}: {document}'
-    document_formatted = f'SOURCE \"{metadatas[i]["journal_title"]}\": {document}'
-    abstracts.append(document_formatted)
-    print(document_formatted)
+    # document_formatted = f'SOURCE \"{metadatas[i]["journal_title"]}\": {document}'
+    # abstracts.append(document_formatted)
+    abstracts.append([documents[i], metadatas[i]])
+    # print(document_formatted)
     print()
+
+print('\n\n\n')
+for abstract in abstracts[:3]:
+    print(abstract)
+
+prompt = f'''
+    Does the TEXT below talk about the health benefits of zingiber officinale? 
+    Reply only with "yes" or "no".
+    TEXT:
+    {abstracts[0][0]}
+'''
+print(prompt)
+reply = llm_reply(prompt)
+
+if 'yes' in reply.lower():
+    prompt = f'''
+        Write a 3-sentence short paragraph explaining the health benefits of Zingiber officinale using the data from the STUDY below:
+        STUDY:
+        {abstracts[0][0]}
+        Study source = {abstracts[0][1]}
+        GUIDELINES:
+        Start the reply with the following words: For example, according to a study published by {abstracts[0][1]}, .
+    '''
+    print(prompt)
+    reply = llm_reply(prompt)
+
+    question = f'''Write a 3-sentence short paragraph explaining the health benefits of Zingiber officinale using the data from the STUDY below.'''
+    reply_validated = llm_validate(question, abstracts[0][0], reply)
+
+    print('***********************')
+    print(reply_validated)
+    print('***********************')
+
+    quit()
+
+question = f'''
+    Does the TEXT below talk about the health benefits of zingiber officinale? 
+    Reply only with "yes" or "no".
+'''
+reply_validated = llm_validate(question, abstracts[0][0], reply)
+
+print('***********************')
+print(reply_validated)
+print('***********************')
+
+quit()
 
 prompt = f'''
     From the 5 paragraphs below, pick the one that best answer with the most amount of data, information, details, results and numbers the following question: {query}.
