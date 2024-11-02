@@ -1,4 +1,6 @@
 import os
+import random
+
 import g
 from lib import components
 
@@ -306,13 +308,19 @@ def homepage():
         </section>
     '''
 
+    # ----------------------------------------------------------------------------
+    # ;new
+    # ----------------------------------------------------------------------------
+
     section_hero = f'''
-        <section class="h-60v flex items-center" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images-static/medicinal-plants-botanical-garden.jpg); background-size: cover; background-position: center;">
+        <section class="py-192 flex items-center" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images-static/medicinal-plants-botanical-garden.jpg); background-size: cover; background-position: center;">
             <div class="container-xl">
                 <div class="flex">
-                    <div class="flex-2">
-                        <h2 class="text-white pt-0 text-80 weight-400">Learn Herbalism and Improve Your Health</h2>
-                        <p class="text-white text-24">Leverage the power of medicinal plants and herbal remedies to relieve the most common physical, mental and spiritual ailments.</p>
+                    <div class="flex-1">
+                    </div>
+                    <div class="flex-5 text-center">
+                        <h2 class="text-white pt-0 text-80 weight-400">Use Healing Herbs to Enchance Your Health</h2>
+                        <p class="text-white text-24">Exploit the therapeutic power of medicinal plants and herbal remedies to find physical, mental, and spiritual relief.</p>
                     </div>
                     <div class="flex-1">
                     </div>
@@ -320,6 +328,66 @@ def homepage():
             </div>
         </section>
     '''
+
+    section_proof = f'''
+        <section class="pt-48 pb-32 bg-black">
+            <div class="container-xl">
+                <div class="flex justify-between">
+                    <div class="flex-1 text-center">
+                        <p class="text-white text-18 mb-0">PLANTS REVIEWED</p>
+                        <p class="text-white text-48 mb-0">207</p>
+                    </div>
+                    <div class="flex-1 text-center">
+                        <p class="text-white text-18 mb-0">STUDIES CITED</p>
+                        <p class="text-white text-48 mb-0">147</p>
+                    </div>
+                    <div class="flex-1">
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
+    section_what = f'''
+        <section class="py-96">
+            <div class="container-xl">
+                <div class="text-center">
+                    <h2>Terrawhisper is a science-based encyclopedia of healing herbs</h2>
+                </div>
+                <div class="flex justify-between">
+                    <div class="flex-1">
+                        <p class="home-what-card">Uses</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="home-what-card">Benefits</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="home-what-card">Properties</p>
+                    </div>
+                </div>
+                <div class="flex justify-between">
+                    <div class="flex-1">
+                        <p class="home-what-card">Constituents</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="home-what-card">Parts</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="home-what-card">Preparations</p>
+                    </div>
+                </div>
+                <div class="flex justify-between">
+                    <div class="flex-1">
+                        <p class="home-what-card">Side Effects</p>
+                    </div>
+                    <div class="flex-1">
+                        <p class="home-what-card">Precautions</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+    
 
     herbs_popular = []
     for ailment_i, ailment in enumerate(ailments):
@@ -445,7 +513,6 @@ def homepage():
     popular_ailments_for_teas = [
             ['respiratory system', 'sore throat'],
             ['nervous system', 'headache'],
-
             ['reproductive system', 'menstrual cramps'],
             ['immune system', 'inflammation'],
             ['digestive system', 'constipation'],
@@ -939,6 +1006,8 @@ def homepage():
             {components.header()}
             <main>
                 {section_hero}
+                {section_proof}
+                {section_what}
                 {section_popular}
                 {section_digestive_system}
                 {section_musculoskeletal_system}
@@ -1027,4 +1096,312 @@ def contact_page():
         </html>
     '''
     return html
+
+
+def homepage_2():
+    herbs_popular = []
+    for ailment_i, ailment in enumerate(ailments):
+        system_slug = ailment['system_slug']
+        ailment_slug = ailment['ailment_slug']
+        url = f'remedies/{system_slug}-system/{ailment_slug}'
+        json_filepath = f'database/json/{url}.json'
+        data = json_read(json_filepath)
+        for obj in data['herbs']:
+            found = False
+            for herb_popular in herbs_popular:
+                if obj['plant_name_scientific'] == herb_popular['plant_name_scientific']:
+                    herb_popular['confidence_score'] += obj['confidence_score']
+                    found = True
+                    break
+            if not found:
+                plant_slug = obj['plant_name_scientific'].lower().strip().replace(' ', '-')
+                plant_json_filepath = f'database/json/herbs/{plant_slug}.json'
+                if os.path.exists(plant_json_filepath):
+                    _data = json_read(plant_json_filepath)
+                    title = _data['title']
+                    if 'intro_description' in _data: description = ' '.join(_data['intro_description'].split(' ')[:16])
+                    properties = _data['properties']
+                    random.shuffle(properties)
+                    properties_html = '<ul class="ml-16 mb-24">'
+                    for item in properties[:random.randint(3, 3)]:
+                        properties_html += f'<li>{item["property_name"].capitalize()}</li>'
+                    properties_html += '</ul>'
+                    herbs_popular.append({
+                        'plant_name_scientific': obj['plant_name_scientific'],
+                        'plant_slug': plant_slug,
+                        'confidence_score': obj['confidence_score'],
+                        'title': title,
+                        'description': description,
+                        'properties_html': properties_html,
+                        'url': f'/{_data["url"]}.html',
+                    })
+    herbs_popular = sorted(herbs_popular, key=lambda x: x['confidence_score'], reverse=True)
+    print(herbs_popular)
+    
+    # <h1 class="home-h1">Use Healing Herbs to Enhance Your Health</h1>
+
+    hero_section = f'''
+        <section class="mt-64">
+            <div class="container-xl">
+                <div class="flex gap-64 items-center">
+                    <div class="flex-1">
+                        <p class="text-color-green">Lean and Heal</p>
+                        <h1 class="home-h1">Your Online Library of Popular Healing Herbs</h1>
+                        <p class="text-color-light">Exploit the therapeutic power of medicinal plants and herbal remedies to find physical, mental, and spiritual relief.</p>
+                        <div>
+                            <a class="button-green-fill inline-block" href="/herbs.html">Explore Popular Herbs</a>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <img class="rounded-24" src="/images/herbs/abies-balsamea.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
+    proof_section = f'''
+        <section class="mt-96">
+            <div class="container-xl">
+                <div class="container-md text-center">
+                    <h2 class="helvetica-regular pt-0 pb-16">Terrawhisper is a Science-Based Encyclopedia of Therapeutic Plants</h2>
+                    <p class="pb-32">Terrawhisper is the go-to online encyclopedia of healing herbs, featuring a vast collection of popular plants that have been extensively researched, documented, and backed by scientific studies (mostly from PubMed). New additions are added every week to ensure the library remains comprehensive and in-depth.
+                    </p>
+                </div>
+                <div class="flex items-center">
+                    <div class="flex-1 text-center border-0 border-r border-solid border-black">
+                        <p class="text-32 mb-0 helvetica-bold">207</p>
+                        <p class="mb-0">Herbs Analyzed</p>
+                    </div>
+                    <div class="flex-1 text-center border-0 border-r border-solid border-black">
+                        <p class="text-32 mb-0 helvetica-bold">143</p>
+                        <p class="mb-0">Studies Cited</p>
+                    </div>
+                    <div class="flex-1 text-center">
+                        <p class="text-32 mb-0 helvetica-bold">2-3</p>
+                        <p class="mb-0">Herbs Added Weekly</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
+    news_section = f'''
+        <section class="mt-96">
+            <div class="container-xl">
+                <h2 class="text-24 mt-0 pt-0">Recently Added Herbs</h2>
+                <div class="flex gap-32">
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
+                        <h3 class="text-18 pt-0">{herbs_popular[0]['plant_name_scientific']}</h2>
+                        {herbs_popular[0]['properties_html']}
+                        <a href="{herbs_popular[0]['url']}" class="inline-block">Discover Plant ></a>
+                    </div>
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[1]['plant_slug']}.jpg" alt="">
+                        <h3 class="text-18 pt-0">{herbs_popular[1]['plant_name_scientific']}</h2>
+                        {herbs_popular[1]['properties_html']}
+                        <a href="{herbs_popular[1]['url']}" class="inline-block">Discover Plant ></a>
+                    </div>
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[2]['plant_slug']}.jpg" alt="">
+                        <h3 class="text-18 pt-0">{herbs_popular[2]['plant_name_scientific']}</h2>
+                        {herbs_popular[2]['properties_html']}
+                        <a href="{herbs_popular[2]['url']}" class="inline-block">Discover Plant ></a>
+                    </div>
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[3]['plant_slug']}.jpg" alt="">
+                        <h3 class="text-18 pt-0">{herbs_popular[3]['plant_name_scientific']}</h2>
+                        {herbs_popular[3]['properties_html']}
+                        <a href="{herbs_popular[3]['url']}" class="inline-block">Discover Plant ></a>
+                    </div>
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[4]['plant_slug']}.jpg" alt="">
+                        <h3 class="text-18 pt-0">{herbs_popular[4]['plant_name_scientific']}</h2>
+                        {herbs_popular[4]['properties_html']}
+                        <a href="{herbs_popular[4]['url']}" class="inline-block">Discover Plant ></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
+    benefits_section = f'''
+        <section class="mt-96">
+            <div class="container-xl">
+                <h2 class="text-24 mt-0 pt-0">Why Healing With Herbs</h2>
+                <div class="flex gap-32">
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16" height="720" src="/images-static/leen-randell-cover.png" alt="">
+                    </div>
+                    <div class="flex-2 flex flex-col gap-32">
+                        <div class="flex gap-32">
+                            <div class="flex-1">
+                                <img class="img-ico-sm" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
+                                <h3 class="text-18 pt-16">Boost Energy and Vitality</h3>
+                                <p>Herbal supplements like Ginseng, Ashwagandha, and Rhodiola Rosea increases energy levels and mental clarity.
+                                </p>
+                            </div>
+                            <div class="flex-1">
+                                <img class="img-ico-sm" src="/images/herbs/{herbs_popular[1]['plant_slug']}.jpg" alt="">
+                                <h3 class="text-18 pt-16">Promote Healthy Skin and Hair</h3>
+                                <p>Herbs like Aloe Vera, Green Tea, and Rosemary essential oils can hydrate and nourish the skin and promote healthy hair growth.
+                            </div>
+                        </div>
+                        <div class="flex gap-32">
+                            <div class="flex-1">
+                                <img class="img-ico-sm" src="/images/herbs/{herbs_popular[2]['plant_slug']}.jpg" alt="">
+                                <h3 class="text-18 pt-16">Aid in Digestive Health</h3>
+                                <p>Herbal remedies like Peppermint, Chamomile, and Ginger can soothe digestive issues, reduce bloating, and alleviate symptoms of IBS.
+                                </p>
+                            </div>
+                            <div class="flex-1">
+                                <img class="img-ico-sm" src="/images/herbs/{herbs_popular[3]['plant_slug']}.jpg" alt="">
+                                <h3 class="text-18 pt-16">Support Mental Clarity and Focus</h3>
+                                <p>Herbs like Bacopa Monnieri, Ginkgo Biloba, and Acetyl-L-Carnitine can improve concentration, memory, and mood.
+                            </div>
+                        </div>
+                        <div class="flex gap-32">
+                            <div class="flex-1">
+                                <img class="img-ico-sm" src="/images/herbs/{herbs_popular[4]['plant_slug']}.jpg" alt="">
+                                <h3 class="text-18 pt-16">Reduce Stress and Anxiety</h3>
+                                <p>Herbal supplements like Passionflower, Kava, and Valerian Root can calm the nervous system and promote relaxation.
+                                </p>
+                            </div>
+                            <div class="flex-1">
+                                <img class="img-ico-sm" src="/images/herbs/{herbs_popular[5]['plant_slug']}.jpg" alt="">
+                                <h3 class="text-18 pt-16">Promote Immune System</h3>
+                                <p>Herbs like Echinacea, Goldenseal, and St. John's Wort can boost the immune system and protect against infections.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
+    why_us_section = f'''
+        <section class="mt-96">
+            <div class="container-xl">
+                <div class="container-md text-center">
+                    <h2 class="helvetica-regular pt-0 pb-16">What to Expect From Our Library</h2>
+                    <p class="pb-32">We say that our articles are in-depth, and we mean it. For each plant, we meticulously detail its major medicinal uses, benefits, properties, constituents, parts, and preparations, providing readers with a comprehensive understanding of the plant's traditional and modern applications.
+                    </p>
+                </div>
+                <div class="flex gap-64 mb-48">
+                    <div class="flex-1 text-center">
+                        <p class="text-24 mb-0 helvetica-bold mb-16">Uses</p>
+                        <p class="mb-0">Our library lists the uses of plants across different medicinal systems (like western modern medicine, traditional chinese medicine, and Ayurvedic medicine), to validate their effectiveness.</p>
+                    </div>
+                    <div class="flex-1 text-center">
+                        <p class="text-24 mb-0 helvetica-bold mb-16">Benefits</p>
+                        <p class="mb-0">We dive deeply into the benefits of each herb on distinct body systems (such as digestive, nervous, cardiovascular, and respiratory), to provide comprehensive insights for holistic wellness.
+</p>
+                    </div>
+                    <div class="flex-1 text-center">
+                        <p class="text-24 mb-0 helvetica-bold mb-16">Properties</p>
+                        <p class="mb-0">Our encyclopedia cover a comprehensive range of properties for the herbs (like anti-inflammatory, antioxidant, and antimicrobial), which is beneficial to understand how these herbs interract with various health conditions.</p>
+                    </div>
+                </div>
+                <div class="flex gap-64">
+                    <div class="flex-1 text-center">
+                        <p class="text-24 mb-0 helvetica-bold mb-16">Constituents</p>
+                        <p class="mb-0">In our articles, we do our best to include the chemical constituents of the plants (for example flavonoids, alkaloids, and other bioactive compounds), which give proof on their medicinal properties.</p>
+                    </div>
+                    <div class="flex-1 text-center">
+                        <p class="text-24 mb-0 helvetica-bold mb-16">Parts</p>
+                        <p class="mb-0">We understand that some parts of a plant are more curative than others (including roots, stems, leaves, bark, seeds, and flowers), so we always include what parts are best to consume for best results.</p>
+                    </div>
+                    <div class="flex-1 text-center">
+                        <p class="text-24 mb-0 helvetica-bold mb-16">Preparations</p>
+                        <p class="mb-0">There are a wide range of herbal preparations you can make with every plant (such as teas, tinctures, salves, and oils), that's why our library focuses only the most important and commonly used.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
+    popular_section = f'''
+        <section class="mt-96 pb-96">
+            <div class="container-xl">
+                <h2 class="text-24 mt-0 pt-0">Most Popular Herbs in Our Library</h2>
+                <div class="flex gap-32 mb-16">
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
+                        <h3 class="text-18 pt-0">{herbs_popular[0]['plant_name_scientific']}</h2>
+                        <p>{herbs_popular[0]['description']}...</p>
+                    </div>
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[1]['plant_slug']}.jpg" alt="">
+                        <h3 class="text-18 pt-0">{herbs_popular[1]['plant_name_scientific']}</h2>
+                        <p>{herbs_popular[1]['description']}...</p>
+                    </div>
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[2]['plant_slug']}.jpg" alt="">
+                        <h3 class="text-18 pt-0">{herbs_popular[2]['plant_name_scientific']}</h2>
+                        <p>{herbs_popular[2]['description']}...</p>
+                    </div>
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[3]['plant_slug']}.jpg" alt="">
+                        <h3 class="text-18 pt-0">{herbs_popular[3]['plant_name_scientific']}</h2>
+                        <p>{herbs_popular[3]['description']}...</p>
+                    </div>
+                </div>
+                <div class="flex gap-32">
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[4]['plant_slug']}.jpg" alt="">
+                        <h3 class="text-18 pt-0">{herbs_popular[4]['plant_name_scientific']}</h2>
+                        <p>{herbs_popular[4]['description']}...</p>
+                    </div>
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[5]['plant_slug']}.jpg" alt="">
+                        <h3 class="text-18 pt-0">{herbs_popular[5]['plant_name_scientific']}</h2>
+                        <p>{herbs_popular[5]['description']}...</p>
+                    </div>
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[6]['plant_slug']}.jpg" alt="">
+                        <h3 class="text-18 pt-0">{herbs_popular[6]['plant_name_scientific']}</h2>
+                        <p>{herbs_popular[6]['description']}...</p>
+                    </div>
+                    <div class="flex-1">
+                        <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[7]['plant_slug']}.jpg" alt="">
+                        <h3 class="text-18 pt-0">{herbs_popular[7]['plant_name_scientific']}</h2>
+                        <p>{herbs_popular[7]['description']}...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="{g.AUTHOR_NAME}">
+            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+            <link rel="stylesheet" href="/style.css">
+            <title>Use Medicinal Herbs to Heal Naturally</title>
+            {g.GOOGLE_TAG}
+            {g.GOOGLE_ADSENSE_TAG}
+        </head>
+        <body>
+            {components.header_2()}
+            <main>
+                {hero_section}
+                {proof_section}
+                {news_section}
+                {benefits_section}
+                {why_us_section}
+                {popular_section}
+            </main>
+            <div class="mt-64"></div>
+            {components.footer()}
+            {g.COOKIE_CONSENT} 
+        </body>
+        </html>
+    '''
+    return html
+                #{section_articles}
 
