@@ -2355,6 +2355,242 @@ def art_herb_popular(herb, herb_i, herbs):
             data[key] = src_intro
             json_write(json_filepath, data)
 
+    # ;cheatsheet image
+    key = 'intro_image_cheatsheet'
+    folder = f'{vault}/terrawhisper/images/herbs/all'
+    # out_1 = f'{vault}/terrawhisper/images/herbs/all/{herb_slug}-plant-cheatsheet.jpg'
+    out_2 = f'website/images/herbs/{herb_slug}-plant-cheatsheet.jpg'
+    src_intro_cheatsheet = f'/images/herbs/{herb_slug}-plant-cheatsheet.jpg'
+    alt_intro_cheatsheet = f'{herb_name_scientific} plant cheatsheet'
+    # if os.path.exists(out_1): os.remove(out_1)
+    # if os.path.exists(out_2): os.remove(out_2)
+    if not os.path.exists(folder): os.makedirs(folder)
+    if key not in data: data[key] = ''
+    # if not os.path.exists(out_2):
+    if True:
+        a4_w = 2480
+        a4_h = 3508
+        image = Image.new('RGB', (a4_w, a4_h), '#ffffff')
+        draw = ImageDraw.Draw(image)
+        font_size = 100
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+        text = f'{herb_name_scientific} Medicinal Cheatsheet'.upper()
+        draw.text((0, 0), text, '#000000', font=font)
+
+        draw.line((0, 0, a4_w, 0), fill='#000000', width=4)
+        draw.line((0, a4_h, a4_w, a4_h), fill='#000000', width=4)
+        draw.line((0, 0, 0, a4_h), fill='#000000', width=4)
+        draw.line((a4_w, 0, a4_w, a4_h), fill='#000000', width=4)
+
+        font_size = 48
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size)
+
+        data = json_read(json_filepath)
+        
+        y_cur = 100
+        x_cur = int(a4_w * 0.05)
+        col_gap = int(a4_w * 0.03)
+
+        rect_w = a4_w//2 - int(a4_w * 0.05) - col_gap//2
+        rect_h = 64
+        
+        font_size_head = 32
+        font_size_list = font_size_head
+        x_text_offset = 32
+
+        # uses
+        draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size_head)
+        text = 'main medicinal uses'.upper()
+        draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        y_cur += rect_h * 1
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size_list)
+        lst = [x['condition_name'] for x in data['uses_list']]
+        y_start = y_cur
+        for _i in range(len(lst)):
+            y_cur = y_start + rect_h*_i
+            if _i % 2 != 0:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
+            else:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
+            draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
+        y_cur += rect_h * 2
+
+        # benefits
+        draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size_head)
+        text = 'primary health benefits'.upper()
+        draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        y_cur += rect_h * 1
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size_list)
+        lst = [x['name'] for x in data['benefits']]
+        y_start = y_cur
+        for _i in range(len(lst)):
+            y_cur = y_start + rect_h*_i
+            if _i % 2 != 0:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
+            else:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
+            draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
+        y_cur += rect_h * 2
+
+        # properties
+        draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size_head)
+        text = 'properties'.upper()
+        draw.text((x_cur, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        y_cur += rect_h * 1
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size_list)
+        lst = [x['property_name'] for x in data['properties']]
+        y_start = y_cur
+        for _i in range(len(lst)):
+            y_cur = y_start + rect_h*_i
+            if _i % 2 != 0:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
+                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+            else:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
+                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+        y_cur += rect_h * 2
+
+        # constituents
+        draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size_head)
+        text = 'constituents'.upper()
+        draw.text((x_cur, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        y_cur += rect_h * 1
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size_list)
+        lst = [x['name'] for x in data['constituents'][:10]]
+        y_start = y_cur
+        for _i in range(len(lst)):
+            y_cur = y_start + rect_h*_i
+            if _i % 2 != 0:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
+                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+            else:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
+                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+        y_cur += rect_h * 2
+
+        y_cur = 100
+        x_cur = a4_w//2 + col_gap//2
+
+        # parts
+        draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size_head)
+        text = 'parts'.upper()
+        draw.text((x_cur, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        y_cur += rect_h * 1
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size_list)
+        lst = [x['name'] for x in data['parts'][:10] if x['total_score'] > score_min]
+        y_start = y_cur
+        for _i in range(len(lst)):
+            y_cur = y_start + rect_h*_i
+            if _i % 2 != 0:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
+                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+            else:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
+                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+        y_cur += rect_h * 2
+
+        # preparations
+        draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size_head)
+        text = 'preparations'.upper()
+        draw.text((x_cur, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        y_cur += rect_h * 1
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size_list)
+        lst = [x['preparation_name'] for x in data['preparations'][:10] if x['preparation_total_score'] > score_min]
+        y_start = y_cur
+        for _i in range(len(lst)):
+            y_cur = y_start + rect_h*_i
+            if _i % 2 != 0:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
+                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+            else:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
+                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+        y_cur += rect_h * 2
+
+        # side effects
+        draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size_head)
+        text = 'side effects'.upper()
+        draw.text((x_cur, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        y_cur += rect_h * 1
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size_list)
+        lst = [x['side_effect_name'] for x in data['side_effects'][:10]]
+        y_start = y_cur
+        for _i in range(len(lst)):
+            y_cur = y_start + rect_h*_i
+            if _i % 2 != 0:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
+                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+            else:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
+                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+        y_cur += rect_h * 2
+
+        # precautions
+        draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
+        font = ImageFont.truetype(font_path, font_size_head)
+        text = 'precautions'.upper()
+        draw.text((x_cur, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        y_cur += rect_h * 1
+
+        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        font = ImageFont.truetype(font_path, font_size_list)
+        lst = [x['precaution_name'] for x in data['precautions'][:10]]
+        y_start = y_cur
+        for _i in range(len(lst)):
+            y_cur = y_start + rect_h*_i
+            if _i % 2 != 0:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
+                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+            else:
+                draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
+                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+        y_cur += rect_h * 2
+
+        image = img_resize(image, w=a4_w, h=a4_h)
+        # image.save(out_1)
+        image.save(out_2)
+        data[key] = src_intro
+        json_write(json_filepath, data)
+
     key = 'uses_image'
     if key not in data: data[key] = ''
     folder = f'{vault}/terrawhisper/images/herbs/uses'
@@ -4201,6 +4437,8 @@ def art_herb_popular(herb, herb_i, herbs):
         article_html += f'<p class="text-bold">Featured Scientific Study:</p>'
         article_html += f'<p class="pb-0 mb-0">{data["intro_study"][0]}</p>'
         article_html += f'</div>\n'
+    article_html += f'<p>CHEATSHEET:</p>\n'
+    article_html += f'<img class="mb-16" src="{src_intro_cheatsheet}" alt="{alt_intro_cheatsheet}">\n'
     article_html += f'<p>This article explains in detail what are the medicinal uses of {herb_name_scientific}, its health benefits, therapeutic properties, bioactive compounds, used parts, and herbal preparation. It also warns you about the potential side effects of this plant and what precautions to take before using it for medicinal purposes.</p>\n'
 
     # ;uses
@@ -4612,7 +4850,7 @@ def art_herb_popular(herb, herb_i, herbs):
     article = components.table_of_contents(article_html)
     html = templates.article(title, header_html, breadcrumbs, meta, article, footer_html)
     file_write(html_filepath, html)
-    # quit()
+    quit()
 
 def art_herb(herb):
     herb_id = herb['herb_id']
@@ -6795,8 +7033,20 @@ def page_home_2():
     article_filepath_out = f'website/{page_url}.html'
     util.file_write(article_filepath_out, html)
 
+def page_mission():
+    html = templates.page_mission()
+    page_url = f'mission'
+    article_filepath_out = f'website/{page_url}.html'
+    util.file_write(article_filepath_out, html)
+
 def page_about():
     html = templates.about_page()
+    page_url = f'about-us'
+    article_filepath_out = f'website/{page_url}.html'
+    util.file_write(article_filepath_out, html)
+
+def page_about_2():
+    html = templates.page_about_2()
     page_url = f'about-us'
     article_filepath_out = f'website/{page_url}.html'
     util.file_write(article_filepath_out, html)
@@ -6807,16 +7057,26 @@ def page_contact():
     article_filepath_out = f'website/{page_url}.html'
     util.file_write(article_filepath_out, html)
 
+def page_contacts_2():
+    html = templates.page_contacts_2()
+    page_url = f'contacts'
+    article_filepath_out = f'website/{page_url}.html'
+    util.file_write(article_filepath_out, html)
+
 
 def main():
     # sitemap.sitemap_all()
     shutil.copy2('sitemap.xml', 'website/sitemap.xml')
     shutil.copy2('style.css', 'website/style.css')
 
+    main_herbs_popular()
+    quit()
+    page_mission()
+    page_about_2()
+    page_contacts_2()
+
     page_home()
     page_home_2()
-    quit()
-    main_herbs_popular()
     main_preparations()
     articles_ailments()
 
@@ -6825,7 +7085,6 @@ def main():
 
     page_systems()
 
-    page_about()
     page_contact()
 
     page_remedies()

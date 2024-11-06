@@ -53,6 +53,18 @@ def footer():
     '''
     return html
 
+def footer_2():
+    html = f'''
+        <footer class="footer-2">
+            <span>© TerraWhisper.com 2024 | All Rights Reserved</span>
+            <div class="flex gap-24">
+                <a href="/privacy-policy.html">Privacy Policy</a>
+                <a href="/cookie-policy.html">Cookie Policy</a>
+            </div>
+        </footer>
+    '''
+    return html
+
 def table_of_contents(content_html):
     table_of_contents_html = ''
     headers = []

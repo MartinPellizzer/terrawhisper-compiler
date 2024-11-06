@@ -1,13 +1,27 @@
 import os
+import json
 import random
 
+import torch
+from diffusers import DiffusionPipeline, StableDiffusionXLPipeline
+from diffusers import DPMSolverMultistepScheduler
+from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
+
 import g
+import util
 from lib import components
 
 from oliark_io import csv_read_rows_to_json
-from oliark_io import json_read
+from oliark_io import json_read, json_write
+from oliark import img_resize, img_resize_save
+from oliark_llm import llm_reply
 
+
+vault = '/home/ubuntu/vault'
 ailments = csv_read_rows_to_json('systems-organs-ailments.csv', debug=True)
+
+checkpoint_filepath = f'{vault}/stable-diffusion/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors'
+pipe = None
 
 def article(title, header, breadcrumbs, meta, article, footer):
     html = f'''
@@ -1193,31 +1207,31 @@ def homepage_2():
                 <div class="flex gap-32">
                     <div class="flex-1">
                         <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
-                        <h3 class="text-18 pt-0">{herbs_popular[0]['plant_name_scientific']}</h2>
+                        <h3 class="text-18 pt-0">{herbs_popular[0]['plant_name_scientific']}</h3>
                         {herbs_popular[0]['properties_html']}
                         <a href="{herbs_popular[0]['url']}" class="inline-block">Discover Plant ></a>
                     </div>
                     <div class="flex-1">
                         <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[1]['plant_slug']}.jpg" alt="">
-                        <h3 class="text-18 pt-0">{herbs_popular[1]['plant_name_scientific']}</h2>
+                        <h3 class="text-18 pt-0">{herbs_popular[1]['plant_name_scientific']}</h3>
                         {herbs_popular[1]['properties_html']}
                         <a href="{herbs_popular[1]['url']}" class="inline-block">Discover Plant ></a>
                     </div>
                     <div class="flex-1">
                         <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[2]['plant_slug']}.jpg" alt="">
-                        <h3 class="text-18 pt-0">{herbs_popular[2]['plant_name_scientific']}</h2>
+                        <h3 class="text-18 pt-0">{herbs_popular[2]['plant_name_scientific']}</h3>
                         {herbs_popular[2]['properties_html']}
                         <a href="{herbs_popular[2]['url']}" class="inline-block">Discover Plant ></a>
                     </div>
                     <div class="flex-1">
                         <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[3]['plant_slug']}.jpg" alt="">
-                        <h3 class="text-18 pt-0">{herbs_popular[3]['plant_name_scientific']}</h2>
+                        <h3 class="text-18 pt-0">{herbs_popular[3]['plant_name_scientific']}</h3>
                         {herbs_popular[3]['properties_html']}
                         <a href="{herbs_popular[3]['url']}" class="inline-block">Discover Plant ></a>
                     </div>
                     <div class="flex-1">
                         <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[4]['plant_slug']}.jpg" alt="">
-                        <h3 class="text-18 pt-0">{herbs_popular[4]['plant_name_scientific']}</h2>
+                        <h3 class="text-18 pt-0">{herbs_popular[4]['plant_name_scientific']}</h3>
                         {herbs_popular[4]['properties_html']}
                         <a href="{herbs_popular[4]['url']}" class="inline-block">Discover Plant ></a>
                     </div>
@@ -1322,51 +1336,71 @@ def homepage_2():
     '''
 
     popular_section = f'''
-        <section class="mt-96 pb-96">
+        <section class="mt-96">
             <div class="container-xl">
                 <h2 class="text-24 mt-0 pt-0">Most Popular Herbs in Our Library</h2>
                 <div class="flex gap-32 mb-16">
                     <div class="flex-1">
                         <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[0]['plant_slug']}.jpg" alt="">
-                        <h3 class="text-18 pt-0">{herbs_popular[0]['plant_name_scientific']}</h2>
+                        <h3 class="text-18 pt-0">{herbs_popular[0]['plant_name_scientific']}</h3>
                         <p>{herbs_popular[0]['description']}...</p>
                     </div>
                     <div class="flex-1">
                         <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[1]['plant_slug']}.jpg" alt="">
-                        <h3 class="text-18 pt-0">{herbs_popular[1]['plant_name_scientific']}</h2>
+                        <h3 class="text-18 pt-0">{herbs_popular[1]['plant_name_scientific']}</h3>
                         <p>{herbs_popular[1]['description']}...</p>
                     </div>
                     <div class="flex-1">
                         <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[2]['plant_slug']}.jpg" alt="">
-                        <h3 class="text-18 pt-0">{herbs_popular[2]['plant_name_scientific']}</h2>
+                        <h3 class="text-18 pt-0">{herbs_popular[2]['plant_name_scientific']}</h3>
                         <p>{herbs_popular[2]['description']}...</p>
                     </div>
                     <div class="flex-1">
                         <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[3]['plant_slug']}.jpg" alt="">
-                        <h3 class="text-18 pt-0">{herbs_popular[3]['plant_name_scientific']}</h2>
+                        <h3 class="text-18 pt-0">{herbs_popular[3]['plant_name_scientific']}</h3>
                         <p>{herbs_popular[3]['description']}...</p>
                     </div>
                 </div>
                 <div class="flex gap-32">
                     <div class="flex-1">
                         <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[4]['plant_slug']}.jpg" alt="">
-                        <h3 class="text-18 pt-0">{herbs_popular[4]['plant_name_scientific']}</h2>
+                        <h3 class="text-18 pt-0">{herbs_popular[4]['plant_name_scientific']}</h3>
                         <p>{herbs_popular[4]['description']}...</p>
                     </div>
                     <div class="flex-1">
                         <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[5]['plant_slug']}.jpg" alt="">
-                        <h3 class="text-18 pt-0">{herbs_popular[5]['plant_name_scientific']}</h2>
+                        <h3 class="text-18 pt-0">{herbs_popular[5]['plant_name_scientific']}</h3>
                         <p>{herbs_popular[5]['description']}...</p>
                     </div>
                     <div class="flex-1">
                         <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[6]['plant_slug']}.jpg" alt="">
-                        <h3 class="text-18 pt-0">{herbs_popular[6]['plant_name_scientific']}</h2>
+                        <h3 class="text-18 pt-0">{herbs_popular[6]['plant_name_scientific']}</h3>
                         <p>{herbs_popular[6]['description']}...</p>
                     </div>
                     <div class="flex-1">
                         <img class="object-cover rounded-16 mb-24" src="/images/herbs/{herbs_popular[7]['plant_slug']}.jpg" alt="">
-                        <h3 class="text-18 pt-0">{herbs_popular[7]['plant_name_scientific']}</h2>
+                        <h3 class="text-18 pt-0">{herbs_popular[7]['plant_name_scientific']}</h3>
                         <p>{herbs_popular[7]['description']}...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
+    about_section = f'''
+        <section class="mt-96">
+            <div class="container-xl">
+                <div class="flex gap-96 mb-16">
+                    <div class="flex-2">
+                        <h2 class="helvetica-regular pt-0 pb-16">About Terrawhisper</h2>
+                        <p>Welcome to Terrawhisper, your premier online destination for healing herbs. As the owner and curator, I invite you to discover the world of Terrawhisper, where ancient herbalism meets modern wisdom.</p>
+                        <p>Our vast collection offers a wealth of information and guidance for those seeking a deeper connection with nature. From soothing lavender to restorative chamomile, explore our library and discover the transformative power of herbs for your life.</p>
+                        <p>If you want to know more about Terrawhisper, <a href="/about.html">visit our about page</a>.</p>
+                    </div>
+                    <div class="flex-1 flex flex-col items-center text-center">
+                        <img class="home-about-image" src="/images-static/leen-randell.jpg" alt="">
+                        <p class="helvetica-bold text-24">Leen Randell</p>
+                        <p>Herbalist & Healer, always hunting for new medicinal plants and scientific researches to expand my knowledge on natural remedies.</p>
                     </div>
                 </div>
             </div>
@@ -1395,9 +1429,10 @@ def homepage_2():
                 {benefits_section}
                 {why_us_section}
                 {popular_section}
+                {about_section}
             </main>
             <div class="mt-64"></div>
-            {components.footer()}
+            {components.footer_2()}
             {g.COOKIE_CONSENT} 
         </body>
         </html>
@@ -1405,3 +1440,354 @@ def homepage_2():
     return html
                 #{section_articles}
 
+def page_about_2():
+    json_filepath = 'tmp/about-info-asked.json'
+    if 0:
+        prompt = f'''
+            I have a brand called "terrawhisper", which is an online encyclopedia of medicinal herbs. 
+            I have to write an "about us" page for our website.
+            What info do you need so you can write me an 800-word about us page that's compelling to read?
+            Don't ask for info about "mission statement" and what is the "vision for the future", as the "our mission" page is a separate page.
+            Don't ask for info about "contact information", as it goes in a separate page.
+            Reply in JSON format using the structure extracted from the following example:
+            [
+                {{"info_name": "insert name of info here", "info_description": "insert description of info here"}},
+                {{"info_name": "insert name of info here", "info_description": "insert description of info here"}},
+                {{"info_name": "insert name of info here", "info_description": "insert description of info here"}}
+            ]
+            Reply only with the JSON, don't add additional content.
+        '''
+        reply = llm_reply(prompt)
+        try: json_data = json.loads(reply)
+        except: json_data = '' 
+        json_write(json_filepath, json_data)
+
+    if 0:
+        prompt = f'''
+            Write me an outline for the "about me" page of my website.
+            The website is an online encyclopedia of medicinal herbs.
+            Don't include mission and vision, as they go to another page.
+        '''
+        reply = llm_reply(prompt)
+        with open('tmp/outline.txt', 'w') as f:
+            f.write(reply)
+    
+    if 0:
+        with open('tmp/outline-final.txt') as f: content = f.read()    
+        content = content.split('\n')[0].strip()
+        prompt = f'''
+            I have to write a section for an about me page for my website.
+            The website is an online encyclopedia of medicinal herbs.
+            The topic of the section is: {content}.
+            What info do you need to write this section in a compelling way?
+            The section should be about 100-word long.
+        '''
+        reply = llm_reply(prompt)
+
+    if 0:
+        with open('tmp/introduction.txt') as f: content = f.read()    
+        content = content.split('\n')[0].strip()
+        prompt = f'''
+            Write me a 100-word section for an "about me" page for my website that's called "Terrawhisper", which is and online encyclopedia of medicinal herbs.
+            Here's the outline and the info you need:
+            {content}.
+            Start with the following words: "Dear Friend, ".
+        '''
+        reply = llm_reply(prompt)
+
+    # expertise
+    if 0:
+        with open('tmp/expertise.txt') as f: content = f.read()    
+        content = content.split('\n')[0].strip()
+        prompt = f'''
+            I have to write a section for an about me page for my website.
+            The website is an online encyclopedia of medicinal herbs.
+            The topic of the section is: {content}.
+            What info do you need to write this section in a compelling way?
+            The section should be about 100-word long.
+        '''
+        reply = llm_reply(prompt)
+        with open('tmp/expertise-final.txt', 'w') as f: f.write(reply)
+
+    # terrawhisper story
+    if 0:
+        with open('tmp/terrawhisper-story.txt') as f: content = f.read()    
+        content = content.split('\n')[0].strip()
+        prompt = f'''
+            I have to write a section for an about me page for my website.
+            The website is an online encyclopedia of medicinal herbs.
+            The topic of the section is: {content}.
+            What info do you need to write this section in a compelling way?
+            The section should be about 100-word long.
+        '''
+        reply = llm_reply(prompt)
+        with open('tmp/expertise-final.txt', 'w') as f: f.write(reply)
+
+    # about me
+    if 0:
+        with open('tmp/introduction-final.txt') as f: info = f.read()    
+        with open('tmp/outline-final.txt') as f: outline = f.read()    
+        prompt = f'''
+            I have to write a 800-word about me page for my website using the following OUTLINE and INFORMATION.
+            The website is an online encyclopedia of medicinal herbs.
+            <OUTLINE>
+            {outline}
+            </OUTLINE>
+            <INFORMATION>
+            {info}
+            </INFORMATION>
+            Start with the following words: "Dear Friend, ".
+        '''
+        reply = llm_reply(prompt)
+        with open('tmp/about.txt', 'w') as f: f.write(reply)
+
+    with open('content/about.txt') as f: 
+        content = f.read()
+    
+    lines = []
+    for line in content.strip().split('\n'):
+        line = line.strip()
+        if line == '': continue
+        tmp_line = line.split('.')
+        if len(tmp_line) > 3:
+            lines.append(f'{util.text_format_1N1_html(line)}')
+        else:
+            lines.append(f'<p>{line}</p>')
+
+    content = ''.join(lines)
+
+    section = f'''
+        <section class="">
+            <div class="container-xl">
+                <div class="flex gap-96">
+                    <div class="flex-3">
+                        <h1>About Terrawhisper</h1>
+                        <p>{content}</p>
+                    </div>
+                    <div class="flex-1 flex flex-col items-center text-center">
+                        <img class="home-about-image" src="/images-static/leen-randell.jpg" alt="">
+                        <p class="helvetica-bold text-24">Leen Randell</p>
+                        <p>Herbalist & Healer, always hunting for new medicinal plants and scientific researches to expand my knowledge on natural remedies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="{g.AUTHOR_NAME}">
+            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+            <link rel="stylesheet" href="/style.css">
+            <title>Use Medicinal Herbs to Heal Naturally</title>
+            {g.GOOGLE_TAG}
+            {g.GOOGLE_ADSENSE_TAG}
+        </head>
+        <body>
+            {components.header_2()}
+            <main>
+                {section}
+            </main>
+            <div class="mt-64"></div>
+            {components.footer_2()}
+            {g.COOKIE_CONSENT} 
+        </body>
+        </html>
+    '''
+
+    return html 
+
+def page_mission():
+    global pipe
+    if pipe == None:
+        pipe = StableDiffusionXLPipeline.from_single_file(
+            checkpoint_filepath, 
+            torch_dtype=torch.float16, 
+            use_safetensors=True, 
+            variant="fp16"
+        ).to('cuda')
+        pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
+
+    image = Image.open(f'{vault}/terrawhisper/images-static/terrawhisper-botanical-garden.png')
+    image = image.convert('RGB')
+    width = 832
+    height = 1216
+    image = img_resize(image, w=width//2, h=height//2)
+    image.save(f'website/images-static/terrawhisper-botanical-garden.jpg')
+
+    image = Image.open(f'{vault}/terrawhisper/images-static/terrawhisper-apothecary.png')
+    image = image.convert('RGB')
+    width = 832
+    height = 1216
+    image = img_resize(image, w=width//2, h=height//2)
+    image.save(f'website/images-static/terrawhisper-apothecary.jpg')
+
+    if 0:
+        prompt = f'''
+            Write me an outline for the "our mission" page of my website.
+            The website is an online encyclopedia of medicinal herbs.
+        '''
+        reply = llm_reply(prompt)
+        with open('tmp/output.txt', 'w') as f:
+            f.write(reply)
+    
+    if 0:
+        with open('tmp/output.txt') as f: outline = f.read()
+        with open('/home/ubuntu/vault/terrawhisper/marketing/identity.txt') as f: data = f.read()
+
+        prompt = f'''
+            Write the "our mission" page for a website that's an online encyclopedia of medicinal herbs.
+            Reply in 800 words.
+            Don't write lists.
+            Use the folloing OUTLINE and fill it with the following DATA when applicable.
+            <OUTLINE>
+                {outline}
+            </OUTLINE>
+            <DATA>
+                {data}
+            </DATA>
+        '''
+        reply = llm_reply(prompt)
+
+    with open('content/mission.txt') as f: 
+        content = f.read()
+    
+    lines = []
+    for line in content.strip().split('\n'):
+        line = line.strip()
+        if line == '': continue
+        tmp_line = line.split('.')
+        if len(tmp_line) > 3:
+            lines.append(f'{util.text_format_1N1_html(line)}')
+        else:
+            lines.append(f'<p>{line}</p>')
+
+    content = ''.join(lines)
+    section = f'''
+        <section class="">
+            <div class="container-xl">
+                <div class="flex gap-96">
+                    <div class="flex-2">
+                        <h1>Terrawhisper Mission</h1>
+                        <p>{content}</p>
+                    </div>
+                    <div class="flex-1 flex flex-col items-center text-center gap-32">
+                        <img class="" src="/images-static/terrawhisper-botanical-garden.jpg" alt="">
+                        <img class="" src="/images-static/terrawhisper-apothecary.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
+    if 0:
+        prompt = f'''
+            Write me an outline for the "our mission" page of my website.
+            The website is an online encyclopedia of medicinal herbs.
+        '''
+        reply = llm_reply(prompt)
+        with open('tmp/output.txt', 'w') as f:
+            f.write(reply)
+    
+
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="{g.AUTHOR_NAME}">
+            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+            <link rel="stylesheet" href="/style.css">
+            <title>Use Medicinal Herbs to Heal Naturally</title>
+            {g.GOOGLE_TAG}
+            {g.GOOGLE_ADSENSE_TAG}
+        </head>
+        <body>
+            {components.header_2()}
+            <main>
+                {section}
+            </main>
+            <div class="mt-64"></div>
+            {components.footer_2()}
+            {g.COOKIE_CONSENT} 
+        </body>
+        </html>
+    '''
+
+    return html 
+
+def page_contacts_2():
+    if 0:
+        prompt = f'''
+            Write me an outline for the "contacts" page of my website.
+            The website is an online encyclopedia of medicinal herbs.
+        '''
+        reply = llm_reply(prompt)
+        with open('tmp/output.txt', 'w') as f:
+            f.write(reply)
+    
+    section = f'''
+        <section class="">
+            <div class="container-xl">
+                <div class="flex gap-96">
+                    <div class="flex-2">
+                        <h1>Terrawhisper Contacts</h1>
+                        <p>Send me an email at <u>leenrandell@gmail.com</u> if you want to contact me.</p>
+                        <h2 class="text-32">Valid Reasons to Contact Me</h2>
+                        <p>Please contact me only if you have one of the following reasons:</p>
+                        <ul>
+                            <li>Do you have a particular herb in mind that's missing at Terrawhisper and that you want me to cover? If so, send me an email with the scientific name (not common name) of that herb, along with a brief description on why you believe is an herb with great medicinal potential. Please note that there's a waiting line and that I'm already vetting dozens of requested herbs. It will take some time for me to serve your request.</li>
+                            <li>Do you have a partnership proposal in mind and want to establish a collaboration with Terrawhisper? If so, send me an email with your request, I'm always happy to hear new ideas and ways to make the world grow greener thanks to the help of everyone.</li>
+                            <li>Do you believe you have great feedback to offer to the site in terms of missing pieces of information about a herb or information that you think are wrong? If so, send me an email and I will double-check the library. Please, be ultra-specific on the page and the information to update. It's better if you send me a link to the page.</li>
+                        </ul>
+                        <p>IMPORTANT: If you contact me to ask to add a piece on info on one of our article, please understand that we only add info that has is validated by several different data point. I do not accept "anecdotal" or "word-of-mouth" information (i.e. information that has not being validated by at least a couple of scientific papers).</p>
+                        <h2 class="text-32">NON Valid Reasons to Contact Me</h2>
+                        <p>Simply put, I'm not open for some types of business requests. In particular:</p>
+                        <ul>
+                            <li>Do not contact me to ask me to sell your herbs (this happens too often). Terrawhisper is not an ecommerce.</li>
+                            <li>Do not contact me to sell advertising space. I'm in the process of doing that with leading display-ad networks.</li>
+                        </ul>
+                    </div>
+                    <div class="flex-1 flex flex-col items-center text-center gap-32">
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
+
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="author" content="{g.AUTHOR_NAME}">
+            <meta name="p:domain_verify" content="b3cb3dbe613e3700596c8f50c5208042"/>
+            <link rel="stylesheet" href="/style.css">
+            <title>Use Medicinal Herbs to Heal Naturally</title>
+            {g.GOOGLE_TAG}
+            {g.GOOGLE_ADSENSE_TAG}
+        </head>
+        <body>
+            {components.header_2()}
+            <main>
+                {section}
+            </main>
+            <div class="mt-64"></div>
+            {components.footer_2()}
+            {g.COOKIE_CONSENT} 
+        </body>
+        </html>
+    '''
+
+    return html 
+
+# TODO: complete homepage
+# fix images, links, num of plant, index of plants
