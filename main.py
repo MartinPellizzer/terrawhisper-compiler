@@ -2366,37 +2366,44 @@ def art_herb_popular(herb, herb_i, herbs):
     # if os.path.exists(out_2): os.remove(out_2)
     if not os.path.exists(folder): os.makedirs(folder)
     if key not in data: data[key] = ''
-    # if not os.path.exists(out_2):
-    if True:
+    if not os.path.exists(out_2):
+    # if True:
+        data = json_read(json_filepath)
+
         a4_w = 2480
         a4_h = 3508
         image = Image.new('RGB', (a4_w, a4_h), '#ffffff')
-        draw = ImageDraw.Draw(image)
-        font_size = 100
-        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
-        font = ImageFont.truetype(font_path, font_size)
-        text = f'{herb_name_scientific} Medicinal Cheatsheet'.upper()
-        draw.text((0, 0), text, '#000000', font=font)
 
+        draw = ImageDraw.Draw(image)
+        '''
         draw.line((0, 0, a4_w, 0), fill='#000000', width=4)
         draw.line((0, a4_h, a4_w, a4_h), fill='#000000', width=4)
         draw.line((0, 0, 0, a4_h), fill='#000000', width=4)
         draw.line((a4_w, 0, a4_w, a4_h), fill='#000000', width=4)
+        '''
 
-        font_size = 48
-        font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
+        y_cur = 64
+
+        font_size = 80
+        font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size)
+        text = f'{herb_name_scientific} Cheatsheet'.upper()
+        _, _, text_w, text_h = font.getbbox(text)
+        draw.text((a4_w//2 - text_w//2, y_cur), text, '#000000', font=font)
 
-        data = json_read(json_filepath)
-        
-        y_cur = 100
-        x_cur = int(a4_w * 0.05)
         col_gap = int(a4_w * 0.03)
+        x_cur = int(a4_w * 0.05)
+
+        y_divider = y_cur + font_size + y_cur//2
+        draw.line((x_cur, y_divider, a4_w - x_cur, y_divider), fill='#cdcdcd', width=4)
+        y_content = y_divider + int(y_cur*1.5)
+
+        y_cur = y_content
 
         rect_w = a4_w//2 - int(a4_w * 0.05) - col_gap//2
         rect_h = 64
-        
-        font_size_head = 32
+
+        font_size_head = 30
         font_size_list = font_size_head
         x_text_offset = 32
 
@@ -2449,8 +2456,8 @@ def art_herb_popular(herb, herb_i, herbs):
 
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
-        text = 'properties'.upper()
-        draw.text((x_cur, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        text = 'dominant therapeutic properties'.upper()
+        draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
 
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
@@ -2461,10 +2468,9 @@ def art_herb_popular(herb, herb_i, herbs):
             y_cur = y_start + rect_h*_i
             if _i % 2 != 0:
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
-                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
             else:
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
-                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+            draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
 
         # constituents
@@ -2472,8 +2478,8 @@ def art_herb_popular(herb, herb_i, herbs):
 
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
-        text = 'constituents'.upper()
-        draw.text((x_cur, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        text = 'major healing constituents'.upper()
+        draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
 
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
@@ -2484,13 +2490,12 @@ def art_herb_popular(herb, herb_i, herbs):
             y_cur = y_start + rect_h*_i
             if _i % 2 != 0:
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
-                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
             else:
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
-                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+            draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
 
-        y_cur = 100
+        y_cur = y_content
         x_cur = a4_w//2 + col_gap//2
 
         # parts
@@ -2498,8 +2503,8 @@ def art_herb_popular(herb, herb_i, herbs):
 
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
-        text = 'parts'.upper()
-        draw.text((x_cur, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        text = 'most used parts'.upper()
+        draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
 
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
@@ -2510,10 +2515,9 @@ def art_herb_popular(herb, herb_i, herbs):
             y_cur = y_start + rect_h*_i
             if _i % 2 != 0:
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
-                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
             else:
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
-                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+            draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
 
         # preparations
@@ -2521,8 +2525,8 @@ def art_herb_popular(herb, herb_i, herbs):
 
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
-        text = 'preparations'.upper()
-        draw.text((x_cur, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        text = 'most common preparations'.upper()
+        draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
 
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
@@ -2533,10 +2537,9 @@ def art_herb_popular(herb, herb_i, herbs):
             y_cur = y_start + rect_h*_i
             if _i % 2 != 0:
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
-                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
             else:
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
-                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+            draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
 
         # side effects
@@ -2544,8 +2547,8 @@ def art_herb_popular(herb, herb_i, herbs):
 
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
-        text = 'side effects'.upper()
-        draw.text((x_cur, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        text = 'abusing side effects'.upper()
+        draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
 
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
@@ -2556,10 +2559,9 @@ def art_herb_popular(herb, herb_i, herbs):
             y_cur = y_start + rect_h*_i
             if _i % 2 != 0:
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
-                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
             else:
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
-                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+            draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
 
         # precautions
@@ -2567,8 +2569,8 @@ def art_herb_popular(herb, herb_i, herbs):
 
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
-        text = 'precautions'.upper()
-        draw.text((x_cur, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
+        text = 'precautions to take'.upper()
+        draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
 
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
@@ -2579,13 +2581,25 @@ def art_herb_popular(herb, herb_i, herbs):
             y_cur = y_start + rect_h*_i
             if _i % 2 != 0:
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#e5e5e5')
-                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
             else:
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
-                draw.text((x_cur, y_cur + (rect_h//2) - (font_size_list//2)), lst[_i].capitalize(), '#000000', font=font)
+            draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
 
-        image = img_resize(image, w=a4_w, h=a4_h)
+        # footer
+        text = 'Copyright Terrawhisper.com | Sharing this cheatsheet requires attribution (to Terrawhisper) | Selling this cheatsheet is not allowed'
+        _, _, text_w, text_h = font.getbbox(text)
+        y_cur = a4_h
+        x_cur = int(a4_w * 0.05)
+        draw.line((x_cur, y_cur - 32 - 32 - 32, a4_w - x_cur, y_cur - 32 - 32 - 32), fill='#cdcdcd', width=4)
+        draw.text((a4_w//2 - text_w//2, y_cur - 32 - 32), text, '#000000', font=font)
+
+        image_logo = Image.open('website/images-static/terrawhisper-logo.jpg')
+        logo_w, logo_h = image_logo.size
+        image_logo = img_resize(image_logo, w=int(logo_w*0.5), h=int(logo_h*0.5))
+        logo_w, logo_h = image_logo.size
+        image.paste(image_logo, (int(a4_w - logo_w - (a4_w*0.05)), int(y_cur - 32 - 32 - 32 - logo_h - 64)))
+
         # image.save(out_1)
         image.save(out_2)
         data[key] = src_intro
@@ -3193,19 +3207,19 @@ def art_herb_popular(herb, herb_i, herbs):
         json_write(json_filepath, data)
         return
 
+    # TODO: use json data in the description
     key = 'intro_description'
     if key not in data: data[key] = ''
-    # data[key] = ''
+    data[key] = ''
     if data[key] == '':
         prompt = f'''
-            Write a 5-sentence short itroductive paragraph for an article about the {herb_name_scientific} herb.
-            Include what main medicinal uses this herb has, in terms of health conditions it helps.
+            Write a 5-sentence detailed itroductive paragraph for an article about the {herb_name_scientific} herb.
+            Start by stating what main medicinal uses this herb has, in terms of health conditions it helps.
             Include what main health benefits this herb has.
             Include what main therapeutic properties this herb has.
             Include what main bioactive compounds this herb has.
             Include what main herbal preparation people make with this herb.
             Start with the following words: {herb_name_scientific.capitalize()}, commonly known as {data['common_names'][0]['common_name']}, .
-            Write the as few words as possible.
             Don't write fluff, only proven facts.
             Don't allucinate.
         '''
@@ -4434,12 +4448,60 @@ def art_herb_popular(herb, herb_i, herbs):
     article_html += f'{util.text_format_1N1_html(data["intro_description"])}\n'
     if data['intro_study'] != []:
         article_html += f'<div class="study-featured">'
-        article_html += f'<p class="text-bold">Featured Scientific Study:</p>'
+        article_html += f'<p class="text-bold">Featured Study:</p>'
         article_html += f'<p class="pb-0 mb-0">{data["intro_study"][0]}</p>'
         article_html += f'</div>\n'
-    article_html += f'<p>CHEATSHEET:</p>\n'
-    article_html += f'<img class="mb-16" src="{src_intro_cheatsheet}" alt="{alt_intro_cheatsheet}">\n'
-    article_html += f'<p>This article explains in detail what are the medicinal uses of {herb_name_scientific}, its health benefits, therapeutic properties, bioactive compounds, used parts, and herbal preparation. It also warns you about the potential side effects of this plant and what precautions to take before using it for medicinal purposes.</p>\n'
+    article_html += f'<p>The following article explains in detail what are the medicinal uses of {herb_name_scientific}, its health benefits, therapeutic properties, bioactive compounds, used parts, and herbal preparation. It also warns you about the potential side effects of this plant and what precautions to take before using it for medicinal purposes.</p>\n'
+    article_html += f'<p><strong>ARTICLE SUMMARY:</strong> The table below summarizes the most crucial information about {herb_name_scientific} provided in the article below, which is useful if you are in a hurry and don\'t have time to dig deep into the very detailed content that follows.</p>\n'
+    article_html += f'<table>\n'
+    article_html += f'<tr>\n'
+    article_html += f'<th>Medicinal Aspect</th>\n'
+    article_html += f'<th>Summary</th>\n'
+    article_html += f'</tr>\n'
+    lst = ', '.join([x['condition_name'].capitalize() for x in data['uses_list'][:10]])
+    article_html += f'<tr>\n'
+    article_html += f'<td>Uses</td>\n'
+    article_html += f'<td>{lst}</td>\n'
+    article_html += f'</tr>\n'
+    lst = ', '.join([x['name'].capitalize() for x in data['benefits'][:10]])
+    article_html += f'<tr>\n'
+    article_html += f'<td>Benefits</td>\n'
+    article_html += f'<td>{lst}</td>\n'
+    article_html += f'</tr>\n'
+    lst = ', '.join([x['property_name'].capitalize() for x in data['properties'][:10]])
+    article_html += f'<tr>\n'
+    article_html += f'<td>Properties</td>\n'
+    article_html += f'<td>{lst}</td>\n'
+    article_html += f'</tr>\n'
+    lst = ', '.join([x['name'].capitalize() for x in data['constituents'][:10]])
+    article_html += f'<tr>\n'
+    article_html += f'<td>Constituents</td>\n'
+    article_html += f'<td>{lst}</td>\n'
+    article_html += f'</tr>\n'
+    lst = ', '.join([x['name'].capitalize() for x in data['parts'][:10] if x['total_score'] > score_min])
+    article_html += f'<tr>\n'
+    article_html += f'<td>Parts</td>\n'
+    article_html += f'<td>{lst}</td>\n'
+    article_html += f'</tr>\n'
+    lst = ', '.join([x['preparation_name'].capitalize() for x in data['preparations'][:10] if x['preparation_total_score'] > score_min])
+    article_html += f'<tr>\n'
+    article_html += f'<td>Preparations</td>\n'
+    article_html += f'<td>{lst}</td>\n'
+    article_html += f'</tr>\n'
+    lst = ', '.join([x['side_effect_name'].capitalize() for x in data['side_effects'][:10]])
+    article_html += f'<tr>\n'
+    article_html += f'<td>Side Effects</td>\n'
+    article_html += f'<td>{lst}</td>\n'
+    article_html += f'</tr>\n'
+    lst = ', '.join([x['precaution_name'].capitalize() for x in data['precautions'][:10]])
+    article_html += f'<tr>\n'
+    article_html += f'<td>Precaution</td>\n'
+    article_html += f'<td>{lst}</td>\n'
+    article_html += f'</tr>\n'
+    article_html += f'</table>\n'
+    article_html += f'<p><strong>BONUS CHEATSHEET:</strong> The cheatsheet below illustrates the most important medicinal aspects of {herb_name_scientific}. Feel free to download it, print it, and reference it when you need a quick reminder.</p>\n'
+    # ;cheatsheet
+    article_html += f'<img class="mb-48" src="{src_intro_cheatsheet}" alt="{alt_intro_cheatsheet}">\n'
 
     # ;uses
     article_html += f'<h2>What are the main medicinal uses of {herb_name_scientific}?</h2>\n'
@@ -4468,7 +4530,6 @@ def art_herb_popular(herb, herb_i, herbs):
         article_html += f'<td>{ailments}</td>\n'
         article_html += f'</tr>\n'
     article_html += f'</table>\n'
-
     for medicinal_system in medicinal_systems:
         medicinal_system_dash = medicinal_system.replace(' ', '-')
         medicinal_system_underline = medicinal_system.replace(' ', '_')
@@ -4850,7 +4911,7 @@ def art_herb_popular(herb, herb_i, herbs):
     article = components.table_of_contents(article_html)
     html = templates.article(title, header_html, breadcrumbs, meta, article, footer_html)
     file_write(html_filepath, html)
-    quit()
+    # quit()
 
 def art_herb(herb):
     herb_id = herb['herb_id']
