@@ -31,7 +31,6 @@ def header_2():
         <header class="header-2">
             <a class="" href="/"><img height="96" src="/images-static/terrawhisper-logo.jpg" alt="logo of terrawhisper"></a>
             <nav class="header-nav">
-                <a class="text-black no-underline" href="/introduction.html">Start Here</a>
                 <a class="text-black no-underline" href="/mission.html">Mission</a>
                 <a class="text-black no-underline" href="/about-us.html">About</a>
                 <a class="text-black no-underline" href="/contacts.html">Contacts</a>
@@ -39,6 +38,7 @@ def header_2():
             </nav>
         </header>
     '''
+                # <a class="text-black no-underline" href="/introduction.html">Start Here</a>
     return html
 
 def footer():

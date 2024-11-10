@@ -53,8 +53,8 @@ model = model_8b
 
 db_path = f'{vault}/{proj_name}/database/{proj_name}'
 
-header_html = components.header()
-footer_html = components.footer()
+header_html = components.header_2()
+footer_html = components.footer_2()
 
 with open('assets/scripts/google-adsense.txt') as f: google_adsense_tag = f.read()
 
@@ -5494,7 +5494,7 @@ def gen_herb_medicine_precautions__precaution_desc(json_filepath, data, obj, art
 
 def page_herbs_new():
     # page_herbs_main()
-    page_herbs_popular()
+    # page_herbs_popular()
     page_herbs_all()
 
 def page_herbs_main():
@@ -5515,7 +5515,6 @@ def page_herbs_main():
             if not found:
                 herbs_popular.append(obj)
     herbs_popular = sorted(herbs_popular, key=lambda x: x['confidence_score'], reverse=True)[:10]
-
     cards_html = ''
     for herb in herbs_popular:
         herb_name_scientific = herb['plant_name_scientific']
@@ -5537,7 +5536,6 @@ def page_herbs_main():
             </div>
         '''
         cards_html += card_html
-
     html_filepath = f'website/herbs.html'
     breadcrumbs_html = util.breadcrumbs(html_filepath)
     html_title = f'List Of The Most Used Medicinal Herbs For Better Health'
@@ -5609,7 +5607,6 @@ def page_herbs_popular():
             herb_slug = herb_name_scientific.lower().strip().replace(' ', '-')
             links.append(f'<a href="/herbs/{herb_slug}.html">{herb_name_scientific.capitalize()}</a>')
         links = ''.join(links)
-
         cards_html = ''
         for herb in herbs:
             herb_name_scientific = herb['plant_name_scientific']
@@ -5645,7 +5642,6 @@ def page_herbs_popular():
                 </div>
             '''
             cards_html += card_html
-
         pagination_html = ''
         pagination_html += f'<a href="/herbs/popular/page-{page_i-1}.html">&lt;</a>'
         for j in range(len(herbs_llst)):
@@ -5700,15 +5696,34 @@ def page_herbs_popular():
         page_i += 1
 
 def page_herbs_all():
-    herbs = csv_read_rows_to_json(g.CSV_HERBS_FILEPATH)
-
+    herbs_popular = []
+    for ailment_i, ailment in enumerate(ailments):
+        system_slug = ailment['system_slug']
+        ailment_slug = ailment['ailment_slug']
+        url = f'remedies/{system_slug}-system/{ailment_slug}'
+        json_filepath = f'database/json/{url}.json'
+        data = json_read(json_filepath, create=True)
+        for obj in data['herbs']:
+            found = False
+            for herb in herbs_popular:
+                if obj['plant_name_scientific'] == herb['plant_name_scientific']:
+                    herb['confidence_score'] += obj['confidence_score']
+                    found = True
+                    break
+            if not found:
+                herbs_popular.append(obj)
+    herbs_popular = sorted(herbs_popular, key=lambda x: x['confidence_score'], reverse=True)
+    herbs = [{
+        'herb_name_scientific': x['plant_name_scientific'],
+        'herb_slug': x['plant_name_scientific'].lower().strip().replace(' ', '-'),
+        'confidence_score': x['confidence_score'],
+    } for x in herbs_popular]
     page_i = 0
     herb_i = 0
-    herb_num_x_page = 30
+    herb_num_x_page = 20
     pages = []
     curr_page = []
     for herb in herbs:
-        print(herb)
         herb_slug = herb['herb_slug']
         herb_name_scientific = herb['herb_name_scientific']
         curr_page.append([herb_slug, herb_name_scientific])
@@ -5718,7 +5733,7 @@ def page_herbs_all():
             herb_i = 0
             pages.append(curr_page)
             curr_page = []
-
+    pages.append(curr_page)
     page_i = 1
     for page in pages:
         print(page)
@@ -5735,20 +5750,6 @@ def page_herbs_all():
                 if os.path.exists(filepath_in):
                     image = Image.open(filepath_in)
                     image = img_resize(image)
-                    '''
-                    draw = ImageDraw.Draw(image)
-                    font_size = 36
-                    font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
-                    font = ImageFont.truetype(font_path, font_size)
-                    rect_h = 120
-                    text = f'{herb_name_scientific}'.upper()
-                    _, _, text_w, text_h = font.getbbox(text)
-                    draw.rectangle(((0, 768 - rect_h), (768, 768)), '#000000')
-                    draw.text((768//2 - text_w//2, 768-font_size*2*1.2-10), text, '#ffffff', font=font)
-                    text = f'Herbal {preparation_name_singular}'.upper()
-                    _, _, text_w, text_h = font.getbbox(text)
-                    draw.text((768//2 - text_w//2, 768-font_size*1.2-10), text, '#ffffff', font=font)
-                    '''
                     image.save(filepath_out)
             card_html = f'''
                 <div>
@@ -5757,15 +5758,13 @@ def page_herbs_all():
                 </div>
             '''
             cards_html += card_html
-
         pagination_html = ''
-        print(page_i)
         if page_i == 1:
             pagination_html += f'<a class="inline-block no-underline text-black" href="#">&lt;</a>'
         elif page_i == 2:
-            pagination_html += f'<a class="inline-block no-underline text-black" href="/herbs/all.html">&lt;</a>'
+            pagination_html += f'<a class="inline-block no-underline text-black" href="/herbs.html">&lt;</a>'
         else:
-            pagination_html += f'<a class="inline-block no-underline text-black" href="/herbs/all/page-{page_i-1}.html">&lt;</a>'
+            pagination_html += f'<a class="inline-block no-underline text-black" href="/herbs/page-{page_i-1}.html">&lt;</a>'
         for j in range(len(pages)):
             if j + 1 == page_i:
                 pagination_html += f'''
@@ -5773,25 +5772,23 @@ def page_herbs_all():
                 '''
             elif j + 1 == 1:
                 pagination_html += f'''
-                    <a class="inline-block no-underline text-black" href="/herbs/all.html">{j+1}</a>
+                    <a class="inline-block no-underline text-black" href="/herbs.html">{j+1}</a>
                 '''
             else:
                 pagination_html += f'''
-                    <a class="inline-block no-underline text-black" href="/herbs/all/page-{j+1}.html">{j+1}</a>
+                    <a class="inline-block no-underline text-black" href="/herbs/page-{j+1}.html">{j+1}</a>
                 '''
         if page_i == len(pages):
             pagination_html += f'<a class="inline-block no-underline text-black" href="#">&gt;</a>'
         else:
-            pagination_html += f'<a class="inline-block no-underline text-black" href="/herbs/all/page-{page_i+1}.html">&gt;</a>'
-
+            pagination_html += f'<a class="inline-block no-underline text-black" href="/herbs/page-{page_i+1}.html">&gt;</a>'
         # html_filepath = f'website/herbs/page/{page_i}.html'
         # os.remove(html_filepath)
         html_title = f'List Of The Most Used Medicinal Herbs For Better Health'
-        html_intro = f'The following list shows the best medicinal herbs to improve health and to heal ailments. Click on any of the following herbs to discover its medicinal aspects and much more. We decided to list the scientific names instead of the common ones to eliminiate ambiguity.'
-
+        html_intro = f'The following list shows the best medicinal herbs to improve health and to heal ailments. Click on any of the following herbs to discover its medicinal aspects and much more.'
         ## category page (page 1 - canonical)
         if page_i == 1:
-            html_filepath = f'website/herbs/all.html'
+            html_filepath = f'website/herbs.html'
             breadcrumbs_html = util.breadcrumbs(html_filepath)
             html = f'''
                 <!DOCTYPE html>
@@ -5804,7 +5801,6 @@ def page_herbs_all():
                     <link rel="stylesheet" href="/style.css">
                     <title>{html_title}</title>
                     {g.GOOGLE_TAG}
-
                 </head>
                 <body>
                     {header_html}
@@ -5832,9 +5828,8 @@ def page_herbs_all():
                 </html>
             '''
             util.file_write(html_filepath, html)
-
         else:
-            html_filepath = f'website/herbs/all/page-{page_i}.html'
+            html_filepath = f'website/herbs/page-{page_i}.html'
             breadcrumbs_html = util.breadcrumbs(html_filepath)
             html = f'''
                 <!DOCTYPE html>
@@ -5847,7 +5842,6 @@ def page_herbs_all():
                     <link rel="stylesheet" href="/style.css">
                     <title>{html_title}</title>
                     {g.GOOGLE_TAG}
-                    
                 </head>
                 <body>
                     {header_html}
@@ -5875,7 +5869,6 @@ def page_herbs_all():
                 </html>
             '''
             util.file_write(html_filepath, html)
-
         page_i += 1
 
 
@@ -7130,19 +7123,19 @@ def main():
     shutil.copy2('sitemap.xml', 'website/sitemap.xml')
     shutil.copy2('style.css', 'website/style.css')
 
-    main_herbs_popular()
-    quit()
+    page_home_2()
     page_mission()
     page_about_2()
     page_contacts_2()
+    quit()
+    page_herbs_new()
+
+    main_herbs_popular()
 
     page_home()
-    page_home_2()
+
     main_preparations()
     articles_ailments()
-
-    main_herbs()
-    page_herbs_new()
 
     page_systems()
 
@@ -7150,6 +7143,7 @@ def main():
 
     page_remedies()
 
+    main_herbs()
 
     page_privacy_policy()
     page_cookie_policy()

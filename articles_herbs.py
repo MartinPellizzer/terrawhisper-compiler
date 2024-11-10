@@ -20,8 +20,8 @@ model = model_8b
 
 ailments = csv_read_rows_to_json('systems-organs-ailments.csv', debug=True)
 
-header_html = components.header()
-footer_html = components.footer()
+header_html = components.header_2()
+footer_html = components.footer_2()
 
 def main_herbs_popular():
     _herbs = []
@@ -3420,8 +3420,6 @@ def art_herb_popular(herb, herb_i, herbs):
 
 main_herbs_popular()
 
-# TODO: header_2 and footer_2 on articles pages
-# TODO: complete "herbs" page (all herbs and pagination)
 # TODO: complete homepage (bg and images and errors)
 # TODO: check all images in articles for coherence
-# TODO: check errors in other pages, remove "start here page"
+# TODO: check errors in other pages
