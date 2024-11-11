@@ -8,7 +8,7 @@ def header():
                 <nav class="flex gap-16">
                     <a class="text-black no-underline" href="/remedies.html">Remedies</a>
                     <a class="text-black no-underline" href="/herbs.html">Herbs</a>
-                    <a class="text-black no-underline" href="/about-us.html">About</a>
+                    <a class="text-black no-underline" href="/about.html">About</a>
                     <a class="text-black no-underline" href="/contacts.html">Contacts</a>
                 </nav>
             </header>
@@ -19,7 +19,7 @@ def header():
             <nav class="flex gap-16">
                 <a class="text-black no-underline" href="/remedies.html">Remedies</a>
                 <a class="text-black no-underline" href="/herbs.html">Herbs</a>
-                <a class="text-black no-underline" href="/about-us.html">About</a>
+                <a class="text-black no-underline" href="/about.html">About</a>
                 <a class="text-black no-underline" href="/contacts.html">Contacts</a>
             </nav>
         </header>
@@ -32,7 +32,7 @@ def header_2():
             <a class="" href="/"><img height="96" src="/images-static/terrawhisper-logo.jpg" alt="logo of terrawhisper"></a>
             <nav class="header-nav">
                 <a class="text-black no-underline" href="/mission.html">Mission</a>
-                <a class="text-black no-underline" href="/about-us.html">About</a>
+                <a class="text-black no-underline" href="/about.html">About</a>
                 <a class="text-black no-underline" href="/contacts.html">Contacts</a>
                 <a class="button-green-fill" href="/herbs.html">View Herbs</a>
             </nav>

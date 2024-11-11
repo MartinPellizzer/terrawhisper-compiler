@@ -5741,7 +5741,7 @@ def page_herbs_all():
         for herb in page:
             herb_slug = herb[0]
             herb_name_scientific = herb[1]
-            src = f'/images/herbs/{herb_slug}.jpg'
+            src = f'/images/herbs/{herb_slug}-plant.jpg'
             alt = f'{herb_name_scientific}'.lower()
             filepath_in = f'{vault_folderpath}/terrawhisper/images/realistic/herbs/1x1/{herb_slug}.jpg'
             filepath_out = f'website/images/herbs/{herb_slug}.jpg'
@@ -5753,8 +5753,10 @@ def page_herbs_all():
                     image.save(filepath_out)
             card_html = f'''
                 <div>
-                    <img class="mb-16" src="{src}" alt="{alt}">
-                    <a class="inline-block mb-48" href="/herbs/{herb_slug}.html">{herb_name_scientific.capitalize()}</a>
+                    <a class="inline-block mb-48" href="/herbs/{herb_slug}.html">
+                        <img class="mb-16" src="{src}" alt="{alt}">
+                        {herb_name_scientific.capitalize()}</a>
+                    </a>
                 </div>
             '''
             cards_html += card_html
@@ -5935,14 +5937,13 @@ def page_privacy_policy():
     filepath_in = f'templates/{slug}.html'
     filepath_out = f'website/{slug}.html'
     breadcrumbs_html = util.breadcrumbs(filepath_out)
-    footer = components.footer()
     template = util.file_read(filepath_in)
     template = template.replace('[title]', 'TerraWhisper Privacy Policy')
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
     template = template.replace('[author_name]', g.AUTHOR_NAME)
     template = template.replace('[header]', header_html)
     template = template.replace('[breadcrumbs]', breadcrumbs_html)
-    template = template.replace('[footer]', footer)
+    template = template.replace('[footer]', footer_html)
     util.file_write(filepath_out, template)
 
 def page_cookie_policy():
@@ -5950,14 +5951,13 @@ def page_cookie_policy():
     filepath_in = f'templates/{slug}.html'
     filepath_out = f'website/{slug}.html'
     breadcrumbs_html = util.breadcrumbs(filepath_out)
-    footer = components.footer()
     template = util.file_read(filepath_in)
     template = template.replace('[title]', 'TerraWhisper Cookie Policy')
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
     template = template.replace('[author_name]', g.AUTHOR_NAME)
     template = template.replace('[header]', header_html)
     template = template.replace('[breadcrumbs]', breadcrumbs_html)
-    template = template.replace('[footer]', footer)
+    template = template.replace('[footer]', footer_html)
     util.file_write(filepath_out, template)
 
 def page_about():
@@ -7101,7 +7101,7 @@ def page_about():
 
 def page_about_2():
     html = templates.page_about_2()
-    page_url = f'about-us'
+    page_url = f'about'
     article_filepath_out = f'website/{page_url}.html'
     util.file_write(article_filepath_out, html)
 
@@ -7127,8 +7127,12 @@ def main():
     page_mission()
     page_about_2()
     page_contacts_2()
-    quit()
+
     page_herbs_new()
+
+    page_privacy_policy()
+    page_cookie_policy()
+    quit()
 
     main_herbs_popular()
 
@@ -7145,8 +7149,6 @@ def main():
 
     main_herbs()
 
-    page_privacy_policy()
-    page_cookie_policy()
 
 
 

@@ -1745,9 +1745,7 @@ def page_contacts_2():
     
     section = f'''
         <section class="">
-            <div class="container-xl">
-                <div class="flex gap-96">
-                    <div class="flex-2">
+            <div class="container-md">
                         <h1>Terrawhisper Contacts</h1>
                         <p>Send me an email at <u>leenrandell@gmail.com</u> if you want to contact me.</p>
                         <h2 class="text-32">Valid Reasons to Contact Me</h2>
@@ -1764,10 +1762,6 @@ def page_contacts_2():
                             <li>Do not contact me to ask me to sell your herbs (this happens too often). Terrawhisper is not an ecommerce.</li>
                             <li>Do not contact me to sell advertising space. I'm in the process of doing that with leading display-ad networks.</li>
                         </ul>
-                    </div>
-                    <div class="flex-1 flex flex-col items-center text-center gap-32">
-                    </div>
-                </div>
             </div>
         </section>
     '''

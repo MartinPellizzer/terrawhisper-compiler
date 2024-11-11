@@ -1,5 +1,7 @@
 import os
 import time
+import shutil
+import json
 
 import util
 
@@ -12,7 +14,16 @@ from oliark_io import csv_read_rows_to_json
 from oliark import img_resize, img_resize_save, tw_img_gen_web_herb_rnd
 from oliark_llm import llm_reply
 
+import torch
+from diffusers import DiffusionPipeline, StableDiffusionXLPipeline
+from diffusers import DPMSolverMultistepScheduler
+from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
+
+import chromadb
+from chromadb.utils import embedding_functions
+
 vault = '/home/ubuntu/vault'
+proj_name = 'terrawhisper'
 
 model_8b = f'/home/ubuntu/vault-tmp/llms/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf'
 model_validator_filepath = f'llms/Llama-3-Partonus-Lynx-8B-Instruct-Q4_K_M.gguf'
@@ -22,6 +33,64 @@ ailments = csv_read_rows_to_json('systems-organs-ailments.csv', debug=True)
 
 header_html = components.header_2()
 footer_html = components.footer_2()
+
+checkpoint_filepath = f'{vault}/stable-diffusion/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors'
+pipe = StableDiffusionXLPipeline.from_single_file(
+    checkpoint_filepath, 
+    torch_dtype=torch.float16, 
+    use_safetensors=True, 
+    variant="fp16"
+).to('cuda')
+pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
+
+db_path = f'{vault}/{proj_name}/database/{proj_name}'
+chroma_client = chromadb.PersistentClient(path=db_path)
+sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(
+    model_name='all-mpnet-base-v2', 
+    device='cuda',
+)
+
+def llm_validate(question, context, answer):
+    prompt = f'''
+    Given the following QUESTION, DOCUMENT and ANSWER you must analyze the provided answer and determine whether it is faithful to the contents of the DOCUMENT. The ANSWER must not offer new information beyond the context provided in the DOCUMENT. The ANSWER also must not contradict information provided in the DOCUMENT. Output your final verdict by strictly following this format: "PASS" if the answer is faithful to the DOCUMENT and "FAIL" if the answer is not faithful to the DOCUMENT. Show your reasoning.
+
+    --
+    QUESTION (THIS DOES NOT COUNT AS BACKGROUND INFORMATION):
+    {question}
+
+    --
+    DOCUMENT:
+    {context}
+
+    --
+    ANSWER:
+    {answer}
+
+    --
+
+    Your output should be in JSON FORMAT with the keys "REASONING" and "SCORE":
+    {{"REASONING": <your reasoning as bullet points>, "SCORE": <your final score>}}
+    '''
+    reply = llm_reply(prompt, model_validator_filepath, max_tokens=256)
+    return reply
+
+def herbs_book():
+    _herbs = csv_read_rows_to_json(f'database/csv/herbs-book.csv')
+    start_time = time.time()
+    for herb_i, herb in enumerate(_herbs[:]):
+        print()
+        print('***********************')
+        print('***********************')
+        print(f'{herb_i}/{len(_herbs)} - {herb}')
+        print('***********************')
+        print('***********************')
+        print()
+        art_herb_popular(herb, herb_i, _herbs)
+        # art_herb_popular_validate(herb, herb_i, _herbs)
+    end_time = time.time()
+    print(f'total execution time in seconds: {(end_time - start_time)}')
+    print(f'total execution time in minutes: {(end_time - start_time)/60}')
+    print(f'total execution time in hours: {(end_time - start_time)/3600}')
 
 def main_herbs_popular():
     _herbs = []
@@ -154,9 +223,9 @@ def art_herb_popular(herb, herb_i, herbs):
     ## ;common names
     ## ------------------------------------------------------------------------------------
     key = 'common_names'
-    if key not in data: data[key] = ''
+    if key not in data: data[key] = []
     # data[key] = ''
-    if data[key] == '':
+    if data[key] == []:
         outputs = []
         for i in range(20):
             print(f'{i}/20 - {herb_i}/{len(herbs)}: {herb}')
@@ -248,9 +317,9 @@ def art_herb_popular(herb, herb_i, herbs):
         medicinal_system_dash = medicinal_system.replace(' ', '-')
         medicinal_system_underline = medicinal_system.replace(' ', '_')
         key = f'uses_{medicinal_system_underline}'
-        if key not in data: data[key] = ''
+        if key not in data: data[key] = []
         # data[key] = ''
-        if data[key] == '':
+        if data[key] == []:
             outputs = []
             for i in range(20):
                 print(f'{i}/20 - {herb_i}/{len(herbs)}: {herb} - {key}')
@@ -382,9 +451,9 @@ def art_herb_popular(herb, herb_i, herbs):
         return
 
     key = 'benefits'
-    if key not in data: data[key] = ''
+    if key not in data: data[key] = []
     # data[key] = ''
-    if data[key] == '':
+    if data[key] == []:
         print(f'{herb_i}/{len(herbs)}: {herb} - {key}')
         prompt = f'''
             Write a list of the 10 most important health benefits of the plant {herb_name_scientific}.
@@ -468,9 +537,8 @@ def art_herb_popular(herb, herb_i, herbs):
                 Reply only with the JSON, don't add additional content.
             '''
             reply = llm_reply(prompt, model).strip()
-            json_data = {}
             try: json_data = json.loads(reply)
-            except: pass 
+            except: json_data = {} 
             if json_data != {}:
                 names = []
                 for item in json_data:
@@ -969,11 +1037,9 @@ def art_herb_popular(herb, herb_i, herbs):
     if not os.path.exists(out_2):
     # if True:
         data = json_read(json_filepath)
-
         a4_w = 2480
         a4_h = 3508
         image = Image.new('RGB', (a4_w, a4_h), '#ffffff')
-
         draw = ImageDraw.Draw(image)
         '''
         draw.line((0, 0, a4_w, 0), fill='#000000', width=4)
@@ -981,44 +1047,34 @@ def art_herb_popular(herb, herb_i, herbs):
         draw.line((0, 0, 0, a4_h), fill='#000000', width=4)
         draw.line((a4_w, 0, a4_w, a4_h), fill='#000000', width=4)
         '''
-
         y_cur = 64
-
         font_size = 80
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size)
         text = f'{herb_name_scientific} Cheatsheet'.upper()
         _, _, text_w, text_h = font.getbbox(text)
         draw.text((a4_w//2 - text_w//2, y_cur), text, '#000000', font=font)
-
         col_gap = int(a4_w * 0.03)
         x_cur = int(a4_w * 0.05)
-
         y_divider = y_cur + font_size + y_cur//2
         draw.line((x_cur, y_divider, a4_w - x_cur, y_divider), fill='#cdcdcd', width=4)
         y_content = y_divider + int(y_cur*1.5)
-
         y_cur = y_content
-
         rect_w = a4_w//2 - int(a4_w * 0.05) - col_gap//2
         rect_h = 64
-
         font_size_head = 30
         font_size_list = font_size_head
         x_text_offset = 32
-
         # uses
         draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
-
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
         text = 'main medicinal uses'.upper()
         draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
-
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
         font = ImageFont.truetype(font_path, font_size_list)
-        lst = [x['condition_name'] for x in data['uses_list']]
+        lst = [x['condition_name'] for x in conditions_best] 
         y_start = y_cur
         for _i in range(len(lst)):
             y_cur = y_start + rect_h*_i
@@ -1028,16 +1084,13 @@ def art_herb_popular(herb, herb_i, herbs):
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
             draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
-
         # benefits
         draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
-
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
         text = 'primary health benefits'.upper()
         draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
-
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
         font = ImageFont.truetype(font_path, font_size_list)
         lst = [x['name'] for x in data['benefits']]
@@ -1050,16 +1103,13 @@ def art_herb_popular(herb, herb_i, herbs):
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
             draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
-
         # properties
         draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
-
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
         text = 'dominant therapeutic properties'.upper()
         draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
-
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
         font = ImageFont.truetype(font_path, font_size_list)
         lst = [x['property_name'] for x in data['properties']]
@@ -1072,16 +1122,13 @@ def art_herb_popular(herb, herb_i, herbs):
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
             draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
-
         # constituents
         draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
-
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
         text = 'major healing constituents'.upper()
         draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
-
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
         font = ImageFont.truetype(font_path, font_size_list)
         lst = [x['name'] for x in data['constituents'][:10]]
@@ -1094,19 +1141,15 @@ def art_herb_popular(herb, herb_i, herbs):
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
             draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
-
         y_cur = y_content
         x_cur = a4_w//2 + col_gap//2
-
         # parts
         draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
-
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
         text = 'most used parts'.upper()
         draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
-
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
         font = ImageFont.truetype(font_path, font_size_list)
         lst = [x['name'] for x in data['parts'][:10] if x['total_score'] > score_min]
@@ -1119,16 +1162,13 @@ def art_herb_popular(herb, herb_i, herbs):
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
             draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
-
         # preparations
         draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
-
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
         text = 'most common preparations'.upper()
         draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
-
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
         font = ImageFont.truetype(font_path, font_size_list)
         lst = [x['preparation_name'] for x in data['preparations'][:10] if x['preparation_total_score'] > score_min]
@@ -1141,16 +1181,13 @@ def art_herb_popular(herb, herb_i, herbs):
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
             draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
-
         # side effects
         draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
-
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
         text = 'abusing side effects'.upper()
         draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
-
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
         font = ImageFont.truetype(font_path, font_size_list)
         lst = [x['side_effect_name'] for x in data['side_effects'][:10]]
@@ -1163,16 +1200,13 @@ def art_herb_popular(herb, herb_i, herbs):
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
             draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
-
         # precautions
         draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#14532d')
-
         font_path = f"website/assets/fonts/helvetica/Helvetica-Bold.ttf"
         font = ImageFont.truetype(font_path, font_size_head)
         text = 'precautions to take'.upper()
         draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_head//2)), text, '#ffffff', font=font)
         y_cur += rect_h * 1
-
         font_path = f"website/assets/fonts/helvetica/Helvetica.ttf"
         font = ImageFont.truetype(font_path, font_size_list)
         lst = [x['precaution_name'] for x in data['precautions'][:10]]
@@ -1185,7 +1219,6 @@ def art_herb_popular(herb, herb_i, herbs):
                 draw.rectangle([(x_cur, y_cur), (x_cur+rect_w, y_cur+rect_h)], fill='#ffffff')
             draw.text((x_cur + x_text_offset, y_cur + (rect_h//2) - (font_size_list//2)), f'{_i+1}. {lst[_i].capitalize()}', '#000000', font=font)
         y_cur += rect_h * 2
-
         # footer
         text = 'Copyright Terrawhisper.com | Sharing this cheatsheet requires attribution (to Terrawhisper) | Selling this cheatsheet is not allowed'
         _, _, text_w, text_h = font.getbbox(text)
@@ -1193,13 +1226,11 @@ def art_herb_popular(herb, herb_i, herbs):
         x_cur = int(a4_w * 0.05)
         draw.line((x_cur, y_cur - 32 - 32 - 32, a4_w - x_cur, y_cur - 32 - 32 - 32), fill='#cdcdcd', width=4)
         draw.text((a4_w//2 - text_w//2, y_cur - 32 - 32), text, '#000000', font=font)
-
         image_logo = Image.open('website/images-static/terrawhisper-logo.jpg')
         logo_w, logo_h = image_logo.size
         image_logo = img_resize(image_logo, w=int(logo_w*0.5), h=int(logo_h*0.5))
         logo_w, logo_h = image_logo.size
         image.paste(image_logo, (int(a4_w - logo_w - (a4_w*0.05)), int(y_cur - 32 - 32 - 32 - logo_h - 64)))
-
         # image.save(out_1)
         image.save(out_2)
         data[key] = src_intro
@@ -3311,7 +3342,7 @@ def art_herb_popular(herb, herb_i, herbs):
         key = 'preparation_image'
         if key in obj: 
             if obj[key] != '':
-                if preparation_slug != 'decoction': 
+                if preparation_slug != 'decoction' and preparation_slug != 'poultice' and preparation_slug != 'capsule': 
                     src = f'/images/herbs/{herb_slug}-{preparation_slug}.jpg'
                     alt = f'{preparation_name} made with {herb_name_scientific}'
                     article_html += f'<p>Below you find an image of {herb_name_scientific} {preparation_name}.</p>\n'
@@ -3419,7 +3450,9 @@ def art_herb_popular(herb, herb_i, herbs):
     # quit()
 
 main_herbs_popular()
+herbs_book()
 
+quit()
 # TODO: complete homepage (bg and images and errors)
 # TODO: check all images in articles for coherence
 # TODO: check errors in other pages
