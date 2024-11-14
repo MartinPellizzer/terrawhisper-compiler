@@ -524,6 +524,7 @@ def get_system_by_status(status_id):
 
 def main_preparations():
     art_preparations_new('teas')
+    return
     art_preparations_new('tinctures')
     art_preparations_new('decoctions')
     art_preparations_new('essential-oils')
@@ -544,6 +545,11 @@ def art_preparations_new(preparation_slug):
         url = f'remedies/{system_slug}-system/{ailment_slug}/{preparation_slug}'
         json_filepath = f'database/json/{url}.json'
         html_filepath = f'website/{url}.html'
+    
+        # if os.path.exists(json_filepath): os.remove(json_filepath)
+        # if os.path.exists(html_filepath): os.remove(html_filepath)
+        # continue
+
         title = f'{PREPARATIONS_NUM} best herbal {preparation_name} for {ailment_name}'
         data = json_read(json_filepath, create=True)
         data['status_slug'] = ailment_slug
@@ -7132,13 +7138,15 @@ def main():
 
     page_privacy_policy()
     page_cookie_policy()
+
+    main_preparations()
+
     quit()
 
     main_herbs_popular()
 
     page_home()
 
-    main_preparations()
     articles_ailments()
 
     page_systems()

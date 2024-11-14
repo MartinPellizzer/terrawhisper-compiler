@@ -596,7 +596,10 @@ def pin_gen(article_filepath, article_i, preparation_slug):
     url = data["url"]
     img_slug = url.replace('/', '-')
     filename_out = url.replace('/', '-')
-    remedies = data['remedies_list']
+    if 'remedies_list' in data:
+        remedies = data['remedies_list']
+    else:
+        remedies = data['remedies']
     remedies_descriptions = []
     for remedy in remedies:
         remedies_descriptions.append(remedy['remedy_desc'])
