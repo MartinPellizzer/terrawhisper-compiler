@@ -49,6 +49,39 @@ img {
     width: 100%;
 }
 
+h1 {
+    color: #111;
+    font-family: helvetica-bold, sans-serif;
+    font-size: 4.8rem;
+    line-height: 1;
+    margin-bottom: 1.6rem;
+}
+
+h2 {
+}
+
+h3 {
+}
+
+ul {
+    color: #333;
+    margin-left: 2.4rem;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    margin-bottom: 1.6rem;
+}
+
+li {
+    margin-bottom: 0.4rem;
+}
+
+p {
+    color: #333;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    margin-bottom: 1.6rem;
+}
+
 .bg-black {
     background-color: black;
 }
@@ -100,16 +133,41 @@ img {
 
 /*  TEXT */
 
+.font-normal {
+    font-weight: 400;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 .text-12 {
     font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.text-14 {
+    font-size: 1.4rem;
+    line-height: 2.0rem;
 }
 
 .text-16 {
     font-size: 1.6rem;
+    line-height: 2.7rem;
+}
+
+.text-20 {
+    font-size: 2.0rem;
+    line-height: 2.7rem;
 }
 
 .text-24 {
     font-size: 2.4rem;
+    line-height: 3.2rem;
 }
 
 .text-black {
@@ -149,6 +207,30 @@ img {
     display: flex;
 }
 
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+.flex-5 {
+    flex: 5;
+}
+
 .items-end {
     align-items: flex-end;    
 }
@@ -179,20 +261,52 @@ img {
 
 /*  SPACING */
 
+.bottom-0 {
+    bottom: 0;
+}
+
+.gap-16 {
+    gap: 1.6rem;
+}
+
 .gap-24 {
     gap: 2.4rem;
+}
+
+.gap-48 {
+    gap: 4.8rem;
+}
+
+.gap-64 {
+    gap: 6.4rem;
+}
+
+.pb-2 {
+    padding-bottom: 0.2rem;
 }
 
 .pb-4 {
     padding-bottom: 0.4rem;
 }
 
+.pt-2 {
+    padding-top: 0.2rem;
+}
+
 .pt-4 {
     padding-top: 0.4rem;
 }
 
+.pt-8 {
+    padding-top: 0.8rem;
+}
+
 .pr-8 {
     padding-right: 0.8rem;
+}
+
+.pr-16 {
+    padding-right: 1.6rem;
 }
 
 .pl-8 {
@@ -211,6 +325,58 @@ img {
     padding-right: 4.8rem;
 }
 
+.mb-8 {
+    margin-bottom: 0.8rem;
+}
+
 .mb-16 {
     margin-bottom: 1.6rem;
 }
+
+.mb-24 {
+    margin-bottom: 2.4rem;
+}
+
+.mb-48 {
+    margin-bottom: 4.8rem;
+}
+
+.border-0 {
+    border-width: 0;
+}
+
+.border-b-4 {
+    border-bottom-width: 4px;
+}
+
+.border-solid {
+    border-style: solid;
+}
+
+.border-black {
+    border-color: #000000;
+}
+
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+/***************************************************/
+/***************************************************/
+/***************************************************/
+/***************************************************/
+/***************************************************/
+@media screen and (min-width: 768px) {
+    .mob-flex {
+        display: flex;
+    }
+
