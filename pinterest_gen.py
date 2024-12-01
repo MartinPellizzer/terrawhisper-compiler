@@ -292,7 +292,10 @@ def template_text_backup(data, images_file_paths, export_file_name):
     # line
     # draw.line((0, pin_h//2, pin_w, pin_h//2), fill='#ff00ff')
     # data
-    status_name = data['status_name']
+    try: status_name = data['ailment_name']
+    except: pass
+    try: status_name = data['status_name']
+    except: pass
     text = f'{status_name}'.upper()
     words = text.split(' ')
     lines = []
@@ -381,7 +384,10 @@ def template_text(data, images_file_paths, export_file_name):
     # draw.rectangle(((0, pin_h//2 - rect_h//2), (pin_w, pin_h//2 + rect_h//2)), fill=bg_color)
     
     ## text split
-    status_name = data['status_name']
+    try: status_name = data['ailment_name']
+    except: pass
+    try: status_name = data['status_name']
+    except: pass
     text = f'{status_name}'.upper()
     #text = 'Breastfeeding pain'.upper()
     #text = 'Breastfeeding'.upper()
@@ -551,7 +557,10 @@ def pin_gen_backup(article_filepath, preparation_slug):
     data = util.json_read(article_filepath)
     remedy_num = data['remedies_num']
     title = data['title']
-    status_name = data['status_name']
+    try: status_name = data['ailment_name']
+    except: pass
+    try: status_name = data['status_name']
+    except: pass
     url = data['url']
     remedies = data['remedies_list']
     filename_out = url.replace('/', '-')
@@ -591,7 +600,10 @@ def pin_gen(article_filepath, article_i, preparation_slug):
     data = util.json_read(article_filepath)
     remedy_num = data['remedies_num']
     title = data['title']
-    status_name = data['status_name']
+    try: status_name = data['ailment_name']
+    except: pass
+    try: status_name = data['status_name']
+    except: pass
     # url = f'https://terrawhisper.com/{data["url"]}.html'
     url = data["url"]
     img_slug = url.replace('/', '-')

@@ -183,6 +183,11 @@ def articles_ailments():
         if data['preparations_num'] == '': data['preparations_num'] = random.randint(5, 9)
         preparations_num = data['preparations_num']
 
+        if 'causes_num' not in data: data['causes_num'] = ''
+        # data['causes_num'] = ''
+        if data['causes_num'] == '': data['causes_num'] = random.randint(5, 7)
+        causes_num = data['causes_num']
+
         if 'title' not in data: data['title'] = ''
         # data['title'] = ''
         if data['title'] == '':
@@ -206,6 +211,61 @@ def articles_ailments():
                 lines.append(line)
             line = random.choice(lines)
             data['title'] = line
+            json_write(json_filepath, data)
+
+        ## ------------------------------------
+        ## ;causes
+        ## ------------------------------------
+        if 0:
+            key = 'causes'
+            if key in data: del data[key]
+            json_write(json_filepath, data)
+            continue
+
+        key = 'causes'
+        if key not in data: data[key] = []
+        # data[key] = []
+        if data[key] == []:
+            prompt = f'''
+                List the names of the 20 most common causes of {ailment_name}.
+                Also, for each cause name give a confidence score from 1 to 10, indicating how sure you are that is a cause of {ailment_name}.
+                Write only the names of the causes, don't add descriptions.
+                Write the names of the causes using as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in the following JSON format: 
+                [
+                    {{"cause_name": "name of cause 1", "confidence_score": 10}}, 
+                    {{"cause_name": "name of cause 2", "confidence_score": 5}}, 
+                    {{"cause_name": "name of cause 3", "confidence_score": 7}} 
+                ]
+                Only reply with the JSON, don't add additional info.
+            '''
+            reply = llm_reply(prompt, model).strip()
+            json_data = {}
+            try: json_data = json.loads(reply)
+            except: pass 
+            if json_data != {}:
+                outputs = []
+                for item in json_data:
+                    try: item['cause_name']
+                    except: continue
+                    try: item['confidence_score']
+                    except: continue
+                    outputs.append({
+                        'cause_name': item['cause_name'], 
+                        'cause_confidence_score': int(item['confidence_score']),
+                    })
+            outputs = sorted(outputs, key=lambda x: x['cause_confidence_score'], reverse=True)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            for output in outputs:
+                print(output)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            data[key] = outputs[:causes_num]
             json_write(json_filepath, data)
 
         ## ------------------------------------
@@ -383,6 +443,83 @@ def articles_ailments():
         ########################################
         ########################################
         ########################################
+        key = 'intro_desc'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            herbs_names = [x['herb_name_scientific'] for x in data['remedies'][:3]]
+            preparations_names = [x['preparation_name'] for x in data['preparations'][:3]]
+            prompt = f'''
+                Write a detailed paragraph explaining why herbs and herbal preparations are good for {ailment_name}.
+                Include the following herbs: {herbs_names}.
+                Include the following herbal preparations: {preparations_names}.
+                Include why it's important to deal with {ailment_name} and what are the consequences if you don't do it.
+                Start with a definition of {ailment_name}.
+                Use simple and short words, and a simple writing style.
+                Don't write fluff.
+                Don't allucinate.
+                Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+                Start with the following words: {ailment_name} is .
+            '''
+            reply = llm_reply(prompt).strip()
+            reply = [line.strip() for line in reply.split('\n')]
+            reply = ' '.join(reply)
+            data[key] = reply
+            json_write(json_filepath, data)
+
+        key = 'causes_intro_desc'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            causes_names = [x['cause_name'] for x in data['causes'][:3]]
+            prompt = f'''
+                Write a detailed paragraph explaining what are the main causes of {ailment_name}.
+                Include the following causes and explain why: {causes_names}.
+                Use simple and short words, and a simple writing style.
+                Don't write fluff.
+                Don't allucinate.
+                Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+            '''
+            reply = llm_reply(prompt).strip()
+            reply = [line.strip() for line in reply.split('\n')]
+            reply = ' '.join(reply)
+            data[key] = reply
+            json_write(json_filepath, data)
+
+        for obj_i, obj in enumerate(data['causes'][:causes_num]):
+            print(f'{ailment_i}/{len(ailments)} - {obj_i}/{causes_num} - {obj}')
+            key = 'cause_desc'
+            if key not in obj: obj[key] = ''
+            # obj[key] = ''
+            if obj[key] == '':
+                cause_name = obj['cause_name']
+                prompt = f'''
+                    Write 1 detailed sentence explaining why {cause_name} is a cause of {ailment_name}.
+                    Use simple and short words, and a simple writing style.
+                '''
+                reply = llm_reply(prompt).strip().replace('\n', ' ').replace('  ', ' ')
+                obj[key] = reply
+                json_write(json_filepath, data)
+
+        key = 'remedies_intro_desc'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            herbs_names = [x['herb_name_scientific'] for x in data['remedies'][:3]]
+            prompt = f'''
+                Write a detailed paragraph explaining why herbs are good for {ailment_name}.
+                Include the following herbs and expalin why they are good: {herbs_names}.
+                Use simple and short words, and a simple writing style.
+                Don't write fluff.
+                Don't allucinate.
+                Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+            '''
+            reply = llm_reply(prompt).strip()
+            reply = [line.strip() for line in reply.split('\n')]
+            reply = ' '.join(reply)
+            data[key] = reply
+            json_write(json_filepath, data)
+
         for remedy_i, obj in enumerate(data['remedies'][:remedies_num]):
             print(f'{ailment_i}/{len(ailments)} - {remedy_i}/{remedies_num} - {obj}')
             key = 'remedy_desc'
@@ -399,6 +536,25 @@ def articles_ailments():
                 obj[key] = reply
                 json_write(json_filepath, data)
 
+        key = 'preparations_intro_desc'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            preparations_names = [x['preparation_name'] for x in data['preparations'][:3]]
+            prompt = f'''
+                Write a detailed paragraph explaining why herbal preparations are good for {ailment_name}.
+                Include the following herbal preparations and explain why they are good: {preparations_names}.
+                Use simple and short words, and a simple writing style.
+                Don't write fluff.
+                Don't allucinate.
+                Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+            '''
+            reply = llm_reply(prompt).strip()
+            reply = [line.strip() for line in reply.split('\n')]
+            reply = ' '.join(reply)
+            data[key] = reply
+            json_write(json_filepath, data)
+    
         for obj_i, obj in enumerate(data['preparations'][:preparations_num]):
             print(f'{ailment_i}/{len(ailments)} - {obj_i}/{remedies_num} - {obj}')
             key = 'preparation_desc'
@@ -415,6 +571,25 @@ def articles_ailments():
                 obj[key] = reply
                 json_write(json_filepath, data)
 
+        key = 'supplementary_avoid'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            herbs_names = [x['herb_name_scientific'] for x in data['remedies'][:3]]
+            prompt = f'''
+                Write a detailed paragraph explaining what herbs to avoid if you have {ailment_name} and why.
+                Never include the following herbs: {herbs_names}.
+                Use simple and short words, and a simple writing style.
+                Don't write fluff.
+                Don't allucinate.
+                Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+            '''
+            reply = llm_reply(prompt).strip()
+            reply = [line.strip() for line in reply.split('\n')]
+            reply = ' '.join(reply)
+            data[key] = reply
+            json_write(json_filepath, data)
+
         ########################################
         # ;html
         ########################################
@@ -424,17 +599,504 @@ def articles_ailments():
         article_html = ''
 
         article_html += f'<h1>{title}</h1>\n'
-        for obj in data['remedies'][:remedies_num]:
-            herb_name_scientific = obj['herb_name_scientific']
-            remedy_desc = obj['remedy_desc']
-            article_html += f'<h3>{herb_name_scientific}</h3>'
-            article_html += f'<p>{remedy_desc}</p>'
+        obj = data['remedies'][remedies_num-1]
+        herb_name_scientific = obj['herb_name_scientific']
+        herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
+        out = f'website-2/images/herbs/{herb_slug}-plant.jpg'
+        src = f'/images/herbs/{herb_slug}-plant.jpg'
+        if os.path.exists(out):
+            article_html += f'<img src="{src}">\n'
+        article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
+        article_html += f'<p>The following article lists the main herbal remedies used to treat {ailment_name}.</p>\n'
 
-        for obj in data['preparations'][:preparations_num]:
+        # causes
+        sub_title = f'What are the main causes of {ailment_name}?'.title()
+        article_html += f'<h2>{sub_title}</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data["causes_intro_desc"])}\n'
+        article_html += f'<p>Below are the main causes of {ailment_name}.</p>\n'
+        article_html += f'<ul>\n'
+        for obj_i, obj in enumerate(data['causes'][:causes_num]):
+            cause_name = obj['cause_name']
+            cause_desc = obj['cause_desc']
+            article_html += f'<li><strong>{cause_name}</strong>: {cause_desc}</li>\n'
+        article_html += f'</ul>\n'
+
+        sub_title = f'{remedies_num} herbs for {ailment_name}'.title()
+        article_html += f'<h2>{sub_title}</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data["remedies_intro_desc"])}\n'
+        article_html += f'<p>Below are {remedies_num} healing hebs for {ailment_name}.</p>\n'
+        for obj_i, obj in enumerate(data['remedies'][:remedies_num]):
+            herb_name_scientific = obj['herb_name_scientific']
+            herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
+            remedy_desc = obj['remedy_desc']
+            article_html += f'<h3>{obj_i+1}. {herb_name_scientific}</h3>\n'
+            out = f'website-2/images/herbs/{herb_slug}-plant.jpg'
+            src = f'/images/herbs/{herb_slug}-plant.jpg'
+            if os.path.exists(out):
+                article_html += f'<img src="{src}">\n'
+            article_html += f'{util.text_format_1N1_html(remedy_desc)}\n'
+
+        sub_title = f'{preparations_num} herbal preparations for {ailment_name}'.title()
+        article_html += f'<h2>{sub_title}</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data["preparations_intro_desc"])}\n'
+        article_html += f'<p>Below are {preparations_num} effective hebal preparations for {ailment_name}.</p>\n'
+        for obj_i, obj in enumerate(data['preparations'][:preparations_num]):
             preparation_name = obj['preparation_name']
             preparation_desc = obj['preparation_desc']
-            article_html += f'<h3>{preparation_name}</h3>'
-            article_html += f'<p>{preparation_desc}</p>'
+            preparation_slug_2 = preparation_name.strip().lower().replace(' ', '-') + 's'
+            article_html += f'<h3>{obj_i+1}. {preparation_name}</h3>\n'
+            out = f'website-2/images/preparations/{ailment_slug}-herbal-{preparation_slug_2}.jpg'
+            src = f'/images/preparations/{ailment_slug}-herbal-{preparation_slug_2}.jpg'
+            if os.path.exists(out):
+                article_html += f'<img src="{src}">\n'
+            article_html += f'{util.text_format_1N1_html(preparation_desc)}\n'
+
+        # supplementary avoid
+        sub_title = f'What herbs to avoid if you have {ailment_name}?'.title()
+        article_html += f'<h2>{sub_title}</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data["supplementary_avoid"])}\n'
+
+        head_html = head_html_generate(title, '/style-article.css')
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+            {head_html}
+            <body>
+                {header_html}
+                <main class="container-md">
+                    {article_html}
+                </main>
+                <div class="mt-64"></div>
+                {footer_html}
+            </body>
+            </html>
+        '''
+        with open(html_filepath, 'w') as f: f.write(html)
+        print(f'\n')
+        print(html_filepath)
+        # quit()
+
+def articles_titles_check(preparation_slug):
+    plants_wcvp = csv_read_rows_to_json(f'{vault_tmp}/terrawhisper/wcvp_taxon.csv', delimiter = '|')
+    preparation_name = preparation_slug.replace('-', ' ')
+    ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
+    while 1:
+        for ailment_i, ailment in enumerate(ailments):
+            system_slug = ailment['system_slug']
+            organ_slug = ailment['organ_slug']
+            ailment_slug = ailment['ailment_slug']
+            ailment_name = ailment['ailment_name']
+            url = f'remedies/{system_slug}-system/{ailment_slug}/{preparation_slug}'
+            json_filepath = f'database/json/{url}.json'
+            html_filepath = f'{website_folderpath}/{url}.html'
+            if not os.path.exists(f'{website_folderpath}/remedies'): os.mkdir(f'{website_folderpath}/remedies')
+            if not os.path.exists(f'{website_folderpath}/remedies/{system_slug}-system'): os.mkdir(f'{website_folderpath}/remedies/{system_slug}-system')
+            if not os.path.exists(f'{website_folderpath}/remedies/{system_slug}-system/{ailment_slug}'): os.mkdir(f'{website_folderpath}/remedies/{system_slug}-system/{ailment_slug}')
+
+            data = json_read(json_filepath, create=True)
+            data['ailment_slug'] = ailment_slug
+            data['ailment_name'] = ailment_name
+            data['system_slug'] = system_slug
+            data['organ_slug'] = organ_slug
+            data['preparation_slug'] = preparation_slug
+            data['preparation_name'] = preparation_name
+            data['url'] = url
+            if 'lastmod' not in data: data['lastmod'] = today()
+
+            if 'remedies_num' not in data: data['remedies_num'] = ''
+            # data['remedies_num'] = ''
+            if data['remedies_num'] == '': data['remedies_num'] = random.randint(7, 11)
+            remedies_num = data['remedies_num']
+            
+            print(f'{ailment_i}. {data["title"]}')
+
+        '''
+        valid = input('>> (x/v)')
+        if valid == 'x':
+            if os.path.exists(json_filepath): os.remove(json_filepath)
+        '''
+        break
+
+def articles_preparations_2(preparation_slug):
+    plants_wcvp = csv_read_rows_to_json(f'{vault_tmp}/terrawhisper/wcvp_taxon.csv', delimiter = '|')
+    preparation_name = preparation_slug.replace('-', ' ')
+    ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
+    for ailment_i, ailment in enumerate(ailments):
+        print(f'\n>> {ailment_i}/{len(ailments)} - preparation: {preparation_name}')
+        print(f'    >> {ailment}')
+        system_slug = ailment['system_slug']
+        organ_slug = ailment['organ_slug']
+        ailment_slug = ailment['ailment_slug']
+        ailment_name = ailment['ailment_name']
+        url = f'remedies/{system_slug}-system/{ailment_slug}/{preparation_slug}'
+        json_filepath = f'database/json/{url}.json'
+        html_filepath = f'{website_folderpath}/{url}.html'
+        print(f'    >> JSON: {json_filepath}')
+        print(f'    >> HTML: {html_filepath}')
+        if not os.path.exists(f'{website_folderpath}/remedies'): os.mkdir(f'{website_folderpath}/remedies')
+        if not os.path.exists(f'{website_folderpath}/remedies/{system_slug}-system'): os.mkdir(f'{website_folderpath}/remedies/{system_slug}-system')
+        if not os.path.exists(f'{website_folderpath}/remedies/{system_slug}-system/{ailment_slug}'): os.mkdir(f'{website_folderpath}/remedies/{system_slug}-system/{ailment_slug}')
+
+        # if os.path.exists(json_filepath): os.remove(json_filepath)
+        # continue
+
+        data = json_read(json_filepath, create=True)
+        data['ailment_slug'] = ailment_slug
+        data['ailment_name'] = ailment_name
+        data['system_slug'] = system_slug
+        data['organ_slug'] = organ_slug
+        data['preparation_slug'] = preparation_slug
+        data['preparation_name'] = preparation_name
+        data['url'] = url
+        if 'lastmod' not in data: data['lastmod'] = today()
+
+        if 'remedies_num' not in data: data['remedies_num'] = ''
+        # data['remedies_num'] = ''
+        if data['remedies_num'] == '': data['remedies_num'] = random.randint(7, 11)
+        remedies_num = data['remedies_num']
+
+        json_write(json_filepath, data)
+
+        key = 'audience'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            outputs = []
+            for i in range(5):
+                print(f'AUDIENCE: {ailment_i}/{len(ailments)} - {i}: {ailment}')
+                rand_num = random.randint(7, 13)
+                prompt = f'''
+                    Write a list of (rand_num) names of types of people who are most likely affected by the following problem and most likely benefit from solving it: {ailment_name}.
+                    Also, for each name give a confidence score from 1 to 10, indicating how sure you are about that name.
+                    Write only the names, don't add descriptions.
+                    Write the types using as few words as possible.
+                    Neve include the word "people".
+                    Don't write fluff, only proven facts.
+                    Don't allucinate.
+                    Reply in the following JSON format: 
+                    [
+                        {{"name": "name 1", "confidence_score": "10"}}, 
+                        {{"name": "name 2", "confidence_score": "5"}}, 
+                        {{"name": "name 3", "confidence_score": "7"}} 
+                    ]
+                    Only reply with the JSON, don't add additional info.
+                '''
+                reply = llm_reply(prompt, model).strip()
+                json_data = {}
+                try: json_data = json.loads(reply)
+                except: pass 
+                if json_data != {}:
+                    _objs = []
+                    for item in json_data:
+                        try: name = item['name']
+                        except: continue
+                        try: score = item['confidence_score']
+                        except: continue
+                        _objs.append({
+                            "name": name.lower().strip(), 
+                            "score": score,
+                        })
+                    for _obj in _objs:
+                        name = _obj['name']
+                        score = _obj['score']
+                        found = False
+                        for output in outputs:
+                            if name in output['audience_name']: 
+                                output['audience_mentions'] += 1
+                                output['audience_confidence_score'] += int(score)
+                                found = True
+                                break
+                        if not found:
+                            outputs.append({
+                                'audience_name': name, 
+                                'audience_mentions': 1, 
+                                'audience_confidence_score': int(score), 
+                            })
+            outputs_final = []
+            for output in outputs:
+                outputs_final.append({
+                    'audience_name': output['audience_name'],
+                    'audience_mentions': int(output['audience_mentions']),
+                    'audience_confidence_score': int(output['audience_confidence_score']),
+                    'audience_total_score': int(output['audience_mentions']) * int(output['audience_confidence_score']),
+                })
+            outputs_final = sorted(outputs_final, key=lambda x: x['audience_confidence_score'], reverse=True)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            for output in outputs_final:
+                print(output)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            rand_output = random.choice(outputs_final[:5])
+            data[key] = rand_output
+            json_write(json_filepath, data)
+
+        if 'title' not in data: data['title'] = ''
+        # data['title'] = ''
+        if data['title'] == '':
+            prompt = f'''
+                Write a numbered list of 10 titles for a listicle (list article) using the data below.
+                problem: {data["ailment_name"]}.
+                remedies: herbal {data["preparation_name"]}.
+                remedies number: {data["remedies_num"]}.
+                target audience: {data["audience"]["audience_name"]}.
+                Write only the titles.
+                Always write the remedies in plural form, for example write "teas" instead of "tea".
+                Always include the problem, remedies, remedies number and target audience in each title.
+                An example of title could be: {data['remedies_num']} {data['preparation_name']} for {data['audience']['audience_name']} with {data['ailment_name']}
+            '''
+            reply = llm_reply(prompt)
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip()
+                if line == '': continue
+                if not line[0].isdigit(): continue
+                if '. ' not in line: continue
+                line = '. '.join(line.split('. ')[1:])
+                line = line.replace('*', '')
+                if line.endswith('.'): line = line[:-1]
+                line = line.strip()
+                if line == '': continue
+                lines.append(line)
+            line = random.choice(lines)
+            data['title'] = line
+            json_write(json_filepath, data)
+
+        key = 'remedies'
+        if key not in data: data[key] = []
+        # data[key] = []
+        if data[key] == []:
+            output_plants = []
+            for i in range(5):
+                print(f'{ailment_i}/{len(ailments)} - {i}: {ailment}')
+                prompt = f'''
+                    List the best herbs to make herbal {preparation_name} to relieve {ailment_name} for {data["audience"]}.
+                    Also, for each herb name give a confidence score from 1 to 10, indicating how sure you are that herbal {preparation_name} made with that herb is effective to relieve {ailment_name}.
+                    Write only the scientific names (botanical names) of the plants used for the preparation, don't add descriptions or common names.
+                    Write the names of the plants using as few words as possible.
+                    Don't write fluff, only proven facts.
+                    Don't allucinate.
+                    Reply in the following JSON format: 
+                    [
+                        {{"herb_name_scientific": "scientific name of herb 1 used for preparation", "confidence_score": "10"}}, 
+                        {{"herb_name_scientific": "scientific name of herb 2 used for preparation", "confidence_score": "5"}}, 
+                        {{"herb_name_scientific": "scientific name of herb 3 used for preparation", "confidence_score": "7"}} 
+                    ]
+                    Only reply with the JSON, don't add additional info.
+                '''
+                reply = llm_reply(prompt, model).strip()
+                json_data = {}
+                try: json_data = json.loads(reply)
+                except: pass 
+                if json_data != {}:
+                    names_scientific = []
+                    for item in json_data:
+                        try: line = item['herb_name_scientific']
+                        except: continue
+                        try: score = item['confidence_score']
+                        except: continue
+                        print(line)
+                        for plant in plants_wcvp:
+                            name_scientific = plant['scientfiicname']
+                            if name_scientific.lower().strip() in line.lower().strip():
+                                if len(name_scientific.split(' ')) > 1:
+                                    print('++++++++++++++++++++++++++++++++++++++++')
+                                    print(name_scientific)
+                                    print('++++++++++++++++++++++++++++++++++++++++')
+                                    names_scientific.append({
+                                        "name": name_scientific, 
+                                        "score": score,
+                                    })
+                                    break
+                        ## exceptions
+                        if line.lower().strip() == 'mentha piperita':
+                                names_scientific.append({"name": 'Mentha x piperita', "score": score})
+                    for obj in names_scientific:
+                        name = obj['name']
+                        score = obj['score']
+                        found = False
+                        for output_plant in output_plants:
+                            print(output_plant)
+                            print(name, '->', output_plant['herb_name_scientific'])
+                            if name in output_plant['herb_name_scientific']: 
+                                output_plant['herb_mentions'] += 1
+                                output_plant['herb_confidence_score'] += int(score)
+                                found = True
+                                break
+                        if not found:
+                            output_plants.append({
+                                'herb_name_scientific': name, 
+                                'herb_mentions': 1, 
+                                'herb_confidence_score': int(score), 
+                            })
+                output_plants_final = []
+                for output_plant in output_plants:
+                    output_plants_final.append({
+                        'herb_name_scientific': output_plant['herb_name_scientific'],
+                        'herb_mentions': int(output_plant['herb_mentions']),
+                        'herb_confidence_score': int(output_plant['herb_confidence_score']),
+                        'herb_total_score': int(output_plant['herb_mentions']) * int(output_plant['herb_confidence_score']),
+                    })
+                output_plants_final = sorted(output_plants_final, key=lambda x: x['herb_confidence_score'], reverse=True)
+                print('***********************')
+                print('***********************')
+                print('***********************')
+                for output_plant in output_plants_final:
+                    print(output_plant)
+                print('***********************')
+                print('***********************')
+                print('***********************')
+                data[key] = output_plants_final[:remedies_num]
+                json_write(json_filepath, data)
+
+        # remedies desc
+        for remedy_i, obj in enumerate(data['remedies']):
+            print(f'{ailment_i}/{len(ailments)} - {remedy_i} - {preparation_name} - {obj}')
+            key = 'remedy_desc'
+            if key not in obj: obj[key] = ''
+            # obj[key] = ''
+            if obj[key] == '':
+                herb_name = obj['herb_name_scientific']
+                prompt = f'''
+                    Write a detailed paragraph explaining why {herb_name} {preparation_name} is good for {ailment_name}.
+                    Include the boiactive constituents and the properties.
+                    Use simple and short words, and a simple writing style.
+                    Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+                '''
+                prompt = f'''
+                    Write a detailed paragraph about {herb_name} {preparation_name} for {ailment_name}.
+                    In this paragraph, explain the following.
+                    1. why {herb_name} {preparation_name} helps with {ailment_name}. Include properties and constituents.
+                    2. specific advice on what actions to take.
+                    3. what are the likely outcomes to occur from taking action.
+                    Use simple and short words, and a simple writing style.
+                    Use a conversational and fluid writing style.
+                    Don't write fluff.
+                    Don't allucinate.
+                    Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+                    Start with the following words: {herb_name} {preparation_name} .
+                '''
+                reply = llm_reply(prompt).strip().replace('\n', ' ').replace('  ', ' ')
+                obj[key] = reply
+                json_write(json_filepath, data)
+
+
+        # intro desc
+        key = 'intro_desc'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            herbs_names = [x['herb_name_scientific'] for x in data['remedies']]
+            prompt = f'''
+                Write a detailed paragraph about: herbal {data["preparation_name"]} for {data["ailment_name"]} in {data["audience"]["audience_name"].lower()}.
+                Start by explaining why {data["audience"]["audience_name"].lower()} can suffer from {data["ailment_name"]} and how this affects their lives.
+                End by giving a very brief overview on why herbal {data["preparation_name"]} helps {data["audience"]["audience_name"].lower()} treat {data["ailment_name"]}.
+                Never mention names of herbs.
+                Use simple and short words, and a simple writing style.
+                Use a conversational and fluid writing style.
+                Don't write fluff.
+                Don't allucinate.
+                Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+            '''
+            reply = llm_reply(prompt).strip()
+            reply = [line.strip() for line in reply.split('\n')]
+            reply = ' '.join(reply)
+            data[key] = reply
+            json_write(json_filepath, data)
+
+        # ;images
+        if 1:
+            non_valid_preparations = [
+                'decoctions',
+            ]
+            if preparation_slug not in non_valid_preparations:
+                output_filepath = f'{website_folderpath}/images/preparations/{ailment_slug}-herbal-{preparation_slug}.jpg'
+                src = f'/images/preparations/{ailment_slug}-herbal-{preparation_slug}.jpg'
+                alt = f'herbal {preparation_name} for {ailment_name}'
+                herbs_names_scientific = [x['herb_name_scientific'] for x in data["remedies"][:remedies_num]]
+                herb_name_scientific = random.choice(herbs_names_scientific)
+                if not os.path.exists(output_filepath):
+                    container = ''
+                    if preparation_slug == 'teas': container = 'a cup of'
+                    prompt = f'''
+                        {container} {herb_name_scientific} herbal {preparation_name},
+                        on a wooden table,
+                        surrounded by medicinal herbs,
+                        indoor, 
+                        natural window light,
+                        earth tones,
+                        neutral colors,
+                        soft focus,
+                        warm tones,
+                        high resolution,
+                        cinematic
+                    '''
+                    negative_prompt = f'''
+                        text, watermark 
+                    '''
+                    print(prompt)
+                    pipe_init()
+                    image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+                    image = img_resize(image, w=768, h=768)
+                    image.save(output_filepath)
+                data['intro_image_src'] = src
+                data['intro_image_alt'] = alt
+                json_write(json_filepath, data)
+
+                for remedy_i, remedy in enumerate(data['remedies'][:remedies_num]):
+                    herb_name_scientific = remedy['herb_name_scientific']
+                    herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
+                    output_filepath = f'{website_folderpath}/images/preparations/{preparation_slug}/{herb_slug}-herbal-{preparation_slug}.jpg'
+                    src = f'/images/preparations/{preparation_slug}/{herb_slug}-herbal-{preparation_slug}.jpg'
+                    alt = f'{herb_name_scientific} herbal {preparation_name} for {ailment_name}'
+                    if not os.path.exists(output_filepath):
+                        container = ''
+                        if preparation_slug == 'teas': container = 'a cup of'
+                        prompt = f'''
+                            {container} {herb_name_scientific} herbal {preparation_name},
+                            on a wooden table,
+                            surrounded by medicinal herbs,
+                            indoor, 
+                            natural window light,
+                            earth tones,
+                            neutral colors,
+                            soft focus,
+                            warm tones,
+                            high resolution,
+                            cinematic
+                        '''
+                        negative_prompt = f'''
+                            text, watermark 
+                        '''
+                        print(prompt)
+                        pipe_init()
+                        image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+                        image = img_resize(image, w=768, h=768)
+                        image.save(output_filepath)
+                    remedy['image_src'] = src
+                    remedy['image_alt'] = alt
+                    json_write(json_filepath, data)
+
+
+        ########################################
+        # ;html
+        ########################################
+        title = data['title']
+        print(title)
+
+        article_html = ''
+
+        article_html += f'<h1>{title}</h1>\n'
+        article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
+
+        for remedy_i, remedy in enumerate(data['remedies']):
+            article_html += f'<h2>{remedy_i+1}. {remedy["herb_name_scientific"]}</h2>\n'
+            src = remedy['image_src']
+            alt = remedy['image_alt']
+            article_html += f'<img src="{src}" alt="{alt}">\n'
+            article_html += f'{util.text_format_1N1_html(remedy["remedy_desc"])}\n'
 
         head_html = head_html_generate(title, '/style-article.css')
         html = f'''
@@ -456,6 +1118,8 @@ def articles_ailments():
         print(html_filepath)
 
         # quit()
+
+
 
 def articles_preparations(preparation_slug):
     plants_wcvp = csv_read_rows_to_json(f'{vault_tmp}/terrawhisper/wcvp_taxon.csv', delimiter = '|')
@@ -867,7 +1531,7 @@ def articles_preparations(preparation_slug):
         ########################################
         # ;images
         ########################################
-        if 0:
+        if 1:
             non_valid_preparations = [
                 'decoctions',
             ]
@@ -875,9 +1539,11 @@ def articles_preparations(preparation_slug):
                 output_filepath = f'{website_folderpath}/images/preparations/{ailment_slug}-herbal-{preparation_slug}.jpg'
                 src = f'/images/preparations/{ailment_slug}-herbal-{preparation_slug}.jpg'
                 alt = f'herbal {preparation_name} for {ailment_name}'
+                herbs_names_scientific = [x['herb_name_scientific'] for x in data["remedies"][:remedies_num]]
+                herb_name_scientific = random.choice(herbs_names_scientific)
                 if not os.path.exists(output_filepath):
                     prompt = f'''
-                        herbal {preparation_name},
+                        {herb_name_scientific} herbal {preparation_name},
                         close-up,
                         on a wooden table,
                         surrounded by herbs,
@@ -1015,7 +1681,7 @@ def page_home():
         html_filepath = f'{website_folderpath}/{url}.html'
         image_url = f'/images/preparations/{ailment_slug}-herbal-{preparation_slug}.jpg'
         data = json_read(json_filepath)
-        title = data['title']
+        title = data['title'].capitalize()
         intro_desc = ' '.join(data['intro_desc'].split(' ')[:32])
         teas_blocks_data.append({
             'href': f'/{url}.html',
@@ -1035,11 +1701,13 @@ def page_home():
         html_filepath = f'{website_folderpath}/{url}.html'
         image_url = f'/images/preparations/{ailment_slug}-herbal-{preparation_slug}.jpg'
         data = json_read(json_filepath)
-        title = data['title']
+        title = data['title'].capitalize()
+        intro_desc = ' '.join(data['intro_desc'].split(' ')[:32])
         tinctures_blocks_data.append({
             'href': f'/{url}.html',
             'url': f'{image_url}',
             'title': f'{title}',
+            'intro_desc': f'{intro_desc}',
         })
     creams_blocks_data = []
     for ailment_i, ailment in enumerate(ailments[:]):
@@ -1053,7 +1721,7 @@ def page_home():
         html_filepath = f'{website_folderpath}/{url}.html'
         image_url = f'/images/preparations/{ailment_slug}-herbal-{preparation_slug}.jpg'
         data = json_read(json_filepath)
-        title = data['title']
+        title = data['title'].capitalize()
         creams_blocks_data.append({
             'href': f'/{url}.html',
             'url': f'{image_url}',
@@ -1071,7 +1739,7 @@ def page_home():
         html_filepath = f'{website_folderpath}/{url}.html'
         image_url = f'/images/preparations/{ailment_slug}-herbal-{preparation_slug}.jpg'
         data = json_read(json_filepath)
-        title = data['title']
+        title = data['title'].capitalize()
         essential_oils_blocks_data.append({
             'href': f'/{url}.html',
             'url': f'{image_url}',
@@ -1180,7 +1848,219 @@ def page_home():
             </div>
         </section>
     '''
+
+    section_3 = f'''
+        <section>
+            <div class="container-xl mob-flex mb-48 gap-48">
+                <div class="flex-2">
+                    <div class="border-0 border-b-4 border-solid border-black mb-24">
+                        <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Tinctures</h2>
+                    </div>
+                    <div class="flex gap-48">
+                        <div class="flex-1 flex flex-col gap-24">
+                            <div class="">
+                                <a class="no-underline text-black" href="{tinctures_blocks_data[4]['href']}">
+                                    <div class="relative mb-16">
+                                        <img class="object-cover" height="240" src="{tinctures_blocks_data[4]['url']}">
+                                        <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">tincture</p>
+                                    </div>
+                                    <h3 class="text-20 font-normal mb-8">
+                                        {tinctures_blocks_data[4]['title']}
+                                    </h3>
+                                    <p class="text-12 mb-16">
+                                        <span class="font-bold text-black">Terrawhisper</span> - 2024/10/12
+                                    </p>
+                                    <p class="text-14 mb-0">
+                                        {tinctures_blocks_data[4]['intro_desc']}
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="flex-1 flex flex-col gap-24">
+                                <a class="no-underline text-black" href="{tinctures_blocks_data[5]['href']}">
+                                    <div class="flex gap-16">
+                                        <div class="flex-2">
+                                            <img class="object-cover" height="80" src="{tinctures_blocks_data[5]['url']}">
+                                        </div>
+                                        <div class="flex-5">
+                                            <h3 class="text-14 mb-8">
+                                                {tinctures_blocks_data[5]['title']}
+                                            </h3>
+                                            <p class="text-12">2024/08/21</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="no-underline text-black" href="{tinctures_blocks_data[6]['href']}">
+                                    <div class="flex gap-16">
+                                        <div class="flex-2">
+                                            <img class="object-cover" height="80" src="{tinctures_blocks_data[6]['url']}">
+                                        </div>
+                                        <div class="flex-5">
+                                            <h3 class="text-14 mb-8">
+                                                {tinctures_blocks_data[6]['title']}
+                                            </h3>
+                                            <p class="text-12">2024/08/21</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex-1 flex flex-col gap-24">
+                            <div class="">
+                                <a class="no-underline text-black" href="{tinctures_blocks_data[7]['href']}">
+                                    <div class="relative mb-16">
+                                        <img class="object-cover" height="240" src="{tinctures_blocks_data[7]['url']}">
+                                        <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">tincture</p>
+                                    </div>
+                                    <h3 class="text-20 font-normal mb-8">
+                                        {tinctures_blocks_data[7]['title']}
+                                    </h3>
+                                    <p class="text-12 mb-16">
+                                        <span class="font-bold text-black">Terrawhisper</span> - 2024/10/12
+                                    </p>
+                                    <p class="text-14 mb-0">
+                                        {tinctures_blocks_data[7]['intro_desc']}
+                                    </p>
+                                </a>
+                            </div>
+                            <div class="flex-1 flex flex-col gap-24">
+                                <a class="no-underline text-black" href="{tinctures_blocks_data[8]['href']}">
+                                    <div class="flex gap-16">
+                                        <div class="flex-2">
+                                            <img class="object-cover" height="80" src="{tinctures_blocks_data[8]['url']}">
+                                        </div>
+                                        <div class="flex-5">
+                                            <h3 class="text-14 mb-8">
+                                                {tinctures_blocks_data[8]['title']}
+                                            </h3>
+                                            <p class="text-12">2024/08/21</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="no-underline text-black" href="{tinctures_blocks_data[9]['href']}">
+                                    <div class="flex gap-16">
+                                        <div class="flex-2">
+                                            <img class="object-cover" height="80" src="{tinctures_blocks_data[9]['url']}">
+                                        </div>
+                                        <div class="flex-5">
+                                            <h3 class="text-14 mb-8">
+                                                {tinctures_blocks_data[9]['title']}
+                                            </h3>
+                                            <p class="text-12">2024/08/21</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1">
+                    <div>
+                        <div class="border-0 border-b-4 border-solid border-black mb-24">
+                            <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">creams</h2>
+                        </div>
+                        <div class="flex flex-col gap-24">
+                            <div class="flex gap-24">
+                                <a class="no-underline flex-1 flex flex-col gap-24 text-black" href="{creams_blocks_data[4]['href']}">
+                                    <div class="">
+                                        <div class="relative mb-16">
+                                            <img class="object-cover" height="180" src="{creams_blocks_data[4]['url']}">
+                                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">creams</p>
+                                        </div>
+                                        <h3 class="text-14 mb-8">
+                                            {creams_blocks_data[4]['title']}
+                                        </h3>
+                                    </div>
+                                </a>
+                                <a class="no-underline flex-1 flex flex-col gap-24 text-black" href="{creams_blocks_data[5]['href']}">
+                                    <div class="">
+                                        <div class="relative mb-16">
+                                            <img class="object-cover" height="180" src="{creams_blocks_data[5]['url']}">
+                                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">creams</p>
+                                        </div>
+                                        <h3 class="text-14 mb-8">
+                                            {creams_blocks_data[5]['title']}
+                                        </h3>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="flex gap-24">
+                                <a class="no-underline flex-1 flex flex-col gap-24 text-black" href="{creams_blocks_data[6]['href']}">
+                                    <div class="">
+                                        <div class="relative mb-16">
+                                            <img class="object-cover" height="180" src="{creams_blocks_data[6]['url']}">
+                                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">creams</p>
+                                        </div>
+                                        <h3 class="text-14 mb-8">
+                                            {creams_blocks_data[6]['title']}
+                                        </h3>
+                                    </div>
+                                </a>
+                                <a class="no-underline flex-1 flex flex-col gap-24 text-black" href="{creams_blocks_data[7]['href']}">
+                                    <div class="">
+                                        <div class="relative mb-16">
+                                            <img class="object-cover" height="180" src="{creams_blocks_data[7]['url']}">
+                                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">creams</p>
+                                        </div>
+                                        <h3 class="text-14 mb-8">
+                                            {creams_blocks_data[7]['title']}
+                                        </h3>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     '''
+    
+    section_4 = f'''
+        <section>
+            <div class="container-xl mob-flex mb-48 gap-48">
+                <div class="flex-2">
+                    <div class="border-0 border-b-4 border-solid border-black mb-24">
+                        <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Essential Oils</h2>
+                    </div>
+                    <div class="flex gap-24">
+                        <a class="no-underline flex-1 flex flex-col gap-24 text-black" href="{essential_oils_blocks_data[4]['href']}">
+                            <div class="">
+                                <div class="relative mb-16">
+                                    <img class="object-cover" height="180" src="{essential_oils_blocks_data[4]['url']}">
+                                    <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">essential oils</p>
+                                </div>
+                                <h3 class="text-14 mb-8">
+                                    {essential_oils_blocks_data[4]['title']}
+                                </h3>
+                            </div>
+                        </a>
+                        <a class="no-underline flex-1 flex flex-col gap-24 text-black" href="{essential_oils_blocks_data[5]['href']}">
+                            <div class="">
+                                <div class="relative mb-16">
+                                    <img class="object-cover" height="180" src="{essential_oils_blocks_data[5]['url']}">
+                                    <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">essential oils</p>
+                                </div>
+                                <h3 class="text-14 mb-8">
+                                    {essential_oils_blocks_data[5]['title']}
+                                </h3>
+                            </div>
+                        </a>
+                        <a class="no-underline flex-1 flex flex-col gap-24 text-black" href="{essential_oils_blocks_data[6]['href']}">
+                            <div class="">
+                                <div class="relative mb-16">
+                                    <img class="object-cover" height="180" src="{essential_oils_blocks_data[6]['url']}">
+                                    <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">essential oils</p>
+                                </div>
+                                <h3 class="text-14 mb-8">
+                                    {essential_oils_blocks_data[6]['title']}
+                                </h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex-1">
+                </div>
+            </div>
+        </section>
     '''
 
     html = f'''
@@ -1192,6 +2072,8 @@ def page_home():
             <main>
                 {section_1}
                 {section_2}
+                {section_3}
+                {section_4}
             </main>
             <div class="mt-64"></div>
             {footer_html}
@@ -1211,9 +2093,14 @@ shutil.copy2('style-article.css', f'{website_folderpath}/style-article.css')
 # articles_preparations('decoctions')
 # articles_preparations('creams')
 # articles_preparations('essential-oils')
+# articles_preparations_2('teas')
+# articles_preparations_2('tinctures')
+# articles_preparations_2('creams')
+# articles_preparations_2('essential-oils')
 # articles_ailments()
 page_home()
 
+# articles_titles_check('teas')
 
 quit()
 
