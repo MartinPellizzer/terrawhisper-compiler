@@ -170,6 +170,11 @@ p {
     line-height: 3.2rem;
 }
 
+.text-32 {
+    font-size: 3.2rem;
+    line-height: 4.0rem;
+}
+
 .text-black {
     color: black;
 }
@@ -211,6 +216,10 @@ p {
     flex-direction: column;
 }
 
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
 .flex-1 {
     flex: 1;
 }
@@ -231,8 +240,16 @@ p {
     flex: 5;
 }
 
+.items-center {
+    align-items: center;    
+}
+
 .items-end {
     align-items: flex-end;    
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 .grid {
@@ -341,6 +358,10 @@ p {
     margin-bottom: 4.8rem;
 }
 
+.mb-64 {
+    margin-bottom: 6.4rem;
+}
+
 .border-0 {
     border-width: 0;
 }
@@ -368,6 +389,50 @@ p {
 
 .object-cover {
     object-fit: cover;
+}
+
+.avatar {
+    border-radius: 9999px;
+    height: 25.6rem;
+    width: 25.6rem;
+    object-fit: cover;
+    margin-bottom: 1.6rem;
+}
+
+.social-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.social-icon-16 {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.banner {
+    background-color: black;
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    text-align: center;
+}
+
+.top-bar {
+    padding-top: 0.8rem;
+    padding-bottom: 0.4rem;
+}
+
+.menu-item:hover {
+    border: 0;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-color: #c2410c;
+    color: #c2410c;
+}
+
+.article-card:hover {
+    color: #c2410c;
 }
 
 /***************************************************/
