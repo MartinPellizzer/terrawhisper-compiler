@@ -105,7 +105,27 @@ COOKIE_CONSENT = '''
 '''
 with open('assets/scripts/google-adsense.txt') as f: GOOGLE_ADSENSE_TAG = f.read()
 
-header_html = f'''
+top_bar_html = f'''
+    <section class="bg-black">
+        <div class="container-xl">
+            <div class="flex justify-between items-center top-bar">
+                <span class="text-white text-14">Terrawhisper</span>
+                <div class="flex gap-16">
+                    <a href="https://www.pinterest.com/terrawhisper" target="_blank" class="inline-block">
+                        <img class="social-icon-16" src="images-static/pinterest-small-white.png">
+                    </a>
+                    <a href="https://www.x.com/leenrandell" target="_blank" class="inline-block">
+                        <img class="social-icon-16" src="images-static/twitter-small-white.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+'''
+
+header_html = ''
+header_html += top_bar_html
+header_html += f'''
     <header class="header">
         <a class="" href="/"><img height="64" src="/images-static/terrawhisper-logo-white.jpg" alt="logo of terrawhisper"></a>
         <nav class="header-nav">
@@ -2120,23 +2140,6 @@ def articles_preparations(preparation_slug):
         # quit()
 
 def page_home():
-    top_bar_html = f'''
-        <section class="bg-black">
-            <div class="container-xl">
-                <div class="flex justify-between items-center top-bar">
-                    <span class="text-white text-14">Terrawhisper</span>
-                    <div class="flex gap-16">
-                        <a href="https://www.pinterest.com/terrawhisper" target="_blank" class="inline-block">
-                            <img class="social-icon-16" src="images-static/pinterest-small-white.png">
-                        </a>
-                        <a href="https://www.x.com/leenrandell" target="_blank" class="inline-block">
-                            <img class="social-icon-16" src="images-static/twitter-small-white.png">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    '''
     banner_html = f'''
         <section class="container-xl">
             <div class="banner">
@@ -2144,7 +2147,6 @@ def page_home():
             </div>
         </section>
     '''
-
     ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
     random.shuffle(ailments)
     teas_blocks_data = []
@@ -2223,7 +2225,6 @@ def page_home():
             'url': f'{image_url}',
             'title': f'{title}',
         })
-
     '''
         <section>
             <div class="container-xl mob-flex gap-48">
@@ -2235,6 +2236,7 @@ def page_home():
             </div>
         </section>
     '''
+
     head_html = head_html_generate('the future of wellness is natural remedies', '/style.css')
     section_1 = f'''
         <section class="container-xl grid-container mb-48">
@@ -2303,14 +2305,15 @@ def page_home():
                 </div>
             </a>
         '''
+
     section_2 = f'''
         <section>
-            <div class="container-xl mob-flex mb-48 gap-48">
+            <div class="container-xl flex mob-flex-col mb-48 gap-48">
                 <div class="flex-2">
                     <div class="border-0 border-b-4 border-solid border-black mb-24">
                         <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Teas</h2>
                     </div>
-                    <div class="flex gap-64">
+                    <div class="flex mob-flex-col gap-48">
                         <div class="flex-1">
                             <a class="article-card no-underline text-black" href="{teas_blocks_data[4]['href']}">
                                 <div class="relative mb-16">
@@ -2355,12 +2358,12 @@ def page_home():
 
     section_3 = f'''
         <section>
-            <div class="container-xl mob-flex mb-48 gap-48">
+            <div class="container-xl flex mob-flex-col mb-48 gap-48">
                 <div class="flex-2">
                     <div class="border-0 border-b-4 border-solid border-black mb-24">
                         <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Tinctures</h2>
                     </div>
-                    <div class="flex gap-48">
+                    <div class="flex mob-flex-col gap-48">
                         <div class="flex-1 flex flex-col gap-24">
                             <div class="">
                                 <a class="article-card no-underline text-black" href="{tinctures_blocks_data[4]['href']}">
@@ -2463,7 +2466,7 @@ def page_home():
                             <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">creams</h2>
                         </div>
                         <div class="flex flex-col gap-24">
-                            <div class="flex gap-24">
+                            <div class="flex mob-flex-col gap-24">
                                 <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{creams_blocks_data[4]['href']}">
                                     <div class="">
                                         <div class="relative mb-16">
@@ -2487,7 +2490,7 @@ def page_home():
                                     </div>
                                 </a>
                             </div>
-                            <div class="flex gap-24">
+                            <div class="flex mob-flex-col gap-24">
                                 <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{creams_blocks_data[6]['href']}">
                                     <div class="">
                                         <div class="relative mb-16">
@@ -2525,7 +2528,7 @@ def page_home():
                     <div class="border-0 border-b-4 border-solid border-black mb-24">
                         <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Essential Oils</h2>
                     </div>
-                    <div class="flex gap-24">
+                    <div class="flex mob-flex-col gap-24">
                         <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{essential_oils_blocks_data[4]['href']}">
                             <div class="">
                                 <div class="relative mb-16">
@@ -2572,7 +2575,6 @@ def page_home():
         <html lang="en">
         {head_html}
         <body>
-            {top_bar_html}
             {header_html}
             <main>
                 {section_1}
@@ -2623,19 +2625,45 @@ def page_systems():
             })
 
     for obj in data:
-        cards = []
         system_slug = obj['system_slug']
+        system_name = system_slug.capitalize()
+        section_1 = f'''
+            <section class="mt-64 mb-64">
+                <div class="container-xl text-center">
+                    <h1>{system_name} System's Ailments</h1>
+                    <p class="container-md">Different herbs improve different body systems. Select the body system you want to improve with natural remedies by clicking one of thm links below. When you'll click the selected link, you'll navigate to that particular body system page. In that page you'll find a list of common ailments you can relieve with herbalism.</p>
+                </div>
+            </section>
+        '''
+        cards = []
         for ailment_slug in obj["ailments_slugs"]:
             url = f'remedies/{system_slug}-system/{ailment_slug}'
             json_filepath = f'database/json/{url}.json'
             data = json_read(json_filepath)
             src = data['intro_image_src']
-
+            title = data['title']
+            lastmod = data['lastmod']
+            year, month, day = lastmod.split('-')
+            month = int(month)
+            if month == 1: month = "GEN"
+            if month == 2: month = "FEB"
+            if month == 3: month = "MAR"
+            if month == 4: month = "APR"
+            if month == 5: month = "MAY"
+            if month == 6: month = "JUN"
+            if month == 7: month = "JUL"
+            if month == 8: month = "AUG"
+            if month == 9: month = "SEP"
+            if month == 10: month = "OCT"
+            if month == 11: month = "NOV"
+            if month == 12: month = "DEC"
+            lastmod_format = f'{month.capitalize()} {day}, {year}'
             card = f'''
-                <a href="/remedies/{system_slug}-system/{ailment_slug}.html">
-                    <div>
-                        <img src="{src}">
-                        {ailment_slug}
+                <a class="article-card no-underline text-black" href="/remedies/{system_slug}-system/{ailment_slug}.html">
+                    <div class="">
+                        <img class="mb-16" src="{src}">
+                        <h2 class="text-18 mb-12">{title}</h2>
+                        <p class="text-14">{lastmod_format}</p>
                     </div>
                 </a>
             '''
@@ -2651,9 +2679,10 @@ def page_systems():
             <body>
                 {header_html}
                 <main>
+                    {section_1}
                     <section>
                         <div class="container-xl">
-                            <div class="grid grid-4 gap-64">
+                            <div class="grid-container-2">
                                 {cards}
                             </div>
                         </div>
@@ -2668,8 +2697,15 @@ def page_systems():
         with open(html_filepath, 'w') as f: f.write(html)
 
 def page_remedies():
-    # TODO: image of cardiovascular system (3-5 herbs that are good for it)
-    # TODO: description (what herbs help, what ailment covers, what outcome you get on daily life)
+    section_1 = f'''
+        <section class="mt-64 mb-64">
+            <div class="container-xl text-center">
+                <h1>Herbal Remedies by Body System</h1>
+                <p class="container-md">Different herbs improve different body systems. Select the body system you want to improve with natural remedies by clicking one of thm links below. When you'll click the selected link, you'll navigate to that particular body system page. In that page you'll find a list of common ailments you can relieve with herbalism.</p>
+            </div>
+        </section>
+    '''
+    plants_wcvp = csv_read_rows_to_json(f'{vault_tmp}/terrawhisper/wcvp_taxon.csv', delimiter = '|')
     systems = [
         'cardiovascular',
         'digestive',
@@ -2691,6 +2727,92 @@ def page_remedies():
         html_filepath = f'{website_folderpath}/{url}.html'
         data = json_read(json_filepath, create=True)
 
+        key = f'{system_slug}_system_herbs'
+        if key not in data: data[key] = []
+        # data[key] = []
+        if data[key] == []:
+            output_plants = []
+            for i in range(20):
+                prompt = f'''
+                    List the best herbs that are good for the {system_name} system.
+                    Also, for each herb name give a confidence score from 1 to 10, indicating how sure you are that is good for the {system_name} system.
+                    Write only the scientific names (botanical names) of the plants used for the preparation, don't add descriptions or common names.
+                    Write the names of the plants using as few words as possible.
+                    Don't write fluff, only proven facts.
+                    Don't allucinate.
+                    Reply in the following JSON format: 
+                    [
+                        {{"herb_name_scientific": "scientific name of herb 1 used for preparation", "confidence_score": "10"}}, 
+                        {{"herb_name_scientific": "scientific name of herb 2 used for preparation", "confidence_score": "5"}}, 
+                        {{"herb_name_scientific": "scientific name of herb 3 used for preparation", "confidence_score": "7"}} 
+                    ]
+                    Only reply with the JSON, don't add additional info.
+                '''
+                reply = llm_reply(prompt, model).strip()
+                json_data = {}
+                try: json_data = json.loads(reply)
+                except: pass 
+                if json_data != {}:
+                    names_scientific = []
+                    for item in json_data:
+                        try: line = item['herb_name_scientific']
+                        except: continue
+                        try: score = item['confidence_score']
+                        except: continue
+                        print(line)
+                        for plant in plants_wcvp:
+                            name_scientific = plant['scientfiicname']
+                            if name_scientific.lower().strip() in line.lower().strip():
+                                if len(name_scientific.split(' ')) > 1:
+                                    print('++++++++++++++++++++++++++++++++++++++++')
+                                    print(name_scientific)
+                                    print('++++++++++++++++++++++++++++++++++++++++')
+                                    names_scientific.append({
+                                        "name": name_scientific, 
+                                        "score": score,
+                                    })
+                                    break
+                        ## exceptions
+                        if line.lower().strip() == 'mentha piperita':
+                                names_scientific.append({"name": 'Mentha x piperita', "score": score})
+                    for obj in names_scientific:
+                        name = obj['name']
+                        score = obj['score']
+                        found = False
+                        for output_plant in output_plants:
+                            print(output_plant)
+                            print(name, '->', output_plant['herb_name_scientific'])
+                            if name in output_plant['herb_name_scientific']: 
+                                output_plant['herb_mentions'] += 1
+                                output_plant['herb_confidence_score'] += int(score)
+                                found = True
+                                break
+                        if not found:
+                            output_plants.append({
+                                'herb_name_scientific': name, 
+                                'herb_mentions': 1, 
+                                'herb_confidence_score': int(score), 
+                            })
+                output_plants_final = []
+                for output_plant in output_plants:
+                    output_plants_final.append({
+                        'herb_name_scientific': output_plant['herb_name_scientific'],
+                        'herb_mentions': int(output_plant['herb_mentions']),
+                        'herb_confidence_score': int(output_plant['herb_confidence_score']),
+                        'herb_total_score': int(output_plant['herb_mentions']) * int(output_plant['herb_confidence_score']),
+                    })
+                output_plants_final = sorted(output_plants_final, key=lambda x: x['herb_confidence_score'], reverse=True)
+                print('***********************')
+                print('***********************')
+                print('***********************')
+                for output_plant in output_plants_final:
+                    print(output_plant)
+                print('***********************')
+                print('***********************')
+                print('***********************')
+                data[key] = output_plants_final[:10]
+                json_write(json_filepath, data)
+
         key = f'{system_slug}_system_desc'
         if key not in data: data[key] = ''
         # data[key] = ''
@@ -2711,18 +2833,20 @@ def page_remedies():
             data[key] = reply
             json_write(json_filepath, data)
 
+        # ;image
         if 0:
             key = f'{system_slug}_system_image'
+            herbs_names = [x['herb_name_scientific'] for x in data[f'{system_slug}_system_herbs'][:3]]
+            herbs_names = ' and '.join(herbs_names)
             prompt = f'''
-                dry medicinal herbs,
-                on a wooden table,
-                surrounded by medicinal herbs,
+                top view of dry {herbs_names} herb on a wooden table,
                 indoor, 
-                natural window light,
+                natural light,
                 earth tones,
                 neutral colors,
                 soft focus,
                 warm tones,
+                vintage,
                 high resolution,
                 cinematic
             '''
@@ -2753,14 +2877,14 @@ def page_remedies():
         section = f'''
             <section class="mb-64">
                 <div class="container-xl">
-                    <div class="flex items-center {reverse} gap-64">
+                    <div class="flex mob-flex-col items-center {reverse} remedies_system_cols">
                         <div class="flex-1">
                              <img src="/images-static/{system_slug}.jpg">
                         </div>
                         <div class="flex-1">
                             <h2 class="text-32 mb-16">{system_name.capitalize()} System</h2>
                             {system_desc}
-                            <a href="/remedies/{system_slug}-system.html" class="button">{system_name.capitalize()} System Remedies</a>
+                            <a class="button" href="/remedies/{system_slug}-system.html" class="button">{system_name.capitalize()} System Remedies</a>
                         </div>
                     </div>
                 </div>
@@ -2778,6 +2902,7 @@ def page_remedies():
         <body>
             {header_html}
             <main>
+                {section_1}
                 {sections}
             </main>
             <div class="mt-64"></div>
@@ -2804,11 +2929,22 @@ shutil.copy2('style-article.css', f'{website_folderpath}/style-article.css')
 # articles_ailments()
 # articles_ailments_2()
 page_home()
-# page_remedies()
-# page_systems()
+page_remedies()
+page_systems()
 
 # articles_titles_check('teas')
 
 quit()
 
+# TODO: mobile version
+# TODO: breadcrumbs
+# TODO: footer
+# TODO: sitemap
+# TODO: bad image regen
+# TODO: contact
+# TODO: system page -> titles of ailments articles and description, and header description
+# TODO: articles -> author/meta section
+# TODO: articles -> table of content
+# TODO: articles ailments -> intro, links to preparations, supplementary content, regen headers (variations), images, related
+# TODO: articles preparations -> ...
 
