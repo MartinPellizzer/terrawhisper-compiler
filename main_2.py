@@ -2182,13 +2182,6 @@ def articles_preparations(preparation_slug):
         # quit()
 
 def page_home():
-    banner_html = f'''
-        <section class="container-xl">
-            <div class="banner">
-                <h1 class="text-white">Healing Herbs to Improve Your Wellness</h1>
-            </div>
-        </section>
-    '''
     ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
     random.shuffle(ailments)
     teas_blocks_data = []
@@ -2279,7 +2272,6 @@ def page_home():
         </section>
     '''
 
-    head_html = head_html_generate('the future of wellness is natural remedies', '/style.css')
     section_1 = f'''
         <section class="container-xl grid-container mb-48">
             <a class="no-underline bg-center bg-cover card-wide card-tall flex items-end pl-16 pb-16 pr-48" href="{teas_blocks_data[0]['href']}" style="background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url({teas_blocks_data[0]['url']})">
@@ -2612,6 +2604,7 @@ def page_home():
         </section>
     '''
 
+    head_html = head_html_generate('the future of wellness is natural remedies', '/style.css')
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
@@ -2630,6 +2623,67 @@ def page_home():
         </html>
     '''
     html_filepath = f'{website_folderpath}/index.html'
+    with open(html_filepath, 'w') as f: f.write(html)
+
+def page_contacts():
+    section_1 = f'''
+        <section>
+            <div class="container-xl mob-flex gap-64 mt-64">
+                <div class="flex-2">
+                    <h1>Contact Terrawhisper</h1>
+                    <p>Need something? The best way to contact Terrawhisper is to send and email at <u>leenrandell@gmail.com</u></p>
+                    <p>In alternative, follow our socials to stay in touch.</p>
+                    <p>NOTE: Before contacting (especially if it's for business of non-profit partnerships) please visit Terrawhisper about page to understand if it makes sense asking what you want to ask (aka. if our visions are compatible).</p>
+                    <h2 class="mt-48 mb-16">Valid reasons to contact</h2>
+                    <p>Here's a list of valid reasons to get in touch:</p>
+                    <ul>
+                        <li>Business Partnerships: If you are a business who love nature, herbs, and holistic healing, and want to work together on a project, Terrawhisper is here for you. Send an email to the address above and share your ideas. If we are a good fit to each others, Terrawhisper will get back to you ASAP.</li>
+                        <li>Request Content Review: Terrawhisper gather information from books, scientific papers, and articles. There's an ongoing effort to be as accurate as possible with the information shared, but no one is perfect. So, if you believe Terrawhisper published a piece of information that is not 100% accurate (or plain wrong), send an email telling us what you believe we should change. Please include the link to the article and a reference to the line to change.</li>
+                        <li>Guest Posting: Terrawhisper lack manpower (when it comes to writing articles). If you are good at writing and at sharing information in an easy to understand way, and you believe you could be a positive contribute to Terrawhisper, let us know and we will welcome you with open arm.</li>
+                    </ul>
+                    <h2 class="mt-48 mb-16">NON Valid reasons to contact</h2>
+                    <p>Here's a list of NON valid reasons to get in touch:</p>
+                    <ul>
+                        <li>Client Work and Personalized Prescriptions: Terrawhisper don't do client work at the time of the writing. If you don't find what you're looking for in the articles on the site, don't send an email describing your specific case/condition to ask for remedies. In the future, Terrawhisper will share more detailed and specialized remedies in the newsletter and in a book about medicinal plants that's in the making (coming soon), but that's as far as it goes. Don't ask to be a client or to get personalized advice.</li>
+                    </ul>
+                    <div class="mb-64"></div>
+                </div>
+                <div class="flex-1">
+                    <div class="flex flex-col items-center">
+                        <img src="images-static/leen-randell.jpg" class="avatar">
+                        <p class="helvetica-bold">Leen Randell</p>
+                        <div class="flex flex-col gap-16">
+                            <a href="https://www.pinterest.com/terrawhisper" target="_blank" class="inline-block flex items-center gap-16 no-underline">
+                                <img class="social-icon" src="images-static/pinterest.png">
+                            </a>
+                            <a href="https://www.x.com/leenrandell" target="_blank" class="inline-block flex items-center gap-16 no-underline">
+                                <img class="social-icon" src="images-static/twitter.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="mb-64"></div>
+                </div>
+            </div>
+        </section>
+    '''
+    html_filepath = f'{website_folderpath}/contacts.html'
+    breadcrumbs_html_filepath = f'contacts.html'
+    breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
+    head_html = head_html_generate('contact terrawhisper', '/style.css')
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+        {head_html}
+        <body>
+            {header_html}
+            {breadcrumbs_html}
+            <main>
+                {section_1}
+            </main>
+            {footer_html}
+        </body>
+        </html>
+    '''
     with open(html_filepath, 'w') as f: f.write(html)
 
 def page_systems():
@@ -2973,13 +3027,14 @@ shutil.copy2('style-article.css', f'{website_folderpath}/style-article.css')
 # articles_preparations('essential-oils')
 # articles_preparations_2('teas')
 # articles_preparations_2('tinctures')
-articles_preparations_2('creams')
+# articles_preparations_2('creams')
 # articles_preparations_2('essential-oils')
 # articles_ailments()
-articles_ailments_2()
-page_home()
-page_remedies()
-page_systems()
+# articles_ailments_2()
+# page_home()
+page_contacts()
+# page_remedies()
+# page_systems()
 
 # articles_titles_check('teas')
 
