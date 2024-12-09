@@ -25,6 +25,24 @@ model_8b = f'/home/ubuntu/vault-tmp/llms/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf'
 model_validator_filepath = f'llms/Llama-3-Partonus-Lynx-8B-Instruct-Q4_K_M.gguf'
 model = model_8b
 
+def breadcrumbs_gen(filepath):
+    breadcrumbs = ['<a class="no-underline article-card text-black" href="/">Home</a>']
+    breadcrumbs_path = filepath.replace('website/', '')
+    chunks = breadcrumbs_path.split('/')
+    filepath_curr = ''
+    for chunk in chunks[:-1]:
+        filepath_curr += f'/{chunk}'
+        chunk = chunk.strip().replace('-', ' ').title()
+        breadcrumbs.append(f'<a class="no-underline article-card text-black" href="{filepath_curr}.html">{chunk}</a>')
+    breadcrumbs = ' | '.join(breadcrumbs)
+    breadcrumbs += f' | {chunks[-1].strip().replace(".html", "").replace("-", " ").title()}'
+    breadcrumbs_section = f'''
+        <section class="container-xl">
+            {breadcrumbs}
+        </section>
+    '''
+    return breadcrumbs_section
+
 if 0:
     if 0:
         prompt = f'''
@@ -112,10 +130,10 @@ top_bar_html = f'''
                 <span class="text-white text-14">Terrawhisper</span>
                 <div class="flex gap-16">
                     <a href="https://www.pinterest.com/terrawhisper" target="_blank" class="inline-block">
-                        <img class="social-icon-16" src="images-static/pinterest-small-white.png">
+                        <img class="social-icon-16" src="/images-static/pinterest-small-white.png">
                     </a>
                     <a href="https://www.x.com/leenrandell" target="_blank" class="inline-block">
-                        <img class="social-icon-16" src="images-static/twitter-small-white.png">
+                        <img class="social-icon-16" src="/images-static/twitter-small-white.png">
                     </a>
                 </div>
             </div>
@@ -459,8 +477,7 @@ def articles_ailments_2():
                     Don't allucinate.
                     Reply in the following JSON format: 
                     [
-                        {{"preparation_name": "name of preparation 1", "confidence_score": "10"}}, 
-                        {{"preparation_name": "name of preparation 2", "confidence_score": "5"}}, 
+                        {{"preparation_name": "name of preparation 1", "confidence_score": "10"}}, {{"preparation_name": "name of preparation 2", "confidence_score": "5"}}, 
                         {{"preparation_name": "name of preparation 3", "confidence_score": "7"}} 
                     ]
                     Only reply with the JSON, don't add additional info.
@@ -575,26 +592,49 @@ def articles_ailments_2():
         # ;html
         #######################################################
         article_html = ''
-        article_html += f'<h1>{data["title"]}</h1>'
+        article_html += f'<h1 class="mt-48">{data["title"]}</h1>'
         src = data['intro_image_src']
         alt = data['intro_image_alt']
         article_html += f'<img src="{src}" alt="{alt}">'
-        article_html += f'<h2>What are the causes of {ailment_name}?</h2>'
+        article_html += f'<h2 class="article-h2">What are the causes of {ailment_name}?</h2>'
         article_html += f'{util.text_format_1N1_html(data["causes_desc"])}\n'
-        article_html += f'<h2>What are the main benefits of using herbs for {ailment_name}?</h2>'
+        article_html += f'<h2 class="article-h2">What are the main benefits of using herbs for {ailment_name}?</h2>'
         article_html += f'{util.text_format_1N1_html(data["benefits_desc"])}\n'
-        article_html += f'<h2>What are the main medicinal herbs for {ailment_name}?</h2>'
+        article_html += f'<h2 class="article-h2">What are the main medicinal herbs for {ailment_name}?</h2>'
         article_html += f'{util.text_format_1N1_html(data["herbs_desc"])}\n'
-        article_html += f'<h2>What are the most used herbal preparations for {ailment_name}?</h2>'
+        article_html += f'<h2 class="article-h2">What are the most used herbal preparations for {ailment_name}?</h2>'
         article_html += f'{util.text_format_1N1_html(data["preparations_desc"])}\n'
+        article_html += f'<ul>'
+        for preparation in data['preparations']:
+            preparation_name = preparation['preparation_name']
+            preparation_check = ''
+            if 'tea' in preparation_name.lower(): preparation_check = 'teas'
+            if 'tincture' in preparation_name.lower(): preparation_check = 'tinctures'
+            if 'cream' in preparation_name.lower(): preparation_check = 'creams'
+            if 'essential' in preparation_name.lower(): preparation_check = 'essential-oils'
+            if preparation_name[-1] != 's': preparation_name += 's'
+            preparation_link_out = f'{website_folderpath}/{url}/{preparation_check}.html'
+            found = False
+            if preparation_check != '':
+                if os.path.exists(preparation_link_out): 
+                    found = True
+            if found:
+                preparation_link_html = f'/{url}/{preparation_check}.html'
+                article_html += f'<li><a href="{preparation_link_html}">{preparation_check.capitalize()}</a></li>'
+            else:
+                article_html += f'<li>{preparation_name.capitalize()}</li>'
+        article_html += f'</ul>'
 
-        head_html = head_html_generate(data['title'], '/style-article.css')
+        breadcrumbs_html_filepath = f'{url}.html'
+        breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
+        head_html = head_html_generate(data['title'], '/style.css')
         html = f'''
             <!DOCTYPE html>
             <html lang="en">
             {head_html}
             <body>
                 {header_html}
+                {breadcrumbs_html}
                 <main class="container-md">
                     {article_html}
                 </main>
@@ -1475,6 +1515,7 @@ def articles_preparations_2(preparation_slug):
             json_write(json_filepath, data)
 
         # ;images
+        # TODO: generate missing image util good one (input or tkinter)
         if 1:
             non_valid_preparations = [
                 'decoctions',
@@ -1485,8 +1526,8 @@ def articles_preparations_2(preparation_slug):
                 alt = f'herbal {preparation_name} for {ailment_name}'
                 herbs_names_scientific = [x['herb_name_scientific'] for x in data["remedies"][:remedies_num]]
                 herb_name_scientific = random.choice(herbs_names_scientific)
-                # if not os.path.exists(output_filepath):
-                if True:
+                if not os.path.exists(output_filepath):
+                # if True:
                     container = ''
                     if preparation_slug == 'teas': container = 'a cup of'
                     if preparation_slug == 'tinctures': container = 'a bottle of'
@@ -1526,6 +1567,7 @@ def articles_preparations_2(preparation_slug):
                         container = ''
                         if preparation_slug == 'teas': container = 'a cup of'
                         if preparation_slug == 'tinctures': container = 'a bottle of'
+                        if preparation_slug == 'tinctures': container = 'one '
                         if preparation_slug == 'creams': container = 'a jar of'
                         if preparation_slug == 'essential-oils': container = 'a bottle of'
                         prompt = f'''
@@ -1561,17 +1603,17 @@ def articles_preparations_2(preparation_slug):
 
         article_html = ''
 
-        article_html += f'<h1>{title}</h1>\n'
+        article_html += f'<h1 class="mt-48">{title}</h1>\n'
         article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
 
         for remedy_i, remedy in enumerate(data['remedies']):
-            article_html += f'<h2>{remedy_i+1}. {remedy["herb_name_scientific"]}</h2>\n'
+            article_html += f'<h2 class="article-h2">{remedy_i+1}. {remedy["herb_name_scientific"]}</h2>\n'
             src = remedy['image_src']
             alt = remedy['image_alt']
             article_html += f'<img src="{src}" alt="{alt}">\n'
             article_html += f'{util.text_format_1N1_html(remedy["remedy_desc"])}\n'
 
-        head_html = head_html_generate(title, '/style-article.css')
+        head_html = head_html_generate(title, '/style.css')
         html = f'''
             <!DOCTYPE html>
             <html lang="en">
@@ -2671,6 +2713,10 @@ def page_systems():
         cards = ''.join(cards)
         system_slug = obj['system_slug']
         system_name = system_slug.lower().strip().replace('-', ' ')
+
+        html_filepath = f'{website_folderpath}/remedies/{system_slug}-system.html'
+        breadcrumbs_html_filepath = f'remedies/{system_slug}-system.html'
+        breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
         head_html = head_html_generate(f'{system_name} ailments', '/style.css')
         html = f'''
             <!DOCTYPE html>
@@ -2678,6 +2724,7 @@ def page_systems():
             {head_html}
             <body>
                 {header_html}
+                {breadcrumbs_html}
                 <main>
                     {section_1}
                     <section>
@@ -2693,7 +2740,6 @@ def page_systems():
             </body>
             </html>
         '''
-        html_filepath = f'{website_folderpath}/remedies/{system_slug}-system.html'
         with open(html_filepath, 'w') as f: f.write(html)
 
 def page_remedies():
@@ -2894,13 +2940,17 @@ def page_remedies():
 
     sections = ''.join(sections)
 
-    head_html = head_html_generate('remedies for body systems', '/style.css')
+    html_filepath = f'{website_folderpath}/remedies.html'
+    breadcrumbs_html_filepath = f'remedies.html'
+    breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
+    head_html = head_html_generate('herbal remedies by body systems', '/style.css')
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
         {head_html}
         <body>
             {header_html}
+            {breadcrumbs_html}
             <main>
                 {section_1}
                 {sections}
@@ -2910,7 +2960,6 @@ def page_remedies():
         </body>
         </html>
     '''
-    html_filepath = f'{website_folderpath}/remedies.html'
     with open(html_filepath, 'w') as f: f.write(html)
 
 
@@ -2924,10 +2973,10 @@ shutil.copy2('style-article.css', f'{website_folderpath}/style-article.css')
 # articles_preparations('essential-oils')
 # articles_preparations_2('teas')
 # articles_preparations_2('tinctures')
-# articles_preparations_2('creams')
+articles_preparations_2('creams')
 # articles_preparations_2('essential-oils')
 # articles_ailments()
-# articles_ailments_2()
+articles_ailments_2()
 page_home()
 page_remedies()
 page_systems()
@@ -2936,8 +2985,6 @@ page_systems()
 
 quit()
 
-# TODO: mobile version
-# TODO: breadcrumbs
 # TODO: footer
 # TODO: sitemap
 # TODO: bad image regen
