@@ -17,6 +17,8 @@ from oliark_io import json_read, json_write
 from oliark_llm import llm_reply
 from oliark import img_resize
 
+from lib import components
+
 vault = '/home/ubuntu/vault'
 vault_tmp = '/home/ubuntu/vault-tmp'
 website_folderpath = 'website-2'
@@ -237,6 +239,39 @@ def articles_ailments_2():
             json_write(json_filepath, data)
 
         ## ------------------------------------
+        ## ;intro
+        ## ------------------------------------
+        if 0:
+            key = 'intro_desc'
+            if key in data: del data[key]
+            json_write(json_filepath, data)
+            continue
+
+        key = 'intro_desc'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            prompt = f'''
+                Write a short paragraph about herbal remedies for {ailment_name}.
+                Include the following:
+                - what is {ailment_name} and how it effects your life.
+                - the causes of {ailment_name}.
+                - the healing herbs for {ailment_name}.
+                - the herbal preparations for {ailment_name} (ex. teas).
+                Use simple and short words, and a simple writing style.
+                Don't write lists.
+                Use a conversational and fluid writing style.
+                Don't write fluff.
+                Don't allucinate.
+                Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+            '''
+            reply = llm_reply(prompt).strip()
+            reply = [line.strip() for line in reply.split('\n')]
+            reply = ' '.join(reply)
+            data[key] = reply
+            json_write(json_filepath, data)
+
+        ## ------------------------------------
         ## ;causes
         ## ------------------------------------
         if 0:
@@ -430,6 +465,39 @@ def articles_ailments_2():
             data[key] = output_plants_final[:10]
             json_write(json_filepath, data)
 
+        # herbs img
+        for herb_i, herb in enumerate(data['herbs']):
+            herb_name_scientific = herb['herb_name_scientific']
+            herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
+            output_filepath = f'{website_folderpath}/images/ailments/herbs/{herb_slug}.jpg'
+            src = f'/images/ailments/herbs/{herb_slug}.jpg'
+            alt = f'{herb_name_scientific} for {ailment_name}'
+            if not os.path.exists(output_filepath):
+                prompt = f'''
+                    dry {herb_name_scientific} herb on a wooden table,
+                    indoor, 
+                    natural window light,
+                    earth tones,
+                    neutral colors,
+                    soft focus,
+                    warm tones,
+                    vintage,
+                    high resolution,
+                    cinematic
+                '''
+                negative_prompt = f'''
+                    text, watermark 
+                '''
+                print(prompt)
+                pipe_init()
+                image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+                image = img_resize(image, w=768, h=768)
+                image.save(output_filepath)
+            if herb_i == 0:
+                herb['image_src'] = src
+                herb['image_alt'] = alt
+                json_write(json_filepath, data)
+
         key = 'herbs_desc'
         if key not in data: data[key] = ''
         # data[key] = ''
@@ -532,6 +600,78 @@ def articles_ailments_2():
             data[key] = data_output_final[:10]
             json_write(json_filepath, data)
 
+        key = 'preparations_img'
+        if key not in data: data[key] = ''
+        data[key] = ''
+        if data[key] == '':
+            images_filepaths = []
+            for preparation in data['preparations'][:5]:
+                preparation_name = preparation['preparation_name']
+                preparation_check = ''
+                if 'tea' in preparation_name.lower(): preparation_check = 'teas'
+                if 'tincture' in preparation_name.lower(): preparation_check = 'tinctures'
+                if 'cream' in preparation_name.lower(): preparation_check = 'creams'
+                if 'essential' in preparation_name.lower(): preparation_check = 'essential-oils'
+                if preparation_name[-1] != 's': preparation_name += 's'
+                preparation_link_out = f'{website_folderpath}/{url}/{preparation_check}.html'
+                found = False
+                if preparation_check != '':
+                    if os.path.exists(preparation_link_out): 
+                        found = True
+                if found:
+                    _json_filepath = f'database/json/{url}/{preparation_check}.json'
+                    _data = json_read(_json_filepath)
+                    images_filepaths.append(f'{website_folderpath}' + _data['intro_image_src'])
+            pin_w = 768
+            pin_h = 768
+            img = Image.new(mode="RGB", size=(pin_w, pin_h), color='#ffffff')
+            gap = 8
+            if len(images_filepaths) >= 4:
+                img_0000 = Image.open(images_filepaths[0])
+                img_0001 = Image.open(images_filepaths[1])
+                img_0002 = Image.open(images_filepaths[2])
+                img_0003 = Image.open(images_filepaths[3])
+                img_0000 = util.img_resize(img_0000, int(pin_w*0.50), int(pin_h*0.5))
+                img_0001 = util.img_resize(img_0001, int(pin_w*0.50), int(pin_h*0.5))
+                img_0002 = util.img_resize(img_0002, int(pin_w*0.50), int(pin_h*0.5))
+                img_0003 = util.img_resize(img_0003, int(pin_w*0.50), int(pin_h*0.5))
+                img.paste(img_0000, (0, 0))
+                img.paste(img_0001, (int(pin_w*0.50) + gap, 0))
+                img.paste(img_0002, (0, int(pin_h*0.5) + gap))
+                img.paste(img_0003, (int(pin_w*0.50) + gap, int(pin_h*0.5) + gap))
+            elif len(images_filepaths) >= 3:
+                img_0000 = Image.open(images_filepaths[0])
+                img_0001 = Image.open(images_filepaths[1])
+                img_0002 = Image.open(images_filepaths[2])
+                img_0000 = util.img_resize(img_0000, int(pin_w*0.50), int(pin_h*0.5))
+                img_0001 = util.img_resize(img_0001, int(pin_w*0.50), int(pin_h*0.5))
+                img_0002 = util.img_resize(img_0002, int(pin_w*1.00), int(pin_h*0.5))
+                img.paste(img_0000, (0, 0))
+                img.paste(img_0001, (int(pin_w*0.50) + gap, 0))
+                img.paste(img_0002, (0, int(pin_h*0.5) + gap))
+            elif len(images_filepaths) >= 2:
+                img_0000 = Image.open(images_filepaths[0])
+                img_0001 = Image.open(images_filepaths[1])
+                img_0000 = util.img_resize(img_0000, int(pin_w*0.50), int(pin_h*1.0))
+                img_0001 = util.img_resize(img_0001, int(pin_w*0.50), int(pin_h*1.0))
+                img.paste(img_0000, (0, 0))
+                img.paste(img_0001, (int(pin_w*0.50) + gap, 0))
+            elif len(images_filepaths) >= 1:
+                img_0000 = Image.open(images_filepaths[0])
+                img_0000 = util.img_resize(img_0000, int(pin_w*1.0), int(pin_h*1.0))
+                img.paste(img_0000, (0, 0))
+            if len(images_filepaths) >= 1:
+                image_out_filepath = f'{website_folderpath}/images/ailments/{ailment_slug}-herbal-preparations.jpg'
+                image_src_filepath = f'/images/ailments/{ailment_slug}-herbal-preparations.jpg'
+                img.save(
+                    image_out_filepath,
+                    format='JPEG',
+                    subsampling=0,
+                    quality=70,
+                )
+            data[key] = image_src_filepath
+            json_write(json_filepath, data)
+
         key = 'preparations_desc'
         if key not in data: data[key] = ''
         # data[key] = ''
@@ -551,6 +691,163 @@ def articles_ailments_2():
             reply = ' '.join(reply)
             data[key] = reply
             json_write(json_filepath, data)
+
+        ## ------------------------------------
+        ## ;herbs_avoid
+        ## ------------------------------------
+        if 0:
+            key = 'herbs_avoid'
+            if key in data: del data[key]
+            json_write(json_filepath, data)
+            continue
+
+        key = 'herbs_avoid'
+        if key not in data: data[key] = []
+        # data[key] = []
+        if data[key] == []:
+            items_num = 20
+            output_plants = []
+            herbs_names = [x['herb_name_scientific'] for x in data['herbs'][:5]]
+            for i in range(5):
+                print(f'{ailment_i}/{len(ailments)} - {i}: {ailment}')
+                prompt = f'''
+                    List the best herbs to avoid if you have {ailment_name}.
+                    Don't include the following herbs: {herbs_names}.
+                    Also, for each herb name give a confidence score from 1 to 10, indicating how sure you are that herb must be avoide if you have {ailment_name}.
+                    Write only the scientific names (botanical names) of the herbs, don't add descriptions or common names.
+                    Write the names of the herbs using as few words as possible.
+                    Don't write fluff, only proven facts.
+                    Don't allucinate.
+                    Reply in the following JSON format: 
+                    [
+                        {{"herb_name_scientific": "scientific name of herb 1", "confidence_score": "10"}}, 
+                        {{"herb_name_scientific": "scientific name of herb 2", "confidence_score": "5"}}, 
+                        {{"herb_name_scientific": "scientific name of herb 3", "confidence_score": "7"}} 
+                    ]
+                    Only reply with the JSON, don't add additional info.
+                '''
+                reply = llm_reply(prompt, model).strip()
+                json_data = {}
+                try: json_data = json.loads(reply)
+                except: pass 
+                if json_data != {}:
+                    names_scientific = []
+                    for item in json_data:
+                        try: line = item['herb_name_scientific']
+                        except: continue
+                        try: score = item['confidence_score']
+                        except: continue
+                        if line.lower().strip() in [x.lower().strip() for x in herbs_names]: continue
+                        print(line)
+                        for plant in plants_wcvp:
+                            name_scientific = plant['scientfiicname']
+                            if name_scientific.lower().strip() in line.lower().strip():
+                                if len(name_scientific.split(' ')) > 1:
+                                    print('++++++++++++++++++++++++++++++++++++++++')
+                                    print(name_scientific)
+                                    print('++++++++++++++++++++++++++++++++++++++++')
+                                    names_scientific.append({
+                                        "name": name_scientific, 
+                                        "score": score,
+                                    })
+                                    break
+                        ## exceptions
+                        if line.lower().strip() == 'mentha piperita':
+                                names_scientific.append({"name": 'Mentha x piperita', "score": score})
+                    for obj in names_scientific:
+                        name = obj['name']
+                        score = obj['score']
+                        found = False
+                        for output_plant in output_plants:
+                            print(output_plant)
+                            print(name, '->', output_plant['herb_name_scientific'])
+                            if name in output_plant['herb_name_scientific']: 
+                                output_plant['herb_mentions'] += 1
+                                output_plant['herb_confidence_score'] += int(score)
+                                found = True
+                                break
+                        if not found:
+                            output_plants.append({
+                                'herb_name_scientific': name, 
+                                'herb_mentions': 1, 
+                                'herb_confidence_score': int(score), 
+                            })
+            output_plants_final = []
+            for output_plant in output_plants:
+                output_plants_final.append({
+                    'herb_name_scientific': output_plant['herb_name_scientific'],
+                    'herb_mentions': int(output_plant['herb_mentions']),
+                    'herb_confidence_score': int(output_plant['herb_confidence_score']),
+                    'herb_total_score': int(output_plant['herb_mentions']) * int(output_plant['herb_confidence_score']),
+                })
+            output_plants_final = sorted(output_plants_final, key=lambda x: x['herb_total_score'], reverse=True)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            for output_plant in output_plants_final:
+                print(output_plant)
+            print('***********************')
+            print('***********************')
+            print('***********************')
+            data[key] = output_plants_final[:10]
+            json_write(json_filepath, data)
+
+        key = 'herbs_avoid_desc'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            herbs_names = [x['herb_name_scientific'] for x in data['herbs_avoid'][:5]]
+            herbs_names = ', '.join(herbs_names)
+            prompt = f'''
+                Write a detailed paragraph explaining why your should avoid the following herbs if you have {ailment_name}: {herbs_names}.
+                Use simple and short words, and a simple writing style.
+                Use a conversational and fluid writing style.
+                Don't write lists.
+                Don't write fluff.
+                Don't allucinate.
+                Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+            '''
+            reply = llm_reply(prompt).strip()
+            reply = [line.strip() for line in reply.split('\n')]
+            reply = ' '.join(reply)
+            data[key] = reply
+            json_write(json_filepath, data)
+
+        ## ------------------------------------
+        ## ;faq
+        ## ------------------------------------
+        faqs = [
+            {'key': 'faq_prevent', 'question': f'Are there any specific herbs that can prevent {ailment_name}?',},
+            {'key': 'faq_pregnant', 'question': f'Is it safe to use herbal remedies for {ailment_name} during pregnancy?',},
+            {'key': 'faq_frequency', 'question': f'Are there any herbs that can reduce the frequency of {ailment_name}?',},
+            {'key': 'faq_combination', 'question': f'Can I combine different herbal remedies for {ailment_name}?',},
+            {'key': 'faq_children', 'question': f'What herbal remedies are safe for children with {ailment_name}?',},
+            {'key': 'faq_side_effects', 'question': f'Are there any side effects associated with herbal {ailment_name} remedies?',},
+            {'key': 'faq_how_long', 'question': f'How long does it take for herbal remedies to relieve {ailment_name}?',},
+        ]
+        for faq in faqs:
+            key = faq['key']
+            question = faq['question']
+            if key not in data: data[key] = ''
+            # data[key] = ''
+            if data[key] == '':
+                prompt = f'''
+                    Write a short paragraph in less than 60 words that answer the following question: {question}
+                    Use simple and short words, and a simple writing style.
+                    Use a conversational and fluid writing style.
+                    Don't write lists.
+                    Don't write fluff.
+                    Don't allucinate.
+                    Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+                    Don't mention consulting a doctor, healthcare professional or similar.
+                '''
+                reply = llm_reply(prompt).strip()
+                reply = [line.strip() for line in reply.split('\n')]
+                reply = ' '.join(reply)
+                data[key] = reply
+                json_write(json_filepath, data)
+
+
 
         #######################################################
         # ;image
@@ -592,20 +889,34 @@ def articles_ailments_2():
         # ;html
         #######################################################
         article_html = ''
-        article_html += f'<h1 class="mt-48">{data["title"]}</h1>'
+        article_html += f'<h1 class="">{data["title"]}</h1>\n'
         src = data['intro_image_src']
         alt = data['intro_image_alt']
-        article_html += f'<img src="{src}" alt="{alt}">'
-        article_html += f'<h2 class="article-h2">What are the causes of {ailment_name}?</h2>'
+        article_html += f'<img class="article-img" src="{src}" alt="{alt}">\n'
+        article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
+        article_html += f'<h2>What are the causes of {ailment_name}?</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["causes_desc"])}\n'
-        article_html += f'<h2 class="article-h2">What are the main benefits of using herbs for {ailment_name}?</h2>'
+        article_html += f'<h2>What are the main benefits of using herbs for {ailment_name}?</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["benefits_desc"])}\n'
-        article_html += f'<h2 class="article-h2">What are the main medicinal herbs for {ailment_name}?</h2>'
+
+        article_html += f'<h2>What are the main medicinal herbs for {ailment_name}?</h2>\n'
+        herb = data['herbs'][0]
+        herb_name_scientific = herb['herb_name_scientific']
+        herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
+        output_filepath = f'{website_folderpath}/images/ailments/herbs/{herb_slug}.jpg'
+        src = f'/images/ailments/herbs/{herb_slug}.jpg'
+        alt = f'{herb_name_scientific} for {ailment_name}'
+        article_html += f'<img class="article-img" src="{src}" alt="{alt}">\n'
         article_html += f'{util.text_format_1N1_html(data["herbs_desc"])}\n'
-        article_html += f'<h2 class="article-h2">What are the most used herbal preparations for {ailment_name}?</h2>'
+
+        article_html += f'<h2>What are the most used herbal preparations for {ailment_name}?</h2>\n'
+        src = data['preparations_img']
+        article_html += f'<img class="article-img" src="{src}" alt="{alt}">\n'
         article_html += f'{util.text_format_1N1_html(data["preparations_desc"])}\n'
-        article_html += f'<ul>'
-        for preparation in data['preparations']:
+        article_html += f'<p>Additional Resources:</p>\n'
+
+        article_html += f'<ul>\n'
+        for preparation in data['preparations'][:5]:
             preparation_name = preparation['preparation_name']
             preparation_check = ''
             if 'tea' in preparation_name.lower(): preparation_check = 'teas'
@@ -619,14 +930,29 @@ def articles_ailments_2():
                 if os.path.exists(preparation_link_out): 
                     found = True
             if found:
+                _json_filepath = f'database/json/{url}/{preparation_check}.json'
+                _data = json_read(_json_filepath)
+                _title = _data['title']
                 preparation_link_html = f'/{url}/{preparation_check}.html'
-                article_html += f'<li><a href="{preparation_link_html}">{preparation_check.capitalize()}</a></li>'
-            else:
-                article_html += f'<li>{preparation_name.capitalize()}</li>'
-        article_html += f'</ul>'
+                article_html += f'<li><a href="{preparation_link_html}">{_title.capitalize()}</a></li>\n'
+        article_html += f'</ul>\n'
+
+        article_html += f'<h2>What herbs should you avoid if you have {ailment_name}?</h2>\n'
+        article_html += f'{util.text_format_1N1_html(data["herbs_avoid_desc"])}\n'
+
+        article_html += f'<h2>FAQ?</h2>\n'
+        random.shuffle(faqs)
+        faqs = faqs[:random.randint(3, 4)]
+        for faq in faqs:
+            key = faq['key']
+            question = faq['question']
+            article_html += f'<h3>{question.capitalize()}</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
 
         breadcrumbs_html_filepath = f'{url}.html'
         breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
+        meta = components.meta(article_html, data["lastmod"])
+        article_html = components.table_of_contents(article_html)
         head_html = head_html_generate(data['title'], '/style.css')
         html = f'''
             <!DOCTYPE html>
@@ -635,7 +961,8 @@ def articles_ailments_2():
             <body>
                 {header_html}
                 {breadcrumbs_html}
-                <main class="container-md">
+                <main class="container-md mt-48">
+                    {meta}
                     {article_html}
                 </main>
                 <div class="mt-64"></div>
@@ -1344,33 +1671,36 @@ def articles_preparations_2(preparation_slug):
         if 'title' not in data: data['title'] = ''
         # data['title'] = ''
         if data['title'] == '':
-            prompt = f'''
-                Write a numbered list of 10 titles for a listicle (list article) using the data below.
-                problem: {data["ailment_name"]}.
-                remedies: herbal {data["preparation_name"]}.
-                remedies number: {data["remedies_num"]}.
-                target audience: {data["audience"]["audience_name"]}.
-                Write only the titles.
-                Always write the remedies in plural form, for example write "teas" instead of "tea".
-                Always include the problem, remedies, remedies number and target audience in each title.
-                An example of title could be: {data['remedies_num']} {data['preparation_name']} for {data['audience']['audience_name']} with {data['ailment_name']}
-            '''
-            reply = llm_reply(prompt)
-            lines = []
-            for line in reply.split('\n'):
-                line = line.strip()
-                if line == '': continue
-                if not line[0].isdigit(): continue
-                if '. ' not in line: continue
-                line = '. '.join(line.split('. ')[1:])
-                line = line.replace('*', '')
-                if line.endswith('.'): line = line[:-1]
-                line = line.strip()
-                if line == '': continue
-                lines.append(line)
-            line = random.choice(lines)
-            data['title'] = line
-            json_write(json_filepath, data)
+            for _ in range(10):
+                prompt = f'''
+                    Write a numbered list of 10 titles for a listicle (list article) using the data below.
+                    problem: {data["ailment_name"]}.
+                    remedies: herbal {data["preparation_name"]}.
+                    remedies number: {data["remedies_num"]}.
+                    target audience: {data["audience"]["audience_name"]}.
+                    Write only the titles.
+                    Always write the remedies in plural form, for example write "teas" instead of "tea".
+                    Always include the problem, remedies, remedies number and target audience in each title.
+                    An example of title could be: {data['remedies_num']} {data['preparation_name']} for {data['audience']['audience_name']} with {data['ailment_name']}
+                '''
+                reply = llm_reply(prompt)
+                lines = []
+                for line in reply.split('\n'):
+                    line = line.strip()
+                    if line == '': continue
+                    if not line[0].isdigit(): continue
+                    if '. ' not in line: continue
+                    line = '. '.join(line.split('. ')[1:])
+                    line = line.replace('*', '')
+                    if line.endswith('.'): line = line[:-1]
+                    line = line.strip()
+                    if line == '': continue
+                    lines.append(line)
+                line = random.choice(lines)
+                if preparation_name.lower() not in line.lower(): continue
+                data['title'] = line
+                json_write(json_filepath, data)
+                break
 
         key = 'remedies'
         if key not in data: data[key] = []
@@ -2265,7 +2595,7 @@ def page_home():
             <div class="container-xl mob-flex gap-48">
                 <div class="flex-2">
                     <div class="border-0 border-b-4 border-solid border-black mb-24">
-                        <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Popular Now</h2>
+                        <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Popular Now</h2>
                     </div>
                 </div>
             </div>
@@ -2279,7 +2609,7 @@ def page_home():
                     <span class="inline-block text-12 text-white bg-black uppercase mb-16 pl-8 pr-8 pt-4 pb-4">
                         PREPARATIONS
                     </span>
-                    <h2 class="text-white text-24 mb-16">
+                    <h2 class="h2-plain text-white text-24 mb-16">
                         {teas_blocks_data[0]['title']}
                     </h2>
                     <p class="text-white">
@@ -2292,7 +2622,7 @@ def page_home():
                     <span class="inline-block text-12 text-white bg-black uppercase mb-16 pl-8 pr-8 pt-4 pb-4">
                         PREPARATIONS
                     </span>
-                    <h2 class="text-white text-24 mb-16">
+                    <h2 class="h2-plain text-white text-24 mb-16">
                         {tinctures_blocks_data[1]['title']}
                     </h2>
                 </div>
@@ -2302,7 +2632,7 @@ def page_home():
                     <span class="inline-block text-12 text-white bg-black uppercase mb-16 pl-8 pr-8 pt-4 pb-4">
                         PREPARATIONS
                     </span>
-                    <h2 class="text-white text-16 mb-16">
+                    <h2 class="h2-plain text-white text-16 mb-16">
                         {creams_blocks_data[2]['title']}
                     </h2>
                 </div>
@@ -2312,7 +2642,7 @@ def page_home():
                     <span class="inline-block text-12 text-white bg-black uppercase mb-16 pl-8 pr-8 pt-4 pb-4">
                         PREPARATIONS
                     </span>
-                    <h2 class="text-white text-16 mb-16">
+                    <h2 class="h2-plain text-white text-16 mb-16">
                         {essential_oils_blocks_data[4]['title']}
                     </h2>
                 </div>
@@ -2345,7 +2675,7 @@ def page_home():
             <div class="container-xl flex mob-flex-col mb-48 gap-48">
                 <div class="flex-2">
                     <div class="border-0 border-b-4 border-solid border-black mb-24">
-                        <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Teas</h2>
+                        <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Teas</h2>
                     </div>
                     <div class="flex mob-flex-col gap-48">
                         <div class="flex-1">
@@ -2371,7 +2701,7 @@ def page_home():
                 </div>
                 <div class="flex-1">
                     <div class="border-0 border-b-4 border-solid border-black mb-24">
-                        <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Stay Connected</h2>
+                        <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Stay Connected</h2>
                     </div>
                     <div class="flex flex-col items-center">
                         <img src="images-static/leen-randell.jpg" class="avatar">
@@ -2395,7 +2725,7 @@ def page_home():
             <div class="container-xl flex mob-flex-col mb-48 gap-48">
                 <div class="flex-2">
                     <div class="border-0 border-b-4 border-solid border-black mb-24">
-                        <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Tinctures</h2>
+                        <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Tinctures</h2>
                     </div>
                     <div class="flex mob-flex-col gap-48">
                         <div class="flex-1 flex flex-col gap-24">
@@ -2497,7 +2827,7 @@ def page_home():
                 <div class="flex-1">
                     <div>
                         <div class="border-0 border-b-4 border-solid border-black mb-24">
-                            <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">creams</h2>
+                            <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">creams</h2>
                         </div>
                         <div class="flex flex-col gap-24">
                             <div class="flex mob-flex-col gap-24">
@@ -2560,7 +2890,7 @@ def page_home():
             <div class="container-xl mob-flex mb-48 gap-48">
                 <div class="flex-2">
                     <div class="border-0 border-b-4 border-solid border-black mb-24">
-                        <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Essential Oils</h2>
+                        <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Essential Oils</h2>
                     </div>
                     <div class="flex mob-flex-col gap-24">
                         <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{essential_oils_blocks_data[4]['href']}">
@@ -2758,7 +3088,7 @@ def page_systems():
                 <a class="article-card no-underline text-black" href="/remedies/{system_slug}-system/{ailment_slug}.html">
                     <div class="">
                         <img class="mb-16" src="{src}">
-                        <h2 class="text-18 mb-12">{title}</h2>
+                        <h2 class="h2-plain text-18 mb-12">{title}</h2>
                         <p class="text-14">{lastmod_format}</p>
                     </div>
                 </a>
@@ -2982,7 +3312,7 @@ def page_remedies():
                              <img src="/images-static/{system_slug}.jpg">
                         </div>
                         <div class="flex-1">
-                            <h2 class="text-32 mb-16">{system_name.capitalize()} System</h2>
+                            <h2 class="h2-plain text-32 mb-16">{system_name.capitalize()} System</h2>
                             {system_desc}
                             <a class="button" href="/remedies/{system_slug}-system.html" class="button">{system_name.capitalize()} System Remedies</a>
                         </div>
@@ -3030,11 +3360,11 @@ shutil.copy2('style-article.css', f'{website_folderpath}/style-article.css')
 # articles_preparations_2('creams')
 # articles_preparations_2('essential-oils')
 # articles_ailments()
-# articles_ailments_2()
-# page_home()
-page_contacts()
+articles_ailments_2()
+page_home()
+# page_contacts()
 # page_remedies()
-# page_systems()
+page_systems()
 
 # articles_titles_check('teas')
 
@@ -3043,7 +3373,6 @@ quit()
 # TODO: footer
 # TODO: sitemap
 # TODO: bad image regen
-# TODO: contact
 # TODO: system page -> titles of ailments articles and description, and header description
 # TODO: articles -> author/meta section
 # TODO: articles -> table of content

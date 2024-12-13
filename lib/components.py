@@ -96,7 +96,7 @@ def table_of_contents(content_html):
         content_html_with_ids += '\n'
     toc_li = []
     table_of_contents_html += '<div class="toc">'
-    table_of_contents_html += '<span class="toc-title">Table of Contents</span>'
+    table_of_contents_html += '<p class="toc-title">Table of Contents</p>'
     table_of_contents_html += '<ul>'
     last_header = '<h2>'
     for i, line in enumerate(headers):

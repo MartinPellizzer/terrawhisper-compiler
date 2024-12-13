@@ -160,10 +160,10 @@ img = ImageTk.PhotoImage(Image.open("website-2/images-static/urinary.jpg"))
 panel = Label(root, image=img)
 panel.pack(side="bottom", fill="both", expand="yes")
 
-# articles_preparations_2('teas')
 # TODO: clean delete images in folder
+# articles_preparations_2('teas')
 # articles_preparations_2('tinctures')
-articles_preparations_2('creams')
+# articles_preparations_2('creams')
 # articles_preparations_2('essential-oils')
 
 root.mainloop()
