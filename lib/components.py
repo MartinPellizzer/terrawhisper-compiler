@@ -164,14 +164,24 @@ def meta(content, lastmod):
                 <span></span>
             </div>
         '''
-    html = f'''
-        <div class="flex items-center justify-between mb-16">
-            <div class="flex items-center gap-8">
-                <img class="profile-pic-meta" width=64 height=64 src="/images-static/leen-randell.jpg" alt="profile picture of leen randell">
-                <p class="mb-0">By <a class="uppercase text-black no-underline font-bold" rel="author" href="">{g.AUTHOR_NAME}</a></p>
+    if 0:
+        html = f'''
+            <div class="flex items-center justify-between mb-16">
+                <div class="flex items-center gap-8">
+                    <img class="profile-pic-meta" width=64 height=64 src="/images-static/leen-randell.jpg" alt="profile picture of leen randell">
+                    <p class="mb-0">By <a class="uppercase text-black no-underline font-bold" rel="author" href="">{g.AUTHOR_NAME}</a></p>
+                </div>
+                <p class="mb-0">Updated: {month} {day}, {year}</p>
             </div>
-            <p class="mb-0">Updated: {month} {day}, {year}</p>
-        </div>
-    '''
+        '''
+    if 1:
+        html = f'''
+            <div class="flex items-center justify-between mb-16">
+                <div class="flex items-center gap-8">
+                    <p class="mb-0 text-14">By <a class="uppercase text-black no-underline font-bold" rel="author" href="">{g.AUTHOR_NAME}</a></p>
+                </div>
+                <p class="mb-0">Updated: {month} {day}, {year}</p>
+            </div>
+        '''
     return html
 

@@ -940,7 +940,7 @@ def articles_ailments_2():
         article_html += f'<h2>What herbs should you avoid if you have {ailment_name}?</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["herbs_avoid_desc"])}\n'
 
-        article_html += f'<h2>FAQ?</h2>\n'
+        article_html += f'<h2>FAQ</h2>\n'
         random.shuffle(faqs)
         faqs = faqs[:random.randint(3, 4)]
         for faq in faqs:
@@ -948,6 +948,32 @@ def articles_ailments_2():
             question = faq['question']
             article_html += f'<h3>{question.capitalize()}</h3>\n'
             article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
+        ailments_slugs = []
+        for ailment in ailments:
+            _system_slug = ailment['system_slug']
+            _ailment_slug = ailment['ailment_slug']
+            if _system_slug == system_slug:
+                ailments_slugs.append(_ailment_slug)
+        random.shuffle(ailments_slugs)
+        ailments_slugs = ailments_slugs[:6]
+
+        article_html += f'<h2>Related Articles</h2>\n'
+        article_html += f'<div class="grid grid-3 gap-16">\n'
+        for _ailment_slug in ailments_slugs:
+            _url = f'remedies/{system_slug}-system/{_ailment_slug}'
+            _json_filepath = f'database/json/{_url}.json'
+            _html_filepath = f'{website_folderpath}/{_url}.html'
+            _data = json_read(_json_filepath)
+            _ailment_name = _data['ailment_name']
+            _src = f'/images/ailments/{_ailment_slug}-herbal-remedies.jpg'
+            _alt = f'herbal remedies for {_ailment_name}'
+            article_html += f'<div>\n'
+            article_html += f'<img src="{_src}" alt="{_alt}">\n'
+            article_html += f'<p>{_ailment_slug}</p>\n'
+            article_html += f'</div>\n'
+        article_html += f'</div>\n'
 
         breadcrumbs_html_filepath = f'{url}.html'
         breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
@@ -974,8 +1000,6 @@ def articles_ailments_2():
         print(f'\n')
         print(html_filepath)
         # quit()
-
-
 
 def articles_ailments():
     plants_wcvp = csv_read_rows_to_json(f'{vault_tmp}/terrawhisper/wcvp_taxon.csv', delimiter = '|')
@@ -3361,10 +3385,10 @@ shutil.copy2('style-article.css', f'{website_folderpath}/style-article.css')
 # articles_preparations_2('essential-oils')
 # articles_ailments()
 articles_ailments_2()
-page_home()
+# page_home()
 # page_contacts()
 # page_remedies()
-page_systems()
+# page_systems()
 
 # articles_titles_check('teas')
 
