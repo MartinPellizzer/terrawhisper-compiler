@@ -183,7 +183,9 @@ def text_format_1N1_html(text):
     if lines_num > 0: 
         paragraphs.append(lines[0])
     else:
-        return ''
+        text_formatted += f'<p>{text}.</p>' + '\n'
+        text_formatted = text_formatted.replace('..', '.')
+        return text_formatted
     if lines_num > 3: 
         paragraphs.append('. '.join(lines[1:lines_num//2+1]))
         paragraphs.append('. '.join(lines[lines_num//2+1:-1]))

@@ -49,14 +49,6 @@ def articles_preparations_2(preparation_slug):
         url = f'remedies/{system_slug}-system/{ailment_slug}/{preparation_slug}'
         json_filepath = f'database/json/{url}.json'
         html_filepath = f'{website_folderpath}/{url}.html'
-        print(f'    >> JSON: {json_filepath}')
-        print(f'    >> HTML: {html_filepath}')
-        if not os.path.exists(f'{website_folderpath}/remedies'): os.mkdir(f'{website_folderpath}/remedies')
-        if not os.path.exists(f'{website_folderpath}/remedies/{system_slug}-system'): os.mkdir(f'{website_folderpath}/remedies/{system_slug}-system')
-        if not os.path.exists(f'{website_folderpath}/remedies/{system_slug}-system/{ailment_slug}'): os.mkdir(f'{website_folderpath}/remedies/{system_slug}-system/{ailment_slug}')
-
-        # if os.path.exists(json_filepath): os.remove(json_filepath)
-        # continue
 
         data = json_read(json_filepath, create=True)
         data['ailment_slug'] = ailment_slug
@@ -155,6 +147,66 @@ def articles_preparations_2(preparation_slug):
                         raw = input('next >>')
                         if raw.strip() != '': running = False
 
+def articles_ailments_2():
+    plants_wcvp = csv_read_rows_to_json(f'{vault_tmp}/terrawhisper/wcvp_taxon.csv', delimiter = '|')
+    ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
+    for ailment_i, ailment in enumerate(ailments):
+        print(f'\n>> {ailment_i}/{len(ailments)}')
+        print(f'    >> {ailment}')
+        system_slug = ailment['system_slug']
+        organ_slug = ailment['organ_slug']
+        ailment_slug = ailment['ailment_slug']
+        ailment_name = ailment['ailment_name']
+        url = f'remedies/{system_slug}-system/{ailment_slug}'
+        json_filepath = f'database/json/{url}.json'
+        html_filepath = f'{website_folderpath}/{url}.html'
+        print(f'    >> JSON: {json_filepath}')
+        print(f'    >> HTML: {html_filepath}')
+
+        data = json_read(json_filepath)
+        data['ailment_slug'] = ailment_slug
+        data['ailment_name'] = ailment_name
+        data['system_slug'] = system_slug
+        data['organ_slug'] = organ_slug
+        data['url'] = url
+        if 'lastmod' not in data: data['lastmod'] = today()
+
+        # herbs img
+        for herb_i, herb in enumerate(data['herbs']):
+            herb_name_scientific = herb['herb_name_scientific']
+            herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
+            output_filepath = f'{website_folderpath}/images/ailments/herbs/{herb_slug}.jpg'
+            src = f'/images/ailments/herbs/{herb_slug}.jpg'
+            alt = f'{herb_name_scientific} for {ailment_name}'
+            if not os.path.exists(output_filepath):
+                prompt = f'''
+                    dry {herb_name_scientific} herb on a wooden table,
+                    indoor, 
+                    natural window light,
+                    earth tones,
+                    neutral colors,
+                    soft focus,
+                    warm tones,
+                    vintage,
+                    high resolution,
+                    cinematic
+                '''
+                negative_prompt = f'''
+                    text, watermark 
+                '''
+                print(prompt)
+                pipe_init()
+                running = True
+                while running:
+                    image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+                    image = img_resize(image, w=768, h=768)
+                    image.save(output_filepath)
+                    img2 = ImageTk.PhotoImage(Image.open(output_filepath))
+                    panel.configure(image=img2)
+                    raw = input('next >>')
+                    if raw.strip() != '': running = False
+
+
 root = Tk()
 img = ImageTk.PhotoImage(Image.open("website-2/images-static/urinary.jpg"))
 panel = Label(root, image=img)
@@ -165,5 +217,7 @@ panel.pack(side="bottom", fill="both", expand="yes")
 # articles_preparations_2('tinctures')
 # articles_preparations_2('creams')
 # articles_preparations_2('essential-oils')
+
+articles_ailments_2()
 
 root.mainloop()

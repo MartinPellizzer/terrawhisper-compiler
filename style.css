@@ -76,6 +76,11 @@ h3 {
     font-family: helvetica-bold;
 }
 
+.h3-plain {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul {
     color: #333;
     margin-left: 2.4rem;
@@ -328,6 +333,10 @@ p {
     gap: 6.4rem;
 }
 
+.gap-96 {
+    gap: 9.6rem;
+}
+
 .pb-2 {
     padding-bottom: 0.2rem;
 }
@@ -382,6 +391,10 @@ p {
 
 .pl-16 {
     padding-left: 1.6rem;
+}
+
+.mt-16 {
+    margin-top: 1.6rem;
 }
 
 .mt-32 {
@@ -498,6 +511,10 @@ p {
 }
 
 .article-card:hover {
+    color: #c2410c;
+}
+
+.hover-orange:hover {
     color: #c2410c;
 }
 

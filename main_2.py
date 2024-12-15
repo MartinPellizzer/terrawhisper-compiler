@@ -147,7 +147,7 @@ header_html = ''
 header_html += top_bar_html
 header_html += f'''
     <header class="header">
-        <a class="" href="/"><img height="64" src="/images-static/terrawhisper-logo-white.jpg" alt="logo of terrawhisper"></a>
+        <a class="" href="/"><img height="64" src="/images-static/terrawhisper-logo.png" alt="logo of terrawhisper"></a>
         <nav class="header-nav">
             <a class="text-black no-underline text-16 menu-item" href="/remedies.html">REMEDIES</a>
             <a class="text-black no-underline text-16 menu-item" href="/about.html">ABOUT</a>
@@ -855,8 +855,9 @@ def articles_ailments_2():
         if 1:
             herbs_names = [x['herb_name_scientific'] for x in data['herbs'][:5]]
             herb = random.choice(herbs_names)
-            output_filepath = f'{website_folderpath}/images/ailments/{ailment_slug}-herbal-remedies.jpg'
-            src = f'/images/ailments/{ailment_slug}-herbal-remedies.jpg'
+            _herb_slug = herb.lower().strip().replace(' ', '-')
+            output_filepath = f'{website_folderpath}/images/ailments/herbs/{_herb_slug}.jpg'
+            src = f'/images/ailments/herbs/{herb_slug}.jpg'
             alt = f'herbal remedies for {ailment_name}'
             if not os.path.exists(output_filepath):
             # if system_slug == 'cardiovascular':
@@ -941,7 +942,6 @@ def articles_ailments_2():
         article_html += f'{util.text_format_1N1_html(data["herbs_avoid_desc"])}\n'
 
         article_html += f'<h2>FAQ</h2>\n'
-        random.shuffle(faqs)
         faqs = faqs[:random.randint(3, 4)]
         for faq in faqs:
             key = faq['key']
@@ -957,23 +957,56 @@ def articles_ailments_2():
             if _system_slug == system_slug:
                 ailments_slugs.append(_ailment_slug)
         random.shuffle(ailments_slugs)
-        ailments_slugs = ailments_slugs[:6]
 
-        article_html += f'<h2>Related Articles</h2>\n'
+        article_html += f'<p class="text-32 mt-48 helvetica-bold text-black">Related Articles</p>\n'
         article_html += f'<div class="grid grid-3 gap-16">\n'
-        for _ailment_slug in ailments_slugs:
+        for _ailment_slug in ailments_slugs[:6]:
             _url = f'remedies/{system_slug}-system/{_ailment_slug}'
             _json_filepath = f'database/json/{_url}.json'
             _html_filepath = f'{website_folderpath}/{_url}.html'
             _data = json_read(_json_filepath)
             _ailment_name = _data['ailment_name']
+            _title = _data['title']
             _src = f'/images/ailments/{_ailment_slug}-herbal-remedies.jpg'
             _alt = f'herbal remedies for {_ailment_name}'
+            article_html += f'<a class="no-underline text-black" href="">\n'
             article_html += f'<div>\n'
             article_html += f'<img src="{_src}" alt="{_alt}">\n'
-            article_html += f'<p>{_ailment_slug}</p>\n'
+            article_html += f'<p class="hover-orange">{_title}<p>\n'
             article_html += f'</div>\n'
+            article_html += f'</a>\n'
         article_html += f'</div>\n'
+
+        sidebar_ailments = []
+        for _ailment_slug in ailments_slugs[6:9]:
+            _url = f'remedies/{system_slug}-system/{_ailment_slug}'
+            _json_filepath = f'database/json/{_url}.json'
+            _html_filepath = f'{website_folderpath}/{_url}.html'
+            _data = json_read(_json_filepath)
+            _ailment_name = _data['ailment_name']
+            _title = _data['title']
+            _src = f'/images/ailments/{_ailment_slug}-herbal-remedies.jpg'
+            _alt = f'herbal remedies for {_ailment_name}'
+            sidebar_ailments.append({
+                'src': _src,
+                'title': _title,
+                'href': f'/{_url}.html',
+            })
+
+        sidebar_blocks = ''
+        for sidebar_ailment in sidebar_ailments:
+            sidebar_blocks += f'''
+                <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{sidebar_ailment['href']}">
+                    <div class="">
+                        <div class="relative mb-16">
+                            <img class="object-cover" height="180" src="{sidebar_ailment['src']}">
+                        </div>
+                        <h3 class="h3-plain text-14 mb-8">
+                            {sidebar_ailment['title']}
+                        </h3>
+                    </div>
+                </a>
+            '''
 
         breadcrumbs_html_filepath = f'{url}.html'
         breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
@@ -987,10 +1020,49 @@ def articles_ailments_2():
             <body>
                 {header_html}
                 {breadcrumbs_html}
-                <main class="container-md mt-48">
-                    {meta}
-                    {article_html}
-                </main>
+                <div class="container-xl mt-48 flex gap-96">
+                    <main class="flex-2">
+                        {meta}
+                        {article_html}
+                    </main>
+                    <div class="flex-1 flex flex-col gap-48">
+                        <div>
+                            <div class="border-0 border-b-4 border-solid border-black mb-24">
+                                <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Stay Connected</h2>
+                            </div>
+                            <div class="flex flex-col">
+                                <div class="flex flex-col gap-16">
+                                    <a href="https://www.pinterest.com/terrawhisper" target="_blank" class="inline-block flex items-center justify-between gap-16 no-underline">
+                                        <div class="flex items-center gap-8">
+                                            <img class="social-icon" src="/images-static/pinterest.png">
+                                            <p class="mb-0">@terrawhisper</p>
+                                        </div>
+                                        <p class="mb-0 hover-orange helvetica-bold">Follow</p>
+                                    </a>
+                                    <a href="https://www.x.com/leenrandell" target="_blank" class="inline-block flex items-center gap-16 justify-between no-underline">
+                                        <div class="flex items-center gap-8">
+                                            <img class="social-icon" src="/images-static/twitter.png">
+                                            <p class="mb-0">@terrawhisper</p>
+                                        </div>
+                                        <p class="mb-0 hover-orange helvetica-bold">Follow</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="border-0 border-b-4 border-solid border-black mb-24">
+                                    <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">popular in {system_slug} system</h2>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-24">
+                                <div class="flex flex-col gap-24">
+                                    {sidebar_blocks}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="mt-64"></div>
                 {footer_html}
             </body>
@@ -2683,7 +2755,7 @@ def page_home():
                         <img class="object-cover" height="80" src="{teas_blocks_data[i+5]['url']}">
                     </div>
                     <div class="flex-5">
-                        <h3 class="text-14 mb-8">
+                        <h3 class="h3-plain text-14 mb-8">
                             {teas_blocks_data[i+5]['title']}
                         </h3>
                         <p class="text-12">
@@ -2707,7 +2779,7 @@ def page_home():
                                 <div class="relative mb-16">
                                     <img class="object-cover" height="240" src="{teas_blocks_data[4]['url']}">
                                 </div>
-                                <h3 class="text-20 font-normal mb-8">
+                                <h3 class="h3-plain text-20 font-normal mb-8">
                                     {teas_blocks_data[4]['title']}
                                 </h3>
                                 <p class="text-12 mb-16">
@@ -2759,7 +2831,7 @@ def page_home():
                                         <img class="object-cover" height="240" src="{tinctures_blocks_data[4]['url']}">
                                         <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">tincture</p>
                                     </div>
-                                    <h3 class="text-20 font-normal mb-8">
+                                    <h3 class="h3-plain text-20 font-normal mb-8">
                                         {tinctures_blocks_data[4]['title']}
                                     </h3>
                                     <p class="text-12 mb-16">
@@ -2777,7 +2849,7 @@ def page_home():
                                             <img class="object-cover" height="80" src="{tinctures_blocks_data[5]['url']}">
                                         </div>
                                         <div class="flex-5">
-                                            <h3 class="text-14 mb-8">
+                                            <h3 class="h3-plain text-14 mb-8">
                                                 {tinctures_blocks_data[5]['title']}
                                             </h3>
                                             <p class="text-12">2024/08/21</p>
@@ -2790,7 +2862,7 @@ def page_home():
                                             <img class="object-cover" height="80" src="{tinctures_blocks_data[6]['url']}">
                                         </div>
                                         <div class="flex-5">
-                                            <h3 class="text-14 mb-8">
+                                            <h3 class="h3-plain text-14 mb-8">
                                                 {tinctures_blocks_data[6]['title']}
                                             </h3>
                                             <p class="text-12">2024/08/21</p>
@@ -2806,7 +2878,7 @@ def page_home():
                                         <img class="object-cover" height="240" src="{tinctures_blocks_data[7]['url']}">
                                         <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">tincture</p>
                                     </div>
-                                    <h3 class="text-20 font-normal mb-8">
+                                    <h3 class="h3-plain text-20 font-normal mb-8">
                                         {tinctures_blocks_data[7]['title']}
                                     </h3>
                                     <p class="text-12 mb-16">
@@ -2824,7 +2896,7 @@ def page_home():
                                             <img class="object-cover" height="80" src="{tinctures_blocks_data[8]['url']}">
                                         </div>
                                         <div class="flex-5">
-                                            <h3 class="text-14 mb-8">
+                                            <h3 class="h3-plain text-14 mb-8">
                                                 {tinctures_blocks_data[8]['title']}
                                             </h3>
                                             <p class="text-12">2024/08/21</p>
@@ -2837,7 +2909,7 @@ def page_home():
                                             <img class="object-cover" height="80" src="{tinctures_blocks_data[9]['url']}">
                                         </div>
                                         <div class="flex-5">
-                                            <h3 class="text-14 mb-8">
+                                            <h3 class="h3-plain text-14 mb-8">
                                                 {tinctures_blocks_data[9]['title']}
                                             </h3>
                                             <p class="text-12">2024/08/21</p>
@@ -2861,7 +2933,7 @@ def page_home():
                                             <img class="object-cover" height="180" src="{creams_blocks_data[4]['url']}">
                                             <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">creams</p>
                                         </div>
-                                        <h3 class="text-14 mb-8">
+                                        <h3 class="h3-plain text-14 mb-8">
                                             {creams_blocks_data[4]['title']}
                                         </h3>
                                     </div>
@@ -2872,7 +2944,7 @@ def page_home():
                                             <img class="object-cover" height="180" src="{creams_blocks_data[5]['url']}">
                                             <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">creams</p>
                                         </div>
-                                        <h3 class="text-14 mb-8">
+                                        <h3 class="h3-plain text-14 mb-8">
                                             {creams_blocks_data[5]['title']}
                                         </h3>
                                     </div>
@@ -2885,7 +2957,7 @@ def page_home():
                                             <img class="object-cover" height="180" src="{creams_blocks_data[6]['url']}">
                                             <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">creams</p>
                                         </div>
-                                        <h3 class="text-14 mb-8">
+                                        <h3 class="h3-plain text-14 mb-8">
                                             {creams_blocks_data[6]['title']}
                                         </h3>
                                     </div>
@@ -2896,7 +2968,7 @@ def page_home():
                                             <img class="object-cover" height="180" src="{creams_blocks_data[7]['url']}">
                                             <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">creams</p>
                                         </div>
-                                        <h3 class="text-14 mb-8">
+                                        <h3 class="h3-plain text-14 mb-8">
                                             {creams_blocks_data[7]['title']}
                                         </h3>
                                     </div>
@@ -2908,7 +2980,7 @@ def page_home():
             </div>
         </section>
     '''
-    
+
     section_4 = f'''
         <section>
             <div class="container-xl mob-flex mb-48 gap-48">
@@ -2923,7 +2995,7 @@ def page_home():
                                     <img class="object-cover" height="180" src="{essential_oils_blocks_data[4]['url']}">
                                     <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">essential oils</p>
                                 </div>
-                                <h3 class="text-14 mb-8">
+                                <h3 class="h3-plain text-14 mb-8">
                                     {essential_oils_blocks_data[4]['title']}
                                 </h3>
                             </div>
@@ -2934,7 +3006,7 @@ def page_home():
                                     <img class="object-cover" height="180" src="{essential_oils_blocks_data[5]['url']}">
                                     <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">essential oils</p>
                                 </div>
-                                <h3 class="text-14 mb-8">
+                                <h3 class="h3-plain text-14 mb-8">
                                     {essential_oils_blocks_data[5]['title']}
                                 </h3>
                             </div>
@@ -2945,7 +3017,7 @@ def page_home():
                                     <img class="object-cover" height="180" src="{essential_oils_blocks_data[6]['url']}">
                                     <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">essential oils</p>
                                 </div>
-                                <h3 class="text-14 mb-8">
+                                <h3 class="h3-plain text-14 mb-8">
                                     {essential_oils_blocks_data[6]['title']}
                                 </h3>
                             </div>
@@ -3385,10 +3457,10 @@ shutil.copy2('style-article.css', f'{website_folderpath}/style-article.css')
 # articles_preparations_2('essential-oils')
 # articles_ailments()
 articles_ailments_2()
-# page_home()
+page_home()
 # page_contacts()
 # page_remedies()
-# page_systems()
+page_systems()
 
 # articles_titles_check('teas')
 
