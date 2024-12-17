@@ -326,11 +326,43 @@ def articles_ailments_2():
             data[key] = outputs[:10]
             json_write(json_filepath, data)
 
+        question = f'What are the causes of {ailment_name}?'
+        key = 'causes_header'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            prompt = f'''
+                Rewrite in 10 different ways the following question: {question}
+                Write only the questions.
+                Don't change the meaning of the original question in your rewrites.
+                Make sure you never change the following word: {ailment_name}.
+            '''
+            reply = llm_reply(prompt)
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip()
+                if line == '': continue
+                if not line[0].isdigit(): continue
+                if '. ' not in line: continue
+                line = '. '.join(line.split('. ')[1:])
+                line = line.replace('*', '')
+                if line.endswith('.'): line = line[:-1]
+                line = line.strip()
+                if line == '': continue
+                # if ailment_name.lower() not in line.lower(): continue
+                lines.append(line)
+            if len(lines) != 0:
+                line = random.choice(lines)
+                data[key] = line
+                json_write(json_filepath, data)
+
+        random_causes_num = random.randint(4, 6)
         key = 'causes_desc'
         if key not in data: data[key] = ''
         # data[key] = ''
         if data[key] == '':
-            causes_names = [x['cause_name'] for x in data['causes'][:5]]
+            causes_names = [x['cause_name'] for x in data['causes'][:random_causes_num]]
+            causes_names = ', '.join(causes_names)
             prompt = f'''
                 Write a detailed paragraph explaining what are the main causes of {ailment_name}.
                 Include the following causes and explain why: {causes_names}.
@@ -339,6 +371,7 @@ def articles_ailments_2():
                 Don't write fluff.
                 Don't allucinate.
                 Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+                Start with the following words: The main causes of {ailment_name} are .
             '''
             reply = llm_reply(prompt).strip()
             reply = [line.strip() for line in reply.split('\n')]
@@ -346,9 +379,78 @@ def articles_ailments_2():
             data[key] = reply
             json_write(json_filepath, data)
 
+        key = 'causes_list'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            causes_names = [x['cause_name'] for x in data['causes'][:random_causes_num]]
+            causes_names = ', '.join(causes_names)
+            prompt = f'''
+                Write a short sentence for each of the following causes of {ailment_name}, explaining why it causes this ailment.
+                Include the following causes and explain why: {causes_names}.
+                Use simple and short words, and a simple writing style.
+                Use a conversational and fluid writing style.
+                Don't write fluff.
+                Don't allucinate.
+                Reply in the following JSON format: 
+                [
+                    {{"cause_name": "name of cause 1", "cause_description": "explain why this is a cause"}}, 
+                    {{"cause_name": "name of cause 2", "cause_description": "explain why this is a cause"}}, 
+                    {{"cause_name": "name of cause 3", "cause_description": "explain why this is a cause"}} 
+                ]
+                Only reply with the JSON, don't add additional info.
+            '''
+            reply = llm_reply(prompt, model).strip()
+            json_data = {}
+            try: json_data = json.loads(reply)
+            except: pass 
+            if json_data != {}:
+                outputs = []
+                for item in json_data:
+                    try: item['cause_name']
+                    except: continue
+                    try: item['cause_description']
+                    except: continue
+                    outputs.append({
+                        'cause_name': item['cause_name'], 
+                        'cause_description': item['cause_description'],
+                    })
+            data[key] = outputs[:10]
+            json_write(json_filepath, data)
+
         ## ------------------------------------
         ## ;benefits
         ## ------------------------------------
+        question = f'What are the benefits of using herbs for {ailment_name}?'
+        key = 'benefits_header'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            prompt = f'''
+                Rewrite in 10 different ways the following question: {question}
+                Write only the questions.
+                Don't change the meaning of the original question in your rewrites.
+                Make sure you never change the following word: {ailment_name}.
+            '''
+            reply = llm_reply(prompt)
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip()
+                if line == '': continue
+                if not line[0].isdigit(): continue
+                if '. ' not in line: continue
+                line = '. '.join(line.split('. ')[1:])
+                line = line.replace('*', '')
+                if line.endswith('.'): line = line[:-1]
+                line = line.strip()
+                if line == '': continue
+                # if ailment_name.lower() not in line.lower(): continue
+                lines.append(line)
+            if len(lines) != 0:
+                line = random.choice(lines)
+                data[key] = line
+                json_write(json_filepath, data)
+
         key = 'benefits_desc'
         if key not in data: data[key] = ''
         # data[key] = ''
@@ -465,6 +567,36 @@ def articles_ailments_2():
             data[key] = output_plants_final[:10]
             json_write(json_filepath, data)
 
+        question = f'What are the main medicial herbs for {ailment_name}?'
+        key = 'herbs_header'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            prompt = f'''
+                Rewrite in 10 different ways the following question: {question}
+                Write only the questions.
+                Don't change the meaning of the original question in your rewrites.
+                Make sure you never change the following word: {ailment_name}.
+            '''
+            reply = llm_reply(prompt)
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip()
+                if line == '': continue
+                if not line[0].isdigit(): continue
+                if '. ' not in line: continue
+                line = '. '.join(line.split('. ')[1:])
+                line = line.replace('*', '')
+                if line.endswith('.'): line = line[:-1]
+                line = line.strip()
+                if line == '': continue
+                # if ailment_name.lower() not in line.lower(): continue
+                lines.append(line)
+            if len(lines) != 0:
+                line = random.choice(lines)
+                data[key] = line
+                json_write(json_filepath, data)
+
         # herbs img
         for herb_i, herb in enumerate(data['herbs']):
             herb_name_scientific = herb['herb_name_scientific']
@@ -503,6 +635,7 @@ def articles_ailments_2():
         # data[key] = ''
         if data[key] == '':
             herbs_names = [x['herb_name_scientific'] for x in data['herbs'][:5]]
+            herbs_names = ', '.join(herbs_names)
             prompt = f'''
                 Write a detailed paragraph explaining why herbs are good for {ailment_name}.
                 Include the following herbs and expalin why they are good: {herbs_names}.
@@ -600,9 +733,39 @@ def articles_ailments_2():
             data[key] = data_output_final[:10]
             json_write(json_filepath, data)
 
+        question = f'What are the most used herbal preparations for {ailment_name}?'
+        key = 'preparations_header'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            prompt = f'''
+                Rewrite in 10 different ways the following question: {question}
+                Write only the questions.
+                Don't change the meaning of the original question in your rewrites.
+                Make sure you never change the following word: {ailment_name}.
+            '''
+            reply = llm_reply(prompt)
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip()
+                if line == '': continue
+                if not line[0].isdigit(): continue
+                if '. ' not in line: continue
+                line = '. '.join(line.split('. ')[1:])
+                line = line.replace('*', '')
+                if line.endswith('.'): line = line[:-1]
+                line = line.strip()
+                if line == '': continue
+                # if ailment_name.lower() not in line.lower(): continue
+                lines.append(line)
+            if len(lines) != 0:
+                line = random.choice(lines)
+                data[key] = line
+                json_write(json_filepath, data)
+
         key = 'preparations_img'
         if key not in data: data[key] = ''
-        data[key] = ''
+        # data[key] = ''
         if data[key] == '':
             images_filepaths = []
             for preparation in data['preparations'][:5]:
@@ -792,6 +955,37 @@ def articles_ailments_2():
             data[key] = output_plants_final[:10]
             json_write(json_filepath, data)
 
+        question = f'What herbs should you avoid if you have {ailment_name}?'
+        key = 'herbs_avoid_header'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            prompt = f'''
+                Rewrite in 10 different ways the following question: {question}
+                Write only the questions.
+                Don't change the meaning of the original question in your rewrites.
+                Make sure you never change the following word: {ailment_name}.
+            '''
+            reply = llm_reply(prompt)
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip()
+                if line == '': continue
+                if not line[0].isdigit(): continue
+                if '. ' not in line: continue
+                line = '. '.join(line.split('. ')[1:])
+                line = line.replace('*', '')
+                if line.endswith('.'): line = line[:-1]
+                line = line.strip()
+                if line == '': continue
+                # if ailment_name.lower() not in line.lower(): continue
+                lines.append(line)
+            if len(lines) != 0:
+                line = random.choice(lines)
+                data[key] = line
+                json_write(json_filepath, data)
+
+
         key = 'herbs_avoid_desc'
         if key not in data: data[key] = ''
         # data[key] = ''
@@ -895,12 +1089,23 @@ def articles_ailments_2():
         alt = data['intro_image_alt']
         article_html += f'<img class="article-img" src="{src}" alt="{alt}">\n'
         article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
-        article_html += f'<h2>What are the causes of {ailment_name}?</h2>\n'
+
+        article_html += f'<h2>{data["causes_header"]}</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["causes_desc"])}\n'
-        article_html += f'<h2>What are the main benefits of using herbs for {ailment_name}?</h2>\n'
+        '''
+        article_html += f'<p>The following list summarizes the main causes of {ailment_name}.</p>\n'
+        article_html += f'<ul>\n'
+        for item in data['causes_list']:
+            cause_name = item['cause_name'] 
+            cause_description = item['cause_description'] 
+            article_html += f'<li><strong>{cause_name}</strong>: {cause_description}</li>\n'
+        article_html += f'</ul>\n'
+        '''
+
+        article_html += f'<h2>{data["benefits_header"]}</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["benefits_desc"])}\n'
 
-        article_html += f'<h2>What are the main medicinal herbs for {ailment_name}?</h2>\n'
+        article_html += f'<h2>{data["herbs_header"]}</h2>\n'
         herb = data['herbs'][0]
         herb_name_scientific = herb['herb_name_scientific']
         herb_slug = herb_name_scientific.strip().lower().replace(' ', '-')
@@ -908,14 +1113,24 @@ def articles_ailments_2():
         src = f'/images/ailments/herbs/{herb_slug}.jpg'
         alt = f'{herb_name_scientific} for {ailment_name}'
         article_html += f'<img class="article-img" src="{src}" alt="{alt}">\n'
-        article_html += f'{util.text_format_1N1_html(data["herbs_desc"])}\n'
+        _herbs_names = [x['herb_name_scientific'] for x in data['herbs']]
+        _herbs_desc = data['herbs_desc']
+        for _herb_name in _herbs_names:
+            _herbs_desc = _herbs_desc.replace(_herb_name.strip(), f'<strong class="text-black">{_herb_name.strip()}</strong>', 1)
+        article_html += f'{util.text_format_1N1_html(_herbs_desc)}\n'
 
-        article_html += f'<h2>What are the most used herbal preparations for {ailment_name}?</h2>\n'
+        article_html += f'<h2>{data["preparations_header"]}</h2>\n'
         src = data['preparations_img']
         article_html += f'<img class="article-img" src="{src}" alt="{alt}">\n'
-        article_html += f'{util.text_format_1N1_html(data["preparations_desc"])}\n'
-        article_html += f'<p>Additional Resources:</p>\n'
+        _preparations_names = [x['preparation_name'] for x in data['preparations']]
+        _preparations_desc = data['preparations_desc']
+        '''
+        for _preparation_name in _preparations_names:
+            _preparations_desc = _preparations_desc.replace(_preparation_name.strip(), f'<strong class="text-black">{_preparation_name.strip()}</strong>', 1)
+        '''
+        article_html += f'{util.text_format_1N1_html(_preparations_desc)}\n'
 
+        article_html += f'<p>Additional Resources:</p>\n'
         article_html += f'<ul>\n'
         for preparation in data['preparations'][:5]:
             preparation_name = preparation['preparation_name']
@@ -938,7 +1153,7 @@ def articles_ailments_2():
                 article_html += f'<li><a href="{preparation_link_html}">{_title.capitalize()}</a></li>\n'
         article_html += f'</ul>\n'
 
-        article_html += f'<h2>What herbs should you avoid if you have {ailment_name}?</h2>\n'
+        article_html += f'<h2>{data["herbs_avoid_header"]}</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["herbs_avoid_desc"])}\n'
 
         article_html += f'<h2>FAQ</h2>\n'
@@ -957,25 +1172,6 @@ def articles_ailments_2():
             if _system_slug == system_slug:
                 ailments_slugs.append(_ailment_slug)
         random.shuffle(ailments_slugs)
-
-        article_html += f'<p class="text-32 mt-48 helvetica-bold text-black">Related Articles</p>\n'
-        article_html += f'<div class="grid grid-3 gap-16">\n'
-        for _ailment_slug in ailments_slugs[:6]:
-            _url = f'remedies/{system_slug}-system/{_ailment_slug}'
-            _json_filepath = f'database/json/{_url}.json'
-            _html_filepath = f'{website_folderpath}/{_url}.html'
-            _data = json_read(_json_filepath)
-            _ailment_name = _data['ailment_name']
-            _title = _data['title']
-            _src = f'/images/ailments/{_ailment_slug}-herbal-remedies.jpg'
-            _alt = f'herbal remedies for {_ailment_name}'
-            article_html += f'<a class="no-underline text-black" href="">\n'
-            article_html += f'<div>\n'
-            article_html += f'<img src="{_src}" alt="{_alt}">\n'
-            article_html += f'<p class="hover-orange">{_title}<p>\n'
-            article_html += f'</div>\n'
-            article_html += f'</a>\n'
-        article_html += f'</div>\n'
 
         sidebar_ailments = []
         for _ailment_slug in ailments_slugs[6:9]:
@@ -1008,6 +1204,81 @@ def articles_ailments_2():
                 </a>
             '''
 
+        social_html = f'''
+            <div class="border-0 border-b-4 border-solid border-black mb-24">
+                <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Stay Connected</h2>
+            </div>
+            <div class="flex flex-col">
+                <div class="flex flex-col gap-16">
+                    <a href="https://www.pinterest.com/terrawhisper" target="_blank" class="inline-block flex items-center justify-between gap-16 no-underline">
+                        <div class="flex items-center gap-8">
+                            <img class="social-icon" src="/images-static/pinterest.png">
+                            <p class="mb-0">@terrawhisper</p>
+                        </div>
+                        <p class="mb-0 hover-orange helvetica-bold">Follow</p>
+                    </a>
+                    <a href="https://www.x.com/leenrandell" target="_blank" class="inline-block flex items-center gap-16 justify-between no-underline">
+                        <div class="flex items-center gap-8">
+                            <img class="social-icon" src="/images-static/twitter.png">
+                            <p class="mb-0">@terrawhisper</p>
+                        </div>
+                        <p class="mb-0 hover-orange helvetica-bold">Follow</p>
+                    </a>
+                </div>
+            </div>
+        '''
+        popular_html = f'''
+            <div class="border-0 border-b-4 border-solid border-black mb-24">
+                <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">popular in {system_slug} system</h2>
+            </div>
+        </div>
+        <div class="flex flex-col gap-24">
+            <div class="flex flex-col gap-24">
+                {sidebar_blocks}
+            </div>
+        '''
+        sidebar_html = f'''
+            <div class="sidebar">
+                <div class="mb-48">
+                    {social_html}
+                </div>
+                <div>
+                    {popular_html}
+                </div>
+            </div>
+        '''
+
+        related_html = f'''
+            <div class="border-0 border-b-4 border-solid border-black mb-24">
+                <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">popular in {system_slug} system</h2>
+            </div>
+        </div>
+        <div class="flex flex-col gap-24">
+            <div class="flex flex-col gap-24">
+                {sidebar_blocks}
+            </div>
+        '''
+
+        related_blocks = ''
+        for _ailment_slug in ailments_slugs[:6]:
+            _url = f'remedies/{system_slug}-system/{_ailment_slug}'
+            _json_filepath = f'database/json/{_url}.json'
+            _html_filepath = f'{website_folderpath}/{_url}.html'
+            _data = json_read(_json_filepath)
+            _ailment_name = _data['ailment_name']
+            _title = _data['title']
+            _src = f'/images/ailments/{_ailment_slug}-herbal-remedies.jpg'
+            _alt = f'herbal remedies for {_ailment_name}'
+            _href = f'/{_url}.html'
+            related_blocks += f'''
+                <a class="no-underline text-black" href="{_href}">
+                    <div>
+                        <img src="{_src}" alt="{_alt}">
+                        <h3 class="h3-plain hover-orange text-14 mt-16">{_title}<h3>
+                    </div>
+                </a>
+            '''
+
         breadcrumbs_html_filepath = f'{url}.html'
         breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
         meta = components.meta(article_html, data["lastmod"])
@@ -1020,47 +1291,19 @@ def articles_ailments_2():
             <body>
                 {header_html}
                 {breadcrumbs_html}
-                <div class="container-xl mt-48 flex gap-96">
+                <div class="container-xl mt-48 mob-flex gap-96">
                     <main class="flex-2">
                         {meta}
                         {article_html}
+                        <div class="border-0 border-b-4 border-solid border-black mb-24 mt-48">
+                            <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Related Articles</h2>
+                        </div>
+                        <div class="grid grid-3 gap-16">
+                            {related_blocks}
+                        </div>
                     </main>
-                    <div class="flex-1 flex flex-col gap-48">
-                        <div>
-                            <div class="border-0 border-b-4 border-solid border-black mb-24">
-                                <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Stay Connected</h2>
-                            </div>
-                            <div class="flex flex-col">
-                                <div class="flex flex-col gap-16">
-                                    <a href="https://www.pinterest.com/terrawhisper" target="_blank" class="inline-block flex items-center justify-between gap-16 no-underline">
-                                        <div class="flex items-center gap-8">
-                                            <img class="social-icon" src="/images-static/pinterest.png">
-                                            <p class="mb-0">@terrawhisper</p>
-                                        </div>
-                                        <p class="mb-0 hover-orange helvetica-bold">Follow</p>
-                                    </a>
-                                    <a href="https://www.x.com/leenrandell" target="_blank" class="inline-block flex items-center gap-16 justify-between no-underline">
-                                        <div class="flex items-center gap-8">
-                                            <img class="social-icon" src="/images-static/twitter.png">
-                                            <p class="mb-0">@terrawhisper</p>
-                                        </div>
-                                        <p class="mb-0 hover-orange helvetica-bold">Follow</p>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <div class="border-0 border-b-4 border-solid border-black mb-24">
-                                    <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">popular in {system_slug} system</h2>
-                                </div>
-                            </div>
-                            <div class="flex flex-col gap-24">
-                                <div class="flex flex-col gap-24">
-                                    {sidebar_blocks}
-                                </div>
-                            </div>
-                        </div>
+                    <div class="flex-1">
+                        {sidebar_html}
                     </div>
                 </div>
                 <div class="mt-64"></div>
