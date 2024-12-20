@@ -182,6 +182,109 @@ def head_html_generate(title, css_filepath):
     '''
     return head_html
 
+def html_article_layout(main_html, sidebar_html):
+    layout_html = f'''
+        <div class="container-xl mt-48 mob-flex gap-96">
+            <div class="flex-2">
+                {main_html}
+            </div>
+            <div class="flex-1">
+                {sidebar_html}
+            </div>
+        </div>
+    '''
+    return layout_html
+
+def html_article_main(meta_html, article_html, related_html):
+    main_html = f'''
+        <main>
+            {meta_html}
+            {article_html}
+            {related_html}
+        </main>
+    '''
+    return main_html
+
+def html_article_related(related_blocks_html):
+    related_html = f'''
+        <div class="border-0 border-b-4 border-solid border-black mb-24 mt-48">
+            <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Related Articles</h2>
+        </div>
+        <div class="grid grid-3 gap-16">
+            {related_blocks_html}
+        </div>
+    '''
+    return related_html
+
+def html_article_popular_blocks(sidebar_populars):
+    html = ''
+    for popular in sidebar_populars:
+        html += f'''
+            <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{popular['href']}">
+                <div class="">
+                    <div class="relative mb-16">
+                        <img class="object-cover" height="180" src="{popular['src']}">
+                    </div>
+                    <h3 class="h3-plain text-14 mb-8">
+                        {popular['title']}
+                    </h3>
+                </div>
+            </a>
+        '''
+    return html
+
+def html_article_popular(category, sidebar_blocks_html):
+    html = f'''
+        <div>
+            <div class="border-0 border-b-4 border-solid border-black mb-24">
+                <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">popular in {category}</h2>
+            </div>
+        </div>
+        <div class="flex flex-col gap-24">
+            <div class="flex flex-col gap-24">
+                {sidebar_blocks_html}
+            </div>
+        </div>
+    '''
+    return html
+        
+def html_article_social():
+    html = f'''
+        <div class="border-0 border-b-4 border-solid border-black mb-24">
+            <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Stay Connected</h2>
+        </div>
+        <div class="flex flex-col">
+            <div class="flex flex-col gap-16">
+                <a href="https://www.pinterest.com/terrawhisper" target="_blank" class="inline-block flex items-center justify-between gap-16 no-underline">
+                    <div class="flex items-center gap-8">
+                        <img class="social-icon" src="/images-static/pinterest.png">
+                        <p class="mb-0">@terrawhisper</p>
+                    </div>
+                    <p class="mb-0 hover-orange helvetica-bold">Follow</p>
+                </a>
+                <a href="https://www.x.com/leenrandell" target="_blank" class="inline-block flex items-center gap-16 justify-between no-underline">
+                    <div class="flex items-center gap-8">
+                        <img class="social-icon" src="/images-static/twitter.png">
+                        <p class="mb-0">@terrawhisper</p>
+                    </div>
+                    <p class="mb-0 hover-orange helvetica-bold">Follow</p>
+                </a>
+            </div>
+        </div>
+    '''
+    return html
+
+def html_article_sidebar(popular_html, social_html):
+    html = f'''
+        <div class="sidebar">
+            <div class="mb-48">
+                {social_html}
+            </div>
+            {popular_html}
+        </div>
+    '''
+    return html
+
 def articles_ailments_2():
     plants_wcvp = csv_read_rows_to_json(f'{vault_tmp}/terrawhisper/wcvp_taxon.csv', delimiter = '|')
     ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
@@ -1173,7 +1276,7 @@ def articles_ailments_2():
                 ailments_slugs.append(_ailment_slug)
         random.shuffle(ailments_slugs)
 
-        sidebar_ailments = []
+        sidebar_populars = []
         for _ailment_slug in ailments_slugs[6:9]:
             _url = f'remedies/{system_slug}-system/{_ailment_slug}'
             _json_filepath = f'database/json/{_url}.json'
@@ -1183,83 +1286,14 @@ def articles_ailments_2():
             _title = _data['title']
             _src = f'/images/ailments/{_ailment_slug}-herbal-remedies.jpg'
             _alt = f'herbal remedies for {_ailment_name}'
-            sidebar_ailments.append({
+            sidebar_populars.append({
                 'src': _src,
                 'title': _title,
                 'href': f'/{_url}.html',
             })
 
-        sidebar_blocks = ''
-        for sidebar_ailment in sidebar_ailments:
-            sidebar_blocks += f'''
-                <a class="article-card no-underline flex-1 flex flex-col gap-24 text-black" href="{sidebar_ailment['href']}">
-                    <div class="">
-                        <div class="relative mb-16">
-                            <img class="object-cover" height="180" src="{sidebar_ailment['src']}">
-                        </div>
-                        <h3 class="h3-plain text-14 mb-8">
-                            {sidebar_ailment['title']}
-                        </h3>
-                    </div>
-                </a>
-            '''
 
-        social_html = f'''
-            <div class="border-0 border-b-4 border-solid border-black mb-24">
-                <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Stay Connected</h2>
-            </div>
-            <div class="flex flex-col">
-                <div class="flex flex-col gap-16">
-                    <a href="https://www.pinterest.com/terrawhisper" target="_blank" class="inline-block flex items-center justify-between gap-16 no-underline">
-                        <div class="flex items-center gap-8">
-                            <img class="social-icon" src="/images-static/pinterest.png">
-                            <p class="mb-0">@terrawhisper</p>
-                        </div>
-                        <p class="mb-0 hover-orange helvetica-bold">Follow</p>
-                    </a>
-                    <a href="https://www.x.com/leenrandell" target="_blank" class="inline-block flex items-center gap-16 justify-between no-underline">
-                        <div class="flex items-center gap-8">
-                            <img class="social-icon" src="/images-static/twitter.png">
-                            <p class="mb-0">@terrawhisper</p>
-                        </div>
-                        <p class="mb-0 hover-orange helvetica-bold">Follow</p>
-                    </a>
-                </div>
-            </div>
-        '''
-        popular_html = f'''
-            <div class="border-0 border-b-4 border-solid border-black mb-24">
-                <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">popular in {system_slug} system</h2>
-            </div>
-        </div>
-        <div class="flex flex-col gap-24">
-            <div class="flex flex-col gap-24">
-                {sidebar_blocks}
-            </div>
-        '''
-        sidebar_html = f'''
-            <div class="sidebar">
-                <div class="mb-48">
-                    {social_html}
-                </div>
-                <div>
-                    {popular_html}
-                </div>
-            </div>
-        '''
-
-        related_html = f'''
-            <div class="border-0 border-b-4 border-solid border-black mb-24">
-                <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">popular in {system_slug} system</h2>
-            </div>
-        </div>
-        <div class="flex flex-col gap-24">
-            <div class="flex flex-col gap-24">
-                {sidebar_blocks}
-            </div>
-        '''
-
-        related_blocks = ''
+        related_blocks_html = ''
         for _ailment_slug in ailments_slugs[:6]:
             _url = f'remedies/{system_slug}-system/{_ailment_slug}'
             _json_filepath = f'database/json/{_url}.json'
@@ -1270,7 +1304,7 @@ def articles_ailments_2():
             _src = f'/images/ailments/{_ailment_slug}-herbal-remedies.jpg'
             _alt = f'herbal remedies for {_ailment_name}'
             _href = f'/{_url}.html'
-            related_blocks += f'''
+            related_blocks_html += f'''
                 <a class="no-underline text-black" href="{_href}">
                     <div>
                         <img src="{_src}" alt="{_alt}">
@@ -1281,9 +1315,20 @@ def articles_ailments_2():
 
         breadcrumbs_html_filepath = f'{url}.html'
         breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
-        meta = components.meta(article_html, data["lastmod"])
+        meta_html = components.meta(article_html, data["lastmod"])
         article_html = components.table_of_contents(article_html)
         head_html = head_html_generate(data['title'], '/style.css')
+
+        social_html = html_article_social()
+        popular_blocks_html = html_article_popular_blocks(sidebar_populars)
+        popular_html = html_article_popular(f'{system_slug} system', popular_blocks_html)
+        sidebar_html = html_article_sidebar(popular_html, social_html)
+
+        related_html = html_article_related(related_blocks_html)
+        main_html = html_article_main(meta_html, article_html, related_html)
+        layout_html = html_article_layout(main_html, sidebar_html)
+
+        # ;jump ailm
         html = f'''
             <!DOCTYPE html>
             <html lang="en">
@@ -1291,21 +1336,7 @@ def articles_ailments_2():
             <body>
                 {header_html}
                 {breadcrumbs_html}
-                <div class="container-xl mt-48 mob-flex gap-96">
-                    <main class="flex-2">
-                        {meta}
-                        {article_html}
-                        <div class="border-0 border-b-4 border-solid border-black mb-24 mt-48">
-                            <h2 class="h2-plain text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Related Articles</h2>
-                        </div>
-                        <div class="grid grid-3 gap-16">
-                            {related_blocks}
-                        </div>
-                    </main>
-                    <div class="flex-1">
-                        {sidebar_html}
-                    </div>
-                </div>
+                {layout_html}
                 <div class="mt-64"></div>
                 {footer_html}
             </body>
@@ -2041,6 +2072,7 @@ def articles_preparations_2(preparation_slug):
                 json_write(json_filepath, data)
                 break
 
+        # ;remedies
         key = 'remedies'
         if key not in data: data[key] = []
         # data[key] = []
@@ -2160,7 +2192,7 @@ def articles_preparations_2(preparation_slug):
                 json_write(json_filepath, data)
 
 
-        # intro desc
+        # ;intro desc
         key = 'intro_desc'
         if key not in data: data[key] = ''
         # data[key] = ''
@@ -2184,44 +2216,46 @@ def articles_preparations_2(preparation_slug):
             json_write(json_filepath, data)
 
         # ;images
-        # TODO: generate missing image util good one (input or tkinter)
         if 1:
             non_valid_preparations = [
                 'decoctions',
             ]
             if preparation_slug not in non_valid_preparations:
-                output_filepath = f'{website_folderpath}/images/preparations/{ailment_slug}-herbal-{preparation_slug}.jpg'
-                src = f'/images/preparations/{ailment_slug}-herbal-{preparation_slug}.jpg'
-                alt = f'herbal {preparation_name} for {ailment_name}'
                 herbs_names_scientific = [x['herb_name_scientific'] for x in data["remedies"][:remedies_num]]
-                herb_name_scientific = random.choice(herbs_names_scientific)
-                if not os.path.exists(output_filepath):
-                # if True:
-                    container = ''
-                    if preparation_slug == 'teas': container = 'a cup of'
-                    if preparation_slug == 'tinctures': container = 'a bottle of'
-                    if preparation_slug == 'creams': container = 'a jar of'
-                    if preparation_slug == 'essential-oils': container = 'a bottle of'
-                    prompt = f'''
-                        {container} herbal {preparation_name} made with dry {herb_name_scientific} herb on a wooden table,
-                        indoor, 
-                        natural window light,
-                        earth tones,
-                        neutral colors,
-                        soft focus,
-                        warm tones,
-                        vintage,
-                        high resolution,
-                        cinematic
-                    '''
-                    negative_prompt = f'''
-                        text, watermark 
-                    '''
-                    print(prompt)
-                    pipe_init()
-                    image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
-                    image = img_resize(image, w=768, h=768)
-                    image.save(output_filepath)
+                herb_name_scientific = herbs_names_scientific[-1]
+                _herb_slug = herb_name_scientific.lower().strip().replace(' ', '-')
+                _url = f"images/preparations/{preparation_slug}/{_herb_slug}-herbal-{preparation_slug}.jpg"
+                output_filepath = f'{website_folderpath}/{_url}'
+                src = f'/{_url}'
+                alt = f'herbal {preparation_name} for {ailment_name}'
+                if 0:
+                    if not os.path.exists(output_filepath):
+                    # if True:
+                        container = ''
+                        if preparation_slug == 'teas': container = 'a cup of'
+                        if preparation_slug == 'tinctures': container = 'a bottle of'
+                        if preparation_slug == 'creams': container = 'a jar of'
+                        if preparation_slug == 'essential-oils': container = 'a bottle of'
+                        prompt = f'''
+                            {container} herbal {preparation_name} made with dry {herb_name_scientific} herb on a wooden table,
+                            indoor, 
+                            natural window light,
+                            earth tones,
+                            neutral colors,
+                            soft focus,
+                            warm tones,
+                            vintage,
+                            high resolution,
+                            cinematic
+                        '''
+                        negative_prompt = f'''
+                            text, watermark 
+                        '''
+                        print(prompt)
+                        pipe_init()
+                        image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+                        image = img_resize(image, w=768, h=768)
+                        image.save(output_filepath)
                 data['intro_image_src'] = src
                 data['intro_image_alt'] = alt
                 json_write(json_filepath, data)
@@ -2263,35 +2297,140 @@ def articles_preparations_2(preparation_slug):
                     remedy['image_alt'] = alt
                     json_write(json_filepath, data)
 
+        ## ------------------------------------
+        ## ;faq
+        ## ------------------------------------
+        faqs = [
+            {'key': 'faq_prevent', 'question': f'Can drinking herbal tea prevent {ailment_name} from forming?',},
+            {'key': 'faq_safe', 'question': f'Is it safe to consume herbal teas for {ailment_name} every day?',},
+            {'key': 'faq_timeline', 'question': f'How long does it take for herbal teas to show results in {ailment_name}?',},
+            {'key': 'faq_time', 'question': f'What time of day is best to drink herbal tea for {ailment_name}?',},
+            {'key': 'faq_time', 'question': f'What time of day is best to drink herbal tea for {ailment_name}?',},
+            {'key': 'faq_interaction', 'question': f'Can herbal teas interact with prescription medications for {ailment_name}?',},
+            {'key': 'faq_pregnant', 'question': f'Is it safe to cunsume herbal teas for {ailment_name} while pregnant?',},
+            {'key': 'faq_breastfeeding', 'question': f'Is it safe to cunsume herbal teas for {ailment_name} while breastfeeding?',},
+        ]
+        for faq in faqs:
+            key = faq['key']
+            question = faq['question']
+            if key not in data: data[key] = ''
+            # data[key] = ''
+            if data[key] == '':
+                prompt = f'''
+                    Write a short paragraph in less than 60 words that answer the following question: {question}
+                    Use simple and short words, and a simple writing style.
+                    Use a conversational and fluid writing style.
+                    Don't write lists.
+                    Don't write fluff.
+                    Don't allucinate.
+                    Don't include an conclusory statement, like a sentence that start with the words "overall", "in conclusion", "in summary", etc.
+                    Don't mention consulting a doctor, healthcare professional or similar.
+                '''
+                reply = llm_reply(prompt).strip()
+                reply = [line.strip() for line in reply.split('\n')]
+                reply = ' '.join(reply)
+                data[key] = reply
+                json_write(json_filepath, data)
+
 
         ########################################
         # ;html
         ########################################
         title = data['title']
-        print(title)
 
         article_html = ''
 
         article_html += f'<h1 class="mt-48">{title}</h1>\n'
+        src = data['intro_image_src']
+        alt = data['intro_image_alt']
+        article_html += f'<img class="article-img" src="{src}" alt="{alt}">\n'
         article_html += f'{util.text_format_1N1_html(data["intro_desc"])}\n'
 
         for remedy_i, remedy in enumerate(data['remedies']):
             article_html += f'<h2 class="article-h2">{remedy_i+1}. {remedy["herb_name_scientific"]}</h2>\n'
             src = remedy['image_src']
             alt = remedy['image_alt']
-            article_html += f'<img src="{src}" alt="{alt}">\n'
+            article_html += f'<img class="article-img" src="{src}" alt="{alt}">\n'
             article_html += f'{util.text_format_1N1_html(remedy["remedy_desc"])}\n'
 
-        head_html = head_html_generate(title, '/style.css')
+        article_html += f'<h2>FAQ</h2>\n'
+        faqs = faqs[:random.randint(3, 4)]
+        for faq in faqs:
+            key = faq['key']
+            question = faq['question']
+            article_html += f'<h3>{question.capitalize()}</h3>\n'
+            article_html += f'{util.text_format_1N1_html(data[key])}\n'
+
+        ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
+        ailments_slugs = []
+        for ailment in ailments:
+            _system_slug = ailment['system_slug']
+            _ailment_slug = ailment['ailment_slug']
+            if _system_slug == system_slug:
+                ailments_slugs.append(_ailment_slug)
+        random.shuffle(ailments_slugs)
+
+        sidebar_populars = []
+        for _ailment_slug in ailments_slugs[6:9]:
+            _url = f'remedies/{system_slug}-system/{_ailment_slug}'
+            _json_filepath = f'database/json/{_url}.json'
+            _html_filepath = f'{website_folderpath}/{_url}.html'
+            _data = json_read(_json_filepath)
+            _ailment_name = _data['ailment_name']
+            _title = _data['title']
+            _src = f'/images/ailments/{_ailment_slug}-herbal-remedies.jpg'
+            _alt = f'herbal remedies for {_ailment_name}'
+            sidebar_populars.append({
+                'src': _src,
+                'title': _title,
+                'href': f'/{_url}.html',
+            })
+
+
+        related_blocks_html = ''
+        for _ailment_slug in ailments_slugs[:6]:
+            _url = f'remedies/{system_slug}-system/{_ailment_slug}'
+            _json_filepath = f'database/json/{_url}.json'
+            _html_filepath = f'{website_folderpath}/{_url}.html'
+            _data = json_read(_json_filepath)
+            _ailment_name = _data['ailment_name']
+            _title = _data['title']
+            _src = f'/images/ailments/{_ailment_slug}-herbal-remedies.jpg'
+            _alt = f'herbal remedies for {_ailment_name}'
+            _href = f'/{_url}.html'
+            related_blocks_html += f'''
+                <a class="no-underline text-black" href="{_href}">
+                    <div>
+                        <img src="{_src}" alt="{_alt}">
+                        <h3 class="h3-plain hover-orange text-14 mt-16">{_title}<h3>
+                    </div>
+                </a>
+            '''
+
+        breadcrumbs_html_filepath = f'{url}.html'
+        breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
+        meta_html = components.meta(article_html, data["lastmod"])
+        article_html = components.table_of_contents(article_html)
+        head_html = head_html_generate(data['title'], '/style.css')
+
+        social_html = html_article_social()
+        popular_blocks_html = html_article_popular_blocks(sidebar_populars)
+        popular_html = html_article_popular(f'{system_slug} system', popular_blocks_html)
+        sidebar_html = html_article_sidebar(popular_html, social_html)
+
+        related_html = html_article_related(related_blocks_html)
+        main_html = html_article_main(meta_html, article_html, related_html)
+        layout_html = html_article_layout(main_html, sidebar_html)
+
+        # ;jump prep
         html = f'''
             <!DOCTYPE html>
             <html lang="en">
             {head_html}
             <body>
                 {header_html}
-                <main class="container-md">
-                    {article_html}
-                </main>
+                {breadcrumbs_html}
+                {layout_html}
                 <div class="mt-64"></div>
                 {footer_html}
             </body>
@@ -2709,9 +2848,6 @@ def articles_preparations(preparation_slug):
             data[key] = reply
             json_write(json_filepath, data)
     
-        '''
-        '''
-
         ########################################
         # ;images
         ########################################
@@ -3694,7 +3830,7 @@ shutil.copy2('style-article.css', f'{website_folderpath}/style-article.css')
 # articles_preparations('decoctions')
 # articles_preparations('creams')
 # articles_preparations('essential-oils')
-# articles_preparations_2('teas')
+articles_preparations_2('teas')
 # articles_preparations_2('tinctures')
 # articles_preparations_2('creams')
 # articles_preparations_2('essential-oils')
