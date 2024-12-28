@@ -1903,7 +1903,7 @@ def art_herb_popular(herb, herb_i, herbs):
         print(f'{herb_i}/{len(herbs)}: {herb} - {key}')
         prompt = f'''
             Write a list of the most important medicinal properties of the plant {herb_name_scientific}.
-            Examples of properties are: antimicrobial, antioxidant, anti-inflammatory, analgesic, pain relief, etc.
+            Examples of properties are: antimicrobial, antioxidant, anti-inflammatory, analgesic, etc.
             Write only the names of the properties, don't add descriptions.
             Write as few words as possible.
             Don't write fluff, only proven facts.

@@ -177,7 +177,12 @@ def text_format_131_html(text):
 
 def text_format_1N1_html(text):
     text_formatted = ''
-    lines = tokenize.sent_tokenize(text)
+    text = text.replace('var.', 'var,')
+    lines_tmp = tokenize.sent_tokenize(text)
+    lines = []
+    for line in lines_tmp:
+        line = line.replace('var,', 'var.')
+        lines.append(line)
     lines_num = len(lines[1:-1])
     paragraphs = []
     if lines_num > 0: 

@@ -441,6 +441,11 @@ p {
     margin-bottom: 6.4rem;
 }
 
+.my-96 {
+    margin-top: 9.6rem;
+    margin-bottom: 9.6rem;
+}
+
 .border-0 {
     border-width: 0;
 }
