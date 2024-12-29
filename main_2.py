@@ -1328,7 +1328,6 @@ def articles_ailments_2():
         main_html = html_article_main(meta_html, article_html, related_html)
         layout_html = html_article_layout(main_html, sidebar_html)
 
-        # ;jump ailm
         html = f'''
             <!DOCTYPE html>
             <html lang="en">
@@ -2430,7 +2429,6 @@ def articles_preparations_2(preparation_slug):
         main_html = html_article_main(meta_html, article_html, related_html)
         layout_html = html_article_layout(main_html, sidebar_html)
 
-        # ;jump prep
         html = f'''
             <!DOCTYPE html>
             <html lang="en">
@@ -3163,10 +3161,13 @@ def articles_herbs():
                 poison = _obj
                 break
 
+        if medicine['total_score'] <= poison['total_score']: continue
+
+        # ;jump
         # ;category
         with open('database/herbs-category-actions.txt') as f: categories = f.read().strip().split('\n')
         categories_prompt = ', '.join(categories)
-        key = 'category-action'
+        key = 'category_action'
         if key not in data: data[key] = ''
         # data[key] = ''
         if data[key] == '':
@@ -3178,9 +3179,10 @@ def articles_herbs():
                 Don't write fluff, only proven facts.
                 Don't allucinate.
                 Reply in the following JSON format: 
-                [
-                    {{"name": <write name of category here>, "confidence_score": 8}} 
-                ]
+                {{
+                    "name": <write name of category here>, 
+                    "confidence_score": 8
+                }} 
                 Only reply with the JSON, don't add additional info.
             '''
             reply = llm_reply(prompt, model).strip()
@@ -3188,12 +3190,9 @@ def articles_herbs():
             try: json_data = json.loads(reply)
             except: pass 
             if 'name' in json_data:
-                data[key] = json_data['name']
+                data[key] = json_data['name'].lower().strip()
                 json_write(json_filepath, data)
         
-
-        if medicine['total_score'] <= poison['total_score']: continue
-
         # ailments (uses)
         gen_ai_data(
             json_filepath,
@@ -3510,7 +3509,6 @@ def articles_herbs():
         article_html += f'<h2 class="">What are the possible side effects of using this herb improperly?</h2>\n'
         article_html += f'{util.text_format_1N1_html(data["side_effects_description"])}\n'
 
-        # ;jump herb
         breadcrumbs_html_filepath = f'{url}.html'
         breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
         meta_html = components.meta(article_html, data["lastmod"])
@@ -3541,6 +3539,80 @@ def articles_herbs():
         print(html_filepath)
         # quit()
 
+# ;jump
+def categories_herbs():
+    herbs = csv_read_rows_to_json(f'{vault_tmp}/terrawhisper/wcvp_taxon.csv', delimiter = '|')
+    categories = []
+    for herb_i, herb in enumerate(herbs[:307]):
+        print(f'{herb_i} - {herb}')
+        herb_name_scientific = herb['scientfiicname']
+        herb_slug = herb_name_scientific.strip().lower().replace(' ', '-').replace('.', '')
+        url = f'herbs/{herb_slug}'
+        title = herb_name_scientific
+        json_filepath = f'database/json/{url}.json'
+        html_filepath = f'{website_folderpath}/{url}.html'
+        print(f'    >> JSON: {json_filepath}')
+        print(f'    >> HTML: {html_filepath}')
+        if not os.path.exists(f'{website_folderpath}/herbs'): os.mkdir(f'{website_folderpath}/herbs')
+
+        # if os.path.exists(json_filepath): os.remove(json_filepath)
+        # continue
+
+        data = json_read(json_filepath, create=True)
+        try: category_name_todo = data['category_action']
+        except: continue
+
+        found = False
+        for category in categories:
+            category_name_done = category['name']
+            if category_name_todo == category_name_done:
+                category['herbs'].append(herb_name_scientific)
+                found = True
+                break
+        if not found:
+            categories.append({
+                'name': category_name_todo,
+                'herbs': [herb_name_scientific]
+            })
+
+    sections_html = ''
+    for category in categories:
+        herbs_blocks = ''
+        for herb in category['herbs']:
+            herbs_blocks += f'{herb}'
+        section = f'''
+            <section>
+                <div class="container-xl">
+                    <div class="grid-4">
+                        <h2>{category['name']}</h2>
+                        <a href="">{herbs_blocks}</a>
+                    </div>
+                </div>
+            </section>
+        '''
+        sections_html += section
+
+    
+    html_filepath = f'{website_folderpath}/herbs.html'
+    breadcrumbs_html_filepath = f'herbs.html'
+    breadcrumbs_html = breadcrumbs_gen(breadcrumbs_html_filepath)
+    head_html = head_html_generate('herbs', '/style.css')
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+        {head_html}
+        <body>
+            {header_html}
+            {breadcrumbs_html}
+            <main>
+                {sections_html}
+            </main>
+            <div class="mt-64"></div>
+            {footer_html}
+        </body>
+        </html>
+    '''
+    with open(html_filepath, 'w') as f: f.write(html)
 
 
 def page_home():
@@ -4135,6 +4207,7 @@ def page_systems():
         '''
         with open(html_filepath, 'w') as f: f.write(html)
 
+# ;jump
 def page_remedies():
     section_1 = f'''
         <section class="mt-64 mb-64">
@@ -4470,12 +4543,14 @@ def page_cookie_policy():
     util.file_write(filepath_out, template)
 
 
+
 shutil.copy2('style.css', f'{website_folderpath}/style.css')
 shutil.copy2('style-article.css', f'{website_folderpath}/style-article.css')
 
-articles_herbs()
 categories_herbs()
+
 quit()
+articles_herbs()
 
 articles_preparations_2('teas')
 articles_preparations_2('tinctures')
