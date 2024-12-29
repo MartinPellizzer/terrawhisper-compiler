@@ -3053,7 +3053,7 @@ def gen_ai_data(json_filepath, data, key, prompt):
 
 def articles_herbs():
     herbs = csv_read_rows_to_json(f'{vault_tmp}/terrawhisper/wcvp_taxon.csv', delimiter = '|')
-    for herb_i, herb in enumerate(herbs[:180]):
+    for herb_i, herb in enumerate(herbs[:307]):
         print(f'{herb_i} - {herb}')
         herb_name_scientific = herb['scientfiicname']
         herb_slug = herb_name_scientific.strip().lower().replace(' ', '-').replace('.', '')
@@ -3162,6 +3162,35 @@ def articles_herbs():
             if 'poison' in _obj['medicine_or_poison']: 
                 poison = _obj
                 break
+
+        # ;category
+        with open('database/herbs-category-actions.txt') as f: categories = f.read().strip().split('\n')
+        categories_prompt = ', '.join(categories)
+        key = 'category-action'
+        if key not in data: data[key] = ''
+        # data[key] = ''
+        if data[key] == '':
+            prompt = f'''
+                Tell me in which category would you classify of the following herb bases on its medicianl action: {herb_name_scientific}.
+                Also, give a confidence score from 1 to 10 for the category, indicating how sure you are about that.
+                Choose only one of the following categories: {categories_prompt}.
+                Reply in as few words as possible.
+                Don't write fluff, only proven facts.
+                Don't allucinate.
+                Reply in the following JSON format: 
+                [
+                    {{"name": <write name of category here>, "confidence_score": 8}} 
+                ]
+                Only reply with the JSON, don't add additional info.
+            '''
+            reply = llm_reply(prompt, model).strip()
+            json_data = {}
+            try: json_data = json.loads(reply)
+            except: pass 
+            if 'name' in json_data:
+                data[key] = json_data['name']
+                json_write(json_filepath, data)
+        
 
         if medicine['total_score'] <= poison['total_score']: continue
 
@@ -4445,6 +4474,8 @@ shutil.copy2('style.css', f'{website_folderpath}/style.css')
 shutil.copy2('style-article.css', f'{website_folderpath}/style-article.css')
 
 articles_herbs()
+categories_herbs()
+quit()
 
 articles_preparations_2('teas')
 articles_preparations_2('tinctures')
