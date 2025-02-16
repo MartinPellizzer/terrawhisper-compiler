@@ -1,0 +1,11 @@
+website/
+social_media/
+articles-images/
+__pycache__/
+venv/
+venv-main/
+venv-images/
+venv-pinterest/
+venv-pubmed/
+chroma-db/
+upload.bat

@@ -1,0 +1,292 @@
+status_id\status_name\body_part_id\body_part_name
+2\bad breath\5\mouth
+3\dry mouth\5\mouth
+4\mouth ulcers\5\mouth
+5\oral thrush\5\mouth
+6\periodontal disease\5\mouth
+8\throat pain\7\pharynx
+9\heartburn\8\esophagus
+10\acid reflux\8\esophagus
+11\gerd\8\esophagus
+13\indigestion\9\stomach
+14\stomach pain\9\stomach
+15\stomach cramps\9\stomach
+16\hyperacidity\9\stomach
+18\gastritis\9\stomach
+19\mucus in stomach\9\stomach
+20\peptic ulcers\9\stomach
+21\gastroenteritis\9\stomach
+22\gastroparesis\9\stomach
+23\hiatus hernia\8\esophagus
+24\queasy stomach\9\stomach
+25\upset stomach\9\stomach
+26\nausea\9\stomach
+27\vomiting\9\stomach
+29\gas in stomach\9\stomach
+30\bloating\9\stomach
+31\overeating\9\stomach
+33\hangover\13\liver
+34\jaundice\13\liver
+35\chronic hepatitis\13\liver
+36\viral hepatitis\13\liver
+37\cirrhosis\13\liver
+38\gallstones\14\gallbladder
+39\cholecystitis\14\gallbladder
+40\abdominal pain\9\stomach
+44\inflammatory bowel disease\11\large intestine
+45\constipation\11\large intestine
+46\diarrhea\11\large intestine
+47\flatulence\11\large intestine
+48\irritable bowel syndrome\11\large intestine
+49\ulcerative colitis\11\large intestine
+50\diverticulitis\11\large intestine
+52\hemorrhoids\12\rectum
+227\sleep deprivation\62\brain
+201\headaches\62\brain
+206\anxiety\62\brain
+207\stress\62\brain
+81\high blood pressure\52\arteries
+78\colds\7\pharynx
+59\sore throat\7\pharynx
+66\cough\24\lungs
+236\inflammation\1\joints
+234\allergies\18\nasal cavity
+129\acne\71\skin
+67\flu\24\lungs
+127\cramps\3\muscles
+68\chest congestion\24\lungs
+60\dry throat\7\pharynx
+70\asthma\24\lungs
+253\dehydration\26\kidneys
+252\bladder pain\28\bladder
+84\high cholesterol\13\liver
+216\dizziness\62\brain
+53\hay fever\18\nasal cavity
+54\blocked nose\18\nasal cavity
+55\runny nose\18\nasal cavity
+56\post nasal drip\18\nasal cavity
+57\sinus headache\18\nasal cavity
+58\sinusitis\18\nasal cavity
+61\snoring\7\pharynx
+62\laryngitis\20\larynx
+63\hoarse voice\20\larynx
+64\lost voice\20\larynx
+65\tonsillitis\7\pharynx
+69\bronchitis\24\lungs
+71\phlegm\24\lungs
+72\acute bronchitis\24\lungs
+73\chronic bronchitis\24\lungs
+74\pertussis\21\trachea
+75\emphysema\24\lungs
+79\mucus in throat\7\pharynx
+80\nasal congestion\18\nasal cavity
+82\low blood pressure\52\arteries
+83\heart pain\51\heart
+87\palpitation\51\heart
+88\swollen feet\3\muscles
+89\arteriosclerosis\52\arteries
+90\congestive heart failure\51\heart
+91\peripheral arterial occlusive disease\52\arteries
+92\varicose veins\53\veins
+96\hypertension\26\kidneys
+97\muscle pain\3\muscles
+98\osteoporosis\0\skeleton
+99\arthritis\1\joints
+100\joint pain\1\joints
+101\joint stiffness\1\joints
+102\osteoarthritis\1\joints
+103\rheumatoid arthritis\1\joints
+104\bursitis\1\joints
+105\tendinitis\3\muscles
+106\gout\1\joints
+107\back pain\0\skeleton
+108\lower back pain\3\muscles
+109\stiff neck\3\muscles
+110\neck pain\3\muscles
+111\frozen shoulder\1\joints
+112\jammed finger\1\joints
+113\leg cramps\3\muscles
+114\leg pain\3\muscles
+115\restless leg syndrome\3\muscles
+116\knee pain\1\joints
+117\knee swelling\1\joints
+118\foot pain\1\joints
+119\plantar fasciitis\2\ligaments
+120\chapped lips\5\mouth
+122\jaw pain\5\mouth
+124\jaw clenching\5\mouth
+125\eye twitching\3\muscles
+126\bone health\0\skeleton
+128\itchy skin\71\skin
+130\bee sting\71\skin
+131\boils\71\skin
+132\chickenpox\71\skin
+133\dry skin\71\skin
+135\fungal infection\71\skin
+136\glowing skin\71\skin
+137\insect bites\71\skin
+138\ingrown hair\71\skin
+139\jellyfish sting\71\skin
+141\open pores\71\skin
+142\open wounds\71\skin
+143\pimples\71\skin
+144\hyperpigmentation\71\skin
+145\ringworm\71\skin
+146\rashes\71\skin
+147\sunburn\71\skin
+148\eczema\71\skin
+149\psoriasis\71\skin
+150\dermatitis\71\skin
+151\nail fungus\71\skin
+152\dry hair\71\skin
+153\frizzy hair\71\skin
+155\hair fall\71\skin
+158\dandruff\71\skin
+159\dry scalp\71\skin
+160\itchy scalp\71\skin
+162\oily face\71\skin
+163\dark circles\66\eye
+164\dry eyes\66\eye
+165\puffy eyes\66\eye
+166\itchy eyes\66\eye
+167\red eyes\66\eye
+168\stye\66\eye
+169\eye bags\66\eye
+170\eye infection\66\eye
+172\eye irritation\66\eye
+173\eye swelling\66\eye
+174\itchy ears\67\ear
+175\bleeding gums\5\mouth
+176\gum pain\5\mouth
+177\cold sore\5\mouth
+178\gum swelling\5\mouth
+179\gum infection\5\mouth
+182\swollen gums\5\mouth
+183\athlete's foot\71\skin
+184\cracked heels\71\skin
+187\dry lips\5\mouth
+188\dark lips\5\mouth
+189\fever blister on lip\5\mouth
+191\toothache\5\mouth
+192\nipple pain during breastfeeding\70\mammary glands
+193\jock itch\71\skin
+194\oily skin\71\skin
+199\neuritis\65\nerves
+200\nerve pain\65\nerves
+202\one side headache\62\brain
+203\migraine\62\brain
+204\insomnia\62\brain
+208\depression\62\brain
+86\nose bleeding\18\nasal cavity
+123\jaw lock\5\mouth
+134\excessive sweating\71\skin
+161\lice\71\skin
+185\foot odor\71\skin
+210\jet lag\62\brain
+211\eye pain\66\eye
+212\eye strain\66\eye
+213\pink eye\66\eye
+214\sore eyes\66\eye
+215\tinnitus\67\ear
+217\ear blockage\67\ear
+218\motion sickness\9\stomach
+219\shingles\65\nerves
+220\strep throat\7\pharynx
+221\nausea\9\stomach
+222\numbness in hands\65\nerves
+223\burning feet\65\nerves
+225\brain fog\62\brain
+226\fatigue\3\muscles
+228\ear infection\67\ear
+229\earache\67\ear
+230\eye floaters\66\eye
+233\grief\62\brain
+235\fever\62\brain
+238\postoperative recovery\9\stomach
+239\vaginitis\36\vagina
+240\prostatitis\41\prostate
+242\fungal skin infection\71\skin
+245\infection\56\lymph node
+246\overactive bladder\28\bladder
+247\dysuria\28\bladder
+248\cystitis\28\bladder
+249\urinary calculus\28\bladder
+250\hematuria\28\bladder
+251\edema\71\skin
+254\fluid retention\26\kidneys
+256\breastfeeding breast pain\70\mammary glands
+257\erectile dysfunction\43\penis
+258\low sperm count\37\testicles
+259\menstrual cramps\32\uterus
+260\morning sickness\9\stomach
+261\ovulation pain\30\ovaries
+262\over bleeding during periods\32\uterus
+263\period cramps\3\muscles
+264\premature ejaculation\43\penis
+265\prostate inflammation\41\prostate
+267\amenorrhea\32\uterus
+268\premenstrual syndrome\32\uterus
+269\menopause\30\ovaries
+271\uterine fibroids\32\uterus
+272\endometriosis\32\uterus
+273\fibrocystic breast disease\70\mammary glands
+274\benign prostatic hypertrophy\41\prostate
+275\endometriosis pain\32\uterus
+280\hormonal imbalance\45\pituitary gland
+281\hot flashes\30\ovaries
+282\hypothyroidism\47\thyroid gland
+283\hyperthyroidism\47\thyroid gland
+286\adrenal fatigue\49\adrenal glands
+301\enlarged spleen\59\spleen
+302\aging\0\skeleton
+303\altitude sickness\24\lungs
+304\alzheimer’s disease\62\brain
+305\angina\51\heart
+306\ankylosing spondylitis\0\skeleton
+308\bladder infection\28\bladder
+309\body odor\71\skin
+312\bunion\1\joints
+313\burns\71\skin
+314\wheezing\24\lungs
+315\shortness of breath\24\lungs
+316\chills\71\skin
+317\loss of appetite\9\stomach
+318\difficulty swallowing\7\pharynx
+319\inflamed gums\5\mouth
+320\white tongue\69\tongue
+321\bad taste\5\mouth
+322\taste changes\5\mouth
+323\dental plaque\5\mouth
+324\tooth decay\5\mouth
+325\dry nose\18\nasal cavity
+326\inflamed mouth\5\mouth
+327\difficulty chewing\5\mouth
+328\speech difficulty\20\larynx
+329\lymph node swelling\56\lymph node
+330\white patches in month\5\mouth
+331\taste loss\69\tongue
+332\reddened corners in mouth\5\mouth
+333\difficulty eating\5\mouth
+334\painful swallowing\8\esophagus
+335\bleeding spots in mouth\5\mouth
+336\dry cough\24\lungs
+337\throat congestion\7\pharynx
+338\difficult speaking\20\larynx
+339\feverish feeling\24\lungs
+340\tickling throat\7\pharynx
+341\throat redness\7\pharynx
+342\throat irritation\7\pharynx
+343\sour taste in mouth\5\mouth
+344\bitter taste in mouth\5\mouth
+345\burping\9\stomach
+347\stomach discomfort\9\stomach
+348\coughing fits\24\lungs
+349\stomach growling\9\stomach
+350\upper abdominal pain\9\stomach
+351\cavities\5\mouth
+307\baldness\71\skin
+311\bruises\3\muscles
+186\ingrown toenail\71\skin
+154\grey hair\73\hair
+156\oily hair\73\hair
+76\hiccups\74\diaphragm

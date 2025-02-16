@@ -1,0 +1,292 @@
+status_exe\status_id\status_slug\status_names\status_type\body_part
+x\2\bad-breath\bad breath\ailment\mouth
+x\3\dry-mouth\dry mouth\ailment\salivary glands and mucous membranes of the mouth
+x\4\mouth-ulcers\mouth ulcers\ailment\mouth
+x\5\oral-thrush\oral thrush\ailment\mouth
+x\6\periodontal-disease\periodontal disease\ailment\gums and jawbone
+x\8\throat-pain\throat pain\ailment\throat
+x\9\heartburn\heartburn\ailment\esophagus
+x\10\acid-reflux\acid reflux\ailment\esophagus
+x\11\gerd\gerd\ailment\esophagus
+x\13\indigestion\indigestion\ailment\stomach
+x\14\stomach-pain\stomach pain\ailment\stomach
+x\15\stomach-cramps\stomach cramps\ailment\abdomen
+x\16\hyperacidity\hyperacidity\ailment\stomach
+x\18\gastritis\gastritis\ailment\stomach
+x\19\mucus-stomach\mucus in stomach\ailment\stomach
+x\20\peptic-ulcers\peptic ulcers\ailment\stomach
+x\21\gastroenteritis\gastroenteritis\ailment\gastrointestinal tract
+x\22\gastroparesis\gastroparesis\ailment\stomach
+x\23\hiatus-hernia\hiatus hernia\ailment\stomach
+x\24\queasy-stomach\queasy stomach\ailment\stomach
+x\25\upset-stomach\upset stomach\ailment\stomach
+x\26\nausea\nausea\ailment\stomach
+x\27\vomiting\vomiting\ailment\stomach
+x\29\gas-stomach\gas in stomach\ailment\abdomen
+x\30\bloating\bloating\ailment\abdomen
+x\31\overeating\overeating\ailment\stomach
+x\33\hangover\hangover\ailment\brain
+x\34\jaundice\jaundice\ailment\liver
+x\35\chronic-hepatitis\chronic hepatitis\ailment\liver
+x\36\viral-hepatitis\viral hepatitis\ailment\liver
+x\37\cirrhosis\cirrhosis\ailment\liver
+x\38\gallstones\gallstones\ailment\gallbladder
+x\39\cholecystitis\cholecystitis\ailment\gallbladder
+x\40\abdominal-pain\abdominal pain\ailment\abdomen
+x\44\inflammatory-bowel-disease\inflammatory bowel disease\ailment\intestines
+x\45\constipation\constipation\ailment\bowels
+x\46\diarrhea\diarrhea\ailment\intestines
+x\47\flatulence\flatulence\ailment\large intestine
+x\48\irritable-bowel-syndrome\irritable bowel syndrome\ailment\gastrointestinal tract
+x\49\ulcerative-colitis\ulcerative colitis\ailment\colon
+x\50\diverticulitis\diverticulitis\ailment\large_intestine
+x\52\hemorrhoids\hemorrhoids\ailment\rectum
+x\227\sleep-deprivation\sleep deprivation\ailment\brain
+x\201\headache\headaches\ailment\brain
+x\206\anxiety\anxiety\ailment\brain
+x\207\stress\stress\ailment\brain
+x\81\high-blood-pressure\high blood pressure\ailment\arteries and heart
+x\78\colds\colds\ailment\nose
+x\59\sore-throat\sore throat\ailment\throat
+x\66\cough\cough\ailment\throat
+x\236\inflammation\inflammation\ailment\joints
+x\234\allergies\allergies\ailment\eyes
+x\129\acne\acne\ailment\skin
+x\67\flu\flu\ailment\respiratory system
+x\127\cramps\cramps\ailment\muscles
+x\68\chest-congestion\chest congestion\ailment\lungs
+x\60\dry-throat\dry throat\ailment\throat
+x\70\asthma\asthma\ailment\lungs
+x\253\dehydration\dehydration\ailment\brain
+x\252\bladder-pain\bladder pain\ailment\bladder
+x\84\high-cholesterol\high cholesterol\ailment\arteries
+x\216\dizziness\dizziness\ailment\inner_ear
+x\53\hay-fever\hay fever\ailment\eyes
+x\54\blocked-nose\blocked nose\ailment\nasal passages
+x\55\runny-nose\runny nose\ailment\nose
+x\56\post-nasal-drip\post nasal drip\ailment\throat
+x\57\sinus-headache\sinus headache\ailment\sinuses
+x\58\sinusitis\sinusitis\ailment\sinuses
+x\61\snoring\snoring\ailment\nasopharynx
+x\62\laryngitis\laryngitis\ailment\larynx
+x\63\hoarse-voice\hoarse voice\ailment\vocal cords
+x\64\lost-voice\lost voice\ailment\vocal_cords
+x\65\tonsillitis\tonsillitis\ailment\tonsils
+x\69\bronchitis\bronchitis\ailment\lungs
+x\71\phlegm\phlegm\ailment\throat
+x\72\acute-bronchitis\acute bronchitis\ailment\lungs
+x\73\chronic-bronchitis\chronic bronchitis\ailment\lungs
+x\74\pertussis\pertussis\ailment\lungs
+x\75\emphysema\emphysema\ailment\lungs
+x\76\hiccups\hiccups\ailment\diaphragm
+x\79\mucus\mucus in throat\ailment\throat
+x\80\nasal-congestion\nasal congestion\ailment\nose
+x\82\low-blood-pressure\low blood pressure\ailment\brain
+x\83\heart-pain\heart pain\ailment\heart
+x\86\nose-bleeding\nose bleeding\ailment\nose
+x\87\palpitation\palpitation\ailment\heart
+x\88\swollen-feet\swollen feet\ailment\feet
+x\89\arteriosclerosis\arteriosclerosis\ailment\arteries
+x\90\congestive-heart-failure\congestive heart failure\ailment\heart
+x\91\peripheral-arterial-occlusive-disease\peripheral arterial occlusive disease\ailment\legs
+x\92\varicose-veins\varicose veins\ailment\legs
+x\96\hypertension\hypertension\ailment\blood vessels
+x\97\muscle-pain\muscle pain\ailment\muscles
+x\98\osteoporosis\osteoporosis\ailment\spine
+x\99\arthritis\arthritis\ailment\joints
+x\100\joint-pain\joint pain\ailment\joints
+x\101\joint-stiffness\joint stiffness\ailment\joints
+x\102\osteoarthritis\osteoarthritis\ailment\joints
+x\103\rheumatoid-arthritis\rheumatoid arthritis\ailment\joints
+x\104\bursitis\bursitis\ailment\joints
+x\105\tendinitis\tendinitis\ailment\tendons
+x\106\gout\gout\ailment\joints
+x\107\back-pain\back pain\ailment\spine
+x\108\lower-back-pain\lower back pain\ailment\lumbar spine
+x\109\stiff-neck\stiff neck\ailment\neck
+x\110\neck-pain\neck pain\ailment\spine
+x\111\frozen-shoulder\frozen shoulder\ailment\shoulder
+x\112\jammed-finger\jammed finger\ailment\finger joints
+x\113\leg-cramps\leg cramps\ailment\muscles
+x\114\leg-pain\leg pain\ailment\legs
+x\115\restless-leg-syndrome\restless leg syndrome\ailment\legs
+x\116\knee-pain\knee pain\ailment\knees
+x\117\knee-swelling\knee swelling\ailment\knee
+x\118\foot-pain\foot pain\ailment\feet
+x\119\plantar-fasciitis\plantar fasciitis\ailment\heel
+x\120\chapped-lips\chapped lips\ailment\lips
+x\122\jaw-pain\jaw pain\ailment\jawbone
+x\123\jaw-lock\jaw lock\ailment\jaw
+x\124\jaw-clenching\jaw clenching\ailment\temporomandibular joint
+x\125\eye-twitching\eye twitching\ailment\eyelid
+x\126\bone-health\bone health\ailment\bones
+x\128\itchy-skin\itchy skin\ailment\skin
+x\130\bee-sting\bee sting\ailment\skin
+x\131\boils\boils\ailment\skin
+x\132\chickenpox\chickenpox\ailment\skin
+x\133\dry-skin\dry skin\ailment\skin
+x\134\excessive-sweating\excessive sweating\ailment\palms
+x\135\fungal-infection\fungal infection\ailment\nails
+x\136\glowing-skin\glowing skin\ailment\skin
+x\137\insect-bites\insect bites\ailment\skin
+x\138\ingrown-hair\ingrown hair\ailment\skin
+x\139\jellyfish-sting\jellyfish sting\ailment\skin
+x\141\open-pores\open pores\ailment\face
+x\142\open-wounds\open wounds\ailment\skin
+x\143\pimples\pimples\ailment\skin
+x\144\hyperpigmentation\hyperpigmentation\ailment\skin
+x\145\ringworm\ringworm\ailment\skin
+x\146\rashes\rashes\ailment\skin
+x\147\sunburn\sunburn\ailment\skin
+x\148\eczema\eczema\ailment\skin
+x\149\psoriasis\psoriasis\ailment\skin
+x\150\dermatitis\dermatitis\ailment\skin
+x\151\nail-fungus\nail fungus\ailment\nails
+x\152\dry-hair\dry hair\ailment\scalp
+x\153\frizzy-hair\frizzy hair\ailment\scalp
+x\154\grey-hair\grey hair\ailment\scalp
+x\155\hair-fall\hair fall\ailment\scalp
+x\156\oily-hair\oily hair\ailment\scalp
+x\158\dandruff\dandruff\ailment\scalp
+x\159\dry-scalp\dry scalp\ailment\scalp
+x\160\itchy-scalp\itchy scalp\ailment\scalp
+x\161\lice\lice\ailment\scalp
+x\162\oily-face\oily face\ailment\skin
+x\163\dark-circles\dark circles\ailment\under eyes
+x\164\dry-eyes\dry eyes\ailment\eyes
+x\165\puffy-eyes\puffy eyes\ailment\eyeballs
+x\166\itchy-eyes\itchy eyes\ailment\eyes
+x\167\red-eyes\red eyes\ailment\eyes
+x\168\stye\stye\ailment\eyelid
+x\169\eye-bags\eye bags\ailment\eyebags area
+x\170\eye-infection\eye infection\ailment\eyes
+x\172\eye-irritation\eye irritation\ailment\eyes
+x\173\eye-swelling\eye swelling\ailment\eyes
+x\174\itchy-ears\itchy ears\ailment\ears
+x\175\bleeding-gums\bleeding gums\ailment\gums
+x\176\gum-pain\gum pain\ailment\gums
+x\177\cold-sore\cold sore\ailment\mouth
+x\178\gum-swelling\gum swelling\ailment\gums
+x\179\gum-infection\gum infection\ailment\teeth
+x\182\swollen-gums\swollen gums\ailment\gums
+x\183\athlete-foot\athlete's foot\ailment\feet
+x\184\cracked-heels\cracked heels\ailment\heels
+x\185\foot-odor\foot odor\ailment\feet
+x\186\ingrown-toenail\ingrown toenail\ailment\toe
+x\187\dry-lips\dry lips\ailment\mouth
+x\188\dark-lips\dark lips\ailment\lips
+x\189\lip-fever-blister\fever blister on lip\ailment\lip
+x\191\toothache\toothache\ailment\jaw
+x\192\breastfeeding-nipple-pain\nipple pain during breastfeeding\ailment\nipples
+x\193\jock-itch\jock itch\ailment\groin
+x\194\oily-skin\oily skin\ailment\face
+x\199\neuritis\neuritis\ ailment\nerves
+x\200\nerve-pain\nerve pain\ailment\back
+x\202\one-side-headache\one side headache\ailment\head
+x\203\migraine\migraine\ailment\brain
+x\204\insomnia\insomnia\ailment\brain
+x\208\depression\depression\ailment\brain
+x\210\jet-lag\jet lag\ailment\circadian_rhythm_system
+x\211\eye-pain\eye pain\ailment\eyes
+x\212\eye-strain\eye strain\ailment\eyes
+x\213\pink-eye\pink eye\ailment\eyes
+x\214\sore-eyes\sore eyes\ailment\eyes
+x\215\tinnitus\tinnitus\ailment\ears
+x\217\ear-blockage\ear blockage\ailment\eardrum
+x\218\motion-sickness\motion sickness\ailment\stomach
+x\219\shingles\shingles\ailment\skin
+x\220\strep-throat\strep throat\ailment\throat
+x\221\nausea\nausea\ailment\stomach
+x\222\hands-numbness\numbness in hands\ailment\fingers
+x\223\burning-feet\burning feet\ailment\feet
+x\225\brain-fog\brain fog\ailment\brain
+x\226\fatigue\fatigue\ailment\brain
+x\228\ear-infection\ear infection\ailment\eardrum
+x\229\earache\earache\ailment\ears
+x\230\eye-floaters\eye floaters\ailment\retina
+x\233\grief\grief\ailment\brain
+x\235\fever\fever\ailment\brain
+x\238\postoperative-recovery\postoperative recovery\ailment\abdomen
+x\239\vaginitis\vaginitis\ailment\vagina
+x\240\prostatitis\prostatitis\ailment\prostate
+x\242\fungal-skin-infection\fungal skin infection\ailment\feet
+x\245\infection\infection\ailment\liver
+x\246\overactive-bladder\overactive bladder\ailment\bladder
+x\247\dysuria\dysuria\ailment\bladder
+x\248\cystitis\cystitis\ailment\bladder
+x\249\urinary-calculus\urinary calculus\ailment\kidneys
+x\250\hematuria\hematuria\ailment\kidneys
+x\251\edema\edema\ailment\limbs
+x\254\fluid-retention\fluid retention\ailment\feet
+x\256\breastfeeding-breast-pain\breastfeeding breast pain\ailment\breasts
+x\257\erectile-disfunction\erectile dysfunction\ailment\penis
+x\258\low-sperm-count\low sperm count\ailment\testes
+x\259\menstrual-cramps\menstrual cramps\ailment\uterus
+x\260\morning-sickness\morning sickness\ailment\stomach
+x\261\ovulation-pain\ovulation pain\ailment\lower abdomen
+x\262\periods-over-bleeding\over bleeding during periods\ailment\uterus
+x\263\period-cramps\period cramps\ailment\uterus
+x\264\premature-ejaculation\premature ejaculation\ailment\penis
+x\265\prostate-inflammation\prostate inflammation\ailment\prostate
+x\267\amenorrhea\amenorrhea\ailment\ovaries
+x\268\premenstrual-syndrome\premenstrual syndrome\ailment\brain
+x\269\menopause\menopause\ailment\hormonal system
+x\271\uterine-fibroids\uterine fibroids\ailment\uterus
+x\272\endometriosis\endometriosis\ailment\uterus
+x\273\fibrocystic-breast-disease\fibrocystic breast disease\ailment\breasts
+x\274\benign-prostatic-hypertrophy\benign prostatic hypertrophy\ailment\prostate
+x\275\endometriosis-pain\endometriosis pain\ailment\pelvis
+x\280\hormonal-imbalance\hormonal imbalance\ailment\ovaries
+x\281\hot-flashes\hot flashes\ailment\brain
+x\282\hypothyroidism\hypothyroidism\ailment\thyroid
+x\283\hyperthyroidism\hyperthyroidism\ailment\heart
+x\286\adrenal-fatigue\adrenal fatigue\ailment\adrenal glands
+x\301\enlarged-spleen\enlarged spleen\ailment\spleen
+x\302\aging\aging\ailment\skin
+x\303\altitude-sickness\altitude sickness\ailment\brain
+x\304\alzheimer-disease\alzheimer’s disease\ailment\brain
+x\305\angina\angina\ailment\heart
+x\306\akylosing-spondylitis\ankylosing spondylitis\ailment\spine
+x\307\baldness\baldness\ailment\scalp
+x\308\bladder-infection\bladder infection\ailment\bladder
+x\309\body-odor\body odor\ailment\armpits
+x\311\bruises\bruises\ailment\skin
+x\312\bunion\bunion\ailment\big toe
+x\313\burns\burns\ailment\skin
+x\314\wheezing\wheezing\ailment\lungs
+x\315\breath-shortness\shortness of breath\ailment\lungs
+x\316\chills\chills\ailment\body
+x\317\appetite-loss\loss of appetite\ailment\stomach
+x\318\difficulty-swallowing\difficulty swallowing\ailment\esophagus
+x\319\inflamed-gums\inflamed gums\ailment\gums
+x\320\white-tongue\white tongue\ailment\tongue
+x\321\bad-taste\bad taste\ailment\tongue
+x\322\taste-changes\taste changes\ailment\tongue
+x\323\dental-plaque\dental plaque\ailment\teeth
+x\324\tooth-decay\tooth decay\ailment\teeth
+x\325\dry-nose\dry nose\ailment\nasal passages
+x\326\inflamed-mouth\inflamed mouth\ailment\mouth
+x\327\difficulty-chewing\difficulty chewing\ailment\jaws
+x\328\speech-difficulty\speech difficulty\ailment\brain
+x\329\lymph-node-swelling\lymph node swelling\ailment\neck
+x\330\month-white-patches\white patches in month\ailment\mouth
+x\331\taste-loss\taste loss\ailment\tongue
+x\332\mouth-reddened-corners\reddened corners in mouth\ailment\cheeks
+x\333\difficulty-eating\difficulty eating\ailment\esophagus
+x\334\painful-swallowing\painful swallowing\ailment\esophagus
+x\335\mouth-bleeding-spots\bleeding spots in mouth\ailment\mouth lining
+x\336\dry-cough\dry cough\ailment\throat
+x\337\throat-congestion\throat congestion\ailment\throat
+x\338\difficult-speaking\difficult speaking\ailment\larynx
+x\339\feverish-feeling\feverish feeling\ailment\brain
+x\340\tickling-throat\tickling throat\ailment\throat
+x\341\throat-redness\throat redness\ailment\throat
+x\342\throat-irritation\throat irritation\ailment\throat
+x\343\mouth-sour-taste\sour taste in mouth\ailment\tongue
+x\344\mouth-bitter-taste\bitter taste in mouth\ailment\tongue
+x\345\burping\burping\ailment\stomach
+x\347\stomach-discomfort\stomach discomfort\ailment\stomach
+x\348\coughing-fits\coughing fits\ailment\lungs
+x\349\stomach-growling\stomach growling\ailment\stomach
+x\350\upper-abdominal-pain\upper abdominal pain\ailment\stomach
+x\351\cavities\cavities\ailment\teeth
