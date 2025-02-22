@@ -1,1 +1,11 @@
-{"title": "juglandales", "lastmod": "2025-2-10"}
+{
+    "title": "juglandales",
+    "lastmod": "2025-2-10",
+    "intro": "Juglandales is an order of flowering plants, comprising families that share similar characteristics and evolutionary relationships. This order includes a diverse range of plant families such as the walnut family, Juglandaceae, as well as other less well-known families like the mulberry family, Moraceae, and the cashew family, Anacardiaceae. However, the examples you provided, orchidaceae, euphorbiaceae, and cyperaceae, actually belong to different orders: asparagales (orchidaceae), sapindales (euphorbiaceae), and poales (cyperaceae) respectively.",
+    "families": [
+        {
+            "family_slug": "juglandaceae",
+            "family_desc": "Juglandaceae is a family of plants commonly known as walnut or hickory trees, which are native to the Northern Hemisphere and are characterized by their distinctive pinnate leaves and edible nuts."
+        }
+    ]
+}

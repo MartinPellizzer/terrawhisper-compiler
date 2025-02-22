@@ -1,1 +1,11 @@
-{"title": "isoetales", "lastmod": "2025-2-10"}
+{
+    "title": "isoetales",
+    "lastmod": "2025-2-10",
+    "intro": "The taxonomical rank of Isoetales is a monotypic order of plants, consisting of a single family, Isoetaceae, that are characterized by their distinctive, leaf-like or scale-like structures and the absence of true roots and leaves. Isoetales are generally found in aquatic or humid environments and are known for their ability to survive in low-light conditions. The Isoetales order includes several families, such as Isoetaceae, Orchidaceae, Euphorbiaceae, and Cyperaceae, although only Isoetaceae is strictly classified within this order. These plants often resemble mosses or liverworts in appearance but are actually more closely related to conifers and other seed-producing plants.",
+    "families": [
+        {
+            "family_slug": "isoetaceae",
+            "family_desc": "Isoetaceae is a family of aquatic plants, commonly known as quillworts, that are found in shallow water and have needle-like leaves."
+        }
+    ]
+}

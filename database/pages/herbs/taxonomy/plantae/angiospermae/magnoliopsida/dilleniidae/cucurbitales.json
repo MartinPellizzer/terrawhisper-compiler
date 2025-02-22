@@ -1,1 +1,19 @@
-{"title": "cucurbitales", "lastmod": "2025-2-10"}
+{
+    "title": "cucurbitales",
+    "lastmod": "2025-2-10",
+    "intro": "The rank Cucurbitales is an order of flowering plants, characterized by the presence of five-petaled flowers, a distinctive arrangement of stamens, and a wide range of fruit types, including berries, capsules, and schizocarps. This order includes a diverse group of plants, such as watermelons (Citrullus lanatus) and cucumbers (Cucumis sativus), which are commonly cultivated for their edible fruits. Other notable families within the Cucurbitales order include the melon family (Cucurbitaceae), which includes various species of gourds and melons, as well as the Anacardiaceae family, which includes the genus Cucurbita, encompassing species such as the acorn squash. In contrast, the families Orchidaceae, Euphorbiaceae, and Cyperaceae are not part of the Cucurbitales order, but belong to other distinct orders within the plant kingdom.",
+    "families": [
+        {
+            "family_slug": "cucurbitaceae",
+            "family_desc": "Cucurbitaceae is a family of flowering plants commonly known as gourds or cucurbits, which includes a wide variety of species such as melons, cucumbers, squash, and pumpkins."
+        },
+        {
+            "family_slug": "saururaceae",
+            "family_desc": "Saururaceae is a family of flowering plants commonly known as lizardtails or water-dock, comprising about 10-12 species that are primarily found in temperate and subtropical regions."
+        },
+        {
+            "family_slug": "corynocarpaceae",
+            "family_desc": "Corynocarpaceae is a small family of flowering plants in the order Celastrales, native to the tropical regions of Australia and New Guinea."
+        }
+    ]
+}

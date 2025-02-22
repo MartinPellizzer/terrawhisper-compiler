@@ -1,1 +1,11 @@
-{"title": "ginkgoidae", "lastmod": "2025-2-10"}
+{
+    "title": "ginkgoidae",
+    "lastmod": "2025-2-10",
+    "intro": "The ginkgoidae is a subclade of flowering plant families that belongs to the subclass Magnoliidae, within the class Magnoliopsida. This subclade contains a diverse group of plant families, including some that have unique characteristics such as the ginkgo family, Ginkgoaceae. Orders within the ginkgoidae subclade include Asparagales, Malpighiales, and Poales, among others. These orders encompass a wide range of plant species, from aquatic plants to terrestrial flowering plants.",
+    "orders": [
+        {
+            "order_slug": "ginkgoales",
+            "order_desc": "Ginkgoales are an order of ancient, deciduous gymnosperms within the division Pinophyta, containing only one living species, Ginkgo biloba."
+        }
+    ]
+}

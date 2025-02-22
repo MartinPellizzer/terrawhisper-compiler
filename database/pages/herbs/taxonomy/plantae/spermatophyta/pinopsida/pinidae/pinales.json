@@ -1,1 +1,43 @@
-{"title": "pinales", "lastmod": "2025-2-10"}
+{
+    "title": "pinales",
+    "lastmod": "2025-2-10",
+    "intro": "The pinales rank is an order of plants that consists of coniferous trees and shrubs, characterized by needle-like or scale-like leaves, and cone-like reproductive structures. The pinales order includes families such as Pinaceae, Podocarpaceae, and Taxaceae. However, other examples of families that belong to the pinales order include Taxodiaceae, Araucariaceae, and Cephalotaxaceae, but not orchidaceae, euphorbiaceae, cyperaceae which are part of other orders: asparagales, sapindales and poales respectively. The pinales order is a distinct group within the division Pinophyta, and is often considered to be one of the oldest groups of land plants.",
+    "families": [
+        {
+            "family_slug": "pinaceae",
+            "family_desc": "Pinaceae is a family of coniferous plants, commonly known as pine trees, that are characterized by needle-like leaves and cones."
+        },
+        {
+            "family_slug": "podocarpaceae",
+            "family_desc": "Podocarpaceae is a family of coniferous plants commonly known as the yellowwoods, containing about 175 species of evergreen trees and shrubs found primarily in the Southern Hemisphere."
+        },
+        {
+            "family_slug": "araucariaceae",
+            "family_desc": "Araucariaceae is a family of coniferous evergreen trees and shrubs, commonly known as the monkey puzzle trees and kauri, native to the Southern Hemisphere."
+        },
+        {
+            "family_slug": "casuarinaceae",
+            "family_desc": "Casuarinaceae is a family of flowering plants commonly known as she-oaks, consisting of about 90 species of trees and shrubs native to Australia, Asia, and the Pacific Islands."
+        },
+        {
+            "family_slug": "cupressaceae",
+            "family_desc": "Cupressaceae is a family of coniferous plants commonly known as cypress and juniper trees."
+        },
+        {
+            "family_slug": "taxaceae",
+            "family_desc": "Taxaceae is a family of coniferous plants commonly known as yews, which are characterized by their small, scale-like leaves and red, berry-like fruits."
+        },
+        {
+            "family_slug": "sciadopityaceae",
+            "family_desc": "Sciadopityaceae is a family of coniferous evergreen trees commonly known as the umbrella pines or dawn redwoods."
+        },
+        {
+            "family_slug": "ephedraceae",
+            "family_desc": "Ephedraceae is a family of gymnospermous shrubs and small trees commonly known as joint pines or conifers."
+        },
+        {
+            "family_slug": "aextoxicaceae",
+            "family_desc": "Aextoxicaceae is a family of flowering plants in the order Proteales, native to the temperate rainforests of Chile."
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "title": "alismatales",
+    "lastmod": "2025-2-22",
+    "intro": "The taxonomical rank alismatales is an order of flowering plants, specifically aquatic or semi-aquatic species, characterized by their submerged or emergent leaves and often, showy flowers. This order includes a diverse group of plants, such as water lilies and bur reeds. Examples of families within the alismatales order include the Alismataceae family, which includes water plantains, and the Hydrocharitaceae family, which includes water wisterias. Other examples include the Aponogetonaceae and the Posidoniaceae families.",
+    "families": [
+        {
+            "family_slug": "alismataceae",
+            "family_desc": "Alismataceae is a family of aquatic plants commonly known as water plants or wapato, characterized by their floating or submerged leaves and flowers."
+        },
+        {
+            "family_slug": "araceae",
+            "family_desc": "Araceae is a family of flowering plants commonly known as the arum or aroid family, characterized by their modified leaves, called spathes, which enclose and protect the inflorescence."
+        },
+        {
+            "family_slug": "potamogetonaceae",
+            "family_desc": "Potamogetonaceae is a family of aquatic plants commonly known as pondweeds, which are typically found in freshwater environments."
+        },
+        {
+            "family_slug": "hydrocharitaceae",
+            "family_desc": "Hydrocharitaceae, a family of aquatic plants commonly known as the waterweeds or frogbit family, consists of over 20 genera of flowering plants."
+        },
+        {
+            "family_slug": "philydraceae",
+            "family_desc": "Philydraceae is a family of aquatic plants commonly known as frogmouths or rainbow flowers, native to Australia and New Guinea."
+        },
+        {
+            "family_slug": "aponogetonaceae",
+            "family_desc": "Aponogetonaceae is a family of aquatic plants commonly known as water thistles or dayflower family."
+        },
+        {
+            "family_slug": "nymphaeaceae",
+            "family_desc": "Nymphaeaceae is a family of flowering plants commonly known as water lilies, characterized by their floating leaves and showy flowers."
+        },
+        {
+            "family_slug": "zosteraceae",
+            "family_desc": "Zosteraceae is a family of coastal flowering plants, commonly known as seagrasses and shoal-grasses."
+        },
+        {
+            "family_slug": "ruppiaceae",
+            "family_desc": "Ruppiaceae is a family of aquatic plants commonly known as the sea spurreys, which are primarily found in coastal areas and brackish waters."
+        },
+        {
+            "family_slug": "cabombaceae",
+            "family_desc": "Cabombaceae is a family of aquatic flowering plants that includes the water shields and the shoals of the Americas."
+        },
+        {
+            "family_slug": "butomaceae",
+            "family_desc": "Butomaceae is a family of aquatic flowering plants commonly known as waterworts."
+        },
+        {
+            "family_slug": "hydrostachyaceae",
+            "family_desc": "Hydrostachyaceae is a family of flowering plants in the order Poales, commonly known as water clubrushes."
+        },
+        {
+            "family_slug": "scheuchzeriaceae",
+            "family_desc": "Scheuchzeriaceae is a family of aquatic plants in the order Alismatales."
+        },
+        {
+            "family_slug": "maundiaceae",
+            "family_desc": "Maundiaceae is a family of flowering plants in the order Brassicales, native to tropical Africa."
+        }
+    ]
+}

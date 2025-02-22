@@ -1,1 +1,43 @@
-{"title": "ericales", "lastmod": "2025-2-10"}
+{
+    "title": "ericales",
+    "lastmod": "2025-2-10",
+    "intro": "The taxonomic rank of ericales is a clade or a group of plant families that share a common ancestor. It is an order of flowering plants that are primarily found in temperate regions. Families such as Orchidaceae, which includes orchids, Euphorbiaceae, which includes spurge and euphorbias, and Cyperaceae, which includes sedges, are all part of the ericales order. The ericales order is characterized by its diverse range of plant species and its widespread distribution across the globe.",
+    "families": [
+        {
+            "family_slug": "montiaceae",
+            "family_desc": "Montiaceae is a family of flowering plants in the order Lamiales, commonly known as the sea purslanes or sea spurreys."
+        },
+        {
+            "family_slug": "marcgraviaceae",
+            "family_desc": "Marcgraviaceae is a family of flowering plants, commonly known as lobster's-claw or memorial-flower family."
+        },
+        {
+            "family_slug": "balsaminaceae",
+            "family_desc": "Balsaminaceae is a family of flowering plants commonly known as the balsam family, which includes species such as the sensitive plant and the impatiens."
+        },
+        {
+            "family_slug": "paeoniaceae",
+            "family_desc": "Paeoniaceae is a family of flowering plants in the order Saxifragales, commonly known as peony family."
+        },
+        {
+            "family_slug": "violaceae",
+            "family_desc": "Violaceae is a family of flowering plants commonly known as pansy or violet family."
+        },
+        {
+            "family_slug": "linaceae",
+            "family_desc": "Linaceae is a family of flowering plants commonly known as flax or linseed families, which include species such as flax, hemp, and sesame."
+        },
+        {
+            "family_slug": "bruniaceae",
+            "family_desc": "Bruniaceae is a family of flowering plants in the order Bruniales, native to the Southern Hemisphere, particularly in Australia, New Zealand, and South America."
+        },
+        {
+            "family_slug": "sarraceniaceae",
+            "family_desc": "Sarraceniaceae, a family of carnivorous plants commonly known as trumpet pitchers or pitcher plants."
+        },
+        {
+            "family_slug": "macarthuriaceae",
+            "family_desc": "Macarthuriaceae is a family of flowering plants in the order Malpighiales, commonly known as the water chestnut family."
+        }
+    ]
+}

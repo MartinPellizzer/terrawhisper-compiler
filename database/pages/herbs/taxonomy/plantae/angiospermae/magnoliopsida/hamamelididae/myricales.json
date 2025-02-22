@@ -1,1 +1,11 @@
-{"title": "myricales", "lastmod": "2025-2-10"}
+{
+    "title": "myricales",
+    "lastmod": "2025-2-10",
+    "intro": "The myricales rank is an order of flowering plants, specifically a group of flowering plants that belong to the larger taxonomic category of angiosperms. It is characterized by its unique combination of characteristics, including the type of flowers and leaf structure, that distinguish it from other plant orders. The myricales order contains several families, including the Bayberry family (Myricaceae), which is the only family that belongs to this order. Other plant families that do not belong to the myricales order but are mentioned for comparison include the Orchid family (Orchidaceae), the Spurge family (Euphorbiaceae), and the Sedge family (Cyperaceae).",
+    "families": [
+        {
+            "family_slug": "cyrillaceae",
+            "family_desc": "Cyrillaceae is a family of flowering plants in the order Ericales, commonly known as fawn flowers or currant bells."
+        }
+    ]
+}

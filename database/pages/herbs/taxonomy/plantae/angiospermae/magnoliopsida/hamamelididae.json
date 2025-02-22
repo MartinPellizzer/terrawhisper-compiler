@@ -1,1 +1,35 @@
-{"title": "hamamelididae", "lastmod": "2025-2-10"}
+{
+    "title": "hamamelididae",
+    "lastmod": "2025-2-10",
+    "intro": "The rank Hamamelididae is a subfamily classification in the broader taxonomic hierarchy of plants. It represents a group of plants that share distinct characteristics and evolutionary traits. The Hamamelididae subfamily is further divided into several orders, such as Asparagales, Malpighiales, and Poales, each containing unique families of plants. This rank helps in organizing and categorizing the diversity of plant species within the Hamamelididae subfamily.",
+    "orders": [
+        {
+            "order_slug": "fagales",
+            "order_desc": "Fagales is an order of flowering plants that belongs to the class Magnoliopsida, within the phylum Magnoliophyta, and is a member of the kingdom Plantae."
+        },
+        {
+            "order_slug": "proteales",
+            "order_desc": "Proteales is an order of flowering plants that belongs to the clade known as eudicots and is a part of the subclass Rosidae within the class Magnoliopsida."
+        },
+        {
+            "order_slug": "santalales",
+            "order_desc": "Santalales is an order of flowering plants in the clade asterids, within the class Magnoliopsida, subclass Asteridae, division Magnoliophyta, and kingdom Plantae."
+        },
+        {
+            "order_slug": "betulales",
+            "order_desc": "Betulales is an order of flowering plants in the class Magnoliopsida of the subclass Rosidae in the division Magnoliophyta of the kingdom Plantae."
+        },
+        {
+            "order_slug": "juglandales",
+            "order_desc": "Juglandales are an order within the division Magnoliophyta, class Magnoliopsida, subclass Rosidae, and clade Rosid."
+        },
+        {
+            "order_slug": "myricales",
+            "order_desc": "Myricales is an order of flowering plants within the subclass Rosidae of the class Magnoliopsida, consisting of two families, Myricaceae and Comptonaceae."
+        },
+        {
+            "order_slug": "theanales",
+            "order_desc": "Theanales is an order of flowering plants in the subclass Dilleniidae, class Magnoliopsida, subclass Dilleniidae, superorder Dillenianae, and division Magnoliophyta."
+        }
+    ]
+}

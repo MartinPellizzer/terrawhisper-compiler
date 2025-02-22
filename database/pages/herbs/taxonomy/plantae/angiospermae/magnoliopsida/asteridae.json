@@ -1,1 +1,59 @@
-{"title": "asteridae", "lastmod": "2025-2-10"}
+{
+    "title": "asteridae",
+    "lastmod": "2025-2-10",
+    "intro": "The asteridae rank refers to a clade of flowering plants that includes over 80,000 species, characterized by the presence of a distinct type of flower morphology and reproductive system. This clade is a large and diverse group, encompassing a wide range of plant families. Examples of orders within the asteridae clade include Asparagales, such as the asparagus and lilies; Malpighiales, a group including plants like willows and mulberries; and Poales, which includes grasses, sedges, and rushes. The asteridae clade is a significant and complex part of the plant kingdom, with many different families and orders working together to create a diverse array of ecosystems.",
+    "orders": [
+        {
+            "order_slug": "solanales",
+            "order_desc": "Solanales is a large and diverse order of flowering plants that includes nightshades, potatoes, eggplants, and tomatoes."
+        },
+        {
+            "order_slug": "gentianales",
+            "order_desc": "Gentianales is an order of flowering plants that belongs to the clade Asterids within the class Magnoliopsida."
+        },
+        {
+            "order_slug": "boraginales",
+            "order_desc": "Boraginales is an order of flowering plants in the clade Asterids, class Magnoliopsida, subclass Asteridae, division Magnoliophyta, and kingdom Plantae."
+        },
+        {
+            "order_slug": "lamiales",
+            "order_desc": "Lamiales is an order of flowering plants that belongs to the class Magnoliopsida, subclass Asteridae, division Magnoliophyta, and kingdom Plantae."
+        },
+        {
+            "order_slug": "asterales",
+            "order_desc": "Asterales is an order of flowering plants that includes daisies, sunflowers, and other related species."
+        },
+        {
+            "order_slug": "apiales",
+            "order_desc": "Apiales belong to the kingdom Plantae, division Magnoliophyta, class Magnoliopsida, subclass Rosidae, and order Apiales."
+        },
+        {
+            "order_slug": "scrophulariales",
+            "order_desc": "Scrophulariales is an order of flowering plants in the clade Asterids, belonging to the class Magnoliopsida, subclass Asteridae, and division Magnoliophyta."
+        },
+        {
+            "order_slug": "celastrales",
+            "order_desc": "Celastrales is an order of flowering plants that belongs to the clade Rosid and is classified within the subclass Rosidae of the class Magnoliopsida in the kingdom Plantae."
+        },
+        {
+            "order_slug": "hydrostachyales",
+            "order_desc": "Hydrostachyales belongs to the class of monocotyledons, specifically within the family of flowering plants, and further classified into the order of flowering plants."
+        },
+        {
+            "order_slug": "escalloniales",
+            "order_desc": "Escalloniales is an order of flowering plants within the subclass Asteridae of the class Magnoliopsida in the kingdom Plantae."
+        },
+        {
+            "order_slug": "hydroleales",
+            "order_desc": "Hydroleales is an order of flowering plants that belongs to the subclass Nymphaeidae, class Magnoliopsida, subclass Asteridae is incorrect it is actually, subclass Nymphaeidae, subclass Asteridae is incorrect, class Magnoliopsida is correct however subclass is  Nymphaeidae,  subclass is incorrect it is actually subclass Magnoliidae, order is Hydroleales, is a subclass of Magnoliidae, Magnoliidae is a subclass of  class Magnoliopsida, which is a class of  subclass Nymphaeidae is incorrect, the correct  classification is  class Magnoliopsida, subclass  Magnoliidae, order is Hydroleales, Magnoliidae is a subclass of  class Magnoliopsida."
+        },
+        {
+            "order_slug": "gunnerales",
+            "order_desc": "Gunnerales is an order of flowering plants in the subclass Gunneridae of the class Magnoliopsida."
+        },
+        {
+            "order_slug": "gesneriales",
+            "order_desc": "Gesneriales is an order of flowering plants in the subclass Asteridae, class Magnoliopsida, subclass Magnoliidae, class Magnoliopsida, division Magnoliophyta, and kingdom Plantae."
+        }
+    ]
+}

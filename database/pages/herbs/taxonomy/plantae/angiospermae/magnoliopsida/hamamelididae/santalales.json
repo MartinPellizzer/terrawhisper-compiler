@@ -1,0 +1,43 @@
+{
+    "title": "santalales",
+    "lastmod": "2025-2-22",
+    "intro": "The rank santalales is an order of flowering plants, consisting of families with distinctive leaf and stem characteristics, often featuring aromatic foliage. This order includes families such as Santalaceae, which is the type family, as well as Olacaceae and Loranthaceae. Santalales also encompasses the family Grubbiaceae, which is part of a distinct group of flowering plants known as the Santalales. Other examples of families within the order santalales are the Thymelaeaceae and the Icacinaceae and, of course, the aforementioned Santalaceae.",
+    "families": [
+        {
+            "family_slug": "ericaceae",
+            "family_desc": "Ericaceae is a family of flowering plants commonly known as heath or heather plants, which includes over 4,000 species of shrubs and small trees found in heathlands, moors, and rocky areas worldwide."
+        },
+        {
+            "family_slug": "loranthaceae",
+            "family_desc": "Loranthaceae is a family of flowering plants commonly known as mistletoes, characterized by hemiparasitic or semi-parasitic habits, with most species found in tropical and subtropical regions worldwide."
+        },
+        {
+            "family_slug": "santalaceae",
+            "family_desc": "Santalaceae is a family of flowering plants commonly known as the sandalwood or sarsaparilla family, which includes about 50 genera and over 1,000 species."
+        },
+        {
+            "family_slug": "nepenthaceae",
+            "family_desc": "Nepenthaceae is a family of carnivorous plants commonly known as pitcher plants, which obtain nutrients by capturing and digesting insects."
+        },
+        {
+            "family_slug": "schoepfiaceae",
+            "family_desc": "Schoepfiaceae is a small family of flowering plants in the order Santalales, commonly known as mistletoe and dodder families."
+        },
+        {
+            "family_slug": "iteaceae",
+            "family_desc": "Iteaceae is a family of flowering plants commonly known as the ginseng or wintergreen family."
+        },
+        {
+            "family_slug": "roridulaceae",
+            "family_desc": "Roridulaceae is a family of flowering plants commonly known as the riddle leaf or netveined bellflower family, native to Australia and New Zealand."
+        },
+        {
+            "family_slug": "sarcobataceae",
+            "family_desc": "Sarcobataceae is a family of succulent plants, commonly known as pigface or ice plant, native to southern Africa and Australia."
+        },
+        {
+            "family_slug": "sladeniaceae",
+            "family_desc": "Sladeniaceae is a family of flowering plants in the order Ericales, commonly known as the heath or heather family."
+        }
+    ]
+}

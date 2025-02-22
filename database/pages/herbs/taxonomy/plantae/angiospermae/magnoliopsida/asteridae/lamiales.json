@@ -1,1 +1,111 @@
-{"title": "lamiales", "lastmod": "2025-2-10"}
+{
+    "title": "lamiales",
+    "lastmod": "2025-2-10",
+    "intro": "The Lamiales rank is an order of flowering plants, commonly referred to as the lip flower order, which comprises approximately 24,000 species. This order is characterized by flowers with a distinct lower lip, often zygomorphic in shape, and is found in a wide range of habitats worldwide. The Lamiales order includes several notable families such as Orchidaceae, which contains over 30,000 species of orchids, and Euphorbiaceae, the spurge family. Additionally, the Lamiales order also encompasses the family Cyperaceae, commonly known as the sedge family, which comprises over 5,000 species.",
+    "families": [
+        {
+            "family_slug": "primulaceae",
+            "family_desc": "Primulaceae is a family of flowering plants commonly known as the primrose or primula family, which includes approximately 500 species of herbs and low-growing shrubs."
+        },
+        {
+            "family_slug": "lamiaceae",
+            "family_desc": "Lamiaceae is a family of flowering plants commonly known as mint or deadnettle family, characterized by their square stems and fragrant leaves."
+        },
+        {
+            "family_slug": "plantaginaceae",
+            "family_desc": "Plantaginaceae is a family of flowering plants commonly known as the snapdragon or self-heal family, comprising over 200 genera and approximately 6,000 species."
+        },
+        {
+            "family_slug": "scrophulariaceae",
+            "family_desc": "Scrophulariaceae is a family of flowering plants commonly known as figworts and snapdragons, characterized by their five-petaled flowers and often hairy leaves."
+        },
+        {
+            "family_slug": "gesneriaceae",
+            "family_desc": "Gesneriaceae is a family of flowering plants commonly known as the African violet family, which comprises over 3,000 species of epiphytes and terrestrial plants."
+        },
+        {
+            "family_slug": "piperaceae",
+            "family_desc": "Piperaceae is a family of flowering plants commonly known as pepper plants, including species such as black pepper and kava."
+        },
+        {
+            "family_slug": "acanthaceae",
+            "family_desc": "Acanthaceae is a family of flowering plants commonly known as the acanthus or thistle family, characterized by their showy flowers and often prickly leaves."
+        },
+        {
+            "family_slug": "linderniaceae",
+            "family_desc": "Linderniaceae is a family of flowering plants in the order Lamiales, commonly known as toadflax or lizard tails."
+        },
+        {
+            "family_slug": "oleaceae",
+            "family_desc": "Oleaceae is a family of flowering plants commonly known as the olive family, which includes over 600 species of trees, shrubs, and climbers."
+        },
+        {
+            "family_slug": "stilbaceae",
+            "family_desc": "Stilbaceae, commonly known as the Diasteloideae or Cape stars, is a family of flowering plants in the order Lamiales."
+        },
+        {
+            "family_slug": "verbenaceae",
+            "family_desc": "Verbenaceae is a family of flowering plants commonly known as the verbena or vervain family, consisting of around 267 genera and over 2,300 species."
+        },
+        {
+            "family_slug": "calceolariaceae",
+            "family_desc": "Calceolariaceae is a family of flowering plants in the order Lamiales, commonly known as the bellflower family."
+        },
+        {
+            "family_slug": "styracaceae",
+            "family_desc": "Styracaceae is a family of flowering plants commonly known as the snowbell family, consisting of about 100 species."
+        },
+        {
+            "family_slug": "lentibulariaceae",
+            "family_desc": "Lentibulariaceae is a family of carnivorous plants commonly known as bladderworts, that are native to bogs and wetlands worldwide."
+        },
+        {
+            "family_slug": "ulmaceae",
+            "family_desc": "Ulmaceae is a family of flowering plants commonly known as elm trees, which include species such as the American elm and English elm."
+        },
+        {
+            "family_slug": "erythroxylaceae",
+            "family_desc": "Erythroxylaceae is a family of flowering plants commonly known as coca or coca family."
+        },
+        {
+            "family_slug": "gelsemiaceae",
+            "family_desc": "Gelsemiaceae is a family of flowering plants in the order Gentianales, native to Asia and eastern North America, commonly known as the Gelsemium family."
+        },
+        {
+            "family_slug": "lanariaceae",
+            "family_desc": "Lanariaceae is a family of flowering plants in the order Asterales, commonly known as the Lanaria or Torch Lilies."
+        },
+        {
+            "family_slug": "metteniusaceae",
+            "family_desc": "Metteniusaceae is a family of flowering plants in the order Santalales, characterized by parasitic or hemiparasitic habits."
+        },
+        {
+            "family_slug": "schlegeliaceae",
+            "family_desc": "Schlegeliaceae is a family of flowering plants in the order Lamiales, comprising about 20 species of tropical plants with showy inflorescences."
+        },
+        {
+            "family_slug": "thomandersiaceae",
+            "family_desc": "Thomandersiaceae is a small family of flowering plants in the order Zingiberales, native to tropical Asia."
+        },
+        {
+            "family_slug": "paulowniaceae",
+            "family_desc": "Paulowniaceae is a family of flowering plants in the order Lamiales, commonly known as the foxglove family."
+        },
+        {
+            "family_slug": "rousseaceae",
+            "family_desc": "Rousseaceae is a small family of flowering plants that are commonly known as the paper bush family, consisting of 7 genera and approximately 25 species native to southern South America and the Falkland Islands."
+        },
+        {
+            "family_slug": "himantandraceae",
+            "family_desc": "Himantandraceae is a family of flowering plants in the order Magnoliales, native to tropical Africa and Southeast Asia."
+        },
+        {
+            "family_slug": "austrobaileyaceae",
+            "family_desc": "Austrobaileyaceae is a family of flowering plants that is placed within the order Austrobaileyales, characterized by its unique floral morphology and limited distribution in tropical Asia and northern Australia."
+        },
+        {
+            "family_slug": "byblidaceae",
+            "family_desc": "Byblidaceae is a small family of carnivorous plants that are endemic to Australia and New Guinea, commonly known as rainbow bee-eaters or bee orchids."
+        }
+    ]
+}

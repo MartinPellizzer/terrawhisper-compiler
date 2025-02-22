@@ -1,1 +1,11 @@
-{"title": "pezizomycetes", "lastmod": "2025-2-10"}
+{
+    "title": "pezizomycetes",
+    "lastmod": "2025-2-10",
+    "intro": "The rank pezizomycetes refers to a group of fungi that belongs to a specific class within the fungal kingdom. It is a class of fungi that includes ascomycetes with perithecial or pseudothecial ascocarps. The pezizomycetes class is divided into several orders, including the Pezizales, which includes species such as the morel mushroom (Morchella spp.) and the common earthball (Scleroderma citrinum). Other classes within the fungal kingdom include commelinidae, rosidae, and asteridae, which are actually divisions within the kingdom plantae, not the fungal kingdom.",
+    "subclasses": [
+        {
+            "subclass_slug": "pezizomycetidae",
+            "subclass_desc": "Pezizomycetidae is a subclass of fungi within the division Ascomycota."
+        }
+    ]
+}

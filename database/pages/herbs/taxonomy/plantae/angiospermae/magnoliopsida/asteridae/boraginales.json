@@ -1,1 +1,27 @@
-{"title": "boraginales", "lastmod": "2025-2-10"}
+{
+    "title": "boraginales",
+    "lastmod": "2025-2-10",
+    "intro": "The Boraginales rank, also known as the Boraginales order, is a taxonomic division of flowering plants characterized by its diverse range of species and distinctive floral features. This order includes approximately 2,000 species of plants, with examples of families such as Boraginaceae, representing the borage and forget-me-not families. Other notable families within this order include Ehretiaceae and Heliotropiaceae. The Boraginales order is also home to the Lamiaceae family, commonly known as mint and basil, and the Hydrophyllaceae family, which includes the waterleaf and the brooklines.",
+    "families": [
+        {
+            "family_slug": "boraginaceae",
+            "family_desc": "Boraginaceae is a family of flowering plants commonly known as borage or forget-me-nots, which includes over 1,900 species of annuals and perennials."
+        },
+        {
+            "family_slug": "degeneriaceae",
+            "family_desc": "Degeneriaceae is a family of flowering plants in the order Degeneriales, commonly found in the tropical forests of New Caledonia."
+        },
+        {
+            "family_slug": "stegnospermataceae",
+            "family_desc": "Stegnospermataceae is a family of flowering plants, specifically a group of small trees and shrubs native to New Caledonia and Australia."
+        },
+        {
+            "family_slug": "asteropeiaceae",
+            "family_desc": "Asteropeiaceae is a small family of flowering plants, commonly known as the prickly currant family."
+        },
+        {
+            "family_slug": "halophytaceae",
+            "family_desc": "Halophytaceae is a family of flowering plants commonly known as sea purslanes, which are typically succulent and found in salt-tolerant environments."
+        }
+    ]
+}

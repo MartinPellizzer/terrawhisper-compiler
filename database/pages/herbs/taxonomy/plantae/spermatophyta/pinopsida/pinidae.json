@@ -1,1 +1,19 @@
-{"title": "pinidae", "lastmod": "2025-2-10"}
+{
+    "title": "pinidae",
+    "lastmod": "2025-2-10",
+    "intro": "The rank Pinidae is a subgroup or a clade within the plant kingdom, referring to a group of plants that share certain characteristics and are often closely related. It is often used as an intermediate taxonomic rank between the order and family levels. Examples of orders within the Pinidae rank include the Asparagales, Malpighiales, and Poales, which are groups of flowering plants that exhibit distinct features and relationships. The Pinidae rank is not universally recognized and its use may vary depending on the plant classification system or source.",
+    "orders": [
+        {
+            "order_slug": "pinales",
+            "order_desc": "Pinales is a class of coniferous plants that belongs to the division Pinophyta, which is part of the kingdom Plantae."
+        },
+        {
+            "order_slug": "cephalotaxales",
+            "order_desc": "Cephalotaxales belongs to the kingdom Plantae, class Magnoliopsida, order Cephalotaxales, family Podocarpaceae, order Cephalotaxales, genus Cephalotaxus, and species Cephalotaxus."
+        },
+        {
+            "order_slug": "rhamnales",
+            "order_desc": "Rhamnales, an order of flowering plants, is classified within the clade Asterids, which falls under the larger group of Angiosperms within the kingdom Plantae."
+        }
+    ]
+}

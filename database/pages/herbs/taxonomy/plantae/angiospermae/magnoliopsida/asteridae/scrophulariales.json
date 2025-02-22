@@ -1,1 +1,15 @@
-{"title": "scrophulariales", "lastmod": "2025-2-10"}
+{
+    "title": "scrophulariales",
+    "lastmod": "2025-2-10",
+    "intro": "The rank Scrophulariales is an order of flowering plants that includes families with similar characteristics and evolutionary relationships. This order is typically defined as an assemblage of plant families that are united by shared morphological, anatomical, and molecular traits. Notable families within the Scrophulariales order include the Scrophulariaceae family, which includes foxglove and toadflax, among others, as well as the Orobanchaceae family, which includes broomrape. Other examples of families within this order include the Plantaginaceae family, which includes plantain, and the Pediculariaceae family, however the families orchidaceae, euphorbiaceae and cyperaceae, which were mentioned are not part of the scrophulariales order but rather belong to different orders like Asparagales for orchidaceae and Brassicales for Euphorbiaceae and Cyperales for cyperaceae.",
+    "families": [
+        {
+            "family_slug": "orobanchaceae",
+            "family_desc": "Orobanchaceae is a family of flowering plants commonly known as broomrapes and milkworts, which are parasitic or hemiparasitic plants that obtain their nutrients by connecting to the roots of other plants."
+        },
+        {
+            "family_slug": "martyniaceae",
+            "family_desc": "Martyniaceae is a family of flowering plants in the order Lamiales, commonly known as the blue phlox or bearded-tongue family."
+        }
+    ]
+}

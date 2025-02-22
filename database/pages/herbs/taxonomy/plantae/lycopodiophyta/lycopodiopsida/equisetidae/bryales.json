@@ -1,0 +1,15 @@
+{
+    "title": "bryales",
+    "lastmod": "2025-2-22",
+    "intro": "Bryales is a rank of plants within the taxonomic classification, specifically referring to a suborder of mosses characterized by unisexual or bisexual perichaetia. This group includes a diverse range of moss species. Some examples of families within the bryales suborder include the Hypopterygiaceae, Bryaceae, and Amblystegiaceae, however some sources also include the Cyperaceae family, however more commonly known to be a sedge family, which is actually an example of a family within a different suborder called sedge-like mosses, however some of these mosses also have orchid-like features and are therefore part of the bryales suborder and the orchidaceae is actually an example of a flowering family not a bryales family. The Euphorbiaceae family, which is also a flowering plant family.",
+    "families": [
+        {
+            "family_slug": "equisetaceae",
+            "family_desc": "Equisetaceae is a family of vascular plants commonly known as horsetails, characterized by their distinctive jointed stems and whorled leaves."
+        },
+        {
+            "family_slug": "cytinaceae",
+            "family_desc": "Cytinaceae is a family of flowering plants, commonly known as bladderworts or rainbow plants, that are characterized by their unique bladder-like traps used for capturing and digesting small aquatic organisms."
+        }
+    ]
+}

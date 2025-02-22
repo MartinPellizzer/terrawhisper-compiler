@@ -24,13 +24,17 @@ vault = '/home/ubuntu/vault'
 website_folderpath = 'website-2'
 
 checkpoint_filepath = f'{vault}/stable-diffusion/checkpoints/xl/juggernautXL_juggXIByRundiffusion.safetensors'
-pipe = StableDiffusionXLPipeline.from_single_file(
-    checkpoint_filepath, 
-    torch_dtype=torch.float16, 
-    use_safetensors=True, 
-    variant="fp16"
-).to('cuda')
-pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
+pipe = None
+def pipe_init():
+    global pipe
+    if pipe == None:
+        pipe = StableDiffusionXLPipeline.from_single_file(
+            checkpoint_filepath, 
+            torch_dtype=torch.float16, 
+            use_safetensors=True, 
+            variant="fp16"
+        ).to('cuda')
+        pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
 
 def gen_images_backup():
     vault = '/home/ubuntu/vault'
@@ -545,7 +549,7 @@ def home_images_static():
         image = img_resize(image, w=768, h=768)
         image.save(output_filepath)
 
-home_images_static()
+# home_images_static()
 
 ##################################################################################
 # ;equipments
@@ -572,6 +576,7 @@ def p_equipments_intro():
             text, watermark 
         '''
         print(prompt)
+        pipe_init()
         image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
         image = img_resize(image, w=768, h=768)
         image.save(output_filepath)
@@ -596,9 +601,216 @@ def a_equipments_intro():
                 text, watermark 
             '''
             print(prompt)
+            pipe_init()
             image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
             image = img_resize(image, w=768, h=768)
             image.save(tmp_filepath)
 
-p_equipments_intro()
-a_equipments_intro()
+# p_equipments_intro()
+# a_equipments_intro()
+
+def get_popular_herbs_from_teas_articles():
+    output = []
+    ailments = csv_read_rows_to_json('systems-organs-ailments.csv')
+    for ailment_i, ailment in enumerate(ailments):
+        system_slug = ailment['system_slug']
+        ailment_slug = ailment['ailment_slug']
+        url = f'remedies/{system_slug}-system/{ailment_slug}/teas'
+        json_filepath = f'database/json/{url}.json'
+        if os.path.exists(json_filepath):
+            data = json_read(json_filepath, create=True)
+            for obj in data['remedies']:
+                found = False
+                for item in output:
+                    if obj['herb_name_scientific'] == item['herb_name_scientific']:
+                        item['herb_total_score'] += obj['herb_total_score']
+                        found = True
+                        break
+                if not found:
+                    output.append({
+                        'herb_name_scientific': obj['herb_name_scientific'],
+                        'herb_total_score': obj['herb_total_score'],
+                    })
+    output = sorted(output, key=lambda x: x['herb_total_score'], reverse=True)
+    return output
+
+def get_actions():
+    popular_herbs = get_popular_herbs_from_teas_articles()
+    categories = []
+    for herb_i, herb in enumerate(popular_herbs[:]):
+        herb_name_scientific = herb['herb_name_scientific']
+        herb_slug = herb_name_scientific.strip().lower().replace(' ', '-').replace('.', '')
+        url = f'herbs/{herb_slug}'
+        title = herb_name_scientific
+        json_filepath = f'database/json/{url}.json'
+        html_filepath = f'{website_folderpath}/{url}.html'
+        if not os.path.exists(f'{website_folderpath}/herbs'): os.mkdir(f'{website_folderpath}/herbs')
+        data = json_read(json_filepath, create=True)
+        try: category_name_todo = data['category_action']
+        except: continue
+        found = False
+        for category in categories:
+            category_name_done = category['name']
+            if category_name_todo == category_name_done:
+                category['herbs'].append(herb_name_scientific)
+                found = True
+                break
+        if not found:
+            categories.append({
+                'name': category_name_todo,
+                'herbs': [herb_name_scientific]
+            })
+    return categories
+
+def herbs_actions():
+    actions_names = [action['name'] for action in get_actions()]
+    image_w = 768
+    image_h = 768
+    for action_name in actions_names:
+        action_name = action_name.split('/')[0]
+        action_slug = action_name.lower().strip().replace(' ', '-')
+        img = Image.new(mode="RGB", size=(image_w, image_h), color='#000000')
+        draw = ImageDraw.Draw(img)
+        text = f'{action_name}'.upper()
+        title_font_size = 48
+        font_family, font_weight = 'Lato', 'Bold'
+        font_path = f"assets/fonts/{font_family}/{font_family}-{font_weight}.ttf"
+        font = ImageFont.truetype(font_path, title_font_size)
+        _, _, text_w, text_h = font.getbbox(text)
+        x = image_w//2 - text_w//2
+        y = image_h//2 - text_h//2
+        draw.text((x, y), text, '#ffffff', font=font)
+        img.save(f'{website_folderpath}/images/herbs-actions/{action_slug}.jpg', format='JPEG', subsampling=0, quality=70)
+
+def herbs_taxonomy_kingdoms_animalia():
+    ast_filepath = f'assets/images/taxonomy/animalia.jpg'
+    tmp_filepath = f'assets/images/tmp/animalia.jpg'
+    if not os.path.exists(ast_filepath):
+    # if True:
+        prompt = f'''
+            close-up of fox,
+        '''
+        prompt += prompt_style
+        negative_prompt = f'''
+            text, watermark 
+        '''
+        print(prompt)
+        pipe_init()
+        image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+        image = img_resize(image, w=768, h=768)
+        image.save(tmp_filepath)
+
+def herbs_taxonomy_kingdoms_plantae():
+    out_filepath = f'{website_folderpath}/images/taxonomy/plantae.jpg'
+    ast_filepath = f'assets/images/taxonomy/plantae.jpg'
+    tmp_filepath = f'assets/images/tmp/plantae.jpg'
+    tmp_filepath = ast_filepath
+    # if not os.path.exists(ast_filepath):
+    if True:
+        prompt = f'''
+            close-up of plant,
+        '''
+        prompt += prompt_style
+        negative_prompt = f'''
+            text, watermark 
+        '''
+        print(prompt)
+        pipe_init()
+        image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+        image = img_resize(image, w=768, h=768)
+        image.save(tmp_filepath)
+        image.save(out_filepath)
+
+def herbs_taxonomy_kingdoms_fungi():
+    out_filepath = f'{website_folderpath}/images/taxonomy/fungi.jpg'
+    ast_filepath = f'assets/images/taxonomy/fungi.jpg'
+    tmp_filepath = f'assets/images/tmp/fungi.jpg'
+    tmp_filepath = ast_filepath
+    # if not os.path.exists(ast_filepath):
+    if True:
+        prompt = f'''
+            close-up of fungi,
+        '''
+        prompt += prompt_style
+        negative_prompt = f'''
+            text, watermark 
+        '''
+        print(prompt)
+        pipe_init()
+        image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+        image = img_resize(image, w=768, h=768)
+        image.save(tmp_filepath)
+        image.save(out_filepath)
+
+def herbs_taxonomy_kingdoms_protista():
+    out_filepath = f'{website_folderpath}/images/taxonomy/protista.jpg'
+    ast_filepath = f'assets/images/taxonomy/protista.jpg'
+    tmp_filepath = f'assets/images/tmp/protista.jpg'
+    tmp_filepath = ast_filepath
+    # if not os.path.exists(ast_filepath):
+    if True:
+        prompt = f'''
+            close-up of protista,
+        '''
+        prompt += prompt_style
+        negative_prompt = f'''
+            text, watermark 
+        '''
+        print(prompt)
+        pipe_init()
+        image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+        image = img_resize(image, w=768, h=768)
+        image.save(tmp_filepath)
+        image.save(out_filepath)
+
+def herbs_taxonomy_kingdoms_eubacteria():
+    out_filepath = f'{website_folderpath}/images/taxonomy/eubacteria.jpg'
+    ast_filepath = f'assets/images/taxonomy/eubacteria.jpg'
+    tmp_filepath = f'assets/images/tmp/eubacteria.jpg'
+    tmp_filepath = ast_filepath
+    # if not os.path.exists(ast_filepath):
+    if True:
+        prompt = f'''
+            close-up of eubacteria,
+            high resolution,
+        '''
+        prompt += prompt_style
+        negative_prompt = f'''
+            text, watermark 
+        '''
+        print(prompt)
+        pipe_init()
+        image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+        image = img_resize(image, w=768, h=768)
+        image.save(tmp_filepath)
+        image.save(out_filepath)
+
+def herbs_taxonomy_kingdoms_archaebacteria():
+    out_filepath = f'{website_folderpath}/images/taxonomy/archaebacteria.jpg'
+    ast_filepath = f'assets/images/taxonomy/archaebacteria.jpg'
+    tmp_filepath = f'assets/images/tmp/archaebacteria.jpg'
+    tmp_filepath = ast_filepath
+    # if not os.path.exists(ast_filepath):
+    if True:
+        prompt = f'''
+            close-up of archaebacteria,
+            high resolution,
+        '''
+        prompt += prompt_style
+        negative_prompt = f'''
+            text, watermark 
+        '''
+        print(prompt)
+        pipe_init()
+        image = pipe(prompt=prompt, negative_prompt=negative_prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+        image = img_resize(image, w=768, h=768)
+        image.save(tmp_filepath)
+        image.save(out_filepath)
+
+# herbs_actions()
+# herbs_taxonomy_kingdoms_animalia()
+# herbs_taxonomy_kingdoms_plantae()
+# herbs_taxonomy_kingdoms_fungi()
+# herbs_taxonomy_kingdoms_protista()
+# herbs_taxonomy_kingdoms_eubacteria()
+# herbs_taxonomy_kingdoms_archaebacteria()

@@ -1,1 +1,11 @@
-{"title": "ginkgoales", "lastmod": "2025-2-10"}
+{
+    "title": "ginkgoales",
+    "lastmod": "2025-2-10",
+    "intro": "The Ginkgoales is a taxonomical rank that refers to an order of plants, specifically a monotypic order that consists of a single family and a single genus with a single species. The Ginkgoales order is characterized by the presence of deciduous trees with unique leaf morphology and reproductive structures. Examples of families within the Ginkgoales order include the Ginkgoaceae family, which comprises the genus Ginkgo, as well as no other families. Other examples of orders that include multiple families are the Asparagales (orchidaceae, asparagaceae, agapanthaceae), the Malpighiales (euphorbiaceae, clusiaceae, ochnaceae), and the Poales (cyperaceae, poaceae, juncaceae).",
+    "families": [
+        {
+            "family_slug": "ginkgoaceae",
+            "family_desc": "Ginkgoaceae is a family of plants that consists of a single living species, the ginkgo or maidenhair tree (Ginkgo biloba), native to China."
+        }
+    ]
+}

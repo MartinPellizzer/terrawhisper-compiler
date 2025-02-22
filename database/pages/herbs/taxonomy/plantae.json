@@ -1,1 +1,43 @@
-{"title": "plantae", "lastmod": "2025-2-10"}
+{
+    "title": "plantae",
+    "lastmod": "2025-2-10",
+    "divisions": [
+        {
+            "division_slug": "angiospermae",
+            "division_desc": "Angiospermae refers to a group of flowering plants that produce seeds enclosed within an ovary."
+        },
+        {
+            "division_slug": "pteridophyta",
+            "division_desc": "Pteridophyta is a division of vascular plants that includes ferns and their relatives, characterized by the presence of true leaves and vascular tissues."
+        },
+        {
+            "division_slug": "marchantiophyta",
+            "division_desc": "Marchantiophyta is a division of non-vascular, mostly small to medium-sized plants commonly known as liverworts."
+        },
+        {
+            "division_slug": "spermatophyta",
+            "division_desc": "Spermatophyta is a division of the taxonomical classification of plants that includes flowering plants, conifers, and other seed-producing vascular plants."
+        },
+        {
+            "division_slug": "lycopodiophyta",
+            "division_desc": "Lycopodiophyta is a division of non-vascular, vascular plants that belong to the group known as the lycopods, often referred to as club mosses."
+        },
+        {
+            "division_slug": "pinophyta",
+            "division_desc": "Pinophyta is a division of seed plants that includes conifers, characterized by needle-like or scale-like leaves and cones that produce seeds."
+        },
+        {
+            "division_slug": "chlorophyta",
+            "division_desc": "Chlorophyta is a division of green algae that is characterized by the presence of chloroplasts and the ability to photosynthesize."
+        },
+        {
+            "division_slug": "bryophyta",
+            "division_desc": "Bryophyta is a division of non-vascular, small plants that includes mosses and liverworts."
+        },
+        {
+            "division_slug": "ascomycota",
+            "division_desc": "Ascomycota is a division of fungi that includes mushrooms, molds, and yeasts, characterized by the production of ascospores within a sac-like structure called an ascus."
+        }
+    ],
+    "intro": "The Plantae kingdom, also known as the Plantae, is a taxonomical rank that comprises all eukaryotic, photosynthetic organisms commonly known as plants. This kingdom includes a diverse range of plant species, from flowering plants to mosses and ferns, that are capable of photosynthesis and typically have cell walls made of cellulose. Examples of divisions within the Plantae kingdom include Angiospermophyta (flowering plants), Pteridophyta (ferns), Marchantiophyta (liverworts), Spermatophyta (seed-producing plants), Lycopodiophyta (club mosses), Pinophyta (conifers), Chlorophyta (green algae), Bryophyta (mosses), and Ascomycota is actually a division of the fungus kingdom, not the plant kingdom."
+}

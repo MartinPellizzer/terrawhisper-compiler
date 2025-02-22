@@ -1,1 +1,15 @@
-{"title": "hydrostachyales", "lastmod": "2025-2-10"}
+{
+    "title": "hydrostachyales",
+    "lastmod": "2025-2-10",
+    "intro": "Hydrostachyales is an order of flowering plants, typically found in aquatic environments, characterized by their adaptation to wet conditions and often featuring long, slender stems and small, scale-like leaves. This order includes families such as the Hydrostachyaceae, which are often found in tropical and subtropical regions. Other families within this order include Cyperaceae, known for their sedge-like plants, and Orchidaceae, one of the largest and most diverse families of flowering plants. Euphorbiaceae, a family known for its spurge plants, also belongs to the Hydrostachyales order.",
+    "families": [
+        {
+            "family_slug": "vahliaceae",
+            "family_desc": "Vahliaceae is a family of flowering plants in the order Malpighiales, commonly known as the vahlia family."
+        },
+        {
+            "family_slug": "hydatellaceae",
+            "family_desc": "Hydatellaceae is a family of aquatic, parasitic flowering plants that are closely related to the water lilies."
+        }
+    ]
+}

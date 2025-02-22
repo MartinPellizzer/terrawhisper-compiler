@@ -1,1 +1,15 @@
-{"title": "lycopodiales", "lastmod": "2025-2-10"}
+{
+    "title": "lycopodiales",
+    "lastmod": "2025-2-10",
+    "intro": "The Lycopodiales is a taxonomic order of plants, specifically a group of vascular plants that belong to the group of club mosses. It is characterized by its simple, unbranched axes and sporangia that are often clustered at the tips of branches. The Lycopodiales order includes families such as Selaginellaceae, but not the given examples - orchidaceae (belonging to Asparagales), euphorbiaceae (belonging to Malpighiales), cyperaceae (belonging to Poales). Examples of plants within this order include the spikemosses and the ground pines.",
+    "families": [
+        {
+            "family_slug": "lycopodiaceae",
+            "family_desc": "Lycopodiaceae is a family of vascular plants that belong to the division Lycopodiophyta, commonly known as club mosses."
+        },
+        {
+            "family_slug": "saccolomataceae",
+            "family_desc": "Saccolomataceae is a family of flowering plants in the order Celastrales, commonly known as the cupped cherry or blueberry family."
+        }
+    ]
+}

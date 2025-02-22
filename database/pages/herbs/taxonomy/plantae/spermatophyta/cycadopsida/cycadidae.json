@@ -1,1 +1,11 @@
-{"title": "cycadidae", "lastmod": "2025-2-10"}
+{
+    "title": "cycadidae",
+    "lastmod": "2025-2-10",
+    "intro": "The rank Cycadales, also known as Cycadidae, refers to a group of seed plants that have needle-like or scale-like leaves, and are often characterized by their palm-like or conifer-like appearance. The Cycadidae rank is a distinct classification of plants that have been around for over 200 million years and are often found in tropical and subtropical regions. Examples of orders within the Cycadidae rank include Cycadales, which is the order that includes the cycads themselves, as well as other orders such as Asparagales, Malpighiales, and Poales, which are more commonly associated with other types of plants like asparagus, willows, and grasses. However, it's worth noting that the term Cycadidae is not as commonly used as Cycadales in the classification of these plants.",
+    "orders": [
+        {
+            "order_slug": "cycadales",
+            "order_desc": "Cycadales are an order of gymnosperm plants within the class Cycadopsida and division Cycadophyta."
+        }
+    ]
+}

@@ -1,1 +1,15 @@
-{"title": "magnoliales", "lastmod": "2025-2-10"}
+{
+    "title": "magnoliales",
+    "lastmod": "2025-2-10",
+    "intro": "The magnoliales rank is an order of flowering plants, characterized by a distinct arrangement of stamens and a three-lobed anther. This order includes a diverse range of families, such as the Orchidaceae, known for their showy and often fragrant flowers. The Euphorbiaceae, a family of plants commonly found in tropical and subtropical regions, also falls under the magnoliales order. Additionally, the Cyperaceae, a family of sedges and rushes, is another example of a family within this order.",
+    "families": [
+        {
+            "family_slug": "annonaceae",
+            "family_desc": "Annonaceae is a family of flowering plants commonly known as custard apple or soursop family, consisting of over 130 genera and more than 2,000 species."
+        },
+        {
+            "family_slug": "myristicaceae",
+            "family_desc": "Myristicaceae is a family of flowering plants commonly known as the nutmeg or myristica family, consisting of 100 species of evergreen trees and shrubs."
+        }
+    ]
+}

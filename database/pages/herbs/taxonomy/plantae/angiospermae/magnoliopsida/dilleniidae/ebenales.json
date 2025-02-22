@@ -1,1 +1,15 @@
-{"title": "ebenales", "lastmod": "2025-2-10"}
+{
+    "title": "ebenales",
+    "lastmod": "2025-2-10",
+    "intro": "The rank ebenales is a taxonomic grouping that refers to a suborder of flowering plants, often associated with the orders of the Magnoliids and the Austrobaileyales. It is characterized by plants that typically have flowers with a three- or four-lobed calyx and a three- or four-lobed corolla. Examples of families within the ebenales rank include the Orchidaceae, which comprises orchids, the Euphorbiaceae, which includes spurge and poinsettia, and the Cyperaceae, which includes sedges and rushes. The ebenales rank is primarily found in tropical and subtropical regions, where it often represents a distinct lineage of flowering plant evolution.",
+    "families": [
+        {
+            "family_slug": "sapotaceae",
+            "family_desc": "Sapotaceae is a family of flowering plants commonly known as sapote or soapberry, native to tropical and subtropical regions around the world."
+        },
+        {
+            "family_slug": "ebenaceae",
+            "family_desc": "Ebenaceae is a family of flowering plants, commonly known as the persoonia family, that are endemic to Australia and New Zealand."
+        }
+    ]
+}

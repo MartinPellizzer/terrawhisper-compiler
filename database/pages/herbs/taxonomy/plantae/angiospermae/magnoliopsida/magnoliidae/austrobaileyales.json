@@ -1,1 +1,19 @@
-{"title": "austrobaileyales", "lastmod": "2025-2-10"}
+{
+    "title": "austrobaileyales",
+    "lastmod": "2025-2-10",
+    "intro": "The austrobaileyales is an order of flowering plants, characterized by having a unique combination of morphological and molecular characteristics. This order consists of approximately 120 families, including the Orchidaceae, Euphorbiaceae, and Cyperaceae, among others. The austrobaileyales order is generally considered to be one of the most ancient lineages of flowering plants, with fossil records dating back to the Early Cretaceous period. As a result, the austrobaileyales order plays an important role in understanding the evolution and diversification of flowering plants.",
+    "families": [
+        {
+            "family_slug": "winteraceae",
+            "family_desc": "Winteraceae is a family of flowering plants commonly known as the waxflowers or honeysuckle family, native to the southern hemisphere."
+        },
+        {
+            "family_slug": "schisandraceae",
+            "family_desc": "Schisandraceae is a family of flowering plants in the order Austrobaileales, consisting of 12 genera and approximately 90 species of shrubs and vines."
+        },
+        {
+            "family_slug": "paracryphiaceae",
+            "family_desc": "Paracryphiaceae is a family of flowering plants in the order Laurales, commonly known as the New Zealand laurels."
+        }
+    ]
+}

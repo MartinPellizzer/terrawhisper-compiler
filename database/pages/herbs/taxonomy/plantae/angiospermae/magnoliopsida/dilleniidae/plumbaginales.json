@@ -1,1 +1,11 @@
-{"title": "plumbaginales", "lastmod": "2025-2-10"}
+{
+    "title": "plumbaginales",
+    "lastmod": "2025-2-10",
+    "intro": "The taxonomical rank of Plumbaginales is an order of plants, specifically a group of flowering plants that are typically annual or perennial herbs, often with delicate flowers and narrow leaves. This order includes families such as Plumbaginaceae, which contains plants like sea lavender, and others that are less well-known. Some examples of families within the Plumbaginales order include the Plumbaginaceae family, as well as the Orchidaceae, Euphorbiaceae, and Cyperaceae families, which are actually classified in other orders. These diverse families showcase the unique characteristics of the Plumbaginales order, with its focus on aquatic and coastal plant species.",
+    "families": [
+        {
+            "family_slug": "plumbaginaceae",
+            "family_desc": "Plumbaginaceae is a family of flowering plants commonly known as sea spurreys or plumbagos, which are primarily found in coastal and saline environments."
+        }
+    ]
+}

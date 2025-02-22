@@ -1,1 +1,15 @@
-{"title": "fagales", "lastmod": "2025-2-10"}
+{
+    "title": "fagales",
+    "lastmod": "2025-2-10",
+    "intro": "The fagales rank is an order of flowering plants, characterized by the production of conifer-like cones and often deciduous broad leaves. This order includes a diverse group of trees and shrubs. Examples of families within the fagales order include Betulaceae (birch family), Fagaceae (beech family), and Nothofagaceae (southern beech family). Other notable families that are sometimes included in the fagales order are Alnaceae, Myricaceae, and Juglandaceae, however the three examples you asked for are not within this order.",
+    "families": [
+        {
+            "family_slug": "fagaceae",
+            "family_desc": "Fagaceae is a family of flowering plants commonly known as beech and oak families, which includes around 600 species of deciduous trees and shrubs."
+        },
+        {
+            "family_slug": "nothofagaceae",
+            "family_desc": "Nothofagaceae is a family of deciduous and evergreen trees and shrubs in the order Fagales, native to the Southern Hemisphere."
+        }
+    ]
+}

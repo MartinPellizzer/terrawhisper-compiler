@@ -1,1 +1,47 @@
-{"title": "gentianales", "lastmod": "2025-2-10"}
+{
+    "title": "gentianales",
+    "lastmod": "2025-2-10",
+    "intro": "The rank gentianales is an order of flowering plants that includes families with diverse characteristics, such as tubular flowers and often woody stems. This order comprises approximately 1,145 genera and 17,000 species, with examples including the orchid family (Orchidaceae), the spurge family (Euphorbiaceae), and the sedge family (Cyperaceae). The gentianales order is primarily found in tropical and subtropical regions, but some families have a more widespread distribution. The unique characteristics and adaptations of gentianales plants have allowed them to thrive in a variety of environments, from wetlands to dry forests.",
+    "families": [
+        {
+            "family_slug": "apocynaceae",
+            "family_desc": "Apocynaceae is a family of flowering plants commonly known as dogbane or oleander family, which includes a diverse range of species such as periwinkles, plumerias, and madagascar periwinkles."
+        },
+        {
+            "family_slug": "lythraceae",
+            "family_desc": "Lythraceae is a family of flowering plants commonly known as the loosestrife or fruitleaf family, which includes species such as loosestrife and crape myrtle."
+        },
+        {
+            "family_slug": "phrymaceae",
+            "family_desc": "Phrymaceae is a family of flowering plants in the order Lamiales, commonly known as lophostemon or figworts."
+        },
+        {
+            "family_slug": "loganiaceae",
+            "family_desc": "Loganiaceae is a family of flowering plants commonly known as the loganin or loganiaceae family, which includes about 80 species of shrubs and trees."
+        },
+        {
+            "family_slug": "rubiaceae",
+            "family_desc": "Rubiaceae is a large and diverse family of flowering plants commonly known as the coffee or madder family, which includes over 600 genera and over 13,000 species."
+        },
+        {
+            "family_slug": "bignoniaceae",
+            "family_desc": "Bignoniaceae is a family of flowering plants commonly known as the Trumpet Creeper or Bignonia family."
+        },
+        {
+            "family_slug": "gentianaceae",
+            "family_desc": "Gentianaceae is a family of flowering plants commonly known as gentians, characterized by their trumpet-shaped flowers and often blue or purple coloration."
+        },
+        {
+            "family_slug": "dipteridaceae",
+            "family_desc": "Dipteridaceae is a family of flowering plants in the order Cercidiphyllales, native to Asia, known for their unique and often palmate leaves."
+        },
+        {
+            "family_slug": "mazaceae",
+            "family_desc": "Mazaceae is a small family of flowering plants in the order Lamiales, commonly known as the bee flowers or honeysuckle family."
+        },
+        {
+            "family_slug": "tetrachondraceae",
+            "family_desc": "Tetrachondraceae is a small family of flowering plants, commonly known as the spike-rush family, native to tropical and subtropical regions around the world."
+        }
+    ]
+}

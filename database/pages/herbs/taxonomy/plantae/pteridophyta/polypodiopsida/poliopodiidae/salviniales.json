@@ -1,0 +1,15 @@
+{
+    "title": "salviniales",
+    "lastmod": "2025-2-22",
+    "intro": "The rank Salviniales refers to an order of plants, specifically a group of aquatic ferns that are characterized by their unique reproductive structures. Within this order, several families of plants can be found, such as the Salviniaceae, which is the family most closely associated with this order. Other families, such as the Lyeliaceae, are also classified within the Salviniales order. Examples of families not classified within the Salviniales order include Orchidaceae, Euphorbiaceae, and Cyperaceae, which are all part of different plant orders.",
+    "families": [
+        {
+            "family_slug": "marsileaceae",
+            "family_desc": "Marsileaceae is a family of aquatic, fern-like flowering plants that are commonly known as water clovers or four-leaf clovers."
+        },
+        {
+            "family_slug": "salviniaceae",
+            "family_desc": "Salviniaceae is a family of aquatic flowering plants commonly known as waterworts or waterwort family."
+        }
+    ]
+}

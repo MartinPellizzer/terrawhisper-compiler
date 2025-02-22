@@ -1,1 +1,23 @@
-{"title": "dilleniales", "lastmod": "2025-2-10"}
+{
+    "title": "dilleniales",
+    "lastmod": "2025-2-10",
+    "intro": "The Dilleniales rank is an order of flowering plants, characterized by having a distinct type of flower arrangement and often featuring showy, five-petaled flowers. This order includes a variety of plant families, such as the Dilleniaceae family, which contains species like Tetracera and Hibbertia. However, it's worth noting that the Dilleniales order is not as well-represented as other orders, and some sources may group its families under other orders. Examples of families sometimes placed within the Dilleniales order include the Cercidiphyllaceae, Hoplestigmataceae, and Paracryphiaceae families are sometimes replaced with other families like the orchidaceae (which contains species like Phalaenopsis and Dendrobium), the euphorbiaceae (which contains species like Euphorbia and Ricinus), and the cyperaceae (which contains species like Carex and Cyperus).",
+    "families": [
+        {
+            "family_slug": "dilleniaceae",
+            "family_desc": "Dilleniaceae is a family of flowering plants, commonly known as the bellflower or buttercup family, comprising approximately 580 species."
+        },
+        {
+            "family_slug": "diapensiaceae",
+            "family_desc": "Diapensiaceae is a family of flowering plants commonly known as diaspores or gentians, which are characterized by their small, delicate flowers and often hairy foliage."
+        },
+        {
+            "family_slug": "dioncophyllaceae",
+            "family_desc": "Dioncophyllaceae is a small family of flowering plants in the order Santalales, commonly known as the \"velvet stars\" due to their unique star-shaped flowers."
+        },
+        {
+            "family_slug": "balanophoraceae",
+            "family_desc": "Balanophoraceae is a family of root-parasitic flowering plants commonly known as balanophoraceous plants."
+        }
+    ]
+}

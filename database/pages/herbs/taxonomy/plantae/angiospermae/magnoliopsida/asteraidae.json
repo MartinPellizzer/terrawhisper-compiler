@@ -1,1 +1,19 @@
-{"title": "asteraidae", "lastmod": "2025-2-10"}
+{
+    "title": "asteraidae",
+    "lastmod": "2025-2-10",
+    "intro": "The Asterales is a taxonomical rank, specifically a name given to a group of flowering plants that share similar characteristics. It is a division within the larger group of plants and is often used to describe a group of related families. The Asterales order includes a wide range of plants such as daisies, asters, and sunflowers, among others. Examples of orders within the Asterales include Asparagales, Malpighiales, and Poales.",
+    "orders": [
+        {
+            "order_slug": "campanulales",
+            "order_desc": "Campanulales is an order of flowering plants that belongs to the class Magnoliopsida, subclass Asteridae, clade Angiosperms, and kingdom Plantae."
+        },
+        {
+            "order_slug": "polemoniales",
+            "order_desc": "Polemoniales belongs to the taxonomical classification of plants as follows: an order within the class Magnoliopsida."
+        },
+        {
+            "order_slug": "dipsacales",
+            "order_desc": "Dipsacales is an order of flowering plants that includes the honeysuckle family, as well as others such as the honeysuckle-like woodwaxen and the foxglove and larkspur."
+        }
+    ]
+}

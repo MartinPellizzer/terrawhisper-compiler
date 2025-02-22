@@ -1,1 +1,115 @@
-{"title": "sapindales", "lastmod": "2025-2-10"}
+{
+    "title": "sapindales",
+    "lastmod": "2025-2-10",
+    "intro": "The Sapindales order is a taxonomical rank that consists of a group of flowering plants that are typically characterized by having a distinct arrangement of flowers and fruits. This order includes a diverse range of plant families, such as the Anacardiaceae, Rutaceae, and Sapindaceae families, which are commonly known for producing fruits like mangoes, oranges, and lychees. Other notable families within the Sapindales order include the Simaroubaceae, Meliaceae, and Burseraceae, which are known for their unique characteristics and adaptations. Additionally, some families like Orchidaceae, Euphorbiaceae, and Cyperaceae are not part of the Sapindales order, but are actually found in different taxonomic groups such as the Asparagales, Malpighiales, and Poales orders respectively.",
+    "families": [
+        {
+            "family_slug": "rutaceae",
+            "family_desc": "Rutaceae is a family of flowering plants commonly known as the citrus family, which includes a diverse range of species such as citrus fruits, rue, and orange trees."
+        },
+        {
+            "family_slug": "cornaceae",
+            "family_desc": "Cornaceae is a family of flowering plants commonly known as dogwoods, characterized by their distinctive flowers and often showy white, pink, or red bracts."
+        },
+        {
+            "family_slug": "anacardiaceae",
+            "family_desc": "Anacardiaceae is a family of flowering plants commonly known as the cashew or poison ivy family."
+        },
+        {
+            "family_slug": "sapindaceae",
+            "family_desc": "Sapindaceae is a family of flowering plants commonly known as soapberry or soapbark families, which includes over 130 genera and 1,500 species."
+        },
+        {
+            "family_slug": "meliaceae",
+            "family_desc": "Meliaceae is a family of flowering plants commonly known as the mahogany family, consisting of around 50 genera and 600 species."
+        },
+        {
+            "family_slug": "simaroubaceae",
+            "family_desc": "Simaroubaceae is a family of flowering plants commonly known as the quassia or sandalwood family, which includes about 50 species of deciduous trees and shrubs."
+        },
+        {
+            "family_slug": "aquifoliaceae",
+            "family_desc": "Aquifoliaceae is a family of evergreen shrubs and trees, commonly known as the holly family, native to warm, temperate, and subtropical regions around the world."
+        },
+        {
+            "family_slug": "burseraceae",
+            "family_desc": "Burseraceae, commonly known as the torchwood or frankincense family, is a diverse group of flowering plants in the order Sapindales."
+        },
+        {
+            "family_slug": "montiniaceae",
+            "family_desc": "Montiniaceae is a family of flowering plants in the order Gentianales, commonly known as the golden trumpet or trumpet flower family."
+        },
+        {
+            "family_slug": "altingiaceae",
+            "family_desc": "Altingiaceae is a family of flowering plants commonly known as sweetgum or prickly ash family, native to the Northern Hemisphere."
+        },
+        {
+            "family_slug": "icacinaceae",
+            "family_desc": "Icacinaceae is a family of flowering plants in the order Icacinales, characterized by their often woody and climbing habit."
+        },
+        {
+            "family_slug": "pedaliaceae",
+            "family_desc": "Pedaliaceae is a family of flowering plants commonly known as the sesame or leadwort family, which includes species such as the sandalwood and the slipper flower."
+        },
+        {
+            "family_slug": "calophyllaceae",
+            "family_desc": "Calophyllaceae is a family of flowering plants in the order Malpighiales, commonly known as the Calophyllaceae family or the Calophyllum family."
+        },
+        {
+            "family_slug": "dichapetalaceae",
+            "family_desc": "Dichapetalaceae is a family of flowering plants in the order Oxalidales, commonly known as the fingerroot family."
+        },
+        {
+            "family_slug": "limeaceae",
+            "family_desc": "Limeaceae is a family of flowering plants in the order Malpighiales, characterized by small, often inconspicuous flowers and typically found in aquatic environments."
+        },
+        {
+            "family_slug": "penaeaceae",
+            "family_desc": "Penaeaceae is a family of flowering plants in the order Myrtales."
+        },
+        {
+            "family_slug": "crossosomataceae",
+            "family_desc": "Crossosomataceae is a family of flowering plants in the order Crossosomatales, native to the southwestern United States and northern Mexico."
+        },
+        {
+            "family_slug": "pennantiaceae",
+            "family_desc": "Pennantiaceae is a family of flowering plants in the order Lamiales, commonly known as the Foxglove family."
+        },
+        {
+            "family_slug": "quillajaceae",
+            "family_desc": "Quillajaceae is a family of flowering plants, commonly known as soapbark trees, in the order Sapindales."
+        },
+        {
+            "family_slug": "didiereaceae",
+            "family_desc": "Didiereaceae is a family of flowering plants in the order Caryophyllales, commonly known as the 'umbrella plants' due to their unique, umbrella-shaped leaves."
+        },
+        {
+            "family_slug": "simmondsiaceae",
+            "family_desc": "Simmondsiaceae is a family of flowering plants in the order Solanales, commonly known as the nightshade or potato order."
+        },
+        {
+            "family_slug": "balanopaceae",
+            "family_desc": "Balanopaceae is a family of flowering plants, commonly known as balanophoraceous plants, which are parasitic or saprophytic epiphytes."
+        },
+        {
+            "family_slug": "aphloiaceae",
+            "family_desc": "Aphloiaceae is a family of flowering plants in the order Crossosomatales, commonly known as the aphloia family, native to tropical Africa."
+        },
+        {
+            "family_slug": "lophopyxidaceae",
+            "family_desc": "Lophopyxidaceae is a family of fungi belonging to the class Sordariomycetes."
+        },
+        {
+            "family_slug": "oncothecaceae",
+            "family_desc": "Oncothecaceae is a family of flowering plants in the order Lamiales, native to tropical Asia."
+        },
+        {
+            "family_slug": "bataceae",
+            "family_desc": "Bataceae is a family of flowering plants commonly known as the petalwort family, consisting of a single genus, Bata."
+        },
+        {
+            "family_slug": "barbeyaceae",
+            "family_desc": "Barbeyaceae is a family of flowering plants in the order Apiales, commonly known as the carrot family."
+        }
+    ]
+}

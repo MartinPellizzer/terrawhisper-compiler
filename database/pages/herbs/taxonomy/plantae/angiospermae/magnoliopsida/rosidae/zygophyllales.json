@@ -1,1 +1,19 @@
-{"title": "zygophyllales", "lastmod": "2025-2-10"}
+{
+    "title": "zygophyllales",
+    "lastmod": "2025-2-10",
+    "intro": "The taxonomical rank Zygophyllales is an order of flowering plants characterized by the presence of five-merous flowers, often with a distinctive five-parted arrangement of petals and sepals. This order includes families such as Zygophyllaceae, which comprises cacti-like and tree-like plants like the desert ironwood, and other related families. In contrast, Orchidaceae, the orchid family, and Euphorbiaceae, the spurge family, belong to other orders, as do Cyperaceae, the sedge family. Despite these differences, the Zygophyllales order is notable for its unique floral structure and diverse range of species.",
+    "families": [
+        {
+            "family_slug": "zygophyllaceae",
+            "family_desc": "Zygophyllaceae is a family of flowering plants commonly known as the jujube or catclaw families."
+        },
+        {
+            "family_slug": "nitrariaceae",
+            "family_desc": "Nitrariaceae is a family of flowering plants in the order Sapindales, commonly known as the nitre bush or pungereen family."
+        },
+        {
+            "family_slug": "koeberliniaceae",
+            "family_desc": "Koeberliniaceae is a family of flowering plants in the order Lamiales."
+        }
+    ]
+}

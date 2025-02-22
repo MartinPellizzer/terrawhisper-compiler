@@ -1,1 +1,11 @@
-{"title": "eupteleales", "lastmod": "2025-2-10"}
+{
+    "title": "eupteleales",
+    "lastmod": "2025-2-10",
+    "intro": "The eupteleales is an order of flowering plants, specifically a clade of flowering plants that is a distinct grouping within the larger plant kingdom. It comprises families that share common characteristics and evolutionary relationships. The eupteleales order contains a diverse range of families, including Orchidaceae, which is the largest family of flowering plants with over 30,000 species. Other families within the eupteleales order include Euphorbiaceae and Cyperaceae, both of which have unique adaptations and distributions.",
+    "families": [
+        {
+            "family_slug": "eupteleaceae",
+            "family_desc": "Eupteleaceae is a small family of deciduous shrubs or small trees in the order Ranunculales."
+        }
+    ]
+}

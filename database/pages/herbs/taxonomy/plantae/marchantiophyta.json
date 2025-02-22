@@ -1,1 +1,11 @@
-{"title": "marchantiophyta", "lastmod": "2025-2-10"}
+{
+    "title": "marchantiophyta",
+    "lastmod": "2025-2-10",
+    "intro": "The Marchantiophyta division is a taxonomical rank that includes a group of non-vascular plants commonly known as liverworts. This division is characterized by its simplicity in structure, often consisting of a flat leaf-like body called a thallus. Marchantiophyta includes approximately 9,000 species, which are primarily found in moist environments worldwide. For comparison, other plant divisions include Monocotyledonae, which contains flowering plants with a single cotyledon, and Polypodiopsida, a group of ferns, while Magnoliopsida is the division that includes flowering plants with a double cotyledon.",
+    "classes": [
+        {
+            "class_slug": "marchantiopsida",
+            "class_desc": "Marchantiopsida is an order of liverworts, a class of non-vascular land plants that typically grow in moist environments."
+        }
+    ]
+}

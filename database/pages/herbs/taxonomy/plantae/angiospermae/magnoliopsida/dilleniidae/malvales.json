@@ -1,1 +1,23 @@
-{"title": "malvales", "lastmod": "2025-2-10"}
+{
+    "title": "malvales",
+    "lastmod": "2025-2-10",
+    "intro": "The Malvales rank is an order of flowering plants, characterized by flowers with five petals and a distinctive arrangement of stamens. This order includes a diverse range of plant families, such as the Malvaceae, which comprises hibiscus and mallow species, as well as other notable families like Orchidaceae, Euphorbiaceae, and Cypripedium is not in this group, but Cyperaceae which is in the  Cyperales order, but for example,  Muntingiaceae.",
+    "families": [
+        {
+            "family_slug": "malvaceae",
+            "family_desc": "Malvaceae is a family of flowering plants commonly known as mallow or hibiscus family, comprising over 2,300 species of trees, shrubs, and herbs."
+        },
+        {
+            "family_slug": "dipterocarpaceae",
+            "family_desc": "Dipterocarpaceae is a family of tropical rainforest trees that are native to Southeast Asia and are characterized by large, broad leaves and valuable hardwood timbers."
+        },
+        {
+            "family_slug": "bixaceae",
+            "family_desc": "Bixaceae is a family of flowering plants in the order Malvales, commonly known as the bixa or annatto family."
+        },
+        {
+            "family_slug": "achariaceae",
+            "family_desc": "Achariaceae is a family of flowering plants in the order Malpighiales, comprising about 35 species of tropical and subtropical trees and shrubs."
+        }
+    ]
+}

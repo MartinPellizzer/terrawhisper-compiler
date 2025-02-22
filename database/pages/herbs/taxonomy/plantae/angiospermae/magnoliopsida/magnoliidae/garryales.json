@@ -1,1 +1,11 @@
-{"title": "garryales", "lastmod": "2025-2-10"}
+{
+    "title": "garryales",
+    "lastmod": "2025-2-10",
+    "intro": "The taxonomic rank of Garryales is a distinct order of flowering plants. It is characterized by a group of families that share unique morphological and molecular characteristics. Garryales includes several notable families such as Orchidaceae, Euphorbiaceae, and Cyperaceae, among others. This order is primarily composed of woody and herbaceous plants that are commonly found in temperate and tropical regions.",
+    "families": [
+        {
+            "family_slug": "helwingiaceae",
+            "family_desc": "Helwingiaceae is a family of flowering plants in the order Cornales, native to Eastern Asia."
+        }
+    ]
+}

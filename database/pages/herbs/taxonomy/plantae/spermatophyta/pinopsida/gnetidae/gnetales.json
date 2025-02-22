@@ -1,1 +1,11 @@
-{"title": "gnetales", "lastmod": "2025-2-10"}
+{
+    "title": "gnetales",
+    "lastmod": "2025-2-10",
+    "intro": "The taxonomical rank of Gnetales is an order of flowering plants that consists of a few families of gymnosperm-like plants with unique characteristics. The Gnetales order is a distinct group within the plant kingdom, often considered a relict group from an earlier evolutionary era. Unlike many flowering plants, the families within the Gnetales order, such as Welwitschiaceae, Ephedraceae, and Gnetaceae, often exhibit characteristics more typical of conifers and cycads. The Gnetales order also includes other less common families like Gnetales, although these are not as well-known as the previously mentioned families, such as orchidaceae, euphorbiaceae, cyperaceae.",
+    "families": [
+        {
+            "family_slug": "gnetaceae",
+            "family_desc": "Gnetaceae is a family of coniferous plants that includes three genera: Gnetum, Welwitschia, and Ephedra, often referred to as \"living fossils\" due to their unique characteristics and long evolutionary history."
+        }
+    ]
+}

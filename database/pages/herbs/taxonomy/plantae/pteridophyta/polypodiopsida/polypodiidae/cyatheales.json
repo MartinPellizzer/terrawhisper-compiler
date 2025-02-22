@@ -1,0 +1,15 @@
+{
+    "title": "cyatheales",
+    "lastmod": "2025-2-22",
+    "intro": "The Cyatheales is an order of plants, specifically a group of ferns that are vascular plants characterized by the presence of a vascular system and the production of spores. This order includes various families of ferns that are adapted to different environments. Examples of families within the Cyatheales order include Cyatheaceae, Dicksoniaceae, and Hymenophyllaceae. Additionally, families such as orchidaceae and euphorbiaceae are actually part of the angiosperm group and are not part of the cyatheales order, however cyperaceae is not part of the cyatheales order but rather the poales order.",
+    "families": [
+        {
+            "family_slug": "cyatheaceae",
+            "family_desc": "Cyatheaceae, commonly known as the tree fern family, is a group of flowering plants that are primarily found in tropical and subtropical regions around the world."
+        },
+        {
+            "family_slug": "cystodiaceae",
+            "family_desc": "Cystodiaceae is a family of liverworts, a group of small, non-vascular plants that belong to the class Marchantiopsida."
+        }
+    ]
+}

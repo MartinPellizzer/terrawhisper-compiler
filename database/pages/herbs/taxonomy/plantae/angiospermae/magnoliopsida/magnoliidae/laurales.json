@@ -1,1 +1,39 @@
-{"title": "laurales", "lastmod": "2025-2-10"}
+{
+    "title": "laurales",
+    "lastmod": "2025-2-10",
+    "intro": "The rank Laurales is an order of flowering plants, characterized by their complex, often aromatic flowers and typically woody growth habit. This order includes a diverse range of plant families, such as the Lauraceae, which is the largest family in the order, consisting of laurels and cinnamon trees. Other notable families within the Laurales order are the Chloranthaceae, but also the other families you have mentioned like the Orchidaceae, Euphorbiaceae and Cyperaceae are not part of the Laurales order. The Laurales order is notable for its unique combination of characteristics, such as the presence of aromatic oils and the often-leathery leaves of its members.",
+    "families": [
+        {
+            "family_slug": "lauraceae",
+            "family_desc": "Lauraceae is a family of flowering plants commonly known as laurels or laurustinus, comprising over 70 genera and 2,000 to 3,000 species."
+        },
+        {
+            "family_slug": "lecythidaceae",
+            "family_desc": "Lecythidaceae is a family of flowering plants commonly known as Brazil nut or tonkin nut trees, native to tropical regions of Central and South America and Southeast Asia."
+        },
+        {
+            "family_slug": "monimiaceae",
+            "family_desc": "Monimiaceae is a family of flowering plants, native to tropical and subtropical regions of the world, characterized by their aromatic leaves and showy flowers."
+        },
+        {
+            "family_slug": "hernandiaceae",
+            "family_desc": "Hernandiaceae is a family of flowering plants commonly known as the Hernandia or Ixora family, consisting of five genera and approximately 70 species."
+        },
+        {
+            "family_slug": "nyssaceae",
+            "family_desc": "Nyssaceae is a family of flowering plants commonly known as the tupelo or blackgum family."
+        },
+        {
+            "family_slug": "myricaceae",
+            "family_desc": "Myricaceae is a family of flowering plants commonly known as bayberry or wax myrtle, consisting of 35-40 species of shrubs and small trees found primarily in eastern North America, northern Asia, and northern Europe."
+        },
+        {
+            "family_slug": "calycanthaceae",
+            "family_desc": "Calycanthaceae is a family of flowering plants commonly known as the sweetshrub family."
+        },
+        {
+            "family_slug": "curtisiaceae",
+            "family_desc": "Curtisiaceae is a family of flowering plants in the order Asterales, commonly known as the wood-sorrel family."
+        }
+    ]
+}

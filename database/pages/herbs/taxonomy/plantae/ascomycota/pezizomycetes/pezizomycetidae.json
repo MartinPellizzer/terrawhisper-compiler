@@ -1,1 +1,11 @@
-{"title": "pezizomycetidae", "lastmod": "2025-2-10"}
+{
+    "title": "pezizomycetidae",
+    "lastmod": "2025-2-10",
+    "intro": "Pezizomycetidae is a subclass of fungi, specifically a subcategory of the class Pezizomycetes. It is a taxonomic rank used to group fungi that have a characteristic structure and reproductive cycle. The Pezizomycetidae subclass includes a diverse range of fungi, such as morels and false truffles, which are often found in various environments. This subclass contains orders such as Pezizales, but other examples of orders that are not within the pezizomycetidae but are mentioned in the question are: Asparagales, Malpighiales, Poales, although they belong to different ranks and divisions of the plant kingdom.",
+    "orders": [
+        {
+            "order_slug": "marchantiales",
+            "order_desc": "Marchantiales is a class of liverworts that belong to the phylum Marchantiophyta, division Marchantiophyta, kingdom Plantae."
+        }
+    ]
+}

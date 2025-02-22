@@ -1,1 +1,11 @@
-{"title": "gnetidae", "lastmod": "2025-2-10"}
+{
+    "title": "gnetidae",
+    "lastmod": "2025-2-10",
+    "intro": "The rank of Gnetidae refers to a group of flowering plant orders that are not closely related to other flowering plant orders. It is a clade of plants that are often considered to be of uncertain affinities within the plant kingdom. Some examples of orders within the Gnetidae include Asparagales, Malpighiales, and Poales, which comprise a diverse range of plant families, including grasses, flowering plants, and more. The Gnetidae is a distinct taxonomic group that highlights the complexity and diversity of plant evolution.",
+    "orders": [
+        {
+            "order_slug": "gnetales",
+            "order_desc": "Gnetales belong to the division Magnoliophyta, class Magnoliopsida, order Gnetales, family Gnetales, order Gnetales, genus Gnetales, and species Gnetales."
+        }
+    ]
+}

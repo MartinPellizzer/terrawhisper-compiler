@@ -1,1 +1,35 @@
-{"title": "ranunculales", "lastmod": "2025-2-10"}
+{
+    "title": "ranunculales",
+    "lastmod": "2025-2-10",
+    "intro": "The rank Ranunculales is an order of flowering plants that consists of approximately 210 genera and 4,000 species, characterized by their often showy flowers and varying growth habits. This order encompasses a diverse range of families, including the Ranunculaceae family, which comprises buttercups and their relatives. Other notable families within the Ranunculales order include the Berberidaceae family, which includes barberries and Oregon grape, and the Menispermaceae family, which includes the moonseed vine. Notable exceptions to the Ranunculales order include the Orchidaceae family, the Euphorbiaceae family, and the Cyperaceae family, which are found in different orders, such as Asparagales, Malpighiales, and Poales, respectively.",
+    "families": [
+        {
+            "family_slug": "berberidaceae",
+            "family_desc": "Berberidaceae is a family of flowering plants commonly known as barberries and their relatives, including the goldenseal and the Oregon grape."
+        },
+        {
+            "family_slug": "ranunculaceae",
+            "family_desc": "Ranunculaceae is a family of flowering plants commonly known as the buttercup or crowfoot family, which includes over 2,000 species of annuals and perennials."
+        },
+        {
+            "family_slug": "menispermaceae",
+            "family_desc": "Menispermaceae is a family of flowering plants commonly known as the moonseed family, consisting of about 90 to 100 species of vines and shrubs found in tropical and subtropical regions."
+        },
+        {
+            "family_slug": "lardizabalaceae",
+            "family_desc": "Lardizabalaceae is a family of flowering plants in the order Ranunculales, commonly known as the snail flowers."
+        },
+        {
+            "family_slug": "torricelliaceae",
+            "family_desc": "Torricelliaceae is a family of flowering plants in the order Brassicales, commonly known as the shepherd's purse family."
+        },
+        {
+            "family_slug": "circaeasteraceae",
+            "family_desc": "Circaeasteraceae is a small family of flowering plants in the order Ranunculales, commonly known as the snow lotus family."
+        },
+        {
+            "family_slug": "ripogonaceae",
+            "family_desc": "Ripogonaceae is a family of flowering plants in the order Asparagales, commonly known as the New Zealand lily or harakeke."
+        }
+    ]
+}

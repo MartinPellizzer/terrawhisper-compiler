@@ -1,1 +1,63 @@
-{"title": "magnoliidae", "lastmod": "2025-2-10"}
+{
+    "title": "magnoliidae",
+    "lastmod": "2025-2-10",
+    "intro": "The magnoliidae rank is a taxonomical classification of flowering plants that belongs to the larger clade of angiosperms, specifically referring to a superorder or clade of flowering plants that are characterized by their primitive characteristics and often, basal positions within the angiosperm phylogeny. This group of plants includes a wide range of species, such as those found in the orders Asparagales, which includes lilies and asparagus, Malpighiales, which includes trees and shrubs like guavas and poison ivy, and Poales, which includes grasses and sedges. The magnoliidae rank is an attempt to group these primitive flowering plants together based on their shared characteristics and evolutionary relationships. This superorder is considered a key transitional phase in the evolution of flowering plants, bridging the gap between ancient and modern forms.",
+    "orders": [
+        {
+            "order_slug": "ranunculales",
+            "order_desc": "Ranunculales is an order of flowering plants in the clade magnoliids."
+        },
+        {
+            "order_slug": "magnoliales",
+            "order_desc": "Magnoliales is an order of flowering plants in the subclass Magnoliidae, class Magnoliopsida, subclass Dilleniidae, class Magnoliophyta, division Magnoliophyta, and kingdom Plantae."
+        },
+        {
+            "order_slug": "laurales",
+            "order_desc": "Laurales is an order of flowering plants that belongs to the class Magnoliopsida, subclass Magnoliidae, and division Magnoliophyta."
+        },
+        {
+            "order_slug": "piperales",
+            "order_desc": "Piperales belongs to the phylum Magnoliophyta, class Magnoliopsida, subclass Magnoliidae, order Piperales, family Piperaceae."
+        },
+        {
+            "order_slug": "magnolales",
+            "order_desc": "Magnolales belong to the division Magnoliophyta, class Magnoliopsida, subclass Magnoliidae, order Magnolales, family Magnoliaceae."
+        },
+        {
+            "order_slug": "cornales",
+            "order_desc": "Cornales is an order of flowering plants that belongs to the class Magnoliopsida within the division Magnoliophyta."
+        },
+        {
+            "order_slug": "euphorbiales",
+            "order_desc": "Euphorbiales belongs to the class Magnoliopsida within the division Magnoliophyta of the kingdom Plantae."
+        },
+        {
+            "order_slug": "gamopetalae",
+            "order_desc": "Gamopetalae is an order of flowering plants within the class Magnoliopsida, characterized by the fusion of petals into a single structure."
+        },
+        {
+            "order_slug": "austrobaileyales",
+            "order_desc": "Austrobaileyales belongs to the kingdom Plantae and is classified under the subkingdom Angiospermophyta, division Magnoliophyta, class Magnoliopsida, subclass Austrobaileyidae, order Austrobaileyales, subclass Austrobaileyidae."
+        },
+        {
+            "order_slug": "garryales",
+            "order_desc": "Garryales is an order of flowering plants that belongs to the clade Asterids."
+        },
+        {
+            "order_slug": "canellales",
+            "order_desc": "Canellales is an order of flowering plants in the subclass Asteridae, class Magnoliopsida, division Magnoliophyta, and kingdom Plantae."
+        },
+        {
+            "order_slug": "cercidiflorales",
+            "order_desc": "Cercidiflorales is an order of flowering plants that belongs to the clade of asterids and is further classified within the class Magnoliopsida of the kingdom Plantae."
+        },
+        {
+            "order_slug": "trochodontales",
+            "order_desc": "Trochodontales is an order of algae in the class Phaeophyceae."
+        },
+        {
+            "order_slug": "eupteleales",
+            "order_desc": "Eupteleales is an order of flowering plants in the subclass Rosidae, class Magnoliopsida, subclass of dicotyledons within the division Magnoliophyta."
+        }
+    ]
+}

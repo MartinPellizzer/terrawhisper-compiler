@@ -1,0 +1,15 @@
+{
+    "title": "proteales",
+    "lastmod": "2025-2-22",
+    "intro": "The proteales rank is an order of flowering plants, which is a grouping of related families based on shared characteristics and evolutionary relationships. This order includes families such as Proteaceae and Platanaceae, which are distinct from other flowering plant orders like Orchidaceae, Euphorbiaceae, and Cyperaceae. The Proteales order is primarily found in temperate and subtropical regions, and its members often exhibit unique adaptations for survival in these environments. Notably, the Proteaceae family is known for its diverse range of species, including the iconic protea flowers, which are highly prized for their ornamental value.",
+    "families": [
+        {
+            "family_slug": "proteaceae",
+            "family_desc": "Proteaceae is a family of flowering plants commonly known as the honey-scented or sugar bush family, which includes a diverse range of species such as banksias, waratahs, and proteas."
+        },
+        {
+            "family_slug": "platanaceae",
+            "family_desc": "Platanaceae is a family of flowering plants commonly known as plane trees, which includes deciduous trees native to Asia and Europe."
+        }
+    ]
+}

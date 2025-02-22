@@ -1,1 +1,15 @@
-{"title": "lycopodiophyta", "lastmod": "2025-2-10"}
+{
+    "title": "lycopodiophyta",
+    "lastmod": "2025-2-10",
+    "intro": "The Lycopodiophyta division rank is a group of vascular plants that are characterized by their small, simple leaves and lack of seeds. They are non-vascular plants that reproduce via spores. Examples of divisions include Monocotyledonae, which encompasses plants with one cotyledon, such as grasses and lilies, Magnoliopsida, a division of flowering plants that includes trees and shrubs, and Polypodiopsida, a division of ferns. The Lycopodiophyta division specifically includes plants such as club mosses and spike mosses.",
+    "classes": [
+        {
+            "class_slug": "lycopodiopsida",
+            "class_desc": "Lycopodiopsida is a class of ancient, non-vascular plants commonly known as club mosses."
+        },
+        {
+            "class_slug": "osmundopsida",
+            "class_desc": "Osmundopsida is an order of ancient, vascular plants commonly known as ferns of the whisk fern group."
+        }
+    ]
+}

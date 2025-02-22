@@ -1,1 +1,59 @@
-{"title": "rosales", "lastmod": "2025-2-10"}
+{
+    "title": "rosales",
+    "lastmod": "2025-2-10",
+    "intro": "The rosales rank is an order of flowering plants, characterized by a wide range of growth habits and flower structures, and is often associated with fruiting structures such as pomes and aggregates. This order includes a diverse group of plant families, including the Orchidaceae, which comprises orchids, the Euphorbiaceae, which comprises spurge and euphorbia plants, and the Cyperaceae, which comprises sedges and rushes. Other examples of families within the rosales order include Rosaceae, Fabaceae, and Vitaceae. The diversity of plant forms and growth habits within the rosales order reflects its broad range of adaptations to different environments.",
+    "families": [
+        {
+            "family_slug": "vitaceae",
+            "family_desc": "Vitaceae is a family of flowering plants commonly known as the grape or wine family, which includes species such as grapes, kiwis, and Virginia creeper."
+        },
+        {
+            "family_slug": "rosaceae",
+            "family_desc": "Rosaceae is a large and diverse family of flowering plants commonly known as the rose family, which includes approximately 2,000 to 4,000 species of trees, shrubs, and herbaceous plants."
+        },
+        {
+            "family_slug": "moraceae",
+            "family_desc": "Moraceae is a family of plants commonly known as the mulberry or fig family, characterized by the presence of small, often edible fruits and a diverse range of species, including figs, mulberries, and broussonetias."
+        },
+        {
+            "family_slug": "elaeagnaceae",
+            "family_desc": "Elaeagnaceae is a family of flowering plants commonly known as silverberries or sea buckthorns, characterized by their silver-gray foliage and small, fragrant flowers."
+        },
+        {
+            "family_slug": "cistaceae",
+            "family_desc": "Cistaceae is a family of flowering plants in the order Malvales, commonly known as rockroses or rock jasmine."
+        },
+        {
+            "family_slug": "kirkiaceae",
+            "family_desc": "Kirkiaceae is a small family of flowering plants, commonly known as the Kirkia family, that is native to tropical and subtropical Africa."
+        },
+        {
+            "family_slug": "frankeniaceae",
+            "family_desc": "Frankeniaceae is a family of flowering plants in the order Caryophyllales, commonly known as the dryad or sea heath family."
+        },
+        {
+            "family_slug": "juncaginaceae",
+            "family_desc": "Juncaginaceae is a family of aquatic and wetland plants commonly known as the arrow-head or bogbean families."
+        },
+        {
+            "family_slug": "ixonanthaceae",
+            "family_desc": "Ixonanthaceae is a family of flowering plants in the order Malpighiales, native to the tropical regions of Africa, Asia, and Australia."
+        },
+        {
+            "family_slug": "irvingiaceae",
+            "family_desc": "Irvingiaceae is a family of flowering plants in the order Malpighiales, commonly known as the bush mango family."
+        },
+        {
+            "family_slug": "kewaceae",
+            "family_desc": "Kewaceae is a family of flowering plants in the order Asparagales, commonly known as the orchid-like plants."
+        },
+        {
+            "family_slug": "incertae_sedis",
+            "family_desc": "Incertae_Sedis refers to a taxonomic ranking where the exact position of a plant species within the classification is uncertain or unknown."
+        },
+        {
+            "family_slug": "huaceae",
+            "family_desc": "Huaceae is a family of flowering plants, commonly known as the huacatay or black mint family, native to South America."
+        }
+    ]
+}

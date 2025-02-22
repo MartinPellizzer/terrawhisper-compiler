@@ -1,0 +1,35 @@
+{
+    "title": "brassicales",
+    "lastmod": "2025-2-22",
+    "intro": "The taxonomic rank of Brassicales is an order of flowering plants, characterized by having four- or five-merous flowers and seeds that are often winged or ribbed. This order includes a diverse group of plants, such as the mustard family (Brassicaceae), which is one of its most prominent members. Other notable families within the Brassicales order include the Capparaceae, Tovariaceae, and Akaniaceae, as well as the aforementioned Brassicaceae, but examples that aren't part of the Brassicales order are the orchid family (Orchidaceae), the spurge family (Euphorbiaceae), and the sedge family (Cyperaceae). The Brassicales order is found in temperate and tropical regions worldwide and includes around 1,500 to 2,000 species.",
+    "families": [
+        {
+            "family_slug": "resedaceae",
+            "family_desc": "Resedaceae is a family of flowering plants commonly known as the mignonette or resurrection flowers, characterized by their small, often fragrant flowers and linear leaves."
+        },
+        {
+            "family_slug": "capparaceae",
+            "family_desc": "Capparaceae is a family of flowering plants commonly known as the caper family."
+        },
+        {
+            "family_slug": "cleomaceae",
+            "family_desc": "Cleomaceae is a family of flowering plants in the order Brassicales, commonly known as the bee flowers or spider flowers, native to tropical and subtropical regions worldwide."
+        },
+        {
+            "family_slug": "limnanthaceae",
+            "family_desc": "Limnanthaceae is a family of flowering plants commonly known as meadowfoams, which are native to the Americas and Asia, and are characterized by their small, yellow or white flowers and fleshy fruits."
+        },
+        {
+            "family_slug": "tropaeolaceae",
+            "family_desc": "Tropaeolaceae is a family of flowering plants commonly known as nasturtiums."
+        },
+        {
+            "family_slug": "salvadoraceae",
+            "family_desc": "Salvadoraceae is a family of flowering plants in the order Lamiales, commonly known as the waterwort family."
+        },
+        {
+            "family_slug": "moringaceae",
+            "family_desc": "Moringaceae is a family of flowering plants commonly known as horseradish trees or drumsticks."
+        }
+    ]
+}

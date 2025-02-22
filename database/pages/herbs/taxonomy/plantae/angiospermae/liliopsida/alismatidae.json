@@ -1,0 +1,23 @@
+{
+    "title": "alismatidae",
+    "lastmod": "2025-2-22",
+    "intro": "The alismatidae rank, also known as Alismatidae or Alismatanae, is a subclass of flowering plants. It is a taxonomic grouping that consists of a diverse range of plant species, including aquatic and terrestrial plants. Examples of orders within the Alismatidae subclass include the Asparagales, which comprises plants such as orchids and asparagus, the Malpighiales, which includes plants like mangroves and willows, and the Poales, which encompasses plants such as grasses and sedges. The Alismatidae subclass is characterized by its unique characteristics, such as the presence of monocotyledonous flowers and the absence of a single, dominant axis in the inflorescence.",
+    "orders": [
+        {
+            "order_slug": "alismatales",
+            "order_desc": "Alismatales belong to the phylum Magnoliophyta, class Liliopsida, subclass Alismatidae, and division Magnoliophyta."
+        },
+        {
+            "order_slug": "dioscoreales",
+            "order_desc": "Dioscoreales is an order of flowering plants in the class Liliopsida, subclass Liliidae, division Magnoliophyta, and kingdom Plantae."
+        },
+        {
+            "order_slug": "najadales",
+            "order_desc": "Najadales is an order of aquatic plants within the family Najadaceae, belonging to the class Magnoliopsida, subclass Magnoliidae, and division Magnoliophyta."
+        },
+        {
+            "order_slug": "rutales",
+            "order_desc": "Rutales belong to the clade of flowering plants, which is classified under the domain Eukaryota."
+        }
+    ]
+}

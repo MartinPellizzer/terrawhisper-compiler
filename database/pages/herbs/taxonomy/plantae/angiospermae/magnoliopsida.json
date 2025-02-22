@@ -1,1 +1,43 @@
-{"title": "magnoliopsida", "lastmod": "2025-2-10"}
+{
+    "title": "magnoliopsida",
+    "lastmod": "2025-2-10",
+    "intro": "The taxonomical rank of magnoliopsida refers to a subclass of flowering plants that contain about 64,000 species, making it one of the largest and most diverse groups of plants. It includes a wide range of plant families such as roses, sunflowers, and daisies. The magnoliopsida subclass is further divided into several smaller divisions, including the Commelinidae, which comprises plants like the spiderworts and dayflowers, the Rosidae, which includes plants like roses and apples, and the Asteridae, which includes plants like sunflowers and daisies. The plants classified under magnoliopsida are typically characterized by having two cotyledons, or seed leaves, during germination.",
+    "subclasses": [
+        {
+            "subclass_slug": "rosidae",
+            "subclass_desc": "Rosidae, a large and diverse subclass of flowering plants, includes over 150,000 species of trees, shrubs, and vines."
+        },
+        {
+            "subclass_slug": "asteridae",
+            "subclass_desc": "Asteridae is a large and diverse subclass of flowering plants that includes daisies, sunflowers, and many other familiar garden flowers."
+        },
+        {
+            "subclass_slug": "magnoliidae",
+            "subclass_desc": "Magnoliidae is a subclass of flowering plants that includes ancient, primitive angiosperms with showy, often fragrant flowers and simple, alternate or opposite leaves."
+        },
+        {
+            "subclass_slug": "caryophyllidae",
+            "subclass_desc": "Caryophyllidae is a subclass of flowering plants that includes various families of annuals and perennials with five-petaled flowers and small seeds."
+        },
+        {
+            "subclass_slug": "dilleniidae",
+            "subclass_desc": "Dilleniidae is a subclass of flowering plants that includes over 1,000 species of trees and shrubs in the families Dilleniaceae and Trochodendraceae."
+        },
+        {
+            "subclass_slug": "hamamelididae",
+            "subclass_desc": "Hamamelididae is a subclass of flowering plants within the class Magnoliopsida, characterized by having a single ovule in each ovary."
+        },
+        {
+            "subclass_slug": "asteraidae",
+            "subclass_desc": "Asteraidae is a subclass of flowering plants in the class Magnoliopsida, characterized by having bilaterally symmetrical flowers and often showy, composite inflorescences."
+        },
+        {
+            "subclass_slug": "dicotyledonae",
+            "subclass_desc": "Dicotyledonae are flowering plants that have two cotyledons or seed leaves in their seeds."
+        },
+        {
+            "subclass_slug": "austrobaileyidae",
+            "subclass_desc": "Austrobaileyidae is a subclass of flowering plants that comprises a group of ancient and relictual families with unique characteristics."
+        }
+    ]
+}

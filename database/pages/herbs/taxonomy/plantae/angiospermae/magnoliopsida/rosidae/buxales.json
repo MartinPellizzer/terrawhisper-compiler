@@ -1,0 +1,15 @@
+{
+    "title": "buxales",
+    "lastmod": "2025-2-22",
+    "intro": "The buxales rank is an order of flowering plants that includes a group of species characterized by their unique leaf and flower structures. This order is defined by the presence of flowers with a specific arrangement of stamens and carpels. The buxales order comprises families such as Buxaceae, which includes boxwood plants. Other notable families within the buxales order include the Buxaceae family itself, as well as families such as the Orchidaceae (including orchids), Euphorbiaceae (including spurge and poinsettia), and Cyperaceae (including sedges).",
+    "families": [
+        {
+            "family_slug": "buxaceae",
+            "family_desc": "Buxaceae is a small family of flowering plants commonly known as boxwoods, consisting of around 49 species spread across 6 to 8 genera."
+        },
+        {
+            "family_slug": "gomortegaceae",
+            "family_desc": "Gomortegaceae is a family of flowering plants in the order Laurales, native to the Americas."
+        }
+    ]
+}

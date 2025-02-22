@@ -1,0 +1,19 @@
+{
+    "title": "restionales",
+    "lastmod": "2025-2-22",
+    "intro": "The rank of Restionales is an order of flowering plants, characterized by its members typically having three-stamened and three-carpelled flowers, often forming spikelets or inflorescences. This order includes families such as Cyperaceae, which is the largest family within Restionales. Some examples of plant families within the order Restionales include Cyperaceae (sedges and rushes), and other groups such as Juncaceae (rushes and cotton-grasses). The diversity within the order Restionales is notable, with various adaptations to different environments.",
+    "families": [
+        {
+            "family_slug": "restionaceae",
+            "family_desc": "Restionaceae is a family of flowering plants commonly known as restio or rush-like plants, native to the Southern Hemisphere."
+        },
+        {
+            "family_slug": "velloziaceae",
+            "family_desc": "Velloziaceae is a family of flowering plants in the order Pandanales, commonly known as the heliconia-like or torch plants."
+        },
+        {
+            "family_slug": "dasypogonaceae",
+            "family_desc": "Dasypogonaceae is a family of flowering plants in the order Poales, commonly known as the restio or club-rush family."
+        }
+    ]
+}

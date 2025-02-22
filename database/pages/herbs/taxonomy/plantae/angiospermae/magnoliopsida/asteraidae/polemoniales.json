@@ -1,1 +1,15 @@
-{"title": "polemoniales", "lastmod": "2025-2-10"}
+{
+    "title": "polemoniales",
+    "lastmod": "2025-2-10",
+    "intro": "The taxonomical rank of Polemoniales is an order of flowering plants, characterized by a specific set of morphological and reproductive features. It is a distinct grouping that comprises families with similar characteristics, such as flowers with distinct features and a specific arrangement of reproductive organs. Families within the Polemoniales order include Polemoniaceae, the family that gives it its name, as well as other plant families such as Orchidaceae, which includes orchids, and Euphorbiaceae, the spurge family, which comprises plants like the poinsettia. Another example of a family within the Polemoniales order is Cyperaceae, which includes sedges and rushes.",
+    "families": [
+        {
+            "family_slug": "loasaceae",
+            "family_desc": "Loasaceae is a family of flowering plants commonly known as the wolf's claw family, consisting of about 80 species of shrubs and vines."
+        },
+        {
+            "family_slug": "polemoniaceae",
+            "family_desc": "Polemoniaceae is a family of flowering plants commonly known as the phlox or skyflower family, characterized by its showy, trumpet-shaped flowers and diverse range of habitats."
+        }
+    ]
+}

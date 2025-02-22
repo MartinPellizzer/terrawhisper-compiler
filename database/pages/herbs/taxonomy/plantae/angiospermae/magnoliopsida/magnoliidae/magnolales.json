@@ -1,1 +1,11 @@
-{"title": "magnolales", "lastmod": "2025-2-10"}
+{
+    "title": "magnolales",
+    "lastmod": "2025-2-10",
+    "intro": "The rank Magnolales is a taxonomic order of flowering plants, characterized by the presence of distinct sepals and usually three or more petals, often with showy, fragrant flowers. This order includes a diverse range of plant families, such as the orchid family (Orchidaceae) with over 30,000 species, the spurge family (Euphorbiaceae) with its unique latex-producing stems, and the sedge family (Cyperaceae) with its distinctive, grass-like vegetation. Many members of the Magnolales order are known for their striking, often fragrant flowers, which attract a wide variety of pollinators. With over 1,000 species spread across these and other families, the Magnolales order is a significant component of many ecosystems around the world.",
+    "families": [
+        {
+            "family_slug": "magnoliaceae",
+            "family_desc": "Magnoliaceae is a family of flowering plants that includes ancient, primitive species with distinctive flowers and leaves."
+        }
+    ]
+}

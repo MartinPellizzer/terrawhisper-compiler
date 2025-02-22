@@ -1,1 +1,11 @@
-{"title": "geraniales", "lastmod": "2025-2-10"}
+{
+    "title": "geraniales",
+    "lastmod": "2025-2-10",
+    "intro": "The Geraniales is an order of flowering plants, characterized by five-merous flowers and the presence of a distinctive epicalyx. This order includes approximately 1,100 species across 7 families. The Geraniales family members are diverse and can be found in various habitats around the world, but are commonly associated with tropical and subtropical regions. Examples of families within the Geraniales order include the Geraniaceae, Oxalidaceae, and Melianthaceae families.",
+    "families": [
+        {
+            "family_slug": "geraniaceae",
+            "family_desc": "Geraniaceae is a family of flowering plants commonly known as the geranium or storksbill family, consisting of approximately 742 species in 50 genera."
+        }
+    ]
+}

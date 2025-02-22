@@ -1,1 +1,11 @@
-{"title": "dicotyledonae", "lastmod": "2025-2-10"}
+{
+    "title": "dicotyledonae",
+    "lastmod": "2025-2-10",
+    "intro": "The dicotyledonae rank, also known as Dicotyledonae or Magnoliopsida, refers to a group of flowering plants that have two cotyledons or seed leaves in their embryo. This characteristic distinguishes them from monocotyledonous plants, which have only one cotyledon. Examples of orders within the Dicotyledonae rank include Asparagales, Malpighiales, and Poales, which encompass a wide variety of plant species such as asparagus, mangroves, and grasses. The Dicotyledonae rank is one of the most diverse and widespread groups of plants, comprising over 200,000 known species.",
+    "orders": [
+        {
+            "order_slug": "violales",
+            "order_desc": "Violales belongs to the kingdom Plantae, division Magnoliophyta, class Magnoliopsida, subclass Dilleniidae, order Violales."
+        }
+    ]
+}

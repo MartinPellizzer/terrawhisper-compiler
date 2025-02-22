@@ -1,1 +1,19 @@
-{"title": "lycopodiopsida", "lastmod": "2025-2-10"}
+{
+    "title": "lycopodiopsida",
+    "lastmod": "2025-2-10",
+    "intro": "The rank of Lycopodiopsida refers to a division of vascular plants that belongs to the group known as lycopods. This division is characterized by plants that typically have microphyllous leaves and are often found in moist, shaded environments. Examples of other divisions include the Commelinidae, which comprises flowering plants with three stamens and a three-angled ovary, and the Rosidae and Asteridae, which are both large and diverse groups of flowering plants. The Lycopodiopsida division is distinct from these others in its unique morphology and evolutionary history.",
+    "subclasses": [
+        {
+            "subclass_slug": "lycopodiidae",
+            "subclass_desc": "Lycopodiidae is a subclass of plants that includes club mosses, which are small, non-vascular plants with needle-like leaves and a distinctive reproductive structure."
+        },
+        {
+            "subclass_slug": "equisetidae",
+            "subclass_desc": "Equisetidae is a subclass of vascular plants that includes the horsetails and their relatives."
+        },
+        {
+            "subclass_slug": "isoetidae",
+            "subclass_desc": "Isoetidae is a subclass of plants within the class Lycopodiopsida, characterized by its aquatic or semi-aquatic habit and the presence of scale-like leaves."
+        }
+    ]
+}

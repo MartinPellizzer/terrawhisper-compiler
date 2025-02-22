@@ -1,1 +1,11 @@
-{"title": "selaginellales", "lastmod": "2025-2-10"}
+{
+    "title": "selaginellales",
+    "lastmod": "2025-2-10",
+    "intro": "The Selaginellales is an order of vascular plants, commonly known as spike mosses, characterized by their simple, needle-like leaves and small, inconspicuous flowers. This order is composed of approximately 700 species, which are primarily found in tropical and subtropical regions around the world. Some examples of families within the Selaginellales order include Selaginellaceae, which is the only family within this order, but also others not part of the Selaginellales, such as the Orchidaceae (orchid family), Euphorbiaceae (spurge family), and Cyperaceae (sedge family) are not part of this order. Despite their diverse distribution, spike mosses are often overlooked due to their small size and lack of showy flowers.",
+    "families": [
+        {
+            "family_slug": "selaginellaceae",
+            "family_desc": "Selaginellaceae is a family of small, non-vascular, and primitive plants commonly known as spikemosses."
+        }
+    ]
+}

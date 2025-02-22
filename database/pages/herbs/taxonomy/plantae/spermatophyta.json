@@ -1,1 +1,15 @@
-{"title": "spermatophyta", "lastmod": "2025-2-10"}
+{
+    "title": "spermatophyta",
+    "lastmod": "2025-2-10",
+    "intro": "The division Spermatophyta, also known as seed plants, is a taxonomic rank that encompasses plants that produce seeds. This division includes a wide range of plant species, from conifers to flowering plants. Examples of divisions within the Spermatophyta rank include Monocotyledonae, which comprises plants with a single cotyledon, such as grasses and lilies, and Magnoliopsida, a division of flowering plants that includes families like the rose and the apple tree. Another example is Polypodiopsida, a division that includes ferns.",
+    "classes": [
+        {
+            "class_slug": "pinopsida",
+            "class_desc": "Pinopsida, also known as the conifers, is a class of gymnospermous plants that includes trees and shrubs with needle-like leaves and cones."
+        },
+        {
+            "class_slug": "cycadopsida",
+            "class_desc": "Cycadopsida, a class of seed-producing plants that are typically evergreen, cone-bearing, and have a long history dating back to the Mesozoic era."
+        }
+    ]
+}

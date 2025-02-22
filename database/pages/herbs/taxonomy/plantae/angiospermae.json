@@ -1,1 +1,23 @@
-{"title": "angiospermae", "lastmod": "2025-2-10"}
+{
+    "title": "angiospermae",
+    "lastmod": "2025-2-10",
+    "intro": "The angiospermae division rank is a group of flowering plants that produce seeds within a fruit, characterized by having one or more seeds enclosed by the ovary wall. This division is further divided into several subgroups, including the monocotyledonae, which comprises plants with one cotyledon, and the magnoliopsida, a subclass that includes plants with two cotyledons and a four-chambered ovary. Another example of a division within angiospermae is the polypodiopsida, which is actually a division of ferns, not flowering plants, however, it is related to the angiospermae in the broader plant kingdom. The angiospermae division includes a vast range of flowering plant species, from grasses and orchids to oak trees and sunflowers.",
+    "classes": [
+        {
+            "class_slug": "monocotyledonae",
+            "class_desc": "Monocotyledonae is a class of flowering plants that have one cotyledon in their seeds and typically exhibit parallel venation in their leaves."
+        },
+        {
+            "class_slug": "magnoliopsida",
+            "class_desc": "Magnoliopsida is a class of flowering plants that includes approximately 64 families and about 21,000 species, commonly known as dicotyledons."
+        },
+        {
+            "class_slug": "liliopsida",
+            "class_desc": "Liliopsida is a class of monocotyledonous flowering plants, including grasses, orchids, and lilies."
+        },
+        {
+            "class_slug": "petrosaviophyta",
+            "class_desc": "Petrosaviophyta is a small and ancient class of flowering plants that includes the families Petrosaviaceae and Buriadaceae."
+        }
+    ]
+}

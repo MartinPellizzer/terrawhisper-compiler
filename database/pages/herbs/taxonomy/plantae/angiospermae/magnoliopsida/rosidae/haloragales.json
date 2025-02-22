@@ -1,1 +1,11 @@
-{"title": "haloragales", "lastmod": "2025-2-10"}
+{
+    "title": "haloragales",
+    "lastmod": "2025-2-10",
+    "intro": "The taxonomical rank of haloragales is a clade or a group of related plant families within the order. It is a rank used to categorize flowering plants with a specific set of characteristics. The haloragales rank includes several families, such as Grubbiaceae, Haloragaceae, and Myrothamnaceae. Other notable plant families that are not part of the haloragales rank include Orchidaceae, Euphorbiaceae, and Cyperaceae.",
+    "families": [
+        {
+            "family_slug": "haloragaceae",
+            "family_desc": "Haloragaceae is a family of aquatic plants commonly known as water milfoils, native to the southern hemisphere and found in freshwater environments."
+        }
+    ]
+}

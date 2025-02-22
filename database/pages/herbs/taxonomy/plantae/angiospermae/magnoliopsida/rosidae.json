@@ -1,1 +1,99 @@
-{"title": "rosidae", "lastmod": "2025-2-10"}
+{
+    "title": "rosidae",
+    "lastmod": "2025-2-10",
+    "intro": "The rank Rosidae, also known as Rosids, is a clade of flowering plants that share a common ancestor and distinct characteristics. It is one of the two main groups of flowering plants, the other being the Asteridae. Examples of orders within the Rosidae clade include Asparagales, Malpighiales, and Poales, which encompass a diverse range of plants such as orchids, willows, and grasses. The Rosidae clade is characterized by the presence of a specific type of fruit, known as an aggregate fruit, and a variety of growth habits.",
+    "orders": [
+        {
+            "order_slug": "malpighiales",
+            "order_desc": "Malpighiales is a clade within the subclass Rosidae, class Magnoliopsida, subclass Magnoliidae, class Magnoliopsida, division Magnoliophyta, kingdom Plantae."
+        },
+        {
+            "order_slug": "fabales",
+            "order_desc": "Fabales is a suborder of the order Fabales, class Magnoliopsida, subclass Rosidae, division Magnoliophyta, phylum Tracheophyta, kingdom Plantae."
+        },
+        {
+            "order_slug": "oxalidales",
+            "order_desc": "Oxalidales is an order of flowering plants, classified within the clade Rosidae."
+        },
+        {
+            "order_slug": "rosales",
+            "order_desc": "Rosales is a large order of flowering plants that includes roses, plums, and other related families such as Rosaceae, Fabaceae, and Umatrellaceae."
+        },
+        {
+            "order_slug": "sapindales",
+            "order_desc": "Sapindales is a plant order within the clade rosids, which is part of the clade eurosids I in the class Magnoliopsida of the kingdom Plantae."
+        },
+        {
+            "order_slug": "geraniales",
+            "order_desc": "Geraniales belong to the classification of Magnoliophyta, a division of flowering plants."
+        },
+        {
+            "order_slug": "saxifragales",
+            "order_desc": "Saxifragales is an order of flowering plants that belongs to the class Magnoliopsida, subclass Dilleniidae, division Magnoliophyta, and kingdom Plantae."
+        },
+        {
+            "order_slug": "phyllanthales",
+            "order_desc": "Phyllanthales belong to the order Phyllanthales, class Magnoliopsida, subclass Rosidae, superorder Rosanae, class Magnoliopsida, subclass Rosidae, order Malpighiales, subclass Rosidae, superorder Rosanae, order Malpighiales, subclass Rosidae, superorder Malpighianae, order Malpighiales, subclass Rosidae, superorder Malpighianae, order Malpighiales, subclass Rosidae, superorder Malpighianae, class Magnoliopsida, subclass Rosidae, superorder Malpighianae, class Magnoliopsida, subclass Rosidae, superorder Malpighianae, class Magnoliopsida, subclass Rosidae, superorder Malpighianae, subclass Rosidae, superorder Malpighianae, superorder Rosanae, class Magnoliopsida, subclass Rosidae, superorder Malpighianae, superorder Rosanae, subclass Rosidae, superorder Rosanae, superorder Rosanae, superorder Rosanae, superorder Rosanae, superorder Rosanae, subclass Rosidae, superorder Rosanae, class Magnoliopsida, subclass Rosidae, superorder Rosanae, order Rosanae,  belongs to the subclass Rosidae, superorder Rosanae."
+        },
+        {
+            "order_slug": "brunellesiales",
+            "order_desc": "Brunellesiales is an order of flowering plants, classified within the subclass Rosidae of the class Magnoliopsida."
+        },
+        {
+            "order_slug": "zygophyllales",
+            "order_desc": "Zygophyllales is an order of flowering plants that are primarily classified within the clade core eudicots, and are further grouped into the clade rosids in the broader taxonomic classification of angiosperms."
+        },
+        {
+            "order_slug": "haloragales",
+            "order_desc": "Haloragales is an order of flowering plants, belonging to the subclass Rosidae within the class Magnoliopsida."
+        },
+        {
+            "order_slug": "crossosomatales",
+            "order_desc": "Crossosomatales is an order of flowering plants in the class Magnoliopsida, subclass Rosidae, clade Angiosperms, division Magnoliophyta, and kingdom Plantae."
+        },
+        {
+            "order_slug": "carpofyllales",
+            "order_desc": "Carpofyllales belongs to the kingdom Plantae, division Magnoliophyta, class Magnoliopsida, order Caryophyllales."
+        },
+        {
+            "order_slug": "buxales",
+            "order_desc": "Buxales is an order of flowering plants that includes the family Buxaceae and is classified within the subclass Rosidae."
+        },
+        {
+            "order_slug": "aquifoliales",
+            "order_desc": "Aquifoliales is an order of flowering plants in the clade asterids, consisting of about 1,000 species within 17 families."
+        },
+        {
+            "order_slug": "rhizophorales",
+            "order_desc": "Rhizophorales is an order of flowering plants within the subclass Rosidae of the class Magnoliopsida."
+        },
+        {
+            "order_slug": "picramniales",
+            "order_desc": "Picramniales is an order of flowering plants in the subclass Rosidae of the class Magnoliopsida within the division Magnoliophyta."
+        },
+        {
+            "order_slug": "oleales",
+            "order_desc": "Oleales is a subfamily of flowering plants that belongs to the order Lamiales."
+        },
+        {
+            "order_slug": "grossulariales",
+            "order_desc": "Grossulariales is an order of flowering plants in the family Rosaceae, commonly known as the rose family."
+        },
+        {
+            "order_slug": "cynomoriales",
+            "order_desc": "Cynomoriales is an order of flowering plants in the family Ranunculaceae, within the subclass Magnoliidae."
+        },
+        {
+            "order_slug": "polygalales",
+            "order_desc": "Polygalales belong to the kingdom Plantae, division Magnoliophyta, class Magnoliopsida, order Polygalales, family Polygalaceae, genus Polygala, species Polygala vulgaris."
+        },
+        {
+            "order_slug": "waterwortales",
+            "order_desc": "Waterwortales belong to the taxonomic classification of Magnoliophyta, a division of flowering plants."
+        },
+        {
+            "order_slug": "eupomatales",
+            "order_desc": "Eupomatales belongs to the taxonomical classification of plants as an order within the family Celastraceae in the subclass Rosidae of the class Magnoliopsida in the division Magnoliophyta."
+        }
+    ]
+}

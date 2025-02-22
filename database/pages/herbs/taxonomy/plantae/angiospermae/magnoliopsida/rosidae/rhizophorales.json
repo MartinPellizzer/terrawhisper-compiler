@@ -1,1 +1,11 @@
-{"title": "rhizophorales", "lastmod": "2025-2-10"}
+{
+    "title": "rhizophorales",
+    "lastmod": "2025-2-10",
+    "intro": "The Rhizophorales is a taxonomical rank that represents an order of flowering plants. This order is characterized by its unique characteristics and is a classification used to group plants with similar traits and evolutionary histories. The Rhizophorales order includes several families, such as Rhizophoraceae, which is the only family currently recognized in this order. Other families like Orchidaceae, Euphorbiaceae, and Cyperaceae are actually classified under different orders, such as Asparagales, Sapindales, and Poales, respectively.",
+    "families": [
+        {
+            "family_slug": "rhizophoraceae",
+            "family_desc": "Rhizophoraceae is a family of flowering plants in the order Malpighiales, commonly known as mangrove trees."
+        }
+    ]
+}

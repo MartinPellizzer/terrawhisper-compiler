@@ -1,1 +1,11 @@
-{"title": "isoetidae", "lastmod": "2025-2-10"}
+{
+    "title": "isoetidae",
+    "lastmod": "2025-2-10",
+    "intro": "The Isoetidae rank refers to a monotypic order of plants, specifically a group of mosses and liverworts. It is characterized by plants that typically grow in moist, shaded environments and often have distinctive, often elongated leaves. Examples of orders within the Isoetidae rank include the Aspleniophyta and the Takakia, and other orders are not as commonly associated with this group. However, the orders Asparagales, Malpighiales, and Poales are examples of other plant orders, but they do not fall within the Isoetidae rank.",
+    "orders": [
+        {
+            "order_slug": "isoetales",
+            "order_desc": "Isoetales is an order of plants within the division Bryophyta, which is a division of non-vascular, non-flowering plants."
+        }
+    ]
+}

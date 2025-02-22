@@ -1,1 +1,11 @@
-{"title": "picramniales", "lastmod": "2025-2-10"}
+{
+    "title": "picramniales",
+    "lastmod": "2025-2-10",
+    "intro": "Picramniales is an order of flowering plants that belongs to the division Magnoliophyta. This order is a taxonomic rank that groups plant families based on their shared characteristics and evolutionary relationships. The Picramniales order includes several families, such as the Picramniaceae family, which is the only family currently recognized within this order. Other notable families within this order include the Orchidaceae, Euphorbiaceae, and Cyperaceae families.",
+    "families": [
+        {
+            "family_slug": "picramniaceae",
+            "family_desc": "Picramniaceae is a family of flowering plants in the order Picramniales, consisting of approximately 30 species of trees and shrubs native to Central and South America."
+        }
+    ]
+}

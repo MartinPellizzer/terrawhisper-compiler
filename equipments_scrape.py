@@ -34,7 +34,7 @@ driver.maximize_window()
 
 
 
-product_slug = 'measuring-cups'
+product_slug = 'scales'
 # product_query = 'herbalist stirring device' >> at the moment search manually
 
 # search results
@@ -217,7 +217,6 @@ for i, url in enumerate(urls):
         data['reviews_1s'] = ''
         json_write(json_filepath, data)
         
-    break
 
         
         

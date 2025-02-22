@@ -1,1 +1,11 @@
-{"title": "liliidae", "lastmod": "2025-2-10"}
+{
+    "title": "liliidae",
+    "lastmod": "2025-2-10",
+    "intro": "The Liliidae is a clade or a grouping of plants that share common characteristics, specifically defined by the presence of a pericarp, a fusion of the ovary and the receptacle, and often having a trimerous flower structure. This clade includes various plant orders, such as Asparagales, which comprises lilies and asparagus, Malpighiales, a diverse group of flowering plants, and Poales, a monocot order including grasses and sedges. The Liliidae rank is part of a broader classification system and serves to group plants based on their shared morphological and anatomical features. By recognizing commonalities within the Liliidae, botanists can better understand the evolutionary relationships among different plant species.",
+    "orders": [
+        {
+            "order_slug": "liliales",
+            "order_desc": "Liliales is an order within the class Liliopsida, which is part of the subclass Liliidae, and is then classified under the division Magnoliophyta, class Magnoliopsida, subclass Liliidae, superorder Lilianae, and class Liliopsida."
+        }
+    ]
+}

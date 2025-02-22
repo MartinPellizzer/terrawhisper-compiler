@@ -1,1 +1,27 @@
-{"title": "pinopsida", "lastmod": "2025-2-10"}
+{
+    "title": "pinopsida",
+    "lastmod": "2025-2-10",
+    "intro": "The rank Pinopsida refers to a division of coniferous plants that includes species such as pine, spruce, and fir trees, characterized by needle-like leaves and cone-like reproductive structures. Pinopsida plants are typically evergreen, meaning they retain their leaves year-round, and often have adapted to survive in harsh, temperate environments. This division is distinct from others such as Commelinidae, which includes plants like bamboo and palms, and Rosidae, which encompasses a wide range of flowering plants including roses and apples. In contrast, Asteridae is a division that includes plants like sunflowers and daisies, all of which are characterized by their showy, flower-like reproductive structures.",
+    "subclasses": [
+        {
+            "subclass_slug": "pinidae",
+            "subclass_desc": "Pinidae: a subclass of coniferous plants within the class Pinopsida, characterized by needle-like leaves and cones that produce seeds."
+        },
+        {
+            "subclass_slug": "gnetidae",
+            "subclass_desc": "Gnetidae is a small and ancient subclass of gymnosperms that includes conifers, cycads, and gnetophytes, characterized by their unique and diverse reproductive structures."
+        },
+        {
+            "subclass_slug": "coniferae",
+            "subclass_desc": "Coniferae is a subclass of gymnosperms characterized by cone-bearing, evergreen trees and shrubs."
+        },
+        {
+            "subclass_slug": "ginkgoidae",
+            "subclass_desc": "Ginkgoidae is a subclass of the taxonomical classification of plants that includes the single living species Ginkgo biloba and its extinct relatives."
+        },
+        {
+            "subclass_slug": "austrobaileyanae",
+            "subclass_desc": "Austrobaileyanae is a subclass of gymnosperms within the taxonomic classification of plants, characterized by seed-producing plants with vascular tissues."
+        }
+    ]
+}

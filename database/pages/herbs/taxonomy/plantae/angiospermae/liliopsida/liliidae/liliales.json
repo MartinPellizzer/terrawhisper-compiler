@@ -1,1 +1,19 @@
-{"title": "liliales", "lastmod": "2025-2-10"}
+{
+    "title": "liliales",
+    "lastmod": "2025-2-10",
+    "intro": "The liliales rank is an order of flowering plants, characterized by flowers typically arranged in a truss, often with three petals and three sepals, and a distinctively shaped fruit or capsule. The liliales order includes a diverse range of plant families, such as the Orchidaceae, which comprises the orchids, and the Liliaceae, which includes the lilies and hyacinths. Other notable families within the liliales order include the Iridaceae, which contains the irises, and the Amaryllidaceae, which includes the daffodils and amaryllis. Some families, like the Euphorbiaceae and Cyperaceae, are not typically classified within the liliales order, but are instead found in other orders, such as the Sapindales and Poales respectively.",
+    "families": [
+        {
+            "family_slug": "colchicaceae",
+            "family_desc": "Colchicaceae, commonly known as the autumn crocus family, is a group of flowering plants in the order Asparagales."
+        },
+        {
+            "family_slug": "liliaceae",
+            "family_desc": "Liliaceae, commonly known as the lily or lily family, is a large and diverse group of flowering plants that includes over 90 genera and approximately 600 species."
+        },
+        {
+            "family_slug": "melanthiaceae",
+            "family_desc": "Melanthiaceae is a family of flowering plants commonly known as the mayapple or mayflower family, which includes over 100 species of plants such as mayapples, mayflowers, and bellworts."
+        }
+    ]
+}

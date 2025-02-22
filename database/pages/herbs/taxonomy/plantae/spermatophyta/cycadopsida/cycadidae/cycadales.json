@@ -1,1 +1,15 @@
-{"title": "cycadales", "lastmod": "2025-2-10"}
+{
+    "title": "cycadales",
+    "lastmod": "2025-2-10",
+    "intro": "The cycadales rank is a taxonomical order of plants, commonly known as palm-like cycads, characterized by their palm-like or tree-like appearance and cone-like reproductive structures. This order includes a diverse range of species, often found in tropical and subtropical regions. The cycadales order comprises several families, such as Stangeriaceae, Zamiaceae, and Cycadaceae, although not all are commonly mentioned like the family Cycas, and in other regions like Australia, the family Cycadaceae and Stangeriaceae are rare. Examples of families that do not belong to the cycadales order are orchidaceae, euphorbiaceae, and cyperaceae, which are part of different taxonomical orders.",
+    "families": [
+        {
+            "family_slug": "cycadaceae",
+            "family_desc": "Cycadaceae is a family of seed plants, also known as cycads, that are characterized by their large, palm-like leaves and cones that produce seeds."
+        },
+        {
+            "family_slug": "zamiaceae",
+            "family_desc": "Zamiaceae is a family of flowering plants, commonly known as cycads, that are primarily characterized by their palm-like leaves and cones."
+        }
+    ]
+}

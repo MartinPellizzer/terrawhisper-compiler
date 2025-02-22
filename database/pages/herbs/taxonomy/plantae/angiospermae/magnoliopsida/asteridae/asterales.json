@@ -1,1 +1,87 @@
-{"title": "asterales", "lastmod": "2025-2-10"}
+{
+    "title": "asterales",
+    "lastmod": "2025-2-10",
+    "intro": "The rank asterales is a taxonomic order that consists of flowering plants, specifically those that are part of the larger clade known as the asterids. This order encompasses a diverse group of plants, including the asteraceae family, which is commonly known as the daisy or sunflower family. In contrast, other families such as orchidaceae (orchids), euphorbiaceae (spurges), and cyperaceae (sedges) belong to different orders and are not part of the asterales. The plants within the asterales order often display distinct features such as composite flowers, where multiple tiny flowers are clustered together.",
+    "families": [
+        {
+            "family_slug": "asteraceae",
+            "family_desc": "Asteraceae is a large and diverse family of flowering plants commonly known as the daisy or sunflower family."
+        },
+        {
+            "family_slug": "cannabaceae",
+            "family_desc": "Cannabaceae is a family of flowering plants commonly known as the hemp or cannabis family."
+        },
+        {
+            "family_slug": "goodeniaceae",
+            "family_desc": "Goodeniaceae is a family of flowering plants in the order Asterales, commonly known as the goodenia or verbenaceae-like family."
+        },
+        {
+            "family_slug": "rhamnaceae",
+            "family_desc": "Rhamnaceae is a family of flowering plants commonly known as the buckthorn family, characterized by their small, often fragrant flowers and typically woody shrubs or small trees."
+        },
+        {
+            "family_slug": "menyanthaceae",
+            "family_desc": "Menyanthaceae is a family of aquatic plants commonly known as the buckbean or bog bean family."
+        },
+        {
+            "family_slug": "alseuosmiaceae",
+            "family_desc": "Alseuosmiaceae is a family of flowering plants in the order Apiales, commonly known as the \"daphne family\" due to their similar characteristics."
+        },
+        {
+            "family_slug": "calyceraceae",
+            "family_desc": "Calyceraceae is a family of flowering plants in the order Asterales, commonly known as the roserayed or rockroses."
+        },
+        {
+            "family_slug": "columelliaceae",
+            "family_desc": "Columelliaceae is a family of flowering plants in the order Ericales."
+        },
+        {
+            "family_slug": "siparunaceae",
+            "family_desc": "Siparunaceae is a family of flowering plants in the order Laurales, native to tropical regions of the world and characterized by its aromatic leaves and small, white flowers."
+        },
+        {
+            "family_slug": "stylidiaceae",
+            "family_desc": "Stylidiaceae, also known as triggerplants, is a family of flowering plants that are native to Australia and New Zealand, characterized by their unique trigger-like mechanisms and bell-shaped flowers."
+        },
+        {
+            "family_slug": "sphaerosepalaceae",
+            "family_desc": "Sphaerosepalaceae is a small family of flowering plants in the order Aquifoliales, consisting of trees and shrubs native to tropical regions of Asia and the Pacific."
+        },
+        {
+            "family_slug": "phellinaceae",
+            "family_desc": "Phellinaceae is a family of flowering plants in the order Celastrales."
+        },
+        {
+            "family_slug": "campynemataceae",
+            "family_desc": "Campynemataceae is a family of flowering plants in the order Asparagales, commonly known as the \"twistflower family\"."
+        },
+        {
+            "family_slug": "carlemanniaceae",
+            "family_desc": "Carlemanniaceae is a small family of flowering plants in the order Lamiales, native to eastern Asia."
+        },
+        {
+            "family_slug": "grubbiaceae",
+            "family_desc": "Grubbiaceae is a family of flowering plants in the order Asparagales, commonly known as the spider orchids."
+        },
+        {
+            "family_slug": "lacistemataceae",
+            "family_desc": "Lacistemataceae is a family of flowering plants in the order Malpighiales, consisting of 5-10 species of climbing or scrambling shrubs native to Central and South America."
+        },
+        {
+            "family_slug": "mitrastemonaceae",
+            "family_desc": "Mitrastemonaceae is a family of flowering plants, commonly known as the dodder-laurel family, native to Australia and New Caledonia."
+        },
+        {
+            "family_slug": "petenaeaceae",
+            "family_desc": "Petenaeaceae is a family of flowering plants in the order Lamiales, commonly known as the false foxglove family."
+        },
+        {
+            "family_slug": "ecdeiocoleaceae",
+            "family_desc": "Ecdeiocoleaceae is a family of flowering plants in the order Restionales, native to Australia and New Zealand."
+        },
+        {
+            "family_slug": "plocospermataceae",
+            "family_desc": "Plocospermataceae is a family of flowering plants in the order Celastrales, commonly known as the plocospermataceae family."
+        }
+    ]
+}

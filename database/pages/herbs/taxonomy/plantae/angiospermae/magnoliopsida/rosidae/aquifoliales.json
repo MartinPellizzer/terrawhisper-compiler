@@ -1,0 +1,15 @@
+{
+    "title": "aquifoliales",
+    "lastmod": "2025-2-22",
+    "intro": "The order Aquifoliales is a taxonomical rank that groups plants with similar characteristics and evolutionary relationships. It is a distinct order within the plant kingdom, characterized by its unique features and adaptations. The Aquifoliales order includes several plant families, such as the Holly family (Aquifoliaceae) and the Star anise family (Illigianaceae), but also other families like the Orchidaceae, Euphorbiaceae, and Cyperaceae have been placed within this order in some classifications, although this may not be universally agreed upon. Further research is needed to confirm the classification and relationships of these families within the Aquifoliales order.",
+    "families": [
+        {
+            "family_slug": "garryaceae",
+            "family_desc": "Garryaceae is a family of flowering plants in the order Aquifoliales, native to the Northern Hemisphere and characterized by evergreen shrubs or small trees with leaves often having a distinctive shape."
+        },
+        {
+            "family_slug": "pentaphragmataceae",
+            "family_desc": "Pentaphragmataceae is a family of flowering plants in the order Aquifoliales, characterized by their small, star-shaped flowers."
+        }
+    ]
+}

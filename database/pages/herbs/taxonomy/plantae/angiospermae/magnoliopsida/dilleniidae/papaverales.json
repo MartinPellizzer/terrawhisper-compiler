@@ -1,1 +1,15 @@
-{"title": "papaverales", "lastmod": "2025-2-10"}
+{
+    "title": "papaverales",
+    "lastmod": "2025-2-10",
+    "intro": "The papaverales is an order of flowering plants, characterized by its distinct arrangement of flowers and leaves. This order includes several families, such as Papaveraceae, the poppy family, which produces showy, papery flowers. Other notable families within this order are the Fumariaceae, the Ranzaniaceae, and the Pteridophoraceae. The papaverales order also encompasses families like the Dendrobioraceae is not but the Dilleniaceae is and the Haptanthaceae.",
+    "families": [
+        {
+            "family_slug": "papaveraceae",
+            "family_desc": "Papaveraceae, commonly known as the poppy family, is a diverse group of flowering plants that includes poppies, meconopsis, and other species."
+        },
+        {
+            "family_slug": "caricaceae",
+            "family_desc": "Caricaceae is a family of flowering plants commonly known as papaya and guava relatives, native to tropical and subtropical regions worldwide."
+        }
+    ]
+}

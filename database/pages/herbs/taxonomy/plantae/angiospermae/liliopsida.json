@@ -1,1 +1,19 @@
-{"title": "liliopsida", "lastmod": "2025-2-10"}
+{
+    "title": "liliopsida",
+    "lastmod": "2025-2-10",
+    "intro": "The liliopsida rank, also known as monocots, refers to a division of flowering plants that have one cotyledon in their seeds. This division is characterized by leaves with parallel veins and flowers with three or six parts. Examples of divisions within the liliopsida group include Commelinidae, which includes families such as the Commelinaceae and the Juncaceae, and Rosidae and Asteridae, which belong to other divisions and are not classified as monocots. Overall, the liliopsida division includes a wide range of plant species, from grasses to orchids.",
+    "subclasses": [
+        {
+            "subclass_slug": "alismatidae",
+            "subclass_desc": "Alismatidae is a subclass of flowering plants that includes water-loving species such as water lilies and cattails."
+        },
+        {
+            "subclass_slug": "liliidae",
+            "subclass_desc": "Liliidae is a subclass of flowering plants that includes lilies, orchids, and asparagus, characterized by flowers typically having three petals and three sepals, and seeds produced on a fleshy or leathery fruit."
+        },
+        {
+            "subclass_slug": "monocotyledonae",
+            "subclass_desc": "Monocotyledonae, also known as monocots, are a subclass of flowering plants that have seeds with a single cotyledon or seed leaf."
+        }
+    ]
+}

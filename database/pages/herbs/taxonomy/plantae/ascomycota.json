@@ -1,1 +1,11 @@
-{"title": "ascomycota", "lastmod": "2025-2-10"}
+{
+    "title": "ascomycota",
+    "lastmod": "2025-2-10",
+    "intro": "The Ascomycota division is a taxonomical rank that encompasses a group of fungi characterized by the production of ascospores, typically in a fruiting structure called an ascocarp. This division includes a wide variety of fungi, such as molds, yeasts, and lichens. The Ascomycota division is a significant group within the fungal kingdom, with examples of divisions including Monocotyledonae, which is actually a division of flowering plants, but Ascomycota is not the same, and examples such as Magnoliopsida and Polypodiopsida which are also divisions of flowering and fern plants respectively.",
+    "classes": [
+        {
+            "class_slug": "pezizomycetes",
+            "class_desc": "Pezizomycetes is a class of fungi that includes ascomycetes with peziza-like ascocarps, commonly known as cup fungi or earthstars."
+        }
+    ]
+}

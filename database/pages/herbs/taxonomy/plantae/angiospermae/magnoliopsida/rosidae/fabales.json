@@ -1,1 +1,35 @@
-{"title": "fabales", "lastmod": "2025-2-10"}
+{
+    "title": "fabales",
+    "lastmod": "2025-2-10",
+    "intro": "The fabales rank is an order of flowering plants, specifically a clade of legumes that includes a diverse group of plants. It is characterized by having flowers with a distinctive structure and often producing seeds in pods. Some examples of families within the fabales order include Fabaceae, which includes beans and peas, but also the families Orchidaceae (orchids), Euphorbiaceae (spurges and poinsettias), and Cyperaceae (sedges and rushes), although these latter three are not actually part of the legume order. The fabales order is a distinct and well-defined group within the plant kingdom, containing a wide range of species that have adapted to various environments.",
+    "families": [
+        {
+            "family_slug": "fabaceae",
+            "family_desc": "Fabaceae, also known as the legume family, is a large and diverse family of flowering plants that includes over 19,000 species of trees, shrubs, and climbing plants."
+        },
+        {
+            "family_slug": "polygalaceae",
+            "family_desc": "Polygalaceae, a family of flowering plants commonly known as milkworts, comprises approximately 2,000 species worldwide, primarily found in tropical and subtropical regions."
+        },
+        {
+            "family_slug": "vochysiaceae",
+            "family_desc": "Vochysiaceae is a family of flowering plants in the order Myrtales, commonly known as the triggerplants or hojas de lluvia."
+        },
+        {
+            "family_slug": "boryaceae",
+            "family_desc": "Boryaceae is a small family of flowering plants in the order Asparagales, commonly known as the grass tree or tree daisy family."
+        },
+        {
+            "family_slug": "akaniaceae",
+            "family_desc": "Akaniaceae is a family of flowering plants in the order Sapindales, commonly known as the Madagascar plum family."
+        },
+        {
+            "family_slug": "caryocaraceae",
+            "family_desc": "Caryocaraceae is a family of flowering plants in the order Caryophyllales, commonly known as the white-beam or cupped-cup trees."
+        },
+        {
+            "family_slug": "surianaceae",
+            "family_desc": "Surianaceae is a family of flowering plants in the order Fabales, commonly known as the velvet bean family."
+        }
+    ]
+}

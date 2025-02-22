@@ -1,1 +1,11 @@
-{"title": "bryophyta", "lastmod": "2025-2-10"}
+{
+    "title": "bryophyta",
+    "lastmod": "2025-2-10",
+    "intro": "The division Bryophyta is a taxonomic rank that encompasses mosses and other non-vascular plants. It is a division of land plants that typically reproduce via spores and lack true leaves, roots, and stems. Bryophyta division includes a wide range of species such as the common moss, Sphagnum, and the liverwort, Marchantiophyta. Other divisions include Monocotyledonae, which comprises plants with one cotyledon, such as grasses and lilies, Magnoliopsida, a division of flowering plants including roses and apples, and Polypodiopsida, a division of ferns.",
+    "classes": [
+        {
+            "class_slug": "sphagnopsida",
+            "class_desc": "Sphagnopsida is a class of mosses commonly known as peat mosses, characterized by their ability to thrive in acidic, oxygen-poor environments."
+        }
+    ]
+}

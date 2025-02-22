@@ -1,1 +1,23 @@
-{"title": "piperales", "lastmod": "2025-2-10"}
+{
+    "title": "piperales",
+    "lastmod": "2025-2-10",
+    "intro": "The Piperales is a taxonomical rank within the plant kingdom, specifically a large order of flowering plants that are primarily found in tropical and subtropical regions. This order is characterized by its distinctive flowers, which often have a unique combination of features such as bilateral symmetry and a characteristic whorled arrangement of stamens. The Piperales order contains several notable families, including the Aristolochiaceae, which includes the birthwort family, as well as the Piperaceae and Saururaceae. Other families within this order include the Nyctaginaceae, and the Hernandiaceae",
+    "families": [
+        {
+            "family_slug": "rafflesiaceae",
+            "family_desc": "Rafflesiaceae is a family of parasitic flowering plants that are found in tropical rainforests, particularly in Southeast Asia."
+        },
+        {
+            "family_slug": "burmanniaceae",
+            "family_desc": "Burmanniaceae is a family of aquatic plants in the order Dioscoreales, commonly known as the corkscrew plants."
+        },
+        {
+            "family_slug": "aristolochiaceae",
+            "family_desc": "Aristolochiaceae is a family of flowering plants commonly known as Dutchman's pipes or birthworts, which are native to the tropical and subtropical regions of the world."
+        },
+        {
+            "family_slug": "cephalotaceae",
+            "family_desc": "Cephalotaceae is a family of plants commonly known as snake beans or snakeworts, a group of succulent, terrestrial herbs native to Australia."
+        }
+    ]
+}

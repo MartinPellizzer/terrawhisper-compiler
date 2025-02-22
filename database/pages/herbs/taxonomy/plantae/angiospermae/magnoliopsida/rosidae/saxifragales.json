@@ -1,1 +1,27 @@
-{"title": "saxifragales", "lastmod": "2025-2-10"}
+{
+    "title": "saxifragales",
+    "lastmod": "2025-2-10",
+    "intro": "The Saxifragales rank is an order of flowering plants, characterized by their diverse range of growth habits and reproductive strategies. This order includes a variety of families, such as Saxifragaceae, to which its name refers, as well as the families Crassulaceae, Grossulariaceae, and others. The Saxifragales order also encompasses the families Orchidaceae, known for their intricate and showy flowers, Euphorbiaceae, which includes the spurge and poinsettia, and Cyperaceae, a family of sedges and rushes. These families within the Saxifragales order showcase the order's unique and varied diversity of plant life.",
+    "families": [
+        {
+            "family_slug": "crassulaceae",
+            "family_desc": "Crassulaceae is a family of flowering plants commonly known as the stonecrop or orpine family, characterized by fleshy leaves and stems."
+        },
+        {
+            "family_slug": "saxifragaceae",
+            "family_desc": "Saxifragaceae is a family of flowering plants commonly known as saxifrage or rock saxifrages, which are generally found in damp, woodland, or rocky areas."
+        },
+        {
+            "family_slug": "penthoraceae",
+            "family_desc": "Penthoraceae is a family of plants in the order Caryophyllales, commonly known as the \"beautyberry\" family, which includes a single genus, Penthorum."
+        },
+        {
+            "family_slug": "tetracarpaeaceae",
+            "family_desc": "Tetracarpaeaceae is a family of flowering plants in the order Ericales."
+        },
+        {
+            "family_slug": "ticodendraceae",
+            "family_desc": "Ticodendraceae is a small family of flowering plants, native to Mexico and Central America, characterized by their unique, tree-like habit and showy white flowers."
+        }
+    ]
+}

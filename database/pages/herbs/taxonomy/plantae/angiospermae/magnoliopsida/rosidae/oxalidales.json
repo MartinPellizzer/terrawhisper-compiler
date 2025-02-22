@@ -1,1 +1,51 @@
-{"title": "oxalidales", "lastmod": "2025-2-10"}
+{
+    "title": "oxalidales",
+    "lastmod": "2025-2-10",
+    "intro": "The rank of Oxalidales is a botanical order, which is a taxonomic rank used to group plants with shared characteristics and evolutionary relationships. It is a level of classification that groups related families together. Oxalidales includes several plant families, such as Orchidaceae, which comprises orchids, and Euphorbiaceae, which includes spurge and poinsettia. Other examples of families within the Oxalidales order include the Cunoniaceae, Oxalidaceae and the Staphylaceae, and the family Cyperaceae, which comprises sedge and rushes.",
+    "families": [
+        {
+            "family_slug": "connaraceae",
+            "family_desc": "Connaraceae is a family of flowering plants commonly known as staff trees or varnish trees, native to tropical and subtropical regions around the world."
+        },
+        {
+            "family_slug": "ochnaceae",
+            "family_desc": "Ochnaceae is a family of flowering plants commonly known as the chaffwood or polypetalous families, which are primarily found in tropical and subtropical regions."
+        },
+        {
+            "family_slug": "oxalidaceae",
+            "family_desc": "Oxalidaceae is a family of flowering plants commonly known as woodsorrels, consisting of about 800 species of annual and perennial plants."
+        },
+        {
+            "family_slug": "elaeocarpaceae",
+            "family_desc": "Elaeocarpaceae is a family of flowering plants commonly known as the sloe or blueberry family, native to Australia, New Zealand, and Southeast Asia."
+        },
+        {
+            "family_slug": "euphroniaceae",
+            "family_desc": "Euphroniaceae is an extinct family of flowering plants that is closely related to the family Proteaceae."
+        },
+        {
+            "family_slug": "cunoniaceae",
+            "family_desc": "Cunoniaceae is a family of flowering plants in the order Oxalidales, commonly known as the family of native Australian waratahs and their allies."
+        },
+        {
+            "family_slug": "bonnetiaceae",
+            "family_desc": "Bonnetiaceae is a family of flowering plants in the order Malpighiales, characterized by their showy flowers and tropical or subtropical habitats."
+        },
+        {
+            "family_slug": "pentadiplandraceae",
+            "family_desc": "Pentadiplandraceae is a family of flowering plants in the order Brassicales, native to tropical Africa."
+        },
+        {
+            "family_slug": "geissolomataceae",
+            "family_desc": "Geissolomataceae is a family of flowering plants in the order Celastrales, native to eastern Asia."
+        },
+        {
+            "family_slug": "aphanopetalaceae",
+            "family_desc": "Aphanopetalaceae is a family of flowering plants in the order Brassicales, native to southeastern Australia."
+        },
+        {
+            "family_slug": "ctenolophonaceae",
+            "family_desc": "Ctenolophonaceae is a small family of flowering plants in the order Oxalidales, native to tropical Africa."
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "title": "commelinales",
+    "lastmod": "2025-2-22",
+    "intro": "The taxonomic rank of Commelinales is an order, which is a level of classification that groups related families of flowering plants based on shared characteristics. This order comprises a diverse range of plant families, including the Orchidaceae, known for its vast array of orchid species, and the Euphorbiaceae, which includes the poinsettia and the spurge. The Cyperaceae, commonly known as the sedge family, also falls within the Commelinales order. Commelinales is a relatively small order, consisting of approximately 25 families and over 3,000 species, but it plays a significant role in the diversity of plant life.",
+    "families": [
+        {
+            "family_slug": "haemodoraceae",
+            "family_desc": "Haemodoraceae is a family of flowering plants commonly known as bloodflowers or dynasty flowers, native to Australia, New Zealand, and parts of Asia."
+        },
+        {
+            "family_slug": "xyridaceae",
+            "family_desc": "Xyridaceae, commonly known as the yellow-eyed-grass family, is a small family of flowering plants found in tropical and subtropical regions of the Americas."
+        },
+        {
+            "family_slug": "commelinaceae",
+            "family_desc": "Commelinaceae is a family of flowering plants commonly known as dayflowers or spiderworts, characterized by their often colorful and distinctive flowers."
+        },
+        {
+            "family_slug": "stemonaceae",
+            "family_desc": "Stemonaceae is a family of flowering plants in the order Pandanales, characterized by having small, often white or greenish flowers and often containing toxic compounds."
+        },
+        {
+            "family_slug": "eriocaulaceae",
+            "family_desc": "Eriocaulaceae is a family of flowering plants commonly known as pipeworts, which are terrestrial, aquatic, or epiphytic herbs typically found in tropical and subtropical regions."
+        },
+        {
+            "family_slug": "pandaceae",
+            "family_desc": "Pandaceae is a family of flowering plants in the order Malpighiales, characterized by simple leaves and small, greenish-yellow flowers."
+        },
+        {
+            "family_slug": "pontederiaceae",
+            "family_desc": "Pontederiaceae is a family of aquatic plants commonly known as pickerelweeds, comprising about 15 genera and 80 species."
+        },
+        {
+            "family_slug": "tofieldiaceae",
+            "family_desc": "Tofieldiaceae is a family of aquatic monocotyledonous plants commonly known as bog asphodels or marsh asphodels."
+        },
+        {
+            "family_slug": "cannaceae",
+            "family_desc": "Cannaceae is a family of flowering plants in the order Cannales, commonly known as the canna family."
+        },
+        {
+            "family_slug": "tovariaceae",
+            "family_desc": "Tovariaceae is a family of flowering plants in the order Malpighiales, commonly known as the water chestnut family."
+        },
+        {
+            "family_slug": "lowiaceae",
+            "family_desc": "Lowiaceae is a family of flowering plants in the order Lamiales, commonly known as the Lobster Claw or Lowi family."
+        }
+    ]
+}

@@ -1,1 +1,11 @@
-{"title": "escalloniales", "lastmod": "2025-2-10"}
+{
+    "title": "escalloniales",
+    "lastmod": "2025-2-10",
+    "intro": "The taxonomical rank 'Escalloniales' refers to an order of flowering plants, specifically a group of related families within the broader plant kingdom. This order encompasses a variety of plant families that share similar characteristics and evolutionary relationships. The Escalloniales order includes the families Orchidaceae, Euphorbiaceae, and Cyperaceae, among others, each featuring distinct plant structures and growth habits. By grouping these families together, botanists can better understand the diversity and interconnectedness of plant life within this order.",
+    "families": [
+        {
+            "family_slug": "escalloniaceae",
+            "family_desc": "Escalloniaceae is a family of flowering plants in the order Escalloniales, native to the temperate regions of the Southern Hemisphere."
+        }
+    ]
+}

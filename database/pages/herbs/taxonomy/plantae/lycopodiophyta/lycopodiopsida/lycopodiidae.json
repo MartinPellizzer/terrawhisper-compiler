@@ -1,1 +1,23 @@
-{"title": "lycopodiidae", "lastmod": "2025-2-10"}
+{
+    "title": "lycopodiidae",
+    "lastmod": "2025-2-10",
+    "intro": "The Lycopodiidae rank refers to a suborder of plants within the Lycopodiopsida class, characterized by its distinct features and evolutionary characteristics. This suborder primarily includes plants with simple, scale-like leaves and a vascular system that lacks true xylem and phloem. Examples of orders within the Lycopodiidae suborder include Hymnales and Selaginellales, though some sources group these orders differently and also include the following orders: asparagales, malpighiales, and poales are actually found in different suborders within the class Magnoliopsida, a different class from the Lycopodiidae.",
+    "orders": [
+        {
+            "order_slug": "lycopodiales",
+            "order_desc": "Lycopodiales belongs to the division Pteridophyta, class Lycopodiopsida, subclass Lycopodiidae, order Lycopodiales, family Lycopodiaceae, genus Lycopodium."
+        },
+        {
+            "order_slug": "selaginellales",
+            "order_desc": "Selaginellales belongs to the division Pteridophyta, class Lycopodiopsida, subclass Lycopodiidae, order Selaginellales."
+        },
+        {
+            "order_slug": "psilotales",
+            "order_desc": "Psilotales belongs to the division Pteridophyta, class Psilotopsida, and order Psilotales."
+        },
+        {
+            "order_slug": "matoniales",
+            "order_desc": "Matoniales is an order of flowering plants in the subclass Dilleniidae of the class Magnoliopsida."
+        }
+    ]
+}

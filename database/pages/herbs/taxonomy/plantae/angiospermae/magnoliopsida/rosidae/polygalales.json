@@ -1,1 +1,11 @@
-{"title": "polygalales", "lastmod": "2025-2-10"}
+{
+    "title": "polygalales",
+    "lastmod": "2025-2-10",
+    "intro": "The rank of Polygalales is an order of flowering plants, characterized by a distinct set of characteristics and shared ancestry. It is a group of plants that are closely related and share common traits, often defined by their leaf structure, flower morphology, and reproductive habits. Within the order Polygalales, several families can be found, including Polygalaceae, the family of milkworts, as well as other lesser-known families. Other notable families within this order include the relatively well-known Euphorbiaceae, the spurge family, and the cyperaceous family Cyperaceae.",
+    "families": [
+        {
+            "family_slug": "krameriaceae",
+            "family_desc": "Krameriaceae is a family of flowering plants commonly known as kramerias or rattleweed."
+        }
+    ]
+}

@@ -1,1 +1,95 @@
-{"title": "theales", "lastmod": "2025-2-10"}
+{
+    "title": "theales",
+    "lastmod": "2025-2-10",
+    "intro": "The Theales rank is an order of flowering plants that includes a diverse group of species, primarily found in tropical and subtropical regions. This order is characterized by a variety of growth forms, including trees, shrubs, and herbs, and is often used as a diagnostic feature in plant identification. Some examples of families within the Theales order include the Orchidaceae, which comprises over 30,000 species of orchids, the Euphorbiaceae, which includes the poinsettia and the rubber tree, and the Cyperaceae, which is a large family of sedge plants. The Theales order is a key component of the plant kingdom, and its diverse members play important roles in ecosystems around the world.",
+    "families": [
+        {
+            "family_slug": "brassicaceae",
+            "family_desc": "Brassicaceae is a family of flowering plants commonly known as mustard or cabbage family, which includes species such as broccoli, cauliflower, kale, and cabbage."
+        },
+        {
+            "family_slug": "theaceae",
+            "family_desc": "Theaceae is a family of flowering plants commonly known as the tea family, which includes over 40 genera and more than 1,600 species of deciduous shrubs and trees."
+        },
+        {
+            "family_slug": "pentaphylacaceae",
+            "family_desc": "Pentaphylacaceae is a family of flowering plants in the order Ericales, native to tropical and subtropical regions of Asia and Australia."
+        },
+        {
+            "family_slug": "actinidiaceae",
+            "family_desc": "Actinidiaceae is a family of flowering plants commonly known as the Chinese cherries or actinidia, which includes the kiwifruit and other related species."
+        },
+        {
+            "family_slug": "stemonuraceae",
+            "family_desc": "Stemonuraceae is a family of flowering plants in the order Aquifoliales, commonly known as the sladea or quassia family."
+        },
+        {
+            "family_slug": "olacaceae",
+            "family_desc": "Olacaceae is a family of flowering plants commonly known as the sapindales order, also referred to as the medlars and mysticines."
+        },
+        {
+            "family_slug": "microteaceae",
+            "family_desc": "Microteaceae is a family of flowering plants in the order Ericales."
+        },
+        {
+            "family_slug": "stachyuraceae",
+            "family_desc": "Stachyuraceae is a small family of flowering plants in the order Crossosomatales, commonly known as the aralioid or Stachyuraceae family."
+        },
+        {
+            "family_slug": "mayacaceae",
+            "family_desc": "Mayacaceae is a family of flowering plants in the order Poales, commonly known as the Maygrass family."
+        },
+        {
+            "family_slug": "achatocarpaceae",
+            "family_desc": "Achatocarpaceae is a family of flowering plants, commonly known as the needle bush family."
+        },
+        {
+            "family_slug": "trimeniaceae",
+            "family_desc": "Trimeniaceae is a family of flowering plants in the order Laurales, native to the tropical regions of the Pacific and Indian Oceans."
+        },
+        {
+            "family_slug": "alzateaceae",
+            "family_desc": "Alzateaceae is a family of flowering plants in the order Lamiales, commonly known as the water-primrose family."
+        },
+        {
+            "family_slug": "centroplacaceae",
+            "family_desc": "Centroplacaceae is a family of flowering plants in the order Malpighiales, commonly known as the cabbage palm family."
+        },
+        {
+            "family_slug": "gigaspermaceae",
+            "family_desc": "Gigaspermaceae is a family of small, terrestrial mosses, commonly found in acidic bogs and heathlands, native to Australia and New Zealand."
+        },
+        {
+            "family_slug": "rhabdodendraceae",
+            "family_desc": "Rhabdodendraceae is a family of flowering plants in the order Myrtales, native to Central and South America."
+        },
+        {
+            "family_slug": "strasburgeriaceae",
+            "family_desc": "Strasburgeriaceae is a family of aquatic plants in the order Najadales."
+        },
+        {
+            "family_slug": "barbeuiaceae",
+            "family_desc": "Barbeuiaceae is a family of flowering plants in the order Celastrales, native to tropical regions of Asia and Africa."
+        },
+        {
+            "family_slug": "tapisciaceae",
+            "family_desc": "Tapisciaceae is a family of flowering plants in the order Huerteales, native to eastern Asia."
+        },
+        {
+            "family_slug": "tetrameristaceae",
+            "family_desc": "Tetrameristaceae is a family of flowering plants in the order Ericales, native to tropical regions of Central and South America."
+        },
+        {
+            "family_slug": "lepidobotryaceae",
+            "family_desc": "Lepidobotryaceae is a family of flowering plants in the order Oxalidales, commonly found in tropical Africa."
+        },
+        {
+            "family_slug": "physenaceae",
+            "family_desc": "Physenaceae is a family of carnivorous plants, commonly known as bladderworts, found in aquatic environments."
+        },
+        {
+            "family_slug": "tiganophytaceae",
+            "family_desc": "Tiganophytaceae is a family of flowering plants in the order Santalales, commonly known as parasitic or hemiparasitic plants."
+        }
+    ]
+}

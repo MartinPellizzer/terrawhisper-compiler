@@ -1,1 +1,15 @@
-{"title": "crossosomatales", "lastmod": "2025-2-10"}
+{
+    "title": "crossosomatales",
+    "lastmod": "2025-2-10",
+    "intro": "Crossosomatales is an order of flowering plants, characterized by a small to moderate number of species, often with unique or specialized growth habits. This order includes a diverse range of plant families, such as Staphidiaceae, Crossosomataceae, and Strasburgeriaceae. Some notable exceptions to the typical crossosomatalean families include Orchidaceae, Euphorbiaceae, and Cyperaceae, which are often classified in other orders due to their distinct characteristics. Crossosomatales is generally a group of plants found in the Americas, with some species extending to parts of Africa and Asia.",
+    "families": [
+        {
+            "family_slug": "staphyleaceae",
+            "family_desc": "Staphyleaceae is a family of flowering plants commonly known as bladder senna or hoptree, which includes deciduous shrubs and small trees native to Asia and North America."
+        },
+        {
+            "family_slug": "clethraceae",
+            "family_desc": "Clethraceae is a family of flowering plants in the order Ericales, commonly known as the sweetbay or pepperbush family."
+        }
+    ]
+}

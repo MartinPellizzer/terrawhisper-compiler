@@ -1,1 +1,15 @@
-{"title": "solanales", "lastmod": "2025-2-10"}
+{
+    "title": "solanales",
+    "lastmod": "2025-2-10",
+    "intro": "The Solanales rank is an order of flowering plants, characterized by the presence of a characteristic five-lobed corolla and a two-celled anther with a long, narrow filament. This order includes a diverse range of families, such as the Solanaceae, which includes species like potatoes and tomatoes. Other notable families within the Solanales order are the Convolvulaceae, which includes morning glories, and the Polemoniaceae, which includes phlox and skylovers. The Solanales order also encompasses the families Nyctaginaceae, which includes four o'clocks, and the Hydroleaceae.",
+    "families": [
+        {
+            "family_slug": "convolvulaceae",
+            "family_desc": "Convolvulaceae is a family of flowering plants that includes morning glories, sweet potatoes, and bindweeds."
+        },
+        {
+            "family_slug": "solanaceae",
+            "family_desc": "Solanaceae is a family of flowering plants commonly known as the nightshade family, which includes a diverse range of species such as tomatoes, peppers, potatoes, and eggplants."
+        }
+    ]
+}

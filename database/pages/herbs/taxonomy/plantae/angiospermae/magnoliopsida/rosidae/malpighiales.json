@@ -1,1 +1,83 @@
-{"title": "malpighiales", "lastmod": "2025-2-10"}
+{
+    "title": "malpighiales",
+    "lastmod": "2025-2-10",
+    "intro": "The Malpighiales rank is an order of flowering plants that includes a diverse array of species, characterized by their complex flowers and varied growth habits. This order encompasses over 16,000 species, spread across more than 1,000 genera, making it one of the most species-rich groups of flowering plants. Malpighiales includes families such as the Orchidaceae, known for their unique and often showy flowers, the Euphorbiaceae, which includes species like the poinsettia and the rubber tree, and the Clusiaceae, which is often found in tropical and subtropical regions. The Malpighiales order is a significant component of many ecosystems, providing essential food and shelter for a wide range of animals.",
+    "families": [
+        {
+            "family_slug": "euphorbiaceae",
+            "family_desc": "Euphorbiaceae is a family of flowering plants commonly known as the spurge family, which includes a wide range of species, such as the poinsettia, rubber tree, and castor bean."
+        },
+        {
+            "family_slug": "hypericaceae",
+            "family_desc": "Hypericaceae is a family of flowering plants commonly known as St. John's Wort, characterized by their five-petaled flowers and opposite or whorled leaves."
+        },
+        {
+            "family_slug": "salicaceae",
+            "family_desc": "Salicaceae, commonly known as willow and poplar family, is a group of flowering plants that includes willows, poplars, and cottonwoods."
+        },
+        {
+            "family_slug": "malpighiaceae",
+            "family_desc": "Malpighiaceae is a family of flowering plants in the order Malpighiales, commonly known as the barberry family."
+        },
+        {
+            "family_slug": "begoniaceae",
+            "family_desc": "Begoniaceae is a family of flowering plants in the order Cucurbitales, commonly known as the begonia family."
+        },
+        {
+            "family_slug": "coriariaceae",
+            "family_desc": "Coriariaceae is a family of flowering plants commonly known as cashew families, characterized by their distinctive fruit and leaves."
+        },
+        {
+            "family_slug": "picrodendraceae",
+            "family_desc": "Picrodendraceae is a family of flowering plants commonly known as the croton or mangosteen family."
+        },
+        {
+            "family_slug": "podostemaceae",
+            "family_desc": "Podostemaceae is a family of aquatic, rootless plants that are commonly found in tropical and subtropical rivers and streams."
+        },
+        {
+            "family_slug": "chrysobalanaceae",
+            "family_desc": "Chrysobalanaceae is a family of flowering plants in the order Fabales, commonly known as the cocoa plum or family of copaiba trees."
+        },
+        {
+            "family_slug": "passifloraceae",
+            "family_desc": "Passifloraceae is a family of flowering plants commonly known as passionflower and granadilla plants."
+        },
+        {
+            "family_slug": "peraceae",
+            "family_desc": "Peraceae is a family of flowering plants in the order Sapindales, commonly known as the croton family."
+        },
+        {
+            "family_slug": "putranjivaceae",
+            "family_desc": "Putranjivaceae is a family of flowering plants in the order Malpighiales, comprising approximately 15 genera and 120 species primarily found in tropical Africa and Asia."
+        },
+        {
+            "family_slug": "lophiocarpaceae",
+            "family_desc": "Lophiocarpaceae is a small family of flowering plants in the order Caryophyllales, native to South America."
+        },
+        {
+            "family_slug": "humiriaceae",
+            "family_desc": "Humiriaceae is a family of flowering plants in the order Malpighiales, commonly known as the sabiaceae or saubertia family."
+        },
+        {
+            "family_slug": "petiveriaceae",
+            "family_desc": "Petiveriaceae is a family of flowering plants in the order Malpighiales, commonly known as the tachigali family."
+        },
+        {
+            "family_slug": "phytolaccaceae",
+            "family_desc": "Phytolaccaceae is a family of flowering plants commonly known as pokeweed or wild potato."
+        },
+        {
+            "family_slug": "atherospermataceae",
+            "family_desc": "Atherospermataceae is a family of flowering plants in the order Laurales, native to the subtropical and tropical regions of the Pacific and Indian Oceans."
+        },
+        {
+            "family_slug": "opiliaceae",
+            "family_desc": "Opiliaceae is a family of flowering plants in the order Santalales, commonly known as the ashot tree or dragon tree family."
+        },
+        {
+            "family_slug": "trigoniaceae",
+            "family_desc": "Trigoniaceae is a family of flowering plants in the order Malpighiales, commonly known as the spiny caltrop or horse's spurry family."
+        }
+    ]
+}

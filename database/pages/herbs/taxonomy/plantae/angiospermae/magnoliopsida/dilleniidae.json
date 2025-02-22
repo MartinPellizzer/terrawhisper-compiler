@@ -1,1 +1,63 @@
-{"title": "dilleniidae", "lastmod": "2025-2-10"}
+{
+    "title": "dilleniidae",
+    "lastmod": "2025-2-10",
+    "intro": "The rank Dilleniidae refers to a subgroup within the class of flowering plants, specifically a superorder that comprises several orders of flowering plants. It is a taxonomic rank that groups plants with similar characteristics and evolutionary relationships. Examples of orders within the Dilleniidae superorder include Asparagales, Malpighiales, and Poales, which are all distinct groups of flowering plants with unique characteristics and features. The Dilleniidae superorder is a key part of the plant kingdom's taxonomic classification, helping to organize and understand the diversity of flowering plant species.",
+    "orders": [
+        {
+            "order_slug": "theales",
+            "order_desc": "Theales is an order within the subclass Dilleniidae, class Magnoliopsida, subclass Rosidae, division Magnoliophyta, kingdom Plantae."
+        },
+        {
+            "order_slug": "plumbaginales",
+            "order_desc": "Plumbaginales is an order of flowering plants in the family Plumbaginaceae, within the clade Asterids of the class Magnoliopsida."
+        },
+        {
+            "order_slug": "ericales",
+            "order_desc": "Ericales is a large order of flowering plants that belongs to the class Magnoliopsida, subclass Asteridae, clade Angiosperms, and kingdom Plantae."
+        },
+        {
+            "order_slug": "dilleniales",
+            "order_desc": "Dilleniales is an order of flowering plants that belongs to the class Magnoliopsida, subclass Dilleniidae, and division Magnoliophyta."
+        },
+        {
+            "order_slug": "myrtales",
+            "order_desc": "Myrtales is a botanical order within the class Magnoliopsida, subclass Rosidae, and clade Rosidae in the kingdom Plantae."
+        },
+        {
+            "order_slug": "caprifoliales",
+            "order_desc": "Caprifoliales is an order of flowering plants classified within the clade Asterids in the kingdom Plantae."
+        },
+        {
+            "order_slug": "ebenales",
+            "order_desc": "Ebenales is an order of flowering plants in the subclass Dilleniidae of the class Magnoliopsida, which is a subclass of the dicotyledonous plants."
+        },
+        {
+            "order_slug": "malvales",
+            "order_desc": "Malvales is an order of flowering plants that includes hibiscus, hawthorn, and mallow species, characterized by five-petaled flowers and often showy fruit."
+        },
+        {
+            "order_slug": "cucurbitales",
+            "order_desc": "Cucurbitales is an order of flowering plants in the class Magnoliopsida, subclass Rosidae, division Magnoliophyta, and kingdom Plantae."
+        },
+        {
+            "order_slug": "papaverales",
+            "order_desc": "Papaverales is an order of flowering plants within the subclass Magnoliidae of the class Magnoliopsida."
+        },
+        {
+            "order_slug": "brassicales",
+            "order_desc": "Brassicales is an order of flowering plants in the clade rosidae, which is part of the class magnoliopsida."
+        },
+        {
+            "order_slug": "sarcolaenales",
+            "order_desc": "Sarcolaenales is an order of flowering plants in the subclass Dilleniidae of the class Magnoliopsida in the division Magnoliophyta."
+        },
+        {
+            "order_slug": "urticales",
+            "order_desc": "Urticales is an order of flowering plants in the clade asterids, belonging to the family Rosidae."
+        },
+        {
+            "order_slug": "berberidopsidales",
+            "order_desc": "Berberidopsidales is an order of flowering plants in the clade Asterids, belonging to the class Magnoliopsida, within the division Magnoliophyta, and kingdom Plantae."
+        }
+    ]
+}

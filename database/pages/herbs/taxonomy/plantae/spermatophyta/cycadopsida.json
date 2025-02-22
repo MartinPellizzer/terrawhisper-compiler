@@ -1,1 +1,11 @@
-{"title": "cycadopsida", "lastmod": "2025-2-10"}
+{
+    "title": "cycadopsida",
+    "lastmod": "2025-2-10",
+    "intro": "Cycadopsida is a division of plants that belongs to the class Cycadopsida, characterized by being seed-producing, vascular plants with a long history dating back to the Mesozoic Era. They are often mistaken for palms due to their palm-like appearance, but they are actually more closely related to conifers. The division Cycadopsida includes several families such as the Stangeriaceae and the Cycadaceae, which are widely distributed across the world, especially in tropical and subtropical regions. Examples of other divisions of flowering plants include Commelinidae, which includes the spiderwort and dayflower families, Rosidae, which comprises a vast array of flowering plants such as roses and apples, and Asteridae, which includes families like the mint and lavender.",
+    "subclasses": [
+        {
+            "subclass_slug": "cycadidae",
+            "subclass_desc": "Cycadidae, a subclass of the class Cycadopsida, encompasses a group of ancient, palm-like seed-producing plants with cone-like reproductive structures and pinnate or palmate leaves."
+        }
+    ]
+}
